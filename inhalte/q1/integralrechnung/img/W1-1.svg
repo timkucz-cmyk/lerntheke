@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320" role="img" aria-label="Fläche zwischen der Parabel f(x) gleich 4 minus x Quadrat und der Geraden g(x) gleich x plus 2 zwischen den Schnittstellen minus 2 und 1">
+  <rect width="400" height="320" fill="#ffffff"/>
+  <polygon points="76,250 107,180 138,130 169,100 200,90 231,100 262,130" fill="#B61E33" fill-opacity="0.22" stroke="none"/>
+  <g stroke="#444" stroke-width="1.2" fill="none">
+    <line x1="40" y1="250" x2="370" y2="250"/>
+    <line x1="200" y1="300" x2="200" y2="30"/>
+  </g>
+  <polyline points="57,306 76,250 107,180 138,130 169,100 200,90 231,100 262,130 293,180 324,250 343,306" fill="none" stroke="#B61E33" stroke-width="2.4"/>
+  <line x1="57" y1="262" x2="343" y2="78" stroke="#2E75B6" stroke-width="2.4"/>
+  <g fill="#222">
+    <circle cx="76" cy="250" r="3.5"/>
+    <circle cx="262" cy="130" r="3.5"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#222">
+    <text x="352" y="268">x</text>
+    <text x="180" y="40">y</text>
+    <text x="66" y="268">−2</text>
+    <text x="258" y="268">1</text>
+    <text x="206" y="94">4</text>
+    <text x="96" y="86" fill="#B61E33">f(x) = 4 − x²</text>
+    <text x="286" y="66" fill="#2E75B6">g(x) = x + 2</text>
+    <text x="150" y="170">A = 4,5 FE</text>
+  </g>
+</svg>

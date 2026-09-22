@@ -1,0 +1,45 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 738 >>
+stream
+BT /F1 18 Tf 57 780 Td (P2  Stammfunktionen und Hauptsatz) Tj ET
+BT /F2 11 Tf 57 727 Td (Platzhalter-Arbeitsblatt fuer die Lerntheke-App.) Tj ET
+BT /F2 11 Tf 57 709 Td (Die echten Aufgaben liefert die Lehrkraft; diese Datei dient nur zum Testen.) Tj ET
+BT /F2 11 Tf 57 673 Td (Aufgabe 1 \(3 P, AFB I\)) Tj ET
+BT /F2 11 Tf 57 655 Td (Gib je eine Stammfunktion an: f\(x\) = x^3 - 4x,  g\(x\) = e^\(2x\),  h\(x\) = sin\(x\).) Tj ET
+BT /F2 11 Tf 57 619 Td (Aufgabe 2 \(3 P, AFB II\)) Tj ET
+BT /F2 11 Tf 57 601 Td (Berechne das bestimmte Integral von 1 bis 3 ueber x^3 - 4x.) Tj ET
+BT /F2 11 Tf 57 565 Td (Aufgabe 3 \(2 P, AFB II\)) Tj ET
+BT /F2 11 Tf 57 547 Td (Bestimme a > 0 so, dass das Integral von 0 bis a ueber 2x den Wert 9 hat.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000001046 00000 n 
+0000001148 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1245
+%%EOF

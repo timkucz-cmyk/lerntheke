@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "titel": "Integralrechnung – Trainingswoche",
+  "fach": "mathe",
+  "anrede": "sie",
+  "hinweis": "Beispielinhalt zum Testen der App. Die echten Aufgaben und PDFs werden später eingesetzt.",
+  "checkliste": [
+    {
+      "id": "c1",
+      "text": "Flächeninhalte mit Ober- und Untersumme abschätzen"
+    },
+    {
+      "id": "c2",
+      "text": "Stammfunktionen von Potenz-, Exponential- und trigonometrischen Funktionen bilden"
+    },
+    {
+      "id": "c3",
+      "text": "Bestimmte Integrale mit dem Hauptsatz berechnen"
+    },
+    {
+      "id": "c4",
+      "text": "Flächen zwischen Graph und x-Achse sowie zwischen zwei Graphen bestimmen"
+    },
+    {
+      "id": "c5",
+      "text": "Integrale im Sachkontext deuten (Rekonstruktion von Beständen)"
+    }
+  ],
+  "stationen": [
+    {
+      "id": "P1",
+      "titel": "Flächen unter Graphen – Ober- und Untersumme",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "GTR",
+      "checkliste": [
+        "c1"
+      ],
+      "pdf": "pdf/P1_Flaechen_unter_Graphen.pdf",
+      "aufgaben": [
+        {
+          "id": "P1-1",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Für $f(x)=x^2$ auf $[0;2]$ mit $n=4$ Streifen ist die Streifenbreite $\\Delta x = \\frac{2-0}{4} = 0{,}5$.\n\n**Untersumme** (linker Randwert, da $f$ hier monoton steigt):\n\n$$U_4 = 0{,}5\\cdot\\left(f(0)+f(0{,}5)+f(1)+f(1{,}5)\\right) = 0{,}5\\cdot(0+0{,}25+1+2{,}25) = 1{,}75$$\n\n**Obersumme** (rechter Randwert):\n\n$$O_4 = 0{,}5\\cdot\\left(f(0{,}5)+f(1)+f(1{,}5)+f(2)\\right) = 0{,}5\\cdot(0{,}25+1+2{,}25+4) = 3{,}75$$\n\nDamit gilt $1{,}75 \\le A \\le 3{,}75$."
+        },
+        {
+          "id": "P1-2",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Mit wachsendem $n$ wird die Streifenbreite kleiner, Ober- und Untersumme nähern sich an:\n\n| $n$ | $U_n$ | $O_n$ | $O_n-U_n$ |\n| --- | --- | --- | --- |\n| 4 | 1,750 | 3,750 | 2,000 |\n| 8 | 2,188 | 3,188 | 1,000 |\n| 100 | 2,646 | 2,707 | 0,080 |\n\nDie Differenz beträgt $O_n-U_n = \\frac{b-a}{n}\\cdot\\left(f(b)-f(a)\\right)$ und geht für $n\\to\\infty$ gegen null. Beide Summen streben gegen den exakten Flächeninhalt\n\n$$A = \\int_0^2 x^2\\,\\mathrm{d}x = \\frac{8}{3} \\approx 2{,}67.$$",
+          "loesung_bild": "img/P1-2.svg"
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "titel": "Stammfunktionen und Hauptsatz",
+      "typ": "pflicht",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c2",
+        "c3"
+      ],
+      "pdf": "pdf/P2_Stammfunktionen_Hauptsatz.pdf",
+      "aufgaben": [
+        {
+          "id": "P2-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Stammfunktionen (jeweils $+\\,C$):\n\n- $f(x)=x^3-4x \\;\\Rightarrow\\; F(x)=\\frac{1}{4}x^4-2x^2$\n- $g(x)=\\mathrm{e}^{2x} \\;\\Rightarrow\\; G(x)=\\frac{1}{2}\\mathrm{e}^{2x}$\n- $h(x)=\\sin(x) \\;\\Rightarrow\\; H(x)=-\\cos(x)$\n\nProbe jeweils durch Ableiten."
+        },
+        {
+          "id": "P2-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Hauptsatz der Differential- und Integralrechnung:\n\n$$\\int_1^3 (x^3-4x)\\,\\mathrm{d}x = \\left[\\frac{1}{4}x^4-2x^2\\right]_1^3 = \\left(\\frac{81}{4}-18\\right)-\\left(\\frac{1}{4}-2\\right) = \\frac{9}{4}+\\frac{7}{4} = 4$$\n\nDas Ergebnis ist der **orientierte** Flächeninhalt: Anteile unterhalb der $x$-Achse zählen negativ."
+        },
+        {
+          "id": "P2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Aus $\\int_0^a 2x\\,\\mathrm{d}x = 9$ folgt $\\left[x^2\\right]_0^a = a^2 = 9$, also $a=3$ (nur die positive Lösung liegt im Sachzusammenhang)."
+        }
+      ]
+    },
+    {
+      "id": "T1",
+      "titel": "Stammfunktionen im Tandem",
+      "typ": "pflicht",
+      "sozialform": "tandem",
+      "dauer_min": 20,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c2",
+        "c3"
+      ],
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "T1-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Gib eine Stammfunktion von $f(x) = 6x^2 - 4x$ an und mache die Probe.",
+          "tipp": "Exponent um 1 erhöhen, dann durch den neuen Exponenten teilen.",
+          "loesung": "$$F(x) = 2x^3 - 2x^2 + C$$\n\nProbe: $F'(x) = 6x^2 - 4x = f(x)$. ✔"
+        },
+        {
+          "id": "T1-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Gib eine Stammfunktion von $g(x) = 4\\mathrm{e}^{2x}$ an.",
+          "tipp": "Bei $\\mathrm{e}^{kx}$ kommt beim Integrieren der Faktor $\\frac{1}{k}$ dazu.",
+          "loesung": "$$G(x) = 2\\mathrm{e}^{2x} + C$$\n\nProbe: $G'(x) = 2 \\cdot 2\\mathrm{e}^{2x} = 4\\mathrm{e}^{2x}$. ✔"
+        },
+        {
+          "id": "T1-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 3,
+          "afb": "II",
+          "aufgabe": "Berechne $\\int_0^2 \\left(3x^2 - 2x\\right)\\mathrm{d}x$.",
+          "tipp": "Erst die Stammfunktion bilden, dann obere minus untere Grenze einsetzen.",
+          "loesung": "$$\\int_0^2 \\left(3x^2-2x\\right)\\mathrm{d}x = \\left[x^3 - x^2\\right]_0^2 = (8-4) - 0 = 4$$"
+        },
+        {
+          "id": "T1-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 3,
+          "afb": "II",
+          "aufgabe": "Berechne $\\int_{-1}^{1} \\left(x^3 + 1\\right)\\mathrm{d}x$.",
+          "tipp": "Beide Grenzen sorgfältig einsetzen – bei der unteren Grenze auf die Vorzeichen achten.",
+          "loesung": "$$\\int_{-1}^{1}\\left(x^3+1\\right)\\mathrm{d}x = \\left[\\frac{x^4}{4} + x\\right]_{-1}^{1} = \\left(\\frac{1}{4}+1\\right) - \\left(\\frac{1}{4}-1\\right) = 2$$"
+        },
+        {
+          "id": "T1-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 3,
+          "afb": "III",
+          "aufgabe": "Bestimme $a > 0$ so, dass $\\int_0^a 3x^2\\,\\mathrm{d}x = 8$ gilt.",
+          "tipp": "Rechne das Integral mit der Grenze $a$ aus – es bleibt eine Gleichung mit $a^3$.",
+          "loesung": "$$\\int_0^a 3x^2\\,\\mathrm{d}x = \\left[x^3\\right]_0^a = a^3$$\n\nAus $a^3 = 8$ folgt $a = 2$."
+        },
+        {
+          "id": "T1-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 3,
+          "afb": "III",
+          "aufgabe": "Erkläre, warum $\\int_{-1}^{1} x^3\\,\\mathrm{d}x = 0$ ist, obwohl zwischen Graph und $x$-Achse eine Fläche liegt.",
+          "tipp": "Was passiert mit dem Vorzeichen, wenn der Graph unterhalb der $x$-Achse verläuft?",
+          "loesung": "Das Integral misst den **orientierten** Flächeninhalt. Auf $[-1;0]$ verläuft der Graph unterhalb der $x$-Achse, der Beitrag zählt negativ; auf $[0;1]$ ist er genauso groß, aber positiv:\n\n$$\\int_{-1}^{0} x^3\\,\\mathrm{d}x = -\\frac{1}{4}, \\qquad \\int_{0}^{1} x^3\\,\\mathrm{d}x = \\frac{1}{4}$$\n\nBeide Anteile heben sich auf. Der Flächeninhalt beträgt dagegen $\\frac{1}{2}$ FE."
+        }
+      ]
+    },
+    {
+      "id": "W1",
+      "titel": "Fläche zwischen zwei Graphen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "GTR",
+      "checkliste": [
+        "c4"
+      ],
+      "pdf": "pdf/W1_Flaeche_zwischen_zwei_Graphen.pdf",
+      "aufgaben": [
+        {
+          "id": "W1-1",
+          "label": "1",
+          "punkte": 4,
+          "afb": "II",
+          "loesung": "Schnittstellen von $f(x)=4-x^2$ und $g(x)=x+2$:\n\n$$4-x^2 = x+2 \\iff x^2+x-2=0 \\iff x_1=-2,\\; x_2=1$$\n\nAuf $[-2;1]$ liegt $f$ oberhalb von $g$:\n\n$$A = \\int_{-2}^{1}\\left(f(x)-g(x)\\right)\\mathrm{d}x = \\int_{-2}^{1}\\left(2-x-x^2\\right)\\mathrm{d}x = \\left[2x-\\frac{x^2}{2}-\\frac{x^3}{3}\\right]_{-2}^{1} = \\frac{7}{6}-\\left(-\\frac{10}{3}\\right) = \\frac{9}{2}$$\n\nDie Fläche beträgt $A = 4{,}5$ FE.",
+          "loesung_bild": "img/W1-1.svg"
+        },
+        {
+          "id": "W1-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Schneiden sich die Graphen **innerhalb** des Intervalls, wechselt das Vorzeichen von $f-g$. Ein einziges Integral über das gesamte Intervall würde die Teilflächen gegeneinander aufrechnen.\n\nRichtig ist die Zerlegung an den Schnittstellen:\n\n$$A = \\sum_i \\left|\\int_{x_i}^{x_{i+1}} \\left(f(x)-g(x)\\right)\\mathrm{d}x\\right|$$\n\nAlternativ integriert man $|f-g|$ und bestimmt das Vorzeichen in jedem Teilintervall über einen Testpunkt."
+        }
+      ]
+    },
+    {
+      "id": "W2",
+      "titel": "Bestände rekonstruieren – Sachkontext",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 25,
+      "hilfsmittel": "GTR",
+      "checkliste": [
+        "c5"
+      ],
+      "pdf": "pdf/W2_Bestaende_rekonstruieren.pdf",
+      "aufgaben": [
+        {
+          "id": "W2-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Die Zuflussrate $z(t)$ wird in $\\frac{\\mathrm{m}^3}{\\mathrm{h}}$ gemessen, $t$ in Stunden. Das Integral hat daher die Einheit\n\n$$\\left[\\int_0^6 z(t)\\,\\mathrm{d}t\\right] = \\frac{\\mathrm{m}^3}{\\mathrm{h}}\\cdot \\mathrm{h} = \\mathrm{m}^3.$$\n\nEs beschreibt die in den ersten 6 Stunden **insgesamt zugeflossene Wassermenge**, nicht die Zuflussgeschwindigkeit."
+        },
+        {
+          "id": "W2-2",
+          "label": "2",
+          "punkte": 4,
+          "afb": "III",
+          "loesung": "Bestand $=$ Anfangsbestand $+$ Bilanz aus Zufluss und Abfluss:\n\n$$B(6) = B(0) + \\int_0^6 \\left(z(t)-a(t)\\right)\\mathrm{d}t = 120\\,\\mathrm{m}^3 + 54\\,\\mathrm{m}^3 = 174\\,\\mathrm{m}^3$$\n\nDas Maximum liegt dort, wo die Bilanzrate das Vorzeichen von $+$ nach $-$ wechselt, also bei $z(t)=a(t)$. Vor diesem Zeitpunkt wächst der Bestand, danach fällt er."
+        }
+      ]
+    }
+  ]
+}

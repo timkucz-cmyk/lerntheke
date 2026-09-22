@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "titel": "Stromkreise – Trainingsstunde",
+  "fach": "physik",
+  "anrede": "du",
+  "hinweis": "Beispielinhalt zum Testen der App.",
+  "checkliste": [
+    { "id": "c1", "text": "Stromstärke, Spannung und Widerstand voneinander unterscheiden" },
+    { "id": "c2", "text": "Das ohmsche Gesetz auf einfache Stromkreise anwenden" },
+    { "id": "c3", "text": "Reihen- und Parallelschaltung berechnen" }
+  ],
+  "stationen": [
+    {
+      "id": "P1",
+      "titel": "Ohmsches Gesetz",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": ["c1", "c2"],
+      "pdf": "pdf/P1_Ohmsches_Gesetz.pdf",
+      "aufgaben": [
+        {
+          "id": "P1-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Aus $U = R \\cdot I$ folgt\n\n$$I = \\frac{U}{R} = \\frac{12\\,\\mathrm{V}}{60\\,\\Omega} = 0{,}2\\,\\mathrm{A}.$$\n\nDurch die Lampe fließt ein Strom von $200\\,\\mathrm{mA}$."
+        },
+        {
+          "id": "P1-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Der Graph $U(I)$ ist für einen ohmschen Widerstand eine **Ursprungsgerade**. Ihre Steigung ist der Widerstand:\n\n$$R = \\frac{\\Delta U}{\\Delta I} = \\frac{6{,}0\\,\\mathrm{V} - 0\\,\\mathrm{V}}{0{,}25\\,\\mathrm{A} - 0\\,\\mathrm{A}} = 24\\,\\Omega$$\n\nBei der Glühlampe ist die Kennlinie gekrümmt, weil der Widerstand mit steigender Temperatur zunimmt."
+        }
+      ]
+    },
+    {
+      "id": "W1",
+      "titel": "Reihen- und Parallelschaltung",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": ["c3"],
+      "pdf": "pdf/W1_Reihe_und_Parallel.pdf",
+      "aufgaben": [
+        {
+          "id": "W1-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "**Reihenschaltung:** Die Stromstärke ist überall gleich, die Spannungen addieren sich:\n\n$$R_\\mathrm{ges} = R_1 + R_2 = 100\\,\\Omega + 200\\,\\Omega = 300\\,\\Omega$$\n\n**Parallelschaltung:** Die Spannung ist überall gleich, die Stromstärken addieren sich:\n\n$$\\frac{1}{R_\\mathrm{ges}} = \\frac{1}{100\\,\\Omega} + \\frac{1}{200\\,\\Omega} \\;\\Rightarrow\\; R_\\mathrm{ges} \\approx 66{,}7\\,\\Omega$$"
+        },
+        {
+          "id": "W1-2",
+          "label": "2",
+          "punkte": 4,
+          "afb": "III",
+          "loesung": "In der Reihenschaltung teilt sich die Spannung im Verhältnis der Widerstände auf:\n\n$$\\frac{U_1}{U_2} = \\frac{R_1}{R_2}$$\n\nMit $U = 9\\,\\mathrm{V}$, $R_1 = 100\\,\\Omega$ und $R_2 = 200\\,\\Omega$ ergibt sich $U_1 = 3\\,\\mathrm{V}$ und $U_2 = 6\\,\\mathrm{V}$.\n\nFällt eine Lampe in der Reihenschaltung aus, ist der Stromkreis unterbrochen und beide Lampen bleiben dunkel. In der Parallelschaltung leuchtet die andere Lampe unverändert weiter."
+        }
+      ]
+    }
+  ]
+}

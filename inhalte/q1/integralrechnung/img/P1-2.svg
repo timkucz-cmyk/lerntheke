@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Ober- und Untersumme mit vier Streifen unter der Parabel f(x) gleich x hoch 2 über dem Intervall 0 bis 2">
+  <rect width="400" height="300" fill="#ffffff"/>
+  <g fill="#B61E33" fill-opacity="0.18" stroke="#B61E33" stroke-opacity="0.45">
+    <rect x="40" y="246.25" width="75" height="13.75"/>
+    <rect x="115" y="205" width="75" height="55"/>
+    <rect x="190" y="136.25" width="75" height="123.75"/>
+    <rect x="265" y="40" width="75" height="220"/>
+  </g>
+  <g fill="#B61E33" fill-opacity="0.35" stroke="#B61E33" stroke-opacity="0.7">
+    <rect x="115" y="246.25" width="75" height="13.75"/>
+    <rect x="190" y="205" width="75" height="55"/>
+    <rect x="265" y="136.25" width="75" height="123.75"/>
+  </g>
+  <g stroke="#444" stroke-width="1.2" fill="none">
+    <line x1="30" y1="260" x2="380" y2="260"/>
+    <line x1="40" y1="285" x2="40" y2="25"/>
+  </g>
+  <polyline points="40,260 70,257.8 100,251.2 130,240.2 160,224.8 190,205 220,180.8 250,152.2 280,119.2 310,81.8 340,40" fill="none" stroke="#B61E33" stroke-width="2.4"/>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#222">
+    <text x="345" y="278">x</text>
+    <text x="16" y="34">y</text>
+    <text x="36" y="278">0</text>
+    <text x="186" y="278">1</text>
+    <text x="336" y="278">2</text>
+    <text x="22" y="45">4</text>
+    <text x="22" y="210">1</text>
+    <text x="250" y="32" fill="#B61E33">f(x) = x²</text>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#222">
+    <rect x="46" y="46" width="14" height="10" fill="#B61E33" fill-opacity="0.35" stroke="#B61E33"/>
+    <text x="66" y="56">Untersumme U₄ = 1,75</text>
+    <rect x="46" y="66" width="14" height="10" fill="#B61E33" fill-opacity="0.18" stroke="#B61E33" stroke-opacity="0.5"/>
+    <text x="66" y="76">Obersumme O₄ = 3,75</text>
+  </g>
+</svg>

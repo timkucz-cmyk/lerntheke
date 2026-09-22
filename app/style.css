@@ -1,0 +1,329 @@
+/* Lerntheke – Stylesheet
+   Mobile first (iPad/Smartphone), Touch-Ziele >= 44 px, Hell/Dunkel über prefers-color-scheme.
+   Fachfarbe kommt über das Attribut data-fach am <html>-Element. */
+
+/* ---------- Tokens ---------- */
+:root {
+  --fach: #4a5568;
+  --fach-kontrast: #ffffff;
+  --grund: #f6f7f9;
+  --flaeche: #ffffff;
+  --flaeche-2: #eef0f4;
+  --text: #16191f;
+  --text-leise: #5a6472;
+  --linie: #d5d9e0;
+  --ok: #1b7f3b;
+  --warn: #9a5b00;
+  --radius: 14px;
+  --schatten: 0 1px 2px rgba(16, 20, 28, .07), 0 4px 14px rgba(16, 20, 28, .05);
+  --tap: 44px;
+  --breite: 46rem;
+}
+
+html[data-fach="mathe"]  { --fach: #B61E33; }
+html[data-fach="physik"] { --fach: #2E75B6; }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fach: #9aa5b4;
+    --grund: #14161a;
+    --flaeche: #1c1f26;
+    --flaeche-2: #252932;
+    --text: #e9ecf1;
+    --text-leise: #a8b1be;
+    --linie: #363c47;
+    --ok: #57c27f;
+    --warn: #e6a94b;
+    --schatten: none;
+  }
+  html[data-fach="mathe"]  { --fach: #F1697E; }
+  html[data-fach="physik"] { --fach: #74B1E8; }
+}
+
+/* ---------- Grundgerüst ---------- */
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--grund);
+  color: var(--text);
+  font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+h1, h2, h3 { line-height: 1.25; margin: 0 0 .5em; }
+h1 { font-size: 1.5rem; }
+h2 { font-size: 1.2rem; }
+h3 { font-size: 1.02rem; }
+p  { margin: 0 0 .8em; }
+a  { color: var(--fach); }
+
+.skiplink {
+  position: absolute; left: -9999px; top: 0; z-index: 10;
+  background: var(--flaeche); color: var(--text); padding: .8rem 1rem;
+}
+.skiplink:focus { left: 0; }
+
+.kopf {
+  position: sticky; top: 0; z-index: 5;
+  background: var(--fach); color: #fff;
+  padding: env(safe-area-inset-top) 0 0;
+}
+.kopf-innen {
+  max-width: var(--breite); margin: 0 auto;
+  padding: .6rem 1rem; display: flex; flex-wrap: wrap; gap: .2rem 1rem;
+  align-items: baseline; justify-content: space-between;
+}
+.kopf-titel {
+  color: #fff; text-decoration: none; font-weight: 700; letter-spacing: .01em;
+  min-height: var(--tap); display: inline-flex; align-items: center;
+}
+.kopf-nav { font-size: .92rem; opacity: .95; }
+.kopf-nav a { color: #fff; }
+
+main {
+  max-width: var(--breite); margin: 0 auto; padding: 1rem 1rem 3rem;
+  outline: none;
+}
+
+.fuss {
+  max-width: var(--breite); margin: 0 auto; padding: 0 1rem 2rem;
+  color: var(--text-leise); font-size: .82rem;
+}
+
+.laden { color: var(--text-leise); }
+
+/* ---------- Karten & Listen ---------- */
+.karte {
+  background: var(--flaeche); border: 1px solid var(--linie);
+  border-radius: var(--radius); box-shadow: var(--schatten);
+  padding: 1rem; margin: 0 0 .9rem;
+}
+.karte > :last-child { margin-bottom: 0; }
+.karte-kopf { display: flex; gap: .6rem; align-items: flex-start; justify-content: space-between; }
+.karte-kopf h2, .karte-kopf h3 { margin-bottom: .25rem; }
+
+.karte-link {
+  display: block; text-decoration: none; color: inherit;
+}
+.karte-link:hover { border-color: var(--fach); }
+.karte-link:focus-visible { outline: 3px solid var(--fach); outline-offset: 2px; }
+
+.meta { color: var(--text-leise); font-size: .88rem; margin: 0; }
+.meta span + span::before { content: " · "; }
+
+.liste-blank { list-style: none; margin: 0; padding: 0; }
+
+/* ---------- Chips ---------- */
+.chip {
+  display: inline-block; padding: .18em .6em; border-radius: 999px;
+  font-size: .78rem; font-weight: 600; white-space: nowrap;
+  background: var(--flaeche-2); color: var(--text-leise);
+  border: 1px solid var(--linie);
+}
+.chip-fach   { background: var(--fach); color: #fff; border-color: transparent; }
+.chip-empf   { background: var(--fach); color: #fff; border-color: transparent; }
+.chip-fertig { color: var(--ok); border-color: currentColor; background: transparent; }
+.chip-begonnen { color: var(--warn); border-color: currentColor; background: transparent; }
+
+/* ---------- Buttons ---------- */
+.btn {
+  -webkit-appearance: none; appearance: none;
+  display: inline-flex; align-items: center; justify-content: center; gap: .4em;
+  min-height: var(--tap); padding: .55rem 1rem;
+  border-radius: 10px; border: 1px solid var(--linie);
+  background: var(--flaeche); color: var(--text);
+  font: inherit; font-weight: 600; text-decoration: none;
+  cursor: pointer;
+}
+.btn:hover { border-color: var(--fach); }
+.btn:focus-visible { outline: 3px solid var(--fach); outline-offset: 2px; }
+.btn[disabled] { opacity: .5; cursor: not-allowed; }
+.btn-primaer { background: var(--fach); border-color: transparent; color: #fff; }
+.btn-schlicht { background: transparent; border-color: transparent; color: var(--fach); }
+.btn-klein { min-height: 38px; padding: .3rem .7rem; font-size: .9rem; }
+.btn-reihe { display: flex; flex-wrap: wrap; gap: .5rem; margin: .8rem 0 0; }
+
+/* ---------- Smileys ---------- */
+.smiley-gruppe { border: 0; margin: .6rem 0 0; padding: 0; }
+.smiley-gruppe legend { padding: 0; font-weight: 600; font-size: .95rem; margin-bottom: .4rem; }
+.smiley-reihe { display: flex; flex-wrap: wrap; gap: .5rem; }
+.smiley {
+  flex: 1 1 8rem; position: relative;
+  display: flex; align-items: center; gap: .5rem;
+  min-height: var(--tap); padding: .45rem .7rem;
+  border: 1px solid var(--linie); border-radius: 10px;
+  background: var(--flaeche); cursor: pointer;
+}
+.smiley input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.smiley .zeichen { font-size: 1.4rem; line-height: 1; }
+.smiley .wort { font-size: .92rem; }
+.smiley:has(input:checked) { border-color: var(--fach); background: color-mix(in srgb, var(--fach) 12%, var(--flaeche)); box-shadow: inset 0 0 0 1px var(--fach); }
+.smiley:has(input:focus-visible) { outline: 3px solid var(--fach); outline-offset: 2px; }
+.smiley:has(input:disabled) { cursor: default; opacity: .9; }
+.smiley-fest { border-style: dashed; }
+
+/* ---------- Punkte-Stepper ---------- */
+.stepper { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+.stepper .btn { min-width: var(--tap); font-size: 1.25rem; }
+.stepper input {
+  width: 5rem; min-height: var(--tap); text-align: center;
+  font: inherit; font-weight: 700;
+  border: 1px solid var(--linie); border-radius: 10px;
+  background: var(--flaeche); color: var(--text);
+}
+.stepper input:focus-visible { outline: 3px solid var(--fach); outline-offset: 1px; }
+.stepper .max { color: var(--text-leise); }
+
+/* ---------- Fortschritt / Balken ---------- */
+.balken {
+  height: 10px; border-radius: 999px; background: var(--flaeche-2);
+  overflow: hidden; border: 1px solid var(--linie);
+}
+.balken > i { display: block; height: 100%; background: var(--fach); }
+.balken-zeile { display: grid; grid-template-columns: 5.5rem 1fr auto; gap: .6rem; align-items: center; margin: .35rem 0; }
+.balken-zeile .wert { font-variant-numeric: tabular-nums; font-size: .9rem; color: var(--text-leise); }
+
+/* ---------- Lösung ---------- */
+.loesung {
+  margin-top: .8rem; padding: .9rem 1rem;
+  background: var(--flaeche-2); border-radius: 10px;
+  border-left: 4px solid var(--fach);
+  overflow-x: auto;
+}
+.loesung > :last-child { margin-bottom: 0; }
+.loesung img { max-width: 100%; height: auto; background: #fff; border-radius: 8px; display: block; margin: .8rem 0; }
+.loesung table { border-collapse: collapse; margin: .6rem 0; font-size: .95rem; }
+.loesung th, .loesung td { border: 1px solid var(--linie); padding: .35rem .6rem; text-align: left; }
+.loesung code { background: var(--flaeche); padding: .1em .35em; border-radius: 5px; font-size: .92em; }
+.loesung ul, .loesung ol { margin: .4em 0 .8em; padding-left: 1.3em; }
+
+/* ---------- Mathe-Ersatzdarstellung (ohne KaTeX) ---------- */
+.mathe { font-family: Georgia, "Times New Roman", serif; white-space: nowrap; }
+.mathe-block { display: block; text-align: center; margin: .8em 0; overflow-x: auto; white-space: normal; }
+.mathe var, .mathe i { font-style: italic; }
+.m-frac { display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; margin: 0 .15em; line-height: 1.2; font-size: .96em; }
+.m-frac > span { display: block; padding: 0 .3em; }
+.m-frac > .m-zaehler { border-bottom: 1px solid currentColor; }
+.m-sqrt { display: inline-flex; align-items: flex-start; }
+.m-sqrt > .m-rad { border-top: 1px solid currentColor; padding: .1em .2em 0; margin-left: -.1em; }
+.m-sup { vertical-align: .5em; font-size: .78em; }
+.m-sub { vertical-align: -.35em; font-size: .78em; }
+.m-subsup { display: inline-flex; flex-direction: column; vertical-align: -.35em; font-size: .78em; line-height: 1.05; margin: 0 .05em; }
+.m-limits { display: inline-flex; flex-direction: column; align-items: center; vertical-align: middle; }
+.m-limits > .m-gross { font-size: 1.35em; line-height: 1; }
+.m-limits > .m-oben, .m-limits > .m-unten { font-size: .7em; }
+.m-op { font-size: 1.35em; line-height: 1; vertical-align: -.15em; }
+.m-txt { font-family: inherit; font-style: normal; }
+.m-fehler { color: var(--warn); font-family: monospace; font-size: .9em; }
+
+/* ---------- Aufgabenkarten ---------- */
+.aufgabe { border-left: 4px solid transparent; }
+.aufgabe.aktiv { border-left-color: var(--fach); }
+.aufgabe.fertig { border-left-color: var(--ok); }
+.aufgabe-kopf { display: flex; align-items: baseline; gap: .5rem; flex-wrap: wrap; }
+.aufgabe-kopf .nr { font-weight: 700; font-size: 1.05rem; }
+
+/* ---------- Tabellen (Auswertung) ---------- */
+.tab { width: 100%; border-collapse: collapse; font-size: .95rem; }
+.tab th, .tab td { border-bottom: 1px solid var(--linie); padding: .45rem .4rem; text-align: left; vertical-align: top; }
+.tab th { font-size: .82rem; text-transform: uppercase; letter-spacing: .03em; color: var(--text-leise); }
+.tab td.zahl, .tab th.zahl { text-align: right; font-variant-numeric: tabular-nums; }
+.tab-umbruch { overflow-x: auto; }
+
+.hinweis {
+  background: var(--flaeche-2); border-left: 4px solid var(--fach);
+  padding: .7rem .9rem; border-radius: 8px; margin: 0 0 .9rem;
+  font-size: .95rem;
+}
+.hinweis-warn { border-left-color: var(--warn); }
+
+.feld { display: block; margin: .6rem 0; }
+.feld > span { display: block; font-weight: 600; margin-bottom: .25rem; font-size: .95rem; }
+.feld input[type="text"] {
+  width: 100%; min-height: var(--tap); padding: .5rem .7rem; font: inherit;
+  border: 1px solid var(--linie); border-radius: 10px;
+  background: var(--flaeche); color: var(--text);
+}
+
+.trenner { border: 0; border-top: 1px solid var(--linie); margin: 1.6rem 0; }
+
+.meldung {
+  position: fixed; left: 50%; bottom: 1.2rem; transform: translateX(-50%);
+  background: var(--text); color: var(--grund);
+  padding: .6rem 1rem; border-radius: 999px; font-size: .92rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,.25); z-index: 20; max-width: 90vw;
+}
+
+/* ---------- Druck ---------- */
+@media print {
+  :root { --schatten: none; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  .kopf, .fuss, .btn, .btn-reihe, .skiplink, .meldung, .nicht-drucken { display: none !important; }
+  main { max-width: none; padding: 0; }
+  .karte { break-inside: avoid; border: 1px solid #999; box-shadow: none; }
+  .balken { border: 1px solid #999; }
+  .balken > i { background: #666; }
+  a { color: #000; text-decoration: none; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .karte, .btn { transition: border-color .12s ease-out, background-color .12s ease-out; }
+}
+
+/* Nachträge Mathe-Ersatzdarstellung */
+.m-ueber { border-top: 1px solid currentColor; }
+.m-delim { padding: 0 .04em; }
+.m-txt i, .m-txt var { font-style: normal; }
+
+/* ---------- Tandemstationen ---------- */
+.btn-gross { flex: 1 1 12rem; min-height: 56px; font-size: 1.05rem; }
+
+.takt { text-align: center; }
+.takt-nr {
+  font-size: 3.4rem; font-weight: 800; line-height: 1; margin: .1rem 0 .2rem;
+  color: var(--fach); font-variant-numeric: tabular-nums;
+}
+.takt-zeile { margin: 0 0 .3rem; }
+.takt-rolle {
+  margin-top: .8rem; display: flex; gap: .4rem; flex-wrap: wrap;
+  align-items: center; justify-content: center;
+}
+.takt-punkte {
+  list-style: none; display: flex; flex-wrap: wrap; gap: .4rem;
+  justify-content: center; padding: 0; margin: .8rem 0 0;
+}
+.takt-punkt button {
+  min-width: 40px; min-height: 40px; border-radius: 999px;
+  border: 1px solid var(--linie); background: var(--flaeche); color: var(--text-leise);
+  font: inherit; font-weight: 700; font-size: .9rem; cursor: pointer;
+}
+.takt-punkt.ist-partner button { border-style: dashed; }
+.takt-punkt.ist-fertig button { border-color: var(--ok); color: var(--ok); }
+.takt-punkt.ist-aktuell button { background: var(--fach); border-color: var(--fach); color: #fff; }
+.takt-punkt button:focus-visible { outline: 3px solid var(--fach); outline-offset: 2px; }
+
+.aufgabentext {
+  background: var(--flaeche-2); border-radius: 10px;
+  padding: .8rem 1rem; margin: .7rem 0 0;
+}
+.aufgabentext > :last-child { margin-bottom: 0; }
+
+.kontrollkarte { border-left: 4px dashed var(--fach); }
+.kontroll-btn.ist-aktiv { background: var(--fach); border-color: transparent; color: #fff; }
+.kontroll-punkte { font-weight: 400; font-size: .85em; opacity: .85; }
+
+details.tipp {
+  margin-top: .9rem; border: 1px solid var(--linie);
+  border-radius: 10px; background: var(--flaeche);
+}
+details.tipp > summary {
+  min-height: var(--tap); display: flex; align-items: center;
+  padding: .55rem 1rem; font-weight: 600; color: var(--fach);
+  cursor: pointer; border-radius: 10px;
+}
+details.tipp > summary:focus-visible { outline: 3px solid var(--fach); outline-offset: 2px; }
+.tipp-inhalt { padding: 0 1rem .8rem; }
+.tipp-inhalt > :last-child { margin-bottom: 0; }

@@ -1,0 +1,15 @@
+# Textdateien einheitlich mit LF speichern und auschecken – sonst laufen
+# Windows-Rechner und GitHub Pages bei jedem Commit auseinander.
+* text=auto eol=lf
+
+# Binärdateien nie umwandeln (CRLF würde PDFs und Schriften zerstören).
+*.pdf   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.zip   binary

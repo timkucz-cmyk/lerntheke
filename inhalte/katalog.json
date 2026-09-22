@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "stufen": [
+    {
+      "id": "9",
+      "name": "Klasse 9",
+      "themen": [
+        {
+          "id": "stromkreise",
+          "name": "Stromkreise – Training",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Stromstärke, Spannung, Widerstand in Reihen- und Parallelschaltung"
+        }
+      ]
+    },
+    {
+      "id": "q1",
+      "name": "Q1",
+      "themen": [
+        {
+          "id": "integralrechnung",
+          "name": "Integralrechnung – Training",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Ober-/Untersumme, Stammfunktionen, Hauptsatz, Flächen"
+        }
+      ]
+    }
+  ]
+}
