@@ -3,15 +3,15 @@
 
 import * as store from './store.js';
 import { markdown, esc, mathematikVorbereiten } from './render.js';
-import { symbol, sozialformSymbol } from './icons.js';
+import { symbol, sozialformSymbol, gesicht, skalaPunkt } from './icons.js';
 
 const BASIS = new URL('../', import.meta.url);
 const INHALTE = new URL('inhalte/', BASIS);
 
 const SMILEYS = [
-  { id: 'unsicher', zeichen: '😕', wort: 'unsicher' },
-  { id: 'teils', zeichen: '😐', wort: 'teils' },
-  { id: 'sicher', zeichen: '🙂', wort: 'sicher' }
+  { id: 'unsicher', wort: 'unsicher' },
+  { id: 'teils', wort: 'teils' },
+  { id: 'sicher', wort: 'sicher' }
 ];
 
 const TEXTE = {
@@ -258,16 +258,29 @@ function balkenZeile(beschriftung, erreicht, max) {
     '<span class="wert">' + pkt(erreicht) + ' / ' + pkt(max) + '</span></div>';
 }
 
+/**
+ * Dreistufige Skala: außen das unzufriedene (rot) und das lachende Gesicht (grün),
+ * in der Mitte ein Punkt. Die Wörter bleiben für Screenreader erhalten.
+ */
 function smileyGruppe(name, gewaehlt, frage, gesperrt) {
   const s = SMILEYS.map((sm) => {
     const id = name + '-' + sm.id;
-    return '<label class="smiley' + (gesperrt ? ' smiley-fest' : '') + '">' +
+    const marke = sm.id === 'teils' ? skalaPunkt() : gesicht(sm.id);
+    return '<label class="skala-stufe stufe-' + sm.id + (gesperrt ? ' ist-fest' : '') + '">' +
       '<input type="radio" name="' + esc(name) + '" id="' + esc(id) + '" value="' + sm.id + '"' +
       (gewaehlt === sm.id ? ' checked' : '') + (gesperrt ? ' disabled' : '') + '>' +
-      '<span class="zeichen" aria-hidden="true">' + sm.zeichen + '</span>' +
-      '<span class="wort">' + sm.wort + '</span></label>';
+      marke + '<span class="nur-vorlesen">' + sm.wort + '</span></label>';
   }).join('');
-  return '<fieldset class="smiley-gruppe"><legend>' + esc(frage) + '</legend><div class="smiley-reihe">' + s + '</div></fieldset>';
+  return '<fieldset class="skala-gruppe"><legend>' + esc(frage) + '</legend>' +
+    '<div class="skala">' + s + '</div></fieldset>';
+}
+
+/** Gesicht mit Wort – für Tabellen und Rückblicke. */
+function stufeZelle(id) {
+  const sm = SMILEYS.find((x) => x.id === id);
+  if (!sm) return '<span class="meta">–</span>';
+  return '<span class="stufe-zelle">' + gesicht(sm.id) +
+    '<span class="stufe-wort">' + esc(sm.wort) + '</span></span>';
 }
 
 function fachChip(fach) {
@@ -559,8 +572,12 @@ function ansichtStation(stationId) {
 
   let html = stationsKopf(station) + pdfBereich(station);
 
+  const offeneVorhanden = station.aufgaben.some((a) => !eintrag(z, a.id).bearbeitet);
+
   html += '<h2 style="margin-top:1.4rem">Aufgaben</h2>' +
-    '<p class="meta">' + pkt(w.erreicht) + ' von ' + pkt(w.max) + ' Punkten eingetragen</p>';
+    '<p class="meta">' + pkt(w.erreicht) + ' von ' + pkt(w.max) + ' Punkten eingetragen' +
+    (offeneVorhanden ? ' · Bearbeitete Aufgabe mit dem Haken bestätigen, dann folgen Einschätzung und Lösung.' : '') +
+    '</p>';
 
   const naechsteOffen = station.aufgaben.find((a) => {
     const e = eintrag(z, a.id);
@@ -583,19 +600,24 @@ function aufgabenKarte(a, z, station, index, istAktiv) {
   const fertig = e.bearbeitet && e.smiley && e.punkte !== null;
   const klassen = 'karte aufgabe' + (fertig ? ' fertig' : istAktiv ? ' aktiv' : '');
 
+  // Der Haken sitzt rechts in der Kopfzeile: Bei zehn Aufgaben auf einer Seite
+  // wären zehn große Knöpfe darunter zu viel des Guten.
+  const haken = !e.bearbeitet
+    ? '<button type="button" class="haken-btn" data-aktion="bearbeitet" data-id="' + esc(a.id) + '"' +
+      ' title="' + esc(t('bearbeitetBtn')) + '"' +
+      ' aria-label="Aufgabe ' + esc(a.label || a.id) + ': ' + esc(t('bearbeitetBtn')) + '">' +
+      symbol('haken') + '</button>'
+    : '';
+
   let html = '<article class="' + klassen + '" id="a-' + esc(a.id) + '">' +
     '<div class="aufgabe-kopf"><span class="nr">Aufgabe ' + esc(a.label || a.id) + '</span>' +
     '<span class="chip">' + pkt(maxA) + ' ' + (maxA === 1 ? 'Punkt' : 'Punkte') + '</span>' +
     (a.afb ? '<span class="chip">AFB ' + esc(a.afb) + '</span>' : '') +
     (fertig ? '<span class="chip chip-fertig">' + pkt(grenze(e.punkte, 0, maxA)) + ' erreicht</span>' : '') +
+    haken +
     '</div>';
 
-  if (!e.bearbeitet) {
-    html += '<p class="meta">Erst bearbeiten, dann einschätzen – danach erscheint die Lösung.</p>' +
-      '<div class="btn-reihe"><button type="button" class="btn btn-primaer" data-aktion="bearbeitet" data-id="' + esc(a.id) + '">' +
-      esc(t('bearbeitetBtn')) + '</button></div>';
-    return html + '</article>';
-  }
+  if (!e.bearbeitet) return html + '</article>';
 
   if (!e.smiley) {
     html += smileyGruppe('smiley-' + a.id, null, t('wieSicher'), false)
@@ -841,11 +863,10 @@ function kalibrierungsKarte(thema, z) {
   html += '<div class="tab-umbruch"><table class="tab"><thead><tr>' +
     '<th>Aufgabe</th><th>Einschätzung</th><th class="zahl">Punkte</th><th>Vergleich</th></tr></thead><tbody>';
   for (const r of zeilen) {
-    const sm = SMILEYS.find((s) => s.id === r.smiley);
     const urteilText = r.urteil === 'ueberschaetzt' ? 'überschätzt'
       : r.urteil === 'unterschaetzt' ? 'unterschätzt' : 'passend';
     html += '<tr><td>' + esc(r.station.id) + ' · ' + esc(r.aufgabe.label || r.aufgabe.id) + '</td>' +
-      '<td><span aria-hidden="true">' + sm.zeichen + '</span> ' + esc(sm.wort) + '</td>' +
+      '<td>' + stufeZelle(r.smiley) + '</td>' +
       '<td class="zahl">' + pkt(r.punkte) + ' / ' + pkt(r.max) + '</td>' +
       '<td>' + esc(urteilText) + '</td></tr>';
   }
@@ -857,9 +878,8 @@ function ausgangsKarte(thema, z) {
   let html = '<section class="karte"><h2>Selbsteinschätzung danach</h2><p>' + esc(t('ausgangIntro')) + '</p>';
   for (const c of thema.checkliste) {
     const vorher = z.diagnose.eingang[c.id];
-    const vorherSm = SMILEYS.find((s) => s.id === vorher);
     html += '<div style="margin:.9rem 0 1.2rem"><p style="margin-bottom:.2rem"><strong>' + markdownZeile(c.text) + '</strong></p>' +
-      '<p class="meta">vorher: ' + (vorherSm ? '<span aria-hidden="true">' + vorherSm.zeichen + '</span> ' + esc(vorherSm.wort) : 'nicht eingeschätzt') + '</p>' +
+      '<p class="meta">vorher: ' + (vorher ? stufeZelle(vorher) : 'nicht eingeschätzt') + '</p>' +
       smileyGruppe('ausgang-' + c.id, z.diagnose.ausgang[c.id], t('wieSicherJetzt'), false)
         .replace('<fieldset', '<fieldset data-diagnose="ausgang" data-id="' + esc(c.id) + '"') +
       '</div>';
@@ -868,11 +888,9 @@ function ausgangsKarte(thema, z) {
   html += '<h3>Vorher / Nachher</h3><div class="tab-umbruch"><table class="tab"><thead><tr>' +
     '<th>Kompetenz</th><th>vorher</th><th>nachher</th></tr></thead><tbody>';
   for (const c of thema.checkliste) {
-    const v = SMILEYS.find((s) => s.id === z.diagnose.eingang[c.id]);
-    const n = SMILEYS.find((s) => s.id === z.diagnose.ausgang[c.id]);
     html += '<tr><td>' + markdownZeile(c.text) + '</td>' +
-      '<td>' + (v ? '<span aria-hidden="true">' + v.zeichen + '</span> ' + esc(v.wort) : '–') + '</td>' +
-      '<td>' + (n ? '<span aria-hidden="true">' + n.zeichen + '</span> ' + esc(n.wort) : '–') + '</td></tr>';
+      '<td data-vorher="' + esc(c.id) + '">' + stufeZelle(z.diagnose.eingang[c.id]) + '</td>' +
+      '<td data-nachher="' + esc(c.id) + '">' + stufeZelle(z.diagnose.ausgang[c.id]) + '</td></tr>';
   }
   return html + '</tbody></table></div></section>';
 }
@@ -1088,8 +1106,12 @@ function aktionenVerdrahten() {
     const feldDiagnose = ziel.closest('[data-diagnose]');
     if (feldDiagnose && ziel.type === 'radio') {
       const phase = feldDiagnose.dataset.diagnose;
-      aktuell.zustand.diagnose[phase][feldDiagnose.dataset.id] = ziel.value;
+      const punktId = feldDiagnose.dataset.id;
+      aktuell.zustand.diagnose[phase][punktId] = ziel.value;
       speichereZustand();
+      // Die Vorher/Nachher-Tabelle steht auf derselben Seite und soll sofort mitziehen.
+      const zelle = main.querySelector('[data-' + phase.replace('eingang', 'vorher').replace('ausgang', 'nachher') + '="' + punktId + '"]');
+      if (zelle) zelle.innerHTML = stufeZelle(ziel.value);
       return;
     }
 

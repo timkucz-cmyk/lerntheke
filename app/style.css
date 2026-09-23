@@ -75,6 +75,11 @@
 
   --lmg-gruen: #1F4D2A;
 
+  /* Skala der Selbsteinschätzung */
+  --skala-rot: #B61E33;
+  --skala-gelb: #B8860B;
+  --skala-gruen: #3F6E3A;
+
   /* Schrift */
   --font-sans: 'Source Sans 3', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --fs-xs: 12px;
@@ -131,6 +136,10 @@ html[data-fach="physik"] {
     --warn-soft: #2b2417;
     --warn-line: #4a3d22;
     --warn-ink: #e8c98a;
+
+    --skala-rot: #E8677D;
+    --skala-gelb: #E0B14A;
+    --skala-gruen: #6FBF78;
 
     --schatten: none;
     --schatten-2: none;
@@ -294,27 +303,65 @@ main {
   .btn-primaer { color: #14161a; }
 }
 
-/* ---------- Smileys ---------- */
-.smiley-gruppe { border: 0; margin: .7rem 0 0; padding: 0; }
-.smiley-gruppe legend { padding: 0; font-weight: 600; font-size: var(--fs-sm); color: var(--text); margin-bottom: .45rem; }
-.smiley-reihe { display: flex; flex-wrap: wrap; gap: .5rem; }
-.smiley {
-  flex: 1 1 8rem; position: relative;
-  display: flex; align-items: center; gap: .5rem;
-  min-height: var(--tap); padding: .45rem .75rem;
-  border: 1px solid var(--linie-2); border-radius: var(--radius-klein);
-  background: var(--flaeche); cursor: pointer;
+/* ---------- Selbsteinschätzung als dreistufige Skala ---------- */
+.skala-gruppe { border: 0; margin: .7rem 0 0; padding: 0; }
+.skala-gruppe legend {
+  padding: 0; font-weight: 600; font-size: var(--fs-sm);
+  color: var(--text); margin-bottom: .45rem;
 }
-.smiley input { position: absolute; opacity: 0; width: 1px; height: 1px; }
-.smiley .zeichen { font-size: 1.35rem; line-height: 1; }
-.smiley .wort { font-size: var(--fs-sm); font-weight: 500; }
-.smiley:has(input:checked) {
-  border-color: var(--fach); background: var(--fach-soft); color: var(--fach-ink);
-  box-shadow: inset 0 0 0 1px var(--fach);
+.skala {
+  display: inline-flex; align-items: stretch;
+  border: 1px solid var(--linie-2); border-radius: 999px;
+  background: var(--flaeche); overflow: hidden;
 }
-.smiley:has(input:focus-visible) { outline: 2px solid var(--fach); outline-offset: 2px; }
-.smiley:has(input:disabled) { cursor: default; }
-.smiley-fest { border-style: dashed; }
+.skala-stufe {
+  position: relative; display: inline-flex; align-items: center; justify-content: center;
+  min-width: 64px; min-height: var(--tap); padding: .3rem .6rem;
+  cursor: pointer; opacity: .78;
+}
+.skala-stufe + .skala-stufe { border-left: 1px solid var(--linie); }
+.skala-stufe input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.skala-stufe:hover { opacity: 1; }
+.skala-stufe:has(input:checked) {
+  opacity: 1;
+  background: color-mix(in srgb, currentColor 15%, var(--flaeche));
+  box-shadow: inset 0 0 0 2px currentColor;
+}
+.skala-stufe:has(input:focus-visible) { outline: 2px solid var(--fach); outline-offset: -2px; }
+.skala-stufe:has(input:disabled) { cursor: default; }
+/* Der Ring soll der runden Form der Skala folgen */
+.skala-stufe:first-child { border-radius: 999px 0 0 999px; }
+.skala-stufe:last-child { border-radius: 0 999px 999px 0; }
+/* Festgelegte Einschätzung: die nicht gewählten Stufen treten zurück */
+.skala-gruppe:has(input:disabled) .skala-stufe:not(:has(input:checked)) { opacity: .3; }
+
+/* Gesichter: außen rot und grün, in der Mitte ein gelber Punkt */
+.gesicht { width: 1.22rem; height: 1.22rem; display: block; }
+.stufe-unsicher { color: var(--skala-rot); }
+.stufe-teils { color: var(--skala-gelb); }
+.stufe-sicher { color: var(--skala-gruen); }
+
+.stufe-zelle { display: inline-flex; align-items: center; gap: .4em; white-space: nowrap; color: var(--text-2); }
+.stufe-zelle .gesicht { width: 1.1rem; height: 1.1rem; }
+
+/* Nur für Screenreader */
+.nur-vorlesen {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* ---------- Haken: Aufgabe bearbeitet ---------- */
+.haken-btn {
+  margin-left: auto; flex: none;
+  display: inline-flex; align-items: center; justify-content: center;
+  width: var(--tap); height: var(--tap);
+  border: 1px solid var(--linie-2); border-radius: 999px;
+  background: var(--flaeche); color: var(--text-leise);
+  font-size: var(--fs-lg); cursor: pointer;
+}
+.haken-btn:hover { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
+.haken-btn:focus-visible { outline: 2px solid var(--fach); outline-offset: 2px; }
+.haken-btn .sym { width: 1.25rem; height: 1.25rem; stroke-width: 2.4; }
 
 /* ---------- Punkte-Stepper ---------- */
 .stepper { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
@@ -517,4 +564,12 @@ details.tipp > summary:focus-visible { outline: 2px solid var(--fach); outline-o
 @media (prefers-color-scheme: dark) {
   .chip-mathe  { background: #33191e; color: #f3b3bd; border-color: #4d2229; }
   .chip-physik { background: #182633; color: #b6d3f0; border-color: #24384d; }
+}
+
+/* Auf schmalen Geräten reicht in der Tabelle das Gesicht; das Wort bleibt für Screenreader. */
+@media (max-width: 30rem) {
+  .tab .stufe-wort {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+  }
 }

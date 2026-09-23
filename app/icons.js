@@ -14,6 +14,7 @@ const FORMEN = {
   loesung: '<path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/>',
   tipp: '<path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/>',
   ergebnis: '<path d="M18 6 7 17l-5-5"/><path d="m22 10-7.5 7.5L13 16"/>',
+  haken: '<path d="M20 6 9 17l-5-5"/>',
   empfohlen: '<path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/>',
 };
 
@@ -35,4 +36,33 @@ export function sozialformSymbol(sozialform) {
   if (sozialform === 'gruppe') return symbol('gruppe');
   if (sozialform === 'tandem') return symbol('tandem');
   return symbol('einzel');
+}
+
+/* Gesichter der Selbsteinschätzung (Lucide frown/meh/smile).
+   Als Zeichnung statt Emoji, damit sie rot, gelb und grün eingefärbt werden können. */
+const GESICHTER = {
+  unsicher: '<circle cx="12" cy="12" r="10"/><path d="M16 16s-1.5-2-4-2-4 2-4 2"/>' +
+    '<line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/>',
+  teils: '<circle cx="12" cy="12" r="10"/><line x1="8" x2="16" y1="15" y2="15"/>' +
+    '<line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/>',
+  sicher: '<circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/>' +
+    '<line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/>'
+};
+
+/**
+ * Gesicht zur Einschätzung "unsicher" | "teils" | "sicher".
+ * Die Farbe kommt über die Klasse stufe-… aus dem Stylesheet.
+ */
+export function gesicht(stufe) {
+  const formen = GESICHTER[stufe];
+  if (!formen) return '';
+  return '<svg class="gesicht stufe-' + stufe + '" viewBox="0 0 24 24" fill="none" ' +
+    'stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" ' +
+    'aria-hidden="true" focusable="false">' + formen + '</svg>';
+}
+
+/** Mittlere Stufe der Skala: nur ein Punkt, die Gesichter stehen außen. */
+export function skalaPunkt() {
+  return '<svg class="gesicht stufe-teils" viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +
+    '<circle cx="12" cy="12" r="4" fill="currentColor"/></svg>';
 }
