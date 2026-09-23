@@ -1,228 +1,647 @@
 {
-  "version": 1,
-  "titel": "Integralrechnung – Trainingswoche",
-  "fach": "mathe",
-  "anrede": "sie",
-  "hinweis": "Beispielinhalt zum Testen der App. Die echten Aufgaben und PDFs werden später eingesetzt.",
-  "checkliste": [
+ "titel": "Integralrechnung – Trainingswoche",
+ "fach": "mathe",
+ "anrede": "sie",
+ "checkliste": [
+  {
+   "id": "c1",
+   "text": "Flächeninhalte unter Funktionsgraphen mit Ober- und Untersumme abschätzen"
+  },
+  {
+   "id": "c2",
+   "text": "Das bestimmte Integral als Grenzwert von Summen deuten"
+  },
+  {
+   "id": "c3",
+   "text": "Den Begriff der Stammfunktion erläutern und Stammfunktionen bestimmen"
+  },
+  {
+   "id": "c4",
+   "text": "Den Hauptsatz der Differenzial- und Integralrechnung erläutern"
+  },
+  {
+   "id": "c5",
+   "text": "Flächeninhalte unter Funktionsgraphen bestimmen"
+  },
+  {
+   "id": "c6",
+   "text": "Flächeninhalte zwischen zwei Funktionsgraphen bestimmen"
+  },
+  {
+   "id": "c7",
+   "text": "Integrale in Sachzusammenhängen deuten (Änderungsrate und Bestand)"
+  },
+  {
+   "id": "c9",
+   "text": "Graphen grafisch integrieren und ableiten"
+  }
+ ],
+ "stationen": [
+  {
+   "id": "P1",
+   "titel": "Flächen unter Graphen",
+   "typ": "pflicht",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "GTR",
+   "checkliste": [
+    "c5"
+   ],
+   "pdf": "pdf/P1_Flaechen_unter_Graphen.pdf",
+   "aufgaben": [
     {
-      "id": "c1",
-      "text": "Flächeninhalte mit Ober- und Untersumme abschätzen"
+     "id": "P1-1a",
+     "label": "1a",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "Faktorisieren: $f(x)=(x+1)(x-3)$. Im Intervall $[0;4]$ liegt nur $x=3$."
     },
     {
-      "id": "c2",
-      "text": "Stammfunktionen von Potenz-, Exponential- und trigonometrischen Funktionen bilden"
+     "id": "P1-1b",
+     "label": "1b",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$F(x)=\\tfrac13x^3-x^2-3x$\n\n$\\displaystyle\\int_0^4 f(x)\\,dx=F(4)-F(0)=\\tfrac{64}{3}-28=-\\tfrac{20}{3}\\approx-6{,}67$"
     },
     {
-      "id": "c3",
-      "text": "Bestimmte Integrale mit dem Hauptsatz berechnen"
+     "id": "P1-1c",
+     "label": "1c",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "$\\int_0^3 f(x)\\,dx=-9,\\quad \\int_3^4 f(x)\\,dx=-\\tfrac{20}{3}-(-9)=\\tfrac73$\n\n$A=9+\\tfrac73=\\tfrac{34}{3}\\approx 11{,}33$ FE\n\nIn b) heben sich der negative Teil (unter der $x$-Achse) und der positive Teil teilweise auf: b) ist die **Bilanz**, c) der **Flächeninhalt**."
     },
     {
-      "id": "c4",
-      "text": "Flächen zwischen Graph und x-Achse sowie zwischen zwei Graphen bestimmen"
+     "id": "P1-2",
+     "label": "2",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "Bei $x=0$ wechselt $g$ das Vorzeichen. Mia hat nicht an der Nullstelle zerlegt – ihr Wert ist die **Bilanz**.\n\n$\\int_{-1}^0 g(x)\\,dx=\\tfrac74,\\quad \\int_0^2 g(x)\\,dx=-4$\n\n$A=\\tfrac74+4=\\tfrac{23}{4}=5{,}75$ FE"
     },
     {
-      "id": "c5",
-      "text": "Integrale im Sachkontext deuten (Rekonstruktion von Beständen)"
+     "id": "P1-3a",
+     "label": "3a",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$H(b)=\\tfrac13b^3-2b^2=b^2\\left(\\tfrac13 b-2\\right)=0\\ \\Rightarrow\\ b=6$\n\nDeutung: Die Fläche unter der $x$-Achse ($0\\le x\\le4$) ist genauso groß wie die Fläche darüber ($4\\le x\\le 6$), jeweils $\\tfrac{32}{3}$ FE."
+    },
+    {
+     "id": "P1-3b",
+     "label": "3b",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "Beispiel: $k(x)=x$ auf $[-2;2]$. Punktsymmetrie: zwei Dreiecke mit je $2$ FE. Integral $2-2=0$, Flächeninhalt $2+2=4$ FE.\n\nAndere Beispiele sind gleichwertig, wenn beide Bedingungen nachgewiesen werden."
     }
-  ],
-  "stationen": [
+   ]
+  },
+  {
+   "id": "P2",
+   "titel": "Flächen zwischen Graphen",
+   "typ": "pflicht",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "GTR",
+   "checkliste": [
+    "c6"
+   ],
+   "pdf": "pdf/P2_Flaechen_zwischen_Graphen.pdf",
+   "aufgaben": [
     {
-      "id": "P1",
-      "titel": "Flächen unter Graphen – Ober- und Untersumme",
-      "typ": "pflicht",
-      "sozialform": "einzel",
-      "dauer_min": 15,
-      "hilfsmittel": "GTR",
-      "checkliste": [
-        "c1"
-      ],
-      "pdf": "pdf/P1_Flaechen_unter_Graphen.pdf",
-      "aufgaben": [
-        {
-          "id": "P1-1",
-          "label": "1a",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Für $f(x)=x^2$ auf $[0;2]$ mit $n=4$ Streifen ist die Streifenbreite $\\Delta x = \\frac{2-0}{4} = 0{,}5$.\n\n**Untersumme** (linker Randwert, da $f$ hier monoton steigt):\n\n$$U_4 = 0{,}5\\cdot\\left(f(0)+f(0{,}5)+f(1)+f(1{,}5)\\right) = 0{,}5\\cdot(0+0{,}25+1+2{,}25) = 1{,}75$$\n\n**Obersumme** (rechter Randwert):\n\n$$O_4 = 0{,}5\\cdot\\left(f(0{,}5)+f(1)+f(1{,}5)+f(2)\\right) = 0{,}5\\cdot(0{,}25+1+2{,}25+4) = 3{,}75$$\n\nDamit gilt $1{,}75 \\le A \\le 3{,}75$."
-        },
-        {
-          "id": "P1-2",
-          "label": "1b",
-          "punkte": 3,
-          "afb": "II",
-          "loesung": "Mit wachsendem $n$ wird die Streifenbreite kleiner, Ober- und Untersumme nähern sich an:\n\n| $n$ | $U_n$ | $O_n$ | $O_n-U_n$ |\n| --- | --- | --- | --- |\n| 4 | 1,750 | 3,750 | 2,000 |\n| 8 | 2,188 | 3,188 | 1,000 |\n| 100 | 2,646 | 2,707 | 0,080 |\n\nDie Differenz beträgt $O_n-U_n = \\frac{b-a}{n}\\cdot\\left(f(b)-f(a)\\right)$ und geht für $n\\to\\infty$ gegen null. Beide Summen streben gegen den exakten Flächeninhalt\n\n$$A = \\int_0^2 x^2\\,\\mathrm{d}x = \\frac{8}{3} \\approx 2{,}67.$$",
-          "loesung_bild": "img/P1-2.svg"
-        }
-      ]
+     "id": "P2-1a",
+     "label": "1a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$-x^2+5x=x\\iff x(4-x)=0\\ \\Rightarrow\\ x_1=0,\\ x_2=4$"
     },
     {
-      "id": "P2",
-      "titel": "Stammfunktionen und Hauptsatz",
-      "typ": "pflicht",
-      "sozialform": "partner",
-      "dauer_min": 20,
-      "hilfsmittel": "keine",
-      "checkliste": [
-        "c2",
-        "c3"
-      ],
-      "pdf": "pdf/P2_Stammfunktionen_Hauptsatz.pdf",
-      "aufgaben": [
-        {
-          "id": "P2-1",
-          "label": "1",
-          "punkte": 3,
-          "afb": "I",
-          "loesung": "Stammfunktionen (jeweils $+\\,C$):\n\n- $f(x)=x^3-4x \\;\\Rightarrow\\; F(x)=\\frac{1}{4}x^4-2x^2$\n- $g(x)=\\mathrm{e}^{2x} \\;\\Rightarrow\\; G(x)=\\frac{1}{2}\\mathrm{e}^{2x}$\n- $h(x)=\\sin(x) \\;\\Rightarrow\\; H(x)=-\\cos(x)$\n\nProbe jeweils durch Ableiten."
-        },
-        {
-          "id": "P2-2",
-          "label": "2",
-          "punkte": 3,
-          "afb": "II",
-          "loesung": "Hauptsatz der Differential- und Integralrechnung:\n\n$$\\int_1^3 (x^3-4x)\\,\\mathrm{d}x = \\left[\\frac{1}{4}x^4-2x^2\\right]_1^3 = \\left(\\frac{81}{4}-18\\right)-\\left(\\frac{1}{4}-2\\right) = \\frac{9}{4}+\\frac{7}{4} = 4$$\n\nDas Ergebnis ist der **orientierte** Flächeninhalt: Anteile unterhalb der $x$-Achse zählen negativ."
-        },
-        {
-          "id": "P2-3",
-          "label": "3",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Aus $\\int_0^a 2x\\,\\mathrm{d}x = 9$ folgt $\\left[x^2\\right]_0^a = a^2 = 9$, also $a=3$ (nur die positive Lösung liegt im Sachzusammenhang)."
-        }
-      ]
+     "id": "P2-1b",
+     "label": "1b",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$d(x)=f(x)-g(x)=-x^2+4x$\n\n$A=\\displaystyle\\int_0^4(-x^2+4x)\\,dx=\\left[-\\tfrac13x^3+2x^2\\right]_0^4=\\tfrac{32}{3}\\approx10{,}67$ FE"
     },
     {
-      "id": "T1",
-      "titel": "Stammfunktionen im Tandem",
-      "typ": "pflicht",
-      "sozialform": "tandem",
-      "dauer_min": 20,
-      "hilfsmittel": "keine",
-      "checkliste": [
-        "c2",
-        "c3"
-      ],
-      "pdf_optional": true,
-      "aufgaben": [
-        {
-          "id": "T1-1",
-          "label": "1",
-          "partner": "A",
-          "punkte": 2,
-          "afb": "I",
-          "aufgabe": "Gib eine Stammfunktion von $f(x) = 6x^2 - 4x$ an und mache die Probe.",
-          "tipp": "Exponent um 1 erhöhen, dann durch den neuen Exponenten teilen.",
-          "loesung": "$$F(x) = 2x^3 - 2x^2 + C$$\n\nProbe: $F'(x) = 6x^2 - 4x = f(x)$. ✔"
-        },
-        {
-          "id": "T1-2",
-          "label": "2",
-          "partner": "B",
-          "punkte": 2,
-          "afb": "I",
-          "aufgabe": "Gib eine Stammfunktion von $g(x) = 4\\mathrm{e}^{2x}$ an.",
-          "tipp": "Bei $\\mathrm{e}^{kx}$ kommt beim Integrieren der Faktor $\\frac{1}{k}$ dazu.",
-          "loesung": "$$G(x) = 2\\mathrm{e}^{2x} + C$$\n\nProbe: $G'(x) = 2 \\cdot 2\\mathrm{e}^{2x} = 4\\mathrm{e}^{2x}$. ✔"
-        },
-        {
-          "id": "T1-3",
-          "label": "3",
-          "partner": "A",
-          "punkte": 3,
-          "afb": "II",
-          "aufgabe": "Berechne $\\int_0^2 \\left(3x^2 - 2x\\right)\\mathrm{d}x$.",
-          "tipp": "Erst die Stammfunktion bilden, dann obere minus untere Grenze einsetzen.",
-          "loesung": "$$\\int_0^2 \\left(3x^2-2x\\right)\\mathrm{d}x = \\left[x^3 - x^2\\right]_0^2 = (8-4) - 0 = 4$$"
-        },
-        {
-          "id": "T1-4",
-          "label": "4",
-          "partner": "B",
-          "punkte": 3,
-          "afb": "II",
-          "aufgabe": "Berechne $\\int_{-1}^{1} \\left(x^3 + 1\\right)\\mathrm{d}x$.",
-          "tipp": "Beide Grenzen sorgfältig einsetzen – bei der unteren Grenze auf die Vorzeichen achten.",
-          "loesung": "$$\\int_{-1}^{1}\\left(x^3+1\\right)\\mathrm{d}x = \\left[\\frac{x^4}{4} + x\\right]_{-1}^{1} = \\left(\\frac{1}{4}+1\\right) - \\left(\\frac{1}{4}-1\\right) = 2$$"
-        },
-        {
-          "id": "T1-5",
-          "label": "5",
-          "partner": "A",
-          "punkte": 3,
-          "afb": "III",
-          "aufgabe": "Bestimme $a > 0$ so, dass $\\int_0^a 3x^2\\,\\mathrm{d}x = 8$ gilt.",
-          "tipp": "Rechne das Integral mit der Grenze $a$ aus – es bleibt eine Gleichung mit $a^3$.",
-          "loesung": "$$\\int_0^a 3x^2\\,\\mathrm{d}x = \\left[x^3\\right]_0^a = a^3$$\n\nAus $a^3 = 8$ folgt $a = 2$."
-        },
-        {
-          "id": "T1-6",
-          "label": "6",
-          "partner": "B",
-          "punkte": 3,
-          "afb": "III",
-          "aufgabe": "Erkläre, warum $\\int_{-1}^{1} x^3\\,\\mathrm{d}x = 0$ ist, obwohl zwischen Graph und $x$-Achse eine Fläche liegt.",
-          "tipp": "Was passiert mit dem Vorzeichen, wenn der Graph unterhalb der $x$-Achse verläuft?",
-          "loesung": "Das Integral misst den **orientierten** Flächeninhalt. Auf $[-1;0]$ verläuft der Graph unterhalb der $x$-Achse, der Beitrag zählt negativ; auf $[0;1]$ ist er genauso groß, aber positiv:\n\n$$\\int_{-1}^{0} x^3\\,\\mathrm{d}x = -\\frac{1}{4}, \\qquad \\int_{0}^{1} x^3\\,\\mathrm{d}x = \\frac{1}{4}$$\n\nBeide Anteile heben sich auf. Der Flächeninhalt beträgt dagegen $\\frac{1}{2}$ FE."
-        }
-      ]
+     "id": "P2-2a",
+     "label": "2a",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$d(x)=x^3-4x=x(x-2)(x+2)$, Schnittstellen $-2,\\ 0,\\ 2$. Die Teilintegrale sind $4$ und $-4$ und heben sich auf: $\\int_{-2}^2 d(x)\\,dx=0$, obwohl eine Fläche eingeschlossen wird."
     },
     {
-      "id": "W1",
-      "titel": "Fläche zwischen zwei Graphen",
-      "typ": "wahl",
-      "sozialform": "einzel",
-      "dauer_min": 20,
-      "hilfsmittel": "GTR",
-      "checkliste": [
-        "c4"
-      ],
-      "pdf": "pdf/W1_Flaeche_zwischen_zwei_Graphen.pdf",
-      "aufgaben": [
-        {
-          "id": "W1-1",
-          "label": "1",
-          "punkte": 4,
-          "afb": "II",
-          "loesung": "Schnittstellen von $f(x)=4-x^2$ und $g(x)=x+2$:\n\n$$4-x^2 = x+2 \\iff x^2+x-2=0 \\iff x_1=-2,\\; x_2=1$$\n\nAuf $[-2;1]$ liegt $f$ oberhalb von $g$:\n\n$$A = \\int_{-2}^{1}\\left(f(x)-g(x)\\right)\\mathrm{d}x = \\int_{-2}^{1}\\left(2-x-x^2\\right)\\mathrm{d}x = \\left[2x-\\frac{x^2}{2}-\\frac{x^3}{3}\\right]_{-2}^{1} = \\frac{7}{6}-\\left(-\\frac{10}{3}\\right) = \\frac{9}{2}$$\n\nDie Fläche beträgt $A = 4{,}5$ FE.",
-          "loesung_bild": "img/W1-1.svg"
-        },
-        {
-          "id": "W1-2",
-          "label": "2",
-          "punkte": 3,
-          "afb": "III",
-          "loesung": "Schneiden sich die Graphen **innerhalb** des Intervalls, wechselt das Vorzeichen von $f-g$. Ein einziges Integral über das gesamte Intervall würde die Teilflächen gegeneinander aufrechnen.\n\nRichtig ist die Zerlegung an den Schnittstellen:\n\n$$A = \\sum_i \\left|\\int_{x_i}^{x_{i+1}} \\left(f(x)-g(x)\\right)\\mathrm{d}x\\right|$$\n\nAlternativ integriert man $|f-g|$ und bestimmt das Vorzeichen in jedem Teilintervall über einen Testpunkt."
-        }
-      ]
+     "id": "P2-2b",
+     "label": "2b",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$\\int_{-2}^0 d(x)\\,dx=4,\\quad\\int_0^2 d(x)\\,dx=-4$\n\n$A=4+4=8$ FE"
     },
     {
-      "id": "W2",
-      "titel": "Bestände rekonstruieren – Sachkontext",
-      "typ": "wahl",
-      "sozialform": "partner",
-      "dauer_min": 25,
-      "hilfsmittel": "GTR",
-      "checkliste": [
-        "c5"
-      ],
-      "pdf": "pdf/W2_Bestaende_rekonstruieren.pdf",
-      "aufgaben": [
-        {
-          "id": "W2-1",
-          "label": "1",
-          "punkte": 3,
-          "afb": "II",
-          "loesung": "Die Zuflussrate $z(t)$ wird in $\\frac{\\mathrm{m}^3}{\\mathrm{h}}$ gemessen, $t$ in Stunden. Das Integral hat daher die Einheit\n\n$$\\left[\\int_0^6 z(t)\\,\\mathrm{d}t\\right] = \\frac{\\mathrm{m}^3}{\\mathrm{h}}\\cdot \\mathrm{h} = \\mathrm{m}^3.$$\n\nEs beschreibt die in den ersten 6 Stunden **insgesamt zugeflossene Wassermenge**, nicht die Zuflussgeschwindigkeit."
-        },
-        {
-          "id": "W2-2",
-          "label": "2",
-          "punkte": 4,
-          "afb": "III",
-          "loesung": "Bestand $=$ Anfangsbestand $+$ Bilanz aus Zufluss und Abfluss:\n\n$$B(6) = B(0) + \\int_0^6 \\left(z(t)-a(t)\\right)\\mathrm{d}t = 120\\,\\mathrm{m}^3 + 54\\,\\mathrm{m}^3 = 174\\,\\mathrm{m}^3$$\n\nDas Maximum liegt dort, wo die Bilanzrate das Vorzeichen von $+$ nach $-$ wechselt, also bei $z(t)=a(t)$. Vor diesem Zeitpunkt wächst der Bestand, danach fällt er."
-        }
-      ]
+     "id": "P2-3a",
+     "label": "3a",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$ax-x^2=x^2\\iff x(a-2x)=0\\ \\Rightarrow\\ x=0,\\ x=\\tfrac a2$\n\n$A(a)=\\displaystyle\\int_0^{a/2}(ax-2x^2)\\,dx=\\left[\\tfrac12ax^2-\\tfrac23x^3\\right]_0^{a/2}=\\tfrac{a^3}{8}-\\tfrac{a^3}{12}=\\tfrac{a^3}{24}$"
+    },
+    {
+     "id": "P2-3b",
+     "label": "3b",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "Falsch: $A(2a)=\\tfrac{(2a)^3}{24}=8\\cdot A(a)$. Der Flächeninhalt **verachtfacht** sich, weil $a$ in der dritten Potenz eingeht."
     }
-  ]
+   ]
+  },
+  {
+   "id": "W1",
+   "titel": "Ober- und Untersumme",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 15,
+   "hilfsmittel": "TR",
+   "checkliste": [
+    "c1",
+    "c2"
+   ],
+   "pdf": "pdf/W1_Ober-Untersumme.pdf",
+   "aufgaben": [
+    {
+     "id": "W1-1a",
+     "label": "1a",
+     "punkte": 3,
+     "afb": "I",
+     "loesung": "$\\Delta x=1$. Da $f$ steigt: $U_4=1\\cdot(1+1{,}5+3+5{,}5)=11$ (linke Randwerte), $O_4=1\\cdot(1{,}5+3+5{,}5+9)=19$ (rechte Randwerte)."
+    },
+    {
+     "id": "W1-1b",
+     "label": "1b",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Alle mittleren Rechteckhöhen kommen in beiden Summen vor; es unterscheiden sich nur $f(4)$ (in $O_n$) und $f(0)$ (in $U_n$).\n\n$O_n-U_n=\\Delta x\\,(f(4)-f(0))=\\tfrac4n\\cdot(9-1)=\\tfrac{32}{n}$"
+    },
+    {
+     "id": "W1-1c",
+     "label": "1c",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$\\tfrac{32}{n}<0{,}1\\iff n>320$, also $n=321$."
+    },
+    {
+     "id": "W1-1d",
+     "label": "1d",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "Für $n\\to\\infty$ gilt $O_n-U_n=\\tfrac{32}{n}\\to0$. Beide Summen nähern sich derselben Zahl, dem Integral $\\int_0^4 f(x)\\,dx=\\tfrac{44}{3}\\approx14{,}67$."
+    },
+    {
+     "id": "W1-2",
+     "label": "2",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "Die Aussage gilt nur für **steigende** Funktionen. Fällt $f$, liegt der größte Wert eines Streifens am **linken** Rand: Die Obersumme nimmt dann die linken, die Untersumme die rechten Randwerte. Allgemein: Obersumme = größter Funktionswert je Streifen."
+    }
+   ]
+  },
+  {
+   "id": "W2",
+   "titel": "Tandembogen Stammfunktionen",
+   "typ": "wahl",
+   "sozialform": "tandem",
+   "dauer_min": 12,
+   "hilfsmittel": "ohne",
+   "checkliste": [
+    "c3"
+   ],
+   "pdf": "pdf/W2_Tandembogen_Stammfunktionen.pdf",
+   "hinweis": "Zu zweit mit zwei Tablets. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Aufgaben laut; die jeweils andere Person sieht die Lösung und kontrolliert.",
+   "aufgaben": [
+    {
+     "id": "W2-1",
+     "label": "1",
+     "punkte": 1,
+     "afb": "I",
+     "partner": "A",
+     "loesung": "$F(x)=x^3$",
+     "aufgabe": "Bestimmen Sie eine Stammfunktion von $f(x)=3x^2$.",
+     "tipp": "Exponent um 1 erhöhen, durch den neuen Exponenten teilen."
+    },
+    {
+     "id": "W2-2",
+     "label": "2",
+     "punkte": 1,
+     "afb": "I",
+     "partner": "B",
+     "loesung": "$F(x)=x^4-x^2$",
+     "aufgabe": "Bestimmen Sie eine Stammfunktion von $f(x)=4x^3-2x$.",
+     "tipp": "Summenregel: jeden Summanden einzeln integrieren."
+    },
+    {
+     "id": "W2-3",
+     "label": "3",
+     "punkte": 1,
+     "afb": "I",
+     "partner": "A",
+     "loesung": "$F(x)=5x$",
+     "aufgabe": "Bestimmen Sie eine Stammfunktion von $f(x)=5$.",
+     "tipp": "Welche Funktion hat die Ableitung 5?"
+    },
+    {
+     "id": "W2-4",
+     "label": "4",
+     "punkte": 1,
+     "afb": "I",
+     "partner": "B",
+     "loesung": "$F(x)=\\tfrac14x^2$",
+     "aufgabe": "Bestimmen Sie eine Stammfunktion von $f(x)=\\tfrac12x$.",
+     "tipp": "Der Faktor $\\tfrac12$ bleibt stehen, $x$ wird zu $\\tfrac12x^2$."
+    },
+    {
+     "id": "W2-5",
+     "label": "5",
+     "punkte": 1,
+     "afb": "I",
+     "partner": "A",
+     "loesung": "$F(x)=\\tfrac13x^3+\\tfrac12x^2+x$",
+     "aufgabe": "Bestimmen Sie eine Stammfunktion von $f(x)=x^2+x+1$.",
+     "tipp": "Drei Summanden, jeder einzeln. Probe durch Ableiten."
+    },
+    {
+     "id": "W2-6",
+     "label": "6",
+     "punkte": 1,
+     "afb": "I",
+     "partner": "B",
+     "loesung": "$F(x)=-x^6$",
+     "aufgabe": "Bestimmen Sie eine Stammfunktion von $f(x)=-6x^5$.",
+     "tipp": "Neuer Exponent 6; was passiert mit dem Faktor $-6$?"
+    },
+    {
+     "id": "W2-7",
+     "label": "7",
+     "punkte": 1,
+     "afb": "I",
+     "partner": "A",
+     "loesung": "$F(x)=0{,}1x^3-4x$",
+     "aufgabe": "Bestimmen Sie eine Stammfunktion von $f(x)=0{,}3x^2-4$.",
+     "tipp": "$0{,}3:3=0{,}1$. Die Konstante $-4$ wird zu $-4x$."
+    },
+    {
+     "id": "W2-8",
+     "label": "8",
+     "punkte": 1,
+     "afb": "I",
+     "partner": "B",
+     "loesung": "$F(x)=0{,}4x^5$",
+     "aufgabe": "Bestimmen Sie eine Stammfunktion von $f(x)=2x^4$.",
+     "tipp": "Neuer Exponent 5, also Faktor $2:5$."
+    },
+    {
+     "id": "W2-9",
+     "label": "9",
+     "punkte": 1,
+     "afb": "II",
+     "partner": "A",
+     "loesung": "Ja: $F'(x)=3x^2+2=f(x)$",
+     "aufgabe": "Prüfen Sie, ob $F(x)=x^3+2x+7$ eine Stammfunktion von $f(x)=3x^2+2$ ist.",
+     "tipp": "Leiten Sie $F$ ab und vergleichen Sie mit $f$."
+    },
+    {
+     "id": "W2-10",
+     "label": "10",
+     "punkte": 1,
+     "afb": "II",
+     "partner": "B",
+     "loesung": "Nein: $F'(x)=x^3-1\\neq f(x)$",
+     "aufgabe": "Prüfen Sie, ob $F(x)=\\tfrac14x^4-x$ eine Stammfunktion von $f(x)=x^3-x$ ist.",
+     "tipp": "Leiten Sie $F$ ab. Was wird aus $-x$?"
+    },
+    {
+     "id": "W2-11",
+     "label": "11",
+     "punkte": 1,
+     "afb": "II",
+     "partner": "A",
+     "loesung": "$F(x)=x^2+C$, $F(1)=1+C=3\\Rightarrow C=2$: $F(x)=x^2+2$",
+     "aufgabe": "Bestimmen Sie die Stammfunktion $F$ von $f(x)=2x$ mit $F(1)=3$.",
+     "tipp": "Ansatz $F(x)=x^2+C$, dann $x=1$ einsetzen."
+    },
+    {
+     "id": "W2-12",
+     "label": "12",
+     "punkte": 1,
+     "afb": "II",
+     "partner": "B",
+     "loesung": "$F(x)=x^3-4x+C$, $F(0)=C=-1$: $F(x)=x^3-4x-1$",
+     "aufgabe": "Bestimmen Sie die Stammfunktion $F$ von $f(x)=3x^2-4$ mit $F(0)=-1$.",
+     "tipp": "Ansatz $F(x)=x^3-4x+C$, dann $x=0$ einsetzen."
+    }
+   ],
+   "pdf_optional": true
+  },
+  {
+   "id": "W3",
+   "titel": "Der Hauptsatz",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 12,
+   "hilfsmittel": "ohne",
+   "checkliste": [
+    "c4"
+   ],
+   "pdf": "pdf/W3_Hauptsatz.pdf",
+   "aufgaben": [
+    {
+     "id": "W3-1a",
+     "label": "1a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$\\displaystyle\\int_a^b f(x)\\,dx=F(b)-F(a)$, wobei $F$ eine beliebige Stammfunktion von $f$ ist, also $F'=f$."
+    },
+    {
+     "id": "W3-1b",
+     "label": "1b",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$F(3)-F(1)=6-\\left(-\\tfrac23\\right)=\\tfrac{20}{3}$\n\n$G(3)-G(1)=11-\\tfrac{13}{3}=\\tfrac{20}{3}$\n\nDie Konstante $5$ steckt in $G(3)$ und $G(1)$ und fällt bei der Differenz weg."
+    },
+    {
+     "id": "W3-2",
+     "label": "2",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Grenzen vertauscht: $F(2)-F(0)=8-0=8$. Da $3x^2\\ge0$ ist, muss das Ergebnis positiv sein."
+    },
+    {
+     "id": "W3-3a",
+     "label": "3a",
+     "punkte": 1,
+     "afb": "III",
+     "loesung": "**Falsch.** Gegenbeispiel: $f(x)=x$ auf $[-1;1]$ – das Integral ist $0$, $f$ aber nicht überall $0$."
+    },
+    {
+     "id": "W3-3b",
+     "label": "3b",
+     "punkte": 1,
+     "afb": "III",
+     "loesung": "**Wahr.** $G=F+C\\Rightarrow G(b)-G(a)=F(b)+C-F(a)-C=F(b)-F(a)$."
+    },
+    {
+     "id": "W3-3c",
+     "label": "3c",
+     "punkte": 1,
+     "afb": "III",
+     "loesung": "**Falsch.** Wo $f$ am größten ist, steigt $F$ am stärksten (Wendestelle von $F$). Ein Hochpunkt von $F$ liegt dort, wo $f$ von $+$ nach $-$ das Vorzeichen wechselt."
+    }
+   ]
+  },
+  {
+   "id": "W4",
+   "titel": "Änderungsrate und Bestand: E-Auto",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "GTR",
+   "checkliste": [
+    "c7"
+   ],
+   "pdf": "pdf/W4_Aenderungsrate_Bestand.pdf",
+   "aufgaben": [
+    {
+     "id": "W4-1a",
+     "label": "1a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$\\Delta t=10\\text{ min}=\\tfrac16\\text{ h}$\n\n$E\\approx(90+105+110+105+90+65)\\,\\text{kW}\\cdot\\tfrac16\\,\\text{h}=\\tfrac{565}{6}\\,\\text{kWh}\\approx94{,}17\\text{ kWh}$"
+    },
+    {
+     "id": "W4-1b",
+     "label": "1b",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "$\\displaystyle\\int_0^{60}P(t)\\,dt=\\left[-\\tfrac{0{,}05}{3}t^3+t^2+90t\\right]_0^{60}=5400$ (kW·min) $=\\tfrac{5400}{60}$ kWh $=90$ kWh\n\nAb $t=20$ fällt $P$: Der Anfangswert jedes Abschnitts liegt über dem Graphen, die Rechtecke ragen heraus. Das überwiegt den kleinen Fehlbetrag auf $[0;20]$."
+    },
+    {
+     "id": "W4-1c",
+     "label": "1c",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$\\displaystyle\\int_0^{30}P(t)\\,dt=3150$ (kW·min) $=52{,}50$ kWh\n\nAkku: $10+52{,}50=62{,}50$ kWh, also $62{,}50\\,\\%$ der Kapazität."
+    },
+    {
+     "id": "W4-2",
+     "label": "2",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "(1) – D, (2) – A, (3) – B, (4) – C\n\nE ist die Änderung der **Leistung**, F nutzt nur einen Messwert."
+    },
+    {
+     "id": "W4-3a",
+     "label": "3a",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$E$ startet bei 10 kWh, steigt überall ($P>0$) und endet bei $10+90=100$ kWh. Am schnellsten wächst $E$ bei $t=20$ min, weil dort $P=E'$ maximal ist (Wendestelle von $E$).",
+     "loesung_bild": "img/W4-3a.png"
+    },
+    {
+     "id": "W4-3b",
+     "label": "3b",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "**Nein.** Nach 60 min ist der Akku voll (100 kWh), das Modell liefert aber bis $t\\approx66{,}9$ weiter $P>0$. Danach wird $P$ negativ ($P(70)=-15$), also Entladen an der Säule. Das Modell gilt nur für $0\\le t\\le60$."
+    }
+   ]
+  },
+  {
+   "id": "W5",
+   "titel": "Grafisch ableiten und integrieren",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 15,
+   "hilfsmittel": "ohne",
+   "checkliste": [
+    "c9",
+    "c3"
+   ],
+   "pdf": "pdf/W5_grafisch_ableiten_integrieren.pdf",
+   "aufgaben": [
+    {
+     "id": "W5-1",
+     "label": "1",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "Nullstellen von $f'$ bei $x=-2$ und $x=2$ (Extremstellen von $f$); $f'<0$ zwischen $-2$ und $2$, sonst $f'>0$; Tiefpunkt von $f'$ bei $x=0$ (Wendestelle von $f$), $f'(0)=-3$.",
+     "loesung_bild": "img/W5-1.png"
+    },
+    {
+     "id": "W5-2a",
+     "label": "2a",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$G(2)=4$ (Rechteck), $G(3)=4+1=5$, $G(4)=5-1=4$, $G(6)=4-4=0$.\n\n$G$ steigt auf $[0;2]$ linear, auf $[2;3]$ immer langsamer, fällt danach, auf $[4;6]$ linear.",
+     "loesung_bild": "img/W5-2.png"
+    },
+    {
+     "id": "W5-2b",
+     "label": "2b",
+     "punkte": 1,
+     "afb": "II",
+     "loesung": "$H(3\\,|\\,5)$: Bei $x=3$ wechselt $g=G'$ das Vorzeichen von $+$ nach $-$."
+    },
+    {
+     "id": "W5-3",
+     "label": "3",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "I $=f$, II $=f'$, III $=F$.\n\nTiefpunkt von I bei $x=0$ ↔ Nullstelle von II. Nullstellen von I ($x=\\pm1$) ↔ Extremstellen von III."
+    },
+    {
+     "id": "W5-4",
+     "label": "4",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "**Falsch.** Gegenbeispiel: $f(x)=x^2$ hat bei $0$ eine Nullstelle ohne Vorzeichenwechsel; $F(x)=\\tfrac13x^3$ hat dort einen Sattelpunkt. Extrempunkt nur bei Vorzeichenwechsel."
+    }
+   ]
+  },
+  {
+   "id": "W6",
+   "titel": "Hilfsmittelfreier Teil (HMF)",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "ohne",
+   "checkliste": [
+    "c3",
+    "c4",
+    "c5"
+   ],
+   "pdf": "pdf/W6_HMF.pdf",
+   "aufgaben": [
+    {
+     "id": "W6-1.1",
+     "label": "1.1",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$F(x)=x^3-3x^2$ (auch $+C$)"
+    },
+    {
+     "id": "W6-1.2",
+     "label": "1.2",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "$f(x)=3x(x-2)$, Nullstellen $0$ und $2$.\n\n$\\int_0^2 f(x)\\,dx=F(2)-F(0)=8-12=-4$, Fläche unter der $x$-Achse: $A=4$ FE."
+    },
+    {
+     "id": "W6-2.1",
+     "label": "2.1",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$\\left[x^4+2x\\right]_1^2=(16+4)-(1+2)=17$"
+    },
+    {
+     "id": "W6-2.2",
+     "label": "2.2",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "$\\left[x^2\\right]_0^k=k^2=9\\Rightarrow k=3$ ($k=-3$ entfällt)."
+    },
+    {
+     "id": "W6-3.1",
+     "label": "3.1",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "$h(-x)=-h(x)$: Der Graph ist punktsymmetrisch zum Ursprung. Die orientierten Flächen über $[-2;0]$ und $[0;2]$ sind gleich groß mit entgegengesetztem Vorzeichen."
+    },
+    {
+     "id": "W6-3.2",
+     "label": "3.2",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "**Wahr.** $f>0$: Das Integral über $[0;4]$ enthält die Fläche über $[0;2]$ und zusätzlich die positive Fläche über $[2;4]$."
+    }
+   ]
+  },
+  {
+   "id": "W7",
+   "titel": "Komplexaufgabe: Betonwelle im Skatepark",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 35,
+   "hilfsmittel": "GTR",
+   "checkliste": [
+    "c5",
+    "c6"
+   ],
+   "pdf": "pdf/W7_Komplexaufgabe_Skatepark.pdf",
+   "aufgaben": [
+    {
+     "id": "W7-a1",
+     "label": "a1",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$f'(x)=-0{,}16x+0{,}8=0\\Rightarrow x=5$, $f(5)=2$: Die Welle ist 2 m hoch."
+    },
+    {
+     "id": "W7-a2",
+     "label": "a2",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$f'(0)=0{,}8$, $\\alpha=\\arctan(0{,}8)\\approx38{,}66^\\circ$"
+    },
+    {
+     "id": "W7-b1",
+     "label": "b1",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$\\int_0^{10}f(x)\\,dx=\\left[-\\tfrac{0{,}08}{3}x^3+0{,}4x^2\\right]_0^{10}=\\tfrac{40}{3}\\approx13{,}33$ m²"
+    },
+    {
+     "id": "W7-b2",
+     "label": "b2",
+     "punkte": 4,
+     "afb": "II",
+     "loesung": "$g(1)=-0{,}08+0{,}8-0{,}72=0$, $g(9)=-6{,}48+7{,}2-0{,}72=0$\n\nHohlraum: $\\int_1^9 g(x)\\,dx=\\tfrac{512}{75}\\approx6{,}83$ m²\n\nBeton: $\\tfrac{40}{3}-\\tfrac{512}{75}=\\tfrac{488}{75}\\approx6{,}51$ m²"
+    },
+    {
+     "id": "W7-b3",
+     "label": "b3",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$V\\approx6{,}51\\text{ m}^2\\cdot4\\text{ m}\\approx26{,}03\\text{ m}^3$"
+    },
+    {
+     "id": "W7-c1",
+     "label": "c1",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$-0{,}08x^2+0{,}8x=1{,}5\\iff x^2-10x+18{,}75=0\\Rightarrow x_1=2{,}50,\\ x_2=7{,}50$"
+    },
+    {
+     "id": "W7-c2",
+     "label": "c2",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$7{,}50-2{,}50=5{,}00$: Der Bereich ist 5,00 m breit."
+    },
+    {
+     "id": "W7-d1",
+     "label": "d1",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$\\int_0^{10}(-ax^2+10ax)\\,dx=a\\left(-\\tfrac{1000}{3}+500\\right)=\\tfrac{500}{3}a$"
+    },
+    {
+     "id": "W7-d2",
+     "label": "d2",
+     "punkte": 3,
+     "afb": "III",
+     "loesung": "Steilste Stelle am Rand: $f_a'(0)=10a\\le\\tan30^\\circ\\approx0{,}577\\Rightarrow a\\le0{,}0577$\n\nHöhe: $f_a(5)=25a\\approx1{,}44$ m"
+    },
+    {
+     "id": "W7-d3",
+     "label": "d3",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "**Richtig**, solange die Welle massiv ist (ohne Hohlraum).\n\nHöhe: $h_a=f_a(5)=-25a+50a=25a$; Fläche: $A(a)=\\tfrac{500}{3}a$.\n\nBeide Größen sind proportional zu $a$; wird $a$ halbiert, halbieren sich Höhe **und** Fläche.\n\nBeispiel: $a=0{,}08$: Höhe $2{,}00$ m, $A\\approx13{,}33$ m². $a=0{,}04$: Höhe $1{,}00$ m, $A\\approx6{,}67$ m².\n\nAllgemein: aus $h_a=25a$ folgt $a=\\tfrac{h_a}{25}$ und damit $A=\\tfrac{500}{3}\\cdot\\tfrac{h_a}{25}=\\tfrac{20}{3}h_a$ – die Fläche ist direkt proportional zur Höhe."
+    }
+   ]
+  }
+ ]
 }

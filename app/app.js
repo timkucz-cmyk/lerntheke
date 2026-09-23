@@ -495,6 +495,7 @@ function stationsKopf(station) {
     '<span>' + esc(sozialformText(station.sozialform)) + '</span>' +
     (station.hilfsmittel ? '<span>Hilfsmittel: ' + esc(station.hilfsmittel) + '</span>' : '') +
     '</p>' +
+    (station.hinweis ? '<p class="hinweis">' + markdownZeile(station.hinweis) + '</p>' : '') +
     (bezug.length
       ? '<p class="hinweis">Darum geht es: ' + bezug.map((b) => markdownZeile(b)).join(' · ') + '</p>'
       : '');
@@ -760,7 +761,9 @@ function tandemKontrolle(a, schritt, rolle) {
 function bildHtml(a) {
   if (!a.loesung_bild) return '';
   const bild = new URL(a.loesung_bild, aktuell.ordner).href;
-  return '<img src="' + esc(bild) + '" alt="Lösungsgrafik zu Aufgabe ' + esc(a.label || a.id) + '" loading="lazy">';
+  // Bewusst ohne loading="lazy": Die Grafik erscheint ohnehin erst mit der Lösung,
+  // und im Unterricht soll sie sofort da sein, statt erst beim Scrollen nachzuladen.
+  return '<img src="' + esc(bild) + '" alt="Lösungsgrafik zu Aufgabe ' + esc(a.label || a.id) + '" decoding="async">';
 }
 
 function punkteFuerKontrolle(maxA, kontrolle) {
