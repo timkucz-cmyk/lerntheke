@@ -6,6 +6,8 @@ die Stationen ab, sehen danach die Lösungen, tragen ihre Punkte ein und bekomme
 
 **Neue Inhalte entstehen ausschließlich über Dateien – am Programmcode muss nichts geändert werden.**
 
+**Live: <https://timkucz-cmyk.github.io/lerntheke/>**
+
 - kein Build-Schritt, reines HTML/CSS/JS (ES-Module)
 - läuft auf GitHub Pages
 - keine Serververbindung zur Laufzeit, alle Eingaben bleiben im `localStorage` des Geräts
@@ -30,7 +32,16 @@ python -m http.server 8000
 
 und dann `http://localhost:8000` im Browser.
 
-## 2. Auf GitHub Pages veröffentlichen
+## 2. Veröffentlichen und aktualisieren
+
+Die Seite liegt unter <https://timkucz-cmyk.github.io/lerntheke/>.
+
+**Etwas geändert?** In GitHub Desktop die Änderung committen und auf „Push origin" klicken.
+GitHub Pages baut automatisch neu; nach ein bis zwei Minuten ist der Stand online. Auf den
+iPads reicht danach ein Neuladen der Seite – der Fortschritt der SuS bleibt erhalten, weil er
+im Browser des Geräts liegt und nicht an der Seite hängt.
+
+### Erstmalige Einrichtung (ist erledigt)
 
 1. Repository anlegen und den Inhalt dieses Ordners hineinlegen (`index.html` muss im Wurzelverzeichnis liegen).
 2. Im Repository: **Settings → Pages → Source: Deploy from a branch**, Branch `main`, Ordner `/ (root)`.
