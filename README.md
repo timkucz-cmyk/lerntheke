@@ -221,6 +221,25 @@ zum Aktualisieren siehe `vendor/katex/README.md`.
 Fehlt der Ordner einmal, stürzt nichts ab: Die App erkennt das beim Start und setzt Formeln
 mit einer eingebauten, schlichteren Ersatzdarstellung.
 
+## 6a. Gestaltung
+
+Die App folgt dem **LMG-Unterricht-Design-System** (`Schule/2526/Claude_Design/`):
+
+- **Farben** aus `colors_and_type.css`: warm-neutrales Off-White als Fläche, kühle Grautöne
+  für Text und Linien, Fachakzent Mathematik `#B61E33`, Physik `#2C5282`. Welche Fachfarbe
+  gilt, entscheidet das Feld `fach` im Thema; die App setzt daraus `data-fach` am
+  `<html>`-Element, alles Weitere hängt an CSS-Variablen.
+- **Schrift** Source Sans 3, lokal unter `vendor/fonts/` (siehe dortige README).
+- **Symbole** aus dem Icon-Satz des Design-Systems, als Inline-SVG in `app/icons.js`.
+  Sie erben Farbe und Größe vom Text und sind rein dekorativ – die Bedeutung steht immer
+  auch als Wort daneben.
+- **Dunkelmodus** über `prefers-color-scheme`: eigene, abgedunkelte Tonwerte; die
+  Fachfarben werden aufgehellt, damit der Kontrast stimmt.
+
+Für ein neues Thema muss an der Gestaltung nichts angepasst werden. Soll ein weiteres Fach
+eine eigene Farbe bekommen, genügt ein Block `html[data-fach="…"]` in `app/style.css`
+(hell und dunkel).
+
 ## 7. Datenschutz
 
 - Es werden keinerlei Daten an einen Server geschickt; die App lädt zur Laufzeit nur Dateien
@@ -239,11 +258,13 @@ app/
   app.js                   Ablauf, Ansichten, Auswertung
   store.js                 localStorage, Export/Import
   render.js                Markdown + Mathematik (KaTeX oder Ersatz)
+  icons.js                 Symbole als Inline-SVG
   style.css                Gestaltung, Hell/Dunkel, Druckansicht
 vendor/katex/              lokale KaTeX-Kopie (v0.18.7, gehört mit ins Repo)
+vendor/fonts/              Source Sans 3, lokal (gehört mit ins Repo)
 inhalte/
   katalog.json             Stufen und Themen
-  q1/integralrechnung/     Beispielthema Mathematik
+  q1/integralrechnung/     Integralrechnung Q1 (echtes Material)
   9/stromkreise/           Beispielthema Physik
 tools/
   validate.mjs             Prüfung der Inhalte (Node)

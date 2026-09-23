@@ -6,7 +6,7 @@
 <meta name="color-scheme" content="light dark">
 <meta name="robots" content="noindex">
 <title>Lerntheke</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23B61E33'/%3E%3Cpath d='M4 11.5V4.5h1.6v5.6H9v1.4z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231F4D2A'/%3E%3Cpath d='M4 11.5V4.5h1.6v5.6H9v1.4z' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="app/style.css">
 </head>
 <body>
@@ -14,7 +14,19 @@
 
 <header class="kopf">
   <div class="kopf-innen">
-    <a class="kopf-titel" href="#/" data-nav>Lerntheke</a>
+    <a class="kopf-titel" href="#/" data-nav>
+      <span class="kopf-mark" aria-hidden="true">
+        <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+          <rect width="80" height="80" rx="12" fill="#1F4D2A"></rect>
+          <text x="40" y="48" text-anchor="middle" font-family="inherit" font-weight="600"
+                font-size="22" fill="#ffffff">LMG</text>
+        </svg>
+      </span>
+      <span class="kopf-wort">
+        <b>Lerntheke</b>
+        <span class="kopf-schule">Ludwig-Meyn-Gymnasium</span>
+      </span>
+    </a>
     <nav class="kopf-nav" id="kopfnav" aria-label="Thema"></nav>
   </div>
 </header>

@@ -3,6 +3,7 @@
 
 import * as store from './store.js';
 import { markdown, esc, mathematikVorbereiten } from './render.js';
+import { symbol, sozialformSymbol } from './icons.js';
 
 const BASIS = new URL('../', import.meta.url);
 const INHALTE = new URL('inhalte/', BASIS);
@@ -423,7 +424,7 @@ function ansichtStationen() {
   const diagnoseGemacht = Object.keys(z.diagnose.eingang).length > 0;
 
   let html = '<h1>' + esc(thema.titel || aktuell.katalogEintrag.name) + '</h1>' +
-    '<p class="meta"><span>' + esc(aktuell.stufeName) + '</span><span>' +
+    '<p class="meta meta-reihe"><span>' + esc(aktuell.stufeName) + '</span><span>' +
     esc(thema.fach === 'physik' ? 'Physik' : thema.fach === 'mathe' ? 'Mathematik' : thema.fach || '') + '</span></p>';
 
   if (thema.hinweis) html += '<p class="hinweis">' + markdownZeile(thema.hinweis) + '</p>';
@@ -433,7 +434,8 @@ function ansichtStationen() {
     balkenZeile('Punkte', g.erreicht, g.max) +
     '<p class="meta">' + g.bewertet + ' von ' + g.anzahl + ' Aufgaben ausgewertet</p>' +
     '<div class="btn-reihe">' +
-    '<a class="btn" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '/auswertung">Auswertung</a>' +
+    '<a class="btn" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '/auswertung">' +
+    symbol('ergebnis') + 'Auswertung</a>' +
     '<a class="btn btn-schlicht" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '/diagnose">' +
     (diagnoseGemacht ? 'Selbsteinschätzung ansehen' : 'Selbsteinschätzung starten') + '</a>' +
     '</div></section>';
@@ -445,8 +447,8 @@ function ansichtStationen() {
   const pflicht = thema.stationen.filter((s) => s.typ !== 'wahl');
   const wahl = thema.stationen.filter((s) => s.typ === 'wahl');
 
-  if (pflicht.length) html += '<h2>Pflichtstationen</h2><ul class="liste-blank">' + pflicht.map((s) => stationsKarte(s, z)).join('') + '</ul>';
-  if (wahl.length) html += '<h2>Wahlstationen</h2><ul class="liste-blank">' + wahl.map((s) => stationsKarte(s, z)).join('') + '</ul>';
+  if (pflicht.length) html += '<p class="kicker">Pflichtstationen</p><ul class="liste-blank">' + pflicht.map((s) => stationsKarte(s, z)).join('') + '</ul>';
+  if (wahl.length) html += '<p class="kicker">Wahlstationen</p><ul class="liste-blank">' + wahl.map((s) => stationsKarte(s, z)).join('') + '</ul>';
   if (!thema.stationen.length) html += '<p class="hinweis">Dieses Thema enthält noch keine Stationen.</p>';
 
   zeichne(html);
@@ -463,11 +465,11 @@ function stationsKarte(station, z) {
 
   return '<li><a class="karte karte-link" href="' + pfad + '">' +
     '<div class="karte-kopf"><h3>' + esc(station.id) + ' · ' + esc(station.titel || '') + '</h3>' +
-    (empfohlen ? '<span class="chip chip-empf">empfohlen</span>' : '') + statusChip(status) + '</div>' +
-    '<p class="meta">' +
-    (station.dauer_min ? '<span>' + esc(String(station.dauer_min)) + ' min</span>' : '') +
-    '<span>' + esc(sozialformText(station.sozialform)) + '</span>' +
-    (station.hilfsmittel ? '<span>' + esc(station.hilfsmittel) + '</span>' : '') +
+    (empfohlen ? '<span class="chip chip-empf">' + symbol('empfohlen') + 'empfohlen</span>' : '') + statusChip(status) + '</div>' +
+    '<p class="meta meta-reihe">' +
+    (station.dauer_min ? '<span>' + symbol('dauer') + esc(String(station.dauer_min)) + ' min</span>' : '') +
+    '<span>' + sozialformSymbol(station.sozialform) + esc(sozialformText(station.sozialform)) + '</span>' +
+    (station.hilfsmittel ? '<span>' + symbol('hilfsmittel') + esc(station.hilfsmittel) + '</span>' : '') +
     (tandemOhneRolle
       ? '<span>' + station.aufgaben.length + ' Nummern zu zweit</span>'
       : '<span>' + w.anzahl + ' Aufgabe' + (w.anzahl === 1 ? '' : 'n') +
@@ -489,21 +491,22 @@ function stationsKopf(station) {
 
   return '<p class="meta"><a href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '">← Stationsübersicht</a></p>' +
     '<h1>' + esc(station.id) + ' · ' + esc(station.titel || '') + '</h1>' +
-    '<p class="meta">' +
+    '<p class="meta meta-reihe">' +
     (station.typ === 'wahl' ? '<span>Wahlstation</span>' : '<span>Pflichtstation</span>') +
-    (station.dauer_min ? '<span>' + esc(String(station.dauer_min)) + ' min</span>' : '') +
-    '<span>' + esc(sozialformText(station.sozialform)) + '</span>' +
-    (station.hilfsmittel ? '<span>Hilfsmittel: ' + esc(station.hilfsmittel) + '</span>' : '') +
+    (station.dauer_min ? '<span>' + symbol('dauer') + esc(String(station.dauer_min)) + ' min</span>' : '') +
+    '<span>' + sozialformSymbol(station.sozialform) + esc(sozialformText(station.sozialform)) + '</span>' +
+    (station.hilfsmittel ? '<span>' + symbol('hilfsmittel') + esc(station.hilfsmittel) + '</span>' : '') +
     '</p>' +
     (station.hinweis ? '<p class="hinweis">' + markdownZeile(station.hinweis) + '</p>' : '') +
     (bezug.length
-      ? '<p class="hinweis">Darum geht es: ' + bezug.map((b) => markdownZeile(b)).join(' · ') + '</p>'
+      ? '<p class="meta meta-bezug">Darum geht es: ' + bezug.map((b) => markdownZeile(b)).join(' · ') + '</p>'
       : '');
 }
 
 function pdfKnoepfe(pdfURL) {
   return '<div class="btn-reihe">' +
-    '<a class="btn btn-primaer" href="' + esc(pdfURL) + '" target="_blank" rel="noopener">Arbeitsblatt öffnen</a>' +
+    '<a class="btn btn-primaer" href="' + esc(pdfURL) + '" target="_blank" rel="noopener">' +
+    symbol('arbeitsblatt') + 'Arbeitsblatt öffnen</a>' +
     '<a class="btn" href="' + esc(pdfURL) + '" download>Herunterladen</a>' +
     '</div>';
 }
@@ -599,7 +602,7 @@ function aufgabenKarte(a, z, station, index, istAktiv) {
   html += smileyGruppe('smiley-' + a.id, e.smiley, t('wieSicher'), true) +
     '<p class="meta">' + esc(t('smileyFest')) + '</p>';
 
-  html += '<div class="loesung">' +
+  html += '<div class="loesung"><p class="loesung-marke">' + symbol('loesung') + 'Lösung</p>' +
     (a.loesung ? markdown(a.loesung) : '<p>Für diese Aufgabe ist keine Lösung hinterlegt.</p>') +
     bildHtml(a) + '</div>';
 
@@ -734,7 +737,7 @@ function tandemEigene(a, z, schritt) {
   if (e.kontrolle) {
     html += '<p class="meta">Eingetragen: ' + pkt(grenze(e.punkte || 0, 0, maxA)) + ' von ' + pkt(maxA) +
       ' Punkten. Korrigieren geht über die Knöpfe darüber.</p>' +
-      '<div class="loesung"><p class="meta">Lösung zum Nachlesen:</p>' +
+      '<div class="loesung"><p class="loesung-marke">' + symbol('loesung') + 'Lösung zum Nachlesen</p>' +
       (a.loesung ? markdown(a.loesung) : '<p>Für diese Aufgabe ist keine Lösung hinterlegt.</p>') +
       bildHtml(a) + '</div>';
   }
@@ -749,11 +752,11 @@ function tandemKontrolle(a, schritt, rolle) {
     '<span class="chip">zählt nicht für die eigene Auswertung</span></div>' +
     '<p class="meta">' + esc(t('partnerKarte')) + '</p>' +
     '<div class="aufgabentext">' + (a.aufgabe ? markdown(a.aufgabe) : '<p class="m-fehler">Für diese Nummer fehlt der Aufgabentext.</p>') + '</div>' +
-    '<div class="loesung"><p class="meta">Lösung:</p>' +
+    '<div class="loesung"><p class="loesung-marke">' + symbol('loesung') + 'Lösung</p>' +
     (a.loesung ? markdown(a.loesung) : '<p>Für diese Aufgabe ist keine Lösung hinterlegt.</p>') +
     bildHtml(a) + '</div>' +
     (a.tipp
-      ? '<details class="tipp"><summary>Tipp geben</summary><div class="tipp-inhalt">' + markdown(a.tipp) + '</div></details>'
+      ? '<details class="tipp"><summary>' + symbol('tipp') + 'Tipp geben</summary><div class="tipp-inhalt">' + markdown(a.tipp) + '</div></details>'
       : '<p class="meta">Für diese Nummer ist kein Tipp hinterlegt.</p>') +
     '</article>';
 }
