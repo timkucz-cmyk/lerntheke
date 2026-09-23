@@ -45,6 +45,49 @@
   <p style="padding:1rem">Diese Seite benötigt JavaScript.</p>
 </noscript>
 
+<script>
+/* Klassisches Skript – läuft auch dann, wenn der Browser ES-Module blockiert.
+   Genau das passiert beim Doppelklick auf index.html: Über file:// werden Module
+   und fetch abgewiesen, die App käme sonst nie über "Lade ..." hinaus. */
+(function () {
+  var inhalt = document.getElementById('inhalt');
+
+  function zeige(html) {
+    if (inhalt.querySelector('.laden')) inhalt.innerHTML = html;
+  }
+
+  // Alles außer http(s) heißt: kein Server – also auch keine Module und kein fetch.
+  if (location.protocol !== 'http:' && location.protocol !== 'https:') {
+    zeige(
+      '<h1>Bitte über einen Webserver öffnen</h1>' +
+      '<p class="hinweis hinweis-warn">Diese Seite wurde direkt aus dem Dateisystem geöffnet. ' +
+      'Browser lassen dabei weder Module noch das Laden der Inhalte zu.</p>' +
+      '<p>Zwei Wege:</p>' +
+      '<ul>' +
+      '<li>Im Projektordner <strong>start.cmd</strong> doppelklicken – das startet einen kleinen ' +
+      'Server und öffnet die Lerntheke im Browser.</li>' +
+      '<li>Oder im Projektordner <code>python -m http.server 8000</code> ausführen und ' +
+      '<code>http://localhost:8000</code> aufrufen.</li>' +
+      '</ul>' +
+      '<p class="meta">Auf GitHub Pages tritt das Problem nicht auf – dort läuft die Seite ohnehin über einen Server.</p>'
+    );
+    return;
+  }
+
+  // Sicherheitsnetz: Hat die App nach fünf Sekunden nicht übernommen, steht hier
+  // wenigstens ein Hinweis statt eines ewigen "Lade ...".
+  setTimeout(function () {
+    zeige(
+      '<h1>Die App konnte nicht starten</h1>' +
+      '<p class="hinweis hinweis-warn">Die Programmdateien wurden nicht geladen. ' +
+      'Meist fehlt ein Ordner (<code>app/</code>, <code>inhalte/</code>) oder der Server liefert ' +
+      'die Dateien nicht aus.</p>' +
+      '<p class="meta">Mehr dazu steht in der Konsole des Browsers.</p>'
+    );
+  }, 5000);
+})();
+</script>
+
 <script type="module" src="app/app.js"></script>
 </body>
 </html>

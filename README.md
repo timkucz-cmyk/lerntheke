@@ -13,16 +13,22 @@ die Stationen ab, sehen danach die Lösungen, tragen ihre Punkte ein und bekomme
 
 ---
 
-## 1. Lokal ausprobieren
+## 1. Lokal ansehen
 
-Die App lädt ihre Inhalte per `fetch`. Ein Doppelklick auf `index.html` genügt deshalb **nicht**
-(Browser blockieren das im Dateisystem). Stattdessen im Projektordner einen kleinen Server starten:
+**Doppelklick auf `start.cmd`** – das startet einen kleinen Webserver im Projektordner und öffnet
+die Lerntheke im Browser. Das Fenster offen lassen, beenden mit `Strg + C`.
+
+Ein Doppelklick auf `index.html` funktioniert dagegen **nicht**: Beim Öffnen über `file://`
+blockieren Browser sowohl ES-Module als auch das Laden der Inhalte. Die Seite sagt das
+inzwischen selbst, statt ewig „Lade …“ anzuzeigen.
+
+Wer lieber selbst tippt, erreicht dasselbe mit:
 
 ```bash
 python -m http.server 8000
 ```
 
-Danach im Browser `http://localhost:8000` öffnen. Beenden mit `Strg + C`.
+und dann `http://localhost:8000` im Browser.
 
 ## 2. Auf GitHub Pages veröffentlichen
 
@@ -254,6 +260,7 @@ eine eigene Farbe bekommen, genügt ein Block `html[data-fach="…"]` in `app/st
 
 ```
 index.html                 Einstieg (Stufe → Thema)
+start.cmd                  lokalen Server starten (Doppelklick)
 app/
   app.js                   Ablauf, Ansichten, Auswertung
   store.js                 localStorage, Export/Import
