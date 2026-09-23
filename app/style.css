@@ -510,3 +510,11 @@ details.tipp > summary:focus-visible { outline: 2px solid var(--fach); outline-o
   border-left: 2px solid var(--fach-line);
   color: var(--text-leise);
 }
+
+/* Fach-Kennzeichen tragen ihre Farbe selbst – auf der Startseite gilt noch keine Themenfarbe */
+.chip-mathe  { background: #f5e1e3; color: #6f0f1c; border-color: #e8b8be; }
+.chip-physik { background: #e8eef5; color: #1d3a5c; border-color: #b9c8da; }
+@media (prefers-color-scheme: dark) {
+  .chip-mathe  { background: #33191e; color: #f3b3bd; border-color: #4d2229; }
+  .chip-physik { background: #182633; color: #b6d3f0; border-color: #24384d; }
+}

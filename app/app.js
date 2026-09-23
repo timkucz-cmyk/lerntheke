@@ -272,7 +272,11 @@ function smileyGruppe(name, gewaehlt, frage, gesperrt) {
 
 function fachChip(fach) {
   const name = fach === 'mathe' ? 'Mathematik' : fach === 'physik' ? 'Physik' : fach || '';
-  return name ? '<span class="chip chip-fach">' + esc(name) + '</span>' : '';
+  if (!name) return '';
+  // Eigene Klasse je Fach: Auf der Startseite stehen mehrere Fächer nebeneinander,
+  // dort gilt noch keine Themenfarbe.
+  const klasse = fach === 'mathe' || fach === 'physik' ? ' chip-' + fach : '';
+  return '<span class="chip chip-fach' + klasse + '">' + esc(name) + '</span>';
 }
 
 function statusChip(status) {
