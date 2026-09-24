@@ -119,7 +119,8 @@ git push
   "hinweis": "optionaler Satz, der oben auf der Übersicht steht",
 
   "checkliste": [
-    { "id": "c1", "text": "Waagerechten Wurf in Teilbewegungen zerlegen" }
+    { "id": "c1", "text": "Waagerechten Wurf in Teilbewegungen zerlegen" },
+    { "id": "c2", "text": "Den schiefen Wurf zerlegen", "spaeter": true }   // noch nicht unterrichtet
   ],
 
   "stationen": [
@@ -158,6 +159,11 @@ git push
   Eingangsdiagnose mit 😕 oder 😐 bewertet wurde. Ohne `checkliste`-Bezug funktioniert das nicht.
 - Pflichtstationen stehen in der Übersicht oben, Wahlstationen darunter – jeweils in der
   Reihenfolge aus der Datei.
+- `"spaeter": true` an einem Checklistenpunkt heißt: gehört zum Thema, ist aber noch nicht
+  dran. Der Punkt steht ausgegraut im Lernweg und taucht **nicht** in der Selbsteinschätzung
+  und im Vorher/Nachher-Vergleich auf – man kann nichts einschätzen, was man noch nicht hatte.
+  So lässt sich ein Zwischentraining zeigen, ohne den späteren Stoff zu verschweigen.
+  Sobald das Thema unterrichtet ist, genügt es, das Feld zu entfernen.
 - `bild` ist optional und erscheint als Vorschau auf der Stationskachel. Am besten eine
   schlichte SVG-Skizze im Format 16:7, die zeigt, worum es geht – idealerweise dieselbe
   Abbildung, die die Klasse aus dem Unterricht kennt. Fehlt das Feld, steht dort das

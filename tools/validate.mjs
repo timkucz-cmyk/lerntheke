@@ -155,10 +155,15 @@ async function pruefeThema(stufeId, themaId) {
   if (!['du', 'sie'].includes(th.anrede)) f(ort, '"anrede" muss "du" oder "sie" sein');
 
   const checklistenIds = new Set();
+  const spaeterIds = new Set();
   for (const c of th.checkliste || []) {
     if (!istText(c.id) || !istText(c.text)) { f(ort, 'Checklistenpunkt braucht "id" und "text"'); continue; }
     if (checklistenIds.has(c.id)) f(ort, 'doppelte Checklisten-ID: ' + c.id);
     checklistenIds.add(c.id);
+    if (c.spaeter !== undefined) {
+      if (typeof c.spaeter !== 'boolean') f(ort, '"spaeter" bei ' + c.id + ' muss true oder false sein');
+      else if (c.spaeter) spaeterIds.add(c.id);
+    }
   }
   if (checklistenIds.size === 0) w(ort, 'keine Checkliste – die Selbstdiagnose entfällt');
 
@@ -198,7 +203,11 @@ async function pruefeThema(stufeId, themaId) {
   const benutzt = new Set();
   for (const st of th.stationen) for (const ref of st.checkliste || []) benutzt.add(ref);
   for (const id of checklistenIds) {
+    if (spaeterIds.has(id)) continue;   // noch nicht unterrichtet, dafür gibt es absichtlich keine Station
     if (!benutzt.has(id)) w(ort, 'Checklistenpunkt "' + id + '" wird von keiner Station abgedeckt');
+  }
+  for (const id of spaeterIds) {
+    if (benutzt.has(id)) w(ort, 'Checklistenpunkt "' + id + '" ist als "spaeter" markiert, gehört aber zu einer Station');
   }
 }
 

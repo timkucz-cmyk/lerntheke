@@ -32,8 +32,23 @@
    "text": "Integrale in Sachzusammenhängen deuten (Änderungsrate und Bestand)"
   },
   {
+   "id": "c8",
+   "text": "Das Integral zur Bestimmung von Mittelwerten nutzen",
+   "spaeter": true
+  },
+  {
    "id": "c9",
    "text": "Graphen grafisch integrieren und ableiten"
+  },
+  {
+   "id": "c10",
+   "text": "Die Integrationsregeln Additivität und Linearität anwenden",
+   "spaeter": true
+  },
+  {
+   "id": "c11",
+   "text": "Integralfunktionen mit variabler oberer Grenze untersuchen",
+   "spaeter": true
   }
  ],
  "phasen": [
@@ -57,7 +72,8 @@
    "checkliste": [
     "c5",
     "c6",
-    "c7"
+    "c7",
+    "c8"
    ]
   },
   {
@@ -66,7 +82,9 @@
    "untertitel": "Graphisch denken",
    "farbe": "gruen",
    "checkliste": [
-    "c9"
+    "c9",
+    "c10",
+    "c11"
    ]
   }
  ],

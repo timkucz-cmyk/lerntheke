@@ -728,3 +728,11 @@ details.tipp > summary:focus-visible { outline: 2px solid var(--fach); outline-o
 @media print {
   .lernweg { grid-template-columns: 1fr; }
 }
+
+/* Noch nicht unterrichtet: sichtbar, aber zurückgenommen */
+.phase-ziele .ist-spaeter { opacity: .55; }
+.chip-spaeter {
+  background: transparent; border-style: dashed;
+  color: var(--text-leise); font-weight: 600;
+  padding: .05em .45em; margin-left: .2em;
+}

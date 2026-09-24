@@ -182,6 +182,7 @@ def pruefe_thema(stufe_id, thema_id):
         f(ort, '"anrede" muss "du" oder "sie" sein')
 
     checklisten_ids = set()
+    spaeter_ids = set()
     for c in th.get("checkliste") or []:
         if not ist_text(c.get("id")) or not ist_text(c.get("text")):
             f(ort, 'Checklistenpunkt braucht "id" und "text"')
@@ -189,6 +190,11 @@ def pruefe_thema(stufe_id, thema_id):
         if c["id"] in checklisten_ids:
             f(ort, "doppelte Checklisten-ID: %s" % c["id"])
         checklisten_ids.add(c["id"])
+        if "spaeter" in c:
+            if not isinstance(c["spaeter"], bool):
+                f(ort, '"spaeter" bei %s muss true oder false sein' % c["id"])
+            elif c["spaeter"]:
+                spaeter_ids.add(c["id"])
     if not checklisten_ids:
         w(ort, "keine Checkliste - die Selbstdiagnose entfaellt")
 
@@ -232,8 +238,12 @@ def pruefe_thema(stufe_id, thema_id):
         for ref in st.get("checkliste") or []:
             benutzt.add(ref)
     for cid in sorted(checklisten_ids):
+        if cid in spaeter_ids:
+            continue  # noch nicht unterrichtet, dafuer gibt es absichtlich keine Station
         if cid not in benutzt:
             w(ort, 'Checklistenpunkt "%s" wird von keiner Station abgedeckt' % cid)
+    for cid in sorted(spaeter_ids & benutzt):
+        w(ort, 'Checklistenpunkt "%s" ist als "spaeter" markiert, gehoert aber zu einer Station' % cid)
 
 
 def main():

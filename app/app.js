@@ -172,6 +172,11 @@ function eintrag(z, id) {
   return z.aufgaben[id] || { bearbeitet: false, smiley: null, punkte: null, kontrolle: null };
 }
 
+/** Checklistenpunkte, die schon unterrichtet sind – nur die lassen sich einschätzen. */
+function aktiveCheckliste(thema) {
+  return (thema.checkliste || []).filter((c) => c.spaeter !== true);
+}
+
 function istTandem(station) {
   return station.sozialform === 'tandem';
 }
@@ -436,7 +441,7 @@ function speichereZustand() {
 function ansichtDiagnose() {
   kopfSetzen(true);
   const z = aktuell.zustand;
-  const punkte = aktuell.thema.checkliste;
+  const punkte = aktiveCheckliste(aktuell.thema);
   let html = '<h1>Selbsteinschätzung</h1><p>' + esc(t('diagnoseIntro')) + '</p>';
 
   if (!punkte.length) {
@@ -493,7 +498,7 @@ function ansichtStationen() {
 
   html += lernwegKarte(thema, z);
 
-  if (!diagnoseGemacht && thema.checkliste.length) {
+  if (!diagnoseGemacht && aktiveCheckliste(thema).length) {
     html += '<p class="hinweis">Noch keine Selbsteinschätzung. Sie hilft dabei, die passenden Wahlstationen zu erkennen.</p>';
   }
 
@@ -551,6 +556,10 @@ function lernwegKarte(thema, z) {
       (p.untertitel ? '<span class="phase-unter">' + esc(p.untertitel) + '</span>' : '') +
       '</span></p>' +
       '<ul class="phase-ziele">' + punkte.map((c) => {
+        if (c.spaeter) {
+          return '<li class="ist-spaeter"><span class="phase-punkt"></span>' +
+            markdownZeile(c.text) + '<span class="chip chip-spaeter">später</span></li>';
+        }
         const stufe = z.diagnose.eingang[c.id];
         return '<li>' + (stufe ? gesicht(stufe) : '<span class="phase-punkt"></span>') +
           markdownZeile(c.text) + '</li>';
@@ -978,9 +987,10 @@ function kalibrierungsKarte(thema, z) {
 }
 
 function ausgangsKarte(thema, z) {
-  if (!thema.checkliste.length) return '';
+  const punkte = aktiveCheckliste(thema);
+  if (!punkte.length) return '';
   let html = '<section class="karte"><h2>Selbsteinschätzung danach</h2>';
-  for (const c of thema.checkliste) {
+  for (const c of punkte) {
     html += '<div class="ausgang-punkt"><p class="ausgang-text">' + markdownZeile(c.text) + '</p>' +
       skala({
         feld: 'ausgang-' + c.id,
@@ -993,7 +1003,7 @@ function ausgangsKarte(thema, z) {
 
   html += '<h3>Vorher / Nachher</h3><div class="tab-umbruch"><table class="tab"><thead><tr>' +
     '<th>Kompetenz</th><th>vorher</th><th>nachher</th></tr></thead><tbody>';
-  for (const c of thema.checkliste) {
+  for (const c of punkte) {
     html += '<tr><td>' + markdownZeile(c.text) + '</td>' +
       '<td data-vorher="' + esc(c.id) + '">' + stufeZelle(z.diagnose.eingang[c.id]) + '</td>' +
       '<td data-nachher="' + esc(c.id) + '">' + stufeZelle(z.diagnose.ausgang[c.id]) + '</td></tr>';
