@@ -3,16 +3,35 @@
 
 import * as store from './store.js';
 import { markdown, esc, mathematikVorbereiten } from './render.js';
-import { symbol, sozialformSymbol, gesicht, skalaPunkt } from './icons.js';
+import { symbol, sozialformSymbol, gesicht } from './icons.js';
 
 const BASIS = new URL('../', import.meta.url);
 const INHALTE = new URL('inhalte/', BASIS);
 
-const SMILEYS = [
-  { id: 'unsicher', wort: 'unsicher' },
-  { id: 'teils', wort: 'teils' },
-  { id: 'sicher', wort: 'sicher' }
+/* Die Skala läuft von 1 (unsicher) bis 5 (sicher). Sichtbar ist ein Farbverlauf;
+   in welchen der fünf Bereiche die Nadel fällt, zeigt erst der Vorher/Nachher-Vergleich. */
+const STUFEN = [
+  { n: 1, wort: 'sehr unsicher' },
+  { n: 2, wort: 'eher unsicher' },
+  { n: 3, wort: 'mittel' },
+  { n: 4, wort: 'eher sicher' },
+  { n: 5, wort: 'sehr sicher' }
 ];
+
+/** Lage der Nadel (0 bis 100) zur Stufe 1 bis 5. */
+function stufeAusLage(lage) {
+  return grenze(Math.floor(lage / 20) + 1, 1, 5);
+}
+
+/** Mitte des Bereichs – für Stände ohne gespeicherte Nadelposition. */
+function lageAusStufe(stufe) {
+  return (grenze(stufe, 1, 5) - 1) * 20 + 10;
+}
+
+function stufenWort(stufe) {
+  const st = STUFEN.find((x) => x.n === Number(stufe));
+  return st ? st.wort : '';
+}
 
 const TEXTE = {
   diagnoseIntro: {
@@ -235,12 +254,12 @@ function kalibrierung(thema, z) {
   for (const { station: st, aufgabe: a } of gesamtWerteAufgaben(thema, z)) {
     const e = eintrag(z, a.id);
     const maxA = Number(a.punkte) || 0;
-    if (!e.smiley || e.punkte === null || e.punkte === undefined || maxA <= 0) continue;
+    if (!e.stufe || e.punkte === null || e.punkte === undefined || maxA <= 0) continue;
     const quote = grenze(e.punkte, 0, maxA) / maxA;
     let urteil = 'passend';
-    if (e.smiley === 'sicher' && quote < 0.5) urteil = 'ueberschaetzt';
-    else if (e.smiley === 'unsicher' && quote >= 0.8) urteil = 'unterschaetzt';
-    zeilen.push({ station: st, aufgabe: a, smiley: e.smiley, punkte: grenze(e.punkte, 0, maxA), max: maxA, quote, urteil });
+    if (e.stufe >= 4 && quote < 0.5) urteil = 'ueberschaetzt';
+    else if (e.stufe <= 2 && quote >= 0.8) urteil = 'unterschaetzt';
+    zeilen.push({ station: st, aufgabe: a, stufe: e.stufe, punkte: grenze(e.punkte, 0, maxA), max: maxA, quote, urteil });
   }
   return zeilen;
 }
@@ -259,28 +278,39 @@ function balkenZeile(beschriftung, erreicht, max) {
 }
 
 /**
- * Dreistufige Skala: außen das unzufriedene (rot) und das lachende Gesicht (grün),
- * in der Mitte ein Punkt. Die Wörter bleiben für Screenreader erhalten.
+ * Farbverlauf mit Pinnadel. Angetippt wird irgendwo auf der Bahn; die fünf Bereiche
+ * dahinter bleiben unsichtbar und tauchen erst im Vorher/Nachher-Vergleich auf.
+ * Technisch ein Schieberegler – damit funktionieren Finger, Maus und Tastatur ohne Zutun.
+ *
+ * o = { feld, stufe, lage, frage, label, gesperrt }
  */
-function smileyGruppe(name, gewaehlt, frage, gesperrt) {
-  const s = SMILEYS.map((sm) => {
-    const id = name + '-' + sm.id;
-    const marke = sm.id === 'teils' ? skalaPunkt() : gesicht(sm.id);
-    return '<label class="skala-stufe stufe-' + sm.id + (gesperrt ? ' ist-fest' : '') + '">' +
-      '<input type="radio" name="' + esc(name) + '" id="' + esc(id) + '" value="' + sm.id + '"' +
-      (gewaehlt === sm.id ? ' checked' : '') + (gesperrt ? ' disabled' : '') + '>' +
-      marke + '<span class="nur-vorlesen">' + sm.wort + '</span></label>';
-  }).join('');
-  return '<fieldset class="skala-gruppe"><legend>' + esc(frage) + '</legend>' +
-    '<div class="skala">' + s + '</div></fieldset>';
+function skala(o) {
+  const hatWert = o.stufe !== null && o.stufe !== undefined;
+  const lage = hatWert ? (o.lage === null || o.lage === undefined ? lageAusStufe(o.stufe) : o.lage) : 50;
+  const wort = hatWert ? stufenWort(o.stufe) : 'noch nicht eingeschätzt';
+
+  return '<fieldset class="skala-gruppe" data-skalafeld="' + esc(o.feld) + '"' +
+    (o.frage ? '' : ' aria-label="' + esc(o.label || 'Selbsteinschätzung') + '"') + '>' +
+    (o.frage ? '<legend>' + esc(o.frage) + '</legend>' : '') +
+    '<div class="skala-feld' + (hatWert ? '' : ' ist-leer') + (o.gesperrt ? ' ist-fest' : '') + '">' +
+    '<span class="skala-rand stufe-1">' + gesicht(1) + '</span>' +
+    '<span class="skala-bahn">' +
+    '<input type="range" min="0" max="100" step="1" value="' + Math.round(lage) + '"' +
+    ' data-skala="' + esc(o.feld) + '"' +
+    (o.gesperrt ? ' disabled' : '') +
+    ' aria-label="' + esc(o.frage || o.label || 'Selbsteinschätzung') + '"' +
+    ' aria-valuetext="' + esc(wort) + '">' +
+    '</span>' +
+    '<span class="skala-rand stufe-5">' + gesicht(5) + '</span>' +
+    '</div></fieldset>';
 }
 
 /** Gesicht mit Wort – für Tabellen und Rückblicke. */
-function stufeZelle(id) {
-  const sm = SMILEYS.find((x) => x.id === id);
-  if (!sm) return '<span class="meta">–</span>';
-  return '<span class="stufe-zelle">' + gesicht(sm.id) +
-    '<span class="stufe-wort">' + esc(sm.wort) + '</span></span>';
+function stufeZelle(stufe) {
+  const n = Number(stufe);
+  if (!n || !STUFEN.some((x) => x.n === n)) return '<span class="meta">–</span>';
+  return '<span class="stufe-zelle">' + gesicht(n) +
+    '<span class="stufe-wort">' + esc(stufenWort(n)) + '</span></span>';
 }
 
 function fachChip(fach) {
@@ -414,8 +444,12 @@ function ansichtDiagnose() {
   }
   for (const c of punkte) {
     html += '<section class="karte"><h2>' + markdownZeile(c.text) + '</h2>' +
-      smileyGruppe('eingang-' + c.id, z.diagnose.eingang[c.id], t('wieSicherJetzt'), false)
-        .replace('<fieldset', '<fieldset data-diagnose="eingang" data-id="' + esc(c.id) + '"') +
+      skala({
+        feld: 'eingang-' + c.id,
+        stufe: z.diagnose.eingang[c.id],
+        lage: z.diagnoseLage.eingang[c.id],
+        frage: t('wieSicherJetzt')
+      }).replace('<fieldset', '<fieldset data-diagnose="eingang" data-id="' + esc(c.id) + '"') +
       '</section>';
   }
 
@@ -581,7 +615,7 @@ function ansichtStation(stationId) {
 
   const naechsteOffen = station.aufgaben.find((a) => {
     const e = eintrag(z, a.id);
-    return !(e.bearbeitet && e.smiley && e.punkte !== null);
+    return !(e.bearbeitet && e.stufe && e.punkte !== null);
   });
 
   html += station.aufgaben.map((a, i) => aufgabenKarte(a, z, station, i, naechsteOffen && naechsteOffen.id === a.id)).join('');
@@ -597,7 +631,7 @@ function ansichtStation(stationId) {
 function aufgabenKarte(a, z, station, index, istAktiv) {
   const e = eintrag(z, a.id);
   const maxA = Number(a.punkte) || 0;
-  const fertig = e.bearbeitet && e.smiley && e.punkte !== null;
+  const fertig = e.bearbeitet && e.stufe && e.punkte !== null;
   const klassen = 'karte aufgabe' + (fertig ? ' fertig' : istAktiv ? ' aktiv' : '');
 
   // Der Haken sitzt rechts in der Kopfzeile: Bei zehn Aufgaben auf einer Seite
@@ -619,13 +653,13 @@ function aufgabenKarte(a, z, station, index, istAktiv) {
 
   if (!e.bearbeitet) return html + '</article>';
 
-  if (!e.smiley) {
-    html += smileyGruppe('smiley-' + a.id, null, t('wieSicher'), false)
-      .replace('<fieldset', '<fieldset data-smiley="' + esc(a.id) + '"');
+  if (!e.stufe) {
+    html += skala({ feld: 'stufe-' + a.id, stufe: null, lage: null, frage: t('wieSicher') })
+      .replace('<fieldset', '<fieldset data-stufe="' + esc(a.id) + '"');
     return html + '</article>';
   }
 
-  html += smileyGruppe('smiley-' + a.id, e.smiley, t('wieSicher'), true) +
+  html += skala({ feld: 'stufe-' + a.id, stufe: e.stufe, lage: e.lage, frage: t('wieSicher'), gesperrt: true }) +
     '<p class="meta">' + esc(t('smileyFest')) + '</p>';
 
   html += '<div class="loesung"><p class="loesung-marke">' + symbol('loesung') + 'Lösung</p>' +
@@ -641,12 +675,6 @@ function aufgabenKarte(a, z, station, index, istAktiv) {
     '<button type="button" class="btn" data-aktion="punkte-plus" data-id="' + esc(a.id) + '" aria-label="Halben Punkt hinzufügen">+</button>' +
     '<span class="max">von ' + pkt(maxA) + '</span>' +
     '</div>';
-
-  const naechste = station.aufgaben[index + 1];
-  if (naechste) {
-    html += '<div class="btn-reihe"><button type="button" class="btn btn-primaer" data-aktion="naechste" data-ziel="' +
-      esc(naechste.id) + '">Nächste Aufgabe</button></div>';
-  }
 
   return html + '</article>';
 }
@@ -743,12 +771,12 @@ function tandemEigene(a, z, schritt) {
       '</div></article>';
   }
 
-  if (!e.smiley) {
-    return html + smileyGruppe('smiley-' + a.id, null, t('wieSicher'), false)
-      .replace('<fieldset', '<fieldset data-smiley="' + esc(a.id) + '"') + '</article>';
+  if (!e.stufe) {
+    return html + skala({ feld: 'stufe-' + a.id, stufe: null, lage: null, frage: t('wieSicher') })
+      .replace('<fieldset', '<fieldset data-stufe="' + esc(a.id) + '"') + '</article>';
   }
 
-  html += smileyGruppe('smiley-' + a.id, e.smiley, t('wieSicher'), true);
+  html += skala({ feld: 'stufe-' + a.id, stufe: e.stufe, lage: e.lage, frage: t('wieSicher'), gesperrt: true });
 
   html += '<p style="margin:.9rem 0 .4rem"><strong>' + esc(t('kontrolleFrage')) + '</strong></p>' +
     '<div class="btn-reihe" role="group" aria-label="' + esc(t('kontrolleFrage')) + '">' +
@@ -866,7 +894,7 @@ function kalibrierungsKarte(thema, z) {
     const urteilText = r.urteil === 'ueberschaetzt' ? 'überschätzt'
       : r.urteil === 'unterschaetzt' ? 'unterschätzt' : 'passend';
     html += '<tr><td>' + esc(r.station.id) + ' · ' + esc(r.aufgabe.label || r.aufgabe.id) + '</td>' +
-      '<td>' + stufeZelle(r.smiley) + '</td>' +
+      '<td>' + stufeZelle(r.stufe) + '</td>' +
       '<td class="zahl">' + pkt(r.punkte) + ' / ' + pkt(r.max) + '</td>' +
       '<td>' + esc(urteilText) + '</td></tr>';
   }
@@ -875,13 +903,15 @@ function kalibrierungsKarte(thema, z) {
 
 function ausgangsKarte(thema, z) {
   if (!thema.checkliste.length) return '';
-  let html = '<section class="karte"><h2>Selbsteinschätzung danach</h2><p>' + esc(t('ausgangIntro')) + '</p>';
+  let html = '<section class="karte"><h2>Selbsteinschätzung danach</h2>';
   for (const c of thema.checkliste) {
-    const vorher = z.diagnose.eingang[c.id];
-    html += '<div style="margin:.9rem 0 1.2rem"><p style="margin-bottom:.2rem"><strong>' + markdownZeile(c.text) + '</strong></p>' +
-      '<p class="meta">vorher: ' + (vorher ? stufeZelle(vorher) : 'nicht eingeschätzt') + '</p>' +
-      smileyGruppe('ausgang-' + c.id, z.diagnose.ausgang[c.id], t('wieSicherJetzt'), false)
-        .replace('<fieldset', '<fieldset data-diagnose="ausgang" data-id="' + esc(c.id) + '"') +
+    html += '<div class="ausgang-punkt"><p class="ausgang-text">' + markdownZeile(c.text) + '</p>' +
+      skala({
+        feld: 'ausgang-' + c.id,
+        stufe: z.diagnose.ausgang[c.id],
+        lage: z.diagnoseLage.ausgang[c.id],
+        label: 'Einschätzung: ' + c.text
+      }).replace('<fieldset', '<fieldset data-diagnose="ausgang" data-id="' + esc(c.id) + '"') +
       '</div>';
   }
 
@@ -926,6 +956,48 @@ function setzePunkte(id, wert) {
   const e = z.aufgaben[id] || (z.aufgaben[id] = { bearbeitet: true, smiley: null, punkte: null });
   e.punkte = wert === null ? null : grenze(Math.round(wert * 2) / 2, 0, maxA);
   speichereZustand();
+}
+
+/**
+ * Übernimmt die Position der Nadel: Stufe 1 bis 5 plus die genaue Lage,
+ * damit die Nadel später wieder dort steht, wo sie gesetzt wurde.
+ */
+function uebernimmSkala(regler) {
+  const lage = grenze(Number(regler.value), 0, 100);
+  const stufe = stufeAusLage(lage);
+  const feld = regler.closest('.skala-feld');
+  if (feld) feld.classList.remove('ist-leer');
+  regler.setAttribute('aria-valuetext', stufenWort(stufe));
+
+  const gruppeAufgabe = regler.closest('[data-stufe]');
+  if (gruppeAufgabe) {
+    const id = gruppeAufgabe.dataset.stufe;
+    const z = aktuell.zustand;
+    const e = z.aufgaben[id] ||
+      (z.aufgaben[id] = { bearbeitet: true, stufe: null, lage: null, punkte: null, kontrolle: null });
+    if (e.stufe) return;   // einmal gesetzt, bleibt die Einschätzung stehen
+    e.stufe = stufe;
+    e.lage = lage;
+    speichereZustand();
+    route().then(() => {
+      const karte = document.getElementById('a-' + id);
+      if (karte) karte.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    });
+    return;
+  }
+
+  const gruppeDiagnose = regler.closest('[data-diagnose]');
+  if (gruppeDiagnose) {
+    const phase = gruppeDiagnose.dataset.diagnose;
+    const punktId = gruppeDiagnose.dataset.id;
+    aktuell.zustand.diagnose[phase][punktId] = stufe;
+    aktuell.zustand.diagnoseLage[phase][punktId] = lage;
+    speichereZustand();
+    // Die Vorher/Nachher-Tabelle steht auf derselben Seite und zieht sofort mit.
+    const spalte = phase === 'eingang' ? 'vorher' : 'nachher';
+    const zelle = document.querySelector('[data-' + spalte + '="' + punktId + '"]');
+    if (zelle) zelle.innerHTML = stufeZelle(stufe);
+  }
 }
 
 /** Stations-ID aus der aktuellen Adresse, z. B. #/t/q1/thema/s/T1 → "T1". */
@@ -983,6 +1055,14 @@ function aktionenVerdrahten() {
   const main = $('#inhalt');
 
   main.addEventListener('click', (ev) => {
+    // Tippt jemand genau auf die verborgene Nadel, ändert sich der Wert nicht
+    // und es gibt kein input-Ereignis. Dieser Klick setzt sie trotzdem.
+    const leereSkala = ev.target.closest('.skala-feld.ist-leer');
+    if (leereSkala) {
+      const regler = leereSkala.querySelector('[data-skala]');
+      if (regler && !regler.disabled) { uebernimmSkala(regler); return; }
+    }
+
     const el = ev.target.closest('[data-aktion]');
     if (!el) return;
     const aktion = el.dataset.aktion;
@@ -1010,16 +1090,6 @@ function aktionenVerdrahten() {
       const e = eintrag(aktuell.zustand, id);
       if (feld) feld.value = e.punkte === null ? '' : pkt(e.punkte);
       aktualisiereKartenKopf(id);
-      return;
-    }
-
-    if (aktion === 'naechste') {
-      const ziel = document.getElementById('a-' + el.dataset.ziel);
-      if (ziel) {
-        ziel.scrollIntoView({ block: 'start', behavior: 'smooth' });
-        const knopf = ziel.querySelector('button, input[type="radio"]');
-        if (knopf) knopf.focus({ preventScroll: true });
-      }
       return;
     }
 
@@ -1086,34 +1156,7 @@ function aktionenVerdrahten() {
       return;
     }
 
-    const feldSmiley = ziel.closest('[data-smiley]');
-    if (feldSmiley && ziel.type === 'radio') {
-      const id = feldSmiley.dataset.smiley;
-      const z = aktuell.zustand;
-      const e = z.aufgaben[id] || (z.aufgaben[id] = { bearbeitet: true, smiley: null, punkte: null });
-      if (!e.smiley) {
-        e.smiley = ziel.value;
-        speichereZustand();
-        route().then(() => {
-          const karte = document.getElementById('a-' + id);
-          if (!karte) return;
-          karte.scrollIntoView({ block: 'start', behavior: 'smooth' });
-        });
-      }
-      return;
-    }
-
-    const feldDiagnose = ziel.closest('[data-diagnose]');
-    if (feldDiagnose && ziel.type === 'radio') {
-      const phase = feldDiagnose.dataset.diagnose;
-      const punktId = feldDiagnose.dataset.id;
-      aktuell.zustand.diagnose[phase][punktId] = ziel.value;
-      speichereZustand();
-      // Die Vorher/Nachher-Tabelle steht auf derselben Seite und soll sofort mitziehen.
-      const zelle = main.querySelector('[data-' + phase.replace('eingang', 'vorher').replace('ausgang', 'nachher') + '="' + punktId + '"]');
-      if (zelle) zelle.innerHTML = stufeZelle(ziel.value);
-      return;
-    }
+    if (ziel.matches('[data-skala]')) { uebernimmSkala(ziel); return; }
 
     if (ziel.matches('[data-punkte]')) {
       const id = ziel.dataset.punkte;
@@ -1132,6 +1175,13 @@ function aktionenVerdrahten() {
     if (ev.target.matches('[data-name]')) {
       aktuell.zustand.name = ev.target.value.slice(0, 80);
       speichereZustand();
+      return;
+    }
+    if (ev.target.matches('[data-skala]')) {
+      // Beim Ziehen nur die Nadel zeigen; gespeichert wird erst beim Loslassen.
+      const feld = ev.target.closest('.skala-feld');
+      if (feld) feld.classList.remove('ist-leer');
+      ev.target.setAttribute('aria-valuetext', stufenWort(stufeAusLage(Number(ev.target.value))));
     }
   });
 }

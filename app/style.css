@@ -75,10 +75,12 @@
 
   --lmg-gruen: #1F4D2A;
 
-  /* Skala der Selbsteinschätzung */
-  --skala-rot: #B61E33;
-  --skala-gelb: #B8860B;
-  --skala-gruen: #3F6E3A;
+  /* Skala der Selbsteinschätzung: fünf Stufen von unsicher nach sicher */
+  --stufe-1: #B61E33;
+  --stufe-2: #C8552B;
+  --stufe-3: #B8860B;
+  --stufe-4: #6E8C2A;
+  --stufe-5: #3F6E3A;
 
   /* Schrift */
   --font-sans: 'Source Sans 3', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
@@ -137,9 +139,11 @@ html[data-fach="physik"] {
     --warn-line: #4a3d22;
     --warn-ink: #e8c98a;
 
-    --skala-rot: #E8677D;
-    --skala-gelb: #E0B14A;
-    --skala-gruen: #6FBF78;
+    --stufe-1: #E8677D;
+    --stufe-2: #E8905A;
+    --stufe-3: #E0B14A;
+    --stufe-4: #A7C368;
+    --stufe-5: #6FBF78;
 
     --schatten: none;
     --schatten-2: none;
@@ -303,46 +307,70 @@ main {
   .btn-primaer { color: #14161a; }
 }
 
-/* ---------- Selbsteinschätzung als dreistufige Skala ---------- */
+/* ---------- Selbsteinschätzung: Farbverlauf mit Pinnadel ---------- */
 .skala-gruppe { border: 0; margin: .7rem 0 0; padding: 0; }
 .skala-gruppe legend {
   padding: 0; font-weight: 600; font-size: var(--fs-sm);
-  color: var(--text); margin-bottom: .45rem;
+  color: var(--text); margin-bottom: .5rem;
 }
-.skala {
-  display: inline-flex; align-items: stretch;
-  border: 1px solid var(--linie-2); border-radius: 999px;
-  background: var(--flaeche); overflow: hidden;
-}
-.skala-stufe {
-  position: relative; display: inline-flex; align-items: center; justify-content: center;
-  min-width: 64px; min-height: var(--tap); padding: .3rem .6rem;
-  cursor: pointer; opacity: .78;
-}
-.skala-stufe + .skala-stufe { border-left: 1px solid var(--linie); }
-.skala-stufe input { position: absolute; opacity: 0; width: 1px; height: 1px; }
-.skala-stufe:hover { opacity: 1; }
-.skala-stufe:has(input:checked) {
-  opacity: 1;
-  background: color-mix(in srgb, currentColor 15%, var(--flaeche));
-  box-shadow: inset 0 0 0 2px currentColor;
-}
-.skala-stufe:has(input:focus-visible) { outline: 2px solid var(--fach); outline-offset: -2px; }
-.skala-stufe:has(input:disabled) { cursor: default; }
-/* Der Ring soll der runden Form der Skala folgen */
-.skala-stufe:first-child { border-radius: 999px 0 0 999px; }
-.skala-stufe:last-child { border-radius: 0 999px 999px 0; }
-/* Festgelegte Einschätzung: die nicht gewählten Stufen treten zurück */
-.skala-gruppe:has(input:disabled) .skala-stufe:not(:has(input:checked)) { opacity: .3; }
 
-/* Gesichter: außen rot und grün, in der Mitte ein gelber Punkt */
-.gesicht { width: 1.22rem; height: 1.22rem; display: block; }
-.stufe-unsicher { color: var(--skala-rot); }
-.stufe-teils { color: var(--skala-gelb); }
-.stufe-sicher { color: var(--skala-gruen); }
+.skala-feld { display: flex; align-items: center; gap: .6rem; max-width: 26rem; }
+.skala-rand { flex: none; display: block; }
+.skala-rand .gesicht { width: 1.35rem; height: 1.35rem; }
+
+/* Die Bahn zeigt den Verlauf; der Regler darüber ist unsichtbar und fängt die Finger ab. */
+.skala-bahn {
+  position: relative; flex: 1 1 auto; height: 12px; border-radius: 999px;
+  background: linear-gradient(90deg,
+    var(--stufe-1) 0%, var(--stufe-2) 25%, var(--stufe-3) 50%, var(--stufe-4) 75%, var(--stufe-5) 100%);
+  box-shadow: inset 0 0 0 1px rgba(20, 22, 25, .12);
+}
+.skala-bahn input[type="range"] {
+  position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%);
+  width: 100%; height: var(--tap); margin: 0;
+  background: transparent; -webkit-appearance: none; appearance: none; cursor: pointer;
+}
+.skala-bahn input[type="range"]:focus { outline: none; }
+.skala-bahn input[type="range"]::-webkit-slider-runnable-track { height: var(--tap); background: transparent; }
+.skala-bahn input[type="range"]::-moz-range-track { height: var(--tap); background: transparent; }
+
+/* Die Pinnadel */
+.skala-bahn input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none;
+  width: 12px; height: 28px; border-radius: 6px;
+  background: var(--text); border: 2px solid var(--flaeche);
+  box-shadow: 0 1px 3px rgba(20, 22, 25, .4);
+  margin-top: calc((var(--tap) - 28px) / 2);
+}
+.skala-bahn input[type="range"]::-moz-range-thumb {
+  width: 12px; height: 28px; border-radius: 6px;
+  background: var(--text); border: 2px solid var(--flaeche);
+  box-shadow: 0 1px 3px rgba(20, 22, 25, .4);
+}
+.skala-feld.ist-leer .skala-bahn input[type="range"]::-webkit-slider-thumb { opacity: 0; }
+.skala-feld.ist-leer .skala-bahn input[type="range"]::-moz-range-thumb { opacity: 0; }
+.skala-bahn input[type="range"]:focus-visible::-webkit-slider-thumb { outline: 2px solid var(--fach); outline-offset: 2px; }
+.skala-bahn input[type="range"]:focus-visible::-moz-range-thumb { outline: 2px solid var(--fach); outline-offset: 2px; }
+
+/* Noch nichts gesetzt: Der Verlauf tritt zurück und lädt zum Tippen ein. */
+.skala-feld.ist-leer .skala-bahn { opacity: .55; }
+.skala-feld.ist-fest .skala-bahn input[type="range"] { cursor: default; }
+.skala-feld.ist-fest .skala-bahn { opacity: .9; }
+
+/* Gesichter: fünf Stufen von rot nach grün */
+.gesicht { width: 1.2rem; height: 1.2rem; display: block; }
+.stufe-1 { color: var(--stufe-1); }
+.stufe-2 { color: var(--stufe-2); }
+.stufe-3 { color: var(--stufe-3); }
+.stufe-4 { color: var(--stufe-4); }
+.stufe-5 { color: var(--stufe-5); }
 
 .stufe-zelle { display: inline-flex; align-items: center; gap: .4em; white-space: nowrap; color: var(--text-2); }
 .stufe-zelle .gesicht { width: 1.1rem; height: 1.1rem; }
+
+/* Auswertung: Unterthema plus Skala, sonst nichts */
+.ausgang-punkt { margin: 0 0 1.1rem; }
+.ausgang-text { margin: 0 0 .2rem; font-weight: 600; color: var(--text); }
 
 /* Nur für Screenreader */
 .nur-vorlesen {
@@ -547,7 +575,7 @@ details.tipp > summary:focus-visible { outline: 2px solid var(--fach); outline-o
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .karte, .btn, .smiley, .takt-punkt button { transition: background-color 120ms ease-out, border-color 120ms ease-out, box-shadow 120ms ease-out; }
+  .karte, .btn, .takt-punkt button { transition: background-color 120ms ease-out, border-color 120ms ease-out, box-shadow 120ms ease-out; }
 }
 
 /* Kompetenzbezug unter dem Stationskopf: ruhiger als ein Hinweiskasten */

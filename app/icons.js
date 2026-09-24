@@ -38,31 +38,26 @@ export function sozialformSymbol(sozialform) {
   return symbol('einzel');
 }
 
-/* Gesichter der Selbsteinschätzung (Lucide frown/meh/smile).
-   Als Zeichnung statt Emoji, damit sie rot, gelb und grün eingefärbt werden können. */
-const GESICHTER = {
-  unsicher: '<circle cx="12" cy="12" r="10"/><path d="M16 16s-1.5-2-4-2-4 2-4 2"/>' +
-    '<line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/>',
-  teils: '<circle cx="12" cy="12" r="10"/><line x1="8" x2="16" y1="15" y2="15"/>' +
-    '<line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/>',
-  sicher: '<circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/>' +
-    '<line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/>'
+/* Gesichter der Selbsteinschätzung – fünf Stufen von unsicher (1) bis sicher (5).
+   Zeichnungen im Stil des Icon-Satzes, damit sie sich einfärben lassen (Emojis können das nicht).
+   Unterschied ist nur der Mund; die Augen bleiben gleich, das wirkt ruhiger. */
+const AUGEN = '<line x1="9" x2="9.01" y1="9.5" y2="9.5"/><line x1="15" x2="15.01" y1="9.5" y2="9.5"/>';
+
+const MUENDER = {
+  1: '<path d="M16 16.5s-1.5-2.2-4-2.2-4 2.2-4 2.2"/>',
+  2: '<path d="M15.5 15.8s-1.2-1.4-3.5-1.4-3.5 1.4-3.5 1.4"/>',
+  3: '<line x1="8.5" x2="15.5" y1="15" y2="15"/>',
+  4: '<path d="M8.5 14.2s1.2 1.4 3.5 1.4 3.5-1.4 3.5-1.4"/>',
+  5: '<path d="M8 13.5s1.5 2.2 4 2.2 4-2.2 4-2.2"/>'
 };
 
 /**
- * Gesicht zur Einschätzung "unsicher" | "teils" | "sicher".
- * Die Farbe kommt über die Klasse stufe-… aus dem Stylesheet.
+ * Gesicht zur Stufe 1 bis 5. Die Farbe kommt über die Klasse stufe-N aus dem Stylesheet.
  */
 export function gesicht(stufe) {
-  const formen = GESICHTER[stufe];
-  if (!formen) return '';
+  const mund = MUENDER[stufe];
+  if (!mund) return '';
   return '<svg class="gesicht stufe-' + stufe + '" viewBox="0 0 24 24" fill="none" ' +
     'stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" ' +
-    'aria-hidden="true" focusable="false">' + formen + '</svg>';
-}
-
-/** Mittlere Stufe der Skala: nur ein Punkt, die Gesichter stehen außen. */
-export function skalaPunkt() {
-  return '<svg class="gesicht stufe-teils" viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +
-    '<circle cx="12" cy="12" r="4" fill="currentColor"/></svg>';
+    'aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/>' + AUGEN + mund + '</svg>';
 }

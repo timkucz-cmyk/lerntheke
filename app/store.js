@@ -7,7 +7,9 @@ export const ZUSTAND_VERSION = 1;
 
 const PRAEFIX = 'lerntheke:';
 const SCHLUESSEL_LETZTES = 'lerntheke:zuletzt';
-const SMILEYS = ['unsicher', 'teils', 'sicher'];
+// Die Selbsteinschätzung läuft von 1 (unsicher) bis 5 (sicher).
+// Ältere Stände kannten nur drei Stufen; sie werden beim Laden umgerechnet.
+const ALTE_STUFEN = { unsicher: 1, teils: 3, sicher: 5 };
 const KONTROLLEN = ['richtig', 'tipp', 'falsch'];
 const ROLLEN = ['A', 'B'];
 
@@ -61,8 +63,16 @@ function istObjekt(x) {
   return x !== null && typeof x === 'object' && !Array.isArray(x);
 }
 
-function alsSmiley(x) {
-  return SMILEYS.includes(x) ? x : null;
+function alsStufe(x) {
+  if (typeof x === 'string' && Object.prototype.hasOwnProperty.call(ALTE_STUFEN, x)) return ALTE_STUFEN[x];
+  const n = Math.round(Number(x));
+  return isFinite(n) && n >= 1 && n <= 5 ? n : null;
+}
+
+/** Lage der Nadel auf der Skala, 0 bis 100. */
+function alsLage(x) {
+  const n = Number(x);
+  return isFinite(n) && n >= 0 && n <= 100 ? Math.round(n) : null;
 }
 
 function alsKontrolle(x) {
@@ -81,6 +91,7 @@ function leererZustand(stufe, thema) {
     thema: String(thema),
     name: '',
     diagnose: { eingang: {}, ausgang: {} },
+    diagnoseLage: { eingang: {}, ausgang: {} },
     stationen: {},
     aufgaben: {},
     angelegt: new Date().toISOString(),
@@ -101,11 +112,16 @@ function normalisiere(roh, stufe, thema) {
   if (typeof roh.angelegt === 'string') z.angelegt = roh.angelegt;
 
   const d = istObjekt(roh.diagnose) ? roh.diagnose : {};
+  const dl = istObjekt(roh.diagnoseLage) ? roh.diagnoseLage : {};
   for (const phase of ['eingang', 'ausgang']) {
     const q = istObjekt(d[phase]) ? d[phase] : {};
+    const ql = istObjekt(dl[phase]) ? dl[phase] : {};
     for (const id of Object.keys(q)) {
-      const s = alsSmiley(q[id]);
-      if (s) z.diagnose[phase][id] = s;
+      const wert = alsStufe(q[id]);
+      if (!wert) continue;
+      z.diagnose[phase][id] = wert;
+      const lage = alsLage(ql[id]);
+      if (lage !== null) z.diagnoseLage[phase][id] = lage;
     }
   }
 
@@ -128,7 +144,8 @@ function normalisiere(roh, stufe, thema) {
       if (!istObjekt(a)) continue;
       z.aufgaben[id] = {
         bearbeitet: a.bearbeitet === true,
-        smiley: alsSmiley(a.smiley),
+        stufe: alsStufe(a.stufe !== undefined ? a.stufe : a.smiley),
+        lage: alsLage(a.lage),
         punkte: alsZahl(a.punkte),
         kontrolle: alsKontrolle(a.kontrolle)
       };
