@@ -1,12 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100"
-     role="img" aria-label="Änderungsrate über der Zeit, Fläche als Bestand">
+     role="img" aria-label="Elektroauto an der Ladesäule, daneben die Ladeleistung über der Zeit">
   <style>
     .flaeche { fill: #B61E33; fill-opacity: .2; }
     .kurve   { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
-    .zweite  { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; }
+    .zweite  { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
     .achse   { fill: none; stroke: #9097a0; stroke-width: 1.2; }
     .hilfs   { fill: none; stroke: #9097a0; stroke-width: 1; stroke-dasharray: 3 3; }
     .marke   { fill: #B61E33; }
+    .koerper { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .fuellung{ fill: #6b7280; fill-opacity: .14; }
+    .fuellung-voll { fill: #6b7280; }
+    .kopf    { fill: #6b7280; stroke: none; }
     .text    { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
     @media (prefers-color-scheme: dark) {
       .flaeche { fill: #E8677D; fill-opacity: .22; }
@@ -15,12 +19,26 @@
       .achse   { stroke: #6b7280; }
       .hilfs   { stroke: #6b7280; }
       .marke   { fill: #E8677D; }
+      .koerper { stroke: #9aa1a9; }
+      .fuellung{ fill: #9aa1a9; fill-opacity: .16; }
+      .fuellung-voll { fill: #9aa1a9; }
+      .kopf    { fill: #9aa1a9; }
       .text    { fill: #9aa1a9; }
     }
   </style>
-  <path class="achse" d="M14 12 L14 84 L150 84"/>
-  <path class="achse" d="M150 84 l-4 -3 M150 84 l-4 3"/>
-  <path class="flaeche" d="M33.4 40.0 L35.3 38.4 L37.2 36.8 L39.1 35.3 L40.9 33.8 L42.8 32.5 L44.7 31.2 L46.6 30.0 L48.5 28.8 L50.4 27.7 L52.2 26.7 L54.1 25.7 L56.0 24.8 L57.9 24.0 L59.8 23.2 L61.7 22.5 L63.6 21.9 L65.4 21.4 L67.3 20.9 L69.2 20.5 L71.1 20.1 L73.0 19.8 L74.9 19.6 L76.8 19.5 L78.6 19.4 L80.5 19.4 L82.4 19.5 L84.3 19.6 L86.2 19.8 L88.1 20.1 L89.9 20.4 L91.8 20.8 L93.7 21.3 L95.6 21.8 L97.5 22.4 L99.4 23.1 L101.3 23.8 L103.1 24.6 L105.0 25.5 L106.9 26.4 L108.8 27.4 L108.8 84 L33.4 84 Z"/>
-  <path class="kurve" d="M21.8 51.6 L23.9 49.3 L26.1 47.0 L28.2 44.9 L30.3 42.8 L32.4 40.9 L34.6 39.0 L36.7 37.2 L38.8 35.5 L40.9 33.8 L43.1 32.3 L45.2 30.9 L47.3 29.5 L49.4 28.2 L51.6 27.0 L53.7 25.9 L55.8 24.9 L58.0 24.0 L60.1 23.1 L62.2 22.4 L64.3 21.7 L66.5 21.1 L68.6 20.6 L70.7 20.2 L72.8 19.9 L75.0 19.6 L77.1 19.5 L79.2 19.4 L81.3 19.4 L83.5 19.5 L85.6 19.7 L87.7 20.0 L89.9 20.4 L92.0 20.8 L94.1 21.4 L96.2 22.0 L98.4 22.7 L100.5 23.5 L102.6 24.4 L104.7 25.4 L106.9 26.4 L109.0 27.6 L111.1 28.8 L113.2 30.1 L115.4 31.5 L117.5 33.0 L119.6 34.6 L121.8 36.2 L123.9 38.0 L126.0 39.8 L128.1 41.8 L130.3 43.8 L132.4 45.9 L134.5 48.0 L136.6 50.3 L138.8 52.7 L140.9 55.1 L143.0 57.6 L145.1 60.3 L147.3 63.0 L149.4 65.8"/>
-  <text class="text" x="118" y="96">t</text>
+  <path class="fuellung" d="M10 62 l6 -14 a7 7 0 0 1 6 -4 h26 a7 7 0 0 1 5 2 l10 9 h8 a6 6 0 0 1 6 6 v7 a3 3 0 0 1 -3 3 h-58 a6 6 0 0 1 -6 -6 z"/>
+  <path class="koerper" d="M10 62 l6 -14 a7 7 0 0 1 6 -4 h26 a7 7 0 0 1 5 2 l10 9 h8 a6 6 0 0 1 6 6 v7 a3 3 0 0 1 -3 3 h-58 a6 6 0 0 1 -6 -6 z"/>
+  <path class="koerper" d="M20 58 l4 -9 h16 v9 z M46 58 v-9 h6 l9 9 z"/>
+  <circle class="koerper" cx="26" cy="71" r="6"/>
+  <circle class="koerper" cx="62" cy="71" r="6"/>
+  <rect class="fuellung" x="82" y="30" width="14" height="40" rx="3"/>
+  <rect class="koerper" x="82" y="30" width="14" height="40" rx="3"/>
+  <path class="koerper" d="M85 38 h8"/>
+  <path class="kurve" d="M82 46 C 74 46 78 56 70 56"/>
+  <path class="koerper" d="M78 76 h22"/>
+  <path class="flaeche" d="M104.0 59.0 L104.5 58.5 L105.1 58.0 L105.6 57.6 L106.1 57.1 L106.7 56.7 L107.2 56.3 L107.7 55.9 L108.3 55.6 L108.8 55.3 L109.3 55.0 L109.8 54.7 L110.4 54.4 L110.9 54.2 L111.4 54.0 L112.0 53.8 L112.5 53.6 L113.0 53.4 L113.6 53.3 L114.1 53.2 L114.6 53.1 L115.2 53.1 L115.7 53.0 L116.2 53.0 L116.8 53.0 L117.3 53.0 L117.8 53.1 L118.3 53.1 L118.9 53.2 L119.4 53.4 L119.9 53.5 L120.5 53.6 L121.0 53.8 L121.5 54.0 L122.1 54.3 L122.6 54.5 L123.1 54.8 L123.7 55.1 L124.2 55.4 L124.7 55.7 L125.3 56.1 L125.8 56.4 L126.3 56.8 L126.9 57.3 L127.4 57.7 L127.9 58.2 L128.4 58.7 L129.0 59.2 L129.5 59.7 L130.0 60.3 L130.6 60.8 L131.1 61.4 L131.6 62.1 L132.2 62.7 L132.7 63.4 L133.2 64.1 L133.8 64.8 L134.3 65.5 L134.8 66.2 L135.4 67.0 L135.9 67.8 L136.4 68.6 L136.9 69.5 L137.5 70.3 L138.0 71.2 L138.5 72.1 L139.1 73.1 L139.6 74.0 L140.1 75.0 L140.7 76.0 L141.2 77.0 L141.2 86.0 L104.0 86.0 Z"/>
+  <path class="achse" d="M104 20 L104 86 L152 86"/>
+  <path class="kurve" d="M104.0 59.0 L104.5 58.5 L105.1 58.0 L105.6 57.6 L106.1 57.1 L106.7 56.7 L107.2 56.3 L107.7 55.9 L108.3 55.6 L108.8 55.3 L109.3 55.0 L109.8 54.7 L110.4 54.4 L110.9 54.2 L111.4 54.0 L112.0 53.8 L112.5 53.6 L113.0 53.4 L113.6 53.3 L114.1 53.2 L114.6 53.1 L115.2 53.1 L115.7 53.0 L116.2 53.0 L116.8 53.0 L117.3 53.0 L117.8 53.1 L118.3 53.1 L118.9 53.2 L119.4 53.4 L119.9 53.5 L120.5 53.6 L121.0 53.8 L121.5 54.0 L122.1 54.3 L122.6 54.5 L123.1 54.8 L123.7 55.1 L124.2 55.4 L124.7 55.7 L125.3 56.1 L125.8 56.4 L126.3 56.8 L126.9 57.3 L127.4 57.7 L127.9 58.2 L128.4 58.7 L129.0 59.2 L129.5 59.7 L130.0 60.3 L130.6 60.8 L131.1 61.4 L131.6 62.1 L132.2 62.7 L132.7 63.4 L133.2 64.1 L133.8 64.8 L134.3 65.5 L134.8 66.2 L135.4 67.0 L135.9 67.8 L136.4 68.6 L136.9 69.5 L137.5 70.3 L138.0 71.2 L138.5 72.1 L139.1 73.1 L139.6 74.0 L140.1 75.0 L140.7 76.0 L141.2 77.0"/>
+  <text class="text" x="106" y="17" font-size="9">P</text>
+  <text class="text" x="146" y="97" font-size="9">t</text>
 </svg>

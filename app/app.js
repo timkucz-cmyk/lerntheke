@@ -555,15 +555,13 @@ function lernwegKarte(thema, z) {
       '<span><span class="phase-name">' + esc(p.name || p.id) + '</span>' +
       (p.untertitel ? '<span class="phase-unter">' + esc(p.untertitel) + '</span>' : '') +
       '</span></p>' +
-      '<ul class="phase-ziele">' + punkte.map((c) => {
-        if (c.spaeter) {
-          return '<li class="ist-spaeter"><span class="phase-punkt"></span>' +
-            markdownZeile(c.text) + '<span class="chip chip-spaeter">später</span></li>';
-        }
-        const stufe = z.diagnose.eingang[c.id];
-        return '<li>' + (stufe ? gesicht(stufe) : '<span class="phase-punkt"></span>') +
-          markdownZeile(c.text) + '</li>';
-      }).join('') + '</ul>' +
+      // Bewusst schlichte Punkte statt Gesichter: Der Lernweg zeigt den Aufbau
+      // des Themas, die Einschätzung steht in der Selbsteinschätzung.
+      '<ul class="phase-ziele">' + punkte.map((c) =>
+        '<li' + (c.spaeter ? ' class="ist-spaeter"' : '') + '><span class="phase-punkt"></span>' +
+        markdownZeile(c.text) +
+        (c.spaeter ? '<span class="chip chip-spaeter">später</span>' : '') + '</li>'
+      ).join('') + '</ul>' +
       (stationen.length
         ? '<p class="phase-stationen">' + stationen.map((st) =>
             '<a class="chip" href="' + themaPfad(aktuell.stufe, aktuell.themaId) +

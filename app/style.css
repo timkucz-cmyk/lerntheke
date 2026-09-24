@@ -736,3 +736,28 @@ details.tipp > summary:focus-visible { outline: 2px solid var(--fach); outline-o
   color: var(--text-leise); font-weight: 600;
   padding: .05em .45em; margin-left: .2em;
 }
+
+/* ---------- Verhalten auf Touchgeräten ----------
+   Auf dem iPad loeste langes Tippen auf eine Kachel das System-Ziehen aus:
+   Das Bild wurde vergroessert angehoben, was wie ein ungewollter Zoom aussieht.
+   Dazu das Doppeltipp-Zoom auf Bedienelementen und das Nachfedern am Seitenende. */
+html { overscroll-behavior: none; }
+
+a, button, summary, label, .chip {
+  touch-action: manipulation;              /* kein Doppeltipp-Zoom */
+  -webkit-tap-highlight-color: transparent;
+}
+
+.kachel, .karte-link, .phase-stationen .chip, .takt-punkt button, .haken-btn {
+  -webkit-touch-callout: none;             /* keine Vorschau beim langen Tippen */
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.kachel-bild img, .kopf-mark svg {
+  -webkit-user-drag: none;
+  pointer-events: none;                    /* das Bild selbst ist nicht greifbar */
+}
+
+/* Die Nadel soll sich ziehen lassen, ohne dass die Seite mitscrollt */
+.skala-bahn input[type="range"] { touch-action: none; }

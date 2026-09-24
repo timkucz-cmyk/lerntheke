@@ -3,10 +3,14 @@
   <style>
     .flaeche { fill: #B61E33; fill-opacity: .2; }
     .kurve   { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
-    .zweite  { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; }
+    .zweite  { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
     .achse   { fill: none; stroke: #9097a0; stroke-width: 1.2; }
     .hilfs   { fill: none; stroke: #9097a0; stroke-width: 1; stroke-dasharray: 3 3; }
     .marke   { fill: #B61E33; }
+    .koerper { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .fuellung{ fill: #6b7280; fill-opacity: .14; }
+    .fuellung-voll { fill: #6b7280; }
+    .kopf    { fill: #6b7280; stroke: none; }
     .text    { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
     @media (prefers-color-scheme: dark) {
       .flaeche { fill: #E8677D; fill-opacity: .22; }
@@ -15,13 +19,17 @@
       .achse   { stroke: #6b7280; }
       .hilfs   { stroke: #6b7280; }
       .marke   { fill: #E8677D; }
+      .koerper { stroke: #9aa1a9; }
+      .fuellung{ fill: #9aa1a9; fill-opacity: .16; }
+      .fuellung-voll { fill: #9aa1a9; }
+      .kopf    { fill: #9aa1a9; }
       .text    { fill: #9aa1a9; }
     }
   </style>
-  <rect class="flaeche" x="10" y="16" width="70" height="44" rx="10"/>
-  <path class="kurve" d="M10 26a10 10 0 0 1 10-10h50a10 10 0 0 1 10 10v24a10 10 0 0 1-10 10H32l-12 12V60h-0a10 10 0 0 1-10-10z"/>
-  <text class="text" x="45" y="44" text-anchor="middle" font-size="18" fill="#B61E33">f</text>
-  <rect x="80" y="40" width="70" height="44" rx="10" fill="#6b7280" fill-opacity=".12"/>
-  <path class="zweite" d="M150 50a10 10 0 0 0-10-10H90a10 10 0 0 0-10 10v24a10 10 0 0 0 10 10h38l12 12V84h0a10 10 0 0 0 10-10z"/>
-  <text class="text" x="115" y="70" text-anchor="middle" font-size="18">F</text>
+  <path class="flaeche" d="M14 18 h64 a9 9 0 0 1 9 9 v22 a9 9 0 0 1 -9 9 h-34 l-13 12 v-12 h-17 a9 9 0 0 1 -9 -9 v-22 a9 9 0 0 1 9 -9 z"/>
+  <path class="kurve" d="M14 18 h64 a9 9 0 0 1 9 9 v22 a9 9 0 0 1 -9 9 h-34 l-13 12 v-12 h-17 a9 9 0 0 1 -9 -9 v-22 a9 9 0 0 1 9 -9 z"/>
+  <text x="46" y="45" text-anchor="middle" font-size="19" font-style="italic" font-family="Georgia, serif" fill="#B61E33">f</text>
+  <path class="fuellung" d="M82 46 h64 a9 9 0 0 1 9 9 v22 a9 9 0 0 1 -9 9 h-17 v12 l-13 -12 h-34 a9 9 0 0 1 -9 -9 v-22 a9 9 0 0 1 9 -9 z"/>
+  <path class="zweite" d="M82 46 h64 a9 9 0 0 1 9 9 v22 a9 9 0 0 1 -9 9 h-17 v12 l-13 -12 h-34 a9 9 0 0 1 -9 -9 v-22 a9 9 0 0 1 9 -9 z"/>
+  <text x="114" y="73" text-anchor="middle" font-size="19" font-style="italic" font-family="Georgia, serif" fill="#6b7280">F</text>
 </svg>
