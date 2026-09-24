@@ -93,6 +93,10 @@ async function pruefeStation(st, ort, ordner, stationsIds, aufgabenIds, checklis
 
   const tandem = st.sozialform === 'tandem';
 
+  if (istText(st.bild) && !await existiert(path.join(ordner, st.bild))) {
+    f(o, 'Stationsbild fehlt: ' + st.bild);
+  }
+
   if (istText(st.pdf)) {
     if (!await existiert(path.join(ordner, st.pdf))) {
       if (st.pdf_optional) w(o, 'PDF fehlt: ' + st.pdf + ' – die Knöpfe bleiben ausgeblendet');

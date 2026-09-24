@@ -601,3 +601,59 @@ details.tipp > summary:focus-visible { outline: 2px solid var(--fach); outline-o
     overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
   }
 }
+
+/* ---------- Kachelansicht der Stationen ---------- */
+.kacheln {
+  list-style: none; margin: 0 0 .4rem; padding: 0;
+  display: grid; gap: .8rem;
+  grid-template-columns: 1fr;
+}
+
+/* Schmales Gerät: Bild links, Text rechts – so bleibt die Liste überschaubar */
+.kachel {
+  display: flex; align-items: stretch;
+  padding: 0; overflow: hidden; margin: 0; height: 100%;
+}
+.kachel-bild {
+  position: relative; flex: none; width: 104px;
+  background: var(--flaeche-2); border-right: 1px solid var(--linie);
+}
+.kachel-bild img {
+  display: block; width: 100%; height: 100%;
+  object-fit: contain; padding: .35rem;
+}
+.kachel-ersatz {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--fach-line); font-size: 2.2rem;
+}
+.kachel-text { display: block; padding: .7rem .85rem .8rem; flex: 1 1 auto; min-width: 0; }
+.kachel-kopf {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: .4rem; margin-bottom: .3rem;
+}
+.kachel-titel {
+  font-size: var(--fs-base); font-weight: 600; color: var(--text);
+  line-height: 1.25; min-width: 0;
+}
+.kachel-kennung { color: var(--fach); font-weight: 700; }
+.kachel-marken { display: flex; gap: .3rem; flex-wrap: wrap; flex: none; }
+.kachel .meta-reihe { margin-bottom: .5rem; gap: .2rem .7rem; }
+.kachel .balken-zeile { grid-template-columns: 3.6rem 1fr auto; margin: 0; }
+
+/* Ab Tabletbreite zwei Spalten mit Bild oben */
+@media (min-width: 34rem) {
+  .kacheln { grid-template-columns: 1fr 1fr; }
+  .kachel { flex-direction: column; }
+  .kachel-bild {
+    width: auto; aspect-ratio: 16 / 7;
+    border-right: 0; border-bottom: 1px solid var(--linie);
+  }
+  .kachel-titel { font-size: var(--fs-md); }
+}
+
+/* In der Druckansicht reicht eine schlichte Liste */
+@media print {
+  .kacheln { display: block; }
+  .kachel-bild { display: none; }
+}

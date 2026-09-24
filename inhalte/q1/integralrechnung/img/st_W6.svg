@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100"
+     role="img" aria-label="Hilfsmittelfreier Teil: ohne Taschenrechner">
+  <style>
+    .flaeche { fill: #B61E33; fill-opacity: .2; }
+    .kurve   { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .zweite  { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; }
+    .achse   { fill: none; stroke: #9097a0; stroke-width: 1.2; }
+    .hilfs   { fill: none; stroke: #9097a0; stroke-width: 1; stroke-dasharray: 3 3; }
+    .marke   { fill: #B61E33; }
+    .text    { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .flaeche { fill: #E8677D; fill-opacity: .22; }
+      .kurve   { stroke: #E8677D; }
+      .zweite  { stroke: #9aa1a9; }
+      .achse   { stroke: #6b7280; }
+      .hilfs   { stroke: #6b7280; }
+      .marke   { fill: #E8677D; }
+      .text    { fill: #9aa1a9; }
+    }
+  </style>
+  <rect x="46" y="18" width="46" height="64" rx="8" fill="none" stroke="#9097a0" stroke-width="2.2"/>
+  <line x1="54" y1="30" x2="84" y2="30" stroke="#9097a0" stroke-width="2.2" stroke-linecap="round"/>
+  <g fill="#9097a0"><circle cx="56" cy="44" r="2.6"/><circle cx="69" cy="44" r="2.6"/><circle cx="82" cy="44" r="2.6"/><circle cx="56" cy="56" r="2.6"/><circle cx="69" cy="56" r="2.6"/><circle cx="82" cy="56" r="2.6"/><circle cx="56" cy="68" r="2.6"/><circle cx="69" cy="68" r="2.6"/><circle cx="82" cy="68" r="2.6"/></g>
+  <line x1="34" y1="86" x2="104" y2="14" stroke="#B61E33" stroke-width="3.4" stroke-linecap="round"/>
+</svg>

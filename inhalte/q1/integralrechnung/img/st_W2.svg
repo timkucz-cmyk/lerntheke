@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100"
+     role="img" aria-label="Tandem: zwei Personen kontrollieren sich gegenseitig">
+  <style>
+    .flaeche { fill: #B61E33; fill-opacity: .2; }
+    .kurve   { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .zweite  { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; }
+    .achse   { fill: none; stroke: #9097a0; stroke-width: 1.2; }
+    .hilfs   { fill: none; stroke: #9097a0; stroke-width: 1; stroke-dasharray: 3 3; }
+    .marke   { fill: #B61E33; }
+    .text    { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .flaeche { fill: #E8677D; fill-opacity: .22; }
+      .kurve   { stroke: #E8677D; }
+      .zweite  { stroke: #9aa1a9; }
+      .achse   { stroke: #6b7280; }
+      .hilfs   { stroke: #6b7280; }
+      .marke   { fill: #E8677D; }
+      .text    { fill: #9aa1a9; }
+    }
+  </style>
+  <rect class="flaeche" x="10" y="16" width="70" height="44" rx="10"/>
+  <path class="kurve" d="M10 26a10 10 0 0 1 10-10h50a10 10 0 0 1 10 10v24a10 10 0 0 1-10 10H32l-12 12V60h-0a10 10 0 0 1-10-10z"/>
+  <text class="text" x="45" y="44" text-anchor="middle" font-size="18" fill="#B61E33">f</text>
+  <rect x="80" y="40" width="70" height="44" rx="10" fill="#6b7280" fill-opacity=".12"/>
+  <path class="zweite" d="M150 50a10 10 0 0 0-10-10H90a10 10 0 0 0-10 10v24a10 10 0 0 0 10 10h38l12 12V84h0a10 10 0 0 0 10-10z"/>
+  <text class="text" x="115" y="70" text-anchor="middle" font-size="18">F</text>
+</svg>

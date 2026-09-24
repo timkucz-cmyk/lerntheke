@@ -115,6 +115,10 @@ def pruefe_station(st, ort, ordner, stations_ids, aufgaben_ids, checklisten_ids)
 
     tandem = st.get("sozialform") == "tandem"
 
+    if ist_text(st.get("bild")) and not os.path.isfile(
+            os.path.join(ordner, st["bild"].replace("/", os.sep))):
+        f(o, "Stationsbild fehlt: %s" % st["bild"])
+
     if ist_text(st.get("pdf")):
         if not os.path.isfile(os.path.join(ordner, st["pdf"].replace("/", os.sep))):
             if st.get("pdf_optional"):

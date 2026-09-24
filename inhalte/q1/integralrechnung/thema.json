@@ -91,7 +91,8 @@
      "afb": "III",
      "loesung": "Beispiel: $k(x)=x$ auf $[-2;2]$. Punktsymmetrie: zwei Dreiecke mit je $2$ FE. Integral $2-2=0$, Flächeninhalt $2+2=4$ FE.\n\nAndere Beispiele sind gleichwertig, wenn beide Bedingungen nachgewiesen werden."
     }
-   ]
+   ],
+   "bild": "img/st_P1.svg"
   },
   {
    "id": "P2",
@@ -147,7 +148,8 @@
      "afb": "III",
      "loesung": "Falsch: $A(2a)=\\tfrac{(2a)^3}{24}=8\\cdot A(a)$. Der Flächeninhalt **verachtfacht** sich, weil $a$ in der dritten Potenz eingeht."
     }
-   ]
+   ],
+   "bild": "img/st_P2.svg"
   },
   {
    "id": "W1",
@@ -197,7 +199,8 @@
      "afb": "III",
      "loesung": "Die Aussage gilt nur für **steigende** Funktionen. Fällt $f$, liegt der größte Wert eines Streifens am **linken** Rand: Die Obersumme nimmt dann die linken, die Untersumme die rechten Randwerte. Allgemein: Obersumme = größter Funktionswert je Streifen."
     }
-   ]
+   ],
+   "bild": "img/st_W1.svg"
   },
   {
    "id": "W2",
@@ -333,7 +336,8 @@
      "tipp": "Ansatz $F(x)=x^3-4x+C$, dann $x=0$ einsetzen."
     }
    ],
-   "pdf_optional": true
+   "pdf_optional": true,
+   "bild": "img/st_W2.svg"
   },
   {
    "id": "W3",
@@ -389,7 +393,8 @@
      "afb": "III",
      "loesung": "**Falsch.** Wo $f$ am größten ist, steigt $F$ am stärksten (Wendestelle von $F$). Ein Hochpunkt von $F$ liegt dort, wo $f$ von $+$ nach $-$ das Vorzeichen wechselt."
     }
-   ]
+   ],
+   "bild": "img/st_W3.svg"
   },
   {
    "id": "W4",
@@ -446,7 +451,8 @@
      "afb": "III",
      "loesung": "**Nein.** Nach 60 min ist der Akku voll (100 kWh), das Modell liefert aber bis $t\\approx66{,}9$ weiter $P>0$. Danach wird $P$ negativ ($P(70)=-15$), also Entladen an der Säule. Das Modell gilt nur für $0\\le t\\le60$."
     }
-   ]
+   ],
+   "bild": "img/st_W4.svg"
   },
   {
    "id": "W5",
@@ -498,7 +504,8 @@
      "afb": "III",
      "loesung": "**Falsch.** Gegenbeispiel: $f(x)=x^2$ hat bei $0$ eine Nullstelle ohne Vorzeichenwechsel; $F(x)=\\tfrac13x^3$ hat dort einen Sattelpunkt. Extrempunkt nur bei Vorzeichenwechsel."
     }
-   ]
+   ],
+   "bild": "img/st_W5.svg"
   },
   {
    "id": "W6",
@@ -556,7 +563,8 @@
      "afb": "III",
      "loesung": "**Wahr.** $f>0$: Das Integral über $[0;4]$ enthält die Fläche über $[0;2]$ und zusätzlich die positive Fläche über $[2;4]$."
     }
-   ]
+   ],
+   "bild": "img/st_W6.svg"
   },
   {
    "id": "W7",
@@ -641,7 +649,8 @@
      "afb": "III",
      "loesung": "**Richtig**, solange die Welle massiv ist (ohne Hohlraum).\n\nHöhe: $h_a=f_a(5)=-25a+50a=25a$; Fläche: $A(a)=\\tfrac{500}{3}a$.\n\nBeide Größen sind proportional zu $a$; wird $a$ halbiert, halbieren sich Höhe **und** Fläche.\n\nBeispiel: $a=0{,}08$: Höhe $2{,}00$ m, $A\\approx13{,}33$ m². $a=0{,}04$: Höhe $1{,}00$ m, $A\\approx6{,}67$ m².\n\nAllgemein: aus $h_a=25a$ folgt $a=\\tfrac{h_a}{25}$ und damit $A=\\tfrac{500}{3}\\cdot\\tfrac{h_a}{25}=\\tfrac{20}{3}h_a$ – die Fläche ist direkt proportional zur Höhe."
     }
-   ]
+   ],
+   "bild": "img/st_W7.svg"
   }
  ]
 }

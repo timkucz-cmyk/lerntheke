@@ -131,6 +131,7 @@ git push
       "dauer_min": 15,
       "hilfsmittel": "GTR",
       "checkliste": ["c1"],              // Bezug zur Checkliste (steuert die Empfehlung)
+      "bild": "img/st_P1.svg",           // optional: kleines Bild auf der Kachel
       "pdf": "pdf/P1_Waagerechter_Wurf.pdf",
       "aufgaben": [
         {
@@ -157,6 +158,10 @@ git push
   Eingangsdiagnose mit 😕 oder 😐 bewertet wurde. Ohne `checkliste`-Bezug funktioniert das nicht.
 - Pflichtstationen stehen in der Übersicht oben, Wahlstationen darunter – jeweils in der
   Reihenfolge aus der Datei.
+- `bild` ist optional und erscheint als Vorschau auf der Stationskachel. Am besten eine
+  schlichte SVG-Skizze im Format 16:7, die zeigt, worum es geht – idealerweise dieselbe
+  Abbildung, die die Klasse aus dem Unterricht kennt. Fehlt das Feld, steht dort das
+  Symbol der Sozialform.
 
 ## 4a. Tandemstationen
 

@@ -498,8 +498,8 @@ function ansichtStationen() {
   const pflicht = thema.stationen.filter((s) => s.typ !== 'wahl');
   const wahl = thema.stationen.filter((s) => s.typ === 'wahl');
 
-  if (pflicht.length) html += '<p class="kicker">Pflichtstationen</p><ul class="liste-blank">' + pflicht.map((s) => stationsKarte(s, z)).join('') + '</ul>';
-  if (wahl.length) html += '<p class="kicker">Wahlstationen</p><ul class="liste-blank">' + wahl.map((s) => stationsKarte(s, z)).join('') + '</ul>';
+  if (pflicht.length) html += '<p class="kicker">Pflichtstationen</p><ul class="kacheln">' + pflicht.map((s) => stationsKarte(s, z)).join('') + '</ul>';
+  if (wahl.length) html += '<p class="kicker">Wahlstationen</p><ul class="kacheln">' + wahl.map((s) => stationsKarte(s, z)).join('') + '</ul>';
   if (!thema.stationen.length) html += '<p class="hinweis">Dieses Thema enthält noch keine Stationen.</p>';
 
   zeichne(html);
@@ -514,10 +514,20 @@ function stationsKarte(station, z) {
   const rolle = rolleVon(station, z);
   const tandemOhneRolle = istTandem(station) && !rolle;
 
-  return '<li><a class="karte karte-link" href="' + pfad + '">' +
-    '<div class="karte-kopf"><h3>' + esc(station.id) + ' · ' + esc(station.titel || '') + '</h3>' +
-    (empfohlen ? '<span class="chip chip-empf">' + symbol('empfohlen') + 'empfohlen</span>' : '') + statusChip(status) + '</div>' +
-    '<p class="meta meta-reihe">' +
+  // Bild aus dem Thema; fehlt es, steht dort das Symbol der Sozialform.
+  const bild = station.bild
+    ? '<img src="' + esc(new URL(station.bild, aktuell.ordner).href) + '" alt="" decoding="async">'
+    : '<span class="kachel-ersatz">' + sozialformSymbol(station.sozialform) + '</span>';
+
+  return '<li><a class="kachel karte karte-link" href="' + pfad + '">' +
+    '<span class="kachel-bild">' + bild + '</span>' +
+    '<span class="kachel-text">' +
+    '<span class="kachel-kopf"><span class="kachel-titel">' +
+    '<b class="kachel-kennung">' + esc(station.id) + '</b> ' + esc(station.titel || '') + '</span>' +
+    '<span class="kachel-marken">' +
+    (empfohlen ? '<span class="chip chip-empf">' + symbol('empfohlen') + 'empfohlen</span>' : '') +
+    statusChip(status) + '</span></span>' +
+    '<span class="meta meta-reihe">' +
     (station.dauer_min ? '<span>' + symbol('dauer') + esc(String(station.dauer_min)) + ' min</span>' : '') +
     '<span>' + sozialformSymbol(station.sozialform) + esc(sozialformText(station.sozialform)) + '</span>' +
     (station.hilfsmittel ? '<span>' + symbol('hilfsmittel') + esc(station.hilfsmittel) + '</span>' : '') +
@@ -525,11 +535,11 @@ function stationsKarte(station, z) {
       ? '<span>' + station.aufgaben.length + ' Nummern zu zweit</span>'
       : '<span>' + w.anzahl + ' Aufgabe' + (w.anzahl === 1 ? '' : 'n') +
         (rolle ? ' als Partner ' + esc(rolle) : '') + '</span>') +
-    '</p>' +
+    '</span>' +
     (tandemOhneRolle
-      ? '<p class="meta">Rolle noch nicht gewählt</p>'
+      ? '<span class="meta">Rolle noch nicht gewählt</span>'
       : balkenZeile('Punkte', w.erreicht, w.max)) +
-    '</a></li>';
+    '</span></a></li>';
 }
 
 /* ---------- Ansicht: Station ---------- */
