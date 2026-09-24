@@ -657,3 +657,74 @@ details.tipp > summary:focus-visible { outline: 2px solid var(--fach); outline-o
   .kacheln { display: block; }
   .kachel-bild { display: none; }
 }
+
+/* ---------- Lernweg ---------- */
+.lernweg {
+  list-style: none; margin: 0 0 1.2rem; padding: 0;
+  display: grid; gap: .7rem;
+}
+@media (min-width: 46rem) {
+  .lernweg { grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); align-items: stretch; }
+}
+
+.phase {
+  background: var(--phase-soft, var(--flaeche-2));
+  border: 1px solid var(--phase-line, var(--linie));
+  border-radius: var(--radius);
+  padding: .8rem .9rem;
+}
+.phase-blau    { --phase-soft: #e8eef5; --phase-line: #b9c8da; --phase-ink: #1d3a5c; }
+.phase-orange  { --phase-soft: #f7ede0; --phase-line: #e2cba8; --phase-ink: #7a4d17; }
+.phase-gruen   { --phase-soft: #e7eee5; --phase-line: #c9dcc5; --phase-ink: #2d4f29; }
+.phase-rot     { --phase-soft: #f5e1e3; --phase-line: #e8b8be; --phase-ink: #6f0f1c; }
+.phase-neutral { --phase-soft: #f0f0ee; --phase-line: #d8d9d6; --phase-ink: #3d4147; }
+
+@media (prefers-color-scheme: dark) {
+  .phase-blau    { --phase-soft: #182633; --phase-line: #24384d; --phase-ink: #b6d3f0; }
+  .phase-orange  { --phase-soft: #2e2418; --phase-line: #463724; --phase-ink: #e6c08a; }
+  .phase-gruen   { --phase-soft: #1e2a1f; --phase-line: #33482f; --phase-ink: #a8dcaa; }
+  .phase-rot     { --phase-soft: #33191e; --phase-line: #4d2229; --phase-ink: #f3b3bd; }
+  .phase-neutral { --phase-soft: #23262a; --phase-line: #3f444a; --phase-ink: #cfd3d8; }
+}
+
+.phase-kopf { display: flex; align-items: flex-start; gap: .55rem; margin: 0 0 .5rem; }
+.phase-nr {
+  flex: none; width: 1.6rem; height: 1.6rem; border-radius: 999px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--phase-ink, var(--fach)); color: var(--phase-soft, #fff);
+  font-size: var(--fs-sm); font-weight: 700;
+}
+.phase-name { display: block; font-weight: 600; color: var(--phase-ink, var(--text)); line-height: 1.25; }
+.phase-unter { display: block; font-size: var(--fs-xs); color: var(--text-leise); }
+
+.phase-ziele { list-style: none; margin: 0 0 .6rem; padding: 0; }
+.phase-ziele li {
+  display: flex; align-items: flex-start; gap: .4rem;
+  font-size: var(--fs-sm); color: var(--text-2); margin-bottom: .25rem; line-height: 1.35;
+}
+.phase-ziele .gesicht { flex: none; width: 1rem; height: 1rem; margin-top: .15rem; }
+.phase-punkt {
+  flex: none; width: .5rem; height: .5rem; border-radius: 999px;
+  background: var(--phase-line); margin: .4rem .25rem 0;
+}
+
+.phase-stationen { display: flex; flex-wrap: wrap; gap: .3rem; margin: 0 0 .5rem; }
+.phase-stationen .chip {
+  background: var(--flaeche); border-color: var(--phase-line);
+  color: var(--phase-ink, var(--text-2)); text-decoration: none; font-weight: 700;
+  min-height: 30px;
+}
+.phase-stationen .chip:hover { background: var(--phase-soft); }
+.phase .balken-zeile { grid-template-columns: 3.6rem 1fr auto; margin: 0; }
+.phase .balken { background: var(--flaeche); }
+
+.phase-ziel {
+  grid-column: 1 / -1;
+  display: flex; align-items: center; gap: .55rem;
+  --phase-soft: var(--fach-soft); --phase-line: var(--fach-line); --phase-ink: var(--fach-ink);
+}
+.phase-ziel .phase-nr { background: var(--fach); color: #fff; }
+
+@media print {
+  .lernweg { grid-template-columns: 1fr; }
+}

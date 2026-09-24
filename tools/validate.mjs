@@ -162,6 +162,28 @@ async function pruefeThema(stufeId, themaId) {
   }
   if (checklistenIds.size === 0) w(ort, 'keine Checkliste – die Selbstdiagnose entfällt');
 
+  if (th.phasen !== undefined) {
+    const phasen = Array.isArray(th.phasen) ? th.phasen : [];
+    if (!phasen.length) f(ort, '"phasen" ist leer – dann lieber ganz weglassen');
+    const phasenIds = new Set();
+    const inPhase = new Set();
+    for (const ph of phasen) {
+      if (!istText(ph.id) || !istText(ph.name)) { f(ort, 'Phase braucht "id" und "name"'); continue; }
+      if (phasenIds.has(ph.id)) f(ort, 'doppelte Phasen-ID: ' + ph.id);
+      phasenIds.add(ph.id);
+      const refs = ph.checkliste || [];
+      if (!refs.length) w(ort, 'Phase "' + ph.id + '" enthält keinen Checklistenpunkt');
+      for (const ref of refs) {
+        if (!checklistenIds.has(ref)) f(ort, 'Phase "' + ph.id + '": Checklisten-Verweis "' + ref + '" gibt es nicht');
+        if (inPhase.has(ref)) w(ort, 'Checklistenpunkt "' + ref + '" steht in mehreren Phasen');
+        inPhase.add(ref);
+      }
+    }
+    for (const id of checklistenIds) {
+      if (!inPhase.has(id)) w(ort, 'Checklistenpunkt "' + id + '" gehört zu keiner Phase des Lernwegs');
+    }
+  }
+
   if (!Array.isArray(th.stationen) || th.stationen.length === 0) {
     f(ort, 'keine Stationen');
     return;

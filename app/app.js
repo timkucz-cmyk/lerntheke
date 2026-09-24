@@ -491,6 +491,8 @@ function ansichtStationen() {
     (diagnoseGemacht ? 'Selbsteinschätzung ansehen' : 'Selbsteinschätzung starten') + '</a>' +
     '</div></section>';
 
+  html += lernwegKarte(thema, z);
+
   if (!diagnoseGemacht && thema.checkliste.length) {
     html += '<p class="hinweis">Noch keine Selbsteinschätzung. Sie hilft dabei, die passenden Wahlstationen zu erkennen.</p>';
   }
@@ -503,6 +505,70 @@ function ansichtStationen() {
   if (!thema.stationen.length) html += '<p class="hinweis">Dieses Thema enthält noch keine Stationen.</p>';
 
   zeichne(html);
+}
+
+/* ---------- Lernweg ----------
+   Die Phasen stehen im thema.json. Sie ordnen die Kompetenzen der Checkliste
+   zu Abschnitten und zeigen, wo im Thema man gerade steht. Fehlen sie, entfällt
+   der ganze Abschnitt – kein Pflichtfeld. */
+
+/** Phase, zu der eine Station gehört: entscheidend ist ihr erster Checklistenpunkt. */
+function phaseVonStation(station, phasen) {
+  const refs = station.checkliste || [];
+  if (!refs.length) return null;
+  const erste = phasen.find((p) => (p.checkliste || []).includes(refs[0]));
+  if (erste) return erste;
+  return phasen.find((p) => refs.some((r) => (p.checkliste || []).includes(r))) || null;
+}
+
+function lernwegKarte(thema, z) {
+  const phasen = Array.isArray(thema.phasen) ? thema.phasen : [];
+  if (!phasen.length) return '';
+
+  const zuordnung = new Map(phasen.map((p) => [p.id, []]));
+  for (const st of thema.stationen) {
+    const p = phaseVonStation(st, phasen);
+    if (p && zuordnung.has(p.id)) zuordnung.get(p.id).push(st);
+  }
+
+  const abschnitte = phasen.map((p, i) => {
+    const stationen = zuordnung.get(p.id) || [];
+    let max = 0;
+    let erreicht = 0;
+    for (const st of stationen) {
+      const w = stationsWerte(st, z);
+      max += w.max;
+      erreicht += w.erreicht;
+    }
+
+    const punkte = (p.checkliste || [])
+      .map((id) => thema.checkliste.find((c) => c.id === id))
+      .filter(Boolean);
+
+    return '<li class="phase phase-' + esc(p.farbe || 'neutral') + '">' +
+      '<p class="phase-kopf"><span class="phase-nr">' + (i + 1) + '</span>' +
+      '<span><span class="phase-name">' + esc(p.name || p.id) + '</span>' +
+      (p.untertitel ? '<span class="phase-unter">' + esc(p.untertitel) + '</span>' : '') +
+      '</span></p>' +
+      '<ul class="phase-ziele">' + punkte.map((c) => {
+        const stufe = z.diagnose.eingang[c.id];
+        return '<li>' + (stufe ? gesicht(stufe) : '<span class="phase-punkt"></span>') +
+          markdownZeile(c.text) + '</li>';
+      }).join('') + '</ul>' +
+      (stationen.length
+        ? '<p class="phase-stationen">' + stationen.map((st) =>
+            '<a class="chip" href="' + themaPfad(aktuell.stufe, aktuell.themaId) +
+            '/s/' + encodeURIComponent(st.id) + '">' + esc(st.id) + '</a>').join('') + '</p>'
+        : '') +
+      (max > 0 ? balkenZeile('Punkte', erreicht, max) : '') +
+      '</li>';
+  }).join('');
+
+  return '<p class="kicker">Lernweg</p>' +
+    '<ol class="lernweg">' + abschnitte +
+    (thema.abschluss ? '<li class="phase phase-ziel"><span class="phase-nr">★</span>' +
+      '<span class="phase-name">' + esc(thema.abschluss) + '</span></li>' : '') +
+    '</ol>';
 }
 
 function stationsKarte(station, z) {

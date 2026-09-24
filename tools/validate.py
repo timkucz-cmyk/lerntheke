@@ -192,6 +192,32 @@ def pruefe_thema(stufe_id, thema_id):
     if not checklisten_ids:
         w(ort, "keine Checkliste - die Selbstdiagnose entfaellt")
 
+    phasen = th.get("phasen")
+    if phasen is not None:
+        if not isinstance(phasen, list) or not phasen:
+            f(ort, '"phasen" ist leer - dann lieber ganz weglassen')
+            phasen = []
+        phasen_ids = set()
+        in_phase = set()
+        for ph in phasen:
+            if not ist_text(ph.get("id")) or not ist_text(ph.get("name")):
+                f(ort, 'Phase braucht "id" und "name"')
+                continue
+            if ph["id"] in phasen_ids:
+                f(ort, "doppelte Phasen-ID: %s" % ph["id"])
+            phasen_ids.add(ph["id"])
+            refs = ph.get("checkliste") or []
+            if not refs:
+                w(ort, 'Phase "%s" enthaelt keinen Checklistenpunkt' % ph["id"])
+            for ref in refs:
+                if ref not in checklisten_ids:
+                    f(ort, 'Phase "%s": Checklisten-Verweis "%s" gibt es nicht' % (ph["id"], ref))
+                if ref in in_phase:
+                    w(ort, 'Checklistenpunkt "%s" steht in mehreren Phasen' % ref)
+                in_phase.add(ref)
+        for cid in sorted(checklisten_ids - in_phase):
+            w(ort, 'Checklistenpunkt "%s" gehoert zu keiner Phase des Lernwegs' % cid)
+
     stationen = th.get("stationen")
     if not isinstance(stationen, list) or not stationen:
         f(ort, "keine Stationen")

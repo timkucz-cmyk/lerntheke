@@ -163,6 +163,32 @@ git push
   Abbildung, die die Klasse aus dem Unterricht kennt. Fehlt das Feld, steht dort das
   Symbol der Sozialform.
 
+## 4b. Lernweg (optional)
+
+Ergänzt man im `thema.json` ein Feld `phasen`, erscheint über den Stationen ein Überblick:
+Die Kompetenzen der Checkliste werden zu Abschnitten gebündelt, jede Phase zeigt ihre
+Stationen und den eigenen Punktestand. So sehen die SuS, wo sie im Thema stehen.
+
+```jsonc
+"phasen": [
+  {
+    "id": "p1",
+    "name": "Das Integral",
+    "untertitel": "Grundlagen",        // optional
+    "farbe": "blau",                   // blau | orange | gruen | rot | neutral
+    "checkliste": ["c1", "c2", "c3", "c4"]
+  },
+  { "id": "p2", "name": "Anwendung der Integralrechnung", "farbe": "orange", "checkliste": ["c5", "c6", "c7"] }
+],
+"abschluss": "Klausur 1"               // optional: das Ziel am Ende des Wegs
+```
+
+Welche Station zu welcher Phase gehört, ergibt sich aus ihrem **ersten** Checklistenpunkt.
+Deckt eine Station mehrere Kompetenzen ab, entscheidet also die Reihenfolge in `checkliste`.
+
+Fehlt `phasen`, entfällt der Abschnitt ersatzlos. Die Prüfung meldet Verweise auf
+Kompetenzen, die es nicht gibt, sowie Kompetenzen, die in keiner Phase auftauchen.
+
 ## 4a. Tandemstationen
 
 Zwei Schülerinnen oder Schüler, zwei Tablets, kein Papier: Bei jeder Nummer löst eine Person

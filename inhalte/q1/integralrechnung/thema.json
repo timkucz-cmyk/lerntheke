@@ -36,6 +36,41 @@
    "text": "Graphen grafisch integrieren und ableiten"
   }
  ],
+ "phasen": [
+  {
+   "id": "p1",
+   "name": "Das Integral",
+   "untertitel": "Grundlagen",
+   "farbe": "blau",
+   "checkliste": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ]
+  },
+  {
+   "id": "p2",
+   "name": "Anwendung der Integralrechnung",
+   "untertitel": "Flächen und Sachkontexte",
+   "farbe": "orange",
+   "checkliste": [
+    "c5",
+    "c6",
+    "c7"
+   ]
+  },
+  {
+   "id": "p3",
+   "name": "Das Integral als Funktion",
+   "untertitel": "Graphisch denken",
+   "farbe": "gruen",
+   "checkliste": [
+    "c9"
+   ]
+  }
+ ],
+ "abschluss": "Klausur 1",
  "stationen": [
   {
    "id": "P1",
