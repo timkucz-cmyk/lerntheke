@@ -43,6 +43,24 @@ const TEXTE = {
     sie: 'Bewerten Sie die Punkte jetzt noch einmal. So sehen Sie, was sich verändert hat.'
   },
   wieSicher: { du: 'Wie sicher warst du dir?', sie: 'Wie sicher waren Sie sich?' },
+  stationVorher: {
+    du: 'Bearbeite zuerst alle Aufgaben auf dem Blatt. Danach schaltest du die Lösungen frei.',
+    sie: 'Bearbeiten Sie zuerst alle Aufgaben auf dem Blatt. Danach schalten Sie die Lösungen frei.'
+  },
+  freischaltenBtn: { du: 'Fertig – Lösungen freischalten', sie: 'Fertig – Lösungen freischalten' },
+  stationFrage: {
+    du: 'Wie sicher warst du bei dieser Station?',
+    sie: 'Wie sicher waren Sie bei dieser Station?'
+  },
+  stationFrageHinweis: {
+    du: 'Schätze dich ein, bevor du die Lösungen siehst. Danach werden sie freigeschaltet.',
+    sie: 'Schätzen Sie sich ein, bevor Sie die Lösungen sehen. Danach werden sie freigeschaltet.'
+  },
+  stationFrageSpaeter: {
+    du: 'Gemeint ist deine Einschätzung vor dem Blick in die Lösungen. Ändern kannst du sie trotzdem.',
+    sie: 'Gemeint ist Ihre Einschätzung vor dem Blick in die Lösungen. Ändern können Sie sie trotzdem.'
+  },
+  stationFertigBtn: { du: 'Station abschließen', sie: 'Station abschließen' },
   wieSicherJetzt: { du: 'Wie sicher fühlst du dich?', sie: 'Wie sicher fühlen Sie sich?' },
   bearbeitetBtn: { du: 'Ich habe die Aufgabe bearbeitet', sie: 'Aufgabe ist bearbeitet' },
   punkteFrage: { du: 'Trage deine erreichten Punkte ein:', sie: 'Tragen Sie Ihre erreichten Punkte ein:' },
@@ -169,7 +187,25 @@ function fehlerAnsicht(titel, details) {
 /* ---------- Auswertungslogik ---------- */
 
 function eintrag(z, id) {
-  return z.aufgaben[id] || { bearbeitet: false, smiley: null, punkte: null, kontrolle: null };
+  return z.aufgaben[id] || { bearbeitet: false, punkte: null, uebersprungen: false, kontrolle: null };
+}
+
+/** Stand einer Station: geöffnet, Lösungen freigeschaltet, Selbsteinschätzung. */
+function stand(z, stationId) {
+  return z.stationen[stationId] ||
+    { geoeffnet: false, bereit: false, stufe: null, lage: null, rolle: null, schritt: 0 };
+}
+
+function standSchreiben(z, stationId) {
+  if (!z.stationen[stationId]) {
+    z.stationen[stationId] = { geoeffnet: true, bereit: false, stufe: null, lage: null, rolle: null, schritt: 0 };
+  }
+  return z.stationen[stationId];
+}
+
+/** Übersprungene Aufgaben zählen nirgends mit – weder im Zähler noch im Nenner. */
+function zaehltMit(z, aufgabe) {
+  return eintrag(z, aufgabe.id).uebersprungen !== true;
 }
 
 /** Checklistenpunkte, die schon unterrichtet sind – nur die lassen sich einschätzen. */
@@ -197,12 +233,19 @@ function eigeneAufgaben(station, z) {
 
 function stationsWerte(station, z) {
   const aufgaben = eigeneAufgaben(station, z);
-  const w = { max: 0, erreicht: 0, bearbeitet: 0, bewertet: 0, anzahl: aufgaben.length };
+  const w = {
+    max: 0, erreicht: 0,
+    anzahl: aufgaben.length,   // alle Aufgaben der Station
+    bearbeitet: 0,             // nicht übersprungene
+    bewertet: 0,               // davon mit eingetragenen Punkten
+    uebersprungen: 0
+  };
   for (const a of aufgaben) {
+    const e = eintrag(z, a.id);
+    if (e.uebersprungen) { w.uebersprungen += 1; continue; }
     const maxA = Number(a.punkte) || 0;
     w.max += maxA;
-    const e = eintrag(z, a.id);
-    if (e.bearbeitet) w.bearbeitet += 1;
+    w.bearbeitet += 1;
     if (e.punkte !== null && e.punkte !== undefined) {
       w.erreicht += grenze(e.punkte, 0, maxA);
       w.bewertet += 1;
@@ -213,8 +256,9 @@ function stationsWerte(station, z) {
 
 function stationsStatus(station, z) {
   const w = stationsWerte(station, z);
-  if (w.anzahl > 0 && w.bewertet === w.anzahl) return 'fertig';
-  if (w.bearbeitet > 0 || (z.stationen[station.id] && z.stationen[station.id].geoeffnet)) return 'begonnen';
+  const s = stand(z, station.id);
+  if (w.anzahl > 0 && s.stufe && w.bewertet === w.bearbeitet) return 'fertig';
+  if (s.stufe || s.bereit || w.bewertet > 0 || w.uebersprungen > 0 || s.geoeffnet) return 'begonnen';
   return 'offen';
 }
 
@@ -224,22 +268,25 @@ function gesamtWerteAufgaben(thema, z) {
   return alle;
 }
 
+/** Wahlstation empfohlen, wenn ein zugehöriger Punkt höchstens „mittel“ eingeschätzt wurde. */
 function istEmpfohlen(station, z) {
   const refs = Array.isArray(station.checkliste) ? station.checkliste : [];
   return refs.some((id) => {
-    const s = z.diagnose.eingang[id];
-    return s === 'unsicher' || s === 'teils';
+    const stufe = z.diagnose.eingang[id];
+    return stufe && stufe <= 3;
   });
 }
 
 function gesamtWerte(thema, z) {
-  const g = { max: 0, erreicht: 0, anzahl: 0, bewertet: 0, afb: {} };
+  const g = { max: 0, erreicht: 0, anzahl: 0, bearbeitet: 0, bewertet: 0, afb: {} };
   for (const { aufgabe: a } of gesamtWerteAufgaben(thema, z)) {
+    g.anzahl += 1;
+    if (!zaehltMit(z, a)) continue;           // übersprungen: zählt nirgends mit
     const maxA = Number(a.punkte) || 0;
     const afb = a.afb || '–';
     if (!g.afb[afb]) g.afb[afb] = { max: 0, erreicht: 0, bewertet: 0, anzahl: 0 };
     g.max += maxA;
-    g.anzahl += 1;
+    g.bearbeitet += 1;
     g.afb[afb].max += maxA;
     g.afb[afb].anzahl += 1;
     const e = eintrag(z, a.id);
@@ -254,17 +301,27 @@ function gesamtWerte(thema, z) {
   return g;
 }
 
+/**
+ * Kalibrierung je Station: die Selbsteinschätzung vor dem Lösungsvergleich
+ * gegen die tatsächlich erreichte Quote derselben Station.
+ * Wurde weniger als die Hälfte der Aufgaben bearbeitet, gibt es kein Urteil.
+ */
 function kalibrierung(thema, z) {
   const zeilen = [];
-  for (const { station: st, aufgabe: a } of gesamtWerteAufgaben(thema, z)) {
-    const e = eintrag(z, a.id);
-    const maxA = Number(a.punkte) || 0;
-    if (!e.stufe || e.punkte === null || e.punkte === undefined || maxA <= 0) continue;
-    const quote = grenze(e.punkte, 0, maxA) / maxA;
-    let urteil = 'passend';
-    if (e.stufe >= 4 && quote < 0.5) urteil = 'ueberschaetzt';
-    else if (e.stufe <= 2 && quote >= 0.8) urteil = 'unterschaetzt';
-    zeilen.push({ station: st, aufgabe: a, stufe: e.stufe, punkte: grenze(e.punkte, 0, maxA), max: maxA, quote, urteil });
+  for (const st of thema.stationen) {
+    const s = stand(z, st.id);
+    const w = stationsWerte(st, z);
+    if (!s.stufe || w.bewertet === 0) continue;
+
+    const quote = w.max > 0 ? w.erreicht / w.max : 0;
+    const genug = w.anzahl > 0 && w.bearbeitet >= w.anzahl / 2;
+    let urteil = 'zuwenig';
+    if (genug) {
+      urteil = 'passend';
+      if (s.stufe >= 4 && quote < 0.5) urteil = 'ueberschaetzt';
+      else if (s.stufe <= 2 && quote >= 0.8) urteil = 'unterschaetzt';
+    }
+    zeilen.push({ station: st, stufe: s.stufe, quote, werte: w, urteil });
   }
   return zeilen;
 }
@@ -488,7 +545,7 @@ function ansichtStationen() {
   html += '<section class="karte">' +
     '<h2>Fortschritt</h2>' +
     balkenZeile('Punkte', g.erreicht, g.max) +
-    '<p class="meta">' + g.bewertet + ' von ' + g.anzahl + ' Aufgaben ausgewertet</p>' +
+    '<p class="meta">' + aufgabenZeile(g) + '</p>' +
     '<div class="btn-reihe">' +
     '<a class="btn" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '/auswertung">' +
     symbol('ergebnis') + 'Auswertung</a>' +
@@ -677,86 +734,118 @@ function ansichtStation(stationId) {
     fehlerAnsicht('Station nicht gefunden', 'Die Station "' + stationId + '" steht nicht in thema.json.');
     return;
   }
-  const bisher = z.stationen[station.id];
-  if (!bisher || !bisher.geoeffnet) {
-    z.stationen[station.id] = Object.assign({ rolle: null, schritt: 0 }, bisher, { geoeffnet: true });
+  if (!z.stationen[station.id] || !z.stationen[station.id].geoeffnet) {
+    standSchreiben(z, station.id).geoeffnet = true;
     speichereZustand();
   }
 
   if (istTandem(station)) { ansichtTandem(station); return; }
 
+  const s = stand(z, station.id);
   const w = stationsWerte(station, z);
+  const frei = !!s.stufe;      // Lösungen sind freigeschaltet
 
   let html = stationsKopf(station) + pdfBereich(station);
 
-  const offeneVorhanden = station.aufgaben.some((a) => !eintrag(z, a.id).bearbeitet);
+  html += '<h2 style="margin-top:1.4rem">Aufgaben</h2>';
 
-  html += '<h2 style="margin-top:1.4rem">Aufgaben</h2>' +
-    '<p class="meta">' + pkt(w.erreicht) + ' von ' + pkt(w.max) + ' Punkten eingetragen' +
-    (offeneVorhanden ? ' · Bearbeitete Aufgabe mit dem Haken bestätigen, dann folgen Einschätzung und Lösung.' : '') +
-    '</p>';
+  if (!frei) {
+    // Vor der Freischaltung: nur die Übersicht, was auf dem Blatt zu tun ist.
+    html += '<p class="meta">' + esc(t('stationVorher')) + '</p>' +
+      station.aufgaben.map((a) => aufgabenKarte(a, z, false)).join('');
 
-  const naechsteOffen = station.aufgaben.find((a) => {
-    const e = eintrag(z, a.id);
-    return !(e.bearbeitet && e.stufe && e.punkte !== null);
-  });
+    html += s.bereit
+      ? '<section class="karte station-einschaetzung">' +
+        '<h3>' + esc(t('stationFrage')) + '</h3>' +
+        '<p class="meta">' + esc(t('stationFrageHinweis')) + '</p>' +
+        skala({ feld: 'station-' + station.id, stufe: null, lage: null, label: t('stationFrage') })
+          .replace('<fieldset', '<fieldset data-stationskala="' + esc(station.id) + '"') +
+        '</section>'
+      : '<div class="btn-reihe"><button type="button" class="btn btn-primaer btn-gross" ' +
+        'data-aktion="freischalten" data-id="' + esc(station.id) + '">' +
+        symbol('loesung') + esc(t('freischaltenBtn')) + '</button></div>';
 
-  html += station.aufgaben.map((a, i) => aufgabenKarte(a, z, station, i, naechsteOffen && naechsteOffen.id === a.id)).join('');
+    html += '<div class="btn-reihe"><a class="btn btn-schlicht" href="' +
+      themaPfad(aktuell.stufe, aktuell.themaId) + '">Zurück zur Übersicht</a></div>';
+    zeichne(html);
+    return;
+  }
+
+  // Nach der Freischaltung: Einschätzung (änderbar), dann alle Lösungen mit Punkten.
+  html += '<section class="karte station-einschaetzung">' +
+    '<h3>' + esc(t('stationFrage')) + '</h3>' +
+    skala({ feld: 'station-' + station.id, stufe: s.stufe, lage: s.lage, label: t('stationFrage') })
+      .replace('<fieldset', '<fieldset data-stationskala="' + esc(station.id) + '"') +
+    '<p class="meta">' + esc(t('stationFrageSpaeter')) + '</p>' +
+    '</section>';
+
+  html += '<p class="meta" id="station-stand">' + standZeile(w) + '</p>' +
+    station.aufgaben.map((a) => aufgabenKarte(a, z, true)).join('');
 
   html += '<div class="btn-reihe">' +
-    '<a class="btn" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '">Zurück zur Übersicht</a>' +
+    '<a class="btn btn-primaer" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '">' +
+    symbol('haken') + esc(t('stationFertigBtn')) + '</a>' +
     '<a class="btn btn-schlicht" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '/auswertung">Auswertung</a>' +
     '</div>';
 
   zeichne(html);
 }
 
-function aufgabenKarte(a, z, station, index, istAktiv) {
+/** „x von y Aufgaben ausgewertet“, übersprungene getrennt ausgewiesen. */
+function aufgabenZeile(g) {
+  const offen = g.anzahl - g.bearbeitet;
+  return g.bewertet + ' von ' + g.bearbeitet + ' Aufgaben ausgewertet' +
+    (offen > 0 ? ' · ' + offen + ' nicht bearbeitet' : '');
+}
+
+/** Zwischenstand einer Station als Satz. */
+function standZeile(w) {
+  return pkt(w.erreicht) + ' von ' + pkt(w.max) + ' Punkten eingetragen' +
+    (w.uebersprungen > 0 ? ' · ' + w.bearbeitet + ' von ' + w.anzahl + ' Aufgaben bearbeitet' : '');
+}
+
+/**
+ * Aufgabenkarte. Vor der Freischaltung steht nur der Kopf da,
+ * danach Lösung, Punkte-Stepper und der Schalter „nicht bearbeitet“.
+ */
+function aufgabenKarte(a, z, frei) {
   const e = eintrag(z, a.id);
   const maxA = Number(a.punkte) || 0;
-  const fertig = e.bearbeitet && e.stufe && e.punkte !== null;
-  const klassen = 'karte aufgabe' + (fertig ? ' fertig' : istAktiv ? ' aktiv' : '');
-
-  // Der Haken sitzt rechts in der Kopfzeile: Bei zehn Aufgaben auf einer Seite
-  // wären zehn große Knöpfe darunter zu viel des Guten.
-  const haken = !e.bearbeitet
-    ? '<button type="button" class="haken-btn" data-aktion="bearbeitet" data-id="' + esc(a.id) + '"' +
-      ' title="' + esc(t('bearbeitetBtn')) + '"' +
-      ' aria-label="Aufgabe ' + esc(a.label || a.id) + ': ' + esc(t('bearbeitetBtn')) + '">' +
-      symbol('haken') + '</button>'
-    : '';
+  const uebersprungen = e.uebersprungen === true;
+  const hatPunkte = e.punkte !== null && e.punkte !== undefined;
+  const klassen = 'karte aufgabe' +
+    (uebersprungen ? ' ist-uebersprungen' : hatPunkte && frei ? ' fertig' : '');
 
   let html = '<article class="' + klassen + '" id="a-' + esc(a.id) + '">' +
     '<div class="aufgabe-kopf"><span class="nr">Aufgabe ' + esc(a.label || a.id) + '</span>' +
     '<span class="chip">' + pkt(maxA) + ' ' + (maxA === 1 ? 'Punkt' : 'Punkte') + '</span>' +
     (a.afb ? '<span class="chip">AFB ' + esc(a.afb) + '</span>' : '') +
-    (fertig ? '<span class="chip chip-fertig">' + pkt(grenze(e.punkte, 0, maxA)) + ' erreicht</span>' : '') +
-    haken +
+    (frei && uebersprungen ? '<span class="chip">nicht bearbeitet</span>' : '') +
+    (frei && !uebersprungen && hatPunkte
+      ? '<span class="chip chip-fertig">' + pkt(grenze(e.punkte, 0, maxA)) + ' erreicht</span>' : '') +
     '</div>';
 
-  if (!e.bearbeitet) return html + '</article>';
-
-  if (!e.stufe) {
-    html += skala({ feld: 'stufe-' + a.id, stufe: null, lage: null, frage: t('wieSicher') })
-      .replace('<fieldset', '<fieldset data-stufe="' + esc(a.id) + '"');
-    return html + '</article>';
-  }
-
-  html += skala({ feld: 'stufe-' + a.id, stufe: e.stufe, lage: e.lage, frage: t('wieSicher'), gesperrt: true }) +
-    '<p class="meta">' + esc(t('smileyFest')) + '</p>';
+  if (!frei) return html + '</article>';
 
   html += '<div class="loesung"><p class="loesung-marke">' + symbol('loesung') + 'Lösung</p>' +
     (a.loesung ? markdown(a.loesung) : '<p>Für diese Aufgabe ist keine Lösung hinterlegt.</p>') +
     bildHtml(a) + '</div>';
 
-  const wert = e.punkte === null ? '' : pkt(grenze(e.punkte, 0, maxA));
-  html += '<p style="margin:.9rem 0 .4rem"><strong>' + esc(t('punkteFrage')) + '</strong></p>' +
+  const wert = hatPunkte ? pkt(grenze(e.punkte, 0, maxA)) : '';
+  html += '<div class="punkte-zeile">' +
     '<div class="stepper">' +
-    '<button type="button" class="btn" data-aktion="punkte-minus" data-id="' + esc(a.id) + '" aria-label="Halben Punkt abziehen">−</button>' +
-    '<input type="text" inputmode="decimal" value="' + esc(wert) + '" data-punkte="' + esc(a.id) + '" ' +
-    'aria-label="Erreichte Punkte für Aufgabe ' + esc(a.label || a.id) + ', maximal ' + pkt(maxA) + '">' +
-    '<button type="button" class="btn" data-aktion="punkte-plus" data-id="' + esc(a.id) + '" aria-label="Halben Punkt hinzufügen">+</button>' +
+    '<button type="button" class="btn" data-aktion="punkte-minus" data-id="' + esc(a.id) + '"' +
+    (uebersprungen ? ' disabled' : '') + ' aria-label="Halben Punkt abziehen">−</button>' +
+    '<input type="text" inputmode="decimal" value="' + esc(wert) + '" data-punkte="' + esc(a.id) + '"' +
+    (uebersprungen ? ' disabled' : '') +
+    ' aria-label="Erreichte Punkte für Aufgabe ' + esc(a.label || a.id) + ', maximal ' + pkt(maxA) + '">' +
+    '<button type="button" class="btn" data-aktion="punkte-plus" data-id="' + esc(a.id) + '"' +
+    (uebersprungen ? ' disabled' : '') + ' aria-label="Halben Punkt hinzufügen">+</button>' +
     '<span class="max">von ' + pkt(maxA) + '</span>' +
+    '</div>' +
+    '<label class="schalter">' +
+    '<input type="checkbox" data-uebersprungen="' + esc(a.id) + '"' + (uebersprungen ? ' checked' : '') + '>' +
+    '<span>nicht bearbeitet</span></label>' +
     '</div>';
 
   return html + '</article>';
@@ -769,8 +858,8 @@ function aufgabenKarte(a, z, station, index, istAktiv) {
 
 function ansichtTandem(station) {
   const z = aktuell.zustand;
-  const stand = z.stationen[station.id];
-  const rolle = stand.rolle;
+  const st = stand(z, station.id);
+  const rolle = st.rolle;
 
   let html = stationsKopf(station) + pdfBereich(station);
 
@@ -788,7 +877,7 @@ function ansichtTandem(station) {
   }
 
   const anzahl = station.aufgaben.length;
-  const schritt = grenze(stand.schritt || 0, 0, Math.max(0, anzahl - 1));
+  const schritt = grenze(st.schritt || 0, 0, Math.max(0, anzahl - 1));
   const a = station.aufgaben[schritt];
   const w = stationsWerte(station, z);
 
@@ -815,7 +904,15 @@ function ansichtTandem(station) {
     '<a class="btn btn-schlicht" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '">Stationsübersicht</a>' +
     '</div>';
 
-  if (schritt === anzahl - 1) html += '<p class="hinweis">' + esc(t('tandemFertig')) + '</p>';
+  if (schritt === anzahl - 1) {
+    // Die Selbsteinschätzung wird bei Tandem einmal am Ende abgefragt.
+    html += '<section class="karte station-einschaetzung">' +
+      '<h3>' + esc(t('stationFrage')) + '</h3>' +
+      skala({ feld: 'station-' + station.id, stufe: st.stufe, lage: st.lage, label: t('stationFrage') })
+        .replace('<fieldset', '<fieldset data-stationskala="' + esc(station.id) + '"') +
+      '</section>' +
+      '<p class="hinweis">' + esc(t('tandemFertig')) + '</p>';
+  }
 
   zeichne(html);
 }
@@ -853,13 +950,6 @@ function tandemEigene(a, z, schritt) {
       '<button type="button" class="btn btn-primaer" data-aktion="bearbeitet" data-id="' + esc(a.id) + '">Ich habe laut gelöst</button>' +
       '</div></article>';
   }
-
-  if (!e.stufe) {
-    return html + skala({ feld: 'stufe-' + a.id, stufe: null, lage: null, frage: t('wieSicher') })
-      .replace('<fieldset', '<fieldset data-stufe="' + esc(a.id) + '"') + '</article>';
-  }
-
-  html += skala({ feld: 'stufe-' + a.id, stufe: e.stufe, lage: e.lage, frage: t('wieSicher'), gesperrt: true });
 
   html += '<p style="margin:.9rem 0 .4rem"><strong>' + esc(t('kontrolleFrage')) + '</strong></p>' +
     '<div class="btn-reihe" role="group" aria-label="' + esc(t('kontrolleFrage')) + '">' +
@@ -926,7 +1016,7 @@ function ansichtAuswertung() {
 
   html += '<section class="karte"><h2>Gesamt</h2>' +
     balkenZeile('Punkte', g.erreicht, g.max) +
-    '<p class="meta">' + prozent + ' % · ' + g.bewertet + ' von ' + g.anzahl + ' Aufgaben ausgewertet</p></section>';
+    '<p class="meta">' + prozent + ' % · ' + aufgabenZeile(g) + '</p></section>';
 
   html += '<section class="karte"><h2>Nach Stationen</h2>';
   for (const st of thema.stationen) {
@@ -952,36 +1042,45 @@ function ansichtAuswertung() {
   zeichne(html);
 }
 
+const URTEILE = {
+  ueberschaetzt: 'überschätzt',
+  unterschaetzt: 'unterschätzt',
+  passend: 'gut eingeschätzt',
+  zuwenig: 'zu wenig bearbeitet für eine Einschätzung'
+};
+
 function kalibrierungsKarte(thema, z) {
   const zeilen = kalibrierung(thema, z);
   let html = '<section class="karte"><h2>Einschätzung und Ergebnis</h2>';
   if (!zeilen.length) {
-    return html + '<p class="meta">Sobald Einschätzung und Punkte zu einer Aufgabe vorliegen, erscheint hier der Vergleich.</p></section>';
+    return html + '<p class="meta">Sobald eine Station eingeschätzt und bepunktet ist, ' +
+      'erscheint hier der Vergleich.</p></section>';
   }
+
   const ueber = zeilen.filter((r) => r.urteil === 'ueberschaetzt');
   const unter = zeilen.filter((r) => r.urteil === 'unterschaetzt');
-  const passend = zeilen.length - ueber.length - unter.length;
+  const passend = zeilen.filter((r) => r.urteil === 'passend');
 
   const saetze = [];
   if (ueber.length) saetze.push(t('ueberschaetzt'));
   if (unter.length) saetze.push(t('unterschaetzt'));
-  if (!saetze.length) saetze.push(t('passend'));
-  html += saetze.map((s) => '<p>' + esc(s) + '</p>').join('');
-  html += '<p class="meta">' + passend + ' von ' + zeilen.length + ' Aufgaben passend eingeschätzt' +
-    (ueber.length ? ' · ' + ueber.length + '× überschätzt' : '') +
-    (unter.length ? ' · ' + unter.length + '× unterschätzt' : '') + '</p>';
+  if (!saetze.length && passend.length) saetze.push(t('passend'));
+  html += saetze.map((x) => '<p>' + esc(x) + '</p>').join('');
 
-  html += '<div class="tab-umbruch"><table class="tab"><thead><tr>' +
-    '<th>Aufgabe</th><th>Einschätzung</th><th class="zahl">Punkte</th><th>Vergleich</th></tr></thead><tbody>';
-  for (const r of zeilen) {
-    const urteilText = r.urteil === 'ueberschaetzt' ? 'überschätzt'
-      : r.urteil === 'unterschaetzt' ? 'unterschätzt' : 'passend';
-    html += '<tr><td>' + esc(r.station.id) + ' · ' + esc(r.aufgabe.label || r.aufgabe.id) + '</td>' +
-      '<td>' + stufeZelle(r.stufe) + '</td>' +
-      '<td class="zahl">' + pkt(r.punkte) + ' / ' + pkt(r.max) + '</td>' +
-      '<td>' + esc(urteilText) + '</td></tr>';
-  }
-  return html + '</tbody></table></div></section>';
+  html += '<ul class="kalib">' + zeilen.map((r) => {
+    const prozent = Math.round(r.quote * 100);
+    return '<li class="kalib-zeile urteil-' + r.urteil + '">' +
+      '<span class="kalib-station">' + esc(r.station.id) + ' · ' + esc(r.station.titel || '') + '</span>' +
+      stufeZelle(r.stufe) +
+      '<span class="kalib-quote">' + (r.urteil === 'zuwenig' ? '–' : prozent + ' %') + '</span>' +
+      '<span class="kalib-urteil">' + esc(URTEILE[r.urteil]) + '</span>' +
+      (r.werte.bearbeitet < r.werte.anzahl
+        ? '<span class="kalib-hinweis">' + r.werte.bearbeitet + ' von ' + r.werte.anzahl + ' Aufgaben bearbeitet</span>'
+        : '') +
+      '</li>';
+  }).join('') + '</ul>';
+
+  return html + '</section>';
 }
 
 function ausgangsKarte(thema, z) {
@@ -1052,6 +1151,24 @@ function uebernimmSkala(regler) {
   const feld = regler.closest('.skala-feld');
   if (feld) feld.classList.remove('ist-leer');
   regler.setAttribute('aria-valuetext', stufenWort(stufe));
+
+  const gruppeStation = regler.closest('[data-stationskala]');
+  if (gruppeStation) {
+    const sid = gruppeStation.dataset.stationskala;
+    const st = standSchreiben(aktuell.zustand, sid);
+    const neu = !st.stufe;          // erste Einschätzung schaltet die Lösungen frei
+    st.stufe = stufe;
+    st.lage = lage;
+    st.bereit = true;
+    speichereZustand();
+    if (neu) {
+      route().then(() => {
+        const ziel = document.getElementById('station-stand');
+        if (ziel) ziel.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      });
+    }
+    return;
+  }
 
   const gruppeAufgabe = regler.closest('[data-stufe]');
   if (gruppeAufgabe) {
@@ -1174,6 +1291,20 @@ function aktionenVerdrahten() {
       const e = eintrag(aktuell.zustand, id);
       if (feld) feld.value = e.punkte === null ? '' : pkt(e.punkte);
       aktualisiereKartenKopf(id);
+      aktualisiereStationsStand();
+      return;
+    }
+
+    if (aktion === 'freischalten') {
+      const st = standSchreiben(aktuell.zustand, id);
+      st.bereit = true;
+      speichereZustand();
+      route().then(() => {
+        const feld = document.querySelector('[data-stationskala] input[type="range"]');
+        if (feld) feld.focus({ preventScroll: true });
+        const karte = document.querySelector('.station-einschaetzung');
+        if (karte) karte.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      });
       return;
     }
 
@@ -1181,8 +1312,8 @@ function aktionenVerdrahten() {
       const sid = stationAusPfad();
       if (!sid) return;
       if (aktion === 'rolle-wechseln' && !window.confirm(t('rolleWechselFrage'))) return;
-      const stand = aktuell.zustand.stationen[sid] || (aktuell.zustand.stationen[sid] = { geoeffnet: true, rolle: null, schritt: 0 });
-      stand.rolle = aktion === 'rolle' ? el.dataset.wert : null;
+      const st = standSchreiben(aktuell.zustand, sid);
+      st.rolle = aktion === 'rolle' ? el.dataset.wert : null;
       speichereZustand();
       route();
       return;
@@ -1192,12 +1323,12 @@ function aktionenVerdrahten() {
       const sid = stationAusPfad();
       const station = sid && aktuell.thema.stationen.find((s) => String(s.id) === sid);
       if (!station) return;
-      const stand = aktuell.zustand.stationen[sid];
+      const st = standSchreiben(aktuell.zustand, sid);
       const letzte = Math.max(0, station.aufgaben.length - 1);
-      const jetzt = grenze(stand.schritt || 0, 0, letzte);
+      const jetzt = grenze(st.schritt || 0, 0, letzte);
       const ziel = aktion === 'takt-zu' ? Number(el.dataset.wert)
         : aktion === 'takt-weiter' ? jetzt + 1 : jetzt - 1;
-      stand.schritt = grenze(isFinite(ziel) ? ziel : 0, 0, letzte);
+      st.schritt = grenze(isFinite(ziel) ? ziel : 0, 0, letzte);
       speichereZustand();
       route().then(() => {
         const takt = document.querySelector('.takt');
@@ -1242,16 +1373,33 @@ function aktionenVerdrahten() {
 
     if (ziel.matches('[data-skala]')) { uebernimmSkala(ziel); return; }
 
+    if (ziel.matches('[data-uebersprungen]')) {
+      const id = ziel.dataset.uebersprungen;
+      const z = aktuell.zustand;
+      const e = z.aufgaben[id] ||
+        (z.aufgaben[id] = { bearbeitet: false, punkte: null, uebersprungen: false, kontrolle: null });
+      e.uebersprungen = ziel.checked;
+      if (ziel.checked) e.punkte = null;      // übersprungen heißt: keine Punkte
+      speichereZustand();
+      route();
+      return;
+    }
+
     if (ziel.matches('[data-punkte]')) {
       const id = ziel.dataset.punkte;
       const roh = ziel.value.trim().replace(',', '.');
-      if (roh === '') { setzePunkte(id, null); ziel.value = ''; aktualisiereKartenKopf(id); return; }
+      if (roh === '') {
+        setzePunkte(id, null); ziel.value = '';
+        aktualisiereKartenKopf(id); aktualisiereStationsStand();
+        return;
+      }
       const n = Number(roh);
       if (!isFinite(n)) { meldung('Bitte eine Zahl eintragen.'); ziel.value = ''; return; }
       setzePunkte(id, n);
       const e = eintrag(aktuell.zustand, id);
       ziel.value = e.punkte === null ? '' : pkt(e.punkte);
       aktualisiereKartenKopf(id);
+      aktualisiereStationsStand();
     }
   });
 
@@ -1278,7 +1426,7 @@ function aktualisiereKartenKopf(id) {
   const e = eintrag(aktuell.zustand, id);
   const maxA = Number(a && a.punkte) || 0;
   const alt = karte.querySelector('.chip-fertig');
-  const fertig = e.bearbeitet && e.smiley && e.punkte !== null;
+  const fertig = !e.uebersprungen && e.punkte !== null && e.punkte !== undefined;
   if (fertig) {
     const text = pkt(grenze(e.punkte, 0, maxA)) + ' erreicht';
     if (alt) alt.textContent = text;
@@ -1294,6 +1442,15 @@ function aktualisiereKartenKopf(id) {
     alt.remove();
     karte.classList.remove('fertig');
   }
+}
+
+/** Schreibt den Zwischenstand der Station neu, ohne die Seite neu zu zeichnen. */
+function aktualisiereStationsStand() {
+  const zeile = document.getElementById('station-stand');
+  if (!zeile) return;
+  const sid = stationAusPfad();
+  const station = sid && aktuell.thema.stationen.find((x) => String(x.id) === sid);
+  if (station) zeile.textContent = standZeile(stationsWerte(station, aktuell.zustand));
 }
 
 /* ---------- Router ---------- */

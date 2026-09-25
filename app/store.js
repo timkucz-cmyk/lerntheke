@@ -132,6 +132,9 @@ function normalisiere(roh, stufe, thema) {
       const schritt = alsZahl(s.schritt);
       z.stationen[id] = {
         geoeffnet: s.geoeffnet === true,
+        bereit: s.bereit === true,
+        stufe: alsStufe(s.stufe),
+        lage: alsLage(s.lage),
         rolle: ROLLEN.includes(s.rolle) ? s.rolle : null,
         schritt: schritt !== null && schritt >= 0 ? Math.floor(schritt) : 0
       };
@@ -143,10 +146,9 @@ function normalisiere(roh, stufe, thema) {
       const a = roh.aufgaben[id];
       if (!istObjekt(a)) continue;
       z.aufgaben[id] = {
-        bearbeitet: a.bearbeitet === true,
-        stufe: alsStufe(a.stufe !== undefined ? a.stufe : a.smiley),
-        lage: alsLage(a.lage),
+        bearbeitet: a.bearbeitet === true,          // nur im Tandem: laut gelöst
         punkte: alsZahl(a.punkte),
+        uebersprungen: a.uebersprungen === true,
         kontrolle: alsKontrolle(a.kontrolle)
       };
     }

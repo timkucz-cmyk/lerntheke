@@ -761,3 +761,45 @@ a, button, summary, label, .chip {
 
 /* Die Nadel soll sich ziehen lassen, ohne dass die Seite mitscrollt */
 .skala-bahn input[type="range"] { touch-action: none; }
+
+/* ---------- Stationsablauf: eine Einschätzung je Station ---------- */
+.station-einschaetzung { border-left: 3px solid var(--fach); }
+.station-einschaetzung h3 { margin-bottom: .4rem; }
+
+.punkte-zeile {
+  display: flex; flex-wrap: wrap; align-items: center;
+  gap: .6rem 1.2rem; margin-top: .9rem;
+}
+
+/* Schalter „nicht bearbeitet“ */
+.schalter {
+  display: inline-flex; align-items: center; gap: .5rem;
+  min-height: var(--tap); padding: .2rem .2rem;
+  font-size: var(--fs-sm); color: var(--text-leise); cursor: pointer;
+}
+.schalter input {
+  width: 1.15rem; height: 1.15rem; margin: 0;
+  accent-color: var(--fach); flex: none;
+}
+.schalter:hover { color: var(--text-2); }
+
+.aufgabe.ist-uebersprungen { border-left-color: var(--linie-2); }
+.aufgabe.ist-uebersprungen .loesung { opacity: .75; }
+.aufgabe.ist-uebersprungen .stepper { opacity: .45; }
+
+/* Kalibrierung je Station */
+.kalib { list-style: none; margin: .6rem 0 0; padding: 0; }
+.kalib-zeile {
+  display: grid; align-items: center; gap: .3rem .7rem;
+  grid-template-columns: 1fr auto auto;
+  padding: .55rem 0; border-top: 1px solid var(--linie);
+}
+.kalib-zeile:first-child { border-top: 0; }
+.kalib-station { font-weight: 600; color: var(--text); }
+.kalib-quote { font-variant-numeric: tabular-nums; color: var(--text-2); }
+.kalib-urteil {
+  grid-column: 1 / -1; font-size: var(--fs-sm); color: var(--text-leise);
+}
+.kalib-hinweis { grid-column: 1 / -1; font-size: var(--fs-xs); color: var(--text-leise); }
+.urteil-ueberschaetzt .kalib-urteil { color: var(--warn-ink); font-weight: 600; }
+.urteil-unterschaetzt .kalib-urteil { color: var(--ok-ink); font-weight: 600; }

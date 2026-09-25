@@ -232,9 +232,10 @@ beiden über die große Nummer, die auf beiden Geräten gleich stehen muss.
    und lässt sich mit Rückfrage wechseln; die Eingaben bleiben dabei erhalten.
 2. Die Nummern laufen in der Reihenfolge aus der Datei. Groß angezeigt, dazu eine Reihe von
    Nummernknöpfen (durchgezogen = eigene Nummer, gestrichelt = Kontrollkarte, grün = erledigt).
-3. **Eigene Nummer:** Aufgabentext → „Ich habe laut gelöst“ → Selbsteinschätzung → Rückmeldung
-   des Gegenübers: *richtig* (volle Punkte), *mit Tipp richtig* (halbe Punkte), *falsch* (0).
-   Erst danach erscheint die Lösung zum Nachlesen. Die Rückmeldung ist später korrigierbar.
+3. **Eigene Nummer:** Aufgabentext → „Ich habe laut gelöst“ → Rückmeldung des Gegenübers:
+   *richtig* (volle Punkte), *mit Tipp richtig* (halbe Punkte), *falsch* (0). Erst danach
+   erscheint die Lösung zum Nachlesen. Die Rückmeldung ist später korrigierbar. Eine
+   Selbsteinschätzung gibt es auch hier nur einmal – sie wird bei der letzten Nummer abgefragt.
 4. **Nummer des Gegenübers:** Kontrollkarte mit Aufgabe, Lösung und ausklappbarem Tipp –
    ohne Punkteingabe, zählt nicht in die eigene Auswertung.
 5. In die Auswertung gehen nur die eigenen Nummern ein; die Maximalpunktzahl richtet sich
@@ -336,8 +337,12 @@ Sie können gelöscht werden, sobald eigene Themen vorhanden sind – dann auch 
 2. Selbsteinschätzung zu den Checklistenpunkten (überspringbar).
 3. Stationsübersicht mit Fortschritt, Status und Empfehlungen.
 4. Station: Arbeitsblatt öffnen oder herunterladen.
-5. Je Aufgabe fest in dieser Reihenfolge: bearbeiten → „Aufgabe ist bearbeitet“ → Selbsteinschätzung
-   → Lösung erscheint → Punkte eintragen. Punkte lassen sich später korrigieren, die Einschätzung
-   bleibt bewusst stehen. Tandemstationen laufen nach dem Ablauf aus Abschnitt 4a.
-6. Auswertung: Punkte gesamt, je Station, je Anforderungsbereich; Vergleich von Einschätzung und
-   Ergebnis; Selbstdiagnose am Ende mit Vorher/Nachher; Zusammenfassung zum Drucken.
+5. Station: erst **alle** Aufgaben auf dem Blatt bearbeiten, dann „Fertig – Lösungen freischalten“.
+   Es folgt **eine** Selbsteinschätzung für die ganze Station („Wie sicher war ich hier?“), erst
+   danach erscheinen alle Lösungen untereinander. Zu jeder Aufgabe werden die Punkte eingetragen
+   oder die Aufgabe wird als **nicht bearbeitet** markiert – solche Aufgaben zählen weder im
+   Zähler noch im Nenner, ihre Lösung ist trotzdem zu sehen. Punkte und Einschätzung bleiben
+   änderbar. Tandemstationen laufen nach dem Ablauf aus Abschnitt 4a.
+6. Auswertung: Punkte gesamt, je Station, je Anforderungsbereich; **je Station** der Vergleich von
+   Einschätzung und erreichter Quote (bei weniger als der Hälfte bearbeiteter Aufgaben entfällt das
+   Urteil); Selbstdiagnose am Ende mit Vorher/Nachher; Zusammenfassung zum Drucken.
