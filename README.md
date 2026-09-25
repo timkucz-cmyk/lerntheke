@@ -6,7 +6,8 @@ die Stationen ab, sehen danach die Lösungen, tragen ihre Punkte ein und bekomme
 
 **Neue Inhalte entstehen ausschließlich über Dateien – am Programmcode muss nichts geändert werden.**
 
-**Live: <https://timkucz-cmyk.github.io/lerntheke/>**
+**Live: <https://timkucz-cmyk.github.io/lerntheke/>** ·
+Überblick über Aufbau und Entscheidungen: [PROJEKT.md](PROJEKT.md)
 
 - kein Build-Schritt, reines HTML/CSS/JS (ES-Module)
 - läuft auf GitHub Pages
