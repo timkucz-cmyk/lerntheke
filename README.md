@@ -156,7 +156,8 @@ git push
 - `"sozialform": "tandem"` schaltet auf die Tandemstation um (zwei SuS, zwei Tablets, kein Papier).
   Der Aufbau dieser Stationen steht in Abschnitt 4a.
 - Wahlstationen werden als **„empfohlen“** markiert, wenn ein zugehöriger Checklistenpunkt in der
-  Eingangsdiagnose mit 😕 oder 😐 bewertet wurde. Ohne `checkliste`-Bezug funktioniert das nicht.
+  Eingangsdiagnose höchstens „mittel“ eingeschätzt wurde (Stufe 1 bis 3 der Skala).
+  Ohne `checkliste`-Bezug funktioniert das nicht.
 - Pflichtstationen stehen in der Übersicht oben, Wahlstationen darunter – jeweils in der
   Reihenfolge aus der Datei.
 - `"spaeter": true` an einem Checklistenpunkt heißt: gehört zum Thema, ist aber noch nicht

@@ -38,11 +38,6 @@ const TEXTE = {
     du: 'Schätze zuerst ein, wie sicher du dich bei den folgenden Punkten fühlst. Danach siehst du, welche Wahlstationen für dich besonders sinnvoll sind.',
     sie: 'Schätzen Sie zuerst ein, wie sicher Sie sich bei den folgenden Punkten fühlen. Danach sehen Sie, welche Wahlstationen für Sie besonders sinnvoll sind.'
   },
-  ausgangIntro: {
-    du: 'Bewerte die Punkte jetzt noch einmal. So siehst du, was sich verändert hat.',
-    sie: 'Bewerten Sie die Punkte jetzt noch einmal. So sehen Sie, was sich verändert hat.'
-  },
-  wieSicher: { du: 'Wie sicher warst du dir?', sie: 'Wie sicher waren Sie sich?' },
   stationVorher: {
     du: 'Bearbeite zuerst alle Aufgaben auf dem Blatt. Danach schaltest du die Lösungen frei.',
     sie: 'Bearbeiten Sie zuerst alle Aufgaben auf dem Blatt. Danach schalten Sie die Lösungen frei.'
@@ -62,9 +57,6 @@ const TEXTE = {
   },
   stationFertigBtn: { du: 'Station abschließen', sie: 'Station abschließen' },
   wieSicherJetzt: { du: 'Wie sicher fühlst du dich?', sie: 'Wie sicher fühlen Sie sich?' },
-  bearbeitetBtn: { du: 'Ich habe die Aufgabe bearbeitet', sie: 'Aufgabe ist bearbeitet' },
-  punkteFrage: { du: 'Trage deine erreichten Punkte ein:', sie: 'Tragen Sie Ihre erreichten Punkte ein:' },
-  smileyFest: { du: 'Deine Einschätzung bleibt so stehen – die Punkte kannst du noch ändern.', sie: 'Ihre Einschätzung bleibt so stehen – die Punkte können Sie noch ändern.' },
   nameLabel: { du: 'Dein Name (bleibt auf diesem Gerät):', sie: 'Ihr Name (bleibt auf diesem Gerät):' },
   resetFrage: {
     du: 'Wirklich den gesamten Fortschritt zu diesem Thema löschen? Das lässt sich nicht rückgängig machen.',
