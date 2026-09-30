@@ -1,7 +1,7 @@
 # Lerntheke – Projektüberblick
 
 Stand: 25. September 2026 · Live unter <https://timkucz-cmyk.github.io/lerntheke/> ·
-Repository `timkucz-cmyk/lerntheke` · lokal in `OneDrive\Schule\Claude_Code\lerntheke`
+Repository `timkucz-cmyk/lerntheke` · lokal in `OneDrive\Schule\Vorlagen\KI_Tools\Lerntheke`
 
 Diese Datei fasst zusammen, was die App tut, wie sie aufgebaut ist und warum sie so
 aussieht, wie sie aussieht. Die **Anleitung zum Anlegen neuer Themen** steht in der
