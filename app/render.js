@@ -387,13 +387,15 @@ export function markdown(text) {
       continue;
     }
 
-    const absatz = [];
-    while (i < zeilen.length && zeilen[i].trim() && !/^\s*[-*+#|]|^\s*\d+[.)]\s/.test(zeilen[i])) {
+    // Die erste Zeile gehört immer zum Absatz (sonst ginge z. B. „**Wahr.** …“ verloren);
+    // Folgezeilen enden erst an einem echten Block-Anfang.
+    const absatz = [z.trim()];
+    i += 1;
+    while (i < zeilen.length && zeilen[i].trim() && !/^#{1,4}\s|^\s*[-*+]\s|^\s*\||^\s*\d+[.)]\s/.test(zeilen[i])) {
       absatz.push(zeilen[i].trim());
       i += 1;
     }
-    if (absatz.length) html += '<p>' + inline(absatz.join(' ')) + '</p>';
-    else i += 1;
+    html += '<p>' + inline(absatz.join(' ')) + '</p>';
   }
 
   return html.replace(new RegExp(MARKE + 'm(\\d+)' + MARKE, 'g'), (_, n) => {
