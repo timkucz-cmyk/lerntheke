@@ -32,7 +32,9 @@ prüfen, pushen. Am Programmcode ändert sich nichts.
 
 ## 2. Ablauf für die Schülerinnen und Schüler
 
-1. **Start:** Klassenstufe und Thema wählen; das zuletzt geöffnete Thema steht oben.
+1. **Start:** Klassenstufe, Fach und Thema in drei Schritten wählen; das zuletzt geöffnete
+   Thema steht oben. Gleiches Design wie die Startseiten von Simulationen und Spielesammlung
+   (Vorgabe: `Simulationen/AUSWAHLSEITE.md`, Klassen `st-*` am Ende von `app/style.css`).
 2. **Selbsteinschätzung (Eingang):** je Kompetenz eine Nadel auf der Farbskala. Überspringbar.
 3. **Stationsübersicht:** Lernweg, Fortschritt und die Stationen als Kacheln mit Abbildung.
    Wahlstationen zu unsicher eingeschätzten Kompetenzen tragen die Marke *empfohlen*.

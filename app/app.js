@@ -391,46 +391,218 @@ function sozialformText(s) {
 
 function themaPfad(stufe, thema) { return '#/t/' + encodeURIComponent(stufe) + '/' + encodeURIComponent(thema); }
 
-/* ---------- Ansicht: Start ---------- */
+/* ---------- Ansicht: Start ----------
+   Gleicher Aufbau wie die Startseiten der anderen LMG-Plattformen (Simulationen,
+   Spielesammlung): Klassenstufe → Fach → Thema. Alle Stufen stehen immer da;
+   ohne Thema bleiben sie gedimmt. Die Stufen im Katalog werden über ihre ID
+   zugeordnet, Groß-/Kleinschreibung egal („q1“ = „Q1“). */
 
-function ansichtStart() {
+const KLASSENSTUFEN = [
+  { id: '5', zahl: '5', name: 'Klasse 5', gruppe: 'Sekundarstufe I' },
+  { id: '6', zahl: '6', name: 'Klasse 6', gruppe: 'Sekundarstufe I' },
+  { id: '7', zahl: '7', name: 'Klasse 7', gruppe: 'Sekundarstufe I' },
+  { id: '8', zahl: '8', name: 'Klasse 8', gruppe: 'Sekundarstufe I' },
+  { id: '9', zahl: '9', name: 'Klasse 9', gruppe: 'Sekundarstufe I' },
+  { id: '10', zahl: '10', name: 'Klasse 10', gruppe: 'Sekundarstufe I' },
+  { id: 'E', zahl: 'E', kurz: 'Einführung', name: 'Einführungs­phase', gruppe: 'Sekundarstufe II' },
+  { id: 'Q1', zahl: 'Q1', kurz: 'Qualifikation', name: 'Qualifikations­phase 1', gruppe: 'Sekundarstufe II' },
+  { id: 'Q2', zahl: 'Q2', kurz: 'Qualifikation', name: 'Qualifikations­phase 2', gruppe: 'Sekundarstufe II' }
+];
+const FAECHER = [
+  { id: 'mathe', name: 'Mathematik', zeichen: '∫' },
+  { id: 'physik', name: 'Physik', zeichen: 'λ' }
+];
+const START_MERK = 'lerntheke-start';
+const PFEIL = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+
+let startWahl = null; // { stufe, fach } – Auswahl auf der Startseite
+
+/** Alle Stufen der Startseite; Katalogstufen ohne feste Kachel kommen hinten dazu. */
+function startStufen() {
+  const liste = KLASSENSTUFEN.slice();
+  for (const k of (katalog && katalog.stufen) || []) {
+    const id = String(k.id);
+    if (!liste.some((st) => st.id.toLowerCase() === id.toLowerCase())) {
+      liste.push({ id, zahl: k.name || id, kurz: 'Kurs', name: k.name || id, gruppe: 'Weitere' });
+    }
+  }
+  return liste;
+}
+
+/** Aktive Themen einer Stufe (optional nur eines Fachs), jeweils mit der Katalog-Stufe. */
+function startThemen(stufeId, fach) {
+  const treffer = [];
+  for (const k of (katalog && katalog.stufen) || []) {
+    if (String(k.id).toLowerCase() !== String(stufeId).toLowerCase()) continue;
+    for (const th of k.themen || []) {
+      if (th.aktiv === false) continue;
+      if (fach && (th.fach || 'mathe') !== fach) continue;
+      treffer.push({ stufe: k, thema: th });
+    }
+  }
+  return treffer;
+}
+
+function themenAnzahl(n) { return n === 0 ? 'noch leer' : n === 1 ? '1 Thema' : n + ' Themen'; }
+function ohneTrenner(text) { return String(text).replace(/­/g, ''); }
+
+function startWahlLesen() {
+  const q = new URLSearchParams(location.search);
+  if (q.get('stufe')) return { stufe: q.get('stufe'), fach: q.get('fach') };
+  try { return JSON.parse(localStorage.getItem(START_MERK)) || null; } catch (e) { return null; }
+}
+
+function startWahlMerken() {
+  try { localStorage.setItem(START_MERK, JSON.stringify(startWahl)); } catch (e) { /* egal */ }
+  try {
+    const q = startWahl.stufe
+      ? '?stufe=' + encodeURIComponent(startWahl.stufe) + (startWahl.fach ? '&fach=' + encodeURIComponent(startWahl.fach) : '')
+      : location.pathname;
+    history.replaceState(null, '', q + '#/');
+  } catch (e) { /* egal */ }
+}
+
+function schrittHtml(nr, aktiv, letzter, frageId, frage, inhalt) {
+  return '<section class="st-schritt' + (aktiv ? ' aktiv' : '') + '" id="schritt-' + nr + '" aria-labelledby="' + frageId + '">' +
+    '<div class="st-leitung" aria-hidden="true"><span class="st-nr">' + nr + '</span>' +
+    (letzter ? '' : '<span class="st-linie"></span>') + '</div>' +
+    '<div class="st-inhalt"><h2 class="st-frage" id="' + frageId + '">' + esc(frage) + '</h2>' + inhalt + '</div>' +
+    '</section>';
+}
+
+function ansichtStart(fokus) {
   document.documentElement.dataset.fach = 'neutral';
+  document.body.classList.add('start');
   document.title = 'Lerntheke';
   $('#kopfnav').innerHTML = '';
 
-  let html = '<h1>Lerntheke</h1>';
+  if (startWahl === null) startWahl = startWahlLesen() || {};
+  const stufen = startStufen();
+  const stufe = stufen.find((st) => st.id === startWahl.stufe && startThemen(st.id).length);
+  const fach = stufe && FAECHER.find((f) => f.id === startWahl.fach && startThemen(stufe.id, f.id).length);
+  if (!stufe) startWahl = {};
+  else if (!fach) startWahl = { stufe: stufe.id };
+
+  let html = '<div class="st-seite">' +
+    '<div class="st-kopf">' +
+    '<div class="st-marke" aria-hidden="true"><i></i><i></i></div>' +
+    '<div class="st-leiste"><div class="st-leiste-innen">' +
+    '<span class="st-wortmarke">LMG</span><span class="st-trenner" aria-hidden="true"></span>' +
+    '<span class="st-schule">Ludwig-Meyn-Gymnasium Uetersen</span></div></div>' +
+    '<header class="st-held"><div class="st-held-innen">' +
+    '<p class="st-kicker">Fachschaft Mathematik und Physik</p>' +
+    '<h1 class="st-titel">Lerntheke</h1>' +
+    '<p class="st-lead">Lerntheken und Trainingsphasen für Mathematik und Physik: Stationen bearbeiten, ' +
+    'Lösungen freischalten und den eigenen Stand im Blick behalten. Wähle deine Klassenstufe, dein Fach und dein Thema.</p>' +
+    '</div></header></div>' +
+    '<div class="st-main">';
 
   const letztes = store.letztesThema();
   const kennt = letztes && findeThema(letztes.stufe, letztes.thema);
   if (kennt) {
-    html += '<a class="karte karte-link" href="' + themaPfad(letztes.stufe, letztes.thema) + '">' +
-      '<p class="meta">Zuletzt geöffnet</p>' +
-      '<h2>' + esc(kennt.eintrag.name) + '</h2>' +
-      '<p class="meta"><span>' + esc(kennt.stufe.name) + '</span>' + '</p>' +
-      '</a>';
+    html += '<a class="st-weiter" href="' + themaPfad(letztes.stufe, letztes.thema) + '">' +
+      '<span><span class="klein">Zuletzt geöffnet</span>' +
+      '<span class="titel">' + esc(kennt.eintrag.name) + ' · ' + esc(kennt.stufe.name || kennt.stufe.id) + '</span></span>' +
+      '<span class="pfeil">' + PFEIL + '</span></a>';
   }
 
-  let leer = true;
-  for (const stufe of katalog.stufen || []) {
-    const themen = (stufe.themen || []).filter((th) => th.aktiv !== false);
-    if (!themen.length) continue;
-    leer = false;
-    html += '<h2>' + esc(stufe.name || stufe.id) + '</h2><ul class="liste-blank">';
-    for (const th of themen) {
-      html += '<li><a class="karte karte-link" href="' + themaPfad(stufe.id, th.id) + '">' +
-        '<div class="karte-kopf"><h3>' + esc(th.name || th.id) + '</h3>' + fachChip(th.fach) + '</div>' +
-        (th.beschreibung ? '<p class="meta">' + esc(th.beschreibung) + '</p>' : '') +
-        '</a></li>';
+  /* Schritt 1: Stufen */
+  let kacheln = '', gruppe = null;
+  for (const st of stufen) {
+    if (st.gruppe !== gruppe) {
+      if (gruppe !== null) kacheln += '</div></div>';
+      gruppe = st.gruppe;
+      kacheln += '<div><p class="st-gruppe">' + esc(gruppe) + '</p><div class="st-stufen">';
     }
-    html += '</ul>';
+    const n = startThemen(st.id).length;
+    let punkte = '';
+    for (const f of FAECHER) {
+      if (startThemen(st.id, f.id).length) punkte += '<i style="background:var(--' + f.id + ')"></i>';
+    }
+    kacheln += '<button type="button" class="st-stufe" data-stufe="' + esc(st.id) + '"' +
+      ' aria-pressed="' + Boolean(stufe && stufe.id === st.id) + '"' +
+      (n ? '' : ' aria-disabled="true"') +
+      ' aria-label="' + esc(ohneTrenner(st.name) + ', ' + themenAnzahl(n)) + '">' +
+      '<span class="name">' + esc(st.kurz || 'Klasse') + '</span>' +
+      '<span class="zahl">' + esc(st.zahl) + '</span>' +
+      '<span class="anz">' + (punkte ? '<span class="punkte">' + punkte + '</span>' : '') +
+      '<span>' + themenAnzahl(n) + '</span></span></button>';
   }
-  if (leer) html += '<p class="hinweis">Im Katalog ist noch kein aktives Thema eingetragen.</p>';
+  if (gruppe !== null) kacheln += '</div></div>';
+  html += schrittHtml(1, true, false, 'h-stufe', 'In welcher Klassenstufe bist du?',
+    '<div class="st-gruppen">' + kacheln + '</div>');
+
+  /* Schritt 2: Fach */
+  let faecher = '<div class="st-platzhalter">Wähle zuerst deine Klassenstufe.</div>';
+  if (stufe) {
+    faecher = '<div class="st-faecher">';
+    for (const f of FAECHER) {
+      const n = startThemen(stufe.id, f.id).length;
+      faecher += '<button type="button" class="st-fach fach-' + f.id + '" data-fach="' + f.id + '"' +
+        ' aria-pressed="' + Boolean(fach && fach.id === f.id) + '"' + (n ? '' : ' aria-disabled="true"') + '>' +
+        '<span class="symbol" aria-hidden="true">' + f.zeichen + '</span>' +
+        '<span class="text"><span class="titel">' + f.name + '</span><span class="anz">' + themenAnzahl(n) + '</span></span>' +
+        '<span class="pfeil">' + PFEIL + '</span></button>';
+    }
+    faecher += '</div>';
+  }
+  html += schrittHtml(2, Boolean(stufe), false, 'h-fach',
+    stufe ? ohneTrenner(stufe.name) + ': Welches Fach?' : 'Welches Fach?', faecher);
+
+  /* Schritt 3: Thema */
+  let themen = '<div class="st-platzhalter">' + (stufe ? 'Wähle dein Fach.' : 'Danach erscheinen hier die Themen.') + '</div>';
+  if (fach) {
+    themen = '<div class="st-liste fach-' + fach.id + '">';
+    for (const { stufe: k, thema: th } of startThemen(stufe.id, fach.id)) {
+      themen += '<a class="st-eintrag" href="' + themaPfad(k.id, th.id) + '">' +
+        '<span><span class="titel">' + esc(th.name || th.id) + '</span>' +
+        (th.beschreibung ? '<span class="anz">' + esc(th.beschreibung) + '</span>' : '') + '</span>' +
+        '<span class="pfeil">' + PFEIL + '</span></a>';
+    }
+    themen += '</div>';
+  }
+  html += schrittHtml(3, Boolean(fach), true, 'h-thema',
+    fach ? fach.name + ' · ' + ohneTrenner(stufe.name) + ': Welches Thema?' : 'Welches Thema?', themen);
 
   if (store.speicherIstFluechtig()) {
-    html += '<p class="hinweis hinweis-warn">Dieser Browser erlaubt kein dauerhaftes Speichern (z.&nbsp;B. privater Modus). Der Fortschritt geht beim Schließen des Tabs verloren.</p>';
+    html += '<p class="hinweis hinweis-warn st-hinweis">Dieser Browser erlaubt kein dauerhaftes Speichern (z.&nbsp;B. privater Modus). Der Fortschritt geht beim Schließen des Tabs verloren.</p>';
   }
 
+  html += '</div>' +
+    '<footer class="st-fuss"><div class="st-fuss-innen"><span>Ludwig-Meyn-Gymnasium Uetersen</span>' +
+    '<span>Alle Eingaben bleiben auf diesem Gerät. Es werden keine Daten übertragen.</span></div></footer>' +
+    '</div>';
+
   zeichne(html);
+
+  const main = $('#inhalt');
+  main.querySelectorAll('.st-stufe:not([aria-disabled])').forEach((b) => {
+    b.addEventListener('click', () => {
+      const id = b.dataset.stufe;
+      startWahl = startWahl.stufe === id ? {} : { stufe: id };
+      startWahlMerken();
+      ansichtStart({ sel: '.st-stufe[data-stufe="' + id + '"]', weiter: startWahl.stufe ? 'schritt-2' : null });
+    });
+  });
+  main.querySelectorAll('.st-fach:not([aria-disabled])').forEach((b) => {
+    b.addEventListener('click', () => {
+      startWahl = { stufe: startWahl.stufe, fach: b.dataset.fach };
+      startWahlMerken();
+      ansichtStart({ sel: '.st-fach[data-fach="' + b.dataset.fach + '"]', weiter: 'schritt-3' });
+    });
+  });
+
+  // Nach einem Klick den Fokus halten und den nächsten Schritt nur ins Bild holen,
+  // wenn er unterhalb des sichtbaren Bereichs liegt.
+  if (fokus) {
+    const b = fokus.sel && main.querySelector(fokus.sel);
+    if (b) b.focus({ preventScroll: true });
+    const ziel = fokus.weiter && document.getElementById(fokus.weiter);
+    if (ziel && ziel.getBoundingClientRect().top > window.innerHeight - 160) {
+      const ruhig = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      ziel.scrollIntoView({ behavior: ruhig ? 'auto' : 'smooth', block: 'start' });
+    }
+  }
 }
 
 function findeThema(stufeId, themaId) {
@@ -1454,6 +1626,7 @@ function pfadTeile() {
 
 async function route() {
   const teile = pfadTeile();
+  document.body.classList.remove('start');
   try {
     if (!katalog) katalog = await holeJSON(new URL('katalog.json', INHALTE));
 

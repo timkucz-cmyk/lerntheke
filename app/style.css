@@ -803,3 +803,182 @@ a, button, summary, label, .chip {
 .kalib-hinweis { grid-column: 1 / -1; font-size: var(--fs-xs); color: var(--text-leise); }
 .urteil-ueberschaetzt .kalib-urteil { color: var(--warn-ink); font-weight: 600; }
 .urteil-unterschaetzt .kalib-urteil { color: var(--ok-ink); font-weight: 600; }
+
+/* =========================================================
+   Startseite im gemeinsamen Design der LMG-Plattformen
+   (Simulationen, Spielesammlung, Lerntheke). Der Block ab
+   „Startseite“ ist aus Simulationen/assets/lmg.css übernommen;
+   hier werden nur dessen Token-Namen auf die Lerntheke abgebildet.
+   ========================================================= */
+body.start .kopf, body.start .fuss { display: none; }
+body.start main { max-width: none; padding: 0; }
+
+.st-seite {
+  --surface-page: var(--flaeche);
+  --surface-soft: var(--flaeche-2);
+  --surface-ink: #1a1c1f;
+  --fg-1: var(--text);
+  --fg-2: var(--text-2);
+  --fg-3: var(--text-leise);
+  --fg-4: #9097a0;
+  --fg-5: #c2c7cd;
+  --line-1: var(--linie);
+  --line-2: var(--linie-2);
+  --line-3: #a8acaa;
+  --mathe: #B61E33; --mathe-soft: #f5e1e3; --mathe-line: #e8b8be; --mathe-ink: #6f0f1c;
+  --physik: #2C5282; --physik-soft: #e8eef5; --physik-line: #b9c8da; --physik-ink: #1d3a5c;
+  --accent: var(--fach); --accent-soft: var(--fach-soft); --accent-ink: var(--fach-ink);
+  --radius-md: 6px; --radius-pill: 999px;
+  --shadow-1: 0 1px 2px rgba(20, 22, 25, .04), 0 1px 1px rgba(20, 22, 25, .03);
+  --shadow-2: 0 2px 6px rgba(20, 22, 25, .05), 0 1px 2px rgba(20, 22, 25, .04);
+  --shadow-3: 0 8px 24px rgba(20, 22, 25, .07), 0 2px 6px rgba(20, 22, 25, .04);
+  --dur-normal: 180ms;
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --font-math: "Cambria Math", "STIX Two Math", Cambria, Georgia, serif;
+  color: var(--fg-1);
+}
+.st-seite .fach-mathe  { --accent: var(--mathe);  --accent-soft: var(--mathe-soft);  --accent-ink: var(--mathe-ink); }
+.st-seite .fach-physik { --accent: var(--physik); --accent-soft: var(--physik-soft); --accent-ink: var(--physik-ink); }
+.st-seite h1, .st-seite h2 { margin-top: 0; }
+.st-seite button { font: inherit; }
+.st-seite :focus-visible { outline: 2px solid var(--accent, var(--physik)); outline-offset: 3px; }
+
+/* Dunkelmodus: Kopf bleibt dunkel, die Flächen darunter folgen den Lerntheke-Tokens */
+@media (prefers-color-scheme: dark) {
+  .st-seite {
+    --surface-ink: #edeef0;
+    --fg-4: #7d848c;
+    --line-3: #5a6068;
+    --mathe: #E8677D; --mathe-soft: #33191e; --mathe-ink: #f3b3bd;
+    --physik: #7BAEE8; --physik-soft: #182633; --physik-ink: #b6d3f0;
+  }
+  .st-seite .st-kopf { background-image: linear-gradient(115deg, #6f0f1c 0%, #1a1c1f 50%, #1d3a5c 100%); }
+  .st-seite .st-kopf .st-marke i { background: #B61E33; }
+  .st-seite .st-kopf .st-marke i + i { background: #2C5282; }
+  .st-seite .st-stufe[aria-pressed="true"] .name,
+  .st-seite .st-stufe[aria-pressed="true"] .anz { color: #646a72; }
+}
+
+/* „Weiter, wo du aufgehört hast“ über Schritt 1 */
+.st-weiter {
+  display: flex; align-items: center; gap: 14px; margin: 0 0 32px; padding: 14px 18px;
+  text-decoration: none; color: var(--fg-1); background: var(--surface-soft);
+  border: 1px solid var(--line-1); border-radius: var(--radius-md);
+}
+.st-weiter:hover { border-color: var(--line-3); }
+.st-weiter .klein { display: block; font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--fg-3); }
+.st-weiter .titel { display: block; font-size: 18px; font-weight: 600; }
+.st-weiter .pfeil { margin-left: auto; display: flex; color: var(--fg-3); }
+.st-hinweis { margin: 24px 0 0; font-size: 15px; color: var(--fg-3); }
+
+/* ---------- Startseite (Schritte Stufe > Fach > Thema) ----------
+   Dunkler Kopf mit Verlauf Mathe-Rot > Tinte > Physik-Blau, darunter die
+   Schritte als Zeitleiste. Gleiche Klassen (st-*) in allen LMG-Plattformen. */
+.st-seite{min-height:100vh;display:flex;flex-direction:column;background:var(--surface-page)}
+.st-kopf{background-image:linear-gradient(115deg,var(--mathe-ink) 0%,var(--surface-ink) 50%,var(--physik-ink) 100%);color:#fff}
+.st-marke{display:flex;height:3px}
+.st-marke i{flex:1;background:var(--mathe)}
+.st-marke i+i{background:var(--physik)}
+.st-leiste{padding:0 24px;border-bottom:1px solid rgba(255,255,255,.14)}
+.st-leiste-innen{max-width:1040px;margin:0 auto;min-height:56px;display:flex;align-items:center;gap:12px}
+.st-wortmarke{font-size:18px;font-weight:700;letter-spacing:-.01em}
+.st-trenner{width:1px;height:20px;background:#4a4e55}
+.st-schule{font-size:14px;color:var(--fg-5)}
+.st-held{padding:56px 24px 40px}
+.st-held-innen{max-width:1040px;margin:0 auto}
+.st-kicker{margin:0 0 12px;font-size:14px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-5)}
+.st-titel{margin:0 0 16px;font-size:clamp(38px,7vw,56px);line-height:1.1;font-weight:700;letter-spacing:-.02em;color:#fff}
+.st-lead{margin:0;font-size:19px;line-height:1.5;color:var(--fg-5);max-width:60ch;text-wrap:pretty}
+
+.st-main{flex:1;width:100%;max-width:1088px;margin:0 auto;padding:40px 24px 64px}
+.st-schritt{display:grid;grid-template-columns:28px minmax(0,1fr);gap:20px}
+.st-schritt[hidden]{display:none}
+.st-leitung{display:flex;flex-direction:column;align-items:center}
+.st-nr{
+  flex:none;width:28px;height:28px;border-radius:var(--radius-pill);
+  display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;
+  background:var(--surface-page);color:var(--fg-3);border:1.5px solid var(--line-3);
+}
+.st-schritt.aktiv .st-nr{background:var(--surface-ink);color:var(--surface-page);border-color:var(--surface-ink)}
+.st-linie{flex:1;width:1.5px;background:var(--line-2);margin-top:8px}
+.st-inhalt{min-width:0;padding-bottom:40px}
+.st-schritt:last-child .st-inhalt{padding-bottom:0}
+.st-frage{display:flex;align-items:center;min-height:28px;margin:0 0 20px;font-size:24px;font-weight:600;line-height:1.25;letter-spacing:-.01em;color:var(--fg-4)}
+.st-schritt.aktiv .st-frage{color:var(--fg-1)}
+.st-platzhalter{border:1px dashed var(--line-2);border-radius:var(--radius-md);padding:28px 24px;color:var(--fg-4);font-size:16px}
+
+.st-gruppen{display:flex;flex-direction:column;gap:20px}
+.st-gruppe{display:flex;align-items:center;gap:12px;margin:0 0 10px;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-3);white-space:nowrap}
+.st-gruppe::after{content:"";flex:1;height:1px;background:var(--line-1)}
+
+.st-stufen{display:grid;grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:12px}
+.st-stufe{
+  display:flex;flex-direction:column;align-items:flex-start;gap:2px;min-width:0;min-height:116px;padding:12px 14px;
+  text-align:left;color:var(--fg-1);background:var(--surface-page);
+  border:1px solid var(--line-1);border-radius:var(--radius-md);box-shadow:var(--shadow-1);cursor:pointer;
+  transition:background var(--dur-normal) var(--ease-out),border-color var(--dur-normal) var(--ease-out),box-shadow var(--dur-normal) var(--ease-out);
+}
+.st-stufe .name{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-3)}
+.st-stufe .zahl{font-size:38px;font-weight:700;line-height:1.1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.st-stufe .anz{margin-top:auto;display:flex;align-items:center;gap:6px;font-size:13px;color:var(--fg-3);white-space:nowrap}
+.st-stufe .punkte{display:flex;gap:4px}
+.st-stufe .punkte i{display:block;width:7px;height:7px;border-radius:50%}
+.st-stufe:hover:not([aria-disabled="true"]){background:var(--surface-soft);border-color:var(--line-3)}
+.st-stufe[aria-pressed="true"],.st-stufe[aria-pressed="true"]:hover{background:var(--surface-ink);border-color:var(--surface-ink);color:var(--surface-page)}
+.st-stufe[aria-pressed="true"] .name,.st-stufe[aria-pressed="true"] .anz{color:var(--fg-5)}
+.st-stufe[aria-disabled="true"]{cursor:default;background:transparent;border:1px dashed var(--line-2);box-shadow:none;color:var(--fg-4)}
+.st-stufe[aria-disabled="true"] .name,.st-stufe[aria-disabled="true"] .anz{color:var(--fg-4)}
+
+.st-faecher{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.st-fach{
+  display:grid;grid-template-columns:64px minmax(0,1fr) 24px;align-items:center;gap:18px;padding:20px;
+  text-align:left;text-decoration:none;color:var(--fg-1);background:var(--surface-page);
+  border:1px solid var(--line-1);border-radius:var(--radius-md);box-shadow:var(--shadow-2);cursor:pointer;
+  transition:border-color var(--dur-normal) var(--ease-out),box-shadow var(--dur-normal) var(--ease-out);
+}
+.st-fach .symbol{width:64px;height:64px;border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;background:var(--accent-soft);color:var(--accent-ink);font-family:var(--font-math);font-size:34px;line-height:1}
+.st-fach .text{display:flex;flex-direction:column;gap:2px;min-width:0}
+.st-fach .titel{font-size:22px;font-weight:600;color:var(--fg-1)}
+.st-fach .anz{font-size:14px;color:var(--fg-3)}
+.st-fach .pfeil{display:flex;color:var(--accent);transition:transform var(--dur-normal) var(--ease-out)}
+.st-fach:hover:not([aria-disabled="true"]),.st-fach[aria-pressed="true"]{border-color:var(--accent);box-shadow:var(--shadow-3)}
+.st-fach:hover:not([aria-disabled="true"]) .pfeil{transform:translateX(4px)}
+.st-fach[aria-pressed="true"] .pfeil{transform:rotate(90deg)}
+.st-fach[aria-disabled="true"]{opacity:.5;cursor:default;box-shadow:var(--shadow-1)}
+
+/* Dritter Schritt, wo eine Plattform ihn braucht (Themen, Spiele): schlichte Eintraege */
+.st-liste{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.st-eintrag{
+  display:grid;grid-template-columns:minmax(0,1fr) 24px;align-items:center;gap:14px;padding:16px 20px;
+  text-align:left;text-decoration:none;color:var(--fg-1);background:var(--surface-page);
+  border:1px solid var(--line-1);border-left:3px solid var(--accent);border-radius:var(--radius-md);box-shadow:var(--shadow-1);
+  transition:border-color var(--dur-normal) var(--ease-out),box-shadow var(--dur-normal) var(--ease-out);
+}
+.st-eintrag .titel{display:block;font-size:19px;font-weight:600;line-height:1.3}
+.st-eintrag .anz{display:block;margin-top:2px;font-size:14px;color:var(--fg-3)}
+.st-eintrag .pfeil{display:flex;color:var(--accent);transition:transform var(--dur-normal) var(--ease-out)}
+.st-eintrag:hover{border-color:var(--accent);box-shadow:var(--shadow-3)}
+.st-eintrag:hover .pfeil{transform:translateX(4px)}
+
+.st-fuss{border-top:1px solid var(--line-1);padding:20px 24px 28px}
+.st-fuss-innen{max-width:1040px;margin:0 auto;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;font-size:13px;color:var(--fg-4)}
+.st-fuss a{color:var(--fg-3);text-decoration:none;font-weight:600}
+.st-fuss a:hover{color:var(--fg-1)}
+
+@media (max-width:560px){
+  .st-leiste{padding:0 16px}
+  .st-held{padding:36px 16px 28px}
+  .st-lead{font-size:17px}
+  .st-main{padding:28px 16px 48px}
+  .st-schritt{gap:12px}
+  .st-frage{font-size:21px}
+  .st-stufen{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .st-stufe{min-height:96px;padding:10px}
+  .st-stufe .zahl{font-size:30px}
+  .st-stufe .name{font-size:10px;letter-spacing:.04em}
+  .st-stufe .punkte{display:none}
+  .st-faecher{grid-template-columns:minmax(0,1fr)}
+  .st-fach{grid-template-columns:52px minmax(0,1fr) 24px;gap:14px;padding:16px}
+  .st-fach .symbol{width:52px;height:52px;font-size:28px}
+  .st-fach .titel{font-size:20px}
+}
