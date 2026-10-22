@@ -35,7 +35,7 @@
           "id": "quantenphysik",
           "name": "Quantenphysik – Training",
           "fach": "physik",
-          "aktiv": false,
+          "aktiv": true,
           "beschreibung": "Photoeffekt, Photonen, Wahrscheinlichkeit, Weginformation, Deutung"
         }
       ]
