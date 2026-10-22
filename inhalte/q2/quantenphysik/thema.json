@@ -42,8 +42,7 @@
   },
   {
    "id": "c10",
-   "text": "Experimente zur Welleneigenschaft von Elektronen auswerten",
-   "spaeter": true
+   "text": "Experimente zur Welleneigenschaft von Elektronen auswerten"
   },
   {
    "id": "c11",
@@ -59,8 +58,7 @@
   },
   {
    "id": "c14",
-   "text": "Impuls und Wellenlänge mit de Broglie berechnen",
-   "spaeter": true
+   "text": "Impuls und Wellenlänge mit de Broglie berechnen"
   }
  ],
  "phasen": [
@@ -498,6 +496,57 @@
     }
    ],
    "bild": "img/st_W4.svg"
+  },
+  {
+   "id": "W5",
+   "titel": "Elektronen als Quantenobjekte",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "WTR, IQB-Formeldokument",
+   "checkliste": [
+    "c10",
+    "c14"
+   ],
+   "pdf": "pdf/W5_Elektronen.pdf",
+   "aufgaben": [
+    {
+     "id": "W5-1",
+     "label": "1",
+     "punkte": 3,
+     "afb": "I",
+     "loesung": "$E_{kin}=eU=8{,}01\\cdot10^{-15}\\,\\mathrm{J}$\n\n$p=\\sqrt{2m_eE_{kin}}=1{,}21\\cdot10^{-22}\\,\\mathrm{kg\\,m/s}$\n\n$\\lambda=\\frac{h}{p}=5{,}5\\cdot10^{-12}\\,\\mathrm{m}$ (je 1 P)"
+    },
+    {
+     "id": "W5-2",
+     "label": "2",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$\\Delta x=\\frac{\\lambda a}{d}=1{,}1\\cdot10^{-6}\\,\\mathrm{m}\\approx1\\,\\mathrm{\\mu m}$ (1 P)\n\nViel zu klein; Jönsson musste das Bild elektronenoptisch vergrößern (1 P)."
+    },
+    {
+     "id": "W5-3",
+     "label": "3",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$U=\\frac{h^2}{2m_e e\\lambda^2}=38\\,\\mathrm{V}$"
+    },
+    {
+     "id": "W5-4",
+     "label": "4",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$v=\\frac{h}{m_n\\lambda}=7{,}2\\cdot10^{4}\\,\\mathrm{m/s}$"
+    },
+    {
+     "id": "W5-5",
+     "label": "5",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Einzelne Elektronen werden punktförmig nachgewiesen (Teilchenaspekt), ihre Verteilung zeigt Interferenz mit der de-Broglie-Wellenlänge (Wellenaspekt) – wie bei Photonen; die Verteilung ist eine Wahrscheinlichkeitsverteilung (je 1 P)."
+    }
+   ],
+   "bild": "img/st_W5.svg"
   },
   {
    "id": "W6",
