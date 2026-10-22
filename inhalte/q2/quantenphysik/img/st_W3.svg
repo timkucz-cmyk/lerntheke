@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100"
+     role="img" aria-label="Doppelspalt mit Hohlraum hinter einem Spalt, Schirm ohne Muster">
+  <style>
+    .akzent { fill: none; stroke: #2C5282; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .flaeche{ fill: #2C5282; fill-opacity: .18; }
+    .marke  { fill: #2C5282; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #6b7280; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 26px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .flaeche{ fill: #7BAEE8; fill-opacity: .2; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #9aa1a9; fill-opacity: .16; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M66 8 V36 M66 46 V56 M66 66 V92" stroke-width="3"/>
+  <path class="akzent" d="M16 51 L60 41 M16 51 L60 61"/>
+  <rect class="flaeche" x="72" y="33" width="16" height="16" rx="2"/>
+  <rect class="akzent" x="72" y="33" width="16" height="16" rx="2" stroke-width="1.8"/>
+  <path class="grau" d="M138 8 V92"/>
+  <rect class="fuell" x="140" y="22" width="8" height="58"/>
+</svg>

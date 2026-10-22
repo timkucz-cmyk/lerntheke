@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100"
+     role="img" aria-label="Lichtstrahl mit Impuls p trifft auf einen Spiegel und wird reflektiert">
+  <style>
+    .akzent { fill: none; stroke: #2C5282; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .flaeche{ fill: #2C5282; fill-opacity: .18; }
+    .marke  { fill: #2C5282; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #6b7280; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 26px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .flaeche{ fill: #7BAEE8; fill-opacity: .2; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #9aa1a9; fill-opacity: .16; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M128 14 v72"/>
+  <path class="hilfs" d="M132 18 l6 -6 M132 32 l6 -6 M132 46 l6 -6 M132 60 l6 -6 M132 74 l6 -6 M132 88 l6 -6"/>
+  <path class="akzent" d="M20.0 40.0 q1.8 5.2 3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0 t3.5 0.0"/>
+  <path class="akzent" d="M117 35 l6 5 -6 5"/>
+  <path class="grau" d="M122.0 64.0 q-1.8 -5.2 -3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0 t-3.5 0.0"/>
+  <path class="grau" d="M46 59 l-6 5 6 5"/>
+  <text class="text" x="50" y="27">p</text>
+  <path class="akzent" d="M60 23 h24 M79 19 l5 4 -5 4" stroke-width="1.6"/>
+</svg>

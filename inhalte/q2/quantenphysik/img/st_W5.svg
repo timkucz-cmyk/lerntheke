@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100"
+     role="img" aria-label="Elektronenkanone, Doppelspalt und Streifenmuster">
+  <style>
+    .akzent { fill: none; stroke: #2C5282; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .flaeche{ fill: #2C5282; fill-opacity: .18; }
+    .marke  { fill: #2C5282; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #6b7280; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 26px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .flaeche{ fill: #7BAEE8; fill-opacity: .2; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #9aa1a9; fill-opacity: .16; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <rect class="fuell" x="10" y="40" width="26" height="20" rx="3"/><rect class="grau" x="10" y="40" width="26" height="20" rx="3"/>
+  <text class="text" x="16" y="54">e⁻</text>
+  <path class="akzent" d="M40 50 H74" stroke-dasharray="2 5"/>
+  <path class="grau" d="M80 10 V42 M80 47 V53 M80 58 V90" stroke-width="3"/>
+  <path class="hilfs" d="M84 50 L132 18 M84 50 L132 82" stroke-dasharray="3 3"/>
+  <path class="grau" d="M136 10 V90"/>
+  <path class="akzent" d="M143 22 V28 M143 36 V42 M143 48 V54 M143 60 V66 M143 72 V78" stroke-width="3.2"/>
+</svg>

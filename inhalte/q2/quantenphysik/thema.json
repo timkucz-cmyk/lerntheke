@@ -1,0 +1,636 @@
+{
+ "titel": "Quantenphysik – Trainingswoche",
+ "fach": "physik",
+ "anrede": "sie",
+ "hinweis": "Bearbeiten Sie zuerst die drei Pflichtstationen. Die Probeklausur (W6) ist für die letzte Trainingsstunde gedacht und dauert 90 Minuten.",
+ "checkliste": [
+  {
+   "id": "c1",
+   "text": "Grundlegende Aspekte der Quantentheorie erklären"
+  },
+  {
+   "id": "c2",
+   "text": "Interferenz und Superposition bei Quantenobjekten erklären"
+  },
+  {
+   "id": "c3",
+   "text": "Die Determiniertheit der Zufallsverteilung erläutern"
+  },
+  {
+   "id": "c4",
+   "text": "Weginformation und Interferenz als komplementär erklären"
+  },
+  {
+   "id": "c5",
+   "text": "Vorhersagen zu Quantenobjekten stochastisch treffen"
+  },
+  {
+   "id": "c6",
+   "text": "Welle-Teilchen-Dualismus über Wahrscheinlichkeiten deuten"
+  },
+  {
+   "id": "c7",
+   "text": "Probleme der Anschauungsbegriffe in der Quantenphysik nennen"
+  },
+  {
+   "id": "c8",
+   "text": "Realität, Lokalität, Kausalität, Determinismus einordnen"
+  },
+  {
+   "id": "c9",
+   "text": "Welle, Teilchen und Quantenobjekt am Doppelspalt vergleichen"
+  },
+  {
+   "id": "c10",
+   "text": "Experimente zur Welleneigenschaft von Elektronen auswerten",
+   "spaeter": true
+  },
+  {
+   "id": "c11",
+   "text": "Die experimentellen Befunde zum Photoeffekt auswerten"
+  },
+  {
+   "id": "c12",
+   "text": "Licht mithilfe von Teilcheneigenschaften beschreiben"
+  },
+  {
+   "id": "c13",
+   "text": "Energie, Impuls, Frequenz und Wellenlänge verknüpfen"
+  },
+  {
+   "id": "c14",
+   "text": "Impuls und Wellenlänge mit de Broglie berechnen",
+   "spaeter": true
+  }
+ ],
+ "phasen": [
+  {
+   "id": "p1",
+   "name": "Licht als Teilchen",
+   "untertitel": "Photoeffekt und Photonen",
+   "farbe": "blau",
+   "checkliste": [
+    "c11",
+    "c12",
+    "c13"
+   ]
+  },
+  {
+   "id": "p2",
+   "name": "Quantenobjekte und Wahrscheinlichkeit",
+   "untertitel": "Zufall und Vorhersage",
+   "farbe": "orange",
+   "checkliste": [
+    "c2",
+    "c3",
+    "c5",
+    "c6"
+   ]
+  },
+  {
+   "id": "p3",
+   "name": "Deutung der Quantenphysik",
+   "untertitel": "Weginformation und Weltbild",
+   "farbe": "gruen",
+   "checkliste": [
+    "c1",
+    "c4",
+    "c7",
+    "c8",
+    "c9"
+   ]
+  },
+  {
+   "id": "p4",
+   "name": "Elektronen als Quantenobjekte",
+   "untertitel": "folgt nach der Elektronenstunde",
+   "farbe": "neutral",
+   "checkliste": [
+    "c10",
+    "c14"
+   ]
+  }
+ ],
+ "abschluss": "Klausur 1",
+ "stationen": [
+  {
+   "id": "P1",
+   "titel": "Photoeffekt: Befunde und Energiebilanz",
+   "typ": "pflicht",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "WTR, IQB-Formeldokument",
+   "checkliste": [
+    "c11",
+    "c12"
+   ],
+   "pdf": "pdf/P1_Photoeffekt.pdf",
+   "aufgaben": [
+    {
+     "id": "P1-1a",
+     "label": "1a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "Negativ geladen: Der Zeigerausschlag geht zurück, die Platte entlädt sich – das Licht löst Elektronen aus der Platte.\n\nPositiv geladen: kein Effekt; ausgelöste Elektronen werden von der positiven Platte zurückgezogen."
+    },
+    {
+     "id": "P1-1b",
+     "label": "1b",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Im Wellenmodell müsste eine größere Intensität (näher, heller) den Energieverlust im Glas ausgleichen.\n\nTatsächlich hält Glas die UV-Photonen zurück; die durchgelassenen Photonen haben einzeln weniger als 4,3 eV – mehr solcher Photonen helfen nicht, weil jedes Photon seine Energie an genau ein Elektron abgibt."
+    },
+    {
+     "id": "P1-2a",
+     "label": "2a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$E=\\frac{hc}{\\lambda}=\\frac{1{,}9865\\cdot10^{-25}\\,\\mathrm{J\\,m}}{2{,}54\\cdot10^{-7}\\,\\mathrm{m}}=7{,}82\\cdot10^{-19}\\,\\mathrm{J}=4{,}88\\,\\mathrm{eV}$"
+    },
+    {
+     "id": "P1-2b",
+     "label": "2b",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$E_{kin,max}=4{,}88\\,\\mathrm{eV}-2{,}90\\,\\mathrm{eV}=1{,}98\\,\\mathrm{eV}=3{,}17\\cdot10^{-19}\\,\\mathrm{J}$\n\n$v=\\sqrt{2E_{kin}/m_e}=8{,}3\\cdot10^{5}\\,\\mathrm{m/s}$"
+    },
+    {
+     "id": "P1-2c",
+     "label": "2c",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$\\lambda_G=\\frac{hc}{W_A}=\\frac{1{,}9865\\cdot10^{-25}\\,\\mathrm{J\\,m}}{2{,}90\\cdot1{,}602\\cdot10^{-19}\\,\\mathrm{J}}=428\\,\\mathrm{nm}$ (violettes Licht)"
+    },
+    {
+     "id": "P1-3",
+     "label": "3",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Doppelt so viele Photonen pro Sekunde → doppelt so viele Elektronen.\n\nDie Energie je Photon $h\\cdot f$ bleibt gleich → $E_{kin,max}$ bleibt gleich."
+    }
+   ],
+   "bild": "img/st_P1.svg"
+  },
+  {
+   "id": "P2",
+   "titel": "Photonen: Energie und Impuls",
+   "typ": "pflicht",
+   "sozialform": "einzel",
+   "dauer_min": 15,
+   "hilfsmittel": "WTR, IQB-Formeldokument",
+   "checkliste": [
+    "c13",
+    "c12"
+   ],
+   "pdf": "pdf/P2_Photonen_Energie_Impuls.pdf",
+   "aufgaben": [
+    {
+     "id": "P2-1",
+     "label": "1",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$E=\\frac{hc}{\\lambda}=3{,}06\\cdot10^{-19}\\,\\mathrm{J}=1{,}91\\,\\mathrm{eV}$\n\n$p=\\frac{h}{\\lambda}=1{,}02\\cdot10^{-27}\\,\\mathrm{kg\\,m/s}$"
+    },
+    {
+     "id": "P2-2",
+     "label": "2",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$N=\\frac{P}{E}=\\frac{3{,}0\\cdot10^{-3}\\,\\mathrm{W}}{3{,}06\\cdot10^{-19}\\,\\mathrm{J}}=9{,}8\\cdot10^{15}\\,\\mathrm{s^{-1}}$"
+    },
+    {
+     "id": "P2-3",
+     "label": "3",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Je Photon Impulsänderung $2p$:\n\n$F=N\\cdot2p=\\frac{2P}{c}=\\frac{2\\cdot3{,}0\\cdot10^{-3}\\,\\mathrm{W}}{3{,}0\\cdot10^{8}\\,\\mathrm{m/s}}=2{,}0\\cdot10^{-11}\\,\\mathrm{N}$ – winzig, aber messbar."
+    },
+    {
+     "id": "P2-4",
+     "label": "4",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$\\lambda=\\frac{hc}{E}=413\\,\\mathrm{nm}$; $f=\\frac{E}{h}=7{,}25\\cdot10^{14}\\,\\mathrm{Hz}$; $p=\\frac{E}{c}=1{,}60\\cdot10^{-27}\\,\\mathrm{kg\\,m/s}$\n\n(je ½ P für λ und f, 1 P für p)"
+    }
+   ],
+   "bild": "img/st_P2.svg"
+  },
+  {
+   "id": "P3",
+   "titel": "Ein Photon, zwei Detektoren",
+   "typ": "pflicht",
+   "sozialform": "einzel",
+   "dauer_min": 15,
+   "hilfsmittel": "WTR, IQB-Formeldokument",
+   "checkliste": [
+    "c6",
+    "c12",
+    "c9"
+   ],
+   "pdf": "pdf/P3_Ein_Photon_zwei_Detektoren.pdf",
+   "aufgaben": [
+    {
+     "id": "P3-1",
+     "label": "1",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "Beide Detektoren sprechen etwa gleich oft an, aber praktisch nie gleichzeitig; die 3 Koinzidenzen liegen im Bereich des Rauschens."
+    },
+    {
+     "id": "P3-2",
+     "label": "2",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Eine Welle würde geteilt; beide Detektoren müssten gleichzeitig ansprechen (viele Koinzidenzen).\n\nDas Photon ist dagegen unteilbar: Es wird immer als Ganzes an genau einem Detektor nachgewiesen."
+    },
+    {
+     "id": "P3-3",
+     "label": "3",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$p=\\frac{50\\,700}{100\\,300}\\approx0{,}51$ – Strahlteiler praktisch 50 : 50; welcher Detektor anspricht, ist für das einzelne Photon zufällig."
+    },
+    {
+     "id": "P3-4",
+     "label": "4",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "Teilweise richtig: Der Nachweis erfolgt punktförmig und ungeteilt (1 P).\n\nInterferenzexperimente (Doppelspalt) zeigen aber, dass sich die Möglichkeiten überlagern – ein Kügelchen auf einer Bahn kann das nicht (1 P).\n\nDas Photon ist weder Kugel noch klassische Welle, sondern ein Quantenobjekt; welches Modell passt, hängt von der Fragestellung ab (1 P)."
+    }
+   ],
+   "bild": "img/st_P3.svg"
+  },
+  {
+   "id": "W1",
+   "titel": "Tandembogen: Rechnen mit Photonen",
+   "typ": "wahl",
+   "sozialform": "tandem",
+   "dauer_min": 15,
+   "hilfsmittel": "WTR, IQB-Formeldokument",
+   "checkliste": [
+    "c13",
+    "c11"
+   ],
+   "hinweis": "Zu zweit mit zwei Tablets. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut; die jeweils andere Person sieht die Lösung und kontrolliert.",
+   "aufgaben": [
+    {
+     "id": "W1-1",
+     "label": "1",
+     "punkte": 2,
+     "afb": "I",
+     "partner": "A",
+     "loesung": "$E=4{,}97\\cdot10^{-19}\\,\\mathrm{J}=3{,}10\\,\\mathrm{eV}$",
+     "aufgabe": "Berechnen Sie die Energie eines Photons mit $f=7{,}5\\cdot10^{14}\\,\\mathrm{Hz}$ in J und eV.",
+     "tipp": "$E=h\\cdot f$, dann durch $e$ teilen."
+    },
+    {
+     "id": "W1-2",
+     "label": "2",
+     "punkte": 2,
+     "afb": "I",
+     "partner": "B",
+     "loesung": "$\\lambda=827\\,\\mathrm{nm}$ (infrarot)",
+     "aufgabe": "Berechnen Sie die Wellenlänge eines Photons mit $E=1{,}5\\,\\mathrm{eV}$.",
+     "tipp": "Erst in Joule umrechnen, dann $\\lambda=hc/E$."
+    },
+    {
+     "id": "W1-3",
+     "label": "3",
+     "punkte": 2,
+     "afb": "I",
+     "partner": "A",
+     "loesung": "$p=1{,}47\\cdot10^{-27}\\,\\mathrm{kg\\,m/s}$",
+     "aufgabe": "Berechnen Sie den Impuls eines Photons mit $\\lambda=450\\,\\mathrm{nm}$.",
+     "tipp": "$p=h/\\lambda$"
+    },
+    {
+     "id": "W1-4",
+     "label": "4",
+     "punkte": 2,
+     "afb": "I",
+     "partner": "B",
+     "loesung": "$8{,}01\\cdot10^{-19}\\,\\mathrm{J}$",
+     "aufgabe": "Rechnen Sie $5{,}0\\,\\mathrm{eV}$ in Joule um.",
+     "tipp": "$1\\,\\mathrm{eV}=1{,}602\\cdot10^{-19}\\,\\mathrm{J}$"
+    },
+    {
+     "id": "W1-5",
+     "label": "5",
+     "punkte": 2,
+     "afb": "I",
+     "partner": "A",
+     "loesung": "$f_G=6{,}0\\cdot10^{14}\\,\\mathrm{Hz}$",
+     "aufgabe": "Ein Metall hat $W_A=2{,}5\\,\\mathrm{eV}$. Berechnen Sie die Grenzfrequenz.",
+     "tipp": "$f_G=W_A/h$, $W_A$ in Joule."
+    },
+    {
+     "id": "W1-6",
+     "label": "6",
+     "punkte": 2,
+     "afb": "I",
+     "partner": "B",
+     "loesung": "$1{,}0\\,\\mathrm{eV}$; $U_G=1{,}0\\,\\mathrm{V}$",
+     "aufgabe": "Licht mit Photonen von $3{,}5\\,\\mathrm{eV}$ fällt auf dasselbe Metall ($W_A=2{,}5\\,\\mathrm{eV}$). Geben Sie $E_{kin,max}$ und die Gegenspannung an.",
+     "tipp": "Einstein: $E_{kin,max}=hf-W_A$; $e\\,U_G=E_{kin,max}$."
+    },
+    {
+     "id": "W1-7",
+     "label": "7",
+     "punkte": 2,
+     "afb": "I",
+     "partner": "A",
+     "loesung": "$E=1{,}99\\cdot10^{-19}\\,\\mathrm{J}$, $N=5{,}0\\cdot10^{18}\\,\\mathrm{s^{-1}}$",
+     "aufgabe": "Wie viele Photonen der Wellenlänge 1000 nm enthält ein Lichtstrom von 1,0 W pro Sekunde?",
+     "tipp": "Erst die Energie eines Photons, dann $N=P/E$."
+    },
+    {
+     "id": "W1-8",
+     "label": "8",
+     "punkte": 2,
+     "afb": "I",
+     "partner": "B",
+     "loesung": "$\\lambda=1{,}24\\cdot10^{-10}\\,\\mathrm{m}$",
+     "aufgabe": "Berechnen Sie die Wellenlänge eines Röntgenphotons mit 10 keV.",
+     "tipp": "$\\lambda=hc/E$, $E=10^4\\cdot1{,}602\\cdot10^{-19}\\,\\mathrm{J}$."
+    }
+   ],
+   "pdf_optional": true,
+   "bild": "img/st_W1.svg"
+  },
+  {
+   "id": "W2",
+   "titel": "Vorhersagen treffen",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 15,
+   "hilfsmittel": "WTR, IQB-Formeldokument",
+   "checkliste": [
+    "c5",
+    "c3"
+   ],
+   "pdf": "pdf/W2_Vorhersagen.pdf",
+   "aufgaben": [
+    {
+     "id": "W2-1",
+     "label": "1",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$0{,}25+0{,}25=0{,}50$"
+    },
+    {
+     "id": "W2-2",
+     "label": "2",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$3\\,500\\cdot0{,}34=1\\,190$ (1 P)\n\nJedes Einzelereignis ist zufällig; nur im Mittel vieler Wiederholungen ergibt sich etwa 1 190 (1 P)."
+    },
+    {
+     "id": "W2-3",
+     "label": "3",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Unabhängige Ereignisse: $0{,}34\\cdot0{,}34\\approx0{,}12$"
+    },
+    {
+     "id": "W2-4",
+     "label": "4",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$P(\\text{Außenzone})=0{,}16$; Gegenereignis: $1-0{,}84^3=0{,}41$"
+    },
+    {
+     "id": "W2-5",
+     "label": "5",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "Nicht vorhersagbar: der Ort des einzelnen Photons – auch nicht mit besseren Geräten (1 P).\n\nVorhersagbar (determiniert): die Verteilung vieler Photonen, also die Wahrscheinlichkeiten (1 P)."
+    }
+   ],
+   "bild": "img/st_W2.svg"
+  },
+  {
+   "id": "W3",
+   "titel": "Weginformation und Komplementarität",
+   "typ": "wahl",
+   "sozialform": "partner",
+   "dauer_min": 15,
+   "hilfsmittel": "WTR, IQB-Formeldokument",
+   "checkliste": [
+    "c4",
+    "c2",
+    "c6"
+   ],
+   "pdf": "pdf/W3_Weginformation.pdf",
+   "aufgaben": [
+    {
+     "id": "W3-1",
+     "label": "1",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "Ist der Weg eines Quantenobjekts prinzipiell feststellbar, entsteht kein Interferenzmuster; ist er prinzipiell nicht feststellbar, überlagern sich die Möglichkeiten, und es entsteht Interferenz (Komplementarität)."
+    },
+    {
+     "id": "W3-2",
+     "label": "2",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Am zurückgelassenen Photon ließe sich ablesen, durch welchen Spalt das Atom kam (1 P).\n\nDamit liegt Weginformation vor, und die beiden Möglichkeiten können sich nicht mehr überlagern – das Muster verschwindet (1 P)."
+    },
+    {
+     "id": "W3-3",
+     "label": "3",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Falsch bzw. unzureichend (1 P): Im Experiment aus 2 wird das Atom praktisch nicht abgelenkt.\n\nEntscheidend ist allein, dass die Information über den Weg prinzipiell vorliegt, nicht eine mechanische Störung; auch ein „Beobachter“ ist nicht nötig (1 P)."
+    },
+    {
+     "id": "W3-4",
+     "label": "4",
+     "punkte": 3,
+     "afb": "III",
+     "loesung": "Die Atome mit Weginformation liefern eine Verteilung ohne Minima (1 P), die Atome ohne Weginformation ein Interferenzmuster (1 P).\n\nAuf dem Schirm addieren sich beide: Ein Muster ist sichtbar, aber mit geringerem Kontrast, die Minima gehen nicht mehr auf null (1 P)."
+    }
+   ],
+   "bild": "img/st_W3.svg"
+  },
+  {
+   "id": "W4",
+   "titel": "Deutung: Anschauung und Weltbild",
+   "typ": "wahl",
+   "sozialform": "partner",
+   "dauer_min": 20,
+   "hilfsmittel": "ohne",
+   "checkliste": [
+    "c7",
+    "c8",
+    "c1",
+    "c9"
+   ],
+   "pdf": "pdf/W4_Deutung.pdf",
+   "aufgaben": [
+    {
+     "id": "W4-1",
+     "label": "1",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "z. B. „Bahn“: Am Doppelspalt lässt sich kein Weg angeben, sonst gäbe es keine Interferenz.\n\n„Ort zu jedem Zeitpunkt“: Der Nachweisort liegt vor der Messung nicht fest.\n\nAuch „Teilchen“ oder „Welle“ allein (je 1 P für Begriff und Begründung)."
+    },
+    {
+     "id": "W4-2",
+     "label": "2",
+     "punkte": 4,
+     "afb": "II",
+     "loesung": "A Realität · B Determinismus · C Lokalität · D Kausalität (je 1 P)"
+    },
+    {
+     "id": "W4-3",
+     "label": "3",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "Tennisbälle: einzelne Treffer, zwei Häufungen, zweiter Spalt addiert nur.\n\nWasserwelle: ausgedehnte Erregung, Interferenzmuster, zweiter Spalt erzeugt Minima.\n\nPhotonen: einzelne punktförmige Treffer wie Teilchen, deren Verteilung aber ein Interferenzmuster bildet; der zweite Spalt verändert die Wahrscheinlichkeiten (je 1 P)."
+    },
+    {
+     "id": "W4-4",
+     "label": "4",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Einstein hielt den Zufall für Unwissen: Verborgene Größen legen das Ergebnis fest, die Theorie sei unvollständig (1 P).\n\nExperimente (Nobelpreis 2022) schließen lokale verborgene Größen aus; der Quantenzufall gilt heute als echt (1 P)."
+    }
+   ],
+   "bild": "img/st_W4.svg"
+  },
+  {
+   "id": "W6",
+   "titel": "Probeklausur",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 90,
+   "hilfsmittel": "WTR, IQB-Formeldokument",
+   "checkliste": [
+    "c9",
+    "c11",
+    "c13",
+    "c3",
+    "c5"
+   ],
+   "pdf": "pdf/W6_Probeklausur.pdf",
+   "hinweis": "Echte Klausurbedingungen: 90 Minuten, WTR und IQB-Formeldokument, Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten.",
+   "aufgaben": [
+    {
+     "id": "W6-1a",
+     "label": "1a",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "Sonde verliert Elektronen → positiv. Positive Ladung zieht Photoelektronen zurück (Gegenfeld); Aufladung endet, wenn $e\\,U=E_{kin,max}$."
+    },
+    {
+     "id": "W6-1b",
+     "label": "1b",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$U_G$-$f$-Diagramm mit beschrifteten Achsen und den vier Messpunkten.",
+     "loesung_bild": "img/W6-1b.png"
+    },
+    {
+     "id": "W6-1c",
+     "label": "1c",
+     "punkte": 4,
+     "afb": "II",
+     "loesung": "$U_G=\\frac{h}{e}f-\\frac{W_A}{e}$; Steigung $\\approx4{,}1\\cdot10^{-15}\\,\\mathrm{V\\,s}$ → $h\\approx6{,}6\\cdot10^{-34}\\,\\mathrm{J\\,s}$; Achsenabschnitt $\\approx-4{,}4\\,\\mathrm V$ → $W_A\\approx4{,}4\\,\\mathrm{eV}$ ($f_G\\approx1{,}08\\cdot10^{15}\\,\\mathrm{Hz}$)."
+    },
+    {
+     "id": "W6-1d",
+     "label": "1d",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "$E=hc/\\lambda=1{,}63\\cdot10^{-18}\\,\\mathrm J=10{,}2\\,\\mathrm{eV}$; $E_{kin,max}=5{,}8\\,\\mathrm{eV}$ → $U\\approx5{,}8\\,\\mathrm V$."
+    },
+    {
+     "id": "W6-1e",
+     "label": "1e",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "Doppelt so viele Photonen → schnellere Aufladung; Energie je Photon gleich → Endspannung bleibt 5,8 V."
+    },
+    {
+     "id": "W6-1f",
+     "label": "1f",
+     "punkte": 3,
+     "afb": "III",
+     "loesung": "Kleinere $W_A$: $E_{kin,max}=8{,}3\\,\\mathrm{eV}$ → stärkere Aufladung; $\\lambda_G\\approx650\\,\\mathrm{nm}$ → auch sichtbares Licht wirkt, schnellere Aufladung. Vorschlag bewirkt das Gegenteil."
+    },
+    {
+     "id": "W6-2a",
+     "label": "2a",
+     "punkte": 3,
+     "afb": "I",
+     "loesung": "$E=eU=6{,}41\\cdot10^{-16}\\,\\mathrm J$; $p=3{,}42\\cdot10^{-23}\\,\\mathrm{kg\\,m/s}$; $\\lambda=1{,}94\\cdot10^{-11}\\,\\mathrm m$."
+    },
+    {
+     "id": "W6-2b",
+     "label": "2b",
+     "punkte": 4,
+     "afb": "II",
+     "loesung": "$\\tan2\\theta=12/135$ → $\\theta=2{,}54^\\circ$; $\\lambda=2d_1\\sin\\theta=1{,}89\\cdot10^{-11}\\,\\mathrm m$; rund 3 % Abweichung → bestätigt de Broglie."
+    },
+    {
+     "id": "W6-2c",
+     "label": "2c",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$\\tan2\\theta=21/135$ → $\\theta=4{,}42^\\circ$; $d=\\lambda/(2\\sin\\theta)\\approx126\\,\\mathrm{pm}$ ≈ $d_2$."
+    },
+    {
+     "id": "W6-2d",
+     "label": "2d",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "$\\lambda\\sim1/\\sqrt U$ wird kleiner → $\\theta$ kleiner → Ring schrumpft; $r\\approx12\\,\\mathrm{mm}\\cdot\\sqrt{4/6}\\approx9{,}8\\,\\mathrm{mm}$."
+    },
+    {
+     "id": "W6-2e",
+     "label": "2e",
+     "punkte": 3,
+     "afb": "III",
+     "loesung": "„Kleiner bei höherer Spannung“ passt zu beiden Modellen; Kugeln gäben verschmierte Verteilung, keine scharfen Ringe bei festen Winkeln; quantitative Übereinstimmung mit Bragg + de Broglie entscheidet → Erklärung nicht haltbar."
+    },
+    {
+     "id": "W6-3a",
+     "label": "3a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "Einzelphoton: nicht vorhersagbar; 7 000 Photonen: je etwa 3 500 an D0 und D1 (determinierte Verteilung)."
+    },
+    {
+     "id": "W6-3b",
+     "label": "3b",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "$2\\,500\\cdot0{,}60=1\\,500$; $P(111)=0{,}60^3=0{,}216$ statt $0{,}125$ → nicht gleichverteilt."
+    },
+    {
+     "id": "W6-3c",
+     "label": "3c",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "Würfel: durch Anfangsbedingungen festgelegt, nur praktisch unvorhersagbar; Photon: keine verborgenen Größen, prinzipieller Zufall."
+    },
+    {
+     "id": "W6-3d",
+     "label": "3d",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "Welle: geteilt, beide Detektoren gleichzeitig. Teilchen: ungeteilt, Ausgang vorher festgelegt. Quantenobjekt: ungeteilt an einem Detektor, welcher ist nicht festgelegt, nur die Wahrscheinlichkeit."
+    },
+    {
+     "id": "W6-3e",
+     "label": "3e",
+     "punkte": 3,
+     "afb": "III",
+     "loesung": "Bei festem Weg an ST2 je 50 % an D1 und D2; beobachtet alle an D1 → beide Möglichkeiten überlagern sich; die Behauptung ist falsch, „Weg“ trägt nicht, zufällig ist erst der Nachweis."
+    }
+   ],
+   "bild": "img/st_W6.svg"
+  }
+ ]
+}

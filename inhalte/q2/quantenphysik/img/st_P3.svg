@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100"
+     role="img" aria-label="Strahlteiler mit zwei Detektoren und Koinzidenzzähler">
+  <style>
+    .akzent { fill: none; stroke: #2C5282; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .flaeche{ fill: #2C5282; fill-opacity: .18; }
+    .marke  { fill: #2C5282; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #6b7280; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 26px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .flaeche{ fill: #7BAEE8; fill-opacity: .2; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #9aa1a9; fill-opacity: .16; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="akzent" d="M14 60 H62 M56 55 l6 5 -6 5"/>
+  <path class="grau" d="M58 72 L82 48" stroke-width="3"/>
+  <path class="akzent" d="M76 60 H110 M70 54 V32" stroke-dasharray="4 4"/>
+  <rect class="fuell" x="112" y="50" width="22" height="20" rx="2"/><rect class="grau" x="112" y="50" width="22" height="20" rx="2"/>
+  <rect class="fuell" x="59" y="10" width="22" height="20" rx="2"/><rect class="grau" x="59" y="10" width="22" height="20" rx="2"/>
+  <text class="text" x="116" y="64">D1</text><text class="text" x="63" y="24">D2</text>
+  <path class="hilfs" d="M81 20 H140 V28 M134 60 H140 V44"/>
+  <circle class="grau" cx="140" cy="36" r="8"/>
+  <text class="text" x="136" y="40">&amp;</text>
+</svg>

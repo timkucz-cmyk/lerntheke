@@ -26,6 +26,19 @@
           "beschreibung": "Ober-/Untersumme, Stammfunktionen, Hauptsatz, Flächen"
         }
       ]
+    },
+    {
+      "id": "q2",
+      "name": "Q2",
+      "themen": [
+        {
+          "id": "quantenphysik",
+          "name": "Quantenphysik – Training",
+          "fach": "physik",
+          "aktiv": false,
+          "beschreibung": "Photoeffekt, Photonen, Wahrscheinlichkeit, Weginformation, Deutung"
+        }
+      ]
     }
   ]
 }

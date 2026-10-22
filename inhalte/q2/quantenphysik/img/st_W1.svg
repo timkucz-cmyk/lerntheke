@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100"
+     role="img" aria-label="Tandem: zwei Tablets mit A und B">
+  <style>
+    .akzent { fill: none; stroke: #2C5282; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .flaeche{ fill: #2C5282; fill-opacity: .18; }
+    .marke  { fill: #2C5282; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #6b7280; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 26px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .flaeche{ fill: #7BAEE8; fill-opacity: .2; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #9aa1a9; fill-opacity: .16; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <rect class="flaeche" x="22" y="18" width="50" height="66" rx="7"/>
+  <rect class="akzent" x="22" y="18" width="50" height="66" rx="7"/>
+  <rect class="fuell" x="88" y="18" width="50" height="66" rx="7"/>
+  <rect class="grau" x="88" y="18" width="50" height="66" rx="7"/>
+  <text class="text gross" x="47" y="60" text-anchor="middle">A</text>
+  <text class="text gross" x="113" y="60" text-anchor="middle">B</text>
+  <path class="hilfs" d="M40 76 h14 M106 76 h14"/>
+</svg>
