@@ -1,6 +1,6 @@
 # Lerntheke
 
-Statische Web-App für Lerntheken und Trainingsphasen im Mathe- und Physikunterricht.
+Statische Web-App für Lerntheken und Train ingsphasen im Mathe- und Physikunterricht.
 Die Schülerinnen und Schüler wählen Klassenstufe und Thema, schätzen sich selbst ein, arbeiten
 die Stationen ab, sehen danach die Lösungen, tragen ihre Punkte ein und bekommen eine Auswertung.
 
