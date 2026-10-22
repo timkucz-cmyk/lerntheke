@@ -7,7 +7,8 @@ die Stationen ab, sehen danach die Lösungen, tragen ihre Punkte ein und bekomme
 **Neue Inhalte entstehen ausschließlich über Dateien – am Programmcode muss nichts geändert werden.**
 
 **Live: <https://timkucz-cmyk.github.io/lerntheke/>** ·
-Überblick über Aufbau und Entscheidungen: [PROJEKT.md](PROJEKT.md)
+Überblick über Aufbau und Entscheidungen: [PROJEKT.md](PROJEKT.md) ·
+Themen von Kolleg:innen mit eigener KI: [MITMACHEN.md](MITMACHEN.md) · Regeln für KI-Agenten: [AGENTS.md](AGENTS.md)
 
 - kein Build-Schritt, reines HTML/CSS/JS (ES-Module)
 - läuft auf GitHub Pages
@@ -51,6 +52,31 @@ im Browser des Geräts liegt und nicht an der Seite hängt.
    wie eine App abgelegt werden.
 
 Die Datei `.nojekyll` sorgt dafür, dass GitHub Pages alle Ordner unverändert ausliefert.
+
+### Beiträge von Kolleg:innen
+
+Kolleg:innen reichen Themen als Pull Request ein (Anleitung: [MITMACHEN.md](MITMACHEN.md)).
+Die GitHub Action `.github/workflows/inhalte-pruefen.yml` läuft bei jedem Pull Request und
+jedem Push auf `main`: Sie führt `node tools/validate.mjs` aus und lehnt Pull Requests ab,
+die außerhalb von `inhalte/` etwas ändern (gilt nicht für den Repo-Inhaber).
+Das Ergebnis steht im Pull Request als grüner Haken oder rotes Kreuz.
+
+**Einmalig im Repository einrichten:**
+
+1. **Settings → Collaborators → Add people:** GitHub-Konto der Kollegin eintragen (Rolle *Write*).
+2. **Settings → Rules → Rulesets → New branch ruleset**, Name „main schützen“,
+   Enforcement *Active*, Target *Default branch*. Anhaken:
+   - *Restrict deletions*, *Block force pushes*
+   - *Require a pull request before merging*, 1 Approval
+   - *Require status checks to pass* → Check „Inhalte prüfen“ hinzufügen
+     (erscheint nach dem ersten Lauf der Action)
+3. Unter **Bypass list** *Repository admin* eintragen – sonst geht der eigene
+   „Push origin“ aus GitHub Desktop nicht mehr direkt auf `main`.
+
+**Pull Request übernehmen:** Dateien im Reiter *Files changed* durchsehen, Lösungen
+stichprobenartig nachrechnen, *Review changes → Approve*, dann *Merge*. Neue Themen kommen
+mit `"aktiv": false` und sind danach unter `…/lerntheke/#/t/<stufe>/<thema>` zu sehen;
+zum Freischalten in `katalog.json` auf `true` setzen.
 
 ---
 
@@ -327,6 +353,10 @@ inhalte/
 tools/
   validate.mjs             Prüfung der Inhalte (Node)
   validate.py              dieselbe Prüfung ohne Node
+.github/workflows/
+  inhalte-pruefen.yml      Prüfung bei jedem Pull Request
+AGENTS.md                  Regeln für KI-Agenten (Codex, Claude Code …)
+MITMACHEN.md               Anleitung und Prompt für Kolleg:innen
 ```
 
 Die beiden mitgelieferten Themen sind Beispielinhalte zum Testen; die PDFs darin sind Platzhalter.

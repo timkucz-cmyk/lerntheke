@@ -1,0 +1,59 @@
+# Prüft jeden Pull Request und jeden Push auf main mit tools/validate.mjs.
+# Pull Requests von Kolleg:innen dürfen nur Dateien unter inhalte/ ändern.
+# Den Job "Inhalte prüfen" im Ruleset für main als Pflicht-Prüfung eintragen.
+
+name: Inhalte prüfen
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  pruefen:
+    name: Inhalte prüfen
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Nur Inhalte geändert?
+        if: github.event_name == 'pull_request' && github.event.pull_request.user.login != github.repository_owner
+        env:
+          BASIS: ${{ github.event.pull_request.base.sha }}
+          KOPF: ${{ github.event.pull_request.head.sha }}
+        run: |
+          fremd=$(git diff --name-only "$BASIS...$KOPF" | grep -v '^inhalte/' || true)
+          if [ -n "$fremd" ]; then
+            echo "::error::Dieser Pull Request ändert Dateien außerhalb von inhalte/ – bitte nur das eigene Thema und katalog.json ändern."
+            echo "$fremd"
+            exit 1
+          fi
+
+      - name: Große PDFs
+        run: |
+          find inhalte -name '*.pdf' -size +1M -printf '%s %p\n' | while read -r groesse datei; do
+            echo "::warning file=$datei::PDF ist $((groesse / 1024)) KB groß – bitte mit „Minimale Größe (Onlineveröffentlichung)“ speichern."
+          done
+
+      - name: Inhaltsprüfung
+        run: |
+          set +e
+          node tools/validate.mjs > bericht.txt 2>&1
+          status=$?
+          cat bericht.txt
+          {
+            if [ $status -eq 0 ]; then echo "### ✅ Inhalte in Ordnung"; else echo "### ❌ Inhalte fehlerhaft"; fi
+            echo '```'
+            cat bericht.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit $status
