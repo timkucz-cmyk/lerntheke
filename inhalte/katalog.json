@@ -22,7 +22,7 @@
           "id": "exponentialfunktionen",
           "name": "Exponentialfunktionen – Training",
           "fach": "mathe",
-          "aktiv": false,
+          "aktiv": true,
           "beschreibung": "Lineares vs. exponentielles Wachstum, Parameter, Logarithmus, Halbwertszeit, Modellieren"
         }
       ]
