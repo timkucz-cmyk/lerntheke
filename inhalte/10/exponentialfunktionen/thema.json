@@ -83,25 +83,11 @@
    "pdf": "pdf/P1_Wachstum_erkennen.pdf",
    "aufgaben": [
     {
-     "id": "P1-1a",
-     "label": "1a",
-     "punkte": 2,
+     "id": "P1-1",
+     "label": "1",
+     "punkte": 4,
      "afb": "I",
-     "loesung": "Reihe A: Quotienten $\\frac{24}{16} = \\frac{36}{24} = \\frac{54}{36} = 1{,}5$ – konstant. **Exponentielles Wachstum** mit $b = 1{,}5$ (die Differenzen 8; 12; 18 sind nicht konstant).\n\nReihe B: Differenzen $9 - 7{,}5 = 10{,}5 - 9 = 12 - 10{,}5 = 1{,}5$ – konstant. **Lineares Wachstum** mit $d = 1{,}5$.\n\nJe Reihe 1 P."
-    },
-    {
-     "id": "P1-1b",
-     "label": "1b",
-     "punkte": 1,
-     "afb": "I",
-     "loesung": "Quotienten: $\\frac{40}{50} = \\frac{32}{40} = \\frac{25{,}6}{32} = 0{,}8$ – konstant.\n\n**Exponentielles Wachstum** (Abnahme) mit $b = 0{,}8$."
-    },
-    {
-     "id": "P1-1c",
-     "label": "1c",
-     "punkte": 1,
-     "afb": "II",
-     "loesung": "Differenzen 2; 4; 6 – nicht konstant. Quotienten $2$; $2$; $1{,}75$ – nicht konstant.\n\n**Weder** linear **noch** exponentiell. Zwei gleiche Quotienten reichen nicht: Es müssen alle Quotienten übereinstimmen."
+     "loesung": "Reihe A: Quotienten $\\frac{24}{16} = \\frac{36}{24} = \\frac{54}{36} = 1{,}5$ – konstant. **Exponentielles Wachstum** mit $b = 1{,}5$ (die Differenzen 8; 12; 18 sind nicht konstant).\n\nReihe B: Differenzen $9 - 7{,}5 = 10{,}5 - 9 = 12 - 10{,}5 = 1{,}5$ – konstant. **Lineares Wachstum** mit $d = 1{,}5$.\n\nReihe C: Quotienten $\\frac{40}{50} = \\frac{32}{40} = \\frac{25{,}6}{32} = 0{,}8$ – konstant.\n\n**Exponentielles Wachstum** (Abnahme) mit $b = 0{,}8$.\n\nReihe D: Differenzen 2; 4; 6 – nicht konstant. Quotienten $2$; $2$; $1{,}75$ – nicht konstant.\n\n**Weder** linear **noch** exponentiell. Zwei gleiche Quotienten reichen nicht: Es müssen alle Quotienten übereinstimmen.\n\nJe Reihe 1 P."
     },
     {
      "id": "P1-2a",
