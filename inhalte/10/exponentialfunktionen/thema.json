@@ -404,7 +404,7 @@
      "label": "2b",
      "punkte": 2,
      "afb": "II",
-     "loesung": "45 min = 0,75 h: $\\ b^{0{,}75} = 2 \\Rightarrow b = 2^{\\frac{1}{0{,}75}} = 2^{\\frac{4}{3}} \\approx 2{,}52$\n\nOder: In 3 Stunden verdoppelt sich die Kultur viermal: $b^3 = 2^4 = 16 \\Rightarrow b = \\sqrt[3]{16} \\approx 2{,}52$.\n\nDie Kultur wächst um etwa **152 % pro Stunde**."
+     "loesung": "**Ansatz:** 45 min = 0,75 h. In dieser Zeit verdoppelt sich der Bestand: $b^{0{,}75} = 2$.\n\n**Nach $b$ auflösen:** Beide Seiten hoch $\\frac{1}{0{,}75} = \\frac{4}{3}$ nehmen: $b = 2^{\\frac{4}{3}} \\approx 2{,}52$ (TR: `2^(4÷3)`).\n\n**Oder ohne Bruchexponent:** 3 h = 180 min = 4 · 45 min. In 3 Stunden verdoppelt sich die Kultur viermal, wird also $2^4 = 16$-mal so groß: $b^3 = 16 \\Rightarrow b = \\sqrt[3]{16} \\approx 2{,}52$.\n\n**Prozent:** Der Bestand wird jede Stunde mit $2{,}52$ multipliziert. Der Zuwachs ist der Teil über 1: $2{,}52 - 1 = 1{,}52 = 152\\,\\%$.\n\n**Antwort:** Der stündliche Wachstumsfaktor ist $b \\approx 2{,}52$; die Kultur wächst um etwa **152 % pro Stunde**.\n\n**Kontrolle:** Eine Stunde ist länger als 45 min, die Kultur muss sich also mehr als verdoppeln: $2{,}52 > 2$ passt. Typischer Fehler: „252 %“ – das ist der neue Bestand im Vergleich zum alten, nicht der Zuwachs.\n\n1 P für den Wachstumsfaktor, 1 P für das prozentuale Wachstum."
     },
     {
      "id": "W3-3a",
