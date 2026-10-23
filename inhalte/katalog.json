@@ -15,6 +15,19 @@
       ]
     },
     {
+      "id": "10",
+      "name": "Klasse 10",
+      "themen": [
+        {
+          "id": "exponentialfunktionen",
+          "name": "Exponentialfunktionen – Training",
+          "fach": "mathe",
+          "aktiv": false,
+          "beschreibung": "Lineares vs. exponentielles Wachstum, Parameter, Logarithmus, Halbwertszeit, Modellieren"
+        }
+      ]
+    },
+    {
       "id": "q1",
       "name": "Q1",
       "themen": [

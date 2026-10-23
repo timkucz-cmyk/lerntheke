@@ -1,0 +1,505 @@
+{
+ "version": 1,
+ "titel": "Exponentialfunktionen – Training vor der Klassenarbeit",
+ "fach": "mathe",
+ "anrede": "du",
+ "hinweis": "Erst P1 und P2, dann zwei bis drei Wahlstationen – am besten die, die dir empfohlen werden. Taschenrechner erlaubt, außer in der Tandemstation W2.",
+ "checkliste": [
+  {
+   "id": "c1",
+   "text": "Lineares und exponentielles Wachstum unterscheiden"
+  },
+  {
+   "id": "c2",
+   "text": "Eigenschaften der natürlichen Exponentialfunktion benennen"
+  },
+  {
+   "id": "c3",
+   "text": "Die Wirkung der Parameter der allgemeinen Exponentialfunktion f(x) = a · bˣ + c beschreiben"
+  },
+  {
+   "id": "c4",
+   "text": "Einfache Exponentialgleichungen mit dem Logarithmus lösen"
+  },
+  {
+   "id": "c5",
+   "text": "Die Größen Halbwertszeit und Verdopplungszeit erläutern sowie nutzen"
+  },
+  {
+   "id": "c6",
+   "text": "Reale Sachzusammenhänge (wie Zinsrechnung) mit Exponentialfunktionen modellieren"
+  },
+  {
+   "id": "c7",
+   "text": "Mit den Fachbegriffen Asymptote und Monotonie umgehen"
+  }
+ ],
+ "phasen": [
+  {
+   "id": "p1",
+   "name": "Exponentialfunktionen",
+   "untertitel": "Wachstum, Graph und Parameter",
+   "farbe": "blau",
+   "checkliste": [
+    "c1",
+    "c2",
+    "c3",
+    "c7"
+   ]
+  },
+  {
+   "id": "p2",
+   "name": "Logarithmus",
+   "untertitel": "Exponentialgleichungen lösen",
+   "farbe": "orange",
+   "checkliste": [
+    "c4"
+   ]
+  },
+  {
+   "id": "p3",
+   "name": "Anwenden",
+   "untertitel": "Halbwertszeit, Verdopplungszeit, Modellieren",
+   "farbe": "gruen",
+   "checkliste": [
+    "c5",
+    "c6"
+   ]
+  }
+ ],
+ "abschluss": "Klassenarbeit",
+ "stationen": [
+  {
+   "id": "P1",
+   "titel": "Wachstum erkennen",
+   "typ": "pflicht",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "Taschenrechner",
+   "checkliste": [
+    "c1"
+   ],
+   "bild": "img/st_P1.svg",
+   "pdf": "pdf/P1_Wachstum_erkennen.pdf",
+   "aufgaben": [
+    {
+     "id": "P1-1a",
+     "label": "1a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "Reihe A: Quotienten $\\frac{24}{16} = \\frac{36}{24} = \\frac{54}{36} = 1{,}5$ – konstant. **Exponentielles Wachstum** mit $b = 1{,}5$ (die Differenzen 8; 12; 18 sind nicht konstant).\n\nReihe B: Differenzen $9 - 7{,}5 = 10{,}5 - 9 = 12 - 10{,}5 = 1{,}5$ – konstant. **Lineares Wachstum** mit $d = 1{,}5$.\n\nJe Reihe 1 P."
+    },
+    {
+     "id": "P1-1b",
+     "label": "1b",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "Quotienten: $\\frac{40}{50} = \\frac{32}{40} = \\frac{25{,}6}{32} = 0{,}8$ – konstant.\n\n**Exponentielles Wachstum** (Abnahme) mit $b = 0{,}8$."
+    },
+    {
+     "id": "P1-1c",
+     "label": "1c",
+     "punkte": 1,
+     "afb": "II",
+     "loesung": "Differenzen 2; 4; 6 – nicht konstant. Quotienten $2$; $2$; $1{,}75$ – nicht konstant.\n\n**Weder** linear **noch** exponentiell. Zwei gleiche Quotienten reichen nicht: Es müssen alle Quotienten übereinstimmen."
+    },
+    {
+     "id": "P1-2a",
+     "label": "2a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "Jeden Monat wird mit demselben Faktor multipliziert: **exponentiell**.\n\n$b = 100\\,\\% - 3\\,\\% = 97\\,\\% = 0{,}97$, Anfangswert $a = 80$:\n\n$$f(x) = 80 \\cdot 0{,}97^x \\quad (\\text{Ladung in } \\%)$$"
+    },
+    {
+     "id": "P1-2b",
+     "label": "2b",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Die 0,4 % beziehen sich immer auf die Anfangsleistung, also sinkt die Leistung jedes Jahr um denselben Betrag $0{,}004 \\cdot 400\\,\\mathrm{W} = 1{,}6\\,\\mathrm{W}$: **linear**.\n\n$$f(x) = 400 - 1{,}6x \\quad (\\text{garantierte Leistung in W})$$\n\nAchtung: „Prozent“ allein bedeutet nicht automatisch exponentiell – entscheidend ist, worauf sich die Prozentangabe bezieht."
+    },
+    {
+     "id": "P1-3a",
+     "label": "3a",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "L: Werte $2;\\ 5;\\ 8;\\ 11;\\ \\ldots$ – der Zuwachs ist immer 3 Tausend: **linear**.\n\nK: Werte $2;\\ 3;\\ 4{,}5;\\ \\approx 6{,}8;\\ \\ldots$ – jeweils mal $1{,}5$: **exponentiell**.\n\nAblesegenauigkeit: Werte auf etwa eine halbe Einheit genügen."
+    },
+    {
+     "id": "P1-3b",
+     "label": "3b",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "Die Aussage ist **falsch**. Bis Monat 5 liegt L vorne ($17 > 15{,}2$), im 6. Monat hat K L überholt ($22{,}8 > 20$).\n\nBei exponentiellem Wachstum mit $b > 1$ wird der Zuwachs immer größer, bei linearem bleibt er gleich. Deshalb überholt das exponentielle Wachstum das lineare auf Dauer immer – auch wenn es anfangs hinten liegt. Tom schließt von den ersten Monaten auf den gesamten Verlauf."
+    }
+   ]
+  },
+  {
+   "id": "P2",
+   "titel": "Allgemeine Exponentialfunktion",
+   "typ": "pflicht",
+   "sozialform": "einzel",
+   "dauer_min": 15,
+   "hilfsmittel": "ohne Taschenrechner lösbar",
+   "checkliste": [
+    "c3",
+    "c7",
+    "c2"
+   ],
+   "bild": "img/st_P2.svg",
+   "pdf": "pdf/P2_Allgemeine_Exponentialfunktion.pdf",
+   "aufgaben": [
+    {
+     "id": "P2-1a",
+     "label": "1a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "A: $h$ (Asymptote $y = -2$, Schnittpunkt $(0 \\mid -1{,}5)$, steigend)\n\nB: $f$ (Asymptote $y = 1$, Schnittpunkt $(0 \\mid 4)$, fallend)\n\nC: $k$ (Asymptote $y = 0$, Schnittpunkt $(0 \\mid -1)$, steigend)\n\nD: $g$ (Asymptote $y = 3$, Schnittpunkt $(0 \\mid 1)$, fallend)\n\nJe zwei richtige Zuordnungen 1 P."
+    },
+    {
+     "id": "P2-1b",
+     "label": "1b",
+     "punkte": 1,
+     "afb": "II",
+     "loesung": "$m$ hat wie $f$ (Graph B) die Asymptote $y = 1$ und den Schnittpunkt $(0 \\mid 4)$. Wegen $a = 3 > 0$ und $b = 2 > 1$ **steigt** $m$ aber, Graph B fällt."
+    },
+    {
+     "id": "P2-2",
+     "label": "2",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "Asymptote: $y = 5$ (für $x \\to -\\infty$)\n\nSchnittpunkt mit der $y$-Achse: $f(0) = -3 \\cdot 1 + 5 = 2$, also $S_y(0 \\mid 2)$\n\nMonotonie: streng monoton **fallend** ($a < 0$, $b > 1$)\n\nWertemenge: $W = \\{\\, y \\mid y < 5 \\,\\}$\n\nJe zwei richtige Angaben 1 P."
+    },
+    {
+     "id": "P2-3a",
+     "label": "3a",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$c = 2$ (Asymptote). $f(0) = a + c = -1$, also $a = -1 - 2 = -3$.\n\nWegen $a < 0$ steigt der Graph nur, wenn $0 < b < 1$ ist, z. B. $b = 0{,}5$:\n\n$$f(x) = -3 \\cdot 0{,}5^x + 2$$\n\nJedes $b$ mit $0 < b < 1$ ist richtig."
+    },
+    {
+     "id": "P2-3b",
+     "label": "3b",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "$b^x$ nimmt alle positiven Werte an, aber nie 0 oder negative Werte. Also nimmt $a \\cdot b^x$ alle Werte mit dem Vorzeichen von $a$ an.\n\n$f(x) = 0 \\Leftrightarrow a \\cdot b^x = -c$. Das ist nur lösbar, wenn $-c$ dasselbe Vorzeichen wie $a$ hat.\n\n**Keine Nullstelle**, wenn $c = 0$ ist oder $a$ und $c$ dasselbe Vorzeichen haben (kurz: $a \\cdot c \\ge 0$).\n\nAnschaulich: Der Graph liegt ganz auf einer Seite der Asymptote $y = c$ – bei $a > 0$ oberhalb. Liegt die Asymptote auf oder oberhalb der $x$-Achse und der Graph darüber, gibt es keinen Schnittpunkt mit der $x$-Achse (entsprechend für $a < 0$)."
+    }
+   ]
+  },
+  {
+   "id": "W1",
+   "titel": "Exponentialgleichungen",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 15,
+   "hilfsmittel": "Taschenrechner",
+   "checkliste": [
+    "c4"
+   ],
+   "bild": "img/st_W1.svg",
+   "pdf": "pdf/W1_Exponentialgleichungen.pdf",
+   "aufgaben": [
+    {
+     "id": "W1-1a",
+     "label": "1a",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$x = \\log_{1{,}5}(20) \\approx 7{,}39$"
+    },
+    {
+     "id": "W1-1b",
+     "label": "1b",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$0{,}9^x = 0{,}4 \\Rightarrow x = \\log_{0{,}9}(0{,}4) \\approx 8{,}70$"
+    },
+    {
+     "id": "W1-1c",
+     "label": "1c",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$4 \\cdot 1{,}2^x = 20 \\Rightarrow 1{,}2^x = 5 \\Rightarrow x = \\log_{1{,}2}(5) \\approx 8{,}83$"
+    },
+    {
+     "id": "W1-2",
+     "label": "2",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$40 \\cdot 1{,}35^x = 500 \\Rightarrow 1{,}35^x = 12{,}5 \\Rightarrow x = \\log_{1{,}35}(12{,}5) \\approx 8{,}42$\n\n8,42 Jahre nach Anfang 2025: im Laufe des Jahres **2033**."
+    },
+    {
+     "id": "W1-3",
+     "label": "3",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "Der erste Schritt ist falsch: $5 \\cdot 2^x \\neq 10^x$. Potenzrechnung geht vor Punktrechnung – nur die 2 wird mit $x$ potenziert, die 5 ist ein Faktor davor.\n\nRichtig: $2^x = 80 : 5 = 16 \\Rightarrow x = \\log_2(16) = 4$.\n\nEine Probe hätte den Fehler gezeigt: $5 \\cdot 2^{1{,}90} \\approx 18{,}7 \\neq 80$."
+    },
+    {
+     "id": "W1-4",
+     "label": "4",
+     "punkte": 1,
+     "afb": "II",
+     "loesung": "Es müsste $2^x = -4$ gelten. $2^x$ ist aber für alle $x$ positiv (Wertemenge $y > 0$), also hat die Gleichung keine Lösung."
+    }
+   ]
+  },
+  {
+   "id": "W2",
+   "titel": "Tandem: Logarithmus ohne Taschenrechner",
+   "typ": "wahl",
+   "sozialform": "tandem",
+   "dauer_min": 15,
+   "hilfsmittel": "ohne Taschenrechner",
+   "checkliste": [
+    "c4",
+    "c3"
+   ],
+   "bild": "img/st_W2.svg",
+   "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut; die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert.",
+   "aufgaben": [
+    {
+     "id": "W2-1",
+     "label": "1",
+     "partner": "A",
+     "punkte": 1,
+     "afb": "I",
+     "aufgabe": "Berechne $\\log_2(64)$.",
+     "tipp": "2 hoch welche Zahl ergibt 64?",
+     "loesung": "$\\log_2(64) = 6$, denn $2^6 = 64$."
+    },
+    {
+     "id": "W2-2",
+     "label": "2",
+     "partner": "B",
+     "punkte": 1,
+     "afb": "I",
+     "aufgabe": "Berechne $\\log_3(243)$.",
+     "tipp": "3 hoch welche Zahl ergibt 243? Zähle: 3, 9, 27, …",
+     "loesung": "$\\log_3(243) = 5$, denn $3^5 = 243$."
+    },
+    {
+     "id": "W2-3",
+     "label": "3",
+     "partner": "A",
+     "punkte": 1,
+     "afb": "I",
+     "aufgabe": "Berechne $\\log_{10}(0{,}0001)$.",
+     "tipp": "Schreibe 0,0001 als Zehnerpotenz.",
+     "loesung": "$\\log_{10}(0{,}0001) = -4$, denn $10^{-4} = 0{,}0001$."
+    },
+    {
+     "id": "W2-4",
+     "label": "4",
+     "partner": "B",
+     "punkte": 1,
+     "afb": "I",
+     "aufgabe": "Berechne $\\log_2\\left(\\frac{1}{32}\\right)$.",
+     "tipp": "$\\frac{1}{32} = \\frac{1}{2^5}$ – denk an negative Exponenten.",
+     "loesung": "$\\log_2\\left(\\frac{1}{32}\\right) = -5$, denn $2^{-5} = \\frac{1}{32}$."
+    },
+    {
+     "id": "W2-5",
+     "label": "5",
+     "partner": "A",
+     "punkte": 1,
+     "afb": "II",
+     "aufgabe": "Berechne $\\log_8(2)$.",
+     "tipp": "Welche Wurzel aus 8 ergibt 2? Der Exponent ist ein Bruch.",
+     "loesung": "$\\log_8(2) = \\frac{1}{3}$, denn $8^{\\frac{1}{3}} = \\sqrt[3]{8} = 2$."
+    },
+    {
+     "id": "W2-6",
+     "label": "6",
+     "partner": "B",
+     "punkte": 1,
+     "afb": "II",
+     "aufgabe": "Berechne $\\log_{25}(5)$.",
+     "tipp": "5 ist die Quadratwurzel aus 25. Der Exponent ist ein Bruch.",
+     "loesung": "$\\log_{25}(5) = \\frac{1}{2}$, denn $25^{\\frac{1}{2}} = \\sqrt{25} = 5$."
+    },
+    {
+     "id": "W2-7",
+     "label": "7",
+     "partner": "A",
+     "punkte": 1,
+     "afb": "I",
+     "aufgabe": "Bestimme die Lösung der Gleichung $2^{x+1} = 16$.",
+     "tipp": "Schreibe 16 als Zweierpotenz und vergleiche die Exponenten.",
+     "loesung": "$16 = 2^4$, also $x + 1 = 4$ und $x = 3$."
+    },
+    {
+     "id": "W2-8",
+     "label": "8",
+     "partner": "B",
+     "punkte": 1,
+     "afb": "I",
+     "aufgabe": "Bestimme die Lösung der Gleichung $3^{x-2} = 27$.",
+     "tipp": "Schreibe 27 als Dreierpotenz und vergleiche die Exponenten.",
+     "loesung": "$27 = 3^3$, also $x - 2 = 3$ und $x = 5$."
+    },
+    {
+     "id": "W2-9",
+     "label": "9",
+     "partner": "A",
+     "punkte": 1,
+     "afb": "II",
+     "aufgabe": "Berechne $\\log_6(4) + \\log_6(9)$.",
+     "tipp": "Logarithmusgesetz: Eine Summe von Logarithmen ist der Logarithmus des Produkts.",
+     "loesung": "$\\log_6(4) + \\log_6(9) = \\log_6(36) = 2$"
+    },
+    {
+     "id": "W2-10",
+     "label": "10",
+     "partner": "B",
+     "punkte": 1,
+     "afb": "II",
+     "aufgabe": "Berechne $\\log_3(54) - \\log_3(2)$.",
+     "tipp": "Logarithmusgesetz: Eine Differenz von Logarithmen ist der Logarithmus des Quotienten.",
+     "loesung": "$\\log_3(54) - \\log_3(2) = \\log_3(27) = 3$"
+    },
+    {
+     "id": "W2-11",
+     "label": "11",
+     "partner": "A",
+     "punkte": 2,
+     "afb": "II",
+     "aufgabe": "Bestimme $a$, $b$ und $c$ für $f(x) = a \\cdot b^x + c$: Asymptote $y = -1$, Schnittpunkt mit der $y$-Achse $(0 \\mid 2)$ und $f(1) = 5$.",
+     "tipp": "$c$ ist die Asymptote, $a$ = $y$-Achsenabschnitt minus $c$. Dann $f(1) = 5$ einsetzen.",
+     "loesung": "$c = -1$, $a = 2 - (-1) = 3$.\n\n$3 \\cdot b - 1 = 5 \\Rightarrow b = 2$\n\n$$f(x) = 3 \\cdot 2^x - 1$$"
+    },
+    {
+     "id": "W2-12",
+     "label": "12",
+     "partner": "B",
+     "punkte": 2,
+     "afb": "II",
+     "aufgabe": "Bestimme $a$, $b$ und $c$ für $f(x) = a \\cdot b^x + c$: Asymptote $y = 4$, Schnittpunkt mit der $y$-Achse $(0 \\mid 2)$ und $f(1) = 3$.",
+     "tipp": "$c$ ist die Asymptote, $a$ = $y$-Achsenabschnitt minus $c$ (hier negativ). Dann $f(1) = 3$ einsetzen.",
+     "loesung": "$c = 4$, $a = 2 - 4 = -2$.\n\n$-2 \\cdot b + 4 = 3 \\Rightarrow b = 0{,}5$\n\n$$f(x) = -2 \\cdot 0{,}5^x + 4$$"
+    }
+   ]
+  },
+  {
+   "id": "W3",
+   "titel": "Halbwertszeit und Verdopplungszeit",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "Taschenrechner",
+   "checkliste": [
+    "c5",
+    "c4"
+   ],
+   "bild": "img/st_W3.svg",
+   "pdf": "pdf/W3_Halbwertszeit_Verdopplungszeit.pdf",
+   "aufgaben": [
+    {
+     "id": "W3-1a",
+     "label": "1a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$800 \\cdot 0{,}891^x = 400 \\Rightarrow 0{,}891^x = 0{,}5 \\Rightarrow x = \\log_{0{,}891}(0{,}5) \\approx 6{,}0$\n\nDie Halbwertszeit beträgt etwa **6 Stunden**."
+    },
+    {
+     "id": "W3-1b",
+     "label": "1b",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "24 Stunden sind 4 Halbwertszeiten:\n\n$$\\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16} = 6{,}25\\,\\%$$\n\nEs sind noch etwa 6,25 % vorhanden (50 MBq)."
+    },
+    {
+     "id": "W3-2a",
+     "label": "2a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$b = 1{,}3$: $\\ 1{,}3^x = 2 \\Rightarrow x = \\log_{1{,}3}(2) \\approx 2{,}64$\n\n$0{,}64 \\cdot 60\\,\\mathrm{min} \\approx 39\\,\\mathrm{min}$: Verdopplungszeit etwa **2 h 39 min**."
+    },
+    {
+     "id": "W3-2b",
+     "label": "2b",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "45 min = 0,75 h: $\\ b^{0{,}75} = 2 \\Rightarrow b = 2^{\\frac{1}{0{,}75}} = 2^{\\frac{4}{3}} \\approx 2{,}52$\n\nOder: In 3 Stunden verdoppelt sich die Kultur viermal: $b^3 = 2^4 = 16 \\Rightarrow b = \\sqrt[3]{16} \\approx 2{,}52$.\n\nDie Kultur wächst um etwa **152 % pro Stunde**."
+    },
+    {
+     "id": "W3-3a",
+     "label": "3a",
+     "punkte": 1,
+     "afb": "II",
+     "loesung": "Falsch: Nach 30 Jahren ist die Hälfte übrig, nach weiteren 30 Jahren die Hälfte davon. Nach 60 Jahren ist noch $\\frac{1}{4} = 25\\,\\%$ vorhanden."
+    },
+    {
+     "id": "W3-3b",
+     "label": "3b",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "Ansatz für die Halbwertszeit $T$: $a \\cdot b^T = 0{,}5 \\cdot a$. Teilen durch $a$ ($a \\neq 0$) ergibt $b^T = 0{,}5$, also $T = \\log_b(0{,}5)$.\n\nIn dieser Gleichung kommt $a$ nicht mehr vor – die Halbwertszeit hängt nur vom Wachstumsfaktor $b$ ab.\n\nErgänzung: Das gilt ab jedem Zeitpunkt, denn $f(x + T) = a \\cdot b^x \\cdot b^T = 0{,}5 \\cdot f(x)$."
+    }
+   ]
+  },
+  {
+   "id": "W4",
+   "titel": "Modellieren im Sachkontext",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "Taschenrechner",
+   "checkliste": [
+    "c6",
+    "c3"
+   ],
+   "bild": "img/st_W4.svg",
+   "pdf": "pdf/W4_Modellieren.pdf",
+   "aufgaben": [
+    {
+     "id": "W4-1a",
+     "label": "1a",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$K(x) = 5000 \\cdot 1{,}024^x$ ($K$ in €)"
+    },
+    {
+     "id": "W4-1b",
+     "label": "1b",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$K(10) = 5000 \\cdot 1{,}024^{10} \\approx 6338{,}25$ €"
+    },
+    {
+     "id": "W4-1c",
+     "label": "1c",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$5000 \\cdot 1{,}024^x = 6000 \\Rightarrow 1{,}024^x = 1{,}2 \\Rightarrow x = \\log_{1{,}024}(1{,}2) \\approx 7{,}69$\n\nNach **8 Jahren** ($K(7) \\approx 5902{,}96$ €, $K(8) \\approx 6044{,}63$ €)."
+    },
+    {
+     "id": "W4-2a",
+     "label": "2a",
+     "punkte": 1,
+     "afb": "II",
+     "loesung": "Die Leiterplatte kühlt sich bis auf Raumtemperatur ab, aber nicht darunter. Für große $x$ wird $b^x \\approx 0$ und $T(x) \\approx c$. Die Asymptote ist $y = 20$, also $c = 20$."
+    },
+    {
+     "id": "W4-2b",
+     "label": "2b",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "$T(0) = a + 20 = 220 \\Rightarrow a = 200$\n\nPunkt $(2 \\mid 120)$: $\\ 200 \\cdot b^2 + 20 = 120 \\Rightarrow b^2 = 0{,}5 \\Rightarrow b = \\sqrt{0{,}5} \\approx 0{,}707$\n\n$$T(x) = 200 \\cdot 0{,}707^x + 20$$\n\nGleichwertig nach dem Leitfaden mit $b^{-x}$: $T(x) = 200 \\cdot 1{,}414^{-x} + 20$."
+    },
+    {
+     "id": "W4-2c",
+     "label": "2c",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$200 \\cdot 0{,}707^x + 20 = 40 \\Rightarrow 0{,}707^x = 0{,}1 \\Rightarrow x = \\log_{0{,}707}(0{,}1) \\approx 6{,}6$\n\nNach etwa **6,6 Minuten** (rund 6 min 40 s)."
+    },
+    {
+     "id": "W4-2d",
+     "label": "2d",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "Im Modell ist $200 \\cdot 0{,}707^x > 0$, also $T(x) > 20$ für alle $x$.\n\nDer Unterschied wird aber schnell winzig: Nach 30 Minuten ist $200 \\cdot 0{,}707^{30} \\approx 0{,}006$ °C – das kann kein Thermometer messen.\n\nFür die Praxis ist die Platte nach etwa einer halben Stunde auf Raumtemperatur. Das spricht nicht gegen das Modell. Grenzen liegen eher woanders: Die Raumtemperatur schwankt, und die Platte kühlt nicht überall gleich schnell ab."
+    }
+   ]
+  }
+ ]
+}
