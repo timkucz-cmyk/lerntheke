@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80"
+     role="img" aria-label="Zahlengerade: offener Kreis bei 4, Bereich links davon">
+  <style>
+    .kurve  { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .flaeche{ fill: #B61E33; fill-opacity: .2; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .achse  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #6b7280; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 17px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .kurve  { stroke: #E8677D; }
+      .flaeche{ fill: #E8677D; fill-opacity: .22; }
+      .marke  { fill: #E8677D; }
+      .grau   { stroke: #9aa1a9; }
+      .achse  { stroke: #6b7280; }
+      .fuell  { fill: #9aa1a9; fill-opacity: .16; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="achse" d="M20 40 H300 m-7 -5 l7 5 l-7 5"/>
+  <path class="achse" d="M30.0 35 v10"/>
+  <text class="text" x="30.0" y="62" text-anchor="middle">−6</text>
+  <path class="achse" d="M50.8 35 v10"/>
+  <text class="text" x="50.8" y="62" text-anchor="middle">−5</text>
+  <path class="achse" d="M71.7 35 v10"/>
+  <text class="text" x="71.7" y="62" text-anchor="middle">−4</text>
+  <path class="achse" d="M92.5 35 v10"/>
+  <text class="text" x="92.5" y="62" text-anchor="middle">−3</text>
+  <path class="achse" d="M113.3 35 v10"/>
+  <text class="text" x="113.3" y="62" text-anchor="middle">−2</text>
+  <path class="achse" d="M134.2 35 v10"/>
+  <text class="text" x="134.2" y="62" text-anchor="middle">−1</text>
+  <path class="achse" d="M155.0 35 v10"/>
+  <text class="text" x="155.0" y="62" text-anchor="middle">0</text>
+  <path class="achse" d="M175.8 35 v10"/>
+  <text class="text" x="175.8" y="62" text-anchor="middle">1</text>
+  <path class="achse" d="M196.7 35 v10"/>
+  <text class="text" x="196.7" y="62" text-anchor="middle">2</text>
+  <path class="achse" d="M217.5 35 v10"/>
+  <text class="text" x="217.5" y="62" text-anchor="middle">3</text>
+  <path class="achse" d="M238.3 35 v10"/>
+  <text class="text" x="238.3" y="62" text-anchor="middle">4</text>
+  <path class="achse" d="M259.2 35 v10"/>
+  <text class="text" x="259.2" y="62" text-anchor="middle">5</text>
+  <path class="achse" d="M280.0 35 v10"/>
+  <text class="text" x="280.0" y="62" text-anchor="middle">6</text>
+  <path class="kurve" d="M238.3 40 H22.0" style="stroke-width:6;stroke-opacity:.45"/>
+  <circle cx="238.3" cy="40" r="6" style="fill:#fff" class="kurve"/>
+</svg>

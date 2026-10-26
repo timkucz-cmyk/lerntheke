@@ -1,0 +1,645 @@
+{
+ "version": 1,
+ "titel": "Terme und Gleichungen – Training vor der Klassenarbeit",
+ "fach": "mathe",
+ "anrede": "du",
+ "hinweis": "Erst P1 bis P3, dann Wahlstationen – am besten die, die dir empfohlen werden. Ohne Taschenrechner; dein Regelheft darfst du benutzen.",
+ "checkliste": [
+  {
+   "id": "c1",
+   "text": "Terme mit einer Variablen aufstellen und vereinfachen"
+  },
+  {
+   "id": "c2",
+   "text": "Den Wert eines Terms für gegebene Zahlen berechnen"
+  },
+  {
+   "id": "c3",
+   "text": "Das Distributivgesetz in beide Richtungen anwenden (ausmultiplizieren und ausklammern)"
+  },
+  {
+   "id": "c4",
+   "text": "Gleichungen aufstellen und mit Äquivalenzumformungen lösen"
+  },
+  {
+   "id": "c5",
+   "text": "Reale Probleme mit Gleichungen lösen"
+  },
+  {
+   "id": "c6",
+   "text": "Terme mit mehreren Variablen aufstellen und vereinfachen"
+  },
+  {
+   "id": "c7",
+   "text": "Die drei binomischen Formeln anwenden"
+  },
+  {
+   "id": "c8",
+   "text": "Binomische Formeln rückwärts anwenden (faktorisieren)"
+  },
+  {
+   "id": "c9",
+   "text": "Eine Lösung mit der Probe überprüfen"
+  },
+  {
+   "id": "c10",
+   "text": "Ungleichungen lösen und an der Zahlengeraden darstellen"
+  }
+ ],
+ "phasen": [
+  {
+   "id": "p1",
+   "name": "Terme",
+   "untertitel": "Aufstellen, vereinfachen, ausmultiplizieren",
+   "farbe": "blau",
+   "checkliste": [
+    "c1",
+    "c2",
+    "c3",
+    "c6"
+   ]
+  },
+  {
+   "id": "p2",
+   "name": "Binomische Formeln",
+   "untertitel": "Vorwärts und rückwärts",
+   "farbe": "orange",
+   "checkliste": [
+    "c7",
+    "c8"
+   ]
+  },
+  {
+   "id": "p3",
+   "name": "Gleichungen und Ungleichungen",
+   "untertitel": "Lösen, prüfen, anwenden",
+   "farbe": "gruen",
+   "checkliste": [
+    "c4",
+    "c9",
+    "c5",
+    "c10"
+   ]
+  }
+ ],
+ "abschluss": "Klassenarbeit",
+ "stationen": [
+  {
+   "id": "P1",
+   "titel": "Terme umformen",
+   "typ": "pflicht",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "ohne Taschenrechner",
+   "checkliste": [
+    "c1",
+    "c3",
+    "c2",
+    "c6"
+   ],
+   "bild": "img/st_P1.svg",
+   "pdf": "pdf/P1_Terme_umformen.pdf",
+   "aufgaben": [
+    {
+     "id": "P1-1a",
+     "label": "1a",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "1 Quadrat: 4 Hölzer, 2 Quadrate: 7 Hölzer, 3 Quadrate: 10 Hölzer."
+    },
+    {
+     "id": "P1-1b",
+     "label": "1b",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Term: $3n + 1$ (gleichwertig: $4 + 3(n - 1)$).\n\nDas erste Quadrat braucht 4 Hölzer, jedes weitere nur 3, weil es sich eine Seite mit dem vorherigen teilt: $4 + 3(n - 1) = 3n + 1$.\n\n1 P Term, 1 P Begründung."
+    },
+    {
+     "id": "P1-2a",
+     "label": "2a",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$2a + 3b$"
+    },
+    {
+     "id": "P1-2b",
+     "label": "2b",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$2x^2 - 3x$\n\n$x^2$ und $x$ sind keine gleichartigen Summanden. Sie dürfen nicht zusammengefasst werden."
+    },
+    {
+     "id": "P1-2c",
+     "label": "2c",
+     "punkte": 1,
+     "afb": "II",
+     "loesung": "$4xy - 6xy + xy = -xy$\n\n$yx$ ist dasselbe wie $xy$."
+    },
+    {
+     "id": "P1-3a",
+     "label": "3a",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$-6x + 12$"
+    },
+    {
+     "id": "P1-3b",
+     "label": "3b",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$4x + 8 - 6x + 2 = -2x + 10$\n\n1 P Klammern richtig aufgelöst (Minus vor der zweiten Klammer!), 1 P zusammengefasst."
+    },
+    {
+     "id": "P1-3c",
+     "label": "3c",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$12x - 18 = 6(2x - 3)$\n\n$6x^2 + 9x = 3x(2x + 3)$\n\nJe 1 P. Kontrolle durch Ausmultiplizieren."
+    },
+    {
+     "id": "P1-4",
+     "label": "4",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$x = -2$: $2 \\cdot (-2)^2 - 3 \\cdot (-2) = 8 + 6 = 14$\n\n$x = 0{,}5$: $2 \\cdot 0{,}5^2 - 3 \\cdot 0{,}5 = 0{,}5 - 1{,}5 = -1$\n\nJe 1 P. Negative Zahlen in Klammern einsetzen."
+    }
+   ]
+  },
+  {
+   "id": "P2",
+   "titel": "Binomische Formeln",
+   "typ": "pflicht",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "ohne Taschenrechner",
+   "checkliste": [
+    "c7",
+    "c8"
+   ],
+   "bild": "img/st_P2.svg",
+   "pdf": "pdf/P2_Binomische_Formeln.pdf",
+   "aufgaben": [
+    {
+     "id": "P2-1a",
+     "label": "1a",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$x^2 + 14x + 49$"
+    },
+    {
+     "id": "P2-1b",
+     "label": "1b",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$4a^2 - 20a + 25$"
+    },
+    {
+     "id": "P2-1c",
+     "label": "1c",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$9y^2 - 16$"
+    },
+    {
+     "id": "P2-1d",
+     "label": "1d",
+     "punkte": 1,
+     "afb": "II",
+     "loesung": "$0{,}25x^2 + 3x + 9$\n\nMischglied: $2 \\cdot 0{,}5x \\cdot 3 = 3x$."
+    },
+    {
+     "id": "P2-2a",
+     "label": "2a",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$(x + 5)^2$"
+    },
+    {
+     "id": "P2-2b",
+     "label": "2b",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$(4a - 3)^2$\n\nQuadrate: $16a^2 = (4a)^2$ und $9 = 3^2$; Mischglied: $2 \\cdot 4a \\cdot 3 = 24a$."
+    },
+    {
+     "id": "P2-2c",
+     "label": "2c",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$(9 + 2y)(9 - 2y)$ (3. binomische Formel)"
+    },
+    {
+     "id": "P2-3a",
+     "label": "3a",
+     "punkte": 1,
+     "afb": "II",
+     "loesung": "$x^2 - 12x + 36 = (x - 6)^2$, denn $2 \\cdot x \\cdot 6 = 12x$."
+    },
+    {
+     "id": "P2-3b",
+     "label": "3b",
+     "punkte": 1,
+     "afb": "II",
+     "loesung": "$25x^2 + 20x + 4 = (5x + 2)^2$, denn $2 \\cdot 5x \\cdot 2 = 20x$."
+    },
+    {
+     "id": "P2-4",
+     "label": "4",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "(A) echt: $(x + 4)^2$, denn $16 = 4^2$ und $2 \\cdot x \\cdot 4 = 8x$.\n\n(B) geschummelt: Für die 1. Formel fehlt das Mischglied, für die 3. Formel müsste zwischen den Quadraten ein Minus stehen.\n\n(C) geschummelt: Das letzte Glied $-9$ ist negativ, ein Quadrat ist aber nie negativ.\n\nJe 1 P."
+    }
+   ]
+  },
+  {
+   "id": "P3",
+   "titel": "Gleichungen lösen",
+   "typ": "pflicht",
+   "sozialform": "einzel",
+   "dauer_min": 15,
+   "hilfsmittel": "ohne Taschenrechner",
+   "checkliste": [
+    "c4",
+    "c9"
+   ],
+   "bild": "img/st_P3.svg",
+   "pdf": "pdf/P3_Gleichungen_loesen.pdf",
+   "aufgaben": [
+    {
+     "id": "P3-1a",
+     "label": "1a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$$5x - 4 = 2x + 11 \\quad | -2x$$\n\n$$3x - 4 = 11 \\quad | +4$$\n\n$$3x = 15 \\quad | :3$$\n\n$$x = 5$$\n\nProbe: links $5 \\cdot 5 - 4 = 21$, rechts $2 \\cdot 5 + 11 = 21$ ✓\n\n1 P Lösung, 1 P Probe."
+    },
+    {
+     "id": "P3-1b",
+     "label": "1b",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "$$3x - 6 = 7 - x - 1$$\n\n$$3x - 6 = 6 - x \\quad | +x$$\n\n$$4x - 6 = 6 \\quad | +6$$\n\n$$4x = 12 \\quad | :4$$\n\n$$x = 3$$\n\nProbe: links $3 \\cdot (3 - 2) = 3$, rechts $7 - (3 + 1) = 3$ ✓\n\n1 P Klammern aufgelöst, 1 P Lösung, 1 P Probe."
+    },
+    {
+     "id": "P3-2a",
+     "label": "2a",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "Links: $3 \\cdot (-2) + 7 = 1$, rechts: $-2 + 3 = 1$. Beide Seiten sind gleich: $-2$ ist eine Lösung."
+    },
+    {
+     "id": "P3-2b",
+     "label": "2b",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "Links: $2 \\cdot (4 - 1) = 6$, rechts: $3 \\cdot 4 - 5 = 7$. $6 \\ne 7$: $4$ ist keine Lösung."
+    },
+    {
+     "id": "P3-3a",
+     "label": "3a",
+     "punkte": 1,
+     "afb": "II",
+     "loesung": "$2x + 6 = 2x + 6 \\quad | -2x$ ergibt $6 = 6$. Die Aussage ist immer wahr: $L = \\mathbb{Q}$."
+    },
+    {
+     "id": "P3-3b",
+     "label": "3b",
+     "punkte": 1,
+     "afb": "II",
+     "loesung": "Auf beiden Seiten $-4x$ ergibt $-1 = 2$. Die Aussage ist immer falsch: $L = \\{\\,\\}$."
+    }
+   ]
+  },
+  {
+   "id": "W1",
+   "titel": "Summen multiplizieren",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "ohne Taschenrechner",
+   "checkliste": [
+    "c6",
+    "c3"
+   ],
+   "bild": "img/st_W1.svg",
+   "pdf": "pdf/W1_Summen_multiplizieren.pdf",
+   "aufgaben": [
+    {
+     "id": "W1-1a",
+     "label": "1a",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$x^2 + 3x + 4x + 12 = x^2 + 7x + 12$"
+    },
+    {
+     "id": "W1-1b",
+     "label": "1b",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$2a^2 + 8a - 3a - 12 = 2a^2 + 5a - 12$\n\n1 P vier Teilprodukte, 1 P zusammengefasst."
+    },
+    {
+     "id": "W1-1c",
+     "label": "1c",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$3x^2 + 2xy - 3xy - 2y^2 = 3x^2 - xy - 2y^2$\n\n1 P vier Teilprodukte, 1 P zusammengefasst."
+    },
+    {
+     "id": "W1-2a",
+     "label": "2a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "Teilflächen (in cm²): $x \\cdot x = x^2$, $3 \\cdot x = 3x$, $x \\cdot 1 = x$ und $3 \\cdot 1 = 3$.\n\n1 P Skizze mit Zerlegung, 1 P Teilflächen."
+    },
+    {
+     "id": "W1-2b",
+     "label": "2b",
+     "punkte": 1,
+     "afb": "II",
+     "loesung": "$A = (x + 3)(x + 1) = x^2 + 3x + x + 3 = x^2 + 4x + 3$ (in cm²)"
+    },
+    {
+     "id": "W1-3",
+     "label": "3",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Einnahmen in Euro: $n \\cdot a + m \\cdot b$\n\n$40 \\cdot 1{,}50 + 30 \\cdot 1{,}20 = 60 + 36 = 96$, also 96 €.\n\n1 P Term, 1 P Ergebnis."
+    },
+    {
+     "id": "W1-4",
+     "label": "4",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Zum Beispiel $x = 1$: links $3 \\cdot 6 = 18$, rechts $1 + 10 = 11$. Die Terme sind nicht gleichwertig.\n\nEs fehlen die Teilprodukte $5x$ und $2x$. Richtig: $(x + 2)(x + 5) = x^2 + 7x + 10$.\n\n1 P Zahlenbeispiel, 1 P fehlende Teilprodukte."
+    }
+   ]
+  },
+  {
+   "id": "W2",
+   "titel": "Tandem: Gleichungen mit Probe",
+   "typ": "wahl",
+   "sozialform": "tandem",
+   "dauer_min": 15,
+   "hilfsmittel": "ohne Taschenrechner",
+   "checkliste": [
+    "c4",
+    "c9"
+   ],
+   "bild": "img/st_W2.svg",
+   "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut und macht die Probe; die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert.",
+   "pdf_optional": true,
+   "aufgaben": [
+    {
+     "id": "W2-1",
+     "label": "1",
+     "partner": "A",
+     "punkte": 2,
+     "afb": "I",
+     "aufgabe": "Löse die Gleichung $3x + 4 = 19$ und mache die Probe.",
+     "tipp": "Erst $-4$ auf beiden Seiten, dann durch 3 teilen.",
+     "loesung": "$3x = 15$, also $x = 5$.\nProbe: $3 \\cdot 5 + 4 = 19$ ✓"
+    },
+    {
+     "id": "W2-2",
+     "label": "2",
+     "partner": "B",
+     "punkte": 2,
+     "afb": "I",
+     "aufgabe": "Löse die Gleichung $4x - 3 = 17$ und mache die Probe.",
+     "tipp": "Erst $+3$ auf beiden Seiten, dann durch 4 teilen.",
+     "loesung": "$4x = 20$, also $x = 5$.\nProbe: $4 \\cdot 5 - 3 = 17$ ✓"
+    },
+    {
+     "id": "W2-3",
+     "label": "3",
+     "partner": "A",
+     "punkte": 2,
+     "afb": "I",
+     "aufgabe": "Löse die Gleichung $5x + 2 = 3x - 6$ und mache die Probe.",
+     "tipp": "Bring alle $x$ auf die linke Seite: $-3x$.",
+     "loesung": "$2x + 2 = -6$, $2x = -8$, also $x = -4$.\nProbe: links $5 \\cdot (-4) + 2 = -18$, rechts $3 \\cdot (-4) - 6 = -18$ ✓"
+    },
+    {
+     "id": "W2-4",
+     "label": "4",
+     "partner": "B",
+     "punkte": 2,
+     "afb": "I",
+     "aufgabe": "Löse die Gleichung $2x + 9 = 5x$ und mache die Probe.",
+     "tipp": "Rechne $-2x$ auf beiden Seiten.",
+     "loesung": "$9 = 3x$, also $x = 3$.\nProbe: links $2 \\cdot 3 + 9 = 15$, rechts $5 \\cdot 3 = 15$ ✓"
+    },
+    {
+     "id": "W2-5",
+     "label": "5",
+     "partner": "A",
+     "punkte": 2,
+     "afb": "II",
+     "aufgabe": "Löse die Gleichung $2(x + 4) = x + 3$ und mache die Probe.",
+     "tipp": "Löse zuerst die Klammer auf.",
+     "loesung": "$2x + 8 = x + 3$, $x + 8 = 3$, also $x = -5$.\nProbe: links $2 \\cdot (-1) = -2$, rechts $-5 + 3 = -2$ ✓"
+    },
+    {
+     "id": "W2-6",
+     "label": "6",
+     "partner": "B",
+     "punkte": 2,
+     "afb": "II",
+     "aufgabe": "Löse die Gleichung $3(x - 2) = x + 4$ und mache die Probe.",
+     "tipp": "Löse zuerst die Klammer auf.",
+     "loesung": "$3x - 6 = x + 4$, $2x = 10$, also $x = 5$.\nProbe: links $3 \\cdot 3 = 9$, rechts $5 + 4 = 9$ ✓"
+    },
+    {
+     "id": "W2-7",
+     "label": "7",
+     "partner": "A",
+     "punkte": 2,
+     "afb": "II",
+     "aufgabe": "Löse die Gleichung $-4x + 7 = 2x - 5$ und mache die Probe.",
+     "tipp": "Bring die $x$ auf eine Seite. Beim Teilen durch eine negative Zahl auf das Vorzeichen achten.",
+     "loesung": "$-6x + 7 = -5$, $-6x = -12$, also $x = 2$.\nProbe: links $-8 + 7 = -1$, rechts $4 - 5 = -1$ ✓"
+    },
+    {
+     "id": "W2-8",
+     "label": "8",
+     "partner": "B",
+     "punkte": 2,
+     "afb": "II",
+     "aufgabe": "Löse die Gleichung $6 - 3x = x + 14$ und mache die Probe.",
+     "tipp": "Bring die $x$ auf eine Seite. Beim Teilen durch eine negative Zahl auf das Vorzeichen achten.",
+     "loesung": "$6 - 4x = 14$, $-4x = 8$, also $x = -2$.\nProbe: links $6 + 6 = 12$, rechts $-2 + 14 = 12$ ✓"
+    }
+   ]
+  },
+  {
+   "id": "W3",
+   "titel": "Sachprobleme mit Gleichungen",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "ohne Taschenrechner",
+   "checkliste": [
+    "c5",
+    "c4"
+   ],
+   "bild": "img/st_W3.svg",
+   "pdf": "pdf/W3_Sachprobleme.pdf",
+   "aufgaben": [
+    {
+     "id": "W3-1",
+     "label": "1",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "$b$: Breite in cm, Länge: $b + 5$\n\n$$2b + 2(b + 5) = 46$$\n\n$$4b + 10 = 46 \\quad | -10$$\n\n$$4b = 36 \\quad | :4$$\n\n$$b = 9$$\n\nDer Rahmen ist 9 cm breit und 14 cm lang. Probe: $2 \\cdot 9 + 2 \\cdot 14 = 46$ ✓\n\n1 P Gleichung, 1 P Lösung, 1 P Antwort."
+    },
+    {
+     "id": "W3-2a",
+     "label": "2a",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "A: $1 + 0{,}2t$     B: $0{,}25t$"
+    },
+    {
+     "id": "W3-2b",
+     "label": "2b",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$$1 + 0{,}2t = 0{,}25t \\quad | -0{,}2t$$\n\n$$1 = 0{,}05t \\quad | :0{,}05$$\n\n$$t = 20$$\n\nBei 20 Minuten kosten beide 5 €.\n\n1 P Gleichung, 1 P Lösung."
+    },
+    {
+     "id": "W3-2c",
+     "label": "2c",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "A: $1 + 0{,}2 \\cdot 12 = 3{,}40$ €, B: $0{,}25 \\cdot 12 = 3{,}00$ €. Für Lea ist B günstiger.\n\nAllgemein: Unter 20 Minuten ist B günstiger, darüber A.\n\n1 P Rechnung, 1 P Urteil."
+    },
+    {
+     "id": "W3-3",
+     "label": "3",
+     "punkte": 3,
+     "afb": "III",
+     "loesung": "Zum Beispiel: Ein Handyvertrag kostet 12 € im Monat, jedes zusätzliche Gigabyte 4 €. Die Rechnung beträgt 40 €.\n\n$4x = 28$, also $x = 7$: Es wurden 7 GB dazugebucht.\n\n1 P Situation (fester Betrag 12, je Einheit 4, zusammen 40), 1 P Lösung, 1 P Antwortsatz. Andere passende Situationen sind ebenso richtig."
+    }
+   ]
+  },
+  {
+   "id": "W4",
+   "titel": "Ungleichungen",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "ohne Taschenrechner",
+   "checkliste": [
+    "c10"
+   ],
+   "bild": "img/st_W4.svg",
+   "pdf": "pdf/W4_Ungleichungen.pdf",
+   "aufgaben": [
+    {
+     "id": "W4-1a",
+     "label": "1a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$x < 4$, $L = \\{x \\mid x < 4\\}$\n\nZahlengerade: offener Kreis bei 4, Bereich links davon markiert.\n\n1 P Lösungsmenge, 1 P Zahlengerade.",
+     "loesung_bild": "img/W4-1a.svg"
+    },
+    {
+     "id": "W4-1b",
+     "label": "1b",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$-4x \\ge 12 \\quad | :(-4)$, Zeichen umdrehen: $x \\le -3$, $L = \\{x \\mid x \\le -3\\}$\n\nZahlengerade: voller Punkt bei $-3$, Bereich links davon markiert.\n\n1 P Lösungsmenge, 1 P Zahlengerade.",
+     "loesung_bild": "img/W4-1b.svg"
+    },
+    {
+     "id": "W4-1c",
+     "label": "1c",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$$5x - 2 \\le 3x + 5 \\quad | -3x$$\n\n$$2x - 2 \\le 5 \\quad | +2$$\n\n$$2x \\le 7 \\quad | :2$$\n\n$$x \\le 3{,}5$$\n\n$L = \\{x \\mid x \\le 3{,}5\\}$. Zahlengerade: voller Punkt bei 3,5, Bereich links davon markiert.\n\n1 P Lösungsmenge, 1 P Zahlengerade.",
+     "loesung_bild": "img/W4-1c.svg"
+    },
+    {
+     "id": "W4-2",
+     "label": "2",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Die Rechnung ist falsch. Beim Teilen durch $-3$ muss das Zeichen umgedreht werden: $x > -2$.\n\nProbezahl $x = 0$: $-3 \\cdot 0 = 0 < 6$ ist wahr, also gehört 0 zur Lösungsmenge. Oles Ergebnis $x < -2$ schließt die 0 aber aus.\n\n1 P Urteil mit richtiger Lösung, 1 P Probezahl."
+    },
+    {
+     "id": "W4-3",
+     "label": "3",
+     "punkte": 3,
+     "afb": "II",
+     "loesung": "$n$: Anzahl der Kisten\n\n$$80 + 35n \\le 600 \\quad | -80$$\n\n$$35n \\le 520 \\quad | :35$$\n\n$n \\le 14{,}8\\ldots$, denn $35 \\cdot 14 = 490$ und $35 \\cdot 15 = 525$.\n\nSie darf höchstens 14 Kisten mitnehmen (570 kg; mit 15 Kisten wären es 605 kg).\n\n1 P Ungleichung, 1 P Lösen, 1 P Antwort als ganze Zahl."
+    },
+    {
+     "id": "W4-4",
+     "label": "4",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "Zum Beispiel $-3x < -6 \\quad | :(-3)$, Zeichen umdrehen: $x > 2$.\n\nJede Ungleichung der Form $-kx < -2k$ mit $k > 0$ passt.\n\n1 P passende Ungleichung, 1 P Rechnung."
+    }
+   ]
+  },
+  {
+   "id": "W5",
+   "titel": "Fehler finden und begründen",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 20,
+   "hilfsmittel": "ohne Taschenrechner",
+   "checkliste": [
+    "c7",
+    "c8",
+    "c4"
+   ],
+   "bild": "img/st_W5.svg",
+   "pdf": "pdf/W5_Fehler_finden_begruenden.pdf",
+   "aufgaben": [
+    {
+     "id": "W5-1a",
+     "label": "1a",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Lena hat das Mischglied vergessen. Richtig: $(x - 3)^2 = x^2 - 6x + 9$.\n\nKontrolle mit $x = 0$: $(0 - 3)^2 = 9$, aber $0^2 - 9 = -9$.\n\n1 P Fehler, 1 P richtige Rechnung."
+    },
+    {
+     "id": "W5-1b",
+     "label": "1b",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "Durch $x$ zu teilen ist nicht erlaubt, denn $x$ könnte 0 sein, und durch 0 darf man nicht teilen.\n\nRichtig: $2x = 5x \\quad | -2x$ ergibt $0 = 3x$, also $x = 0$ und $L = \\{0\\}$. Probe: $0 = 0$ ✓\n\n1 P Fehler, 1 P richtige Lösung."
+    },
+    {
+     "id": "W5-2a",
+     "label": "2a",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "$n = 4$: $49 - 1 = 48$     $n = 10$: $169 - 49 = 120$"
+    },
+    {
+     "id": "W5-2b",
+     "label": "2b",
+     "punkte": 3,
+     "afb": "III",
+     "loesung": "Vermutung: Das Ergebnis ist immer $12n$.\n\n$(n + 3)^2 - (n - 3)^2 = n^2 + 6n + 9 - (n^2 - 6n + 9)$\n\n$= n^2 + 6n + 9 - n^2 + 6n - 9 = 12n$\n\n1 P Vermutung, 1 P beide binomischen Formeln, 1 P Minusklammer aufgelöst und zusammengefasst."
+    },
+    {
+     "id": "W5-3",
+     "label": "3",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$51^2 = (50 + 1)^2 = 2500 + 100 + 1 = 2601$\n\n$98 \\cdot 102 = (100 - 2)(100 + 2) = 10000 - 4 = 9996$\n\nJe 1 P."
+    },
+    {
+     "id": "W5-4",
+     "label": "4",
+     "punkte": 2,
+     "afb": "III",
+     "loesung": "$16 = 4^2$, also kommen nur $(x + 4)^2$ und $(x - 4)^2$ in Frage.\n\n$(x + 4)^2 = x^2 + 8x + 16$ und $(x - 4)^2 = x^2 - 8x + 16$, also $k = 8$ oder $k = -8$.\n\n1 P je Wert mit Begründung."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100"
+     role="img" aria-label="Rechteck mit Seiten x + 3 und x + 1, zerlegt in vier Teilflächen">
+  <style>
+    .kurve  { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .flaeche{ fill: #B61E33; fill-opacity: .2; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .achse  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #6b7280; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 17px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .kurve  { stroke: #E8677D; }
+      .flaeche{ fill: #E8677D; fill-opacity: .22; }
+      .marke  { fill: #E8677D; }
+      .grau   { stroke: #9aa1a9; }
+      .achse  { stroke: #6b7280; }
+      .fuell  { fill: #9aa1a9; fill-opacity: .16; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <rect class="flaeche" x="34" y="18" width="60" height="44"/>
+  <rect class="fuell" x="94" y="18" width="32" height="44"/>
+  <rect class="fuell" x="34" y="62" width="60" height="16"/>
+  <path class="grau" d="M34 18 h92 v60 h-92 z M94 18 v60 M34 62 h92"/>
+  <text class="text" x="64" y="44" text-anchor="middle">x²</text>
+  <text class="text" x="110" y="44" text-anchor="middle">3x</text>
+  <text class="text" x="64" y="74" text-anchor="middle">x</text>
+  <text class="text" x="110" y="74" text-anchor="middle">3</text>
+  <text class="text" x="80" y="94" text-anchor="middle">x + 3</text>
+</svg>

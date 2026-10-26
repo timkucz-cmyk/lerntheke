@@ -2,6 +2,19 @@
   "version": 1,
   "stufen": [
     {
+      "id": "8",
+      "name": "Klasse 8",
+      "themen": [
+        {
+          "id": "terme-und-gleichungen",
+          "name": "Terme und Gleichungen – Training",
+          "fach": "mathe",
+          "aktiv": false,
+          "beschreibung": "Terme, Distributivgesetz, binomische Formeln, Gleichungen und Ungleichungen"
+        }
+      ]
+    },
+    {
       "id": "9",
       "name": "Klasse 9",
       "themen": [

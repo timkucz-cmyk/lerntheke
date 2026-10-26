@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100"
+     role="img" aria-label="Quadrat der Seitenlänge a + b, zerlegt in a², ab, ab und b²">
+  <style>
+    .kurve  { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .flaeche{ fill: #B61E33; fill-opacity: .2; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .achse  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #6b7280; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 17px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .kurve  { stroke: #E8677D; }
+      .flaeche{ fill: #E8677D; fill-opacity: .22; }
+      .marke  { fill: #E8677D; }
+      .grau   { stroke: #9aa1a9; }
+      .achse  { stroke: #6b7280; }
+      .fuell  { fill: #9aa1a9; fill-opacity: .16; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <rect class="flaeche" x="46" y="14" width="44" height="44"/>
+  <rect class="fuell" x="90" y="14" width="26" height="44"/>
+  <rect class="fuell" x="46" y="58" width="44" height="26"/>
+  <rect class="flaeche" x="90" y="58" width="26" height="26" style="fill-opacity:.4"/>
+  <path class="grau" d="M46 14 h70 v70 h-70 z M90 14 v70 M46 58 h70"/>
+  <text class="text" x="68" y="40" text-anchor="middle">a²</text>
+  <text class="text" x="103" y="40" text-anchor="middle">ab</text>
+  <text class="text" x="68" y="75" text-anchor="middle">ab</text>
+  <text class="text" x="103" y="75" text-anchor="middle">b²</text>
+</svg>
