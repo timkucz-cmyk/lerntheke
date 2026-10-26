@@ -9,7 +9,7 @@
           "id": "terme-und-gleichungen",
           "name": "Terme und Gleichungen – Training",
           "fach": "mathe",
-          "aktiv": false,
+          "aktiv": true,
           "beschreibung": "Terme, Distributivgesetz, binomische Formeln, Gleichungen und Ungleichungen"
         }
       ]
