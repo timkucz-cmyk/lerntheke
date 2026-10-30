@@ -44,6 +44,10 @@
     {
       "id": "c10",
       "text": "Ein Bewegungsmodell mit Messdaten vergleichen und seine Grenzen beurteilen"
+    },
+    {
+      "id": "c11",
+      "text": "Bewegungen energetisch untersuchen, beschreiben und berechnen"
     }
   ],
   "phasen": [
@@ -72,11 +76,12 @@
     {
       "id": "p3",
       "name": "Fall und Wurf",
-      "untertitel": "freier Fall, waagerechter Wurf",
+      "untertitel": "freier Fall, waagerechter Wurf, Energie",
       "farbe": "gruen",
       "checkliste": [
         "c7",
-        "c8"
+        "c8",
+        "c11"
       ]
     },
     {
@@ -741,6 +746,65 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Gegenverkehr: Der Abstand schrumpft je Sekunde um beide Strecken, also $|v_1| + |v_2|$.\n\nÜberholen (gleiche Richtung): Der Abstand schrumpft nur um die Differenz, $|v_1| - |v_2|$.\n\nAllgemein: $t = \\frac{\\text{Anfangsabstand}}{\\text{Annäherungsgeschwindigkeit}}$."
+        }
+      ]
+    },
+    {
+      "id": "W7",
+      "titel": "Energie: Rutsche und Sprung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c11",
+        "c8",
+        "c10"
+      ],
+      "bild": "img/st_W7.svg",
+      "pdf": "pdf/W7_Energie_Rutsche.pdf",
+      "aufgaben": [
+        {
+          "id": "W7-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Nullniveau am Rutschenende: $m\\,g\\,h = \\frac{1}{2}\\,m\\,v^2 \\Rightarrow v = \\sqrt{2\\,g\\,h}$\n\n$v = \\sqrt{2 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 5{,}0\\,\\mathrm{m}} \\approx 9{,}9\\,\\mathrm{m/s}$"
+        },
+        {
+          "id": "W7-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Falsch (ohne Reibung). In $m\\,g\\,h = \\frac{1}{2}\\,m\\,v^2$ kürzt sich die Masse: $v = \\sqrt{2\\,g\\,h}$ hängt nur von der Höhe ab. Das schwerere Kind hat mehr Lage- und Bewegungsenergie, aber dieselbe Geschwindigkeit."
+        },
+        {
+          "id": "W7-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nullniveau an der Wasseroberfläche, Höhenunterschied vom Start $5{,}0\\,\\mathrm{m} + 1{,}0\\,\\mathrm{m} = 6{,}0\\,\\mathrm{m}$:\n\n$v = \\sqrt{2 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 6{,}0\\,\\mathrm{m}} \\approx 10{,}8\\,\\mathrm{m/s}$\n\nDer Weg dazwischen (Rutsche, dann Flug) spielt für den Betrag keine Rolle."
+        },
+        {
+          "id": "W7-1d",
+          "label": "1d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Die Energieerhaltung liefert nur den Betrag der Geschwindigkeit, keine Zeit, keine Richtung und keinen Ort. Für die Weite braucht man die Kinematik (waagerechter Wurf).\n\n$t_F = \\sqrt{\\frac{2 \\cdot 1{,}0\\,\\mathrm{m}}{9{,}81\\,\\mathrm{m/s^2}}} \\approx 0{,}45\\,\\mathrm{s}$; $s_W = 9{,}9\\,\\mathrm{m/s} \\cdot 0{,}45\\,\\mathrm{s} \\approx 4{,}5\\,\\mathrm{m}$"
+        },
+        {
+          "id": "W7-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Anteil der Bewegungsenergie: $\\frac{\\frac{1}{2}\\,m\\,v^2}{m\\,g\\,h} = \\frac{(8{,}6\\,\\mathrm{m/s})^2}{2 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 5{,}0\\,\\mathrm{m}} \\approx 0{,}75$\n\nAlso wurden etwa $25\\,\\%$ in innere Energie (Wärme) umgewandelt – unabhängig von der Masse."
+        },
+        {
+          "id": "W7-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ohne Reibung bringt der Umbau nichts: Die Endgeschwindigkeit hängt nur vom Höhenunterschied ab.\n\nMit Reibung wird auf dem längeren Weg mehr Energie in innere Energie umgewandelt, das Kind kommt langsamer an – wie viel, lässt sich ohne Messung nicht sagen. Die verlässlichere Maßnahme ist eine geringere Starthöhe."
         }
       ]
     },
