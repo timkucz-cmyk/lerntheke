@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100"
+     role="img" aria-label="Messpunkte auf einer Parabel und Trendlinie">
+  <style>
+    .akzent { fill: none; stroke: #2C5282; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2C5282; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #6b7280; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 22px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #9aa1a9; fill-opacity: .16; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M24 86 h120 M24 86 V12"/>
+  <circle class="marke" cx="36" cy="85.0" r="2.6"/>
+  <circle class="marke" cx="48" cy="81.8" r="2.6"/>
+  <circle class="marke" cx="60" cy="76.5" r="2.6"/>
+  <circle class="marke" cx="72" cy="69.2" r="2.6"/>
+  <circle class="marke" cx="84" cy="59.8" r="2.6"/>
+  <circle class="marke" cx="96" cy="48.2" r="2.6"/>
+  <circle class="marke" cx="108" cy="34.5" r="2.6"/>
+  <circle class="marke" cx="120" cy="18.8" r="2.6"/>
+  <text class="text" x="30" y="24">4°</text>
+</svg>

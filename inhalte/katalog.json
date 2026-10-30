@@ -41,6 +41,19 @@
       ]
     },
     {
+      "id": "e",
+      "name": "E-Phase",
+      "themen": [
+        {
+          "id": "kinematik",
+          "name": "Kinematik – Lerntheke",
+          "fach": "physik",
+          "aktiv": false,
+          "beschreibung": "Diagramme, Begegnung, Messreihe und Linearisierung, freier Fall, waagerechter Wurf, Bezugssysteme"
+        }
+      ]
+    },
+    {
       "id": "q1",
       "name": "Q1",
       "themen": [
