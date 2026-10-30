@@ -48,7 +48,7 @@
           "id": "kinematik",
           "name": "Kinematik – Lerntheke",
           "fach": "physik",
-          "aktiv": false,
+          "aktiv": true,
           "beschreibung": "Diagramme, Begegnung, Messreihe und Linearisierung, freier Fall, waagerechter Wurf, Bezugssysteme"
         }
       ]
