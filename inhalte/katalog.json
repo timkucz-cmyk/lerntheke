@@ -42,7 +42,7 @@
           "id": "elektrizitaet",
           "name": "Elektrizität – Lerntheke",
           "fach": "physik",
-          "aktiv": false,
+          "aktiv": true,
           "beschreibung": "Ladung, Stromstärke und Spannung, Ohm’sches Gesetz, Kennlinien, Reihen- und Parallelschaltung, Elektronenmodell"
         }
       ]
