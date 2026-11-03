@@ -37,6 +37,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Lineares vs. exponentielles Wachstum, Parameter, Logarithmus, Halbwertszeit, Modellieren"
+        },
+        {
+          "id": "elektrizitaet",
+          "name": "Elektrizität – Lerntheke",
+          "fach": "physik",
+          "aktiv": false,
+          "beschreibung": "Ladung, Stromstärke und Spannung, Ohm’sches Gesetz, Kennlinien, Reihen- und Parallelschaltung, Elektronenmodell"
         }
       ]
     },

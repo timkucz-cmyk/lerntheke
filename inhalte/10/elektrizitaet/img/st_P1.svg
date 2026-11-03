@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100"
+     role="img" aria-label="Stromkreis mit Lampe und Fragezeichen">
+  <style>
+    .akzent { fill: none; stroke: #2C5282; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2C5282; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #6b7280; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 22px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #9aa1a9; fill-opacity: .16; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M24 20 V48.0 M14 48.0 h20 M24 56.0 V84"/>
+  <path class="grau" d="M19 56.0 h10" stroke-width="5"/>
+  <path class="grau" d="M24 20 H96 V40 M96 64 V84 H24"/>
+  <circle class="akzent" cx="96" cy="52" r="12"/>
+  <path class="akzent" d="M87.5 43.5 L104.5 60.5 M87.5 60.5 L104.5 43.5"/>
+  <text class="text gross" x="122" y="60">?</text>
+</svg>

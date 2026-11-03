@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" width="160" height="100"
+     role="img" aria-label="Reihenschaltung oben, Parallelschaltung unten">
+  <style>
+    .akzent { fill: none; stroke: #2C5282; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2C5282; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #6b7280; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 22px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #9aa1a9; fill-opacity: .16; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M10 26 H40 M64 26 H96 M120 26 H150"/>
+  <rect class="akzent" x="40" y="20" width="24" height="12"/>
+  <rect class="akzent" x="96" y="20" width="24" height="12"/>
+  <path class="grau" d="M30 62 H130 M30 92 H130 M60 62 V68 M60 86 V92 M100 62 V68 M100 86 V92"/>
+  <rect class="akzent" x="54" y="68" width="12" height="18"/>
+  <rect class="akzent" x="94" y="68" width="12" height="18"/>
+  <circle class="marke" cx="60" cy="62" r="2.6"/>
+  <circle class="marke" cx="60" cy="92" r="2.6"/>
+</svg>
