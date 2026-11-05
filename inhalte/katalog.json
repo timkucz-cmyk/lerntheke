@@ -11,6 +11,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Terme, Distributivgesetz, binomische Formeln, Gleichungen und Ungleichungen"
+        },
+        {
+          "id": "flaecheninhalt",
+          "name": "Flächeninhalt ebener Figuren – Training",
+          "fach": "mathe",
+          "aktiv": false,
+          "beschreibung": "Haus der Vierecke, Kongruenzsätze, Konstruktion, Dreieck, Parallelogramm, Trapez, Drachen und Raute, Vielecke"
         }
       ]
     },
