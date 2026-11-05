@@ -108,7 +108,9 @@ Das ist die eigentliche Arbeit: Checkliste, Stationen, Aufgaben, Lösungen (Aufb
 ```
 
 Gibt es die Stufe noch nicht, einen neuen Block `{ "id": "e", "name": "E-Phase", "themen": [ … ] }` ergänzen.
-Mit `"aktiv": false` bleibt ein Thema in Arbeit und taucht für die Klasse noch nicht auf.
+Eigene Themen gleich mit `"aktiv": true` eintragen: Lerntheken sind ganzjährig für alle sichtbar,
+Vorarbeiten ist erlaubt. Mit `"aktiv": false` bleibt ein Thema in Arbeit und taucht für die Klasse
+noch nicht auf – das ist für Beiträge von Kolleg:innen bis zur Durchsicht gedacht.
 
 **5. Prüfen**
 

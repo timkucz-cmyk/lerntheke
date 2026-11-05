@@ -25,8 +25,11 @@ Ablauf und Aufbau von `thema.json`: `README.md`, Abschnitte 3 bis 5. Kurzfassung
    (mit Lernweg und Tandem).
 2. Ordnernamen klein, ohne Leerzeichen und Umlaute: `9/quadratische-funktionen`.
    Stufen-IDs: `5` … `10`, `e`, `q1`, `q2`.
-3. Eintrag in `inhalte/katalog.json` unter der passenden Stufe, **mit `"aktiv": false`**.
-   Tim schaltet das Thema nach der Durchsicht frei. Fehlt die Stufe, neuen Block ergänzen.
+3. Eintrag in `inhalte/katalog.json` unter der passenden Stufe. Fehlt die Stufe, neuen Block ergänzen.
+   - **Themen von Tim: `"aktiv": true`.** Lerntheken sind ganzjährig für alle Schüler:innen
+     sichtbar, Vorarbeiten ist ausdrücklich erlaubt (Tim, 05.11.2026).
+   - **Beiträge von Kolleg:innen per Pull Request: `"aktiv": false`.** Tim schaltet das Thema
+     nach der Durchsicht frei.
 4. Prüfen: `node tools/validate.mjs` (oder `python tools/validate.py`). Erst bei
    „Alles in Ordnung.“ den Pull Request öffnen. Warnungen im PR-Text erwähnen.
 
