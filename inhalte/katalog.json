@@ -16,7 +16,7 @@
           "id": "flaecheninhalt",
           "name": "Flächeninhalt ebener Figuren – Training",
           "fach": "mathe",
-          "aktiv": false,
+          "aktiv": true,
           "beschreibung": "Haus der Vierecke, Kongruenzsätze, Konstruktion, Dreieck, Parallelogramm, Trapez, Drachen und Raute, Vielecke"
         }
       ]
