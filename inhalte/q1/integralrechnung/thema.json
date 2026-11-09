@@ -33,8 +33,7 @@
   },
   {
    "id": "c8",
-   "text": "Das Integral zur Bestimmung von Mittelwerten nutzen",
-   "spaeter": true
+   "text": "Das Integral zur Bestimmung von Mittelwerten nutzen"
   },
   {
    "id": "c9",
@@ -704,6 +703,77 @@
     }
    ],
    "bild": "img/st_W7.svg"
+  },
+  {
+   "id": "W8",
+   "titel": "Mittelwerte mit Integralen",
+   "typ": "wahl",
+   "sozialform": "einzel",
+   "dauer_min": 25,
+   "hilfsmittel": "TR",
+   "checkliste": [
+    "c8"
+   ],
+   "pdf": "pdf/W8_Mittelwerte.pdf",
+   "aufgaben": [
+    {
+     "id": "W8-1a",
+     "label": "1a",
+     "punkte": 2,
+     "afb": "I",
+     "loesung": "$\\frac{1}{4-1}\\int_1^4 (x^2-2x+3)\\,dx=\\frac13\\left[\\frac{x^3}{3}-x^2+3x\\right]_1^4=\\frac13\\left(\\frac{52}{3}-\\frac73\\right)=\\frac13\\cdot15=5$"
+    },
+    {
+     "id": "W8-1b",
+     "label": "1b",
+     "punkte": 1,
+     "afb": "I",
+     "loesung": "Das Rechteck über $[1;4]$ mit der Höhe $5$ hat denselben Flächeninhalt ($15$ FE) wie die Fläche zwischen dem Graphen von $f$ und der $x$-Achse auf $[1;4]$."
+    },
+    {
+     "id": "W8-2a",
+     "label": "2a",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "Dreieck + Rechteck + Dreieck: $A=4+12+2=18$\n\nMittelwert: $18:6=3$"
+    },
+    {
+     "id": "W8-2b",
+     "label": "2b",
+     "punkte": 1,
+     "afb": "II",
+     "loesung": "Es gilt $g(x)>0$ auf $]0;6[$. Die Fläche unter dem Graphen ist also positiv, damit auch der Mittelwert. Die beiden Randwerte sagen nichts über den Verlauf dazwischen aus."
+    },
+    {
+     "id": "W8-2c",
+     "label": "2c",
+     "punkte": 3,
+     "afb": "III",
+     "loesung": "$\\frac{1}{b-a}\\int_a^b (mx+n)\\,dx=\\frac{1}{b-a}\\left(\\frac m2(b^2-a^2)+n(b-a)\\right)=\\frac m2(a+b)+n$, denn $b^2-a^2=(b-a)(b+a)$.\n\n$\\frac{f(a)+f(b)}{2}=\\frac{ma+n+mb+n}{2}=\\frac m2(a+b)+n$\n\nBeide Terme stimmen überein."
+    },
+    {
+     "id": "W8-3a",
+     "label": "3a",
+     "punkte": 3,
+     "afb": "I",
+     "loesung": "$\\frac{1}{90}\\int_0^{90}c(t)\\,dt=\\frac{1}{90}\\left[500t+14t^2-0{,}05t^3\\right]_0^{90}=\\frac{121950}{90}=1355$\n\nEine konstante Konzentration von $1355$ ppm hätte über die $90$ Minuten dasselbe Integral ergeben: Im Mittel enthielt die Luft $1355$ ppm CO₂."
+    },
+    {
+     "id": "W8-3b",
+     "label": "3b",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "$c(t)=1000\\iff 0{,}15t^2-28t+500=0\\Rightarrow t_1=20$ ($t_2\\approx166{,}67$ liegt außerhalb).\n\n$c$ steigt auf $[0;90]$, denn $c'(t)=28-0{,}3t>0$. Über $1000$ ppm also von $t=20$ bis $t=90$: **70 Minuten**."
+    },
+    {
+     "id": "W8-3c",
+     "label": "3c",
+     "punkte": 2,
+     "afb": "II",
+     "loesung": "**Nicht geeignet.** $c$ hat bei $t\\approx93{,}3$ ein Maximum und fällt danach, z. B. $c(180)=680$. Bei geschlossenen Fenstern und unveränderter Belegung sinkt die Konzentration aber nicht so stark.\n\nAb $t\\approx203$ wäre $c(t)$ sogar negativ. Das Modell gilt nur für $0\\le t\\le90$."
+    }
+   ],
+   "bild": "img/st_W8.svg"
   }
  ]
 }
