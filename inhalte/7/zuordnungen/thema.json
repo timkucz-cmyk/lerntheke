@@ -1,0 +1,719 @@
+{
+  "version": 1,
+  "titel": "Zuordnungen – Training vor der Klassenarbeit",
+  "fach": "mathe",
+  "anrede": "du",
+  "hinweis": "Erst P1 bis P3, dann Wahlstationen – am besten die, die dir empfohlen werden. Unsicher im Koordinatensystem oder bei Kommazahlen? Dann starte mit W1. Ohne Taschenrechner – nur in W4 und W6 darfst du ihn benutzen. Geodreieck bereitlegen; dein Regelheft darfst du benutzen.",
+  "checkliste": [
+    {
+      "id": "c1",
+      "text": "Punkte in ein Koordinatensystem eintragen und ablesen (auch negative Zahlen und Kommazahlen) und Größen umwandeln"
+    },
+    {
+      "id": "c2",
+      "text": "Werte aus einem Graphen ablesen und den Verlauf in einer Sachsituation beschreiben"
+    },
+    {
+      "id": "c3",
+      "text": "Aus einer Wertetabelle einen Graphen zeichnen und entscheiden, ob man die Punkte verbinden darf"
+    },
+    {
+      "id": "c4",
+      "text": "Graphen und Sachsituationen einander zuordnen und zu einer Situation einen Graphen skizzieren"
+    },
+    {
+      "id": "c5",
+      "text": "Mit einer Formel eine Wertetabelle anlegen und den Graphen zeichnen"
+    },
+    {
+      "id": "c6",
+      "text": "Eine Sachsituation mit einer Formel beschreiben und die Zahlen in der Formel erklären"
+    },
+    {
+      "id": "c7",
+      "text": "Prüfen und begründen, ob eine Zuordnung proportional ist (Vervielfachen, Quotient, Ursprungsgerade)"
+    },
+    {
+      "id": "c8",
+      "text": "Den Proportionalitätsfaktor $q$ bestimmen, die Formel $y = q \\cdot x$ angeben und $q$ im Sachzusammenhang erklären"
+    },
+    {
+      "id": "c9",
+      "text": "Fehlende Werte proportionaler Zuordnungen berechnen und Sachaufgaben lösen"
+    },
+    {
+      "id": "c10",
+      "text": "Beurteilen, ob eine proportionale Zuordnung eine echte Situation gut beschreibt"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p1",
+      "name": "Diagramme und Graphen",
+      "untertitel": "Ablesen, zeichnen, zuordnen",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Formeln (Funktionsterme)",
+      "untertitel": "Tabelle, Graph, Sachsituation",
+      "farbe": "orange",
+      "checkliste": [
+        "c5",
+        "c6"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Proportionale Zuordnungen",
+      "untertitel": "Prüfen, Faktor, Formel, Sachaufgaben",
+      "farbe": "gruen",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c9",
+        "c10"
+      ]
+    }
+  ],
+  "abschluss": "Klassenarbeit",
+  "stationen": [
+    {
+      "id": "P1",
+      "titel": "Diagramme lesen und zeichnen",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Öffne das Arbeitsblatt. Graphen zeichnest du in deine Notizen (Karopapier, Geodreieck).",
+      "bild": "img/st_P1.svg",
+      "pdf": "pdf/P1_Diagramme_lesen.pdf",
+      "aufgaben": [
+        {
+          "id": "P1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bei 9 Uhr auf der x-Achse nach oben bis zum Graphen gehen, dann nach links ablesen: Der Akkustand beträgt **85 %**."
+        },
+        {
+          "id": "P1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Bei 40 % auf der y-Achse waagerecht nach rechts gehen. Die Linie trifft den Graphen **dreimal**:\n\n- um **16 Uhr** (der Akku wird leerer)\n- um **17:30 Uhr** (beim Laden; auch richtig: 17,5 h)\n- um **21 Uhr** (nach dem Laden wird er wieder leerer)\n\nAlle drei Zeiten: 2 P, zwei davon: 1 P. Den Zeitpunkt beim Laden übersieht man leicht."
+        },
+        {
+          "id": "P1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Achsen beschriften: x-Achse *Zeit (in Wochen)*, y-Achse *Höhe (in cm)*.\n\nDie Wertepaare als Kreuze eintragen, z. B. $(0 \\mid 8)$, $(3 \\mid 28)$, $(6 \\mid 80)$. Die Pflanze wächst ohne Sprünge, deshalb die Kreuze durch eine Linie verbinden – mit geraden Strecken oder einer glatten Kurve, beides ist richtig.",
+          "loesung_bild": "img/P1-2a.png"
+        },
+        {
+          "id": "P1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bei 4,5 Wochen nach oben bis zum Graphen, dann nach links ablesen: etwa **50 cm** (alles zwischen 48 cm und 54 cm ist richtig; mit geraden Strecken liest man 51 cm ab). Der Wert liegt zwischen 42 cm und 60 cm."
+        },
+        {
+          "id": "P1-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Karten kann man nur ganz kaufen: Zwischen 2 und 3 Karten gibt es keine Werte, z. B. keine 2,5 Karten. Deshalb bleiben es einzelne Punkte.\n\nDie Sonnenblume hat zu **jeder** Zeit eine Höhe, auch nach 4,5 Wochen. Deshalb darf man dort die Punkte verbinden."
+        },
+        {
+          "id": "P1-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "- A → Graph **4**\n- B → Graph **3**\n- C → Graph **1**\n\nGraph 2 bleibt übrig.\n\nMögliche Begründungen (eine genügt):\n\n- A: Der Wasserstand steigt beim Einlassen gleichmäßig. Beim Einsteigen steigt er kurz steil an, beim Aussteigen fällt er wieder. Am Ende läuft das Wasser ab, der Wasserstand fällt auf 0.\n- B: Die Höhe steigt und fällt immer wieder – zwei Runden, zwei Berge.\n- C: An der Ampel ist die Geschwindigkeit 0 – nur Graph 1 liegt in der Mitte ein Stück auf der x-Achse.\n\nPunkte: alle drei Zuordnungen richtig 2 P (zwei richtig: 1 P), Begründung 1 P."
+        },
+        {
+          "id": "P1-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Drei Abschnitte (je 1 P):\n\n1. Hinweg: Gerade von $(0 \\mid 0)$ bis $(10 \\mid 600)$ – gleichmäßig steigend.\n2. Auf der Wiese: waagerecht von $(10 \\mid 600)$ bis $(25 \\mid 600)$ – die Entfernung bleibt gleich.\n3. Rückweg: steil fallend von $(25 \\mid 600)$ bis $(30 \\mid 0)$ – rennen ist schneller, die Linie ist steiler als auf dem Hinweg.\n\n*Den Rückweg nach links zurückgezeichnet?* Der Graph ist kein Bild des Weges. → **W5** Aufgabe 6",
+          "loesung_bild": "img/P1-4.png"
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "titel": "Formel, Tabelle, Graph",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c6"
+      ],
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Tabellen und Graphen in deine Notizen.",
+      "bild": "img/st_P2.svg",
+      "pdf": "pdf/P2_Formel_Tabelle_Graph.pdf",
+      "aufgaben": [
+        {
+          "id": "P2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Für jedes $x$ einsetzen. Punkt vor Strich: erst multiplizieren, z. B. für $x = 4$ ergibt sich $2 \\cdot 4 + 2 = 8 + 2 = 10$ und $14 - 2 \\cdot 4 = 14 - 8 = 6$.\n\n| $x$ | 0 | 2 | 4 |\n|---|---|---|---|\n| (1) $y$ | 2 | 6 | 10 |\n| (2) $y$ | 14 | 10 | 6 |\n\n*Zuerst addiert oder subtrahiert?* → **W5** Aufgabe 3"
+        },
+        {
+          "id": "P2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Wertepaare aus a) eintragen und mit dem Lineal verbinden. Graph (1) steigt, Graph (2) fällt. Beide schneiden sich im Punkt $(3 \\mid 8)$ – dort liefern beide Formeln denselben Wert.",
+          "loesung_bild": "img/P2-1b.png"
+        },
+        {
+          "id": "P2-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Am besten zwei Werte einsetzen und vergleichen:\n\n- Formel (1) $y = x + 4$ ergibt bei $x = 0$ den Wert 4, bei $x = 4$ den Wert 8 → **Tabelle C**\n- Formel (2) $y = x : 2$ ergibt bei $x = 1$ den Wert 0,5, bei $x = 4$ den Wert 2 → **Tabelle D**\n- Formel (3) $y = 8 - x$ ergibt bei $x = 0$ den Wert 8, bei $x = 4$ den Wert 4 → **Tabelle A**\n\nTabelle B bleibt übrig (sie gehört zu $y = 2 \\cdot x$).\n\n*A und C verwechselt?* Beide haben die Werte 4 bis 8 – aber in umgekehrter Reihenfolge. Immer prüfen, welcher y-Wert zu $x = 0$ gehört."
+        },
+        {
+          "id": "P2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$y = 8 \\cdot x + 3$ (auch richtig: $y = 3 + 8 \\cdot x$)"
+        },
+        {
+          "id": "P2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- **8**: Für jede Stunde kommen 8 € dazu. Deshalb wird die Zeit $x$ mit 8 multipliziert.\n- **3**: Die Schuhe kosten einmal 3 €, egal wie lange man klettert. Deshalb wird 3 nur einmal addiert."
+        },
+        {
+          "id": "P2-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Rückwärts rechnen:\n\n- Erst die Schuhe abziehen: $19 - 3 = 16$, es bleiben 16 € für das Klettern.\n- Jede Stunde kostet 8 €: $16 : 8 = 2$.\n\nPaul kann **2 Stunden** klettern. Probe: $8 \\cdot 2 + 3 = 19$ ✓"
+        },
+        {
+          "id": "P2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- Zur Zahl 2,5: $x$ ist die Anzahl der Essen. Ein halbes Essen kann man nicht kaufen – es kommen nur ganze Zahlen in Frage.\n- Zur Zahl 12: 12 Essen kosten $12 \\cdot 3 = 36$ €, auf der Karte sind aber nur 30 €. Nach 10 Essen ist die Karte leer ($30 - 3 \\cdot 10 = 0$). Die Formel würde für 12 sogar $-6$ € ergeben – ein solches Guthaben gibt es nicht.\n\nSinnvoll sind nur die ganzen Zahlen von 0 bis 10."
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "titel": "Proportionale Zuordnungen",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 30,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c9"
+      ],
+      "hinweis": "Einzelarbeit, 30 Minuten, ohne Taschenrechner. Schreibe bei jeder Begründung den Quotienten oder das Gegenbeispiel auf. Proportionale Zuordnungen heißen auch proportionale Funktionen.",
+      "bild": "img/st_P3.svg",
+      "pdf": "pdf/P3_Proportionale_Zuordnungen.pdf",
+      "aufgaben": [
+        {
+          "id": "P3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Quotienten $\\frac{y}{x}$ berechnen: $\\frac{4}{1} = 4$, $\\frac{8}{2} = 4$, $\\frac{16}{4} = 4$, $\\frac{20}{5} = 4$, $\\frac{40}{10} = 4$.\n\nDie Zuordnung **kann proportional sein**, denn sie ist quotientengleich: Der Quotient ist für alle Wertepaare gleich 4. Also $q = 4$ und $y = 4 \\cdot x$."
+        },
+        {
+          "id": "P3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{3}{1} = 3$, aber $\\frac{5}{2} = 2{,}5$. Die Quotienten sind verschieden.\n\nDie Zuordnung **kann nicht proportional sein**. Ein Gegenbeispiel reicht.\n\nAnders gesehen: Zum Doppelten von $x = 1$ gehört nicht das Doppelte von 3, sondern 5.\n\n*Gedacht: „y wird größer, wenn x größer wird – also proportional“?* Das reicht nicht. → **W5** Aufgabe 1"
+        },
+        {
+          "id": "P3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{1{,}5}{1} = 1{,}5$, $\\frac{3}{2} = 1{,}5$, $\\frac{6}{4} = 1{,}5$, aber $\\frac{7}{5} = 1{,}4$.\n\nDie Zuordnung **kann nicht proportional sein**: Bei $x = 5$ müsste $y = 7{,}5$ stehen. Ein einziges Wertepaar, das nicht passt, genügt.\n\n*Nur die ersten Paare geprüft?* Man muss **alle** Wertepaare prüfen. → **W2** (Tandem)"
+        },
+        {
+          "id": "P3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Erst den Wert für 1 min: $40 : 5 = 8$, also 8 l. Dann vervielfachen: 2 min → 16 l, 10 min (doppelt so lange wie 5 min) → 80 l.\n\n| $t$ (in min) | 1 | 2 | 5 | 10 |\n|---|---|---|---|---|\n| $w$ (in l) | 8 | 16 | 40 | 80 |"
+        },
+        {
+          "id": "P3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$q = \\frac{w}{t} = \\frac{40}{5} = 8$, also $w = 8 \\cdot t$.\n\nBedeutung: Pro Minute fließen **8 Liter** Wasser aus dem Duschkopf."
+        },
+        {
+          "id": "P3-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gesucht ist $t$ mit $8 \\cdot t = 100$. Rückwärts: $100 : 8 = 12{,}5$.\n\nMan kann **12,5 Minuten** duschen. Probe: $8 \\cdot 12{,}5 = 100$ ✓"
+        },
+        {
+          "id": "P3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Graph ist eine **Ursprungsgerade**: eine Gerade, die im Punkt $(0 \\mid 0)$ beginnt."
+        },
+        {
+          "id": "P3-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Markierter Punkt $(4 \\mid 60)$: $q = \\frac{60}{4} = 15$. Pro Sekunde werden 15 MB geladen.\n\nFormel: $d = 15 \\cdot t$ (auch richtig: $y = 15 \\cdot x$)"
+        },
+        {
+          "id": "P3-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Mit $d = 15 \\cdot t$ gilt $900 : 15 = 60$. Nach **60 Sekunden** ist das Update fertig (1 P).\n\nDanach kommen keine Daten mehr dazu: Der Graph verläuft ab $(60 \\mid 900)$ waagerecht. Ben hat also nur bis 60 s recht. Außerdem ist die Gerade ein Modell – im echten WLAN schwankt die Geschwindigkeit (1 P)."
+        },
+        {
+          "id": "P3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die beiden Quotienten sind gleich: $\\frac{3}{2} = 1{,}5$ und $\\frac{9}{6} = 1{,}5$. Die Zuordnung **kann** also proportional sein (1 P).\n\nSicher ist das aber nicht: Zwei Wertepaare reichen nicht. Vielleicht kosten 10 Packs im Angebot nur 12 €. Proportional ist die Zuordnung nur, wenn **jedes** Pack gleich viel kostet, also 1,50 € (1 P).\n\nToms Aussage ist also zu schnell. Ein Gegenbeispiel würde dagegen schon reichen, um zu zeigen, dass sie **nicht** proportional ist."
+        }
+      ]
+    },
+    {
+      "id": "W1",
+      "titel": "Startklar: Koordinaten und Größen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c1"
+      ],
+      "hinweis": "Einzelarbeit, 15 Minuten, ohne Taschenrechner. Gut als Start, wenn du im Koordinatensystem oder bei Kommazahlen unsicher bist.",
+      "bild": "img/st_W1.svg",
+      "pdf": "pdf/W1_Startklar.pdf",
+      "aufgaben": [
+        {
+          "id": "W1-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Erst nach rechts oder links (x-Wert), dann nach oben oder unten (y-Wert). Negative x-Werte liegen links, negative y-Werte unten.\n\nEs entsteht ein **Segelboot**: A–B–C–D ist der Rumpf unter der x-Achse, E–F–G das Segel darüber. Auch richtig: „ein Trapez und darauf ein Dreieck“.",
+          "loesung_bild": "img/W1-1.png"
+        },
+        {
+          "id": "W1-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$P(2 \\mid -3)$, $Q(-1{,}5 \\mid 2)$, $R(0 \\mid -2)$, $S(-3{,}5 \\mid -1)$\n\nJe Punkt 0,5 P. R liegt auf der y-Achse, deshalb ist sein x-Wert 0.\n\n*x und y vertauscht?* Immer zuerst den x-Wert (rechts/links). → **W5** Aufgabe 2"
+        },
+        {
+          "id": "W1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- 1,5 h = 60 min + 30 min = **90 min**\n- 45 min = $\\frac{45}{60}$ h = $\\frac{3}{4}$ h = **0,75 h**\n- 0,8 kg = $0{,}8 \\cdot 1000$ g = **800 g**\n- 250 ct = **2,50 €** (100 ct = 1 €)\n\nJe Größe 0,5 P."
+        },
+        {
+          "id": "W1-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- Strecke: $12 \\cdot 2{,}5 = 30$, also **30 km**.\n- Zeit: 18 km sind 12 km + 6 km, also 1 h + 0,5 h = **1,5 h** (90 min). Oder: $18 : 12 = 1{,}5$."
+        }
+      ]
+    },
+    {
+      "id": "W2",
+      "titel": "Tandem: Proportional rechnen",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c8"
+      ],
+      "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert. Nach jeder Nummer wird gewechselt.",
+      "bild": "img/st_W2.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "W2-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Die Zuordnung *Anzahl der Hefte → Preis (in €)* ist proportional. 3 Hefte kosten 6 €. Bestimme $q$ und gib die Formel an.",
+          "tipp": "Wie viel kostet **ein** Heft?",
+          "loesung": "$q = \\frac{6}{3} = 2$, ein Heft kostet 2 €.\n\nFormel: $y = 2 \\cdot x$"
+        },
+        {
+          "id": "W2-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Die Zuordnung *Anzahl der Brezeln → Preis (in €)* ist proportional. 4 Brezeln kosten 2 €. Bestimme $q$ und gib die Formel an.",
+          "tipp": "Wie viel kostet **eine** Brezel? Denke an 200 ct : 4.",
+          "loesung": "$q = \\frac{2}{4} = 0{,}5$, eine Brezel kostet 0,50 € (50 ct).\n\nFormel: $y = 0{,}5 \\cdot x$"
+        },
+        {
+          "id": "W2-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Eine proportionale Zuordnung enthält die Wertepaare $(2 \\mid 5)$ und $(6 \\mid 15)$. Gib die Formel an.",
+          "tipp": "Teile den y-Wert durch den x-Wert.",
+          "loesung": "$q = \\frac{5}{2} = 2{,}5$ (Kontrolle: $\\frac{15}{6} = 2{,}5$)\n\nFormel: $y = 2{,}5 \\cdot x$"
+        },
+        {
+          "id": "W2-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Eine proportionale Zuordnung enthält die Wertepaare $(4 \\mid 6)$ und $(8 \\mid 12)$. Gib die Formel an.",
+          "tipp": "Teile den y-Wert durch den x-Wert.",
+          "loesung": "$q = \\frac{6}{4} = 1{,}5$ (Kontrolle: $\\frac{12}{8} = 1{,}5$)\n\nFormel: $y = 1{,}5 \\cdot x$"
+        },
+        {
+          "id": "W2-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Die Zuordnung *Anzahl der Pizzen → Preis (in €)* ist proportional. 3 Pizzen kosten 21 €. Berechne den Preis für 5 Pizzen.",
+          "tipp": "Erst den Preis für eine Pizza, dann mal 5.",
+          "loesung": "Eine Pizza: $21 : 3 = 7$, also 7 €.\n\n5 Pizzen: $5 \\cdot 7 = 35$, also **35 €**."
+        },
+        {
+          "id": "W2-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Die Zuordnung *Anzahl der Busfahrten → Preis (in €)* ist proportional. 4 Fahrten kosten 12 €. Berechne den Preis für 6 Fahrten.",
+          "tipp": "Erst den Preis für eine Fahrt, dann mal 6.",
+          "loesung": "Eine Fahrt: $12 : 4 = 3$, also 3 €.\n\n6 Fahrten: $6 \\cdot 3 = 18$, also **18 €**."
+        },
+        {
+          "id": "W2-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Kann die Zuordnung proportional sein? $x$: 2, 4, 6 und $y$: 7, 14, 20. Begründe.",
+          "tipp": "Vergleiche $x = 2$ und $x = 6$: Was müsste zum Dreifachen gehören?",
+          "loesung": "**Kann nicht proportional sein.** $\\frac{7}{2} = 3{,}5$ und $\\frac{14}{4} = 3{,}5$, aber zum Dreifachen von 2 müsste das Dreifache von 7 gehören, also 21 – in der Tabelle steht 20."
+        },
+        {
+          "id": "W2-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Kann die Zuordnung proportional sein? $x$: 3, 6, 9 und $y$: 12, 24, 36. Begründe.",
+          "tipp": "Berechne für alle drei Wertepaare $y : x$.",
+          "loesung": "**Kann proportional sein.** $\\frac{12}{3} = \\frac{24}{6} = \\frac{36}{9} = 4$ – die Zuordnung ist quotientengleich mit $q = 4$, also $y = 4 \\cdot x$."
+        }
+      ]
+    },
+    {
+      "id": "W3",
+      "titel": "Darstellungen wechseln",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c3",
+        "c8",
+        "c6"
+      ],
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Zu jeder Zuordnung ergänzt du die fehlenden Darstellungen.",
+      "bild": "img/st_W3.svg",
+      "pdf": "pdf/W3_Darstellungen_wechseln.pdf",
+      "aufgaben": [
+        {
+          "id": "W3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| Becher | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| Preis (in €) | 4 | 8 | 12 | 16 |\n\nFormel: $y = 4 \\cdot x$"
+        },
+        {
+          "id": "W3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| $x$ | 0 | 2 | 4 | 6 |\n|---|---|---|---|---|\n| $y$ | 10 | 8 | 6 | 4 |\n\nDer Graph ist eine fallende Gerade von $(0 \\mid 10)$ nach $(6 \\mid 4)$.",
+          "loesung_bild": "img/W3-1b.png"
+        },
+        {
+          "id": "W3-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Wenn $x$ um 1 größer wird, kommen bei $y$ immer 3 dazu: also $3 \\cdot x$.\n\nBei $x = 0$ ist $y$ schon 2: Dieser Startwert wird addiert (wie die Schuhe in der Kletterhalle, P2).\n\nFormel: $y = 3 \\cdot x + 2$. Probe mit $x = 3$ ergibt $3 \\cdot 3 + 2 = 11$ ✓\n\nDer Graph ist eine Gerade durch $(0 \\mid 2)$ und $(3 \\mid 11)$ – keine Ursprungsgerade.",
+          "loesung_bild": "img/W3-2.png"
+        },
+        {
+          "id": "W3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ablesen: $(2 \\mid 5)$, also $q = \\frac{5}{2} = 2{,}5$.\n\n| $x$ | 0 | 2 | 4 | 6 |\n|---|---|---|---|---|\n| $y$ | 0 | 5 | 10 | 15 |\n\nFormel: $y = 2{,}5 \\cdot x$"
+        },
+        {
+          "id": "W3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Bei $x = 1$ ist $y = q$. Ablesen bei $x = 1$:\n\n- a: $y = 2$, also $q = 2$\n- b: $y = 0{,}5$, also $q = 0{,}5$\n- c: $y = 3$, also $q = 3$\n- d: $y = 1$, also $q = 1$\n\nJe größer $q$, desto steiler die Gerade. Je zwei richtige 1 P."
+        },
+        {
+          "id": "W3-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beispiel: Eine Kugel Eis kostet 1,50 €. *Anzahl der Kugeln → Preis (in €)*. Die 1,5 ist der Preis für **eine** Kugel.\n\nAuch richtig: In jeder Flasche sind 1,5 l Saft (*Anzahl der Flaschen → Saft (in l)*) o. Ä.\n\nPunkte: 1 P passende proportionale Situation (ohne Grundpreis) mit beiden Größen und Einheiten; 1 P Bedeutung der 1,5 (Wert für ein Stück bzw. eine Einheit)."
+        },
+        {
+          "id": "W3-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Hier: $q = \\frac{6}{2} = 3$ und $3 \\cdot 5 = 15$ ✓ (1 P)\n\nAllgemein: Bei einer proportionalen Zuordnung ist jeder y-Wert $q \\cdot x$. Für zwei Wertepaare gilt dann: $q \\cdot x_1 + q \\cdot x_2 = q \\cdot (x_1 + x_2)$ – das ist das Distributivgesetz (Ausklammern). Die Summe der y-Werte gehört also zur Summe der x-Werte (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "W4",
+      "titel": "Sachprobleme und Modellieren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c10",
+        "c9",
+        "c6"
+      ],
+      "hinweis": "Einzelarbeit, 25 Minuten. Hier darfst du den Taschenrechner benutzen. Schreibe den Rechenweg auf.",
+      "bild": "img/st_W4.svg",
+      "pdf": "pdf/W4_Sachprobleme.pdf",
+      "aufgaben": [
+        {
+          "id": "W4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$310 : 500 = 0{,}62$;  $600 : 1000 = 0{,}60$;  $1220 : 2000 = 0{,}61$;  $1790 : 3000 \\approx 0{,}60$"
+        },
+        {
+          "id": "W4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Quotienten liegen alle nahe bei 0,6. Die Zuordnung ist **annähernd quotientengleich**, also annähernd proportional. Ein Schritt ist etwa 0,6 m lang. Die kleinen Abweichungen kommen von unterschiedlich langen Schritten."
+        },
+        {
+          "id": "W4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$0{,}6 \\cdot 6000 = 3600$, also etwa **3600 m** (3,6 km). Auch richtig: das Doppelte von 3000 Schritten, etwa 3580 m."
+        },
+        {
+          "id": "W4-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Eher nicht: Beim Joggen sind die Schritte **länger** als beim Wandern. Pro Schritt schafft Noah mehr als 0,6 m, mit $q = 0{,}6$ wäre die Strecke zu kurz berechnet (1 P).\n\nDie Zuordnung ist nur proportional, solange die Schrittlänge gleich bleibt. Für das Joggen bräuchte Noah eine eigene Messung und einen eigenen Faktor (1 P)."
+        },
+        {
+          "id": "W4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "**Tarif A** ist proportional: Sein Graph ist eine Ursprungsgerade. Doppelte Zeit, doppelter Preis ($y = 12 \\cdot x$).\n\nTarif B nicht: Schon bei 0 Stunden kostet er 8 €, der Graph beginnt bei $(0 \\mid 8)$. Bei 1 h kostet er 16 €, bei 2 h aber 24 € statt 32 €."
+        },
+        {
+          "id": "W4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Am Graphen: Die Geraden schneiden sich bei $(2 \\mid 24)$.\n\nOder mit einer Tabelle: 1 h: A 12 €, B 16 €;  2 h: A 24 €, B 24 €;  3 h: A 36 €, B 32 €.\n\nBei 2 Stunden sind beide gleich teuer (24 €). **Ab mehr als 2 Stunden** ist Tarif B günstiger."
+        },
+        {
+          "id": "W4-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$y = 8 \\cdot x + 8$ (8 € pro Stunde, dazu einmal 8 € Eintritt)"
+        },
+        {
+          "id": "W4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- Ersparnis pro Stunde: $10 - 1 = 9$ Wh\n- pro Tag: $9 \\cdot 20 = 180$ Wh\n- pro Woche: $180 \\cdot 7 = 1260$ Wh\n\nDie Familie spart **1260 Wh** pro Woche."
+        },
+        {
+          "id": "W4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- pro Jahr: $1260 \\cdot 52 = 65\\,520$ Wh\n- 1000 Wh kosten 40 ct: $65\\,520 : 1000 = 65{,}52$, und $65{,}52 \\cdot 40 = 2620{,}8$ ct\n\nDie Familie spart etwa **26 €** im Jahr."
+        },
+        {
+          "id": "W4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Rechnung stimmt: $365 \\cdot 0{,}2 = 73$, also 73 kg (1 P).\n\nDie Annahme stimmt nur ungefähr: Ein junger Hund wächst und frisst nach und nach mehr, ein alter Hund oft weniger, Leckerli kommen dazu. Für eine grobe Planung (wie viele Säcke Futter?) ist die proportionale Rechnung aber gut geeignet (1 P für eine Grenze mit Grund)."
+        }
+      ]
+    },
+    {
+      "id": "W5",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c2",
+        "c5",
+        "c4"
+      ],
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. In jeder Aufgabe steckt ein typischer Fehler.",
+      "bild": "img/st_W5.svg",
+      "pdf": "pdf/W5_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "W5-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: „$y$ wird größer, wenn $x$ größer wird“ reicht nicht. Bei proportionalen Zuordnungen gehört zum **Doppelten** von $x$ das **Doppelte** von $y$.\n\nGegenbeispiel: $x = 1 \\to y = 6$, aber $x = 2 \\to y = 7$ (nicht 12). Die Quotienten $\\frac{6}{1} = 6$ und $\\frac{7}{2} = 3{,}5$ sind verschieden."
+        },
+        {
+          "id": "W5-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Ben hat x- und y-Wert vertauscht. Der Punkt ist $(20 \\mid 5)$: Auf der x-Achse steht die Zeit, auf der y-Achse die Strecke.\n\nRichtig: Nach **20 Minuten** ist Leo **5 km** gefahren."
+        },
+        {
+          "id": "W5-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Sara hat zuerst $4 - 2$ gerechnet. Es gilt aber **Punkt vor Strich**: erst multiplizieren, dann subtrahieren.\n\n$3 \\cdot 4 - 2 = 12 - 2 = 10$"
+        },
+        {
+          "id": "W5-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Graph einer proportionalen Zuordnung ist eine **Ursprungsgerade**. Diese Gerade beginnt aber bei $(0 \\mid 2)$, nicht im Ursprung $(0 \\mid 0)$.\n\nPrüfung mit Wertepaaren: Zu $x = 2$ gehört $y = 3$. Zu $x = 4$ (dem Doppelten) gehört $y = 4$ – nicht das Doppelte 6. Die Zuordnung ist nicht proportional."
+        },
+        {
+          "id": "W5-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Kim liest den Graphen wie ein Bild der Bahn (1 P). Der Graph zeigt aber die **Geschwindigkeit**, nicht die Höhe: Hohe Werte heißen „schnell“, nicht „weit oben“ (1 P).\n\nBeispiel: Am Start oben am Berg ist man langsam – dort ist der Graph niedrig."
+        },
+        {
+          "id": "W5-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nach rechts ist die **Zeit** abgetragen. Die Zeit läuft auch auf dem Rückweg weiter, deshalb geht der Graph immer weiter nach rechts (1 P).\n\nAuf dem Rückweg wird die **Entfernung** kleiner: Der Graph fällt von $(25 \\mid 600)$ bis $(30 \\mid 0)$ nach unten (1 P). Der Graph ist kein Bild des Weges."
+        }
+      ]
+    },
+    {
+      "id": "W6",
+      "titel": "Simulation: Wasserstrahl",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "iPad mit Simulation, Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c7",
+        "c10"
+      ],
+      "hinweis": "Partnerarbeit, 20 Minuten, mit Taschenrechner. Simulation öffnen: [Wasserstrahl](https://timkucz-cmyk.github.io/Simulationen/sims/mathe/wasserstrahl/)",
+      "bild": "img/st_W6.svg",
+      "pdf": "pdf/W6_Simulation_Wasserstrahl.pdf",
+      "aufgaben": [
+        {
+          "id": "W6-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Beispiel (Stufe 3): $t$: 10,2; 19,8; 30,4; 40,1 und $V$: 82; 158; 243; 321\n\nQuotienten: $82 : 10{,}2 \\approx 8{,}0$;  $158 : 19{,}8 \\approx 8{,}0$;  $243 : 30{,}4 \\approx 8{,}0$;  $321 : 40{,}1 \\approx 8{,}0$\n\nEure Zahlen sind anders – die Quotienten sollten aber fast gleich sein."
+        },
+        {
+          "id": "W6-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Nein. Beim Markieren von Hand drückt man nicht genau im richtigen Moment, und das Volumen wird gerundet abgelesen. Das sind **Messfehler**. Das Wasser fließt gleichmäßig, die Zuordnung ist proportional – die Messwerte sind annähernd quotientengleich."
+        },
+        {
+          "id": "W6-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beispiel: nach 5 s 30 ml, nach 10 s 60 ml → $q = 30 : 5 = 6$ (1 P).\n\nFormel $V = 6 \\cdot t$, also Stufe 2 (1 P). A kontrolliert mit der eingestellten Stufe."
+        },
+        {
+          "id": "W6-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Aus dem Hahn fließt in jeder Sekunde **gleich viel Wasser**, egal in welches Gefäß. Deshalb ist *Zeit → Volumen* proportional (1 P).\n\nDer Kolben wird nach oben enger. Die gleiche Wassermenge macht oben eine größere Höhe als unten. Die Füllhöhe steigt deshalb nicht gleichmäßig (im unteren, kegelförmigen Teil immer schneller): *Zeit → Füllhöhe* ist nicht proportional (1 P)."
+        }
+      ]
+    }
+  ]
+}
