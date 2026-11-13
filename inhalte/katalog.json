@@ -105,6 +105,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Umlaufdauer, Frequenz, Bahn- und Winkelgeschwindigkeit, Zentripetalkraft, Kurven im Straßenverkehr, Drehimpulserhaltung"
+        },
+        {
+          "id": "differenzialrechnung",
+          "name": "Differenzialrechnung – Lerntheke",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Extrempunkte, Monotonie, Wende- und Sattelpunkte, Kurvendiskussion, Steckbriefaufgaben, Optimierung"
         }
       ]
     },

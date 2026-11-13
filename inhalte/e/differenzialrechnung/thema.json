@@ -1,0 +1,932 @@
+{
+  "version": 1,
+  "titel": "Differenzialrechnung – Lerntheke vor der Klausur",
+  "fach": "mathe",
+  "anrede": "sie",
+  "hinweis": "Beginnen Sie mit P1 (Diagnose). Die Lösungen von P1 empfehlen Ihnen passende Wahlstationen. P5 (Check-out) bearbeiten Sie am Ende der dritten Stunde – vergleichen Sie dann Ihre Punkte in P1 und P5. Haben Sie in P1 mindestens 7 von 8 Punkten sicher erreicht, gehen Sie nach den Pflichtstationen direkt zu W4 bis W7.",
+  "checkliste": [
+    {
+      "id": "c1",
+      "text": "Ableitungen ganzrationaler Funktionen (auch f″ und f‴) bilden und Tangentengleichungen bestimmen"
+    },
+    {
+      "id": "c2",
+      "text": "Aus den Graphen von f, f′ und f″ Monotonie, Extrem- und Wendestellen ablesen und begründen"
+    },
+    {
+      "id": "c3",
+      "text": "Extrempunkte mit notwendigem und hinreichendem Kriterium bestimmen (f″-Kriterium, Vorzeichenwechsel)"
+    },
+    {
+      "id": "c4",
+      "text": "Das Monotonieverhalten einer Funktion mit der ersten Ableitung untersuchen"
+    },
+    {
+      "id": "c5",
+      "text": "Das Krümmungsverhalten mit f″ untersuchen und Wende- und Sattelpunkte bestimmen"
+    },
+    {
+      "id": "c6",
+      "text": "Eine vollständige Kurvendiskussion durchführen"
+    },
+    {
+      "id": "c7",
+      "text": "Ganzrationale Funktionen aus Eigenschaften bestimmen (Steckbriefaufgaben)"
+    },
+    {
+      "id": "c8",
+      "text": "Extrem- und Wendepunkte im Sachzusammenhang interpretieren, Definitionsmenge und Randwerte beachten"
+    },
+    {
+      "id": "c9",
+      "text": "Optimierungsprobleme mit Zielfunktion und Nebenbedingung lösen"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p1",
+      "name": "Ableitung und Graph",
+      "untertitel": "Auffrischen und ablesen",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Funktionen untersuchen",
+      "untertitel": "Extrema, Monotonie, Krümmung, Kurvendiskussion",
+      "farbe": "orange",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Funktionen bestimmen",
+      "untertitel": "Steckbriefaufgaben",
+      "farbe": "gruen",
+      "checkliste": [
+        "c7"
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Anwenden im Sachzusammenhang",
+      "untertitel": "Interpretieren und optimieren",
+      "farbe": "rot",
+      "checkliste": [
+        "c8",
+        "c9"
+      ]
+    }
+  ],
+  "abschluss": "Klausur 2",
+  "stationen": [
+    {
+      "id": "P1",
+      "titel": "Diagnose: Besondere Punkte",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c5",
+        "c2",
+        "c7",
+        "c9",
+        "c8"
+      ],
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt (insgesamt 8), wenn Antwort und Begründung stimmen; als Begründung genügt ein Satz oder ein Stichwort. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_P1.svg",
+      "pdf": "pdf/P1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "P1-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $f'(2)=0$ heißt nur: Die Steigung ist null, die Tangente ist waagerecht. Das ist das **notwendige Kriterium**, $x=2$ ist also ein Kandidat. Ob dort ein Extrempunkt liegt, entscheidet erst das hinreichende Kriterium. Beispiel: $f(x)=(x-2)^3$ hat $f'(2)=0$, aber bei $x=2$ einen Sattelpunkt.\n\n*A gewählt?* Sie setzen Kandidat und Extremstelle gleich. → **P2** Aufgabe 2, danach **W4**\n\n*C oder D gewählt?* → **W2** (Tandem)"
+        },
+        {
+          "id": "P1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – $f''(0)=0$ heißt: Das $f''$-Kriterium entscheidet nichts. Letzte Chance ist der Vorzeichenwechsel von $f'(x)=4x^3$:\n\n$f'(-0{,}1)=-0{,}004<0$, $f'(0{,}1)=0{,}004>0$\n\nWechsel von − nach +: Tiefpunkt $\\mathrm{TP}(0 \\mid 0)$.\n\n*A oder B gewählt?* „$f''=0$“ heißt nicht „kein Extremum“. → **P2** Aufgabe 2, danach **W4** Aufgabe 1\n\n*D gewählt?* Vorzeichen von $f'$ links und rechts genau einsetzen. → **W2**"
+        },
+        {
+          "id": "P1-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Notwendiges Kriterium erfüllt, $f''(3)<0$: Der Graph ist bei $x=3$ rechtsgekrümmt (Rechtskurve). Also liegt ein Hochpunkt vor.\n\n*A gewählt?* Sie haben die Vorzeichen vertauscht: $f''<0$ – Maximum, $f''>0$ – Minimum. → **W2** (Tandem)\n\n*B oder C gewählt?* Wegen $f''(3)\\neq0$ entscheidet das hinreichende Kriterium eindeutig. → **W2**"
+        },
+        {
+          "id": "P1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – f fällt dort, wo $f'(x)<0$ ist, also wo der Graph von $f'$ unterhalb der x-Achse liegt: für $x<-1$ und für $x>3$, im Bild also auf $]3;\\,5[$.\n\n*A gewählt?* Auf $]1;\\,3[$ fällt der Graph von $f'$, liegt aber über der x-Achse: f steigt dort, nur langsamer. → **W3**\n\n*B oder D gewählt?* Dort ist $f'>0$, f steigt. → **W3**"
+        },
+        {
+          "id": "P1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Eine Wendestelle von f ist eine Extremstelle von $f'$ (dort ist $f''=0$ mit Vorzeichenwechsel). Der Graph von $f'$ hat seinen Hochpunkt bei $x=1$.\n\n*B oder C gewählt?* Die Nullstellen von $f'$ sind die Extremstellen von f, nicht die Wendestellen. → **P2**, danach **W3**\n\n*D gewählt?* Bei $x=0$ hat $f'$ weder Nullstelle noch Extremum. → **W3**"
+        },
+        {
+          "id": "P1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Der Punkt liegt auf dem Graphen: $f(2)=5$. Im Hochpunkt ist die Tangente waagerecht: $f'(2)=0$. ($f''(2)<0$ ist eine Ungleichung und liefert keine Gleichung.)\n\n*A gewählt?* Ein Extrempunkt liefert **zwei** Bedingungen. → **W2** (Tandem), danach **P3**\n\n*C gewählt?* x- und y-Wert vertauscht. → **W2**\n\n*D gewählt?* $f''=0$ gehört zu einer Wendestelle. → **W2**"
+        },
+        {
+          "id": "P1-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Zwei Extremstellen brauchen zwei Nullstellen von $f'$ mit Vorzeichenwechsel. Dafür muss $f'$ mindestens Grad 2 haben, f also mindestens Grad 3 („Extremstellen plus eins“).\n\n*B gewählt?* Bei Grad 2 ist $f'$ linear und hat höchstens eine Nullstelle. → **P3** Aufgabe 2\n\n*C oder D gewählt?* Möglich, aber nicht mindestens nötig. → **P3** Aufgabe 2"
+        },
+        {
+          "id": "P1-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $f'(x)=2x-4=0$ liefert $x=2$, wegen $f''(2)=2>0$ ist das der **kleinste** Wert $f(2)=1$. Der größte Wert liegt am Rand: $f(0)=5$, $f(5)=10$. Also bei $x=5$.\n\n*A gewählt?* $f'=0$ liefert nur Kandidaten im Inneren – hier sogar ein Minimum. Die Randwerte gehören immer zum Vergleich. → **P4**, danach **W7**\n\n*B oder C gewählt?* $f(0)=f(4)=5<f(5)$: alle Randwerte vergleichen. → **P4**"
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "titel": "Funktionen untersuchen",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c6",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "bild": "img/st_P2.svg",
+      "pdf": "pdf/P2_Funktionen_untersuchen.pdf",
+      "aufgaben": [
+        {
+          "id": "P2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Definitionsmenge $D=\\mathbb{R}$, Wertemenge $W=\\mathbb{R}$ (Grad 3).\n\n$f(x)=0$ mit dem WTR (Gleichungsmodus, Grad 3): $x_1=-3$, $x_2=3$ (doppelte Nullstelle). Zur Kontrolle: $f(x)=(x-3)^2(x+3)$.\n\nSchnittpunkt mit der y-Achse: $f(0)=27$, also $P(0 \\mid 27)$."
+        },
+        {
+          "id": "P2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Der Term enthält gerade und ungerade Exponenten. Gegenbeispiel: $f(-1)=32$, $f(1)=16$. Wegen $f(-1)\\neq f(1)$ nicht achsensymmetrisch zur y-Achse, wegen $f(-1)\\neq-f(1)=-16$ nicht punktsymmetrisch zum Ursprung.\n\nEntscheidend ist $x^3$: $\\lim_{x\\to+\\infty}f(x)=+\\infty$, $\\lim_{x\\to-\\infty}f(x)=-\\infty$."
+        },
+        {
+          "id": "P2-1c",
+          "label": "1c",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "$f'(x)=3x^2-6x-9$, $f''(x)=6x-6$\n\nNotwendiges Kriterium: $3x^2-6x-9=0$ | $:3$, $x^2-2x-3=0$, pq-Formel: $x_{E1}=-1$, $x_{E2}=3$\n\nHinreichendes Kriterium: $f''(-1)=-12<0$ – Hochpunkt, $f''(3)=12>0$ – Tiefpunkt\n\n$f(-1)=32$, $f(3)=0$: $\\mathrm{HP}(-1 \\mid 32)$, $\\mathrm{TP}(3 \\mid 0)$"
+        },
+        {
+          "id": "P2-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Nach dem Monotoniesatz (Vorzeichen von $f'$ zwischen den Extremstellen):\n\nstreng monoton steigend auf $]-\\infty;\\,-1[$ und $]3;\\,\\infty[$, streng monoton fallend auf $]-1;\\,3[$.\n\nGeschlossene Grenzen an den Extremstellen sind ebenfalls richtig."
+        },
+        {
+          "id": "P2-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f''(x)=6x-6=0 \\Rightarrow x_W=1$; $f'''(x)=6\\neq0$ – Wendestelle.\n\n$f(1)=16$, also $\\mathrm{WP}(1 \\mid 16)$.\n\nFür $x<1$ ist $f''(x)<0$: rechtsgekrümmt; für $x>1$ ist $f''(x)>0$: linksgekrümmt. (Graph zur Kontrolle siehe Grafik.)",
+          "loesung_bild": "img/P2-1e.png"
+        },
+        {
+          "id": "P2-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Steigung wird durch $f'(x)=3x^2-6x-9$ beschrieben, eine nach oben geöffnete Parabel. Ihr Tiefpunkt liegt dort, wo $f''=0$ ist – an der Wendestelle $x=1$ ($f'''=6>0$: Minimum von $f'$).\n\n$f'(1)=3-6-9=-12$: Bei $x=1$ fällt der Graph am stärksten, mit der Steigung $-12$. Der Wendepunkt ist der Punkt mit extremer Steigung.\n\nWendetangente üben: **W1** Aufgabe 4."
+        },
+        {
+          "id": "P2-2",
+          "label": "2",
+          "punkte": 4,
+          "afb": "II",
+          "loesung": "$g'(x)=12x^3-24x^2$, $g''(x)=36x^2-48x$\n\nNotwendiges Kriterium: $12x^3-24x^2=0$ | ausklammern: $12x^2(x-2)=0$, Nullproduktsatz: $x_{E1}=0$, $x_{E2}=2$\n\n$g''(2)=144-96=48>0$ – Tiefpunkt, $g(2)=48-64=-16$, also $\\mathrm{TP}(2 \\mid -16)$.\n\n$g''(0)=0$ – keine Entscheidung, also Vorzeichenwechsel prüfen:\n\n$g'(-0{,}1)=12\\cdot0{,}01\\cdot(-2{,}1)=-0{,}252<0$, $g'(0{,}1)=12\\cdot0{,}01\\cdot(-1{,}9)=-0{,}228<0$\n\nGleiches Vorzeichen: kein Extremum, sondern Sattelpunkt $S(0 \\mid 0)$. (Gleichwertig: $g''(0)=0$ und $g'''(0)=-48\\neq0$.)"
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "titel": "Steckbriefaufgaben",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c7"
+      ],
+      "bild": "img/st_P3.svg",
+      "pdf": "pdf/P3_Steckbriefaufgaben.pdf",
+      "aufgaben": [
+        {
+          "id": "P3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Ansatz: $f(x)=ax^3+bx^2+cx+d$, $f'(x)=3ax^2+2bx+c$, $f''(x)=6ax+2b$\n\n$f(-1)=6$, $f'(-1)=0$ (Hochpunkt), $f(0)=4$ (y-Achse), $f''(1)=0$ (Wendestelle)\n\nDie eingesetzte Form ($-a+b-c+d=6$ usw.) ist ebenfalls richtig."
+        },
+        {
+          "id": "P3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Einsetzen und sortieren:\n\n$-a+b-c+d=6$\n\n$3a-2b+c=0$\n\n$d=4$\n\n$6a+2b=0$\n\nWTR (oder Gauß-Verfahren): $a=0{,}4$, $b=-1{,}2$, $c=-3{,}6$, $d=4$\n\n$f(x)=0{,}4x^3-1{,}2x^2-3{,}6x+4$"
+        },
+        {
+          "id": "P3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$f''(x)=2{,}4x-2{,}4$, $f''(-1)=-4{,}8<0$: Hochpunkt. (Die Bedingungen aus a) sichern nur die waagerechte Tangente, deshalb ist die Probe nötig.)"
+        },
+        {
+          "id": "P3-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$f'$ ist quadratisch, ihr Graph eine Parabel. Ihr Scheitel liegt dort, wo $f''=0$ ist – an der Wendestelle $x=1$. Die beiden Nullstellen von $f'$ liegen symmetrisch zum Scheitel.\n\nEine Nullstelle ist $x=-1$ (Abstand 2), also ist die andere $x=1+2=3$ (2 P).\n\nNur die Probe mit dem Term aus b) ($f'(3)=0$, $f''(3)=4{,}8>0$) erfüllt den Auftrag nicht vollständig: 1 P.\n\nKontrolle: $f'(x)=1{,}2(x+1)(x-3)$, $f(3)=-6{,}8$, also $\\mathrm{TP}(3 \\mid -6{,}8)$."
+        },
+        {
+          "id": "P3-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Für $f(x)=ax^2+bx+c$ ist $f'(x)=2ax+b$ linear: höchstens **eine** Nullstelle, also höchstens eine Extremstelle.\n\n$f''(x)=2a$ ist konstant und wechselt nie das Vorzeichen: kein Wendepunkt.\n\nNötig ist mindestens Grad 3 (Extremstellen plus eins, Wendestellen plus zwei)."
+        }
+      ]
+    },
+    {
+      "id": "P4",
+      "titel": "Optimieren: Tor im Folientunnel",
+      "typ": "pflicht",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c9",
+        "c8"
+      ],
+      "bild": "img/st_P4.svg",
+      "pdf": "pdf/P4_Optimieren_Folientunnel.pdf",
+      "aufgaben": [
+        {
+          "id": "P4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Breite $2u$ (symmetrisch), Höhe $f(u)=-0{,}5u^2+4{,}5$ (Nebenbedingung: Ecke auf dem Bogen).\n\n$A(u)=2u\\cdot(-0{,}5u^2+4{,}5)=-u^3+9u$"
+        },
+        {
+          "id": "P4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$f(x)=0$ liefert $x=\\pm3$: Der Tunnel ist 6 m breit. Für ein Tor braucht man $u>0$ und $u<3$ (bei $u=3$ wäre die Höhe 0). Also $D=]0;\\,3[$."
+        },
+        {
+          "id": "P4-1c",
+          "label": "1c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$A'(u)=-3u^2+9=0 \\Rightarrow u^2=3$, $u=\\sqrt3\\approx1{,}73$ ($-\\sqrt3\\notin D$)\n\n$A''(u)=-6u$, $A''(\\sqrt3)<0$ – Maximum. An den Rändern geht $A$ gegen 0.\n\nBreite $2\\sqrt3\\approx3{,}46\\,\\mathrm{m}$, Höhe $f(\\sqrt3)=-1{,}5+4{,}5=3{,}00\\,\\mathrm{m}$, Fläche $A(\\sqrt3)=6\\sqrt3\\approx10{,}39\\,\\mathrm{m^2}$.\n\nAntwort: Das größte Tor ist etwa 3,46 m breit und 3,00 m hoch, seine Fläche beträgt etwa 10,39 m²."
+        },
+        {
+          "id": "P4-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$-0{,}5u^2+4{,}5\\ge3{,}5 \\Leftrightarrow u^2\\le2 \\Leftrightarrow u\\le\\sqrt2\\approx1{,}41$\n\nNeue Definitionsmenge: $D=]0;\\,\\sqrt2]$."
+        },
+        {
+          "id": "P4-1e",
+          "label": "1e",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Der Kandidat $u=\\sqrt3\\approx1{,}73$ liegt nicht mehr in $D=]0;\\,\\sqrt2]$.\n\nAuf ganz $D$ ist $u^2<3$, also $A'(u)=-3u^2+9>0$: $A$ ist streng monoton steigend. Das Maximum liegt deshalb am **Rand** $u=\\sqrt2$, obwohl dort $A'(\\sqrt2)=3\\neq0$ ist.\n\nBreite $2\\sqrt2\\approx2{,}83\\,\\mathrm{m}$, Höhe $3{,}50\\,\\mathrm{m}$, Fläche $A(\\sqrt2)=7\\sqrt2\\approx9{,}90\\,\\mathrm{m^2}$."
+        }
+      ]
+    },
+    {
+      "id": "P5",
+      "titel": "Check-out",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c5",
+        "c2",
+        "c7",
+        "c9",
+        "c8"
+      ],
+      "hinweis": "Am Ende der dritten Stunde bearbeiten. Ohne Hilfsmittel, 8 Minuten. Jede Aufgabe gehört zur gleich nummerierten Aufgabe aus P1 – vergleichen Sie in der Auswertung Ihre Punkte in P1 und P5.",
+      "bild": "img/st_P5.svg",
+      "pdf": "pdf/P5_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "P5-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $g'(-1)=0$ ist nur das notwendige Kriterium: Die Tangente ist waagerecht, $x=-1$ ist ein Kandidat. Hoch-, Tief- oder Sattelpunkt – das entscheidet erst das hinreichende Kriterium.\n\n*A gewählt?* → **P2** Aufgabe 2, **W4**\n\n*B oder C gewählt?* → **W2**"
+        },
+        {
+          "id": "P5-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $g'(x)=-4x^3$: $g'(-0{,}1)=0{,}004>0$, $g'(0{,}1)=-0{,}004<0$. Wechsel von + nach −: Hochpunkt $\\mathrm{HP}(0 \\mid 1)$.\n\n*C oder D gewählt?* Bei $g''=0$ entscheidet der Vorzeichenwechsel. → **W4** Aufgabe 1\n\n*B gewählt?* Vorzeichen genau einsetzen. → **W2**"
+        },
+        {
+          "id": "P5-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $g''(-2)>0$: linksgekrümmt (Linkskurve), also Tiefpunkt.\n\n*A gewählt?* Vorzeichen vertauscht. → **W2**\n\n*C oder D gewählt?* Wegen $g''(-2)\\neq0$ entscheidet das hinreichende Kriterium. → **W2**"
+        },
+        {
+          "id": "P5-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – g steigt, wo $g'(x)>0$ ist (Graph von $g'$ oberhalb der x-Achse): für $x<-2$ und $x>2$, im Bild $]2;\\,4[$.\n\n*B gewählt?* Dort steigt $g'$, ist aber negativ: g fällt. → **W3**\n\n*C oder D gewählt?* Dort ist $g'<0$. → **W3**"
+        },
+        {
+          "id": "P5-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Wendestelle von g = Extremstelle von $g'$: Der Graph von $g'$ hat bei $x=0$ seinen Tiefpunkt.\n\n*A oder B gewählt?* Das sind die Extremstellen von g. → **W3**\n\n*C gewählt?* → **W3**"
+        },
+        {
+          "id": "P5-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Punkt auf dem Graphen: $g(-1)=3$; waagerechte Tangente im Tiefpunkt: $g'(-1)=0$.\n\n*A gewählt?* → **W2**, **P3**\n\n*B oder D gewählt?* → **W2**"
+        },
+        {
+          "id": "P5-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Drei Extremstellen brauchen drei Nullstellen von $g'$ mit Vorzeichenwechsel. Dafür muss $g'$ mindestens Grad 3 haben, g also mindestens Grad 4 („Extremstellen plus eins“), z. B. $g(x)=x^4-2x^2$.\n\n*A gewählt?* Bei Grad 3 ist $g'$ quadratisch: höchstens zwei Extremstellen. → **P3** Aufgabe 2\n\n*C oder D gewählt?* Möglich, aber nicht mindestens nötig. → **P3** Aufgabe 2"
+        },
+        {
+          "id": "P5-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – $g'(x)=-2x+6=0$: $x=3$, $g''=-2<0$ – das ist der **größte** Wert $g(3)=4$. Randwerte: $g(0)=-5$, $g(4)=3$. Der kleinste Wert liegt bei $x=0$.\n\n*A gewählt?* → **P4**, **W7**\n\n*B gewählt?* Beide Ränder vergleichen. → **P4**\n\n*D gewählt?* Bei $x=1$ ist $g(1)=0$ eine Nullstelle, nicht der kleinste Wert. → **P4**"
+        }
+      ]
+    },
+    {
+      "id": "W1",
+      "titel": "Auffrischen: Ableiten und Tangenten",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1"
+      ],
+      "bild": "img/st_W1.svg",
+      "pdf": "pdf/W1_Ableiten_Tangenten.pdf",
+      "aufgaben": [
+        {
+          "id": "W1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f'(x)=10x^4-12x^2+1$, $f''(x)=40x^3-24x$, $f'''(x)=120x^2-24$"
+        },
+        {
+          "id": "W1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f'(x)=x^3-2x^2$, $f''(x)=3x^2-4x$, $f'''(x)=6x-4$"
+        },
+        {
+          "id": "W1-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$g'(x)=3x^2-3=9 \\Leftrightarrow x^2=4 \\Leftrightarrow x=-2$ oder $x=2$"
+        },
+        {
+          "id": "W1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Punkt: $h(3)=9-12+1=-2$, also $P(3 \\mid -2)$. Steigung: $h'(x)=2x-4$, $m=h'(3)=2$\n\n$t(x)=2x+b$, $P$ einsetzen: $-2=6+b \\Rightarrow b=-8$\n\n$t(x)=2x-8$"
+        },
+        {
+          "id": "W1-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$k'(x)=3x^2-12x+8$, $k''(x)=6x-12=0 \\Rightarrow x_W=2$, $k'''(x)=6\\neq0$\n\n$k(2)=8-24+16=0$, also $\\mathrm{WP}(2 \\mid 0)$; Steigung $m=k'(2)=12-24+8=-4$\n\n$t(x)=-4x+b$, $0=-8+b \\Rightarrow b=8$, also $t(x)=-4x+8$"
+        },
+        {
+          "id": "W1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$f'$ ist quadratisch und hat höchstens zwei Nullstellen. Nur dort kann eine Extremstelle liegen (notwendiges Kriterium)."
+        },
+        {
+          "id": "W1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Mit $f(x)=ax^3+bx^2+cx+d$, $a\\neq0$: $f''(x)=6ax+2b$ ist linear mit Steigung $6a\\neq0$ und hat genau eine Nullstelle $x_W=-\\frac{b}{3a}$. Dort ist $f'''(x_W)=6a\\neq0$: genau eine Wendestelle."
+        }
+      ]
+    },
+    {
+      "id": "W2",
+      "titel": "Tandem: Eigenschaften übersetzen",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c7",
+        "c3",
+        "c5"
+      ],
+      "hinweis": "Zwei Personen, zwei Tablets, ohne Hilfsmittel. Wer die Nummer hat, antwortet laut; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp.",
+      "bild": "img/st_W2.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "W2-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Geben Sie die zugehörigen Gleichungen an: „Der Graph von f hat den Tiefpunkt $\\mathrm{TP}(1 \\mid -3)$.“",
+          "tipp": "Ein Punkt liefert einen Funktionswert, ein Extrempunkt zusätzlich eine waagerechte Tangente.",
+          "loesung": "$f(1)=-3$ und $f'(1)=0$"
+        },
+        {
+          "id": "W2-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Geben Sie die zugehörigen Gleichungen an: „Der Graph von f schneidet die y-Achse bei 5 und hat dort die Steigung $-2$.“",
+          "tipp": "y-Achse heißt $x=0$.",
+          "loesung": "$f(0)=5$ und $f'(0)=-2$"
+        },
+        {
+          "id": "W2-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Es gilt $f'(4)=0$ und $f''(4)=-3$. Entscheiden Sie, welcher besondere Punkt bei $x=4$ liegt, und begründen Sie.",
+          "tipp": "$f''<0$: Rechts- oder Linkskurve?",
+          "loesung": "Hochpunkt: notwendiges Kriterium erfüllt, $f''(4)<0$ (rechtsgekrümmt)."
+        },
+        {
+          "id": "W2-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Es gilt $f'(-2)=0$ und $f''(-2)=1{,}5$. Entscheiden Sie, welcher besondere Punkt bei $x=-2$ liegt, und begründen Sie.",
+          "tipp": "$f''>0$: Rechts- oder Linkskurve?",
+          "loesung": "Tiefpunkt: notwendiges Kriterium erfüllt, $f''(-2)>0$ (linksgekrümmt)."
+        },
+        {
+          "id": "W2-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Geben Sie die zugehörigen Gleichungen an: „Der Graph von f hat bei $x=2$ eine Wendestelle mit der Steigung 3.“",
+          "tipp": "Wendestelle: zweite Ableitung. Steigung: erste Ableitung.",
+          "loesung": "$f''(2)=0$ und $f'(2)=3$"
+        },
+        {
+          "id": "W2-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Geben Sie die zugehörigen Gleichungen an: „Die Gerade $y=4x-1$ ist an der Stelle $x=1$ Tangente an den Graphen von f.“",
+          "tipp": "Tangente und Graph haben bei $x=1$ denselben Punkt und dieselbe Steigung.",
+          "loesung": "$f(1)=4\\cdot1-1=3$ und $f'(1)=4$"
+        },
+        {
+          "id": "W2-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Es gilt $f'(0)=0$, $f''(0)=0$, $f'(-0{,}1)>0$ und $f'(0{,}1)>0$. Entscheiden Sie, was bei $x=0$ vorliegt.",
+          "tipp": "Vorzeichenwechselkriterium: Wechselt $f'$ das Vorzeichen?",
+          "loesung": "$f'(0)=0$: waagerechte Tangente (1 P). $f'$ wechselt das Vorzeichen nicht, also keine Extremstelle, sondern ein Sattelpunkt (1 P)."
+        },
+        {
+          "id": "W2-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Es gilt $f'(3)=0$, $f''(3)=0$, $f'(2{,}9)<0$ und $f'(3{,}1)>0$. Entscheiden Sie, was bei $x=3$ vorliegt.",
+          "tipp": "Vorzeichenwechselkriterium: von − nach + oder umgekehrt?",
+          "loesung": "$f'(3)=0$: Kandidat (1 P). Vorzeichenwechsel von − nach +: Tiefpunkt, trotz $f''(3)=0$ (1 P)."
+        },
+        {
+          "id": "W2-9",
+          "label": "9",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Der Graph von $f(x)=ax^3+bx^2+cx+d$ ist punktsymmetrisch zum Ursprung. Geben Sie an, was daraus für die Koeffizienten folgt.",
+          "tipp": "Punktsymmetrie zum Ursprung: nur ungerade Exponenten.",
+          "loesung": "$b=0$ und $d=0$, also $f(x)=ax^3+cx$."
+        },
+        {
+          "id": "W2-10",
+          "label": "10",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Der Graph von $f(x)=ax^4+bx^3+cx^2+dx+e$ ist achsensymmetrisch zur y-Achse. Geben Sie an, was daraus für die Koeffizienten folgt.",
+          "tipp": "Achsensymmetrie zur y-Achse: nur gerade Exponenten.",
+          "loesung": "$b=0$ und $d=0$, also $f(x)=ax^4+cx^2+e$."
+        }
+      ]
+    },
+    {
+      "id": "W3",
+      "titel": "Graphen lesen: f, f′, f″",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c2",
+        "c4",
+        "c5"
+      ],
+      "bild": "img/st_W3.svg",
+      "pdf": "pdf/W3_Graphen_lesen.pdf",
+      "aufgaben": [
+        {
+          "id": "W3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f'<0$ für $x<-2$: f ist streng monoton fallend auf $]-3;\\,-2[$ (im Bild).\n\n$f'>0$ für $x>-2$ (außer bei $x=1$, wo $f'$ die x-Achse nur berührt): f ist streng monoton steigend auf $]-2;\\,2{,}5[$. Die Angabe $]-2;\\,1[$ und $]1;\\,2{,}5[$ ist ebenfalls richtig, ebenso $]-\\infty;\\,-2[$ und $]-2;\\,\\infty[$, weil f ganzrational ist.\n\nGeschlossene Grenzen an den Extremstellen sind ebenfalls richtig."
+        },
+        {
+          "id": "W3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bei $x=-2$ wechselt $f'$ von − nach +: Tiefpunkt.\n\nBei $x=1$ ist $f'(1)=0$, aber $f'$ bleibt links und rechts positiv (kein Vorzeichenwechsel): keine Extremstelle, sondern ein Sattelpunkt."
+        },
+        {
+          "id": "W3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Wendestellen von f sind Extremstellen von $f'$: Hochpunkt von $f'$ bei $x=-1$ (1 P), Tiefpunkt von $f'$ bei $x=1$ (1 P). Also $x_{W1}=-1$ und $x_{W2}=1$.\n\nEin Sattelpunkt ist ein Wendepunkt mit waagerechter Tangente – bei $x=1$ wechselt die Krümmung, und die Tangente ist waagerecht."
+        },
+        {
+          "id": "W3-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "III ist f, I ist $f'$, II ist $f''$.\n\nBegründung: Die Extremstellen von III ($x\\approx\\pm1{,}4$) sind genau die Nullstellen von I. Der Tiefpunkt von I bei $x=0$ ist die Nullstelle von II, zugleich die Wendestelle von III. Wo III steigt, liegt I oberhalb der x-Achse."
+        },
+        {
+          "id": "W3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Falsch. Auf $]-2;\\,1]$ und auf $[1;\\,2{,}5[$ ist f jeweils streng monoton steigend ($f'>0$ bis auf den einen Randpunkt). Für $x_1<1<x_2$ gilt deshalb $f(x_1)<f(1)<f(x_2)$, also steigt f auch über $x=1$ hinweg: f ist auf $]-2;\\,2{,}5[$ streng monoton steigend.\n\nDer Monotoniesatz gilt nur in eine Richtung: $f'>0$ reicht, ist aber nicht nötig (Beispiel $x^3$ bei 0)."
+        },
+        {
+          "id": "W3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Falsch. Bei $x=-1$ ist $f'(-1)=2>0$, f steigt dort, und zwar am stärksten. Der Hochpunkt von $f'$ ist eine **Wendestelle** von f, kein Hochpunkt."
+        }
+      ]
+    },
+    {
+      "id": "W4",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c3",
+        "c5",
+        "c9",
+        "c7",
+        "c4"
+      ],
+      "bild": "img/st_W4.svg",
+      "pdf": "pdf/W4_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "W4-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Fehler: Aus $f''(1)=0$ folgt nicht „kein Extremum“, das Kriterium entscheidet nur nichts. Es fehlt der Vorzeichenwechsel.\n\n$f'(x)=4(x-1)^3$: $f'(0{,}9)=-0{,}004<0$, $f'(1{,}1)=0{,}004>0$ – Wechsel von − nach +.\n\n$f(1)=2$, also $\\mathrm{TP}(1 \\mid 2)$."
+        },
+        {
+          "id": "W4-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: $f'=0$ liefert Extremstellen-Kandidaten, keine Wendestellen. (Die beiden Punkte sind $\\mathrm{HP}(0 \\mid 2)$ und $\\mathrm{TP}(2 \\mid -2)$.)\n\nRichtig: $f''(x)=6x-6=0 \\Rightarrow x_W=1$, $f'''(1)=6\\neq0$, $f(1)=0$, also $\\mathrm{WP}(1 \\mid 0)$."
+        },
+        {
+          "id": "W4-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Fehler: Die Definitionsmenge fehlt. Wegen der Windlast gilt $D=[0;\\,15]$, der Kandidat $\\alpha=35$ liegt nicht in $D$.\n\nAuf $D$ ist $E'(\\alpha)=-0{,}04\\alpha+1{,}4>0$, $E$ steigt: Maximum am Rand $\\alpha=15$.\n\n$E(15)=-4{,}5+21+75{,}5=92$: Bei $15^\\circ$ Neigung erreicht die Anlage $92\\,\\%$ des bestmöglichen Ertrags."
+        },
+        {
+          "id": "W4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch. Für $x_1<x_2$ ist $x_1^3<x_2^3$, also $f(x_1)<f(x_2)$: f ist auf ganz $\\mathbb{R}$ streng monoton steigend.\n\nDer Monotoniesatz sagt nur: Wenn $f'(x)>0$ auf einem Intervall gilt, dann steigt f dort streng. Die Umkehrung gilt nicht – eine einzelne Stelle mit $f'=0$ (hier ein Sattelpunkt) stört die strenge Monotonie nicht."
+        },
+        {
+          "id": "W4-5",
+          "label": "5",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Folgerung ist falsch. Mit $f'(x)=4ax^3+2bx$ ist $f'(0)=0$ für jeden Ansatz dieser Form automatisch erfüllt – die Bedingung liefert nur $0=0$. Es bleiben drei Gleichungen:\n\n$c=2$, $a+b+c=1$, $4a+2b=0 \\Rightarrow b=-2a$; eingesetzt: $a-2a=-1$, also $a=1$, $b=-2$\n\n$f(x)=x^4-2x^2+2$. Probe: $f''(x)=12x^2-4$, $f''(0)=-4<0$ (HP), $f''(1)=8>0$ (TP)."
+        }
+      ]
+    },
+    {
+      "id": "W5",
+      "titel": "Hilfsmittelfreier Teil (HMF)",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7"
+      ],
+      "bild": "img/st_W5.svg",
+      "pdf": "pdf/W5_HMF.pdf",
+      "aufgaben": [
+        {
+          "id": "W5-1a",
+          "label": "1a",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "$f'(x)=3x^2-12x+9=3(x^2-4x+3)=3(x-1)(x-3)$, $f''(x)=6x-12$\n\n$x_{E1}=1$: $f''(1)=-6<0$, $f(1)=5$, also $\\mathrm{HP}(1 \\mid 5)$\n\n$x_{E2}=3$: $f''(3)=6>0$, $f(3)=1$, also $\\mathrm{TP}(3 \\mid 1)$"
+        },
+        {
+          "id": "W5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Streng monoton steigend auf $]-\\infty;\\,1[$ und $]3;\\,\\infty[$, streng monoton fallend auf $]1;\\,3[$. Geschlossene Grenzen an den Extremstellen sind ebenfalls richtig."
+        },
+        {
+          "id": "W5-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$g'(x)=3x^2+3\\ge3>0$ für alle $x$: $g'$ hat keine Nullstelle, das notwendige Kriterium ist nie erfüllt – kein Extrempunkt.\n\nNach dem Monotoniesatz ist g wegen $g'(x)>0$ auf ganz $\\mathbb{R}$ streng monoton steigend."
+        },
+        {
+          "id": "W5-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Verschieben ändert die Stellen der Extrempunkte nicht: $\\mathrm{HP}(1 \\mid 5+c)$, $\\mathrm{TP}(3 \\mid 1+c)$. Der Graph kommt von $-\\infty$ und geht nach $+\\infty$.\n\nFallunterscheidung: Liegen HP und TP beide oberhalb ($c>-1$) oder beide unterhalb ($c<-5$) der x-Achse, gibt es genau eine Nullstelle. Liegt der HP oberhalb und der TP unterhalb ($-5<c<-1$), gibt es drei.\n\nGenau zwei Nullstellen gibt es, wenn ein Extrempunkt auf der x-Achse liegt (Berührpunkt): $1+c=0 \\Rightarrow c=-1$ oder $5+c=0 \\Rightarrow c=-5$."
+        },
+        {
+          "id": "W5-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$f(0)=0$, $f(2)=1$, $f''(2)=0$, $f'(2)=-3$ (parallel heißt gleiche Steigung)"
+        },
+        {
+          "id": "W5-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist wahr. Bei Grad 4 gehen beide Enden des Graphen in dieselbe Richtung: für $a>0$ gilt $\\lim_{x\\to\\pm\\infty}f(x)=+\\infty$. Der Graph hat deshalb eine tiefste Stelle – einen globalen Tiefpunkt, an dem $f'$ von − nach + wechselt (für $a<0$ entsprechend ein Hochpunkt).\n\nAuch richtig: $f'$ hat Grad 3, also haben die Grenzwerte von $f'$ für $x\\to-\\infty$ und $x\\to+\\infty$ verschiedene Vorzeichen. $f'$ wechselt deshalb mindestens einmal das Vorzeichen – dort liegt eine Extremstelle.\n\nNicht ausreichend wäre: „$f'$ hat Grad 3, also eine Nullstelle“ – eine Nullstelle von $f'$ ist nur ein Kandidat."
+        }
+      ]
+    },
+    {
+      "id": "W6",
+      "titel": "Komplexaufgabe: Parkhaus an der Messe",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 35,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c8",
+        "c6",
+        "c5",
+        "c7"
+      ],
+      "bild": "img/st_W6.svg",
+      "pdf": "pdf/W6_Komplexaufgabe_Parkhaus.pdf",
+      "aufgaben": [
+        {
+          "id": "W6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$B(2)=-16+96+40=120$: Um 8 Uhr sind 120 Plätze belegt."
+        },
+        {
+          "id": "W6-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "$B'(t)=-6t^2+48t=-6t(t-8)=0 \\Rightarrow t=0$ oder $t=8$\n\n$B''(t)=-12t+48$, $B''(8)=-48<0$ – Maximum; $B(8)=552$ (bei $t=0$ liegt ein Tiefpunkt am Rand).\n\nVergleich mit dem Rand: $B(0)=B(12)=40<552$.\n\nUm 14 Uhr sind mit 552 Autos die meisten Plätze belegt."
+        },
+        {
+          "id": "W6-1c",
+          "label": "1c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Die Zunahme beschreibt $B'$. Gesucht ist das Maximum von $B'$:\n\n$B''(t)=-12t+48=0 \\Rightarrow t=4$; $B'''(t)=-12<0$ – dort ist $B'$ maximal (Wendestelle von B, $\\mathrm{WP}(4 \\mid 296)$).\n\nRandvergleich: $B'(0)=0$, $B'(12)=-288$, beide kleiner als $B'(4)=-96+192=96$.\n\nUm 10 Uhr nimmt die Belegung am stärksten zu, um etwa 96 Autos pro Stunde (es kommen 96 Autos pro Stunde mehr an, als wegfahren)."
+        },
+        {
+          "id": "W6-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$B'(t)<0$ für $8<t\\le12$: Von 14 Uhr bis 18 Uhr nimmt die Belegung ab (B ist dort streng monoton fallend), vorher nimmt sie zu."
+        },
+        {
+          "id": "W6-1e",
+          "label": "1e",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$-2t^3+24t^2+40=500 \\Leftrightarrow -2t^3+24t^2-460=0$\n\nWTR: $t_1\\approx6{,}42$, $t_2\\approx9{,}39$ (die dritte Lösung $t\\approx-3{,}81$ liegt außerhalb von $D$).\n\nDauer: $9{,}39-6{,}42\\approx2{,}97\\,\\mathrm{h}$, also knapp 3 Stunden (etwa von 12:25 Uhr bis 15:24 Uhr)."
+        },
+        {
+          "id": "W6-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$B'(10)=-600+480=-120$: Um 16 Uhr nimmt die Belegung um etwa 120 Autos pro Stunde ab (es fahren 120 Autos pro Stunde mehr weg, als ankommen)."
+        },
+        {
+          "id": "W6-1g",
+          "label": "1g",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Nein. Nach dem Maximum fällt B immer schneller: $B(13)=-298<0$ – eine negative Anzahl Autos ist unmöglich. Real bleiben nach Messeschluss noch einige Autos stehen, die Belegung nähert sich langsam einem kleinen Wert.\n\nDas Modell gilt nur für $0\\le t\\le12$."
+        },
+        {
+          "id": "W6-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Ansatz $S(t)=at^3+bt^2+ct+d$, $S'(t)=3at^2+2bt+c$\n\n$S(0)=20$, $S'(0)=0$, $S(6)=344$, $S'(6)=0$"
+        },
+        {
+          "id": "W6-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$d=20$, $c=0$; $216a+36b+20=344$ und $108a+12b=0 \\Rightarrow b=-9a$\n\n$216a-324a=324 \\Rightarrow a=-3$, $b=27$\n\n$S(t)=-3t^3+27t^2+20$ (Probe: $S''(6)=-54<0$, Maximum; $S(8)=212>0$)"
+        },
+        {
+          "id": "W6-2c",
+          "label": "2c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Größte Zunahme am letzten Tag: $S''(t)=-18t+54=0 \\Rightarrow t=3$, $S'''=-18<0$, $S'(3)=-81+162=81$ Autos pro Stunde um 9 Uhr (Randwerte $S'(0)=0$, $S'(8)=-144$ sind kleiner). Am normalen Messetag: 96 Autos pro Stunde um 10 Uhr. Gemessen an der größten Zunahme stimmt die Aussage also nicht.\n\nZwischen 6 und 8 Uhr gilt aber $S'(t)-B'(t)=(-9t^2+54t)-(-6t^2+48t)=3t(2-t)>0$ für $0<t<2$, z. B. $S'(1)=45>B'(1)=42$: Am Morgen nimmt die Belegung am letzten Tag schneller zu; ab 8 Uhr ($t>2$) ist es umgekehrt. Der Höchststand liegt zwar früher (12 statt 14 Uhr), aber deutlich niedriger (344 statt 552 Autos).\n\nUrteil: Die Aussage stimmt nur für die ersten zwei Stunden ($S'>B'$ für $0<t<2$), nicht für die größte Zunahme. Jede so begründete Einschränkung ist richtig."
+        }
+      ]
+    },
+    {
+      "id": "W7",
+      "titel": "Sachaufgaben: Hochbehälter und Deich-Radweg",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c8",
+        "c7"
+      ],
+      "bild": "img/st_W7.svg",
+      "pdf": "pdf/W7_Sachaufgaben.pdf",
+      "aufgaben": [
+        {
+          "id": "W7-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$V'(t)=0{,}75t^2-10{,}5t-54=0$, WTR: $t=18$ ($t=-4\\notin D$)\n\n$V''(t)=1{,}5t-10{,}5$, $V''(18)=16{,}5>0$ – Minimum; $V(18)=585$\n\nUm 18 Uhr ist der Vorrat mit $585\\,\\mathrm{m^3}$ am kleinsten (Randwerte sind größer)."
+        },
+        {
+          "id": "W7-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Inneren von $D$ gibt es nur den Tiefpunkt. Auf $[0;\\,18[$ ist $V'<0$, danach $V'>0$: Das Maximum liegt am Rand.\n\n$V(0)=1800$, $V(24)=936$: Der größte Vorrat ist $1800\\,\\mathrm{m^3}$ um Mitternacht ($t=0$), obwohl $V'(0)=-54\\neq0$ ist."
+        },
+        {
+          "id": "W7-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gesucht ist das Minimum von $V'$: $V''(t)=1{,}5t-10{,}5=0 \\Rightarrow t=7$, $V'''=1{,}5>0$ – dort ist $V'$ minimal (Wendestelle von V).\n\n$V'(7)=36{,}75-73{,}5-54=-90{,}75$. Randvergleich: $V'(0)=-54$, $V'(24)=126$, beide größer.\n\nUm 7 Uhr nimmt der Vorrat am schnellsten ab, um etwa $91\\,\\mathrm{m^3}$ pro Stunde. $V'$ ist die Nettoänderung (Zufluss minus Verbrauch): Morgens übersteigt der Verbrauch den Zufluss am stärksten."
+        },
+        {
+          "id": "W7-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Nein. Um 24 Uhr ist der Behälter nur mit $936\\,\\mathrm{m^3}$ gefüllt, nicht wieder mit $1800\\,\\mathrm{m^3}$ – das Modell beschreibt keinen sich wiederholenden Tagesverlauf.\n\nRechnet man weiter, steigt V immer schneller: $V(30)=2205>2000$ – mehr Wasser, als der Behälter fasst. Das Modell gilt nur für diesen einen Tag."
+        },
+        {
+          "id": "W7-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f(0)=0$, $f'(0)=0$, $f(100)=5$, $f'(100)=0$"
+        },
+        {
+          "id": "W7-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ansatz $f(x)=ax^3+bx^2+cx+d$: $d=0$, $c=0$, $1\\,000\\,000a+10\\,000b=5$, $30\\,000a+200b=0$\n\nWTR: $a=-0{,}00001$, $b=0{,}0015$\n\n$f(x)=-0{,}00001x^3+0{,}0015x^2$"
+        },
+        {
+          "id": "W7-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$f'(x)=-0{,}00003x^2+0{,}003x$, $f''(x)=-0{,}00006x+0{,}003=0 \\Rightarrow x=50$; $f'''=-0{,}00006<0$ – dort ist $f'$ maximal.\n\n$f'(50)=-0{,}075+0{,}15=0{,}075$; Randvergleich $f'(0)=f'(100)=0$.\n\nBei $x=50\\,\\mathrm{m}$ ist die Auffahrt am steilsten, mit $7{,}5\\,\\%$ Steigung."
+        },
+        {
+          "id": "W7-2d",
+          "label": "2d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "$7{,}5\\,\\%>6\\,\\%$: Die geplante Auffahrt ist zu steil.\n\nStreckt man das Profil in x-Richtung um den Faktor $k$ (gleiche Höhe, Länge $k\\cdot100\\,\\mathrm{m}$), wird jede Steigung durch $k$ geteilt; die größte also $\\frac{7{,}5\\,\\%}{k}$.\n\n$\\frac{7{,}5\\,\\%}{k}\\le6\\,\\% \\Leftrightarrow k\\ge1{,}25$: Die Auffahrt muss mindestens $125\\,\\mathrm{m}$ lang sein.\n\nKontrolle mit $L=125$: $f(x)=5\\left(3\\frac{x^2}{125^2}-2\\frac{x^3}{125^3}\\right)$, $f'(62{,}5)=0{,}06$."
+        }
+      ]
+    }
+  ]
+}
