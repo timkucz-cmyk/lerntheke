@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Kiste mit Kraftpfeilen und Häkchen">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <rect class="fuell" x="64" y="24" width="32" height="24"/>
+  <rect class="grau" x="64" y="24" width="32" height="24"/>
+  <path class="akzent" d="M80 36 L80 8"/>
+  <path class="marke" d="M80 8 L83 14 L77 14 Z"/>
+  <path class="grau" d="M80 36 L80 64"/>
+  <path class="marke" d="M80 64 L77 58 L83 58 Z"/>
+  <path class="akzent" d="M108 38 l8 8 l16 -18"/>
+</svg>

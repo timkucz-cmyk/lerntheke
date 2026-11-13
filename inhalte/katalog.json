@@ -64,6 +64,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Diagramme, Begegnung, Messreihe und Linearisierung, freier Fall, waagerechter Wurf, Bezugssysteme"
+        },
+        {
+          "id": "dynamik",
+          "name": "Dynamik – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Newton’sche Axiome, Kräftezerlegung, Reibung, Impuls, Stöße, Rakete, Fallschirmsprung"
         }
       ]
     },
