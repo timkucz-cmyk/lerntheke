@@ -1,0 +1,935 @@
+{
+  "version": 1,
+  "titel": "Dynamik – Lerntheke vor der Klausur",
+  "fach": "physik",
+  "anrede": "sie",
+  "hinweis": "Beginnen Sie mit P1 (Diagnose). Die Lösungen von P1 empfehlen Ihnen passende Wahlstationen. P5 (Check-out) bearbeiten Sie am Ende der dritten Stunde – vergleichen Sie dann Ihre Punkte in P1 und P5. W4 (Fallschirmsprung, Iteration) und W7 (elastische Stöße) üben Klausurstoff, der in keiner Pflichtstation vorkommt – wählen Sie mindestens eine davon.",
+  "checkliste": [
+    {
+      "id": "c1",
+      "text": "Das Trägheitsprinzip erläutern und Kräftegleichgewicht bei konstanter Geschwindigkeit erkennen"
+    },
+    {
+      "id": "c2",
+      "text": "Das Aktionsprinzip F = m · a mit der resultierenden Kraft anwenden, auch für gekoppelte Körper"
+    },
+    {
+      "id": "c3",
+      "text": "Das Wechselwirkungsprinzip erläutern und vom Kräftegleichgewicht unterscheiden"
+    },
+    {
+      "id": "c4",
+      "text": "Kräfte vektoriell addieren und zerlegen, auch auf der schiefen Ebene"
+    },
+    {
+      "id": "c5",
+      "text": "Reibungskräfte mit der Reibungszahl berechnen, Haft- und Gleitreibung unterscheiden"
+    },
+    {
+      "id": "c6",
+      "text": "Aus Messdaten einen dynamischen Zusammenhang bestimmen und das Ergebnis beurteilen"
+    },
+    {
+      "id": "c7",
+      "text": "Den Impuls berechnen und Kraft als Ursache von Impulsänderungen deuten"
+    },
+    {
+      "id": "c8",
+      "text": "Mit der Impulserhaltung rechnen, auch bei Gegenrichtung (Vorzeichen)"
+    },
+    {
+      "id": "c9",
+      "text": "Den Antrieb von Raketen mit dem Rückstoß erläutern"
+    },
+    {
+      "id": "c10",
+      "text": "Unelastische (plastische) Stöße mit der Impulserhaltung beschreiben und den Energieverlust bestimmen"
+    },
+    {
+      "id": "c11",
+      "text": "Elastische Stöße mit Impuls- und Energieerhaltung beschreiben "
+    },
+    {
+      "id": "c12",
+      "text": "Reale und idealisierte Bewegungen unterscheiden und Modellannahmen beurteilen"
+    },
+    {
+      "id": "c13",
+      "text": "Reale Bewegungen mit einem iterativen Verfahren voraussagen: Fallschirmsprung"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p1",
+      "name": "Newton’sche Axiome",
+      "untertitel": "Trägheit, Aktion, Wechselwirkung",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Kräfte zerlegen und Reibung",
+      "untertitel": "schiefe Ebene, Messreihe",
+      "farbe": "orange",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Impuls und Stöße",
+      "untertitel": "Impulserhaltung, Rakete, Stoßarten",
+      "farbe": "gruen",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Reale Bewegungen",
+      "untertitel": "Modelle und Iteration",
+      "farbe": "rot",
+      "checkliste": [
+        "c12",
+        "c13"
+      ]
+    }
+  ],
+  "abschluss": "Klausur Dynamik",
+  "stationen": [
+    {
+      "id": "P1",
+      "titel": "Diagnose: Kräfte und Impulse",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c9",
+        "c4",
+        "c5",
+        "c7",
+        "c10"
+      ],
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen; als Begründung genügen Stichworte. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_P1.svg",
+      "pdf": "pdf/P1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "P1-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Die Kiste bewegt sich gleichförmig geradeaus. Nach dem Trägheitsprinzip ist dann die resultierende Kraft null. Senkrecht heben sich Gewichtskraft und Kraft des Bandes auf, waagerecht wirkt gar keine Kraft. Eine Reibungskraft des Bandes braucht die Kiste nur beim Anfahren und Abbremsen.\n\n*A oder D gewählt?* Dahinter steckt die Vorstellung „Bewegung braucht eine Kraft in Bewegungsrichtung“. *B gewählt?* Die Gewichtskraft wirkt senkrecht, nicht in Fahrtrichtung. → **W5** Aufgabe 1, dazu **P2** Aufgabe 1c"
+        },
+        {
+          "id": "P1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Im Aktionsprinzip steht die **resultierende** Kraft:\n\n$F_{ges} = 150\\,\\mathrm{N} - 30\\,\\mathrm{N} = 120\\,\\mathrm{N}$\n\n$a = \\frac{F_{ges}}{m} = \\frac{120\\,\\mathrm{N}}{120\\,\\mathrm{kg}} = 1{,}0\\,\\mathrm{m/s^2}$\n\n*A gewählt?* Sie haben nur die Antriebskraft genommen. *C gewählt?* Sie haben die Gegenkraft addiert, obwohl sie entgegen wirkt. *D gewählt?* Sie haben nur den Widerstand genommen. → **W1** (Tandem), danach **P2** Aufgabe 2"
+        },
+        {
+          "id": "P1-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $F_1$ und $F_2$ sind Wechselwirkungskräfte: gleich groß, entgegengesetzt gerichtet, sie greifen an **verschiedenen** Körpern an (Lok bzw. Wagen). Das gilt immer, auch beim Beschleunigen. Schneller wird der Zug, weil die Räder der Lok sich mit großer Kraft an den Schienen abstoßen.\n\n*A gewählt?* Sie schließen von der Bewegung auf die Wechselwirkungskräfte – ob ein Körper schneller wird, entscheidet aber die resultierende Kraft **an diesem** Körper. *B gewählt?* Die Masse ändert die Wechselwirkungskräfte nicht. *C gewählt?* Die Bremswirkung des Wagens ist gerade $F_2$. → **W3** Aufgabe 1, danach **W5** Aufgabe 2"
+        },
+        {
+          "id": "P1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Die Rakete übt eine Kraft auf das Gas aus und beschleunigt es nach hinten. Nach dem Wechselwirkungsprinzip übt das Gas eine gleich große Kraft nach vorn auf die Rakete aus (Rückstoß). Mit Impulserhaltung: Der Gesamtimpuls bleibt null, das Gas erhält Impuls nach hinten, die Rakete gleich viel nach vorn. Luft braucht man dafür nicht.\n\n*B oder C gewählt?* Dahinter steckt die Vorstellung „Eine Rakete stößt sich an der Luft ab“. *D gewählt?* Die Erde zieht die Rakete zurück, nicht nach vorn. → **W6** (Rückstoß und Rakete)"
+        },
+        {
+          "id": "P1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Die Gewichtskraft wird zerlegt: $F_{Gx} = F_G \\cdot \\sin(\\alpha)$ und $F_N = F_G \\cdot \\cos(\\alpha)$. Mit wachsendem $\\alpha$ wird $\\sin(\\alpha)$ größer und $\\cos(\\alpha)$ kleiner.\n\n*C gewählt?* $F_N = F_G$ gilt nur auf waagerechtem Boden. *A oder D gewählt?* Die beiden Komponenten ändern sich gegenläufig, weil $F_G$ gleich bleibt. → **W5** Aufgabe 3, danach **W1** (Tandem)"
+        },
+        {
+          "id": "P1-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Die Gleitreibungskraft $F_R = \\mu_G \\cdot m \\cdot g$ ist zwar doppelt so groß, sie muss aber auch die doppelte Masse abbremsen:\n\n$a = -\\frac{F_R}{m} = -\\frac{\\mu_G \\cdot m \\cdot g}{m} = -\\mu_G \\cdot g$\n\nDie Bremsverzögerung und damit der Weg sind gleich.\n\n*A oder C gewählt?* Sie sehen nur die größere Masse („mehr Schwung“), nicht die größere Reibungskraft. *B gewählt?* Sie sehen nur die kleinere Reibungskraft, nicht die kleinere Masse. → **P3** Aufgabe 3c"
+        },
+        {
+          "id": "P1-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Achse in Flugrichtung: $v = +20\\,\\mathrm{m/s}$ vorher, $v' = -20\\,\\mathrm{m/s}$ nachher.\n\n$\\Delta p = m \\cdot (v' - v) = 0{,}060\\,\\mathrm{kg} \\cdot (-40\\,\\mathrm{m/s}) = -2{,}4\\,\\mathrm{N\\,s}$\n\n*A gewählt?* Die Richtung wurde vergessen: Impuls ist eine gerichtete Größe. *B gewählt?* Sie haben nur den Impuls vorher berechnet – beim Rückprall ändert er sich um das Doppelte. *D gewählt?* Gramm nicht in Kilogramm umgerechnet. → **W1** Nummer 7 (Rückprall an der Bande)"
+        },
+        {
+          "id": "P1-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Das ist ein unelastischer (plastischer) Stoß: Die beiden bewegen sich nach dem Stoß gemeinsam weiter. Der Impuls bleibt im abgeschlossenen System immer erhalten. Bewegungsenergie wird dabei teilweise in innere Energie umgewandelt (Muskeln, Verformung), deshalb nimmt $E_{kin}$ ab.\n\n*B oder D gewählt?* Vorstellung „Beim Festhalten geht Impuls verloren“ – im abgeschlossenen System bleibt er immer erhalten. *C gewählt?* Vorstellung „Bei Stößen bleibt alles erhalten“ – das gilt nur für elastische Stöße. → **P4** Aufgabe 2, danach **W2** (Messreihe Stoß)"
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "titel": "Newton’sche Axiome anwenden",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c2",
+        "c1",
+        "c3"
+      ],
+      "bild": "img/st_P2.svg",
+      "pdf": "pdf/P2_Newtonsche_Axiome.pdf",
+      "aufgaben": [
+        {
+          "id": "P2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zwei Kräfte am Fertigteil: die Gewichtskraft $F_G$ senkrecht nach unten und die Seilkraft $F_{Seil}$ senkrecht nach oben.\n\nIn Phase A wird das Teil nach oben schneller, die resultierende Kraft zeigt also nach oben: Der Pfeil von $F_{Seil}$ ist etwas länger als der von $F_G$.",
+          "loesung_bild": "img/P2-1a.png"
+        },
+        {
+          "id": "P2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Beschleunigungen aus dem Diagramm (Steigung): $a_A = \\frac{0{,}80\\,\\mathrm{m/s}}{2{,}0\\,\\mathrm{s}} = 0{,}40\\,\\mathrm{m/s^2}$; $a_C = \\frac{0 - 0{,}80\\,\\mathrm{m/s}}{1{,}6\\,\\mathrm{s}} = -0{,}50\\,\\mathrm{m/s^2}$\n\nAktionsprinzip, nach oben positiv: $F_{Seil} - m \\cdot g = m \\cdot a \\Rightarrow F_{Seil} = m \\cdot (g + a)$\n\nA: $F_{Seil} = 2400\\,\\mathrm{kg} \\cdot 10{,}21\\,\\mathrm{m/s^2} \\approx 24{,}5\\,\\mathrm{kN}$\n\nC: $F_{Seil} = 2400\\,\\mathrm{kg} \\cdot 9{,}31\\,\\mathrm{m/s^2} \\approx 22{,}3\\,\\mathrm{kN}$\n\n(Zum Vergleich Phase B: $F_{Seil} = F_G \\approx 23{,}5\\,\\mathrm{kN}$, siehe c.)"
+        },
+        {
+          "id": "P2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Aussage ist falsch. In Phase B bewegt sich das Teil gleichförmig. Nach dem Trägheitsprinzip ist dann die resultierende Kraft null: $F_{Seil} = F_G$.\n\nEine Kraft „in Bewegungsrichtung“ braucht man nur, um die Geschwindigkeit zu ändern (Phase A). Ohne resultierende Kraft fährt das Teil mit der erreichten Geschwindigkeit einfach weiter nach oben."
+        },
+        {
+          "id": "P2-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Wechselwirkungskraft: Das Fertigteil zieht mit gleich großer Kraft am Seil nach unten; sie greift am **Seil** an.\n\nSeilkraft und Gewichtskraft greifen beide am **Fertigteil** an. Dass sie in Phase B gleich groß sind, ist ein Kräftegleichgewicht (Trägheitsprinzip). In Phase A und C sind sie verschieden groß – ein Wechselwirkungspaar ist dagegen immer gleich groß. Der Wechselwirkungspartner der Gewichtskraft ist die Anziehung der Erde durch das Fertigteil."
+        },
+        {
+          "id": "P2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "System: beide Wagen zusammen ($m_{ges} = 1600\\,\\mathrm{kg}$).\n\n$F_{ges} = 1500\\,\\mathrm{N} - 2 \\cdot 150\\,\\mathrm{N} = 1200\\,\\mathrm{N}$\n\n$a = \\frac{F_{ges}}{m_{ges}} = \\frac{1200\\,\\mathrm{N}}{1600\\,\\mathrm{kg}} = 0{,}75\\,\\mathrm{m/s^2}$"
+        },
+        {
+          "id": "P2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "System: nur Wagen 2. Auf ihn wirken die Kupplungskraft $F_K$ nach vorn und der Fahrwiderstand nach hinten.\n\n$F_K - 150\\,\\mathrm{N} = 800\\,\\mathrm{kg} \\cdot 0{,}75\\,\\mathrm{m/s^2} \\Rightarrow F_K = 600\\,\\mathrm{N} + 150\\,\\mathrm{N} = 750\\,\\mathrm{N}$\n\nKontrolle an Wagen 1: $1500\\,\\mathrm{N} - 750\\,\\mathrm{N} - 150\\,\\mathrm{N} = 600\\,\\mathrm{N} = 800\\,\\mathrm{kg} \\cdot 0{,}75\\,\\mathrm{m/s^2}$ – passt. (Wagen 2 zieht nach Newton 3 mit $750\\,\\mathrm{N}$ an Wagen 1 nach hinten.)"
+        },
+        {
+          "id": "P2-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Jede Kupplung muss alle Wagen **hinter** sich beschleunigen und deren Fahrwiderstand überwinden. Am stärksten belastet ist deshalb die vorderste Kupplung (am Schlepper).\n\nJe Wagen braucht man $m \\cdot a + F_{Fahr}$. Hinter dem $k$-ten Wagen hängen noch $n - k$ Wagen:\n\n$F_k = (n - k) \\cdot (m \\cdot a + F_{Fahr})$\n\nZugkraft am ersten Wagen: $F = n \\cdot (m \\cdot a + F_{Fahr})$\n\nAnteil: $\\frac{F_k}{F} = \\frac{n - k}{n}$. Probe mit $n = 2$, $k = 1$: die Hälfte, $750\\,\\mathrm{N}$ von $1500\\,\\mathrm{N}$, passt."
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "titel": "Kräfte zerlegen und Reibung",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "bild": "img/st_P3.svg",
+      "pdf": "pdf/P3_Kraefte_und_Reibung.pdf",
+      "aufgaben": [
+        {
+          "id": "P3-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$F_{ges} = \\sqrt{F_1^2 + F_2^2 + 2 \\cdot F_1 \\cdot F_2 \\cdot \\cos(\\alpha)}$\n\n$F_{ges} = \\sqrt{120^2 + 90^2 + 2 \\cdot 120 \\cdot 90 \\cdot \\cos(50°)}\\,\\mathrm{kN}$\n\n$F_{ges} \\approx 191\\,\\mathrm{kN}$\n\nZeichnerisch: Diagonale im Kräfteparallelogramm.",
+          "loesung_bild": "img/P3-1.png"
+        },
+        {
+          "id": "P3-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Aus $F_R = \\mu_G \\cdot F_N$ folgt: Die Steigung der Geraden im Diagramm $F_R$ über $F_N$ ist $\\mu_G$. Also $\\mu_G \\approx 0{,}31$ (ohne Einheit, $\\frac{\\mathrm{N}}{\\mathrm{N}}$).\n\nAchsenabschnitt $0{,}03\\,\\mathrm{N}$: Nach dem Modell müsste die Gerade durch den Ursprung gehen. Der Wert ist klein gegenüber den Messwerten (1 bis 5 %) und liegt im Rahmen der Messgenauigkeit; möglich ist eine kleine systematische Abweichung, z. B. Reibung der Schnur oder ein nicht genau genullter Kraftmesser."
+        },
+        {
+          "id": "P3-3a",
+          "label": "3a",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "$F_G = 4{,}0\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{m/s^2} = 39{,}24\\,\\mathrm{N}$\n\n$F_{Gx} = F_G \\cdot \\sin(25°) \\approx 16{,}58\\,\\mathrm{N} \\approx 16{,}6\\,\\mathrm{N}$\n\n$F_N = F_{Gy} = F_G \\cdot \\cos(25°) \\approx 35{,}56\\,\\mathrm{N} \\approx 35{,}6\\,\\mathrm{N}$\n\n$F_R = \\mu_G \\cdot F_N = 0{,}31 \\cdot 35{,}56\\,\\mathrm{N} \\approx 11{,}02\\,\\mathrm{N} \\approx 11{,}0\\,\\mathrm{N}$",
+          "loesung_bild": "img/P3-3a.png"
+        },
+        {
+          "id": "P3-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Hangabwärts positiv, mit den ungerundeten Werten aus a):\n\n$F_{ges} = F_{Gx} - F_R \\approx 16{,}58\\,\\mathrm{N} - 11{,}02\\,\\mathrm{N} = 5{,}56\\,\\mathrm{N}$\n\n$a = \\frac{F_{ges}}{m} \\approx \\frac{5{,}56\\,\\mathrm{N}}{4{,}0\\,\\mathrm{kg}} \\approx 1{,}39\\,\\mathrm{m/s^2}$ (mit gerundeten Werten $1{,}4\\,\\mathrm{m/s^2}$)"
+        },
+        {
+          "id": "P3-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Masse: Ein schweres Paket hat zwar eine größere Reibungskraft, aber auch eine größere Hangabtriebskraft und eine größere Masse. Allgemein:\n\n$a = \\frac{m \\cdot g \\cdot \\sin(\\alpha) - \\mu_G \\cdot m \\cdot g \\cdot \\cos(\\alpha)}{m} = g \\cdot (\\sin(\\alpha) - \\mu_G \\cdot \\cos(\\alpha))$\n\nDie Masse kürzt sich: Alle Pakete gleichen Materials rutschen gleich schnell.\n\nFläche: Im Modell hängt $F_R$ nur von $F_N$ und $\\mu$ ab, nicht von der Auflagefläche. Auch dieser Teil ist falsch. (Nur bei weichen, klebrigen Oberflächen gilt das Modell nicht mehr.)"
+        },
+        {
+          "id": "P3-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Grenzfall: $F_{Gx} = F_H$\n\n$m \\cdot g \\cdot \\sin(\\alpha) = \\mu_H \\cdot m \\cdot g \\cdot \\cos(\\alpha) \\Rightarrow \\tan(\\alpha) = \\mu_H$ (die Masse kürzt sich)\n\n$\\alpha = \\arctan(0{,}40) \\approx 21{,}8°$\n\nDie Rutsche hat $25° > 21{,}8°$: Ruhende Pakete rutschen von selbst los."
+        }
+      ]
+    },
+    {
+      "id": "P4",
+      "titel": "Impuls und Stöße",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8",
+        "c7",
+        "c10"
+      ],
+      "bild": "img/st_P4.svg",
+      "pdf": "pdf/P4_Impuls_und_Stoesse.pdf",
+      "aufgaben": [
+        {
+          "id": "P4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$v = 18\\,\\mathrm{km/h} = 5{,}0\\,\\mathrm{m/s}$\n\n$p = m \\cdot v = 5{,}0\\,\\mathrm{kg} \\cdot 5{,}0\\,\\mathrm{m/s} = 25\\,\\mathrm{N\\,s}$"
+        },
+        {
+          "id": "P4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Der Impuls ändert sich in beiden Fällen um $\\Delta p = 25\\,\\mathrm{N\\,s}$ (bis zum Stillstand). Aus $F \\cdot \\Delta t = \\Delta p$:\n\nohne Helm: $F = \\frac{25\\,\\mathrm{N\\,s}}{0{,}0015\\,\\mathrm{s}} \\approx 17\\,\\mathrm{kN}$\n\nmit Helm: $F = \\frac{25\\,\\mathrm{N\\,s}}{0{,}0060\\,\\mathrm{s}} \\approx 4{,}2\\,\\mathrm{kN}$"
+        },
+        {
+          "id": "P4-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Impulsänderung ist durch Anfangs- und Endgeschwindigkeit festgelegt. Es gilt $F \\cdot \\Delta t = \\Delta p$: Dauert das Abbremsen viermal so lang, ist die mittlere Kraft nur ein Viertel so groß.\n\nDer Schaum verlängert den Bremsweg und damit die Bremsdauer. Zusätzlich verteilt die Helmschale die Kraft auf eine größere Fläche des Kopfes."
+        },
+        {
+          "id": "P4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Unelastischer (plastischer) Stoß, Impulserhaltung:\n\n$m_1 \\cdot v_1 + m_2 \\cdot 0 = (m_1 + m_2) \\cdot v'$\n\n$v' = \\frac{25\\,\\mathrm{t} \\cdot 1{,}2\\,\\mathrm{m/s}}{75\\,\\mathrm{t}} = 0{,}40\\,\\mathrm{m/s}$"
+        },
+        {
+          "id": "P4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "vorher: $E_{kin} = \\frac{1}{2} \\cdot 25\\,000\\,\\mathrm{kg} \\cdot (1{,}2\\,\\mathrm{m/s})^2 = 18\\,\\mathrm{kJ}$\n\nnachher: $E_{kin}' = \\frac{1}{2} \\cdot 75\\,000\\,\\mathrm{kg} \\cdot (0{,}40\\,\\mathrm{m/s})^2 = 6{,}0\\,\\mathrm{kJ}$\n\nUmgewandelt: $12\\,\\mathrm{kJ}$, also $\\frac{12}{18} \\approx 67\\,\\%$ (in innere Energie der Puffer und Kupplungen, Schall)."
+        },
+        {
+          "id": "P4-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Achse in Fahrtrichtung des Güterwagens: $v_1 = +1{,}2\\,\\mathrm{m/s}$, $v_2 = -0{,}40\\,\\mathrm{m/s}$.\n\n$v' = \\frac{25\\,\\mathrm{t} \\cdot 1{,}2\\,\\mathrm{m/s} + 50\\,\\mathrm{t} \\cdot (-0{,}40\\,\\mathrm{m/s})}{75\\,\\mathrm{t}}$\n\n$v' = \\frac{30 - 20}{75}\\,\\mathrm{m/s} \\approx +0{,}13\\,\\mathrm{m/s}$\n\nDeutung: Positives Vorzeichen – alle Wagen rollen langsam in die ursprüngliche Richtung des Güterwagens, weil sein Impuls ($30\\,000\\,\\mathrm{N\\,s}$) größer ist als der der Gruppe ($20\\,000\\,\\mathrm{N\\,s}$)."
+        },
+        {
+          "id": "P4-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$v' = 0 \\Leftrightarrow m_1 \\cdot v_1 + m_2 \\cdot v_2 = 0 \\Leftrightarrow p_1 = -p_2$: Die Impulse müssen entgegengesetzt gleich sein – unabhängig davon, wie die Massen einzeln verteilt sind.\n\n$v_2 = -\\frac{m_1 \\cdot v_1}{m_2} = -\\frac{30\\,000\\,\\mathrm{N\\,s}}{50\\,000\\,\\mathrm{kg}} = -0{,}60\\,\\mathrm{m/s}$\n\nBewertet werden: Bedingung $p_1 = -p_2$ (1 P), Geschwindigkeit mit Vorzeichen (1 P).\n\nZusatz: Nach dem Stoß ist $E_{kin}' = 0$ – die **gesamte** Bewegungsenergie ($18\\,\\mathrm{kJ} + 9{,}0\\,\\mathrm{kJ} = 27\\,\\mathrm{kJ}$) wird in innere Energie umgewandelt."
+        }
+      ]
+    },
+    {
+      "id": "P5",
+      "titel": "Check-out",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c9",
+        "c4",
+        "c5",
+        "c7",
+        "c10"
+      ],
+      "hinweis": "Am Ende der dritten Stunde bearbeiten. Jede Aufgabe gehört zur gleichnummerigen Aufgabe aus P1 – vergleichen Sie in der Auswertung Ihre Punkte in P1 und P5. Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen; als Begründung genügen Stichworte. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_P5.svg",
+      "pdf": "pdf/P5_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "P5-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Gleichförmige Bewegung geradeaus heißt nach dem Trägheitsprinzip: resultierende Kraft null. Senkrecht heben sich Gewichtskraft und Kraft des Bandes auf, waagerecht wirkt keine Kraft.\n\n*B oder C gewählt?* Vorstellung „Bewegung braucht Kraft“. *D gewählt?* Die Gewichtskraft wirkt senkrecht. → **W5** Aufgabe 1"
+        },
+        {
+          "id": "P5-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $F_{ges} = 900\\,\\mathrm{N} - 300\\,\\mathrm{N} = 600\\,\\mathrm{N}$; $a = \\frac{600\\,\\mathrm{N}}{200\\,\\mathrm{kg}} = 3{,}0\\,\\mathrm{m/s^2}$\n\n*A gewählt?* Nur die Antriebskraft genommen. *B gewählt?* Nur den Widerstand genommen. *C gewählt?* Die Gegenkraft addiert. → **W1** (Tandem)"
+        },
+        {
+          "id": "P5-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Wechselwirkungskräfte sind immer gleich groß und entgegengesetzt gerichtet; sie greifen an verschiedenen Körpern an (Auto bzw. Seil). Ob beschleunigt wird, entscheidet die resultierende Kraft **am Auto**.\n\n*A gewählt?* Sie schließen von der Bewegung auf die Wechselwirkungskräfte. *C oder D gewählt?* Bremswirkung und Masse ändern die Wechselwirkungskräfte nicht. → **W3** Aufgabe 1, danach **W5** Aufgabe 2"
+        },
+        {
+          "id": "P5-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Er übt beim Wurf eine Kraft auf die Tasche aus, nach dem Wechselwirkungsprinzip übt die Tasche eine gleich große Kraft auf ihn aus, entgegen der Wurfrichtung. Mit Impulserhaltung: Vorher ist der Gesamtimpuls null, nachher auch – er bewegt sich entgegen der Tasche (wegen der größeren Masse langsamer). Das ist das Rückstoßprinzip der Rakete.\n\n*A gewählt?* Vorstellung „Rückstoß braucht Luft“. *B gewählt?* Sie übertragen die Bewegung der Tasche auf ihn. *D gewählt?* Die Anziehung der Station ist winzig und nicht die Ursache. → **W6**"
+        },
+        {
+          "id": "P5-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $F_{Gx} = F_G \\cdot \\sin(\\alpha)$ wächst, $F_N = F_G \\cdot \\cos(\\alpha)$ nimmt ab.\n\n*B gewählt?* $F_N = F_G$ gilt nur in der Ebene. *A oder C gewählt?* Die Komponenten ändern sich gegenläufig. → **W5** Aufgabe 3, danach **W1** (Tandem)"
+        },
+        {
+          "id": "P5-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $a = -\\frac{\\mu_G \\cdot m \\cdot g}{m} = -\\mu_G \\cdot g$ ist unabhängig von der Masse, also auch der Weg.\n\n*A oder D gewählt?* Nur die größere Masse gesehen. *C gewählt?* Nur die kleinere Reibungskraft gesehen. → **P3** Aufgabe 3c"
+        },
+        {
+          "id": "P5-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $\\Delta p = 0{,}050\\,\\mathrm{kg} \\cdot (-8{,}0\\,\\mathrm{m/s} - 8{,}0\\,\\mathrm{m/s}) = -0{,}80\\,\\mathrm{N\\,s}$, Betrag $0{,}80\\,\\mathrm{N\\,s}$.\n\n*B gewählt?* Richtung vergessen. *C gewählt?* Nur den Impuls vorher berechnet – beim Rückprall ändert er sich um das Doppelte. *D gewählt?* Gramm nicht umgerechnet. → **W1** Nummer 7"
+        },
+        {
+          "id": "P5-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Unelastischer (plastischer) Stoß: Impuls erhalten, Bewegungsenergie wird teilweise in innere Energie (Verformung der Knete) umgewandelt.\n\n*A oder B gewählt?* Vorstellung „Beim Kleben geht Impuls verloren“. *D gewählt?* Vorstellung „Bei Stößen bleibt alles erhalten“. → **P4** Aufgabe 2, danach **W2**"
+        }
+      ]
+    },
+    {
+      "id": "W1",
+      "titel": "Tandem: Kräfte und Impulse",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c2",
+        "c4",
+        "c5",
+        "c7",
+        "c8"
+      ],
+      "hinweis": "Zwei Personen, zwei Tablets, WTR. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. Rechnen Sie mit $g = 9{,}81\\,\\mathrm{m/s^2}$.",
+      "bild": "img/st_W1.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "W1-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Gabelstapler ($m = 3{,}2\\,\\mathrm{t}$) fährt mit einer Antriebskraft von $4{,}8\\,\\mathrm{kN}$ an, der Fahrwiderstand beträgt $0{,}8\\,\\mathrm{kN}$. Berechnen Sie die Beschleunigung.",
+          "tipp": "Zuerst die resultierende Kraft bilden, dann $a = \\frac{F_{ges}}{m}$.",
+          "loesung": "$F_{ges} = 4{,}8\\,\\mathrm{kN} - 0{,}8\\,\\mathrm{kN} = 4{,}0\\,\\mathrm{kN}$\n\n$a = \\frac{4000\\,\\mathrm{N}}{3200\\,\\mathrm{kg}} = 1{,}25\\,\\mathrm{m/s^2}$"
+        },
+        {
+          "id": "W1-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Mondrover zieht einen Probenschlitten ($m = 40\\,\\mathrm{kg}$) mit konstanter Geschwindigkeit über ebenen Mondboden ($g_{Mond} = 1{,}62\\,\\mathrm{m/s^2}$, $\\mu_G = 0{,}50$). Berechnen Sie die Zugkraft.",
+          "tipp": "Konstante Geschwindigkeit: Zugkraft = Reibungskraft. Auf dem Mond ist $F_N = m \\cdot g_{Mond}$.",
+          "loesung": "$F_N = 40\\,\\mathrm{kg} \\cdot 1{,}62\\,\\mathrm{m/s^2} = 64{,}8\\,\\mathrm{N}$\n\n$F = F_R = 0{,}50 \\cdot 64{,}8\\,\\mathrm{N} \\approx 32\\,\\mathrm{N}$"
+        },
+        {
+          "id": "W1-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Boot auf seinem Trailer ($m = 600\\,\\mathrm{kg}$) steht auf einer um $12°$ geneigten Slipanlage. Berechnen Sie Hangabtriebskraft und Normalkraft.",
+          "tipp": "$F_{Gx} = F_G \\cdot \\sin(\\alpha)$, $F_N = F_G \\cdot \\cos(\\alpha)$",
+          "loesung": "$F_G = 600\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{m/s^2} = 5886\\,\\mathrm{N}$\n\n$F_{Gx} = 5886\\,\\mathrm{N} \\cdot \\sin(12°) \\approx 1{,}22\\,\\mathrm{kN}$; $F_N = 5886\\,\\mathrm{N} \\cdot \\cos(12°) \\approx 5{,}76\\,\\mathrm{kN}$"
+        },
+        {
+          "id": "W1-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Eine Umzugskiste ($m = 45\\,\\mathrm{kg}$) wird über einen waagerechten Holzboden geschoben ($\\mu_G = 0{,}30$). Berechnen Sie die Gleitreibungskraft.",
+          "tipp": "$F_R = \\mu_G \\cdot F_N$, waagerecht ist $F_N = F_G$.",
+          "loesung": "$F_R = 0{,}30 \\cdot 45\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{m/s^2} \\approx 132\\,\\mathrm{N}$"
+        },
+        {
+          "id": "W1-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Wagen ($m_W = 0{,}50\\,\\mathrm{kg}$) auf einer waagerechten Fahrbahn wird über eine Umlenkrolle von einer Zugmasse $m_Z = 50\\,\\mathrm{g}$ gezogen (Reibung vernachlässigt). Berechnen Sie die Beschleunigung.",
+          "tipp": "Antreibende Kraft ist die Gewichtskraft der Zugmasse. Beschleunigt werden Wagen und Zugmasse.",
+          "loesung": "$F = m_Z \\cdot g = 0{,}050\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{m/s^2} \\approx 0{,}49\\,\\mathrm{N}$\n\n$a = \\frac{m_Z \\cdot g}{m_W + m_Z} = \\frac{0{,}49\\,\\mathrm{N}}{0{,}55\\,\\mathrm{kg}} \\approx 0{,}89\\,\\mathrm{m/s^2}$\n\n(Nicht $0{,}98\\,\\mathrm{m/s^2}$: Die Zugmasse wird mitbeschleunigt.)"
+        },
+        {
+          "id": "W1-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Containerschiff ($m = 2{,}0 \\cdot 10^8\\,\\mathrm{kg}$) fährt mit $27\\,\\mathrm{km/h}$. Berechnen Sie seinen Impuls.",
+          "tipp": "Erst in m/s umrechnen (durch 3,6 teilen), dann $p = m \\cdot v$.",
+          "loesung": "$27\\,\\mathrm{km/h} = 7{,}5\\,\\mathrm{m/s}$\n\n$p = 2{,}0 \\cdot 10^8\\,\\mathrm{kg} \\cdot 7{,}5\\,\\mathrm{m/s} = 1{,}5 \\cdot 10^9\\,\\mathrm{N\\,s}$"
+        },
+        {
+          "id": "W1-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Hockeyball ($m = 0{,}16\\,\\mathrm{kg}$) trifft mit $20\\,\\mathrm{m/s}$ senkrecht auf die Bande und prallt mit $15\\,\\mathrm{m/s}$ zurück; die Berührung dauert $5{,}0\\,\\mathrm{ms}$. Berechnen Sie die Impulsänderung und die mittlere Kraft der Bande auf den Ball.",
+          "tipp": "Achse in Anflugrichtung: Die Geschwindigkeit nach dem Rückprall ist negativ. Dann $F \\cdot \\Delta t = \\Delta p$.",
+          "loesung": "$\\Delta p = m \\cdot (v' - v) = 0{,}16\\,\\mathrm{kg} \\cdot (-15\\,\\mathrm{m/s} - 20\\,\\mathrm{m/s}) = -5{,}6\\,\\mathrm{N\\,s}$\n\n$F = \\frac{-5{,}6\\,\\mathrm{N\\,s}}{0{,}0050\\,\\mathrm{s}} \\approx -1{,}1\\,\\mathrm{kN}$ (entgegen der Anflugrichtung)\n\n(Nicht $0{,}8\\,\\mathrm{N\\,s}$: Beim Rückprall addieren sich die Beträge.)"
+        },
+        {
+          "id": "W1-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Eine Draisine ($m_1 = 300\\,\\mathrm{kg}$) rollt mit $2{,}0\\,\\mathrm{m/s}$ auf eine stehende Draisine ($m_2 = 200\\,\\mathrm{kg}$) und koppelt an. Berechnen Sie die gemeinsame Geschwindigkeit.",
+          "tipp": "Unelastischer Stoß: Gesamtimpuls vorher = Gesamtimpuls nachher, danach gemeinsame Masse.",
+          "loesung": "$v' = \\frac{300\\,\\mathrm{kg} \\cdot 2{,}0\\,\\mathrm{m/s}}{500\\,\\mathrm{kg}} = 1{,}2\\,\\mathrm{m/s}$"
+        }
+      ]
+    },
+    {
+      "id": "W2",
+      "titel": "Messreihe: Stoß zweier Wagen",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8",
+        "c10",
+        "c6",
+        "c11"
+      ],
+      "bild": "img/st_W2.svg",
+      "pdf": "pdf/W2_Messreihe_Stoss.pdf",
+      "aufgaben": [
+        {
+          "id": "W2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Steigung einer Trendlinie im t-s-Diagramm ist die Geschwindigkeit **relativ zur Sonde**.\n\nSonde A blickt in positive Richtung: $v_1 = +0{,}610\\,\\mathrm{m/s}$, $v_1' = +0{,}135\\,\\mathrm{m/s}$.\n\nSonde B blickt in negative Richtung: Fährt Wagen 2 nach rechts, wird sein Abstand zu B kleiner. Die Steigung $-0{,}675\\,\\mathrm{m/s}$ bedeutet also $v_2' = +0{,}675\\,\\mathrm{m/s}$.\n\nVor dem Stoß ist die Steigung bei B praktisch null: Wagen 2 ruht."
+        },
+        {
+          "id": "W2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "vorher: $p = 0{,}750\\,\\mathrm{kg} \\cdot 0{,}610\\,\\mathrm{m/s} \\approx 0{,}458\\,\\mathrm{N\\,s}$\n\nnachher: $p' = 0{,}750\\,\\mathrm{kg} \\cdot 0{,}135\\,\\mathrm{m/s} + 0{,}500\\,\\mathrm{kg} \\cdot 0{,}675\\,\\mathrm{m/s}$\n\n$p' \\approx 0{,}101\\,\\mathrm{N\\,s} + 0{,}338\\,\\mathrm{N\\,s} = 0{,}439\\,\\mathrm{N\\,s}$\n\nAbweichung: $\\frac{0{,}439 - 0{,}458}{0{,}458} \\approx -4\\,\\%$"
+        },
+        {
+          "id": "W2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "vorher: $E_{kin} = \\frac{1}{2} \\cdot 0{,}750\\,\\mathrm{kg} \\cdot (0{,}610\\,\\mathrm{m/s})^2 \\approx 0{,}140\\,\\mathrm{J}$\n\nnachher: $E_{kin}' = \\frac{1}{2} \\cdot 0{,}750 \\cdot 0{,}135^2\\,\\mathrm{J} + \\frac{1}{2} \\cdot 0{,}500 \\cdot 0{,}675^2\\,\\mathrm{J}$\n\n$E_{kin}' \\approx 0{,}007\\,\\mathrm{J} + 0{,}114\\,\\mathrm{J} = 0{,}121\\,\\mathrm{J}$, also etwa 87 % der Bewegungsenergie vorher.\n\nEinordnung: teilelastisch. Die Wagen trennen sich (im Skript das Kennzeichen elastischer Stöße), aber die Bewegungsenergie nimmt ab. Gemessen fehlen rund 13 %; ein Teil davon geht auf die Rollreibung zurück (siehe d), der Verlust im Puffer ist also kleiner."
+        },
+        {
+          "id": "W2-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Rollreibung ist eine äußere Kraft (systematische Abweichung): Die Wagen werden vor und nach dem Stoß langsamer. Die Trendlinie vor dem Stoß mittelt über $0{,}3$ bis $0{,}9\\,\\mathrm{s}$ – $v_1$ ist etwas größer als im Moment des Stoßes. Die Trendlinien danach mitteln über $1{,}1$ bis $1{,}7\\,\\mathrm{s}$ – $v_1'$ und $v_2'$ sind etwas kleiner.\n\nFolge: Impuls und Bewegungsenergie erscheinen vorher zu groß und nachher zu klein. Die echten Verluste beim Stoß sind kleiner als gemessen.\n\nZusatz: Rechnet man mit der Rollverzögerung dieser Messung ($0{,}025\\,\\mathrm{m/s^2}$) auf $t = 1{,}0\\,\\mathrm{s}$ um, bleibt der Impuls praktisch erhalten, und der Energieverlust im Puffer beträgt nur etwa 7 %."
+        },
+        {
+          "id": "W2-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Modell mit $v_2 = 0$ (im Formeldokument $u_1$, $u_2$):\n\n$v_1' = \\frac{(m_1 - m_2) \\cdot v_1}{m_1 + m_2} = \\frac{0{,}250 \\cdot 0{,}610}{1{,}250}\\,\\mathrm{m/s} \\approx 0{,}122\\,\\mathrm{m/s}$\n\n$v_2' = \\frac{2\\,m_1 \\cdot v_1}{m_1 + m_2} = \\frac{1{,}500 \\cdot 0{,}610}{1{,}250}\\,\\mathrm{m/s} \\approx 0{,}732\\,\\mathrm{m/s}$\n\nGemessen: $v_1' = 0{,}135\\,\\mathrm{m/s}$, also etwa 11 % größer; $v_2' = 0{,}675\\,\\mathrm{m/s}$, also etwa 8 % kleiner. Wagen 1 gibt weniger Geschwindigkeit an Wagen 2 ab als im Modell.\n\nBeurteilung: Die Reibung allein erklärt das nicht – sie macht beide Geschwindigkeiten nachher kleiner, $v_1'$ ist aber größer als im Modell. Der Puffer wandelt Energie um, der Stoß ist teilelastisch (siehe c). Das Modell „elastisch“ beschreibt ihn nur näherungsweise."
+        },
+        {
+          "id": "W2-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Unelastischer (plastischer) Stoß, beide fahren gemeinsam weiter:\n\n$v' = \\frac{m_1 \\cdot v_1}{m_1 + m_2} = \\frac{0{,}750\\,\\mathrm{kg} \\cdot 0{,}610\\,\\mathrm{m/s}}{1{,}250\\,\\mathrm{kg}} \\approx 0{,}37\\,\\mathrm{m/s}$\n\n(Sonde A misst dann die Steigung $+0{,}37$, Sonde B $-0{,}37$.)"
+        }
+      ]
+    },
+    {
+      "id": "W3",
+      "titel": "Vorhersagen – beobachten – erklären",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "2 Federkraftmesser (bis 5 N), Münzen (1 ct, 1 €, 2 €), iPad (Zeitlupe)",
+      "checkliste": [
+        "c11",
+        "c3",
+        "c1"
+      ],
+      "bild": "img/st_W3.svg",
+      "pdf": "pdf/W3_Vorhersagen_beobachten_erklaeren.pdf",
+      "aufgaben": [
+        {
+          "id": "W3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Jede begründete Vorhersage zählt. Häufige Vorhersagen: „Kraftmesser 1 zeigt weniger an, weil er nur festgehalten wird“ oder „In Versuch B zeigt er $8\\,\\mathrm{N}$, weil zwei Personen ziehen.“"
+        },
+        {
+          "id": "W3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "In beiden Versuchen zeigen beide Kraftmesser $4\\,\\mathrm{N}$ an (im Rahmen der Ablesegenauigkeit)."
+        },
+        {
+          "id": "W3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Kraftmesser 2 zieht mit $4\\,\\mathrm{N}$ an Kraftmesser 1, nach dem Wechselwirkungsprinzip zieht Kraftmesser 1 mit $4\\,\\mathrm{N}$ an Kraftmesser 2 zurück. Beide zeigen deshalb dasselbe an.\n\nOb am anderen Ende ein Haken oder eine Person hält, ist gleichgültig: Auch der Haken zieht mit $4\\,\\mathrm{N}$, sonst würde der ruhende Kraftmesser wegbeschleunigt. Ein Kraftmesser zeigt die Kraft an **einem** Ende an. Die Aussage ist falsch – die zwei Kräfte von $4\\,\\mathrm{N}$ halten den Kraftmesser im Gleichgewicht, sie addieren sich nicht zur Anzeige."
+        },
+        {
+          "id": "W3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Jede begründete Vorhersage zählt. Häufig: „Beide Münzen bewegen sich immer gemeinsam vorwärts.“"
+        },
+        {
+          "id": "W3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Versuch 1: Die stoßende Münze bleibt fast liegen, die getroffene gleitet etwa so schnell weiter.\n\nVersuch 2: Der Cent prallt zurück, die 2-€-Münze rutscht langsam vorwärts.\n\nDanach bremst die Reibung am Tisch die Münzen schnell ab."
+        },
+        {
+          "id": "W3-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Münzen sind hart, der Stoß ist nahezu elastisch: Impuls und $E_{kin}$ bleiben (fast) erhalten. Mit $v_2 = 0$: $v_1' = \\frac{m_1 - m_2}{m_1 + m_2} \\cdot v_1$ und $v_2' = \\frac{2\\,m_1}{m_1 + m_2} \\cdot v_1$\n\nVersuch 1 ($m_1 = m_2$): $v_1' = 0$, $v_2' = v_1$ – die Geschwindigkeiten werden getauscht.\n\nVersuch 2: $v_1' \\approx -0{,}57\\,v_1$ (Rückprall), $v_2' \\approx 0{,}43\\,v_1$."
+        },
+        {
+          "id": "W3-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Folgerung verallgemeinert unzulässig. Sie gilt nur für einen zentralen, (nahezu) elastischen Stoß **gleich schwerer** Körper auf einen ruhenden Partner: Aus $v_1' = \\frac{m_1 - m_2}{m_1 + m_2} \\cdot v_1$ folgt $v_1' = 0$ genau dann, wenn $m_1 = m_2$.\n\nGegenbeispiele: Versuch 2 (leicht auf schwer, Rückprall) und nach der Formel ein schwerer Körper auf einen leichten (z. B. 2 € auf 1 Cent: $v_1' \\approx 0{,}57\\,v_1$, beide vorwärts). Beim unelastischen Stoß bewegen sich beide gemeinsam weiter.\n\nRichtig ist allgemein nur: Der Gesamtimpuls bleibt erhalten."
+        }
+      ]
+    },
+    {
+      "id": "W4",
+      "titel": "Fallschirmsprung: Iteration und Modellgrenzen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c13",
+        "c12",
+        "c2"
+      ],
+      "bild": "img/st_W4.svg",
+      "pdf": "pdf/W4_Fallschirmsprung_Iteration.pdf",
+      "aufgaben": [
+        {
+          "id": "W4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Direkt nach dem Absprung ($v = 0$): nur die Gewichtskraft, also $a = g$.\n\nMit wachsendem $v$ wächst $F_L$ nach oben, die resultierende Kraft und damit $a$ nehmen ab.\n\nBei konstanter Fallgeschwindigkeit: $F_L = F_G$, resultierende Kraft null, $a = 0$.\n\nt-a-Diagramm: beginnt bei $9{,}81\\,\\mathrm{m/s^2}$ und fällt immer flacher gegen null.",
+          "loesung_bild": "img/W4-1a.png"
+        },
+        {
+          "id": "W4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\frac{k}{m} = \\frac{0{,}24\\,\\mathrm{kg/m}}{85\\,\\mathrm{kg}} \\approx 0{,}002824\\,\\frac{1}{\\mathrm{m}}$\n\n$v_3 = 19{,}35 + 8{,}75 \\cdot 1 = 28{,}10\\,\\mathrm{m/s}$; $s_3 = 9{,}81 + 19{,}35 \\cdot 1 = 29{,}16\\,\\mathrm{m}$\n\n$a_3 = 9{,}81 - 0{,}002824 \\cdot 28{,}10^2 \\approx 7{,}58\\,\\mathrm{m/s^2}$\n\nBewertet werden: $v_3$ und $s_3$ (1 P), $a_3$ (1 P)."
+        },
+        {
+          "id": "W4-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bei $v_{grenz}$ ist $a = 0$: $g - \\frac{k}{m} \\cdot v_{grenz}^2 = 0 \\Rightarrow v_{grenz} = \\sqrt{\\frac{m \\cdot g}{k}}$\n\nFreifall: $v_{grenz} = \\sqrt{\\frac{85 \\cdot 9{,}81}{0{,}24}}\\,\\mathrm{m/s} \\approx 59\\,\\mathrm{m/s} \\approx 212\\,\\mathrm{km/h}$\n\nSchirm: $v_{grenz} = \\sqrt{\\frac{85 \\cdot 9{,}81}{28}}\\,\\mathrm{m/s} \\approx 5{,}5\\,\\mathrm{m/s}$"
+        },
+        {
+          "id": "W4-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mit $\\Delta t = 0{,}1\\,\\mathrm{s}$ steigt $v$ glatt an und nähert sich $v_{grenz}$ von unten. Mit $\\Delta t = 5\\,\\mathrm{s}$ steigt $v$ zu schnell, schießt über $59\\,\\mathrm{m/s}$ hinaus und pendelt dann um den Grenzwert.\n\nUrsache: Das Verfahren nimmt die Beschleunigung vom **Anfang** des Schritts für den ganzen Schritt. In Wirklichkeit nimmt $a$ während des Schritts ab. Bei großem $\\Delta t$ wird $v$ deshalb zu groß, im nächsten Schritt wird $a$ negativ usw. Kleine Schritte machen die Vorhersage genauer."
+        },
+        {
+          "id": "W4-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$a = g - \\frac{k}{m} \\cdot v^2 = 9{,}81\\,\\mathrm{m/s^2} - \\frac{28}{85} \\cdot (58{,}9\\,\\mathrm{m/s})^2$\n\n$a \\approx -1{,}1 \\cdot 10^3\\,\\mathrm{m/s^2}$, also mehr als $100\\,g$\n\nDas Minuszeichen heißt: Die Springerin wird stark abgebremst. Das wäre weit mehr, als ein Mensch unbeschadet aushält – das Modell „$k$ springt sofort“ ist hier unrealistisch. Ein echter Schirm entfaltet sich über einige Sekunden, $k$ wächst allmählich, die Verzögerung bleibt bei wenigen $g$."
+        },
+        {
+          "id": "W4-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "In $4\\,\\mathrm{km}$ Höhe: $k = 0{,}24\\,\\mathrm{kg/m} \\cdot \\frac{0{,}82}{1{,}2} \\approx 0{,}16\\,\\mathrm{kg/m}$ $\\Rightarrow v_{grenz} = \\sqrt{\\frac{85 \\cdot 9{,}81}{0{,}164}}\\,\\mathrm{m/s} \\approx 71\\,\\mathrm{m/s}$\n\nOben fällt die Springerin also rund 20 % schneller, als das Modell vorhersagt; mit sinkender Höhe wird sie langsamer. Für Fallzeit und Öffnungshöhe ist die Annahme deshalb zu grob, für die Landephase in Bodennähe passt sie gut.\n\nVerbesserung: In der Iteration eine Spalte $\\rho(s)$ ergänzen und $k$ in jedem Schritt neu berechnen."
+        }
+      ]
+    },
+    {
+      "id": "W5",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c3",
+        "c1",
+        "c4",
+        "c5",
+        "c8"
+      ],
+      "bild": "img/st_W5.svg",
+      "pdf": "pdf/W5_Fehler_finden_begruenden.pdf",
+      "aufgaben": [
+        {
+          "id": "W5-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Eine Kraft „steckt“ nicht im Körper. Die Schlägerkraft wirkt nur während der Berührung (wenige Millisekunden). Im Flug wirken nur die Gewichtskraft und die Luftreibung."
+        },
+        {
+          "id": "W5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Trägheitsprinzip: Ohne resultierende Kraft würde der Ball mit der Abschlaggeschwindigkeit geradlinig weiterfliegen – dafür braucht er keine Kraft.\n\nAktionsprinzip: Die Luftreibung wirkt entgegen der Bewegung und verringert den Betrag der Geschwindigkeit; die Gewichtskraft krümmt die Bahn nach unten. Die Kräfte **ändern** die Geschwindigkeit, sie erhalten sie nicht."
+        },
+        {
+          "id": "W5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$F_G$ und $F_{Seil}$ greifen beide an der **Kabine** an. Ihre Gleichheit in Ruhe ist ein Kräftegleichgewicht (Trägheitsprinzip), kein Wechselwirkungspaar.\n\nWechselwirkungspartner der Gewichtskraft (Erde zieht Kabine) ist die Kraft, mit der die Kabine die Erde anzieht."
+        },
+        {
+          "id": "W5-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Falsch. Beim Anfahren nach oben wird die Kabine beschleunigt, also gilt $F_{Seil} - F_G = m \\cdot a > 0$: Die Seilkraft ist größer als die Gewichtskraft. Gleich groß bleiben nur die Wechselwirkungskräfte zwischen Seil und Kabine."
+        },
+        {
+          "id": "W5-3a",
+          "label": "3a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Fehler 1: Für die Hangabtriebskraft gehört $\\sin(\\alpha)$, nicht $\\cos(\\alpha)$.\n\nFehler 2: Auf der Schräge ist $F_N = m \\cdot g \\cdot \\cos(\\alpha)$, nicht $m \\cdot g$.\n\n$F_{Gx} = 294{,}3\\,\\mathrm{N} \\cdot \\sin(25°) \\approx 124{,}4\\,\\mathrm{N}$; $F_N = 294{,}3\\,\\mathrm{N} \\cdot \\cos(25°) \\approx 266{,}7\\,\\mathrm{N}$\n\n$F_R = 0{,}35 \\cdot 266{,}7\\,\\mathrm{N} \\approx 93{,}4\\,\\mathrm{N}$; $a = \\frac{124{,}4\\,\\mathrm{N} - 93{,}4\\,\\mathrm{N}}{30\\,\\mathrm{kg}} \\approx 1{,}03\\,\\mathrm{m/s^2}$\n\nBewertet werden: beide Fehler erläutert (1 P), $F_{Gx}$ und $F_R$ richtig (1 P), $a$ (1 P)."
+        },
+        {
+          "id": "W5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Mit $\\cos(\\alpha)$: Bei $\\alpha = 0°$ (waagerechter Boden) wäre $F_{Gx} = m \\cdot g$ – eine Kiste würde auf ebenem Boden von selbst losrutschen, das ist absurd. Bei $90°$ wäre $F_{Gx} = 0$, obwohl die Kiste frei fällt.\n\nMit $\\sin(\\alpha)$ stimmt beides: $F_{Gx} = 0$ in der Ebene, $F_{Gx} = F_G$ an der senkrechten Wand."
+        },
+        {
+          "id": "W5-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Osten positiv, B fährt entgegen: $v_B = -1{,}5\\,\\mathrm{m/s}$.\n\n$v' = \\frac{360\\,\\mathrm{N\\,s} - 300\\,\\mathrm{N\\,s}}{500\\,\\mathrm{kg}} = 0{,}12\\,\\mathrm{m/s}$ nach Osten"
+        },
+        {
+          "id": "W5-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die gemeinsame Geschwindigkeit ist ein mit den Massen gewichteter Mittelwert der beiden Geschwindigkeiten. Sie muss deshalb zwischen $+1{,}2\\,\\mathrm{m/s}$ und $-1{,}5\\,\\mathrm{m/s}$ liegen.\n\n$1{,}32\\,\\mathrm{m/s}$ ist schneller nach Osten als das schnellere Boot vorher: Der Gesamtimpuls würde von $60\\,\\mathrm{N\\,s}$ auf $660\\,\\mathrm{N\\,s}$ wachsen – das widerspricht der Impulserhaltung."
+        }
+      ]
+    },
+    {
+      "id": "W6",
+      "titel": "Rückstoß und Rakete",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c7"
+      ],
+      "bild": "img/st_W6.svg",
+      "pdf": "pdf/W6_Rueckstoss_und_Rakete.pdf",
+      "aufgaben": [
+        {
+          "id": "W6-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Impulserhaltung, vorher Gesamtimpuls null:\n\n$0 = m_S \\cdot \\Delta v + m_{Gas} \\cdot v_{aus}$\n\n$\\Delta v = -\\frac{0{,}020\\,\\mathrm{kg} \\cdot 700\\,\\mathrm{m/s}}{250\\,\\mathrm{kg}} \\approx -0{,}056\\,\\mathrm{m/s}$\n\nDer Satellit wird um $5{,}6\\,\\mathrm{cm/s}$ schneller, entgegen der Ausströmrichtung. (Die Massenänderung um $20\\,\\mathrm{g}$ ist vernachlässigbar.)"
+        },
+        {
+          "id": "W6-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Aussage ist falsch. Das Gas muss sich an nichts außerhalb abstoßen. Der Satellit übt in der Düse eine Kraft auf das Gas aus und beschleunigt es nach hinten. Nach dem Wechselwirkungsprinzip übt das Gas eine gleich große Kraft nach vorn auf den Satelliten aus.\n\nEbenso mit dem Impuls: Der Gesamtimpuls von Satellit und Gas bleibt null; erhält das Gas Impuls nach hinten, erhält der Satellit gleich viel nach vorn. Luft würde den Rückstoß sogar etwas behindern."
+        },
+        {
+          "id": "W6-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Das Gas ruht vorher (relativ zum Satelliten) und hat nachher $v_{aus}$. Seine Impulsänderung ist $\\Delta p = \\Delta m \\cdot v_{aus}$.\n\nAus $F \\cdot \\Delta t = \\Delta p$ folgt für die Kraft auf das Gas $F = \\frac{\\Delta m \\cdot v_{aus}}{\\Delta t}$.\n\nNach dem Wechselwirkungsprinzip wirkt eine gleich große Kraft in Gegenrichtung auf den Satelliten: $F = \\frac{\\Delta m}{\\Delta t} \\cdot v_{aus}$."
+        },
+        {
+          "id": "W6-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$F = \\frac{0{,}010\\,\\mathrm{kg}}{0{,}80\\,\\mathrm{s}} \\cdot 800\\,\\mathrm{m/s} = 10\\,\\mathrm{N}$\n\n$F_G = 0{,}12\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{m/s^2} \\approx 1{,}2\\,\\mathrm{N}$\n\n$F > F_G$: Die Rakete hebt ab."
+        },
+        {
+          "id": "W6-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Senkrechter Start, nach oben positiv: $F_{ges} = F - F_G = 10\\,\\mathrm{N} - 1{,}18\\,\\mathrm{N} = 8{,}82\\,\\mathrm{N}$\n\n$a = \\frac{8{,}82\\,\\mathrm{N}}{0{,}12\\,\\mathrm{kg}} \\approx 74\\,\\mathrm{m/s^2}$ (etwa $7{,}5\\,g$)"
+        },
+        {
+          "id": "W6-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Schub bleibt gleich, aber die Rakete verliert Masse (Treibstoff). Dadurch sinken die Gewichtskraft und die zu beschleunigende Masse – $a$ wächst.\n\nAm Ende: $m = 0{,}11\\,\\mathrm{kg}$, $F_G \\approx 1{,}08\\,\\mathrm{N}$\n\n$a = \\frac{10\\,\\mathrm{N} - 1{,}08\\,\\mathrm{N}}{0{,}11\\,\\mathrm{kg}} \\approx 81\\,\\mathrm{m/s^2}$"
+        }
+      ]
+    },
+    {
+      "id": "W7",
+      "titel": "Elastische Stöße",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c11",
+        "c10",
+        "c12"
+      ],
+      "bild": "img/st_W7.svg",
+      "pdf": "pdf/W7_Elastische_Stoesse.pdf",
+      "aufgaben": [
+        {
+          "id": "W7-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Mit $m_1 = m_2 = m$ und $v_2 = 0$:\n\n$v_1' = \\frac{0 \\cdot v_1 + 0}{2\\,m} = 0$; $v_2' = \\frac{0 + 2\\,m \\cdot v_1}{2\\,m} = v_1 = 2{,}0\\,\\mathrm{m/s}$\n\nDer stoßende Stein bleibt liegen, der getroffene übernimmt die ganze Geschwindigkeit."
+        },
+        {
+          "id": "W7-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Impuls: vorher $19{,}9\\,\\mathrm{kg} \\cdot 2{,}0\\,\\mathrm{m/s} = 39{,}8\\,\\mathrm{N\\,s}$; nachher $19{,}9\\,\\mathrm{kg} \\cdot 1{,}97\\,\\mathrm{m/s} \\approx 39{,}2\\,\\mathrm{N\\,s}$ – erhalten bis auf 1,5 % (Messgenauigkeit der Videoanalyse; die Reibung auf dem Eis spielt direkt nach dem Stoß kaum eine Rolle).\n\nEnergie: vorher $\\frac{1}{2} \\cdot 19{,}9 \\cdot 2{,}0^2\\,\\mathrm{J} = 39{,}8\\,\\mathrm{J}$; nachher $\\frac{1}{2} \\cdot 19{,}9 \\cdot (0{,}15^2 + 1{,}82^2)\\,\\mathrm{J} \\approx 33{,}2\\,\\mathrm{J}$, also 83 %.\n\nErgebnis: teilelastischer Stoß. Die Steine trennen sich, aber etwa 17 % der Bewegungsenergie werden umgewandelt (Verformung, Schall). Das Trennen allein (Kennzeichen im Skript) zeigt noch keinen elastischen Stoß; entscheidend ist die Energiebilanz."
+        },
+        {
+          "id": "W7-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Neutron $m_1 = m$, Kern ruht ($v_2 = 0$).\n\nWasserstoff ($m_2 = m$): $v_1' = 0$ – das Neutron gibt **100 %** ab.\n\nKohlenstoff ($m_2 = 12\\,m$): $v_1' = \\frac{m - 12\\,m}{13\\,m} \\cdot v_1 = -\\frac{11}{13}\\,v_1 \\approx -0{,}846\\,v_1$\n\nRestenergie: $\\left(\\frac{11}{13}\\right)^2 \\approx 0{,}716$, abgegeben also etwa **28 %**."
+        },
+        {
+          "id": "W7-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Für $m_2 \\gg m_1$: $v_1' = \\frac{m_1 - m_2}{m_1 + m_2} \\cdot v_1 \\approx -v_1$ und $v_2' = \\frac{2\\,m_1}{m_1 + m_2} \\cdot v_1 \\approx 0$.\n\nDas Neutron prallt wie ein Ball von einer Wand mit fast gleichem Betrag zurück und gibt kaum Energie ab. Schwere Kerne (z. B. Blei) bremsen Neutronen deshalb kaum."
+        },
+        {
+          "id": "W7-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Nach dem Modell ist Wasserstoff (z. B. in Wasser) am besten: Bei gleicher Masse kann das Neutron in einem Stoß die ganze Energie abgeben; bei Kohlenstoff braucht es viele Stöße.\n\nEinschränkende Annahmen, z. B.: Es werden nur zentrale Stöße betrachtet – real treffen die Neutronen meist schräg und geben im Mittel weniger ab. Die Kerne ruhen nicht, sie bewegen sich thermisch. Die Stöße sind als elastisch angenommen."
+        }
+      ]
+    }
+  ]
+}
