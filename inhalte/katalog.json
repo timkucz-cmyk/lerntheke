@@ -145,6 +145,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Photoeffekt, Photonen, Wahrscheinlichkeit, Weginformation, Deutung"
+        },
+        {
+          "id": "atommodell",
+          "name": "Quantenmechanisches Atommodell – Training",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Orbitale, Energieniveaus, Emission und Absorption, Linienspektren des Wasserstoffatoms"
         }
       ]
     }
