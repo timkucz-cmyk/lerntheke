@@ -64,6 +64,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Ladung, Stromstärke und Spannung, Ohm’sches Gesetz, Kennlinien, Reihen- und Parallelschaltung, Elektronenmodell"
+        },
+        {
+          "id": "energie",
+          "name": "Energie – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Energieformen, Energie, Arbeit und Leistung, Lage-, Bewegungs- und Spannenergie, Energieerhaltung, Temperatur, Wärmetransport, Wärmekapazität, Wirkungsgrad"
         }
       ]
     },
