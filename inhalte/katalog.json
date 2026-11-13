@@ -71,6 +71,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Newton’sche Axiome, Kräftezerlegung, Reibung, Impuls, Stöße, Rakete, Fallschirmsprung"
+        },
+        {
+          "id": "kreisbewegung",
+          "name": "Kreisbewegung – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Umlaufdauer, Frequenz, Bahn- und Winkelgeschwindigkeit, Zentripetalkraft, Kurven im Straßenverkehr, Drehimpulserhaltung"
         }
       ]
     },
