@@ -125,6 +125,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Ober-/Untersumme, Stammfunktionen, Hauptsatz, Flächen"
+        },
+        {
+          "id": "analytische-geometrie",
+          "name": "Analytische Geometrie – Trainingswoche",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Skalarprodukt, Vektorprodukt, Ebenen in Parameter-, Koordinaten- und Normalenform, Lagebeziehungen, Schnittpunkte, Winkel, Scharen"
         }
       ]
     },
