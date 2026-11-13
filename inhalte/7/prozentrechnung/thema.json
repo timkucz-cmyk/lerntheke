@@ -1,0 +1,666 @@
+{
+  "version": 1,
+  "titel": "Dreisatz, Prozent- und Zinsrechnung – Training vor der Klassenarbeit",
+  "fach": "mathe",
+  "anrede": "du",
+  "hinweis": "Erst P1 bis P3, dann Wahlstationen – am besten die, die dir empfohlen werden. Unsicher bei Brüchen, Kommazahlen oder Prozent? Dann starte mit W1. Ohne Taschenrechner – nur in W4 darfst du ihn benutzen. Für W3 Geodreieck bereitlegen; dein Regelheft darfst du benutzen.",
+  "checkliste": [
+    {
+      "id": "c1",
+      "text": "Prüfen und begründen, ob eine Zuordnung antiproportional sein kann (Vervielfachen, Produktgleichheit)"
+    },
+    {
+      "id": "c2",
+      "text": "Die Antiproportionalitätskonstante $p$ bestimmen, die Formel $y = p : x$ angeben, $p$ im Sachzusammenhang beschreiben und den Graphen (Hyperbel) zeichnen"
+    },
+    {
+      "id": "c3",
+      "text": "Fehlende Werte mit dem Dreisatz berechnen – bei proportionalen und bei antiproportionalen Zuordnungen"
+    },
+    {
+      "id": "c4",
+      "text": "Entscheiden, ob ein Dreisatz in einer Sachsituation sinnvoll ist, und beurteilen, ob das Ergebnis realistisch ist"
+    },
+    {
+      "id": "c5",
+      "text": "Anteile als Bruch, Dezimalzahl und in Prozent angeben und ineinander umwandeln – auch über 100 %"
+    },
+    {
+      "id": "c6",
+      "text": "In Sachsituationen Grundwert $G$, Prozentwert $W$ und Prozentsatz $p\\,\\%$ erkennen und erläutern"
+    },
+    {
+      "id": "c7",
+      "text": "Prozentwert, Grundwert und Prozentsatz mit der Grundformel oder mit dem Dreisatz berechnen"
+    },
+    {
+      "id": "c8",
+      "text": "Rabatte, Preiserhöhungen und prozentuale Änderungen berechnen – auch rückwärts den alten Preis"
+    },
+    {
+      "id": "c9",
+      "text": "Jahreszinsen $Z$, Kapital $K$ und Zinssatz $p\\,\\%$ berechnen und das Guthaben nach einem Jahr angeben"
+    },
+    {
+      "id": "c10",
+      "text": "Prozentangaben in Alltag und Werbung beurteilen (Worauf bezieht sich der Grundwert?)"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p1",
+      "name": "Antiproportional und Dreisatz",
+      "untertitel": "Prüfen, Konstante, Dreisatz",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Prozentrechnung",
+      "untertitel": "Anteile, Grundwert, Prozentwert, Prozentsatz",
+      "farbe": "orange",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c7"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Prozente im Alltag und Zinsen",
+      "untertitel": "Rabatt, Preiserhöhung, Sparen",
+      "farbe": "gruen",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10"
+      ]
+    }
+  ],
+  "abschluss": "Klassenarbeit",
+  "stationen": [
+    {
+      "id": "P1",
+      "titel": "Antiproportional und Dreisatz",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Schreibe beim Dreisatz die Tabelle mit den Rechenzeichen links und rechts auf. Antiproportionale Zuordnungen heißen im Regelheft auch antiproportionale Funktionen.",
+      "bild": "img/st_P1.svg",
+      "pdf": "pdf/P1_Antiproportional_Dreisatz.pdf",
+      "aufgaben": [
+        {
+          "id": "P1-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Produkte berechnen: $2 \\cdot 16 = 32$ und $4 \\cdot 12 = 48$. Schon die ersten beiden Produkte sind verschieden. Die Zuordnung **kann nicht antiproportional sein**.\n\nAuch zu sehen: Zum Doppelten von 2 gehört 12. Die Hälfte von 16 wäre aber 8.\n\n1 P Produkte (oder Doppeltes/Hälfte), 1 P Entscheidung.\n\n*„Je mehr, desto weniger“ gedacht?* Das reicht nicht. Die y-Werte werden zwar kleiner, aber nicht im richtigen Verhältnis. → **W5** Aufgabe 2 und **W3**"
+        },
+        {
+          "id": "P1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Kosten pro Person = 720 € geteilt durch die Anzahl der Personen: $720 : 10 = 72$, $720 : 20 = 36$, $720 : 24 = 30$, $720 : 30 = 24$.\n\n| Anzahl der Personen | 10 | 20 | 24 | 30 |\n|---|---|---|---|---|\n| Kosten pro Person (in €) | 72 | 36 | 30 | 24 |"
+        },
+        {
+          "id": "P1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$p = x \\cdot y$, zum Beispiel $10 \\cdot 72 = 720$ (ebenso $20 \\cdot 36 = 720$). Die Antiproportionalitätskonstante ist $p = 720$.\n\nBedeutung: $p$ gibt die **gesamten Kosten für den Bus** an (720 €). Anzahl der Personen mal Betrag pro Person ergibt immer den ganzen Preis."
+        },
+        {
+          "id": "P1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Zuordnung *Anzahl der Karten → Preis (in €)* ist proportional: Doppelt so viele Karten kosten doppelt so viel. Links und rechts wird gleich gerechnet.\n\n| | Anzahl der Karten | Preis (in €) | |\n|---|---|---|---|\n|  | 4 | 14 |  |\n| $: 4$ | 1 | 3,50 | $: 4$ |\n| $\\cdot 7$ | 7 | 24,50 | $\\cdot 7$ |\n\n7 Karten kosten **24,50 €**."
+        },
+        {
+          "id": "P1-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Zuordnung *Anzahl der Pumpen → Zeit (in min)* ist antiproportional: Doppelt so viele Pumpen brauchen nur halb so lange. Rechts steht deshalb immer die **Gegenoperation**.\n\n| | Anzahl der Pumpen | Zeit (in min) | |\n|---|---|---|---|\n|  | 2 | 45 |  |\n| $: 2$ | 1 | 90 | $\\cdot 2$ |\n| $\\cdot 3$ | 3 | 30 | $: 3$ |\n\nMit 3 Pumpen dauert es **30 Minuten**. Probe: $2 \\cdot 45 = 90$ und $3 \\cdot 30 = 90$ ✓\n\n*Rechts auch durch 2 geteilt?* Eine Pumpe allein braucht länger, nicht kürzer. → **W5** Aufgabe 1"
+        },
+        {
+          "id": "P1-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**.\n\nDie Zuordnung ist antiproportional, das Produkt bleibt $p = 90$ (eine Pumpe braucht 90 Minuten):\n\n- 4 Pumpen: $90 : 4 = 22{,}5$, also 22,5 Minuten. Das sind nur 7,5 Minuten weniger als mit 3 Pumpen.\n- Nach Lukas bräuchten 5 Pumpen $30 - 15 - 15 = 0$ Minuten. Das ist unmöglich.\n\nBei antiproportionalen Zuordnungen wird die Zeit nicht immer um denselben Betrag kleiner. Jede weitere Pumpe spart weniger Zeit.\n\n1 P Rechnung oder Gegenbeispiel, 1 P Begründung."
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "titel": "Grundwert, Prozentwert, Prozentsatz",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c5",
+        "c10"
+      ],
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Schreibe immer auf, was gegeben und was gesucht ist ($G$, $W$ oder $p\\,\\%$).",
+      "bild": "img/st_P2.svg",
+      "pdf": "pdf/P2_Grundwert_Prozentwert_Prozentsatz.pdf",
+      "aufgaben": [
+        {
+          "id": "P2-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- (1) $\\frac{3}{20} = \\frac{15}{100} = 0{,}15 = 15\\,\\%$ (mit 5 erweitern)\n- (2) $1{,}2 = \\frac{12}{10} = \\frac{6}{5}$ und $1{,}20 = 120\\,\\%$ (Komma zwei Stellen nach rechts)\n\nJe Zeile 1 P. Mehr als ein Ganzes sind mehr als 100 %.\n\n*Unsicher?* → **W1**"
+        },
+        {
+          "id": "P2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- Grundwert (das Ganze): $G = 240$ Seiten\n- Prozentwert (der Teil): $W = 180$ Seiten\n\n$$p\\,\\% = \\frac{W}{G} = \\frac{180}{240} = \\frac{18}{24} = \\frac{3}{4} = 0{,}75 = 75\\,\\%$$\n\nKürzen: erst durch 10, dann durch 6.\n\nLeon hat **75 %** des Buches gelesen."
+        },
+        {
+          "id": "P2-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Gesucht ist der **Prozentwert** $W$. Gegeben: $G = 60$ € und $p\\,\\% = 15\\,\\%$.\n\n$W = p\\,\\% \\cdot G = 0{,}15 \\cdot 60 = 9$\n\nOder im Kopf: 10 % von 60 € sind 6 €, 5 % sind 3 €, zusammen **9 €**."
+        },
+        {
+          "id": "P2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gesucht ist der **Grundwert** $G$ (die ganze Abteilung). Gegeben: $W = 18$ Kinder und $p\\,\\% = 30\\,\\%$.\n\n$G = W : p\\,\\% = 18 : 0{,}3 = 180 : 3 = 60$\n\nMit dem Dreisatz: 30 % → 18 Kinder, 10 % → 6 Kinder, 100 % → 60 Kinder.\n\nDie Jugendabteilung hat **60 Kinder**.\n\n*G und W vertauscht?* Wer $0{,}3 \\cdot 18 = 5{,}4$ rechnet, bekommt weniger als 18 Kinder. Das Ganze muss aber größer sein als der Teil. → **W5** Aufgabe 3"
+        },
+        {
+          "id": "P2-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Gesucht ist der Grundwert $G$. Gegeben: $W = 7$ € und $p\\,\\% = 35\\,\\%$.\n\nGrundformel: $G = W : p\\,\\% = 7 : 0{,}35 = 700 : 35 = 20$\n\nDreisatz mit dem geschickten Zwischenschritt 5 %:\n\n| | Prozent | Betrag (in €) | |\n|---|---|---|---|\n|  | 35 % | 7 |  |\n| $: 7$ | 5 % | 1 | $: 7$ |\n| $\\cdot 20$ | 100 % | 20 | $\\cdot 20$ |\n\nEmilys Taschengeld beträgt **20 €**.\n\n1 P Grundformel, 1 P Dreisatz, 1 P Ergebnis."
+        },
+        {
+          "id": "P2-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage stimmt **nicht unbedingt**. Die Prozentsätze beziehen sich auf **verschiedene Grundwerte**: Die Klassen können unterschiedlich groß sein.\n\nGegenbeispiel: Lias Klasse hat 20 Kinder, Toms Klasse hat 28 Kinder.\n\n- Lias Klasse: 60 % von 20 sind $0{,}6 \\cdot 20 = 12$ Kinder.\n- Toms Klasse: 50 % von 28 sind $0{,}5 \\cdot 28 = 14$ Kinder.\n\nDann haben in Toms Klasse mehr Kinder ein Haustier. Sicher recht hat Jonas, wenn Lias Klasse mindestens so groß ist wie Toms Klasse. Ist sie kleiner, kommt es auf die genauen Zahlen an: Bei 25 und 28 Kindern hätte er recht ($0{,}6 \\cdot 25 = 15$ und $0{,}5 \\cdot 28 = 14$).\n\n1 P Grundwert erkannt, 1 P Gegenbeispiel oder Begründung."
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "titel": "Rabatte, Preiserhöhungen, Zinsen",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10"
+      ],
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Überlege immer zuerst, welcher Wert 100 % ist.",
+      "bild": "img/st_P3.svg",
+      "pdf": "pdf/P3_Rabatte_Preiserhoehungen_Zinsen.pdf",
+      "aufgaben": [
+        {
+          "id": "P3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Man zahlt $100\\,\\% - 25\\,\\% = 75\\,\\%$ des Preises: $0{,}75 \\cdot 80 = 60$.\n\nOder: Rabatt $0{,}25 \\cdot 80 = 20$, also 20 €, und $80 - 20 = 60$.\n\nDie Kopfhörer kosten **60 €**."
+        },
+        {
+          "id": "P3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$100\\,\\% + 20\\,\\% = 120\\,\\%$ und $1{,}2 \\cdot 15 = 18$.\n\nOder: Erhöhung $0{,}2 \\cdot 15 = 3$, also 3 €, und $15 + 3 = 18$.\n\nDie App kostet jetzt **18 €**."
+        },
+        {
+          "id": "P3-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der alte Preis ist der Grundwert (100 %). Der neue Preis ist $100\\,\\% - 20\\,\\% = 80\\,\\%$ davon. Also: 80 % entsprechen 36 €.\n\n| | Prozent | Preis (in €) | |\n|---|---|---|---|\n|  | 80 % | 36 |  |\n| $: 4$ | 20 % | 9 | $: 4$ |\n| $\\cdot 5$ | 100 % | 45 | $\\cdot 5$ |\n\nOder mit der Grundformel: $G = W : p\\,\\% = 36 : 0{,}8 = 45$\n\nDer alte Preis war **45 €**. Probe: 20 % von 45 € sind 9 €, und $45 - 9 = 36$ ✓\n\n*36 € + 20 % gerechnet (43,20 €)?* Die 20 % beziehen sich auf den alten Preis, nicht auf 36 €. → **W5** Aufgabe 4"
+        },
+        {
+          "id": "P3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der alte Beitrag ist der Grundwert: $G = 40$ €. Die Erhöhung ist der Prozentwert: $W = 46 - 40 = 6$, also 6 €.\n\n$$p\\,\\% = \\frac{W}{G} = \\frac{6}{40} = \\frac{3}{20} = \\frac{15}{100} = 15\\,\\%$$\n\nErst durch 2 kürzen, dann mit 5 auf Hundertstel erweitern.\n\nDer Beitrag steigt um **15 %**.\n\n*Durch 46 geteilt?* Der Grundwert ist immer der alte Wert. → **W5** Aufgabe 6"
+        },
+        {
+          "id": "P3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Gegeben: Kapital $K = 600$ € und Zinssatz $p\\,\\% = 1{,}5\\,\\%$.\n\n$Z = K \\cdot p\\,\\% = 600 \\cdot 0{,}015 = 9$\n\nOder im Kopf: 1 % von 600 € sind 6 €, 0,5 % sind 3 €, zusammen 9 €.\n\nNina bekommt **9 €** Jahreszinsen. Guthaben nach einem Jahr: $600 + 9 = 609$, also **609 €**.\n\n1 P Zinsen, 1 P Guthaben. Mehr zu Zinsen in **W6**.\n\n*900 € Zinsen herausbekommen?* Mit $1{,}5\\,\\% = 0{,}015$ rechnen, nicht mit 1,5. → **W5** Aufgabe 5"
+        },
+        {
+          "id": "P3-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zuerst die Zinsen: $Z = 410 - 400 = 10$, also 10 €.\n\n$$p\\,\\% = \\frac{Z}{K} = \\frac{10}{400} = 0{,}025 = 2{,}5\\,\\%$$\n\nOhne Bruch: 1 % von 400 € sind 4 €. $10 : 4 = 2{,}5$, also sind 10 € genau 2,5 %.\n\nDer Zinssatz beträgt **2,5 %**.\n\n1 P Zinsen, 1 P Zinssatz."
+        },
+        {
+          "id": "P3-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**. Beispiel mit 80 €:\n\n- 25 % billiger: $0{,}75 \\cdot 80 = 60$, also 60 €.\n- Danach 25 % teurer: 25 % von 60 € sind 15 €, $60 + 15 = 75$, also 75 €.\n\n75 € ist weniger als 80 €. Der Grund: Die Erhöhung bezieht sich auf den **kleineren Grundwert** 60 €, die Senkung auf 80 €. 25 % von 60 € sind weniger als 25 % von 80 €.\n\n1 P Beispielrechnung, 1 P Begründung mit dem Grundwert."
+        }
+      ]
+    },
+    {
+      "id": "W1",
+      "titel": "Startklar: Bruch, Dezimalzahl, Prozent",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c5"
+      ],
+      "hinweis": "Einzelarbeit, 15 Minuten, ohne Taschenrechner. Gut als Start, wenn du bei Brüchen, Kommazahlen oder Prozent unsicher bist.",
+      "bild": "img/st_W1.svg",
+      "pdf": "pdf/W1_Startklar.pdf",
+      "aufgaben": [
+        {
+          "id": "W1-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| | Bruch | Dezimalzahl | Prozent |\n|---|---|---|---|\n| (1) | $\\frac{2}{5}$ | 0,4 | 40 % |\n| (2) | $\\frac{7}{100}$ | 0,07 | 7 % |\n| (3) | $\\frac{7}{20}$ | 0,35 | 35 % |\n| (4) | $\\frac{5}{1000}$ | 0,005 | 0,5 % |\n\nRechenwege: $\\frac{2}{5} = \\frac{40}{100}$ (mit 20 erweitern) und $\\frac{7}{20} = \\frac{35}{100}$ (mit 5 erweitern) – bei Hundertsteln ist der Zähler die Prozentzahl. Von Prozent zur Dezimalzahl: Komma zwei Stellen nach links, $0{,}5\\,\\% = 0{,}005$. Gekürzt wäre $\\frac{5}{1000} = \\frac{1}{200}$.\n\nJe Zeile 0,5 P."
+        },
+        {
+          "id": "W1-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Alles als Dezimalzahl schreiben: $0{,}3$; $\\frac{1}{4} = 0{,}25$; $28\\,\\% = 0{,}28$; $\\frac{3}{10} = 0{,}3$.\n\nReihenfolge: $\\frac{1}{4} < 28\\,\\% < 0{,}3 = \\frac{3}{10}$\n\n$0{,}3$ und $\\frac{3}{10}$ sind **dieselbe Zahl** (30 %)."
+        },
+        {
+          "id": "W1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- 10 % ist ein Zehntel: $70 : 10 = 7$, also 7 €.\n- 1 % ist ein Hundertstel: $350 : 100 = 3{,}5$, also 3,50 €.\n- 25 % ist ein Viertel: $48 : 4 = 12$, also 12 kg.\n- 5 % ist die Hälfte von 10 %: 10 % von 60 € sind 6 €, also 3 €.\n\nJe Ergebnis 0,5 P."
+        },
+        {
+          "id": "W1-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "100 % ist immer das Ganze, also der Grundwert. Ist der betrachtete Wert größer als der Grundwert, liegt der Prozentsatz über 100 %.\n\nBeispiel: Ein Verein hatte letztes Jahr 40 Mitglieder, jetzt sind es 50. Das sind $\\frac{50}{40} = 1{,}25 = 125\\,\\%$ der Mitglieder vom letzten Jahr.\n\nBen hat nur bei Anteilen recht: Von einer Klasse können höchstens 100 % der Kinder ein Fahrrad haben.\n\n1 P Beispiel, 1 P Begründung mit dem Grundwert."
+        }
+      ]
+    },
+    {
+      "id": "W2",
+      "titel": "Tandem: Dreisatz und Prozente",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c7",
+        "c9"
+      ],
+      "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert. Nach jeder Nummer wird gewechselt.",
+      "bild": "img/st_W2.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "W2-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Die Zuordnung *Anzahl der Flaschen → Preis (in €)* ist proportional. 6 Flaschen Wasser kosten 4,20 €. Berechne mit dem Dreisatz den Preis für 10 Flaschen.",
+          "tipp": "Rechne zuerst den Preis für 1 Flasche.",
+          "loesung": "| | Flaschen | Preis (in €) | |\n|---|---|---|---|\n|  | 6 | 4,20 |  |\n| $: 6$ | 1 | 0,70 | $: 6$ |\n| $\\cdot 10$ | 10 | 7 | $\\cdot 10$ |\n\n10 Flaschen kosten **7 €**."
+        },
+        {
+          "id": "W2-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Die Zuordnung *Anzahl der Comics → Preis (in €)* ist proportional. 4 Comics kosten 14 €. Berechne mit dem Dreisatz den Preis für 6 Comics.",
+          "tipp": "Rechne zuerst den Preis für 1 Comic.",
+          "loesung": "| | Comics | Preis (in €) | |\n|---|---|---|---|\n|  | 4 | 14 |  |\n| $: 4$ | 1 | 3,50 | $: 4$ |\n| $\\cdot 6$ | 6 | 21 | $\\cdot 6$ |\n\n6 Comics kosten **21 €**."
+        },
+        {
+          "id": "W2-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "28 Kinder sammeln für ein Abschiedsgeschenk, jedes Kind zahlt 3 €. Es machen aber nur 21 Kinder mit, das Geschenk soll trotzdem so viel kosten wie geplant. Berechne mit dem Dreisatz, wie viel jedes Kind dann zahlen muss.",
+          "tipp": "Weniger Kinder – jedes zahlt mehr. Rechts steht die Gegenoperation.",
+          "loesung": "| | Kinder | Betrag pro Kind (in €) | |\n|---|---|---|---|\n|  | 28 | 3 |  |\n| $: 28$ | 1 | 84 | $\\cdot 28$ |\n| $\\cdot 21$ | 21 | 4 | $: 21$ |\n\nJedes Kind zahlt **4 €**. Probe: $21 \\cdot 4 = 84$ ✓"
+        },
+        {
+          "id": "W2-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "4 Kinder rechen das Laub im Garten in 6 Stunden zusammen. Alle arbeiten gleich schnell. Berechne mit dem Dreisatz, wie lange 3 Kinder brauchen.",
+          "tipp": "Weniger Kinder – es dauert länger. Rechts steht die Gegenoperation.",
+          "loesung": "| | Kinder | Zeit (in h) | |\n|---|---|---|---|\n|  | 4 | 6 |  |\n| $: 4$ | 1 | 24 | $\\cdot 4$ |\n| $\\cdot 3$ | 3 | 8 | $: 3$ |\n\n3 Kinder brauchen **8 Stunden**. Probe: $4 \\cdot 6 = 24$ und $3 \\cdot 8 = 24$ ✓"
+        },
+        {
+          "id": "W2-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "6 € sind 15 % eines Betrags. Berechne den Grundwert.",
+          "tipp": "Gesucht ist das Ganze. Rechne zuerst 5 %.",
+          "loesung": "| | Prozent | Betrag (in €) | |\n|---|---|---|---|\n|  | 15 % | 6 |  |\n| $: 3$ | 5 % | 2 | $: 3$ |\n| $\\cdot 20$ | 100 % | 40 | $\\cdot 20$ |\n\nOder: $G = 6 : 0{,}15 = 600 : 15 = 40$. Der Grundwert ist **40 €**."
+        },
+        {
+          "id": "W2-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "9 € sind 30 % eines Betrags. Berechne den Grundwert.",
+          "tipp": "Gesucht ist das Ganze. Rechne zuerst 10 %.",
+          "loesung": "| | Prozent | Betrag (in €) | |\n|---|---|---|---|\n|  | 30 % | 9 |  |\n| $: 3$ | 10 % | 3 | $: 3$ |\n| $\\cdot 10$ | 100 % | 30 | $\\cdot 10$ |\n\nOder: $G = 9 : 0{,}3 = 90 : 3 = 30$. Der Grundwert ist **30 €**."
+        },
+        {
+          "id": "W2-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Guthaben von 1500 € wird mit 2 % im Jahr verzinst. Berechne die Jahreszinsen.",
+          "tipp": "1 % von 1500 € sind 15 €.",
+          "loesung": "$Z = K \\cdot p\\,\\% = 1500 \\cdot 0{,}02 = 30$\n\nDie Jahreszinsen betragen **30 €** (1 % sind 15 €, 2 % sind 30 €)."
+        },
+        {
+          "id": "W2-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Guthaben von 900 € wird mit 2 % im Jahr verzinst. Berechne die Jahreszinsen.",
+          "tipp": "1 % von 900 € sind 9 €.",
+          "loesung": "$Z = K \\cdot p\\,\\% = 900 \\cdot 0{,}02 = 18$\n\nDie Jahreszinsen betragen **18 €** (1 % sind 9 €, 2 % sind 18 €)."
+        }
+      ]
+    },
+    {
+      "id": "W3",
+      "titel": "Antiproportional: Graph und Formel",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c2",
+        "c1"
+      ],
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Für den Graphen brauchst du Karopapier und ein Geodreieck.",
+      "bild": "img/st_W3.svg",
+      "pdf": "pdf/W3_Graph_und_Formel.pdf",
+      "aufgaben": [
+        {
+          "id": "W3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Stühle pro Reihe = 36 geteilt durch die Anzahl der Reihen, z. B. $36 : 4 = 9$.\n\n| Anzahl der Reihen | 1 | 2 | 3 | 4 | 6 |\n|---|---|---|---|---|---|\n| Stühle pro Reihe | 36 | 18 | 12 | 9 | 6 |\n\nDie Zuordnung ist antiproportional mit $p = 36$."
+        },
+        {
+          "id": "W3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Achsen beschriften: x-Achse *Anzahl der Reihen*, y-Achse *Stühle pro Reihe*.\n\nDie fünf Wertepaare $(1 \\mid 36)$, $(2 \\mid 18)$, $(3 \\mid 12)$, $(4 \\mid 9)$ und $(6 \\mid 6)$ als Kreuze eintragen. Die Punkte liegen auf einer Hyperbel, werden aber nicht verbunden.",
+          "loesung_bild": "img/W3-1b.png"
+        },
+        {
+          "id": "W3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Es gibt nur ganze Reihen und ganze Stühle, zum Beispiel keine 2,5 Reihen. Zwischen den Punkten gibt es keine sinnvollen Werte. Deshalb bleiben es einzelne Punkte."
+        },
+        {
+          "id": "W3-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "- A → Graph **2** (Punkte auf einer Hyperbel): doppelt so viele Helfer, halbe Zeit – antiproportional.\n- B → Graph **3** (Punkte auf einer Ursprungsgeraden): doppelt so viele Bänder, doppelter Preis – proportional.\n- C → Graph **1** (Punkte auf einer fallenden Geraden): Das Guthaben wird jeden Monat um 5 € kleiner.\n\nC ist nicht antiproportional: Nach 1 Monat sind noch 25 € auf der Karte, nach 2 Monaten 20 €. Die Produkte $1 \\cdot 25 = 25$ und $2 \\cdot 20 = 40$ sind verschieden. Außerdem ist die Karte nach 6 Monaten leer – der Graph erreicht die x-Achse, eine Hyperbel nie.\n\nJe Zuordnung 0,5 P, Begründung 1,5 P."
+        },
+        {
+          "id": "W3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$p = x \\cdot y = 20 \\cdot 30 = 600$\n\nFormel: $y = 600 : x$ bzw. $y = \\frac{600}{x}$\n\nZur Bedeutung: In das Planschbecken passen 600 Liter Wasser (Liter pro Minute mal Minuten).\n\n1 P $p$, 1 P Formel."
+        },
+        {
+          "id": "W3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Auf der x-Achse wäre $y = 0$. Bei einer antiproportionalen Zuordnung gilt aber $x \\cdot y = p$, zum Beispiel $p = 36$. Wäre $y = 0$, dann wäre auch $x \\cdot y = 0$ und nicht 36.\n\nAnders gesagt: $y = p : x$ wird immer kleiner, je größer $x$ wird, aber nie 0. Man teilt eine feste Zahl nur durch immer größere Zahlen.\n\n1 P Ansatz mit dem Produkt (oder mit $p : x$), 1 P Begründung."
+        }
+      ]
+    },
+    {
+      "id": "W4",
+      "titel": "Sachprobleme und Modellieren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c10",
+        "c4",
+        "c8"
+      ],
+      "hinweis": "Einzelarbeit, 25 Minuten. Hier darfst du den Taschenrechner benutzen. Schreibe den Rechenweg auf.",
+      "bild": "img/st_W4.svg",
+      "pdf": "pdf/W4_Sachprobleme.pdf",
+      "aufgaben": [
+        {
+          "id": "W4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Kosten pro Person = Anteil an der Bahn + Schuhe:\n\n- 10 Personen: $60 : 10 + 5 = 6 + 5 = 11$, also 11 €.\n- 15 Personen: $60 : 15 + 5 = 4 + 5 = 9$, also 9 €."
+        },
+        {
+          "id": "W4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Produkte: $10 \\cdot 11 = 110$ und $15 \\cdot 9 = 135$. Die Produkte sind verschieden, die Zuordnung ist **nicht antiproportional**.\n\nDas Produkt ist der Gesamtpreis. Er wächst mit jeder Person um 5 € für die Schuhe."
+        },
+        {
+          "id": "W4-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bei 20 statt 10 Personen: $60 : 20 + 5 = 3 + 5 = 8$, also 8 €. Die Hälfte von 11 € wären 5,50 €.\n\nNur der Anteil für die Bahnen halbiert sich (von 6 € auf 3 €). Die 5 € für die Schuhe zahlt jeder immer. Die Aussage stimmt also **nicht**. Richtig wäre sie nur, wenn jeder nur seinen Anteil an den Bahnen zahlen müsste (ohne Schuhe)."
+        },
+        {
+          "id": "W4-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "- (1) **Ja.** *Anzahl → Preis* ist proportional, solange es keinen Mengenrabatt gibt (1 Riegel kostet $2{,}10 : 3 = 0{,}70$, also 0,70 €; 5 Riegel kosten 3,50 €).\n- (2) **Eher nein.** Der Dreisatz liefert 60 Minuten. Handys laden am Ende aber langsamer, um den Akku zu schonen. Es dauert wahrscheinlich länger. Auch richtig: „Der Dreisatz gibt nur einen Schätzwert, weil er gleichmäßiges Laden voraussetzt.“\n- (3) **Nein.** Kinder wachsen nicht gleichmäßig weiter, irgendwann hört das Wachstum auf. 2,80 m sind unrealistisch.\n\nVoraussetzung für den Dreisatz: Die Zuordnung ist proportional oder antiproportional.\n\nJe Situation 1 P (Entscheidung mit Begründung)."
+        },
+        {
+          "id": "W4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$12{,}99 : 10 = 1{,}299$, also etwa **1,30 €** pro GB."
+        },
+        {
+          "id": "W4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Tarif B:\n\n- Datenvolumen: $10 \\cdot 1{,}2 = 12$, also 12 GB.\n- Preis: $12{,}99 \\cdot 1{,}15 \\approx 14{,}94$, also 14,94 €.\n- Pro GB: $14{,}94 : 12 \\approx 1{,}25$, also etwa 1,25 € (mit dem ungerundeten Preis gerechnet 1,24 € – beides ist richtig).\n\nTarif B ist pro GB **günstiger**. Das sieht man auch ohne Rechnung: Das Datenvolumen wächst stärker (20 %) als der Preis (15 %).\n\n1 P Preis pro GB bei B, 1 P Vergleich."
+        },
+        {
+          "id": "W4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Laden A: 3 Paar zum Preis von 2, also $2 \\cdot 6 = 12$ €. Pro Paar sind das $12 : 3 = 4$ €. Man spart ein Drittel, also etwa 33 %.\n\nLaden B: pro Paar $0{,}7 \\cdot 6 = 4{,}2$, also 4,20 €. Man spart 30 %.\n\n- Wer **3 Paar** braucht, kauft bei A günstiger (12 € statt 12,60 €).\n- Wer nur **1 oder 2 Paar** braucht, kauft bei B günstiger (2 Paar: 8,40 € statt 12 €).\n- Bei mehr Paaren wechselt es: 4 Paar A 18 €, B 16,80 €; 6 Paar A 24 €, B 25,20 €.\n\nEs kommt also darauf an, wie viele Paare man wirklich braucht. Bei A lohnt es sich nur in vollen Dreierpacks.\n\n1 P Vergleich pro Paar, 1 P Beurteilung mit Bedingung."
+        }
+      ]
+    },
+    {
+      "id": "W5",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c3",
+        "c1",
+        "c7"
+      ],
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. In jeder Lösung steckt ein typischer Fehler.",
+      "bild": "img/st_W5.svg",
+      "pdf": "pdf/W5_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "W5-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Finn rechnet links und rechts gleich, wie bei einer proportionalen Zuordnung. *Anzahl der Kinder → Zeit* ist aber antiproportional: Ein Kind allein braucht **länger**.\n\nRichtig:\n\n| | Kinder | Zeit (in min) | |\n|---|---|---|---|\n|  | 3 | 40 |  |\n| $: 3$ | 1 | 120 | $\\cdot 3$ |\n| $\\cdot 2$ | 2 | 60 | $: 2$ |\n\n2 Kinder brauchen **60 Minuten**."
+        },
+        {
+          "id": "W5-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: „Je mehr, desto weniger“ reicht nicht. Bei einer antiproportionalen Zuordnung müssen alle Produkte gleich sein.\n\nRichtig: $1 \\cdot 10 = 10$, $2 \\cdot 8 = 16$, $3 \\cdot 6 = 18$. Die Produkte sind verschieden, die Zuordnung **kann nicht antiproportional sein**. Zum Doppelten von 1 müsste die Hälfte von 10 gehören, also 5 und nicht 8."
+        },
+        {
+          "id": "W5-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Fehler: Tarek hat Grundwert und Prozentwert vertauscht. 24 € sind der Teil ($W$), gesucht ist das Ganze ($G$). Das Ganze muss größer sein als 24 €.\n\nRichtig: $G = W : p\\,\\% = 24 : 0{,}4 = 60$. Oder mit dem Dreisatz: 40 % → 24 €, 10 % → 6 €, 100 % → 60 €. Der Betrag ist **60 €**."
+        },
+        {
+          "id": "W5-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Die 20 % beziehen sich auf den **alten** Preis, nicht auf 48 €. Probe: 20 % von 57,60 € sind 11,52 €, und $57{,}6 - 11{,}52 = 46{,}08$. Das sind nicht 48 €.\n\nRichtig: 48 € sind $100\\,\\% - 20\\,\\% = 80\\,\\%$ des alten Preises.\n\n| | Prozent | Preis (in €) | |\n|---|---|---|---|\n|  | 80 % | 48 |  |\n| $: 8$ | 10 % | 6 | $: 8$ |\n| $\\cdot 10$ | 100 % | 60 | $\\cdot 10$ |\n\nVorher kostete es **60 €**."
+        },
+        {
+          "id": "W5-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Fehler: Malte rechnet mit 2 statt mit $2\\,\\% = 0{,}02$. 600 € Zinsen wären doppelt so viel wie das ganze Guthaben – das kann nicht stimmen. Überschlag: 1 % von 300 € sind 3 €.\n\nRichtig: $Z = K \\cdot p\\,\\% = 300 \\cdot 0{,}02 = 6$. Die Zinsen betragen **6 €**."
+        },
+        {
+          "id": "W5-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Ida teilt durch den neuen Preis. Der Grundwert ist aber der **alte** Preis, also 60 €.\n\nRichtig: Erhöhung $W = 75 - 60 = 15$, also 15 €. $p\\,\\% = \\frac{15}{60} = \\frac{1}{4} = 25\\,\\%$ (durch 15 kürzen). Der Preis ist um **25 %** gestiegen. Probe: 25 % von 60 € sind 15 € ✓"
+        }
+      ]
+    },
+    {
+      "id": "W6",
+      "titel": "Zinsen und Sparen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c10"
+      ],
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Rund ums Sparen: Kapital, Zinssatz, Zinsen.",
+      "bild": "img/st_W6.svg",
+      "pdf": "pdf/W6_Zinsen_und_Sparen.pdf",
+      "aufgaben": [
+        {
+          "id": "W6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$Z = K \\cdot p\\,\\% = 800 \\cdot 0{,}015 = 12$, also **12 €** (1 % von 800 € sind 8 €, 0,5 % sind 4 €)."
+        },
+        {
+          "id": "W6-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- (2) $K = Z : p\\,\\% = 9 : 0{,}02 = 900 : 2 = 450$, also **450 €** (Dreisatz: 2 % → 9 €, 1 % → 4,50 €, 100 % → 450 €).\n- (3) 1 % von 1200 € sind $1200 : 100 = 12$, also 12 €. $30 : 12 = 2{,}5$, also sind 30 € genau **2,5 %**. Mit der Formel: $p\\,\\% = \\frac{Z}{K} = \\frac{30}{1200} = 0{,}025 = 2{,}5\\,\\%$\n\nJe Zeile 1 P."
+        },
+        {
+          "id": "W6-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- Bank A: $400 \\cdot 0{,}015 = 6$, also 6 € Zinsen.\n- Bank B: $400 \\cdot 0{,}025 = 10$, also 10 € Zinsen. Nach Abzug der Gebühr bleiben $10 - 5 = 5$, also 5 €.\n\nBei **Bank A** hat man 1 € mehr."
+        },
+        {
+          "id": "W6-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Was am Jahresende dazukommt:\n\n| Guthaben | 400 € | 500 € | 600 € |\n|---|---|---|---|\n| Bank A | 6 € | 7,50 € | 9 € |\n| Bank B (Zinsen minus 5 €) | 5 € | 7,50 € | 10 € |\n\nBei **500 €** bringen beide gleich viel (7,50 €). Bei einem größeren Guthaben bringt **Bank B** mehr.\n\nGrund: Bank B zahlt 2,5 % statt 1,5 %, also 1 % des Guthabens mehr an Zinsen. Das lohnt sich erst, wenn 1 % des Guthabens mehr als 5 € ist – also bei mehr als 500 €.\n\n1 P Probieren mit Tabelle (500 €), 1 P Bank B bei größerem Guthaben."
+        },
+        {
+          "id": "W6-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Startguthaben ist der Grundwert (100 %). Mit den Zinsen sind es $100\\,\\% + 2\\,\\% = 102\\,\\%$. Also: 102 % entsprechen 510 €.\n\n| | Prozent | Guthaben (in €) | |\n|---|---|---|---|\n|  | 102 % | 510 |  |\n| $: 102$ | 1 % | 5 | $: 102$ |\n| $\\cdot 100$ | 100 % | 500 | $\\cdot 100$ |\n\n$510 : 102 = 5$, denn $102 \\cdot 5 = 510$.\n\nOles Startguthaben war **500 €**. Probe: 2 % von 500 € sind 10 €, und $500 + 10 = 510$ ✓\n\n*2 % von 510 € abgezogen (499,80 €)?* Die 2 % beziehen sich auf das Startguthaben, nicht auf 510 €."
+        },
+        {
+          "id": "W6-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- 1. Jahr: $500 \\cdot 0{,}02 = 10$, also 10 € Zinsen. Neues Guthaben: 510 €.\n- 2. Jahr: Die Zinsen werden jetzt von 510 € berechnet: $510 \\cdot 0{,}02 = 10{,}2$, also 10,20 €.\n\nZusammen: $10 + 10{,}2 = 20{,}2$, also **20,20 €**. Arnes Aussage ist knapp falsch: Im zweiten Jahr bekommt er auch Zinsen für die Zinsen aus dem ersten Jahr.\n\n1 P Rechnung Jahr für Jahr, 1 P Beurteilung."
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,19 @@
   "version": 1,
   "stufen": [
     {
+      "id": "7",
+      "name": "Klasse 7",
+      "themen": [
+        {
+          "id": "prozentrechnung",
+          "name": "Dreisatz, Prozent- und Zinsrechnung – Training",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Antiproportionale Zuordnung, Dreisatz, Grundwert/Prozentwert/Prozentsatz, Rabatte, Zinsen"
+        }
+      ]
+    },
+    {
       "id": "8",
       "name": "Klasse 8",
       "themen": [
