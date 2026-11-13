@@ -1,0 +1,797 @@
+{
+  "version": 1,
+  "titel": "Quantenmechanisches Atommodell – Trainingswoche",
+  "fach": "physik",
+  "anrede": "sie",
+  "hinweis": "Beginnen Sie mit P1 (Diagnose). Die Lösungen von P1 empfehlen Ihnen passende Wahlstationen. P5 (Check-out) bearbeiten Sie am Ende der dritten Stunde – vergleichen Sie dann Ihre Punkte in P1 und P5.",
+  "checkliste": [
+    {
+      "id": "c1",
+      "text": "Ein Orbital als Aufenthaltswahrscheinlichkeit deuten"
+    },
+    {
+      "id": "c2",
+      "text": "Das quantenmechanische Atommodell qualitativ beschreiben"
+    },
+    {
+      "id": "c3",
+      "text": "Die Orbitale des Wasserstoffatoms beschreiben"
+    },
+    {
+      "id": "c4",
+      "text": "Emission und Absorption als Energieabgabe/Anregung erklären"
+    },
+    {
+      "id": "c5",
+      "text": "Linienspektrum und Energieniveauschema verknüpfen"
+    },
+    {
+      "id": "c6",
+      "text": "Linienspektren des Wasserstoffatoms berechnen"
+    },
+    {
+      "id": "c7",
+      "text": "Spektren nutzen, um Stoffe in einer Lichtquelle zu bestimmen"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p1",
+      "name": "Das Atom quantenmechanisch",
+      "untertitel": "Orbitale statt Bahnen",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Emission und Absorption",
+      "untertitel": "Niveauschema und Spektren",
+      "farbe": "orange",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c7"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Linienspektren berechnen",
+      "untertitel": "Serien des Wasserstoffatoms",
+      "farbe": "gruen",
+      "checkliste": [
+        "c6"
+      ]
+    }
+  ],
+  "abschluss": "Klausur 2",
+  "stationen": [
+    {
+      "id": "P1",
+      "titel": "Diagnose: Atom und Spektren",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c1",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_P1.svg",
+      "pdf": "pdf/P1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "P1-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Ein Orbital ist ein Raumbereich: Bei einer Ortsmessung wird das Elektron mit großer Wahrscheinlichkeit (z. B. 90 %) darin nachgewiesen. Die gezeichnete Fläche ist nur die Grenze dieses Bereichs. Auch außerhalb kann das Elektron nachgewiesen werden, nur selten.\n\n*A gewählt?* Ein Quantenobjekt hat keine Bahn. → **W4** (Aufgabe 1)\n\n*B oder D gewählt?* Die Grenze ist eine Festlegung, keine Wand und keine Hülle; die Punktdichte nimmt nach außen nur ab. → **P2** Aufgabe 1a, **W4** (Aufgabe 1a)"
+        },
+        {
+          "id": "P1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Jeder Punkt ist ein einzelner Nachweis. Wo die Punkte dicht liegen, ist die Aufenthaltswahrscheinlichkeit groß – wie beim Doppelspalt: Der einzelne Treffer ist zufällig, die Verteilung vieler Treffer liegt fest. Das Wasserstoffatom hat nur ein Elektron.\n\n*C gewählt?* Sie denken an eine Bahn. → **W4** (Aufgabe 1b)\n\n*B oder D gewählt?* Das Elektron wird immer ganz und an einem Ort nachgewiesen. → **P2** Aufgabe 1a, **W4** (Aufgabe 1b)"
+        },
+        {
+          "id": "P1-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Die Energie $E = 0$ gehört zum gerade abgelösten Elektron (Ionisierungsgrenze). Ein gebundenes Elektron liegt darunter. Aus $n = 2$ braucht man also $3{,}40\\,\\mathrm{eV}$ zur Ionisierung. Der Grundzustand $E_1 = -13{,}6\\,\\mathrm{eV}$ liegt am tiefsten.\n\n*A, B oder C gewählt?* Ordnen Sie die Niveaus noch einmal: Je größer $n$, desto näher an null. → **W1** (Tandem, Nummern 1 und 2)"
+        },
+        {
+          "id": "P1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Ein Photon wird nur als Ganzes absorbiert, und nur, wenn seine Energie genau zu einem Übergang passt: $1 \\to 2$ braucht $10{,}2\\,\\mathrm{eV}$, $1 \\to 3$ braucht $12{,}1\\,\\mathrm{eV}$, die Ionisierung $13{,}6\\,\\mathrm{eV}$. Zwischenzustände gibt es nicht.\n\n*A gewählt?* Ein Photon gibt seine Energie nicht teilweise ab. Bei der Anregung durch Stoß ist das anders. → **W3** (Aufgabe 3), **W5** (Aufgabe 2)\n\n*C oder D gewählt?* Ionisierung braucht $13{,}6\\,\\mathrm{eV}$, Zwischenzustände gibt es nicht. → **P3** Aufgabe 2"
+        },
+        {
+          "id": "P1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Das Photon trägt die Energiedifferenz der beiden Niveaus:\n\n$$E_{Ph} = E_4 - E_2 = -0{,}850\\,\\mathrm{eV} - (-3{,}40\\,\\mathrm{eV}) = 2{,}55\\,\\mathrm{eV}$$\n\n*A oder B gewählt?* Sie haben die Energie eines Niveaus genommen. *C gewählt?* Sie haben die Beträge addiert. → **W1** (Tandem), **W5** (Aufgabe 1)"
+        },
+        {
+          "id": "P1-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Die Natriumatome im Grundzustand absorbieren genau die Photonen, deren Energie zum Übergang aus dem Grundzustand passt – dieselbe Energie, die sie beim Leuchten abgeben. Die absorbierte Energie wird in alle Richtungen wieder abgestrahlt, in Richtung des Betrachters fehlt Licht von $589\\,\\mathrm{nm}$.\n\n*B, C oder D gewählt?* → **W2** (Spektralanalyse, Aufgaben 1 und 4)"
+        },
+        {
+          "id": "P1-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Je kleiner die Energiedifferenz, desto größer die Wellenlänge: $\\lambda = \\frac{h \\cdot c}{\\Delta E}$. Der kleinste Sprung nach $n = 2$ ist $3 \\to 2$ (Hα, rot, $\\Delta E = 1{,}89\\,\\mathrm{eV}$).\n\n*A, B oder D gewählt?* Ein größerer Sprung bedeutet größere Energie und damit **kleinere** Wellenlänge. → **W1** (Tandem, Nummern 3 und 7)"
+        },
+        {
+          "id": "P1-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Das 3d-Orbital gehört zu $n = 3$. Mit wachsendem $n$ wird das Orbital größer und die Energie weniger negativ: $E_3 = -1{,}51\\,\\mathrm{eV}$ statt $E_1 = -13{,}6\\,\\mathrm{eV}$. Zur Ionisierung braucht man nur noch $1{,}51\\,\\mathrm{eV}$. Gebunden ist das Elektron weiterhin, solange $E < 0$.\n\n*A, C oder D gewählt?* → **W1** (Tandem, Nummer 2) und **P2** Aufgabe 2b"
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "titel": "Orbitale und quantenmechanisches Atommodell",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, IQB-Formeldokument",
+      "checkliste": [
+        "c1",
+        "c3",
+        "c2"
+      ],
+      "bild": "img/st_P2.svg",
+      "pdf": "pdf/P2_Orbitale.pdf",
+      "aufgaben": [
+        {
+          "id": "P2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Ein Punkt ist ein einzelner Nachweis: Bei dieser einen Messung wurde das Elektron dort nachgewiesen.\n\nDie Punktdichte zeigt die Aufenthaltswahrscheinlichkeit: Wo viele Punkte liegen, wird das Elektron bei einer Messung mit großer Wahrscheinlichkeit nachgewiesen. Beim 1s-Zustand ist die Punktdichte am Kern am größten und nimmt nach außen ab. Wegen der abnehmenden, aber nie null werdenden Dichte gibt es keine scharfe Grenze; die 90-%-Fläche ist eine Festlegung."
+        },
+        {
+          "id": "P2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Jede Messung liefert nur einen Ort; die Punkte stammen aus Messungen an vielen Atomen und lassen sich nicht zu einem Weg verbinden.\n\nWie beim Doppelspalt mit einzelnen Quantenobjekten ist der einzelne Nachweisort zufällig, nur die Verteilung vieler Nachweise liegt fest. Eine Bahn, auf der sich das Elektron zwischen den Messungen bewegt, kann man ihm nicht zuschreiben."
+        },
+        {
+          "id": "P2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- Bild X: 2p – hantelförmig, zwei Bereiche; dazwischen eine Ebene durch den Kern ohne Punkte (Knotenebene), dort wird das Elektron nie nachgewiesen.\n- Bild Y: 1s – kugelsymmetrisch, klein, Punktdichte am Kern am größten.\n- Bild Z: 2s – kugelsymmetrisch, größer, mit einem leeren Ring zwischen innerem und äußerem Bereich (Schnitt durch eine Kugelfläche ohne Nachweise, Knotenfläche).\n\n(1 P für die richtige Zuordnung, 1 P für passende Merkmale)"
+        },
+        {
+          "id": "P2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "1s gehört zu $n = 1$, 2s und 2p gehören zu $n = 2$.\n\nGröße: Die Orbitale zu $n = 2$ reichen viel weiter hinaus als das 1s-Orbital.\n\nEnergie: $E_1 = -13{,}6\\,\\mathrm{eV}$, $E_2 = -3{,}40\\,\\mathrm{eV}$. Beim Wasserstoffatom hängt die Energie nur von $n$ ab, 2s und 2p haben also die gleiche Energie. Je größer $n$, desto größer das Orbital und desto schwächer ist das Elektron gebunden (weniger negative Energie)."
+        },
+        {
+          "id": "P2-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Eine eingespannte Saite schwingt nur in Zuständen, bei denen eine ganze Zahl halber Wellenlängen auf die Saite passt; andere Schwingungen löschen sich aus.\n\nEbenso ist das Elektron an den Kern gebunden: Nur bestimmte stehende Materiewellen (Zustände) sind möglich. Zu jeder erlaubten Wellenlänge gehört nach $\\lambda = \\frac{h}{p}$ ein bestimmter Impuls und damit eine bestimmte Energie. Deshalb gibt es nur diskrete Energieniveaus $E_n$ – und damit nur bestimmte Linien im Spektrum."
+        },
+        {
+          "id": "P2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Richtig ist: Die Punktdichte ist beim 1s-Zustand am Kern am größten; ein Nachweis dort ist möglich.\n\nFalsch ist „ruhig im Atomkern“. Zwei gleichwertige Begründungen:\n\n- Ruhig heißt $v = 0$, also $p = 0$ und nach $\\lambda = \\frac{h}{p}$ eine unendlich große Wellenlänge – eine solche Welle passt nicht in den winzigen Kern.\n- Umgekehrt: Ein Elektron, das auf einen so kleinen Raum beschränkt wäre, müsste eine sehr kleine Wellenlänge haben, also einen großen Impuls und eine große Bewegungsenergie.\n\nDer Grundzustand hat eine feste Verteilung, die weit über den Kern hinausreicht. „Ruhig im Kern“ ist eine klassische Vorstellung, die für Quantenobjekte nicht trägt."
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "titel": "Emission, Absorption, Energieniveauschema",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, IQB-Formeldokument",
+      "checkliste": [
+        "c4",
+        "c5"
+      ],
+      "bild": "img/st_P3.svg",
+      "pdf": "pdf/P3_Emission_Absorption.pdf",
+      "aufgaben": [
+        {
+          "id": "P3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$E_1 = -13{,}6\\,\\mathrm{eV}$, $E_2 = -3{,}40\\,\\mathrm{eV}$, $E_3 = -1{,}51\\,\\mathrm{eV}$, $E_4 = -0{,}850\\,\\mathrm{eV}$, $E_5 = -0{,}544\\,\\mathrm{eV}$, $E_\\infty = 0\\,\\mathrm{eV}$\n\nWaagerechte Striche in diesen Höhen; die oberen Niveaus liegen immer dichter und nähern sich der Ionisierungsgrenze $E = 0$.",
+          "loesung_bild": "img/P3-1a.png"
+        },
+        {
+          "id": "P3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Aus $n = 1$: $13{,}6\\,\\mathrm{eV}$; aus $n = 2$: $3{,}40\\,\\mathrm{eV}$ (Abstand bis $E = 0$)."
+        },
+        {
+          "id": "P3-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "- $10{,}2\\,\\mathrm{eV}$: absorbiert, denn $E_2 - E_1 = -3{,}40\\,\\mathrm{eV} + 13{,}6\\,\\mathrm{eV} = 10{,}2\\,\\mathrm{eV}$ passt genau. Das Atom wird in den Zustand $n = 2$ angeregt.\n- $11{,}0\\,\\mathrm{eV}$: nicht absorbiert. Kein Übergang aus $n = 1$ hat genau diese Energie ($10{,}2$ bzw. $12{,}1\\,\\mathrm{eV}$); ein Photon wird nur als Ganzes absorbiert.\n- $14{,}0\\,\\mathrm{eV}$: absorbiert, das Atom wird ionisiert. Oberhalb von $13{,}6\\,\\mathrm{eV}$ passt jede Energie, weil das freie Elektron jede Bewegungsenergie haben kann: $E_{kin} = 14{,}0\\,\\mathrm{eV} - 13{,}6\\,\\mathrm{eV} = 0{,}4\\,\\mathrm{eV}$."
+        },
+        {
+          "id": "P3-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Drei Übergänge:\n\n$3 \\to 2$: $E_{Ph} = -1{,}51\\,\\mathrm{eV} - (-3{,}40\\,\\mathrm{eV}) = 1{,}89\\,\\mathrm{eV}$\n\n$3 \\to 1$: $E_{Ph} = -1{,}51\\,\\mathrm{eV} - (-13{,}6\\,\\mathrm{eV}) = 12{,}1\\,\\mathrm{eV}$\n\n$2 \\to 1$: $E_{Ph} = -3{,}40\\,\\mathrm{eV} - (-13{,}6\\,\\mathrm{eV}) = 10{,}2\\,\\mathrm{eV}$",
+          "loesung_bild": "img/P3-3a.png"
+        },
+        {
+          "id": "P3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Sichtbares Licht ($380$ bis $780\\,\\mathrm{nm}$) hat Photonenenergien von etwa $1{,}6$ bis $3{,}3\\,\\mathrm{eV}$. Nur $3 \\to 2$ mit $1{,}89\\,\\mathrm{eV}$ liegt in diesem Bereich: $\\lambda = \\frac{h \\cdot c}{E_{Ph}} \\approx 656\\,\\mathrm{nm}$, rot (Hα). Die beiden anderen Übergänge liefern UV-Strahlung. (Auch der Weg über die Wellenlängen aller drei Übergänge ist richtig.)"
+        },
+        {
+          "id": "P3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Absorbiert werden nur Photonen, die ein Atom aus seinem **besetzten** Zustand anregen können. Bei Zimmertemperatur ist das nur $n = 1$.\n\nSchon der kleinste Übergang aus $n = 1$ braucht $10{,}2\\,\\mathrm{eV}$ – viel mehr als ein sichtbares Photon (höchstens etwa $3{,}3\\,\\mathrm{eV}$). Die Absorptionslinien liegen deshalb im Ultravioletten ($122\\,\\mathrm{nm}$, $103\\,\\mathrm{nm}$, …; Lyman-Serie). Die sichtbaren Balmer-Linien starten in $n = 2$, das im kalten Gas nicht besetzt ist. (Erst in sehr heißem Gas, z. B. in Sternatmosphären, ist ein kleiner Teil der Atome in $n = 2$ – vgl. W2 und W7.)"
+        }
+      ]
+    },
+    {
+      "id": "P4",
+      "titel": "Linienspektren des Wasserstoffatoms",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, IQB-Formeldokument",
+      "checkliste": [
+        "c6",
+        "c5"
+      ],
+      "bild": "img/st_P4.svg",
+      "pdf": "pdf/P4_Linienspektren.pdf",
+      "aufgaben": [
+        {
+          "id": "P4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$$\\Delta E = E_3 - E_2 = -1{,}51\\,\\mathrm{eV} - (-3{,}40\\,\\mathrm{eV}) = 1{,}89\\,\\mathrm{eV} = 3{,}03 \\cdot 10^{-19}\\,\\mathrm{J}$$\n\n$$\\lambda = \\frac{h \\cdot c}{\\Delta E} = \\frac{1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}}{3{,}03 \\cdot 10^{-19}\\,\\mathrm{J}} \\approx 6{,}56 \\cdot 10^{-7}\\,\\mathrm{m} = 656\\,\\mathrm{nm}$$\n\nFormeldokument: $656{,}27\\,\\mathrm{nm}$ – Übereinstimmung im Rahmen der Rundung ($13{,}6\\,\\mathrm{eV}$ ist ein gerundeter Wert). Mit $c = 3{,}00 \\cdot 10^8\\,\\mathrm{m/s}$ erhält man $656$ bis $657\\,\\mathrm{nm}$ – ebenfalls richtig."
+        },
+        {
+          "id": "P4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$n = 2$, $m = 4$:\n\n$$f = 2{,}998 \\cdot 10^{8}\\,\\mathrm{\\tfrac{m}{s}} \\cdot 1{,}097 \\cdot 10^{7}\\,\\mathrm{m^{-1}} \\cdot \\left(\\frac{1}{4} - \\frac{1}{16}\\right) = 6{,}17 \\cdot 10^{14}\\,\\mathrm{Hz}$$\n\n$$\\lambda = \\frac{c}{f} = \\frac{2{,}998 \\cdot 10^{8}\\,\\mathrm{m/s}}{6{,}17 \\cdot 10^{14}\\,\\mathrm{Hz}} \\approx 486\\,\\mathrm{nm}$$\n\nÜber die Energieniveaus ergibt sich derselbe Wert: $\\Delta E = 2{,}55\\,\\mathrm{eV}$, $\\lambda \\approx 486\\,\\mathrm{nm}$ (Formeldokument: $486{,}13\\,\\mathrm{nm}$)."
+        },
+        {
+          "id": "P4-1c",
+          "label": "1c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Seriengrenze: Übergang von $E_\\infty = 0$ nach $E_2 = -3{,}40\\,\\mathrm{eV}$, also $\\Delta E = 3{,}40\\,\\mathrm{eV} = 5{,}447 \\cdot 10^{-19}\\,\\mathrm{J}$.\n\n$$\\lambda = \\frac{1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}}{5{,}447 \\cdot 10^{-19}\\,\\mathrm{J}} \\approx 365\\,\\mathrm{nm}$$\n\nDie oberen Niveaus rücken immer enger zusammen, weil $\\frac{1}{n^2}$ für große $n$ kaum noch abnimmt. Die Energien der Übergänge nach $n = 2$ unterscheiden sich deshalb immer weniger, die Linien drängen sich vor der Grenze zusammen."
+        },
+        {
+          "id": "P4-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Hα liegt bei $656\\,\\mathrm{nm}$, also im Durchlassbereich. Die nächste Balmer-Linie Hβ liegt bei $486\\,\\mathrm{nm}$, alle weiteren noch kürzer; die Lyman- und Paschen-Linien liegen im UV bzw. IR.\n\nDer Nebel sendet ein Linienspektrum aus; seine starke Hα-Linie kommt fast vollständig durch. Das Streulicht des Stadthimmels ist dagegen über viele Wellenlängen verteilt; vom Filter wird nur ein schmaler Ausschnitt durchgelassen. Der Kontrast zwischen Nebel und Himmel steigt."
+        }
+      ]
+    },
+    {
+      "id": "P5",
+      "titel": "Check-out: Atom und Spektren",
+      "typ": "pflicht",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c1",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung. Vergleichen Sie danach mit Ihrem Ergebnis in P1.",
+      "bild": "img/st_P5.svg",
+      "pdf": "pdf/P5_Checkout.pdf",
+      "aufgaben": [
+        {
+          "id": "P5-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Die Fläche begrenzt den Raumbereich, in dem das Elektron bei einer Ortsmessung mit großer Wahrscheinlichkeit (z. B. 90 %) nachgewiesen wird. Außerhalb ist ein Nachweis selten, aber möglich.\n\n*A gewählt?* Ein Quantenobjekt hat keine Bahn. → **W4** (Aufgabe 1), **W5** (Aufgabe 4)\n\n*C oder D gewählt?* Die Grenze ist eine Festlegung, keine Wand und keine Hülle. → **P2** Aufgabe 1, **W4** (Aufgabe 1a)"
+        },
+        {
+          "id": "P5-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Der Ring ist der Schnitt durch eine Knotenfläche: Auf ihr ist die Aufenthaltswahrscheinlichkeit null, in ihrer Nähe sehr klein. Das Elektron wird innen und außen nachgewiesen, aber nie auf der Knotenfläche – daran ändern auch mehr Messungen nichts.\n\n*A gewählt?* Sie denken an eine Bahn. → **W5** (Aufgabe 4)\n\n*B oder C gewählt?* Das Punktbild zeigt viele Nachweise an vielen gleichen Atomen mit je einem Elektron; die Verteilung liegt fest. → **P2** Aufgabe 1, **W4** (Aufgabe 1)"
+        },
+        {
+          "id": "P5-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $E = 0$ ist die Ionisierungsgrenze. Aus $n = 3$ fehlen bis dorthin $1{,}51\\,\\mathrm{eV}$. Der Zustand $n = 3$ liegt höher als $n = 1$; von $n = 1$ nach $n = 3$ muss Energie zugeführt werden.\n\n*B, C oder D gewählt?* → **W1** (Tandem, Nummern 1 und 2)"
+        },
+        {
+          "id": "P5-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Ein Photon wird nur als Ganzes absorbiert, wenn seine Energie genau zu einem Übergang passt. Der kleinste Übergang aus $n = 1$ braucht $10{,}2\\,\\mathrm{eV}$; Zwischenzustände gibt es nicht.\n\n*A oder B gewählt?* Ein Photon gibt seine Energie nicht teilweise oder in Raten ab. → **W3** (Aufgabe 3), **W5** (Aufgabe 2)\n\n*D gewählt?* Ionisierung braucht $13{,}6\\,\\mathrm{eV}$. → **P3** Aufgabe 2"
+        },
+        {
+          "id": "P5-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Das Photon trägt die Energiedifferenz:\n\n$$E_{Ph} = E_3 - E_1 = -1{,}51\\,\\mathrm{eV} - (-13{,}6\\,\\mathrm{eV}) \\approx 12{,}1\\,\\mathrm{eV}$$\n\n*B oder C gewählt?* Sie haben die Energie eines Niveaus genommen. *D gewählt?* Sie haben die Beträge addiert. → **W1** (Tandem), **W5** (Aufgabe 1)"
+        },
+        {
+          "id": "P5-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Die Lithiumatome im Grundzustand absorbieren genau die Photonen, deren Energie zum Übergang aus dem Grundzustand passt – dieselbe Energie, die sie beim Leuchten abgeben. In Blickrichtung fehlt dann Licht von $670{,}8\\,\\mathrm{nm}$.\n\n*A, B oder C gewählt?* → **W2** (Spektralanalyse, Aufgaben 1 und 4)"
+        },
+        {
+          "id": "P5-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Je kleiner die Energiedifferenz, desto größer die Wellenlänge: $\\lambda = \\frac{h \\cdot c}{\\Delta E}$. Der kleinste Sprung nach $n = 1$ ist $2 \\to 1$ ($10{,}2\\,\\mathrm{eV}$, $122\\,\\mathrm{nm}$).\n\n*A, C oder D gewählt?* Ein größerer Sprung bedeutet größere Energie und damit **kleinere** Wellenlänge. → **W1** (Tandem, Nummern 3 und 7)"
+        },
+        {
+          "id": "P5-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Das 2p-Orbital gehört zu $n = 2$: größer als das 1s-Orbital und mit weniger negativer Energie ($E_2 = -3{,}40\\,\\mathrm{eV}$ statt $-13{,}6\\,\\mathrm{eV}$). Zur Ionisierung braucht man daraus nur $3{,}40\\,\\mathrm{eV}$ statt $13{,}6\\,\\mathrm{eV}$.\n\n*A, B oder D gewählt?* → **W1** (Tandem, Nummer 2) und **P2** Aufgabe 2b"
+        }
+      ]
+    },
+    {
+      "id": "W1",
+      "titel": "Tandem: Rechnen mit Energieniveaus",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR, IQB-Formeldokument",
+      "checkliste": [
+        "c6",
+        "c5"
+      ],
+      "hinweis": "Zu zweit mit zwei Tablets. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut; die jeweils andere Person sieht die Lösung und kontrolliert. Rechnen Sie mit $h \\cdot c = 1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}$ und $1\\,\\mathrm{eV} = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{J}$.",
+      "bild": "img/st_W1.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "W1-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechnen Sie die Energie des Wasserstoff-Niveaus $n = 4$.",
+          "tipp": "$E_n = -13{,}6\\,\\mathrm{eV} \\cdot \\frac{1}{n^2}$ mit $n = 4$.",
+          "loesung": "$E_4 = -13{,}6\\,\\mathrm{eV} \\cdot \\frac{1}{16} = -0{,}850\\,\\mathrm{eV}$"
+        },
+        {
+          "id": "W1-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechnen Sie, wie viel Energie man braucht, um ein Wasserstoffatom aus dem Zustand $n = 3$ zu ionisieren.",
+          "tipp": "Abstand von $E_3$ bis $E = 0$.",
+          "loesung": "$E_3 = -13{,}6\\,\\mathrm{eV} \\cdot \\frac{1}{9} = -1{,}51\\,\\mathrm{eV}$, also $1{,}51\\,\\mathrm{eV}$"
+        },
+        {
+          "id": "W1-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechnen Sie Photonenenergie und Wellenlänge für den Übergang $5 \\to 2$ im Wasserstoffatom.",
+          "tipp": "$\\Delta E = E_5 - E_2$, dann $\\lambda = \\frac{h \\cdot c}{\\Delta E}$ (Energie in J).",
+          "loesung": "$\\Delta E = -0{,}544\\,\\mathrm{eV} + 3{,}40\\,\\mathrm{eV} = 2{,}86\\,\\mathrm{eV} = 4{,}58 \\cdot 10^{-19}\\,\\mathrm{J}$; $\\lambda \\approx 434\\,\\mathrm{nm}$ (Hγ, violett)"
+        },
+        {
+          "id": "W1-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechnen Sie die Frequenz des Lichts beim Übergang $4 \\to 2$ ($\\Delta E = 2{,}55\\,\\mathrm{eV}$).",
+          "tipp": "$f = \\frac{\\Delta E}{h}$ mit $\\Delta E$ in J und $h = 6{,}626 \\cdot 10^{-34}\\,\\mathrm{J\\,s}$.",
+          "loesung": "$f = \\frac{2{,}55 \\cdot 1{,}602 \\cdot 10^{-19}\\,\\mathrm{J}}{6{,}626 \\cdot 10^{-34}\\,\\mathrm{J\\,s}} = 6{,}17 \\cdot 10^{14}\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "W1-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Eine Neon-Glimmlampe leuchtet vor allem mit einer roten Linie bei $640{,}2\\,\\mathrm{nm}$. Berechnen Sie die Photonenenergie in eV.",
+          "tipp": "$E_{Ph} = \\frac{h \\cdot c}{\\lambda}$, dann durch $1{,}602 \\cdot 10^{-19}\\,\\mathrm{J}$ teilen.",
+          "loesung": "$E_{Ph} = \\frac{1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}}{6{,}402 \\cdot 10^{-7}\\,\\mathrm{m}} = 3{,}10 \\cdot 10^{-19}\\,\\mathrm{J} = 1{,}94\\,\\mathrm{eV}$"
+        },
+        {
+          "id": "W1-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Eine Natriumdampflampe leuchtet gelb bei $589\\,\\mathrm{nm}$. Berechnen Sie die Photonenenergie in J.",
+          "tipp": "$E_{Ph} = \\frac{h \\cdot c}{\\lambda}$",
+          "loesung": "$E_{Ph} = \\frac{1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}}{5{,}89 \\cdot 10^{-7}\\,\\mathrm{m}} = 3{,}37 \\cdot 10^{-19}\\,\\mathrm{J}$ ($\\approx 2{,}1\\,\\mathrm{eV}$)"
+        },
+        {
+          "id": "W1-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechnen Sie die Wellenlänge der Linie Lyman-α (Übergang $2 \\to 1$) und nennen Sie den Spektralbereich.",
+          "tipp": "$\\Delta E = E_2 - E_1 = 10{,}2\\,\\mathrm{eV}$",
+          "loesung": "$\\lambda = \\frac{1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}}{10{,}2 \\cdot 1{,}602 \\cdot 10^{-19}\\,\\mathrm{J}} \\approx 122\\,\\mathrm{nm}$, ultraviolett"
+        },
+        {
+          "id": "W1-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechnen Sie die Wellenlänge der Linie Paschen-α (Übergang $4 \\to 3$) und nennen Sie den Spektralbereich.",
+          "tipp": "$\\Delta E = E_4 - E_3$ mit $E_4 = -0{,}850\\,\\mathrm{eV}$ und $E_3 = -1{,}51\\,\\mathrm{eV}$.",
+          "loesung": "$\\Delta E = -0{,}850\\,\\mathrm{eV} + 1{,}51\\,\\mathrm{eV} = 0{,}660\\,\\mathrm{eV} = 1{,}057 \\cdot 10^{-19}\\,\\mathrm{J}$; $\\lambda \\approx 1{,}88 \\cdot 10^{-6}\\,\\mathrm{m} = 1880\\,\\mathrm{nm}$, infrarot"
+        }
+      ]
+    },
+    {
+      "id": "W2",
+      "titel": "Spektralanalyse: Stoffe in Lampen und Sternen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, IQB-Formeldokument",
+      "checkliste": [
+        "c7",
+        "c5",
+        "c4"
+      ],
+      "bild": "img/st_W2.svg",
+      "pdf": "pdf/W2_Spektralanalyse.pdf",
+      "aufgaben": [
+        {
+          "id": "W2-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "- Spektrum 1: kontinuierliches Spektrum – ein heißer fester Körper oder ein dichtes Gas (z. B. Glühwendel) sendet alle Wellenlängen aus.\n- Spektrum 2: Emissionsspektrum (Linienspektrum) – angeregte Atome eines Gases senden beim Übergang in tiefere Niveaus Photonen bestimmter Energien aus.\n- Spektrum 3: Absorptionsspektrum – kontinuierliches Licht durchläuft ein Gas; dessen Atome absorbieren Photonen, die zu Übergängen aus ihren besetzten Zuständen passen. An diesen Stellen fehlt Licht (dunkle Linien).\n\n(je Spektrum 1 P)"
+        },
+        {
+          "id": "W2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Lampe 1: Natrium ($589{,}00\\,\\mathrm{nm}$ und $589{,}59\\,\\mathrm{nm}$).\n\nLampe 2: Quecksilber ($404{,}66$, $435{,}83$, $546{,}07$, $576{,}96$, $579{,}07\\,\\mathrm{nm}$)."
+        },
+        {
+          "id": "W2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Natriumlinien liegen bei $589{,}0$ und $589{,}6\\,\\mathrm{nm}$, also $1{,}4\\,\\mathrm{nm}$ bzw. $2{,}0\\,\\mathrm{nm}$ daneben – mit einem guten Spektroskop deutlich unterscheidbar. (Ebenso richtig: Natrium zeigt eine Doppellinie, die gefundene Linie ist einzeln.)\n\nJedes Element hat eigene Energieniveaus und damit ein eigenes, unverwechselbares Linienmuster („Fingerabdruck“). Passt eine Linie zu keinem bekannten Element, muss ein anderes Element sie aussenden."
+        },
+        {
+          "id": "W2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Linien bei $656$ und $486\\,\\mathrm{nm}$ (dazu $434\\,\\mathrm{nm}$): Wasserstoff (Hα, Hβ, Hγ). Linie bei $589\\,\\mathrm{nm}$ (im Bild nicht aufgelöste Doppellinie): Natrium.\n\nDas Licht aus tieferen, heißeren Schichten hat ein kontinuierliches Spektrum. Die Atome der äußeren Schicht absorbieren Photonen, die zu Übergängen aus ihren besetzten Zuständen passen, und strahlen sie in alle Richtungen wieder ab. In Richtung Erde fehlt dieses Licht. Die Balmer-Linien entstehen, weil im heißen Gas ein Teil der Wasserstoffatome in $n = 2$ ist – im kalten Gas (P3 Aufgabe 4) wäre das nicht so."
+        },
+        {
+          "id": "W2-5",
+          "label": "5",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Folgerung ist nicht zulässig.\n\nEine Absorptionslinie entsteht nur, wenn genügend Atome im Ausgangszustand des Übergangs sind. Für Wasserstoff ($10{,}2\\,\\mathrm{eV}$) ist das nur ein winziger Anteil, der aber wegen der riesigen Wasserstoffmenge für deutliche Linien reicht. Für die Heliumlinien müssten die Atome etwa $21\\,\\mathrm{eV}$ angeregt sein; der Anteil ist um viele Zehnerpotenzen kleiner, fast alle Heliumatome sind im Grundzustand und absorbieren nur im fernen UV.\n\nFehlende Linien zeigen also nur, dass die Bedingungen für diese Übergänge fehlen. Tatsächlich besteht die Sonne zu etwa 25 % (Massenanteil) aus Helium. Entdeckt wurde es 1868 in einer Emissionslinie aus der viel heißeren Sonnenatmosphäre."
+        }
+      ]
+    },
+    {
+      "id": "W3",
+      "titel": "Leuchtstoffröhre und Polarlicht",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, IQB-Formeldokument",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "bild": "img/st_W3.svg",
+      "pdf": "pdf/W3_Leuchtstoffroehre_Polarlicht.pdf",
+      "aufgaben": [
+        {
+          "id": "W3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Feld → Bewegungsenergie der Elektronen → beim Stoß Anregungsenergie des Quecksilberatoms → Energie eines UV-Photons ($4{,}89\\,\\mathrm{eV}$) → Anregung des Leuchtstoffs → sichtbares Photon (kleinere Energie) und Wärme im Leuchtstoff."
+        },
+        {
+          "id": "W3-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$E_{Ph} = \\frac{1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}}{5{,}45 \\cdot 10^{-7}\\,\\mathrm{m}} = 3{,}645 \\cdot 10^{-19}\\,\\mathrm{J} = 2{,}28\\,\\mathrm{eV}$ (1 P)\n\nAnteil: $\\frac{2{,}28\\,\\mathrm{eV}}{4{,}89\\,\\mathrm{eV}} \\approx 47\\,\\%$ (1 P)\n\nEnergieerhaltung: Ein absorbiertes Photon gibt seine Energie ab; das ausgesandte Photon kann höchstens so viel Energie haben, der Rest wird Wärme. Aus einem sichtbaren Photon (etwa $2\\,\\mathrm{eV}$) kann daher kein UV-Photon mit $4{,}89\\,\\mathrm{eV}$ werden. (1 P)"
+        },
+        {
+          "id": "W3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\Delta E_1 = 4{,}190\\,\\mathrm{eV} - 1{,}967\\,\\mathrm{eV} = 2{,}223\\,\\mathrm{eV} = 3{,}561 \\cdot 10^{-19}\\,\\mathrm{J}$: $\\lambda = \\frac{h \\cdot c}{\\Delta E} \\approx 558\\,\\mathrm{nm}$, grün\n\n$\\Delta E_2 = 1{,}967\\,\\mathrm{eV} = 3{,}151 \\cdot 10^{-19}\\,\\mathrm{J}$: $\\lambda \\approx 630\\,\\mathrm{nm}$, rot\n\nGrün und Rot sind tatsächlich die typischen Farben des Polarlichts."
+        },
+        {
+          "id": "W3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\lambda = \\frac{1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}}{4{,}190 \\cdot 1{,}602 \\cdot 10^{-19}\\,\\mathrm{J}} \\approx 296\\,\\mathrm{nm}$ (1 P) – kürzer als $380\\,\\mathrm{nm}$, also UV und unsichtbar (1 P)."
+        },
+        {
+          "id": "W3-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Elektron: Es kann das Atom in den Zustand $4{,}89\\,\\mathrm{eV}$ anregen und fliegt mit $6{,}0\\,\\mathrm{eV} - 4{,}89\\,\\mathrm{eV} = 1{,}11\\,\\mathrm{eV}$ weiter. Für $6{,}70\\,\\mathrm{eV}$ reicht seine Energie nicht. (1 P)\n\nPhoton: Es wird nicht absorbiert, weil $6{,}0\\,\\mathrm{eV}$ zu keinem Übergang passt; es fliegt unverändert weiter. (1 P)\n\nGrund: Ein Photon wird bei der Absorption als Ganzes vernichtet und muss seine gesamte Energie abgeben – das geht nur bei genau passender Energiedifferenz. Das Elektron bleibt nach dem Stoß erhalten und kann jeden beliebigen Rest seiner Bewegungsenergie behalten. Deshalb genügt beim Stoß eine Mindestenergie. (1 P)"
+        }
+      ]
+    },
+    {
+      "id": "W4",
+      "titel": "Modellgrenzen: Bohr oder Orbital?",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c2",
+        "c1"
+      ],
+      "bild": "img/st_W4.svg",
+      "pdf": "pdf/W4_Modellgrenzen.pdf",
+      "aufgaben": [
+        {
+          "id": "W4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gemeinsam: Der wahrscheinlichste Abstand liegt bei $0{,}053\\,\\mathrm{nm}$ – genau beim Bohr’schen Radius $r_1$.\n\nUnterschied: Nach Bohr hat das Elektron immer genau diesen Abstand. Im Orbital-Modell wird es in ganz verschiedenen Abständen nachgewiesen, auch nah am Kern und weit außerhalb; es gibt nur eine Verteilung, keine Bahn.\n\nKein Widerspruch zu P2: Die Punktdichte (Nachweise je Raumvolumen) ist am Kern am größten. Eine Kugelschale dicht am Kern ist aber sehr klein; ihr Volumen wächst mit $r^2$. Deshalb hat die Schalen-Wahrscheinlichkeit ihr Maximum bei $0{,}053\\,\\mathrm{nm}$ und nicht bei $r = 0$."
+        },
+        {
+          "id": "W4-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Einzelne Photonen erzeugen am Doppelspalt einzelne, zufällig verteilte Treffer, aus denen sich ein Interferenzmuster aufbaut; Elektronen zeigen in der Elektronenbeugungsröhre ebenfalls Interferenz.\n\nEin Teilchen auf einer Bahn würde durch einen bestimmten Spalt fliegen; dann gäbe es kein Interferenzmuster. „Es fliegt durch Spalt 1“ ist ohne Messung keine sinnvolle Aussage.\n\nVorhersagbar ist nur die Verteilung der Nachweisorte. Dasselbe gilt im Atom: Das Orbital beschreibt, wo das Elektron mit welcher Wahrscheinlichkeit nachgewiesen wird, nicht einen Weg."
+        },
+        {
+          "id": "W4-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bohr: Ein kreisendes Elektron müsste nach der klassischen Physik strahlen und in den Kern stürzen. Bohr verbietet das Strahlen auf den erlaubten Bahnen einfach – das beschreibt das Ergebnis (stabile Atome), erklärt es aber nicht. (1 P)\n\nQuantenmechanisch bewegt sich nichts auf einer Bahn: Es gibt keine kreisende Ladung, also auch keinen Grund zu strahlen; die Verteilung eines Zustands ändert sich zeitlich nicht (stationärer Zustand). Licht entsteht nur beim Übergang zwischen Zuständen. (1 P; „keine Bahn → keine kreisende Ladung → keine Abstrahlung“ ist vollwertig, der Begriff „stationär“ ist nicht nötig.)"
+        },
+        {
+          "id": "W4-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Erwartet wird ein begründetes Urteil mit Argumenten für beide Seiten, zum Beispiel:\n\n- Für die Aussage: Die Vorstellung einer Bahn widerspricht den Befunden zu Quantenobjekten; das Modell erklärt weder die Form der Orbitale noch Atome mit mehreren Elektronen; das Nicht-Strahlen ist nur postuliert.\n- Dagegen: Ein Modell ist nie „wahr“, sondern in einem Gültigkeitsbereich brauchbar. Für das Wasserstoffatom liefert Bohr die richtigen Energieniveaus und Linien (z. B. Balmer-Serie); die Idee diskreter Energieniveaus und der Sprünge mit $h \\cdot f = \\Delta E$ gilt weiter. Historisch war es der Schritt zur Quantenphysik.\n\nMögliches Urteil: Als historisches Modell und für Energieberechnungen beim Wasserstoff sinnvoll, aber nur zusammen mit seinen Grenzen; für die Vorstellung vom Aufbau des Atoms ist das Orbital-Modell zu verwenden. (1 P je tragfähigem Argument beider Seiten, 1 P für ein begründetes Urteil)"
+        }
+      ]
+    },
+    {
+      "id": "W5",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, IQB-Formeldokument",
+      "checkliste": [
+        "c6",
+        "c4",
+        "c1",
+        "c5"
+      ],
+      "bild": "img/st_W5.svg",
+      "pdf": "pdf/W5_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "W5-1a",
+          "label": "1a",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "In Lösung 1 wurde die Energie des oberen Niveaus genommen. Das Photon trägt die Differenz:\n\n$$E_{Ph} = E_5 - E_3 = -0{,}544\\,\\mathrm{eV} + 1{,}51\\,\\mathrm{eV} = 0{,}966\\,\\mathrm{eV} = 1{,}55 \\cdot 10^{-19}\\,\\mathrm{J}$$\n\n$$\\lambda = \\frac{1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}}{1{,}55 \\cdot 10^{-19}\\,\\mathrm{J}} \\approx 1280\\,\\mathrm{nm}$$"
+        },
+        {
+          "id": "W5-1b",
+          "label": "1b",
+          "punkte": 1.5,
+          "afb": "III",
+          "loesung": "Ja, aber eine andere Frage: $0{,}544\\,\\mathrm{eV}$ ist der Abstand von $E_5$ zur Ionisierungsgrenze $E = 0$, also die Energie, die man braucht, um das Atom aus dem Zustand $n = 5$ zu ionisieren. Lösung 1 berechnet damit richtig die größte Wellenlänge eines Photons, das ein Atom in $n = 5$ ionisieren kann (etwa $2280\\,\\mathrm{nm}$) – ein Absorptionsvorgang.\n\nFür das beim Übergang $5 \\to 3$ ausgesandte Photon ist die Rechnung falsch: Dort zählt die Differenz zweier Niveaus, $h \\cdot f = E_m - E_n$; $E_n$ allein beschreibt einen Zustand, kein Photon. (Urteil mit beiden Teilen: volle Punktzahl)"
+        },
+        {
+          "id": "W5-2a",
+          "label": "2a",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "Ein Photon kann nicht teilweise absorbiert werden. $12{,}5\\,\\mathrm{eV}$ passt zu keinem Übergang aus $n = 1$ ($10{,}2$; $12{,}1$; $12{,}8\\,\\mathrm{eV}$ …; Ionisierung $13{,}6\\,\\mathrm{eV}$). Richtig: Das Photon wird nicht absorbiert, das Atom bleibt im Grundzustand."
+        },
+        {
+          "id": "W5-2b",
+          "label": "2b",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "Die Aussage ist nur teilweise richtig.\n\nRichtig: Beim Stoß bleibt das Elektron erhalten; es kann $12{,}1\\,\\mathrm{eV}$ (Anregung nach $n = 3$) oder $10{,}2\\,\\mathrm{eV}$ abgeben und fliegt mit dem Rest weiter ($0{,}4$ bzw. $2{,}3\\,\\mathrm{eV}$). Ein Photon dagegen wird bei der Absorption vernichtet und muss seine ganze Energie abgeben.\n\nFalsch bleibt auch dann „Die restlichen $0{,}4\\,\\mathrm{eV}$ fliegen als neues Photon weiter“: Der Rest bleibt Bewegungsenergie des Elektrons. Ein Photon entsteht erst, wenn das angeregte Atom in einen tieferen Zustand übergeht – mit der Energie dieses Übergangs, nicht mit $0{,}4\\,\\mathrm{eV}$.\n\n(Volle Punktzahl, wenn beide Teile genannt sind.)"
+        },
+        {
+          "id": "W5-3a",
+          "label": "3a",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "In Lösung 3 wurde $\\Delta E$ in eV eingesetzt, $h \\cdot c$ aber in $\\mathrm{J\\,m}$. Richtig:\n\n$$\\Delta E = 1{,}89 \\cdot 1{,}602 \\cdot 10^{-19}\\,\\mathrm{J} = 3{,}03 \\cdot 10^{-19}\\,\\mathrm{J}$$\n\n$$\\lambda = \\frac{1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}}{3{,}03 \\cdot 10^{-19}\\,\\mathrm{J}} \\approx 656\\,\\mathrm{nm}$$"
+        },
+        {
+          "id": "W5-3b",
+          "label": "3b",
+          "punkte": 1.5,
+          "afb": "III",
+          "loesung": "Mit Einheiten gerechnet hätte das Ergebnis die Einheit $\\mathrm{J\\,m / eV}$ – kein Meter; der Fehler wäre aufgefallen. Außerdem passt das Ergebnis nicht zum Sachverhalt: Hα ist die rote sichtbare Linie, und $1{,}89\\,\\mathrm{eV}$ liegt im Bereich sichtbarer Photonen (etwa $1{,}6$ bis $3{,}3\\,\\mathrm{eV}$). Eine Größenordnungsprüfung zeigt den Fehler sofort."
+        },
+        {
+          "id": "W5-4a",
+          "label": "4a",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "Die Antwort beschreibt eine Bahn. Richtig: Das Orbital zeigt, wo das Elektron bei einer Messung mit welcher Wahrscheinlichkeit nachgewiesen wird – mit großer Wahrscheinlichkeit in einer der beiden Hälften, auf der Knotenebene nie. Eine Bewegung von Hälfte zu Hälfte wird nicht beschrieben."
+        },
+        {
+          "id": "W5-4b",
+          "label": "4b",
+          "punkte": 1.5,
+          "afb": "III",
+          "loesung": "Die Erklärung setzt voraus, dass das Elektron zwischen zwei Messungen einen Weg zurücklegt. Für Quantenobjekte ist das nicht haltbar (vgl. Doppelspalt: kein Weg ohne Messung). Die Knotenebene ist eine Eigenschaft der stehenden Welle: Dort ist die Aufenthaltswahrscheinlichkeit null – nicht „zu schnell zum Messen“. Die Frage „Wie kommt es durch die Knotenebene?“ stellt sich nur im Bahnmodell."
+        }
+      ]
+    },
+    {
+      "id": "W6",
+      "titel": "Spektren beobachten",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, IQB-Formeldokument; Gitter (500 Linien/mm), iPad-Kamera, Glüh- oder Halogenlampe, weiße LED (z. B. Taschenlampe); optional Leuchtstofflampe",
+      "checkliste": [
+        "c7",
+        "c4",
+        "c6"
+      ],
+      "bild": "img/st_W6.svg",
+      "pdf": "pdf/W6_Spektren_beobachten.pdf",
+      "aufgaben": [
+        {
+          "id": "W6-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Glühlampe: kontinuierlich (heißer Draht). Leuchtstofflampe: Linien (Quecksilber) und Banden des Leuchtstoffs. Weiße LED: blaue Emission und ein breiter Bereich vom Leuchtstoff.\n\n(1 P Glühlampe, 1 P weiße LED; die Leuchtstofflampe ist optional und bringt keinen eigenen Punkt. Bewertet wird die begründete Erwartung, nicht, ob sie zutrifft.)"
+        },
+        {
+          "id": "W6-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Glühlampe: durchgehendes Band, zum Roten hin heller. LED: schmaler, heller blauer Bereich um $450\\,\\mathrm{nm}$ und ein breites gelbgrünes Band. Leuchtstofflampe: einzelne helle Linien (violett, blau, grün, gelb) und eine orange-rote Linie um $611\\,\\mathrm{nm}$."
+        },
+        {
+          "id": "W6-2b",
+          "label": "2b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "- Glühlampe: Im heißen Metall sind die Atome dicht gepackt; es gibt keine einzelnen Niveaus freier Atome, der Draht sendet alle Wellenlängen aus.\n- Leuchtstofflampe: angeregte Quecksilberatome senden Linien aus (z. B. $436$ und $546\\,\\mathrm{nm}$); der Leuchtstoff wandelt UV in weitere sichtbare Linien und Banden um (z. B. bei $487$ und $611\\,\\mathrm{nm}$).\n- Weiße LED: Die blaue Leuchtdiode sendet um $450\\,\\mathrm{nm}$; der Leuchtstoff wandelt einen Teil in langwelligeres gelbes Licht um (breites Band). Blau und Gelb zusammen wirken weiß.\n\n(je Lampe 1 P)"
+        },
+        {
+          "id": "W6-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gitterkonstante: $d = \\frac{1\\,\\mathrm{mm}}{500} = 2{,}0 \\cdot 10^{-6}\\,\\mathrm{m}$\n\n$$\\lambda = \\frac{d \\cdot \\sin\\alpha}{k} = 2{,}0 \\cdot 10^{-6}\\,\\mathrm{m} \\cdot \\sin(19{,}1^\\circ) \\approx 654\\,\\mathrm{nm}$$"
+        },
+        {
+          "id": "W6-3b",
+          "label": "3b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Abweichung: $656\\,\\mathrm{nm} - 654\\,\\mathrm{nm} = 2\\,\\mathrm{nm}$, also etwa $0{,}3\\,\\%$.\n\nUnsicherheit: Mit $18{,}6^\\circ$ bzw. $19{,}6^\\circ$ ergibt sich $638\\,\\mathrm{nm}$ bzw. $671\\,\\mathrm{nm}$. Der berechnete Wert liegt mitten in diesem Bereich – Messung und Modell passen zusammen.\n\nGenauer: in der 2. Ordnung messen (größerer Winkel, $\\alpha \\approx 41^\\circ$, gleiche Ableseunsicherheit wirkt relativ weniger), ein Gitter mit mehr Linien je mm verwenden oder den Abstand zum Schirm vergrößern."
+        }
+      ]
+    },
+    {
+      "id": "W7",
+      "titel": "Linien deuten: Infrarot und Sterne",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR, IQB-Formeldokument",
+      "checkliste": [
+        "c6",
+        "c5",
+        "c7"
+      ],
+      "bild": "img/st_W7.svg",
+      "pdf": "pdf/W7_Linien_deuten.pdf",
+      "aufgaben": [
+        {
+          "id": "W7-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$$E_{Ph} = \\frac{h \\cdot c}{\\lambda} = \\frac{1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}}{1{,}88 \\cdot 10^{-6}\\,\\mathrm{m}} = 1{,}057 \\cdot 10^{-19}\\,\\mathrm{J}$$\n\n$$E_{Ph} = \\frac{1{,}057 \\cdot 10^{-19}\\,\\mathrm{J}}{1{,}602 \\cdot 10^{-19}\\,\\mathrm{J/eV}} = 0{,}660\\,\\mathrm{eV}$$"
+        },
+        {
+          "id": "W7-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Eingrenzen: Übergänge nach $n = 2$ haben mindestens $1{,}89\\,\\mathrm{eV}$ – zu viel; nach $n = 1$ erst recht. (1 P)\n\nNach $n = 3$: $4 \\to 3$ ergibt $-0{,}850\\,\\mathrm{eV} - (-1{,}51\\,\\mathrm{eV}) = 0{,}660\\,\\mathrm{eV}$ (mit ungerundeten Niveaus $0{,}661\\,\\mathrm{eV}$), also $\\lambda \\approx 1880\\,\\mathrm{nm}$ – passt. Höhere Übergänge nach $n = 3$ haben mehr Energie. (1 P)\n\nDie Übergänge nach $n = 4$ haben Energien von $0{,}31$ bis $0{,}85\\,\\mathrm{eV}$, also könnte auch einer davon passen; deshalb prüfen: $8 \\to 4$ liefert $0{,}638\\,\\mathrm{eV}$ ($1945\\,\\mathrm{nm}$), $9 \\to 4$ liefert $0{,}682\\,\\mathrm{eV}$ ($1818\\,\\mathrm{nm}$) – beide passen nicht. Übergänge nach $n = 5$ haben höchstens $0{,}544\\,\\mathrm{eV}$. (1 P)\n\nErgebnis: Übergang $4 \\to 3$ (erste Linie der Paschen-Serie)."
+        },
+        {
+          "id": "W7-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Balmer-Absorption braucht Atome im Zustand $n = 2$, denn die Balmer-Übergänge starten dort. (1 P)\n\nKühle Sterne: Fast alle Atome sind im Grundzustand ($n = 2$ liegt $10{,}2\\,\\mathrm{eV}$ höher); es gibt kaum Atome, die Balmer-Photonen absorbieren können – wie im kalten Gas (P3 Aufgabe 4). (1 P)\n\nSehr heiße Sterne: Die meisten Atome sind ionisiert; ohne gebundenes Elektron gibt es keine Übergänge und damit keine Linien. Dazwischen (um $10\\,000\\,\\mathrm{K}$) ist der Anteil der Atome in $n = 2$ am größten, die Linien sind am stärksten. (1 P)"
+        }
+      ]
+    }
+  ]
+}
