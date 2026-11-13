@@ -11,6 +11,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Antiproportionale Zuordnung, Dreisatz, Grundwert/Prozentwert/Prozentsatz, Rabatte, Zinsen"
+        },
+        {
+          "id": "zuordnungen",
+          "name": "Zuordnungen – Training",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Diagramme lesen, Formeln und Wertetabellen, proportionale Zuordnungen"
         }
       ]
     },
