@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Planet mit radialen Feldlinien nach innen">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="akzent" d="M111 45 L94 40"/>
+  <path class="marke" d="M94 40 L101 39 L100 44 Z"/>
+  <path class="akzent" d="M99 62 L89 47"/>
+  <path class="marke" d="M89 47 L95 51 L90 54 Z"/>
+  <path class="akzent" d="M80 68 L80 50"/>
+  <path class="marke" d="M80 50 L83 56 L77 56 Z"/>
+  <path class="akzent" d="M61 62 L71 47"/>
+  <path class="marke" d="M71 47 L70 54 L65 51 Z"/>
+  <path class="akzent" d="M49 45 L66 40"/>
+  <path class="marke" d="M66 40 L60 44 L59 39 Z"/>
+  <path class="akzent" d="M49 25 L66 30"/>
+  <path class="marke" d="M66 30 L59 31 L60 26 Z"/>
+  <path class="akzent" d="M61 8 L71 23"/>
+  <path class="marke" d="M71 23 L65 19 L70 16 Z"/>
+  <path class="akzent" d="M80 2 L80 20"/>
+  <path class="marke" d="M80 20 L77 14 L83 14 Z"/>
+  <path class="akzent" d="M99 8 L89 23"/>
+  <path class="marke" d="M89 23 L90 16 L95 19 Z"/>
+  <path class="akzent" d="M111 25 L94 30"/>
+  <path class="marke" d="M94 30 L100 26 L101 31 Z"/>
+  <circle class="fuell" cx="80" cy="35" r="12"/>
+  <circle class="grau" cx="80" cy="35" r="12"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Feldlinien zwischen Erde und Mond">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M75 44 L58 39"/>
+  <path class="marke" d="M58 39 L65 38 L64 44 Z"/>
+  <path class="grau" d="M64 59 L54 46"/>
+  <path class="marke" d="M54 46 L60 49 L55 52 Z"/>
+  <path class="grau" d="M46 65 L46 48"/>
+  <path class="marke" d="M46 48 L49 54 L43 54 Z"/>
+  <path class="grau" d="M28 59 L38 46"/>
+  <path class="marke" d="M38 46 L37 52 L32 49 Z"/>
+  <path class="grau" d="M17 44 L34 39"/>
+  <path class="marke" d="M34 39 L28 44 L27 38 Z"/>
+  <path class="grau" d="M17 26 L34 31"/>
+  <path class="marke" d="M34 31 L27 32 L28 26 Z"/>
+  <path class="grau" d="M28 11 L38 24"/>
+  <path class="marke" d="M38 24 L32 21 L37 18 Z"/>
+  <path class="grau" d="M46 5 L46 22"/>
+  <path class="marke" d="M46 22 L43 16 L49 16 Z"/>
+  <path class="grau" d="M64 11 L54 24"/>
+  <path class="marke" d="M54 24 L55 18 L60 21 Z"/>
+  <path class="grau" d="M75 26 L58 31"/>
+  <path class="marke" d="M58 31 L64 26 L65 32 Z"/>
+  <circle class="fuell" cx="46" cy="35" r="12"/>
+  <circle class="grau" cx="46" cy="35" r="12"/>
+  <circle class="fuell" cx="124" cy="35" r="6"/>
+  <circle class="akzent" cx="124" cy="35" r="6"/>
+  <path class="akzent" d="M150 35 L132 35"/>
+  <path class="marke" d="M132 35 L138 32 L138 38 Z"/>
+  <path class="akzent" d="M140 14 L128 28"/>
+  <path class="marke" d="M128 28 L130 21 L134 25 Z"/>
+  <path class="akzent" d="M140 56 L128 42"/>
+  <path class="marke" d="M128 42 L134 45 L130 49 Z"/>
+</svg>

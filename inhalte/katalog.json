@@ -112,6 +112,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Extrempunkte, Monotonie, Wende- und Sattelpunkte, Kurvendiskussion, Steckbriefaufgaben, Optimierung"
+        },
+        {
+          "id": "gravitationsfeld",
+          "name": "Gravitationsfeld – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Astronomische Grundgrößen, Ellipse, Kepler-Gesetze, Gravitationsgesetz, Kreisbahnen, Feldmodell, Feldlinien, Feldstärke, Arbeit und potenzielle Energie, Potenzial"
         }
       ]
     },
