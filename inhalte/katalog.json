@@ -78,6 +78,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Energieformen, Energie, Arbeit und Leistung, Lage-, Bewegungs- und Spannenergie, Energieerhaltung, Temperatur, Wärmetransport, Wärmekapazität, Wirkungsgrad"
+        },
+        {
+          "id": "aehnlichkeit",
+          "name": "Ähnlichkeit – Lerntheke",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Kongruenz, zentrische Streckung, Streckzentrum und Streckfaktor, ähnliche Figuren, Ähnlichkeitssätze für Dreiecke, Strahlensätze, unzugängliche Längen bestimmen"
         }
       ]
     },
