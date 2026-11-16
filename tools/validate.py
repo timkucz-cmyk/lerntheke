@@ -15,6 +15,7 @@ INHALTE = os.path.join(WURZEL, "inhalte")
 AFB_ERLAUBT = ["I", "II", "III"]
 SOZIALFORM_ERLAUBT = ["einzel", "partner", "gruppe", "tandem"]
 TYP_ERLAUBT = ["pflicht", "wahl"]
+KATEGORIE_ERLAUBT = ["grundlagen", "neu", "vernetzen"]
 ROLLEN = ["A", "B"]
 
 fehler = []
@@ -99,6 +100,8 @@ def pruefe_station(st, ort, ordner, stations_ids, aufgaben_ids, checklisten_ids)
         f(o, 'kein "titel"')
     if st.get("typ") not in TYP_ERLAUBT:
         f(o, '"typ" muss "pflicht" oder "wahl" sein (ist: %r)' % st.get("typ"))
+    if "kategorie" in st and st["kategorie"] not in KATEGORIE_ERLAUBT:
+        f(o, '"kategorie" muss grundlagen, neu oder vernetzen sein (ist: %r)' % st.get("kategorie"))
     if "sozialform" in st and st["sozialform"] not in SOZIALFORM_ERLAUBT:
         f(o, '"sozialform" muss einzel, partner oder gruppe sein')
     if "dauer_min" in st and not (ist_zahl(st["dauer_min"]) and st["dauer_min"] > 0):

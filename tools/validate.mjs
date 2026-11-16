@@ -17,6 +17,7 @@ const INHALTE = path.join(WURZEL, 'inhalte');
 const AFB_ERLAUBT = ['I', 'II', 'III'];
 const SOZIALFORM_ERLAUBT = ['einzel', 'partner', 'gruppe', 'tandem'];
 const TYP_ERLAUBT = ['pflicht', 'wahl'];
+const KATEGORIE_ERLAUBT = ['grundlagen', 'neu', 'vernetzen'];
 const ROLLEN = ['A', 'B'];
 
 const fehler = [];
@@ -76,6 +77,7 @@ async function pruefeStation(st, ort, ordner, stationsIds, aufgabenIds, checklis
 
   if (!istText(st.titel)) f(o, 'kein "titel"');
   if (!TYP_ERLAUBT.includes(st.typ)) f(o, '"typ" muss "pflicht" oder "wahl" sein (ist: ' + JSON.stringify(st.typ) + ')');
+  if ('kategorie' in st && !KATEGORIE_ERLAUBT.includes(st.kategorie)) f(o, '"kategorie" muss grundlagen, neu oder vernetzen sein (ist: ' + JSON.stringify(st.kategorie) + ')');
   if (st.sozialform !== undefined && !SOZIALFORM_ERLAUBT.includes(st.sozialform)) {
     f(o, '"sozialform" muss einzel, partner oder gruppe sein');
   }

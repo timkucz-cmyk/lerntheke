@@ -261,6 +261,20 @@ function gesamtWerteAufgaben(thema, z) {
 }
 
 /** Wahlstation empfohlen, wenn ein zugehöriger Punkt höchstens „mittel“ eingeschätzt wurde. */
+/** Kategorie einer Station: "grundlagen", "vernetzen" oder "neu" (Standard, auch ohne Feld). */
+function kategorieVon(station) {
+  return station.kategorie === 'grundlagen' || station.kategorie === 'vernetzen' ? station.kategorie : 'neu';
+}
+
+/** Bezeichnung im Stationskopf. */
+function stationsArt(station) {
+  const k = kategorieVon(station);
+  if (k === 'grundlagen') return 'Grundlagen';
+  if (k === 'vernetzen') return 'Vernetzen';
+  if (station.kategorie === 'neu') return 'Neue Themen';
+  return station.typ === 'wahl' ? 'Wahlstation' : 'Pflichtstation';
+}
+
 function istEmpfohlen(station, z) {
   const refs = Array.isArray(station.checkliste) ? station.checkliste : [];
   return refs.some((id) => {
@@ -720,14 +734,32 @@ function ansichtStationen() {
   html += lernwegKarte(thema, z);
 
   if (!diagnoseGemacht && aktiveCheckliste(thema).length) {
-    html += '<p class="hinweis">Noch keine Selbsteinschätzung. Sie hilft dabei, die passenden Wahlstationen zu erkennen.</p>';
+    const welche = thema.stationen.some((s) => 'kategorie' in s) ? 'Stationen' : 'Wahlstationen';
+    html += '<p class="hinweis">Noch keine Selbsteinschätzung. Sie hilft dabei, die passenden ' + welche + ' zu erkennen.</p>';
   }
 
-  const pflicht = thema.stationen.filter((s) => s.typ !== 'wahl');
-  const wahl = thema.stationen.filter((s) => s.typ === 'wahl');
+  // Kategorien (optional): grundlagen → neue Themen (Pflicht/Wahl) → vernetzen.
+  // Ohne "kategorie" im Thema bleibt die Übersicht wie bisher.
+  const grundlagen = thema.stationen.filter((s) => kategorieVon(s) === 'grundlagen');
+  const vernetzen = thema.stationen.filter((s) => kategorieVon(s) === 'vernetzen');
+  const neu = thema.stationen.filter((s) => kategorieVon(s) === 'neu');
+  const mitKategorien = grundlagen.length + vernetzen.length > 0;
+  const pflicht = neu.filter((s) => s.typ !== 'wahl');
+  const wahl = neu.filter((s) => s.typ === 'wahl');
+  const liste = (stn) => '<ul class="kacheln">' + stn.map((s) => stationsKarte(s, z)).join('') + '</ul>';
+  const abschnitt = (titel, erkl, stn) => stn.length
+    ? '<p class="kicker">' + titel + '</p>' + (erkl ? '<p class="meta kategorie-erkl">' + erkl + '</p>' : '') + liste(stn)
+    : '';
 
-  if (pflicht.length) html += '<p class="kicker">Pflichtstationen</p><ul class="kacheln">' + pflicht.map((s) => stationsKarte(s, z)).join('') + '</ul>';
-  if (wahl.length) html += '<p class="kicker">Wahlstationen</p><ul class="kacheln">' + wahl.map((s) => stationsKarte(s, z)).join('') + '</ul>';
+  if (mitKategorien) {
+    // Mit Kategorien keine Trennung Pflicht/Wahl: alles ist prüfungsrelevant (Tim, 16.11.2026).
+    html += abschnitt('Grundlagen', 'Vorwissen aus früheren Themen auffrischen – am besten vor den neuen Themen.', grundlagen);
+    html += abschnitt('Neue Themen', 'Das neue Thema Schritt für Schritt – in der Reihenfolge des Lernwegs.', neu);
+    html += abschnitt('Vernetzen', 'Aufgaben, die alles bisher Gelernte verbinden. Jede Station kommt nach einer Phase des Lernwegs hinzu.', vernetzen);
+  } else {
+    html += abschnitt('Pflichtstationen', '', pflicht);
+    html += abschnitt('Wahlstationen', '', wahl);
+  }
   if (!thema.stationen.length) html += '<p class="hinweis">Dieses Thema enthält noch keine Stationen.</p>';
 
   zeichne(html);
@@ -802,7 +834,7 @@ function lernwegKarte(thema, z) {
 function stationsKarte(station, z) {
   const w = stationsWerte(station, z);
   const status = stationsStatus(station, z);
-  const empfohlen = station.typ === 'wahl' && istEmpfohlen(station, z);
+  const empfohlen = (station.typ === 'wahl' || 'kategorie' in station) && istEmpfohlen(station, z);
   const pfad = themaPfad(aktuell.stufe, aktuell.themaId) + '/s/' + encodeURIComponent(station.id);
 
   const rolle = rolleVon(station, z);
@@ -847,7 +879,7 @@ function stationsKopf(station) {
   return '<p class="meta"><a href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '">← Stationsübersicht</a></p>' +
     '<h1>' + esc(station.id) + ' · ' + esc(station.titel || '') + '</h1>' +
     '<p class="meta meta-reihe">' +
-    (station.typ === 'wahl' ? '<span>Wahlstation</span>' : '<span>Pflichtstation</span>') +
+    '<span>' + stationsArt(station) + '</span>' +
     (station.dauer_min ? '<span>' + symbol('dauer') + esc(String(station.dauer_min)) + ' min</span>' : '') +
     '<span>' + sozialformSymbol(station.sozialform) + esc(sozialformText(station.sozialform)) + '</span>' +
     (station.hilfsmittel ? '<span>' + symbol('hilfsmittel') + esc(station.hilfsmittel) + '</span>' : '') +
