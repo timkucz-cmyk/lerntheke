@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
-     role="img" aria-label="Zwei windschiefe Geraden">
+     role="img" aria-label="Zwei Personen im Tandem mit Nummer">
   <style>
     .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
     .marke  { fill: #B61E33; }
@@ -17,8 +17,9 @@
       .text   { fill: #9aa1a9; }
     }
   </style>
-  <path class="akzent" d="M16 56 L144 20"/>
-  <path class="grau" d="M40 8 L76 34"/>
-  <path class="hilfs" d="M76 34 L88 43"/>
-  <path class="grau" d="M88 43 L124 66"/>
+  <circle class="grau" cx="44" cy="24" r="10"/>
+  <path class="grau" d="M26 64 q18 -26 36 0"/>
+  <circle class="akzent" cx="116" cy="24" r="10"/>
+  <path class="akzent" d="M98 64 q18 -26 36 0"/>
+  <text class="text gross" x="74" y="40">2</text>
 </svg>

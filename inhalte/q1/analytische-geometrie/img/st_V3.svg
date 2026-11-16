@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
-     role="img" aria-label="Zwei Flugbahnen, die sich im Grundriss kreuzen">
+     role="img" aria-label="Geneigte Gesteinsschicht, von einer Bohrung getroffen, eine zweite Bohrung parallel dazu">
   <style>
     .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
     .marke  { fill: #B61E33; }
@@ -17,8 +17,10 @@
       .text   { fill: #9aa1a9; }
     }
   </style>
-  <path class="akzent" d="M14 60 L146 14"/>
-  <path class="grau" d="M30 10 L130 64"/>
-  <path class="marke" d="M146 14 l-10 0 l4 7 z"/>
-  <circle class="marke" cx="80" cy="37" r="3.5"/>
+  <path class="grau" d="M8 10 H152"/>
+  <path class="fuell" d="M8 40 L152 54 L152 64 L8 50 Z"/>
+  <path class="grau" d="M8 40 L152 54"/>
+  <path class="akzent" d="M40 10 L62 42"/>
+  <circle class="marke" cx="62" cy="42" r="3.5"/>
+  <path class="hilfs" d="M96 10 L150 15"/>
 </svg>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
-     role="img" aria-label="Zwei Personen im Tandem mit Nummer">
+     role="img" aria-label="Ebene als Streifen parallel zu einer Achse im Schrägbild">
   <style>
     .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
     .marke  { fill: #B61E33; }
@@ -17,9 +17,7 @@
       .text   { fill: #9aa1a9; }
     }
   </style>
-  <circle class="grau" cx="44" cy="24" r="10"/>
-  <path class="grau" d="M26 64 q18 -26 36 0"/>
-  <circle class="akzent" cx="116" cy="24" r="10"/>
-  <path class="akzent" d="M98 64 q18 -26 36 0"/>
-  <text class="text gross" x="74" y="40">2</text>
+  <path class="grau" d="M60 46 h80 M60 46 V6 M60 46 l-26 22"/>
+  <path class="fuell" d="M48 56 L100 46 L100 14 L48 24 Z"/>
+  <path class="akzent" d="M48 56 L100 46 L100 14 L48 24 Z"/>
 </svg>

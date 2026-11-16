@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
-     role="img" aria-label="Mehrere Ebenen, die sich um eine gemeinsame Gerade drehen">
+     role="img" aria-label="Rechnung mit einem durchgestrichenen Fehler">
   <style>
     .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
     .marke  { fill: #B61E33; }
@@ -17,9 +17,8 @@
       .text   { fill: #9aa1a9; }
     }
   </style>
-  <path class="fuell" d="M24 50 L136 50 L120 22 L40 22 Z"/>
-  <path class="grau" d="M24 50 L136 50 L120 22 L40 22 Z"/>
-  <path class="grau" d="M24 50 L136 50 L130 62 L18 62 Z"/>
-  <path class="hilfs" d="M24 50 L136 50 L150 14 L38 14"/>
-  <path class="akzent" d="M10 50 H150"/>
+  <path class="grau" d="M30 20 L96 20 M30 34 L110 34 M30 48 L86 48"/>
+  <path class="akzent" d="M26 30 L114 38"/>
+  <circle class="akzent" cx="128" cy="38" r="14"/>
+  <text class="text gross" x="121" y="47">!</text>
 </svg>

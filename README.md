@@ -157,6 +157,7 @@ git push
       "id": "P1",                        // erscheint als Kennung, z. B. "P1"
       "titel": "Waagerechter Wurf",
       "typ": "pflicht",                  // pflicht | wahl
+      "kategorie": "neu",                // optional: grundlagen | neu | vernetzen (Standard neu)
       "sozialform": "einzel",            // einzel | partner | gruppe
       "dauer_min": 15,
       "hilfsmittel": "GTR",

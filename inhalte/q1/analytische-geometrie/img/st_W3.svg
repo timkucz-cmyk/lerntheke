@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
-     role="img" aria-label="Ebene als Streifen parallel zu einer Achse im Schrägbild">
+     role="img" aria-label="Mehrere Ebenen, die sich um eine gemeinsame Gerade drehen">
   <style>
     .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
     .marke  { fill: #B61E33; }
@@ -17,7 +17,9 @@
       .text   { fill: #9aa1a9; }
     }
   </style>
-  <path class="grau" d="M60 46 h80 M60 46 V6 M60 46 l-26 22"/>
-  <path class="fuell" d="M48 56 L100 46 L100 14 L48 24 Z"/>
-  <path class="akzent" d="M48 56 L100 46 L100 14 L48 24 Z"/>
+  <path class="fuell" d="M24 50 L136 50 L120 22 L40 22 Z"/>
+  <path class="grau" d="M24 50 L136 50 L120 22 L40 22 Z"/>
+  <path class="grau" d="M24 50 L136 50 L130 62 L18 62 Z"/>
+  <path class="hilfs" d="M24 50 L136 50 L150 14 L38 14"/>
+  <path class="akzent" d="M10 50 H150"/>
 </svg>

@@ -195,6 +195,7 @@ a { color: var(--fach); text-underline-offset: 2px; }
   color: var(--text-leise);
   margin: 1.6rem 0 .6rem;
 }
+.kategorie-erkl { margin: -.3rem 0 .7rem; }
 
 .skiplink {
   position: absolute; left: -9999px; top: 0; z-index: 10;
