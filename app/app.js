@@ -271,6 +271,7 @@ function stationsArt(station) {
   const k = kategorieVon(station);
   if (k === 'grundlagen') return 'Grundlagen';
   if (k === 'vernetzen') return 'Vernetzen';
+  if (station.kategorie === 'neu') return 'Neue Themen';
   return station.typ === 'wahl' ? 'Wahlstation' : 'Pflichtstation';
 }
 
@@ -733,7 +734,8 @@ function ansichtStationen() {
   html += lernwegKarte(thema, z);
 
   if (!diagnoseGemacht && aktiveCheckliste(thema).length) {
-    html += '<p class="hinweis">Noch keine Selbsteinschätzung. Sie hilft dabei, die passenden Wahlstationen zu erkennen.</p>';
+    const welche = thema.stationen.some((s) => 'kategorie' in s) ? 'Stationen' : 'Wahlstationen';
+    html += '<p class="hinweis">Noch keine Selbsteinschätzung. Sie hilft dabei, die passenden ' + welche + ' zu erkennen.</p>';
   }
 
   // Kategorien (optional): grundlagen → neue Themen (Pflicht/Wahl) → vernetzen.
@@ -750,9 +752,9 @@ function ansichtStationen() {
     : '';
 
   if (mitKategorien) {
+    // Mit Kategorien keine Trennung Pflicht/Wahl: alles ist prüfungsrelevant (Tim, 16.11.2026).
     html += abschnitt('Grundlagen', 'Vorwissen aus früheren Themen auffrischen – am besten vor den neuen Themen.', grundlagen);
-    html += abschnitt('Neue Themen · Pflichtstationen', '', pflicht);
-    html += abschnitt('Neue Themen · Wahlstationen', '', wahl);
+    html += abschnitt('Neue Themen', 'Das neue Thema Schritt für Schritt – in der Reihenfolge des Lernwegs.', neu);
     html += abschnitt('Vernetzen', 'Aufgaben, die alles bisher Gelernte verbinden. Jede Station kommt nach einer Phase des Lernwegs hinzu.', vernetzen);
   } else {
     html += abschnitt('Pflichtstationen', '', pflicht);
@@ -832,7 +834,7 @@ function lernwegKarte(thema, z) {
 function stationsKarte(station, z) {
   const w = stationsWerte(station, z);
   const status = stationsStatus(station, z);
-  const empfohlen = station.typ === 'wahl' && istEmpfohlen(station, z);
+  const empfohlen = (station.typ === 'wahl' || 'kategorie' in station) && istEmpfohlen(station, z);
   const pfad = themaPfad(aktuell.stufe, aktuell.themaId) + '/s/' + encodeURIComponent(station.id);
 
   const rolle = rolleVon(station, z);

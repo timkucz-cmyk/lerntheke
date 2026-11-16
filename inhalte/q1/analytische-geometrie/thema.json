@@ -3,7 +3,7 @@
   "titel": "Analytische Geometrie – Trainingswoche",
   "fach": "mathe",
   "anrede": "sie",
-  "hinweis": "Sind Sie bei Vektoren und Geraden aus Klasse E unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Vektoren und Geraden auf. Dann P1 (Diagnose) – die Lösungen von P1 empfehlen Ihnen passende Stationen – und P2 bis P4. Nach jeder Phase des Lernwegs verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach P2 (Produkte), V2 nach P3 (Ebenen), V3 nach P4 (Lage, Schnitt, Winkel), V4 nach W3 (Scharen) als Komplexaufgabe. P5 (Check-out) bearbeiten Sie am Ende der dritten Stunde – vergleichen Sie dann Ihre Punkte in P1 und P5. W3 (Scharen) wird allen empfohlen: Scharen kommen in jeder Abiturprüfung vor. Mit mindestens 7 von 8 sicheren Punkten in P1 gehen Sie nach den Pflichtstationen direkt zu W3, W5 und den Vernetzungsaufgaben.",
+  "hinweis": "Alle Stationen sind klausurrelevant. Sind Sie bei Vektoren und Geraden aus Klasse E unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Vektoren und Geraden auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Produkte), V2 nach N3 bis N5 (Ebenen), V3 nach N6 bis N8 (Lage, Schnitt, Winkel), V4 nach N9 und N10 (Scharen, Anwendungen) als Komplexaufgabe. N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11.",
   "checkliste": [
     {
       "id": "g1",
@@ -323,9 +323,9 @@
       ]
     },
     {
-      "id": "P1",
+      "id": "N1",
       "titel": "Diagnose: Vektoren und Ebenen",
-      "typ": "pflicht",
+      "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 8,
       "hilfsmittel": "ohne",
@@ -338,72 +338,73 @@
         "c9",
         "c10"
       ],
+      "kategorie": "neu",
       "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
-      "bild": "img/st_P1.svg",
-      "pdf": "pdf/P1_Diagnose.pdf",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
       "aufgaben": [
         {
-          "id": "P1-1",
+          "id": "N1-1",
           "label": "1",
           "punkte": 1,
           "afb": "I",
-          "loesung": "**B** – $\\vec u\\circ\\vec v=1\\cdot3+2\\cdot(-1)+(-1)\\cdot1=3-2-1=0$. Das Skalarprodukt ist eine **Zahl**; ist sie null, stehen die Vektoren senkrecht aufeinander.\n\n*A gewählt?* Sie haben komponentenweise multipliziert, aber nicht addiert – das Skalarprodukt ist kein Vektor. → **P2** Aufgabe 1\n\n*C gewählt?* Null bedeutet orthogonal, nicht parallel. → **P2**, **W1**"
+          "loesung": "**B** – $\\vec u\\circ\\vec v=1\\cdot3+2\\cdot(-1)+(-1)\\cdot1=3-2-1=0$. Das Skalarprodukt ist eine **Zahl**; ist sie null, stehen die Vektoren senkrecht aufeinander.\n\n*A gewählt?* Sie haben komponentenweise multipliziert, aber nicht addiert – das Skalarprodukt ist kein Vektor. → **N2** Aufgabe 1\n\n*C gewählt?* Null bedeutet orthogonal, nicht parallel. → **N2**, **N4**"
         },
         {
-          "id": "P1-2",
+          "id": "N1-2",
           "label": "2",
           "punkte": 1,
           "afb": "I",
-          "loesung": "**C** – Das Vektorprodukt ist ein **Vektor**, der auf beiden Ausgangsvektoren senkrecht steht (deshalb liefert es einen Normalenvektor). Sein Betrag ist der Flächeninhalt des aufgespannten Parallelogramms.\n\n*A oder D gewählt?* $\\vec w$ zeigt aus der Ebene von $\\vec u$ und $\\vec v$ heraus. → **P2** Aufgabe 1\n\n*B gewählt?* Verwechslung mit dem Skalarprodukt. → **P2**, **W4**"
+          "loesung": "**C** – Das Vektorprodukt ist ein **Vektor**, der auf beiden Ausgangsvektoren senkrecht steht (deshalb liefert es einen Normalenvektor). Sein Betrag ist der Flächeninhalt des aufgespannten Parallelogramms.\n\n*A oder D gewählt?* $\\vec w$ zeigt aus der Ebene von $\\vec u$ und $\\vec v$ heraus. → **N2** Aufgabe 1\n\n*B gewählt?* Verwechslung mit dem Skalarprodukt. → **N2**, **N7**"
         },
         {
-          "id": "P1-3",
+          "id": "N1-3",
           "label": "3",
           "punkte": 1,
           "afb": "I",
-          "loesung": "**D** – Die Koeffizienten vor $x_1$, $x_2$, $x_3$ bilden einen Normalenvektor: $\\vec n=\\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}$. Die rechte Seite $6$ gehört nicht dazu.\n\n*A oder C gewählt?* Das sind Ortsvektoren der Spurpunkte $S_1(3 \\mid 0 \\mid 0)$ und $S_3(0 \\mid 0 \\mid 2)$, keine Normalenvektoren. → **W1**, **W2**\n\n*B gewählt?* Reihenfolge vertauscht. → **W1**"
+          "loesung": "**D** – Die Koeffizienten vor $x_1$, $x_2$, $x_3$ bilden einen Normalenvektor: $\\vec n=\\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}$. Die rechte Seite $6$ gehört nicht dazu.\n\n*A oder C gewählt?* Das sind Ortsvektoren der Spurpunkte $S_1(3 \\mid 0 \\mid 0)$ und $S_3(0 \\mid 0 \\mid 2)$, keine Normalenvektoren. → **N4**, **N5**\n\n*B gewählt?* Reihenfolge vertauscht. → **N4**"
         },
         {
-          "id": "P1-4",
+          "id": "N1-4",
           "label": "4",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**A** – $\\begin{pmatrix} 2 \\\\ -4 \\\\ 2 \\end{pmatrix}=-2\\cdot\\begin{pmatrix} -1 \\\\ 2 \\\\ -1 \\end{pmatrix}$: Beide Vektoren zeigen in dieselbe Richtung. Alle Punkte liegen dann auf einer Geraden durch $(1 \\mid 0 \\mid 1)$. Eine Ebene braucht zwei **nicht kollineare** Spannvektoren.\n\n*B gewählt?* Zwei Parameter reichen nicht. → **P3** Aufgabe 1, **G1** Aufgabe 4, **G2**\n\n*C oder D gewählt?* Orthogonal müssen Spannvektoren nicht sein, und die Parameterform kommt ohne Normalenvektor aus. → **P3**"
+          "loesung": "**A** – $\\begin{pmatrix} 2 \\\\ -4 \\\\ 2 \\end{pmatrix}=-2\\cdot\\begin{pmatrix} -1 \\\\ 2 \\\\ -1 \\end{pmatrix}$: Beide Vektoren zeigen in dieselbe Richtung. Alle Punkte liegen dann auf einer Geraden durch $(1 \\mid 0 \\mid 1)$. Eine Ebene braucht zwei **nicht kollineare** Spannvektoren.\n\n*B gewählt?* Zwei Parameter reichen nicht. → **N3** Aufgabe 1, **G1** Aufgabe 4, **G2**\n\n*C oder D gewählt?* Orthogonal müssen Spannvektoren nicht sein, und die Parameterform kommt ohne Normalenvektor aus. → **N3**"
         },
         {
-          "id": "P1-5",
+          "id": "N1-5",
           "label": "5",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**C** – $(1+2t)+2-2t=3$ ist für **jedes** $t$ wahr. Jeder Punkt von g liegt in E, also liegt g in E.\n\n*A gewählt?* $t$ fällt heraus; man darf nicht $t=0$ setzen. → **P4** Aufgabe 1, **W4**\n\n*B gewählt?* Echt parallel wäre g bei einer falschen Aussage wie $3=5$. → **P4**\n\n*D gewählt?* Windschief gibt es nur bei zwei Geraden. → **P4**"
+          "loesung": "**C** – $(1+2t)+2-2t=3$ ist für **jedes** $t$ wahr. Jeder Punkt von g liegt in E, also liegt g in E.\n\n*A gewählt?* $t$ fällt heraus; man darf nicht $t=0$ setzen. → **N6** Aufgabe 1, **N7**\n\n*B gewählt?* Echt parallel wäre g bei einer falschen Aussage wie $3=5$. → **N6**\n\n*D gewählt?* Windschief gibt es nur bei zwei Geraden. → **N6**"
         },
         {
-          "id": "P1-6",
+          "id": "N1-6",
           "label": "6",
           "punkte": 1,
           "afb": "I",
-          "loesung": "**A** – $\\vec n_F=-2\\cdot\\vec n_E$: parallel oder identisch. Teilt man F durch $-2$, erhält man $x_1+2x_2-x_3=-4\\neq4$. Kein Punkt liegt in beiden Ebenen: echt parallel.\n\n*B gewählt?* Kollineare Normalenvektoren reichen nicht, man braucht die Punktprobe. → **P4** Aufgabe 2, **W4**\n\n*D gewählt?* Ebenen sind nie windschief. → **P4**"
+          "loesung": "**A** – $\\vec n_F=-2\\cdot\\vec n_E$: parallel oder identisch. Teilt man F durch $-2$, erhält man $x_1+2x_2-x_3=-4\\neq4$. Kein Punkt liegt in beiden Ebenen: echt parallel.\n\n*B gewählt?* Kollineare Normalenvektoren reichen nicht, man braucht die Punktprobe. → **N6** Aufgabe 2, **N7**\n\n*D gewählt?* Ebenen sind nie windschief. → **N6**"
         },
         {
-          "id": "P1-7",
+          "id": "N1-7",
           "label": "7",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**D** – Der Bruch ist der Kosinus des Winkels zwischen g und dem **Normalenvektor**. Für den Winkel zwischen g und E gilt $\\sin\\varphi=\\dfrac{|\\vec u\\circ\\vec n|}{|\\vec u|\\cdot|\\vec n|}=\\dfrac12$, also $\\varphi=30^\\circ=90^\\circ-60^\\circ$.\n\n*A gewählt?* Das ist der Winkel zur Normalen (Kosinus statt Sinus). → **P4** Aufgabe 1, **W4**"
+          "loesung": "**D** – Der Bruch ist der Kosinus des Winkels zwischen g und dem **Normalenvektor**. Für den Winkel zwischen g und E gilt $\\sin\\varphi=\\dfrac{|\\vec u\\circ\\vec n|}{|\\vec u|\\cdot|\\vec n|}=\\dfrac12$, also $\\varphi=30^\\circ=90^\\circ-60^\\circ$.\n\n*A gewählt?* Das ist der Winkel zur Normalen (Kosinus statt Sinus). → **N6** Aufgabe 1, **N7**"
         },
         {
-          "id": "P1-8",
+          "id": "N1-8",
           "label": "8",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**B** – Der Schnittwinkel zweier Geraden ist höchstens $90^\\circ$: $180^\\circ-120^\\circ=60^\\circ$. In der Formel sorgt der Betrag im Zähler dafür: $\\cos\\varphi=\\dfrac{|\\vec u\\circ\\vec v|}{|\\vec u|\\cdot|\\vec v|}$.\n\n*A gewählt?* Betrag vergessen. → **P2** Aufgabe 3, **W6**\n\n*C gewählt?* Sie haben $120^\\circ-90^\\circ$ gerechnet (Winkel zur Senkrechten) statt den Nebenwinkel $180^\\circ-120^\\circ$ zu nehmen. → **P2**"
+          "loesung": "**B** – Der Schnittwinkel zweier Geraden ist höchstens $90^\\circ$: $180^\\circ-120^\\circ=60^\\circ$. In der Formel sorgt der Betrag im Zähler dafür: $\\cos\\varphi=\\dfrac{|\\vec u\\circ\\vec v|}{|\\vec u|\\cdot|\\vec v|}$.\n\n*A gewählt?* Betrag vergessen. → **N2** Aufgabe 3, **N10**\n\n*C gewählt?* Sie haben $120^\\circ-90^\\circ$ gerechnet (Winkel zur Senkrechten) statt den Nebenwinkel $180^\\circ-120^\\circ$ zu nehmen. → **N2**"
         }
       ]
     },
     {
-      "id": "P2",
+      "id": "N2",
       "titel": "Skalarprodukt und Vektorprodukt",
-      "typ": "pflicht",
+      "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 15,
       "hilfsmittel": "ohne",
@@ -412,54 +413,55 @@
         "c3",
         "c4"
       ],
+      "kategorie": "neu",
       "hinweis": "Ohne Taschenrechner, 15 Minuten. Rechnen Sie alle Produkte von Hand.",
-      "bild": "img/st_P2.svg",
-      "pdf": "pdf/P2_Skalarprodukt_Vektorprodukt.pdf",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Skalarprodukt_Vektorprodukt.pdf",
       "aufgaben": [
         {
-          "id": "P2-1a",
+          "id": "N2-1a",
           "label": "1a",
           "punkte": 1,
           "afb": "I",
           "loesung": "$\\vec a\\circ\\vec b=1\\cdot2+2\\cdot(-2)+2\\cdot1=2-4+2=0$\n\nDas Skalarprodukt ist null: $\\vec a$ und $\\vec b$ stehen senkrecht aufeinander ($\\vec a\\perp\\vec b$)."
         },
         {
-          "id": "P2-1b",
+          "id": "N2-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "I",
           "loesung": "$$\\vec a\\times\\vec b=\\begin{pmatrix} 2\\cdot1-2\\cdot(-2) \\\\ 2\\cdot2-1\\cdot1 \\\\ 1\\cdot(-2)-2\\cdot2 \\end{pmatrix}=\\begin{pmatrix} 6 \\\\ 3 \\\\ -6 \\end{pmatrix}$$\n\nMerkhilfe: Für die erste Komponente die erste Zeile abdecken und „über Kreuz“ rechnen, für die zweite Komponente die zweite Zeile usw.; bei der zweiten Komponente auf die Reihenfolge $a_3b_1-a_1b_3$ achten.\n\nProbe: $\\begin{pmatrix} 6 \\\\ 3 \\\\ -6 \\end{pmatrix}\\circ\\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix}=6+6-12=0$ und $\\begin{pmatrix} 6 \\\\ 3 \\\\ -6 \\end{pmatrix}\\circ\\begin{pmatrix} 2 \\\\ -2 \\\\ 1 \\end{pmatrix}=12-6-6=0$."
         },
         {
-          "id": "P2-2a",
+          "id": "N2-2a",
           "label": "2a",
           "punkte": 2,
           "afb": "II",
           "loesung": "$\\overrightarrow{AB}=\\begin{pmatrix} 2 \\\\ 2 \\\\ 1 \\end{pmatrix}$, $\\overrightarrow{AC}=\\begin{pmatrix} -2 \\\\ 1 \\\\ 2 \\end{pmatrix}$\n\n$$\\overrightarrow{AB}\\times\\overrightarrow{AC}=\\begin{pmatrix} 2\\cdot2-1\\cdot1 \\\\ 1\\cdot(-2)-2\\cdot2 \\\\ 2\\cdot1-2\\cdot(-2) \\end{pmatrix}=\\begin{pmatrix} 3 \\\\ -6 \\\\ 6 \\end{pmatrix}$$\n\n$|\\overrightarrow{AB}\\times\\overrightarrow{AC}|=\\sqrt{9+36+36}=\\sqrt{81}=9$\n\nParallelogramm: $9$ FE, Dreieck: $\\tfrac12\\cdot9=4{,}5$ FE."
         },
         {
-          "id": "P2-2b",
+          "id": "N2-2b",
           "label": "2b",
           "punkte": 1,
           "afb": "II",
           "loesung": "$\\overrightarrow{AB}\\circ\\overrightarrow{AC}=-4+2+2=0$: Das Dreieck hat bei A einen rechten Winkel. $\\overrightarrow{AB}$ und $\\overrightarrow{AC}$ sind dann die Katheten, also $A=\\tfrac12\\cdot3\\cdot3=4{,}5$ FE (mit $|\\overrightarrow{AB}|=|\\overrightarrow{AC}|=3$). Bei einem nicht rechtwinkligen Dreieck wäre dieser Term zu groß."
         },
         {
-          "id": "P2-3a",
+          "id": "N2-3a",
           "label": "3a",
           "punkte": 1,
           "afb": "II",
           "loesung": "$\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}\\circ\\begin{pmatrix} -1 \\\\ 0 \\\\ 1 \\end{pmatrix}=-1+0+0=-1$, beide Beträge $\\sqrt2$\n\n$\\cos\\alpha=\\dfrac{-1}{\\sqrt2\\cdot\\sqrt2}=-\\dfrac12$, also $\\alpha=120^\\circ$."
         },
         {
-          "id": "P2-3b",
+          "id": "N2-3b",
           "label": "3b",
           "punkte": 1,
           "afb": "II",
           "loesung": "Schnittwinkel $\\varphi=60^\\circ$: Zwei Geraden bilden zwei Winkelpaare ($120^\\circ$ und $60^\\circ$); der Schnittwinkel ist der nicht stumpfe. In der Formel sorgt der Betrag dafür:\n\n$$\\cos\\varphi=\\dfrac{|\\vec u\\circ\\vec v|}{|\\vec u|\\cdot|\\vec v|}=\\dfrac12$$"
         },
         {
-          "id": "P2-4",
+          "id": "N2-4",
           "label": "4",
           "punkte": 2,
           "afb": "III",
@@ -468,9 +470,9 @@
       ]
     },
     {
-      "id": "P3",
+      "id": "N3",
       "titel": "Ebenen in drei Formen",
-      "typ": "pflicht",
+      "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 20,
       "hilfsmittel": "WTR",
@@ -479,62 +481,63 @@
         "c6",
         "c7"
       ],
+      "kategorie": "neu",
       "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Das Vektorprodukt dürfen Sie mit dem Vektormodus berechnen; notieren Sie Ansatz und Ergebnis.",
-      "bild": "img/st_P3.svg",
-      "pdf": "pdf/P3_Ebenen_drei_Formen.pdf",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Ebenen_drei_Formen.pdf",
       "aufgaben": [
         {
-          "id": "P3-1a",
+          "id": "N3-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "Stützvektor $\\vec a$, Spannvektoren $\\overrightarrow{AB}=\\begin{pmatrix} 2 \\\\ -1 \\\\ -2 \\end{pmatrix}$ und $\\overrightarrow{AC}=\\begin{pmatrix} -1 \\\\ 1 \\\\ 0 \\end{pmatrix}$:\n\n$$E:\\ \\vec x=\\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix}+r\\cdot\\begin{pmatrix} 2 \\\\ -1 \\\\ -2 \\end{pmatrix}+s\\cdot\\begin{pmatrix} -1 \\\\ 1 \\\\ 0 \\end{pmatrix},\\quad r,s\\in\\mathbb{R}$$\n\nAndere Stützpunkte und Vielfache der Spannvektoren sind ebenfalls richtig."
         },
         {
-          "id": "P3-1b",
+          "id": "N3-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "I",
           "loesung": "$$\\overrightarrow{AB}\\times\\overrightarrow{AC}=\\begin{pmatrix} (-1)\\cdot0-(-2)\\cdot1 \\\\ (-2)\\cdot(-1)-2\\cdot0 \\\\ 2\\cdot1-(-1)\\cdot(-1) \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ 2 \\\\ 1 \\end{pmatrix}$$\n\nAlso $\\vec n=\\begin{pmatrix} 2 \\\\ 2 \\\\ 1 \\end{pmatrix}$. Gleichwertig: $\\vec n$ aus $\\vec n\\circ\\overrightarrow{AB}=0$ und $\\vec n\\circ\\overrightarrow{AC}=0$ mit einer frei gewählten Koordinate."
         },
         {
-          "id": "P3-1c",
+          "id": "N3-1c",
           "label": "1c",
           "punkte": 1,
           "afb": "I",
           "loesung": "$$E:\\ \\begin{pmatrix} 2 \\\\ 2 \\\\ 1 \\end{pmatrix}\\circ\\left(\\vec x-\\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix}\\right)=0$$\n\nAuch mit dem Malpunkt statt $\\circ$ oder in der Reihenfolge $(\\vec x-\\vec a)\\circ\\vec n=0$ richtig."
         },
         {
-          "id": "P3-1d",
+          "id": "N3-1d",
           "label": "1d",
           "punkte": 2,
           "afb": "II",
           "loesung": "Ansatz mit $\\vec n$: $2x_1+2x_2+x_3=d$\n\nPunktprobe mit A: $d=2\\cdot1+2\\cdot2+1\\cdot2=8$\n\n$$E:\\ 2x_1+2x_2+x_3=8$$\n\n(Gleichwertig: Normalengleichung ausmultiplizieren.)"
         },
         {
-          "id": "P3-1e",
+          "id": "N3-1e",
           "label": "1e",
           "punkte": 1,
           "afb": "I",
           "loesung": "$2\\cdot1+2\\cdot1+3=7\\neq8$ – Q liegt nicht in E."
         },
         {
-          "id": "P3-2a",
+          "id": "N3-2a",
           "label": "2a",
           "punkte": 1,
           "afb": "I",
           "loesung": "Zwei Koordinaten null setzen:\n\n$x_2=x_3=0$: $2x_1=8$, $S_1(4 \\mid 0 \\mid 0)$; $x_1=x_3=0$: $S_2(0 \\mid 4 \\mid 0)$; $x_1=x_2=0$: $S_3(0 \\mid 0 \\mid 8)$"
         },
         {
-          "id": "P3-2b",
+          "id": "N3-2b",
           "label": "2b",
           "punkte": 1,
           "afb": "II",
           "loesung": "Die drei Spurpunkte auf den Achsen markieren und verbinden. Das Dreieck ist der Teil von E, der im ersten Oktanten liegt (siehe Skizze).",
-          "loesung_bild": "img/P3-2b.png"
+          "loesung_bild": "img/N3-2b.png"
         },
         {
-          "id": "P3-3",
+          "id": "N3-3",
           "label": "3",
           "punkte": 2,
           "afb": "II",
@@ -543,160 +546,7 @@
       ]
     },
     {
-      "id": "P4",
-      "titel": "Lage, Schnitt, Winkel",
-      "typ": "pflicht",
-      "sozialform": "einzel",
-      "dauer_min": 25,
-      "hilfsmittel": "WTR",
-      "checkliste": [
-        "c8",
-        "c9",
-        "c10",
-        "c12"
-      ],
-      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten. Bei Lagebeziehungen hilft die Koordinatenform: Gerade einsetzen und das Ergebnis lesen.",
-      "bild": "img/st_P4.svg",
-      "pdf": "pdf/P4_Lage_Schnitt_Winkel.pdf",
-      "aufgaben": [
-        {
-          "id": "P4-1a",
-          "label": "1a",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Einsetzen von $(t \\mid t \\mid t)$ in E: $t+2t+2t=5t=10$, also $t=2$.\n\nGenau eine Lösung: $g_1$ schneidet E im Punkt $S(2 \\mid 2 \\mid 2)$."
-        },
-        {
-          "id": "P4-1b",
-          "label": "1b",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Einsetzen: $(2+2t)+2(1-t)+2\\cdot3=10$, also $10=10$ – wahr für **jedes** $t$.\n\nJeder Punkt von $g_2$ liegt in E: $g_2$ liegt in E.\n\n(Kurz: $\\vec n\\circ\\vec u=2-2+0=0$, und der Stützpunkt liegt in E: $2+2+6=10$.)"
-        },
-        {
-          "id": "P4-1c",
-          "label": "1c",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$\\vec u=\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$, $\\vec n=\\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix}$, $|\\vec u|=\\sqrt3$, $|\\vec n|=3$\n\n$$\\sin\\varphi=\\dfrac{|\\vec u\\circ\\vec n|}{|\\vec u|\\cdot|\\vec n|}=\\dfrac{5}{3\\sqrt3}\\approx0{,}9623$$\n\n$\\varphi\\approx74{,}21^\\circ$\n\n**Merke:** Zwischen Gerade und Ebene steht der **Sinus**, weil der Kosinus den Winkel zur Normalen liefert."
-        },
-        {
-          "id": "P4-2a",
-          "label": "2a",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "$\\vec n_F=\\begin{pmatrix} 2 \\\\ 4 \\\\ 4 \\end{pmatrix}=2\\cdot\\vec n_E$: parallel oder identisch. E mit 2 multipliziert: $2x_1+4x_2+4x_3=20\\neq5$. E und F sind echt parallel."
-        },
-        {
-          "id": "P4-2b",
-          "label": "2b",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$\\vec n_G=\\begin{pmatrix} 2 \\\\ -1 \\\\ 2 \\end{pmatrix}$ ist kein Vielfaches von $\\vec n_E=\\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix}$ (erste Komponente: Faktor 2, zweite: Faktor $-0{,}5$). Also schneiden sich E und G.\n\n$$\\cos\\varphi=\\dfrac{|\\vec n_E\\circ\\vec n_G|}{|\\vec n_E|\\cdot|\\vec n_G|}=\\dfrac{|2-2+4|}{3\\cdot3}=\\dfrac49$$\n\n$\\varphi\\approx63{,}61^\\circ$"
-        },
-        {
-          "id": "P4-3a",
-          "label": "3a",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Lichtstrahl durch K: $\\vec x=\\begin{pmatrix} 8 \\\\ 6 \\\\ 5 \\end{pmatrix}+t\\cdot\\begin{pmatrix} -2 \\\\ 1 \\\\ -1 \\end{pmatrix}$\n\nBoden $x_3=0$: $5-t=0$, $t=5$, Punkt $(-2 \\mid 11 \\mid 0)$.\n\nWegen $x_1=-2<0$ läge der Punkt im Gebäude: Der Strahl trifft vorher die Wand."
-        },
-        {
-          "id": "P4-3b",
-          "label": "3b",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Wand $x_1=0$: $8-2t=0$, $t=4$, Schattenpunkt $W(0 \\mid 10 \\mid 1)$.\n\nDer Schatten der Plattformkante liegt 1 m über dem Boden an der Wand (unterhalb der Wandhöhe von 3 m)."
-        },
-        {
-          "id": "P4-3c",
-          "label": "3c",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "Punkt $H(8 \\mid 6 \\mid h)$, Strahl $\\vec x=\\begin{pmatrix} 8 \\\\ 6 \\\\ h \\end{pmatrix}+t\\cdot\\begin{pmatrix} -2 \\\\ 1 \\\\ -1 \\end{pmatrix}$\n\nBoden: $h-t=0$, also $t=h$; dort ist $x_1=8-2h$.\n\nSchatten vor der Wand: $8-2h\\ge0$, also $h\\le4$.\n\nAlso fallen die Schatten von 1-m-Brett und 3-m-Plattform auf den Boden, der Schatten der 5-m-Plattform fällt auf die Wand."
-        }
-      ]
-    },
-    {
-      "id": "P5",
-      "titel": "Check-out",
-      "typ": "pflicht",
-      "sozialform": "einzel",
-      "dauer_min": 8,
-      "hilfsmittel": "ohne",
-      "checkliste": [
-        "c8",
-        "c9",
-        "c10",
-        "c2",
-        "c3",
-        "c5",
-        "c6"
-      ],
-      "hinweis": "Am Ende der dritten Stunde bearbeiten. Ohne Hilfsmittel, 8 Minuten. Jede Aufgabe gehört zur Aufgabe mit derselben Nummer in P1 – vergleichen Sie in der Auswertung Ihre Punkte in P1 und P5.",
-      "bild": "img/st_P5.svg",
-      "pdf": "pdf/P5_Check-out.pdf",
-      "aufgaben": [
-        {
-          "id": "P5-1",
-          "label": "1",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**D** – $\\vec u\\circ\\vec v=2-5+3=0$: eine Zahl, null, also orthogonal.\n\n*A gewählt?* Nicht addiert – das Skalarprodukt ist eine Zahl. → **P2**\n\n*B gewählt?* Null heißt orthogonal. → **P2**, **W1**"
-        },
-        {
-          "id": "P5-2",
-          "label": "2",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**A** – Das Vektorprodukt ist ein Vektor, der auf beiden Ausgangsvektoren senkrecht steht. Beispiel: $\\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}\\times\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}=\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}$.\n\n*C oder D gewählt?* $\\vec c$ zeigt aus der Ebene von $\\vec a$ und $\\vec b$ heraus. → **P2**\n\n*B gewählt?* Verwechslung mit dem Skalarprodukt. → **P2**, **W4**"
-        },
-        {
-          "id": "P5-3",
-          "label": "3",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**B** – Koeffizienten ablesen: $\\vec n=\\begin{pmatrix} -1 \\\\ 4 \\\\ 2 \\end{pmatrix}$.\n\n*A oder D gewählt?* Das sind Spurpunkte, keine Normalenvektoren. → **W1**, **W2**"
-        },
-        {
-          "id": "P5-4",
-          "label": "4",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**C** – $\\begin{pmatrix} 3 \\\\ -3 \\\\ 6 \\end{pmatrix}=-3\\cdot\\begin{pmatrix} -1 \\\\ 1 \\\\ -2 \\end{pmatrix}$: kollinear, also nur eine Gerade.\n\n*A gewählt?* → **P3** Aufgabe 1, **G1** Aufgabe 4, **G2**"
-        },
-        {
-          "id": "P5-5",
-          "label": "5",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**A** – $(1+t)-2(1+t)+(1+t)=0$ ist für jedes $t$ wahr: g liegt in E.\n\n*B gewählt?* → **P4** Aufgabe 1, **W4**\n\n*C gewählt?* → **P4**"
-        },
-        {
-          "id": "P5-6",
-          "label": "6",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**D** – $\\vec n_F=-2\\cdot\\vec n_E$; F durch $-2$ geteilt: $3x_1-x_2+x_3=-2\\neq2$. Echt parallel.\n\n*A gewählt?* Punktprobe vergessen. → **P4**, **W4**"
-        },
-        {
-          "id": "P5-7",
-          "label": "7",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**C** – $\\sin\\varphi=\\dfrac{\\sqrt3}{2}$, also $\\varphi=60^\\circ$ (der Winkel zur Normalen ist $30^\\circ$).\n\n*A gewählt?* Kosinus statt Sinus. → **P4**, **W4**"
-        },
-        {
-          "id": "P5-8",
-          "label": "8",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**B** – $180^\\circ-135^\\circ=45^\\circ$: Der Schnittwinkel ist höchstens $90^\\circ$.\n\n*A gewählt?* Betrag vergessen. → **P2** Aufgabe 3, **W6**"
-        }
-      ]
-    },
-    {
-      "id": "W1",
+      "id": "N4",
       "titel": "Tandem: Ebenen lesen und umformen",
       "typ": "wahl",
       "sozialform": "tandem",
@@ -709,12 +559,13 @@
         "c3",
         "c5"
       ],
+      "kategorie": "neu",
       "hinweis": "Zwei Personen, zwei Tablets, ohne Hilfsmittel. Wer die Nummer hat, antwortet laut; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp.",
-      "bild": "img/st_W1.svg",
+      "bild": "img/st_N4.svg",
       "pdf_optional": true,
       "aufgaben": [
         {
-          "id": "W1-1",
+          "id": "N4-1",
           "label": "1",
           "partner": "A",
           "punkte": 2,
@@ -724,7 +575,7 @@
           "loesung": "$6-0+2=8\\neq6$: P liegt nicht in E."
         },
         {
-          "id": "W1-2",
+          "id": "N4-2",
           "label": "2",
           "partner": "B",
           "punkte": 2,
@@ -734,7 +585,7 @@
           "loesung": "$2+1-2=1$: wahr, P liegt in E."
         },
         {
-          "id": "W1-3",
+          "id": "N4-3",
           "label": "3",
           "partner": "A",
           "punkte": 2,
@@ -744,7 +595,7 @@
           "loesung": "$S_1(3 \\mid 0 \\mid 0)$, $S_2(0 \\mid 2 \\mid 0)$, $S_3(0 \\mid 0 \\mid 1)$"
         },
         {
-          "id": "W1-4",
+          "id": "N4-4",
           "label": "4",
           "partner": "B",
           "punkte": 2,
@@ -754,7 +605,7 @@
           "loesung": "$S_1(2 \\mid 0 \\mid 0)$, $S_2(0 \\mid 8 \\mid 0)$, $S_3(0 \\mid 0 \\mid 4)$"
         },
         {
-          "id": "W1-5",
+          "id": "N4-5",
           "label": "5",
           "partner": "A",
           "punkte": 2,
@@ -764,7 +615,7 @@
           "loesung": "$x_1-2x_2+3x_3=d$ mit $d=1\\cdot2-2\\cdot0+3\\cdot1=5$: $E:\\ x_1-2x_2+3x_3=5$"
         },
         {
-          "id": "W1-6",
+          "id": "N4-6",
           "label": "6",
           "partner": "B",
           "punkte": 2,
@@ -774,7 +625,7 @@
           "loesung": "$2x_1+x_2-x_3=d$ mit $d=2+3-2=3$: $E:\\ 2x_1+x_2-x_3=3$"
         },
         {
-          "id": "W1-7",
+          "id": "N4-7",
           "label": "7",
           "partner": "A",
           "punkte": 2,
@@ -784,7 +635,7 @@
           "loesung": "F ist das Doppelte von E (auch die rechte Seite): E und F sind identisch."
         },
         {
-          "id": "W1-8",
+          "id": "N4-8",
           "label": "8",
           "partner": "B",
           "punkte": 2,
@@ -794,7 +645,7 @@
           "loesung": "$\\begin{pmatrix} 1 \\\\ -1 \\\\ 0 \\end{pmatrix}$ und $\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}$ sind nicht kollinear: E und F schneiden sich (sogar senkrecht, denn das Skalarprodukt der Normalenvektoren ist $0$)."
         },
         {
-          "id": "W1-9",
+          "id": "N4-9",
           "label": "9",
           "partner": "A",
           "punkte": 2,
@@ -804,7 +655,7 @@
           "loesung": "$\\begin{pmatrix} 0\\cdot1-0\\cdot0 \\\\ 0\\cdot0-1\\cdot1 \\\\ 1\\cdot0-0\\cdot0 \\end{pmatrix}=\\begin{pmatrix} 0 \\\\ -1 \\\\ 0 \\end{pmatrix}$"
         },
         {
-          "id": "W1-10",
+          "id": "N4-10",
           "label": "10",
           "partner": "B",
           "punkte": 2,
@@ -814,7 +665,7 @@
           "loesung": "$\\begin{pmatrix} 1\\cdot1-0\\cdot0 \\\\ 0\\cdot0-0\\cdot1 \\\\ 0\\cdot0-1\\cdot0 \\end{pmatrix}=\\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}$"
         },
         {
-          "id": "W1-11",
+          "id": "N4-11",
           "label": "11",
           "partner": "A",
           "punkte": 2,
@@ -824,7 +675,7 @@
           "loesung": "$\\vec n\\circ\\begin{pmatrix} 1 \\\\ 0 \\\\ 1 \\end{pmatrix}=1+0-1=0$ und $\\vec n\\circ\\begin{pmatrix} 0 \\\\ 1 \\\\ 1 \\end{pmatrix}=0+1-1=0$: ja."
         },
         {
-          "id": "W1-12",
+          "id": "N4-12",
           "label": "12",
           "partner": "B",
           "punkte": 2,
@@ -836,7 +687,7 @@
       ]
     },
     {
-      "id": "W2",
+      "id": "N5",
       "titel": "Ebenen im Raum sehen",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -846,40 +697,41 @@
         "c6",
         "c8"
       ],
+      "kategorie": "neu",
       "hinweis": "Ohne Hilfsmittel, 15 Minuten. Lesen Sie Ebenengleichungen, ohne zu rechnen.",
-      "bild": "img/st_W2.svg",
-      "pdf": "pdf/W2_Ebenen_sehen.pdf",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Ebenen_sehen.pdf",
       "aufgaben": [
         {
-          "id": "W2-1a",
+          "id": "N5-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$E_1$ – Bild 2: drei Spurpunkte $S_1(3 \\mid 0 \\mid 0)$, $S_2(0 \\mid 2 \\mid 0)$, $S_3(0 \\mid 0 \\mid 2)$ (Spurdreieck).\n\n$E_2$ – Bild 4: Alle Punkte haben die Höhe $x_3=2$; die Ebene ist parallel zur $x_1x_2$-Ebene."
         },
         {
-          "id": "W2-1b",
+          "id": "N5-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "II",
           "loesung": "$E_3$ – Bild 1: $x_3$ fehlt, $\\vec n=\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}\\perp\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}$: parallel zur $x_3$-Achse, Spurpunkte $S_1(4 \\mid 0 \\mid 0)$ und $S_2(0 \\mid 4 \\mid 0)$ („senkrechte Wand“).\n\n$E_4$ – Bild 3: $x_1$ fehlt: parallel zur $x_1$-Achse, Spurpunkte $S_2(0 \\mid 2 \\mid 0)$ und $S_3(0 \\mid 0 \\mid 4)$."
         },
         {
-          "id": "W2-2",
+          "id": "N5-2",
           "label": "2",
           "punkte": 2,
           "afb": "II",
           "loesung": "Abgelesen: $S_1(2 \\mid 0 \\mid 0)$, $S_2(0 \\mid 4 \\mid 0)$, $S_3(0 \\mid 0 \\mid 4)$.\n\nAnsatz $a\\,x_1+b\\,x_2+c\\,x_3=d$, z. B. mit $d=4$: $S_1$: $2a=4$, $a=2$; $S_2$: $4b=4$, $b=1$; $S_3$: $4c=4$, $c=1$.\n\n$$H:\\ 2x_1+x_2+x_3=4$$\n\n(Jedes Vielfache ist ebenfalls richtig, auch der Weg über das Vektorprodukt.)"
         },
         {
-          "id": "W2-3",
+          "id": "N5-3",
           "label": "3",
           "punkte": 1,
           "afb": "I",
           "loesung": "Ursprung: $E_5$ (rechte Seite 0). Parallel zur $x_1x_2$-Ebene: $E_6$. Parallel zu $E_5$: $E_7$ ($\\vec n_7=2\\vec n_5$, aber $5\\neq2\\cdot0$)."
         },
         {
-          "id": "W2-4",
+          "id": "N5-4",
           "label": "4",
           "punkte": 3,
           "afb": "III",
@@ -888,80 +740,83 @@
       ]
     },
     {
-      "id": "W3",
-      "titel": "Geraden- und Ebenenscharen",
+      "id": "N6",
+      "titel": "Lage, Schnitt, Winkel",
       "typ": "wahl",
       "sozialform": "einzel",
-      "dauer_min": 20,
+      "dauer_min": 25,
       "hilfsmittel": "WTR",
       "checkliste": [
-        "c11",
-        "c8"
+        "c8",
+        "c9",
+        "c10",
+        "c12"
       ],
-      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Die Aufgaben werden nach hinten schwerer. Empfohlen für alle: Scharen kommen in jeder Abiturprüfung vor.",
-      "bild": "img/st_W3.svg",
-      "pdf": "pdf/W3_Scharen.pdf",
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten. Bei Lagebeziehungen hilft die Koordinatenform: Gerade einsetzen und das Ergebnis lesen.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Lage_Schnitt_Winkel.pdf",
       "aufgaben": [
         {
-          "id": "W3-1a",
+          "id": "N6-1a",
           "label": "1a",
-          "punkte": 1,
+          "punkte": 2,
           "afb": "I",
-          "loesung": "$3+2a+1=2+a$, also $a=-2$."
+          "loesung": "Einsetzen von $(t \\mid t \\mid t)$ in E: $t+2t+2t=5t=10$, also $t=2$.\n\nGenau eine Lösung: $g_1$ schneidet E im Punkt $S(2 \\mid 2 \\mid 2)$."
         },
         {
-          "id": "W3-1b",
+          "id": "N6-1b",
           "label": "1b",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "$\\vec n_a=\\begin{pmatrix} 1 \\\\ a \\\\ 1 \\end{pmatrix}$ muss orthogonal zu $\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}$ sein: $a=0$. $E_0:\\ x_1+x_3=2$ enthält die $x_2$-Achse nicht ($0\\neq2$), ist also parallel zu ihr."
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Einsetzen: $(2+2t)+2(1-t)+2\\cdot3=10$, also $10=10$ – wahr für **jedes** $t$.\n\nJeder Punkt von $g_2$ liegt in E: $g_2$ liegt in E.\n\n(Kurz: $\\vec n\\circ\\vec u=2-2+0=0$, und der Stützpunkt liegt in E: $2+2+6=10$.)"
         },
         {
-          "id": "W3-1c",
+          "id": "N6-1c",
           "label": "1c",
           "punkte": 2,
           "afb": "II",
-          "loesung": "P: $1+a\\cdot1+1=2+a$ – wahr für jedes a.\n\nQ: $2+a\\cdot1+0=2+a$ – wahr für jedes a."
+          "loesung": "$\\vec u=\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$, $\\vec n=\\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix}$, $|\\vec u|=\\sqrt3$, $|\\vec n|=3$\n\n$$\\sin\\varphi=\\dfrac{|\\vec u\\circ\\vec n|}{|\\vec u|\\cdot|\\vec n|}=\\dfrac{5}{3\\sqrt3}\\approx0{,}9623$$\n\n$\\varphi\\approx74{,}21^\\circ$\n\n**Merke:** Zwischen Gerade und Ebene steht der **Sinus**, weil der Kosinus den Winkel zur Normalen liefert."
         },
         {
-          "id": "W3-1d",
-          "label": "1d",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Zwei Ebenen sind orthogonal, wenn ihre Normalenvektoren orthogonal sind: $\\begin{pmatrix} 1 \\\\ a \\\\ 1 \\end{pmatrix}\\circ\\begin{pmatrix} 1 \\\\ -1 \\\\ 2 \\end{pmatrix}=1-a+2=3-a=0$, also $a=3$."
-        },
-        {
-          "id": "W3-1e",
-          "label": "1e",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "Gerade PQ: $\\vec x=\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}+k\\cdot\\begin{pmatrix} 1 \\\\ 0 \\\\ -1 \\end{pmatrix}$, Punkte $(1+k \\mid 1 \\mid 1-k)$.\n\nEinsetzen: $(1+k)+a\\cdot1+(1-k)=2+a$ – wahr für alle k und alle a.\n\nAlle Ebenen der Schar enthalten die Gerade PQ: Sie „drehen“ sich um diese Gerade wie die Seiten eines aufgeschlagenen Buchs um den Buchrücken."
-        },
-        {
-          "id": "W3-1f",
-          "label": "1f",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "$x_1=x_3=0$: $a\\,x_2=2+a$. Für $a\\neq0$: $x_2=\\dfrac{2+a}{a}$, also $S_2\\left(0 \\mid \\dfrac{2+a}{a} \\mid 0\\right)$.\n\nSonderfälle: $a=0$ – kein Spurpunkt ($0=2$ falsch; $E_0$ ist parallel zur $x_2$-Achse). $a=-2$ – $S_2$ ist der Ursprung, $E_{-2}$ geht durch O."
-        },
-        {
-          "id": "W3-2a",
+          "id": "N6-2a",
           "label": "2a",
           "punkte": 1,
-          "afb": "II",
-          "loesung": "$\\begin{pmatrix} 1 \\\\ a \\\\ 2 \\end{pmatrix}\\circ\\begin{pmatrix} 2 \\\\ 1 \\\\ -2 \\end{pmatrix}=2+a-4=0$, also $a=2$."
+          "afb": "I",
+          "loesung": "$\\vec n_F=\\begin{pmatrix} 2 \\\\ 4 \\\\ 4 \\end{pmatrix}=2\\cdot\\vec n_E$: parallel oder identisch. E mit 2 multipliziert: $2x_1+4x_2+4x_3=20\\neq5$. E und F sind echt parallel."
         },
         {
-          "id": "W3-2b",
+          "id": "N6-2b",
           "label": "2b",
           "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\vec n_G=\\begin{pmatrix} 2 \\\\ -1 \\\\ 2 \\end{pmatrix}$ ist kein Vielfaches von $\\vec n_E=\\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix}$ (erste Komponente: Faktor 2, zweite: Faktor $-0{,}5$). Also schneiden sich E und G.\n\n$$\\cos\\varphi=\\dfrac{|\\vec n_E\\circ\\vec n_G|}{|\\vec n_E|\\cdot|\\vec n_G|}=\\dfrac{|2-2+4|}{3\\cdot3}=\\dfrac49$$\n\n$\\varphi\\approx63{,}61^\\circ$"
+        },
+        {
+          "id": "N6-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Lichtstrahl durch K: $\\vec x=\\begin{pmatrix} 8 \\\\ 6 \\\\ 5 \\end{pmatrix}+t\\cdot\\begin{pmatrix} -2 \\\\ 1 \\\\ -1 \\end{pmatrix}$\n\nBoden $x_3=0$: $5-t=0$, $t=5$, Punkt $(-2 \\mid 11 \\mid 0)$.\n\nWegen $x_1=-2<0$ läge der Punkt im Gebäude: Der Strahl trifft vorher die Wand."
+        },
+        {
+          "id": "N6-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Wand $x_1=0$: $8-2t=0$, $t=4$, Schattenpunkt $W(0 \\mid 10 \\mid 1)$.\n\nDer Schatten der Plattformkante liegt 1 m über dem Boden an der Wand (unterhalb der Wandhöhe von 3 m)."
+        },
+        {
+          "id": "N6-3c",
+          "label": "3c",
+          "punkte": 2,
           "afb": "III",
-          "loesung": "$\\begin{pmatrix} 1 \\\\ a \\\\ 2 \\end{pmatrix}=\\begin{pmatrix} 1 \\\\ 0 \\\\ 2 \\end{pmatrix}+a\\cdot\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}$: Alle Richtungsvektoren liegen in der Ebene durch O, die von $\\begin{pmatrix} 1 \\\\ 0 \\\\ 2 \\end{pmatrix}$ und $\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}$ aufgespannt wird; alle Geraden gehen durch O.\n\nNormalenvektor: $\\begin{pmatrix} 1 \\\\ 0 \\\\ 2 \\end{pmatrix}\\times\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}=\\begin{pmatrix} -2 \\\\ 0 \\\\ 1 \\end{pmatrix}$, Ebene: $-2x_1+x_3=0$, also $2x_1-x_3=0$. (Probe: $(t \\mid at \\mid 2t)$ einsetzen ergibt $2t-2t=0$.)"
+          "loesung": "Punkt $H(8 \\mid 6 \\mid h)$, Strahl $\\vec x=\\begin{pmatrix} 8 \\\\ 6 \\\\ h \\end{pmatrix}+t\\cdot\\begin{pmatrix} -2 \\\\ 1 \\\\ -1 \\end{pmatrix}$\n\nBoden: $h-t=0$, also $t=h$; dort ist $x_1=8-2h$.\n\nSchatten vor der Wand: $8-2h\\ge0$, also $h\\le4$.\n\nAlso fallen die Schatten von 1-m-Brett und 3-m-Plattform auf den Boden, der Schatten der 5-m-Plattform fällt auf die Wand."
         }
       ]
     },
     {
-      "id": "W4",
+      "id": "N7",
       "titel": "Fehler finden und begründen",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -974,54 +829,55 @@
         "c7",
         "c9"
       ],
+      "kategorie": "neu",
       "hinweis": "Ohne Hilfsmittel, 20 Minuten. Jede Lösung enthält genau einen Fehler.",
-      "bild": "img/st_W4.svg",
-      "pdf": "pdf/W4_Fehler_finden.pdf",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Fehler_finden.pdf",
       "aufgaben": [
         {
-          "id": "W4-1",
+          "id": "N7-1",
           "label": "1",
           "punkte": 2,
           "afb": "II",
           "loesung": "Der Bruch ist richtig berechnet, liefert mit dem Kosinus aber den Winkel zwischen g und dem **Normalenvektor**. Zwischen Gerade und Ebene gilt $\\sin\\varphi=\\dfrac12$, also $\\varphi=30^\\circ$ ($=90^\\circ-60^\\circ$)."
         },
         {
-          "id": "W4-2",
+          "id": "N7-2",
           "label": "2",
           "punkte": 2,
           "afb": "II",
           "loesung": "Ein Spannvektor wurde als Normalenvektor genommen; er liegt aber **in** der Ebene.\n\n$\\vec n=\\vec u\\times\\vec v=\\begin{pmatrix} 2\\cdot1-0\\cdot1 \\\\ 0\\cdot0-1\\cdot1 \\\\ 1\\cdot1-2\\cdot0 \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ -1 \\\\ 1 \\end{pmatrix}$\n\n$d=2\\cdot1-0+2=4$: $E:\\ 2x_1-x_2+x_3=4$"
         },
         {
-          "id": "W4-3",
+          "id": "N7-3",
           "label": "3",
           "punkte": 2,
           "afb": "III",
           "loesung": "Für beide Geraden wurde derselbe Parameter r verwendet. Damit wird nur geprüft, ob die Punkte zum **gleichen** Parameterwert übereinstimmen.\n\nRichtig mit r und s: (I) $r=2$, (II) $r=-1+s$, also $s=3$, (III) $0=3-s=0$ – wahr.\n\ng und h schneiden sich im Punkt $S(2 \\mid 2 \\mid 0)$."
         },
         {
-          "id": "W4-4",
+          "id": "N7-4",
           "label": "4",
           "punkte": 2,
           "afb": "II",
           "loesung": "Probe: $\\begin{pmatrix} 2 \\\\ 1 \\\\ -1 \\end{pmatrix}\\circ\\begin{pmatrix} 2 \\\\ 1 \\\\ 3 \\end{pmatrix}=4+1-3=2\\neq0$ – das Ergebnis steht nicht senkrecht auf dem ersten Vektor. (Mit dem zweiten Vektor ergibt sich zufällig $2+0-2=0$ – ein einziges Skalarprodukt $\\neq0$ genügt als Nachweis eines Fehlers.)\n\nRichtig: $\\begin{pmatrix} 1\\cdot2-3\\cdot0 \\\\ 3\\cdot1-2\\cdot2 \\\\ 2\\cdot0-1\\cdot1 \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ -1 \\\\ -1 \\end{pmatrix}$. Fehler im Vorzeichen der zweiten Komponente."
         },
         {
-          "id": "W4-5",
+          "id": "N7-5",
           "label": "5",
           "punkte": 2,
           "afb": "II",
           "loesung": "$4=4$ enthält kein t mehr und ist für **jedes** t wahr; man darf nicht $t=0$ folgern. Jeder Punkt von g liegt in E: g liegt in E."
         },
         {
-          "id": "W4-6",
+          "id": "N7-6",
           "label": "6",
           "punkte": 1,
           "afb": "I",
           "loesung": "Kollineare Normalenvektoren zeigen nur „parallel oder identisch“. F durch 2 geteilt: $2x_1-x_2+x_3=1\\neq3$. E und F sind echt parallel."
         },
         {
-          "id": "W4-7",
+          "id": "N7-7",
           "label": "7",
           "punkte": 2,
           "afb": "III",
@@ -1030,7 +886,7 @@
       ]
     },
     {
-      "id": "W5",
+      "id": "N8",
       "titel": "Hilfsmittelfreier Teil (HMF)",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -1044,47 +900,48 @@
         "c6",
         "c10"
       ],
+      "kategorie": "neu",
       "hinweis": "Ohne Taschenrechner und Formeldokument, 20 Minuten – wie Teil A der Klausur.",
-      "bild": "img/st_W5.svg",
-      "pdf": "pdf/W5_HMF.pdf",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_HMF.pdf",
       "aufgaben": [
         {
-          "id": "W5-1a",
+          "id": "N8-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$2(1+t)+t+(2-t)=4+2t=7$, also $t=1{,}5$.\n\nSchnittpunkt $S(2{,}5 \\mid 1{,}5 \\mid 0{,}5)$"
         },
         {
-          "id": "W5-1b",
+          "id": "N8-1b",
           "label": "1b",
           "punkte": 3,
           "afb": "II",
           "loesung": "Richtungsvektor von g und Normalenvektor von H sind gleich: $\\vec u=\\vec n_H=\\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\end{pmatrix}$. g ist also orthogonal zu H.\n\nEinsetzen: $(1+t)+t-(2-t)=3t-1=0$, also $t=\\tfrac13$.\n\nSchnittpunkt $\\left(\\tfrac43 \\mid \\tfrac13 \\mid \\tfrac53\\right)$"
         },
         {
-          "id": "W5-2a",
+          "id": "N8-2a",
           "label": "2a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$\\begin{pmatrix} 2\\cdot1-0\\cdot0 \\\\ 0\\cdot3-1\\cdot1 \\\\ 1\\cdot0-2\\cdot3 \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ -1 \\\\ -6 \\end{pmatrix}$"
         },
         {
-          "id": "W5-2b",
+          "id": "N8-2b",
           "label": "2b",
           "punkte": 3,
           "afb": "II",
           "loesung": "$\\overrightarrow{AB}=\\begin{pmatrix} -1 \\\\ 2 \\\\ 0 \\end{pmatrix}$, $\\overrightarrow{AC}=\\begin{pmatrix} -1 \\\\ 0 \\\\ 3 \\end{pmatrix}$\n\n$\\overrightarrow{AB}\\times\\overrightarrow{AC}=\\begin{pmatrix} 2\\cdot3-0\\cdot0 \\\\ 0\\cdot(-1)-(-1)\\cdot3 \\\\ (-1)\\cdot0-2\\cdot(-1) \\end{pmatrix}=\\begin{pmatrix} 6 \\\\ 3 \\\\ 2 \\end{pmatrix}$\n\nA einsetzen: $d=6$, also $6x_1+3x_2+2x_3=6$.\n\n(Probe mit B und C: $6=6$.)"
         },
         {
-          "id": "W5-3a",
+          "id": "N8-3a",
           "label": "3a",
           "punkte": 2,
           "afb": "III",
           "loesung": "Die Aussage ist **falsch**. Gegenbeispiel: $E:\\ x_1=1$ und $F:\\ x_2=1$ sind beide parallel zur $x_3$-Achse ($\\vec n_E\\circ\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}=0$, $\\vec n_F\\circ\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}=0$), haben aber den gemeinsamen Punkt $(1 \\mid 1 \\mid 0)$ und nicht kollineare Normalenvektoren: Sie schneiden sich."
         },
         {
-          "id": "W5-3b",
+          "id": "N8-3b",
           "label": "3b",
           "punkte": 2,
           "afb": "III",
@@ -1093,7 +950,81 @@
       ]
     },
     {
-      "id": "W6",
+      "id": "N9",
+      "titel": "Geraden- und Ebenenscharen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c11",
+        "c8"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Die Aufgaben werden nach hinten schwerer. Empfohlen für alle: Scharen kommen in jeder Abiturprüfung vor.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Scharen.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$3+2a+1=2+a$, also $a=-2$."
+        },
+        {
+          "id": "N9-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\vec n_a=\\begin{pmatrix} 1 \\\\ a \\\\ 1 \\end{pmatrix}$ muss orthogonal zu $\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}$ sein: $a=0$. $E_0:\\ x_1+x_3=2$ enthält die $x_2$-Achse nicht ($0\\neq2$), ist also parallel zu ihr."
+        },
+        {
+          "id": "N9-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "P: $1+a\\cdot1+1=2+a$ – wahr für jedes a.\n\nQ: $2+a\\cdot1+0=2+a$ – wahr für jedes a."
+        },
+        {
+          "id": "N9-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zwei Ebenen sind orthogonal, wenn ihre Normalenvektoren orthogonal sind: $\\begin{pmatrix} 1 \\\\ a \\\\ 1 \\end{pmatrix}\\circ\\begin{pmatrix} 1 \\\\ -1 \\\\ 2 \\end{pmatrix}=1-a+2=3-a=0$, also $a=3$."
+        },
+        {
+          "id": "N9-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Gerade PQ: $\\vec x=\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}+k\\cdot\\begin{pmatrix} 1 \\\\ 0 \\\\ -1 \\end{pmatrix}$, Punkte $(1+k \\mid 1 \\mid 1-k)$.\n\nEinsetzen: $(1+k)+a\\cdot1+(1-k)=2+a$ – wahr für alle k und alle a.\n\nAlle Ebenen der Schar enthalten die Gerade PQ: Sie „drehen“ sich um diese Gerade wie die Seiten eines aufgeschlagenen Buchs um den Buchrücken."
+        },
+        {
+          "id": "N9-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$x_1=x_3=0$: $a\\,x_2=2+a$. Für $a\\neq0$: $x_2=\\dfrac{2+a}{a}$, also $S_2\\left(0 \\mid \\dfrac{2+a}{a} \\mid 0\\right)$.\n\nSonderfälle: $a=0$ – kein Spurpunkt ($0=2$ falsch; $E_0$ ist parallel zur $x_2$-Achse). $a=-2$ – $S_2$ ist der Ursprung, $E_{-2}$ geht durch O."
+        },
+        {
+          "id": "N9-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\begin{pmatrix} 1 \\\\ a \\\\ 2 \\end{pmatrix}\\circ\\begin{pmatrix} 2 \\\\ 1 \\\\ -2 \\end{pmatrix}=2+a-4=0$, also $a=2$."
+        },
+        {
+          "id": "N9-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$\\begin{pmatrix} 1 \\\\ a \\\\ 2 \\end{pmatrix}=\\begin{pmatrix} 1 \\\\ 0 \\\\ 2 \\end{pmatrix}+a\\cdot\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}$: Alle Richtungsvektoren liegen in der Ebene durch O, die von $\\begin{pmatrix} 1 \\\\ 0 \\\\ 2 \\end{pmatrix}$ und $\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}$ aufgespannt wird; alle Geraden gehen durch O.\n\nNormalenvektor: $\\begin{pmatrix} 1 \\\\ 0 \\\\ 2 \\end{pmatrix}\\times\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}=\\begin{pmatrix} -2 \\\\ 0 \\\\ 1 \\end{pmatrix}$, Ebene: $-2x_1+x_3=0$, also $2x_1-x_3=0$. (Probe: $(t \\mid at \\mid 2t)$ einsetzen ergibt $2t-2t=0$.)"
+        }
+      ]
+    },
+    {
+      "id": "N10",
       "titel": "Flugbahnen am Flugplatz",
       "typ": "wahl",
       "sozialform": "partner",
@@ -1105,58 +1036,138 @@
         "c9",
         "c10"
       ],
+      "kategorie": "neu",
       "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten, Partnerarbeit: a) bis d) zuerst allein, dann vergleichen.",
-      "bild": "img/st_W6.svg",
-      "pdf": "pdf/W6_Flugbahnen.pdf",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Flugbahnen.pdf",
       "aufgaben": [
         {
-          "id": "W6-1a",
+          "id": "N10-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$|\\vec u_1|=\\sqrt{9+2{,}25+0{,}0225}=\\sqrt{11{,}2725}\\approx3{,}357$ km pro Minute, also etwa $201\\,\\mathrm{km/h}$.\n\n$|\\vec u_2|=\\sqrt{4+4}=\\sqrt8\\approx2{,}828$ km pro Minute, also etwa $170\\,\\mathrm{km/h}$."
         },
         {
-          "id": "W6-1b",
+          "id": "N10-1b",
           "label": "1b",
           "punkte": 1,
           "afb": "I",
           "loesung": "$0{,}4+0{,}15t=1$, also $t=4$: nach 4 Minuten."
         },
         {
-          "id": "W6-1c",
+          "id": "N10-1c",
           "label": "1c",
           "punkte": 2,
           "afb": "II",
           "loesung": "Winkel zwischen der Flugbahn und der $x_1x_2$-Ebene:\n\n$$\\sin\\varphi=\\dfrac{0{,}15}{\\sqrt{11{,}2725}}\\approx0{,}0447$$\n\n$\\varphi\\approx2{,}56^\\circ$"
         },
         {
-          "id": "W6-1d",
+          "id": "N10-1d",
           "label": "1d",
           "punkte": 3,
           "afb": "II",
           "loesung": "Bahnen mit verschiedenen Parametern gleichsetzen:\n\n(I) $3r=12-2s$, (II) $1{,}5r=-3+2s$, (III) $0{,}4+0{,}15r=0{,}7$\n\nAus (III) $r=2$, aus (I) $s=3$; Probe in (II): $3=-3+6=3$ – wahr.\n\nDie Bahnen schneiden sich im Punkt $K(6 \\mid 3 \\mid 0{,}7)$."
         },
         {
-          "id": "W6-1e",
+          "id": "N10-1e",
           "label": "1e",
           "punkte": 2,
           "afb": "II",
           "loesung": "$\\vec u_1\\circ\\vec u_2=-6+3+0=-3$\n\n$$\\cos\\varphi=\\dfrac{|\\vec u_1\\circ\\vec u_2|}{|\\vec u_1|\\cdot|\\vec u_2|}=\\dfrac{3}{\\sqrt{11{,}2725}\\cdot\\sqrt8}\\approx0{,}3159$$\n\n$\\varphi\\approx71{,}58^\\circ$"
         },
         {
-          "id": "W6-1f",
+          "id": "N10-1f",
           "label": "1f",
           "punkte": 2,
           "afb": "III",
           "loesung": "$F_1$ ist bei $t=2$ in K, $F_2$ erst bei $t=3$: keine Kollision.\n\nBei $t=2$ ist $F_2$ in $(8 \\mid 1 \\mid 0{,}7)$; Abstand $\\sqrt{4+4+0}\\approx2{,}83$ km. Der Mindestabstand ist unterschritten (der kleinste Abstand beträgt sogar nur etwa 1,79 km, bei $t\\approx2{,}44$). Ein Flugzeug muss ausweichen oder die Höhe ändern."
         },
         {
-          "id": "W6-1g",
+          "id": "N10-1g",
           "label": "1g",
           "punkte": 2,
           "afb": "III",
           "loesung": "Bei der Lage der Bahnen ist die Zeit egal: Gesucht ist ein Punkt, durch den beide Bahnen gehen, möglicherweise zu verschiedenen Zeiten – also r und s unabhängig.\n\nBei einer Kollision müssen beide Flugzeuge **zum selben Zeitpunkt** am selben Ort sein. Der Parameter ist hier die Zeit, deshalb steht in beiden Gleichungen dasselbe t. Hier liefert $F_1(t)=F_2(t)$ keine Lösung: Aus der dritten Zeile folgt $t=2$, in der ersten Zeile ergibt sich dann $3\\cdot2=6\\neq8=12-2\\cdot2$."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Check-out",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10",
+        "c2",
+        "c3",
+        "c5",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Am Ende der dritten Stunde bearbeiten. Ohne Hilfsmittel, 8 Minuten. Jede Aufgabe gehört zur Aufgabe mit derselben Nummer in N1 – vergleichen Sie in der Auswertung Ihre Punkte in N1 und N11.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $\\vec u\\circ\\vec v=2-5+3=0$: eine Zahl, null, also orthogonal.\n\n*A gewählt?* Nicht addiert – das Skalarprodukt ist eine Zahl. → **N2**\n\n*B gewählt?* Null heißt orthogonal. → **N2**, **N4**"
+        },
+        {
+          "id": "N11-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Das Vektorprodukt ist ein Vektor, der auf beiden Ausgangsvektoren senkrecht steht. Beispiel: $\\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}\\times\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}=\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}$.\n\n*C oder D gewählt?* $\\vec c$ zeigt aus der Ebene von $\\vec a$ und $\\vec b$ heraus. → **N2**\n\n*B gewählt?* Verwechslung mit dem Skalarprodukt. → **N2**, **N7**"
+        },
+        {
+          "id": "N11-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Koeffizienten ablesen: $\\vec n=\\begin{pmatrix} -1 \\\\ 4 \\\\ 2 \\end{pmatrix}$.\n\n*A oder D gewählt?* Das sind Spurpunkte, keine Normalenvektoren. → **N4**, **N5**"
+        },
+        {
+          "id": "N11-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – $\\begin{pmatrix} 3 \\\\ -3 \\\\ 6 \\end{pmatrix}=-3\\cdot\\begin{pmatrix} -1 \\\\ 1 \\\\ -2 \\end{pmatrix}$: kollinear, also nur eine Gerade.\n\n*A gewählt?* → **N3** Aufgabe 1, **G1** Aufgabe 4, **G2**"
+        },
+        {
+          "id": "N11-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $(1+t)-2(1+t)+(1+t)=0$ ist für jedes $t$ wahr: g liegt in E.\n\n*B gewählt?* → **N6** Aufgabe 1, **N7**\n\n*C gewählt?* → **N6**"
+        },
+        {
+          "id": "N11-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $\\vec n_F=-2\\cdot\\vec n_E$; F durch $-2$ geteilt: $3x_1-x_2+x_3=-2\\neq2$. Echt parallel.\n\n*A gewählt?* Punktprobe vergessen. → **N6**, **N7**"
+        },
+        {
+          "id": "N11-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – $\\sin\\varphi=\\dfrac{\\sqrt3}{2}$, also $\\varphi=60^\\circ$ (der Winkel zur Normalen ist $30^\\circ$).\n\n*A gewählt?* Kosinus statt Sinus. → **N6**, **N7**"
+        },
+        {
+          "id": "N11-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $180^\\circ-135^\\circ=45^\\circ$: Der Schnittwinkel ist höchstens $90^\\circ$.\n\n*A gewählt?* Betrag vergessen. → **N2** Aufgabe 3, **N10**"
         }
       ]
     },
@@ -1178,7 +1189,7 @@
         "g4"
       ],
       "kategorie": "vernetzen",
-      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Linearkombination, Skalarprodukt, Vektorprodukt, Flächen) – am besten nach P2.",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Linearkombination, Skalarprodukt, Vektorprodukt, Flächen) – am besten nach N2.",
       "bild": "img/st_V1.svg",
       "pdf": "pdf/V1_Akustikpaneel.pdf",
       "aufgaben": [
@@ -1246,7 +1257,7 @@
         "g4"
       ],
       "kategorie": "vernetzen",
-      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 und Phase 2 (Ebenen in drei Formen) – am besten nach P3.",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 und Phase 2 (Ebenen) – am besten nach N3 bis N5.",
       "bild": "img/st_V2.svg",
       "pdf": "pdf/V2_Glasskulptur.pdf",
       "aufgaben": [
@@ -1325,7 +1336,7 @@
         "g6"
       ],
       "kategorie": "vernetzen",
-      "hinweis": "WTR und Formeldokument zugelassen, 30 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Lage, Schnitt, Winkel) – am besten nach P4.",
+      "hinweis": "WTR und Formeldokument zugelassen, 30 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Lage, Schnitt, Winkel) – am besten nach N6 bis N8.",
       "bild": "img/st_V3.svg",
       "pdf": "pdf/V3_Bohrungen.pdf",
       "aufgaben": [
@@ -1415,7 +1426,7 @@
         "g5"
       ],
       "kategorie": "vernetzen",
-      "hinweis": "WTR und Formeldokument zugelassen, 35 Minuten. Klausurniveau Teil B. Vernetzt die Grundlagen mit allen vier Phasen – am besten nach W3 (Scharen).",
+      "hinweis": "WTR und Formeldokument zugelassen, 35 Minuten. Klausurniveau Teil B. Vernetzt die Grundlagen mit allen vier Phasen – am besten nach N9 und N10.",
       "bild": "img/st_V4.svg",
       "pdf": "pdf/V4_Komplexaufgabe_Seilbahn.pdf",
       "aufgaben": [
