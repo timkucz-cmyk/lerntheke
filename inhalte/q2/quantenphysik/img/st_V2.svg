@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Lichtfleck mit Ringen aus vielen einzelnen Punkten">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <circle class="marke" cx="94.7" cy="27.4" r="1"/>
+  <circle class="marke" cx="75.0" cy="36.1" r="1"/>
+  <circle class="marke" cx="87.2" cy="51.5" r="1"/>
+  <circle class="marke" cx="79.1" cy="34.9" r="1"/>
+  <circle class="marke" cx="93.6" cy="44.2" r="1"/>
+  <circle class="marke" cx="74.3" cy="51.5" r="1"/>
+  <circle class="marke" cx="72.8" cy="15.6" r="1"/>
+  <circle class="marke" cx="92.8" cy="38.4" r="1"/>
+  <circle class="marke" cx="60.3" cy="6.4" r="1"/>
+  <circle class="marke" cx="77.1" cy="32.4" r="1"/>
+  <circle class="marke" cx="78.7" cy="34.8" r="1"/>
+  <circle class="marke" cx="81.8" cy="35.7" r="1"/>
+  <circle class="marke" cx="83.6" cy="35.7" r="1"/>
+  <circle class="marke" cx="70.9" cy="37.1" r="1"/>
+  <circle class="marke" cx="56.0" cy="32.1" r="1"/>
+  <circle class="marke" cx="74.0" cy="27.7" r="1"/>
+  <circle class="marke" cx="60.8" cy="40.3" r="1"/>
+  <circle class="marke" cx="80.0" cy="35.0" r="1"/>
+  <circle class="marke" cx="103.9" cy="-2.6" r="1"/>
+  <circle class="marke" cx="79.8" cy="34.4" r="1"/>
+  <circle class="marke" cx="79.1" cy="38.8" r="1"/>
+  <circle class="marke" cx="88.1" cy="38.8" r="1"/>
+  <circle class="marke" cx="80.8" cy="33.9" r="1"/>
+  <circle class="marke" cx="69.7" cy="43.9" r="1"/>
+  <circle class="marke" cx="105.3" cy="35.1" r="1"/>
+  <circle class="marke" cx="81.7" cy="41.6" r="1"/>
+  <circle class="marke" cx="92.8" cy="33.4" r="1"/>
+  <circle class="marke" cx="73.5" cy="39.9" r="1"/>
+  <circle class="marke" cx="83.0" cy="18.2" r="1"/>
+  <circle class="marke" cx="79.0" cy="43.4" r="1"/>
+  <circle class="marke" cx="90.1" cy="32.7" r="1"/>
+  <circle class="marke" cx="80.3" cy="28.7" r="1"/>
+  <circle class="marke" cx="86.0" cy="39.4" r="1"/>
+  <circle class="marke" cx="86.4" cy="37.5" r="1"/>
+  <circle class="marke" cx="77.7" cy="34.1" r="1"/>
+  <circle class="marke" cx="72.4" cy="37.6" r="1"/>
+  <circle class="marke" cx="85.4" cy="40.8" r="1"/>
+  <circle class="marke" cx="67.4" cy="19.0" r="1"/>
+  <circle class="marke" cx="82.4" cy="45.2" r="1"/>
+  <circle class="marke" cx="78.8" cy="44.4" r="1"/>
+  <circle class="marke" cx="72.0" cy="57.6" r="1"/>
+  <circle class="marke" cx="83.3" cy="32.1" r="1"/>
+  <circle class="marke" cx="82.0" cy="32.4" r="1"/>
+  <circle class="marke" cx="71.8" cy="24.8" r="1"/>
+  <circle class="marke" cx="87.5" cy="67.0" r="1"/>
+  <circle class="marke" cx="78.8" cy="58.9" r="1"/>
+  <circle class="marke" cx="79.5" cy="36.6" r="1"/>
+  <circle class="marke" cx="90.7" cy="40.3" r="1"/>
+  <circle class="marke" cx="80.7" cy="50.0" r="1"/>
+  <circle class="marke" cx="72.3" cy="29.3" r="1"/>
+  <circle class="marke" cx="89.9" cy="32.4" r="1"/>
+  <circle class="marke" cx="69.4" cy="36.1" r="1"/>
+  <circle class="marke" cx="89.9" cy="57.1" r="1"/>
+  <circle class="marke" cx="86.9" cy="45.1" r="1"/>
+  <circle class="marke" cx="80.1" cy="55.9" r="1"/>
+  <circle class="marke" cx="85.0" cy="47.6" r="1"/>
+  <circle class="marke" cx="80.7" cy="37.0" r="1"/>
+  <circle class="marke" cx="110.4" cy="25.1" r="1"/>
+  <circle class="marke" cx="68.1" cy="41.4" r="1"/>
+  <circle class="marke" cx="89.8" cy="42.5" r="1"/>
+  <circle class="marke" cx="82.4" cy="68.5" r="1"/>
+  <circle class="marke" cx="77.7" cy="27.0" r="1"/>
+  <circle class="marke" cx="79.1" cy="34.4" r="1"/>
+  <circle class="marke" cx="73.2" cy="59.2" r="1"/>
+  <circle class="marke" cx="88.8" cy="39.1" r="1"/>
+  <circle class="marke" cx="82.6" cy="54.1" r="1"/>
+  <circle class="marke" cx="61.5" cy="18.8" r="1"/>
+  <circle class="marke" cx="78.2" cy="44.5" r="1"/>
+  <circle class="marke" cx="87.9" cy="35.8" r="1"/>
+  <circle class="marke" cx="79.5" cy="39.5" r="1"/>
+  <circle class="marke" cx="82.0" cy="39.0" r="1"/>
+  <circle class="marke" cx="78.9" cy="36.2" r="1"/>
+  <circle class="marke" cx="75.8" cy="39.9" r="1"/>
+  <circle class="marke" cx="82.4" cy="33.0" r="1"/>
+  <circle class="marke" cx="72.9" cy="16.7" r="1"/>
+  <circle class="marke" cx="77.9" cy="33.8" r="1"/>
+  <circle class="marke" cx="82.3" cy="35.3" r="1"/>
+  <circle class="marke" cx="82.4" cy="33.5" r="1"/>
+  <circle class="marke" cx="90.4" cy="36.4" r="1"/>
+  <circle class="marke" cx="58.4" cy="10.1" r="1"/>
+  <circle class="marke" cx="70.9" cy="54.7" r="1"/>
+  <circle class="marke" cx="82.4" cy="35.0" r="1"/>
+  <circle class="marke" cx="78.8" cy="19.9" r="1"/>
+  <circle class="marke" cx="86.3" cy="30.5" r="1"/>
+  <circle class="marke" cx="80.5" cy="33.4" r="1"/>
+  <circle class="marke" cx="98.1" cy="24.3" r="1"/>
+  <circle class="marke" cx="90.0" cy="27.8" r="1"/>
+  <circle class="marke" cx="91.4" cy="23.1" r="1"/>
+  <circle class="marke" cx="93.5" cy="19.3" r="1"/>
+  <circle class="marke" cx="69.3" cy="29.8" r="1"/>
+  <circle class="hilfs" cx="80" cy="35" r="24"/>
+  <circle class="hilfs" cx="80" cy="35" r="30"/>
+</svg>

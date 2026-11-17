@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Zinkplatte auf einem Elektroskop, Licht löst ein Elektron aus">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="akzent" d="M12.0 14.0 L12.5 15.7 L13.0 17.1 L13.5 17.9 L14.0 17.9 L14.5 17.1 L15.0 15.7 L15.5 14.0 L16.0 12.3 L16.5 10.9 L17.0 10.1 L17.5 10.1 L18.0 10.9 L18.5 12.3 L19.0 14.0 L19.5 15.7 L20.0 17.1 L20.5 17.9 L21.0 17.9 L21.5 17.1 L22.0 15.7 L22.5 14.0 L23.0 12.3 L23.5 10.9 L24.0 10.1 L24.5 10.1 L25.0 10.9 L25.5 12.3 L26.0 14.0 L26.5 15.7 L27.0 17.1 L27.5 17.9 L28.0 17.9 L28.5 17.1 L29.0 15.7 L29.5 14.0 L30.0 12.3 L30.5 10.9 L31.0 10.1 L31.5 10.1 L32.0 10.9 L32.5 12.3 L33.0 14.0 L33.5 15.7 L34.0 17.1 L34.5 17.9 L35.0 17.9 L35.5 17.1 L36.0 15.7 L36.5 14.0 L37.0 12.3 L37.5 10.9 L38.0 10.1 L38.5 10.1 L39.0 10.9 L39.5 12.3 L40.0 14.0 L40.5 15.7 L41.0 17.1 L41.5 17.9 L42.0 17.9 L42.5 17.1 L43.0 15.7 L43.5 14.0 L44.0 12.3 L44.5 10.9 L45.0 10.1 L45.5 10.1 L46.0 10.9 L46.5 12.3 L47.0 14.0 L47.5 15.7 L48.0 17.1 L48.5 17.9 L49.0 17.9 L49.5 17.1 L50.0 15.7 L50.5 14.0 L51.0 12.3 L51.5 10.9 L52.0 10.1 L52.5 10.1 L53.0 10.9 L53.5 12.3 L54.0 14.0 L54.5 15.7 L55.0 17.1 L55.5 17.9 L56.0 17.9 L56.5 17.1 L57.0 15.7 L57.5 14.0 L58.0 12.3 L58.5 10.9 L59.0 10.1 L59.5 10.1 L60.0 10.9 L60.5 12.3 L61.0 14.0 L61.5 15.7 L62.0 17.1"/>
+  <path class="akzent" d="M12.0 30.0 L12.5 31.3 L13.0 32.3 L13.5 32.9 L14.0 32.9 L14.5 32.3 L15.0 31.3 L15.5 30.0 L16.0 28.7 L16.5 27.7 L17.0 27.1 L17.5 27.1 L18.0 27.7 L18.5 28.7 L19.0 30.0 L19.5 31.3 L20.0 32.3 L20.5 32.9 L21.0 32.9 L21.5 32.3 L22.0 31.3 L22.5 30.0 L23.0 28.7 L23.5 27.7 L24.0 27.1 L24.5 27.1 L25.0 27.7 L25.5 28.7 L26.0 30.0 L26.5 31.3 L27.0 32.3 L27.5 32.9 L28.0 32.9 L28.5 32.3 L29.0 31.3 L29.5 30.0 L30.0 28.7 L30.5 27.7 L31.0 27.1 L31.5 27.1 L32.0 27.7 L32.5 28.7 L33.0 30.0 L33.5 31.3 L34.0 32.3 L34.5 32.9 L35.0 32.9 L35.5 32.3 L36.0 31.3 L36.5 30.0 L37.0 28.7 L37.5 27.7 L38.0 27.1 L38.5 27.1 L39.0 27.7 L39.5 28.7 L40.0 30.0 L40.5 31.3 L41.0 32.3 L41.5 32.9 L42.0 32.9 L42.5 32.3 L43.0 31.3 L43.5 30.0 L44.0 28.7 L44.5 27.7 L45.0 27.1 L45.5 27.1 L46.0 27.7 L46.5 28.7 L47.0 30.0 L47.5 31.3 L48.0 32.3 L48.5 32.9 L49.0 32.9 L49.5 32.3 L50.0 31.3 L50.5 30.0 L51.0 28.7 L51.5 27.7 L52.0 27.1 L52.5 27.1 L53.0 27.7 L53.5 28.7 L54.0 30.0 L54.5 31.3 L55.0 32.3 L55.5 32.9 L56.0 32.9 L56.5 32.3 L57.0 31.3 L57.5 30.0 L58.0 28.7 L58.5 27.7 L59.0 27.1 L59.5 27.1 L60.0 27.7 L60.5 28.7 L61.0 30.0 L61.5 31.3 L62.0 32.3"/>
+  <rect class="fuell" x="72" y="8" width="26" height="12" rx="2"/>
+  <rect class="grau" x="72" y="8" width="26" height="12" rx="2"/>
+  <path class="grau" d="M85 20 V58 M70 58 H100 M85 34 l9 12"/>
+  <circle class="marke" cx="122" cy="10" r="3.4"/>
+  <path class="hilfs" d="M100 13 L116 11" stroke-dasharray="3 3"/>
+  <text class="text" x="128" y="14">e⁻</text>
+  <text class="text" x="104" y="62">Zn</text>
+</svg>
