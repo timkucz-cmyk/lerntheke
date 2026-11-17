@@ -3,7 +3,7 @@
   "titel": "Analytische Geometrie – Trainingswoche",
   "fach": "mathe",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind klausurrelevant. Sind Sie bei Vektoren und Geraden aus Klasse E unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Vektoren und Geraden auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Produkte), V2 nach N3 bis N5 (Ebenen), V3 nach N6 bis N8 (Lage, Schnitt, Winkel), V4 nach N9 und N10 (Scharen, Anwendungen) als Komplexaufgabe. N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11.",
+  "hinweis": "Alle Stationen sind testrelevant (Test 1–3). Sind Sie bei Vektoren und Geraden aus Klasse E unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Vektoren und Geraden auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Produkte), V2 nach N3 bis N5 (Ebenen), V3 nach N6 bis N8 (Lage, Schnitt, Winkel), V4 nach N9 und N10 (Scharen, Anwendungen) als Komplexaufgabe. N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11.",
   "checkliste": [
     {
       "id": "g1",
@@ -138,7 +138,7 @@
       ]
     }
   ],
-  "abschluss": "Klausur 2",
+  "abschluss": "Tests 1–3",
   "stationen": [
     {
       "id": "G1",
@@ -901,7 +901,7 @@
         "c10"
       ],
       "kategorie": "neu",
-      "hinweis": "Ohne Taschenrechner und Formeldokument, 20 Minuten – wie Teil A der Klausur.",
+      "hinweis": "Ohne Taschenrechner und Formeldokument, 20 Minuten – im Format des hilfsmittelfreien Teils im Abitur.",
       "bild": "img/st_N8.svg",
       "pdf": "pdf/N8_HMF.pdf",
       "aufgaben": [
@@ -1426,7 +1426,7 @@
         "g5"
       ],
       "kategorie": "vernetzen",
-      "hinweis": "WTR und Formeldokument zugelassen, 35 Minuten. Klausurniveau Teil B. Vernetzt die Grundlagen mit allen vier Phasen – am besten nach N9 und N10.",
+      "hinweis": "WTR und Formeldokument zugelassen, 35 Minuten. Abiturniveau, Teil mit Hilfsmitteln. Vernetzt die Grundlagen mit allen vier Phasen – am besten nach N9 und N10.",
       "bild": "img/st_V4.svg",
       "pdf": "pdf/V4_Komplexaufgabe_Seilbahn.pdf",
       "aufgaben": [
