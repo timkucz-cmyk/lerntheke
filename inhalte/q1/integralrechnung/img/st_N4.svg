@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Fläche über und unter der x-Achse">
+  <style>
+    .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #B61E33; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #F08A99; }
+      .marke  { fill: #F08A99; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #F08A99; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M16 36 H146 M24 8 V66"/>
+  <path class="fuell" d="M24.0 36.0 L26.8 32.6 L29.6 29.2 L32.4 26.0 L35.2 23.1 L38.0 20.4 L40.8 18.2 L43.6 16.4 L46.4 15.1 L49.2 14.3 L52.0 14.0 L54.8 14.3 L57.6 15.1 L60.4 16.4 L63.2 18.2 L66.0 20.4 L68.8 23.1 L71.6 26.0 L74.4 29.2 L77.2 32.6 L80.0 36.0 L82.8 39.4 L85.6 42.8 L88.4 46.0 L91.2 48.9 L94.0 51.6 L96.8 53.8 L99.6 55.6 L102.4 56.9 L105.2 57.7 L108.0 58.0 L110.8 57.7 L113.6 56.9 L116.4 55.6 L119.2 53.8 L122.0 51.6 L124.8 48.9 L127.6 46.0 L130.4 42.8 L133.2 39.4 L136.0 36.0 L136.0 36 L24.0 36 Z"/>
+  <path class="akzent" d="M24.0 36.0 L26.8 32.6 L29.6 29.2 L32.4 26.0 L35.2 23.1 L38.0 20.4 L40.8 18.2 L43.6 16.4 L46.4 15.1 L49.2 14.3 L52.0 14.0 L54.8 14.3 L57.6 15.1 L60.4 16.4 L63.2 18.2 L66.0 20.4 L68.8 23.1 L71.6 26.0 L74.4 29.2 L77.2 32.6 L80.0 36.0 L82.8 39.4 L85.6 42.8 L88.4 46.0 L91.2 48.9 L94.0 51.6 L96.8 53.8 L99.6 55.6 L102.4 56.9 L105.2 57.7 L108.0 58.0 L110.8 57.7 L113.6 56.9 L116.4 55.6 L119.2 53.8 L122.0 51.6 L124.8 48.9 L127.6 46.0 L130.4 42.8 L133.2 39.4 L136.0 36.0"/>
+</svg>
