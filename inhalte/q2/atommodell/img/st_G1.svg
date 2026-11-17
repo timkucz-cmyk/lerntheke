@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Check-in-Liste mit sechs Kästchen, eines abgehakt">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <rect class="grau" x="24" y="14" width="9" height="9"/>
+  <rect class="grau" x="24" y="31" width="9" height="9"/>
+  <rect class="grau" x="24" y="48" width="9" height="9"/>
+  <rect class="grau" x="84" y="14" width="9" height="9"/>
+  <rect class="grau" x="84" y="31" width="9" height="9"/>
+  <rect class="grau" x="84" y="48" width="9" height="9"/>
+  <path class="hilfs" d="M38 19 H74"/>
+  <path class="hilfs" d="M38 36 H74"/>
+  <path class="hilfs" d="M38 53 H74"/>
+  <path class="hilfs" d="M98 19 H134"/>
+  <path class="hilfs" d="M98 36 H134"/>
+  <path class="hilfs" d="M98 53 H134"/>
+  <path class="akzent" d="M25 19 l3 4 l6 -8"/>
+</svg>
