@@ -3,8 +3,28 @@
   "titel": "Ähnlichkeit – Training vor dem Test",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Erst P1 bis P3, dann eine Wahlstation – am besten die, die dir empfohlen wird; weitere Wahlstationen zu Hause. Taschenrechner und Geodreieck erlaubt, außer im Tandem W2 (ohne Taschenrechner). Dein Regelheft darfst du benutzen. Unsicher bei Kongruenz oder Verhältnisgleichungen? Starte mit W1.",
+  "hinweis": "Alle Stationen sind testrelevant. Bist du bei Winkeln, Kongruenz, Gleichungen mit Brüchen, Flächeninhalten oder dem Satz des Pythagoras unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt Kongruenz und Verhältnisgleichungen auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (zentrische Streckung), V2 nach N3 (Ähnlichkeit), V3 nach N4 bis N8 (Strahlensätze). Taschenrechner und Geodreieck sind erlaubt, außer im Tandem N5 (ohne Taschenrechner). Dein Regelheft darfst du benutzen.",
   "checkliste": [
+    {
+      "id": "g1",
+      "text": "Winkel an Geradenkreuzungen (Scheitel-, Neben-, Stufen- und Wechselwinkel) und die Innenwinkelsumme im Dreieck nutzen"
+    },
+    {
+      "id": "g2",
+      "text": "Kongruente Figuren erkennen und mit den Kongruenzsätzen entscheiden, ob ein Dreieck eindeutig festgelegt ist"
+    },
+    {
+      "id": "g3",
+      "text": "Einfache Bruch- und Verhältnisgleichungen lösen"
+    },
+    {
+      "id": "g4",
+      "text": "Flächeninhalte von Dreieck, Rechteck und Trapez sowie das Volumen eines Quaders berechnen"
+    },
+    {
+      "id": "g5",
+      "text": "Mit dem Satz des Pythagoras fehlende Seitenlängen in rechtwinkligen Dreiecken berechnen"
+    },
     {
       "id": "c1",
       "text": "Kongruenz beschreiben und von Ähnlichkeit unterscheiden"
@@ -39,6 +59,19 @@
     }
   ],
   "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 7 bis 9",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ]
+    },
     {
       "id": "p1",
       "name": "Zentrische Streckung",
@@ -75,166 +108,129 @@
   "abschluss": "Test",
   "stationen": [
     {
-      "id": "P1",
-      "titel": "Zentrische Streckung",
-      "typ": "pflicht",
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
       "sozialform": "einzel",
-      "dauer_min": 15,
+      "dauer_min": 25,
       "hilfsmittel": "Taschenrechner, Geodreieck",
       "checkliste": [
-        "c2",
-        "c3"
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
       ],
-      "hinweis": "Einzelarbeit, 15 Minuten, mit Taschenrechner und Geodreieck. Die k-fache Länge wird immer von S aus abgetragen: $\\overline{SP'} = k \\cdot \\overline{SP}$. Negativer Streckfaktor und Flächeninhalte: W3.",
-      "bild": "img/st_P1.svg",
-      "pdf": "pdf/P1_Zentrische_Streckung.pdf",
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit mit Taschenrechner und Geodreieck, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 5 gehören zu den Grundlagen g1 bis g5 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken bei Kongruenz und Gleichungen mit Brüchen schließt du danach mit G2; zu den übrigen Blöcken nennt die Lösung, wo du das Wissen wieder brauchst.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
       "aufgaben": [
         {
-          "id": "P1-1",
-          "label": "1",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Für jeden Eckpunkt: Strahl von $S$ durch den Punkt zeichnen und von $S$ aus die doppelte Länge abtragen: $\\overline{SA'} = 2 \\cdot \\overline{SA}$.\n\nMit Kästchen gezählt: Von $S$ nach $A$ sind es 2 nach rechts und 0 nach oben, also von $S$ nach $A'$ 4 nach rechts und 0 nach oben.\n\nEbenso: Von $S$ nach $B$ sind es 4 nach rechts und 1 nach oben, nach $B'$ also 8 nach rechts und 2 nach oben. Von $S$ nach $C$ sind es 2 nach rechts und 2 nach oben, nach $C'$ 4 nach rechts und 4 nach oben.\n\n$A'(3 \\mid 1)$, $B'(7 \\mid 3)$, $C'(3 \\mid 5)$\n\n1 P Zeichnung, 1 P Koordinaten.\n\n*Die doppelte Strecke ab dem Eckpunkt statt ab S abgetragen?* → **W5** Aufgabe 4. Negativer Streckfaktor und Flächeninhalte: → **W3**",
-          "loesung_bild": "img/P1-1.png"
-        },
-        {
-          "id": "P1-2",
-          "label": "2",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Streckzentrum: Die Geraden durch $P$ und $P'$, durch $Q$ und $Q'$ usw. schneiden sich in $S(1 \\mid 1)$. Zwei Verbindungsgeraden genügen.\n\nStreckfaktor: entsprechende Seiten vergleichen, z. B. $\\overline{PQ} = 2$ und $\\overline{P'Q'} = 6$:\n\n$$k = \\frac{\\overline{P'Q'}}{\\overline{PQ}} = \\frac{6}{2} = 3$$\n\nProbe: Von $S$ nach $P$ sind es 1 nach rechts und 1 nach oben, nach $P'(4 \\mid 4)$ dreimal so viel. 1 P Streckzentrum, 1 P Streckfaktor.",
-          "loesung_bild": "img/P1-2.png"
-        },
-        {
-          "id": "P1-3",
-          "label": "3",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Die Lampe ist das Streckzentrum, der Schatten ist das Bild der Figur. Gleiche Einheiten: 2,10 m = 210 cm.\n\n$$k = \\frac{210\\,\\mathrm{cm}}{30\\,\\mathrm{cm}} = 7$$\n\nSchattenhöhe: $7 \\cdot 12\\,\\mathrm{cm} = 84\\,\\mathrm{cm}$\n\n1 P Streckfaktor, 1 P Schattenhöhe.\n\n*Ergebnis 0,07 erhalten?* Dann hast du mit 2,10 statt mit 210 gerechnet. Erst in dieselbe Einheit umrechnen.\n\n*Als Streckfaktor die Differenz 210 − 30 gerechnet?* Der Streckfaktor ist ein Faktor. → **W5** Aufgabe 3"
-        }
-      ]
-    },
-    {
-      "id": "P2",
-      "titel": "Ähnliche Figuren und Dreiecke",
-      "typ": "pflicht",
-      "sozialform": "einzel",
-      "dauer_min": 15,
-      "hilfsmittel": "Taschenrechner, Geodreieck",
-      "checkliste": [
-        "c4",
-        "c5",
-        "c1"
-      ],
-      "hinweis": "Einzelarbeit, 15 Minuten. Ordne bei ähnlichen Dreiecken zuerst die Ecken über die Winkel zu.",
-      "bild": "img/st_P2.svg",
-      "pdf": "pdf/P2_Aehnliche_Figuren.pdf",
-      "aufgaben": [
-        {
-          "id": "P2-1",
-          "label": "1",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Alle Winkel sind 90°. Es entscheiden die Seitenverhältnisse.\n\n| Paar | Seiten | Ergebnis |\n|---|---|---|\n| $F_1$, $F_2$ | 2 × 3 und 4 × 6, $\\frac{4}{2} = \\frac{6}{3} = 2$ | ähnlich ($k = 2$) |\n| $F_1$, $F_3$ | 2 × 3 und 3 × 2 (gedreht) | kongruent |\n| $F_1$, $F_4$ | 2 × 3 und 3 × 4, $\\frac{3}{2} \\neq \\frac{4}{3}$ | keins von beiden |\n| $F_2$, $F_3$ | 4 × 6 und 3 × 2 (gedreht), $k = 0{,}5$ | ähnlich |\n\nImmer kürzere Seite mit kürzerer und längere Seite mit längerer Seite vergleichen – auch wenn eine Figur gedreht ist.\n\nJe Paar 0,5 P. Kongruente Figuren sind auch ähnlich (mit $k = 1$).\n\n*F1 und F4 für ähnlich gehalten, weil alle Winkel gleich sind?* Bei Vierecken reichen gleiche Winkel nicht. → **W5** Aufgabe 5"
-        },
-        {
-          "id": "P2-2a",
-          "label": "2a",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Innenwinkelsumme: $\\gamma = 180° - 50° - 70° = 60°$ und für den Winkel bei $E$: $\\varepsilon = 180° - 50° - 60° = 70°$.\n\nAlso $\\alpha = \\delta = 50°$, $\\beta = \\varepsilon = 70°$ und $\\gamma = \\varphi = 60°$. Die Dreiecke stimmen in allen drei Winkeln überein. Nach dem Ähnlichkeitssatz (1) sind sie zueinander ähnlich.\n\n1 P fehlende Winkel, 1 P Ähnlichkeitssatz."
-        },
-        {
-          "id": "P2-2b",
-          "label": "2b",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Entsprechende Ecken: $A \\to D$, $B \\to E$, $C \\to F$ (gleiche Winkel). Also entspricht $\\overline{DE}$ der Seite $\\overline{AB}$ und $\\overline{EF}$ der Seite $\\overline{BC}$.\n\n$$k = \\frac{\\overline{DE}}{\\overline{AB}} = \\frac{6{,}0\\,\\mathrm{cm}}{4{,}0\\,\\mathrm{cm}} = 1{,}5$$\n\n$\\overline{EF} = 1{,}5 \\cdot 3{,}5\\,\\mathrm{cm} = 5{,}25\\,\\mathrm{cm} \\approx 5{,}3\\,\\mathrm{cm}$\n\n1 P Streckfaktor, 1 P Länge $\\overline{EF}$.\n\n*Andere Seiten ins Verhältnis gesetzt?* Erst die Ecken über die Winkel zuordnen. → **W5** Aufgabe 2"
-        },
-        {
-          "id": "P2-3",
-          "label": "3",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "Die Aussage ist **falsch**. Gegenbeispiel: Ein gleichschenkliges Dreieck mit dem Winkel 30° an der Spitze hat die Basiswinkel 75°, eines mit 90° an der Spitze hat die Basiswinkel 45°. Die Winkel stimmen nicht überein, also sind die Dreiecke nicht ähnlich (ähnliche Figuren haben gleich große entsprechende Winkel).\n\nRichtig wäre: Gleichschenklige Dreiecke mit **gleichem** Winkel an der Spitze sind ähnlich, und alle gleichseitigen Dreiecke sind ähnlich (alle Winkel 60°).\n\n1 P Gegenbeispiel, 1 P Begründung mit den Winkeln."
-        }
-      ]
-    },
-    {
-      "id": "P3",
-      "titel": "Strahlensätze",
-      "typ": "pflicht",
-      "sozialform": "einzel",
-      "dauer_min": 20,
-      "hilfsmittel": "Taschenrechner",
-      "checkliste": [
-        "c6",
-        "c7"
-      ],
-      "hinweis": "Einzelarbeit, 20 Minuten, mit Taschenrechner. Überlege: Beginnen die Abschnitte bei S, oder liegt die gesuchte Länge auf einer Parallelen?",
-      "bild": "img/st_P3.svg",
-      "pdf": "pdf/P3_Strahlensaetze.pdf",
-      "aufgaben": [
-        {
-          "id": "P3-1a",
+          "id": "G1-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
-          "loesung": "Strahlen von $S$ aus, 1. Strahlensatz (Abschnitte ab $S$):\n\n$$\\frac{x}{3{,}0} = \\frac{10{,}0}{4{,}0} \\quad \\Rightarrow \\quad x = \\frac{10{,}0}{4{,}0} \\cdot 3{,}0 = 7{,}5$$\n\n$x = 7{,}5\\,\\mathrm{cm}$. 1 P Ansatz, 1 P Ergebnis.\n\n*Probleme beim Auflösen der Verhältnisgleichung?* → **W1** Aufgabe 2"
+          "loesung": "$\\beta = 58°$: Stufenwinkel zu $\\alpha$ (an den Parallelen $g$ und $h$).\n\n$\\gamma = 58°$: Scheitelwinkel zu $\\beta$.\n\n$\\delta = 180° - 58° = 122°$: Nebenwinkel zu $\\beta$ (beide zusammen bilden einen gestreckten Winkel).\n\n1 P Größen, 1 P Winkelbeziehungen."
         },
         {
-          "id": "P3-1b",
+          "id": "G1-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "II",
-          "loesung": "Zwei Geraden schneiden sich in $S$ (X-Figur). $x$ liegt auf einer Parallelen, also 2. Strahlensatz:\n\n$$\\frac{x}{3{,}0} = \\frac{3{,}6}{2{,}4} \\quad \\Rightarrow \\quad x = 1{,}5 \\cdot 3{,}0 = 4{,}5$$\n\n$x = 4{,}5\\,\\mathrm{cm}$. 1 P Ansatz, 1 P Ergebnis.\n\n*Unsicher, welche Abschnitte zusammengehören?* → **W2** Nummer 8 und **W5** Aufgabe 1"
+          "loesung": "$\\alpha = 47°$: Wechselwinkel zum 47°-Winkel bei $C$ (an $g \\parallel h$).\n\n$\\beta = 68°$: Wechselwinkel zum 68°-Winkel bei $C$.\n\n$\\gamma = 180° - 47° - 68° = 65°$: Die drei Winkel bei $C$ bilden zusammen einen gestreckten Winkel (oder: Innenwinkelsumme im Dreieck).\n\n1 P $\\alpha$ und $\\beta$ mit Wechselwinkeln, 1 P $\\gamma$.\n\nWinkel brauchst du wieder für die Ähnlichkeitssätze in **N3** Aufgabe 2 und **N8** Aufgabe 1."
         },
         {
-          "id": "P3-2a",
+          "id": "G1-2a",
           "label": "2a",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Die Latten und die 0,80 m hohe Kante sind parallel (alle senkrecht). Dach und waagerechte Kante gehen vom Dachende $S$ aus, der 2. Strahlensatz gilt:\n\n$$\\frac{x_1}{0{,}80} = \\frac{0{,}60}{2{,}40} = \\frac{1}{4} \\quad \\Rightarrow \\quad x_1 = 0{,}20$$\n\nEbenso $x_2 = \\frac{1{,}20}{2{,}40} \\cdot 0{,}80 = 0{,}40$ und $x_3 = \\frac{1{,}80}{2{,}40} \\cdot 0{,}80 = 0{,}60$.\n\nDie Latten sind **0,20 m, 0,40 m und 0,60 m** lang. 1 P Ansatz, 1 P alle Längen.\n\nMehr Sachaufgaben mit Strahlensätzen: → **W4**"
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\gamma$ liegt bei $C$ zwischen den Seiten $a$ und $b$, $\\varphi$ liegt bei $F$ zwischen $d$ und $e$. Beide Dreiecke stimmen also in zwei Seiten (5 cm und 7 cm) und dem eingeschlossenen Winkel 40° überein.\n\nDie Dreiecke sind kongruent nach **SWS**."
         },
         {
-          "id": "P3-2b",
+          "id": "G1-2b",
           "label": "2b",
           "punkte": 2,
-          "afb": "III",
-          "loesung": "Toms Aussage ist **falsch**.\n\n- Der 2. Strahlensatz gilt nur, wenn die Latten **parallel** zur 0,80 m hohen Kante (und damit zueinander) sind. Nur dann sind die Dreiecke ähnlich.\n- Gleiche Abstände unten reichen nicht: Steht eine Latte schräg, ist sie bei gleichem Abstand länger oder kürzer als berechnet. Umgekehrt dürfen parallele Latten beliebige Abstände haben.\n\n1 P „Parallelität ist nötig“, 1 P „Abstände sind dafür unwichtig“ (mit Begründung)."
+          "afb": "I",
+          "loesung": "Zeichnen: Strecke $\\overline{AB} = 6\\,\\mathrm{cm}$, in $A$ den Winkel 40° und in $B$ den Winkel 60° antragen. Die freien Schenkel schneiden sich in $C$. Zur Kontrolle: $a \\approx 3{,}9\\,\\mathrm{cm}$, $b \\approx 5{,}3\\,\\mathrm{cm}$.\n\nEine Seite und die beiden anliegenden Winkel: **WSW**. $\\gamma = 180° - 40° - 60° = 80°$.\n\n1 P Zeichnung, 1 P Kongruenzsatz und $\\gamma$.\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beide Seiten mit 6 multiplizieren: $x = \\frac{15}{9} \\cdot 6 = 10$"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Mit $2x$ multiplizieren: $2 \\cdot (x + 3) = 5x$, also $2x + 6 = 5x$, $6 = 3x$ und $x = 2$.\n\nProbe: $\\frac{2 + 3}{2} = \\frac{5}{2}$ ✓\n\nSolche Gleichungen entstehen bei Strahlensätzen mit Teilstrecken. Üben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = \\frac{a + c}{2} \\cdot h = \\frac{7 + 3}{2} \\cdot 4 = 20$, also $A = 20\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$V = 80 \\cdot 20 \\cdot 15 = 24\\,000$, also $V = 24\\,000\\,\\mathrm{cm^3}$.\n\nWegen $1\\,\\mathrm{l} = 1\\,\\mathrm{dm^3} = 1000\\,\\mathrm{cm^3}$ passen **24 Liter** Erde hinein.\n\nFlächeninhalte brauchst du wieder in **N2** Aufgabe 3 (Flächeninhalte ähnlicher Figuren)."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$c^2 = 5^2 + 12^2 = 25 + 144 = 169$, also $c = 13\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Diagonale: $d^2 = 36^2 + 15^2 = 1296 + 225 = 1521$, also $d = 39\\,\\mathrm{m}$.\n\nAm Rand entlang: $36\\,\\mathrm{m} + 15\\,\\mathrm{m} = 51\\,\\mathrm{m}$. Man spart $51\\,\\mathrm{m} - 39\\,\\mathrm{m} = 12\\,\\mathrm{m}$.\n\n1 P Diagonale, 1 P Ersparnis.\n\nDen Satz des Pythagoras brauchst du wieder in **V1**, **V2** und **V3**."
         }
       ]
     },
     {
-      "id": "W1",
-      "titel": "Startklar: Kongruenz und Verhältnisgleichungen",
+      "id": "G2",
+      "titel": "Auffrischen: Kongruenz und Verhältnisgleichungen",
       "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 15,
       "hilfsmittel": "Taschenrechner",
       "checkliste": [
+        "g2",
+        "g3",
         "c1"
       ],
-      "hinweis": "Einzelarbeit, 15 Minuten. Gut als Start, wenn du bei Kongruenz oder Gleichungen mit Brüchen unsicher bist.",
-      "bild": "img/st_W1.svg",
-      "pdf": "pdf/W1_Startklar.pdf",
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, 15 Minuten. Frischt Kongruenz und Gleichungen mit Brüchen auf – passend zu den Blöcken 2 und 3 des Check-ins G1.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Kongruenz_Verhaeltnisgleichungen.pdf",
       "aufgaben": [
         {
-          "id": "W1-1",
+          "id": "G2-1",
           "label": "1",
           "punkte": 3,
           "afb": "I",
           "loesung": "(1) kongruent nach **SSS** (drei Seiten).\n\n(2) kongruent nach **SWS**: $\\alpha$ liegt zwischen $b$ und $c$ (eingeschlossener Winkel).\n\n(3) **nicht** kongruent: Drei Winkel legen nur die Form fest, nicht die Größe. Alle Dreiecke mit diesen Winkeln sind zueinander **ähnlich** (Ähnlichkeitssatz (1)), aber verschieden groß.\n\nJe 1 P."
         },
         {
-          "id": "W1-2",
+          "id": "G2-2",
           "label": "2",
           "punkte": 2,
           "afb": "I",
           "loesung": "(1) $x = \\frac{9}{6} \\cdot 4 = 6$\n\n(2) Kehrwerte: $\\frac{x}{3} = \\frac{12}{4{,}5}$, also $x = \\frac{12}{4{,}5} \\cdot 3 = 8$\n\n(3) $x = \\frac{8}{5} \\cdot 2{,}5 = 4$\n\n(4) Kehrwerte: $\\frac{x}{7} = \\frac{3}{2}$, also $x = 10{,}5$\n\nJe 0,5 P. Tipp: Steht $x$ im Nenner, zuerst auf beiden Seiten den Kehrwert bilden."
         },
         {
-          "id": "W1-3",
+          "id": "G2-3",
           "label": "3",
           "punkte": 2,
           "afb": "II",
@@ -243,106 +239,48 @@
       ]
     },
     {
-      "id": "W2",
-      "titel": "Tandem: Strecken und Strahlensätze",
+      "id": "N1",
+      "titel": "Zentrische Streckung",
       "typ": "wahl",
-      "sozialform": "tandem",
+      "sozialform": "einzel",
       "dauer_min": 15,
-      "hilfsmittel": "ohne Taschenrechner",
+      "hilfsmittel": "Taschenrechner, Geodreieck",
       "checkliste": [
         "c2",
-        "c3",
-        "c5",
-        "c6"
+        "c3"
       ],
-      "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert. Strahlensatzfiguren: Die V-Figur hat zwei Strahlen von S aus, bei der X-Figur liegt S zwischen den Parallelen.",
-      "bild": "img/st_W2.svg",
-      "pdf_optional": true,
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 15 Minuten, mit Taschenrechner und Geodreieck. Die k-fache Länge wird immer von S aus abgetragen: $\\overline{SP'} = k \\cdot \\overline{SP}$. Negativer Streckfaktor und Flächeninhalte: N2.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Zentrische_Streckung.pdf",
       "aufgaben": [
         {
-          "id": "W2-1",
+          "id": "N1-1",
           "label": "1",
-          "partner": "A",
-          "punkte": 1,
+          "punkte": 2,
           "afb": "I",
-          "aufgabe": "Bei einer zentrischen Streckung ist $S(0 \\mid 0)$, $P(2 \\mid 3)$ und $k = 3$. Gib den Bildpunkt $P'$ an.",
-          "tipp": "Von $S$ nach $P$: 2 nach rechts, 3 nach oben. Nimm das mal 3.",
-          "loesung": "$P'(6 \\mid 9)$, denn $\\overline{SP'} = 3 \\cdot \\overline{SP}$: 6 nach rechts, 9 nach oben."
+          "loesung": "Für jeden Eckpunkt: Strahl von $S$ durch den Punkt zeichnen und von $S$ aus die doppelte Länge abtragen: $\\overline{SA'} = 2 \\cdot \\overline{SA}$.\n\nMit Kästchen gezählt: Von $S$ nach $A$ sind es 2 nach rechts und 0 nach oben, also von $S$ nach $A'$ 4 nach rechts und 0 nach oben.\n\nEbenso: Von $S$ nach $B$ sind es 4 nach rechts und 1 nach oben, nach $B'$ also 8 nach rechts und 2 nach oben. Von $S$ nach $C$ sind es 2 nach rechts und 2 nach oben, nach $C'$ 4 nach rechts und 4 nach oben.\n\n$A'(3 \\mid 1)$, $B'(7 \\mid 3)$, $C'(3 \\mid 5)$\n\n1 P Zeichnung, 1 P Koordinaten.\n\n*Die doppelte Strecke ab dem Eckpunkt statt ab S abgetragen?* → **N6** Aufgabe 4. Negativer Streckfaktor und Flächeninhalte: → **N2**",
+          "loesung_bild": "img/N1-1.png"
         },
         {
-          "id": "W2-2",
+          "id": "N1-2",
           "label": "2",
-          "partner": "B",
-          "punkte": 1,
+          "punkte": 2,
           "afb": "I",
-          "aufgabe": "Bei einer zentrischen Streckung ist $S(1 \\mid 1)$, $P(5 \\mid 3)$ und $k = 0{,}5$. Gib den Bildpunkt $P'$ an.",
-          "tipp": "Von $S$ nach $P$: 4 nach rechts, 2 nach oben. Nimm davon die Hälfte – von $S$ aus!",
-          "loesung": "Von $S$ aus 2 nach rechts und 1 nach oben: $P'(3 \\mid 2)$ (Verkleinerung)."
+          "loesung": "Streckzentrum: Die Geraden durch $P$ und $P'$, durch $Q$ und $Q'$ usw. schneiden sich in $S(1 \\mid 1)$. Zwei Verbindungsgeraden genügen.\n\nStreckfaktor: entsprechende Seiten vergleichen, z. B. $\\overline{PQ} = 2$ und $\\overline{P'Q'} = 6$:\n\n$$k = \\frac{\\overline{P'Q'}}{\\overline{PQ}} = \\frac{6}{2} = 3$$\n\nProbe: Von $S$ nach $P$ sind es 1 nach rechts und 1 nach oben, nach $P'(4 \\mid 4)$ dreimal so viel. 1 P Streckzentrum, 1 P Streckfaktor.",
+          "loesung_bild": "img/N1-2.png"
         },
         {
-          "id": "W2-3",
+          "id": "N1-3",
           "label": "3",
-          "partner": "A",
-          "punkte": 1,
-          "afb": "I",
-          "aufgabe": "Eine Strecke ist 4 cm lang, ihre Bildstrecke bei einer zentrischen Streckung 10 cm. Gib den Streckfaktor an.",
-          "tipp": "Bildlänge geteilt durch Originallänge.",
-          "loesung": "$k = \\frac{10}{4} = 2{,}5$"
-        },
-        {
-          "id": "W2-4",
-          "label": "4",
-          "partner": "B",
-          "punkte": 1,
-          "afb": "I",
-          "aufgabe": "Eine Strecke ist 12 cm lang, ihre Bildstrecke bei einer zentrischen Streckung 3 cm. Gib den Streckfaktor an.",
-          "tipp": "Bildlänge geteilt durch Originallänge. Verkleinerung heißt $0 < k < 1$.",
-          "loesung": "$k = \\frac{3}{12} = 0{,}25$ (Verkleinerung)"
-        },
-        {
-          "id": "W2-5",
-          "label": "5",
-          "partner": "A",
           "punkte": 2,
           "afb": "II",
-          "aufgabe": "Die Dreiecke $ABC$ und $RST$ sind ähnlich mit $A \\to R$, $B \\to S$, $C \\to T$. Es ist $\\overline{AB} = 6\\,\\mathrm{cm}$, $\\overline{BC} = 8\\,\\mathrm{cm}$ und $\\overline{RS} = 9\\,\\mathrm{cm}$. Berechne $\\overline{ST}$.",
-          "tipp": "Welche Seite entspricht $\\overline{RS}$? Daraus den Faktor $k$.",
-          "loesung": "$\\overline{RS}$ entspricht $\\overline{AB}$: $k = \\frac{9}{6} = 1{,}5$.\n\n$\\overline{ST}$ entspricht $\\overline{BC}$: $\\overline{ST} = 1{,}5 \\cdot 8\\,\\mathrm{cm} = 12\\,\\mathrm{cm}$"
-        },
-        {
-          "id": "W2-6",
-          "label": "6",
-          "partner": "B",
-          "punkte": 2,
-          "afb": "II",
-          "aufgabe": "Die Dreiecke $ABC$ und $DEF$ sind ähnlich. Es gilt $\\alpha = \\varepsilon$ und $\\beta = \\delta$. Es ist $\\overline{AB} = 5\\,\\mathrm{cm}$, $\\overline{AC} = 4\\,\\mathrm{cm}$ und $\\overline{DE} = 10\\,\\mathrm{cm}$. Berechne $\\overline{EF}$.",
-          "tipp": "Ordne zuerst die Ecken zu: $A$ gehört zu $E$, $B$ zu $D$.",
-          "loesung": "Ecken: $A \\to E$, $B \\to D$, $C \\to F$. $\\overline{AB}$ entspricht $\\overline{ED}$: $k = \\frac{10}{5} = 2$.\n\n$\\overline{EF}$ entspricht $\\overline{AC}$: $\\overline{EF} = 2 \\cdot 4\\,\\mathrm{cm} = 8\\,\\mathrm{cm}$"
-        },
-        {
-          "id": "W2-7",
-          "label": "7",
-          "partner": "A",
-          "punkte": 2,
-          "afb": "II",
-          "aufgabe": "Zwei Strahlen gehen von $S$ aus und werden von zwei Parallelen geschnitten: $\\overline{AB} \\parallel \\overline{A'B'}$. Es ist $\\overline{SA} = 3\\,\\mathrm{cm}$, $\\overline{AA'} = 6\\,\\mathrm{cm}$ und $\\overline{SB} = 2\\,\\mathrm{cm}$. Berechne $\\overline{BB'}$.",
-          "tipp": "Skizze machen! Die Abschnitte im 1. Strahlensatz beginnen bei $S$: $\\overline{SA'} = 3 + 6$.",
-          "loesung": "$\\overline{SA'} = 9\\,\\mathrm{cm}$, 1. Strahlensatz: $\\frac{\\overline{SB'}}{2} = \\frac{9}{3} = 3$, also $\\overline{SB'} = 6\\,\\mathrm{cm}$.\n\n$\\overline{BB'} = 6\\,\\mathrm{cm} - 2\\,\\mathrm{cm} = 4\\,\\mathrm{cm}$"
-        },
-        {
-          "id": "W2-8",
-          "label": "8",
-          "partner": "B",
-          "punkte": 2,
-          "afb": "II",
-          "aufgabe": "Die Geraden $AA'$ und $BB'$ schneiden sich in $S$, $S$ liegt zwischen $A$ und $A'$, und es gilt $\\overline{AB} \\parallel \\overline{A'B'}$. Es ist $\\overline{SA} = 4\\,\\mathrm{cm}$, $\\overline{SA'} = 6\\,\\mathrm{cm}$ und $\\overline{AB} = 5\\,\\mathrm{cm}$. Berechne $\\overline{A'B'}$.",
-          "tipp": "Skizze machen! $S$ liegt zwischen den Parallelen (X-Figur). $\\overline{A'B'}$ liegt auf einer Parallelen: 2. Strahlensatz.",
-          "loesung": "$\\frac{\\overline{A'B'}}{5} = \\frac{6}{4} = 1{,}5$, also $\\overline{A'B'} = 7{,}5\\,\\mathrm{cm}$"
+          "loesung": "Die Lampe ist das Streckzentrum, der Schatten ist das Bild der Figur. Gleiche Einheiten: 2,10 m = 210 cm.\n\n$$k = \\frac{210\\,\\mathrm{cm}}{30\\,\\mathrm{cm}} = 7$$\n\nSchattenhöhe: $7 \\cdot 12\\,\\mathrm{cm} = 84\\,\\mathrm{cm}$\n\n1 P Streckfaktor, 1 P Schattenhöhe.\n\n*Ergebnis 0,07 erhalten?* Dann hast du mit 2,10 statt mit 210 gerechnet. Erst in dieselbe Einheit umrechnen.\n\n*Als Streckfaktor die Differenz 210 − 30 gerechnet?* Der Streckfaktor ist ein Faktor. → **N6** Aufgabe 3"
         }
       ]
     },
     {
-      "id": "W3",
+      "id": "N2",
       "titel": "Negativer Streckfaktor und Flächeninhalte",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -354,42 +292,43 @@
         "c2",
         "c4"
       ],
+      "kategorie": "neu",
       "hinweis": "Einzelarbeit, 20 Minuten, mit Geodreieck. Negativer Streckfaktor und wie sich Flächeninhalte beim Strecken ändern.",
-      "bild": "img/st_W3.svg",
-      "pdf": "pdf/W3_Negativer_Streckfaktor_Flaechen.pdf",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Negativer_Streckfaktor_Flaechen.pdf",
       "aufgaben": [
         {
-          "id": "W3-1",
+          "id": "N2-1",
           "label": "1",
           "punkte": 2,
           "afb": "II",
           "loesung": "Gerade durch $P$ und $S$ zeichnen und auf der anderen Seite von $S$ die doppelte Länge abtragen.\n\nVon $S$ nach $B$: 2 nach rechts, 1 nach oben. Also von $S$ nach $B'$: 4 nach **links**, 2 nach **unten**.\n\n$A'(1 \\mid 3)$, $B'(-1 \\mid 1)$, $C'(1 \\mid -1)$\n\nDas Bild ist doppelt so groß und steht „auf dem Kopf“. Bei $k = -1$ entstünde eine Punktspiegelung an $S$ (Drehung um 180°).\n\n1 P Zeichnung, 1 P Koordinaten.",
-          "loesung_bild": "img/W3-1.png"
+          "loesung_bild": "img/N2-1.png"
         },
         {
-          "id": "W3-2",
+          "id": "N2-2",
           "label": "2",
           "punkte": 2,
           "afb": "II",
           "loesung": "Das Loch ist das Streckzentrum. Das Bild entsteht auf der **anderen** Seite des Lochs und steht auf dem Kopf, also ist $k$ negativ.\n\n$$\\left| k \\right| = \\frac{8\\,\\mathrm{cm}}{40\\,\\mathrm{cm}} = 0{,}2 \\quad \\Rightarrow \\quad k = -0{,}2$$\n\nBildhöhe: $0{,}2 \\cdot 15\\,\\mathrm{cm} = 3\\,\\mathrm{cm}$ (umgekehrt).\n\n1 P Streckfaktor mit Vorzeichen, 1 P Bildhöhe."
         },
         {
-          "id": "W3-3a",
+          "id": "N2-3a",
           "label": "3a",
           "punkte": 2,
           "afb": "I",
           "loesung": "Alle Seiten mal 1,5, Winkel gleich: Grundseite $4 \\to 6$, obere Seite $2 \\to 3$, Höhe $2 \\to 3$ (in cm). Die schrägen Seiten: statt 1 nach rechts und 2 nach oben jetzt 1,5 nach rechts und 3 nach oben.\n\nZur Kontrolle: $A_F = \\frac{4 + 2}{2} \\cdot 2 = 6\\,\\mathrm{cm^2}$\n\n$A_{F'} = \\frac{6 + 3}{2} \\cdot 3 = 13{,}5\\,\\mathrm{cm^2}$\n\n1 P Zeichnung, 1 P Flächeninhalt von $F'$.",
-          "loesung_bild": "img/W3-3a.png"
+          "loesung_bild": "img/N2-3a.png"
         },
         {
-          "id": "W3-3b",
+          "id": "N2-3b",
           "label": "3b",
           "punkte": 2,
           "afb": "III",
           "loesung": "Vorher: $A = a \\cdot b$.\n\nBei der Streckung werden beide Seiten $k$-mal so lang: $k \\cdot a$ und $k \\cdot b$.\n\n$$A' = (k \\cdot a) \\cdot (k \\cdot b) = k^2 \\cdot a \\cdot b = k^2 \\cdot A$$\n\nPasst zu a): $1{,}5^2 \\cdot 6 = 2{,}25 \\cdot 6 = 13{,}5$.\n\n1 P gestreckte Seiten, 1 P Rechnung bis $k^2 \\cdot A$."
         },
         {
-          "id": "W3-3c",
+          "id": "N2-3c",
           "label": "3c",
           "punkte": 2,
           "afb": "II",
@@ -398,60 +337,200 @@
       ]
     },
     {
-      "id": "W4",
-      "titel": "Modellieren: unzugängliche Längen",
+      "id": "N3",
+      "titel": "Ähnliche Figuren und Dreiecke",
       "typ": "wahl",
       "sozialform": "einzel",
-      "dauer_min": 25,
-      "hilfsmittel": "Taschenrechner",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner, Geodreieck",
       "checkliste": [
-        "c7",
-        "c6"
+        "c4",
+        "c5",
+        "c1"
       ],
-      "hinweis": "Einzelarbeit, 25 Minuten, mit Taschenrechner. Hier modellierst du: Skizze machen, Strahlensatzfigur finden, rechnen, Ergebnis beurteilen.",
-      "bild": "img/st_W4.svg",
-      "pdf": "pdf/W4_Modellieren.pdf",
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 15 Minuten. Ordne bei ähnlichen Dreiecken zuerst die Ecken über die Winkel zu.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Aehnliche_Figuren.pdf",
       "aufgaben": [
         {
-          "id": "W4-1a",
-          "label": "1a",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Die Sichtlinien „rechtes Auge – Daumen – Windrad 1“ und „linkes Auge – Daumen – Windrad 2“ kreuzen sich im Daumen. Der Daumen ist $S$, es entsteht eine **X-Figur**.\n\nDie Strecke zwischen den Augen und die Strecke zwischen den Windrädern liegen (ungefähr) parallel, beide quer zur Blickrichtung.\n\n1 P Skizze, 1 P Punkt $S$ im Daumen und die beiden Parallelen.",
-          "loesung_bild": "img/W4-1a.png"
-        },
-        {
-          "id": "W4-1b",
-          "label": "1b",
+          "id": "N3-1",
+          "label": "1",
           "punkte": 2,
           "afb": "I",
-          "loesung": "2. Strahlensatz (X-Figur), alles in Metern:\n\n$$\\frac{e}{0{,}65} = \\frac{400}{0{,}065} \\quad \\Rightarrow \\quad e = \\frac{400}{0{,}065} \\cdot 0{,}65 = 4000$$\n\nDie Windräder sind etwa **4 km** entfernt (das Verhältnis Arm : Augenabstand ist 10 : 1, also Entfernung = 10 · Sprung).\n\n1 P Verhältnisgleichung, 1 P Ergebnis."
+          "loesung": "Alle Winkel sind 90°. Es entscheiden die Seitenverhältnisse.\n\n| Paar | Seiten | Ergebnis |\n|---|---|---|\n| $F_1$, $F_2$ | 2 × 3 und 4 × 6, $\\frac{4}{2} = \\frac{6}{3} = 2$ | ähnlich ($k = 2$) |\n| $F_1$, $F_3$ | 2 × 3 und 3 × 2 (gedreht) | kongruent |\n| $F_1$, $F_4$ | 2 × 3 und 3 × 4, $\\frac{3}{2} \\neq \\frac{4}{3}$ | keins von beiden |\n| $F_2$, $F_3$ | 4 × 6 und 3 × 2 (gedreht), $k = 0{,}5$ | ähnlich |\n\nImmer kürzere Seite mit kürzerer und längere Seite mit längerer Seite vergleichen – auch wenn eine Figur gedreht ist.\n\nJe Paar 0,5 P. Kongruente Figuren sind auch ähnlich (mit $k = 1$).\n\n*F1 und F4 für ähnlich gehalten, weil alle Winkel gleich sind?* Bei Vierecken reichen gleiche Winkel nicht. → **N6** Aufgabe 5"
         },
         {
-          "id": "W4-1c",
-          "label": "1c",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "Das Ergebnis ist nur eine **grobe Schätzung** (Größenordnung):\n\n- Der Abstand der Windräder ist oft nur geschätzt (in Windparks etwa 300 m bis 600 m). Jeder Fehler im Sprung geht zehnfach in die Entfernung ein: 300 m ergäben 3 km, 600 m ergäben 6 km.\n- Ob der Daumen „genau“ von Windrad zu Windrad springt, kann man nur ungefähr sehen.\n- Die Windräder stehen nicht unbedingt quer zur Blickrichtung (dann keine Parallelen).\n- Armlänge und Augenabstand sind bei jedem Menschen anders; der Daumen ist kein Punkt.\n\n1 P mindestens zwei Fehlerquellen, 1 P Gesamturteil."
-        },
-        {
-          "id": "W4-2a",
+          "id": "N3-2a",
           "label": "2a",
           "punkte": 2,
           "afb": "II",
-          "loesung": "Beobachter = $S$, Monddurchmesser und Sonnendurchmesser sind (näherungsweise) parallel. 2. Strahlensatz:\n\n$$\\frac{d}{3474} = \\frac{150\\,000\\,000}{384\\,000} \\quad \\Rightarrow \\quad d = \\frac{150\\,000\\,000}{384\\,000} \\cdot 3474 \\approx 1\\,357\\,000$$\n\nDer Sonnendurchmesser beträgt etwa **1,36 Millionen km**.\n\n1 P Verhältnisgleichung, 1 P Ergebnis."
+          "loesung": "Innenwinkelsumme: $\\gamma = 180° - 50° - 70° = 60°$ und für den Winkel bei $E$: $\\varepsilon = 180° - 50° - 60° = 70°$.\n\nAlso $\\alpha = \\delta = 50°$, $\\beta = \\varepsilon = 70°$ und $\\gamma = \\varphi = 60°$. Die Dreiecke stimmen in allen drei Winkeln überein. Nach dem Ähnlichkeitssatz (1) sind sie zueinander ähnlich.\n\n1 P fehlende Winkel, 1 P Ähnlichkeitssatz."
         },
         {
-          "id": "W4-2b",
+          "id": "N3-2b",
           "label": "2b",
           "punkte": 2,
-          "afb": "II",
-          "loesung": "Das Ergebnis ist rund 33 000 km bzw. gut 2 % zu klein ($1{,}39 : 1{,}357 \\approx 1{,}024$), also eine gute Näherung.\n\nHauptgrund: Eine totale Finsternis gibt es nur, wenn der Mond der Erde näher ist als im Mittel (384 000 km ist ein Mittelwert, der Abstand schwankt etwa zwischen 356 000 km und 407 000 km). Mit dem kleineren Abstand im Nenner wird $d$ größer. Weitere Gründe: Der Beobachter steht auf der Erdoberfläche, also etwa 6 400 km näher am Mond. („Die Werte sind gerundet“ allein erklärt die Richtung nicht und zählt nicht.)\n\n1 P Vergleich, 1 P passender Grund (einer, der ein zu kleines Ergebnis erklärt)."
+          "afb": "I",
+          "loesung": "Entsprechende Ecken: $A \\to D$, $B \\to E$, $C \\to F$ (gleiche Winkel). Also entspricht $\\overline{DE}$ der Seite $\\overline{AB}$ und $\\overline{EF}$ der Seite $\\overline{BC}$.\n\n$$k = \\frac{\\overline{DE}}{\\overline{AB}} = \\frac{6{,}0\\,\\mathrm{cm}}{4{,}0\\,\\mathrm{cm}} = 1{,}5$$\n\n$\\overline{EF} = 1{,}5 \\cdot 3{,}5\\,\\mathrm{cm} = 5{,}25\\,\\mathrm{cm} \\approx 5{,}3\\,\\mathrm{cm}$\n\n1 P Streckfaktor, 1 P Länge $\\overline{EF}$.\n\n*Andere Seiten ins Verhältnis gesetzt?* Erst die Ecken über die Winkel zuordnen. → **N6** Aufgabe 2"
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**. Gegenbeispiel: Ein gleichschenkliges Dreieck mit dem Winkel 30° an der Spitze hat die Basiswinkel 75°, eines mit 90° an der Spitze hat die Basiswinkel 45°. Die Winkel stimmen nicht überein, also sind die Dreiecke nicht ähnlich (ähnliche Figuren haben gleich große entsprechende Winkel).\n\nRichtig wäre: Gleichschenklige Dreiecke mit **gleichem** Winkel an der Spitze sind ähnlich, und alle gleichseitigen Dreiecke sind ähnlich (alle Winkel 60°).\n\n1 P Gegenbeispiel, 1 P Begründung mit den Winkeln."
         }
       ]
     },
     {
-      "id": "W5",
+      "id": "N4",
+      "titel": "Strahlensätze",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, mit Taschenrechner. Überlege: Beginnen die Abschnitte bei S, oder liegt die gesuchte Länge auf einer Parallelen?",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Strahlensaetze.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Strahlen von $S$ aus, 1. Strahlensatz (Abschnitte ab $S$):\n\n$$\\frac{x}{3{,}0} = \\frac{10{,}0}{4{,}0} \\quad \\Rightarrow \\quad x = \\frac{10{,}0}{4{,}0} \\cdot 3{,}0 = 7{,}5$$\n\n$x = 7{,}5\\,\\mathrm{cm}$. 1 P Ansatz, 1 P Ergebnis.\n\n*Probleme beim Auflösen der Verhältnisgleichung?* → **G2** Aufgabe 2"
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zwei Geraden schneiden sich in $S$ (X-Figur). $x$ liegt auf einer Parallelen, also 2. Strahlensatz:\n\n$$\\frac{x}{3{,}0} = \\frac{3{,}6}{2{,}4} \\quad \\Rightarrow \\quad x = 1{,}5 \\cdot 3{,}0 = 4{,}5$$\n\n$x = 4{,}5\\,\\mathrm{cm}$. 1 P Ansatz, 1 P Ergebnis.\n\n*Unsicher, welche Abschnitte zusammengehören?* → **N5** Nummer 8 und **N6** Aufgabe 1"
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Latten und die 0,80 m hohe Kante sind parallel (alle senkrecht). Dach und waagerechte Kante gehen vom Dachende $S$ aus, der 2. Strahlensatz gilt:\n\n$$\\frac{x_1}{0{,}80} = \\frac{0{,}60}{2{,}40} = \\frac{1}{4} \\quad \\Rightarrow \\quad x_1 = 0{,}20$$\n\nEbenso $x_2 = \\frac{1{,}20}{2{,}40} \\cdot 0{,}80 = 0{,}40$ und $x_3 = \\frac{1{,}80}{2{,}40} \\cdot 0{,}80 = 0{,}60$.\n\nDie Latten sind **0,20 m, 0,40 m und 0,60 m** lang. 1 P Ansatz, 1 P alle Längen.\n\nMehr Sachaufgaben mit Strahlensätzen: → **N7**"
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Toms Aussage ist **falsch**.\n\n- Der 2. Strahlensatz gilt nur, wenn die Latten **parallel** zur 0,80 m hohen Kante (und damit zueinander) sind. Nur dann sind die Dreiecke ähnlich.\n- Gleiche Abstände unten reichen nicht: Steht eine Latte schräg, ist sie bei gleichem Abstand länger oder kürzer als berechnet. Umgekehrt dürfen parallele Latten beliebige Abstände haben.\n\n1 P „Parallelität ist nötig“, 1 P „Abstände sind dafür unwichtig“ (mit Begründung)."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Tandem: Strecken und Strahlensätze",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c2",
+        "c3",
+        "c5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert. Strahlensatzfiguren: Die V-Figur hat zwei Strahlen von S aus, bei der X-Figur liegt S zwischen den Parallelen.",
+      "bild": "img/st_N5.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N5-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Bei einer zentrischen Streckung ist $S(0 \\mid 0)$, $P(2 \\mid 3)$ und $k = 3$. Gib den Bildpunkt $P'$ an.",
+          "tipp": "Von $S$ nach $P$: 2 nach rechts, 3 nach oben. Nimm das mal 3.",
+          "loesung": "$P'(6 \\mid 9)$, denn $\\overline{SP'} = 3 \\cdot \\overline{SP}$: 6 nach rechts, 9 nach oben."
+        },
+        {
+          "id": "N5-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Bei einer zentrischen Streckung ist $S(1 \\mid 1)$, $P(5 \\mid 3)$ und $k = 0{,}5$. Gib den Bildpunkt $P'$ an.",
+          "tipp": "Von $S$ nach $P$: 4 nach rechts, 2 nach oben. Nimm davon die Hälfte – von $S$ aus!",
+          "loesung": "Von $S$ aus 2 nach rechts und 1 nach oben: $P'(3 \\mid 2)$ (Verkleinerung)."
+        },
+        {
+          "id": "N5-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Eine Strecke ist 4 cm lang, ihre Bildstrecke bei einer zentrischen Streckung 10 cm. Gib den Streckfaktor an.",
+          "tipp": "Bildlänge geteilt durch Originallänge.",
+          "loesung": "$k = \\frac{10}{4} = 2{,}5$"
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Eine Strecke ist 12 cm lang, ihre Bildstrecke bei einer zentrischen Streckung 3 cm. Gib den Streckfaktor an.",
+          "tipp": "Bildlänge geteilt durch Originallänge. Verkleinerung heißt $0 < k < 1$.",
+          "loesung": "$k = \\frac{3}{12} = 0{,}25$ (Verkleinerung)"
+        },
+        {
+          "id": "N5-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Die Dreiecke $ABC$ und $RST$ sind ähnlich mit $A \\to R$, $B \\to S$, $C \\to T$. Es ist $\\overline{AB} = 6\\,\\mathrm{cm}$, $\\overline{BC} = 8\\,\\mathrm{cm}$ und $\\overline{RS} = 9\\,\\mathrm{cm}$. Berechne $\\overline{ST}$.",
+          "tipp": "Welche Seite entspricht $\\overline{RS}$? Daraus den Faktor $k$.",
+          "loesung": "$\\overline{RS}$ entspricht $\\overline{AB}$: $k = \\frac{9}{6} = 1{,}5$.\n\n$\\overline{ST}$ entspricht $\\overline{BC}$: $\\overline{ST} = 1{,}5 \\cdot 8\\,\\mathrm{cm} = 12\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N5-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Die Dreiecke $ABC$ und $DEF$ sind ähnlich. Es gilt $\\alpha = \\varepsilon$ und $\\beta = \\delta$. Es ist $\\overline{AB} = 5\\,\\mathrm{cm}$, $\\overline{AC} = 4\\,\\mathrm{cm}$ und $\\overline{DE} = 10\\,\\mathrm{cm}$. Berechne $\\overline{EF}$.",
+          "tipp": "Ordne zuerst die Ecken zu: $A$ gehört zu $E$, $B$ zu $D$.",
+          "loesung": "Ecken: $A \\to E$, $B \\to D$, $C \\to F$. $\\overline{AB}$ entspricht $\\overline{ED}$: $k = \\frac{10}{5} = 2$.\n\n$\\overline{EF}$ entspricht $\\overline{AC}$: $\\overline{EF} = 2 \\cdot 4\\,\\mathrm{cm} = 8\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N5-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Zwei Strahlen gehen von $S$ aus und werden von zwei Parallelen geschnitten: $\\overline{AB} \\parallel \\overline{A'B'}$. Es ist $\\overline{SA} = 3\\,\\mathrm{cm}$, $\\overline{AA'} = 6\\,\\mathrm{cm}$ und $\\overline{SB} = 2\\,\\mathrm{cm}$. Berechne $\\overline{BB'}$.",
+          "tipp": "Skizze machen! Die Abschnitte im 1. Strahlensatz beginnen bei $S$: $\\overline{SA'} = 3 + 6$.",
+          "loesung": "$\\overline{SA'} = 9\\,\\mathrm{cm}$, 1. Strahlensatz: $\\frac{\\overline{SB'}}{2} = \\frac{9}{3} = 3$, also $\\overline{SB'} = 6\\,\\mathrm{cm}$.\n\n$\\overline{BB'} = 6\\,\\mathrm{cm} - 2\\,\\mathrm{cm} = 4\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N5-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Die Geraden $AA'$ und $BB'$ schneiden sich in $S$, $S$ liegt zwischen $A$ und $A'$, und es gilt $\\overline{AB} \\parallel \\overline{A'B'}$. Es ist $\\overline{SA} = 4\\,\\mathrm{cm}$, $\\overline{SA'} = 6\\,\\mathrm{cm}$ und $\\overline{AB} = 5\\,\\mathrm{cm}$. Berechne $\\overline{A'B'}$.",
+          "tipp": "Skizze machen! $S$ liegt zwischen den Parallelen (X-Figur). $\\overline{A'B'}$ liegt auf einer Parallelen: 2. Strahlensatz.",
+          "loesung": "$\\frac{\\overline{A'B'}}{5} = \\frac{6}{4} = 1{,}5$, also $\\overline{A'B'} = 7{,}5\\,\\mathrm{cm}$"
+        }
+      ]
+    },
+    {
+      "id": "N6",
       "titel": "Fehler finden und begründen",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -463,40 +542,41 @@
         "c2",
         "c4"
       ],
+      "kategorie": "neu",
       "hinweis": "Einzelarbeit, 20 Minuten. In jeder Lösung steckt ein typischer Fehler.",
-      "bild": "img/st_W5.svg",
-      "pdf": "pdf/W5_Fehler_finden.pdf",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Fehler_finden.pdf",
       "aufgaben": [
         {
-          "id": "W5-1",
+          "id": "N6-1",
           "label": "1",
           "punkte": 2,
           "afb": "II",
           "loesung": "Fehler: Moritz benutzt die Teilstrecke $\\overline{AA'} = 2$. Im 2. Strahlensatz müssen die Abschnitte bei $S$ **beginnen**. Außerdem kann $\\overline{A'B'}$ nicht kürzer sein als $\\overline{AB}$.\n\nRichtig: $\\overline{SA'} = 4 + 2 = 6$.\n\n$$\\frac{x}{3} = \\frac{6}{4} \\quad \\Rightarrow \\quad x = 4{,}5\\,\\mathrm{cm}$$\n\n1 P Fehler beschrieben, 1 P richtiger Wert."
         },
         {
-          "id": "W5-2",
+          "id": "N6-2",
           "label": "2",
           "punkte": 2,
           "afb": "II",
           "loesung": "Fehler: Jana setzt $\\overline{DE}$ und $\\overline{BC}$ ins Verhältnis. Diese Seiten entsprechen sich nicht. Aus $A \\to D$, $B \\to E$, $C \\to F$ folgt: $\\overline{DE}$ entspricht $\\overline{AB}$, $\\overline{EF}$ entspricht $\\overline{BC}$.\n\nRichtig: $k = \\frac{9}{6} = 1{,}5$ und $\\overline{EF} = 1{,}5 \\cdot 4\\,\\mathrm{cm} = 6\\,\\mathrm{cm}$.\n\n1 P Fehler beschrieben, 1 P richtiger Wert."
         },
         {
-          "id": "W5-3",
+          "id": "N6-3",
           "label": "3",
           "punkte": 2,
           "afb": "I",
           "loesung": "Fehler: Bei ähnlichen Figuren werden alle Seiten mit demselben **Faktor** multipliziert, nicht um dieselbe Länge verlängert.\n\nRichtig: $k = \\frac{7}{4} = 1{,}75$, lange Seite $1{,}75 \\cdot 6\\,\\mathrm{cm} = 10{,}5\\,\\mathrm{cm}$.\n\n1 P Fehler beschrieben, 1 P richtiger Wert."
         },
         {
-          "id": "W5-4",
+          "id": "N6-4",
           "label": "4",
           "punkte": 2,
           "afb": "I",
           "loesung": "Fehler: Die $k$-fache Länge wird von $S$ **aus** abgetragen: $\\overline{SP'} = 2 \\cdot \\overline{SP}$. Emma ist von $P$ aus gestartet. Emmas Punkt liegt von $S$ aus 6 nach rechts und 9 nach oben, das ist das Dreifache von 2 und 3: Er gehört zu $k = 3$.\n\nRichtig: Von $S$ aus 4 nach rechts und 6 nach oben: $P'(6 \\mid 7)$.\n\n1 P Fehler beschrieben, 1 P richtiger Bildpunkt."
         },
         {
-          "id": "W5-5",
+          "id": "N6-5",
           "label": "5",
           "punkte": 2,
           "afb": "II",
@@ -505,47 +585,295 @@
       ]
     },
     {
-      "id": "W6",
+      "id": "N7",
+      "titel": "Modellieren: unzugängliche Längen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, mit Taschenrechner. Hier modellierst du: Skizze machen, Strahlensatzfigur finden, rechnen, Ergebnis beurteilen.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Modellieren.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Sichtlinien „rechtes Auge – Daumen – Windrad 1“ und „linkes Auge – Daumen – Windrad 2“ kreuzen sich im Daumen. Der Daumen ist $S$, es entsteht eine **X-Figur**.\n\nDie Strecke zwischen den Augen und die Strecke zwischen den Windrädern liegen (ungefähr) parallel, beide quer zur Blickrichtung.\n\n1 P Skizze, 1 P Punkt $S$ im Daumen und die beiden Parallelen.",
+          "loesung_bild": "img/N7-1a.png"
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "2. Strahlensatz (X-Figur), alles in Metern:\n\n$$\\frac{e}{0{,}65} = \\frac{400}{0{,}065} \\quad \\Rightarrow \\quad e = \\frac{400}{0{,}065} \\cdot 0{,}65 = 4000$$\n\nDie Windräder sind etwa **4 km** entfernt (das Verhältnis Arm : Augenabstand ist 10 : 1, also Entfernung = 10 · Sprung).\n\n1 P Verhältnisgleichung, 1 P Ergebnis."
+        },
+        {
+          "id": "N7-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Das Ergebnis ist nur eine **grobe Schätzung** (Größenordnung):\n\n- Der Abstand der Windräder ist oft nur geschätzt (in Windparks etwa 300 m bis 600 m). Jeder Fehler im Sprung geht zehnfach in die Entfernung ein: 300 m ergäben 3 km, 600 m ergäben 6 km.\n- Ob der Daumen „genau“ von Windrad zu Windrad springt, kann man nur ungefähr sehen.\n- Die Windräder stehen nicht unbedingt quer zur Blickrichtung (dann keine Parallelen).\n- Armlänge und Augenabstand sind bei jedem Menschen anders; der Daumen ist kein Punkt.\n\n1 P mindestens zwei Fehlerquellen, 1 P Gesamturteil."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beobachter = $S$, Monddurchmesser und Sonnendurchmesser sind (näherungsweise) parallel. 2. Strahlensatz:\n\n$$\\frac{d}{3474} = \\frac{150\\,000\\,000}{384\\,000} \\quad \\Rightarrow \\quad d = \\frac{150\\,000\\,000}{384\\,000} \\cdot 3474 \\approx 1\\,357\\,000$$\n\nDer Sonnendurchmesser beträgt etwa **1,36 Millionen km**.\n\n1 P Verhältnisgleichung, 1 P Ergebnis."
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Ergebnis ist rund 33 000 km bzw. gut 2 % zu klein ($1{,}39 : 1{,}357 \\approx 1{,}024$), also eine gute Näherung.\n\nHauptgrund: Eine totale Finsternis gibt es nur, wenn der Mond der Erde näher ist als im Mittel (384 000 km ist ein Mittelwert, der Abstand schwankt etwa zwischen 356 000 km und 407 000 km). Mit dem kleineren Abstand im Nenner wird $d$ größer. Weitere Gründe: Der Beobachter steht auf der Erdoberfläche, also etwa 6 400 km näher am Mond. („Die Werte sind gerundet“ allein erklärt die Richtung nicht und zählt nicht.)\n\n1 P Vergleich, 1 P passender Grund (einer, der ein zu kleines Ergebnis erklärt)."
+        }
+      ]
+    },
+    {
+      "id": "N8",
       "titel": "Begründen und Beweisen",
       "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 20,
       "hilfsmittel": "Taschenrechner",
       "checkliste": [
-        "c5",
-        "c6"
+        "c6",
+        "c5"
       ],
+      "kategorie": "neu",
       "hinweis": "Einzelarbeit, 20 Minuten. Begründungen mit Ähnlichkeitssätzen und Strahlensätzen.",
-      "bild": "img/st_W6.svg",
-      "pdf": "pdf/W6_Begruenden_Beweisen.pdf",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Begruenden_Beweisen.pdf",
       "aufgaben": [
         {
-          "id": "W6-1a",
+          "id": "N8-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "II",
           "loesung": "Dreieck $ADC$: $\\alpha$, $90°$ bei $D$ und $90° - \\alpha$ bei $C$. Dreieck $DBC$: $90°$ bei $D$, $\\beta = 90° - \\alpha$ bei $B$ (Innenwinkelsumme in $ABC$) und $\\alpha$ bei $C$.\n\nAlle drei Dreiecke haben die Winkel $\\alpha$, $90°$ und $90° - \\alpha$. Die Dreiecke stimmen also in allen drei Winkeln überein und sind nach dem Ähnlichkeitssatz (1) zueinander ähnlich.\n\n1 P Winkelvergleich für alle drei Dreiecke, 1 P Ähnlichkeitssatz."
         },
         {
-          "id": "W6-1b",
+          "id": "N8-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "II",
           "loesung": "In $ADC$ und $ACB$ entsprechen sich die Ecken $A \\to A$, $D \\to C$ (rechter Winkel), $C \\to B$. Also entspricht $\\overline{AD}$ der Seite $\\overline{AC}$ und $\\overline{AC}$ der Seite $\\overline{AB}$:\n\n$$\\frac{\\overline{AD}}{\\overline{AC}} = \\frac{\\overline{AC}}{\\overline{AB}} \\quad \\Rightarrow \\quad \\overline{AD} = \\frac{8 \\cdot 8}{10} = 6{,}4$$\n\n$\\overline{AD} = 6{,}4\\,\\mathrm{cm}$. 1 P Verhältnisgleichung, 1 P Ergebnis."
         },
         {
-          "id": "W6-2",
+          "id": "N8-2",
           "label": "2",
           "punkte": 2,
           "afb": "II",
           "loesung": "Oberes Brett: $\\frac{40}{100} = 0{,}4$ und $\\frac{36}{90} = 0{,}4$. Die Verhältnisse sind gleich, das obere Brett ist **parallel** zum unteren.\n\nMittleres Brett: $\\frac{70}{100} = 0{,}7$, aber $\\frac{60}{90} \\approx 0{,}67$. Das mittlere Brett ist **nicht parallel** (es hängt schief).\n\nWichtig: Man vergleicht die Verhältnisse der Abschnitte ab $S$ auf beiden Seitenteilen.\n\nJe Brett 1 P."
         },
         {
-          "id": "W6-3",
+          "id": "N8-3",
           "label": "3",
           "punkte": 2,
           "afb": "III",
           "loesung": "Reihenfolge: (N) und der ergänzte Schritt in beliebiger Reihenfolge, dann (K), (M).\n\nFür den Ähnlichkeitssatz (1) müssen alle drei Winkel übereinstimmen. (N) liefert die Winkel bei $A$ und $A'$ sowie bei $B$ und $B'$. Es fehlt der dritte Winkel: „Der Winkel bei $S$ gehört zu beiden Dreiecken.“ (Auch richtig: „Wegen der Innenwinkelsumme ist auch der dritte Winkel gleich.“)\n\n1 P Reihenfolge, 1 P fehlender Schritt mit Begründung."
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Beete im Schulgarten",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Geodreieck",
+      "checkliste": [
+        "c2",
+        "c3",
+        "c8",
+        "g5",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, mit Taschenrechner und Geodreieck. Vernetzt die Grundlagen mit Phase 1 (zentrische Streckung, Flächeninhalte) – am besten nach N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Schulgarten.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Das Streckzentrum ist $A$, also bleibt $A' = A(1 \\mid 1)$.\n\nVon $A$ nach $B$: 4 nach rechts. Mal 1,5: 6 nach rechts, also $B'(7 \\mid 1)$.\n\nVon $A$ nach $C$: 3 nach oben. Mal 1,5: 4,5 nach oben, also $C'(1 \\mid 5{,}5)$.\n\nDas neue Beet liegt weiter an beiden Mauern, weil $B'$ und $C'$ auf den Strahlen von $A$ durch $B$ bzw. $C$ liegen.\n\n1 P Zeichnung, 1 P Koordinaten.",
+          "loesung_bild": "img/V1-1a.png"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Beet hat bei $A$ einen rechten Winkel. Satz des Pythagoras im alten Beet:\n\n$\\overline{BC}^2 = 4^2 + 3^2 = 25$, also $\\overline{BC} = 5\\,\\mathrm{m}$.\n\nBei der Streckung werden alle Längen 1,5-mal so lang: $\\overline{B'C'} = 1{,}5 \\cdot 5\\,\\mathrm{m} = 7{,}5\\,\\mathrm{m}$.\n\n(Auch richtig: $\\sqrt{6^2 + 4{,}5^2} = 7{,}5$.) 1 P Pythagoras, 1 P Länge der Rasenkante."
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Flächeninhalt (rechtwinkliges Dreieck mit den Katheten 6 m und 4,5 m):\n\n$A' = \\frac{1}{2} \\cdot 6 \\cdot 4{,}5 = 13{,}5$, also $A' = 13{,}5\\,\\mathrm{m^2}$.\n\nMulch: $V = 13{,}5\\,\\mathrm{m^2} \\cdot 0{,}05\\,\\mathrm{m} = 0{,}675\\,\\mathrm{m^3} = 675\\,\\mathrm{l}$.\n\n$675 : 60 = 11{,}25$, also muss man **12 Säcke** kaufen.\n\n1 P Flächeninhalt, 1 P Volumen und Anzahl der Säcke."
+        },
+        {
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**.\n\n- Bei der Streckung werden Grundseite **und** Höhe des Dreiecks 1,5-mal so lang. Der Flächeninhalt wird deshalb $1{,}5^2 = 2{,}25$-mal so groß: $A = \\frac{1}{2} \\cdot 4 \\cdot 3 = 6\\,\\mathrm{m^2}$ und $2{,}25 \\cdot 6\\,\\mathrm{m^2} = 13{,}5\\,\\mathrm{m^2}$.\n- Bei gleicher Schichtdicke braucht man also 2,25-mal so viel Mulch. Nur Längen wie die Rasenkante werden 1,5-mal so lang.\n\n1 P Urteil mit dem Faktor $k^2$, 1 P Begründung oder Rechnung."
+        },
+        {
+          "id": "V1-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Streckzentrum: Die Geraden $AD$, $BE$ und $CF$ schneiden sich in $S(7 \\mid 4)$.\n\nStreckfaktor: $\\overline{DE} = 2\\,\\mathrm{m}$ und $\\overline{AB} = 4\\,\\mathrm{m}$, also $\\left| k \\right| = \\frac{2}{4} = 0{,}5$. Das Bild liegt auf der **anderen** Seite von $S$ (es steht „auf dem Kopf“), also ist $k$ negativ: $k = -0{,}5$.\n\nProbe: Von $S$ nach $A$ sind es 6 nach links und 3 nach unten, von $S$ nach $D(10 \\mid 5{,}5)$ 3 nach rechts und 1,5 nach oben.\n\n1 P Streckzentrum, 1 P Streckfaktor mit Vorzeichen.",
+          "loesung_bild": "img/V1-2.png"
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Origami: eine Ecke falten",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 22,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c1",
+        "c4",
+        "c8",
+        "c3",
+        "c2",
+        "g1",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 22 Minuten, mit Taschenrechner. Ein quadratisches Blatt zum Nachfalten hilft. Vernetzt die Grundlagen mit Phase 1 bis 2 (zentrische Streckung, Ähnlichkeit) – am besten nach N3.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Origami.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Beim Falten wird das umgeklappte Stück $ABQP$ auf $MB'QP$ gelegt. Beide Vierecke sind kongruent (deckungsgleich). $P$ liegt auf der Faltlinie und bleibt liegen, $A$ landet auf $M$. Also ist $\\overline{PM} = \\overline{PA}$."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Es ist $\\overline{DM} = 12\\,\\mathrm{cm}$ und $\\overline{PM} = \\overline{PA} = 24 - x$. Pythagoras im Dreieck $PDM$ (rechter Winkel bei $D$):\n\n$$x^2 + 12^2 = (24 - x)^2$$\n\n$x^2 + 144 = 576 - 48x + x^2$, also $48x = 432$ und $x = 9$.\n\n$\\overline{PD} = 9\\,\\mathrm{cm}$ und $\\overline{PM} = 15\\,\\mathrm{cm}$.\n\n1 P Gleichung mit Pythagoras, 1 P Ergebnis."
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "- Beide Dreiecke haben einen rechten Winkel (bei $D$ bzw. bei $C$).\n- Beim Falten bleibt der rechte Winkel bei $A$ erhalten: $\\angle PMB' = 90°$.\n- Die drei Winkel bei $M$ auf der Geraden $DC$ bilden einen gestreckten Winkel: $\\angle DMP + 90° + \\angle CMX = 180°$, also $\\angle CMX = 90° - \\angle DMP$.\n- Im Dreieck $PDM$ gilt nach der Innenwinkelsumme $\\angle DPM = 90° - \\angle DMP$. Also ist $\\angle CMX = \\angle DPM$.\n\nDamit stimmen auch die dritten Winkel überein. Nach dem Ähnlichkeitssatz (1) sind die Dreiecke zueinander ähnlich, mit $P \\to M$, $D \\to C$ und $M \\to X$.\n\n1 P Winkel bei $M$ (gestreckter Winkel), 1 P Winkelgleichheit und Ähnlichkeitssatz."
+        },
+        {
+          "id": "V2-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Aus c): $P \\to M$, $D \\to C$, $M \\to X$. Also entspricht $\\overline{MC}$ der Seite $\\overline{PD}$:\n\n$$k = \\frac{\\overline{MC}}{\\overline{PD}} = \\frac{12}{9} = \\frac{4}{3}$$\n\n$\\overline{CX}$ entspricht $\\overline{DM}$: $\\overline{CX} = \\frac{4}{3} \\cdot 12\\,\\mathrm{cm} = 16\\,\\mathrm{cm}$.\n\n$\\overline{MX}$ entspricht $\\overline{PM}$: $\\overline{MX} = \\frac{4}{3} \\cdot 15\\,\\mathrm{cm} = 20\\,\\mathrm{cm}$.\n\n1 P Streckfaktor, 1 P beide Längen."
+        },
+        {
+          "id": "V2-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$A_{PDM} = \\frac{1}{2} \\cdot 9 \\cdot 12 = 54$ und $A_{MCX} = \\frac{1}{2} \\cdot 12 \\cdot 16 = 96$ (in $\\mathrm{cm^2}$).\n\n$$\\frac{96}{54} = \\frac{16}{9} = \\left(\\frac{4}{3}\\right)^2 = k^2$$\n\nDer Flächeninhalt wächst mit $k^2$, nicht mit $k$.\n\n1 P beide Flächeninhalte, 1 P Vergleich mit $k^2$."
+        },
+        {
+          "id": "V2-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zwei Figuren sind ähnlich, wenn man die eine so zentrisch strecken kann, dass das Bild zur anderen kongruent ist.\n\nHier: $PDM$ mit $k = \\frac{4}{3}$ zentrisch strecken (Streckzentrum beliebig). Das Bild ist kongruent zu $MCX$ und lässt sich durch Drehen und Verschieben genau auf $MCX$ legen."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Minigolf: über die Bande",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c6",
+        "c1",
+        "c4",
+        "c3",
+        "g2",
+        "g1",
+        "g3",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, mit Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 3 (zentrische Streckung, Ähnlichkeit, Strahlensätze) – am besten nach N4 bis N8.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Minigolf.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- Die Dreiecke $LL_0R$ und $L^*L_0R$ stimmen in $\\overline{RL_0}$ (gemeinsam), im rechten Winkel bei $L_0$ und in $\\overline{LL_0} = \\overline{L^*L_0} = 0{,}9\\,\\mathrm{m}$ (Spiegelung) überein. Nach **SWS** sind sie kongruent, also $\\angle L^*RL_0 = \\angle LRL_0$.\n- Mit dem Abprallgesetz folgt $\\angle L^*RL_0 = \\angle BRB_0$. Diese beiden Winkel liegen bei $R$ auf verschiedenen Seiten der Bande einander gegenüber. Gleich große Winkel in dieser Lage sind Scheitelwinkel, also liegen $B$, $R$ und $L^*$ auf einer Geraden.\n\n1 P Kongruenz (SWS), 1 P Folgerung mit Scheitelwinkeln."
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Geraden $B_0L_0$ (Bande) und $BL^*$ schneiden sich in $R$ (X-Figur). $\\overline{BB_0}$ und $\\overline{L^*L_0}$ stehen beide senkrecht auf der Bande, sind also parallel. Mit $\\overline{B_0R} = x$ ist $\\overline{RL_0} = 2{,}5 - x$. 2. Strahlensatz:\n\n$$\\frac{x}{2{,}5 - x} = \\frac{0{,}6}{0{,}9}$$\n\n$0{,}9x = 0{,}6 \\cdot (2{,}5 - x) = 1{,}5 - 0{,}6x$, also $1{,}5x = 1{,}5$ und $x = 1$.\n\nDer Ball muss die Bande **1,0 m** neben $B_0$ treffen (1,5 m vor $L_0$).\n\n1 P Verhältnisgleichung, 1 P Ergebnis."
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\left| k \\right| = \\frac{0{,}9}{0{,}6} = 1{,}5$. Das Bild liegt auf der anderen Seite von $R$, also $k = -1{,}5$."
+        },
+        {
+          "id": "V3-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nach c) ist $L^*L_0R$ ein zentrisch gestrecktes Bild von $BB_0R$, und nach a) ist $L^*L_0R$ kongruent zu $LL_0R$. Nach der Definition der Ähnlichkeit sind $BB_0R$ und $LL_0R$ deshalb ähnlich. Kongruent sind sie nicht, weil alle Seiten 1,5-mal so lang sind (z. B. 0,9 m statt 0,6 m)."
+        },
+        {
+          "id": "V3-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Pythagoras in beiden Dreiecken:\n\n$\\overline{BR} = \\sqrt{1{,}0^2 + 0{,}6^2} = \\sqrt{1{,}36} \\approx 1{,}17\\,\\mathrm{m}$ und $\\overline{RL} = \\sqrt{1{,}5^2 + 0{,}9^2} = \\sqrt{3{,}06} \\approx 1{,}75\\,\\mathrm{m}$.\n\nWeg: $1{,}17\\,\\mathrm{m} + 1{,}75\\,\\mathrm{m} \\approx 2{,}92\\,\\mathrm{m}$.\n\nKürzer gerechnet: Der Weg ist so lang wie $\\overline{BL^*} = \\sqrt{2{,}5^2 + 1{,}5^2} = \\sqrt{8{,}5} \\approx 2{,}92\\,\\mathrm{m}$.\n\n1 P Ansatz mit Pythagoras, 1 P Weglänge."
+        },
+        {
+          "id": "V3-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**. Mit 1,2 m statt 0,6 m gilt:\n\n$$\\frac{x}{2{,}5 - x} = \\frac{1{,}2}{0{,}9}$$\n\n$0{,}9x = 3 - 1{,}2x$, also $2{,}1x = 3$ und $x \\approx 1{,}43\\,\\mathrm{m}$ – nicht 2,0 m.\n\nDer Treffpunkt teilt die 2,5 m im Verhältnis der beiden Abstände zur Bande. Verdoppelt man nur einen Abstand, verdoppelt sich $x$ nicht. In der Praxis ist ohnehin nur ein ungefährer Treffpunkt möglich (Drall, Reibung, nachgebende Bande).\n\n1 P Urteil mit Rechnung, 1 P Begründung."
         }
       ]
     }
