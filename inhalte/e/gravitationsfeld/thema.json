@@ -3,8 +3,28 @@
   "titel": "Gravitationsfeld – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "sie",
-  "hinweis": "Beginnen Sie mit P1 (Diagnose). Die Lösungen von P1 empfehlen Ihnen passende Wahlstationen. P4 (Check-out) bearbeiten Sie am Ende der zweiten Stunde – vergleichen Sie dann Ihre Punkte in P1 und P4. W6 (Feldmodell, Feldlinien) und W1 Nummer 1 und 2 (Lichtjahr, AE) üben Teststoff, der in den Pflichtstationen kaum vorkommt. Weitere Wahlstationen eignen sich für zu Hause.",
+  "hinweis": "Alle Stationen sind testrelevant. Sind Sie beim Vorwissen aus Kinematik, Dynamik und Kreisbewegung unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Zehnerpotenzen, Kreisbewegung und Energie auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Bahnen am Himmel), V2 nach N4 (Gravitationskraft), V3 nach N5 bis N7 (Gravitationsfeld), V4 nach N8 bis N9 (Energie im Gravitationsfeld). N10 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N10.",
   "checkliste": [
+    {
+      "id": "g1",
+      "text": "Mit Zehnerpotenzen rechnen und Größen mit Vorsätzen in SI-Einheiten umrechnen"
+    },
+    {
+      "id": "g2",
+      "text": "Das Aktions- und das Wechselwirkungsprinzip anwenden (Newton’sche Axiome)"
+    },
+    {
+      "id": "g3",
+      "text": "Die Grundgrößen der Kreisbewegung berechnen und ineinander umrechnen (Umlaufdauer, Frequenz, Bahn- und Winkelgeschwindigkeit)"
+    },
+    {
+      "id": "g4",
+      "text": "Zentripetalkräfte berechnen und erkennen, welche Kraft die Zentripetalkraft liefert"
+    },
+    {
+      "id": "g5",
+      "text": "Bewegungen energetisch beschreiben: Arbeit, kinetische und potenzielle Energie, Energieerhaltung"
+    },
     {
       "id": "c1",
       "text": "Mit den Grundgrößen der Astronomie umgehen (Lichtjahr, Astronomische Einheit, Ellipsenbahn mit Halbachsen und Exzentrizität)"
@@ -47,6 +67,19 @@
     }
   ],
   "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Kinematik, Dynamik und Kreisbewegung",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ]
+    },
     {
       "id": "p1",
       "name": "Bahnen am Himmel",
@@ -93,9 +126,170 @@
   "abschluss": "Test Gravitationsfeld",
   "stationen": [
     {
-      "id": "P1",
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 5 gehören zu den Grundlagen g1 bis g5 der Selbsteinschätzung. Bearbeiten Sie die Blöcke, bei denen Sie in der Selbsteinschätzung unsicher sind. Lücken schließen Sie danach mit G2. Rechnen Sie mit $g = 9{,}81\\,\\mathrm{N/kg}$.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$42\\,000\\,\\mathrm{km} = 4{,}2 \\cdot 10^{4} \\cdot 10^{3}\\,\\mathrm{m} = 4{,}2 \\cdot 10^{7}\\,\\mathrm{m}$\n\n$0{,}25\\,\\mathrm{mm} = 0{,}25 \\cdot 10^{-3}\\,\\mathrm{m} = 2{,}5 \\cdot 10^{-4}\\,\\mathrm{m}$\n\n$12\\,\\mathrm{g} = 12 \\cdot 10^{-3}\\,\\mathrm{kg} = 1{,}2 \\cdot 10^{-2}\\,\\mathrm{kg}$\n\n(kilo = $10^{3}$, milli = $10^{-3}$; SI-Einheit der Masse ist das Kilogramm)"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zähler: $6{,}0 \\cdot 2{,}0 \\cdot 10^{24 + 3} = 12 \\cdot 10^{27}$\n\nNenner: $4{,}0^2 \\cdot 10^{6 \\cdot 2} = 16 \\cdot 10^{12}$\n\n$\\frac{12}{16} \\cdot 10^{27 - 12} = 0{,}75 \\cdot 10^{15} = 7{,}5 \\cdot 10^{14}$"
+        },
+        {
+          "id": "G1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$1\\,\\mathrm{d} = 24 \\cdot 3600\\,\\mathrm{s} = 86\\,400\\,\\mathrm{s}$\n\n$365{,}25 \\cdot 86\\,400\\,\\mathrm{s} \\approx 3{,}16 \\cdot 10^{7}\\,\\mathrm{s}$"
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Auf die Last wirken die Seilkraft (nach oben) und die Gewichtskraft (nach unten). Nach dem Aktionsprinzip ist die **resultierende** Kraft $m \\cdot a$ (nach oben positiv):\n\n$F_{Seil} - m \\cdot g = m \\cdot a \\Rightarrow F_{Seil} = m \\cdot (g + a)$\n\n$F_{Seil} = 500\\,\\mathrm{kg} \\cdot (9{,}81 + 0{,}40)\\,\\mathrm{m/s^2} \\approx 5{,}1 \\cdot 10^{3}\\,\\mathrm{N} = 5{,}1\\,\\mathrm{kN}$"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Person zieht die Erde mit $589\\,\\mathrm{N}$ an, nach oben gerichtet. Diese Kraft greift an der **Erde** an.\n\n(Die Kraft des Bodens auf die Person ist nicht die Gegenkraft: Sie greift an der Person an und gleicht die Gewichtskraft nur aus.)"
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f = \\frac{330}{60\\,\\mathrm{s}} = 5{,}5\\,\\mathrm{Hz}$\n\n$T = \\frac{1}{f} = \\frac{1}{5{,}5\\,\\mathrm{Hz}} \\approx 0{,}18\\,\\mathrm{s}$"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\omega = 2\\pi \\cdot f = 2\\pi \\cdot 5{,}5\\,\\mathrm{Hz} \\approx 34{,}6\\,\\frac{1}{\\mathrm{s}}$\n\n$v = \\omega \\cdot r = 34{,}6\\,\\frac{1}{\\mathrm{s}} \\cdot 0{,}12\\,\\mathrm{m} \\approx 4{,}1\\,\\mathrm{m/s}$\n\n(ebenso $v = \\frac{2\\pi \\cdot r}{T}$)"
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$v = 72\\,\\mathrm{km/h} = \\frac{72}{3{,}6}\\,\\mathrm{m/s} = 20\\,\\mathrm{m/s}$\n\n$F_Z = \\frac{m \\cdot v^2}{r} = \\frac{0{,}80\\,\\mathrm{kg} \\cdot (20\\,\\mathrm{m/s})^2}{15\\,\\mathrm{m}} \\approx 21\\,\\mathrm{N}$"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Zentripetalkraft liefert die Kraft der Leine, die das Flugzeug zum Piloten (zur Kreismitte) zieht.\n\nReißt die Leine, fehlt diese Kraft. Nach dem Trägheitsprinzip fliegt das Flugzeug in der Richtung weiter, die es in diesem Moment hat: geradeaus entlang der Tangente an den Kreis, nicht nach außen weg."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E_{kin} = \\frac{1}{2} \\cdot m \\cdot v^2 = \\frac{1}{2} \\cdot 0{,}20\\,\\mathrm{kg} \\cdot (12\\,\\mathrm{m/s})^2 = 14{,}4\\,\\mathrm{J}$"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im höchsten Punkt ist die kinetische Energie vollständig in potenzielle Energie umgewandelt:\n\n$E_{kin} = E_{Pot} = m \\cdot g \\cdot h \\Rightarrow h = \\frac{E_{kin}}{m \\cdot g} = \\frac{14{,}4\\,\\mathrm{J}}{0{,}20\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg}} \\approx 7{,}3\\,\\mathrm{m}$\n\n(ebenso $h = \\frac{v^2}{2 \\cdot g}$ – die Masse kürzt sich)"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Kreisbewegung und Energie",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g1",
+        "g5",
+        "g3",
+        "g4",
+        "g2"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 15 Minuten. Übt typische Lücken aus G1: Zehnerpotenzen, Energieerhaltung, Grundgrößen der Kreisbewegung, Zentripetalkraft und Wechselwirkungsprinzip. Rechnen Sie mit $g = 9{,}81\\,\\mathrm{N/kg}$.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen_Kreisbewegung_Energie.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$149{,}6 \\cdot 10^{6}\\,\\mathrm{km} = 1{,}496 \\cdot 10^{8} \\cdot 10^{3}\\,\\mathrm{m} = 1{,}496 \\cdot 10^{11}\\,\\mathrm{m}$\n\n$6370\\,\\mathrm{km} = 6{,}37 \\cdot 10^{6}\\,\\mathrm{m}$\n\n$0{,}50\\,\\mathrm{mm} = 5{,}0 \\cdot 10^{-4}\\,\\mathrm{m}$"
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zähler: $12 \\cdot 10^{54}$; Nenner: $1{,}5^2 \\cdot 10^{22} = 2{,}25 \\cdot 10^{22}$\n\n$\\frac{12}{2{,}25} \\cdot 10^{54 - 22} \\approx 5{,}3 \\cdot 10^{32}$\n\nIm WTR die Klammer um den Nenner nicht vergessen und Zehnerpotenzen mit der Taste „×10ˣ“ eingeben."
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die potenzielle Energie am Start wird vollständig in kinetische Energie umgewandelt:\n\n$m \\cdot g \\cdot h = \\frac{1}{2} \\cdot m \\cdot v^2 \\Rightarrow v = \\sqrt{2 \\cdot g \\cdot h}$\n\n$v = \\sqrt{2 \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 2{,}5\\,\\mathrm{m}} \\approx 7{,}0\\,\\mathrm{m/s}$"
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\omega = \\frac{v}{r} = \\frac{7{,}0\\,\\mathrm{m/s}}{4{,}0\\,\\mathrm{m}} \\approx 1{,}75\\,\\frac{1}{\\mathrm{s}}$"
+        },
+        {
+          "id": "G2-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F_Z = \\frac{m \\cdot v^2}{r} = \\frac{60\\,\\mathrm{kg} \\cdot (7{,}0\\,\\mathrm{m/s})^2}{4{,}0\\,\\mathrm{m}} \\approx 736\\,\\mathrm{N}$\n\n(gerechnet mit dem ungerundeten Wert $v^2 = 2 \\cdot g \\cdot h = 49{,}05\\,\\mathrm{m^2/s^2}$)"
+        },
+        {
+          "id": "G2-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Zentripetalkraft zeigt nach oben (zum Kreismittelpunkt). Sie ist die resultierende Kraft aus der Kraft der Mulde $F_M$ (nach oben) und der Gewichtskraft (nach unten):\n\n$F_M - m \\cdot g = F_Z \\Rightarrow F_M = m \\cdot g + F_Z$\n\n$F_M = 60\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} + 736\\,\\mathrm{N} \\approx 589\\,\\mathrm{N} + 736\\,\\mathrm{N} \\approx 1{,}32\\,\\mathrm{kN}$ – das 2,25-Fache der Gewichtskraft.\n\nWechselwirkungskraft: Der Fahrer (mit Rad) drückt mit $1{,}32\\,\\mathrm{kN}$ nach unten auf die Mulde."
+        }
+      ]
+    },
+    {
+      "id": "N1",
       "titel": "Diagnose: Gravitation",
-      "typ": "pflicht",
+      "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 8,
       "hilfsmittel": "keine",
@@ -108,72 +302,73 @@
         "c9",
         "c10"
       ],
+      "kategorie": "neu",
       "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
-      "bild": "img/st_P1.svg",
-      "pdf": "pdf/P1_Diagnose.pdf",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
       "aufgaben": [
         {
-          "id": "P1-1",
+          "id": "N1-1",
           "label": "1",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**B** – Nach dem 2. Kepler’schen Gesetz überstreicht der Fahrstrahl in gleichen Zeiten gleich große Flächen. Nahe der Sonne ist der Fahrstrahl kurz, also muss der Komet dort in derselben Zeit ein längeres Bahnstück zurücklegen. In Perihel und Aphel gilt $r_P \\cdot v_P = r_A \\cdot v_A$.\n\n*A gewählt?* Auch ohne Reibung ändert die Gravitationskraft den Betrag der Geschwindigkeit. *C oder D gewählt?* Kepler 2 verwechselt bzw. die Sonne im Mittelpunkt statt im Brennpunkt gedacht. → **W3** Aufgabe 1, danach **P2** Aufgabe 1"
+          "loesung": "**B** – Nach dem 2. Kepler’schen Gesetz überstreicht der Fahrstrahl in gleichen Zeiten gleich große Flächen. Nahe der Sonne ist der Fahrstrahl kurz, also muss der Komet dort in derselben Zeit ein längeres Bahnstück zurücklegen. In Perihel und Aphel gilt $r_P \\cdot v_P = r_A \\cdot v_A$.\n\n*A gewählt?* Auch ohne Reibung ändert die Gravitationskraft den Betrag der Geschwindigkeit. *C oder D gewählt?* Kepler 2 verwechselt bzw. die Sonne im Mittelpunkt statt im Brennpunkt gedacht. → **N3** Aufgabe 1, danach **N2** Aufgabe 1"
         },
         {
-          "id": "P1-2",
+          "id": "N1-2",
           "label": "2",
           "punkte": 1,
           "afb": "I",
-          "loesung": "**D** – 3. Kepler’sches Gesetz: $\\frac{T_2^2}{T_1^2} = \\frac{a_2^3}{a_1^3} = 4^3 = 64$, also $\\frac{T_2}{T_1} = \\sqrt{64} = 8$.\n\n*A gewählt?* $T \\sim a$ angenommen. *B gewählt?* $T \\sim a^2$ angenommen. *C gewählt?* $T \\sim \\sqrt{a}$ angenommen. → **W1** (Tandem, Nummern 3 und 4), danach **W2**"
+          "loesung": "**D** – 3. Kepler’sches Gesetz: $\\frac{T_2^2}{T_1^2} = \\frac{a_2^3}{a_1^3} = 4^3 = 64$, also $\\frac{T_2}{T_1} = \\sqrt{64} = 8$.\n\n*A gewählt?* $T \\sim a$ angenommen. *B gewählt?* $T \\sim a^2$ angenommen. *C gewählt?* $T \\sim \\sqrt{a}$ angenommen. → **N7** (Tandem, Nummern 3 und 4), danach **N4**"
         },
         {
-          "id": "P1-3",
+          "id": "N1-3",
           "label": "3",
           "punkte": 1,
           "afb": "I",
-          "loesung": "**A** – $F_G = \\gamma \\cdot \\frac{m_1 \\cdot m_2}{r^2}$: Der Abstand geht im Quadrat in den Nenner ein. Dreifacher Abstand ergibt $\\frac{1}{3^2} = \\frac{1}{9}$ der Kraft.\n\n*B gewählt?* $F_G \\sim \\frac{1}{r}$ angenommen. *C gewählt?* Faktor 2 statt Quadrat. *D gewählt?* Die Kraft nimmt mit dem Abstand ab, nicht zu. → **P2** Aufgabe 2a, danach **W1** (Tandem, Nummer 6)"
+          "loesung": "**A** – $F_G = \\gamma \\cdot \\frac{m_1 \\cdot m_2}{r^2}$: Der Abstand geht im Quadrat in den Nenner ein. Dreifacher Abstand ergibt $\\frac{1}{3^2} = \\frac{1}{9}$ der Kraft.\n\n*B gewählt?* $F_G \\sim \\frac{1}{r}$ angenommen. *C gewählt?* Faktor 2 statt Quadrat. *D gewählt?* Die Kraft nimmt mit dem Abstand ab, nicht zu. → **N2** Aufgabe 2a, danach **N7** (Tandem, Nummer 6)"
         },
         {
-          "id": "P1-4",
+          "id": "N1-4",
           "label": "4",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**C** – In $F_G = \\gamma \\cdot \\frac{m_1 \\cdot m_2}{r^2}$ stehen beide Massen gleichberechtigt. Nach dem Wechselwirkungsprinzip (Newton 3) sind Kraft und Gegenkraft gleich groß. Verschieden ist nur die Wirkung: Der Mond wird wegen seiner kleineren Masse 81-mal so stark beschleunigt.\n\n*A oder D gewählt?* Kraft und Beschleunigung verwechselt. *B gewählt?* Gravitation wirkt zwischen allen Massen. → **W1** (Tandem, Nummer 5), danach **P2** Aufgabe 2a"
+          "loesung": "**C** – In $F_G = \\gamma \\cdot \\frac{m_1 \\cdot m_2}{r^2}$ stehen beide Massen gleichberechtigt. Nach dem Wechselwirkungsprinzip (Newton 3) sind Kraft und Gegenkraft gleich groß. Verschieden ist nur die Wirkung: Der Mond wird wegen seiner kleineren Masse 81-mal so stark beschleunigt.\n\n*A oder D gewählt?* Kraft und Beschleunigung verwechselt. *B gewählt?* Gravitation wirkt zwischen allen Massen. → **N7** (Tandem, Nummer 5), danach **N2** Aufgabe 2a; Wechselwirkungsprinzip: **G2** Aufgabe 2d"
         },
         {
-          "id": "P1-5",
+          "id": "N1-5",
           "label": "5",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**A** – $G^* \\sim \\frac{1}{r^2}$: $\\left(\\frac{6400\\,\\mathrm{km}}{6800\\,\\mathrm{km}}\\right)^2 \\approx 0{,}89$. Die Astronauten schweben nicht, weil die Gravitation fehlt, sondern weil sie mit der Station frei fallen: Die Gravitationskraft liefert genau die Zentripetalkraft der Kreisbahn.\n\n*B oder C gewählt?* „Im All gibt es keine Schwerkraft“ – eine Fehlvorstellung. *D gewählt?* Die Feldstärke nimmt mit dem Abstand ab. → **P2** Aufgabe 2, danach **W1** (Tandem, Nummer 6)"
+          "loesung": "**A** – $G^* \\sim \\frac{1}{r^2}$: $\\left(\\frac{6400\\,\\mathrm{km}}{6800\\,\\mathrm{km}}\\right)^2 \\approx 0{,}89$. Die Astronauten schweben nicht, weil die Gravitation fehlt, sondern weil sie mit der Station frei fallen: Die Gravitationskraft liefert genau die Zentripetalkraft der Kreisbahn.\n\n*B oder C gewählt?* „Im All gibt es keine Schwerkraft“ – eine Fehlvorstellung. *D gewählt?* Die Feldstärke nimmt mit dem Abstand ab. → **N2** Aufgabe 2, danach **N7** (Tandem, Nummer 6); Zentripetalkraft: **G2** Aufgabe 2c"
         },
         {
-          "id": "P1-6",
+          "id": "N1-6",
           "label": "6",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**D** – Die Dichte der Feldlinien zeigt die Stärke des Feldes. Die radialen Linien laufen nach innen zusammen, bei P liegen sie dichter. Die Richtung der Linien (zum Mittelpunkt) zeigt die Richtung der Kraft auf einen Probekörper.\n\n*A oder B gewählt?* Die Länge einer Linie sagt nichts aus, nur die Dichte. *C gewählt?* Feldlinien sind keine Bahnen, sie zeigen die Kraftrichtung. → **W6** Aufgabe 1, danach **W4** Aufgabe 3"
+          "loesung": "**D** – Die Dichte der Feldlinien zeigt die Stärke des Feldes. Die radialen Linien laufen nach innen zusammen, bei P liegen sie dichter. Die Richtung der Linien (zum Mittelpunkt) zeigt die Richtung der Kraft auf einen Probekörper.\n\n*A oder B gewählt?* Die Länge einer Linie sagt nichts aus, nur die Dichte. *C gewählt?* Feldlinien sind keine Bahnen, sie zeigen die Kraftrichtung. → **N6** Aufgabe 1, danach **N9** Aufgabe 3"
         },
         {
-          "id": "P1-7",
+          "id": "N1-7",
           "label": "7",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**B** – Die Gravitationskraft nimmt beim Heben ab, $m \\cdot g \\cdot h$ rechnet aber überall mit der Kraft am Boden. Genau: $W = \\gamma \\cdot M \\cdot m \\cdot \\left(\\frac{1}{R_E} - \\frac{1}{2R_E}\\right) = \\frac{1}{2} \\cdot m \\cdot g \\cdot R_E$ (mit $g = \\gamma \\cdot \\frac{M}{R_E^2}$). $m \\cdot g \\cdot h = m \\cdot g \\cdot R_E$ ist also doppelt so groß.\n\n*A gewählt?* $m \\cdot g \\cdot h$ gilt nur für kleine Höhen. *C oder D gewählt?* Richtung bzw. Faktor verwechselt. → **W5** Aufgabe 1, danach **P3** Aufgabe 2"
+          "loesung": "**B** – Die Gravitationskraft nimmt beim Heben ab, $m \\cdot g \\cdot h$ rechnet aber überall mit der Kraft am Boden. Genau: $W = \\gamma \\cdot M \\cdot m \\cdot \\left(\\frac{1}{R_E} - \\frac{1}{2R_E}\\right) = \\frac{1}{2} \\cdot m \\cdot g \\cdot R_E$ (mit $g = \\gamma \\cdot \\frac{M}{R_E^2}$). $m \\cdot g \\cdot h = m \\cdot g \\cdot R_E$ ist also doppelt so groß.\n\n*A gewählt?* $m \\cdot g \\cdot h$ gilt nur für kleine Höhen. *C oder D gewählt?* Richtung bzw. Faktor verwechselt. → **N8** Aufgabe 1, danach **N5** Aufgabe 2"
         },
         {
-          "id": "P1-8",
+          "id": "N1-8",
           "label": "8",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**C** – Das Potenzial ist die Energie pro Masse, $V = \\frac{E_{Pot}}{m}$. Es beschreibt den Ort im Feld und hängt nicht vom Probekörper ab. Die Energie ist $\\Delta E_{Pot} = m \\cdot \\Delta V$ und wächst mit der Masse: $\\frac{8000\\,\\mathrm{kg}}{100\\,\\mathrm{kg}} = 80$.\n\n*A gewählt?* Potenzial und Energie verwechselt. *B gewählt?* Die Energie hängt sehr wohl von der Masse ab. *D gewählt?* Durch die Masse geteilt statt mit ihr multipliziert. → **P3** Aufgabe 2c, danach **W4** Aufgabe 4"
+          "loesung": "**C** – Das Potenzial ist die Energie pro Masse, $V = \\frac{E_{Pot}}{m}$. Es beschreibt den Ort im Feld und hängt nicht vom Probekörper ab. Die Energie ist $\\Delta E_{Pot} = m \\cdot \\Delta V$ und wächst mit der Masse: $\\frac{8000\\,\\mathrm{kg}}{100\\,\\mathrm{kg}} = 80$.\n\n*A gewählt?* Potenzial und Energie verwechselt. *B gewählt?* Die Energie hängt sehr wohl von der Masse ab. *D gewählt?* Durch die Masse geteilt statt mit ihr multipliziert. → **N5** Aufgabe 2c, danach **N9** Aufgabe 4"
         }
       ]
     },
     {
-      "id": "P2",
+      "id": "N2",
       "titel": "Kepler und Gravitationsgesetz",
-      "typ": "pflicht",
+      "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 20,
       "hilfsmittel": "WTR, Formeldokument",
@@ -183,46 +378,47 @@
         "c3",
         "c4"
       ],
-      "bild": "img/st_P2.svg",
-      "pdf": "pdf/P2_Kepler_Gravitationsgesetz.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Kepler_Gravitationsgesetz.pdf",
       "aufgaben": [
         {
-          "id": "P2-1a",
+          "id": "N2-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$a = \\frac{r_P + r_A}{2} = \\frac{1{,}24\\,\\mathrm{AE} + 5{,}68\\,\\mathrm{AE}}{2} = 3{,}46\\,\\mathrm{AE}$\n\nLineare Exzentrizität (Abstand Mittelpunkt–Sonne): $e = a - r_P = 2{,}22\\,\\mathrm{AE}$\n\n$\\varepsilon = \\frac{e}{a} = \\frac{2{,}22}{3{,}46} \\approx 0{,}64$ – eine stark langgestreckte Bahn (Erde: $0{,}0167$).\n\nEbenso direkt: $\\varepsilon = \\frac{r_A - r_P}{r_A + r_P} = \\frac{4{,}44}{6{,}92} \\approx 0{,}64$"
         },
         {
-          "id": "P2-1b",
+          "id": "N2-1b",
           "label": "1b",
           "punkte": 1,
           "afb": "I",
           "loesung": "Gleicher Zentralkörper (Sonne): $\\frac{T^2}{(1\\,\\text{Jahr})^2} = \\frac{a^3}{(1\\,\\mathrm{AE})^3}$\n\n$T = 1\\,\\text{Jahr} \\cdot \\sqrt{3{,}46^3} \\approx 6{,}4$ Jahre"
         },
         {
-          "id": "P2-1c",
+          "id": "N2-1c",
           "label": "1c",
           "punkte": 2,
           "afb": "II",
           "loesung": "Kepler 2: $r \\cdot \\sin(\\alpha) \\cdot v = \\text{konst.}$ In Perihel und Aphel steht die Geschwindigkeit senkrecht auf dem Fahrstrahl: $\\alpha = 90°$, $\\sin(\\alpha) = 1$.\n\n$r_P \\cdot v_P = r_A \\cdot v_A \\Rightarrow \\frac{v_P}{v_A} = \\frac{r_A}{r_P} = \\frac{5{,}68}{1{,}24} \\approx 4{,}6$"
         },
         {
-          "id": "P2-2a",
+          "id": "N2-2a",
           "label": "2a",
           "punkte": 2,
           "afb": "I",
-          "loesung": "$F_G = \\gamma \\cdot \\frac{m_E \\cdot m}{r^2} = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{5{,}97 \\cdot 10^{24} \\cdot 733}{(2{,}96 \\cdot 10^{7})^2}\\,\\mathrm{N} \\approx 333\\,\\mathrm{N}$\n\nAm Boden ($r = R_E$): $F_G \\approx 7{,}19\\,\\mathrm{kN}$ (ebenso $m \\cdot g$).\n\nVerhältnis: $\\left(\\frac{R_E}{r}\\right)^2 = \\left(\\frac{6370}{29\\,600}\\right)^2 \\approx 0{,}046$ – in der Bahn wirkt nur noch knapp ein Zwanzigstel der Kraft, aber keineswegs null. Auf den Satelliten wirkt umgekehrt dieselbe Kraft auf die Erde (Newton 3)."
+          "loesung": "$F_G = \\gamma \\cdot \\frac{m_E \\cdot m}{r^2} = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{5{,}97 \\cdot 10^{24} \\cdot 733}{(2{,}96 \\cdot 10^{7})^2}\\,\\mathrm{N} \\approx 333\\,\\mathrm{N}$\n\nAm Boden ($r = R_E$): $F_G \\approx 7{,}19\\,\\mathrm{kN}$ (ebenso $m \\cdot g$).\n\nVerhältnis: $\\left(\\frac{R_E}{r}\\right)^2 = \\left(\\frac{6370}{29\\,600}\\right)^2 \\approx 0{,}046$ – in der Bahn wirkt nur noch knapp ein Zwanzigstel der Kraft, aber keineswegs null. Umgekehrt zieht der Satellit die Erde mit gleich großer Kraft an (Newton 3)."
         },
         {
-          "id": "P2-2b",
+          "id": "N2-2b",
           "label": "2b",
           "punkte": 2,
           "afb": "I",
           "loesung": "$F_G = F_Z$: $\\gamma \\cdot \\frac{m_E \\cdot m}{r^2} = \\frac{m \\cdot v^2}{r} \\Rightarrow v = \\sqrt{\\frac{\\gamma \\cdot m_E}{r}}$ (steht auch im Formeldokument)\n\n$v = \\sqrt{\\frac{6{,}67 \\cdot 10^{-11} \\cdot 5{,}97 \\cdot 10^{24}}{2{,}96 \\cdot 10^{7}}}\\,\\mathrm{m/s} \\approx 3{,}67\\,\\mathrm{km/s}$\n\n$T = \\frac{2\\pi \\cdot r}{v} = \\frac{2\\pi \\cdot 2{,}96 \\cdot 10^{7}\\,\\mathrm{m}}{3668\\,\\mathrm{m/s}} \\approx 5{,}07 \\cdot 10^4\\,\\mathrm{s} \\approx 14{,}1\\,\\mathrm{h}$"
         },
         {
-          "id": "P2-2c",
+          "id": "N2-2c",
           "label": "2c",
           "punkte": 2,
           "afb": "III",
@@ -231,9 +427,151 @@
       ]
     },
     {
-      "id": "P3",
+      "id": "N3",
+      "titel": "Simulation: Vorhersagen – beobachten – erklären",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "iPad (PhET-Simulation), WTR",
+      "checkliste": [
+        "c2",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Partnerarbeit mit der PhET-Simulation „Keplersche Gesetze“ (phet.colorado.edu, deutsch, ohne Anmeldung). Notieren Sie jede Vorhersage, bevor Sie in der Simulation nachsehen. Ohne iPad: Demonstration am Pult.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Simulation_Kepler.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Jede begründete Vorhersage zählt, z. B.: Am schnellsten ist der Planet im sonnennächsten Punkt (Periapsis bzw. Perihel), am langsamsten im sonnenfernsten (Apoapsis bzw. Aphel)."
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beispiel (je nach eingestellter Bahn): Periapsis etwa $45\\,\\mathrm{km/s}$, Apoapsis etwa $15\\,\\mathrm{km/s}$. Die vier überstrichenen Flächen sind gleich groß, obwohl die Bahnstücke verschieden lang sind."
+        },
+        {
+          "id": "N3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Kepler 2: In gleichen Zeiten werden gleiche Flächen überstrichen. Nahe der Sonne ist der Fahrstrahl kurz, das Bahnstück muss länger sein – der Planet ist schneller ($r_P \\cdot v_P = r_A \\cdot v_A$).\n\nKraft: Auf dem Weg zur Periapsis hat die Gravitationskraft eine Komponente in Bewegungsrichtung – der Planet wird schneller. Auf dem Weg zur Apoapsis wirkt eine Komponente gegen die Bewegung – er wird langsamer. Nur in Periapsis und Apoapsis steht die Kraft senkrecht zur Geschwindigkeit. (Die Kraft zeigt immer zur Sonne, die Bahn läuft schräg dazu.)"
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{T_2}{T_1} = \\sqrt{\\left(\\frac{a_2}{a_1}\\right)^3} = \\sqrt{2^3} \\approx 2{,}83$"
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beispiel: $a = 1{,}00\\,\\mathrm{AE}$, $T \\approx 1{,}00\\,\\text{Jahre}$; $a = 2{,}00\\,\\mathrm{AE}$, $T \\approx 2{,}83\\,\\text{Jahre}$. Faktor $2{,}83$ – die Rechnung wird bestätigt (kleine Abweichungen durch ungenau eingestellte Halbachsen)."
+        },
+        {
+          "id": "N3-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Punkte liegen auf einer Ursprungsgeraden, der Quotient $\\frac{T^2}{a^3}$ ist für alle Bahnen gleich – bei unserer Sonne $1\\,\\frac{\\text{Jahr}^2}{\\mathrm{AE^3}}$. Das ist die Kepler-Konstante der Sonne in den Einheiten Jahr und AE."
+        },
+        {
+          "id": "N3-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Für eine (näherungsweise) Kreisbahn liefert die Gravitationskraft die Zentripetalkraft:\n\n$\\gamma \\cdot \\frac{M \\cdot m}{a^2} = m \\cdot \\frac{4\\pi^2 \\cdot a}{T^2} \\Rightarrow \\frac{T^2}{a^3} = \\frac{4\\pi^2}{\\gamma \\cdot M}$\n\nDoppelte Sternmasse halbiert den Quotienten: $\\frac{T^2}{a^3} = 0{,}5\\,\\frac{\\text{Jahr}^2}{\\mathrm{AE^3}}$. Bei gleicher Halbachse wird $T$ um den Faktor $\\frac{1}{\\sqrt{2}} \\approx 0{,}71$ kürzer."
+        },
+        {
+          "id": "N3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Simulation zeigt $\\frac{T^2}{a^3} \\approx 0{,}50\\,\\frac{\\text{Jahr}^2}{\\mathrm{AE^3}}$ (die Bahn ändert sich beim Verstellen; der Quotient ist für jede neue Bahn wieder gleich)."
+        },
+        {
+          "id": "N3-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Falsch: Die Konstante gehört zum Zentralkörper. Für alle Körper um **denselben** Zentralkörper ist sie gleich, für einen anderen Stern oder einen Planeten mit Monden ist sie anders.\n\nGenauer gilt sie nur, solange der umlaufende Körper leicht gegen den Zentralkörper ist ($m \\ll M$). Das Formeldokument berücksichtigt die Mitbewegung des Zentralkörpers ($m_1 + m_2$ im Nenner) – für Jupiter um die Sonne macht das 0,1 % aus."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Datenauswertung: Kepler an den Jupitermonden",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument, Excel",
+      "checkliste": [
+        "c4",
+        "c2",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Datenauswertung_Jupitermonde.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Umrechnen: $T$ in s ($\\cdot 86\\,400$), $a$ in m ($\\cdot 1000$).\n\n| Mond | $T$ in s | $a$ in m | $\\frac{T^2}{a^3}$ in $\\mathrm{s^2/m^3}$ |\n|---|---|---|---|\n| Io | $1{,}528 \\cdot 10^5$ | $4{,}217 \\cdot 10^8$ | $3{,}115 \\cdot 10^{-16}$ |\n| Europa | $3{,}068 \\cdot 10^5$ | $6{,}710 \\cdot 10^8$ | $3{,}116 \\cdot 10^{-16}$ |\n| Ganymed | $6{,}182 \\cdot 10^5$ | $1{,}0704 \\cdot 10^9$ | $3{,}116 \\cdot 10^{-16}$ |\n| Kallisto | $1{,}4419 \\cdot 10^6$ | $1{,}8827 \\cdot 10^9$ | $3{,}116 \\cdot 10^{-16}$ |\n\nAlle Quotienten stimmen auf 0,1 % überein: $C \\approx 3{,}12 \\cdot 10^{-16}\\,\\mathrm{s^2/m^3}$."
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die vier Punkte liegen auf einer Ursprungsgeraden (lineare Trendlinie durch den Ursprung), Steigung $\\approx 3{,}12 \\cdot 10^{-16}\\,\\mathrm{s^2/m^3}$.",
+          "loesung_bild": "img/N4-1b.png"
+        },
+        {
+          "id": "N4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Ursprungsgerade heißt $T^2 \\sim a^3$ – das ist das 3. Kepler’sche Gesetz. Die Steigung ist die Kepler-Konstante $C$ des Zentralkörpers Jupiter."
+        },
+        {
+          "id": "N4-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Aus $F_G = F_Z$ für Kreisbahnen (N2 Aufgabe 2c): $C = \\frac{T^2}{a^3} = \\frac{4\\pi^2}{\\gamma \\cdot M}$\n\n$M = \\frac{4\\pi^2}{\\gamma \\cdot C} = \\frac{4\\pi^2}{6{,}67 \\cdot 10^{-11} \\cdot 3{,}116 \\cdot 10^{-16}}\\,\\mathrm{kg}$\n\n$M \\approx 1{,}90 \\cdot 10^{27}\\,\\mathrm{kg}$\n\nDas ist rund das 318-Fache der Erdmasse."
+        },
+        {
+          "id": "N4-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$C_E = \\frac{(14{,}1 \\cdot 3600\\,\\mathrm{s})^2}{(2{,}96 \\cdot 10^{7}\\,\\mathrm{m})^3} \\approx 9{,}9 \\cdot 10^{-14}\\,\\mathrm{s^2/m^3}$ – rund 320-mal so groß wie bei Jupiter (318 bis 319, je nach Rundung).\n\nDie Kepler-Konstante $C = \\frac{4\\pi^2}{\\gamma \\cdot M}$ hängt von der Masse des Zentralkörpers ab. Kepler 3 vergleicht nur Körper, die **denselben** Zentralkörper umkreisen. Das Verhältnis der Konstanten ist umgekehrt das Massenverhältnis Jupiter : Erde."
+        },
+        {
+          "id": "N4-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Trendlinie liefert $T = k \\cdot a^{1{,}500}$, also $T^2 \\sim a^3$.\n\nBeurteilung: Mit genauen Daten über einen großen Bereich (Faktor 4,5 in $a$) ist der Exponent eindeutig. Excel passt aber zu jedem Datensatz eine Potenzfunktion an – die Idee „Potenzgesetz“ muss man vorher haben. Bei nur vier Punkten und Messfehlern könnte man auch 1,4 oder 1,6 erhalten; erst die Bestätigung an anderen Systemen (Planeten, Saturnmonde) und die Herleitung aus $F_G = F_Z$ machen das Gesetz sicher. Kepler fand es 1619 genau so – durch Probieren an Planetendaten."
+        }
+      ]
+    },
+    {
+      "id": "N5",
       "titel": "Feld, Feldstärke und Energie",
-      "typ": "pflicht",
+      "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 20,
       "hilfsmittel": "WTR, Formeldokument",
@@ -245,47 +583,48 @@
         "c8",
         "c10"
       ],
-      "bild": "img/st_P3.svg",
-      "pdf": "pdf/P3_Feld_Feldstaerke_Energie.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Feld_Feldstaerke_Energie.pdf",
       "aufgaben": [
         {
-          "id": "P3-1a",
+          "id": "N5-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$G^* = \\frac{F_G}{m} = \\gamma \\cdot \\frac{m_M}{R_M^2} = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{6{,}42 \\cdot 10^{23}}{(3{,}39 \\cdot 10^{6})^2}\\,\\mathrm{N/kg} \\approx 3{,}73\\,\\mathrm{N/kg}$\n\nMars: $F_G = m \\cdot G^* = 1{,}8\\,\\mathrm{kg} \\cdot 3{,}73\\,\\mathrm{N/kg} \\approx 6{,}7\\,\\mathrm{N}$; Erde: $1{,}8\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 17{,}7\\,\\mathrm{N}$. Auf dem Mars wiegt Ingenuity nur rund 38 % – das erleichtert das Fliegen (die dünne Luft erschwert es).\n\nDie Feldstärke hängt nicht vom Probekörper ab, sondern nur vom Ort im Feld. Deshalb beschreibt man das Feld mit $G^*$ statt mit der Kraft auf einen bestimmten Körper."
         },
         {
-          "id": "P3-1b",
+          "id": "N5-1b",
           "label": "1b",
           "punkte": 1,
           "afb": "I",
           "loesung": "Radialsymmetrisches Feld: Die Feldlinien laufen von allen Seiten geradlinig zum Marsmittelpunkt (Pfeile nach innen) und kreuzen sich nicht. Die Äquipotenziallinien sind Kreise um den Mars; sie stehen überall senkrecht auf den Feldlinien.\n\nNach außen laufen die Feldlinien auseinander, ihre Dichte nimmt ab: Auf der Phobos-Bahn gehen dieselben Linien durch eine viel größere Kugeloberfläche (im Bild: einen längeren Kreisumfang), das Feld ist dort schwächer ($G^* \\sim \\frac{1}{r^2}$).",
-          "loesung_bild": "img/P3-1b.png"
+          "loesung_bild": "img/N5-1b.png"
         },
         {
-          "id": "P3-2a",
+          "id": "N5-2a",
           "label": "2a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$W = \\gamma \\cdot m_M \\cdot m \\cdot \\left(\\frac{1}{r_1} - \\frac{1}{r_2}\\right)$ (im Skript $\\Delta W$ mit $r_A$ und $r_E$), $r_1 = R_M$, $r_2 = 9380\\,\\mathrm{km}$\n\n$W = 6{,}67 \\cdot 10^{-11} \\cdot 6{,}42 \\cdot 10^{23} \\cdot 1000 \\cdot \\left(\\frac{1}{3{,}39 \\cdot 10^{6}} - \\frac{1}{9{,}38 \\cdot 10^{6}}\\right)\\,\\mathrm{J}$\n\n$W \\approx 8{,}07 \\cdot 10^9\\,\\mathrm{J}$"
         },
         {
-          "id": "P3-2b",
+          "id": "N5-2b",
           "label": "2b",
           "punkte": 2,
           "afb": "II",
           "loesung": "$h = 9380\\,\\mathrm{km} - 3390\\,\\mathrm{km} = 5990\\,\\mathrm{km}$\n\n$m \\cdot G^* \\cdot h = 1000\\,\\mathrm{kg} \\cdot 3{,}73\\,\\mathrm{N/kg} \\cdot 5{,}99 \\cdot 10^{6}\\,\\mathrm{m} \\approx 2{,}23 \\cdot 10^{10}\\,\\mathrm{J}$ – rund 2,8-mal so viel wie die richtige Arbeit.\n\n$m \\cdot G^* \\cdot h$ rechnet auf dem ganzen Weg mit der Kraft an der Oberfläche. Die Gravitationskraft nimmt aber mit $\\frac{1}{r^2}$ ab; auf der Phobos-Bahn ist sie nur noch rund ein Achtel so groß. Das Modell „homogenes Feld“ gilt nur für Höhen, die klein gegen den Radius sind."
         },
         {
-          "id": "P3-2c",
+          "id": "N5-2c",
           "label": "2c",
           "punkte": 1,
           "afb": "II",
           "loesung": "$\\Delta V = \\frac{W}{m} = \\frac{8{,}07 \\cdot 10^9\\,\\mathrm{J}}{1000\\,\\mathrm{kg}} \\approx 8{,}07 \\cdot 10^6\\,\\mathrm{J/kg}$\n\n(Vorteil: Die Potenzialdifferenz hängt nur von Start und Ziel ab, nicht von der Nutzlast. Für jede Masse folgt die Energie direkt aus $\\Delta E_{Pot} = m \\cdot \\Delta V$.)"
         },
         {
-          "id": "P3-2d",
+          "id": "N5-2d",
           "label": "2d",
           "punkte": 2,
           "afb": "III",
@@ -294,112 +633,95 @@
       ]
     },
     {
-      "id": "P4",
-      "titel": "Check-out",
-      "typ": "pflicht",
+      "id": "N6",
+      "titel": "Feldlinienbilder: Erde und Mond",
+      "typ": "wahl",
       "sozialform": "einzel",
-      "dauer_min": 8,
-      "hilfsmittel": "keine",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
       "checkliste": [
-        "c2",
-        "c3",
-        "c4",
         "c6",
-        "c7",
-        "c9",
-        "c10"
+        "c5",
+        "c7"
       ],
-      "hinweis": "Am Ende der zweiten Stunde bearbeiten. Ohne Hilfsmittel, 8 Minuten. Jede Aufgabe entspricht der Aufgabe mit derselben Nummer in P1 – vergleichen Sie in der Auswertung Ihre Punkte in P1 und P4.",
-      "bild": "img/st_P4.svg",
-      "pdf": "pdf/P4_Check-out.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Feldlinienbilder_Erde_Mond.pdf",
       "aufgaben": [
         {
-          "id": "P4-1",
-          "label": "1",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**C** – Kepler 2: In gleichen Zeiten überstreicht der Fahrstrahl gleiche Flächen. Weit weg von der Erde ist der Fahrstrahl lang, der Satellit legt dort in gleicher Zeit nur ein kurzes Bahnstück zurück. Diese Bahn wird genutzt, weil der Satellit so lange über Nordeuropa „hängt“.\n\n*A gewählt?* Kepler 2 verwechselt. *B gewählt?* Die Gravitationskraft ändert den Betrag der Geschwindigkeit. *D gewählt?* Die Erde steht im Brennpunkt, nicht im Mittelpunkt. → **W3** Aufgabe 1, danach **P2** Aufgabe 1"
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Richtung = Pfeilrichtung der Feldlinie durch den Punkt: Die Linien durch A, B und C enden an der Erde, das Feld zeigt dort zur Erde hin. Die Linie durch D endet am Mond, das Feld zeigt zum Mond hin. Der Pfeil in D zeigt schräg nach links oben, weil Erde und Mond dort in fast dieselbe Richtung ziehen; entscheidend ist, dass die Linie in den Mond hineinläuft.\n\nIn A ist das Feld stärker: A liegt etwa halb so weit vom Erdmittelpunkt entfernt wie C, und es gilt $G^* \\sim \\frac{1}{r^2}$. Im Bild liegen die Feldlinien nahe der Erde insgesamt dichter."
         },
         {
-          "id": "P4-2",
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "An jedem Ort wirkt auf einen Probekörper genau eine Gesamtkraft (aus Erd- und Mondanziehung zusammengesetzt). Die Feldlinie zeigt deren Richtung – zwei Richtungen an einem Ort kann es nicht geben."
+        },
+        {
+          "id": "N6-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In N sind die Beträge beider Feldstärken gleich (Richtungen entgegengesetzt), $x$ = Abstand von der Erde:\n\n$\\gamma \\cdot \\frac{81 \\cdot m_{Mond}}{x^2} = \\gamma \\cdot \\frac{m_{Mond}}{(d - x)^2} \\Rightarrow \\frac{x}{d - x} = \\sqrt{81} = 9$\n\n$x = \\frac{9}{10} \\cdot d = 0{,}9 \\cdot 384\\,000\\,\\mathrm{km} \\approx 346\\,000\\,\\mathrm{km}$\n\n(Eine Raumkapsel ohne Antrieb wird bis N von der Erde gebremst, danach „fällt“ sie zum Mond.)"
+        },
+        {
+          "id": "N6-2",
           "label": "2",
-          "punkte": 1,
+          "punkte": 2,
           "afb": "I",
-          "loesung": "**A** – $\\frac{T_2^2}{T_1^2} = 9^3 = 729$, also $\\frac{T_2}{T_1} = \\sqrt{729} = 27$ (oder: $\\sqrt{9}^3 = 3^3$).\n\n*B gewählt?* $T \\sim a$. *C gewählt?* $T \\sim a^2$. *D gewählt?* $T \\sim \\sqrt{a}$. → **W1** (Tandem, Nummern 3 und 4), danach **W2**"
+          "loesung": "$|\\vec{a}| = \\sqrt{a_x^2 + a_y^2 + a_z^2}$\n\nLage 1: $\\sqrt{0{,}04^2 + 0{,}10^2 + 9{,}81^2} \\approx 9{,}81$; Lage 2: $\\sqrt{6{,}93^2 + 0{,}06^2 + 6{,}94^2} \\approx 9{,}81$; Lage 3: $\\sqrt{3{,}36^2 + 9{,}21^2 + 0{,}08^2} \\approx 9{,}80$ (je in $\\mathrm{m/s^2}$ bzw. $\\mathrm{N/kg}$)\n\nDer Betrag ist in allen Lagen gleich: Die Feldstärke gehört zum Ort ($9{,}81\\,\\mathrm{N/kg}$ senkrecht nach unten), die Sonde zerlegt sie nur in Komponenten entlang ihrer eigenen Achsen. (Eine ruhende Sonde zeigt die Haltekraft pro Masse an, also nach oben – entgegen $\\vec{G}^*$; für den Betrag spielt das keine Rolle.)"
         },
         {
-          "id": "P4-3",
-          "label": "3",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**D** – $F_G \\sim \\frac{1}{r^2}$: Halber Abstand ergibt $\\frac{1}{(1/2)^2} = 4$, also die vierfache Kraft.\n\n*B gewählt?* $F_G \\sim \\frac{1}{r}$ angenommen. *A oder C gewählt?* Die Kraft wächst beim Annähern. → **P2** Aufgabe 2a, danach **W1** (Tandem, Nummer 6)"
-        },
-        {
-          "id": "P4-4",
-          "label": "4",
+          "id": "N6-3a",
+          "label": "3a",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**B** – Wechselwirkungsprinzip: Der Apfel zieht die Erde genauso stark an wie die Erde den Apfel. Wegen der riesigen Erdmasse ist die Beschleunigung der Erde aber unmessbar klein.\n\n*A oder D gewählt?* Kraft und Wirkung (Beschleunigung) verwechselt. *C gewählt?* Gravitation wirkt zwischen allen Massen. → **W1** (Tandem, Nummer 5), danach **P2** Aufgabe 2a"
+          "loesung": "$G^* \\sim \\frac{1}{r^2}$: $\\frac{\\Delta G^*}{G^*} \\approx -2 \\cdot \\frac{\\Delta h}{R_E} = -2 \\cdot \\frac{15\\,\\mathrm{m}}{6{,}37 \\cdot 10^{6}\\,\\mathrm{m}} \\approx -4{,}7 \\cdot 10^{-6}$\n\n$\\Delta G^* \\approx 4{,}7 \\cdot 10^{-6} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 4{,}6 \\cdot 10^{-5}\\,\\mathrm{N/kg}$ (oben kleiner). Ebenso: $G^*$ direkt für $r = R_E$ und $r = R_E + 15\\,\\mathrm{m}$ berechnen und subtrahieren."
         },
         {
-          "id": "P4-5",
-          "label": "5",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**D** – $\\left(\\frac{6400\\,\\mathrm{km}}{6940\\,\\mathrm{km}}\\right)^2 \\approx 0{,}85$. Das Teleskop bleibt nur deshalb oben, weil es mit rund $7{,}6\\,\\mathrm{km/s}$ um die Erde kreist: Die Gravitationskraft liefert die Zentripetalkraft.\n\n*A oder B gewählt?* „Im All gibt es keine Schwerkraft“ – eine Fehlvorstellung. *C gewählt?* Die Feldstärke nimmt mit dem Abstand ab. → **P2** Aufgabe 2, danach **W1** (Tandem, Nummer 6)"
-        },
-        {
-          "id": "P4-6",
-          "label": "6",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**B** – Feldlinien zeigen die Richtung der Kraft auf einen Probekörper – beim Gravitationsfeld zum Planetenmittelpunkt. Ihre Dichte zeigt die Feldstärke. Sie kreuzen sich nie, weil die Gesamtkraft an jedem Ort eindeutig ist.\n\n*A gewählt?* Gravitation zieht an, die Pfeile zeigen nach innen. *C gewählt?* Die Länge einer Linie sagt nichts aus; weit draußen liegen die Linien weniger dicht, das Feld ist schwächer. *D gewählt?* Feldlinien sind keine Bahnen. → **W6** Aufgabe 1, danach **W4** Aufgabe 3"
-        },
-        {
-          "id": "P4-7",
-          "label": "7",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**C** – $W = \\gamma \\cdot M \\cdot m \\cdot \\left(\\frac{1}{R_E} - \\frac{1}{4R_E}\\right) = \\frac{3}{4} \\cdot m \\cdot g \\cdot R_E$; $m \\cdot g \\cdot h = 3 \\cdot m \\cdot g \\cdot R_E$, also viermal so groß. Die Kraft nimmt beim Heben ab.\n\n*A gewählt?* $m \\cdot g \\cdot h$ gilt nur für kleine Höhen. *B oder D gewählt?* Faktor bzw. Richtung falsch. → **W5** Aufgabe 1, danach **P3** Aufgabe 2"
-        },
-        {
-          "id": "P4-8",
-          "label": "8",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**A** – Das Potenzial hängt nur vom Ort ab ($V = \\frac{E_{Pot}}{m}$), die Energie $\\Delta E_{Pot} = m \\cdot \\Delta V$ wächst mit der Masse: $\\frac{400\\,000\\,\\mathrm{kg}}{500\\,\\mathrm{kg}} = 800$.\n\n*B gewählt?* Potenzial und Energie verwechselt. *C gewählt?* Die Energie hängt von der Masse ab. *D gewählt?* Durch die Masse geteilt statt multipliziert. → **P3** Aufgabe 2c, danach **W4** Aufgabe 4"
+          "id": "N6-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Änderung beträgt rund 5 Millionstel des Wertes. Auch die Richtung ändert sich im Gebäude praktisch nicht (bei z. B. $30\\,\\mathrm{m}$ Gebäudebreite sind die Feldlinien an den beiden Enden um $\\frac{30\\,\\mathrm{m}}{6{,}37 \\cdot 10^{6}\\,\\mathrm{m}}$, also rund 0,0003°, gegeneinander geneigt). Das Feld darf als homogen gelten.\n\nDie Anzeige löst nur $0{,}01\\,\\mathrm{m/s^2}$ auf (zwei Nachkommastellen) und schwankt um $0{,}02\\,\\mathrm{m/s^2}$ – das ist rund 400-mal mehr als der gesuchte Unterschied. Die Messung kann den Unterschied nicht zeigen; Unterschiede im Messwert kommen von Neigung, Unterlage oder Sondendrift. Das Ergebnis „kein messbarer Unterschied“ bestätigt gerade das Modell."
         }
       ]
     },
     {
-      "id": "W1",
+      "id": "N7",
       "titel": "Tandem: Gravitation rechnen",
       "typ": "wahl",
       "sozialform": "tandem",
       "dauer_min": 15,
       "hilfsmittel": "WTR",
       "checkliste": [
+        "c7",
         "c1",
         "c2",
-        "c3",
-        "c7"
+        "c3"
       ],
+      "kategorie": "neu",
       "hinweis": "Zwei Personen, zwei Tablets, WTR. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. Konstanten: $\\gamma = 6{,}67 \\cdot 10^{-11}\\,\\frac{\\mathrm{m^3}}{\\mathrm{kg} \\cdot \\mathrm{s^2}}$, $1\\,\\mathrm{AE} = 1{,}496 \\cdot 10^{11}\\,\\mathrm{m}$, $1\\,\\mathrm{Lj} = 9{,}46 \\cdot 10^{15}\\,\\mathrm{m}$, $c = 3{,}00 \\cdot 10^8\\,\\mathrm{m/s}$.",
-      "bild": "img/st_W1.svg",
+      "bild": "img/st_N7.svg",
       "pdf_optional": true,
       "aufgaben": [
         {
-          "id": "W1-1",
+          "id": "N7-1",
           "label": "1",
           "partner": "A",
           "punkte": 2,
           "afb": "I",
-          "aufgabe": "Der nächste Stern nach der Sonne, Proxima Centauri, ist $4{,}24\\,\\mathrm{Lj}$ entfernt. Berechnen Sie die Entfernung in Kilometer und in AE.",
+          "aufgabe": "Der nächste Stern nach der Sonne, Proxima Centauri, ist $4{,}24\\,\\mathrm{Lj}$ entfernt. Berechnen Sie die Entfernung in Kilometern und in AE.",
           "tipp": "$1\\,\\mathrm{Lj} = 9{,}46 \\cdot 10^{15}\\,\\mathrm{m}$; durch $1{,}496 \\cdot 10^{11}\\,\\mathrm{m}$ teilen.",
           "loesung": "$4{,}24 \\cdot 9{,}46 \\cdot 10^{15}\\,\\mathrm{m} \\approx 4{,}01 \\cdot 10^{16}\\,\\mathrm{m} = 4{,}01 \\cdot 10^{13}\\,\\mathrm{km}$\n\n$\\frac{4{,}01 \\cdot 10^{16}\\,\\mathrm{m}}{1{,}496 \\cdot 10^{11}\\,\\mathrm{m}} \\approx 2{,}68 \\cdot 10^5\\,\\mathrm{AE}$"
         },
         {
-          "id": "W1-2",
+          "id": "N7-2",
           "label": "2",
           "partner": "B",
           "punkte": 2,
@@ -409,7 +731,7 @@
           "loesung": "Erde: $t = \\frac{1{,}496 \\cdot 10^{11}\\,\\mathrm{m}}{3{,}00 \\cdot 10^8\\,\\mathrm{m/s}} \\approx 499\\,\\mathrm{s} \\approx 8{,}3\\,\\mathrm{min}$\n\nNeptun: $t \\approx 30{,}1 \\cdot 499\\,\\mathrm{s} \\approx 1{,}50 \\cdot 10^4\\,\\mathrm{s} \\approx 4{,}2\\,\\mathrm{h}$"
         },
         {
-          "id": "W1-3",
+          "id": "N7-3",
           "label": "3",
           "partner": "A",
           "punkte": 2,
@@ -419,7 +741,7 @@
           "loesung": "$a = \\frac{1{,}0\\,\\mathrm{AE} + 3{,}0\\,\\mathrm{AE}}{2} = 2{,}0\\,\\mathrm{AE}$\n\n$T = 1\\,\\text{Jahr} \\cdot \\sqrt{2{,}0^3} \\approx 2{,}8$ Jahre"
         },
         {
-          "id": "W1-4",
+          "id": "N7-4",
           "label": "4",
           "partner": "B",
           "punkte": 2,
@@ -429,7 +751,7 @@
           "loesung": "$\\frac{T^2}{(1\\,\\text{Jahr})^2} = \\frac{19{,}2^3}{1^3}$, also $T = 1\\,\\text{Jahr} \\cdot \\sqrt{19{,}2^3} \\approx 84$ Jahre"
         },
         {
-          "id": "W1-5",
+          "id": "N7-5",
           "label": "5",
           "partner": "A",
           "punkte": 2,
@@ -439,7 +761,7 @@
           "loesung": "$F_G = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{1{,}99 \\cdot 10^{30} \\cdot 1{,}90 \\cdot 10^{27}}{(7{,}78 \\cdot 10^{11})^2}\\,\\mathrm{N} \\approx 4{,}2 \\cdot 10^{23}\\,\\mathrm{N}$\n\nJupiter zieht die Sonne mit genau derselben Kraft an (Wechselwirkungsprinzip)."
         },
         {
-          "id": "W1-6",
+          "id": "N7-6",
           "label": "6",
           "partner": "B",
           "punkte": 2,
@@ -451,223 +773,7 @@
       ]
     },
     {
-      "id": "W2",
-      "titel": "Datenauswertung: Kepler an den Jupitermonden",
-      "typ": "wahl",
-      "sozialform": "partner",
-      "dauer_min": 20,
-      "hilfsmittel": "WTR, Formeldokument, Excel",
-      "checkliste": [
-        "c4",
-        "c2",
-        "c1"
-      ],
-      "bild": "img/st_W2.svg",
-      "pdf": "pdf/W2_Datenauswertung_Jupitermonde.pdf",
-      "aufgaben": [
-        {
-          "id": "W2-1a",
-          "label": "1a",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Umrechnen: $T$ in s ($\\cdot 86\\,400$), $a$ in m ($\\cdot 1000$).\n\n| Mond | $T$ in s | $a$ in m | $\\frac{T^2}{a^3}$ in $\\mathrm{s^2/m^3}$ |\n|---|---|---|---|\n| Io | $1{,}528 \\cdot 10^5$ | $4{,}217 \\cdot 10^8$ | $3{,}115 \\cdot 10^{-16}$ |\n| Europa | $3{,}068 \\cdot 10^5$ | $6{,}710 \\cdot 10^8$ | $3{,}116 \\cdot 10^{-16}$ |\n| Ganymed | $6{,}182 \\cdot 10^5$ | $1{,}0704 \\cdot 10^9$ | $3{,}116 \\cdot 10^{-16}$ |\n| Kallisto | $1{,}4419 \\cdot 10^6$ | $1{,}8827 \\cdot 10^9$ | $3{,}116 \\cdot 10^{-16}$ |\n\nAlle Quotienten stimmen auf 0,1 % überein: $C \\approx 3{,}12 \\cdot 10^{-16}\\,\\mathrm{s^2/m^3}$."
-        },
-        {
-          "id": "W2-1b",
-          "label": "1b",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "Die vier Punkte liegen auf einer Ursprungsgeraden (lineare Trendlinie durch den Ursprung), Steigung $\\approx 3{,}12 \\cdot 10^{-16}\\,\\mathrm{s^2/m^3}$.",
-          "loesung_bild": "img/W2-1b.png"
-        },
-        {
-          "id": "W2-1c",
-          "label": "1c",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "Ursprungsgerade heißt $T^2 \\sim a^3$ – das ist das 3. Kepler’sche Gesetz. Die Steigung ist die Kepler-Konstante $C$ des Zentralkörpers Jupiter."
-        },
-        {
-          "id": "W2-1d",
-          "label": "1d",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Aus $F_G = F_Z$ für Kreisbahnen (P2 Aufgabe 2c): $C = \\frac{T^2}{a^3} = \\frac{4\\pi^2}{\\gamma \\cdot M}$\n\n$M = \\frac{4\\pi^2}{\\gamma \\cdot C} = \\frac{4\\pi^2}{6{,}67 \\cdot 10^{-11} \\cdot 3{,}116 \\cdot 10^{-16}}\\,\\mathrm{kg}$\n\n$M \\approx 1{,}90 \\cdot 10^{27}\\,\\mathrm{kg}$\n\nDas ist rund das 318-Fache der Erdmasse."
-        },
-        {
-          "id": "W2-1e",
-          "label": "1e",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$C_E = \\frac{(14{,}1 \\cdot 3600\\,\\mathrm{s})^2}{(2{,}96 \\cdot 10^{7}\\,\\mathrm{m})^3} \\approx 9{,}9 \\cdot 10^{-14}\\,\\mathrm{s^2/m^3}$ – rund 320-mal so groß wie bei Jupiter (318 bis 319, je nach Rundung).\n\nDie Kepler-Konstante $C = \\frac{4\\pi^2}{\\gamma \\cdot M}$ hängt von der Masse des Zentralkörpers ab. Kepler 3 vergleicht nur Körper, die **denselben** Zentralkörper umkreisen. Das Verhältnis der Konstanten ist umgekehrt das Massenverhältnis Jupiter : Erde."
-        },
-        {
-          "id": "W2-1f",
-          "label": "1f",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "Die Trendlinie liefert $T = k \\cdot a^{1{,}500}$, also $T^2 \\sim a^3$.\n\nBeurteilung: Mit genauen Daten über einen großen Bereich (Faktor 4,5 in $a$) ist der Exponent eindeutig. Excel passt aber zu jedem Datensatz eine Potenzfunktion an – die Idee „Potenzgesetz“ muss man vorher haben. Bei nur vier Punkten und Messfehlern könnte man auch 1,4 oder 1,6 erhalten; erst die Bestätigung an anderen Systemen (Planeten, Saturnmonde) und die Herleitung aus $F_G = F_Z$ machen das Gesetz sicher. Kepler fand es 1619 genau so – durch Probieren an Planetendaten."
-        }
-      ]
-    },
-    {
-      "id": "W3",
-      "titel": "Simulation: Vorhersagen – beobachten – erklären",
-      "typ": "wahl",
-      "sozialform": "partner",
-      "dauer_min": 20,
-      "hilfsmittel": "iPad (PhET-Simulation), WTR",
-      "checkliste": [
-        "c2",
-        "c4"
-      ],
-      "hinweis": "Partnerarbeit mit der PhET-Simulation „Keplersche Gesetze“ (phet.colorado.edu, deutsch, ohne Anmeldung). Notieren Sie jede Vorhersage, bevor Sie in der Simulation nachsehen. Ohne iPad: Demonstration am Pult.",
-      "bild": "img/st_W3.svg",
-      "pdf": "pdf/W3_Simulation_Kepler.pdf",
-      "aufgaben": [
-        {
-          "id": "W3-1a",
-          "label": "1a",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "Jede begründete Vorhersage zählt, z. B.: Am schnellsten ist der Planet im sonnennächsten Punkt (Periapsis bzw. Perihel), am langsamsten im sonnenfernsten (Apoapsis bzw. Aphel)."
-        },
-        {
-          "id": "W3-1b",
-          "label": "1b",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "Beispiel (je nach eingestellter Bahn): Periapsis etwa $45\\,\\mathrm{km/s}$, Apoapsis etwa $15\\,\\mathrm{km/s}$. Die vier überstrichenen Flächen sind gleich groß, obwohl die Bahnstücke verschieden lang sind."
-        },
-        {
-          "id": "W3-1c",
-          "label": "1c",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Kepler 2: In gleichen Zeiten werden gleiche Flächen überstrichen. Nahe der Sonne ist der Fahrstrahl kurz, das Bahnstück muss länger sein – der Planet ist schneller ($r_P \\cdot v_P = r_A \\cdot v_A$).\n\nKraft: Auf dem Weg zur Periapsis hat die Gravitationskraft eine Komponente in Bewegungsrichtung – der Planet wird schneller. Auf dem Weg zur Apoapsis wirkt eine Komponente gegen die Bewegung – er wird langsamer. Nur in Periapsis und Apoapsis steht die Kraft senkrecht zur Geschwindigkeit. (Die Kraft zeigt immer zur Sonne, die Bahn läuft schräg dazu.)"
-        },
-        {
-          "id": "W3-2a",
-          "label": "2a",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "$\\frac{T_2}{T_1} = \\sqrt{\\left(\\frac{a_2}{a_1}\\right)^3} = \\sqrt{2^3} \\approx 2{,}83$"
-        },
-        {
-          "id": "W3-2b",
-          "label": "2b",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "Beispiel: $a = 1{,}00\\,\\mathrm{AE}$, $T \\approx 1{,}00\\,\\text{Jahre}$; $a = 2{,}00\\,\\mathrm{AE}$, $T \\approx 2{,}83\\,\\text{Jahre}$. Faktor $2{,}83$ – die Rechnung wird bestätigt (kleine Abweichungen durch ungenau eingestellte Halbachsen)."
-        },
-        {
-          "id": "W3-2c",
-          "label": "2c",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "Die Punkte liegen auf einer Ursprungsgeraden, der Quotient $\\frac{T^2}{a^3}$ ist für alle Bahnen gleich – bei unserer Sonne $1\\,\\frac{\\text{Jahr}^2}{\\mathrm{AE^3}}$. Das ist die Kepler-Konstante der Sonne in den Einheiten Jahr und AE."
-        },
-        {
-          "id": "W3-3a",
-          "label": "3a",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "Für eine (näherungsweise) Kreisbahn liefert die Gravitationskraft die Zentripetalkraft:\n\n$\\gamma \\cdot \\frac{M \\cdot m}{a^2} = m \\cdot \\frac{4\\pi^2 \\cdot a}{T^2} \\Rightarrow \\frac{T^2}{a^3} = \\frac{4\\pi^2}{\\gamma \\cdot M}$\n\nDoppelte Sternmasse halbiert den Quotienten: $\\frac{T^2}{a^3} = 0{,}5\\,\\frac{\\text{Jahr}^2}{\\mathrm{AE^3}}$. Bei gleicher Halbachse wird $T$ um den Faktor $\\frac{1}{\\sqrt{2}} \\approx 0{,}71$ kürzer."
-        },
-        {
-          "id": "W3-3b",
-          "label": "3b",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "Die Simulation zeigt $\\frac{T^2}{a^3} \\approx 0{,}50\\,\\frac{\\text{Jahr}^2}{\\mathrm{AE^3}}$ (die Bahn ändert sich beim Verstellen; der Quotient ist für jede neue Bahn wieder gleich)."
-        },
-        {
-          "id": "W3-3c",
-          "label": "3c",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "Falsch: Die Konstante gehört zum Zentralkörper. Für alle Körper um **denselben** Zentralkörper ist sie gleich, für einen anderen Stern oder einen Planeten mit Monden ist sie anders.\n\nGenauer gilt sie nur, solange der umlaufende Körper leicht gegen den Zentralkörper ist ($m \\ll M$). Das Formeldokument berücksichtigt die Mitbewegung des Zentralkörpers ($m_1 + m_2$ im Nenner) – für Jupiter um die Sonne macht das 0,1 % aus."
-        }
-      ]
-    },
-    {
-      "id": "W4",
-      "titel": "Fehler finden und begründen",
-      "typ": "wahl",
-      "sozialform": "einzel",
-      "dauer_min": 20,
-      "hilfsmittel": "WTR, Formeldokument",
-      "checkliste": [
-        "c3",
-        "c2",
-        "c6",
-        "c7",
-        "c9",
-        "c10"
-      ],
-      "bild": "img/st_W4.svg",
-      "pdf": "pdf/W4_Fehler_finden_begruenden.pdf",
-      "aufgaben": [
-        {
-          "id": "W4-1a",
-          "label": "1a",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "In Kepler 3 steht die **große Halbachse**, nicht der Perihelabstand.\n\n$a = \\frac{1{,}2\\,\\mathrm{AE} + 4{,}0\\,\\mathrm{AE}}{2} = 2{,}6\\,\\mathrm{AE}$; $T = 1\\,\\text{Jahr} \\cdot \\sqrt{2{,}6^3} \\approx 4{,}2\\,\\text{Jahre}$"
-        },
-        {
-          "id": "W4-1b",
-          "label": "1b",
-          "punkte": 1,
-          "afb": "III",
-          "loesung": "Die große Halbachse ist der Mittelwert aus kleinstem und größtem Abstand von der Sonne. Eine Kreisbahn ist der Sonderfall $\\varepsilon = 0$ mit $a = r$. Nach Kepler 3 haben alle Bahnen mit gleicher großer Halbachse dieselbe Umlaufdauer, egal wie langgestreckt sie sind; der Perihelabstand allein legt die Bahn nicht fest."
-        },
-        {
-          "id": "W4-2",
-          "label": "2",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$r$ ist der Abstand vom **Erdmittelpunkt**, nicht die Höhe über dem Boden: $r = 6370\\,\\mathrm{km} + 820\\,\\mathrm{km} = 7190\\,\\mathrm{km}$\n\n$F_G = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{5{,}97 \\cdot 10^{24} \\cdot 4100}{(7{,}19 \\cdot 10^{6})^2}\\,\\mathrm{N} \\approx 3{,}2 \\cdot 10^4\\,\\mathrm{N}$\n\n(Kontrolle über die Größenordnung: Am Erdboden wirkt $m \\cdot g \\approx 4{,}0 \\cdot 10^4\\,\\mathrm{N}$. Weiter weg muss die Kraft kleiner sein; Lösung B liefert das 60-Fache der Gewichtskraft am Boden.)"
-        },
-        {
-          "id": "W4-3a",
-          "label": "3a",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "- Die Pfeile zeigen nach außen; die Gravitation zieht zum Planetenmittelpunkt, die Pfeile müssen nach innen zeigen.\n- Zwei Linien kreuzen sich.\n- Feldlinien sind keine Bahnen: Sie zeigen die Richtung der Kraft auf einen Probekörper."
-        },
-        {
-          "id": "W4-3b",
-          "label": "3b",
-          "punkte": 1,
-          "afb": "III",
-          "loesung": "An jedem Ort wirkt auf einen Probekörper genau eine Gesamtkraft mit einer Richtung. Kreuzen sich zwei Linien, gäbe es dort zwei Kraftrichtungen – wie eine Addition mit zwei Ergebnissen.\n\nEin losgelassener Körper fällt zwar entlang der Feldlinie, ein Körper mit Anfangsgeschwindigkeit quer zur Feldlinie (Mond, Satellit) bewegt sich aber nicht entlang der Linie. Die Bahn hängt von der Anfangsgeschwindigkeit ab, das Feld nicht."
-        },
-        {
-          "id": "W4-4",
-          "label": "4",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Doppelt ist die **Kraft**: $F_G = 2\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 19{,}6\\,\\mathrm{N}$ statt $9{,}81\\,\\mathrm{N}$.\n\nDie Feldstärke $G^* = \\frac{F_G}{m} = \\frac{19{,}6\\,\\mathrm{N}}{2\\,\\mathrm{kg}} = 9{,}81\\,\\mathrm{N/kg}$ ist für beide Körper gleich. Sie beschreibt den Ort im Feld und hängt nicht vom Probekörper ab – dafür wurde sie gerade eingeführt."
-        },
-        {
-          "id": "W4-5a",
-          "label": "5a",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "- $m \\cdot g \\cdot h$ gilt nur für kleine Höhen; bei $2000\\,\\mathrm{km}$ nimmt die Kraft deutlich ab.\n- In der Klammer sind Start und Ziel vertauscht: richtig ist $\\left(\\frac{1}{r_1} - \\frac{1}{r_2}\\right)$ mit $r_1 = R_E$ (Start), $r_2 = 8370\\,\\mathrm{km}$ (Ziel).\n\n$W = 6{,}67 \\cdot 10^{-11} \\cdot 5{,}97 \\cdot 10^{24} \\cdot 500 \\cdot \\left(\\frac{1}{6{,}37 \\cdot 10^{6}} - \\frac{1}{8{,}37 \\cdot 10^{6}}\\right)\\,\\mathrm{J}$\n\n$W \\approx 7{,}5 \\cdot 10^9\\,\\mathrm{J}$"
-        },
-        {
-          "id": "W4-5b",
-          "label": "5b",
-          "punkte": 1,
-          "afb": "III",
-          "loesung": "Die Deutung ist falsch. Beim Heben wird gegen die Gravitationskraft Arbeit verrichtet; die potenzielle Energie der Kapsel nimmt zu (das Potenzial wächst nach außen). Die Arbeit muss zugeführt werden, sie ist positiv. Frei wird Energie erst beim Zurückfallen. Das falsche Vorzeichen kommt nur vom vertauschten Klammerausdruck."
-        }
-      ]
-    },
-    {
-      "id": "W5",
+      "id": "N8",
       "titel": "Modellgrenzen: Wann reicht m·g·h?",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -678,110 +784,547 @@
         "c8",
         "c10"
       ],
-      "bild": "img/st_W5.svg",
-      "pdf": "pdf/W5_Modellgrenzen_mgh.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Modellgrenzen_mgh.pdf",
       "aufgaben": [
         {
-          "id": "W5-1a",
+          "id": "N8-1a",
           "label": "1a",
           "punkte": 1,
           "afb": "I",
           "loesung": "$r_2 = 2 \\cdot R_E = 12\\,740\\,\\mathrm{km}$\n\n$\\frac{W}{m} = 6{,}67 \\cdot 10^{-11} \\cdot 5{,}97 \\cdot 10^{24} \\cdot \\frac{6{,}37 \\cdot 10^{6}}{6{,}37 \\cdot 10^{6} \\cdot 1{,}274 \\cdot 10^{7}}\\,\\mathrm{J/kg}$\n\n$\\frac{W}{m} \\approx 3{,}126 \\cdot 10^7\\,\\mathrm{J/kg}$; $g \\cdot h = 9{,}813\\,\\mathrm{N/kg} \\cdot 6{,}37 \\cdot 10^{6}\\,\\mathrm{m} \\approx 6{,}251 \\cdot 10^7\\,\\mathrm{J/kg}$\n\nAbweichung: $\\frac{6{,}251 - 3{,}126}{3{,}126} \\approx +100\\,\\%$ – die Näherung liefert das Doppelte."
         },
         {
-          "id": "W5-1b",
+          "id": "N8-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "III",
           "loesung": "Mit $r_2 - r_1 = h$ und $\\gamma \\cdot m_E = g \\cdot R_E^2$:\n\n$W = m \\cdot g \\cdot R_E^2 \\cdot \\frac{h}{R_E \\cdot (R_E + h)} = m \\cdot g \\cdot h \\cdot \\frac{R_E}{R_E + h}$\n\n$\\frac{m \\cdot g \\cdot h}{W} = \\frac{R_E + h}{R_E} = 1 + \\frac{h}{R_E}$\n\nDeutung: $m \\cdot g \\cdot h$ ist immer zu groß, der relative Fehler ist genau $\\frac{h}{R_E}$ – passend zur Tabelle (0,16 %, 6,28 %, 100 %)."
         },
         {
-          "id": "W5-1c",
+          "id": "N8-1c",
           "label": "1c",
           "punkte": 2,
           "afb": "II",
           "loesung": "$\\frac{h}{R_E} = 0{,}01 \\Rightarrow h = 0{,}01 \\cdot 6370\\,\\mathrm{km} \\approx 64\\,\\mathrm{km}$\n\nFür alles auf und nahe der Erde (Berge, Flugzeuge, Wetterballone bis rund 40 km) reicht $m \\cdot g \\cdot h$. Für Satelliten (mehrere 100 km) und Raumfahrt muss man mit dem Gravitationsgesetz rechnen."
         },
         {
-          "id": "W5-2a",
+          "id": "N8-2a",
           "label": "2a",
           "punkte": 1,
           "afb": "I",
           "loesung": "$V(R_E) = -\\frac{6{,}67 \\cdot 10^{-11} \\cdot 5{,}97 \\cdot 10^{24}}{6{,}37 \\cdot 10^{6}}\\,\\mathrm{J/kg} \\approx -6{,}25 \\cdot 10^7\\,\\mathrm{J/kg}$\n\nUm 1 kg von der Erdoberfläche „ins Unendliche“ zu bringen, braucht man also $6{,}25 \\cdot 10^7\\,\\mathrm{J}$."
         },
         {
-          "id": "W5-2b",
+          "id": "N8-2b",
           "label": "2b",
           "punkte": 2,
           "afb": "II",
           "loesung": "Die kinetische Energie beim Start muss die Potenzialdifferenz bis ins Unendliche decken:\n\n$\\frac{1}{2} \\cdot m \\cdot v^2 = m \\cdot \\gamma \\cdot \\frac{m_E}{R_E} \\Rightarrow v = \\sqrt{\\frac{2 \\cdot \\gamma \\cdot m_E}{R_E}}$\n\n$v = \\sqrt{2 \\cdot 6{,}25 \\cdot 10^7\\,\\mathrm{J/kg}} \\approx 1{,}12 \\cdot 10^4\\,\\mathrm{m/s} = 11{,}2\\,\\mathrm{km/s}$\n\nDie Masse kürzt sich. (Die Formel steht als „Fluchtgeschwindigkeit“ auch im Formeldokument.) Mit $m \\cdot g \\cdot h$ käme man dagegen nie ans Ziel: Es wächst ohne Grenze, die wirkliche Arbeit bis ins Unendliche bleibt endlich."
         },
         {
-          "id": "W5-3",
+          "id": "N8-3",
           "label": "3",
           "punkte": 2,
           "afb": "III",
           "loesung": "Ein Rechteck liefert $\\langle F \\rangle \\cdot (r_{i+1} - r_i) = \\gamma \\cdot m_E \\cdot m \\cdot \\frac{r_{i+1} - r_i}{r_i \\cdot r_{i+1}} = \\gamma \\cdot m_E \\cdot m \\cdot \\left(\\frac{1}{r_i} - \\frac{1}{r_{i+1}}\\right)$.\n\nIn der Summe heben sich alle Zwischenwerte paarweise auf ($-\\frac{1}{r_2} + \\frac{1}{r_2}$, …), es bleiben nur $\\frac{1}{r_1} - \\frac{1}{r_n}$. Für jede Zerlegung – sogar für ein einziges Rechteck – kommt dasselbe heraus. Mit dem geometrischen Mittel ist die Rechteckmethode also nicht nur eine gute Näherung, sondern exakt.",
-          "loesung_bild": "img/W5-3.png"
+          "loesung_bild": "img/N8-3.png"
         }
       ]
     },
     {
-      "id": "W6",
-      "titel": "Feldlinienbilder: Erde und Mond",
+      "id": "N9",
+      "titel": "Fehler finden und begründen",
       "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 20,
       "hilfsmittel": "WTR, Formeldokument",
       "checkliste": [
+        "c9",
+        "c10",
+        "c3",
+        "c2",
         "c6",
-        "c5",
         "c7"
       ],
-      "bild": "img/st_W6.svg",
-      "pdf": "pdf/W6_Feldlinienbilder_Erde_Mond.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Fehler_finden_begruenden.pdf",
       "aufgaben": [
         {
-          "id": "W6-1a",
+          "id": "N9-1a",
           "label": "1a",
           "punkte": 2,
-          "afb": "I",
-          "loesung": "Richtung = Pfeilrichtung der Feldlinie durch den Punkt: Die Linien durch A, B und C enden an der Erde, das Feld zeigt dort zur Erde hin. Die Linie durch D endet am Mond, das Feld zeigt zum Mond hin. Der Pfeil in D zeigt schräg nach links oben, weil Erde und Mond dort in fast dieselbe Richtung ziehen; entscheidend ist, dass die Linie in den Mond hineinläuft.\n\nIn A ist das Feld stärker: A liegt etwa halb so weit vom Erdmittelpunkt entfernt wie C, und es gilt $G^* \\sim \\frac{1}{r^2}$. Im Bild liegen die Feldlinien nahe der Erde insgesamt dichter."
+          "afb": "II",
+          "loesung": "In Kepler 3 steht die **große Halbachse**, nicht der Perihelabstand.\n\n$a = \\frac{1{,}2\\,\\mathrm{AE} + 4{,}0\\,\\mathrm{AE}}{2} = 2{,}6\\,\\mathrm{AE}$; $T = 1\\,\\text{Jahr} \\cdot \\sqrt{2{,}6^3} \\approx 4{,}2\\,\\text{Jahre}$"
         },
         {
-          "id": "W6-1b",
+          "id": "N9-1b",
           "label": "1b",
           "punkte": 1,
-          "afb": "II",
-          "loesung": "An jedem Ort wirkt auf einen Probekörper genau eine Gesamtkraft (aus Erd- und Mondanziehung zusammengesetzt). Die Feldlinie zeigt deren Richtung – zwei Richtungen an einem Ort kann es nicht geben."
+          "afb": "III",
+          "loesung": "Die große Halbachse ist der Mittelwert aus kleinstem und größtem Abstand von der Sonne. Eine Kreisbahn ist der Sonderfall $\\varepsilon = 0$ mit $a = r$. Nach Kepler 3 haben alle Bahnen mit gleicher großer Halbachse dieselbe Umlaufdauer, egal wie langgestreckt sie sind; der Perihelabstand allein legt die Bahn nicht fest."
         },
         {
-          "id": "W6-1c",
-          "label": "1c",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "In N sind die Beträge beider Feldstärken gleich (Richtungen entgegengesetzt), $x$ = Abstand von der Erde:\n\n$\\gamma \\cdot \\frac{81 \\cdot m_{Mond}}{x^2} = \\gamma \\cdot \\frac{m_{Mond}}{(d - x)^2} \\Rightarrow \\frac{x}{d - x} = \\sqrt{81} = 9$\n\n$x = \\frac{9}{10} \\cdot d = 0{,}9 \\cdot 384\\,000\\,\\mathrm{km} \\approx 346\\,000\\,\\mathrm{km}$\n\n(Eine Raumkapsel ohne Antrieb wird bis N von der Erde gebremst, danach „fällt“ sie zum Mond.)"
-        },
-        {
-          "id": "W6-2",
+          "id": "N9-2",
           "label": "2",
           "punkte": 2,
-          "afb": "I",
-          "loesung": "$|\\vec{a}| = \\sqrt{a_x^2 + a_y^2 + a_z^2}$\n\nLage 1: $\\sqrt{0{,}04^2 + 0{,}10^2 + 9{,}81^2} \\approx 9{,}81$; Lage 2: $\\sqrt{6{,}93^2 + 0{,}06^2 + 6{,}94^2} \\approx 9{,}81$; Lage 3: $\\sqrt{3{,}36^2 + 9{,}21^2 + 0{,}08^2} \\approx 9{,}80$ (je in $\\mathrm{m/s^2}$ bzw. $\\mathrm{N/kg}$)\n\nDer Betrag ist in allen Lagen gleich: Die Feldstärke gehört zum Ort ($9{,}81\\,\\mathrm{N/kg}$ senkrecht nach unten), die Sonde zerlegt sie nur in Komponenten entlang ihrer eigenen Achsen. (Eine ruhende Sonde zeigt die Haltekraft pro Masse an, also nach oben – entgegen $\\vec{G}^*$; für den Betrag spielt das keine Rolle.)"
+          "afb": "II",
+          "loesung": "$r$ ist der Abstand vom **Erdmittelpunkt**, nicht die Höhe über dem Boden: $r = 6370\\,\\mathrm{km} + 820\\,\\mathrm{km} = 7190\\,\\mathrm{km}$\n\n$F_G = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{5{,}97 \\cdot 10^{24} \\cdot 4100}{(7{,}19 \\cdot 10^{6})^2}\\,\\mathrm{N} \\approx 3{,}2 \\cdot 10^4\\,\\mathrm{N}$\n\n(Kontrolle über die Größenordnung: Am Erdboden wirkt $m \\cdot g \\approx 4{,}0 \\cdot 10^4\\,\\mathrm{N}$. Weiter weg muss die Kraft kleiner sein; Lösung B liefert das 60-Fache der Gewichtskraft am Boden.)"
         },
         {
-          "id": "W6-3a",
+          "id": "N9-3a",
           "label": "3a",
           "punkte": 1,
           "afb": "II",
-          "loesung": "$G^* \\sim \\frac{1}{r^2}$: $\\frac{\\Delta G^*}{G^*} \\approx -2 \\cdot \\frac{\\Delta h}{R_E} = -2 \\cdot \\frac{15\\,\\mathrm{m}}{6{,}37 \\cdot 10^{6}\\,\\mathrm{m}} \\approx -4{,}7 \\cdot 10^{-6}$\n\n$\\Delta G^* \\approx 4{,}7 \\cdot 10^{-6} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 4{,}6 \\cdot 10^{-5}\\,\\mathrm{N/kg}$ (oben kleiner). Ebenso: $G^*$ direkt für $r = R_E$ und $r = R_E + 15\\,\\mathrm{m}$ berechnen und subtrahieren."
+          "loesung": "- Die Pfeile zeigen nach außen; die Gravitation zieht zum Planetenmittelpunkt, die Pfeile müssen nach innen zeigen.\n- Zwei Linien kreuzen sich.\n- Feldlinien sind keine Bahnen: Sie zeigen die Richtung der Kraft auf einen Probekörper."
         },
         {
-          "id": "W6-3b",
+          "id": "N9-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "An jedem Ort wirkt auf einen Probekörper genau eine Gesamtkraft mit einer Richtung. Kreuzen sich zwei Linien, gäbe es dort zwei Kraftrichtungen – wie eine Addition mit zwei Ergebnissen.\n\nEin losgelassener Körper fällt zwar entlang der Feldlinie, ein Körper mit Anfangsgeschwindigkeit quer zur Feldlinie (Mond, Satellit) bewegt sich aber nicht entlang der Linie. Die Bahn hängt von der Anfangsgeschwindigkeit ab, das Feld nicht."
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Doppelt ist die **Kraft**: $F_G = 2\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 19{,}6\\,\\mathrm{N}$ statt $9{,}81\\,\\mathrm{N}$.\n\nDie Feldstärke $G^* = \\frac{F_G}{m} = \\frac{19{,}6\\,\\mathrm{N}}{2\\,\\mathrm{kg}} = 9{,}81\\,\\mathrm{N/kg}$ ist für beide Körper gleich. Sie beschreibt den Ort im Feld und hängt nicht vom Probekörper ab – dafür wurde sie gerade eingeführt."
+        },
+        {
+          "id": "N9-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- $m \\cdot g \\cdot h$ gilt nur für kleine Höhen; bei $2000\\,\\mathrm{km}$ nimmt die Kraft deutlich ab.\n- In der Klammer sind Start und Ziel vertauscht: richtig ist $\\left(\\frac{1}{r_1} - \\frac{1}{r_2}\\right)$ mit $r_1 = R_E$ (Start), $r_2 = 8370\\,\\mathrm{km}$ (Ziel).\n\n$W = 6{,}67 \\cdot 10^{-11} \\cdot 5{,}97 \\cdot 10^{24} \\cdot 500 \\cdot \\left(\\frac{1}{6{,}37 \\cdot 10^{6}} - \\frac{1}{8{,}37 \\cdot 10^{6}}\\right)\\,\\mathrm{J}$\n\n$W \\approx 7{,}5 \\cdot 10^9\\,\\mathrm{J}$"
+        },
+        {
+          "id": "N9-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Deutung ist falsch. Beim Heben wird gegen die Gravitationskraft Arbeit verrichtet; die potenzielle Energie der Kapsel nimmt zu (das Potenzial wächst nach außen). Die Arbeit muss zugeführt werden, sie ist positiv. Frei wird Energie erst beim Zurückfallen. Das falsche Vorzeichen kommt nur vom vertauschten Klammerausdruck."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Check-out",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c9",
+        "c2",
+        "c3",
+        "c4",
+        "c6",
+        "c7",
+        "c10"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Am Ende der Lerntheke bearbeiten. Ohne Hilfsmittel, 8 Minuten. Jede Aufgabe entspricht der Aufgabe mit derselben Nummer in N1 – vergleichen Sie in der Auswertung Ihre Punkte in N1 und N10.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Kepler 2: In gleichen Zeiten überstreicht der Fahrstrahl gleiche Flächen. Weit weg von der Erde ist der Fahrstrahl lang, der Satellit legt dort in gleicher Zeit nur ein kurzes Bahnstück zurück. Diese Bahn wird genutzt, weil der Satellit so lange über hohen nördlichen Breiten „hängt“.\n\n*A gewählt?* Kepler 2 verwechselt. *B gewählt?* Die Gravitationskraft ändert den Betrag der Geschwindigkeit. *D gewählt?* Die Erde steht im Brennpunkt, nicht im Mittelpunkt. → **N3** Aufgabe 1, danach **N2** Aufgabe 1"
+        },
+        {
+          "id": "N10-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $\\frac{T_2^2}{T_1^2} = 9^3 = 729$, also $\\frac{T_2}{T_1} = \\sqrt{729} = 27$ (oder: $\\sqrt{9}^3 = 3^3$).\n\n*B gewählt?* $T \\sim a$. *C gewählt?* $T \\sim a^2$. *D gewählt?* $T \\sim \\sqrt{a}$. → **N7** (Tandem, Nummern 3 und 4), danach **N4**"
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $F_G \\sim \\frac{1}{r^2}$: Halber Abstand ergibt $\\frac{1}{(1/2)^2} = 4$, also die vierfache Kraft.\n\n*B gewählt?* $F_G \\sim \\frac{1}{r}$ angenommen. *A oder C gewählt?* Die Kraft wächst beim Annähern. → **N2** Aufgabe 2a, danach **N7** (Tandem, Nummer 6)"
+        },
+        {
+          "id": "N10-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Wechselwirkungsprinzip: Der Apfel zieht die Erde genauso stark an wie die Erde den Apfel. Wegen der riesigen Erdmasse ist die Beschleunigung der Erde aber unmessbar klein.\n\n*A oder D gewählt?* Kraft und Wirkung (Beschleunigung) verwechselt. *C gewählt?* Gravitation wirkt zwischen allen Massen. → **N7** (Tandem, Nummer 5), danach **N2** Aufgabe 2a; Wechselwirkungsprinzip: **G2** Aufgabe 2d"
+        },
+        {
+          "id": "N10-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $\\left(\\frac{6400\\,\\mathrm{km}}{6940\\,\\mathrm{km}}\\right)^2 \\approx 0{,}85$. Das Teleskop bleibt nur deshalb oben, weil es mit rund $7{,}6\\,\\mathrm{km/s}$ um die Erde kreist: Die Gravitationskraft liefert die Zentripetalkraft.\n\n*A oder B gewählt?* „Im All gibt es keine Schwerkraft“ – eine Fehlvorstellung. *C gewählt?* Die Feldstärke nimmt mit dem Abstand ab. → **N2** Aufgabe 2, danach **N7** (Tandem, Nummer 6); Zentripetalkraft: **G2** Aufgabe 2c"
+        },
+        {
+          "id": "N10-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Feldlinien zeigen die Richtung der Kraft auf einen Probekörper – beim Gravitationsfeld zum Planetenmittelpunkt. Ihre Dichte zeigt die Feldstärke. Sie kreuzen sich nie, weil die Gesamtkraft an jedem Ort eindeutig ist.\n\n*A gewählt?* Gravitation zieht an, die Pfeile zeigen nach innen. *C gewählt?* Die Länge einer Linie sagt nichts aus; weit draußen liegen die Linien weniger dicht, das Feld ist schwächer. *D gewählt?* Feldlinien sind keine Bahnen. → **N6** Aufgabe 1, danach **N9** Aufgabe 3"
+        },
+        {
+          "id": "N10-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – $W = \\gamma \\cdot M \\cdot m \\cdot \\left(\\frac{1}{R_E} - \\frac{1}{4R_E}\\right) = \\frac{3}{4} \\cdot m \\cdot g \\cdot R_E$; $m \\cdot g \\cdot h = 3 \\cdot m \\cdot g \\cdot R_E$, also viermal so groß. Die Kraft nimmt beim Heben ab.\n\n*A gewählt?* $m \\cdot g \\cdot h$ gilt nur für kleine Höhen. *B oder D gewählt?* Faktor bzw. Richtung falsch. → **N8** Aufgabe 1, danach **N5** Aufgabe 2"
+        },
+        {
+          "id": "N10-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Das Potenzial hängt nur vom Ort ab ($V = \\frac{E_{Pot}}{m}$), die Energie $\\Delta E_{Pot} = m \\cdot \\Delta V$ wächst mit der Masse: $\\frac{400\\,000\\,\\mathrm{kg}}{500\\,\\mathrm{kg}} = 800$.\n\n*B gewählt?* Potenzial und Energie verwechselt. *C gewählt?* Die Energie hängt von der Masse ab. *D gewählt?* Durch die Masse geteilt statt multipliziert. → **N5** Aufgabe 2c, danach **N9** Aufgabe 4"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Sonnensonde Parker",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c2",
+        "c1",
+        "g1",
+        "g3",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Bahnen am Himmel) – am besten nach N2 bis N3.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Sonnensonde_Parker.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$r_P = 6{,}9 \\cdot 10^{6}\\,\\mathrm{km} = 6{,}9 \\cdot 10^{9}\\,\\mathrm{m}$; $\\frac{6{,}9 \\cdot 10^{6}\\,\\mathrm{km}}{1{,}496 \\cdot 10^{8}\\,\\mathrm{km}} \\approx 0{,}046\\,\\mathrm{AE}$\n\n$r_A = 1{,}09 \\cdot 10^{8}\\,\\mathrm{km} = 1{,}09 \\cdot 10^{11}\\,\\mathrm{m}$; $\\frac{1{,}09 \\cdot 10^{8}\\,\\mathrm{km}}{1{,}496 \\cdot 10^{8}\\,\\mathrm{km}} \\approx 0{,}729\\,\\mathrm{AE}$"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$a = \\frac{r_P + r_A}{2} = \\frac{6{,}9 + 109}{2}$ Millionen km $= 57{,}95$ Millionen km $\\approx 0{,}387\\,\\mathrm{AE}$\n\n$e = a - r_P = 51{,}05$ Millionen km; $\\varepsilon = \\frac{e}{a} = \\frac{51{,}05}{57{,}95} \\approx 0{,}88$\n\nEine sehr langgestreckte Ellipse (Erde: $0{,}0167$), siehe Abb. 1."
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gleicher Zentralkörper (Sonne): $\\frac{T^2}{(1\\,\\text{Jahr})^2} = \\frac{a^3}{(1\\,\\mathrm{AE})^3}$\n\n$T = 1\\,\\text{Jahr} \\cdot \\sqrt{0{,}3874^3} \\approx 0{,}241\\,\\text{Jahre}$\n\n$T \\approx 0{,}241 \\cdot 365{,}25\\,\\mathrm{d} \\approx 88\\,\\mathrm{d}$ – so lang wie ein Merkurjahr, denn Merkur hat dieselbe große Halbachse."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Kepler 2: $r \\cdot \\sin(\\alpha) \\cdot v = \\text{konst.}$; in Perihel und Aphel ist $\\alpha = 90°$, also $r_P \\cdot v_P = r_A \\cdot v_A$.\n\n$v_A = v_P \\cdot \\frac{r_P}{r_A} = 190\\,\\mathrm{km/s} \\cdot \\frac{6{,}9}{109} \\approx 12{,}0\\,\\mathrm{km/s}$"
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\omega_P = \\frac{1{,}90 \\cdot 10^{5}\\,\\mathrm{m/s}}{6{,}9 \\cdot 10^{9}\\,\\mathrm{m}} \\approx 2{,}75 \\cdot 10^{-5}\\,\\frac{1}{\\mathrm{s}}$; $\\omega_A = \\frac{1{,}20 \\cdot 10^{4}\\,\\mathrm{m/s}}{1{,}09 \\cdot 10^{11}\\,\\mathrm{m}} \\approx 1{,}10 \\cdot 10^{-7}\\,\\frac{1}{\\mathrm{s}}$\n\nMittelwert: $\\frac{2\\pi}{T} = \\frac{2\\pi}{88 \\cdot 86\\,400\\,\\mathrm{s}} \\approx 8{,}26 \\cdot 10^{-7}\\,\\frac{1}{\\mathrm{s}}$\n\nIm Perihel dreht sich der Fahrstrahl rund 33-mal so schnell wie im Mittel, im Aphel nur mit etwa einem Achtel davon. Zwischen Perihel und Aphel liegt der Faktor 250."
+        },
+        {
+          "id": "V1-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{E_{kin,P}}{E_{kin,A}} = \\frac{v_P^2}{v_A^2} = \\left(\\frac{190}{12{,}0}\\right)^2 \\approx 250$ (die Masse kürzt sich)\n\nDie Gesamtenergie der Sonde bleibt ohne Antrieb und Reibung erhalten. Auf dem Weg zum Perihel „fällt“ die Sonde zur Sonne hin: Die Gravitationskraft hat eine Komponente in Bewegungsrichtung, potenzielle Energie im Feld der Sonne wird in kinetische Energie umgewandelt – wie bei einem fallenden Stein. Auf dem Weg zum Aphel läuft die Umwandlung rückwärts."
+        },
+        {
+          "id": "V1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Nach dem 2. Kepler’schen Gesetz überstreicht der Fahrstrahl in gleichen Zeiten gleich große Flächen. Nahe der Sonne ist der Fahrstrahl kurz, die Sonde ist schnell und legt den sonnennahen Bahnteil in kurzer Zeit zurück. Weit draußen ist sie langsam und bleibt lange.\n\nDeshalb ist sie deutlich **weniger** als die Hälfte der Zeit näher als $a$ an der Sonne (genau gerechnet nur rund 22 %, also etwa 19 von 88 Tagen). Die große Halbachse ist der Mittelwert aus kleinstem und größtem Abstand, kein Mittelwert über die Zeit."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Ein Orbiter um den Mond",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c1",
+        "c2",
+        "g1",
+        "g2",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Bahnen am Himmel, Gravitationskraft) – am besten nach N4.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Orbiter_um_den_Mond.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Abstand vom Mondmittelpunkt: $r = 1737\\,\\mathrm{km} + 50\\,\\mathrm{km} = 1787\\,\\mathrm{km} = 1{,}787 \\cdot 10^{6}\\,\\mathrm{m}$\n\n$F_G = \\gamma \\cdot \\frac{m_{Mond} \\cdot m}{r^2}$\n\n$F_G = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{7{,}35 \\cdot 10^{22} \\cdot 1100}{(1{,}787 \\cdot 10^{6})^2}\\,\\mathrm{N} \\approx 1{,}69 \\cdot 10^{3}\\,\\mathrm{N}$\n\nErde: $1100\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 1{,}08 \\cdot 10^{4}\\,\\mathrm{N}$ – in der Mondumlaufbahn wirkt rund 16 % davon."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$F_G = F_Z$: $\\gamma \\cdot \\frac{m_{Mond} \\cdot m}{r^2} = \\frac{m \\cdot v^2}{r} \\Rightarrow v = \\sqrt{\\frac{\\gamma \\cdot m_{Mond}}{r}}$\n\n$v = \\sqrt{\\frac{6{,}67 \\cdot 10^{-11} \\cdot 7{,}35 \\cdot 10^{22}}{1{,}787 \\cdot 10^{6}}}\\,\\mathrm{m/s} \\approx 1{,}66\\,\\mathrm{km/s}$\n\n$T = \\frac{2\\pi \\cdot r}{v} = \\frac{2\\pi \\cdot 1{,}787 \\cdot 10^{6}\\,\\mathrm{m}}{1656\\,\\mathrm{m/s}} \\approx 6{,}78 \\cdot 10^{3}\\,\\mathrm{s} \\approx 113\\,\\mathrm{min}$\n\n$\\omega = \\frac{2\\pi}{T} \\approx 9{,}27 \\cdot 10^{-4}\\,\\frac{1}{\\mathrm{s}}$"
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Wechselwirkungsprinzip: Zieht der Mond LRO mit $1{,}69 \\cdot 10^{3}\\,\\mathrm{N}$ an, zieht LRO den Mond mit gleich großer, entgegengesetzter Kraft an (im Gravitationsgesetz stehen beide Massen gleichberechtigt).\n\nAktionsprinzip: $a = \\frac{F}{m_{Mond}} = \\frac{1{,}69 \\cdot 10^{3}\\,\\mathrm{N}}{7{,}35 \\cdot 10^{22}\\,\\mathrm{kg}} \\approx 2{,}3 \\cdot 10^{-20}\\,\\mathrm{m/s^2}$ – unmessbar klein. Deshalb darf man den Mond als ruhenden Zentralkörper betrachten."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Abstände vom Mondmittelpunkt: $r_P = 1737\\,\\mathrm{km} + 30\\,\\mathrm{km} = 1767\\,\\mathrm{km}$, $r_A = 1737\\,\\mathrm{km} + 216\\,\\mathrm{km} = 1953\\,\\mathrm{km}$\n\n$a = \\frac{1767\\,\\mathrm{km} + 1953\\,\\mathrm{km}}{2} = 1860\\,\\mathrm{km}$; $e = a - r_P = 93\\,\\mathrm{km}$\n\n$\\varepsilon = \\frac{e}{a} = \\frac{93}{1860} = 0{,}050$ – fast ein Kreis."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beide Bahnen haben denselben Zentralkörper (Mond), bei der Kreisbahn ist $a = r$:\n\n$T_2 = T_1 \\cdot \\sqrt{\\left(\\frac{a_2}{a_1}\\right)^3} = 113\\,\\mathrm{min} \\cdot \\sqrt{\\left(\\frac{1860}{1787}\\right)^3} \\approx 120\\,\\mathrm{min}$"
+        },
+        {
+          "id": "V2-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Kepler 2 mit $\\alpha = 90°$: $r_P \\cdot v_P = r_A \\cdot v_A \\Rightarrow \\frac{v_P}{v_A} = \\frac{r_A}{r_P} = \\frac{1953}{1767} \\approx 1{,}11$"
+        },
+        {
+          "id": "V2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Erdsatellit in $50\\,\\mathrm{km}$ Höhe ($r = 6420\\,\\mathrm{km}$): $v = \\sqrt{\\frac{\\gamma \\cdot m_E}{r}} = \\sqrt{\\frac{6{,}67 \\cdot 10^{-11} \\cdot 5{,}97 \\cdot 10^{24}}{6{,}42 \\cdot 10^{6}}}\\,\\mathrm{m/s} \\approx 7{,}88\\,\\mathrm{km/s}$\n\nVerhältnis: $\\frac{7{,}88}{1{,}66} \\approx 4{,}75$ – nicht 81.\n\nDie Aussage ist falsch: Aus $F_G = F_Z$ folgt $v = \\sqrt{\\frac{\\gamma \\cdot M}{r}}$. Die Masse des Zentralkörpers geht nur unter der Wurzel ein, und der Bahnradius ist beim Mond viel kleiner (gleiche Höhe heißt nicht gleicher Abstand vom Mittelpunkt). Beides verkleinert den Unterschied."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Zu Gast beim Asteroiden Bennu",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 30,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c7",
+        "c5",
+        "c6",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "g1",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 30 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Bahnen am Himmel, Gravitationskraft, Gravitationsfeld) – am besten nach N5 bis N7.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Asteroid_Bennu.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$a = \\frac{0{,}897\\,\\mathrm{AE} + 1{,}356\\,\\mathrm{AE}}{2} \\approx 1{,}127\\,\\mathrm{AE}$\n\n$\\varepsilon = \\frac{e}{a} = \\frac{r_A - r_P}{r_A + r_P} = \\frac{0{,}459}{2{,}253} \\approx 0{,}204$"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Kepler 3, gleicher Zentralkörper (Sonne):\n\n$T = 1\\,\\text{Jahr} \\cdot \\sqrt{1{,}1265^3} \\approx 1{,}196\\,\\text{Jahre} \\approx 437\\,\\mathrm{d}$"
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$G^* = \\gamma \\cdot \\frac{m_B}{R_B^2} = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{7{,}33 \\cdot 10^{10}}{245^2}\\,\\mathrm{N/kg} \\approx 8{,}15 \\cdot 10^{-5}\\,\\mathrm{N/kg}$\n\n$\\frac{9{,}81\\,\\mathrm{N/kg}}{8{,}15 \\cdot 10^{-5}\\,\\mathrm{N/kg}} \\approx 1{,}2 \\cdot 10^{5}$ – rund 120 000-mal kleiner als auf der Erde."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Radiale Feldlinien, die von allen Seiten geradlinig zum Mittelpunkt von Bennu zeigen und sich nicht kreuzen; nach außen liegen sie weniger dicht. Der Kraftpfeil an der Sonde liegt auf der Feldlinie durch die Sonde und zeigt zu Bennu.",
+          "loesung_bild": "img/V3-2b.png"
+        },
+        {
+          "id": "V3-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Gravitationsfeld ist der Raum um Bennu, in dem jeder Körper mit Masse eine Kraft zu Bennu hin erfährt – ohne Berührung. Jedem Punkt des Raumes wird die Feldstärke als Vektor zugeordnet: Betrag $G^* = \\frac{F_G}{m}$, Richtung zum Mittelpunkt. Sie hängt nur vom Ort ab, nicht von der Sonde.\n\nDie Kraft auf die Sonde folgt aus der Feldstärke an ihrem Ort: $F_G = m \\cdot G^*$. Am Ort der Sonde ist $G^* = \\gamma \\cdot \\frac{m_B}{r^2} \\approx 1{,}6 \\cdot 10^{-6}\\,\\mathrm{N/kg}$, rund 50-mal kleiner als an der Oberfläche, weil $\\left(\\frac{1750}{245}\\right)^2 \\approx 51$."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F_G = \\gamma \\cdot \\frac{m_B \\cdot m}{r^2}$\n\n$F_G = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{7{,}33 \\cdot 10^{10} \\cdot 1500}{1750^2}\\,\\mathrm{N} \\approx 2{,}4 \\cdot 10^{-3}\\,\\mathrm{N}$\n\nSo viel wiegt auf der Erde ein Körper von einem Viertelgramm."
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$F_G = F_Z \\Rightarrow v = \\sqrt{\\frac{\\gamma \\cdot m_B}{r}}$\n\n$v = \\sqrt{\\frac{6{,}67 \\cdot 10^{-11} \\cdot 7{,}33 \\cdot 10^{10}}{1750}}\\,\\mathrm{m/s} \\approx 0{,}053\\,\\mathrm{m/s} = 5{,}3\\,\\mathrm{cm/s}$\n\n$T = \\frac{2\\pi \\cdot r}{v} = \\frac{2\\pi \\cdot 1750\\,\\mathrm{m}}{0{,}0529\\,\\mathrm{m/s}} \\approx 2{,}08 \\cdot 10^{5}\\,\\mathrm{s} \\approx 58\\,\\mathrm{h}$"
+        },
+        {
+          "id": "V3-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "$\\omega = \\frac{2\\pi}{T} = \\frac{2\\pi}{4{,}30 \\cdot 3600\\,\\mathrm{s}} \\approx 4{,}06 \\cdot 10^{-4}\\,\\frac{1}{\\mathrm{s}}$\n\n$a_Z = \\omega^2 \\cdot r \\approx (4{,}06 \\cdot 10^{-4})^2 \\cdot 280\\,\\mathrm{m/s^2} \\approx 4{,}6 \\cdot 10^{-5}\\,\\mathrm{m/s^2}$\n\n$G^* = \\gamma \\cdot \\frac{m_B}{(280\\,\\mathrm{m})^2} \\approx 6{,}2 \\cdot 10^{-5}\\,\\mathrm{N/kg}$\n\nDie Gravitationskraft reicht aus, um die nötige Zentripetalkraft zu liefern ($m \\cdot G^* > m \\cdot a_Z$): Der Stein bleibt liegen. Aber knapp – rund 74 % der Gravitationskraft werden für die Kreisbewegung gebraucht, nur gut ein Viertel drückt den Stein auf den Boden. Ein leichter Stoß genügt, damit er abhebt. Würde sich Bennu etwas schneller drehen, flögen die Steine am Äquator davon."
+        },
+        {
+          "id": "V3-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{1}{2} \\cdot m \\cdot v^2 = m \\cdot G^* \\cdot h \\Rightarrow h = \\frac{v^2}{2 \\cdot G^*}$\n\n$h = \\frac{(0{,}10\\,\\mathrm{m/s})^2}{2 \\cdot 8{,}15 \\cdot 10^{-5}\\,\\mathrm{N/kg}} \\approx 61\\,\\mathrm{m}$"
+        },
+        {
+          "id": "V3-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Steighöhe von $61\\,\\mathrm{m}$ ist nicht klein gegen den Radius $245\\,\\mathrm{m}$. In $61\\,\\mathrm{m}$ Höhe ($r = 306\\,\\mathrm{m}$) beträgt die Feldstärke nur noch $\\left(\\frac{245}{306}\\right)^2 \\approx 64\\,\\%$ des Werts an der Oberfläche.\n\nDas Steinchen wird also auf dem Weg nach oben schwächer gebremst als angenommen und steigt **höher** als $61\\,\\mathrm{m}$. Die Annahme „überall gleiche Feldstärke“ (homogenes Feld) passt hier nicht. (Mit der Arbeit im Gravitationsfeld aus Phase 4 lässt sich genau rechnen: rund $82\\,\\mathrm{m}$.)"
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Forschungsrakete",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 30,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c10",
+        "c2",
+        "c3",
+        "c4",
+        "c7",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 30 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 4 (Bahnen am Himmel, Gravitationskraft, Gravitationsfeld, Energie im Gravitationsfeld) – am besten nach N8 bis N9.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Forschungsrakete.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E_{kin} = \\frac{1}{2} \\cdot m \\cdot v_1^2 = \\frac{1}{2} \\cdot 400\\,\\mathrm{kg} \\cdot (1{,}9 \\cdot 10^{3}\\,\\mathrm{m/s})^2 \\approx 7{,}22 \\cdot 10^{8}\\,\\mathrm{J}$"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Energiebilanz von $r_1 = R_E + h_1 = 6440\\,\\mathrm{km}$ bis $r_2$ (Gipfel):\n\n$\\frac{1}{2} \\cdot m \\cdot v_1^2 = \\gamma \\cdot m_E \\cdot m \\cdot \\left(\\frac{1}{r_1} - \\frac{1}{r_2}\\right) \\Rightarrow \\frac{1}{r_2} = \\frac{1}{r_1} - \\frac{v_1^2}{2 \\cdot \\gamma \\cdot m_E}$\n\n$\\frac{1}{r_2} = \\frac{1}{6{,}44 \\cdot 10^{6}\\,\\mathrm{m}} - \\frac{(1{,}9 \\cdot 10^{3}\\,\\mathrm{m/s})^2}{2 \\cdot 6{,}67 \\cdot 10^{-11} \\cdot 5{,}97 \\cdot 10^{24}\\,\\mathrm{m^3/s^2}}$\n\n$\\frac{1}{r_2} \\approx (1{,}5528 - 0{,}0453) \\cdot 10^{-7}\\,\\frac{1}{\\mathrm{m}} = 1{,}5075 \\cdot 10^{-7}\\,\\frac{1}{\\mathrm{m}}$\n\n$r_2 \\approx 6{,}634 \\cdot 10^{6}\\,\\mathrm{m}$, also Gipfelhöhe $h_2 = r_2 - R_E \\approx 264\\,\\mathrm{km}$"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{1}{2} \\cdot m \\cdot v_1^2 = m \\cdot g \\cdot \\Delta h \\Rightarrow \\Delta h = \\frac{v_1^2}{2 \\cdot g} = \\frac{(1{,}9 \\cdot 10^{3}\\,\\mathrm{m/s})^2}{2 \\cdot 9{,}81\\,\\mathrm{N/kg}} \\approx 184\\,\\mathrm{km}$, Gipfel bei $70\\,\\mathrm{km} + 184\\,\\mathrm{km} = 254\\,\\mathrm{km}$\n\nDas sind rund $10\\,\\mathrm{km}$ zu wenig. $m \\cdot g \\cdot h$ rechnet auf dem ganzen Weg mit der Feldstärke am Erdboden. Tatsächlich nimmt sie mit $\\frac{1}{r^2}$ ab (schon bei $70\\,\\mathrm{km}$ nur $9{,}60\\,\\mathrm{N/kg}$, im Gipfel $9{,}05\\,\\mathrm{N/kg}$): Die Nutzlast wird schwächer gebremst und steigt höher."
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\Delta V = \\frac{\\Delta E_{Pot}}{m} = \\frac{7{,}22 \\cdot 10^{8}\\,\\mathrm{J}}{400\\,\\mathrm{kg}} \\approx 1{,}81 \\cdot 10^{6}\\,\\mathrm{J/kg}$\n\n(ebenso $\\Delta V = \\frac{1}{2} \\cdot v_1^2$ oder $\\gamma \\cdot m_E \\cdot \\left(\\frac{1}{r_1} - \\frac{1}{r_2}\\right)$)"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Potenzialdifferenz hängt nur von Start- und Zielort ab, nicht von der Masse. Für jedes Experiment folgt die Energie direkt aus $\\Delta E_{Pot} = m \\cdot \\Delta V$: $2\\,\\mathrm{kg} \\cdot 1{,}81 \\cdot 10^{6}\\,\\mathrm{J/kg} \\approx 3{,}6 \\cdot 10^{6}\\,\\mathrm{J}$ und $25\\,\\mathrm{kg} \\cdot 1{,}81 \\cdot 10^{6}\\,\\mathrm{J/kg} \\approx 4{,}5 \\cdot 10^{7}\\,\\mathrm{J}$."
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$G^* = \\gamma \\cdot \\frac{m_E}{r_2^2} = \\frac{6{,}67 \\cdot 10^{-11} \\cdot 5{,}97 \\cdot 10^{24}}{(6{,}634 \\cdot 10^{6})^2}\\,\\mathrm{N/kg} \\approx 9{,}05\\,\\mathrm{N/kg}$\n\n$\\frac{9{,}05}{9{,}81} \\approx 92\\,\\%$ (ebenso $\\left(\\frac{6370}{6634}\\right)^2$)"
+        },
+        {
+          "id": "V4-3b",
           "label": "3b",
           "punkte": 2,
           "afb": "III",
-          "loesung": "Die Änderung beträgt rund 5 Millionstel des Wertes. Auch die Richtung ändert sich im Gebäude praktisch nicht (bei z. B. $30\\,\\mathrm{m}$ Gebäudebreite sind die Feldlinien an den beiden Enden um $\\frac{30\\,\\mathrm{m}}{6{,}37 \\cdot 10^{6}\\,\\mathrm{m}}$, also rund 0,0003°, gegeneinander geneigt). Das Feld darf als homogen gelten.\n\nDie Anzeige löst nur $0{,}01\\,\\mathrm{m/s^2}$ auf (zwei Nachkommastellen) und schwankt um $0{,}02\\,\\mathrm{m/s^2}$ – das ist rund 400-mal mehr als der gesuchte Unterschied. Die Messung kann den Unterschied nicht zeigen; Unterschiede im Messwert kommen von Neigung, Unterlage oder Sondendrift. Das Ergebnis „kein messbarer Unterschied“ bestätigt gerade das Modell."
+          "loesung": "Die Begründung ist falsch: Im Gipfel wirken noch 92 % der Gravitationskraft am Erdboden.\n\nSchwerelos sind die Experimente, weil nach Brennschluss nur noch die Gravitationskraft wirkt. Nach dem Aktionsprinzip erfahren Nutzlast und Experimente dann dieselbe Beschleunigung $a = G^*$ – sie fallen gemeinsam frei, nichts drückt auf eine Unterlage. Das gilt auf dem ganzen Flug oberhalb von $70\\,\\mathrm{km}$, beim Steigen wie beim Fallen, nicht nur im Gipfel."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gleicher Zentralkörper (Erde): $\\frac{T^2}{T_G^2} = \\frac{r^3}{r_G^3}$\n\n$T = 14{,}1\\,\\mathrm{h} \\cdot \\sqrt{\\left(\\frac{6634}{29\\,600}\\right)^3} \\approx 1{,}496\\,\\mathrm{h} \\approx 89{,}8\\,\\mathrm{min}$"
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$v = \\frac{2\\pi \\cdot r}{T} = \\frac{2\\pi \\cdot 6{,}634 \\cdot 10^{6}\\,\\mathrm{m}}{5386\\,\\mathrm{s}} \\approx 7{,}74\\,\\mathrm{km/s}$\n\nKontrolle: $v = \\sqrt{\\frac{\\gamma \\cdot m_E}{r}} = \\sqrt{\\frac{6{,}67 \\cdot 10^{-11} \\cdot 5{,}97 \\cdot 10^{24}}{6{,}634 \\cdot 10^{6}}}\\,\\mathrm{m/s} \\approx 7{,}75\\,\\mathrm{km/s}$ – stimmt bis auf die Rundung (14,1 h ist gerundet)."
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Kreisbahn: $\\frac{E_{kin}}{m} = \\frac{1}{2} \\cdot v^2 = \\frac{1}{2} \\cdot (7{,}75 \\cdot 10^{3}\\,\\mathrm{m/s})^2 \\approx 3{,}00 \\cdot 10^{7}\\,\\mathrm{J/kg}$\n\nHeben vom Erdboden auf die Gipfelhöhe: $\\Delta V = \\gamma \\cdot m_E \\cdot \\left(\\frac{1}{R_E} - \\frac{1}{r}\\right) \\approx 2{,}48 \\cdot 10^{6}\\,\\mathrm{J/kg}$\n\nFür die Umlaufbahn braucht man zusätzlich rund 12-mal so viel Energie wie für das Erreichen der Höhe. Die Aussage ist falsch: Schwierig ist nicht die Höhe, sondern die große waagerechte Geschwindigkeit. Deshalb fallen Forschungsraketen nach wenigen Minuten zurück."
         }
       ]
     }

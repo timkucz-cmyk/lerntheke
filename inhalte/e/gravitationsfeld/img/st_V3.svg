@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Kleiner Asteroid mit radialen Feldlinien und Sonde">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M109 44 L93 39"/>
+  <path class="marke" d="M93 39 L100 39 L99 44 Z"/>
+  <path class="grau" d="M98 59 L88 46"/>
+  <path class="marke" d="M88 46 L94 50 L90 53 Z"/>
+  <path class="grau" d="M80 65 L80 49"/>
+  <path class="marke" d="M80 49 L83 55 L77 55 Z"/>
+  <path class="grau" d="M62 59 L72 46"/>
+  <path class="marke" d="M72 46 L70 53 L66 50 Z"/>
+  <path class="grau" d="M51 44 L67 39"/>
+  <path class="marke" d="M67 39 L61 44 L60 39 Z"/>
+  <path class="grau" d="M51 26 L67 31"/>
+  <path class="marke" d="M67 31 L60 31 L61 26 Z"/>
+  <path class="grau" d="M62 11 L72 24"/>
+  <path class="marke" d="M72 24 L66 20 L70 17 Z"/>
+  <path class="grau" d="M80 5 L80 21"/>
+  <path class="marke" d="M80 21 L77 15 L83 15 Z"/>
+  <path class="grau" d="M98 11 L88 24"/>
+  <path class="marke" d="M88 24 L90 17 L94 20 Z"/>
+  <path class="grau" d="M109 26 L93 31"/>
+  <path class="marke" d="M93 31 L99 26 L100 31 Z"/>
+  <path class="fuell" d="M68 30 L76 22 L90 24 L94 36 L86 47 L72 45 Z"/>
+  <path class="akzent" d="M68 30 L76 22 L90 24 L94 36 L86 47 L72 45 Z"/>
+  <rect class="akzent" x="124" y="8" width="7" height="7"/>
+</svg>
