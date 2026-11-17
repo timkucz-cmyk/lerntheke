@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Welle, Doppelspalt und Häkchen als Check-in">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="akzent" d="M14.0 35.0 L14.5 36.7 L15.0 38.1 L15.5 38.9 L16.0 38.9 L16.5 38.1 L17.0 36.7 L17.5 35.0 L18.0 33.3 L18.5 31.9 L19.0 31.1 L19.5 31.1 L20.0 31.9 L20.5 33.3 L21.0 35.0 L21.5 36.7 L22.0 38.1 L22.5 38.9 L23.0 38.9 L23.5 38.1 L24.0 36.7 L24.5 35.0 L25.0 33.3 L25.5 31.9 L26.0 31.1 L26.5 31.1 L27.0 31.9 L27.5 33.3 L28.0 35.0 L28.5 36.7 L29.0 38.1 L29.5 38.9 L30.0 38.9 L30.5 38.1 L31.0 36.7 L31.5 35.0 L32.0 33.3 L32.5 31.9 L33.0 31.1 L33.5 31.1 L34.0 31.9 L34.5 33.3 L35.0 35.0 L35.5 36.7 L36.0 38.1 L36.5 38.9 L37.0 38.9 L37.5 38.1 L38.0 36.7 L38.5 35.0 L39.0 33.3 L39.5 31.9 L40.0 31.1 L40.5 31.1 L41.0 31.9 L41.5 33.3 L42.0 35.0 L42.5 36.7 L43.0 38.1 L43.5 38.9 L44.0 38.9 L44.5 38.1 L45.0 36.7 L45.5 35.0 L46.0 33.3 L46.5 31.9 L47.0 31.1 L47.5 31.1 L48.0 31.9 L48.5 33.3 L49.0 35.0 L49.5 36.7 L50.0 38.1 L50.5 38.9 L51.0 38.9 L51.5 38.1 L52.0 36.7 L52.5 35.0 L53.0 33.3 L53.5 31.9 L54.0 31.1"/>
+  <path class="grau" d="M66 8 V28 M66 33 V37 M66 42 V62"/>
+  <rect class="grau" x="96" y="10" width="8" height="50"/>
+  <rect class="fuell" x="96" y="12.5" width="8" height="5.0"/>
+  <rect class="fuell" x="96" y="22.5" width="8" height="5.0"/>
+  <rect class="fuell" x="96" y="32.5" width="8" height="5.0"/>
+  <rect class="fuell" x="96" y="42.5" width="8" height="5.0"/>
+  <rect class="fuell" x="96" y="52.5" width="8" height="5.0"/>
+  <path class="akzent" d="M122 36 l7 7 l14 -16"/>
+</svg>

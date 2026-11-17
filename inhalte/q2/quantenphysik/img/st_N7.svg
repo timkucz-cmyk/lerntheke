@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Tennisball, Welle und Quantenobjekt nebeneinander">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <circle class="grau" cx="30" cy="35" r="12"/>
+  <path class="hilfs" d="M20 28 q10 7 20 0 M20 42 q10 -7 20 0"/>
+  <path class="grau" d="M56.0 35.0 L56.5 36.9 L57.0 38.5 L57.5 39.9 L58.0 40.7 L58.5 41.0 L59.0 40.7 L59.5 39.9 L60.0 38.5 L60.5 36.9 L61.0 35.0 L61.5 33.1 L62.0 31.5 L62.5 30.1 L63.0 29.3 L63.5 29.0 L64.0 29.3 L64.5 30.1 L65.0 31.5 L65.5 33.1 L66.0 35.0 L66.5 36.9 L67.0 38.5 L67.5 39.9 L68.0 40.7 L68.5 41.0 L69.0 40.7 L69.5 39.9 L70.0 38.5 L70.5 36.9 L71.0 35.0 L71.5 33.1 L72.0 31.5 L72.5 30.1 L73.0 29.3 L73.5 29.0 L74.0 29.3 L74.5 30.1 L75.0 31.5 L75.5 33.1 L76.0 35.0 L76.5 36.9 L77.0 38.5 L77.5 39.9 L78.0 40.7 L78.5 41.0 L79.0 40.7 L79.5 39.9 L80.0 38.5 L80.5 36.9 L81.0 35.0 L81.5 33.1 L82.0 31.5 L82.5 30.1 L83.0 29.3 L83.5 29.0 L84.0 29.3 L84.5 30.1 L85.0 31.5 L85.5 33.1 L86.0 35.0 L86.5 36.9 L87.0 38.5 L87.5 39.9 L88.0 40.7 L88.5 41.0 L89.0 40.7 L89.5 39.9 L90.0 38.5 L90.5 36.9 L91.0 35.0 L91.5 33.1 L92.0 31.5 L92.5 30.1 L93.0 29.3 L93.5 29.0 L94.0 29.3 L94.5 30.1 L95.0 31.5 L95.5 33.1 L96.0 35.0 L96.5 36.9 L97.0 38.5 L97.5 39.9 L98.0 40.7"/>
+  <circle class="marke" cx="128.8" cy="33.3" r="1"/>
+  <circle class="marke" cx="133.7" cy="36.8" r="1"/>
+  <circle class="marke" cx="137.0" cy="37.7" r="1"/>
+  <circle class="marke" cx="128.3" cy="34.9" r="1"/>
+  <circle class="marke" cx="137.6" cy="38.6" r="1"/>
+  <circle class="marke" cx="131.7" cy="36.1" r="1"/>
+  <circle class="marke" cx="139.6" cy="44.5" r="1"/>
+  <circle class="marke" cx="131.2" cy="41.8" r="1"/>
+  <circle class="marke" cx="117.9" cy="28.6" r="1"/>
+  <circle class="marke" cx="118.7" cy="43.5" r="1"/>
+  <circle class="marke" cx="131.6" cy="33.1" r="1"/>
+  <circle class="marke" cx="129.9" cy="35.4" r="1"/>
+  <circle class="marke" cx="129.1" cy="37.3" r="1"/>
+  <circle class="marke" cx="131.3" cy="32.1" r="1"/>
+  <circle class="marke" cx="127.1" cy="31.5" r="1"/>
+  <circle class="marke" cx="123.3" cy="42.0" r="1"/>
+  <circle class="marke" cx="132.6" cy="36.0" r="1"/>
+  <circle class="marke" cx="130.2" cy="35.8" r="1"/>
+  <circle class="marke" cx="128.6" cy="38.3" r="1"/>
+  <circle class="marke" cx="123.3" cy="31.0" r="1"/>
+  <circle class="marke" cx="131.8" cy="28.7" r="1"/>
+  <circle class="marke" cx="129.4" cy="33.1" r="1"/>
+  <circle class="marke" cx="129.6" cy="34.9" r="1"/>
+  <circle class="marke" cx="137.5" cy="27.5" r="1"/>
+  <circle class="marke" cx="130.9" cy="34.9" r="1"/>
+  <circle class="marke" cx="134.9" cy="39.5" r="1"/>
+  <circle class="marke" cx="136.9" cy="44.7" r="1"/>
+  <circle class="marke" cx="123.3" cy="35.5" r="1"/>
+  <circle class="marke" cx="131.1" cy="23.4" r="1"/>
+  <circle class="marke" cx="127.4" cy="33.7" r="1"/>
+</svg>

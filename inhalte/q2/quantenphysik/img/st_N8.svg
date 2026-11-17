@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Elektronen am Doppelspalt mit Interferenzstreifen">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <circle class="marke" cx="16" cy="35" r="3.5"/>
+  <path class="akzent" d="M22 35 L50 35"/>
+  <path class="marke" d="M50 35 L44.6 37.6 L44.6 32.4 Z"/>
+  <text class="text" x="12" y="24">e⁻</text>
+  <path class="grau" d="M60 6 V28 M60 33 V37 M60 42 V64" stroke-width="3"/>
+  <rect class="grau" x="128" y="6" width="12" height="58"/>
+  <rect class="fuell" x="128" y="8.4" width="12" height="4.8"/>
+  <rect class="fuell" x="128" y="18.1" width="12" height="4.8"/>
+  <rect class="fuell" x="128" y="27.8" width="12" height="4.8"/>
+  <rect class="fuell" x="128" y="37.4" width="12" height="4.8"/>
+  <rect class="fuell" x="128" y="47.1" width="12" height="4.8"/>
+  <rect class="fuell" x="128" y="56.7" width="12" height="4.8"/>
+</svg>
