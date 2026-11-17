@@ -3,8 +3,32 @@
   "titel": "Elektrizität – Lerntheke vor der Klassenarbeit",
   "fach": "physik",
   "anrede": "du",
-  "hinweis": "Beginne mit P1 (Diagnose). Die Lösungen von P1 empfehlen dir passende Wahlstationen. P4 (Check-out) bearbeitest du am Ende der dritten Stunde – vergleiche dann deine Punkte in P1 und P4. Die Probearbeit (W6) dauert 60 Minuten und eignet sich für zu Hause.",
+  "hinweis": "Alle Stationen sind für die Klassenarbeit relevant. Bist du beim Vorwissen aus früheren Klassen unsicher (Stromkreis, Schaltpläne, Reihen- und Parallelschaltung, UND- und ODER-Schaltung, Sicherung, Einheiten mit Vorsätzen), beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Ladung, Strom und Spannung), V2 nach N3 bis N4 (Widerstand und Kennlinien), V3 nach N5 bis N8 (Schaltungen berechnen) – V3 ist die Probearbeit (60 Minuten, auch für zu Hause). N9 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N9.",
   "checkliste": [
+    {
+      "id": "g1",
+      "text": "Einen geschlossenen Stromkreis beschreiben und Leiter von Nichtleitern unterscheiden"
+    },
+    {
+      "id": "g2",
+      "text": "Schaltpläne mit Schaltzeichen lesen und zeichnen"
+    },
+    {
+      "id": "g3",
+      "text": "Reihen- und Parallelschaltung von Lampen an ihrem Verhalten erkennen"
+    },
+    {
+      "id": "g4",
+      "text": "UND-, ODER- und Wechselschaltung unterscheiden und Alltagsbeispielen zuordnen"
+    },
+    {
+      "id": "g5",
+      "text": "Wirkungen des elektrischen Stroms nennen und die Aufgabe einer Sicherung erklären"
+    },
+    {
+      "id": "g6",
+      "text": "Einheiten mit Vorsätzen (m, k, n) umrechnen und Zahlen mit Zehnerpotenzen schreiben"
+    },
     {
       "id": "c1",
       "text": "Stromstärke und Spannung als physikalische Grundgrößen beschreiben"
@@ -39,6 +63,20 @@
     }
   ],
   "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen: Stromkreise, Schaltungen, Einheiten",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
     {
       "id": "p1",
       "name": "Ladung, Strom und Spannung",
@@ -75,242 +113,174 @@
   "abschluss": "Klassenarbeit Elektrizität",
   "stationen": [
     {
-      "id": "P1",
-      "titel": "Diagnose: Wo stehe ich?",
-      "typ": "pflicht",
-      "sozialform": "einzel",
-      "dauer_min": 8,
-      "hilfsmittel": "keine",
-      "checkliste": [
-        "c1",
-        "c2",
-        "c3",
-        "c4",
-        "c5",
-        "c6",
-        "c7"
-      ],
-      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notiere zu jeder Antwort, ob du sicher oder unsicher bist. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung.",
-      "bild": "img/st_P1.svg",
-      "pdf": "pdf/P1_Diagnose.pdf",
-      "aufgaben": [
-        {
-          "id": "P1-1a",
-          "label": "1a",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**D** – Im unverzweigten Stromkreis ist die Stromstärke an jeder Stelle gleich groß. Die Lampe verbraucht keine Ladung: Jedes Elektron, das hineinfließt, kommt auch wieder heraus. Umgewandelt wird nur Energie.\n\n*A oder C gewählt?* Dahinter steckt die Vorstellung „Strom wird verbraucht“. → **W1** (Ladung, Strom und Spannung)"
-        },
-        {
-          "id": "P1-1b",
-          "label": "1b",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**B** – Eine Spannung gibt man immer zwischen zwei Punkten an, zum Beispiel zwischen den Anschlüssen einer Lampe. Sie sagt, wie viel Energie jede Ladung zwischen diesen Punkten abgibt. Fließen kann nur Ladung, nicht die Spannung.\n\n*A, C oder D gewählt?* → **W1**"
-        },
-        {
-          "id": "P1-2",
-          "label": "2",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**C** – Ein Amperemeter misst die Stromstärke, die durch es hindurchfließt. Es muss deshalb in Reihe zu L2 in deren Zweig liegen. Direkt an der Batterie misst es den Gesamtstrom; parallel zu L2 würde es die Lampe überbrücken, weil es fast keinen Widerstand hat.\n\n*A oder B gewählt?* → **W3** (Simulation), danach **P3** Aufgabe 1c"
-        },
-        {
-          "id": "P1-3a",
-          "label": "3a",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**A** – Der Widerstand bleibt gleich: $R = \\frac{4{,}0\\,\\mathrm{V}}{0{,}50\\,\\mathrm{A}} = 8{,}0\\,\\Omega$, also $I = \\frac{6{,}0\\,\\mathrm{V}}{8{,}0\\,\\Omega} = 0{,}75\\,\\mathrm{A}$. Kürzer: 1,5-fache Spannung, 1,5-fache Stromstärke.\n\n*B gewählt?* Die Stromstärke hängt bei festem Widerstand von der Spannung ab. → **P2**, danach **W2** (Tandem)"
-        },
-        {
-          "id": "P1-3b",
-          "label": "3b",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**B** – Steiler heißt: Bei gleicher Spannung fließt durch R1 eine größere Stromstärke. R1 hemmt den Strom also weniger, sein Widerstand $R = \\frac{U}{I}$ ist kleiner. Ohmsch sind beide, denn beide Kennlinien sind Ursprungsgeraden.\n\n*A gewählt?* Die Steigung im I-U-Diagramm ist $\\frac{I}{U}$, nicht $R$. → **P2**, danach **W5** (Fehler finden)"
-        },
-        {
-          "id": "P1-4a",
-          "label": "4a",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**C** – In der Reihenschaltung teilt sich die Spannung auf. Die überbrückte Lampe hat keine Spannung mehr, die $9{,}0\\,\\mathrm{V}$ verteilen sich auf zwei gleiche Lampen: je $4{,}5\\,\\mathrm{V}$. Die beiden leuchten heller als vorher.\n\n*A gewählt?* Die Schaltung hat sich geändert, also auch die Teilspannungen. → **W3** (Simulation), danach **P3**"
-        },
-        {
-          "id": "P1-4b",
-          "label": "4b",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**D** – $\\frac{1}{R_{ges}} = \\frac{1}{40\\,\\Omega} + \\frac{1}{40\\,\\Omega} = \\frac{2}{40\\,\\Omega}$, also $R_{ges} = 20\\,\\Omega$. Durch den zweiten Zweig kann zusätzlich Strom fließen, deshalb sinkt der Gesamtwiderstand.\n\n*A gewählt?* Addiert wird nur in der Reihenschaltung. → **P3** Aufgabe 2, danach **W2** (Tandem)"
-        },
-        {
-          "id": "P1-5",
-          "label": "5",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**A** – Die Elektronen bewegen sich durch das Metallgitter und stoßen dabei mit den Atomrümpfen. Dabei geben sie Bewegungsenergie ab, die Atomrümpfe schwingen stärker: Der Draht wird wärmer. Die Atomrümpfe bleiben an ihrem Platz, verbraucht wird kein Elektron.\n\n*B, C oder D gewählt?* → **W4** (Elektronenmodell)"
-        }
-      ]
-    },
-    {
-      "id": "P2",
-      "titel": "Ohm’sches Gesetz und Kennlinien",
-      "typ": "pflicht",
-      "sozialform": "einzel",
-      "dauer_min": 20,
-      "hilfsmittel": "Taschenrechner",
-      "checkliste": [
-        "c3",
-        "c4",
-        "c7"
-      ],
-      "bild": "img/st_P2.svg",
-      "pdf": "pdf/P2_Ohmsches_Gesetz_Kennlinien.pdf",
-      "aufgaben": [
-        {
-          "id": "P2-1a",
-          "label": "1a",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "$R = \\frac{U}{I} = \\frac{4{,}5\\,\\mathrm{V}}{0{,}30\\,\\mathrm{A}} = 15\\,\\Omega$"
-        },
-        {
-          "id": "P2-1b",
-          "label": "1b",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "$I = \\frac{U}{R} = \\frac{6{,}0\\,\\mathrm{V}}{12\\,\\Omega} = 0{,}50\\,\\mathrm{A}$"
-        },
-        {
-          "id": "P2-1c",
-          "label": "1c",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Umrechnen: $1{,}2\\,\\mathrm{k}\\Omega = 1\\,200\\,\\Omega$, $5{,}0\\,\\mathrm{mA} = 0{,}0050\\,\\mathrm{A}$\n\n$U = R \\cdot I = 1\\,200\\,\\Omega \\cdot 0{,}0050\\,\\mathrm{A} = 6{,}0\\,\\mathrm{V}$"
-        },
-        {
-          "id": "P2-2a",
-          "label": "2a",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Achsen beschriftet (U in V, I in mA), Punkte eingetragen und verbunden: Bauteil A ergibt eine Ursprungsgerade, Bauteil B eine Kurve, die immer flacher wird (siehe Grafik).",
-          "loesung_bild": "img/P2-2a.png"
-        },
-        {
-          "id": "P2-2b",
-          "label": "2b",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "A: $\\frac{2{,}0\\,\\mathrm{V}}{0{,}050\\,\\mathrm{A}} = 40\\,\\Omega$ und $\\frac{8{,}0\\,\\mathrm{V}}{0{,}200\\,\\mathrm{A}} = 40\\,\\Omega$\n\nB: $\\frac{2{,}0\\,\\mathrm{V}}{0{,}080\\,\\mathrm{A}} = 25\\,\\Omega$ und $\\frac{8{,}0\\,\\mathrm{V}}{0{,}160\\,\\mathrm{A}} = 50\\,\\Omega$"
-        },
-        {
-          "id": "P2-2c",
-          "label": "2c",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Bauteil A ist ohmsch: Die Kennlinie ist eine Ursprungsgerade, der Widerstand bleibt bei $40\\,\\Omega$; doppelte Spannung ergibt doppelte Stromstärke.\n\nBauteil B ist nicht ohmsch: Die Kennlinie ist gekrümmt, der Widerstand steigt von $25\\,\\Omega$ auf $50\\,\\Omega$."
-        },
-        {
-          "id": "P2-2d",
-          "label": "2d",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Mit größerer Spannung fließt mehr Strom, der Glühdraht wird heißer. Im heißen Draht schwingen die Atomrümpfe stärker.\n\nDie Elektronen stoßen dadurch häufiger mit ihnen zusammen und kommen schlechter voran: Der Widerstand wird größer."
-        },
-        {
-          "id": "P2-3",
-          "label": "3",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "Die Aussage stimmt nicht. $R = \\frac{U}{I}$ legt fest, was der Widerstand ist, und lässt sich für jedes Bauteil bei jeder Spannung berechnen – so wie in b).\n\n„Nicht ohmsch“ heißt nur: Der Wert ändert sich mit der Spannung. Man darf den Widerstand von B bei $2{,}0\\,\\mathrm{V}$ also nicht benutzen, um die Stromstärke bei $8{,}0\\,\\mathrm{V}$ vorherzusagen."
-        }
-      ]
-    },
-    {
-      "id": "P3",
-      "titel": "Reihen- und Parallelschaltung",
-      "typ": "pflicht",
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 25,
       "hilfsmittel": "Taschenrechner",
       "checkliste": [
-        "c5",
-        "c6",
-        "c2"
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
       ],
-      "bild": "img/st_P3.svg",
-      "pdf": "pdf/P3_Reihen_Parallelschaltung.pdf",
+      "kategorie": "grundlagen",
+      "hinweis": "Taschenrechner, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
       "aufgaben": [
         {
-          "id": "P3-1a",
+          "id": "G1-1a",
           "label": "1a",
-          "punkte": 2,
+          "punkte": 1,
           "afb": "I",
-          "loesung": "$R_{ges} = 30\\,\\Omega + 60\\,\\Omega + 90\\,\\Omega = 180\\,\\Omega$\n\n$I = \\frac{9{,}0\\,\\mathrm{V}}{180\\,\\Omega} = 0{,}050\\,\\mathrm{A} = 50\\,\\mathrm{mA}$"
+          "loesung": "Eine elektrische Quelle mit zwei Polen (zum Beispiel eine Batterie), die Lampe, leitende Verbindungen (Kabel) und ein Schalter.\n\nBedingung: Alles bildet einen geschlossenen Kreis vom einen Pol der Quelle durch die Lampe zum anderen Pol."
         },
         {
-          "id": "P3-1b",
+          "id": "G1-1b",
           "label": "1b",
-          "punkte": 2,
+          "punkte": 1,
           "afb": "I",
-          "loesung": "$U_1 = 30\\,\\Omega \\cdot 0{,}050\\,\\mathrm{A} = 1{,}5\\,\\mathrm{V}$, $U_2 = 3{,}0\\,\\mathrm{V}$, $U_3 = 4{,}5\\,\\mathrm{V}$\n\nProbe: $1{,}5\\,\\mathrm{V} + 3{,}0\\,\\mathrm{V} + 4{,}5\\,\\mathrm{V} = 9{,}0\\,\\mathrm{V}$"
+          "loesung": "Leiter: Kupfer, Graphit, Salzwasser\n\nNichtleiter (Isolatoren): Kunststoff, Glas, trockenes Holz"
         },
         {
-          "id": "P3-1c",
-          "label": "1c",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Amperemeter in Reihe in den Stromkreis (an jeder Stelle, die Stromstärke ist überall gleich). Voltmeter parallel zu $R_2$, also an dessen beide Anschlüsse.",
-          "loesung_bild": "img/P3-1c.png"
-        },
-        {
-          "id": "P3-2a",
+          "id": "G1-2a",
           "label": "2a",
-          "punkte": 2,
+          "punkte": 1,
           "afb": "I",
-          "loesung": "An jedem Zweig liegen $12\\,\\mathrm{V}$: $I_1 = \\frac{12\\,\\mathrm{V}}{20\\,\\Omega} = 0{,}60\\,\\mathrm{A}$, $I_2 = 0{,}40\\,\\mathrm{A}$, $I_3 = 0{,}20\\,\\mathrm{A}$\n\nZuleitung: $I = 0{,}60\\,\\mathrm{A} + 0{,}40\\,\\mathrm{A} + 0{,}20\\,\\mathrm{A} = 1{,}2\\,\\mathrm{A}$"
+          "loesung": "(1) Batterie (Gleichspannungsquelle, der lange Strich ist der Pluspol), (2) Lampe, (3) Schalter (geöffnet), (4) Elektromotor"
         },
         {
-          "id": "P3-2b",
+          "id": "G1-2b",
           "label": "2b",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "$\\frac{1}{R_{ges}} = \\frac{1}{20\\,\\Omega} + \\frac{1}{30\\,\\Omega} + \\frac{1}{60\\,\\Omega} = \\frac{3 + 2 + 1}{60\\,\\Omega} = \\frac{6}{60\\,\\Omega}$\n\n$R_{ges} = 10\\,\\Omega$"
-        },
-        {
-          "id": "P3-2c",
-          "label": "2c",
-          "punkte": 2,
+          "punkte": 1,
           "afb": "II",
-          "loesung": "Der vierte Zweig muss $1{,}5\\,\\mathrm{A} - 1{,}2\\,\\mathrm{A} = 0{,}30\\,\\mathrm{A}$ führen.\n\n$R_4 = \\frac{12\\,\\mathrm{V}}{0{,}30\\,\\mathrm{A}} = 40\\,\\Omega$"
+          "loesung": "Die beiden Lampen liegen in zwei Zweigen nebeneinander. Der Schalter sitzt in der gemeinsamen Leitung zwischen Batterie und erster Verzweigung (siehe Grafik).",
+          "loesung_bild": "img/G1-2b.png"
         },
         {
-          "id": "P3-3a",
+          "id": "G1-3a",
           "label": "3a",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "L2 und L3 parallel: $R_{23} = 6{,}0\\,\\Omega$ (zwei gleiche Widerstände: halber Wert)\n\n$R_{ges} = 12\\,\\Omega + 6{,}0\\,\\Omega = 18\\,\\Omega$, $I_1 = \\frac{9{,}0\\,\\mathrm{V}}{18\\,\\Omega} = 0{,}50\\,\\mathrm{A}$"
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Reihenschaltung: Der Stromkreis ist unterbrochen, die zweite Lampe geht aus.\n\nParallelschaltung: Die zweite Lampe liegt in einem eigenen Zweig an der Batterie und leuchtet weiter, genauso hell wie vorher."
         },
         {
-          "id": "P3-3b",
+          "id": "G1-3b",
           "label": "3b",
-          "punkte": 2,
+          "punkte": 1,
           "afb": "II",
-          "loesung": "$U_1 = 12\\,\\Omega \\cdot 0{,}50\\,\\mathrm{A} = 6{,}0\\,\\mathrm{V}$, $U_2 = U_3 = 9{,}0\\,\\mathrm{V} - 6{,}0\\,\\mathrm{V} = 3{,}0\\,\\mathrm{V}$\n\n$I_2 = I_3 = \\frac{3{,}0\\,\\mathrm{V}}{12\\,\\Omega} = 0{,}25\\,\\mathrm{A}$ – zusammen wieder $0{,}50\\,\\mathrm{A}$."
+          "loesung": "Parallel: Jede Lampe hat ihren eigenen Zweig an der Quelle. Fällt eine aus, bleiben die Stromkreise der anderen geschlossen, und jede bekommt weiter die volle Spannung."
         },
         {
-          "id": "P3-3c",
-          "label": "3c",
-          "punkte": 3,
-          "afb": "III",
-          "loesung": "Jetzt liegen nur noch L1 und L2 in Reihe: $R_{ges} = 24\\,\\Omega$, $I = \\frac{9{,}0\\,\\mathrm{V}}{24\\,\\Omega} \\approx 0{,}38\\,\\mathrm{A}$\n\n$U_1 = U_2 = 4{,}5\\,\\mathrm{V}$\n\nL1: Spannung sinkt von $6{,}0\\,\\mathrm{V}$ auf $4{,}5\\,\\mathrm{V}$ – dunkler. L2: Spannung steigt von $3{,}0\\,\\mathrm{V}$ auf $4{,}5\\,\\mathrm{V}$ – heller. Beide leuchten danach gleich hell."
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "(1) UND-Schaltung: zwei Schalter in Reihe – nur wenn beide geschlossen sind, fließt Strom.\n\n(2) ODER-Schaltung: zwei Taster parallel – jeder schließt den Stromkreis für sich allein."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Wechselschaltung: zwei Wechselschalter (Umschalter), deren Kontakte durch zwei Leitungen verbunden sind.\n\nLegt man einen der beiden Schalter um, wechselt der Zustand: Brennt die Lampe, geht sie aus; ist sie aus, geht sie an – egal, wie der andere Schalter gerade steht."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Toaster: Wärmewirkung · Leselampe: Leuchtwirkung · Türöffner: magnetische Wirkung"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Kurzschluss: Die beiden Leitungen zur Quelle werden direkt, ohne Gerät dazwischen, verbunden. Es fließt ein sehr großer Strom. Überlastung: Zu viele Geräte laufen gleichzeitig an einer Leitung, der Strom wird größer als erlaubt.\n\nIn beiden Fällen würden die Leitungen heiß (Wärmewirkung, Brandgefahr). Die Sicherung unterbricht den Stromkreis, bevor das passiert."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Milli = ein Tausendstel: $250\\,\\mathrm{mA} = 250 : 1\\,000\\,\\mathrm{A} = 0{,}250\\,\\mathrm{A}$\n\nKilo = tausend: $4{,}7\\,\\mathrm{k}\\Omega = 4{,}7 \\cdot 1\\,000\\,\\Omega = 4\\,700\\,\\Omega$\n\n$0{,}035\\,\\mathrm{A} = 0{,}035 \\cdot 1\\,000\\,\\mathrm{mA} = 35\\,\\mathrm{mA}$"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$0{,}000\\,32\\,\\mathrm{C} = 3{,}2 \\cdot 10^{-4}\\,\\mathrm{C}$\n\nNano = $10^{-9}$: $15\\,\\mathrm{nC} = 15 \\cdot 10^{-9}\\,\\mathrm{C} = 1{,}5 \\cdot 10^{-8}\\,\\mathrm{C}$\n\n$6\\,000\\,000\\,000 = 6 \\cdot 10^{9}$"
         }
       ]
     },
     {
-      "id": "P4",
-      "titel": "Check-out: Was kann ich jetzt?",
-      "typ": "pflicht",
+      "id": "G2",
+      "titel": "Auffrischen: Licht in der Kellerwerkstatt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "g2",
+        "g4",
+        "g3",
+        "g5",
+        "g6",
+        "g1"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Taschenrechner, 15 Minuten. Übt typische Lücken aus G1: Schaltplan einer Wechselschaltung, Reihe oder parallel, Wirkungen des Stroms, Vorsätze umrechnen, Kurzschluss und Sicherung.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Wechselschaltung: S1 und S2 sind Wechselschalter (Umschalter). Ihre Kontakte sind durch zwei Leitungen verbunden, die Lampe liegt in Reihe dazu (siehe Grafik).\n\nKontrolle: Zeigen beide Hebel auf dieselbe Verbindungsleitung, ist der Kreis geschlossen. Jedes Umlegen eines Schalters öffnet oder schließt ihn.",
+          "loesung_bild": "img/G2-1a.png"
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Parallel, in einem eigenen Zweig mit eigenem Schalter: Dann bekommt sie die volle Spannung des Akkus und leuchtet unabhängig davon, ob die Deckenlampe an ist. In Reihe könnten beide nur zusammen leuchten, und beide wären dunkler."
+        },
+        {
+          "id": "G2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Genutzt wird die Leuchtwirkung. Zusätzlich tritt die Wärmewirkung auf: Die Lampen werden warm."
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Deckenlampe: $850\\,\\mathrm{mA} = 0{,}85\\,\\mathrm{A}$\n\nArbeitslampe: $0{,}40\\,\\mathrm{A} = 400\\,\\mathrm{mA}$"
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die beiden Kabel sind direkt miteinander verbunden – ein Kurzschluss. Der Strom fließt an der Lampe vorbei; weil kein Gerät ihn hemmt, wird die Stromstärke sehr groß (weit über 5 A).\n\nDie Kabel würden heiß (Brandgefahr), der Akku könnte Schaden nehmen. Die Sicherung löst bei mehr als 5 A aus und unterbricht den Stromkreis."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Wo stehe ich?",
+      "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 8,
       "hilfsmittel": "keine",
@@ -323,70 +293,71 @@
         "c6",
         "c7"
       ],
-      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notiere zu jeder Antwort, ob du sicher oder unsicher bist. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung. Vergleiche danach mit deinem Ergebnis in P1.",
-      "bild": "img/st_P4.svg",
-      "pdf": "pdf/P4_Check-out.pdf",
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notiere zu jeder Antwort, ob du sicher oder unsicher bist. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
       "aufgaben": [
         {
-          "id": "P4-1a",
+          "id": "N1-1a",
           "label": "1a",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**C** – Im unverzweigten Stromkreis ist die Stromstärke überall gleich, auch bei verschiedenen Lampen. Ladung wird nicht verbraucht.\n\n*Wieder daneben?* → **W1**"
+          "loesung": "**D** – Im unverzweigten Stromkreis ist die Stromstärke an jeder Stelle gleich groß. Die Lampe verbraucht keine Ladung: Jedes Elektron, das hineinfließt, kommt auch wieder heraus. Umgewandelt wird nur Energie.\n\n*A oder C gewählt?* Dahinter steckt die Vorstellung „Strom wird verbraucht“. → **N2** (Ladung, Strom und Spannung)"
         },
         {
-          "id": "P4-1b",
+          "id": "N1-1b",
           "label": "1b",
           "punkte": 1,
           "afb": "I",
-          "loesung": "**A** – Die Spannung zwischen den Polen sagt, wie viel Energie jede Ladung auf dem Weg durch den Stromkreis abgeben kann ($1\\,\\mathrm{V} = 1\\,\\frac{\\mathrm{J}}{\\mathrm{C}}$). Elektronen pro Sekunde beschreibt die Stromstärke.\n\n*Wieder daneben?* → **W1**"
+          "loesung": "**B** – Eine Spannung gibt man immer zwischen zwei Punkten an, zum Beispiel zwischen den Anschlüssen einer Lampe. Sie sagt, wie viel Energie jede Ladung zwischen diesen Punkten abgibt. Fließen kann nur Ladung, nicht die Spannung.\n\n*A, C oder D gewählt?* → **N2**"
         },
         {
-          "id": "P4-2",
+          "id": "N1-2",
           "label": "2",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**D** – Der Gesamtstrom fließt nur in der Leitung zwischen Batterie und erster Verzweigung. In einem Zweig misst man nur dessen Teilstrom; parallel zur Batterie entstünde ein Kurzschluss.\n\n*Wieder daneben?* → **W3**"
+          "loesung": "**C** – Ein Amperemeter misst die Stromstärke, die durch es hindurchfließt. Es muss deshalb in Reihe zu L2 in deren Zweig liegen. Direkt an der Batterie misst es den Gesamtstrom; parallel zu L2 würde es die Lampe überbrücken, weil es fast keinen Widerstand hat.\n\n*A oder B gewählt?* → **N5** (Simulation), danach **N6** Aufgabe 1c"
         },
         {
-          "id": "P4-3a",
+          "id": "N1-3a",
           "label": "3a",
           "punkte": 1,
           "afb": "I",
-          "loesung": "**B** – $R = \\frac{12\\,\\mathrm{V}}{0{,}60\\,\\mathrm{A}} = 20\\,\\Omega$, $U = 20\\,\\Omega \\cdot 0{,}15\\,\\mathrm{A} = 3{,}0\\,\\mathrm{V}$. Ein Viertel der Stromstärke braucht ein Viertel der Spannung.\n\n*Wieder daneben?* → **W2** (Tandem)"
+          "loesung": "**A** – Der Widerstand bleibt gleich: $R = \\frac{4{,}0\\,\\mathrm{V}}{0{,}50\\,\\mathrm{A}} = 8{,}0\\,\\Omega$, also $I = \\frac{6{,}0\\,\\mathrm{V}}{8{,}0\\,\\Omega} = 0{,}75\\,\\mathrm{A}$. Kürzer: 1,5-fache Spannung, 1,5-fache Stromstärke.\n\n*B gewählt?* Die Stromstärke hängt bei festem Widerstand von der Spannung ab. → **N3**, danach **N7** (Tandem)"
         },
         {
-          "id": "P4-3b",
+          "id": "N1-3b",
           "label": "3b",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**C** – Y hat bei gleicher Spannung die größere Stromstärke: steilere Kennlinie. $R_X = 20\\,\\Omega$, $R_Y = 5{,}0\\,\\Omega$ – Y hat den kleineren Widerstand.\n\n*Wieder daneben?* → **W5**"
+          "loesung": "**B** – Steiler heißt: Bei gleicher Spannung fließt durch R1 eine größere Stromstärke. R1 hemmt den Strom also weniger, sein Widerstand $R = \\frac{U}{I}$ ist kleiner. Ohmsch sind beide, denn beide Kennlinien sind Ursprungsgeraden.\n\n*A gewählt?* Die Steigung im I-U-Diagramm ist $\\frac{I}{U}$, nicht $R$. → **N3**, danach **N8** (Fehler finden)"
         },
         {
-          "id": "P4-4a",
+          "id": "N1-4a",
           "label": "4a",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**A** – Die $12\\,\\mathrm{V}$ verteilen sich jetzt auf drei gleiche Lampen: je $4{,}0\\,\\mathrm{V}$.\n\n*Wieder daneben?* → **W3**"
+          "loesung": "**C** – In der Reihenschaltung teilt sich die Spannung auf. Die überbrückte Lampe hat keine Spannung mehr, die $9{,}0\\,\\mathrm{V}$ verteilen sich auf zwei gleiche Lampen: je $4{,}5\\,\\mathrm{V}$. Die beiden leuchten heller als vorher.\n\n*A gewählt?* Die Schaltung hat sich geändert, also auch die Teilspannungen. → **N5** (Simulation), danach **N6**"
         },
         {
-          "id": "P4-4b",
+          "id": "N1-4b",
           "label": "4b",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**D** – $\\frac{1}{R_{ges}} = \\frac{3}{60\\,\\Omega}$, also $R_{ges} = 20\\,\\Omega$.\n\n*Wieder daneben?* → **W2**"
+          "loesung": "**D** – $\\frac{1}{R_{ges}} = \\frac{1}{40\\,\\Omega} + \\frac{1}{40\\,\\Omega} = \\frac{2}{40\\,\\Omega}$, also $R_{ges} = 20\\,\\Omega$. Durch den zweiten Zweig kann zusätzlich Strom fließen, deshalb sinkt der Gesamtwiderstand.\n\n*A gewählt?* Addiert wird nur in der Reihenschaltung. → **N6** Aufgabe 2, danach **N7** (Tandem)"
         },
         {
-          "id": "P4-5",
+          "id": "N1-5",
           "label": "5",
           "punkte": 1,
-          "afb": "II",
-          "loesung": "**B** – Durch den dünnen Draht müssen genauso viele Elektronen pro Sekunde wie durch die dicke Leitung. Sie stoßen dort viel häufiger mit den Atomrümpfen und geben Energie ab: Der Glühdraht hat den viel größeren Widerstand und wird heiß.\n\n*Wieder daneben?* → **W4**"
+          "afb": "I",
+          "loesung": "**A** – Die Elektronen bewegen sich durch das Metallgitter und stoßen dabei mit den Atomrümpfen. Dabei geben sie Bewegungsenergie ab, die Atomrümpfe schwingen stärker: Der Draht wird wärmer. Die Atomrümpfe bleiben an ihrem Platz, verbraucht wird kein Elektron.\n\n*B, C oder D gewählt?* → **N4** (Elektronenmodell)"
         }
       ]
     },
     {
-      "id": "W1",
+      "id": "N2",
       "titel": "Ladung, Strom und Spannung",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -396,46 +367,47 @@
         "c8",
         "c1"
       ],
-      "bild": "img/st_W1.svg",
-      "pdf": "pdf/W1_Ladung_Strom_Spannung.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Ladung_Strom_Spannung.pdf",
       "aufgaben": [
         {
-          "id": "W1-1a",
+          "id": "N2-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
-          "loesung": "Überschüssige Elektronen gehen vom Stab auf das Elektroskop über und verteilen sich auf Teller, Stab und Zeiger.\n\nZeiger und Stab sind dann beide negativ geladen. Gleichnamige Ladungen stoßen sich ab, der Zeiger schlägt aus."
+          "loesung": "Überschüssige Elektronen gehen vom Stab auf das Elektroskop über und verteilen sich auf Teller, Stab und Zeiger.\n\nZeiger und Metallstab des Elektroskops sind dann beide negativ geladen. Gleichnamige Ladungen stoßen sich ab, der Zeiger schlägt aus."
         },
         {
-          "id": "W1-1b",
+          "id": "N2-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "II",
           "loesung": "Der Zeiger geht zurück. Die überschüssigen Elektronen stoßen sich gegenseitig ab und fließen über deinen Körper zur Erde ab.\n\nDas Elektroskop ist danach wieder neutral."
         },
         {
-          "id": "W1-2a",
+          "id": "N2-2a",
           "label": "2a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$N = \\frac{|Q|}{e} = \\frac{3{,}2 \\cdot 10^{-8}\\,\\mathrm{C}}{1{,}6 \\cdot 10^{-19}\\,\\mathrm{C}} = 2{,}0 \\cdot 10^{11}$ Elektronen"
         },
         {
-          "id": "W1-2b",
+          "id": "N2-2b",
           "label": "2b",
           "punkte": 2,
           "afb": "II",
           "loesung": "Zusammen: $+6\\,\\mathrm{nC} + (-10\\,\\mathrm{nC}) = -4\\,\\mathrm{nC}$ – Ladung geht nicht verloren.\n\nBei gleichen Kugeln verteilt sie sich gleichmäßig: je $-2\\,\\mathrm{nC}$."
         },
         {
-          "id": "W1-3",
+          "id": "N2-3",
           "label": "3",
           "punkte": 3,
           "afb": "I",
           "loesung": "$Q = I \\cdot t = 0{,}25\\,\\mathrm{A} \\cdot 60\\,\\mathrm{s} = 15\\,\\mathrm{C}$\n\nIn einer Sekunde: $0{,}25\\,\\mathrm{C}$, also $N = \\frac{0{,}25\\,\\mathrm{C}}{1{,}6 \\cdot 10^{-19}\\,\\mathrm{C}} \\approx 1{,}6 \\cdot 10^{18}$ Elektronen"
         },
         {
-          "id": "W1-4",
+          "id": "N2-4",
           "label": "4",
           "punkte": 3,
           "afb": "III",
@@ -444,23 +416,324 @@
       ]
     },
     {
-      "id": "W2",
+      "id": "N3",
+      "titel": "Ohm’sches Gesetz und Kennlinien",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Ohmsches_Gesetz_Kennlinien.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$R = \\frac{U}{I} = \\frac{4{,}5\\,\\mathrm{V}}{0{,}30\\,\\mathrm{A}} = 15\\,\\Omega$"
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$I = \\frac{U}{R} = \\frac{6{,}0\\,\\mathrm{V}}{12\\,\\Omega} = 0{,}50\\,\\mathrm{A}$"
+        },
+        {
+          "id": "N3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Umrechnen: $1{,}2\\,\\mathrm{k}\\Omega = 1\\,200\\,\\Omega$, $5{,}0\\,\\mathrm{mA} = 0{,}0050\\,\\mathrm{A}$\n\n$U = R \\cdot I = 1\\,200\\,\\Omega \\cdot 0{,}0050\\,\\mathrm{A} = 6{,}0\\,\\mathrm{V}$"
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Achsen beschriftet (U in V, I in mA), Punkte eingetragen und verbunden: Bauteil A ergibt eine Ursprungsgerade, Bauteil B eine Kurve, die immer flacher wird (siehe Grafik).",
+          "loesung_bild": "img/N3-2a.png"
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "A: $\\frac{2{,}0\\,\\mathrm{V}}{0{,}050\\,\\mathrm{A}} = 40\\,\\Omega$ und $\\frac{8{,}0\\,\\mathrm{V}}{0{,}200\\,\\mathrm{A}} = 40\\,\\Omega$\n\nB: $\\frac{2{,}0\\,\\mathrm{V}}{0{,}080\\,\\mathrm{A}} = 25\\,\\Omega$ und $\\frac{8{,}0\\,\\mathrm{V}}{0{,}160\\,\\mathrm{A}} = 50\\,\\Omega$"
+        },
+        {
+          "id": "N3-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bauteil A ist ohmsch: Die Kennlinie ist eine Ursprungsgerade, der Widerstand bleibt bei $40\\,\\Omega$; doppelte Spannung ergibt doppelte Stromstärke.\n\nBauteil B ist nicht ohmsch: Die Kennlinie ist gekrümmt, der Widerstand steigt von $25\\,\\Omega$ auf $50\\,\\Omega$."
+        },
+        {
+          "id": "N3-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mit größerer Spannung fließt mehr Strom, der Glühdraht wird heißer. Im heißen Draht schwingen die Atomrümpfe stärker.\n\nDie Elektronen stoßen dadurch häufiger mit ihnen zusammen und kommen schlechter voran: Der Widerstand wird größer."
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage stimmt nicht. $R = \\frac{U}{I}$ legt fest, was der Widerstand ist, und lässt sich für jedes Bauteil bei jeder Spannung berechnen – so wie in b).\n\n„Nicht ohmsch“ heißt nur: Der Wert ändert sich mit der Spannung. Man darf den Widerstand von B bei $2{,}0\\,\\mathrm{V}$ also nicht benutzen, um die Stromstärke bei $8{,}0\\,\\mathrm{V}$ vorherzusagen."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Elektronenmodell: Warum Drähte heiß werden",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c4",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Elektronenmodell.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Sicherungsdraht und Leitung liegen in Reihe, ohne Verzweigung. Im unverzweigten Stromkreis ist die Stromstärke überall gleich."
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Die Elektronen stoßen auf ihrem Weg mit den Atomrümpfen und geben dabei Bewegungsenergie ab; die Atomrümpfe schwingen stärker, der Draht wird warm.\n\nDurch den dünnen Draht müssen pro Sekunde genauso viele Elektronen wie durch die dicke Leitung, aber durch einen viel kleineren Querschnitt. Sie werden schneller und stoßen dort viel häufiger und heftiger.\n\nDie Energie wird in wenig Material frei: Der dünne Draht hat den größeren Widerstand und wird viel heißer."
+        },
+        {
+          "id": "N4-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Der Stromkreis ist unterbrochen, es fließt kein Strom mehr.\n\nDie Leitungen in der Wand können sich dadurch nicht gefährlich erhitzen."
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Auf dem doppelten Weg treffen die Elektronen auf doppelt so viele Atomrümpfe und werden doppelt so oft gebremst.\n\nDer lange Draht wirkt wie zwei gleiche Drähte in Reihe: $2 \\cdot R$."
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im heißen Draht schwingen die Atomrümpfe stärker um ihre Plätze.\n\nDie Elektronen stoßen häufiger mit ihnen zusammen. Bei gleicher Spannung fließt weniger Strom – der Widerstand ist größer."
+        },
+        {
+          "id": "N4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Einschalten: $I = \\frac{230\\,\\mathrm{V}}{40\\,\\Omega} \\approx 5{,}8\\,\\mathrm{A}$\n\nBetrieb: $I = \\frac{230\\,\\mathrm{V}}{480\\,\\Omega} \\approx 0{,}48\\,\\mathrm{A}$"
+        },
+        {
+          "id": "N4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ja, sie macht es plausibel: Im ersten Moment fließt etwa zwölfmal so viel Strom wie im Betrieb. Der kalte Draht wird schlagartig sehr stark belastet; eine dünn gewordene Stelle schmilzt dann zuerst.\n\nGrenze der Rechnung: Sie zeigt nur den Anfangswert. Der Draht erwärmt sich in Bruchteilen einer Sekunde, der Widerstand steigt und die Stromstärke sinkt sofort auf den Betriebswert."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Simulation: Schaltungen bauen und messen",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 25,
+      "hilfsmittel": "iPad, Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c2",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Partnerarbeit mit der PhET-Simulation „Stromkreise schalten: Gleichstrom“, Bildschirm „Einführung“. Notiere jede Vorhersage, bevor du misst.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Simulation_Schaltungen.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$R_{ges} = 45\\,\\Omega$, $I = \\frac{9{,}0\\,\\mathrm{V}}{45\\,\\Omega} = 0{,}20\\,\\mathrm{A}$\n\n$U_{15} = 3{,}0\\,\\mathrm{V}$, $U_{30} = 6{,}0\\,\\mathrm{V}$"
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Messwerte $0{,}20\\,\\mathrm{A}$, $3{,}0\\,\\mathrm{V}$ und $6{,}0\\,\\mathrm{V}$ – sie stimmen mit der Rechnung überein. Das Voltmeter liegt dabei mit beiden Spitzen an den Anschlüssen des jeweiligen Widerstands."
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$I_{15} = 0{,}60\\,\\mathrm{A}$, $I_{30} = 0{,}30\\,\\mathrm{A}$, $I = 0{,}90\\,\\mathrm{A}$\n\n$R_{ges} = \\frac{9{,}0\\,\\mathrm{V}}{0{,}90\\,\\mathrm{A}} = 10\\,\\Omega$"
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Gesamtstromstärke: an der Leitung zwischen Batterie und Verzweigung. Teilstrom: an der Leitung im jeweiligen Zweig.\n\nGemessen: $0{,}90\\,\\mathrm{A}$, $0{,}60\\,\\mathrm{A}$ und $0{,}30\\,\\mathrm{A}$ – die Teilströme addieren sich zur Gesamtstromstärke."
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Jede begründete Vermutung zählt, zum Beispiel: „Der Strom fließt durch den Draht, also wird die Stromstärke größer.“"
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$I = 0{,}60\\,\\mathrm{A}$; am $15$-$\\Omega$-Widerstand liegen $9{,}0\\,\\mathrm{V}$, am überbrückten Widerstand $0\\,\\mathrm{V}$."
+        },
+        {
+          "id": "N5-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Draht hat fast keinen Widerstand. Der Strom nimmt den Weg durch den Draht, der $30$-$\\Omega$-Widerstand ist kurzgeschlossen: $R_{ges} = 15\\,\\Omega$, $I = \\frac{9{,}0\\,\\mathrm{V}}{15\\,\\Omega} = 0{,}60\\,\\mathrm{A}$.\n\nEin Amperemeter hat ebenfalls fast keinen Widerstand. Parallel angeschlossen, überbrückt es das Bauteil wie der Draht – es misst nicht, sondern verursacht einen Kurzschluss."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "In der Simulation verdoppelt sich die Stromstärke mit der Spannung: Die Lampe hat dort einen festen Widerstand und verhält sich wie ein ohmsches Bauteil.\n\nEine echte Glühlampe ist nicht ohmsch: Ihr Draht wird heißer, der Widerstand steigt, bei doppelter Spannung fließt deutlich weniger als die doppelte Stromstärke (N3: Bauteil B).\n\nUrteil: Für Reihen- und Parallelschaltungen ist die Simulation eine brauchbare Vereinfachung; das Verhalten einer echten Glühlampe bei verschiedenen Spannungen gibt sie nicht richtig wieder."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Reihen- und Parallelschaltung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Reihen_Parallelschaltung.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$R_{ges} = 30\\,\\Omega + 60\\,\\Omega + 90\\,\\Omega = 180\\,\\Omega$\n\n$I = \\frac{9{,}0\\,\\mathrm{V}}{180\\,\\Omega} = 0{,}050\\,\\mathrm{A} = 50\\,\\mathrm{mA}$"
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$U_1 = 30\\,\\Omega \\cdot 0{,}050\\,\\mathrm{A} = 1{,}5\\,\\mathrm{V}$, $U_2 = 3{,}0\\,\\mathrm{V}$, $U_3 = 4{,}5\\,\\mathrm{V}$\n\nProbe: $1{,}5\\,\\mathrm{V} + 3{,}0\\,\\mathrm{V} + 4{,}5\\,\\mathrm{V} = 9{,}0\\,\\mathrm{V}$"
+        },
+        {
+          "id": "N6-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Amperemeter in Reihe in den Stromkreis (an jeder Stelle, die Stromstärke ist überall gleich). Voltmeter parallel zu $R_2$, also an dessen beide Anschlüsse.",
+          "loesung_bild": "img/N6-1c.png"
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "An jedem Zweig liegen $12\\,\\mathrm{V}$: $I_1 = \\frac{12\\,\\mathrm{V}}{20\\,\\Omega} = 0{,}60\\,\\mathrm{A}$, $I_2 = 0{,}40\\,\\mathrm{A}$, $I_3 = 0{,}20\\,\\mathrm{A}$\n\nZuleitung: $I = 0{,}60\\,\\mathrm{A} + 0{,}40\\,\\mathrm{A} + 0{,}20\\,\\mathrm{A} = 1{,}2\\,\\mathrm{A}$"
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\frac{1}{R_{ges}} = \\frac{1}{20\\,\\Omega} + \\frac{1}{30\\,\\Omega} + \\frac{1}{60\\,\\Omega} = \\frac{3 + 2 + 1}{60\\,\\Omega} = \\frac{6}{60\\,\\Omega}$\n\n$R_{ges} = 10\\,\\Omega$"
+        },
+        {
+          "id": "N6-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der vierte Zweig muss $1{,}5\\,\\mathrm{A} - 1{,}2\\,\\mathrm{A} = 0{,}30\\,\\mathrm{A}$ führen.\n\n$R_4 = \\frac{12\\,\\mathrm{V}}{0{,}30\\,\\mathrm{A}} = 40\\,\\Omega$"
+        },
+        {
+          "id": "N6-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "L2 und L3 parallel: $R_{23} = 6{,}0\\,\\Omega$ (zwei gleiche Widerstände: halber Wert)\n\n$R_{ges} = 12\\,\\Omega + 6{,}0\\,\\Omega = 18\\,\\Omega$, $I_1 = \\frac{9{,}0\\,\\mathrm{V}}{18\\,\\Omega} = 0{,}50\\,\\mathrm{A}$"
+        },
+        {
+          "id": "N6-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$U_1 = 12\\,\\Omega \\cdot 0{,}50\\,\\mathrm{A} = 6{,}0\\,\\mathrm{V}$, $U_2 = U_3 = 9{,}0\\,\\mathrm{V} - 6{,}0\\,\\mathrm{V} = 3{,}0\\,\\mathrm{V}$\n\n$I_2 = I_3 = \\frac{3{,}0\\,\\mathrm{V}}{12\\,\\Omega} = 0{,}25\\,\\mathrm{A}$ – zusammen wieder $0{,}50\\,\\mathrm{A}$."
+        },
+        {
+          "id": "N6-3c",
+          "label": "3c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Jetzt liegen nur noch L1 und L2 in Reihe: $R_{ges} = 24\\,\\Omega$, $I = \\frac{9{,}0\\,\\mathrm{V}}{24\\,\\Omega} \\approx 0{,}38\\,\\mathrm{A}$\n\n$U_1 = U_2 = 4{,}5\\,\\mathrm{V}$\n\nL1: Spannung sinkt von $6{,}0\\,\\mathrm{V}$ auf $4{,}5\\,\\mathrm{V}$ – dunkler. L2: Spannung steigt von $3{,}0\\,\\mathrm{V}$ auf $4{,}5\\,\\mathrm{V}$ – heller. Beide leuchten danach gleich hell."
+        }
+      ]
+    },
+    {
+      "id": "N7",
       "titel": "Tandem: Rechnen mit U, R und I",
       "typ": "wahl",
       "sozialform": "tandem",
       "dauer_min": 15,
       "hilfsmittel": "Taschenrechner",
       "checkliste": [
-        "c3",
         "c5",
-        "c6"
+        "c6",
+        "c3"
       ],
+      "kategorie": "neu",
       "hinweis": "Zwei Personen, zwei Tablets, Taschenrechner. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp.",
-      "bild": "img/st_W2.svg",
+      "bild": "img/st_N7.svg",
       "pdf_optional": true,
       "aufgaben": [
         {
-          "id": "W2-1",
+          "id": "N7-1",
           "label": "1",
           "partner": "A",
           "punkte": 2,
@@ -470,7 +743,7 @@
           "loesung": "$R = \\frac{230\\,\\mathrm{V}}{0{,}10\\,\\mathrm{A}} = 2\\,300\\,\\Omega = 2{,}3\\,\\mathrm{k}\\Omega$"
         },
         {
-          "id": "W2-2",
+          "id": "N7-2",
           "label": "2",
           "partner": "B",
           "punkte": 2,
@@ -480,7 +753,7 @@
           "loesung": "$I = \\frac{9{,}4\\,\\mathrm{V}}{470\\,\\Omega} = 0{,}020\\,\\mathrm{A} = 20\\,\\mathrm{mA}$"
         },
         {
-          "id": "W2-3",
+          "id": "N7-3",
           "label": "3",
           "partner": "A",
           "punkte": 2,
@@ -490,7 +763,7 @@
           "loesung": "$0{,}045\\,\\mathrm{A} = 45\\,\\mathrm{mA}$; $3\\,300\\,\\Omega = 3{,}3\\,\\mathrm{k}\\Omega$"
         },
         {
-          "id": "W2-4",
+          "id": "N7-4",
           "label": "4",
           "partner": "B",
           "punkte": 2,
@@ -500,7 +773,7 @@
           "loesung": "$R_{ges} = 550\\,\\Omega$; $I = \\frac{11\\,\\mathrm{V}}{550\\,\\Omega} = 0{,}020\\,\\mathrm{A} = 20\\,\\mathrm{mA}$"
         },
         {
-          "id": "W2-5",
+          "id": "N7-5",
           "label": "5",
           "partner": "A",
           "punkte": 2,
@@ -510,7 +783,7 @@
           "loesung": "$U = \\frac{230\\,\\mathrm{V}}{20} = 11{,}5\\,\\mathrm{V}$; $R = \\frac{11{,}5\\,\\mathrm{V}}{0{,}20\\,\\mathrm{A}} \\approx 58\\,\\Omega$"
         },
         {
-          "id": "W2-6",
+          "id": "N7-6",
           "label": "6",
           "partner": "B",
           "punkte": 2,
@@ -520,7 +793,7 @@
           "loesung": "$I_1 = 0{,}20\\,\\mathrm{A}$, $I_2 = 0{,}050\\,\\mathrm{A}$, $I = 0{,}25\\,\\mathrm{A}$\n\n$R_{ges} = \\frac{20\\,\\mathrm{V}}{0{,}25\\,\\mathrm{A}} = 80\\,\\Omega$"
         },
         {
-          "id": "W2-7",
+          "id": "N7-7",
           "label": "7",
           "partner": "A",
           "punkte": 2,
@@ -530,7 +803,7 @@
           "loesung": "$I_1 = \\frac{6{,}0\\,\\mathrm{V}}{30\\,\\Omega} = 0{,}20\\,\\mathrm{A}$, $I_2 = 0{,}30\\,\\mathrm{A}$\n\n$R_2 = \\frac{6{,}0\\,\\mathrm{V}}{0{,}30\\,\\mathrm{A}} = 20\\,\\Omega$"
         },
         {
-          "id": "W2-8",
+          "id": "N7-8",
           "label": "8",
           "partner": "B",
           "punkte": 2,
@@ -542,148 +815,7 @@
       ]
     },
     {
-      "id": "W3",
-      "titel": "Simulation: Schaltungen bauen und messen",
-      "typ": "wahl",
-      "sozialform": "partner",
-      "dauer_min": 25,
-      "hilfsmittel": "iPad, Taschenrechner",
-      "checkliste": [
-        "c2",
-        "c5",
-        "c6",
-        "c4"
-      ],
-      "hinweis": "Partnerarbeit mit der PhET-Simulation „Stromkreise schalten: Gleichstrom“, Bildschirm „Einführung“. Notiere jede Vorhersage, bevor du misst.",
-      "bild": "img/st_W3.svg",
-      "pdf": "pdf/W3_Simulation_Schaltungen.pdf",
-      "aufgaben": [
-        {
-          "id": "W3-1a",
-          "label": "1a",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "$R_{ges} = 45\\,\\Omega$, $I = \\frac{9{,}0\\,\\mathrm{V}}{45\\,\\Omega} = 0{,}20\\,\\mathrm{A}$\n\n$U_{15} = 3{,}0\\,\\mathrm{V}$, $U_{30} = 6{,}0\\,\\mathrm{V}$"
-        },
-        {
-          "id": "W3-1b",
-          "label": "1b",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Messwerte $0{,}20\\,\\mathrm{A}$, $3{,}0\\,\\mathrm{V}$ und $6{,}0\\,\\mathrm{V}$ – sie stimmen mit der Rechnung überein. Das Voltmeter liegt dabei mit beiden Spitzen an den Anschlüssen des jeweiligen Widerstands."
-        },
-        {
-          "id": "W3-2a",
-          "label": "2a",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "$I_{15} = 0{,}60\\,\\mathrm{A}$, $I_{30} = 0{,}30\\,\\mathrm{A}$, $I = 0{,}90\\,\\mathrm{A}$\n\n$R_{ges} = \\frac{9{,}0\\,\\mathrm{V}}{0{,}90\\,\\mathrm{A}} = 10\\,\\Omega$"
-        },
-        {
-          "id": "W3-2b",
-          "label": "2b",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Gesamtstromstärke: an der Leitung zwischen Batterie und Verzweigung. Teilstrom: an der Leitung im jeweiligen Zweig.\n\nGemessen: $0{,}90\\,\\mathrm{A}$, $0{,}60\\,\\mathrm{A}$ und $0{,}30\\,\\mathrm{A}$ – die Teilströme addieren sich zur Gesamtstromstärke."
-        },
-        {
-          "id": "W3-3a",
-          "label": "3a",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "Jede begründete Vermutung zählt, zum Beispiel: „Der Strom fließt durch den Draht, also wird die Stromstärke größer.“"
-        },
-        {
-          "id": "W3-3b",
-          "label": "3b",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "$I = 0{,}60\\,\\mathrm{A}$; am $15$-$\\Omega$-Widerstand liegen $9{,}0\\,\\mathrm{V}$, am überbrückten Widerstand $0\\,\\mathrm{V}$."
-        },
-        {
-          "id": "W3-3c",
-          "label": "3c",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Der Draht hat fast keinen Widerstand. Der Strom nimmt den Weg durch den Draht, der $30$-$\\Omega$-Widerstand ist kurzgeschlossen: $R_{ges} = 15\\,\\Omega$, $I = \\frac{9{,}0\\,\\mathrm{V}}{15\\,\\Omega} = 0{,}60\\,\\mathrm{A}$.\n\nEin Amperemeter hat ebenfalls fast keinen Widerstand. Parallel angeschlossen, überbrückt es das Bauteil wie der Draht – es misst nicht, sondern verursacht einen Kurzschluss."
-        },
-        {
-          "id": "W3-4",
-          "label": "4",
-          "punkte": 3,
-          "afb": "III",
-          "loesung": "In der Simulation verdoppelt sich die Stromstärke mit der Spannung: Die Lampe hat dort einen festen Widerstand und verhält sich wie ein ohmsches Bauteil.\n\nEine echte Glühlampe ist nicht ohmsch: Ihr Draht wird heißer, der Widerstand steigt, bei doppelter Spannung fließt deutlich weniger als die doppelte Stromstärke (P2: Bauteil B).\n\nUrteil: Für Reihen- und Parallelschaltungen ist die Simulation eine brauchbare Vereinfachung; das Verhalten einer echten Glühlampe bei verschiedenen Spannungen gibt sie nicht richtig wieder."
-        }
-      ]
-    },
-    {
-      "id": "W4",
-      "titel": "Elektronenmodell: Warum Drähte heiß werden",
-      "typ": "wahl",
-      "sozialform": "einzel",
-      "dauer_min": 20,
-      "hilfsmittel": "Taschenrechner",
-      "checkliste": [
-        "c7",
-        "c4",
-        "c3"
-      ],
-      "bild": "img/st_W4.svg",
-      "pdf": "pdf/W4_Elektronenmodell.pdf",
-      "aufgaben": [
-        {
-          "id": "W4-1a",
-          "label": "1a",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "Sicherungsdraht und Leitung liegen in Reihe, ohne Verzweigung. Im unverzweigten Stromkreis ist die Stromstärke überall gleich."
-        },
-        {
-          "id": "W4-1b",
-          "label": "1b",
-          "punkte": 3,
-          "afb": "II",
-          "loesung": "Die Elektronen stoßen auf ihrem Weg mit den Atomrümpfen und geben dabei Bewegungsenergie ab; die Atomrümpfe schwingen stärker, der Draht wird warm.\n\nDurch den dünnen Draht müssen pro Sekunde genauso viele Elektronen wie durch die dicke Leitung, aber durch einen viel kleineren Querschnitt. Sie werden schneller und stoßen dort viel häufiger und heftiger.\n\nDie Energie wird in wenig Material frei: Der dünne Draht hat den größeren Widerstand und wird viel heißer."
-        },
-        {
-          "id": "W4-1c",
-          "label": "1c",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Der Stromkreis ist unterbrochen, es fließt kein Strom mehr.\n\nDie Leitungen in der Wand können sich dadurch nicht gefährlich erhitzen."
-        },
-        {
-          "id": "W4-2a",
-          "label": "2a",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Auf dem doppelten Weg treffen die Elektronen auf doppelt so viele Atomrümpfe und werden doppelt so oft gebremst.\n\nDer lange Draht wirkt wie zwei gleiche Drähte in Reihe: $2 \\cdot R$."
-        },
-        {
-          "id": "W4-2b",
-          "label": "2b",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Im heißen Draht schwingen die Atomrümpfe stärker um ihre Plätze.\n\nDie Elektronen stoßen häufiger mit ihnen zusammen. Bei gleicher Spannung fließt weniger Strom – der Widerstand ist größer."
-        },
-        {
-          "id": "W4-3a",
-          "label": "3a",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Einschalten: $I = \\frac{230\\,\\mathrm{V}}{40\\,\\Omega} \\approx 5{,}8\\,\\mathrm{A}$\n\nBetrieb: $I = \\frac{230\\,\\mathrm{V}}{480\\,\\Omega} \\approx 0{,}48\\,\\mathrm{A}$"
-        },
-        {
-          "id": "W4-3b",
-          "label": "3b",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "Ja, sie macht es plausibel: Im ersten Moment fließt etwa zwölfmal so viel Strom wie im Betrieb. Der kalte Draht wird schlagartig sehr stark belastet; eine dünn gewordene Stelle schmilzt dann zuerst.\n\nGrenze der Rechnung: Sie zeigt nur den Anfangswert. Der Draht erwärmt sich in Bruchteilen einer Sekunde, der Widerstand steigt und die Stromstärke sinkt sofort auf den Betriebswert."
-        }
-      ]
-    },
-    {
-      "id": "W5",
+      "id": "N8",
       "titel": "Fehler finden und begründen",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -697,46 +829,47 @@
         "c2",
         "c1"
       ],
-      "bild": "img/st_W5.svg",
-      "pdf": "pdf/W5_Fehler_finden.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Fehler_finden.pdf",
       "aufgaben": [
         {
-          "id": "W5-1",
+          "id": "N8-1",
           "label": "1",
           "punkte": 2,
           "afb": "II",
           "loesung": "Der Ansatz stimmt, aber der Kehrwert fehlt: Berechnet ist $\\frac{1}{R_{ges}}$, nicht $R_{ges}$.\n\n$R_{ges} = \\frac{60\\,\\Omega}{5} = 12\\,\\Omega$"
         },
         {
-          "id": "W5-2",
+          "id": "N8-2",
           "label": "2",
           "punkte": 2,
           "afb": "I",
-          "loesung": "Kilo-Ohm wurde nicht umgerechnet: $1{,}5\\,\\mathrm{k}\\Omega = 1\\,500\\,\\Omega$.\n\n$U = 1\\,500\\,\\Omega \\cdot 0{,}020\\,\\mathrm{A} = 30\\,\\mathrm{V}$"
+          "loesung": "Kilo-Ohm wurde nicht umgerechnet: $1{,}5\\,\\mathrm{k}\\Omega = 1\\,500\\,\\Omega$.\n\n$U = 1\\,500\\,\\Omega \\cdot 0{,}020\\,\\mathrm{A} = 30\\,\\mathrm{V}$\n\nVorsätze umrechnen üben: → **G2**"
         },
         {
-          "id": "W5-3",
+          "id": "N8-3",
           "label": "3",
           "punkte": 2,
           "afb": "II",
           "loesung": "An $R_1$ liegen nicht die ganzen $12\\,\\mathrm{V}$ – die Spannung teilt sich auf beide Widerstände auf. Richtig über den Gesamtwiderstand:\n\n$R_{ges} = 60\\,\\Omega$, $I = \\frac{12\\,\\mathrm{V}}{60\\,\\Omega} = 0{,}20\\,\\mathrm{A}$ – durch $R_1$ und $R_2$."
         },
         {
-          "id": "W5-4",
+          "id": "N8-4",
           "label": "4",
           "punkte": 2,
           "afb": "II",
           "loesung": "Im I-U-Diagramm ist die Steigung $\\frac{I}{U}$ – das ist der Kehrwert des Widerstands.\n\n$R = \\frac{U}{I} = \\frac{4{,}0\\,\\mathrm{V}}{0{,}20\\,\\mathrm{A}} = 20\\,\\Omega$"
         },
         {
-          "id": "W5-5",
+          "id": "N8-5",
           "label": "5",
           "punkte": 3,
           "afb": "III",
           "loesung": "Gefährlich: Das Amperemeter hat fast keinen Widerstand. Direkt an den Polen entsteht ein Kurzschluss, es fließt eine sehr große Stromstärke – Messgerät, Sicherung oder Batterie können Schaden nehmen.\n\nAußerdem ist die Frage falsch gestellt: Eine Batterie hat keine feste Stromstärke. Die Stromstärke hängt vom angeschlossenen Widerstand ab ($I = \\frac{U}{R}$).\n\nRichtig: einen Verbraucher anschließen und das Amperemeter in Reihe dazu schalten."
         },
         {
-          "id": "W5-6",
+          "id": "N8-6",
           "label": "6",
           "punkte": 2,
           "afb": "II",
@@ -745,7 +878,215 @@
       ]
     },
     {
-      "id": "W6",
+      "id": "N9",
+      "titel": "Check-out: Was kann ich jetzt?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notiere zu jeder Antwort, ob du sicher oder unsicher bist. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung. Vergleiche danach mit deinem Ergebnis in N1.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Im unverzweigten Stromkreis ist die Stromstärke überall gleich, auch bei verschiedenen Lampen. Ladung wird nicht verbraucht.\n\n*Wieder daneben?* → **N2**"
+        },
+        {
+          "id": "N9-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Die Spannung zwischen den Polen sagt, wie viel Energie jede Ladung auf dem Weg durch den Stromkreis abgeben kann ($1\\,\\mathrm{V} = 1\\,\\frac{\\mathrm{J}}{\\mathrm{C}}$). Elektronen pro Sekunde beschreibt die Stromstärke.\n\n*Wieder daneben?* → **N2**"
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Der Gesamtstrom fließt nur in der Leitung zwischen Batterie und erster Verzweigung. In einem Zweig misst man nur dessen Teilstrom; parallel zur Batterie entstünde ein Kurzschluss.\n\n*Wieder daneben?* → **N5**"
+        },
+        {
+          "id": "N9-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $R = \\frac{12\\,\\mathrm{V}}{0{,}60\\,\\mathrm{A}} = 20\\,\\Omega$, $U = 20\\,\\Omega \\cdot 0{,}15\\,\\mathrm{A} = 3{,}0\\,\\mathrm{V}$. Ein Viertel der Stromstärke braucht ein Viertel der Spannung.\n\n*Wieder daneben?* → **N7** (Tandem)"
+        },
+        {
+          "id": "N9-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Y hat bei gleicher Spannung die größere Stromstärke: steilere Kennlinie. $R_X = 20\\,\\Omega$, $R_Y = 5{,}0\\,\\Omega$ – Y hat den kleineren Widerstand.\n\n*Wieder daneben?* → **N8**"
+        },
+        {
+          "id": "N9-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Die $12\\,\\mathrm{V}$ verteilen sich jetzt auf drei gleiche Lampen: je $4{,}0\\,\\mathrm{V}$.\n\n*Wieder daneben?* → **N5**"
+        },
+        {
+          "id": "N9-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – $\\frac{1}{R_{ges}} = \\frac{3}{60\\,\\Omega}$, also $R_{ges} = 20\\,\\Omega$.\n\n*Wieder daneben?* → **N7**"
+        },
+        {
+          "id": "N9-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Durch den dünnen Draht müssen genauso viele Elektronen pro Sekunde wie durch die dicke Leitung. Sie stoßen dort viel häufiger mit den Atomrümpfen und geben Energie ab: Der Glühdraht hat den viel größeren Widerstand und wird heiß.\n\n*Wieder daneben?* → **N4**"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Der elektrische Weidezaun",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c1",
+        "c2",
+        "g1",
+        "g2",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner, 25 Minuten. Elementarladung $e = 1{,}6 \\cdot 10^{-19}\\,\\mathrm{C}$. Vernetzt die Grundlagen mit Phase 1 (Ladung, Strom und Spannung) – am besten nach N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Weidezaun.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Kuh steht auf dem Boden. Der feuchte Boden leitet und ist über den Erdstab mit dem zweiten Anschluss des Geräts verbunden.\n\nDer Stromkreis ist geschlossen: Gerät → Zaundraht → Kuh → Boden → Erdstab → Gerät. Der Boden ersetzt die zweite Leitung."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Kunststoff ist ein Nichtleiter und trennt den Draht vom Pfahl. Über Nagel und feuchtes Holz wäre der Draht dagegen mit dem Boden verbunden: Der Stromkreis wäre auch ohne Tier geschlossen, der Zaun wirkungslos."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Eine Spannung liegt immer zwischen zwei Punkten an, sie „steckt“ nicht im Draht. Die 8,0 kV liegen zwischen dem Zaundraht und der Erde, also zwischen den beiden Anschlüssen des Geräts.\n\nDie Spannung gibt an, wie viel Energie jede Ladung auf dem Weg vom Draht durch das Tier zur Erde abgeben kann ($1\\,\\mathrm{V} = 1\\,\\frac{\\mathrm{J}}{\\mathrm{C}}$) – sie ist der Antrieb für den Strom."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$Q = I \\cdot t = 2{,}0\\,\\mathrm{A} \\cdot 0{,}30 \\cdot 10^{-3}\\,\\mathrm{s} = 6{,}0 \\cdot 10^{-4}\\,\\mathrm{C} = 0{,}60\\,\\mathrm{mC}$\n\n$N = \\frac{Q}{e} = \\frac{6{,}0 \\cdot 10^{-4}\\,\\mathrm{C}}{1{,}6 \\cdot 10^{-19}\\,\\mathrm{C}} \\approx 3{,}8 \\cdot 10^{15}$ Elektronen"
+        },
+        {
+          "id": "V1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Amperemeter in Reihe zum Prüfwiderstand: Der ganze Strom muss durch das Messgerät, und es hat fast keinen Widerstand.\n\nVoltmeter parallel zwischen Zaundraht und Erde: Es misst die Spannung zwischen diesen beiden Punkten und hat einen sehr großen Widerstand (siehe Grafik).",
+          "loesung_bild": "img/V1-3.png"
+        },
+        {
+          "id": "V1-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Ursache: Trockener Boden leitet sehr schlecht. Der Stromkreis über die Erde ist kaum noch geschlossen, durch die Kuh fließt nur ein sehr kleiner Strom.\n\nMit dem zweiten Draht gibt es einen Rückweg ohne Boden: Berührt eine Kuh beide Drähte zugleich, schließt sie den Stromkreis direkt zwischen den beiden Anschlüssen des Geräts und bekommt einen kräftigen Schlag.\n\nUrteil: Der Rat ist sinnvoll. Grenzen: Es wirkt nur, wenn das Tier beide Drähte berührt; die Drähte dürfen sich nie berühren – sonst ist der Stromkreis kurzgeschlossen und der Zaun wirkt gar nicht mehr."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Der Styroporschneider",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c7",
+        "c8",
+        "g6",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner, 25 Minuten. Elementarladung $e = 1{,}6 \\cdot 10^{-19}\\,\\mathrm{C}$. Vernetzt die Grundlagen mit Phase 1 bis 2 (Ladung, Strom und Spannung; Widerstand und Kennlinien) – am besten nach N3 bis N4.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Styroporschneider.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$R = \\frac{U}{I} = \\frac{2{,}0\\,\\mathrm{V}}{0{,}50\\,\\mathrm{A}} = 4{,}0\\,\\Omega$\n\n$R = \\frac{8{,}0\\,\\mathrm{V}}{1{,}97\\,\\mathrm{A}} \\approx 4{,}06\\,\\Omega$"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Widerstand steigt nur von $4{,}0\\,\\Omega$ auf etwa $4{,}06\\,\\Omega$, also um rund 1,5 %. Die Kennlinie ist fast eine Ursprungsgerade: Doppelte Spannung ergibt nahezu doppelte Stromstärke.\n\nDer Draht verhält sich in guter Näherung wie ein ohmsches Bauteil (anders als eine Glühlampe, deren Widerstand sich vervielfacht)."
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Elektronen werden durch den Draht getrieben und stoßen dabei mit den Atomrümpfen. Bei jedem Stoß geben sie Bewegungsenergie ab, die Atomrümpfe schwingen stärker: Der Draht wird heiß.\n\nBei höherer Spannung fließt mehr Strom, der Draht wird heißer. Die stärker schwingenden Atomrümpfe behindern die Elektronen etwas mehr – der Widerstand steigt (bei dieser Legierung nur wenig)."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Drei Viertel der Länge, drei Viertel des Widerstands: $R = \\frac{30\\,\\mathrm{cm}}{40\\,\\mathrm{cm}} \\cdot 4{,}0\\,\\Omega = 3{,}0\\,\\Omega$\n\n$U = R \\cdot I = 3{,}0\\,\\Omega \\cdot 1{,}5\\,\\mathrm{A} = 4{,}5\\,\\mathrm{V}$"
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$Q = I \\cdot t = 1{,}5\\,\\mathrm{A} \\cdot 40\\,\\mathrm{s} = 60\\,\\mathrm{C}$\n\n$N = \\frac{Q}{e} = \\frac{60\\,\\mathrm{C}}{1{,}6 \\cdot 10^{-19}\\,\\mathrm{C}} \\approx 3{,}8 \\cdot 10^{20}$ Elektronen"
+        },
+        {
+          "id": "V2-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Bei $6{,}0\\,\\mathrm{V}$: $I = \\frac{6{,}0\\,\\mathrm{V}}{0{,}060\\,\\Omega} = 100\\,\\mathrm{A}$ – fast wie ein Kurzschluss, das Netzgerät schaltet sofort ab.\n\nStellt man so wenig Spannung ein, dass nur $1{,}5\\,\\mathrm{A}$ fließen ($U = 0{,}060\\,\\Omega \\cdot 1{,}5\\,\\mathrm{A} = 0{,}090\\,\\mathrm{V}$), wird der Kupferdraht kaum warm: Im Kupfer stoßen die Elektronen viel seltener mit den Atomrümpfen und geben viel weniger Energie ab.\n\nUrteil: Der Vorschlag ist ungeeignet. Ein Schneidedraht braucht ein Material mit großem Widerstand, damit schon bei kleiner Stromstärke viel Energie im Draht abgegeben wird."
+        }
+      ]
+    },
+    {
+      "id": "V3",
       "titel": "Probearbeit",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -753,160 +1094,163 @@
       "hilfsmittel": "Teil A keine, Teil B Taschenrechner und Formeldokument",
       "checkliste": [
         "c5",
+        "c6",
         "c1",
         "c2",
         "c3",
         "c4",
-        "c6"
+        "g2",
+        "g6"
       ],
-      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Grundlagen) ohne Hilfsmittel, danach Teil B mit Taschenrechner und Formeldokument. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten.",
-      "bild": "img/st_W6.svg",
-      "pdf": "pdf/W6_Probearbeit.pdf",
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Hilfsmittel, danach Teil B (Aufgabe 3 und 4) mit Taschenrechner und Formeldokument. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Ladung, Strom und Spannung; Widerstand und Kennlinien; Schaltungen berechnen) – am besten nach N5 bis N8.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Probearbeit.pdf",
       "aufgaben": [
         {
-          "id": "W6-MC1",
-          "label": "MC1",
+          "id": "V3-1a",
+          "label": "1a",
           "punkte": 1,
           "afb": "I",
           "loesung": "**B** – Volt (V) ist die Einheit der Spannung; Ampere gehört zur Stromstärke, Ohm zum Widerstand."
         },
         {
-          "id": "W6-MC2",
-          "label": "MC2",
+          "id": "V3-1b",
+          "label": "1b",
           "punkte": 1,
           "afb": "I",
           "loesung": "**D** – Das Amperemeter liegt in Reihe und soll den Strom nicht behindern – sein Innenwiderstand ist sehr klein."
         },
         {
-          "id": "W6-MC3",
-          "label": "MC3",
+          "id": "V3-1c",
+          "label": "1c",
           "punkte": 1,
           "afb": "I",
           "loesung": "**A** – In der Parallelschaltung liegt jedes Bauteil direkt an der Quelle: überall dieselbe Spannung."
         },
         {
-          "id": "W6-MC4",
-          "label": "MC4",
+          "id": "V3-1d",
+          "label": "1d",
           "punkte": 1,
           "afb": "I",
           "loesung": "**C** – $R = \\frac{9{,}0\\,\\mathrm{V}}{0{,}30\\,\\mathrm{A}} = 30\\,\\Omega$"
         },
         {
-          "id": "W6-MC5",
-          "label": "MC5",
+          "id": "V3-1e",
+          "label": "1e",
           "punkte": 1,
           "afb": "I",
           "loesung": "**B** – $100\\,\\Omega + 220\\,\\Omega + 180\\,\\Omega = 500\\,\\Omega$"
         },
         {
-          "id": "W6-MC6",
-          "label": "MC6",
+          "id": "V3-1f",
+          "label": "1f",
           "punkte": 1,
           "afb": "II",
           "loesung": "**D** – $\\frac{1}{R} = \\frac{1}{250\\,\\Omega} + \\frac{1}{1\\,000\\,\\Omega} = \\frac{5}{1\\,000\\,\\Omega}$, $R = 200\\,\\Omega$"
         },
         {
-          "id": "W6-MC7",
-          "label": "MC7",
+          "id": "V3-1g",
+          "label": "1g",
           "punkte": 1,
           "afb": "II",
           "loesung": "**A** – $I = \\frac{12\\,\\mathrm{V}}{3{,}0\\,\\mathrm{k}\\Omega} = 4{,}0\\,\\mathrm{mA}$, $U = 2{,}0\\,\\mathrm{k}\\Omega \\cdot 4{,}0\\,\\mathrm{mA} = 8{,}0\\,\\mathrm{V}$"
         },
         {
-          "id": "W6-MC8",
-          "label": "MC8",
+          "id": "V3-1h",
+          "label": "1h",
           "punkte": 1,
           "afb": "II",
           "loesung": "**C** – Ohmsch heißt: $I \\sim U$. Doppelte Spannung, doppelte Stromstärke; der Widerstand bleibt gleich."
         },
         {
-          "id": "W6-MC9",
-          "label": "MC9",
+          "id": "V3-1i",
+          "label": "1i",
           "punkte": 1,
           "afb": "II",
           "loesung": "**B** – $R = \\frac{2{,}0\\,\\mathrm{V}}{20\\,\\mathrm{mA}} = 100\\,\\Omega$, aber $\\frac{4{,}0\\,\\mathrm{V}}{30\\,\\mathrm{mA}} \\approx 133\\,\\Omega$: nicht ohmsch, der Widerstand steigt."
         },
         {
-          "id": "W6-MC10",
-          "label": "MC10",
+          "id": "V3-1j",
+          "label": "1j",
           "punkte": 1,
           "afb": "II",
           "loesung": "**D** – Das Voltmeter hat einen sehr großen Innenwiderstand; in Reihe geschaltet, fließt kaum noch Strom."
         },
         {
-          "id": "W6-a",
-          "label": "a",
+          "id": "V3-2a",
+          "label": "2a",
           "punkte": 1,
           "afb": "I",
           "loesung": "Die Spannung gibt an, wie viel Energie die Ladungen beim Durchlaufen eines Bauteils abgeben – sie ist der Antrieb des Stromkreises."
         },
         {
-          "id": "W6-b",
-          "label": "b",
+          "id": "V3-2b",
+          "label": "2b",
           "punkte": 2,
           "afb": "II",
           "loesung": "$R_{ges} = \\frac{12\\,\\mathrm{V}}{0{,}20\\,\\mathrm{A}} = 60\\,\\Omega$\n\n$R_2 = 60\\,\\Omega - 20\\,\\Omega = 40\\,\\Omega$"
         },
         {
-          "id": "W6-1a",
-          "label": "1a",
+          "id": "V3-3a",
+          "label": "3a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$R_{ges} = 2{,}0\\,\\mathrm{k}\\Omega + 4{,}0\\,\\mathrm{k}\\Omega = 6{,}0\\,\\mathrm{k}\\Omega$\n\n$I = \\frac{12\\,\\mathrm{V}}{6\\,000\\,\\Omega} = 2{,}0\\,\\mathrm{mA}$"
         },
         {
-          "id": "W6-1b",
-          "label": "1b",
+          "id": "V3-3b",
+          "label": "3b",
           "punkte": 2,
           "afb": "I",
           "loesung": "$U_{NTC} = 2{,}0\\,\\mathrm{mA} \\cdot 4{,}0\\,\\mathrm{k}\\Omega = 8{,}0\\,\\mathrm{V}$\n\n$U_{R1} = 12\\,\\mathrm{V} - 8{,}0\\,\\mathrm{V} = 4{,}0\\,\\mathrm{V}$"
         },
         {
-          "id": "W6-1c",
-          "label": "1c",
+          "id": "V3-3c",
+          "label": "3c",
           "punkte": 4,
           "afb": "II",
-          "loesung": "$U_{R1} = 12\\,\\mathrm{V} - 6{,}0\\,\\mathrm{V} = 6{,}0\\,\\mathrm{V}$, $I = \\frac{6{,}0\\,\\mathrm{V}}{2\\,000\\,\\Omega} = 3{,}0\\,\\mathrm{mA}$\n\n$R_{NTC} = \\frac{6{,}0\\,\\mathrm{V}}{3{,}0\\,\\mathrm{mA}} = 2{,}0\\,\\mathrm{k}\\Omega$\n\nLaut M1 gehört $2{,}0\\,\\mathrm{k}\\Omega$ zu $30\\,\\mathrm{°C}$: Die Ventilatoren schalten bei $30\\,\\mathrm{°C}$ ein."
+          "loesung": "$U_{R1} = 12\\,\\mathrm{V} - 6{,}0\\,\\mathrm{V} = 6{,}0\\,\\mathrm{V}$, $I = \\frac{6{,}0\\,\\mathrm{V}}{2\\,000\\,\\Omega} = 3{,}0\\,\\mathrm{mA}$\n\n$R_{NTC} = \\frac{6{,}0\\,\\mathrm{V}}{3{,}0\\,\\mathrm{mA}} = 2{,}0\\,\\mathrm{k}\\Omega$\n\nLaut M1 gehört $2{,}0\\,\\mathrm{k}\\Omega$ zu 30 °C: Die Ventilatoren schalten bei 30 °C ein."
         },
         {
-          "id": "W6-1d",
-          "label": "1d",
+          "id": "V3-3d",
+          "label": "3d",
           "punkte": 3,
           "afb": "II",
           "loesung": "$R_{ges} = \\frac{12\\,\\mathrm{V}}{0{,}40\\,\\mathrm{A}} = 30\\,\\Omega$\n\nZwei gleiche Widerstände parallel ergeben den halben Wert: $R_{einzeln} = 60\\,\\Omega$ (oder: je Ventilator $0{,}20\\,\\mathrm{A}$, $\\frac{12\\,\\mathrm{V}}{0{,}20\\,\\mathrm{A}} = 60\\,\\Omega$)"
         },
         {
-          "id": "W6-1e",
-          "label": "1e",
+          "id": "V3-3e",
+          "label": "3e",
           "punkte": 4,
           "afb": "II",
-          "loesung": "$10\\,\\mathrm{°C}$: $R_{ges} = 10\\,\\mathrm{k}\\Omega$, $I = 1{,}2\\,\\mathrm{mA}$, $U_{NTC} = 9{,}6\\,\\mathrm{V}$\n\n$30\\,\\mathrm{°C}$: $R_{ges} = 4{,}0\\,\\mathrm{k}\\Omega$, $I = 3{,}0\\,\\mathrm{mA}$, $U_{NTC} = 6{,}0\\,\\mathrm{V}$\n\nDie Behauptung stimmt: Beim Erwärmen sinkt der Widerstand des NTC, damit der Gesamtwiderstand – die Stromstärke steigt, und am kleineren NTC-Widerstand liegt ein kleinerer Teil der Spannung."
+          "loesung": "10 °C: $R_{ges} = 10\\,\\mathrm{k}\\Omega$, $I = 1{,}2\\,\\mathrm{mA}$, $U_{NTC} = 9{,}6\\,\\mathrm{V}$\n\n30 °C: $R_{ges} = 4{,}0\\,\\mathrm{k}\\Omega$, $I = 3{,}0\\,\\mathrm{mA}$, $U_{NTC} = 6{,}0\\,\\mathrm{V}$\n\nDie Behauptung stimmt: Beim Erwärmen sinkt der Widerstand des NTC, damit der Gesamtwiderstand – die Stromstärke steigt, und am kleineren NTC-Widerstand liegt ein kleinerer Teil der Spannung."
         },
         {
-          "id": "W6-2f",
-          "label": "2f",
+          "id": "V3-4a",
+          "label": "4a",
           "punkte": 3,
           "afb": "I",
           "loesung": "Bei $2{,}0\\,\\mathrm{V}$: $I = 0{,}5\\,\\mathrm{mA}$, $R = 4{,}0\\,\\mathrm{k}\\Omega$; bei $8{,}0\\,\\mathrm{V}$: $I = 4{,}0\\,\\mathrm{mA}$, $R = 2{,}0\\,\\mathrm{k}\\Omega$\n\nDer Widerstand des NTC halbiert sich, seine Kennlinie ist gekrümmt: nicht ohmsch. Der Festwiderstand hat eine Ursprungsgerade und einen festen Wert: ohmsch.",
-          "loesung_bild": "img/W6-2f.png"
+          "loesung_bild": "img/V3-4a.png"
         },
         {
-          "id": "W6-2g",
-          "label": "2g",
+          "id": "V3-4b",
+          "label": "4b",
           "punkte": 1,
           "afb": "I",
           "loesung": "Nur beim NTC ändert sich der Widerstand mit der Temperatur – damit die Spannung am NTC, aus der die Steuerung die Temperatur erkennt. Ein Festwiderstand hätte immer denselben Wert."
         },
         {
-          "id": "W6-2h",
-          "label": "2h",
+          "id": "V3-4c",
+          "label": "4c",
           "punkte": 4,
           "afb": "III",
-          "loesung": "20 kΩ: bei $10\\,\\mathrm{°C}$ $I \\approx 0{,}43\\,\\mathrm{mA}$, $U_{NTC} \\approx 3{,}4\\,\\mathrm{V}$; bei $30\\,\\mathrm{°C}$ $I \\approx 0{,}55\\,\\mathrm{mA}$, $U_{NTC} \\approx 1{,}1\\,\\mathrm{V}$\n\nUnterschied nur etwa $2{,}3\\,\\mathrm{V}$, mit $2{,}0\\,\\mathrm{k}\\Omega$ dagegen $3{,}6\\,\\mathrm{V}$.\n\nUrteil: $2{,}0\\,\\mathrm{k}\\Omega$ ist besser, die Spannung am NTC ändert sich im gefragten Bereich stärker. Bei $20\\,\\mathrm{k}\\Omega$ liegt fast die ganze Spannung am Festwiderstand."
+          "loesung": "20 kΩ: bei 10 °C $I \\approx 0{,}43\\,\\mathrm{mA}$, $U_{NTC} \\approx 3{,}4\\,\\mathrm{V}$; bei 30 °C $I \\approx 0{,}55\\,\\mathrm{mA}$, $U_{NTC} \\approx 1{,}1\\,\\mathrm{V}$\n\nUnterschied nur etwa $2{,}3\\,\\mathrm{V}$, mit $2{,}0\\,\\mathrm{k}\\Omega$ dagegen $3{,}6\\,\\mathrm{V}$.\n\nUrteil: $2{,}0\\,\\mathrm{k}\\Omega$ ist besser, die Spannung am NTC ändert sich im gefragten Bereich stärker. Bei $20\\,\\mathrm{k}\\Omega$ liegt fast die ganze Spannung am Festwiderstand."
         },
         {
-          "id": "W6-2i",
-          "label": "2i",
+          "id": "V3-4d",
+          "label": "4d",
           "punkte": 2,
           "afb": "III",
           "loesung": "Nein: Der NTC misst seine eigene Temperatur. In der Sonne wird er wärmer als die Luft, die Ventilatoren schalten zu früh ein.\n\nWeitere Grenze (eine genügt): Eigenerwärmung durch den Messstrom (M3), der Fühler braucht Zeit, M1 gilt nur bei kleinem Messstrom."
