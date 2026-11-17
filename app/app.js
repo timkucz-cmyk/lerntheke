@@ -1743,7 +1743,21 @@ function aktionenVerdrahten() {
 
     if (aktion === 'punkte-setzen') {
       setzePunkte(id, Number(el.dataset.wert));
-      route();
+      // Gleich zur nächsten Teilaufgabe (Tim, 17.11.2026); bei der letzten bleibt die Ansicht stehen.
+      const sid = stationAusPfad();
+      const station = sid && aktuell.thema.stationen.find((s) => String(s.id) === sid);
+      const i = station ? station.aufgaben.findIndex((a) => String(a.id) === String(id)) : -1;
+      if (station && i >= 0 && i < station.aufgaben.length - 1) {
+        standSchreiben(aktuell.zustand, sid).schritt = i + 1;
+        speichereZustand();
+      }
+      route().then(() => {
+        const ziel = document.querySelector('.fokus');
+        if (ziel && ziel.getBoundingClientRect().top < 0) {
+          const ruhig = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+          ziel.scrollIntoView({ block: 'start', behavior: ruhig ? 'auto' : 'smooth' });
+        }
+      });
       return;
     }
 
