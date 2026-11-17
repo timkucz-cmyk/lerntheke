@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Ladeleistung über der Zeit mit Fläche als geladene Energie">
+  <style>
+    .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #B61E33; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #F08A99; }
+      .marke  { fill: #F08A99; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #F08A99; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M20 62 h124 M20 62 V8"/>
+  <path class="fuell" d="M20.0 14.6 L22.5 14.2 L25.0 13.8 L27.5 13.4 L30.0 13.1 L32.5 12.9 L35.0 12.6 L37.5 12.4 L40.0 12.3 L42.5 12.2 L45.0 12.1 L47.5 12.0 L50.0 12.0 L52.5 12.0 L55.0 12.1 L57.5 12.2 L60.0 12.3 L62.5 12.4 L65.0 12.6 L67.5 12.9 L70.0 13.1 L72.5 13.4 L75.0 13.8 L77.5 14.2 L80.0 14.6 L82.5 15.0 L85.0 15.5 L87.5 16.0 L90.0 16.6 L92.5 17.2 L95.0 17.8 L97.5 18.4 L100.0 19.1 L102.5 19.9 L105.0 20.6 L107.5 21.4 L110.0 22.3 L112.5 23.2 L115.0 24.1 L117.5 25.0 L120.0 26.0 L120.0 62 L20.0 62 Z"/>
+  <path class="akzent" d="M20.0 14.6 L22.5 14.2 L25.0 13.8 L27.5 13.4 L30.0 13.1 L32.5 12.9 L35.0 12.6 L37.5 12.4 L40.0 12.3 L42.5 12.2 L45.0 12.1 L47.5 12.0 L50.0 12.0 L52.5 12.0 L55.0 12.1 L57.5 12.2 L60.0 12.3 L62.5 12.4 L65.0 12.6 L67.5 12.9 L70.0 13.1 L72.5 13.4 L75.0 13.8 L77.5 14.2 L80.0 14.6 L82.5 15.0 L85.0 15.5 L87.5 16.0 L90.0 16.6 L92.5 17.2 L95.0 17.8 L97.5 18.4 L100.0 19.1 L102.5 19.9 L105.0 20.6 L107.5 21.4 L110.0 22.3 L112.5 23.2 L115.0 24.1 L117.5 25.0 L120.0 26.0"/>
+  <path class="hilfs" d="M120 62 V12"/>
+</svg>

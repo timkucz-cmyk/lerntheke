@@ -138,7 +138,7 @@
           "name": "Integralrechnung – Training",
           "fach": "mathe",
           "aktiv": true,
-          "beschreibung": "Ober-/Untersumme, Stammfunktionen, Hauptsatz, Flächen"
+          "beschreibung": "Ober-/Untersumme, Stammfunktionen, Hauptsatz, Flächen, Änderungsrate und Bestand, Mittelwerte, grafisch integrieren"
         },
         {
           "id": "analytische-geometrie",

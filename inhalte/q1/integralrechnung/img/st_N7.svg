@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Fläche unter einem Graphen und Rechteck gleicher Fläche">
+  <style>
+    .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #B61E33; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #F08A99; }
+      .marke  { fill: #F08A99; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #F08A99; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M20 62 h124 M20 62 V8"/>
+  <rect class="fuell" x="20" y="34" width="116" height="28"/>
+  <path class="akzent" d="M20.0 62.0 L22.9 57.5 L25.8 53.3 L28.7 49.2 L31.6 45.4 L34.5 41.9 L37.4 38.5 L40.3 35.4 L43.2 32.6 L46.1 29.9 L49.0 27.5 L51.9 25.3 L54.8 23.4 L57.7 21.6 L60.6 20.1 L63.5 18.9 L66.4 17.8 L69.3 17.0 L72.2 16.5 L75.1 16.1 L78.0 16.0 L80.9 16.1 L83.8 16.5 L86.7 17.0 L89.6 17.8 L92.5 18.9 L95.4 20.1 L98.3 21.6 L101.2 23.4 L104.1 25.3 L107.0 27.5 L109.9 29.9 L112.8 32.6 L115.7 35.4 L118.6 38.5 L121.5 41.9 L124.4 45.4 L127.3 49.2 L130.2 53.3 L133.1 57.5 L136.0 62.0"/>
+  <path class="hilfs" d="M20 34 H136"/>
+</svg>
