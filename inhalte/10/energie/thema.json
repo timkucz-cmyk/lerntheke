@@ -3,8 +3,32 @@
   "titel": "Energie – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "du",
-  "hinweis": "Beginne mit P1 (Diagnose), danach P2 und P3. Die Lösungen von P1 empfehlen dir passende Wahlstationen: Nach P3 bearbeitest du eine Wahlstation passend zu deiner Diagnose, weitere zu Hause. Temperatur, Kelvin und Wärmetransport übst du ausführlich nur in W4 – bearbeite W4, wenn du dir dabei nicht sicher bist. P4 (Check-out) bearbeitest du in den letzten 8 Minuten der zweiten Stunde – vergleiche dann deine Punkte in P1 und P4.",
+  "hinweis": "Alle Stationen sind testrelevant. Bist du beim Vorwissen aus früheren Jahren unsicher (Einheiten, Formeln umstellen, Gewichtskraft, Geschwindigkeit, Dichte, Ohm’sches Gesetz), beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Energie und Leistung), V2 nach N3 bis N4 (mechanische Energie), V3 nach N5 bis N9 (Wärme und Wirkungsgrad). N10 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N10.",
   "checkliste": [
+    {
+      "id": "g1",
+      "text": "Größen mit Formelzeichen und Einheit angeben und Einheiten mit Vorsätzen (k, M, m) umrechnen"
+    },
+    {
+      "id": "g2",
+      "text": "Eine Formel nach einer gesuchten Größe umstellen und das Ergebnis mit Einheiten kontrollieren"
+    },
+    {
+      "id": "g3",
+      "text": "Masse und Gewichtskraft unterscheiden und die Gewichtskraft mit F_G = m · g berechnen"
+    },
+    {
+      "id": "g4",
+      "text": "Die Geschwindigkeit mit v = s : t berechnen und zwischen m/s und km/h umrechnen"
+    },
+    {
+      "id": "g5",
+      "text": "Aggregatzustände im Teilchenmodell beschreiben und mit der Dichte ρ = m : V rechnen"
+    },
+    {
+      "id": "g6",
+      "text": "Spannung, Stromstärke und Widerstand angeben und das Ohm’sche Gesetz U = R · I anwenden"
+    },
     {
       "id": "c1",
       "text": "Energieformen benennen und Energieumwandlungen an Alltagsbeispielen beschreiben"
@@ -52,6 +76,20 @@
   ],
   "phasen": [
     {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 7–9 und Elektrizität",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
       "id": "p1",
       "name": "Energie und Leistung",
       "untertitel": "Energieformen, Arbeit, Leistung",
@@ -90,377 +128,243 @@
   "abschluss": "Test Energie",
   "stationen": [
     {
-      "id": "P1",
-      "titel": "Diagnose: Wo stehe ich?",
-      "typ": "pflicht",
-      "sozialform": "einzel",
-      "dauer_min": 8,
-      "hilfsmittel": "keine",
-      "checkliste": [
-        "c1",
-        "c2",
-        "c3",
-        "c4",
-        "c6",
-        "c7",
-        "c8",
-        "c11"
-      ],
-      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung.",
-      "bild": "img/st_P1.svg",
-      "pdf": "pdf/P1_Diagnose.pdf",
-      "aufgaben": [
-        {
-          "id": "P1-1a",
-          "label": "1a",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**B** – Die Arbeit ist die Energie, die auf den Eimer übertragen wird: $W = m \\cdot g \\cdot H$. Masse und Höhe sind gleich, also auch die Arbeit. Die Leistung sagt, wie schnell die Energie übertragen wird: $P = W : t$. A braucht die halbe Zeit und hat deshalb die doppelte Leistung.\n\n*A, C oder D gewählt?* Arbeit (wie viel Energie) und Leistung (wie schnell) wurden verwechselt. → **W2** (Energieformen und Energieflüsse)"
-        },
-        {
-          "id": "P1-1b",
-          "label": "1b",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**D** – Wirkungsgrad $\\eta = \\frac{E_{Nutz}}{E_{zu}} = \\frac{150\\,\\mathrm{J}}{200\\,\\mathrm{J}} = 0{,}75 = 75\\,\\%$. Die restlichen $50\\,\\mathrm{J}$ gehen nicht verloren, sondern werden zu thermischer Energie von Motor, Getriebe und Umgebung (Energieerhaltung).\n\n*A gewählt?* Energie kann nicht vernichtet werden. *B gewählt?* Zugeführte und genutzte Energie vertauscht – $\\eta$ ist nie größer als $100\\,\\%$. *C gewählt?* $25\\,\\%$ ist der Anteil der Verlustenergie. → **P3** Aufgabe 1, danach **W5** (Fehler finden)"
-        },
-        {
-          "id": "P1-2a",
-          "label": "2a",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**A** – $E_{kin} = \\frac{1}{2} \\cdot m \\cdot v^2$: Die Geschwindigkeit geht im Quadrat ein. Doppelte Geschwindigkeit ergibt $2^2 = 4$-fache kinetische Energie.\n\n*B gewählt?* Das Quadrat bei $v$ wurde übersehen. → **W5** (Fehler finden) Aufgabe 2, danach **W1** (Tandem)"
-        },
-        {
-          "id": "P1-2b",
-          "label": "2b",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**C** – $E_{Pot} = m \\cdot g \\cdot H$ hängt von Masse **und** Höhe ab: $2\\,\\mathrm{kg} \\cdot 6\\,\\mathrm{m} = 4\\,\\mathrm{kg} \\cdot 3\\,\\mathrm{m}$. Der Ortsfaktor $g$ ist für beide gleich, also ist auch $E_{Pot}$ gleich.\n\n*A oder B gewählt?* Es wurde nur eine der beiden Größen beachtet. → **W1** (Tandem), danach **P2** Aufgabe 1"
-        },
-        {
-          "id": "P1-2c",
-          "label": "2c",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**B** – Die potenzielle Energie oben wird ganz zu kinetischer Energie: $m \\cdot g \\cdot H = \\frac{1}{2} \\cdot m \\cdot v^2$. Die Masse steht auf beiden Seiten und fällt heraus. Die Geschwindigkeit hängt nur von der Höhe ab. Der Erwachsene hat zwar dreimal so viel Energie, muss aber auch dreimal so viel Masse bewegen.\n\n*A, C oder D gewählt?* → **W3** (Simulation Energieskatepark)"
-        },
-        {
-          "id": "P1-3a",
-          "label": "3a",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**A** – Gleicher Stoff, gleiche Massen: Das warme Wasser gibt so viel Energie ab, wie das kalte aufnimmt. Die Mischungstemperatur liegt genau in der Mitte: $\\bar{T} = \\frac{1\\,\\mathrm{kg} \\cdot 20\\,°\\mathrm{C} + 1\\,\\mathrm{kg} \\cdot 60\\,°\\mathrm{C}}{2\\,\\mathrm{kg}} = 40\\,°\\mathrm{C}$.\n\n*B gewählt?* Temperaturen addieren sich nicht. *C gewählt?* Die wärmere Temperatur setzt sich nicht durch, beide Wasserportionen gleichen sich an. *D gewählt?* Die Mitte zwischen 20 und 60 liegt bei 40. → **W4** (Temperatur und Wärmetransport)"
-        },
-        {
-          "id": "P1-3b",
-          "label": "3b",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**D** – Beide haben dieselbe Temperatur. Metall ist ein guter Wärmeleiter: Es leitet die thermische Energie schnell von der warmen Hand weg, die Haut kühlt rasch ab. Holz ist ein schlechter Wärmeleiter (Isolator). „Kälte“ ist keine Energieform, die fließt.\n\n*A, B oder C gewählt?* → **W4** (Temperatur und Wärmetransport)"
-        },
-        {
-          "id": "P1-4",
-          "label": "4",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**C** – Der Wind bewegt das Windrad (kinetische Energie), der Generator wandelt sie in elektrische Energie um, die Lampe in Strahlungsenergie (Licht) und thermische Energie. Energie wird dabei nur umgewandelt – weder erzeugt noch verbraucht.\n\n*A oder D gewählt?* Energie wird nicht verbraucht oder erzeugt. *B gewählt?* Die Reihenfolge ist vertauscht: Der Generator macht aus kinetischer Energie elektrische. → **W2** (Energieformen und Energieflüsse)"
-        }
-      ]
-    },
-    {
-      "id": "P2",
-      "titel": "Potenzielle, kinetische und Spannenergie",
-      "typ": "pflicht",
-      "sozialform": "einzel",
-      "dauer_min": 20,
-      "hilfsmittel": "Taschenrechner, Regelheft",
-      "checkliste": [
-        "c3",
-        "c4",
-        "c5",
-        "c6"
-      ],
-      "hinweis": "Rechne immer zuerst in Grundeinheiten um: kg, m, s. Formeln darfst du in deinem Regelheft nachschlagen. Die passende Formel steht außerdem jeweils am Anfang der Lösung.",
-      "bild": "img/st_P2.svg",
-      "pdf": "pdf/P2_Mechanische_Energie.pdf",
-      "aufgaben": [
-        {
-          "id": "P2-1",
-          "label": "1",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "$$E_{Pot} = m \\cdot g \\cdot H$$\n\n$$E_{Pot} = 2{,}5\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 40\\,\\mathrm{m} = 981\\,\\mathrm{J}$$"
-        },
-        {
-          "id": "P2-2",
-          "label": "2",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "$$E_{kin} = \\frac{1}{2} \\cdot m \\cdot v^2$$\n\nUmrechnen: $27\\,\\mathrm{km/h} = \\frac{27}{3{,}6}\\,\\mathrm{m/s} = 7{,}5\\,\\mathrm{m/s}$\n\n$$E_{kin} = \\frac{1}{2} \\cdot 75\\,\\mathrm{kg} \\cdot (7{,}5\\,\\mathrm{m/s})^2 \\approx 2\\,109\\,\\mathrm{J} \\approx 2{,}1\\,\\mathrm{kJ}$$"
-        },
-        {
-          "id": "P2-3a",
-          "label": "3a",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Bei doppelter Auslenkung ($2{,}0\\,\\mathrm{cm} \\to 4{,}0\\,\\mathrm{cm}$ und $4{,}0\\,\\mathrm{cm} \\to 8{,}0\\,\\mathrm{cm}$) wird die Spannenergie viermal so groß ($0{,}04\\,\\mathrm{J} \\to 0{,}16\\,\\mathrm{J} \\to 0{,}64\\,\\mathrm{J}$). Die Vermutung stimmt also nicht.\n\n$E_{sp}$ wächst mit dem Quadrat von $s$, passend zu $E_{sp} = \\frac{1}{2} \\cdot D \\cdot s^2$ (hier $D = 200\\,\\mathrm{N/m}$). Im Regelheft heißt die Spannenergie in der Tabelle auch $E_S$."
-        },
-        {
-          "id": "P2-3b",
-          "label": "3b",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Die Spannenergie wird ganz zu potenzieller Energie: $E_{sp} = m \\cdot g \\cdot H$\n\n$$H = \\frac{E_{sp}}{m \\cdot g} = \\frac{0{,}64\\,\\mathrm{J}}{0{,}050\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg}} \\approx 1{,}3\\,\\mathrm{m}$$"
-        },
-        {
-          "id": "P2-3c",
-          "label": "3c",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "Bei $1{,}0\\,\\mathrm{m}$ hat die Rakete $E_{Pot} = 0{,}050\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 1{,}0\\,\\mathrm{m} \\approx 0{,}49\\,\\mathrm{J}$. Es fehlen $0{,}64\\,\\mathrm{J} - 0{,}49\\,\\mathrm{J} \\approx 0{,}15\\,\\mathrm{J}$, also etwa ein Viertel.\n\nDie Aussage stimmt nicht: Diese Energie ist nicht weg, sondern wurde durch Luftwiderstand und Reibung (auch in der Feder) in thermische Energie umgewandelt. Die Energieerhaltung gilt immer – nur die Annahme „ohne Luftwiderstand“ passt nicht genau."
-        }
-      ]
-    },
-    {
-      "id": "P3",
-      "titel": "Wärme, Leistung und Wirkungsgrad",
-      "typ": "pflicht",
-      "sozialform": "einzel",
-      "dauer_min": 18,
-      "hilfsmittel": "Taschenrechner, Regelheft",
-      "checkliste": [
-        "c9",
-        "c10",
-        "c11",
-        "c8",
-        "c1",
-        "c6"
-      ],
-      "hinweis": "Wirkungsgrad $\\eta$ (eta): Nutzenergie geteilt durch zugeführte Energie, Ergebnis in Prozent. Formeln darfst du in deinem Regelheft nachschlagen. Die passende Formel steht außerdem jeweils am Anfang der Lösung.",
-      "bild": "img/st_P3.svg",
-      "pdf": "pdf/P3_Waerme_Leistung_Wirkungsgrad.pdf",
-      "aufgaben": [
-        {
-          "id": "P3-1a",
-          "label": "1a",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "$$Q = m \\cdot c \\cdot \\Delta T$$\n\n$\\Delta T = 100\\,°\\mathrm{C} - 15\\,°\\mathrm{C} = 85\\,\\mathrm{K}$\n\n$$Q = 1{,}0\\,\\mathrm{kg} \\cdot 4\\,190\\,\\frac{\\mathrm{J}}{\\mathrm{kg} \\cdot \\mathrm{K}} \\cdot 85\\,\\mathrm{K} \\approx 356\\,000\\,\\mathrm{J} = 356\\,\\mathrm{kJ}$$"
-        },
-        {
-          "id": "P3-1b",
-          "label": "1b",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$$\\eta = \\frac{E_{Nutz}}{E_{zu}} = \\frac{356\\,\\mathrm{kJ}}{400\\,\\mathrm{kJ}} \\approx 0{,}89 = 89\\,\\%$$\n\nDiagramm: breiter Pfeil $400\\,\\mathrm{kJ}$ elektrische Energie in den Wasserkocher, breiter Pfeil $356\\,\\mathrm{kJ}$ Wärme ins Wasser, schmaler Pfeil $44\\,\\mathrm{kJ}$ thermische Energie an Gerät und Küche (Verlustenergie).",
-          "loesung_bild": "img/P3-1b.png"
-        },
-        {
-          "id": "P3-1c",
-          "label": "1c",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "Zwei der drei Arten: Wärmeleitung (über die Stellfläche und in die angrenzende Luft), Wärmeströmung (die erwärmte Luft steigt auf) und Wärmestrahlung (die heiße Oberfläche strahlt)."
-        },
-        {
-          "id": "P3-2a",
-          "label": "2a",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "$$W = m \\cdot g \\cdot H = 600\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 4{,}0\\,\\mathrm{m} = 23\\,544\\,\\mathrm{J} \\approx 23{,}5\\,\\mathrm{kJ}$$\n\n$$P = \\frac{W}{t} = \\frac{23\\,544\\,\\mathrm{J}}{12\\,\\mathrm{s}} \\approx 1\\,962\\,\\mathrm{W} \\approx 2{,}0\\,\\mathrm{kW}$$"
-        },
-        {
-          "id": "P3-2b",
-          "label": "2b",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Formel umstellen: $t = \\frac{W}{P}$\n\n$$t = \\frac{23\\,544\\,\\mathrm{J}}{4\\,000\\,\\mathrm{W}} \\approx 5{,}9\\,\\mathrm{s}$$"
-        }
-      ]
-    },
-    {
-      "id": "P4",
-      "titel": "Check-out: Was kann ich jetzt?",
-      "typ": "pflicht",
-      "sozialform": "einzel",
-      "dauer_min": 8,
-      "hilfsmittel": "keine",
-      "checkliste": [
-        "c1",
-        "c2",
-        "c3",
-        "c4",
-        "c6",
-        "c7",
-        "c8",
-        "c11"
-      ],
-      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung. Vergleiche danach mit deinem Ergebnis in P1.",
-      "bild": "img/st_P4.svg",
-      "pdf": "pdf/P4_Check-out.pdf",
-      "aufgaben": [
-        {
-          "id": "P4-1a",
-          "label": "1a",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**C** – Gleiche Masse, gleiche Höhe: gleiche Arbeit $W = m \\cdot g \\cdot H$. Aufzug 1 überträgt die Energie in der halben Zeit, seine Leistung $P = W : t$ ist doppelt so groß.\n\n*Wieder daneben?* → **W2**"
-        },
-        {
-          "id": "P4-1b",
-          "label": "1b",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**A** – $\\eta = \\frac{350\\,\\mathrm{J}}{500\\,\\mathrm{J}} = 0{,}70 = 70\\,\\%$. Die restlichen $150\\,\\mathrm{J}$ werden thermische Energie von Motor und Umgebung – vernichtet wird nichts.\n\n*Wieder daneben?* → **P3** Aufgabe 1, danach **W5**"
-        },
-        {
-          "id": "P4-2a",
-          "label": "2a",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**D** – Dreifache Geschwindigkeit, und $v$ geht in $E_{kin} = \\frac{1}{2} \\cdot m \\cdot v^2$ im Quadrat ein: $3^2 = 9$-fache kinetische Energie.\n\n*Wieder daneben?* → **W5** Aufgabe 2, danach **W1**"
-        },
-        {
-          "id": "P4-2b",
-          "label": "2b",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**B** – $8\\,\\mathrm{kg} \\cdot 1{,}5\\,\\mathrm{m} = 4\\,\\mathrm{kg} \\cdot 3\\,\\mathrm{m}$, und $g$ ist für beide gleich: gleiche potenzielle Energie $E_{Pot} = m \\cdot g \\cdot H$.\n\n*Wieder daneben?* → **W1**"
-        },
-        {
-          "id": "P4-2c",
-          "label": "2c",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**A** – Aus $m \\cdot g \\cdot H = \\frac{1}{2} \\cdot m \\cdot v^2$ fällt die Masse heraus: Die Geschwindigkeit unten hängt nur von der Höhe ab. Der beladene Wagen hat mehr Energie, aber auch mehr Masse.\n\n*Wieder daneben?* → **W3**"
-        },
-        {
-          "id": "P4-3a",
-          "label": "3a",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**C** – Gleicher Stoff, gleiche Massen: $\\bar{T} = \\frac{2\\,\\mathrm{kg} \\cdot 10\\,°\\mathrm{C} + 2\\,\\mathrm{kg} \\cdot 50\\,°\\mathrm{C}}{4\\,\\mathrm{kg}} = 30\\,°\\mathrm{C}$.\n\n*Wieder daneben?* → **W4**"
-        },
-        {
-          "id": "P4-3b",
-          "label": "3b",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**B** – Fliesen sind gute Wärmeleiter, der Teppich ist ein Isolator (viel Luft zwischen den Fasern). Die Fliesen leiten die thermische Energie schnell vom Fuß weg.\n\n*Wieder daneben?* → **W4**"
-        },
-        {
-          "id": "P4-4",
-          "label": "4",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**D** – Die gespannte Feder treibt das Auto an (Spannenergie → kinetische Energie). Durch Reibung wird die kinetische Energie zu thermischer Energie von Rädern, Boden und Luft. Die Energie ist danach nicht weg, aber kaum noch nutzbar.\n\n*Wieder daneben?* → **W2**"
-        }
-      ]
-    },
-    {
-      "id": "W1",
-      "titel": "Tandem: Rechnen mit Energie",
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
       "typ": "wahl",
-      "sozialform": "tandem",
-      "dauer_min": 15,
-      "hilfsmittel": "Taschenrechner",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner, Regelheft",
       "checkliste": [
-        "c3",
-        "c4",
-        "c5",
-        "c9",
-        "c10",
-        "c11"
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
       ],
-      "hinweis": "Zwei Personen, zwei Tablets, Taschenrechner. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. Ortsfaktor $g = 9{,}81\\,\\mathrm{N/kg}$.",
-      "bild": "img/st_W1.svg",
-      "pdf_optional": true,
+      "kategorie": "grundlagen",
+      "hinweis": "Taschenrechner und Regelheft, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2. Ortsfaktor $g = 9{,}81\\,\\mathrm{N/kg}$.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
       "aufgaben": [
         {
-          "id": "W1-1",
-          "label": "1",
-          "partner": "A",
-          "punkte": 2,
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
           "afb": "I",
-          "aufgabe": "Eine Kletterin ($55\\,\\mathrm{kg}$) ist in der Kletterhalle $15\\,\\mathrm{m}$ über dem Boden. Berechne ihre potenzielle Energie.",
-          "tipp": "$E_{Pot} = m \\cdot g \\cdot H$",
-          "loesung": "$E_{Pot} = 55\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 15\\,\\mathrm{m} \\approx 8\\,093\\,\\mathrm{J} \\approx 8{,}1\\,\\mathrm{kJ}$"
+          "loesung": "k: das Tausendfache ($1\\,\\mathrm{kJ} = 1\\,000\\,\\mathrm{J}$)\n\nM: das Millionenfache ($1\\,\\mathrm{MJ} = 1\\,000\\,000\\,\\mathrm{J}$)\n\nm: ein Tausendstel ($1\\,\\mathrm{mJ} = 0{,}001\\,\\mathrm{J}$)"
         },
         {
-          "id": "W1-2",
-          "label": "2",
-          "partner": "B",
-          "punkte": 2,
-          "afb": "II",
-          "aufgabe": "Ein Rucksack ($12\\,\\mathrm{kg}$) hat an einer Berghütte $70{,}6\\,\\mathrm{kJ}$ mehr potenzielle Energie als am Parkplatz. Berechne den Höhenunterschied.",
-          "tipp": "$H = \\frac{E_{Pot}}{m \\cdot g}$, kJ in J umrechnen.",
-          "loesung": "$H = \\frac{70\\,600\\,\\mathrm{J}}{12\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg}} \\approx 600\\,\\mathrm{m}$"
-        },
-        {
-          "id": "W1-3",
-          "label": "3",
-          "partner": "A",
-          "punkte": 2,
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
           "afb": "I",
-          "aufgabe": "Ein Pferd ($500\\,\\mathrm{kg}$) galoppiert mit $36\\,\\mathrm{km/h}$. Berechne seine kinetische Energie.",
-          "tipp": "Erst $\\mathrm{km/h}$ durch $3{,}6$ teilen, dann $E_{kin} = \\frac{1}{2} \\cdot m \\cdot v^2$.",
-          "loesung": "$v = 10\\,\\mathrm{m/s}$, $E_{kin} = \\frac{1}{2} \\cdot 500\\,\\mathrm{kg} \\cdot (10\\,\\mathrm{m/s})^2 = 25\\,000\\,\\mathrm{J} = 25\\,\\mathrm{kJ}$"
+          "loesung": "$3{,}2\\,\\mathrm{kJ} = 3{,}2 \\cdot 1\\,000\\,\\mathrm{J} = 3\\,200\\,\\mathrm{J}$\n\n$450\\,\\mathrm{g} = 450 : 1\\,000\\,\\mathrm{kg} = 0{,}45\\,\\mathrm{kg}$\n\n$2{,}5\\,\\mathrm{min} = 2{,}5 \\cdot 60\\,\\mathrm{s} = 150\\,\\mathrm{s}$"
         },
         {
-          "id": "W1-4",
-          "label": "4",
-          "partner": "B",
-          "punkte": 2,
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
           "afb": "II",
-          "aufgabe": "Eine Bowlingkugel ($6{,}0\\,\\mathrm{kg}$) hat $48\\,\\mathrm{J}$ kinetische Energie. Berechne ihre Geschwindigkeit.",
-          "tipp": "$v = \\sqrt{\\frac{2 \\cdot E_{kin}}{m}}$",
-          "loesung": "$v = \\sqrt{\\frac{2 \\cdot 48\\,\\mathrm{J}}{6{,}0\\,\\mathrm{kg}}} = \\sqrt{16}\\,\\mathrm{m/s} = 4{,}0\\,\\mathrm{m/s}$"
+          "loesung": "Beide Seiten mit $V$ malnehmen: $m = \\rho \\cdot V$\n\nDiese Formel durch $\\rho$ teilen: $V = \\frac{m}{\\rho}$"
         },
         {
-          "id": "W1-5",
-          "label": "5",
-          "partner": "A",
-          "punkte": 2,
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
           "afb": "II",
-          "aufgabe": "In einem Expander ($D = 300\\,\\mathrm{N/m}$) stecken $13{,}5\\,\\mathrm{J}$ Spannenergie. Berechne, wie weit er gedehnt ist.",
-          "tipp": "$s = \\sqrt{\\frac{2 \\cdot E_{sp}}{D}}$ (im Regelheft heißt die Spannenergie auch $E_S$).",
-          "loesung": "$s = \\sqrt{\\frac{2 \\cdot 13{,}5\\,\\mathrm{J}}{300\\,\\mathrm{N/m}}} = \\sqrt{0{,}09}\\,\\mathrm{m} = 0{,}30\\,\\mathrm{m} = 30\\,\\mathrm{cm}$"
+          "loesung": "Einheit von $\\frac{v}{s}$: $\\frac{\\mathrm{m/s}}{\\mathrm{m}} = \\frac{1}{\\mathrm{s}}$ – das ist keine Zeit. Die Umformung ist falsch.\n\nRichtig: $v \\cdot t = s$, also $t = \\frac{s}{v}$ mit der Einheit $\\frac{\\mathrm{m}}{\\mathrm{m/s}} = \\mathrm{s}$."
         },
         {
-          "id": "W1-6",
-          "label": "6",
-          "partner": "B",
-          "punkte": 2,
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
           "afb": "I",
-          "aufgabe": "Für einen Tee werden $0{,}50\\,\\mathrm{kg}$ Wasser von $20\\,°\\mathrm{C}$ auf $100\\,°\\mathrm{C}$ erhitzt ($c = 4\\,190\\,\\frac{\\mathrm{J}}{\\mathrm{kg} \\cdot \\mathrm{K}}$). Berechne die nötige Wärme.",
-          "tipp": "$Q = m \\cdot c \\cdot \\Delta T$ mit $\\Delta T = 80\\,\\mathrm{K}$",
-          "loesung": "$Q = 0{,}50\\,\\mathrm{kg} \\cdot 4\\,190\\,\\frac{\\mathrm{J}}{\\mathrm{kg} \\cdot \\mathrm{K}} \\cdot 80\\,\\mathrm{K} = 167\\,600\\,\\mathrm{J} \\approx 168\\,\\mathrm{kJ}$"
+          "loesung": "$F_G = m \\cdot g = 18\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 177\\,\\mathrm{N}$"
         },
         {
-          "id": "W1-7",
-          "label": "7",
-          "partner": "A",
-          "punkte": 2,
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
           "afb": "II",
-          "aufgabe": "Ein Schüler ($64\\,\\mathrm{kg}$) läuft in $15\\,\\mathrm{s}$ eine Treppe mit $12\\,\\mathrm{m}$ Höhenunterschied hinauf. Berechne seine Leistung beim Heben seines Körpers.",
-          "tipp": "Erst $W = m \\cdot g \\cdot H$, dann $P = W : t$.",
-          "loesung": "$W = 64\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 12\\,\\mathrm{m} \\approx 7\\,534\\,\\mathrm{J}$, $P = \\frac{7\\,534\\,\\mathrm{J}}{15\\,\\mathrm{s}} \\approx 502\\,\\mathrm{W}$"
+          "loesung": "Die Masse ist überall gleich: $900\\,\\mathrm{kg}$.\n\nDie Gewichtskraft hängt vom Ort ab: $F_G = 900\\,\\mathrm{kg} \\cdot 3{,}7\\,\\mathrm{N/kg} = 3\\,330\\,\\mathrm{N}$ (auf der Erde etwa $8\\,829\\,\\mathrm{N}$)."
         },
         {
-          "id": "W1-8",
-          "label": "8",
-          "partner": "B",
-          "punkte": 2,
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
           "afb": "I",
-          "aufgabe": "Ein LED-Strahler bekommt $600\\,\\mathrm{J}$ elektrische Energie und gibt $180\\,\\mathrm{J}$ als Licht ab. Berechne seinen Wirkungsgrad $\\eta$.",
-          "tipp": "$\\eta = \\frac{E_{Nutz}}{E_{zu}}$, Ergebnis in Prozent.",
-          "loesung": "$\\eta = \\frac{180\\,\\mathrm{J}}{600\\,\\mathrm{J}} = 0{,}30 = 30\\,\\%$"
+          "loesung": "$1\\,\\mathrm{m/s} = 3{,}6\\,\\mathrm{km/h}$, denn $\\frac{1\\,\\mathrm{m}}{1\\,\\mathrm{s}} = \\frac{3\\,600\\,\\mathrm{m}}{1\\,\\mathrm{h}} = 3{,}6\\,\\mathrm{km/h}$.\n\n$54\\,\\mathrm{km/h} = 54 : 3{,}6\\,\\mathrm{m/s} = 15\\,\\mathrm{m/s}$\n\n$12\\,\\mathrm{m/s} = 12 \\cdot 3{,}6\\,\\mathrm{km/h} = 43{,}2\\,\\mathrm{km/h}$"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$v = \\frac{s}{t}$ nach $t$ umstellen: $t = \\frac{s}{v}$\n\n$t = \\frac{27\\,\\mathrm{km}}{18\\,\\mathrm{km/h}} = 1{,}5\\,\\mathrm{h} = 90\\,\\mathrm{min}$"
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- fest: Die Teilchen sitzen dicht an festen Plätzen und schwingen dort hin und her.\n- flüssig: Die Teilchen sind dicht beieinander, aber nicht an feste Plätze gebunden; sie bewegen sich gegeneinander.\n- gasförmig: Die Teilchen sind weit voneinander entfernt und fliegen schnell und ungeordnet durch den Raum."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\rho = \\frac{m}{V} = \\frac{540\\,\\mathrm{g}}{200\\,\\mathrm{cm^3}} = 2{,}7\\,\\mathrm{g/cm^3}$\n\n$1\\,\\mathrm{m^3} = 1\\,000\\,000\\,\\mathrm{cm^3}$ und $1\\,\\mathrm{kg} = 1\\,000\\,\\mathrm{g}$, also $1\\,\\mathrm{g/cm^3} = 1\\,000\\,\\mathrm{kg/m^3}$: $\\rho = 2\\,700\\,\\mathrm{kg/m^3}$"
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Spannung $U$ in Volt ($\\mathrm{V}$), Stromstärke $I$ in Ampere ($\\mathrm{A}$), Widerstand $R$ in Ohm ($\\Omega$)."
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$U = R \\cdot I = 47\\,\\Omega \\cdot 0{,}20\\,\\mathrm{A} = 9{,}4\\,\\mathrm{V}$"
         }
       ]
     },
     {
-      "id": "W2",
+      "id": "G2",
+      "titel": "Auffrischen: Einheiten, Dichte und Formeln",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "g1",
+        "g5",
+        "g2",
+        "g3",
+        "g6",
+        "g4"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Taschenrechner und Regelheft, 15 Minuten. Übt typische Lücken aus G1: Einheiten umrechnen, Dichte, Gewichtskraft, Formeln umstellen, Ohm’sches Gesetz und Geschwindigkeit. Ortsfaktor $g = 9{,}81\\,\\mathrm{N/kg}$.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Erst in Meter umrechnen: $0{,}80\\,\\mathrm{m} \\cdot 0{,}35\\,\\mathrm{m} \\cdot 0{,}40\\,\\mathrm{m} = 0{,}112\\,\\mathrm{m^3}$ (das sind $112\\,\\mathrm{L}$).\n\n$\\rho = \\frac{m}{V}$ nach $m$ umstellen: $m = \\rho \\cdot V = 1\\,000\\,\\mathrm{kg/m^3} \\cdot 0{,}112\\,\\mathrm{m^3} = 112\\,\\mathrm{kg}$"
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gesamtmasse: $112\\,\\mathrm{kg} + 25\\,\\mathrm{kg} = 137\\,\\mathrm{kg}$\n\n$F_G = 137\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 1\\,344\\,\\mathrm{N} \\approx 1{,}34\\,\\mathrm{kN}$\n\n$1{,}34\\,\\mathrm{kN} < 1{,}5\\,\\mathrm{kN}$: Das Regal darf das Aquarium tragen (Steine, Sand und Deko lassen aber nur noch wenig Reserve)."
+        },
+        {
+          "id": "G2-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$U = R \\cdot I$ nach $I$ umstellen: $I = \\frac{U}{R} = \\frac{230\\,\\mathrm{V}}{530\\,\\Omega} \\approx 0{,}434\\,\\mathrm{A} = 434\\,\\mathrm{mA}$"
+        },
+        {
+          "id": "G2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$v = \\frac{s}{t} = \\frac{0{,}80\\,\\mathrm{m}}{4{,}0\\,\\mathrm{s}} = 0{,}20\\,\\mathrm{m/s}$\n\n$0{,}20\\,\\mathrm{m/s} = 0{,}20 \\cdot 3{,}6\\,\\mathrm{km/h} = 0{,}72\\,\\mathrm{km/h}$"
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Wo stehe ich?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c6",
+        "c7",
+        "c8",
+        "c11"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Die Arbeit ist die Energie, die auf den Eimer übertragen wird: $W = m \\cdot g \\cdot H$. Masse und Höhe sind gleich, also auch die Arbeit. Die Leistung sagt, wie schnell die Energie übertragen wird: $P = W : t$. A braucht die halbe Zeit und hat deshalb die doppelte Leistung.\n\n*A, C oder D gewählt?* Arbeit (wie viel Energie) und Leistung (wie schnell) wurden verwechselt. → **N2** (Energieformen und Energieflüsse)"
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Wirkungsgrad $\\eta = \\frac{E_{Nutz}}{E_{zu}} = \\frac{150\\,\\mathrm{J}}{200\\,\\mathrm{J}} = 0{,}75 = 75\\,\\%$. Die restlichen $50\\,\\mathrm{J}$ gehen nicht verloren, sondern werden zu thermischer Energie von Motor, Getriebe und Umgebung (Energieerhaltung).\n\n*A gewählt?* Energie kann nicht vernichtet werden. *B gewählt?* Zugeführte und genutzte Energie vertauscht – $\\eta$ ist nie größer als $100\\,\\%$. *C gewählt?* $25\\,\\%$ ist der Anteil der Verlustenergie. → **N6** Aufgabe 1, danach **N8** (Fehler finden)"
+        },
+        {
+          "id": "N1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $E_{kin} = \\frac{1}{2} \\cdot m \\cdot v^2$: Die Geschwindigkeit geht im Quadrat ein. Doppelte Geschwindigkeit ergibt $2^2 = 4$-fache kinetische Energie.\n\n*B gewählt?* Das Quadrat bei $v$ wurde übersehen. → **N8** (Fehler finden) Aufgabe 2, danach **N7** (Tandem)"
+        },
+        {
+          "id": "N1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – $E_{Pot} = m \\cdot g \\cdot H$ hängt von Masse **und** Höhe ab: $2\\,\\mathrm{kg} \\cdot 6\\,\\mathrm{m} = 4\\,\\mathrm{kg} \\cdot 3\\,\\mathrm{m}$. Der Ortsfaktor $g$ ist für beide gleich, also ist auch $E_{Pot}$ gleich.\n\n*A oder B gewählt?* Es wurde nur eine der beiden Größen beachtet. → **N7** (Tandem), danach **N3** Aufgabe 1"
+        },
+        {
+          "id": "N1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Die potenzielle Energie oben wird ganz zu kinetischer Energie: $m \\cdot g \\cdot H = \\frac{1}{2} \\cdot m \\cdot v^2$. Die Masse steht auf beiden Seiten und fällt heraus. Die Geschwindigkeit hängt nur von der Höhe ab. Der Erwachsene hat zwar dreimal so viel Energie, muss aber auch dreimal so viel Masse bewegen.\n\n*A, C oder D gewählt?* → **N4** (Simulation Energieskatepark)"
+        },
+        {
+          "id": "N1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Gleicher Stoff, gleiche Massen: Das warme Wasser gibt so viel Energie ab, wie das kalte aufnimmt. Die Mischungstemperatur liegt genau in der Mitte: $\\bar{T} = \\frac{1\\,\\mathrm{kg} \\cdot 20\\,°\\mathrm{C} + 1\\,\\mathrm{kg} \\cdot 60\\,°\\mathrm{C}}{2\\,\\mathrm{kg}} = 40\\,°\\mathrm{C}$.\n\n*B gewählt?* Temperaturen addieren sich nicht. *C gewählt?* Die wärmere Temperatur setzt sich nicht durch, beide Wasserportionen gleichen sich an. *D gewählt?* Die Mitte zwischen 20 und 60 liegt bei 40. → **N5** (Temperatur und Wärmetransport)"
+        },
+        {
+          "id": "N1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Beide haben dieselbe Temperatur. Metall ist ein guter Wärmeleiter: Es leitet die thermische Energie schnell von der warmen Hand weg, die Haut kühlt rasch ab. Holz ist ein schlechter Wärmeleiter (Isolator). „Kälte“ ist keine Energieform, die fließt.\n\n*A, B oder C gewählt?* → **N5** (Temperatur und Wärmetransport)"
+        },
+        {
+          "id": "N1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Der Wind bewegt das Windrad (kinetische Energie), der Generator wandelt sie in elektrische Energie um, die Lampe in Strahlungsenergie (Licht) und thermische Energie. Energie wird dabei nur umgewandelt – weder erzeugt noch verbraucht.\n\n*A oder D gewählt?* Energie wird nicht verbraucht oder erzeugt. *B gewählt?* Die Reihenfolge ist vertauscht: Der Generator macht aus kinetischer Energie elektrische. → **N2** (Energieformen und Energieflüsse)"
+        }
+      ]
+    },
+    {
+      "id": "N2",
       "titel": "Energieformen und Energieflüsse",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -472,41 +376,42 @@
         "c6",
         "c11"
       ],
+      "kategorie": "neu",
       "hinweis": "Zur Wiederholung von Energie, Arbeit und Leistung passt die Simulation „Energie, Arbeit und Leistung“: https://timkucz-cmyk.github.io/Simulationen/sims/physik/schlittenberg/ (dort heißt die Höhe $h$ statt $H$).",
-      "bild": "img/st_W2.svg",
-      "pdf": "pdf/W2_Energieformen_Energiefluesse.pdf",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Energieformen_Energiefluesse.pdf",
       "aufgaben": [
         {
-          "id": "W2-1",
+          "id": "N2-1",
           "label": "1",
           "punkte": 3,
           "afb": "I",
           "loesung": "Je 1 Punkt:\n\n- Am Tag: Strahlungsenergie (Sonnenlicht) → elektrische Energie (Solarzelle) → chemische Energie (Akku).\n- In der Nacht: chemische Energie (Akku) → elektrische Energie → Strahlungsenergie (Licht der LED).\n- Nebenbei entsteht thermische Energie (Solarzelle, Akku und LED werden warm)."
         },
         {
-          "id": "W2-2",
+          "id": "N2-2",
           "label": "2",
           "punkte": 2,
           "afb": "II",
           "loesung": "Breiter Pfeil $250\\,\\mathrm{J}$ (elektrisch) in den Motor, nach rechts ein Pfeil $200\\,\\mathrm{J}$ (kinetische Energie), nach unten ein schmaler Pfeil $50\\,\\mathrm{J}$ (thermische Energie, Verlustenergie). Die Pfeilbreiten stehen im Verhältnis $5 : 4 : 1$.\n\n$$\\eta = \\frac{200\\,\\mathrm{J}}{250\\,\\mathrm{J}} = 0{,}80 = 80\\,\\%$$",
-          "loesung_bild": "img/W2-2.png"
+          "loesung_bild": "img/N2-2.png"
         },
         {
-          "id": "W2-3",
+          "id": "N2-3",
           "label": "3",
           "punkte": 2,
           "afb": "I",
           "loesung": "Je $0{,}5$ Punkte:\n\n$2{,}5\\,\\mathrm{MJ} = 2\\,500\\,000\\,\\mathrm{J}$, $750\\,\\mathrm{J} = 0{,}75\\,\\mathrm{kJ}$\n\n$1{,}2\\,\\mathrm{kW} = 1\\,200\\,\\mathrm{W}$, $4\\,\\mathrm{min} = 240\\,\\mathrm{s}$"
         },
         {
-          "id": "W2-4",
+          "id": "N2-4",
           "label": "4",
           "punkte": 2,
           "afb": "II",
           "loesung": "$$E_{Ende} = 12{,}0\\,\\mathrm{MJ} + 9{,}0\\,\\mathrm{MJ} - 14{,}5\\,\\mathrm{MJ} = 6{,}5\\,\\mathrm{MJ}$$\n\nZugeführte Energie erhöht, abgegebene verringert die Energie des Systems. Es wird mehr Energie abgegeben als zugeführt: Die thermische Energie sinkt, im Gewächshaus ist es am Morgen kälter als am Abend."
         },
         {
-          "id": "W2-5",
+          "id": "N2-5",
           "label": "5",
           "punkte": 2,
           "afb": "III",
@@ -515,7 +420,62 @@
       ]
     },
     {
-      "id": "W3",
+      "id": "N3",
+      "titel": "Potenzielle, kinetische und Spannenergie",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Rechne immer zuerst in Grundeinheiten um: kg, m, s. Formeln darfst du in deinem Regelheft nachschlagen. Die passende Formel steht außerdem jeweils am Anfang der Lösung.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Mechanische_Energie.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$$E_{Pot} = m \\cdot g \\cdot H$$\n\n$$E_{Pot} = 2{,}5\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 40\\,\\mathrm{m} = 981\\,\\mathrm{J}$$"
+        },
+        {
+          "id": "N3-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$$E_{kin} = \\frac{1}{2} \\cdot m \\cdot v^2$$\n\nUmrechnen: $27\\,\\mathrm{km/h} = \\frac{27}{3{,}6}\\,\\mathrm{m/s} = 7{,}5\\,\\mathrm{m/s}$\n\n$$E_{kin} = \\frac{1}{2} \\cdot 75\\,\\mathrm{kg} \\cdot (7{,}5\\,\\mathrm{m/s})^2 \\approx 2\\,109\\,\\mathrm{J} \\approx 2{,}1\\,\\mathrm{kJ}$$"
+        },
+        {
+          "id": "N3-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bei doppelter Auslenkung ($2{,}0\\,\\mathrm{cm} \\to 4{,}0\\,\\mathrm{cm}$ und $4{,}0\\,\\mathrm{cm} \\to 8{,}0\\,\\mathrm{cm}$) wird die Spannenergie viermal so groß ($0{,}04\\,\\mathrm{J} \\to 0{,}16\\,\\mathrm{J} \\to 0{,}64\\,\\mathrm{J}$). Die Vermutung stimmt also nicht.\n\n$E_{sp}$ wächst mit dem Quadrat von $s$, passend zu $E_{sp} = \\frac{1}{2} \\cdot D \\cdot s^2$ (hier $D = 200\\,\\mathrm{N/m}$). Im Regelheft heißt die Spannenergie in der Tabelle auch $E_S$."
+        },
+        {
+          "id": "N3-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Spannenergie wird ganz zu potenzieller Energie: $E_{sp} = m \\cdot g \\cdot H$\n\n$$H = \\frac{E_{sp}}{m \\cdot g} = \\frac{0{,}64\\,\\mathrm{J}}{0{,}050\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg}} \\approx 1{,}3\\,\\mathrm{m}$$"
+        },
+        {
+          "id": "N3-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bei $1{,}0\\,\\mathrm{m}$ hat die Rakete $E_{Pot} = 0{,}050\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 1{,}0\\,\\mathrm{m} \\approx 0{,}49\\,\\mathrm{J}$. Es fehlen $0{,}64\\,\\mathrm{J} - 0{,}49\\,\\mathrm{J} \\approx 0{,}15\\,\\mathrm{J}$, also etwa ein Viertel.\n\nDie Aussage stimmt nicht: Diese Energie ist nicht weg, sondern wurde durch Luftwiderstand und Reibung (auch in der Feder) in thermische Energie umgewandelt. Die Energieerhaltung gilt immer – nur die Annahme „ohne Luftwiderstand“ passt nicht genau."
+        }
+      ]
+    },
+    {
+      "id": "N4",
       "titel": "Simulation: Energie im Skatepark",
       "typ": "wahl",
       "sozialform": "partner",
@@ -527,54 +487,55 @@
         "c4",
         "c1"
       ],
+      "kategorie": "neu",
       "hinweis": "Partnerarbeit mit der PhET-Simulation „Energieskatepark“ (phet.colorado.edu, Suche „Skatepark“). Lass die Referenzhöhe ausgeschaltet (Nullniveau = Boden). Im Säulendiagramm heißt die potenzielle Energie „potentiell“, die kinetische „kinetisch“. Notiere jede Vorhersage, bevor du den Skater startest.",
-      "bild": "img/st_W3.svg",
-      "pdf": "pdf/W3_Simulation_Skatepark.pdf",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Simulation_Skatepark.pdf",
       "aufgaben": [
         {
-          "id": "W3-1a",
+          "id": "N4-1a",
           "label": "1a",
           "punkte": 1,
           "afb": "I",
           "loesung": "Der Skater kommt rechts genau so hoch wie seine Starthöhe und rollt dann wieder zurück. Er pendelt ohne Ende zwischen den beiden gleich hohen Umkehrpunkten hin und her."
         },
         {
-          "id": "W3-1b",
+          "id": "N4-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "II",
           "loesung": "Am höchsten Punkt: nur potenzielle Energie, keine kinetische Energie (der Skater steht kurz). Am tiefsten Punkt: fast nur kinetische Energie – die Bahn liegt dort knapp über dem Nullniveau, ein kleiner Rest potenzieller Energie bleibt. Dazwischen: beide Formen.\n\nDie Säule der Gesamtenergie bleibt immer gleich hoch: Potenzielle Energie wird in kinetische umgewandelt und zurück, aber keine Energie geht verloren oder kommt hinzu."
         },
         {
-          "id": "W3-2",
+          "id": "N4-2",
           "label": "2",
           "punkte": 2,
           "afb": "II",
           "loesung": "Die Säule der thermischen Energie wächst, potenzielle und kinetische Energie werden zusammen immer kleiner. Die Säule der Gesamtenergie bleibt gleich.\n\nDurch Reibung wird mechanische Energie in thermische Energie von Rollen, Bahn und Luft umgewandelt. Diese Energie ist nicht weg, kann den Skater aber nicht mehr antreiben – am Ende steht er unten still."
         },
         {
-          "id": "W3-3a",
+          "id": "N4-3a",
           "label": "3a",
           "punkte": 2,
           "afb": "I",
           "loesung": "Beispiel (deine Werte können anders sein): Masse $m = 75\\,\\mathrm{kg}$, Höhe $4{,}0\\,\\mathrm{m}$: $E_{Pot} = 75\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 4{,}0\\,\\mathrm{m} \\approx 2\\,943\\,\\mathrm{J}$ – der Messfühler zeigt fast denselben Wert.\n\nKleine Abweichungen entstehen durch Runden (die Simulation rechnet mit $g = 9{,}8\\,\\mathrm{N/kg}$ und rundet die Anzeige)."
         },
         {
-          "id": "W3-3b",
+          "id": "N4-3b",
           "label": "3b",
           "punkte": 2,
           "afb": "II",
           "loesung": "Ohne Reibung: $m \\cdot g \\cdot H = \\frac{1}{2} \\cdot m \\cdot v^2$, also $v = \\sqrt{2 \\cdot g \\cdot H}$ mit dem Höhenunterschied $H$.\n\nBeispiel: $H = 5{,}0\\,\\mathrm{m}$ ergibt $v = \\sqrt{2 \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 5{,}0\\,\\mathrm{m}} \\approx 9{,}9\\,\\mathrm{m/s}$. Der Messfühler zeigt fast denselben Wert."
         },
         {
-          "id": "W3-4a",
+          "id": "N4-4a",
           "label": "4a",
           "punkte": 1,
           "afb": "II",
           "loesung": "Die Energien sind proportional zur Masse und werden größer. In $m \\cdot g \\cdot H = \\frac{1}{2} \\cdot m \\cdot v^2$ fällt die Masse heraus: $v = \\sqrt{2 \\cdot g \\cdot H}$ bleibt gleich."
         },
         {
-          "id": "W3-4b",
+          "id": "N4-4b",
           "label": "4b",
           "punkte": 2,
           "afb": "III",
@@ -583,7 +544,7 @@
       ]
     },
     {
-      "id": "W4",
+      "id": "N5",
       "titel": "Temperatur und Wärmetransport",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -594,53 +555,54 @@
         "c8",
         "c9"
       ],
-      "bild": "img/st_W4.svg",
-      "pdf": "pdf/W4_Temperatur_Waermetransport.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Temperatur_Waermetransport.pdf",
       "aufgaben": [
         {
-          "id": "W4-1a",
+          "id": "N5-1a",
           "label": "1a",
           "punkte": 1,
           "afb": "I",
           "loesung": "$T = -18 + 273{,}15 = 255{,}15$, also $255{,}15\\,\\mathrm{K} \\approx 255\\,\\mathrm{K}$\n\n$T = 90 + 273{,}15 = 363{,}15$, also $363{,}15\\,\\mathrm{K} \\approx 363\\,\\mathrm{K}$\n\nWer mit $273$ statt $273{,}15$ rechnet, bekommt $255\\,\\mathrm{K}$ und $363\\,\\mathrm{K}$ – das ist auch richtig."
         },
         {
-          "id": "W4-1b",
+          "id": "N5-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "I",
           "loesung": "Je 1 Punkt:\n\n- Schmelzen: Im Eis schwingen die Teilchen um feste Plätze. Die zugeführte Energie lässt sie so heftig schwingen, dass sie ihre festen Plätze verlassen und sich gegeneinander bewegen – das Wasser ist flüssig.\n- Gefrieren: Das Wasser gibt Energie an die kalte Umgebung ab. Die Teilchen ordnen sich wieder auf festen Plätzen an."
         },
         {
-          "id": "W4-2",
+          "id": "N5-2",
           "label": "2",
           "punkte": 2,
           "afb": "I",
           "loesung": "$$\\bar{T} = \\frac{m_1 \\cdot T_1 + m_2 \\cdot T_2}{m_{Gesamt}} = \\frac{60\\,\\mathrm{kg} \\cdot 60\\,°\\mathrm{C} + 40\\,\\mathrm{kg} \\cdot 15\\,°\\mathrm{C}}{100\\,\\mathrm{kg}} = 42\\,°\\mathrm{C}$$\n\nDie Formel gilt nur, wenn derselbe Stoff gemischt wird."
         },
         {
-          "id": "W4-3a",
+          "id": "N5-3a",
           "label": "3a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$$\\dot{Q} = \\lambda \\cdot A \\cdot \\frac{T_{warm} - T_{kalt}}{d}$$\n\nUmrechnen: $d = 3{,}0\\,\\mathrm{cm} = 0{,}030\\,\\mathrm{m}$, $T_{warm} - T_{kalt} = 25\\,\\mathrm{K}$\n\n$$\\dot{Q} = 0{,}035\\,\\frac{\\mathrm{W}}{\\mathrm{m} \\cdot \\mathrm{K}} \\cdot 0{,}80\\,\\mathrm{m^2} \\cdot \\frac{25\\,\\mathrm{K}}{0{,}030\\,\\mathrm{m}} \\approx 23\\,\\mathrm{W}$$\n\nPro Sekunde fließen also etwa $23\\,\\mathrm{J}$ von außen in die Box."
         },
         {
-          "id": "W4-3b",
+          "id": "N5-3b",
           "label": "3b",
           "punkte": 1,
           "afb": "I",
           "loesung": "Er halbiert sich, weil $d$ im Nenner steht: etwa $12\\,\\mathrm{W}$."
         },
         {
-          "id": "W4-4",
+          "id": "N5-4",
           "label": "4",
           "punkte": 3,
           "afb": "II",
           "loesung": "Je Bauteil 1 Punkt; die fett gedruckte Art genügt, die zweite ist eine richtige Ergänzung.\n\n- Vakuum: **Wärmeleitung** (ohne Teilchen kann keine Energie von Teilchen zu Teilchen weitergegeben werden), außerdem Wärmeströmung (es gibt kein Gas, das strömen könnte).\n- Verspiegelung: **Wärmestrahlung** – die Strahlung wird reflektiert statt absorbiert und gelangt zurück ins Getränk.\n- Stopfen: **Wärmeströmung** – warme Luft und Dampf können oben nicht entweichen; als Kunststoff leitet er außerdem die Wärme schlecht."
         },
         {
-          "id": "W4-5",
+          "id": "N5-5",
           "label": "5",
           "punkte": 2,
           "afb": "III",
@@ -649,61 +611,222 @@
       ]
     },
     {
-      "id": "W5",
+      "id": "N6",
+      "titel": "Wärme, Leistung und Wirkungsgrad",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c11",
+        "c8",
+        "c1",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Wirkungsgrad $\\eta$ (eta): Nutzenergie geteilt durch zugeführte Energie, Ergebnis in Prozent. Formeln darfst du in deinem Regelheft nachschlagen. Die passende Formel steht außerdem jeweils am Anfang der Lösung.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Waerme_Leistung_Wirkungsgrad.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$$Q = m \\cdot c \\cdot \\Delta T$$\n\n$\\Delta T = 100\\,°\\mathrm{C} - 15\\,°\\mathrm{C} = 85\\,\\mathrm{K}$\n\n$$Q = 1{,}0\\,\\mathrm{kg} \\cdot 4\\,190\\,\\frac{\\mathrm{J}}{\\mathrm{kg} \\cdot \\mathrm{K}} \\cdot 85\\,\\mathrm{K} \\approx 356\\,000\\,\\mathrm{J} = 356\\,\\mathrm{kJ}$$"
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$\\eta = \\frac{E_{Nutz}}{E_{zu}} = \\frac{356\\,\\mathrm{kJ}}{400\\,\\mathrm{kJ}} \\approx 0{,}89 = 89\\,\\%$$\n\nDiagramm: breiter Pfeil $400\\,\\mathrm{kJ}$ elektrische Energie in den Wasserkocher, breiter Pfeil $356\\,\\mathrm{kJ}$ Wärme ins Wasser, schmaler Pfeil $44\\,\\mathrm{kJ}$ thermische Energie an Gerät und Küche (Verlustenergie).",
+          "loesung_bild": "img/N6-1b.png"
+        },
+        {
+          "id": "N6-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zwei der drei Arten: Wärmeleitung (über die Stellfläche und in die angrenzende Luft), Wärmeströmung (die erwärmte Luft steigt auf) und Wärmestrahlung (die heiße Oberfläche strahlt)."
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$$W = m \\cdot g \\cdot H = 600\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 4{,}0\\,\\mathrm{m} = 23\\,544\\,\\mathrm{J} \\approx 23{,}5\\,\\mathrm{kJ}$$\n\n$$P = \\frac{W}{t} = \\frac{23\\,544\\,\\mathrm{J}}{12\\,\\mathrm{s}} \\approx 1\\,962\\,\\mathrm{W} \\approx 2{,}0\\,\\mathrm{kW}$$"
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Formel umstellen: $t = \\frac{W}{P}$\n\n$$t = \\frac{23\\,544\\,\\mathrm{J}}{4\\,000\\,\\mathrm{W}} \\approx 5{,}9\\,\\mathrm{s}$$"
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Tandem: Rechnen mit Energie",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c11",
+        "c3",
+        "c4",
+        "c5",
+        "c10"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets, Taschenrechner. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. Ortsfaktor $g = 9{,}81\\,\\mathrm{N/kg}$.",
+      "bild": "img/st_N7.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N7-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Eine Kletterin ($55\\,\\mathrm{kg}$) ist in der Kletterhalle $15\\,\\mathrm{m}$ über dem Boden. Berechne ihre potenzielle Energie.",
+          "tipp": "$E_{Pot} = m \\cdot g \\cdot H$",
+          "loesung": "$E_{Pot} = 55\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 15\\,\\mathrm{m} \\approx 8\\,093\\,\\mathrm{J} \\approx 8{,}1\\,\\mathrm{kJ}$"
+        },
+        {
+          "id": "N7-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Rucksack ($12\\,\\mathrm{kg}$) hat an einer Berghütte $70{,}6\\,\\mathrm{kJ}$ mehr potenzielle Energie als am Parkplatz. Berechne den Höhenunterschied.",
+          "tipp": "$H = \\frac{E_{Pot}}{m \\cdot g}$, kJ in J umrechnen.",
+          "loesung": "$H = \\frac{70\\,600\\,\\mathrm{J}}{12\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg}} \\approx 600\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Pferd ($500\\,\\mathrm{kg}$) galoppiert mit $36\\,\\mathrm{km/h}$. Berechne seine kinetische Energie.",
+          "tipp": "Erst $\\mathrm{km/h}$ durch $3{,}6$ teilen, dann $E_{kin} = \\frac{1}{2} \\cdot m \\cdot v^2$.",
+          "loesung": "$v = 10\\,\\mathrm{m/s}$, $E_{kin} = \\frac{1}{2} \\cdot 500\\,\\mathrm{kg} \\cdot (10\\,\\mathrm{m/s})^2 = 25\\,000\\,\\mathrm{J} = 25\\,\\mathrm{kJ}$"
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Eine Bowlingkugel ($6{,}0\\,\\mathrm{kg}$) hat $48\\,\\mathrm{J}$ kinetische Energie. Berechne ihre Geschwindigkeit.",
+          "tipp": "$v = \\sqrt{\\frac{2 \\cdot E_{kin}}{m}}$",
+          "loesung": "$v = \\sqrt{\\frac{2 \\cdot 48\\,\\mathrm{J}}{6{,}0\\,\\mathrm{kg}}} = \\sqrt{16}\\,\\mathrm{m/s} = 4{,}0\\,\\mathrm{m/s}$"
+        },
+        {
+          "id": "N7-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "In einem Expander ($D = 300\\,\\mathrm{N/m}$) stecken $13{,}5\\,\\mathrm{J}$ Spannenergie. Berechne, wie weit er gedehnt ist.",
+          "tipp": "$s = \\sqrt{\\frac{2 \\cdot E_{sp}}{D}}$ (im Regelheft heißt die Spannenergie auch $E_S$).",
+          "loesung": "$s = \\sqrt{\\frac{2 \\cdot 13{,}5\\,\\mathrm{J}}{300\\,\\mathrm{N/m}}} = \\sqrt{0{,}09}\\,\\mathrm{m} = 0{,}30\\,\\mathrm{m} = 30\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N7-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Für einen Tee werden $0{,}50\\,\\mathrm{kg}$ Wasser von $20\\,°\\mathrm{C}$ auf $100\\,°\\mathrm{C}$ erhitzt ($c = 4\\,190\\,\\frac{\\mathrm{J}}{\\mathrm{kg} \\cdot \\mathrm{K}}$). Berechne die nötige Wärme.",
+          "tipp": "$Q = m \\cdot c \\cdot \\Delta T$ mit $\\Delta T = 80\\,\\mathrm{K}$",
+          "loesung": "$Q = 0{,}50\\,\\mathrm{kg} \\cdot 4\\,190\\,\\frac{\\mathrm{J}}{\\mathrm{kg} \\cdot \\mathrm{K}} \\cdot 80\\,\\mathrm{K} = 167\\,600\\,\\mathrm{J} \\approx 168\\,\\mathrm{kJ}$"
+        },
+        {
+          "id": "N7-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Schüler ($64\\,\\mathrm{kg}$) läuft in $15\\,\\mathrm{s}$ eine Treppe mit $12\\,\\mathrm{m}$ Höhenunterschied hinauf. Berechne seine Leistung beim Heben seines Körpers.",
+          "tipp": "Erst $W = m \\cdot g \\cdot H$, dann $P = W : t$.",
+          "loesung": "$W = 64\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 12\\,\\mathrm{m} \\approx 7\\,534\\,\\mathrm{J}$, $P = \\frac{7\\,534\\,\\mathrm{J}}{15\\,\\mathrm{s}} \\approx 502\\,\\mathrm{W}$"
+        },
+        {
+          "id": "N7-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein LED-Strahler bekommt $600\\,\\mathrm{J}$ elektrische Energie und gibt $180\\,\\mathrm{J}$ als Licht ab. Berechne seinen Wirkungsgrad $\\eta$.",
+          "tipp": "$\\eta = \\frac{E_{Nutz}}{E_{zu}}$, Ergebnis in Prozent.",
+          "loesung": "$\\eta = \\frac{180\\,\\mathrm{J}}{600\\,\\mathrm{J}} = 0{,}30 = 30\\,\\%$"
+        }
+      ]
+    },
+    {
+      "id": "N8",
       "titel": "Fehler finden und begründen",
       "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 20,
       "hilfsmittel": "Taschenrechner, Regelheft",
       "checkliste": [
+        "c7",
+        "c11",
         "c4",
         "c3",
         "c5",
-        "c7",
-        "c11",
-        "c2",
-        "c6"
+        "c6",
+        "c2"
       ],
-      "bild": "img/st_W5.svg",
-      "pdf": "pdf/W5_Fehler_finden.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Fehler_finden.pdf",
       "aufgaben": [
         {
-          "id": "W5-1",
+          "id": "N8-1",
           "label": "1",
           "punkte": 2,
           "afb": "II",
-          "loesung": "Die Geschwindigkeit wurde nicht in $\\mathrm{m/s}$ umgerechnet: $36\\,\\mathrm{km/h} = 10\\,\\mathrm{m/s}$.\n\n$$E_{kin} = \\frac{1}{2} \\cdot 120\\,\\mathrm{kg} \\cdot (10\\,\\mathrm{m/s})^2 = 6\\,000\\,\\mathrm{J}$$"
+          "loesung": "Die Geschwindigkeit wurde nicht in $\\mathrm{m/s}$ umgerechnet: $36\\,\\mathrm{km/h} = 10\\,\\mathrm{m/s}$.\n\n$$E_{kin} = \\frac{1}{2} \\cdot 120\\,\\mathrm{kg} \\cdot (10\\,\\mathrm{m/s})^2 = 6\\,000\\,\\mathrm{J}$$\n\nUmrechnen von km/h in m/s übst du in **G2** Aufgabe 3."
         },
         {
-          "id": "W5-2",
+          "id": "N8-2",
           "label": "2",
           "punkte": 2,
           "afb": "I",
           "loesung": "Die Geschwindigkeit wurde nicht quadriert. In $E_{kin} = \\frac{1}{2} \\cdot m \\cdot v^2$ steht $v^2$.\n\n$$E_{kin} = \\frac{1}{2} \\cdot 0{,}45\\,\\mathrm{kg} \\cdot (12\\,\\mathrm{m/s})^2 = 32{,}4\\,\\mathrm{J}$$"
         },
         {
-          "id": "W5-3",
+          "id": "N8-3",
           "label": "3",
           "punkte": 2,
           "afb": "II",
-          "loesung": "Die Auslenkung wurde nicht in Meter umgerechnet: $6{,}0\\,\\mathrm{cm} = 0{,}060\\,\\mathrm{m}$. $4\\,500\\,\\mathrm{J}$ wären für eine kleine Feder viel zu viel.\n\n$$E_{sp} = \\frac{1}{2} \\cdot 250\\,\\mathrm{N/m} \\cdot (0{,}060\\,\\mathrm{m})^2 = 0{,}45\\,\\mathrm{J}$$"
+          "loesung": "Die Auslenkung wurde nicht in Meter umgerechnet: $6{,}0\\,\\mathrm{cm} = 0{,}060\\,\\mathrm{m}$. $4\\,500\\,\\mathrm{J}$ wären für eine kleine Feder viel zu viel.\n\n$$E_{sp} = \\frac{1}{2} \\cdot 250\\,\\mathrm{N/m} \\cdot (0{,}060\\,\\mathrm{m})^2 = 0{,}45\\,\\mathrm{J}$$\n\nUmrechnen von cm in m übst du in **G2** Aufgabe 1."
         },
         {
-          "id": "W5-4",
+          "id": "N8-4",
           "label": "4",
           "punkte": 2,
           "afb": "II",
           "loesung": "Es wurde ohne die Massen gemittelt. Vom heißen Wasser ist dreimal so viel da, die Mischung muss näher an $80\\,°\\mathrm{C}$ liegen.\n\n$$\\bar{T} = \\frac{3\\,\\mathrm{kg} \\cdot 80\\,°\\mathrm{C} + 1\\,\\mathrm{kg} \\cdot 20\\,°\\mathrm{C}}{4\\,\\mathrm{kg}} = 65\\,°\\mathrm{C}$$"
         },
         {
-          "id": "W5-5",
+          "id": "N8-5",
           "label": "5",
           "punkte": 2,
           "afb": "II",
           "loesung": "Zugeführte Energie und Nutzenergie sind vertauscht. Ein Wirkungsgrad über $100\\,\\%$ ist unmöglich, denn ein Motor kann keine Energie erzeugen.\n\n$$\\eta = \\frac{E_{Nutz}}{E_{zu}} = \\frac{900\\,\\mathrm{J}}{1\\,200\\,\\mathrm{J}} = 0{,}75 = 75\\,\\%$$"
         },
         {
-          "id": "W5-6",
+          "id": "N8-6",
           "label": "6",
           "punkte": 2,
           "afb": "III",
@@ -712,55 +835,314 @@
       ]
     },
     {
-      "id": "W6",
+      "id": "N9",
       "titel": "Vertiefung: Energieketten abschätzen",
       "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 20,
       "hilfsmittel": "Taschenrechner, Regelheft",
       "checkliste": [
-        "c6",
         "c9",
-        "c3",
-        "c11"
+        "c11",
+        "c6",
+        "c3"
       ],
-      "bild": "img/st_W6.svg",
-      "pdf": "pdf/W6_Energieketten.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Energieketten.pdf",
       "aufgaben": [
         {
-          "id": "W6-1a",
+          "id": "N9-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$$E_{Pot} = 1\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 50\\,\\mathrm{m} \\approx 491\\,\\mathrm{J}$$"
         },
         {
-          "id": "W6-1b",
+          "id": "N9-1b",
           "label": "1b",
           "punkte": 3,
           "afb": "II",
           "loesung": "Energieerhaltung: Die potenzielle Energie wird erst kinetische, dann thermische Energie des Wassers: $Q = E_{Pot} \\approx 491\\,\\mathrm{J}$\n\n$Q = m \\cdot c \\cdot \\Delta T$ nach $\\Delta T$ umstellen:\n\n$$\\Delta T = \\frac{Q}{m \\cdot c} = \\frac{491\\,\\mathrm{J}}{1\\,\\mathrm{kg} \\cdot 4\\,190\\,\\frac{\\mathrm{J}}{\\mathrm{kg} \\cdot \\mathrm{K}}} \\approx 0{,}12\\,\\mathrm{K}$$"
         },
         {
-          "id": "W6-1c",
+          "id": "N9-1c",
           "label": "1c",
           "punkte": 2,
           "afb": "III",
           "loesung": "Die Erwärmung um gut $0{,}1\\,\\mathrm{K}$ ist eine Obergrenze. In Wirklichkeit bleibt nicht alle Energie im Wasser: Ein Teil erwärmt Luft und Gestein, der Luftwiderstand bremst schon beim Fallen, Wasser verdunstet und kühlt dabei.\n\nAußerdem fließt das Wasser weiter und mischt sich. Die Erwärmung ist so klein, dass man sie mit einem normalen Thermometer kaum nachweisen kann."
         },
         {
-          "id": "W6-2a",
+          "id": "N9-2a",
           "label": "2a",
           "punkte": 2,
           "afb": "II",
           "loesung": "$$H = \\frac{E}{m \\cdot g} = \\frac{1\\,000\\,000\\,\\mathrm{J}}{55\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg}} \\approx 1\\,853\\,\\mathrm{m}$$\n\nDas sind über 600 Stockwerke."
         },
         {
-          "id": "W6-2b",
+          "id": "N9-2b",
           "label": "2b",
           "punkte": 2,
           "afb": "II",
           "loesung": "Nutzbar sind $25\\,\\%$: $E_{Nutz} = 0{,}25 \\cdot 1\\,000\\,\\mathrm{kJ} = 250\\,\\mathrm{kJ}$, also $H \\approx 0{,}25 \\cdot 1\\,853\\,\\mathrm{m} \\approx 463\\,\\mathrm{m}$\n\n$$\\frac{463\\,\\mathrm{m}}{3{,}0\\,\\mathrm{m}} \\approx 154$$\n\nEtwa 150 Stockwerke. Die übrigen 75 % werden im Körper zu thermischer Energie – deshalb wird einem beim Treppensteigen warm."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Check-out: Was kann ich jetzt?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c11",
+        "c3",
+        "c4",
+        "c6",
+        "c1",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung. Vergleiche danach mit deinem Ergebnis in N1.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Gleiche Masse, gleiche Höhe: gleiche Arbeit $W = m \\cdot g \\cdot H$. Aufzug 1 überträgt die Energie in der halben Zeit, seine Leistung $P = W : t$ ist doppelt so groß.\n\n*Wieder daneben?* → **N2**"
+        },
+        {
+          "id": "N10-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $\\eta = \\frac{350\\,\\mathrm{J}}{500\\,\\mathrm{J}} = 0{,}70 = 70\\,\\%$. Die restlichen $150\\,\\mathrm{J}$ werden thermische Energie von Motor und Umgebung – vernichtet wird nichts.\n\n*Wieder daneben?* → **N6** Aufgabe 1, danach **N8**"
+        },
+        {
+          "id": "N10-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Dreifache Geschwindigkeit, und $v$ geht in $E_{kin} = \\frac{1}{2} \\cdot m \\cdot v^2$ im Quadrat ein: $3^2 = 9$-fache kinetische Energie.\n\n*Wieder daneben?* → **N8** Aufgabe 2, danach **N7**"
+        },
+        {
+          "id": "N10-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $8\\,\\mathrm{kg} \\cdot 1{,}5\\,\\mathrm{m} = 4\\,\\mathrm{kg} \\cdot 3\\,\\mathrm{m}$, und $g$ ist für beide gleich: gleiche potenzielle Energie $E_{Pot} = m \\cdot g \\cdot H$.\n\n*Wieder daneben?* → **N7**"
+        },
+        {
+          "id": "N10-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Aus $m \\cdot g \\cdot H = \\frac{1}{2} \\cdot m \\cdot v^2$ fällt die Masse heraus: Die Geschwindigkeit unten hängt nur von der Höhe ab. Der beladene Wagen hat mehr Energie, aber auch mehr Masse.\n\n*Wieder daneben?* → **N4**"
+        },
+        {
+          "id": "N10-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Gleicher Stoff, gleiche Massen: $\\bar{T} = \\frac{2\\,\\mathrm{kg} \\cdot 10\\,°\\mathrm{C} + 2\\,\\mathrm{kg} \\cdot 50\\,°\\mathrm{C}}{4\\,\\mathrm{kg}} = 30\\,°\\mathrm{C}$.\n\n*Wieder daneben?* → **N5**"
+        },
+        {
+          "id": "N10-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Fliesen sind gute Wärmeleiter, der Teppich ist ein Isolator (viel Luft zwischen den Fasern). Die Fliesen leiten die thermische Energie schnell vom Fuß weg.\n\n*Wieder daneben?* → **N5**"
+        },
+        {
+          "id": "N10-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Die gespannte Feder treibt das Auto an (Spannenergie → kinetische Energie). Durch Reibung wird die kinetische Energie zu thermischer Energie von Rädern, Boden und Luft. Die Energie ist danach nicht weg, aber kaum noch nutzbar.\n\n*Wieder daneben?* → **N2**"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Strom vom Fahrrad",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c10",
+        "c1",
+        "c2",
+        "g1",
+        "g2",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner und Regelheft, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Energie und Leistung) – am besten nach N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Strom_vom_Fahrrad.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Chemische Energie (Nahrung, Muskeln) → kinetische Energie (Pedale, Kette, Hinterrad, Generator) → elektrische Energie (Generator, Kabel) → Strahlungsenergie (Licht der Lichterkette).\n\nThermische Energie entsteht zum Beispiel in den Muskeln (der Person wird warm), durch Reibung in Kette, Lagern und Rolle, im Generator und in den Lämpchen."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$t = 5{,}0 \\cdot 60\\,\\mathrm{s} = 300\\,\\mathrm{s}$\n\n$P = \\frac{W}{t}$ nach $W$ umstellen: $W = P \\cdot t = 120\\,\\mathrm{W} \\cdot 300\\,\\mathrm{s} = 36\\,000\\,\\mathrm{J} = 36\\,\\mathrm{kJ}$"
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Ohm’sches Gesetz: $I = \\frac{U}{R} = \\frac{12\\,\\mathrm{V}}{2{,}4\\,\\Omega} = 5{,}0\\,\\mathrm{A}$\n\n$E_{el} = U \\cdot I \\cdot t = 12\\,\\mathrm{V} \\cdot 5{,}0\\,\\mathrm{A} \\cdot 300\\,\\mathrm{s} = 18\\,000\\,\\mathrm{J} = 18\\,\\mathrm{kJ}$\n\nDie Lichterkette bekommt nur die Hälfte der $36\\,\\mathrm{kJ}$. Die übrigen $18\\,\\mathrm{kJ}$ sind nicht verschwunden, sondern werden durch Reibung und im Generator zu thermischer Energie."
+        },
+        {
+          "id": "V1-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Elektrische Leistung eines Rades: $P = \\frac{E_{el}}{t} = \\frac{18\\,000\\,\\mathrm{J}}{300\\,\\mathrm{s}} = 60\\,\\mathrm{W}$, zehn Räder liefern zusammen $600\\,\\mathrm{W}$.\n\nPlan A klappt nicht: $600\\,\\mathrm{W}$ sind weniger als die $1\\,000\\,\\mathrm{W}$ des Waffeleisens. Die Energie käme zu langsam an (man bräuchte etwa 17 Räder). Auch richtig: Das Waffeleisen würde höchstens viel langsamer heiß, die Waffeln dauerten deutlich länger.\n\nPlan B: In zwei Stunden sammeln die Räder $E = 600\\,\\mathrm{W} \\cdot 7\\,200\\,\\mathrm{s} = 4\\,320\\,000\\,\\mathrm{J} \\approx 4{,}3\\,\\mathrm{MJ}$. Eine Waffel braucht $1\\,000\\,\\mathrm{W} \\cdot 180\\,\\mathrm{s} = 180\\,000\\,\\mathrm{J}$. Das reicht für etwa $24$ Waffeln (wegen Verlusten im Akku etwas weniger).\n\nPlan B funktioniert, weil der Akku die langsam gesammelte Energie danach schneller, also mit größerer Leistung, abgeben kann. Entscheidend ist der Unterschied zwischen Energie und Leistung."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Bungee-Sprung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c6",
+        "c3",
+        "c4",
+        "c5",
+        "c1",
+        "g3",
+        "g4",
+        "g2"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner und Regelheft, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Energie und Leistung, mechanische Energie) – am besten nach N3 bis N4.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Bungee_Sprung.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$F_G = m \\cdot g = 60\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 589\\,\\mathrm{N}$\n\n$E_{Pot} = m \\cdot g \\cdot H = 60\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 50\\,\\mathrm{m} = 29\\,430\\,\\mathrm{J} \\approx 29{,}4\\,\\mathrm{kJ}$"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Auf den ersten $20\\,\\mathrm{m}$ wird potenzielle Energie zu kinetischer Energie:\n\n$E_{kin} = m \\cdot g \\cdot \\Delta H = 60\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 20\\,\\mathrm{m} = 11\\,772\\,\\mathrm{J}$\n\n$E_{kin} = \\frac{1}{2} \\cdot m \\cdot v^2$ nach $v$ umstellen: $v = \\sqrt{\\frac{2 \\cdot E_{kin}}{m}} = \\sqrt{\\frac{2 \\cdot 11\\,772\\,\\mathrm{J}}{60\\,\\mathrm{kg}}} \\approx 19{,}8\\,\\mathrm{m/s}$\n\n$19{,}8\\,\\mathrm{m/s} \\cdot 3{,}6 \\approx 71\\,\\mathrm{km/h}$"
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bis das Seil sich spannt ($20\\,\\mathrm{m}$): potenzielle Energie wird zu kinetischer Energie.\n\nDanach wird potenzielle Energie weiter umgewandelt, und zwar in kinetische Energie und in Spannenergie des Seils. Die kinetische Energie nimmt zuerst noch zu, dann ab.\n\nAm tiefsten Punkt ist die Springerin kurz in Ruhe: Die gesamte potenzielle Energie, die sie auf den $45\\,\\mathrm{m}$ verloren hat, steckt jetzt als Spannenergie im Seil."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Energieerhaltung zwischen Absprung und tiefstem Punkt: $\\frac{1}{2} \\cdot D \\cdot s^2 = m \\cdot g \\cdot \\Delta H$ mit $s = 25\\,\\mathrm{m}$ und $\\Delta H = 45\\,\\mathrm{m}$\n\n$m \\cdot g \\cdot \\Delta H = 60\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 45\\,\\mathrm{m} = 26\\,487\\,\\mathrm{J}$\n\n$$D = \\frac{2 \\cdot 26\\,487\\,\\mathrm{J}}{(25\\,\\mathrm{m})^2} \\approx 85\\,\\mathrm{N/m}$$"
+        },
+        {
+          "id": "V2-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Bis zur Wasseroberfläche verliert er $E_{Pot} = 90\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 50\\,\\mathrm{m} = 44\\,145\\,\\mathrm{J}$.\n\nDas Seil kann dort nur $E_{sp} = \\frac{1}{2} \\cdot 85\\,\\mathrm{N/m} \\cdot (30\\,\\mathrm{m})^2 = 38\\,250\\,\\mathrm{J}$ aufnehmen.\n\nEs bleiben etwa $5{,}9\\,\\mathrm{kJ}$ kinetische Energie übrig: Der Springer erreicht das Wasser mit etwa $11\\,\\mathrm{m/s}$ (rund $40\\,\\mathrm{km/h}$). Der Sprung ist nicht sicher – er braucht ein kürzeres oder härteres Seil."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Solarheizung im Freibad",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c9",
+        "c7",
+        "c8",
+        "c11",
+        "c3",
+        "c4",
+        "c6",
+        "c10",
+        "g5",
+        "g1",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner und Regelheft, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Energie und Leistung, mechanische Energie, Wärme und Wirkungsgrad) – am besten nach N5 bis N9.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Solarheizung_Freibad.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Wärmestrahlung. Schwarze Flächen absorbieren die Strahlung fast vollständig und reflektieren nur wenig."
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Masse: $m = \\rho \\cdot V = 1\\,000\\,\\mathrm{kg/m^3} \\cdot 15\\,\\mathrm{m^3} = 15\\,000\\,\\mathrm{kg}$, $\\Delta T = 6\\,\\mathrm{K}$\n\n$$Q = m \\cdot c \\cdot \\Delta T = 15\\,000\\,\\mathrm{kg} \\cdot 4\\,190\\,\\frac{\\mathrm{J}}{\\mathrm{kg} \\cdot \\mathrm{K}} \\cdot 6\\,\\mathrm{K}$$\n\n$$Q = 377\\,100\\,000\\,\\mathrm{J} \\approx 377\\,\\mathrm{MJ}$$"
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zugeführte Energie: $E_{zu} = P \\cdot t = 160\\,000\\,\\mathrm{W} \\cdot 3\\,600\\,\\mathrm{s} = 576\\,000\\,000\\,\\mathrm{J} = 576\\,\\mathrm{MJ}$\n\n$$\\eta = \\frac{E_{Nutz}}{E_{zu}} = \\frac{377\\,\\mathrm{MJ}}{576\\,\\mathrm{MJ}} \\approx 0{,}65 = 65\\,\\%$$"
+        },
+        {
+          "id": "V3-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Massen: $15\\,000\\,\\mathrm{kg}$ und $585\\,000\\,\\mathrm{kg}$, zusammen $600\\,000\\,\\mathrm{kg}$ (gleicher Stoff)\n\n$$\\bar{T} = \\frac{15\\,000\\,\\mathrm{kg} \\cdot 28\\,°\\mathrm{C} + 585\\,000\\,\\mathrm{kg} \\cdot 22\\,°\\mathrm{C}}{600\\,000\\,\\mathrm{kg}} = 22{,}15\\,°\\mathrm{C} \\approx 22{,}2\\,°\\mathrm{C}$$\n\nPro Sonnenstunde wird das Becken also nur um etwa $0{,}15\\,\\mathrm{K}$ wärmer."
+        },
+        {
+          "id": "V3-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Wärmeabgabe in der Nacht: $Q = 600\\,000\\,\\mathrm{kg} \\cdot 4\\,190\\,\\frac{\\mathrm{J}}{\\mathrm{kg} \\cdot \\mathrm{K}} \\cdot 1{,}5\\,\\mathrm{K} = 3\\,771\\,000\\,000\\,\\mathrm{J} \\approx 3\\,771\\,\\mathrm{MJ}$\n\nDas ist so viel, wie die Absorber in $3\\,771 : 377 \\approx 10$ Sonnenstunden liefern – ein ganzer sonniger Tag gleicht nur eine Nacht aus.\n\nDie Plane verhindert, dass der Wind die warme Luft über dem Wasser ständig wegträgt (Wärmeströmung), und verringert die Wärmestrahlung in den kalten Nachthimmel. Außerdem kann kaum noch Wasser verdunsten – Verdunsten entzieht dem Becken viel Energie. Die Plane lohnt sich deshalb."
+        },
+        {
+          "id": "V3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Energieerhaltung: $m \\cdot g \\cdot H = \\frac{1}{2} \\cdot m \\cdot v^2$, die Masse fällt heraus:\n\n$v = \\sqrt{2 \\cdot g \\cdot H} = \\sqrt{2 \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 5\\,\\mathrm{m}} \\approx 9{,}9\\,\\mathrm{m/s}$\n\n$9{,}9\\,\\mathrm{m/s} \\cdot 3{,}6 \\approx 36\\,\\mathrm{km/h}$"
         }
       ]
     }
