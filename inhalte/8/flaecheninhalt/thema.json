@@ -3,8 +3,32 @@
   "titel": "Flächeninhalt ebener Figuren – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Erst P1 bis P3, dann Wahlstationen – am besten die, die dir nach deinem Check-out empfohlen werden. Geodreieck und Zirkel bereitlegen; dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Winkeln, Flächeneinheiten, Rechtecken, Konstruktionen oder beim Lösen von Gleichungen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt das Grundwissen auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8 – dein Check-out aus dem Unterricht zeigt dir, welche du besonders brauchst. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N3 (Vierecke und Kongruenz), V2 nach N4 bis N5 (Dreieck und Parallelogramm), V3 nach N6 bis N8 (Trapez, Drachen, Vielecke). Den Taschenrechner benutzt du nur, wo er bei der Station steht. Geodreieck und Zirkel bereitlegen; dein Regelheft darfst du benutzen.",
   "checkliste": [
+    {
+      "id": "g1",
+      "text": "Dreiecke und Vierecke nach Seiten, Winkeln und Symmetrie unterscheiden (z. B. gleichschenklig, rechtwinklig, Rechteck, Quadrat)"
+    },
+    {
+      "id": "g2",
+      "text": "Längen- und Flächeneinheiten umrechnen (mm², cm², dm², m², ha)"
+    },
+    {
+      "id": "g3",
+      "text": "Umfang und Flächeninhalt von Rechtecken und Quadraten berechnen"
+    },
+    {
+      "id": "g4",
+      "text": "Winkel messen und zeichnen, die Winkelsummen im Dreieck (180°) und im Viereck (360°) nutzen"
+    },
+    {
+      "id": "g5",
+      "text": "Dreiecke aus drei Stücken mit Geodreieck und Zirkel zeichnen und ein Lot fällen"
+    },
+    {
+      "id": "g6",
+      "text": "Terme vereinfachen und einfache Gleichungen lösen (aus Terme und Gleichungen)"
+    },
     {
       "id": "c1",
       "text": "Vierecke aus fünf gegebenen Stücken konstruieren"
@@ -44,6 +68,20 @@
   ],
   "phasen": [
     {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 5 bis 7 und aus Terme und Gleichungen",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
       "id": "p1",
       "name": "Vierecke und Kongruenz",
       "untertitel": "Ordnen, begründen, konstruieren",
@@ -80,346 +118,177 @@
   "abschluss": "Klassenarbeit",
   "stationen": [
     {
-      "id": "P1",
-      "titel": "Dreiecke: Höhen und Flächeninhalt",
-      "typ": "pflicht",
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 25,
-      "hilfsmittel": "Geodreieck, Taschenrechner",
+      "hilfsmittel": "Geodreieck, Zirkel, ohne Taschenrechner",
       "checkliste": [
-        "c3",
-        "c4"
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
       ],
-      "pdf": "pdf/P1_Dreiecke.pdf",
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
       "aufgaben": [
         {
-          "id": "P1-1a",
+          "id": "G1-1a",
           "label": "1a",
-          "punkte": 2,
+          "punkte": 1,
           "afb": "I",
-          "loesung": "Die Höhe $h_c$ ist das Lot von $C$ auf die **Verlängerung** von $AB$. Der Fußpunkt $F(9|1)$ liegt außerhalb des Dreiecks, rechts von $B$.\n\n1 P Zeichnung, 1 P Beschreibung."
+          "loesung": "- Zwei Seiten sind gleich lang: Das Dreieck ist **gleichschenklig**.\n- Es hat **eine** Symmetrieachse: die Mittelsenkrechte der 7-cm-Seite (Basis), sie geht durch die Spitze.\n\nJe Angabe 0,5 P."
         },
         {
-          "id": "P1-1b",
+          "id": "G1-1b",
           "label": "1b",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "$c = AB = 4\\,\\mathrm{cm}$, $h_c = 4\\,\\mathrm{cm}$ (von $y = 5$ bis $y = 1$).\n\n$$A = \\tfrac12 \\cdot 4\\,\\mathrm{cm} \\cdot 4\\,\\mathrm{cm} = 8\\,\\mathrm{cm^2}$$"
-        },
-        {
-          "id": "P1-1c",
-          "label": "1c",
-          "punkte": 2,
+          "punkte": 1,
           "afb": "II",
-          "loesung": "$a = BC = 5\\,\\mathrm{cm}$ (gemessen).\n\n$$8 = \\tfrac12 \\cdot 5 \\cdot h_a \\;\\Rightarrow\\; h_a = \\frac{16}{5} = 3{,}2\\,\\mathrm{cm}$$\n\nGleicher Flächeninhalt, andere Grundseite, also andere Höhe."
+          "loesung": "Gleichschenklig heißt: Mindestens zwei Seiten sind gleich lang. Im gleichseitigen Dreieck sind sogar alle drei Seiten gleich lang – also auch zwei davon. Jedes gleichseitige Dreieck ist deshalb ein besonderes gleichschenkliges Dreieck.\n\nÜben: **G2** Aufgabe 1."
         },
         {
-          "id": "P1-2a",
+          "id": "G1-2a",
           "label": "2a",
           "punkte": 1,
           "afb": "I",
-          "loesung": "$A = \\tfrac12 \\cdot 7 \\cdot 6 = 21\\,\\mathrm{cm^2}$"
+          "loesung": "- $1\\,\\mathrm{m^2} = 10\\,000\\,\\mathrm{cm^2}$, also $0{,}5\\,\\mathrm{m^2} = 5\\,000\\,\\mathrm{cm^2}$\n- $1\\,\\mathrm{ha} = 10\\,000\\,\\mathrm{m^2}$, also $2{,}5\\,\\mathrm{ha} = 25\\,000\\,\\mathrm{m^2}$\n\nJe Größe 0,5 P."
         },
         {
-          "id": "P1-2b",
+          "id": "G1-2b",
           "label": "2b",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Erst gleiche Einheiten: $h = 80\\,\\mathrm{cm} = 0{,}8\\,\\mathrm{m}$.\n\n$$A = \\tfrac12 \\cdot 2{,}5\\,\\mathrm{m} \\cdot 0{,}8\\,\\mathrm{m} = 1\\,\\mathrm{m^2}$$"
-        },
-        {
-          "id": "P1-2c",
-          "label": "2c",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$36 = \\tfrac12 \\cdot 9 \\cdot h = 4{,}5 \\cdot h \\;\\Rightarrow\\; h = 8\\,\\mathrm{cm}$"
-        },
-        {
-          "id": "P1-2d",
-          "label": "2d",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$15 = \\tfrac12 \\cdot g \\cdot 6 = 3 \\cdot g \\;\\Rightarrow\\; g = 5\\,\\mathrm{cm}$"
-        },
-        {
-          "id": "P1-3a",
-          "label": "3a",
           "punkte": 1,
-          "afb": "I",
-          "loesung": "Die eine Kathete ist die Höhe zur anderen: $A = \\tfrac12 \\cdot 6 \\cdot 8 = 24\\,\\mathrm{cm^2}$. Die Hypotenuse wird hier nicht gebraucht."
+          "afb": "II",
+          "loesung": "Emil nimmt den Faktor 100 wie bei Längen ($1\\,\\mathrm{m} = 100\\,\\mathrm{cm}$). Ein Quadratmeter ist aber ein Quadrat mit $100\\,\\mathrm{cm}$ Seitenlänge:\n\n$$1\\,\\mathrm{m^2} = 100\\,\\mathrm{cm} \\cdot 100\\,\\mathrm{cm} = 10\\,000\\,\\mathrm{cm^2}$$\n\nRichtig: $3\\,\\mathrm{m^2} = 30\\,000\\,\\mathrm{cm^2}$\n\nÜben: **G2** Aufgabe 2."
         },
         {
-          "id": "P1-3b",
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- Umfang: $2 \\cdot 12 + 2 \\cdot 4{,}5 = 24 + 9 = 33$, also **33 cm**\n- Flächeninhalt: $12 \\cdot 4{,}5 = 54$, also **54 cm²**\n\nJe 1 P."
+        },
+        {
+          "id": "G1-3b",
           "label": "3b",
           "punkte": 2,
           "afb": "II",
-          "loesung": "$24 = \\tfrac12 \\cdot 10 \\cdot h \\;\\Rightarrow\\; h = 4{,}8\\,\\mathrm{cm}$"
+          "loesung": "Erst die Seitenlänge: $7 \\cdot 7 = 49$, also ist das Quadrat 7 cm lang (1 P).\n\nUmfang: $4 \\cdot 7 = 28$, also **28 cm** (1 P).\n\nÜben: **G2** Aufgabe 3."
         },
         {
-          "id": "P1-4",
-          "label": "4",
-          "punkte": 2,
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Winkelsumme im Dreieck: $\\gamma = 180° - 48° - 67° = 65°$"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
           "afb": "II",
-          "loesung": "Grundseite $AB$ bleibt gleich, und der Abstand von $C$ zu $AB$ (die Höhe) bleibt gleich, weil $C$ auf einer Parallelen läuft. Also bleibt $A = \\tfrac12 \\cdot g \\cdot h$ gleich (1 P).\n\nDie Seiten $AC$ und $BC$ ändern ihre Länge, also ändert sich der Umfang (1 P)."
+          "loesung": "**Nein.** $80° + 95° + 110° + 85° = 370°$. Im Viereck beträgt die Winkelsumme aber immer 360°.\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Strecke $AB = 6\\,\\mathrm{cm}$ zeichnen. Kreis um $A$ mit $r = 4\\,\\mathrm{cm}$ und Kreis um $B$ mit $r = 5\\,\\mathrm{cm}$ – ihr Schnittpunkt ist $C$.\n\nKontrolle: $\\alpha \\approx 56°$."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Geodreieck mit der Mittellinie auf $AB$ legen und so verschieben, dass die Kante durch $C$ geht. Die Senkrechte von $C$ bis $AB$ ist das Lot.\n\nAbstand: etwa **3,3 cm** (zwischen 3,1 cm und 3,5 cm ist richtig).\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{1}{2} \\cdot x \\cdot 6 = 3x$, also $3x = 21 \\;\\Rightarrow\\; x = 7$\n\nProbe: $\\frac{1}{2} \\cdot 7 \\cdot 6 = 21$ ✓"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$2 \\cdot (x + 3) + 4x = 2x + 6 + 4x = 6x + 6$\n\nÜben: **G2** Aufgabe 3."
         }
       ]
     },
     {
-      "id": "P2",
-      "titel": "Parallelogramm und Trapez",
-      "typ": "pflicht",
+      "id": "G2",
+      "titel": "Auffrischen: Grundwissen Geometrie",
+      "typ": "wahl",
       "sozialform": "einzel",
-      "dauer_min": 25,
-      "hilfsmittel": "Taschenrechner",
+      "dauer_min": 15,
+      "hilfsmittel": "Geodreieck, Zirkel, ohne Taschenrechner",
       "checkliste": [
-        "c5",
-        "c6"
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
       ],
-      "pdf": "pdf/P2_Parallelogramm_Trapez.pdf",
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 15 Minuten. Übt die typischen Lücken aus dem Check-in G1: Aufgabe 1 Winkel und Dreiecksarten, 2 Flächeneinheiten, 3 Rechteck und Gleichung, 4 Dreieck zeichnen und Lot fällen.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen_Grundwissen.pdf",
       "aufgaben": [
         {
-          "id": "P2-1a",
+          "id": "G2-1a",
           "label": "1a",
           "punkte": 1,
           "afb": "I",
-          "loesung": "$A = a \\cdot h_a = 9 \\cdot 5 = 45\\,\\mathrm{cm^2}$"
+          "loesung": "$\\gamma = 180° - 35° - 110° = 35°$"
         },
         {
-          "id": "P2-1b",
+          "id": "G2-1b",
           "label": "1b",
-          "punkte": 2,
+          "punkte": 1,
           "afb": "II",
-          "loesung": "Jana nimmt die schräge Seite $b$ statt der Höhe (1 P). Die Höhe ist der senkrechte Abstand der parallelen Seiten und kürzer als $b$; deshalb ist 54 cm² zu groß (1 P)."
+          "loesung": "- Stumpfwinklig: $\\beta = 110°$ ist größer als 90°.\n- Gleichschenklig: $\\alpha = \\gamma = 35°$. Zwei gleich große Winkel sind Basiswinkel, also sind die gegenüberliegenden Seiten $a$ und $c$ gleich lang.\n\nJe 0,5 P."
         },
         {
-          "id": "P2-1c",
-          "label": "1c",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$45 = 6 \\cdot h_b \\;\\Rightarrow\\; h_b = 7{,}5\\,\\mathrm{cm}$"
-        },
-        {
-          "id": "P2-2",
+          "id": "G2-2",
           "label": "2",
           "punkte": 2,
-          "afb": "II",
-          "loesung": "$60 = g \\cdot 7{,}5 \\;\\Rightarrow\\; g = 8\\,\\mathrm{cm}$"
+          "afb": "I",
+          "loesung": "Bei Flächeneinheiten ist der Faktor von einer Einheit zur nächsten **100** (mm² → cm² → dm² → m²), von m² zu ha **10 000**.\n\n- $4\\,\\mathrm{m^2} = 400\\,\\mathrm{dm^2}$\n- $0{,}07\\,\\mathrm{m^2} = 0{,}07 \\cdot 10\\,000\\,\\mathrm{cm^2} = 700\\,\\mathrm{cm^2}$\n- $25\\,000\\,\\mathrm{cm^2} = 25\\,000 : 10\\,000\\,\\mathrm{m^2} = 2{,}5\\,\\mathrm{m^2}$\n- $1{,}2\\,\\mathrm{ha} = 12\\,000\\,\\mathrm{m^2}$\n\nJe Größe 0,5 P."
         },
         {
-          "id": "P2-3a",
+          "id": "G2-3a",
           "label": "3a",
           "punkte": 1,
-          "afb": "I",
-          "loesung": "$A = \\tfrac12 \\cdot (12 + 6) \\cdot 5 = 45\\,\\mathrm{cm^2}$"
+          "afb": "II",
+          "loesung": "$2 \\cdot 3 + 2 \\cdot b = 10 \\;\\Rightarrow\\; 2b = 4 \\;\\Rightarrow\\; b = 2$, der Teppich ist **2 m** breit."
         },
         {
-          "id": "P2-3b",
+          "id": "G2-3b",
           "label": "3b",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$52 = \\tfrac12 \\cdot (9 + 4) \\cdot h = 6{,}5 \\cdot h \\;\\Rightarrow\\; h = 8\\,\\mathrm{cm}$"
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = 3 \\cdot 2 = 6$, also $6\\,\\mathrm{m^2} = 600\\,\\mathrm{dm^2}$ (je 0,5 P)."
         },
         {
-          "id": "P2-3c",
-          "label": "3c",
+          "id": "G2-4",
+          "label": "4",
           "punkte": 2,
-          "afb": "II",
-          "loesung": "$70 = \\tfrac12 \\cdot (15 + c) \\cdot 7 \\;\\Rightarrow\\; 20 = 15 + c \\;\\Rightarrow\\; c = 5\\,\\mathrm{cm}$"
-        },
-        {
-          "id": "P2-4a",
-          "label": "4a",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Trapez mit $a = 14\\,\\mathrm{m}$, $c = 8\\,\\mathrm{m}$, $h = 3\\,\\mathrm{m}$:\n\n$$A = \\tfrac12 \\cdot (14 + 8) \\cdot 3 = 33\\,\\mathrm{m^2}$$"
-        },
-        {
-          "id": "P2-4b",
-          "label": "4b",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$A_\\text{neu} = \\tfrac12 \\cdot (16 + 8) \\cdot 3 = 36\\,\\mathrm{m^2}$, also $3\\,\\mathrm{m^2}$ mehr.\n\nKurz: $\\tfrac12 \\cdot 2 \\cdot 3 = 3$, nur die zusätzliche Breite zählt."
-        },
-        {
-          "id": "P2-5",
-          "label": "5",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$A = \\tfrac12 \\cdot (a + a) \\cdot h = \\tfrac12 \\cdot 2a \\cdot h = a \\cdot h$ (1 P).\n\nAn der Figur: Ist die obere Seite so lang wie die untere, sind beide Seitenpaare parallel – das Trapez ist ein Parallelogramm (1 P)."
+          "afb": "I",
+          "loesung": "$AB = 7\\,\\mathrm{cm}$ zeichnen, in $A$ den Winkel $40°$ antragen, auf dem freien Schenkel $5\\,\\mathrm{cm}$ abtragen: Das ist $C$. $B$ und $C$ verbinden (1 P).\n\nLot von $C$ auf $AB$ mit dem Geodreieck: etwa **3,2 cm** (zwischen 3,0 cm und 3,4 cm ist richtig) (1 P)."
         }
       ]
     },
     {
-      "id": "P3",
-      "titel": "Drachen und Raute",
-      "typ": "pflicht",
-      "sozialform": "einzel",
-      "dauer_min": 30,
-      "hilfsmittel": "Geodreieck, Taschenrechner ab Aufgabe 3",
-      "checkliste": [
-        "c7"
-      ],
-      "hinweis": "Arbeitsblatt AB 3 aus dem Unterricht. Erst Aufgabe 1 als Diagnose: in höchstens 10 Minuten mindestens 9 von 10 Punkten, dann nur 2 b – 3 c – 4 b und weiter mit Teil B.",
-      "pdf": "pdf/P3_Drachen_und_Raute.pdf",
-      "aufgaben": [
-        {
-          "id": "P3-1a",
-          "label": "1a",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "$A = \\tfrac12 \\cdot 7 \\cdot 4 = 14\\,\\mathrm{cm^2}$"
-        },
-        {
-          "id": "P3-1b",
-          "label": "1b",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "$A = \\tfrac12 \\cdot 9 \\cdot 6 = 27\\,\\mathrm{cm^2}$"
-        },
-        {
-          "id": "P3-1c",
-          "label": "1c",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Erst gleiche Einheiten: $e = 5\\,\\mathrm{dm} = 50\\,\\mathrm{cm}$ (1 P).\n\n$$A = \\tfrac12 \\cdot 50 \\cdot 30 = 750\\,\\mathrm{cm^2} = 7{,}5\\,\\mathrm{dm^2}\\;(1\\,\\mathrm{P})$$"
-        },
-        {
-          "id": "P3-1d",
-          "label": "1d",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$\\tfrac12 \\cdot 10 \\cdot f = 30 \\;\\Rightarrow\\; 5f = 30$ (1 P) $\\;\\Rightarrow\\; f = 6\\,\\mathrm{cm}$ (1 P)"
-        },
-        {
-          "id": "P3-1e",
-          "label": "1e",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$\\tfrac12 \\cdot e \\cdot 3 = 21 \\;\\Rightarrow\\; 1{,}5e = 21$ (1 P) $\\;\\Rightarrow\\; e = 14\\,\\mathrm{cm}$ (1 P)"
-        },
-        {
-          "id": "P3-1f",
-          "label": "1f",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "$e = AC = 8\\,\\mathrm{cm}$, $f = BD = 4\\,\\mathrm{cm}$ (1 P); $A = \\tfrac12 \\cdot 8 \\cdot 4 = 16\\,\\mathrm{cm^2}$ (1 P)"
-        },
-        {
-          "id": "P3-2a",
-          "label": "2a",
-          "punkte": 3,
-          "afb": "II",
-          "loesung": "Lukas hat das $\\tfrac12$ vergessen; 48 cm² ist das umbeschriebene Rechteck $e \\times f$ (1 P).\n\nDie Diagonalen zerlegen das Rechteck in vier kleine Rechtecke, jedes wird von einer Drachenseite halbiert – der Drachen ist die Hälfte (1 P). Richtig: $A = 24\\,\\mathrm{cm^2}$ (1 P)."
-        },
-        {
-          "id": "P3-2b",
-          "label": "2b",
-          "punkte": 3,
-          "afb": "III",
-          "loesung": "Nur richtig, wenn die Raute ein Quadrat ist (1 P). Sonst gilt $A = a \\cdot h$ mit $h < a$, weil die Höhe senkrecht und damit kürzer als die schräge Seite ist (1 P). Also $A < 25\\,\\mathrm{cm^2}$; eine sehr flache Raute hat fast 0 cm² (1 P)."
-        },
-        {
-          "id": "P3-3a",
-          "label": "3a",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Zeichnung (1 P). $AC$ und $BD$ stehen senkrecht aufeinander und halbieren sich gegenseitig im Punkt $(5|3)$, also ist $ABCD$ eine Raute (1 P)."
-        },
-        {
-          "id": "P3-3b",
-          "label": "3b",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "$e = 10\\,\\mathrm{cm}$, $f = 4\\,\\mathrm{cm}$ (1 P); $A = \\tfrac12 \\cdot 10 \\cdot 4 = 20\\,\\mathrm{cm^2}$ (1 P)"
-        },
-        {
-          "id": "P3-3c",
-          "label": "3c",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$A = a \\cdot h \\;\\Rightarrow\\; 20 = 5{,}4 \\cdot h$ (1 P) $\\;\\Rightarrow\\; h \\approx 3{,}7\\,\\mathrm{cm}$ (1 P)"
-        },
-        {
-          "id": "P3-4a",
-          "label": "4a",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "$A = \\tfrac12 \\cdot 80 \\cdot 50 = 2\\,000\\,\\mathrm{cm^2}$ (1 P) $= 0{,}2\\,\\mathrm{m^2}$ (1 P)"
-        },
-        {
-          "id": "P3-4b",
-          "label": "4b",
-          "punkte": 3,
-          "afb": "II",
-          "loesung": "$12 \\cdot 0{,}25\\,\\mathrm{m^2} = 3\\,\\mathrm{m^2}$ (1 P); $3 \\cdot 7 = 21$, also 21 € (1 P); Antwortsatz: Der Stoff kostet 21 € (1 P)."
-        },
-        {
-          "id": "P3-5a",
-          "label": "5a",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Dreiecke $ABC$ und $ACD$: Grundseite $AC = 5\\,\\mathrm{cm}$, Höhe je $3\\,\\mathrm{cm}$ (1 P).\n\n$$A = 2 \\cdot \\tfrac12 \\cdot 5 \\cdot 3 = 15\\,\\mathrm{cm^2}\\;(1\\,\\mathrm{P})$$"
-        },
-        {
-          "id": "P3-5b",
-          "label": "5b",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$\\tfrac12 \\cdot 5 \\cdot 6 = 15\\,\\mathrm{cm^2}$ (1 P), also ja, dasselbe Ergebnis (1 P)."
-        },
-        {
-          "id": "P3-5c",
-          "label": "5c",
-          "punkte": 3,
-          "afb": "III",
-          "loesung": "Zwei Dreiecke mit Grundseite $e$ und Höhe $\\tfrac f2$: zusammen $2 \\cdot \\tfrac12 \\cdot e \\cdot \\tfrac f2 = \\tfrac12 \\cdot e \\cdot f$ (2 P).\n\nDas Rechteck $e \\times f$ umschließt den Pfeil nicht, weil $f$ außerhalb liegt – die Halbierungsidee greift nicht direkt (1 P)."
-        },
-        {
-          "id": "P3-6a",
-          "label": "6a",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Das Quadrat ist ein Drachen mit $e = f = 8\\,\\mathrm{cm}$ (1 P); $A = \\tfrac12 \\cdot 8 \\cdot 8 = 32\\,\\mathrm{cm^2}$ (1 P)"
-        },
-        {
-          "id": "P3-6b",
-          "label": "6b",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$\\tfrac12 \\cdot d \\cdot d = 50 \\;\\Rightarrow\\; d \\cdot d = 100$ (1 P) $\\;\\Rightarrow\\; d = 10\\,\\mathrm{cm}$ (1 P)"
-        },
-        {
-          "id": "P3-6c",
-          "label": "6c",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "Falsch (1 P): $\\tfrac12 \\cdot 2d \\cdot 2d = 4 \\cdot \\tfrac12 \\cdot d \\cdot d$, der Flächeninhalt vervierfacht sich, z. B. $d = 8$: 32 cm², $d = 16$: 128 cm² (1 P)."
-        },
-        {
-          "id": "P3-7a",
-          "label": "7a",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$\\tfrac12 \\cdot 12 \\cdot f = 54 \\;\\Rightarrow\\; 6f = 54$ (1 P) $\\;\\Rightarrow\\; f = 9\\,\\mathrm{cm}$ (1 P)"
-        },
-        {
-          "id": "P3-7b",
-          "label": "7b",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$A = a \\cdot h \\;\\Rightarrow\\; 54 = 7{,}5 \\cdot h$ (1 P) $\\;\\Rightarrow\\; h = 7{,}2\\,\\mathrm{cm}$ (1 P)"
-        },
-        {
-          "id": "P3-7c",
-          "label": "7c",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "Es muss $e \\cdot f = 108$ gelten, z. B. $e = 18\\,\\mathrm{cm}$, $f = 6\\,\\mathrm{cm}$ oder $e = 27\\,\\mathrm{cm}$, $f = 4\\,\\mathrm{cm}$ (1 P). Zu jedem $e > 0$ passt $f = 108 : e$, also gibt es unendlich viele (1 P)."
-        }
-      ]
-    },
-    {
-      "id": "W1",
+      "id": "N1",
       "titel": "Tandem: Haus der Vierecke",
       "typ": "wahl",
       "sozialform": "tandem",
@@ -428,11 +297,13 @@
       "checkliste": [
         "c2"
       ],
+      "kategorie": "neu",
       "hinweis": "Zu zweit mit zwei Tablets. Eine Person wählt A, die andere B. Wer dran ist, antwortet laut und begründet; die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert.",
+      "bild": "img/st_N1.svg",
       "pdf_optional": true,
       "aufgaben": [
         {
-          "id": "W1-1",
+          "id": "N1-1",
           "label": "1",
           "partner": "A",
           "punkte": 2,
@@ -442,7 +313,7 @@
           "loesung": "**Wahr.** Ein Rechteck braucht vier rechte Winkel. Die hat jedes Quadrat – es hat zusätzlich noch vier gleich lange Seiten."
         },
         {
-          "id": "W1-2",
+          "id": "N1-2",
           "label": "2",
           "partner": "B",
           "punkte": 2,
@@ -452,7 +323,7 @@
           "loesung": "**Falsch.** Ein Parallelogramm braucht nur zwei Paare paralleler Seiten. Die Winkel müssen keine rechten sein, z. B. ein schiefes Parallelogramm mit 60° und 120°."
         },
         {
-          "id": "W1-3",
+          "id": "N1-3",
           "label": "3",
           "partner": "A",
           "punkte": 2,
@@ -462,7 +333,7 @@
           "loesung": "Parallelogramm, Rechteck, Raute, Quadrat. Beim allgemeinen Drachen und beim Trapez halbieren sie sich nicht."
         },
         {
-          "id": "W1-4",
+          "id": "N1-4",
           "label": "4",
           "partner": "B",
           "punkte": 2,
@@ -472,7 +343,7 @@
           "loesung": "Drachen, Raute, Quadrat."
         },
         {
-          "id": "W1-5",
+          "id": "N1-5",
           "label": "5",
           "partner": "A",
           "punkte": 2,
@@ -482,7 +353,7 @@
           "loesung": "**Rechteck.** Ein Parallelogramm mit gleich langen Diagonalen hat rechte Winkel. Ein Quadrat ist es nur, wenn zusätzlich alle Seiten gleich lang sind."
         },
         {
-          "id": "W1-6",
+          "id": "N1-6",
           "label": "6",
           "partner": "B",
           "punkte": 2,
@@ -492,17 +363,17 @@
           "loesung": "**Quadrat.** Eine Raute mit gleich langen Diagonalen hat vier rechte Winkel."
         },
         {
-          "id": "W1-7",
+          "id": "N1-7",
           "label": "7",
           "partner": "A",
           "punkte": 2,
           "afb": "III",
           "aufgabe": "Gibt es ein Viereck, das zugleich Trapez und Drachen ist? Begründe.",
           "tipp": "Denk an eine Raute.",
-          "loesung": "**Ja**, z. B. jede Raute: Sie hat parallele Gegenseiten (Trapez) und eine Diagonale als Symmetrieachse (Drachen). Das Quadrat geht auch."
+          "loesung": "**Ja**, z. B. jede Raute: Eine Raute hat parallele Gegenseiten (Trapez) und eine Diagonale als Symmetrieachse (Drachen). Das Quadrat geht auch."
         },
         {
-          "id": "W1-8",
+          "id": "N1-8",
           "label": "8",
           "partner": "B",
           "punkte": 2,
@@ -514,7 +385,7 @@
       ]
     },
     {
-      "id": "W2",
+      "id": "N2",
       "titel": "Tandem: Eindeutig oder nicht?",
       "typ": "wahl",
       "sozialform": "tandem",
@@ -523,11 +394,13 @@
       "checkliste": [
         "c9"
       ],
+      "kategorie": "neu",
       "hinweis": "Zu zweit mit zwei Tablets. Eine Person wählt A, die andere B. Wer dran ist, entscheidet laut: eindeutig, mehrdeutig oder unmöglich – und nennt den Grund. Die andere Person kontrolliert.",
+      "bild": "img/st_N2.svg",
       "pdf_optional": true,
       "aufgaben": [
         {
-          "id": "W2-1",
+          "id": "N2-1",
           "label": "1",
           "partner": "A",
           "punkte": 2,
@@ -537,17 +410,17 @@
           "loesung": "SSS, SWS, WSW und SsW (der Winkel liegt der größeren Seite gegenüber)."
         },
         {
-          "id": "W2-2",
+          "id": "N2-2",
           "label": "2",
           "partner": "B",
           "punkte": 2,
           "afb": "I",
           "aufgabe": "Was bedeutet es, dass zwei Dreiecke deckungsgleich (kongruent) sind?",
           "tipp": "Ausschneiden und aufeinanderlegen.",
-          "loesung": "Sie stimmen in allen Seiten und allen Winkeln überein; man kann sie durch Verschieben, Drehen oder Spiegeln genau aufeinanderlegen."
+          "loesung": "Die beiden Dreiecke stimmen in allen Seiten und allen Winkeln überein; man kann sie durch Verschieben, Drehen oder Spiegeln genau aufeinanderlegen."
         },
         {
-          "id": "W2-3",
+          "id": "N2-3",
           "label": "3",
           "partner": "A",
           "punkte": 2,
@@ -557,7 +430,7 @@
           "loesung": "**Eindeutig** nach SWS: $\\gamma$ liegt zwischen den Seiten $a$ und $b$."
         },
         {
-          "id": "W2-4",
+          "id": "N2-4",
           "label": "4",
           "partner": "B",
           "punkte": 2,
@@ -567,7 +440,7 @@
           "loesung": "**Nicht eindeutig.** Drei Winkel legen nur die Form fest, nicht die Größe. WWW ist kein Kongruenzsatz."
         },
         {
-          "id": "W2-5",
+          "id": "N2-5",
           "label": "5",
           "partner": "A",
           "punkte": 2,
@@ -577,7 +450,7 @@
           "loesung": "**Unmöglich.** $3 + 5 = 8 < 9$: Die beiden kurzen Seiten erreichen sich nicht (Dreiecksungleichung)."
         },
         {
-          "id": "W2-6",
+          "id": "N2-6",
           "label": "6",
           "partner": "B",
           "punkte": 2,
@@ -587,7 +460,7 @@
           "loesung": "**Eindeutig** nach SsW: $\\alpha$ liegt der größeren der beiden Seiten gegenüber."
         },
         {
-          "id": "W2-7",
+          "id": "N2-7",
           "label": "7",
           "partner": "A",
           "punkte": 2,
@@ -597,7 +470,7 @@
           "loesung": "**Unmöglich.** $120° + 70° = 190° > 180°$, für $\\gamma$ bleibt nichts übrig."
         },
         {
-          "id": "W2-8",
+          "id": "N2-8",
           "label": "8",
           "partner": "B",
           "punkte": 2,
@@ -609,7 +482,7 @@
       ]
     },
     {
-      "id": "W3",
+      "id": "N3",
       "titel": "Vierecke konstruieren",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -619,59 +492,62 @@
         "c1",
         "c9"
       ],
-      "pdf": "pdf/W3_Vierecke_konstruieren.pdf",
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, Geodreieck und Zirkel. Konstruieren und Eindeutigkeit begründen.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Vierecke_konstruieren.pdf",
       "aufgaben": [
         {
-          "id": "W3-1a",
+          "id": "N3-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "Planfigur mit allen Angaben (1 P). Zerlegung entlang der Diagonale $AC$: Dreieck $ABC$ nach **SWS** ($AB$, $\\beta$, $BC$), danach Dreieck $ACD$ nach **SSS** ($AC$, $CD$, $AD$) (1 P)."
         },
         {
-          "id": "W3-1b",
+          "id": "N3-1b",
           "label": "1b",
           "punkte": 3,
           "afb": "I",
-          "loesung": "$AB$ zeichnen, $\\beta = 110°$ in $B$ antragen, $BC = 4\\,\\mathrm{cm}$ abtragen. Kreise um $A$ ($r = 5\\,\\mathrm{cm}$) und um $C$ ($r = 4{,}5\\,\\mathrm{cm}$) schneiden sich in $D$ (auf der Seite von $AC$, die $B$ gegenüberliegt).\n\nKontrollmaße: $BD \\approx 4{,}4\\,\\mathrm{cm}$, $\\alpha \\approx 38°$ (Toleranz ± 2 mm, ± 2°)."
+          "loesung": "$AB$ zeichnen, $\\beta = 110°$ in $B$ antragen, $BC = 4\\,\\mathrm{cm}$ abtragen. Kreise um $A$ ($r = 5\\,\\mathrm{cm}$) und um $C$ ($r = 4{,}5\\,\\mathrm{cm}$) schneiden sich in $D$ (auf der Seite von $AC$, die $B$ gegenüberliegt).\n\nKontrollmaße: $BD \\approx 4{,}4\\,\\mathrm{cm}$, $\\alpha \\approx 38°$ (Toleranz ± 3 mm, ± 3°). Die beiden Kreise schneiden sich sehr flach: Schon 1 mm Ungenauigkeit bei einer Strecke verschiebt $D$ spürbar – deshalb besonders genau zeichnen."
         },
         {
-          "id": "W3-2a",
+          "id": "N3-2a",
           "label": "2a",
           "punkte": 1,
           "afb": "II",
           "loesung": "**Unmöglich:** $4 + 4 = 8 < 9$, die Dreiecksungleichung ist verletzt."
         },
         {
-          "id": "W3-2b",
+          "id": "N3-2b",
           "label": "2b",
           "punkte": 1,
           "afb": "I",
           "loesung": "**Eindeutig** nach WSW: Seite $c$ mit den beiden anliegenden Winkeln."
         },
         {
-          "id": "W3-2c",
+          "id": "N3-2c",
           "label": "2c",
           "punkte": 2,
           "afb": "II",
           "loesung": "**Mehrdeutig:** $\\alpha$ liegt der **kürzeren** Seite gegenüber ($a = 5 < c = 8$), SsW greift nicht (1 P). Der Kreis um $B$ mit $r = 5\\,\\mathrm{cm}$ schneidet den freien Schenkel von $\\alpha$ zweimal – zwei Dreiecke (1 P)."
         },
         {
-          "id": "W3-2d",
+          "id": "N3-2d",
           "label": "2d",
           "punkte": 2,
           "afb": "II",
           "loesung": "**Mehrdeutig** (1 P): Mit vier Seiten von 5 cm passen ein Quadrat und beliebig viele Rauten. Vier Stücke reichen für ein Viereck nicht, es braucht fünf (1 P)."
         },
         {
-          "id": "W3-2e",
+          "id": "N3-2e",
           "label": "2e",
           "punkte": 1,
           "afb": "II",
           "loesung": "**Unmöglich:** $100° + 120° + 90° + 70° = 380° \\neq 360°$."
         },
         {
-          "id": "W3-3",
+          "id": "N3-3",
           "label": "3",
           "punkte": 2,
           "afb": "III",
@@ -680,7 +556,355 @@
       ]
     },
     {
-      "id": "W4",
+      "id": "N4",
+      "titel": "Dreiecke: Höhen und Flächeninhalt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Geodreieck, Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, Geodreieck und Taschenrechner.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Dreiecke.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Höhe $h_c$ ist das Lot von $C$ auf die **Verlängerung** von $AB$. Der Fußpunkt $F(9 \\mid 1)$ liegt außerhalb des Dreiecks, rechts von $B$.\n\n1 P Zeichnung, 1 P Beschreibung.",
+          "loesung_bild": "img/N4-1a.png"
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$c = AB = 4\\,\\mathrm{cm}$, $h_c = 4\\,\\mathrm{cm}$ (von $y = 5$ bis $y = 1$).\n\n$$A = \\tfrac12 \\cdot 4\\,\\mathrm{cm} \\cdot 4\\,\\mathrm{cm} = 8\\,\\mathrm{cm^2}$$"
+        },
+        {
+          "id": "N4-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$a = BC = 5\\,\\mathrm{cm}$ (gemessen).\n\n$$8 = \\tfrac12 \\cdot 5 \\cdot h_a \\;\\Rightarrow\\; h_a = \\frac{16}{5} = 3{,}2\\,\\mathrm{cm}$$\n\nGleicher Flächeninhalt, andere Grundseite, also andere Höhe."
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = \\tfrac12 \\cdot 7 \\cdot 6 = 21\\,\\mathrm{cm^2}$"
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Erst gleiche Einheiten: $h = 80\\,\\mathrm{cm} = 0{,}8\\,\\mathrm{m}$.\n\n$$A = \\tfrac12 \\cdot 2{,}5\\,\\mathrm{m} \\cdot 0{,}8\\,\\mathrm{m} = 1\\,\\mathrm{m^2}$$"
+        },
+        {
+          "id": "N4-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$36 = \\tfrac12 \\cdot 9 \\cdot h = 4{,}5 \\cdot h \\;\\Rightarrow\\; h = 8\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N4-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$15 = \\tfrac12 \\cdot g \\cdot 6 = 3 \\cdot g \\;\\Rightarrow\\; g = 5\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die eine Kathete ist die Höhe zur anderen: $A = \\tfrac12 \\cdot 6 \\cdot 8 = 24\\,\\mathrm{cm^2}$. Die Hypotenuse wird hier nicht gebraucht."
+        },
+        {
+          "id": "N4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$24 = \\tfrac12 \\cdot 10 \\cdot h \\;\\Rightarrow\\; h = 4{,}8\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Grundseite $AB$ bleibt gleich, und der Abstand von $C$ zu $AB$ (die Höhe) bleibt gleich, weil $C$ auf einer Parallelen läuft. Also bleibt $A = \\tfrac12 \\cdot g \\cdot h$ gleich (1 P).\n\nDie Seiten $AC$ und $BC$ ändern ihre Länge, also ändert sich der Umfang (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Parallelogramm und Trapez",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, Taschenrechner.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Parallelogramm_Trapez.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = a \\cdot h_a = 9 \\cdot 5 = 45\\,\\mathrm{cm^2}$"
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Jana nimmt die schräge Seite $b$ statt der Höhe (1 P). Die Höhe ist der senkrechte Abstand der parallelen Seiten und kürzer als $b$; deshalb ist 54 cm² zu groß (1 P)."
+        },
+        {
+          "id": "N5-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$45 = 6 \\cdot h_b \\;\\Rightarrow\\; h_b = 7{,}5\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N5-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$60 = g \\cdot 7{,}5 \\;\\Rightarrow\\; g = 8\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = \\tfrac12 \\cdot (12 + 6) \\cdot 5 = 45\\,\\mathrm{cm^2}$"
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$52 = \\tfrac12 \\cdot (9 + 4) \\cdot h = 6{,}5 \\cdot h \\;\\Rightarrow\\; h = 8\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N5-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$70 = \\tfrac12 \\cdot (15 + c) \\cdot 7 \\;\\Rightarrow\\; 20 = 15 + c \\;\\Rightarrow\\; c = 5\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N5-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Trapez mit $a = 14\\,\\mathrm{m}$, $c = 8\\,\\mathrm{m}$, $h = 3\\,\\mathrm{m}$:\n\n$$A = \\tfrac12 \\cdot (14 + 8) \\cdot 3 = 33\\,\\mathrm{m^2}$$"
+        },
+        {
+          "id": "N5-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$A_\\text{neu} = \\tfrac12 \\cdot (16 + 8) \\cdot 3 = 36\\,\\mathrm{m^2}$, also $3\\,\\mathrm{m^2}$ mehr.\n\nKurz: $\\tfrac12 \\cdot 2 \\cdot 3 = 3$, nur die zusätzliche Breite zählt."
+        },
+        {
+          "id": "N5-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$A = \\tfrac12 \\cdot (a + a) \\cdot h = \\tfrac12 \\cdot 2a \\cdot h = a \\cdot h$ (1 P).\n\nAn der Figur: Ist die obere Seite so lang wie die untere, sind beide Seitenpaare parallel – das Trapez ist ein Parallelogramm (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Drachen und Raute",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 30,
+      "hilfsmittel": "Geodreieck, Taschenrechner ab Aufgabe 3",
+      "checkliste": [
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Wie Arbeitsblatt AB 3 aus dem Unterricht. Erst Aufgabe 1 als Diagnose: in höchstens 10 Minuten mindestens 9 von 10 Punkten, dann nur 2b – 3c – 4b und weiter mit der Vertiefung (Aufgaben 5 bis 7).",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Drachen_und_Raute.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = \\tfrac12 \\cdot 7 \\cdot 4 = 14\\,\\mathrm{cm^2}$"
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = \\tfrac12 \\cdot 9 \\cdot 6 = 27\\,\\mathrm{cm^2}$"
+        },
+        {
+          "id": "N6-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Erst gleiche Einheiten: $e = 5\\,\\mathrm{dm} = 50\\,\\mathrm{cm}$ (1 P).\n\n$$A = \\tfrac12 \\cdot 50 \\cdot 30 = 750\\,\\mathrm{cm^2} = 7{,}5\\,\\mathrm{dm^2}\\;(1\\,\\mathrm{P})$$"
+        },
+        {
+          "id": "N6-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\tfrac12 \\cdot 10 \\cdot f = 30 \\;\\Rightarrow\\; 5f = 30$ (1 P) $\\;\\Rightarrow\\; f = 6\\,\\mathrm{cm}$ (1 P)"
+        },
+        {
+          "id": "N6-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\tfrac12 \\cdot e \\cdot 3 = 21 \\;\\Rightarrow\\; 1{,}5e = 21$ (1 P) $\\;\\Rightarrow\\; e = 14\\,\\mathrm{cm}$ (1 P)"
+        },
+        {
+          "id": "N6-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$e = AC = 8\\,\\mathrm{cm}$, $f = BD = 4\\,\\mathrm{cm}$ (1 P); $A = \\tfrac12 \\cdot 8 \\cdot 4 = 16\\,\\mathrm{cm^2}$ (1 P)"
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Lukas hat das $\\tfrac12$ vergessen; 48 cm² ist das umbeschriebene Rechteck $e \\times f$ (1 P).\n\nDie Diagonalen zerlegen das Rechteck in vier kleine Rechtecke, jedes wird von einer Drachenseite halbiert – der Drachen ist die Hälfte (1 P). Richtig: $A = 24\\,\\mathrm{cm^2}$ (1 P)."
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Nur richtig, wenn die Raute ein Quadrat ist (1 P). Sonst gilt $A = a \\cdot h$ mit $h < a$, weil die Höhe senkrecht und damit kürzer als die schräge Seite ist (1 P). Also $A < 25\\,\\mathrm{cm^2}$; eine sehr flache Raute hat fast 0 cm² (1 P)."
+        },
+        {
+          "id": "N6-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zeichnung (1 P). $AC$ und $BD$ stehen senkrecht aufeinander und halbieren sich gegenseitig im Punkt $(5 \\mid 3)$, also ist $ABCD$ eine Raute (1 P)."
+        },
+        {
+          "id": "N6-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$e = 10\\,\\mathrm{cm}$, $f = 4\\,\\mathrm{cm}$ (1 P); $A = \\tfrac12 \\cdot 10 \\cdot 4 = 20\\,\\mathrm{cm^2}$ (1 P)"
+        },
+        {
+          "id": "N6-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$A = a \\cdot h \\;\\Rightarrow\\; 20 = 5{,}4 \\cdot h$ (1 P) $\\;\\Rightarrow\\; h \\approx 3{,}7\\,\\mathrm{cm}$ (1 P)"
+        },
+        {
+          "id": "N6-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$A = \\tfrac12 \\cdot 80 \\cdot 50 = 2\\,000\\,\\mathrm{cm^2}$ (1 P) $= 0{,}2\\,\\mathrm{m^2}$ (1 P)"
+        },
+        {
+          "id": "N6-4b",
+          "label": "4b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$12 \\cdot 0{,}25\\,\\mathrm{m^2} = 3\\,\\mathrm{m^2}$ (1 P); $3 \\cdot 7 = 21$, also 21 € (1 P); Antwortsatz: Der Stoff kostet 21 € (1 P)."
+        },
+        {
+          "id": "N6-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Dreiecke $ABC$ und $ACD$: Grundseite $AC = 5\\,\\mathrm{cm}$, Höhe je $3\\,\\mathrm{cm}$ (1 P).\n\n$$A = 2 \\cdot \\tfrac12 \\cdot 5 \\cdot 3 = 15\\,\\mathrm{cm^2}\\;(1\\,\\mathrm{P})$$"
+        },
+        {
+          "id": "N6-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\tfrac12 \\cdot 5 \\cdot 6 = 15\\,\\mathrm{cm^2}$ (1 P), also ja, dasselbe Ergebnis (1 P)."
+        },
+        {
+          "id": "N6-5c",
+          "label": "5c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Zwei Dreiecke mit Grundseite $e$ und Höhe $\\tfrac f2$: zusammen $2 \\cdot \\tfrac12 \\cdot e \\cdot \\tfrac f2 = \\tfrac12 \\cdot e \\cdot f$ (2 P).\n\nDas Rechteck $e \\times f$ umschließt den Pfeil nicht, weil $f$ außerhalb liegt – die Halbierungsidee greift nicht direkt (1 P)."
+        },
+        {
+          "id": "N6-6a",
+          "label": "6a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Quadrat ist ein Drachen mit $e = f = 8\\,\\mathrm{cm}$ (1 P); $A = \\tfrac12 \\cdot 8 \\cdot 8 = 32\\,\\mathrm{cm^2}$ (1 P)"
+        },
+        {
+          "id": "N6-6b",
+          "label": "6b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\tfrac12 \\cdot d \\cdot d = 50 \\;\\Rightarrow\\; d \\cdot d = 100$ (1 P) $\\;\\Rightarrow\\; d = 10\\,\\mathrm{cm}$ (1 P)"
+        },
+        {
+          "id": "N6-6c",
+          "label": "6c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch (1 P): $\\tfrac12 \\cdot 2d \\cdot 2d = 4 \\cdot \\tfrac12 \\cdot d \\cdot d$, der Flächeninhalt vervierfacht sich, z. B. $d = 8$: 32 cm², $d = 16$: 128 cm² (1 P)."
+        },
+        {
+          "id": "N6-7a",
+          "label": "7a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\tfrac12 \\cdot 12 \\cdot f = 54 \\;\\Rightarrow\\; 6f = 54$ (1 P) $\\;\\Rightarrow\\; f = 9\\,\\mathrm{cm}$ (1 P)"
+        },
+        {
+          "id": "N6-7b",
+          "label": "7b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$A = a \\cdot h \\;\\Rightarrow\\; 54 = 7{,}5 \\cdot h$ (1 P) $\\;\\Rightarrow\\; h = 7{,}2\\,\\mathrm{cm}$ (1 P)"
+        },
+        {
+          "id": "N6-7c",
+          "label": "7c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Es muss $e \\cdot f = 108$ gelten, z. B. $e = 18\\,\\mathrm{cm}$, $f = 6\\,\\mathrm{cm}$ oder $e = 27\\,\\mathrm{cm}$, $f = 4\\,\\mathrm{cm}$ (1 P). Zu jedem $e > 0$ passt $f = 108 : e$, also gibt es unendlich viele (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N7",
       "titel": "Vielecke zerlegen und ergänzen",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -689,66 +913,71 @@
       "checkliste": [
         "c8"
       ],
-      "pdf": "pdf/W4_Vielecke.pdf",
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, Geodreieck und Taschenrechner.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Vielecke.pdf",
       "aufgaben": [
         {
-          "id": "W4-1a",
+          "id": "N7-1a",
           "label": "1a",
           "punkte": 3,
           "afb": "I",
-          "loesung": "Zerlegen: Rechteck mit den Ecken $(1|0)$, $(7|0)$, $(7|6)$, $(1|6)$: $6 \\cdot 6 = 36\\,\\mathrm{cm^2}$ (1 P).\n\nDreieck rechts $(7|0)$, $C(9|3)$, $(7|6)$: $\\tfrac12 \\cdot 6 \\cdot 2 = 6\\,\\mathrm{cm^2}$; Dreieck links $(1|0)$, $F(0|3)$, $(1|6)$: $\\tfrac12 \\cdot 6 \\cdot 1 = 3\\,\\mathrm{cm^2}$ (1 P).\n\n$$A = 36 + 6 + 3 = 45\\,\\mathrm{cm^2}\\;(1\\,\\mathrm{P})$$"
+          "loesung": "Zerlegen: Rechteck mit den Ecken $(1 \\mid 0)$, $(7 \\mid 0)$, $(7 \\mid 6)$, $(1 \\mid 6)$: $6 \\cdot 6 = 36\\,\\mathrm{cm^2}$ (1 P).\n\nDreieck rechts $(7 \\mid 0)$, $C(9 \\mid 3)$, $(7 \\mid 6)$: $\\tfrac12 \\cdot 6 \\cdot 2 = 6\\,\\mathrm{cm^2}$; Dreieck links $(1 \\mid 0)$, $F(0 \\mid 3)$, $(1 \\mid 6)$: $\\tfrac12 \\cdot 6 \\cdot 1 = 3\\,\\mathrm{cm^2}$ (1 P).\n\n$$A = 36 + 6 + 3 = 45\\,\\mathrm{cm^2}\\;(1\\,\\mathrm{P})$$",
+          "loesung_bild": "img/N7-1a.png"
         },
         {
-          "id": "W4-1b",
+          "id": "N7-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "II",
-          "loesung": "Rechteck von $(0|0)$ bis $(9|6)$: $9 \\cdot 6 = 54\\,\\mathrm{cm^2}$. Abziehen: zwei Eckdreiecke links mit je $\\tfrac12 \\cdot 1 \\cdot 3 = 1{,}5\\,\\mathrm{cm^2}$, zwei Eckdreiecke rechts mit je $\\tfrac12 \\cdot 2 \\cdot 3 = 3\\,\\mathrm{cm^2}$ (1 P).\n\n$$A = 54 - 3 - 6 = 45\\,\\mathrm{cm^2}\\;(1\\,\\mathrm{P})$$"
+          "loesung": "Rechteck von $(0 \\mid 0)$ bis $(9 \\mid 6)$: $9 \\cdot 6 = 54\\,\\mathrm{cm^2}$. Abziehen: zwei Eckdreiecke links mit je $\\tfrac12 \\cdot 1 \\cdot 3 = 1{,}5\\,\\mathrm{cm^2}$, zwei Eckdreiecke rechts mit je $\\tfrac12 \\cdot 2 \\cdot 3 = 3\\,\\mathrm{cm^2}$ (1 P).\n\n$$A = 54 - 3 - 6 = 45\\,\\mathrm{cm^2}\\;(1\\,\\mathrm{P})$$"
         },
         {
-          "id": "W4-2",
+          "id": "N7-2",
           "label": "2",
           "punkte": 3,
           "afb": "II",
-          "loesung": "Rechteck von $(0|0)$ bis $(6|5)$: $30\\,\\mathrm{cm^2}$ (1 P).\n\nAbziehen: unten $\\tfrac12 \\cdot 6 \\cdot 1 = 3$, rechts $\\tfrac12 \\cdot 4 \\cdot 1 = 2$, links $\\tfrac12 \\cdot 1 \\cdot 4 = 2$, oben das Trapez $(0|4)$, $D(1|4)$, $C(5|5)$, $(0|5)$ mit $\\tfrac12 \\cdot (1 + 5) \\cdot 1 = 3$ (1 P).\n\n$$A = 30 - 3 - 2 - 2 - 3 = 20\\,\\mathrm{cm^2}\\;(1\\,\\mathrm{P})$$\n\nAndere Ergänzungen mit gleichem Ergebnis sind ebenso richtig."
+          "loesung": "Rechteck von $(0 \\mid 0)$ bis $(6 \\mid 5)$: $30\\,\\mathrm{cm^2}$ (1 P).\n\nAbziehen: unten $\\tfrac12 \\cdot 6 \\cdot 1 = 3$, rechts $\\tfrac12 \\cdot 4 \\cdot 1 = 2$, links $\\tfrac12 \\cdot 1 \\cdot 4 = 2$, oben das Trapez $(0 \\mid 4)$, $D(1 \\mid 4)$, $C(5 \\mid 5)$, $(0 \\mid 5)$ mit $\\tfrac12 \\cdot (1 + 5) \\cdot 1 = 3$ (1 P).\n\n$$A = 30 - 3 - 2 - 2 - 3 = 20\\,\\mathrm{cm^2}\\;(1\\,\\mathrm{P})$$\n\nAndere Ergänzungen mit gleichem Ergebnis sind ebenso richtig.",
+          "loesung_bild": "img/N7-2.png"
         },
         {
-          "id": "W4-3a",
+          "id": "N7-3a",
           "label": "3a",
           "punkte": 1,
           "afb": "I",
           "loesung": "$8 \\cdot 5 - \\tfrac12 \\cdot 2 \\cdot 3 = 40 - 3 = 37\\,\\mathrm{cm^2}$"
         },
         {
-          "id": "W4-3b",
+          "id": "N7-3b",
           "label": "3b",
           "punkte": 2,
           "afb": "II",
           "loesung": "1 cm auf dem Plan sind $500\\,\\mathrm{cm} = 5\\,\\mathrm{m}$, also ist $1\\,\\mathrm{cm^2}$ auf dem Plan $5 \\cdot 5 = 25\\,\\mathrm{m^2}$ (1 P).\n\n$$37 \\cdot 25 = 925\\,\\mathrm{m^2}\\;(1\\,\\mathrm{P})$$"
         },
         {
-          "id": "W4-3c",
+          "id": "N7-3c",
           "label": "3c",
           "punkte": 2,
           "afb": "III",
-          "loesung": "Tom rechnet mit dem Längenfaktor 5 statt mit dem Flächenfaktor $5 \\cdot 5 = 25$ (1 P). Länge und Breite werden beide 500-mal so groß, die Fläche also $25$-mal so viele m² wie cm² auf dem Plan: 925 m² (1 P)."
+          "loesung": "Tom rechnet mit dem Längenfaktor 5 statt mit dem Flächenfaktor $5 \\cdot 5 = 25$ (1 P). 1 cm auf dem Plan sind 5 m in Wirklichkeit – in der Länge **und** in der Breite. Ein Quadrat von 1 cm² auf dem Plan ist also $5\\,\\mathrm{m} \\cdot 5\\,\\mathrm{m} = 25\\,\\mathrm{m^2}$ groß, nicht $5\\,\\mathrm{m^2}$. Richtig: $37 \\cdot 25 = 925\\,\\mathrm{m^2}$ (1 P)."
         },
         {
-          "id": "W4-4a",
+          "id": "N7-4a",
           "label": "4a",
           "punkte": 1,
           "afb": "I",
           "loesung": "$1\\,\\mathrm{m^2} = 10\\,000\\,\\mathrm{cm^2}$, also $3{,}2\\,\\mathrm{m^2} = 32\\,000\\,\\mathrm{cm^2}$"
         },
         {
-          "id": "W4-4b",
+          "id": "N7-4b",
           "label": "4b",
           "punkte": 1,
           "afb": "I",
           "loesung": "$85\\,000 : 10\\,000 = 8{,}5$, also $8{,}5\\,\\mathrm{m^2}$"
         },
         {
-          "id": "W4-4c",
+          "id": "N7-4c",
           "label": "4c",
           "punkte": 1,
           "afb": "I",
@@ -757,7 +986,7 @@
       ]
     },
     {
-      "id": "W5",
+      "id": "N8",
       "titel": "Flächen mit Variablen",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -766,155 +995,385 @@
       "checkliste": [
         "c8"
       ],
-      "hinweis": "Arbeitsblatt AB 4 aus dem Unterricht. Erst Aufgabe 1 als Diagnose: in höchstens 10 Minuten mindestens 9 von 10 Punkten, dann nur 2 b, c – 3 d – 4 a und weiter mit Teil B. Gleichwertige Terme in anderer Form sind voll richtig.",
-      "pdf": "pdf/W5_Flaechen_mit_Variablen.pdf",
+      "kategorie": "neu",
+      "hinweis": "Wie Arbeitsblatt AB 4 aus dem Unterricht. Erst Aufgabe 1 als Diagnose: in höchstens 10 Minuten mindestens 9 von 10 Punkten, dann nur 2b, c – 3d – 4a und weiter mit der Vertiefung (Aufgaben 5 bis 7). Gleichwertige Terme in anderer Form sind voll richtig.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Flaechen_mit_Variablen.pdf",
       "aufgaben": [
         {
-          "id": "W5-1a",
+          "id": "N8-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$A = 4 \\cdot (x + 3)$ (1 P) $= 4x + 12$ (1 P)"
         },
         {
-          "id": "W5-1b",
+          "id": "N8-1b",
           "label": "1b",
           "punkte": 3,
           "afb": "II",
-          "loesung": "Summe: $A = x \\cdot y + 2x$ (1 P); Produkt: $A = x \\cdot (y + 2)$ (1 P); beide sind nach dem Ausmultiplizieren gleich (1 P)."
+          "loesung": "Summe der beiden Teilrechtecke: oberes $x \\cdot y$ (1 P), unteres $2x$, zusammen $A = x \\cdot y + 2x$ (1 P).\n\nProdukt (ganzes Rechteck, $x$ breit und $y + 2$ hoch): $A = x \\cdot (y + 2)$ (1 P).\n\nBeide sind gleichwertig: Ausmultiplizieren ergibt $xy + 2x$."
         },
         {
-          "id": "W5-1c",
+          "id": "N8-1c",
           "label": "1c",
           "punkte": 2,
           "afb": "I",
           "loesung": "$A = \\tfrac12 \\cdot 2a \\cdot 5$ (1 P) $= 5a$ (1 P)"
         },
         {
-          "id": "W5-1d",
+          "id": "N8-1d",
           "label": "1d",
           "punkte": 3,
           "afb": "I",
           "loesung": "a) $4 \\cdot 8 = 32\\,\\mathrm{cm^2}$ b) $5 \\cdot 5 = 25\\,\\mathrm{cm^2}$ c) $5 \\cdot 4 = 20\\,\\mathrm{cm^2}$ (je 1 P)"
         },
         {
-          "id": "W5-2a",
+          "id": "N8-2a",
           "label": "2a",
           "punkte": 2,
           "afb": "I",
           "loesung": "z. B. $A = 3 \\cdot b + 3 \\cdot (a - 3) = 3a + 3b - 9$; auch $3 \\cdot a + 3 \\cdot (b - 3)$."
         },
         {
-          "id": "W5-2b",
+          "id": "N8-2b",
           "label": "2b",
           "punkte": 2,
           "afb": "II",
           "loesung": "$A = a \\cdot b - (a - 3) \\cdot (b - 3)$"
         },
         {
-          "id": "W5-2c",
+          "id": "N8-2c",
           "label": "2c",
           "punkte": 2,
           "afb": "II",
           "loesung": "$a \\cdot b - (ab - 3a - 3b + 9) = 3a + 3b - 9$ (1 P), also gleichwertig mit a) (1 P)."
         },
         {
-          "id": "W5-2d",
+          "id": "N8-2d",
           "label": "2d",
           "punkte": 1,
           "afb": "I",
           "loesung": "$30 + 24 - 9 = 45\\,\\mathrm{cm^2}$"
         },
         {
-          "id": "W5-3a",
+          "id": "N8-3a",
           "label": "3a",
           "punkte": 2,
           "afb": "II",
           "loesung": "$(x + 10) \\cdot (y + 10) - x \\cdot y$ (1 P) $= 10x + 10y + 100$ (1 P)"
         },
         {
-          "id": "W5-3b",
+          "id": "N8-3b",
           "label": "3b",
           "punkte": 2,
           "afb": "II",
           "loesung": "$2 \\cdot 5 \\cdot (x + 10) + 2 \\cdot 5 \\cdot y$ (1 P) $= 10x + 100 + 10y$, also derselbe Term wie in a) (1 P)."
         },
         {
-          "id": "W5-3c",
+          "id": "N8-3c",
           "label": "3c",
           "punkte": 1,
           "afb": "I",
           "loesung": "$200 + 300 + 100 = 600\\,\\mathrm{cm^2}$"
         },
         {
-          "id": "W5-3d",
+          "id": "N8-3d",
           "label": "3d",
           "punkte": 2,
           "afb": "III",
           "loesung": "Lena vergisst die vier Eckquadrate $5 \\times 5$ (1 P); ihr Term ist um $4 \\cdot 25 = 100\\,\\mathrm{cm^2}$ zu klein, richtig ist $10x + 10y + 100$ (1 P)."
         },
         {
-          "id": "W5-4a",
+          "id": "N8-4a",
           "label": "4a",
           "punkte": 2,
           "afb": "II",
           "loesung": "$3b \\cdot h + 2b \\cdot h + b \\cdot h$ (1 P) $= 6bh$ (1 P); auch über das Rechteck $3b \\times 3h$ minus die Stufen."
         },
         {
-          "id": "W5-4b",
+          "id": "N8-4b",
           "label": "4b",
           "punkte": 1,
           "afb": "I",
           "loesung": "$6 \\cdot 30 \\cdot 18 = 3\\,240\\,\\mathrm{cm^2}$"
         },
         {
-          "id": "W5-5a",
+          "id": "N8-5a",
           "label": "5a",
           "punkte": 2,
           "afb": "II",
           "loesung": "4 Stufen: $10a^2$ (1 P); 5 Stufen: $15a^2$ (1 P)"
         },
         {
-          "id": "W5-5b",
+          "id": "N8-5b",
           "label": "5b",
           "punkte": 3,
           "afb": "III",
           "loesung": "Die zweite Treppe, gedreht, füllt die Lücke: Rechteck $n \\cdot a$ breit und $(n + 1) \\cdot a$ hoch (1 P). Eine Treppe ist die Hälfte (1 P):\n\n$$A = \\tfrac12 \\cdot n \\cdot (n + 1) \\cdot a^2\\;(1\\,\\mathrm{P})$$"
         },
         {
-          "id": "W5-5c",
+          "id": "N8-5c",
           "label": "5c",
           "punkte": 1,
           "afb": "II",
           "loesung": "$\\tfrac12 \\cdot 20 \\cdot 21 \\cdot 1\\,\\mathrm{dm^2} = 210\\,\\mathrm{dm^2}$"
         },
         {
-          "id": "W5-6a",
+          "id": "N8-6a",
           "label": "6a",
           "punkte": 4,
           "afb": "II",
           "loesung": "① passt: Quadrat $(x + 4)^2$ minus vier Ecken $2 \\times 2$ (1 P). ② passt: Mitte plus vier Arme (1 P). ③ passt: $x \\cdot (x + 8) = x^2 + 8x$ (1 P). ④ und ⑤ passen nicht: $(x + 4)^2 - 4 = x^2 + 8x + 12$ und $x^2 + 8x + 16$ sind zu groß (1 P)."
         },
         {
-          "id": "W5-6b",
+          "id": "N8-6b",
           "label": "6b",
           "punkte": 2,
           "afb": "III",
           "loesung": "Rechteck $x \\times (x + 8)$ (1 P): die vier Arme (je $x \\times 2$) abschneiden und nebeneinander an das Quadrat legen (1 P)."
         },
         {
-          "id": "W5-7a",
+          "id": "N8-7a",
           "label": "7a",
           "punkte": 3,
           "afb": "II",
           "loesung": "$(x + 6)^2 - x^2 = 12x + 36$ (1 P); $12x + 36 = 168 \\;\\Rightarrow\\; 12x = 132$ (1 P) $\\;\\Rightarrow\\; x = 11\\,\\mathrm{cm}$ (1 P)"
         },
         {
-          "id": "W5-7b",
+          "id": "N8-7b",
           "label": "7b",
           "punkte": 2,
           "afb": "III",
           "loesung": "Rahmenfläche $12x + 36$: Aus $x$ wird $x + 1$, also $12(x + 1) + 36 = 12x + 48$ – immer $12\\,\\mathrm{cm^2}$ mehr (1 P). Anschaulich: Jede der vier Rahmenseiten wird 1 cm länger, $4 \\cdot 3\\,\\mathrm{cm^2}$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Glasscheiben für einen Wintergarten",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Geodreieck, Zirkel, ohne Taschenrechner",
+      "checkliste": [
+        "c2",
+        "c1",
+        "c9",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 (Vierecke und Kongruenz) – am besten nach N1 bis N3.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Wintergarten.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$AD$ und $BC$ stehen beide senkrecht auf $AB$, also sind $AD$ und $BC$ parallel. Das Viereck hat ein Paar paralleler Seiten: Es ist ein Trapez (1 P).\n\nDie parallelen Seiten sind verschieden lang ($3\\,\\mathrm{dm} \\neq 5\\,\\mathrm{dm}$). In einem Parallelogramm wären Gegenseiten gleich lang – deshalb ist $CD$ nicht parallel zu $AB$, und die Scheibe ist kein Parallelogramm (1 P)."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$AB = 6\\,\\mathrm{cm}$ zeichnen, in $A$ und $B$ Senkrechte errichten, darauf $AD = 3\\,\\mathrm{cm}$ und $BC = 5\\,\\mathrm{cm}$ abtragen, $C$ und $D$ verbinden (1 P).\n\nMessen: $CD \\approx 6{,}3\\,\\mathrm{cm}$, also in Wirklichkeit etwa $6{,}3\\,\\mathrm{dm}$; $\\gamma \\approx 72°$ (Toleranz ± 2 mm, ± 2°) (1 P)."
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\delta = 360° - 90° - 90° - 72° = 108°$"
+        },
+        {
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Platte muss 6 dm lang und 5 dm hoch sein: $6 \\cdot 5 = 30$, also $30\\,\\mathrm{dm^2}$.\n\n$100\\,\\mathrm{dm^2} = 1\\,\\mathrm{m^2}$, also $30\\,\\mathrm{dm^2} = 0{,}3\\,\\mathrm{m^2}$ (je 0,5 P)."
+        },
+        {
+          "id": "V1-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "**Nein** (1 P). Vier Seiten legen ein Viereck nicht fest: Wie ein Gelenkviereck lässt es sich verformen, die Winkel können sich ändern – dann hat die Scheibe bei A und B keine rechten Winkel und passt nicht in den Rahmen. Für ein Viereck braucht man fünf passende Stücke, z. B. zusätzlich $\\beta = 90°$ oder die Diagonale $AC$ (1 P)."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gegeben sind eine Seite (8 dm) und die beiden **an ihr anliegenden** Winkel (je 35°). Nach **WSW** ist das Dreieck eindeutig festgelegt."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$180° - 35° - 35° = 110°$ (0,5 P). Das Dreieck ist **stumpfwinklig** (110° > 90°) und **gleichschenklig** (zwei gleich große Basiswinkel) (0,5 P)."
+        },
+        {
+          "id": "V1-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "SsW gilt nur, wenn der Winkel der **größeren** Seite gegenüberliegt. Hier liegt er der kleineren Kante gegenüber (5 dm < 6 dm), SsW greift nicht (1 P).\n\nZeichnet man die 6-dm-Kante und an ihrem einen Ende den 40°-Winkel, schneidet der Kreis mit Radius 5 dm um das andere Ende den freien Schenkel **zweimal**: Es gibt zwei verschiedene Dreiecke. Die Angaben reichen nicht (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Schrägparkplätze",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c5",
+        "c2",
+        "c9",
+        "g1",
+        "g3",
+        "g4",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 2 (Vierecke und Kongruenz, Dreieck und Parallelogramm) – am besten nach N4 bis N5.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Schraegparken.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Fahrbahnrand und hintere Kante des Streifens sind parallel, die beiden Markierungslinien eines Stellplatzes ebenfalls. Zwei Paare paralleler Seiten: Parallelogramm."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Grundseite am Fahrbahnrand $g = 3\\,\\mathrm{m}$, zugehörige Höhe = Tiefe des Streifens $h = 4\\,\\mathrm{m}$:\n\n$$A = 3 \\cdot 4 = 12\\,\\mathrm{m^2}$$\n\nWer $3 \\cdot 5 = 15$ rechnet, nimmt die schräge 5-m-Linie statt der Höhe."
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Der Abstand ist die Höhe $h_b$ zur 5 m langen Seite $b$ (Lot von einer Linie auf die Nachbarlinie) (1 P).\n\nGleicher Flächeninhalt mit der anderen Grundseite: $12 = 5 \\cdot h_b \\;\\Rightarrow\\; h_b = 12 : 5 = 2{,}4\\,\\mathrm{m}$ (1 P).\n\n$2{,}4\\,\\mathrm{m} > 2{,}3\\,\\mathrm{m}$: Die Stellplätze sind breit genug (1 P).",
+          "loesung_bild": "img/V2-1c.png"
+        },
+        {
+          "id": "V2-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Im Parallelogramm sind gegenüberliegende Winkel gleich groß, benachbarte ergänzen sich zu 180°. Die übrigen Winkel sind also $180° - 53° = 127°$, $53°$ und $127°$."
+        },
+        {
+          "id": "V2-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Rechtwinkliges Dreieck: Die 4 m lange Anfangskante steht senkrecht auf der 3 m langen Strecke an der hinteren Kante:\n\n$$A = \\tfrac12 \\cdot 3 \\cdot 4 = 6\\,\\mathrm{m^2}$$"
+        },
+        {
+          "id": "V2-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Strecke vom Anfang der zweiten Linie am Fahrbahnrand senkrecht nach hinten endet genau am Ende der ersten Linie – sie ist eine Diagonale des Stellplatzes (4 m lang). Diese Diagonale zerlegt ihn in zwei Dreiecke mit den Seiten 3 m, 4 m und 5 m (1 P).\n\nDie Grünfläche hat ebenfalls die Seiten 3 m, 4 m und 5 m. Nach **SSS** sind alle drei Dreiecke kongruent, also gleich groß: Ein Stellplatz besteht aus zwei Grünflächen-Dreiecken ($12 = 2 \\cdot 6$) (1 P)."
+        },
+        {
+          "id": "V2-1g",
+          "label": "1g",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Am Fahrbahnrand: 8 Stellplätze à 3 m und die Grünfläche am Ende mit 3 m: $8 \\cdot 3 + 3 = 27\\,\\mathrm{m}$. Der Streifen ist ein Rechteck: $27 \\cdot 4 = 108\\,\\mathrm{m^2}$ (1 P).\n\nZweite Art: $8 \\cdot 12 + 2 \\cdot 6 = 96 + 12 = 108\\,\\mathrm{m^2}$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Eine Funbox für den Skatepark",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c8",
+        "c4",
+        "c2",
+        "g2",
+        "g3",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 3 (Vierecke und Kongruenz, Dreieck und Parallelogramm, Trapez, Drachen und Vielecke) – am besten nach N6 bis N8.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Funbox.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Boden $AB$ und Plateau $CD$ sind beide waagerecht, also parallel. Ein Viereck mit (mindestens) einem Paar paralleler Seiten ist ein Trapez. (Weil beide Rampen gleich steil sind, ist es sogar ein gleichschenkliges Trapez.)"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$A = \\tfrac12 \\cdot (4 + 2) \\cdot 0{,}75 = 3 \\cdot 0{,}75 = 2{,}25\\,\\mathrm{m^2}$$"
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Verschnitt: zwei rechtwinklige Dreiecke mit den Katheten 1,0 m und 0,75 m: $2 \\cdot \\tfrac12 \\cdot 1 \\cdot 0{,}75 = 0{,}75\\,\\mathrm{m^2}$ (1 P).\n\nPlatte: $4 \\cdot 0{,}75 = 3\\,\\mathrm{m^2}$, also Seitenfläche $3 - 0{,}75 = 2{,}25\\,\\mathrm{m^2}$ – wie in b) (1 P)."
+        },
+        {
+          "id": "V3-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$A = \\tfrac12 \\cdot 60 \\cdot 40 = 1\\,200\\,\\mathrm{cm^2}$ (1 P).\n\n$1\\,\\mathrm{m^2} = 10\\,000\\,\\mathrm{cm^2}$, also $1\\,200\\,\\mathrm{cm^2} = 0{,}12\\,\\mathrm{m^2}$ (1 P)."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Unten ist die Seitenfläche $x + 2$ lang (zwei Rampen à 1 m):\n\n$$A = \\tfrac12 \\cdot (x + 2 + x) \\cdot 0{,}75\\;(1\\,\\mathrm{P})$$\n\n$$= \\tfrac12 \\cdot (2x + 2) \\cdot 0{,}75 = (x + 1) \\cdot 0{,}75 = 0{,}75x + 0{,}75\\;(1\\,\\mathrm{P})$$\n\nProbe mit $x = 2$: $0{,}75 \\cdot 2 + 0{,}75 = 2{,}25$ wie in Aufgabe 1b. Auch richtig: Rechteck unter dem Plateau plus zwei Dreiecke, $0{,}75x + 2 \\cdot 0{,}375$."
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$0{,}75x + 0{,}75 = 3 \\;\\Rightarrow\\; 0{,}75x = 2{,}25$ (1 P) $\\;\\Rightarrow\\; x = 3$, das Plateau ist **3 m** lang (1 P)."
+        },
+        {
+          "id": "V3-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch (1 P): $x = 2$ ergibt $2{,}25\\,\\mathrm{m^2}$, $x = 4$ ergibt $0{,}75 \\cdot 4 + 0{,}75 = 3{,}75\\,\\mathrm{m^2}$ – nicht $4{,}5\\,\\mathrm{m^2}$.\n\nNur das Rechteck unter dem Plateau ($0{,}75x$) wächst mit, die beiden Rampendreiecke ($0{,}75\\,\\mathrm{m^2}$) bleiben gleich. Der Term $0{,}75x + 0{,}75$ ist nicht proportional zu $x$ (1 P)."
         }
       ]
     }
