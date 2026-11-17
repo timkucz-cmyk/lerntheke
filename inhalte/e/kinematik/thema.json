@@ -3,8 +3,32 @@
   "titel": "Kinematik – Lerntheke vor der Klausur",
   "fach": "physik",
   "anrede": "sie",
-  "hinweis": "Beginnen Sie mit P1 (Diagnose). Die Lösungen von P1 empfehlen Ihnen passende Wahlstationen. P5 (Check-out) bearbeiten Sie am Ende der dritten Stunde – vergleichen Sie dann Ihre Punkte in P1 und P5. Die Probeklausur (W6) dauert 90 Minuten und eignet sich für zu Hause.",
+  "hinweis": "Alle Stationen sind klausurrelevant. Sind Sie bei den Basics (Einheiten, Formeln umstellen, Runden, Diagramme lesen) unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt die Basics auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Bewegungen beschreiben), V2 nach N4 bis N5 (Messen und Auswerten), V3 nach N6 bis N9 (Fall und Wurf), V4 nach N10 (Bezugssysteme und Modelle) – V4 ist die Probeklausur (90 Minuten, gut für zu Hause). N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11.",
   "checkliste": [
+    {
+      "id": "g1",
+      "text": "Größen in SI-Basiseinheiten umrechnen und Vorsätze als Zehnerpotenzen schreiben"
+    },
+    {
+      "id": "g2",
+      "text": "Mit Größengleichungen rechnen: Einheiten mitführen, kürzen und eine Einheitenprobe machen"
+    },
+    {
+      "id": "g3",
+      "text": "Formeln nach einer gesuchten Größe umstellen"
+    },
+    {
+      "id": "g4",
+      "text": "Geschwindigkeiten zwischen km/h und m/s umrechnen"
+    },
+    {
+      "id": "g5",
+      "text": "Ergebnisse mit sinnvoll vielen signifikanten Stellen angeben"
+    },
+    {
+      "id": "g6",
+      "text": "Diagramme lesen: Werte ablesen, die Steigung mit einem Steigungsdreieck bestimmen und als Größe deuten"
+    },
     {
       "id": "c1",
       "text": "Messwerte auswerten: Mittelwert, Ausreißer, zufällige und systematische Messabweichungen"
@@ -52,6 +76,20 @@
   ],
   "phasen": [
     {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Basics: Einheiten, Formeln, Runden, Diagramme",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
       "id": "p1",
       "name": "Bewegungen beschreiben",
       "untertitel": "Diagramme, Gesetze, Begegnung",
@@ -98,9 +136,185 @@
   "abschluss": "Klausur Kinematik",
   "stationen": [
     {
-      "id": "P1",
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR zugelassen, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeiten Sie die Blöcke, bei denen Sie in der Selbsteinschätzung unsicher sind. Lücken schließen Sie danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Vorsätze sind Zehnerpotenzen: kilo $= 10^3$, milli $= 10^{-3}$, mikro $= 10^{-6}$.\n\n$2{,}4\\,\\mathrm{km} = 2{,}4 \\cdot 10^3\\,\\mathrm{m}$; $35\\,\\mathrm{ms} = 35 \\cdot 10^{-3}\\,\\mathrm{s} = 3{,}5 \\cdot 10^{-2}\\,\\mathrm{s}$; $680\\,\\mu\\mathrm{s} = 680 \\cdot 10^{-6}\\,\\mathrm{s} = 6{,}8 \\cdot 10^{-4}\\,\\mathrm{s}$"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Vorsicht bei Flächen: Der Vorsatz wird mit quadriert.\n\n$1\\,\\mathrm{cm^2} = (10^{-2}\\,\\mathrm{m})^2 = 10^{-4}\\,\\mathrm{m^2}$, also $15\\,\\mathrm{cm^2} = 15 \\cdot 10^{-4}\\,\\mathrm{m^2} = 1{,}5 \\cdot 10^{-3}\\,\\mathrm{m^2}$"
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Nur die Einheiten einsetzen und kürzen:\n\n$\\frac{(\\mathrm{m/s})^2}{\\mathrm{m/s^2}} = \\frac{\\mathrm{m^2}}{\\mathrm{s^2}} \\cdot \\frac{\\mathrm{s^2}}{\\mathrm{m}} = \\mathrm{m}$\n\nEs kommt die Einheit einer Strecke heraus: Die Gleichung kann richtig sein."
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gerechnet wurde nur mit Zahlenwerten: „$0{,}3$“ hat keine Einheit und ist bedeutungslos (gemeint wären $0{,}3\\,\\mathrm{km/min}$). Einheiten müssen mitgeführt werden.\n\n$v = \\frac{1200\\,\\mathrm{m}}{240\\,\\mathrm{s}} = 5{,}0\\,\\mathrm{m/s}$"
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beide Seiten mit $\\Delta t$ multiplizieren, dann durch $a$ teilen:\n\n$\\Delta t = \\frac{\\Delta v}{a}$"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\cdot 2$, dann $: a$: $t^2 = \\frac{2\\,s}{a}$; Wurzel ziehen (nur die positive Lösung):\n\n$t = \\sqrt{\\frac{2\\,s}{a}}$"
+        },
+        {
+          "id": "G1-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$t = \\sqrt{\\frac{2 \\cdot 4{,}0\\,\\mathrm{m}}{0{,}50\\,\\mathrm{m/s^2}}} = \\sqrt{16\\,\\mathrm{s^2}} = 4{,}0\\,\\mathrm{s}$"
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$72\\,\\mathrm{km/h} = \\frac{72}{3{,}6}\\,\\mathrm{m/s} = 20\\,\\mathrm{m/s}$\n\n$12\\,\\mathrm{m/s} = 12 \\cdot 3{,}6\\,\\mathrm{km/h} \\approx 43\\,\\mathrm{km/h}$ (genau 43,2)"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$1\\,\\mathrm{m/s} = \\frac{1\\,\\mathrm{m}}{1\\,\\mathrm{s}} = \\frac{0{,}001\\,\\mathrm{km}}{\\frac{1}{3600}\\,\\mathrm{h}} = 3{,}6\\,\\mathrm{km/h}$\n\nDer Faktor ist also $\\frac{3600\\,\\mathrm{s/h}}{1000\\,\\mathrm{m/km}} = 3{,}6$."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$0{,}060\\,\\mathrm{s}$: 2 signifikante Stellen (führende Nullen zählen nicht, die Endnull zählt).\n\n$2{,}50\\,\\mathrm{m}$: 3 signifikante Stellen."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$v = \\frac{1{,}85\\,\\mathrm{m}}{0{,}62\\,\\mathrm{s}} = 2{,}983...\\,\\mathrm{m/s} \\approx 3{,}0\\,\\mathrm{m/s}$\n\nBeim Teilen bestimmt der ungenaueste Messwert die Stellenzahl: $0{,}62\\,\\mathrm{s}$ hat nur 2 signifikante Stellen, also auch das Ergebnis."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bei $T = 140\\,\\mathrm{°C}$ waagerecht zum Graphen, dann senkrecht zur Zeitachse: $t = 8\\,\\mathrm{min}$."
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Steigungsdreieck zwischen $(0\\,\\mathrm{min} \\mid 20\\,\\mathrm{°C})$ und $(12\\,\\mathrm{min} \\mid 200\\,\\mathrm{°C})$:\n\n$\\frac{\\Delta T}{\\Delta t} = \\frac{180\\,\\mathrm{°C}}{12\\,\\mathrm{min}} = 15\\,\\mathrm{°C/min}$\n\nDeutung: Die Steigung ist selbst eine Größe – die Temperatur steigt um $15\\,\\mathrm{°C}$ pro Minute."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Basics",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "g4",
+        "g1",
+        "g3",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR zugelassen, 15 Minuten. Übt typische Lücken aus G1: Einheiten umrechnen, Formeln umstellen, sinnvoll runden, Steigungen aus Diagrammen bestimmen.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen_Basics.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "In Basiseinheiten: $12{,}6\\,\\mathrm{km} = 12\\,600\\,\\mathrm{m}$; $2\\,\\mathrm{h}\\ 48\\,\\mathrm{min} = 168\\,\\mathrm{min} = 10\\,080\\,\\mathrm{s}$\n\n$v = \\frac{12\\,600\\,\\mathrm{m}}{10\\,080\\,\\mathrm{s}} = 1{,}25\\,\\mathrm{m/s}$; $1{,}25 \\cdot 3{,}6 = 4{,}50$, also $4{,}50\\,\\mathrm{km/h}$"
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$v = \\frac{s}{t}$ nach $t$ umstellen: $t = \\frac{s}{v}$\n\n$t = \\frac{3900\\,\\mathrm{m}}{1{,}25\\,\\mathrm{m/s}} = 3120\\,\\mathrm{s} = 52\\,\\mathrm{min}$"
+        },
+        {
+          "id": "G2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zu viele Stellen: Strecke ($12{,}6\\,\\mathrm{km}$) und Zeit ($168\\,\\mathrm{min}$) haben je 3 signifikante Stellen, also auch das Ergebnis: $4{,}50\\,\\mathrm{km/h}$. Mehr Stellen täuschen eine Genauigkeit vor, die die Messung nicht hat."
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bei $t = 4\\,\\mathrm{min}$ senkrecht zum Graphen, dann waagerecht zur Volumenachse: $V = 100\\,\\mathrm{L}$."
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Steigungsdreieck zwischen $(0\\,\\mathrm{min} \\mid 40\\,\\mathrm{L})$ und $(8\\,\\mathrm{min} \\mid 160\\,\\mathrm{L})$:\n\n$\\frac{\\Delta V}{\\Delta t} = \\frac{120\\,\\mathrm{L}}{8\\,\\mathrm{min}} = 15\\,\\mathrm{L/min}$\n\nDeutung: Pro Minute fließen $15\\,\\mathrm{L}$ Wasser in die Tonne. (Nicht den Funktionswert ablesen – die Steigung ist eine Änderungsrate.)"
+        },
+        {
+          "id": "G2-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$1\\,\\mathrm{L} = (10^{-1}\\,\\mathrm{m})^3 = 10^{-3}\\,\\mathrm{m^3}$\n\n$15\\,\\mathrm{L/min} = \\frac{15 \\cdot 10^{-3}\\,\\mathrm{m^3}}{60\\,\\mathrm{s}} = 2{,}5 \\cdot 10^{-4}\\,\\mathrm{m^3/s}$"
+        }
+      ]
+    },
+    {
+      "id": "N1",
       "titel": "Diagnose: Bewegungen lesen",
-      "typ": "pflicht",
+      "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 8,
       "hilfsmittel": "keine",
@@ -112,72 +326,73 @@
         "c8",
         "c1"
       ],
+      "kategorie": "neu",
       "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
-      "bild": "img/st_P1.svg",
-      "pdf": "pdf/P1_Diagnose.pdf",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
       "aufgaben": [
         {
-          "id": "P1-1a",
+          "id": "N1-1a",
           "label": "1a",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**B** – Die Geschwindigkeit ist die **Steigung** des t-s-Graphen. Die Geraden haben verschiedene Steigungen ($2\\,\\mathrm{m/s}$ und $1\\,\\mathrm{m/s}$), also sind A und B nie gleich schnell. Im Schnittpunkt sind sie am **selben Ort**.\n\n*A gewählt?* Sie verwechseln Ort und Geschwindigkeit. → **W1** (Begegnen und Überholen)"
+          "loesung": "**C** – Die Geschwindigkeit ist die **Steigung** des t-s-Graphen. Die Geraden haben verschiedene Steigungen ($2\\,\\mathrm{m/s}$ und $1\\,\\mathrm{m/s}$), also sind A und B nie gleich schnell. Im Schnittpunkt sind sie am **selben Ort**.\n\n*B gewählt?* Sie verwechseln Ort und Geschwindigkeit. → **N3** (Begegnen und Überholen)"
         },
         {
-          "id": "P1-1b",
+          "id": "N1-1b",
           "label": "1b",
           "punkte": 1,
           "afb": "I",
-          "loesung": "**B** – $v = \\frac{\\Delta s}{\\Delta t} = \\frac{8\\,\\mathrm{m}}{4\\,\\mathrm{s}} = 2\\,\\mathrm{m/s}$.\n\n*A gewählt?* Sie haben den Funktionswert statt der Steigung abgelesen. → **P2** gründlich, danach **W5**"
+          "loesung": "**A** – $v = \\frac{\\Delta s}{\\Delta t} = \\frac{8\\,\\mathrm{m}}{4\\,\\mathrm{s}} = 2\\,\\mathrm{m/s}$.\n\n*B gewählt?* Sie haben den Funktionswert statt der Steigung abgelesen. → **N2** gründlich, danach **N5**\n\n*C gewählt?* Die Steigung ist $\\frac{\\Delta s}{\\Delta t}$, nicht der Kehrwert. Steigungsdreieck üben: → **G2** Aufgabe 2"
         },
         {
-          "id": "P1-2",
+          "id": "N1-2",
           "label": "2",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**B** – Die Steigung (Geschwindigkeit) nimmt ab und ist am Ende null: Der Wagen bremst und steht dann.\n\n*A gewählt?* Sie lesen das Diagramm als Bild der Bahn. → **P2**"
+          "loesung": "**B** – Die Steigung (Geschwindigkeit) nimmt ab und ist am Ende null: Der Wagen bremst und steht dann.\n\n*A gewählt?* Sie lesen das Diagramm als Bild der Bahn. → **N2**"
         },
         {
-          "id": "P1-3",
+          "id": "N1-3",
           "label": "3",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**B** – $a$ ist die Steigung im t-v-Diagramm: $a = \\frac{-2\\,\\mathrm{m/s} - 2\\,\\mathrm{m/s}}{4\\,\\mathrm{s}} = -1\\,\\mathrm{m/s^2}$, und zwar die ganze Zeit, auch bei $v = 0$.\n\n*A gewählt?* Sie verwechseln Geschwindigkeit und Beschleunigung. → **W2** (Tandem)"
+          "loesung": "**D** – $a$ ist die Steigung im t-v-Diagramm: $a = \\frac{-2\\,\\mathrm{m/s} - 2\\,\\mathrm{m/s}}{4\\,\\mathrm{s}} = -1\\,\\mathrm{m/s^2}$, und zwar die ganze Zeit, auch bei $v = 0$.\n\n*A gewählt?* Sie verwechseln Geschwindigkeit und Beschleunigung. → **N9** (Tandem)"
         },
         {
-          "id": "P1-4",
+          "id": "N1-4",
           "label": "4",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**C** – $0{,}91\\,\\mathrm{s}$ ist ein Ausreißer. Er wird nicht stillschweigend gelöscht und nicht ungeprüft gemittelt: Ursache suchen (z. B. zu spät gestoppt), Messung wiederholen. Ohne den Ausreißer: $\\bar{t} = 0{,}64\\,\\mathrm{s}$.\n\n*A, B oder D gewählt?* → **P3** gründlich, danach **W5**"
+          "loesung": "**A** – $0{,}91\\,\\mathrm{s}$ ist ein Ausreißer. Er wird nicht stillschweigend gelöscht und nicht ungeprüft gemittelt: Ursache suchen (z. B. zu spät gestoppt), Messung wiederholen. Ohne den Ausreißer: $\\bar{t} = 0{,}64\\,\\mathrm{s}$.\n\n*B, C oder D gewählt?* → **N4** gründlich, danach **N5**"
         },
         {
-          "id": "P1-5",
+          "id": "N1-5",
           "label": "5",
           "punkte": 1,
           "afb": "I",
-          "loesung": "**B** – Aus $s = \\frac{1}{2}\\,a\\,t^2$ folgt: Steigung $= \\frac{1}{2}\\,a$, also $a = 2 \\cdot 0{,}30\\,\\mathrm{m/s^2} = 0{,}60\\,\\mathrm{m/s^2}$.\n\n*A gewählt?* Der Faktor $\\frac{1}{2}$ fehlt. → **P3**, danach **W5**"
+          "loesung": "**C** – Aus $s = \\frac{1}{2}\\,a\\,t^2$ folgt: Steigung $= \\frac{1}{2}\\,a$, also $a = 2 \\cdot 0{,}30\\,\\mathrm{m/s^2} = 0{,}60\\,\\mathrm{m/s^2}$.\n\n*A gewählt?* Der Faktor $\\frac{1}{2}$ fehlt. → **N4**, danach **N5**"
         },
         {
-          "id": "P1-6a",
+          "id": "N1-6a",
           "label": "6a",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**C** – Waagerechte und senkrechte Bewegung sind unabhängig. Die Falldauer $t_F = \\sqrt{\\frac{2\\,h_0}{g}}$ hängt nur von der Höhe ab. B fliegt nur weiter.\n\n*A, B oder D gewählt?* → **W3** (Vorhersagen – beobachten – erklären)"
+          "loesung": "**D** – Waagerechte und senkrechte Bewegung sind unabhängig. Die Falldauer $t_F = \\sqrt{\\frac{2\\,h_0}{g}}$ hängt nur von der Höhe ab. Murmel 2 fliegt nur weiter.\n\n*A, B oder C gewählt?* → **N7** (Vorhersagen – beobachten – erklären)"
         },
         {
-          "id": "P1-6b",
+          "id": "N1-6b",
           "label": "6b",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**C** – Der Schlüssel behält beim Loslassen die waagerechte Geschwindigkeit der Skaterin. Er bewegt sich auf einer Wurfparabel und bleibt unter ihrer Hand, solange sie gleich schnell weiterfährt.\n\n*A gewählt?* → **W3**, danach **W4** (Bezugssysteme)"
+          "loesung": "**B** – Der Schlüssel behält beim Loslassen die waagerechte Geschwindigkeit der Skaterin. Er bewegt sich auf einer Wurfparabel und bleibt unter ihrer Hand, solange sie gleich schnell weiterfährt.\n\n*A gewählt?* → **N7**, danach **N10** (Bezugssysteme)"
         }
       ]
     },
     {
-      "id": "P2",
+      "id": "N2",
       "titel": "Diagramme wechseln",
-      "typ": "pflicht",
+      "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 20,
       "hilfsmittel": "WTR",
@@ -187,242 +402,58 @@
         "c3",
         "c2"
       ],
-      "bild": "img/st_P2.svg",
-      "pdf": "pdf/P2_Diagramme_wechseln.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Diagramme_wechseln.pdf",
       "aufgaben": [
         {
-          "id": "P2-1a",
+          "id": "N2-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$0$ bis $4\\,\\mathrm{s}$: gleichmäßig beschleunigt aus dem Stand auf $4\\,\\mathrm{m/s}$.\n\n$4$ bis $14\\,\\mathrm{s}$: gleichförmig mit $4\\,\\mathrm{m/s}$.\n\n$14$ bis $16\\,\\mathrm{s}$: gleichmäßig abgebremst bis zum Stillstand."
         },
         {
-          "id": "P2-1b",
+          "id": "N2-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "I",
           "loesung": "$a_1 = \\frac{4\\,\\mathrm{m/s}}{4\\,\\mathrm{s}} = 1\\,\\mathrm{m/s^2}$; $a_2 = 0$; $a_3 = \\frac{0 - 4\\,\\mathrm{m/s}}{2\\,\\mathrm{s}} = -2\\,\\mathrm{m/s^2}$"
         },
         {
-          "id": "P2-1c",
+          "id": "N2-1c",
           "label": "1c",
           "punkte": 2,
           "afb": "II",
           "loesung": "Drei waagerechte Strecken: $1\\,\\mathrm{m/s^2}$ von 0 bis 4 s, $0$ von 4 bis 14 s, $-2\\,\\mathrm{m/s^2}$ von 14 bis 16 s.",
-          "loesung_bild": "img/P2-1c.png"
+          "loesung_bild": "img/N2-1c.png"
         },
         {
-          "id": "P2-1d",
+          "id": "N2-1d",
           "label": "1d",
           "punkte": 4,
           "afb": "II",
-          "loesung": "Abschnitt 1: $s = \\frac{1}{2} \\cdot 1\\,\\mathrm{m/s^2} \\cdot (4\\,\\mathrm{s})^2 = 8\\,\\mathrm{m}$\n\nAbschnitt 2: $4\\,\\mathrm{m/s} \\cdot 10\\,\\mathrm{s} = 40\\,\\mathrm{m}$, also $48\\,\\mathrm{m}$ nach 14 s\n\nAbschnitt 3: $s = \\frac{1}{2} \\cdot (-2\\,\\mathrm{m/s^2}) \\cdot (2\\,\\mathrm{s})^2 + 4\\,\\mathrm{m/s} \\cdot 2\\,\\mathrm{s} = 4\\,\\mathrm{m}$, also $52\\,\\mathrm{m}$ nach 16 s\n\nt-s-Diagramm: nach oben gekrümmter Parabelast bis $(4\\,\\mathrm{s}\\,|\\,8\\,\\mathrm{m})$, Gerade bis $(14\\,\\mathrm{s}\\,|\\,48\\,\\mathrm{m})$, nach unten gekrümmter Parabelast, der bei $(16\\,\\mathrm{s}\\,|\\,52\\,\\mathrm{m})$ waagerecht ausläuft. Keine Knicke.",
-          "loesung_bild": "img/P2-1d.png"
+          "loesung": "Abschnitt 1: $s = \\frac{1}{2} \\cdot 1\\,\\mathrm{m/s^2} \\cdot (4\\,\\mathrm{s})^2 = 8\\,\\mathrm{m}$\n\nAbschnitt 2: $4\\,\\mathrm{m/s} \\cdot 10\\,\\mathrm{s} = 40\\,\\mathrm{m}$, also $48\\,\\mathrm{m}$ nach 14 s\n\nAbschnitt 3: $s = \\frac{1}{2} \\cdot (-2\\,\\mathrm{m/s^2}) \\cdot (2\\,\\mathrm{s})^2 + 4\\,\\mathrm{m/s} \\cdot 2\\,\\mathrm{s} = 4\\,\\mathrm{m}$, also $52\\,\\mathrm{m}$ nach 16 s\n\nt-s-Diagramm: nach oben gekrümmter Parabelast bis $(4\\,\\mathrm{s} \\mid 8\\,\\mathrm{m})$, Gerade bis $(14\\,\\mathrm{s} \\mid 48\\,\\mathrm{m})$, nach unten gekrümmter Parabelast, der bei $(16\\,\\mathrm{s} \\mid 52\\,\\mathrm{m})$ waagerecht ausläuft. Keine Knicke.",
+          "loesung_bild": "img/N2-1d.png"
         },
         {
-          "id": "P2-2a",
+          "id": "N2-2a",
           "label": "2a",
           "punkte": 1,
           "afb": "I",
           "loesung": "A: $v_A = \\frac{1200\\,\\mathrm{m}}{400\\,\\mathrm{s}} = 3\\,\\mathrm{m/s}$; B: $v_B = \\frac{0 - 1200\\,\\mathrm{m}}{600\\,\\mathrm{s}} = -2\\,\\mathrm{m/s}$ (B läuft entgegen der Richtung von A)."
         },
         {
-          "id": "P2-2b",
+          "id": "N2-2b",
           "label": "2b",
           "punkte": 3,
           "afb": "II",
-          "loesung": "$s_A(t) = 3\\,\\mathrm{m/s} \\cdot t$; $s_B(t) = -2\\,\\mathrm{m/s} \\cdot t + 1200\\,\\mathrm{m}$\n\n$3\\,\\mathrm{m/s} \\cdot t = -2\\,\\mathrm{m/s} \\cdot t + 1200\\,\\mathrm{m} \\Rightarrow t = \\frac{1200\\,\\mathrm{m}}{5\\,\\mathrm{m/s}} = 240\\,\\mathrm{s}$\n\n$s = 3\\,\\mathrm{m/s} \\cdot 240\\,\\mathrm{s} = 720\\,\\mathrm{m}$. Der Schnittpunkt im Diagramm liegt bei $(240\\,\\mathrm{s}\\,|\\,720\\,\\mathrm{m})$."
+          "loesung": "$s_A(t) = 3\\,\\mathrm{m/s} \\cdot t$; $s_B(t) = -2\\,\\mathrm{m/s} \\cdot t + 1200\\,\\mathrm{m}$\n\n$3\\,\\mathrm{m/s} \\cdot t = -2\\,\\mathrm{m/s} \\cdot t + 1200\\,\\mathrm{m} \\Rightarrow t = \\frac{1200\\,\\mathrm{m}}{5\\,\\mathrm{m/s}} = 240\\,\\mathrm{s}$\n\n$s = 3\\,\\mathrm{m/s} \\cdot 240\\,\\mathrm{s} = 720\\,\\mathrm{m}$. Der Schnittpunkt im Diagramm liegt bei $(240\\,\\mathrm{s} \\mid 720\\,\\mathrm{m})$."
         }
       ]
     },
     {
-      "id": "P3",
-      "titel": "Messreihe auswerten: schiefe Ebene",
-      "typ": "pflicht",
-      "sozialform": "partner",
-      "dauer_min": 20,
-      "hilfsmittel": "WTR",
-      "checkliste": [
-        "c6",
-        "c1"
-      ],
-      "bild": "img/st_P3.svg",
-      "pdf": "pdf/P3_Messreihe_schiefe_Ebene.pdf",
-      "aufgaben": [
-        {
-          "id": "P3-1a",
-          "label": "1a",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Die Punkte liegen auf einer nach oben gekrümmten Kurve (Parabelast): In gleichen Zeitabschnitten legt der Wagen immer längere Strecken zurück, er wird gleichmäßig schneller.\n\nEine Verbindungslinie würde Zwischenwerte behaupten, die nicht gemessen wurden. Deshalb Punktdiagramm (XY) ohne Linien."
-        },
-        {
-          "id": "P3-1b",
-          "label": "1b",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Aus $s = \\frac{1}{2}\\,a\\,t^2$ folgt: Steigung $= \\frac{1}{2}\\,a$.\n\n$a = 2 \\cdot 0{,}3804\\,\\mathrm{m/s^2} \\approx 0{,}76\\,\\mathrm{m/s^2}$"
-        },
-        {
-          "id": "P3-1c",
-          "label": "1c",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Maßstab zu kurz: systematisch – alle Strecken werden im gleichen Verhältnis zu groß.\n\nPunkterkennung: zufällig – die Werte streuen um den richtigen Wert.\n\nDritte Quelle, z. B.: Kamera nicht senkrecht zur Bewegungsebene (systematisch), tatsächliche Bildrate weicht ab (systematisch), Winkel nicht genau 4° (systematisch). *Nicht* gültig: „Reaktionszeit“ – bei der Videoanalyse wird nicht von Hand gestoppt."
-        },
-        {
-          "id": "P3-1d",
-          "label": "1d",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Der Wert fällt im Diagramm deutlich aus der Kurve (Ausreißer). Die Gruppe prüft die Ursache im Video (Tracking-Sprung) und korrigiert den Punkt oder wiederholt die Messung. Sie löscht ihn nicht stillschweigend und nimmt ihn auch nicht ungeprüft in die Trendlinie auf; ein Weglassen wird im Protokoll begründet."
-        },
-        {
-          "id": "P3-1e",
-          "label": "1e",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$0{,}76\\,\\mathrm{m/s^2}$ ist größer als der reibungsfreie Höchstwert – mit Reibung müsste der Wert sogar kleiner sein. Es liegt also ein systematischer Fehler vor, der $a$ zu groß macht, z. B. ein zu kurz gesetzter Maßstab oder ein Winkel größer als 4°."
-        },
-        {
-          "id": "P3-1f",
-          "label": "1f",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "$1{,}20\\,\\mathrm{m} = 0{,}3804\\,\\mathrm{m/s^2} \\cdot t^2 \\Rightarrow t \\approx 1{,}78\\,\\mathrm{s}$\n\nBeurteilung: Gemessen wurde nur bis $0{,}94\\,\\mathrm{m}$; die Vorhersage setzt voraus, dass die Bewegung so weiterläuft (Extrapolation). Weil $a$ nach e) vermutlich zu groß ist, kommt der Wagen in Wirklichkeit eher später an. Brauchbar als Abschätzung, nicht auf die Hundertstelsekunde."
-        }
-      ]
-    },
-    {
-      "id": "P4",
-      "titel": "Waagerechter Wurf",
-      "typ": "pflicht",
-      "sozialform": "einzel",
-      "dauer_min": 20,
-      "hilfsmittel": "WTR, Formeldokument",
-      "checkliste": [
-        "c8"
-      ],
-      "bild": "img/st_P4.svg",
-      "pdf": "pdf/P4_Waagerechter_Wurf.pdf",
-      "aufgaben": [
-        {
-          "id": "P4-1a",
-          "label": "1a",
-          "punkte": 3,
-          "afb": "I",
-          "loesung": "$t_F = \\sqrt{\\frac{2\\,h_0}{g}} = \\sqrt{\\frac{2 \\cdot 0{,}80\\,\\mathrm{m}}{9{,}81\\,\\mathrm{m/s^2}}} \\approx 0{,}40\\,\\mathrm{s}$\n\n$s_W = v_0 \\cdot t_F = 1{,}5\\,\\mathrm{m/s} \\cdot 0{,}404\\,\\mathrm{s} \\approx 0{,}61\\,\\mathrm{m}$"
-        },
-        {
-          "id": "P4-1b",
-          "label": "1b",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Aus $s_x = v_0 \\cdot t$ folgt $t = \\frac{s_x}{v_0}$; einsetzen in $s_y = -\\frac{1}{2}\\,g\\,t^2 + h_0$:\n\n$s_y = -\\frac{g}{2\\,v_0^2}\\,s_x^2 + h_0 \\approx -2{,}18\\,\\frac{1}{\\mathrm{m}}\\,s_x^2 + 0{,}80\\,\\mathrm{m}$"
-        },
-        {
-          "id": "P4-1c",
-          "label": "1c",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "$v_y = g \\cdot t_F = 9{,}81\\,\\mathrm{m/s^2} \\cdot 0{,}404\\,\\mathrm{s} \\approx 3{,}96\\,\\mathrm{m/s}$ (Betrag), $v_x = 1{,}5\\,\\mathrm{m/s}$\n\n$v = \\sqrt{v_x^2 + v_y^2} \\approx 4{,}24\\,\\mathrm{m/s}$"
-        },
-        {
-          "id": "P4-1d",
-          "label": "1d",
-          "punkte": 3,
-          "afb": "II",
-          "loesung": "Die Falldauer bleibt $t_F \\approx 0{,}404\\,\\mathrm{s}$, weil die Höhe gleich ist.\n\n$s_W = v_0 \\cdot t_F \\Rightarrow v_0 = \\frac{0{,}90\\,\\mathrm{m}}{0{,}404\\,\\mathrm{s}} \\approx 2{,}2\\,\\mathrm{m/s}$"
-        },
-        {
-          "id": "P4-1e",
-          "label": "1e",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Falsch. Die Falldauer hängt nur von $h_0$ und $g$ ab, die waagerechte Bewegung beeinflusst die senkrechte nicht: $t_F \\approx 0{,}40\\,\\mathrm{s}$ bleibt. Verdoppelt wird die Wurfweite ($\\approx 1{,}21\\,\\mathrm{m}$)."
-        }
-      ]
-    },
-    {
-      "id": "P5",
-      "titel": "Check-out",
-      "typ": "pflicht",
-      "sozialform": "einzel",
-      "dauer_min": 8,
-      "hilfsmittel": "keine",
-      "checkliste": [
-        "c5",
-        "c4",
-        "c2",
-        "c6",
-        "c8",
-        "c1"
-      ],
-      "hinweis": "Am Ende der dritten Stunde bearbeiten. Ohne Hilfsmittel, 8 Minuten. Jede Aufgabe gehört zur gleichnummerigen Aufgabe aus P1 – vergleichen Sie in der Auswertung Ihre Punkte in P1 und P5.",
-      "bild": "img/st_P5.svg",
-      "pdf": "pdf/P5_Check-out.pdf",
-      "aufgaben": [
-        {
-          "id": "P5-1a",
-          "label": "1a",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**B** – Im t-s-Diagramm bedeutet der Schnittpunkt: gleicher Ort zur gleichen Zeit. C ist dort schneller (größere Steigung) und holt D ein.\n\n*A gewählt?* → **W1**"
-        },
-        {
-          "id": "P5-1b",
-          "label": "1b",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**B** – $v_D = \\frac{12\\,\\mathrm{m} - 6\\,\\mathrm{m}}{4\\,\\mathrm{s}} = 1{,}5\\,\\mathrm{m/s}$ (Steigung, nicht Funktionswert).\n\n*A gewählt?* → **W5**"
-        },
-        {
-          "id": "P5-2",
-          "label": "2",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**B** – Die Steigung nimmt ab, wird null (Umkehrpunkt) und dann negativ: Der Ball rollt zurück. Der Graph zeigt den Ort, nicht die Form der Bahn.\n\n*A gewählt?* → **P2** wiederholen"
-        },
-        {
-          "id": "P5-3",
-          "label": "3",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**B** – $a = \\frac{3\\,\\mathrm{m/s} - (-3\\,\\mathrm{m/s})}{6\\,\\mathrm{s}} = +1\\,\\mathrm{m/s^2}$, konstant, auch bei $v = 0$.\n\n*A gewählt?* → **W2**"
-        },
-        {
-          "id": "P5-4",
-          "label": "4",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**C** – Ausreißer werden geprüft, nicht stillschweigend gelöscht oder ungeprüft gemittelt. Ohne Ausreißer: $\\bar{T} = 1{,}31\\,\\mathrm{s}$.\n\n*A, B oder D gewählt?* → **W5**"
-        },
-        {
-          "id": "P5-5",
-          "label": "5",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**C** – Steigung $= \\frac{1}{2}\\,a$, also $a = 2{,}4\\,\\mathrm{m/s^2}$.\n\n*A gewählt?* → **W5**"
-        },
-        {
-          "id": "P5-6a",
-          "label": "6a",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**C** – $t_F = \\sqrt{\\frac{2\\,h_0}{g}}$ hängt nicht von $v_0$ ab. Nur die Wurfweite verdoppelt sich.\n\n*Andere Antwort?* → **W3**"
-        },
-        {
-          "id": "P5-6b",
-          "label": "6b",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**B** – Der Sandsack behält die waagerechte Geschwindigkeit des Ballons. Waagerecht bewegen sich Korb und Sack gleich, der Sack fällt auf einer Wurfparabel immer unter dem Korb.\n\n*A gewählt?* → **W4**"
-        }
-      ]
-    },
-    {
-      "id": "W1",
+      "id": "N3",
       "titel": "Begegnen und Überholen",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -433,47 +464,48 @@
         "c2",
         "c9"
       ],
-      "bild": "img/st_W1.svg",
-      "pdf": "pdf/W1_Begegnen_und_Ueberholen.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Begegnen_und_Ueberholen.pdf",
       "aufgaben": [
         {
-          "id": "W1-1a",
+          "id": "N3-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$s_A(t) = 5\\,\\mathrm{m/s} \\cdot t$\n\n$s_B(t) = -4\\,\\mathrm{m/s} \\cdot (t - 40\\,\\mathrm{s}) + 2000\\,\\mathrm{m}$ für $t \\ge 40\\,\\mathrm{s}$"
         },
         {
-          "id": "W1-1b",
+          "id": "N3-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "II",
           "loesung": "$5\\,\\mathrm{m/s} \\cdot t = -4\\,\\mathrm{m/s} \\cdot t + 2160\\,\\mathrm{m} \\Rightarrow t = 240\\,\\mathrm{s}$\n\n$s = 5\\,\\mathrm{m/s} \\cdot 240\\,\\mathrm{s} = 1200\\,\\mathrm{m}$ vom Westufer"
         },
         {
-          "id": "W1-1c",
+          "id": "N3-1c",
           "label": "1c",
           "punkte": 2,
           "afb": "II",
-          "loesung": "A: Ursprungsgerade bis $(400\\,\\mathrm{s}\\,|\\,2000\\,\\mathrm{m})$. B: waagerecht bei 2000 m bis 40 s, dann fallende Gerade bis $(540\\,\\mathrm{s}\\,|\\,0)$. Schnittpunkt $(240\\,\\mathrm{s}\\,|\\,1200\\,\\mathrm{m})$.",
-          "loesung_bild": "img/W1-1c.png"
+          "loesung": "A: Ursprungsgerade bis $(400\\,\\mathrm{s} \\mid 2000\\,\\mathrm{m})$. B: waagerecht bei 2000 m bis 40 s, dann fallende Gerade bis $(540\\,\\mathrm{s} \\mid 0)$. Schnittpunkt $(240\\,\\mathrm{s} \\mid 1200\\,\\mathrm{m})$.",
+          "loesung_bild": "img/N3-1c.png"
         },
         {
-          "id": "W1-1d",
+          "id": "N3-1d",
           "label": "1d",
           "punkte": 2,
           "afb": "II",
           "loesung": "$s'_A(t) = -5\\,\\mathrm{m/s} \\cdot t + 2000\\,\\mathrm{m}$; $s'_B(t) = 4\\,\\mathrm{m/s} \\cdot (t - 40\\,\\mathrm{s})$\n\nGleichsetzen: $t = 240\\,\\mathrm{s}$, $s' = 800\\,\\mathrm{m}$ vom Ostufer – derselbe Ort. Das Bezugssystem ändert Vorzeichen und Zahlenwerte der Orte, nicht das Ereignis „Begegnung“."
         },
         {
-          "id": "W1-2a",
+          "id": "N3-2a",
           "label": "2a",
           "punkte": 2,
           "afb": "II",
           "loesung": "$5\\,\\mathrm{m/s} \\cdot t = 3\\,\\mathrm{m/s} \\cdot t + 200\\,\\mathrm{m} \\Rightarrow t = 100\\,\\mathrm{s}$\n\nStrecke des Motorboots: $5\\,\\mathrm{m/s} \\cdot 100\\,\\mathrm{s} = 500\\,\\mathrm{m}$. (Kurz: Abstand / Geschwindigkeitsdifferenz $= \\frac{200\\,\\mathrm{m}}{2\\,\\mathrm{m/s}}$.)"
         },
         {
-          "id": "W1-2b",
+          "id": "N3-2b",
           "label": "2b",
           "punkte": 2,
           "afb": "III",
@@ -482,215 +514,66 @@
       ]
     },
     {
-      "id": "W2",
-      "titel": "Tandem: Bewegungsgesetze",
-      "typ": "wahl",
-      "sozialform": "tandem",
-      "dauer_min": 15,
-      "hilfsmittel": "WTR",
-      "checkliste": [
-        "c4",
-        "c5",
-        "c8"
-      ],
-      "hinweis": "Zwei Personen, zwei Tablets, WTR. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. Rechnen Sie mit g = 9,81 m/s².",
-      "bild": "img/st_W2.svg",
-      "pdf_optional": true,
-      "aufgaben": [
-        {
-          "id": "W2-1",
-          "label": "1",
-          "partner": "A",
-          "punkte": 2,
-          "afb": "I",
-          "aufgabe": "Ein Skateboard beschleunigt gleichmäßig in $4{,}0\\,\\mathrm{s}$ aus dem Stand auf $6{,}0\\,\\mathrm{m/s}$. Berechnen Sie die Beschleunigung.",
-          "tipp": "$a = \\frac{\\Delta v}{\\Delta t}$",
-          "loesung": "$a = \\frac{6{,}0\\,\\mathrm{m/s}}{4{,}0\\,\\mathrm{s}} = 1{,}5\\,\\mathrm{m/s^2}$"
-        },
-        {
-          "id": "W2-2",
-          "label": "2",
-          "partner": "B",
-          "punkte": 2,
-          "afb": "I",
-          "aufgabe": "Ein Motorroller beschleunigt aus dem Stand $4{,}0\\,\\mathrm{s}$ lang mit $2{,}5\\,\\mathrm{m/s^2}$. Berechnen Sie die zurückgelegte Strecke.",
-          "tipp": "$s = \\frac{1}{2}\\,a\\,t^2$, Zeit quadrieren.",
-          "loesung": "$s = \\frac{1}{2} \\cdot 2{,}5\\,\\mathrm{m/s^2} \\cdot (4{,}0\\,\\mathrm{s})^2 = 20\\,\\mathrm{m}$"
-        },
-        {
-          "id": "W2-3",
-          "label": "3",
-          "partner": "A",
-          "punkte": 2,
-          "afb": "I",
-          "aufgabe": "Ein Stein fällt $1{,}5\\,\\mathrm{s}$ lang frei. Berechnen Sie die Fallstrecke.",
-          "tipp": "Freier Fall: $a = g$, Start aus der Ruhe.",
-          "loesung": "$s = \\frac{1}{2} \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot (1{,}5\\,\\mathrm{s})^2 \\approx 11\\,\\mathrm{m}$"
-        },
-        {
-          "id": "W2-4",
-          "label": "4",
-          "partner": "B",
-          "punkte": 2,
-          "afb": "I",
-          "aufgabe": "Rechnen Sie $54\\,\\mathrm{km/h}$ in $\\mathrm{m/s}$ um und berechnen Sie die Strecke, die ein Fahrzeug damit in $8{,}0\\,\\mathrm{s}$ gleichförmig zurücklegt.",
-          "tipp": "km/h durch 3,6 teilen.",
-          "loesung": "$54\\,\\mathrm{km/h} = 15\\,\\mathrm{m/s}$; $s = 15\\,\\mathrm{m/s} \\cdot 8{,}0\\,\\mathrm{s} = 120\\,\\mathrm{m}$"
-        },
-        {
-          "id": "W2-5",
-          "label": "5",
-          "partner": "A",
-          "punkte": 2,
-          "afb": "II",
-          "aufgabe": "Eine Straßenbahn bremst gleichmäßig mit $-1{,}5\\,\\mathrm{m/s^2}$ von $12\\,\\mathrm{m/s}$ bis zum Stillstand. Berechnen Sie Bremszeit und Bremsweg.",
-          "tipp": "Erst $t = \\frac{\\Delta v}{a}$, dann $s = \\frac{1}{2}\\,a\\,t^2 + v_0\\,t$ mit negativem $a$.",
-          "loesung": "$t = \\frac{0 - 12\\,\\mathrm{m/s}}{-1{,}5\\,\\mathrm{m/s^2}} = 8{,}0\\,\\mathrm{s}$\n\n$s = \\frac{1}{2} \\cdot (-1{,}5\\,\\mathrm{m/s^2}) \\cdot (8{,}0\\,\\mathrm{s})^2 + 12\\,\\mathrm{m/s} \\cdot 8{,}0\\,\\mathrm{s} = 48\\,\\mathrm{m}$"
-        },
-        {
-          "id": "W2-6",
-          "label": "6",
-          "partner": "B",
-          "punkte": 2,
-          "afb": "II",
-          "aufgabe": "Ein Ball rollt waagerecht über den Rand einer $1{,}8\\,\\mathrm{m}$ hohen Mauer und landet $2{,}4\\,\\mathrm{m}$ vom Mauerfuß entfernt. Berechnen Sie seine Anfangsgeschwindigkeit.",
-          "tipp": "Erst die Falldauer aus der Höhe, dann $v_0 = \\frac{s_W}{t_F}$.",
-          "loesung": "$t_F = \\sqrt{\\frac{2 \\cdot 1{,}8\\,\\mathrm{m}}{9{,}81\\,\\mathrm{m/s^2}}} \\approx 0{,}61\\,\\mathrm{s}$; $v_0 = \\frac{2{,}4\\,\\mathrm{m}}{0{,}606\\,\\mathrm{s}} \\approx 4{,}0\\,\\mathrm{m/s}$"
-        },
-        {
-          "id": "W2-7",
-          "label": "7",
-          "partner": "A",
-          "punkte": 2,
-          "afb": "II",
-          "aufgabe": "Ein Auto fährt mit $10\\,\\mathrm{m/s}$ und beschleunigt dann $5{,}0\\,\\mathrm{s}$ lang mit $2{,}0\\,\\mathrm{m/s^2}$. Berechnen Sie die Endgeschwindigkeit und die Strecke in diesen 5 s.",
-          "tipp": "$v = a\\,t + v_0$ und $s = \\frac{1}{2}\\,a\\,t^2 + v_0\\,t$",
-          "loesung": "$v = 2{,}0\\,\\mathrm{m/s^2} \\cdot 5{,}0\\,\\mathrm{s} + 10\\,\\mathrm{m/s} = 20\\,\\mathrm{m/s}$\n\n$s = 25\\,\\mathrm{m} + 50\\,\\mathrm{m} = 75\\,\\mathrm{m}$"
-        },
-        {
-          "id": "W2-8",
-          "label": "8",
-          "partner": "B",
-          "punkte": 2,
-          "afb": "II",
-          "aufgabe": "Aus welcher Höhe muss ein Gegenstand frei fallen, damit er $2{,}0\\,\\mathrm{s}$ unterwegs ist? Wie schnell ist er dann?",
-          "tipp": "Fallstrecke mit $\\frac{1}{2}\\,g\\,t^2$, Geschwindigkeit mit $g \\cdot t$.",
-          "loesung": "$h = \\frac{1}{2} \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot (2{,}0\\,\\mathrm{s})^2 \\approx 19{,}6\\,\\mathrm{m}$; $v = 9{,}81\\,\\mathrm{m/s^2} \\cdot 2{,}0\\,\\mathrm{s} \\approx 19{,}6\\,\\mathrm{m/s}$"
-        }
-      ]
-    },
-    {
-      "id": "W3",
-      "titel": "Vorhersagen – beobachten – erklären",
+      "id": "N4",
+      "titel": "Messreihe auswerten: schiefe Ebene",
       "typ": "wahl",
       "sozialform": "partner",
       "dauer_min": 20,
-      "hilfsmittel": "iPad (Zeitlupe), 3 gleiche Münzen, 2 Blatt Papier",
-      "checkliste": [
-        "c7",
-        "c8",
-        "c10"
-      ],
-      "bild": "img/st_W3.svg",
-      "pdf": "pdf/W3_Vorhersagen_beobachten_erklaeren.pdf",
-      "aufgaben": [
-        {
-          "id": "W3-1a",
-          "label": "1a",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "Jede begründete Vorhersage zählt. Häufige Vorhersage: „Die senkrecht fallende Münze ist zuerst unten, weil ihr Weg kürzer ist.“"
-        },
-        {
-          "id": "W3-1b",
-          "label": "1b",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Bei gleichzeitigem Start landen beide Münzen gleichzeitig: im Video im selben oder im nächsten Bild, zu hören als ein einziges „Klack“. Münze 1 landet weiter entfernt.\n\nDurchgänge mit ungleichem Start sagen nichts über die Falldauer aus und werden aussortiert."
-        },
-        {
-          "id": "W3-1c",
-          "label": "1c",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Senkrecht führen beide Münzen denselben freien Fall aus derselben Höhe aus, also gleiche Falldauer. Die waagerechte, gleichförmige Bewegung der weggestoßenen Münze ändert an der senkrechten Bewegung nichts; sie verlängert nur den Weg."
-        },
-        {
-          "id": "W3-2a",
-          "label": "2a",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "Flaches Blatt: deutlich langsamer, schaukelt. Zerknülltes Blatt: fast gleichzeitig mit der Münze."
-        },
-        {
-          "id": "W3-2b",
-          "label": "2b",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Die Masse des Blattes ist in beiden Versuchen gleich. Geändert hat sich nur die Form: Das flache Blatt hat eine große Fläche quer zur Bewegung, die Luftreibung ist groß im Vergleich zur Gewichtskraft. Zerknüllt ist sie klein, das Blatt fällt fast frei."
-        },
-        {
-          "id": "W3-3",
-          "label": "3",
-          "punkte": 3,
-          "afb": "III",
-          "loesung": "Nur teilweise richtig. Die Versuche zeigen: Bei kompakten Körpern mit wenig Luftreibung ist die Falldauer gleich – unabhängig davon, ob sie zusätzlich waagerecht fliegen.\n\nSie zeigen auch das Gegenteil der Folgerung: Das flache Blatt fällt langsamer. „Gleich schnell“ gilt streng nur ohne Luft (freier Fall), in Luft nur näherungsweise.\n\nEin „Beweis“ für alle Körper ist mit wenigen Versuchen und kleiner Fallhöhe ohnehin nicht möglich."
-        }
-      ]
-    },
-    {
-      "id": "W4",
-      "titel": "Bezugssysteme und Modellgrenzen",
-      "typ": "wahl",
-      "sozialform": "einzel",
-      "dauer_min": 20,
       "hilfsmittel": "WTR",
       "checkliste": [
-        "c9",
-        "c10"
+        "c6",
+        "c1"
       ],
-      "bild": "img/st_W4.svg",
-      "pdf": "pdf/W4_Bezugssysteme_Modellgrenzen.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Messreihe_schiefe_Ebene.pdf",
       "aufgaben": [
         {
-          "id": "W4-1a",
+          "id": "N4-1a",
           "label": "1a",
           "punkte": 2,
-          "afb": "II",
-          "loesung": "Fahrgast (Bezugssystem Boot): Die Brille fällt senkrecht vor seine Füße.\n\nUfer: Die Brille hat beim Loslassen die waagerechte Geschwindigkeit des Bootes, sie beschreibt eine Wurfparabel (waagerechter Wurf mit $8{,}0\\,\\mathrm{m/s}$)."
+          "afb": "I",
+          "loesung": "Die Punkte liegen auf einer nach oben gekrümmten Kurve (Parabelast): In gleichen Zeitabschnitten legt der Wagen immer längere Strecken zurück, er wird gleichmäßig schneller.\n\nEine Verbindungslinie würde Zwischenwerte behaupten, die nicht gemessen wurden. Deshalb Punktdiagramm (XY) ohne Linien."
         },
         {
-          "id": "W4-1b",
+          "id": "N4-1b",
           "label": "1b",
           "punkte": 2,
-          "afb": "II",
-          "loesung": "$t_F = \\sqrt{\\frac{2 \\cdot 1{,}25\\,\\mathrm{m}}{9{,}81\\,\\mathrm{m/s^2}}} \\approx 0{,}50\\,\\mathrm{s}$; $s_x = 8{,}0\\,\\mathrm{m/s} \\cdot 0{,}505\\,\\mathrm{s} \\approx 4{,}0\\,\\mathrm{m}$ – genau so weit wie das Boot, relativ zum Deck also $0\\,\\mathrm{m}$."
+          "afb": "I",
+          "loesung": "Aus $s = \\frac{1}{2}\\,a\\,t^2$ folgt: Steigung $= \\frac{1}{2}\\,a$.\n\n$a = 2 \\cdot 0{,}3804\\,\\mathrm{m/s^2} \\approx 0{,}76\\,\\mathrm{m/s^2}$"
         },
         {
-          "id": "W4-1c",
+          "id": "N4-1c",
           "label": "1c",
           "punkte": 2,
-          "afb": "III",
-          "loesung": "Fahrgast (geht weiter mit): Die Brille fällt senkrecht, sie landet direkt vor seinen Füßen.\n\nDeck: waagerechter Wurf nach hinten mit $1{,}5\\,\\mathrm{m/s}$, Landestelle $1{,}5\\,\\mathrm{m/s} \\cdot 0{,}505\\,\\mathrm{s} \\approx 0{,}76\\,\\mathrm{m}$ hinter dem Loslassort.\n\nUfer: waagerechter Wurf nach vorn mit $8{,}0 - 1{,}5 = 6{,}5\\,\\mathrm{m/s}$, Weite $\\approx 3{,}3\\,\\mathrm{m}$. Dieselbe Bewegung, drei Bahnformen – die Bahn hängt vom Bezugssystem ab, die Falldauer nicht."
+          "afb": "I",
+          "loesung": "Maßstab zu kurz: systematisch – alle Strecken werden im gleichen Verhältnis zu groß.\n\nPunkterkennung: zufällig – die Werte streuen um den richtigen Wert.\n\nDritte Quelle, z. B.: Kamera nicht senkrecht zur Bewegungsebene (systematisch), tatsächliche Bildrate weicht ab (systematisch), Winkel nicht genau 4° (systematisch). *Nicht* gültig: „Reaktionszeit“ – bei der Videoanalyse wird nicht von Hand gestoppt."
         },
         {
-          "id": "W4-2a",
-          "label": "2a",
+          "id": "N4-1d",
+          "label": "1d",
           "punkte": 2,
           "afb": "II",
-          "loesung": "Mit Luftwiderstand fliegt der Federball rund ein Drittel weniger weit und etwas länger.\n\nDie Luftreibung bremst die waagerechte Bewegung stark (große Geschwindigkeit, große Feder-fläche, kleine Masse) und auch den Fall, deshalb dauert er länger."
+          "loesung": "Der Wert fällt im Diagramm deutlich aus der Kurve (Ausreißer). Die Gruppe prüft die Ursache im Video (Tracking-Sprung) und korrigiert den Punkt oder wiederholt die Messung. Sie löscht ihn nicht stillschweigend und nimmt ihn auch nicht ungeprüft in die Trendlinie auf; ein Weglassen wird im Protokoll begründet."
         },
         {
-          "id": "W4-2b",
-          "label": "2b",
-          "punkte": 3,
+          "id": "N4-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$0{,}76\\,\\mathrm{m/s^2}$ ist größer als der reibungsfreie Höchstwert – mit Reibung müsste der Wert sogar kleiner sein. Es liegt also ein systematischer Fehler vor, der $a$ zu groß macht, z. B. ein zu kurz gesetzter Maßstab oder ein Winkel größer als 4°."
+        },
+        {
+          "id": "N4-1f",
+          "label": "1f",
+          "punkte": 2,
           "afb": "III",
-          "loesung": "Kriterium: Die Luftreibung muss klein sein im Vergleich zur Gewichtskraft – also kompakte, schwere Körper, kleine Geschwindigkeiten, kurze Flugzeiten.\n\nPasst gut: Murmel vom Tisch, Stein von einer Mauer. Passt nicht: Federball, Papierflieger, Regentropfen, sehr schnelle Würfe.\n\nUrteil mit Begründung, z. B. „brauchbar, solange die Abweichung bei wenigen Prozent liegt“."
+          "loesung": "$1{,}20\\,\\mathrm{m} = 0{,}3804\\,\\mathrm{m/s^2} \\cdot t^2 \\Rightarrow t \\approx 1{,}78\\,\\mathrm{s}$\n\nBeurteilung: Gemessen wurde nur bis $0{,}94\\,\\mathrm{m}$; die Vorhersage setzt voraus, dass die Bewegung so weiterläuft (Extrapolation). Weil $a$ nach e) vermutlich zu groß ist, kommt der Wagen in Wirklichkeit eher später an. Brauchbar als Abschätzung, nicht auf die Hundertstelsekunde."
         }
       ]
     },
     {
-      "id": "W5",
+      "id": "N5",
       "titel": "Fehler finden und begründen",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -702,46 +585,47 @@
         "c5",
         "c3"
       ],
-      "bild": "img/st_W5.svg",
-      "pdf": "pdf/W5_Fehler_finden_begruenden.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Fehler_finden_begruenden.pdf",
       "aufgaben": [
         {
-          "id": "W5-1a",
+          "id": "N5-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "II",
           "loesung": "Aus $s = \\frac{1}{2}\\,a\\,t^2$ ist die Steigung $\\frac{1}{2}\\,a$, nicht $a$.\n\n$a = 2 \\cdot 0{,}42\\,\\mathrm{m/s^2} = 0{,}84\\,\\mathrm{m/s^2}$"
         },
         {
-          "id": "W5-1b",
+          "id": "N5-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "III",
           "loesung": "Ungeeignet. Bei einer beschleunigten Bewegung ist der t-s-Graph gekrümmt, eine lineare Trendlinie passt nicht. Ihre Steigung wäre eine mittlere **Geschwindigkeit** (Einheit m/s), keine Beschleunigung. Die Linearisierung über $t^2$ ist gerade dafür da, eine Gerade zu erhalten."
         },
         {
-          "id": "W5-2",
+          "id": "N5-2",
           "label": "2",
           "punkte": 2,
           "afb": "III",
           "loesung": "Löschen: Ein Ausreißer darf nur mit Begründung weggelassen werden (Ursache benennen, Messung wiederholen); „passt nicht“ reicht nicht.\n\nÖfter messen: Mitteln verringert nur zufällige Abweichungen. Systematische Abweichungen (z. B. immer gleich spät gestoppt) bleiben im Mittelwert vollständig erhalten."
         },
         {
-          "id": "W5-3",
+          "id": "N5-3",
           "label": "3",
           "punkte": 2,
           "afb": "II",
           "loesung": "Der Funktionswert ist der **Ort**, nicht die Geschwindigkeit. $v$ ist die Steigung: $v = \\frac{12\\,\\mathrm{m} - 3\\,\\mathrm{m}}{3\\,\\mathrm{s}} = 3\\,\\mathrm{m/s}$.\n\nAuch $\\frac{12\\,\\mathrm{m}}{3\\,\\mathrm{s}} = 4\\,\\mathrm{m/s}$ ist falsch, weil die Anfangsstrecke $s_0 = 3\\,\\mathrm{m}$ nicht abgezogen wird."
         },
         {
-          "id": "W5-4a",
+          "id": "N5-4a",
           "label": "4a",
           "punkte": 2,
           "afb": "II",
           "loesung": "Die Bewegung des zweiten Busses fehlt. $10\\,\\mathrm{m/s} \\cdot t = -15\\,\\mathrm{m/s} \\cdot t + 3000\\,\\mathrm{m} \\Rightarrow t = \\frac{3000\\,\\mathrm{m}}{25\\,\\mathrm{m/s}} = 120\\,\\mathrm{s}$ (Treffpunkt 1200 m vom ersten Bus)."
         },
         {
-          "id": "W5-4b",
+          "id": "N5-4b",
           "label": "4b",
           "punkte": 2,
           "afb": "III",
@@ -750,7 +634,118 @@
       ]
     },
     {
-      "id": "W7",
+      "id": "N6",
+      "titel": "Waagerechter Wurf",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Waagerechter_Wurf.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "$t_F = \\sqrt{\\frac{2\\,h_0}{g}} = \\sqrt{\\frac{2 \\cdot 0{,}80\\,\\mathrm{m}}{9{,}81\\,\\mathrm{m/s^2}}} \\approx 0{,}40\\,\\mathrm{s}$\n\n$s_W = v_0 \\cdot t_F = 1{,}5\\,\\mathrm{m/s} \\cdot 0{,}404\\,\\mathrm{s} \\approx 0{,}61\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Aus $s_x = v_0 \\cdot t$ folgt $t = \\frac{s_x}{v_0}$; einsetzen in $s_y = -\\frac{1}{2}\\,g\\,t^2 + h_0$:\n\n$s_y = -\\frac{g}{2\\,v_0^2}\\,s_x^2 + h_0 \\approx -2{,}18\\,\\frac{1}{\\mathrm{m}}\\,s_x^2 + 0{,}80\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N6-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$v_y = g \\cdot t_F = 9{,}81\\,\\mathrm{m/s^2} \\cdot 0{,}404\\,\\mathrm{s} \\approx 3{,}96\\,\\mathrm{m/s}$ (Betrag), $v_x = 1{,}5\\,\\mathrm{m/s}$\n\n$v = \\sqrt{v_x^2 + v_y^2} \\approx 4{,}24\\,\\mathrm{m/s}$"
+        },
+        {
+          "id": "N6-1d",
+          "label": "1d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Die Falldauer bleibt $t_F \\approx 0{,}404\\,\\mathrm{s}$, weil die Höhe gleich ist.\n\n$s_W = v_0 \\cdot t_F \\Rightarrow v_0 = \\frac{0{,}90\\,\\mathrm{m}}{0{,}404\\,\\mathrm{s}} \\approx 2{,}2\\,\\mathrm{m/s}$"
+        },
+        {
+          "id": "N6-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Falsch. Die Falldauer hängt nur von $h_0$ und $g$ ab, die waagerechte Bewegung beeinflusst die senkrechte nicht: $t_F \\approx 0{,}40\\,\\mathrm{s}$ bleibt. Verdoppelt wird die Wurfweite ($\\approx 1{,}21\\,\\mathrm{m}$)."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Vorhersagen – beobachten – erklären",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "iPad (Zeitlupe), 3 gleiche Münzen, 2 Blatt Papier",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c10"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Vorhersagen_beobachten_erklaeren.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Jede begründete Vorhersage zählt. Häufige Vorhersage: „Die senkrecht fallende Münze ist zuerst unten, weil ihr Weg kürzer ist.“"
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Bei gleichzeitigem Start landen beide Münzen gleichzeitig: im Video im selben oder im nächsten Bild, zu hören als ein einziges „Klack“. Münze 1 landet weiter entfernt.\n\nDurchgänge mit ungleichem Start sagen nichts über die Falldauer aus und werden aussortiert."
+        },
+        {
+          "id": "N7-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Senkrecht führen beide Münzen denselben freien Fall aus derselben Höhe aus, also gleiche Falldauer. Die waagerechte, gleichförmige Bewegung der weggestoßenen Münze ändert an der senkrechten Bewegung nichts; sie verlängert nur den Weg."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Flaches Blatt: deutlich langsamer, schaukelt. Zerknülltes Blatt: fast gleichzeitig mit der Münze."
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Masse des Blattes ist in beiden Versuchen gleich. Geändert hat sich nur die Form: Das flache Blatt hat eine große Fläche quer zur Bewegung, die Luftreibung ist groß im Vergleich zur Gewichtskraft. Zerknüllt ist sie klein, das Blatt fällt fast frei."
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Nur teilweise richtig. Die Versuche zeigen: Bei kompakten Körpern mit wenig Luftreibung ist die Falldauer gleich – unabhängig davon, ob sie zusätzlich waagerecht fliegen.\n\nSie zeigen auch das Gegenteil der Folgerung: Das flache Blatt fällt langsamer. „Gleich schnell“ gilt streng nur ohne Luft (freier Fall), in Luft nur näherungsweise.\n\nEin „Beweis“ für alle Körper ist mit wenigen Versuchen und kleiner Fallhöhe ohnehin nicht möglich."
+        }
+      ]
+    },
+    {
+      "id": "N8",
       "titel": "Energie: Rutsche und Sprung",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -761,46 +756,47 @@
         "c8",
         "c10"
       ],
-      "bild": "img/st_W7.svg",
-      "pdf": "pdf/W7_Energie_Rutsche.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Energie_Rutsche.pdf",
       "aufgaben": [
         {
-          "id": "W7-1a",
+          "id": "N8-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "Nullniveau am Rutschenende: $m\\,g\\,h = \\frac{1}{2}\\,m\\,v^2 \\Rightarrow v = \\sqrt{2\\,g\\,h}$\n\n$v = \\sqrt{2 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 5{,}0\\,\\mathrm{m}} \\approx 9{,}9\\,\\mathrm{m/s}$"
         },
         {
-          "id": "W7-1b",
+          "id": "N8-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "II",
           "loesung": "Falsch (ohne Reibung). In $m\\,g\\,h = \\frac{1}{2}\\,m\\,v^2$ kürzt sich die Masse: $v = \\sqrt{2\\,g\\,h}$ hängt nur von der Höhe ab. Das schwerere Kind hat mehr Lage- und Bewegungsenergie, aber dieselbe Geschwindigkeit."
         },
         {
-          "id": "W7-1c",
+          "id": "N8-1c",
           "label": "1c",
           "punkte": 2,
           "afb": "II",
           "loesung": "Nullniveau an der Wasseroberfläche, Höhenunterschied vom Start $5{,}0\\,\\mathrm{m} + 1{,}0\\,\\mathrm{m} = 6{,}0\\,\\mathrm{m}$:\n\n$v = \\sqrt{2 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 6{,}0\\,\\mathrm{m}} \\approx 10{,}8\\,\\mathrm{m/s}$\n\nDer Weg dazwischen (Rutsche, dann Flug) spielt für den Betrag keine Rolle."
         },
         {
-          "id": "W7-1d",
+          "id": "N8-1d",
           "label": "1d",
           "punkte": 3,
           "afb": "II",
           "loesung": "Die Energieerhaltung liefert nur den Betrag der Geschwindigkeit, keine Zeit, keine Richtung und keinen Ort. Für die Weite braucht man die Kinematik (waagerechter Wurf).\n\n$t_F = \\sqrt{\\frac{2 \\cdot 1{,}0\\,\\mathrm{m}}{9{,}81\\,\\mathrm{m/s^2}}} \\approx 0{,}45\\,\\mathrm{s}$; $s_W = 9{,}9\\,\\mathrm{m/s} \\cdot 0{,}45\\,\\mathrm{s} \\approx 4{,}5\\,\\mathrm{m}$"
         },
         {
-          "id": "W7-2a",
+          "id": "N8-2a",
           "label": "2a",
           "punkte": 2,
           "afb": "II",
           "loesung": "Anteil der Bewegungsenergie: $\\frac{\\frac{1}{2}\\,m\\,v^2}{m\\,g\\,h} = \\frac{(8{,}6\\,\\mathrm{m/s})^2}{2 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 5{,}0\\,\\mathrm{m}} \\approx 0{,}75$\n\nAlso wurden etwa $25\\,\\%$ in innere Energie (Wärme) umgewandelt – unabhängig von der Masse."
         },
         {
-          "id": "W7-2b",
+          "id": "N8-2b",
           "label": "2b",
           "punkte": 2,
           "afb": "III",
@@ -809,7 +805,444 @@
       ]
     },
     {
-      "id": "W6",
+      "id": "N9",
+      "titel": "Tandem: Bewegungsgesetze",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c8",
+        "c4",
+        "c5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets, WTR. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. Rechnen Sie mit $g = 9{,}81\\,\\mathrm{m/s^2}$.",
+      "bild": "img/st_N9.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N9-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Skateboard beschleunigt gleichmäßig in $4{,}0\\,\\mathrm{s}$ aus dem Stand auf $6{,}0\\,\\mathrm{m/s}$. Berechnen Sie die Beschleunigung.",
+          "tipp": "$a = \\frac{\\Delta v}{\\Delta t}$",
+          "loesung": "$a = \\frac{6{,}0\\,\\mathrm{m/s}}{4{,}0\\,\\mathrm{s}} = 1{,}5\\,\\mathrm{m/s^2}$"
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Motorroller beschleunigt aus dem Stand $4{,}0\\,\\mathrm{s}$ lang mit $2{,}5\\,\\mathrm{m/s^2}$. Berechnen Sie die zurückgelegte Strecke.",
+          "tipp": "$s = \\frac{1}{2}\\,a\\,t^2$, Zeit quadrieren.",
+          "loesung": "$s = \\frac{1}{2} \\cdot 2{,}5\\,\\mathrm{m/s^2} \\cdot (4{,}0\\,\\mathrm{s})^2 = 20\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Stein fällt $1{,}5\\,\\mathrm{s}$ lang frei. Berechnen Sie die Fallstrecke.",
+          "tipp": "Freier Fall: $a = g$, Start aus der Ruhe.",
+          "loesung": "$s = \\frac{1}{2} \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot (1{,}5\\,\\mathrm{s})^2 \\approx 11\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Rechnen Sie $54\\,\\mathrm{km/h}$ in $\\mathrm{m/s}$ um und berechnen Sie die Strecke, die ein Fahrzeug damit in $8{,}0\\,\\mathrm{s}$ gleichförmig zurücklegt.",
+          "tipp": "km/h durch 3,6 teilen.",
+          "loesung": "$54\\,\\mathrm{km/h} = 15\\,\\mathrm{m/s}$; $s = 15\\,\\mathrm{m/s} \\cdot 8{,}0\\,\\mathrm{s} = 120\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N9-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Eine Straßenbahn bremst gleichmäßig mit $-1{,}5\\,\\mathrm{m/s^2}$ von $12\\,\\mathrm{m/s}$ bis zum Stillstand. Berechnen Sie Bremszeit und Bremsweg.",
+          "tipp": "Erst $t = \\frac{\\Delta v}{a}$, dann $s = \\frac{1}{2}\\,a\\,t^2 + v_0\\,t$ mit negativem $a$.",
+          "loesung": "$t = \\frac{0 - 12\\,\\mathrm{m/s}}{-1{,}5\\,\\mathrm{m/s^2}} = 8{,}0\\,\\mathrm{s}$\n\n$s = \\frac{1}{2} \\cdot (-1{,}5\\,\\mathrm{m/s^2}) \\cdot (8{,}0\\,\\mathrm{s})^2 + 12\\,\\mathrm{m/s} \\cdot 8{,}0\\,\\mathrm{s} = 48\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N9-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Ball rollt waagerecht über den Rand einer $1{,}8\\,\\mathrm{m}$ hohen Mauer und landet $2{,}4\\,\\mathrm{m}$ vom Mauerfuß entfernt. Berechnen Sie seine Anfangsgeschwindigkeit.",
+          "tipp": "Erst die Falldauer aus der Höhe, dann $v_0 = \\frac{s_W}{t_F}$.",
+          "loesung": "$t_F = \\sqrt{\\frac{2 \\cdot 1{,}8\\,\\mathrm{m}}{9{,}81\\,\\mathrm{m/s^2}}} \\approx 0{,}61\\,\\mathrm{s}$; $v_0 = \\frac{2{,}4\\,\\mathrm{m}}{0{,}606\\,\\mathrm{s}} \\approx 4{,}0\\,\\mathrm{m/s}$"
+        },
+        {
+          "id": "N9-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Auto fährt mit $10\\,\\mathrm{m/s}$ und beschleunigt dann $5{,}0\\,\\mathrm{s}$ lang mit $2{,}0\\,\\mathrm{m/s^2}$. Berechnen Sie die Endgeschwindigkeit und die Strecke in diesen 5 s.",
+          "tipp": "$v = a\\,t + v_0$ und $s = \\frac{1}{2}\\,a\\,t^2 + v_0\\,t$",
+          "loesung": "$v = 2{,}0\\,\\mathrm{m/s^2} \\cdot 5{,}0\\,\\mathrm{s} + 10\\,\\mathrm{m/s} = 20\\,\\mathrm{m/s}$\n\n$s = 25\\,\\mathrm{m} + 50\\,\\mathrm{m} = 75\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N9-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Aus welcher Höhe muss ein Gegenstand frei fallen, damit er $2{,}0\\,\\mathrm{s}$ unterwegs ist? Wie schnell ist er dann?",
+          "tipp": "Fallstrecke mit $\\frac{1}{2}\\,g\\,t^2$, Geschwindigkeit mit $g \\cdot t$.",
+          "loesung": "$h = \\frac{1}{2} \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot (2{,}0\\,\\mathrm{s})^2 \\approx 19{,}6\\,\\mathrm{m}$; $v = 9{,}81\\,\\mathrm{m/s^2} \\cdot 2{,}0\\,\\mathrm{s} \\approx 19{,}6\\,\\mathrm{m/s}$"
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Bezugssysteme und Modellgrenzen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c9",
+        "c10"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Bezugssysteme_Modellgrenzen.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fahrgast (Bezugssystem Boot): Die Brille fällt senkrecht vor seine Füße.\n\nUfer: Die Brille hat beim Loslassen die waagerechte Geschwindigkeit des Bootes, sie beschreibt eine Wurfparabel (waagerechter Wurf mit $8{,}0\\,\\mathrm{m/s}$)."
+        },
+        {
+          "id": "N10-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$t_F = \\sqrt{\\frac{2 \\cdot 1{,}25\\,\\mathrm{m}}{9{,}81\\,\\mathrm{m/s^2}}} \\approx 0{,}50\\,\\mathrm{s}$; $s_x = 8{,}0\\,\\mathrm{m/s} \\cdot 0{,}505\\,\\mathrm{s} \\approx 4{,}0\\,\\mathrm{m}$ – genau so weit wie das Boot, relativ zum Deck also $0\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N10-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Fahrgast (geht weiter mit): Die Brille fällt senkrecht, sie landet direkt vor seinen Füßen.\n\nDeck: waagerechter Wurf nach hinten mit $1{,}5\\,\\mathrm{m/s}$, Landestelle $1{,}5\\,\\mathrm{m/s} \\cdot 0{,}505\\,\\mathrm{s} \\approx 0{,}76\\,\\mathrm{m}$ hinter dem Loslassort.\n\nUfer: waagerechter Wurf nach vorn mit $8{,}0\\,\\mathrm{m/s} - 1{,}5\\,\\mathrm{m/s} = 6{,}5\\,\\mathrm{m/s}$, Weite $\\approx 3{,}3\\,\\mathrm{m}$. Dieselbe Bewegung, drei Bahnformen – die Bahn hängt vom Bezugssystem ab, die Falldauer nicht."
+        },
+        {
+          "id": "N10-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mit Luftwiderstand fliegt der Federball rund ein Drittel weniger weit und etwas länger.\n\nDie Luftreibung bremst die waagerechte Bewegung stark (große Geschwindigkeit, große Feder-fläche, kleine Masse) und auch den Fall, deshalb dauert er länger."
+        },
+        {
+          "id": "N10-2b",
+          "label": "2b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Kriterium: Die Luftreibung muss klein sein im Vergleich zur Gewichtskraft – also kompakte, schwere Körper, kleine Geschwindigkeiten, kurze Flugzeiten.\n\nPasst gut: Murmel vom Tisch, Stein von einer Mauer. Passt nicht: Federball, Papierflieger, Regentropfen, sehr schnelle Würfe.\n\nUrteil mit Begründung, z. B. „brauchbar, solange die Abweichung bei wenigen Prozent liegt“."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Check-out",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c8",
+        "c5",
+        "c4",
+        "c2",
+        "c6",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Am Ende der Lerntheke bearbeiten. Ohne Hilfsmittel, 8 Minuten. Jede Aufgabe gehört zur gleichnummerigen Aufgabe aus N1 – vergleichen Sie in der Auswertung Ihre Punkte in N1 und N11.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Im t-s-Diagramm bedeutet der Schnittpunkt: gleicher Ort zur gleichen Zeit. Radlader 1 ist dort schneller (größere Steigung) und holt Radlader 2 ein.\n\n*A gewählt?* → **N3**"
+        },
+        {
+          "id": "N11-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $v_2 = \\frac{12\\,\\mathrm{m} - 6\\,\\mathrm{m}}{4\\,\\mathrm{s}} = 1{,}5\\,\\mathrm{m/s}$ (Steigung, nicht Funktionswert).\n\n*A gewählt?* → **N5**\n\n*D gewählt?* Kehrwert der Steigung. Steigungsdreieck üben: → **G2** Aufgabe 2"
+        },
+        {
+          "id": "N11-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Die Steigung nimmt ab, wird null (Umkehrpunkt) und dann negativ: Der Ball rollt zurück. Der Graph zeigt den Ort, nicht die Form der Bahn.\n\n*A gewählt?* → **N2** wiederholen"
+        },
+        {
+          "id": "N11-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $a = \\frac{3\\,\\mathrm{m/s} - (-3\\,\\mathrm{m/s})}{6\\,\\mathrm{s}} = +1\\,\\mathrm{m/s^2}$, konstant, auch bei $v = 0$.\n\n*B gewählt?* → **N9**"
+        },
+        {
+          "id": "N11-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Ausreißer werden geprüft, nicht stillschweigend gelöscht oder ungeprüft gemittelt. Ohne Ausreißer: $\\bar{T} = 1{,}31\\,\\mathrm{s}$.\n\n*A, B oder D gewählt?* → **N5**"
+        },
+        {
+          "id": "N11-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Steigung $= \\frac{1}{2}\\,a$, also $a = 2{,}4\\,\\mathrm{m/s^2}$.\n\n*A gewählt?* → **N5**"
+        },
+        {
+          "id": "N11-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $t_F = \\sqrt{\\frac{2\\,h_0}{g}}$ hängt nicht von $v_0$ ab. Nur die Wurfweite verdoppelt sich.\n\n*Andere Antwort?* → **N7**"
+        },
+        {
+          "id": "N11-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Der Sandsack behält die waagerechte Geschwindigkeit des Ballons. Waagerecht bewegen sich Korb und Sack gleich, der Sack fällt auf einer Wurfparabel immer unter dem Korb.\n\n*B gewählt?* → **N10**"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "E-Scooter und Radfahrerin",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "g4",
+        "g6",
+        "g3"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Bewegungen beschreiben: Gesetze, Diagramme, Beschleunigung, Begegnung) – am besten nach N2 bis N3.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_E-Scooter.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Aus dem Diagramm: in $4{,}0\\,\\mathrm{s}$ von $0$ auf $18\\,\\mathrm{km/h}$. Umrechnen: $18\\,\\mathrm{km/h} = \\frac{18}{3{,}6}\\,\\mathrm{m/s} = 5{,}0\\,\\mathrm{m/s}$\n\n$a = \\frac{\\Delta v}{\\Delta t} = \\frac{5{,}0\\,\\mathrm{m/s}}{4{,}0\\,\\mathrm{s}} = 1{,}25\\,\\mathrm{m/s^2}$ (ohne Umrechnen käme die falsche Einheit $\\mathrm{km/(h \\cdot s)}$ heraus)"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Scooter, $0 \\le t \\le 4\\,\\mathrm{s}$: $s_S(t) = \\frac{1}{2} \\cdot 1{,}25\\,\\mathrm{m/s^2} \\cdot t^2$; nach $4\\,\\mathrm{s}$: $s_S = 10\\,\\mathrm{m}$\n\nScooter, $t \\ge 4\\,\\mathrm{s}$: $s_S(t) = 5{,}0\\,\\mathrm{m/s} \\cdot (t - 4{,}0\\,\\mathrm{s}) + 10\\,\\mathrm{m}$\n\nRadfahrerin: $27\\,\\mathrm{km/h} = 7{,}5\\,\\mathrm{m/s}$; $s_R(t) = 7{,}5\\,\\mathrm{m/s} \\cdot t - 30\\,\\mathrm{m}$ (gleichförmig mit Anfangsstrecke)"
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Begründung: Bei $t = 4\\,\\mathrm{s}$ ist die Radfahrerin bei $s_R = 7{,}5 \\cdot 4 - 30 = 0\\,\\mathrm{m}$, der Scooter schon bei $10\\,\\mathrm{m}$ – sie hat ihn also noch nicht eingeholt. Vorher kann sie ihn auch nicht überholt haben: Sie ist bis dahin immer schneller als der Scooter (höchstens $5{,}0\\,\\mathrm{m/s}$), ihr Rückstand schrumpft nur.\n\n$7{,}5\\,\\mathrm{m/s} \\cdot t - 30\\,\\mathrm{m} = 5{,}0\\,\\mathrm{m/s} \\cdot (t - 4{,}0\\,\\mathrm{s}) + 10\\,\\mathrm{m}$\n\n$2{,}5\\,\\mathrm{m/s} \\cdot t = 20\\,\\mathrm{m} \\Rightarrow t = 8{,}0\\,\\mathrm{s}$; $s = 7{,}5\\,\\mathrm{m/s} \\cdot 8{,}0\\,\\mathrm{s} - 30\\,\\mathrm{m} = 30\\,\\mathrm{m}$ hinter der Einmündung"
+        },
+        {
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Scooter: Parabelast vom Ursprung bis $(4\\,\\mathrm{s} \\mid 10\\,\\mathrm{m})$, dann ohne Knick Gerade bis $(12\\,\\mathrm{s} \\mid 50\\,\\mathrm{m})$.\n\nRadfahrerin: Gerade von $(0 \\mid -30\\,\\mathrm{m})$ bis $(12\\,\\mathrm{s} \\mid 60\\,\\mathrm{m})$.\n\nSchnittpunkt (Überholen) bei $(8\\,\\mathrm{s} \\mid 30\\,\\mathrm{m})$.",
+          "loesung_bild": "img/V1-1d.png"
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$a = \\frac{0 - 5{,}0\\,\\mathrm{m/s}}{2{,}0\\,\\mathrm{s}} = -2{,}5\\,\\mathrm{m/s^2}$\n\n$s = \\frac{1}{2} \\cdot (-2{,}5\\,\\mathrm{m/s^2}) \\cdot (2{,}0\\,\\mathrm{s})^2 + 5{,}0\\,\\mathrm{m/s} \\cdot 2{,}0\\,\\mathrm{s}$\n\n$s = -5{,}0\\,\\mathrm{m} + 10\\,\\mathrm{m} = 5{,}0\\,\\mathrm{m}$"
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Bei gleicher Bremsbeschleunigung dauert das Bremsen aus $10\\,\\mathrm{m/s}$ doppelt so lange: $t = \\frac{10\\,\\mathrm{m/s}}{2{,}5\\,\\mathrm{m/s^2}} = 4{,}0\\,\\mathrm{s}$.\n\n$s = \\frac{1}{2} \\cdot (-2{,}5\\,\\mathrm{m/s^2}) \\cdot (4{,}0\\,\\mathrm{s})^2 + 10\\,\\mathrm{m/s} \\cdot 4{,}0\\,\\mathrm{s} = 20\\,\\mathrm{m}$ – viermal so lang.\n\nAllgemein (aus $t = \\frac{v_0}{|a|}$ eingesetzt): $s = \\frac{v_0^2}{2\\,|a|}$, der Bremsweg wächst mit dem Quadrat der Geschwindigkeit. Doppelte Zeit und doppelte mittlere Geschwindigkeit ergeben den vierfachen Weg."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Beschleunigungsrennen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c6",
+        "c1",
+        "c4",
+        "c3",
+        "c5",
+        "g6",
+        "g4",
+        "g5",
+        "g3"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Bewegungen beschreiben, Messen und Auswerten) – am besten nach N4 bis N5.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Beschleunigungsrennen.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Für eine gleichmäßig beschleunigte Bewegung aus dem Stand gilt $s = \\frac{1}{2}\\,a\\,t^2$: $s$ ist proportional zu $t^2$. Über $t^2$ aufgetragen liegen die Punkte auf einer Ursprungsgeraden (Linearisierung), deren Steigung man ablesen kann.\n\nSteigung $= \\frac{1}{2}\\,a \\Rightarrow a = 2 \\cdot 3{,}987\\,\\mathrm{m/s^2} \\approx 8{,}0\\,\\mathrm{m/s^2}$"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$v = a \\cdot t = 8{,}0\\,\\mathrm{m/s^2} \\cdot 4{,}34\\,\\mathrm{s} \\approx 34{,}7\\,\\mathrm{m/s}$\n\n$34{,}7\\,\\mathrm{m/s} \\cdot 3{,}6 \\approx 125\\,\\mathrm{km/h}$ (mit $a = 7{,}97\\,\\mathrm{m/s^2}$: $34{,}6\\,\\mathrm{m/s}$, ebenfalls rund $125\\,\\mathrm{km/h}$)"
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$4{,}71\\,\\mathrm{s}$ ist ein Ausreißer mit bekannter Ursache (durchdrehende Räder, der Wagen beschleunigt anders). Er darf **mit dieser Begründung** weggelassen werden.\n\n$\\bar{t} = \\frac{4{,}34\\,\\mathrm{s} + 4{,}31\\,\\mathrm{s} + 4{,}36\\,\\mathrm{s}}{3} = 4{,}336...\\,\\mathrm{s} \\approx 4{,}34\\,\\mathrm{s}$ (gemessen auf $0{,}01\\,\\mathrm{s}$, also auf $0{,}01\\,\\mathrm{s}$ runden)\n\nMit allen vier Werten ergäbe sich $4{,}43\\,\\mathrm{s}$ – der Ausreißer würde den Mittelwert verfälschen."
+        },
+        {
+          "id": "V2-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das hilft nicht: Die Abweichung ist systematisch – bei jedem Lauf beginnt die Zeitmessung zu spät, alle Zeiten sind zu kurz und $a$ wird zu groß.\n\nMitteln verringert nur zufällige Abweichungen, die nach oben und unten streuen. Einen systematischen Fehler muss man an der Ursache beheben (Lichtschranke direkt an die Fahrzeugfront setzen) oder herausrechnen."
+        },
+        {
+          "id": "V2-1e",
+          "label": "1e",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Zeit bis $75\\,\\mathrm{m}$ aus $s = \\frac{1}{2}\\,a\\,t^2$, nach $t$ umgestellt: $t = \\sqrt{\\frac{2\\,s}{a}}$\n\nWagen 1: $t_1 = \\sqrt{\\frac{150\\,\\mathrm{m}}{8{,}0\\,\\mathrm{m/s^2}}} \\approx 4{,}33\\,\\mathrm{s}$\n\nWagen 2: $t_2 = 0{,}50\\,\\mathrm{s} + \\sqrt{\\frac{150\\,\\mathrm{m}}{9{,}0\\,\\mathrm{m/s^2}}} \\approx 0{,}50\\,\\mathrm{s} + 4{,}08\\,\\mathrm{s} = 4{,}58\\,\\mathrm{s}$\n\nWagen 2 kommt später an, er holt Wagen 1 auf den $75\\,\\mathrm{m}$ nicht ein. (Gleichsetzen $4{,}0 \\cdot t^2 = 4{,}5 \\cdot (t - 0{,}50)^2$ liefert den Treffpunkt erst bei $t \\approx 8{,}7\\,\\mathrm{s}$, weit hinter der Marke.)"
+        },
+        {
+          "id": "V2-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bremszeit: $t = \\frac{0 - 34{,}7\\,\\mathrm{m/s}}{-7{,}0\\,\\mathrm{m/s^2}} \\approx 4{,}96\\,\\mathrm{s}$\n\n$s = \\frac{1}{2} \\cdot (-7{,}0\\,\\mathrm{m/s^2}) \\cdot (4{,}96\\,\\mathrm{s})^2 + 34{,}7\\,\\mathrm{m/s} \\cdot 4{,}96\\,\\mathrm{s}$\n\n$s \\approx -86{,}1\\,\\mathrm{m} + 172{,}1\\,\\mathrm{m} \\approx 86\\,\\mathrm{m}$\n\n$86\\,\\mathrm{m} < 100\\,\\mathrm{m}$: Die Auslaufzone reicht (Reserve rund $14\\,\\mathrm{m}$)."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Dartwurf",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8",
+        "c11",
+        "c7",
+        "c4",
+        "c5",
+        "c1",
+        "g4",
+        "g3",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Bewegungen beschreiben, Messen und Auswerten, Fall und Wurf) – am besten nach N6 bis N9.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Dartwurf.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$v_0 = \\frac{54}{3{,}6}\\,\\mathrm{m/s} = 15\\,\\mathrm{m/s}$; waagerecht gleichförmig: $t = \\frac{2{,}37\\,\\mathrm{m}}{15\\,\\mathrm{m/s}} = 0{,}158\\,\\mathrm{s}$\n\nSenkrecht freier Fall: $s_y = \\frac{1}{2} \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot (0{,}158\\,\\mathrm{s})^2 \\approx 0{,}12\\,\\mathrm{m}$, also rund $12\\,\\mathrm{cm}$ unter dem Bull."
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Höchstens $0{,}050\\,\\mathrm{m}$ Fall: $t = \\sqrt{\\frac{2 \\cdot 0{,}050\\,\\mathrm{m}}{9{,}81\\,\\mathrm{m/s^2}}} \\approx 0{,}101\\,\\mathrm{s}$\n\n$v_0 = \\frac{2{,}37\\,\\mathrm{m}}{0{,}101\\,\\mathrm{s}} \\approx 23{,}5\\,\\mathrm{m/s} \\approx 85\\,\\mathrm{km/h}$\n\nDeutung: So schnell wirft niemand einen Pfeil. Spieler werfen deshalb leicht schräg nach oben bzw. zielen über den Punkt, den sie treffen wollen."
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Energieerhaltung zwischen Abwurf und Einschlag ($\\Delta h = 0{,}122\\,\\mathrm{m}$): $\\frac{1}{2}\\,m\\,v_0^2 + m\\,g\\,\\Delta h = \\frac{1}{2}\\,m\\,v^2$\n\n$v = \\sqrt{v_0^2 + 2\\,g\\,\\Delta h}$\n\n$v = \\sqrt{(15\\,\\mathrm{m/s})^2 + 2 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 0{,}122\\,\\mathrm{m}}$ $\\approx 15{,}08\\,\\mathrm{m/s}$\n\nKontrolle: $v_y = g \\cdot t = 9{,}81\\,\\mathrm{m/s^2} \\cdot 0{,}158\\,\\mathrm{s} \\approx 1{,}55\\,\\mathrm{m/s}$; $v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{15^2 + 1{,}55^2}\\,\\mathrm{m/s} \\approx 15{,}08\\,\\mathrm{m/s}$ – dasselbe Ergebnis. Die Masse kürzt sich."
+        },
+        {
+          "id": "V3-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "t-$v_y$-Diagramm: Ursprungsgerade mit der Steigung $g$ bis $(0{,}158\\,\\mathrm{s} \\mid 1{,}55\\,\\mathrm{m/s})$.\n\nt-$s_y$-Diagramm: Parabelast vom Ursprung, nach oben gekrümmt, bis $(0{,}158\\,\\mathrm{s} \\mid 0{,}12\\,\\mathrm{m})$; im Ursprung waagerecht (senkrecht startet der Pfeil aus der Ruhe).",
+          "loesung_bild": "img/V3-1d.png"
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gleichmäßig aus der Ruhe: mittlere Geschwindigkeit $\\frac{15\\,\\mathrm{m/s}}{2} = 7{,}5\\,\\mathrm{m/s}$, also $t = \\frac{0{,}40\\,\\mathrm{m}}{7{,}5\\,\\mathrm{m/s}} \\approx 0{,}053\\,\\mathrm{s}$\n\n$a = \\frac{\\Delta v}{\\Delta t} = \\frac{15\\,\\mathrm{m/s}}{0{,}0533\\,\\mathrm{s}} \\approx 281\\,\\mathrm{m/s^2}$ (knapp das 29-Fache von $g$)\n\n(Ebenso: $s = \\frac{1}{2}\\,a\\,t^2$ und $v = a\\,t$ ergeben $a = \\frac{v^2}{2\\,s}$.)"
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\bar{v} = \\frac{(14{,}6 + 15{,}3 + 14{,}8 + 15{,}1 + 15{,}2)\\,\\mathrm{m/s}}{5} = 15{,}0\\,\\mathrm{m/s}$\n\nDie Werte streuen zufällig um höchstens $0{,}4\\,\\mathrm{m/s}$ (knapp 3 %) um den Mittelwert, ohne Ausreißer. Die Annahme $v_0 = 15\\,\\mathrm{m/s}$ ist gerechtfertigt; der Einschlagpunkt schwankt dadurch nur um weniger als einen Zentimeter."
+        },
+        {
+          "id": "V3-2c",
+          "label": "2c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Begründung falsch: Im freien Fall fallen alle Körper gleich schnell – die Fallstrecke in einer bestimmten Zeit hängt nicht von der Masse ab. Den Luftwiderstand spüren leichte Pfeile sogar etwas stärker, er ist auf $2{,}37\\,\\mathrm{m}$ aber klein.\n\nBeobachtung trotzdem plausibel: Gleiche Bewegungsenergie $E = \\frac{1}{2} \\cdot 0{,}022\\,\\mathrm{kg} \\cdot (15\\,\\mathrm{m/s})^2 \\approx 2{,}48\\,\\mathrm{J}$ ergibt beim schweren Pfeil $v_0 = \\sqrt{\\frac{2 \\cdot 2{,}48\\,\\mathrm{J}}{0{,}026\\,\\mathrm{kg}}} \\approx 13{,}8\\,\\mathrm{m/s}$.\n\nFlugzeit $\\frac{2{,}37\\,\\mathrm{m}}{13{,}8\\,\\mathrm{m/s}} \\approx 0{,}172\\,\\mathrm{s}$, Fallstrecke $\\approx 0{,}14\\,\\mathrm{m}$ statt $0{,}12\\,\\mathrm{m}$: Der schwere Pfeil schlägt tiefer ein, weil er **langsamer** fliegt und deshalb länger fällt – nicht, weil er schneller fällt."
+        }
+      ]
+    },
+    {
+      "id": "V4",
       "titel": "Probeklausur",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -817,132 +1250,138 @@
       "hilfsmittel": "WTR, IQB-Formeldokument",
       "checkliste": [
         "c10",
+        "c9",
+        "c8",
         "c1",
         "c6",
         "c5",
         "c3",
-        "c8",
-        "c9"
+        "c4",
+        "c2",
+        "g6",
+        "g3",
+        "g5"
       ],
-      "hinweis": "Echte Klausurbedingungen: 90 Minuten, WTR und IQB-Formeldokument, Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten.",
-      "bild": "img/st_W6.svg",
-      "pdf": "pdf/W6_Probeklausur.pdf",
+      "kategorie": "vernetzen",
+      "hinweis": "Echte Klausurbedingungen: 90 Minuten, WTR und IQB-Formeldokument, Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 4 (Bewegungen beschreiben, Messen und Auswerten, Fall und Wurf, Bezugssysteme und Modelle) – am besten nach N10.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probeklausur.pdf",
       "aufgaben": [
         {
-          "id": "W6-1a",
+          "id": "V4-1a",
           "label": "1a",
           "punkte": 3,
           "afb": "I",
           "loesung": "C3 teilt $\\Delta s$ durch $\\Delta t$: mittlere Geschwindigkeit im jeweiligen 5-m-Abschnitt.\n\nC5: $\\Delta s = 5\\,\\mathrm{m}$, $\\Delta t = 3{,}17\\,\\mathrm{s} - 2{,}57\\,\\mathrm{s} = 0{,}60\\,\\mathrm{s}$, $\\bar{v} = \\frac{5\\,\\mathrm{m}}{0{,}60\\,\\mathrm{s}} \\approx 8{,}33\\,\\mathrm{m/s}$"
         },
         {
-          "id": "W6-1b",
+          "id": "V4-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "I",
           "loesung": "Bis etwa 15 m nimmt $\\bar{v}$ stark zu (2,7; 6,8; 8,3 m/s): beschleunigt.\n\nAb etwa 15 m ungefähr konstant (rund 9 m/s): annähernd gleichförmig; kleine Unterschiede sind Messabweichungen."
         },
         {
-          "id": "W6-1c",
+          "id": "V4-1c",
           "label": "1c",
           "punkte": 2,
           "afb": "II",
           "loesung": "Eine Gerade im t-s-Diagramm beschreibt eine gleichförmige Bewegung. Nur ab etwa 15 m ist der Läufer annähernd gleich schnell.\n\nDie Punkte davor liegen auf einem Parabelast; mit ihnen wäre die Steigung zu klein und gäbe nicht die Laufgeschwindigkeit wieder."
         },
         {
-          "id": "W6-1d",
+          "id": "V4-1d",
           "label": "1d",
           "punkte": 3,
           "afb": "II",
           "loesung": "Steigung = Geschwindigkeit: $v \\approx 9{,}01\\,\\mathrm{m/s}$.\n\n$100\\,\\mathrm{m} = 9{,}0081\\,\\mathrm{m/s} \\cdot t - 13{,}5550\\,\\mathrm{m} \\Rightarrow t \\approx 12{,}6\\,\\mathrm{s}$ [mit Ersatzwert 9,5 m/s: 12,0 s]"
         },
         {
-          "id": "W6-1e",
+          "id": "V4-1e",
           "label": "1e",
           "punkte": 2,
           "afb": "I",
           "loesung": "Zufällig: Reaktionszeit der Zeitnehmer schwankt um einige Hundertstelsekunden; bei $\\Delta t \\approx 0{,}55\\,\\mathrm{s}$ wirkt sich das deutlich aus.\n\nMaßnahme, z. B.: Lichtschranken oder Videoanalyse, mehrere Zeitnehmer, größere Abstände."
         },
         {
-          "id": "W6-1f",
+          "id": "V4-1f",
           "label": "1f",
           "punkte": 3,
           "afb": "II",
-          "loesung": "Start aus der Ruhe: $a = \\frac{2\\,s}{t^2}$, für beide Marken muss derselbe Wert herauskommen.\n\n5 m: $a \\approx 2{,}95\\,\\mathrm{m/s^2}$; 10 m: $a \\approx 3{,}03\\,\\mathrm{m/s^2}$\n\nAbweichung etwa 2 %, im Rahmen der Messgenauigkeit: näherungsweise gleichmäßig beschleunigt, $a \\approx 3{,}0\\,\\mathrm{m/s^2}$."
+          "loesung": "Start aus der Ruhe: $a = \\frac{2\\,s}{t^2}$, für beide Marken muss derselbe Wert herauskommen.\n\n5 m: $a \\approx 2{,}95\\,\\mathrm{m/s^2}$; 10 m: $a \\approx 3{,}03\\,\\mathrm{m/s^2}$\n\nAbweichung etwa 2,5 %, im Rahmen der Messgenauigkeit: näherungsweise gleichmäßig beschleunigt, $a \\approx 3{,}0\\,\\mathrm{m/s^2}$."
         },
         {
-          "id": "W6-1g",
+          "id": "V4-1g",
           "label": "1g",
           "punkte": 3,
           "afb": "III",
-          "loesung": "Gleich schnell nach $t = \\frac{v}{a} \\approx \\frac{9{,}0}{3{,}0}\\,\\mathrm{s} = 3{,}0\\,\\mathrm{s}$.\n\nÜbernehmender Läufer: $\\frac{1}{2}\\,a\\,t^2 \\approx 13{,}5\\,\\mathrm{m}$; ankommender: $v\\,t \\approx 27{,}0\\,\\mathrm{m}$.\n\nMarke $d \\approx 13{,}5\\,\\mathrm{m}$ vor dem Startpunkt (allgemein $d = \\frac{v^2}{2\\,a}$) [Ersatzwerte: 14,1 m]"
+          "loesung": "Gleich schnell nach $t = \\frac{v}{a} \\approx \\frac{9{,}0}{3{,}0}\\,\\mathrm{s} = 3{,}0\\,\\mathrm{s}$.\n\nÜbernehmender Läufer: $\\frac{1}{2}\\,a\\,t^2 \\approx 13{,}5\\,\\mathrm{m}$; ankommender: $v\\,t \\approx 27{,}0\\,\\mathrm{m}$.\n\nDer ankommende Läufer legt in dieser Zeit $27{,}0\\,\\mathrm{m} - 13{,}5\\,\\mathrm{m} = 13{,}5\\,\\mathrm{m}$ mehr zurück: Die Marke liegt $d \\approx 13{,}5\\,\\mathrm{m}$ hinter dem Startpunkt des übernehmenden Läufers (allgemein $d = \\frac{v^2}{2\\,a}$) [Ersatzwerte: 14,1 m]"
         },
         {
-          "id": "W6-2a",
+          "id": "V4-2a",
           "label": "2a",
           "punkte": 2,
           "afb": "I",
           "loesung": "0 bis 12 s: gleichförmig mit 10 m/s.\n\n12 bis 20 s: gleichmäßig abgebremst bis zum Stillstand."
         },
         {
-          "id": "W6-2b",
+          "id": "V4-2b",
           "label": "2b",
           "punkte": 2,
           "afb": "I",
           "loesung": "$a = \\frac{0 - 10\\,\\mathrm{m/s}}{8\\,\\mathrm{s}} = -1{,}25\\,\\mathrm{m/s^2}$\n\n$s = \\frac{1}{2} \\cdot (-1{,}25\\,\\mathrm{m/s^2}) \\cdot (8\\,\\mathrm{s})^2 + 10\\,\\mathrm{m/s} \\cdot 8\\,\\mathrm{s} = 40\\,\\mathrm{m}$"
         },
         {
-          "id": "W6-2c",
+          "id": "V4-2c",
           "label": "2c",
           "punkte": 3,
           "afb": "II",
-          "loesung": "Ursprungsgerade bis $(12\\,\\mathrm{s}\\,|\\,120\\,\\mathrm{m})$; dann nach unten gekrümmter Parabelast ohne Knick, der bei $(20\\,\\mathrm{s}\\,|\\,160\\,\\mathrm{m})$ waagerecht ausläuft; danach waagerecht [Ersatzwert: 162 m].",
-          "loesung_bild": "img/W6-2c.png"
+          "loesung": "Ursprungsgerade bis $(12\\,\\mathrm{s} \\mid 120\\,\\mathrm{m})$; dann nach unten gekrümmter Parabelast ohne Knick, der bei $(20\\,\\mathrm{s} \\mid 160\\,\\mathrm{m})$ waagerecht ausläuft; danach waagerecht [Ersatzwert: 162 m].",
+          "loesung_bild": "img/V4-2c.png"
         },
         {
-          "id": "W6-2d",
+          "id": "V4-2d",
           "label": "2d",
           "punkte": 3,
           "afb": "II",
           "loesung": "Verladestelle bei 160 m. $s_L = 10\\,\\mathrm{m/s} \\cdot t$; $s_R = -5{,}0\\,\\mathrm{m/s} \\cdot (t - 2\\,\\mathrm{s}) + 160\\,\\mathrm{m}$\n\n$15\\,\\mathrm{m/s} \\cdot t = 170\\,\\mathrm{m} \\Rightarrow t \\approx 11{,}3\\,\\mathrm{s}$ (vor 12 s, Ansatz passt)\n\n$s \\approx 113\\,\\mathrm{m}$, etwa 47 m vor der Verladestelle [Ersatzwert: 11,5 s, 47 m]"
         },
         {
-          "id": "W6-2e",
+          "id": "V4-2e",
           "label": "2e",
           "punkte": 2,
           "afb": "I",
           "loesung": "$h_0 = 3{,}20\\,\\mathrm{m} - 1{,}40\\,\\mathrm{m} = 1{,}80\\,\\mathrm{m}$; $t_F = \\sqrt{\\frac{2 \\cdot 1{,}80\\,\\mathrm{m}}{9{,}81\\,\\mathrm{m/s^2}}} \\approx 0{,}61\\,\\mathrm{s}$\n\n$s_W = 2{,}5\\,\\mathrm{m/s} \\cdot 0{,}606\\,\\mathrm{s} \\approx 1{,}51\\,\\mathrm{m}$"
         },
         {
-          "id": "W6-2f",
+          "id": "V4-2f",
           "label": "2f",
           "punkte": 2,
           "afb": "I",
           "loesung": "$t = \\frac{s_x}{v_0}$ in $s_y = -\\frac{1}{2}\\,g\\,t^2 + h_0$ einsetzen:\n\n$s_y = -\\frac{g}{2\\,v_0^2}\\,s_x^2 + h_0 \\approx -0{,}7848\\,\\frac{1}{\\mathrm{m}}\\,s_x^2 + 1{,}80\\,\\mathrm{m}$"
         },
         {
-          "id": "W6-2g",
+          "id": "V4-2g",
           "label": "2g",
           "punkte": 3,
           "afb": "II",
           "loesung": "An der Heckklappe ($s_x = 1{,}00\\,\\mathrm{m}$) muss $s_y \\ge 1{,}00\\,\\mathrm{m}$ sein, der Stein darf höchstens 0,80 m gefallen sein.\n\n$v_0 \\ge \\sqrt{\\frac{9{,}81\\,\\mathrm{m/s^2} \\cdot (1{,}00\\,\\mathrm{m})^2}{2 \\cdot 0{,}80\\,\\mathrm{m}}} \\approx 2{,}48\\,\\mathrm{m/s}$\n\nDas Band läuft mit 2,5 m/s: Der Kies fliegt knapp darüber."
         },
         {
-          "id": "W6-2h",
+          "id": "V4-2h",
           "label": "2h",
           "punkte": 3,
           "afb": "II",
           "loesung": "$v_y = 9{,}81\\,\\mathrm{m/s^2} \\cdot 0{,}606\\,\\mathrm{s} \\approx 5{,}94\\,\\mathrm{m/s}$, $v_x = 2{,}5\\,\\mathrm{m/s}$\n\n$v = \\sqrt{v_x^2 + v_y^2} \\approx 6{,}45\\,\\mathrm{m/s}$; $6{,}45 : 2{,}5 \\approx 2{,}6 > 2$: Die Aussage stimmt. [Ersatzwert: 6,76 m/s, Faktor 2,7]"
         },
         {
-          "id": "W6-2i",
+          "id": "V4-2i",
           "label": "2i",
           "punkte": 2,
           "afb": "III",
           "loesung": "Im Bezugssystem des LKW kommt dessen Geschwindigkeit hinzu (Gegenrichtung): $v_x = 2{,}5\\,\\mathrm{m/s} + 0{,}30\\,\\mathrm{m/s} = 2{,}8\\,\\mathrm{m/s}$; senkrecht ändert sich nichts.\n\nDer Fahrer sieht eine flachere, weitere Wurfparabel (rund 1,7 m statt 1,5 m); das Bandende wandert für ihn nach vorn."
         },
         {
-          "id": "W6-2j",
+          "id": "V4-2j",
           "label": "2j",
           "punkte": 4,
           "afb": "III",
