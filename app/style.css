@@ -75,6 +75,15 @@
 
   --lmg-gruen: #1F4D2A;
 
+  /* Hauptknöpfe in LMG-Grün; Text auf gefüllter Fachfarbe */
+  --primaer: #1F4D2A;
+  --primaer-text: #ffffff;
+  --auf-fach: #ffffff;
+
+  /* Kopfband: Verlauf aus der Fachfarbe in Tinte, oben eine Leiste in Fachfarbe */
+  --kopf: linear-gradient(115deg, #3d4147 0%, #1a1c1f 65%);
+  --kopf-linie: #646a72;
+
   /* Skala der Selbsteinschätzung: fünf Stufen von unsicher nach sicher */
   --stufe-1: #B61E33;
   --stufe-2: #C8552B;
@@ -92,21 +101,25 @@
   --fs-xl: 28px;
 
   /* Maße */
-  --radius: 10px;
+  --radius: 14px;
   --radius-klein: 4px;
   --tap: 44px;
-  --breite: 46rem;
+  --breite: 72rem;
   --schatten: 0 1px 2px rgba(20, 22, 25, .04), 0 1px 1px rgba(20, 22, 25, .03);
   --schatten-2: 0 2px 6px rgba(20, 22, 25, .05), 0 1px 2px rgba(20, 22, 25, .04);
 }
 
 html[data-fach="mathe"] {
+  --kopf: linear-gradient(115deg, #6f0f1c 0%, #1a1c1f 65%);
+  --kopf-linie: #B61E33;
   --fach: #B61E33;
   --fach-soft: #f5e1e3;
   --fach-line: #e8b8be;
   --fach-ink: #6f0f1c;
 }
 html[data-fach="physik"] {
+  --kopf: linear-gradient(115deg, #1d3a5c 0%, #1a1c1f 65%);
+  --kopf-linie: #2C5282;
   --fach: #2C5282;
   --fach-soft: #e8eef5;
   --fach-line: #b9c8da;
@@ -147,6 +160,10 @@ html[data-fach="physik"] {
 
     --schatten: none;
     --schatten-2: none;
+
+    --primaer: #9FD3A8;
+    --primaer-text: #10261A;
+    --auf-fach: #14161a;
   }
   html[data-fach="mathe"] {
     --fach: #E8677D;
@@ -203,42 +220,17 @@ a { color: var(--fach); text-underline-offset: 2px; }
 }
 .skiplink:focus { left: 0; }
 
-/* ---------- Kopfzeile ---------- */
-.kopf {
-  position: sticky; top: 0; z-index: 5;
-  background: var(--flaeche);
-  border-bottom: 1px solid var(--linie);
-  padding-top: env(safe-area-inset-top);
+main { outline: none; }
+/* Lade- und Fehlertexte aus index.html stehen ohne eigenen Rahmen direkt in main */
+main > :not(.band):not(.seite):not(.st-seite):not(.ablauf):not(.aufgaben-leiste):not(.takt) {
+  max-width: var(--breite); margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem;
 }
-.kopf::after {
-  content: ''; display: block; height: 3px; background: var(--fach);
-}
-.kopf-innen {
-  max-width: var(--breite); margin: 0 auto;
-  padding: .5rem 1rem; display: flex; flex-wrap: wrap; gap: .3rem 1rem;
-  align-items: center; justify-content: space-between;
-}
-.kopf-titel {
-  display: inline-flex; align-items: center; gap: .6rem;
-  min-height: var(--tap); color: var(--text); text-decoration: none;
-}
-.kopf-mark { display: block; width: 30px; height: 30px; flex: none; }
-.kopf-mark svg { display: block; width: 100%; height: 100%; }
-.kopf-wort { display: flex; flex-direction: column; line-height: 1.1; }
-.kopf-wort b { font-size: var(--fs-md); font-weight: 700; letter-spacing: -.01em; }
-.kopf-schule { font-size: var(--fs-xs); color: var(--text-leise); }
-.kopf-nav { font-size: var(--fs-sm); font-weight: 600; }
-.kopf-nav a { color: var(--fach); text-decoration: none; }
-.kopf-nav a:hover { text-decoration: underline; }
-
-main {
-  max-width: var(--breite); margin: 0 auto; padding: 1.2rem 1rem 3rem;
-  outline: none;
-}
+main > .laden { padding-top: 1.5rem; }
 .fuss {
   max-width: var(--breite); margin: 0 auto; padding: 0 1rem 2rem;
   color: var(--text-leise); font-size: var(--fs-xs);
 }
+@media (min-width: 48rem) { .fuss { padding: 0 3rem 2rem; } }
 .laden { color: var(--text-leise); }
 
 /* ---------- Symbole ---------- */
@@ -288,7 +280,7 @@ main {
   -webkit-appearance: none; appearance: none;
   display: inline-flex; align-items: center; justify-content: center; gap: .45em;
   min-height: var(--tap); padding: .6rem 1.1rem;
-  border-radius: var(--radius-klein); border: 1px solid var(--linie-2);
+  border-radius: 10px; border: 1px solid var(--linie-2);
   background: var(--flaeche); color: var(--text);
   font-family: inherit; font-size: 15px; font-weight: 600; line-height: 1.15;
   text-decoration: none; cursor: pointer;
@@ -296,17 +288,16 @@ main {
 .btn:hover { background: var(--flaeche-2); }
 .btn:focus-visible { outline: 2px solid var(--fach); outline-offset: 2px; }
 .btn[disabled] { opacity: .45; cursor: not-allowed; }
-.btn-primaer { background: var(--fach); border-color: transparent; color: #fff; }
-.btn-primaer:hover { background: var(--fach); filter: brightness(1.08); }
+.btn-primaer { background: var(--primaer); border-color: transparent; color: var(--primaer-text); }
+.btn-primaer:hover { background: var(--primaer); filter: brightness(1.12); }
+.btn-gross-b { min-height: 52px; padding: .6rem 1.3rem; border-radius: 12px; font-size: 17px; }
+.btn-voll { width: 100%; }
 .btn-schlicht { background: transparent; border-color: transparent; color: var(--fach); }
 .btn-schlicht:hover { background: var(--fach-soft); }
 .btn-klein { min-height: 36px; padding: .25rem .7rem; font-size: var(--fs-sm); }
 .btn-gross { flex: 1 1 12rem; min-height: 56px; font-size: var(--fs-md); }
 .btn-reihe { display: flex; flex-wrap: wrap; gap: .5rem; margin: .9rem 0 0; }
 
-@media (prefers-color-scheme: dark) {
-  .btn-primaer { color: #14161a; }
-}
 
 /* ---------- Selbsteinschätzung: Farbverlauf mit Pinnadel ---------- */
 .skala-gruppe { border: 0; margin: .7rem 0 0; padding: 0; }
@@ -418,15 +409,14 @@ main {
 .loesung {
   margin-top: .9rem; padding: .9rem 1rem;
   background: var(--flaeche-2); border: 1px solid var(--linie);
-  border-left: 3px solid var(--fach);
-  border-radius: var(--radius-klein);
+  border-radius: 12px;
   overflow-x: auto;
 }
 .loesung > :last-child { margin-bottom: 0; }
 .loesung-marke {
   display: flex; align-items: center; gap: .4em;
   font-size: var(--fs-xs); font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
-  color: var(--fach); margin: 0 0 .5rem;
+  color: var(--ok-ink); margin: 0 0 .5rem;
 }
 .loesung img {
   max-width: 100%; height: auto; background: #fff;
@@ -457,35 +447,6 @@ main {
 .aufgabe-kopf { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; margin-bottom: .3rem; }
 .aufgabe-kopf .nr { font-size: var(--fs-md); font-weight: 700; color: var(--fach); letter-spacing: -.01em; }
 
-/* ---------- Tandem ---------- */
-.takt { text-align: center; }
-.takt-nr {
-  font-size: 3.2rem; font-weight: 700; line-height: 1; margin: .1rem 0 .2rem;
-  color: var(--fach); font-variant-numeric: tabular-nums; letter-spacing: -.02em;
-}
-.takt-zeile { margin: 0 0 .3rem; color: var(--text); }
-.takt-rolle {
-  margin-top: .8rem; display: flex; gap: .4rem; flex-wrap: wrap;
-  align-items: center; justify-content: center;
-}
-.takt-punkte {
-  list-style: none; display: flex; flex-wrap: wrap; gap: .4rem;
-  justify-content: center; padding: 0; margin: .8rem 0 0;
-}
-.takt-punkt button {
-  min-width: 40px; min-height: 40px; border-radius: 999px;
-  border: 1px solid var(--linie-2); background: var(--flaeche); color: var(--text-leise);
-  font-family: inherit; font-weight: 700; font-size: var(--fs-sm); cursor: pointer;
-}
-.takt-punkt.ist-partner button { border-style: dashed; }
-.takt-punkt.ist-fertig button { border-color: var(--ok); color: var(--ok); background: var(--ok-soft); }
-.takt-punkt.ist-aktuell button { background: var(--fach); border-color: var(--fach); color: #fff; }
-.takt-punkt button:focus-visible { outline: 2px solid var(--fach); outline-offset: 2px; }
-
-.kontrollkarte { border-left: 3px dashed var(--fach); }
-.kontroll-btn.ist-aktiv { background: var(--fach); border-color: transparent; color: #fff; }
-.kontroll-punkte { font-weight: 400; font-size: .85em; opacity: .85; }
-
 details.tipp {
   margin-top: .9rem; border: 1px solid var(--linie-2);
   border-radius: var(--radius-klein); background: var(--flaeche);
@@ -498,10 +459,6 @@ details.tipp > summary {
 details.tipp > summary:focus-visible { outline: 2px solid var(--fach); outline-offset: 2px; }
 .tipp-inhalt { padding: 0 1rem .8rem; }
 .tipp-inhalt > :last-child { margin-bottom: 0; }
-
-@media (prefers-color-scheme: dark) {
-  .takt-punkt.ist-aktuell button, .kontroll-btn.ist-aktiv { color: #14161a; }
-}
 
 /* ---------- Tabellen ---------- */
 .tab { width: 100%; border-collapse: collapse; font-size: var(--fs-sm); }
@@ -567,7 +524,10 @@ details.tipp > summary:focus-visible { outline: 2px solid var(--fach); outline-o
 @media print {
   :root { --schatten: none; --schatten-2: none; }
   body { background: #fff; color: #000; font-size: 11pt; }
-  .kopf, .fuss, .btn, .btn-reihe, .skiplink, .meldung, .nicht-drucken { display: none !important; }
+  .fuss, .btn, .btn-reihe, .skiplink, .meldung, .nicht-drucken,
+  .band-leiste, .band-rechts, .pfad, .ablauf, .aufgaben-leiste, .takt, .naechste, .werkzeuge { display: none !important; }
+  .band { background: none !important; border: 0; color: #000; }
+  .band h1, .band-unter, .band-lead { color: #000 !important; }
   main { max-width: none; padding: 0; }
   .karte { break-inside: avoid; border: 1px solid #999; box-shadow: none; }
   .balken { border: 1px solid #999; }
@@ -601,62 +561,6 @@ details.tipp > summary:focus-visible { outline: 2px solid var(--fach); outline-o
     position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
     overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
   }
-}
-
-/* ---------- Kachelansicht der Stationen ---------- */
-.kacheln {
-  list-style: none; margin: 0 0 .4rem; padding: 0;
-  display: grid; gap: .8rem;
-  grid-template-columns: 1fr;
-}
-
-/* Schmales Gerät: Bild links, Text rechts – so bleibt die Liste überschaubar */
-.kachel {
-  display: flex; align-items: stretch;
-  padding: 0; overflow: hidden; margin: 0; height: 100%;
-}
-.kachel-bild {
-  position: relative; flex: none; width: 104px;
-  background: var(--flaeche-2); border-right: 1px solid var(--linie);
-}
-.kachel-bild img {
-  display: block; width: 100%; height: 100%;
-  object-fit: contain; padding: .35rem;
-}
-.kachel-ersatz {
-  position: absolute; inset: 0;
-  display: flex; align-items: center; justify-content: center;
-  color: var(--fach-line); font-size: 2.2rem;
-}
-.kachel-text { display: block; padding: .7rem .85rem .8rem; flex: 1 1 auto; min-width: 0; }
-.kachel-kopf {
-  display: flex; align-items: flex-start; justify-content: space-between;
-  gap: .4rem; margin-bottom: .3rem;
-}
-.kachel-titel {
-  font-size: var(--fs-base); font-weight: 600; color: var(--text);
-  line-height: 1.25; min-width: 0;
-}
-.kachel-kennung { color: var(--fach); font-weight: 700; }
-.kachel-marken { display: flex; gap: .3rem; flex-wrap: wrap; flex: none; }
-.kachel .meta-reihe { margin-bottom: .5rem; gap: .2rem .7rem; }
-.kachel .balken-zeile { grid-template-columns: 3.6rem 1fr auto; margin: 0; }
-
-/* Ab Tabletbreite zwei Spalten mit Bild oben */
-@media (min-width: 34rem) {
-  .kacheln { grid-template-columns: 1fr 1fr; }
-  .kachel { flex-direction: column; }
-  .kachel-bild {
-    width: auto; aspect-ratio: 16 / 7;
-    border-right: 0; border-bottom: 1px solid var(--linie);
-  }
-  .kachel-titel { font-size: var(--fs-md); }
-}
-
-/* In der Druckansicht reicht eine schlichte Liste */
-@media print {
-  .kacheln { display: block; }
-  .kachel-bild { display: none; }
 }
 
 /* ---------- Lernweg ---------- */
@@ -749,13 +653,13 @@ a, button, summary, label, .chip {
   -webkit-tap-highlight-color: transparent;
 }
 
-.kachel, .karte-link, .phase-stationen .chip, .takt-punkt button, .haken-btn {
+.s-karte, .karte-link, .pfad-st, .pille, .takt-punkt button, .punkte-taste, .haken-btn {
   -webkit-touch-callout: none;             /* keine Vorschau beim langen Tippen */
   -webkit-user-select: none;
   user-select: none;
 }
 
-.kachel-bild img, .kopf-mark svg {
+.s-bild {
   -webkit-user-drag: none;
   pointer-events: none;                    /* das Bild selbst ist nicht greifbar */
 }
@@ -764,7 +668,6 @@ a, button, summary, label, .chip {
 .skala-bahn input[type="range"] { touch-action: none; }
 
 /* ---------- Stationsablauf: eine Einschätzung je Station ---------- */
-.station-einschaetzung { border-left: 3px solid var(--fach); }
 .station-einschaetzung h3 { margin-bottom: .4rem; }
 
 .punkte-zeile {
@@ -788,30 +691,13 @@ a, button, summary, label, .chip {
 .aufgabe.ist-uebersprungen .loesung { opacity: .75; }
 .aufgabe.ist-uebersprungen .stepper { opacity: .45; }
 
-/* Kalibrierung je Station */
-.kalib { list-style: none; margin: .6rem 0 0; padding: 0; }
-.kalib-zeile {
-  display: grid; align-items: center; gap: .3rem .7rem;
-  grid-template-columns: 1fr auto auto;
-  padding: .55rem 0; border-top: 1px solid var(--linie);
-}
-.kalib-zeile:first-child { border-top: 0; }
-.kalib-station { font-weight: 600; color: var(--text); }
-.kalib-quote { font-variant-numeric: tabular-nums; color: var(--text-2); }
-.kalib-urteil {
-  grid-column: 1 / -1; font-size: var(--fs-sm); color: var(--text-leise);
-}
-.kalib-hinweis { grid-column: 1 / -1; font-size: var(--fs-xs); color: var(--text-leise); }
-.urteil-ueberschaetzt .kalib-urteil { color: var(--warn-ink); font-weight: 600; }
-.urteil-unterschaetzt .kalib-urteil { color: var(--ok-ink); font-weight: 600; }
-
 /* =========================================================
    Startseite im gemeinsamen Design der LMG-Plattformen
    (Simulationen, Spielesammlung, Lerntheke). Der Block ab
    „Startseite“ ist aus Simulationen/assets/lmg.css übernommen;
    hier werden nur dessen Token-Namen auf die Lerntheke abgebildet.
    ========================================================= */
-body.start .kopf, body.start .fuss { display: none; }
+body.start .fuss { display: none; }
 body.start main { max-width: none; padding: 0; }
 
 .st-seite {
@@ -982,4 +868,340 @@ body.start main { max-width: none; padding: 0; }
   .st-fach{grid-template-columns:52px minmax(0,1fr) 24px;gap:14px;padding:16px}
   .st-fach .symbol{width:52px;height:52px;font-size:28px}
   .st-fach .titel{font-size:20px}
+}
+
+/* =========================================================
+   Neugestaltung „Lernpfad“ (Tim, 17.11.2026)
+   Kopfband mit Fachverlauf, Lernpfad, Stationskarten,
+   Ablauf in drei Schritten, Fokusmodus, Tandem, Auswertung.
+   ========================================================= */
+
+.seite { max-width: var(--breite); margin: 0 auto; padding: 1.4rem 1rem 3rem; }
+@media (min-width: 48rem) { .seite { padding: 1.75rem 3rem 3.5rem; } }
+.seite > h1:first-child { margin-top: .4rem; }
+
+.lbl {
+  font-size: var(--fs-xs); font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--text-leise); margin: 0 0 .6rem;
+}
+.lbl-fach { color: var(--fach-ink); }
+.h-klein { font-size: var(--fs-md); font-weight: 700; margin: 0 0 .5rem; }
+
+/* ---------- Kennung der Station (G1, N2, V3 …) ----------
+   Die Kategorie zeigt sich an der Form: Grundlagen grau, neue Themen gefüllt,
+   Vernetzen nur umrandet – unterscheidbar auch ohne Farbe. */
+.kennung {
+  flex: none; display: inline-flex; align-items: center; justify-content: center;
+  min-width: 48px; height: 48px; padding: 0 6px; border-radius: 12px;
+  font-weight: 800; font-size: 18px; letter-spacing: -.01em;
+}
+.kat-neu, .kat-pflicht { background: var(--fach); color: var(--auf-fach); }
+.kat-grundlagen { background: var(--flaeche-3); color: var(--text); }
+.kat-vernetzen, .kat-wahl { background: var(--flaeche); color: var(--fach-ink); box-shadow: inset 0 0 0 2.5px var(--fach); }
+.kennung-gross { min-width: 58px; height: 58px; font-size: 21px; border-radius: 14px; }
+
+/* ---------- Kopfband ---------- */
+.band {
+  background-color: #1a1c1f; background-image: var(--kopf);
+  border-top: 3px solid var(--kopf-linie);
+  color: #fff; padding-top: env(safe-area-inset-top);
+}
+.band-innen { max-width: var(--breite); margin: 0 auto; padding: .7rem 1rem 1.6rem; }
+@media (min-width: 48rem) { .band-innen { padding: .9rem 3rem 2.1rem; } }
+.band-leiste { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1.1rem; }
+.band-marke {
+  display: inline-flex; align-items: center; gap: .65rem; min-height: var(--tap);
+  color: #fff; text-decoration: none; font-weight: 600; font-size: 15px;
+}
+.band-marke .lmg {
+  width: 34px; height: 34px; border-radius: 9px; background: #fff; color: var(--lmg-gruen);
+  font-size: 12px; font-weight: 800; display: inline-flex; align-items: center; justify-content: center;
+}
+.band-link { color: #fff; font-weight: 600; font-size: 15px; min-height: var(--tap); display: inline-flex; align-items: center; }
+.band-held { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 1rem 2rem; }
+.band-text { min-width: 0; }
+.band h1 { color: #fff; font-size: clamp(30px, 5vw, 44px); font-weight: 800; letter-spacing: -.02em; line-height: 1.05; margin: 0; }
+.band-unter { margin: 0 0 .3rem; color: #c2c7cd; font-size: 15px; }
+.band-lead { margin: .6rem 0 0; color: #c2c7cd; font-size: 17px; max-width: 62ch; }
+.band-zahl { margin: 0; text-align: right; color: #c2c7cd; font-size: 17px; font-weight: 600; }
+.band-zahl span { display: block; font-size: 15px; font-weight: 400; }
+.band-zahl b { font-size: 34px; font-weight: 800; color: #fff; }
+.band-marken { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 0; }
+.band-marken span { font-size: 14px; font-weight: 700; border-radius: 999px; padding: .25rem .8rem; background: rgba(255, 255, 255, .14); }
+.band .ring { width: 132px; height: 132px; display: block; font-family: inherit; }
+.band a:focus-visible, .band button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+/* Kompakter Kopf auf Stationen */
+.band-kompakt .band-innen { display: flex; align-items: center; gap: .9rem; padding-top: .7rem; padding-bottom: .7rem; }
+.band-zurueck {
+  flex: none; width: 44px; height: 44px; border-radius: 10px;
+  background: rgba(255, 255, 255, .12); color: #fff;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.band-kompakt .kennung { min-width: 44px; height: 44px; font-size: 16px; border-radius: 10px; }
+.band-kompakt .band-text { flex: 1; }
+.band-kompakt .band-unter { margin: 0; font-size: 14px; }
+.band-kompakt h1 { font-size: clamp(19px, 3vw, 24px); line-height: 1.15; }
+.band-rechts { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; }
+.band-knopf {
+  display: inline-flex; align-items: center; gap: .45em; min-height: var(--tap); padding: 0 1rem;
+  border-radius: 10px; background: #fff; color: #17181a; font-weight: 700; font-size: 15px; text-decoration: none;
+}
+.band-rolle {
+  display: inline-flex; align-items: center; gap: .3rem; min-height: var(--tap); padding: 0 .3rem 0 1rem;
+  border-radius: 999px; background: #fff; color: #17181a; font-weight: 800;
+}
+.band-rolle button {
+  border: 0; background: none; font: inherit; font-size: 14px; font-weight: 600; color: #4b5057;
+  text-decoration: underline; cursor: pointer; min-height: 40px; padding: 0 .6rem;
+}
+@media (max-width: 40rem) {
+  .band-kompakt .band-unter { display: none; }
+  .band-kompakt .kennung { display: none; }
+}
+
+/* ---------- Lernpfad im Kopf ---------- */
+.pfad { margin-top: 1.7rem; overflow-x: auto; scrollbar-width: none; }
+.pfad::-webkit-scrollbar { display: none; }
+.pfad ol {
+  position: relative; list-style: none; margin: 0; padding: 0 0 .2rem;
+  display: grid; grid-template-columns: repeat(var(--n), minmax(7.5rem, 1fr)); gap: .5rem;
+  min-width: calc(var(--n) * 7.5rem);
+}
+.pfad-linie { position: absolute; top: 21px; height: 3px; border-radius: 2px; background: rgba(255, 255, 255, .25); }
+.pfad-linie-voll { background: #fff; }
+.pfad-phase { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: .45rem; }
+.pfad-knoten {
+  width: 44px; height: 44px; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center; font-weight: 800; font-size: 17px;
+}
+.pfad-knoten .sym, .pfad-knoten svg { width: 20px; height: 20px; stroke-width: 3; }
+.pfad-fertig .pfad-knoten { background: #fff; color: var(--lmg-gruen); }
+.pfad-jetzt .pfad-knoten { background: var(--kopf-linie); color: #fff; box-shadow: 0 0 0 4px #fff; }
+.pfad-offen .pfad-knoten { background: #2a2d31; color: #c2c7cd; box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .3); }
+.pfad-name { font-size: 15px; font-weight: 700; line-height: 1.2; color: #fff; }
+.pfad-stationen { display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; }
+.pfad-st {
+  display: inline-flex; align-items: center; min-height: 26px; padding: 0 7px; border-radius: 6px;
+  font-size: 12px; font-weight: 700; text-decoration: none;
+  background: rgba(255, 255, 255, .14); color: #e9ebee;
+}
+.pfad-st-fertig { background: #fff; color: var(--lmg-gruen); }
+.pfad-st-begonnen { background: var(--kopf-linie); color: #fff; }
+
+/* ---------- Stationsübersicht ---------- */
+.naechste {
+  position: relative; display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.2rem;
+  margin: -2.9rem 0 1.4rem; padding: 1.1rem 1.3rem;
+  background: var(--flaeche); border: 1px solid var(--linie); border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(20, 22, 25, .09); text-decoration: none; color: var(--text-2);
+}
+.naechste:hover { border-color: var(--linie-2); }
+.naechste:focus-visible { outline: 2px solid var(--fach); outline-offset: 2px; }
+.naechste-text { flex: 1 1 16rem; min-width: 0; display: flex; flex-direction: column; gap: .1rem; }
+.naechste-marke { font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--fach-ink); }
+.naechste-titel { font-size: 21px; font-weight: 800; color: var(--text); line-height: 1.2; }
+.naechste .btn { pointer-events: none; }
+.naechste .btn svg { width: 20px; height: 20px; }
+
+.werkzeuge { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .8rem; margin: 1.2rem 0 .2rem; }
+.werkzeuge .btn-reihe { margin: 0; }
+.filter { display: inline-flex; flex-wrap: wrap; gap: 2px; padding: 4px; border-radius: 12px; background: var(--flaeche-3); }
+.filter button {
+  min-height: 40px; padding: 0 1rem; border: 0; border-radius: 9px; background: transparent;
+  font: inherit; font-size: 15px; font-weight: 600; color: var(--text-2); cursor: pointer;
+}
+.filter button[aria-pressed="true"] { background: var(--flaeche); color: var(--text); box-shadow: 0 1px 2px rgba(20, 22, 25, .1); }
+.filter button:focus-visible { outline: 2px solid var(--fach); outline-offset: 1px; }
+
+.gruppe { margin-top: 1.7rem; }
+.gruppe[hidden] { display: none; }
+.gruppe-kopf { display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem .8rem; margin-bottom: .8rem; }
+.gruppe-kopf h2 { margin: 0; font-size: var(--fs-lg); font-weight: 800; }
+.gruppe-kopf span { font-size: 15px; color: var(--text-leise); }
+
+.karten { list-style: none; margin: 0; padding: 0; display: grid; gap: .9rem; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); }
+.s-karte {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas: "kopf kopf" "titel bild" "meta bild" "fuss fuss";
+  column-gap: .8rem; row-gap: .5rem; height: 100%; box-sizing: border-box;
+  padding: 1rem 1.1rem; background: var(--flaeche); border: 1px solid var(--linie); border-radius: 16px;
+  box-shadow: var(--schatten); text-decoration: none; color: var(--text-2);
+}
+.s-karte:hover { border-color: var(--linie-2); box-shadow: var(--schatten-2); }
+.s-karte:focus-visible { outline: 2px solid var(--fach); outline-offset: 2px; }
+.s-kopf { grid-area: kopf; display: flex; align-items: flex-start; justify-content: space-between; gap: .5rem; }
+.s-marken { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .3rem; }
+.s-titel { grid-area: titel; font-size: 18px; font-weight: 700; line-height: 1.25; color: var(--text); }
+.s-karte .meta-reihe { grid-area: meta; align-self: start; gap: .2rem .8rem; }
+.s-bild { grid-area: bild; align-self: center; width: 76px; height: 76px; object-fit: contain; }
+.s-fuss { grid-area: fuss; align-self: end; display: flex; align-items: center; gap: .7rem; font-size: 14px; }
+.s-fuss .balken { flex: 1; }
+.s-punkte { white-space: nowrap; color: var(--text-leise); }
+.s-punkte b { color: var(--text); }
+@media (prefers-color-scheme: dark) {
+  .s-bild { background: #f6f6f4; border-radius: 10px; padding: 4px; }
+  .filter button[aria-pressed="true"] { background: #3a3f45; }
+}
+
+.lernweg-details { margin-top: 2rem; padding: 0 1.1rem; border: 1px solid var(--linie); border-radius: var(--radius); background: var(--flaeche); }
+.lernweg-details[open] { padding-bottom: 1rem; }
+.lernweg-details > summary { min-height: var(--tap); display: flex; align-items: center; font-weight: 700; color: var(--text); cursor: pointer; }
+.lernweg-details > summary:focus-visible { outline: 2px solid var(--fach); outline-offset: 2px; }
+.lernweg-details .lernweg { margin: .6rem 0 0; }
+
+/* ---------- Ablauf einer Station ---------- */
+.ablauf { background: var(--flaeche); border-bottom: 1px solid var(--linie); }
+.ablauf ol { list-style: none; max-width: var(--breite); margin: 0 auto; padding: .8rem 1rem; display: flex; align-items: center; gap: .8rem; }
+@media (min-width: 48rem) { .ablauf ol { padding: .9rem 3rem; } }
+.ablauf-schritt { display: flex; align-items: center; gap: .55rem; font-weight: 700; font-size: 16px; white-space: nowrap; }
+.ablauf-nr { flex: none; width: 32px; height: 32px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 15px; }
+.ablauf-nr .sym { width: 16px; height: 16px; stroke-width: 3; }
+.ablauf-fertig { color: var(--ok-ink); }
+.ablauf-fertig .ablauf-nr { background: var(--ok); color: var(--flaeche); }
+.ablauf-jetzt { color: var(--text); }
+.ablauf-jetzt .ablauf-nr { background: var(--fach); color: var(--auf-fach); }
+.ablauf-offen { color: var(--text-leise); }
+.ablauf-offen .ablauf-nr { background: var(--flaeche-3); }
+.ablauf-linie { flex: 1; min-width: 1rem; height: 3px; border-radius: 2px; background: var(--linie); }
+.ablauf-linie-fertig { background: var(--ok); }
+@media (max-width: 40rem) { .ablauf-schritt:not(.ablauf-jetzt) { font-size: 0; gap: 0; } }
+
+/* ---------- Zweispaltige Stationsseite ---------- */
+.zweispaltig { display: grid; gap: 1.2rem; align-items: start; }
+@media (min-width: 60rem) { .zweispaltig { grid-template-columns: minmax(0, 1fr) 20rem; gap: 1.5rem; } }
+.zweispaltig > .karte, .seitenleiste .karte { margin: 0; }
+.seitenleiste { display: flex; flex-direction: column; gap: 1rem; }
+.karte-gross { padding: 1.5rem 1.6rem; }
+@media (min-width: 48rem) { .karte-gross { padding: 1.8rem 2rem; } }
+.karte-gross > h2 { font-size: 26px; font-weight: 800; }
+.karte-fach { border: 2px solid var(--fach); }
+.frage-gross { font-size: clamp(24px, 3vw, 30px) !important; line-height: 1.15; }
+.karte-fuss { margin-top: 1.4rem; padding-top: 1.1rem; border-top: 1px solid var(--linie); }
+p.karte-fuss { display: flex; align-items: center; gap: .5rem; }
+.skala-gross { margin: 1.8rem 0 .4rem; }
+.skala-gross .skala-feld { max-width: none; gap: 1rem; }
+.skala-gross .skala-bahn { height: 16px; }
+.skala-gross .skala-rand .gesicht { width: 2.3rem; height: 2.3rem; }
+.skala-tipp { text-align: center; margin-top: .9rem; }
+.station-einschaetzung .skala-feld { max-width: none; }
+.blatt-liste { list-style: none; margin: 0; padding: 0; }
+.blatt-liste li { display: flex; align-items: center; gap: .5rem; min-height: 42px; border-bottom: 1px solid var(--linie); }
+.blatt-liste li:last-child { border-bottom: 0; }
+.blatt-liste b { min-width: 2.2rem; color: var(--text); }
+
+/* ---------- Fokusmodus: eine Aufgabe nach der anderen ---------- */
+.aufgaben-leiste { position: sticky; top: 0; z-index: 4; background: var(--flaeche); border-bottom: 1px solid var(--linie); }
+.aufgaben-leiste-innen { max-width: var(--breite); margin: 0 auto; padding: .7rem 1rem; display: flex; align-items: center; gap: 1rem; }
+@media (min-width: 48rem) { .aufgaben-leiste-innen { padding: .8rem 3rem; } }
+.aufgaben-leiste ol { list-style: none; margin: 0; padding: 0; flex: 1; min-width: 0; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+.aufgaben-leiste ol::-webkit-scrollbar { display: none; }
+.pille {
+  display: inline-flex; align-items: center; justify-content: center; gap: 4px;
+  min-width: 52px; min-height: 44px; padding: 0 10px; border-radius: 12px;
+  border: 1px solid var(--linie-2); background: var(--flaeche);
+  font: inherit; font-size: 16px; font-weight: 700; color: var(--text-2); cursor: pointer; white-space: nowrap;
+}
+.pille .sym { width: 14px; height: 14px; stroke-width: 3; }
+.pille-fertig { background: var(--ok-soft); border-color: transparent; color: var(--ok-ink); }
+.pille-weg { border-style: dashed; color: var(--text-leise); }
+.pille-jetzt { background: var(--fach); border-color: var(--fach); color: var(--auf-fach); }
+.pille:focus-visible { outline: 2px solid var(--fach); outline-offset: 2px; }
+.aufgaben-stand { margin: 0; font-size: 15px; color: var(--text-leise); white-space: nowrap; }
+@media (max-width: 48rem) { .aufgaben-stand { display: none; } }
+
+.fokus .aufgabe-kopf { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; margin-bottom: .8rem; }
+.fokus .aufgabe-kopf h2 { margin: 0; font-size: 28px; font-weight: 800; color: var(--text); }
+.fokus .loesung { margin-top: 0; padding: 1.1rem 1.3rem; font-size: var(--fs-md); }
+.fokus .aufgabentext { font-size: var(--fs-md); padding: 1rem 1.2rem; border-radius: 12px; margin-bottom: 1rem; }
+.punkte-wahl { border: 0; margin: 1.4rem 0 0; padding: 0; min-width: 0; }
+.punkte-wahl legend, .punkte-wahl .legende { padding: 0; margin: 0 0 .6rem; font-size: var(--fs-md); font-weight: 700; color: var(--text); }
+.punkte-tasten { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: 8px; }
+@media (max-width: 34rem) { .punkte-tasten { grid-template-columns: repeat(auto-fill, minmax(3.6rem, 1fr)); } }
+.punkte-taste {
+  min-height: 60px; border-radius: 12px; border: 1px solid var(--linie-2); background: var(--flaeche);
+  font: inherit; font-size: 22px; font-weight: 700; color: var(--text); cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+}
+.punkte-taste:hover { background: var(--flaeche-2); }
+.punkte-taste[aria-pressed="true"] { background: var(--primaer); border-color: var(--primaer); color: var(--primaer-text); }
+.punkte-taste:focus-visible { outline: 2px solid var(--fach); outline-offset: 2px; }
+.punkte-wahl[disabled] .punkte-taste { opacity: .45; cursor: not-allowed; }
+.kontroll-btn { font-size: var(--fs-md); }
+.kontroll-punkte { font-size: 14px; font-weight: 600; opacity: .8; }
+.fokus .schalter { margin-top: .5rem; }
+.fokus-nav { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .8rem; margin-top: 1.6rem; padding-top: 1.2rem; border-top: 1px solid var(--linie); }
+.fokus-nav .btn svg { width: 18px; height: 18px; }
+
+/* ---------- Tandem ---------- */
+.takt { background: var(--flaeche); border-bottom: 1px solid var(--linie); }
+.takt-innen { max-width: var(--breite); margin: 0 auto; padding: .9rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: .8rem 1.6rem; }
+@media (min-width: 48rem) { .takt-innen { padding: 1rem 3rem; } }
+.takt-zahl { display: flex; align-items: center; gap: .9rem; margin: 0; max-width: 24rem; font-size: 14px; line-height: 1.35; color: var(--text-leise); }
+.takt-zahl b { font-size: 56px; line-height: 1; font-weight: 800; color: var(--fach); font-variant-numeric: tabular-nums; }
+.takt-zahl strong { color: var(--text); font-size: 16px; }
+.takt-punkte { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; }
+.takt-punkt button { width: 44px; height: 44px; border-radius: 12px; border: 0; font: inherit; font-size: 16px; font-weight: 800; cursor: pointer; }
+.takt-punkt.ist-eigen button { background: var(--flaeche); color: var(--text); box-shadow: inset 0 0 0 2px var(--primaer); }
+.takt-punkt.ist-partner button { background: var(--flaeche-3); color: var(--text-leise); }
+.takt-punkt.ist-fertig button { background: var(--primaer); color: var(--primaer-text); box-shadow: none; }
+.takt-punkt.ist-aktuell button { background: var(--fach); color: var(--auf-fach); box-shadow: 0 0 0 3px var(--fach-soft); }
+.takt-punkt button:focus-visible { outline: 2px solid var(--fach); outline-offset: 2px; }
+.takt-legende { display: flex; flex-direction: column; gap: 4px; margin: 0 0 0 auto; font-size: 13px; color: var(--text-leise); }
+.takt-legende span { display: inline-flex; align-items: center; gap: 6px; }
+.takt-legende i { width: 14px; height: 14px; border-radius: 4px; }
+.l-eigen { box-shadow: inset 0 0 0 2px var(--primaer); }
+.l-partner { background: var(--flaeche-3); }
+.karte-eigen { border: 2px solid var(--primaer); }
+.karte-partner { background: var(--flaeche-2); }
+.rolle-marke { font-size: 14px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--text-leise); }
+.rolle-eigen { color: var(--primaer); }
+.gross-zahl { margin: 0 0 .3rem; font-size: 16px; color: var(--text-leise); }
+.gross-zahl b { font-size: 30px; font-weight: 800; color: var(--text); }
+
+/* ---------- Selbsteinschätzung (Checkliste) ---------- */
+.ck-legende { display: flex; justify-content: flex-end; align-items: center; gap: .5rem; margin: 0 0 .8rem; font-size: 14px; color: var(--text-leise); }
+.ck-legende .gesicht { width: 22px; height: 22px; }
+.ck-linie { width: 10rem; height: 1px; background: var(--linie-2); }
+.ck-gruppe { padding: .4rem 1.4rem; }
+.ck-kopf { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem .7rem; padding: .8rem 0 .4rem; }
+.ck-kopf h2 { margin: 0; font-size: 19px; font-weight: 800; }
+.ck-nr { width: 32px; height: 32px; border-radius: 50%; background: var(--fach); color: var(--auf-fach); font-weight: 800; font-size: 15px; display: inline-flex; align-items: center; justify-content: center; }
+.ck-zeile { display: grid; gap: .3rem 1.6rem; align-items: center; padding: .7rem 0; border-top: 1px solid var(--linie); }
+@media (min-width: 48rem) { .ck-zeile { grid-template-columns: minmax(0, 1fr) 22rem; } }
+.ck-zeile > p { margin: 0; color: var(--text); line-height: 1.35; }
+.ck-zeile .skala-gruppe { margin: 0; }
+.ck-zeile .skala-feld { max-width: none; }
+
+/* ---------- Auswertung ---------- */
+.auswertung { display: grid; gap: 1.2rem; align-items: start; }
+@media (min-width: 60rem) { .auswertung { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+.auswertung .karte { margin: 0; }
+.auswertung h2 { font-size: 20px; font-weight: 800; }
+.karte-breit { grid-column: 1 / -1; }
+.auswertung-rechts { display: flex; flex-direction: column; gap: 1.2rem; }
+
+.kalib { margin-top: .6rem; }
+.kalib-zeile {
+  display: grid; grid-template-columns: minmax(0, 1fr) 8rem 4rem 10rem; gap: .8rem; align-items: center;
+  min-height: 52px; padding: .4rem 0; border-top: 1px solid var(--linie); font-size: 15px;
+}
+.kalib-kopf { border-top: 0; min-height: 30px; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--text-leise); }
+.kalib-station b { color: var(--text); }
+.kalib-hinweis { display: block; font-size: 13px; color: var(--text-leise); }
+.mini-skala {
+  position: relative; display: block; height: 8px; border-radius: 999px;
+  background: linear-gradient(90deg, var(--stufe-1), var(--stufe-2), var(--stufe-3), var(--stufe-4), var(--stufe-5));
+}
+.mini-skala i { position: absolute; top: -5px; width: 4px; height: 18px; margin-left: -2px; border-radius: 2px; background: var(--text); }
+.kalib-quote { font-weight: 700; color: var(--text); font-variant-numeric: tabular-nums; }
+.urteil { display: inline-block; font-size: 13px; font-weight: 700; border-radius: 999px; padding: 3px 10px; background: var(--flaeche-3); color: var(--text-leise); }
+.urteil-passend .urteil { background: var(--ok-soft); color: var(--ok-ink); }
+.urteil-ueberschaetzt .urteil { background: var(--warn-soft); color: var(--warn-ink); }
+.urteil-unterschaetzt .urteil { background: #e3ecf6; color: #1d3a5c; }
+@media (prefers-color-scheme: dark) { .urteil-unterschaetzt .urteil { background: #182633; color: #b6d3f0; } }
+@media (max-width: 40rem) {
+  .kalib-zeile { grid-template-columns: minmax(0, 1fr) auto; }
+  .kalib-kopf { display: none; }
+  .kalib-lage { grid-column: 1 / -1; }
 }

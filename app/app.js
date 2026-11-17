@@ -105,7 +105,22 @@ const TEXTE = {
   tandemFertig: {
     du: 'Alle Nummern sind durch. Räumt auf und schaut euch die Auswertung an.',
     sie: 'Alle Nummern sind durch. Sehen Sie sich zum Abschluss die Auswertung an.'
-  }
+  },
+  skalaTipp: {
+    du: 'Tippe auf die Stelle der Linie, die passt.',
+    sie: 'Tippen Sie auf die Stelle der Linie, die passt.'
+  },
+  loesungenGleich: {
+    du: 'Die Lösungen zu # Aufgaben erscheinen, sobald du getippt hast.',
+    sie: 'Die Lösungen zu # Aufgaben erscheinen, sobald Sie getippt haben.'
+  },
+  punkteFrage: { du: 'Wie viele Punkte hast du?', sie: 'Wie viele Punkte haben Sie?' },
+  nichtBearbeitet: {
+    du: 'Diese Aufgabe habe ich nicht bearbeitet',
+    sie: 'Diese Aufgabe habe ich nicht bearbeitet'
+  },
+  legendeEigen: { du: 'Du löst laut', sie: 'Sie lösen laut' },
+  legendePartner: { du: 'Du kontrollierst', sie: 'Sie kontrollieren' }
 };
 
 const KONTROLLEN = [
@@ -169,10 +184,11 @@ function fehlerAnsicht(titel, details) {
   const dateiHinweis = location.protocol === 'file:'
     ? '<p class="hinweis hinweis-warn">Die Seite wurde direkt aus dem Dateisystem geöffnet. Browser blockieren dabei das Laden der Inhalte. Bitte einen kleinen Webserver starten, z.&nbsp;B. im Projektordner <code>python -m http.server 8000</code>, und dann <code>http://localhost:8000</code> aufrufen.</p>'
     : '';
+  document.documentElement.dataset.fach = 'neutral';
   zeichne(
-    '<h1>' + esc(titel) + '</h1>' + dateiHinweis +
+    '<div class="seite"><h1>' + esc(titel) + '</h1>' + dateiHinweis +
     '<p class="hinweis hinweis-warn">' + esc(details) + '</p>' +
-    '<p><a class="btn" href="#/">Zurück zum Anfang</a></p>'
+    '<p><a class="btn" href="#/">Zurück zum Anfang</a></p></div>'
   );
 }
 
@@ -488,7 +504,6 @@ function ansichtStart(fokus) {
   document.documentElement.dataset.fach = 'neutral';
   document.body.classList.add('start');
   document.title = 'Lerntheke';
-  $('#kopfnav').innerHTML = '';
 
   if (startWahl === null) startWahl = startWahlLesen() || {};
   const stufen = startStufen();
@@ -658,46 +673,13 @@ async function themaLaden(stufeId, themaId) {
   return aktuell;
 }
 
-function kopfSetzen(unterseite) {
+function kopfSetzen() {
   document.documentElement.dataset.fach = aktuell.thema.fach || 'neutral';
   document.title = (aktuell.thema.titel || 'Lerntheke') + ' – Lerntheke';
-  const p = themaPfad(aktuell.stufe, aktuell.themaId);
-  $('#kopfnav').innerHTML = unterseite
-    ? '<a href="' + p + '">Stationsübersicht</a>'
-    : '<a href="#/">Thema wechseln</a>';
 }
 
 function speichereZustand() {
   store.speichern(aktuell.zustand);
-}
-
-/* ---------- Ansicht: Selbstdiagnose (Eingang) ---------- */
-
-function ansichtDiagnose() {
-  kopfSetzen(true);
-  const z = aktuell.zustand;
-  const punkte = aktiveCheckliste(aktuell.thema);
-  let html = '<h1>Selbsteinschätzung</h1><p>' + esc(t('diagnoseIntro')) + '</p>';
-
-  if (!punkte.length) {
-    html += '<p class="hinweis">Für dieses Thema ist keine Checkliste hinterlegt.</p>';
-  }
-  for (const c of punkte) {
-    html += '<section class="karte"><h2>' + markdownZeile(c.text) + '</h2>' +
-      skala({
-        feld: 'eingang-' + c.id,
-        stufe: z.diagnose.eingang[c.id],
-        lage: z.diagnoseLage.eingang[c.id],
-        frage: t('wieSicherJetzt')
-      }).replace('<fieldset', '<fieldset data-diagnose="eingang" data-id="' + esc(c.id) + '"') +
-      '</section>';
-  }
-
-  html += '<div class="btn-reihe">' +
-    '<a class="btn btn-primaer" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '">Weiter zu den Stationen</a>' +
-    '<a class="btn btn-schlicht" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '">Überspringen</a>' +
-    '</div>';
-  zeichne(html);
 }
 
 function markdownZeile(text) {
@@ -705,70 +687,224 @@ function markdownZeile(text) {
   return html.replace(/^<p>/, '').replace(/<\/p>$/, '');
 }
 
+function fachName(fach) {
+  return fach === 'physik' ? 'Physik' : fach === 'mathe' ? 'Mathematik' : fach || '';
+}
+
+function uebersichtPfad() { return themaPfad(aktuell.stufe, aktuell.themaId); }
+function stationsPfad(id) { return uebersichtPfad() + '/s/' + encodeURIComponent(id); }
+
+/* ---------- Kopfband ----------
+   Dunkler Kopf mit Verlauf aus der Fachfarbe in Tinte – wie die Startseiten der
+   LMG-Plattformen, nur je Fach in einer Farbe (Tim, 17.11.2026).
+   o = { unter, titel, rechts, lead, unten }                                  */
+
+const ZURUECK = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>';
+const WEITER = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>';
+const FAHNE = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V4M4 4h12l-2 4 2 4H4"/></svg>';
+
+function band(o) {
+  const ort = esc(aktuell.stufeName) + ' ' + esc(fachName(aktuell.thema.fach));
+  return '<header class="band"><div class="band-innen">' +
+    '<div class="band-leiste">' +
+    '<a class="band-marke" href="' + uebersichtPfad() + '"><span class="lmg" aria-hidden="true">LMG</span>' +
+    '<span>Lerntheke · ' + ort + '</span></a>' +
+    '<a class="band-link" href="#/">Thema wechseln</a></div>' +
+    '<div class="band-held"><div class="band-text">' +
+    (o.unter ? '<p class="band-unter">' + o.unter + '</p>' : '') +
+    '<h1>' + o.titel + '</h1>' +
+    (o.lead ? '<p class="band-lead">' + o.lead + '</p>' : '') +
+    '</div>' + (o.rechts ? '<div class="band-rechts">' + o.rechts + '</div>' : '') + '</div>' +
+    (o.unten || '') +
+    '</div></header>';
+}
+
+/** Kompakter Kopf für Stationen: zurück, Kennung, Titel, rechts Arbeitsblatt oder Rolle. */
+function stationsBand(station, rechts) {
+  const unter = [
+    esc(aktuell.thema.titel || ''),
+    station.dauer_min ? esc(String(station.dauer_min)) + ' min' : '',
+    esc(sozialformText(station.sozialform)),
+    station.hilfsmittel ? esc(station.hilfsmittel) : ''
+  ].filter(Boolean).join(' · ');
+  return '<header class="band band-kompakt"><div class="band-innen">' +
+    '<a class="band-zurueck" href="' + uebersichtPfad() + '" aria-label="Zur Stationsübersicht">' + ZURUECK + '</a>' +
+    '<span class="kennung kat-' + katVon(station) + '">' + esc(station.id) + '</span>' +
+    '<div class="band-text"><p class="band-unter">' + unter + '</p>' +
+    '<h1>' + esc(station.titel || station.id) + '</h1></div>' +
+    (rechts ? '<div class="band-rechts">' + rechts + '</div>' : '') +
+    '</div></header>';
+}
+
+/** Kategorie für Farbe und Form der Kennung. Ohne Kategorien: Pflicht gefüllt, Wahl umrandet. */
+function katVon(station) {
+  if ('kategorie' in station) return kategorieVon(station);
+  return station.typ === 'wahl' ? 'wahl' : 'pflicht';
+}
+
+/* ---------- Ansicht: Selbsteinschätzung (Eingang) ---------- */
+
+function ansichtDiagnose() {
+  kopfSetzen();
+  const z = aktuell.zustand;
+  const thema = aktuell.thema;
+  const punkte = aktiveCheckliste(thema);
+  const gesetzt = punkte.filter((c) => z.diagnose.eingang[c.id]).length;
+
+  let html = band({
+    unter: esc(thema.titel || ''),
+    titel: 'Selbsteinschätzung',
+    // Mit Kategorien gibt es keine Wahlstationen mehr (Tim, 16.11.2026)
+    lead: esc(thema.stationen.some((s) => 'kategorie' in s)
+      ? t('diagnoseIntro').replace('Wahlstationen', 'Stationen')
+      : t('diagnoseIntro')),
+    rechts: '<p class="band-zahl"><span>eingeschätzt</span><b id="ck-zaehler">' + gesetzt + '</b> von ' + punkte.length + '</p>'
+  });
+  html += '<div class="seite">';
+
+  if (!punkte.length) {
+    html += '<p class="hinweis">Für dieses Thema ist keine Checkliste hinterlegt.</p>';
+  } else {
+    html += '<p class="ck-legende" aria-hidden="true">' + gesicht(1) + 'unsicher<span class="ck-linie"></span>sicher' + gesicht(5) + '</p>';
+  }
+
+  // Gruppen nach den Phasen des Lernwegs; was keiner Phase angehört, kommt ans Ende.
+  const phasen = Array.isArray(thema.phasen) ? thema.phasen : [];
+  const vergeben = new Set();
+  const gruppen = phasen.map((p, i) => {
+    const liste = punkte.filter((c) => (p.checkliste || []).includes(c.id) && !vergeben.has(c.id));
+    liste.forEach((c) => vergeben.add(c.id));
+    return { nr: String(i + 1), name: p.name || p.id, unter: p.untertitel || '', punkte: liste };
+  }).filter((g) => g.punkte.length);
+  const rest = punkte.filter((c) => !vergeben.has(c.id));
+  if (rest.length) gruppen.push({ nr: gruppen.length ? '+' : '', name: gruppen.length ? 'Weitere Punkte' : '', unter: '', punkte: rest });
+
+  for (const g of gruppen) {
+    html += '<section class="karte ck-gruppe">' +
+      (g.name ? '<div class="ck-kopf"><span class="ck-nr">' + esc(g.nr) + '</span><h2>' + esc(g.name) + '</h2>' +
+        (g.unter ? '<span class="meta">' + esc(g.unter) + '</span>' : '') + '</div>' : '') +
+      g.punkte.map((c) => '<div class="ck-zeile"><p>' + markdownZeile(c.text) + '</p>' +
+        skala({
+          feld: 'eingang-' + c.id,
+          stufe: z.diagnose.eingang[c.id],
+          lage: z.diagnoseLage.eingang[c.id],
+          label: c.text
+        }).replace('<fieldset', '<fieldset data-diagnose="eingang" data-id="' + esc(c.id) + '"') +
+        '</div>').join('') +
+      '</section>';
+  }
+
+  html += '<div class="btn-reihe">' +
+    '<a class="btn btn-primaer btn-gross-b" href="' + uebersichtPfad() + '">Weiter zu den Stationen</a>' +
+    '<a class="btn btn-gross-b" href="' + uebersichtPfad() + '">Überspringen</a>' +
+    '</div></div>';
+  zeichne(html);
+}
+
 /* ---------- Ansicht: Stationsübersicht ---------- */
 
+let filterWahl = 'alle';
+
 function ansichtStationen() {
-  kopfSetzen(false);
+  kopfSetzen();
   const z = aktuell.zustand;
   const thema = aktuell.thema;
   const g = gesamtWerte(thema, z);
   const diagnoseGemacht = Object.keys(z.diagnose.eingang).length > 0;
 
-  let html = '<h1>' + esc(thema.titel || aktuell.katalogEintrag.name) + '</h1>' +
-    '<p class="meta meta-reihe"><span>' + esc(aktuell.stufeName) + '</span><span>' +
-    esc(thema.fach === 'physik' ? 'Physik' : thema.fach === 'mathe' ? 'Mathematik' : thema.fach || '') + '</span></p>';
-
-  if (thema.hinweis) html += '<p class="hinweis">' + markdownZeile(thema.hinweis) + '</p>';
-
-  html += '<section class="karte">' +
-    '<h2>Fortschritt</h2>' +
-    balkenZeile('Punkte', g.erreicht, g.max) +
-    '<p class="meta">' + aufgabenZeile(g) + '</p>' +
-    '<div class="btn-reihe">' +
-    '<a class="btn" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '/auswertung">' +
-    symbol('ergebnis') + 'Auswertung</a>' +
-    '<a class="btn btn-schlicht" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '/diagnose">' +
-    (diagnoseGemacht ? 'Selbsteinschätzung ansehen' : 'Selbsteinschätzung starten') + '</a>' +
-    '</div></section>';
-
-  html += lernwegKarte(thema, z);
-
-  if (!diagnoseGemacht && aktiveCheckliste(thema).length) {
-    const welche = thema.stationen.some((s) => 'kategorie' in s) ? 'Stationen' : 'Wahlstationen';
-    html += '<p class="hinweis">Noch keine Selbsteinschätzung. Sie hilft dabei, die passenden ' + welche + ' zu erkennen.</p>';
-  }
-
-  // Kategorien (optional): grundlagen → neue Themen (Pflicht/Wahl) → vernetzen.
-  // Ohne "kategorie" im Thema bleibt die Übersicht wie bisher.
   const grundlagen = thema.stationen.filter((s) => kategorieVon(s) === 'grundlagen');
   const vernetzen = thema.stationen.filter((s) => kategorieVon(s) === 'vernetzen');
   const neu = thema.stationen.filter((s) => kategorieVon(s) === 'neu');
-  const mitKategorien = grundlagen.length + vernetzen.length > 0;
-  const pflicht = neu.filter((s) => s.typ !== 'wahl');
-  const wahl = neu.filter((s) => s.typ === 'wahl');
-  const liste = (stn) => '<ul class="kacheln">' + stn.map((s) => stationsKarte(s, z)).join('') + '</ul>';
-  const abschnitt = (titel, erkl, stn) => stn.length
-    ? '<p class="kicker">' + titel + '</p>' + (erkl ? '<p class="meta kategorie-erkl">' + erkl + '</p>' : '') + liste(stn)
+  const mitKategorien = thema.stationen.some((s) => 'kategorie' in s);
+
+  let html = band({
+    unter: aktuell.katalogEintrag.beschreibung ? esc(aktuell.katalogEintrag.beschreibung) : '',
+    titel: esc(thema.titel || aktuell.katalogEintrag.name),
+    rechts: '<p class="band-zahl"><span>' + (anrede() === 'sie' ? 'Ihr' : 'Dein') + ' Stand</span><b>' + pkt(g.erreicht) +
+      '</b> / ' + pkt(g.max) + ' P</p>',
+    unten: lernpfad(thema, z)
+  });
+
+  html += '<div class="seite">';
+
+  const naechste = naechsteStation(thema, z, mitKategorien ? grundlagen.concat(neu, vernetzen) : thema.stationen);
+  if (naechste) html += naechsteKarte(naechste, z);
+
+  if (thema.hinweis) html += '<p class="hinweis">' + markdownZeile(thema.hinweis) + '</p>';
+  if (!diagnoseGemacht && aktiveCheckliste(thema).length) {
+    html += '<p class="hinweis">Noch keine Selbsteinschätzung. Sie hilft dabei, die passenden ' +
+      (mitKategorien ? 'Stationen' : 'Wahlstationen') + ' zu erkennen.</p>';
+  }
+
+  // Werkzeugleiste: Filter (nur mit Kategorien), Auswertung, Selbsteinschätzung
+  const filter = mitKategorien
+    ? '<div class="filter" role="group" aria-label="Stationen filtern">' +
+      [['alle', 'Alle ' + thema.stationen.length], ['grundlagen', 'Grundlagen'], ['neu', 'Neue Themen'], ['vernetzen', 'Vernetzen']]
+        .map(([id, text]) => '<button type="button" data-aktion="filter" data-wert="' + id + '" aria-pressed="' +
+          (filterWahl === id) + '">' + text + '</button>').join('') + '</div>'
+    : '<span></span>';
+  html += '<div class="werkzeuge">' + filter + '<div class="btn-reihe">' +
+    '<a class="btn" href="' + uebersichtPfad() + '/auswertung">' + symbol('ergebnis') + 'Auswertung</a>' +
+    '<a class="btn" href="' + uebersichtPfad() + '/diagnose">' + (diagnoseGemacht ? 'Selbsteinschätzung ansehen' : 'Selbsteinschätzung') + '</a>' +
+    '</div></div>';
+
+  const abschnitt = (id, titel, erkl, stn) => stn.length
+    ? '<section class="gruppe" data-gruppe="' + id + '"' + (filterWahl !== 'alle' && filterWahl !== id ? ' hidden' : '') + '>' +
+      '<div class="gruppe-kopf"><h2>' + titel + '</h2>' + (erkl ? '<span>' + erkl + '</span>' : '') + '</div>' +
+      '<ul class="karten">' + stn.map((s) => stationsKarte(s, z)).join('') + '</ul></section>'
     : '';
 
   if (mitKategorien) {
     // Mit Kategorien keine Trennung Pflicht/Wahl: alles ist prüfungsrelevant (Tim, 16.11.2026).
-    html += abschnitt('Grundlagen', 'Vorwissen aus früheren Themen auffrischen – am besten vor den neuen Themen.', grundlagen);
-    html += abschnitt('Neue Themen', 'Das neue Thema Schritt für Schritt – in der Reihenfolge des Lernwegs.', neu);
-    html += abschnitt('Vernetzen', 'Aufgaben, die alles bisher Gelernte verbinden. Jede Station kommt nach einer Phase des Lernwegs hinzu.', vernetzen);
+    html += abschnitt('grundlagen', 'Grundlagen', 'Vorwissen auffrischen – am besten vor den neuen Themen', grundlagen);
+    html += abschnitt('neu', 'Neue Themen', 'in der Reihenfolge des Lernwegs', neu);
+    html += abschnitt('vernetzen', 'Vernetzen', 'nach jeder Phase eine Aufgabe, die alles verbindet', vernetzen);
   } else {
-    html += abschnitt('Pflichtstationen', '', pflicht);
-    html += abschnitt('Wahlstationen', '', wahl);
+    html += abschnitt('pflicht', 'Pflichtstationen', '', neu.filter((s) => s.typ !== 'wahl'));
+    html += abschnitt('wahl', 'Wahlstationen', '', neu.filter((s) => s.typ === 'wahl'));
   }
   if (!thema.stationen.length) html += '<p class="hinweis">Dieses Thema enthält noch keine Stationen.</p>';
 
+  const details = lernwegKarte(thema, z);
+  if (details) {
+    html += '<details class="lernweg-details"><summary>Was in den Phasen drankommt</summary>' + details + '</details>';
+  }
+
+  html += '</div>';
   zeichne(html);
 }
 
-/* ---------- Lernweg ----------
+/** Erste begonnene Station im Lernweg, sonst die erste offene. */
+function naechsteStation(thema, z, reihenfolge) {
+  return reihenfolge.find((s) => stationsStatus(s, z) === 'begonnen') ||
+    reihenfolge.find((s) => stationsStatus(s, z) === 'offen') || null;
+}
+
+function naechsteKarte(station, z) {
+  const status = stationsStatus(station, z);
+  const s = stand(z, station.id);
+  const w = stationsWerte(station, z);
+  let zustand = 'noch nicht begonnen';
+  if (status === 'begonnen') {
+    if (istTandem(station)) zustand = 'begonnen';
+    else if (!s.bereit && !s.stufe) zustand = 'geöffnet';
+    else if (!s.stufe) zustand = 'Einschätzung fehlt noch';
+    else zustand = 'noch ' + (w.bearbeitet - w.bewertet) + ' Aufgabe' + (w.bearbeitet - w.bewertet === 1 ? '' : 'n') + ' auswerten';
+  }
+  const meta = [zustand, station.dauer_min ? station.dauer_min + ' min' : '', station.hilfsmittel || '']
+    .filter(Boolean).map(esc).join(' · ');
+  return '<a class="naechste" href="' + stationsPfad(station.id) + '">' +
+    '<span class="kennung kennung-gross kat-' + katVon(station) + '">' + esc(station.id) + '</span>' +
+    '<span class="naechste-text"><span class="naechste-marke">Als Nächstes</span>' +
+    '<span class="naechste-titel">' + esc(station.titel || '') + '</span>' +
+    '<span class="meta">' + meta + '</span></span>' +
+    '<span class="btn btn-primaer btn-gross-b">' + (status === 'begonnen' ? 'Fortsetzen' : 'Starten') + PFEIL + '</span></a>';
+}
+
+/* ---------- Lernpfad ----------
    Die Phasen stehen im thema.json. Sie ordnen die Kompetenzen der Checkliste
-   zu Abschnitten und zeigen, wo im Thema man gerade steht. Fehlen sie, entfällt
-   der ganze Abschnitt – kein Pflichtfeld. */
+   zu Abschnitten. Im Kopf erscheinen sie als Pfad mit den Stationen je Phase;
+   eine Phase gilt als erledigt, wenn alle ihre Stationen fertig sind. */
 
 /** Phase, zu der eine Station gehört: entscheidend ist ihr erster Checklistenpunkt. */
 function phaseVonStation(station, phasen) {
@@ -779,15 +915,58 @@ function phaseVonStation(station, phasen) {
   return phasen.find((p) => refs.some((r) => (p.checkliste || []).includes(r))) || null;
 }
 
-function lernwegKarte(thema, z) {
+function stationenJePhase(thema) {
   const phasen = Array.isArray(thema.phasen) ? thema.phasen : [];
-  if (!phasen.length) return '';
-
   const zuordnung = new Map(phasen.map((p) => [p.id, []]));
   for (const st of thema.stationen) {
     const p = phaseVonStation(st, phasen);
     if (p && zuordnung.has(p.id)) zuordnung.get(p.id).push(st);
   }
+  return { phasen, zuordnung };
+}
+
+function lernpfad(thema, z) {
+  const { phasen, zuordnung } = stationenJePhase(thema);
+  if (!phasen.length) return '';
+
+  const fertig = phasen.map((p) => {
+    const stn = zuordnung.get(p.id) || [];
+    return stn.length > 0 && stn.every((s) => stationsStatus(s, z) === 'fertig');
+  });
+  let jetzt = fertig.findIndex((f) => !f);
+  if (jetzt < 0) jetzt = phasen.length;
+
+  const n = phasen.length + (thema.abschluss ? 1 : 0);
+  const knoten = phasen.map((p, i) => {
+    const art = fertig[i] ? 'fertig' : i === jetzt ? 'jetzt' : 'offen';
+    const stn = zuordnung.get(p.id) || [];
+    return '<li class="pfad-phase pfad-' + art + '"' + (art === 'jetzt' ? ' aria-current="step"' : '') + '>' +
+      '<span class="pfad-knoten">' + (art === 'fertig' ? symbol('haken') : (i + 1)) + '</span>' +
+      '<span class="pfad-name">' + esc(p.name || p.id) + '</span>' +
+      (stn.length ? '<span class="pfad-stationen">' + stn.map((s) => {
+        const st = stationsStatus(s, z);
+        return '<a href="' + stationsPfad(s.id) + '" class="pfad-st pfad-st-' + st + '" aria-label="' +
+          esc(s.id + ' ' + (s.titel || '') + ', ' + st) + '">' + esc(s.id) + '</a>';
+      }).join('') + '</span>' : '') +
+      '</li>';
+  }).join('') +
+    (thema.abschluss
+      ? '<li class="pfad-phase pfad-' + (jetzt >= phasen.length ? 'jetzt' : 'offen') + '"><span class="pfad-knoten">' + FAHNE + '</span>' +
+        '<span class="pfad-name">' + esc(thema.abschluss) + '</span></li>'
+      : '');
+
+  const halb = 50 / n;
+  const fortschritt = Math.min(jetzt, n - 1) * (100 / n);
+  return '<nav class="pfad" aria-label="Lernweg"><ol style="--n:' + n + '">' +
+    '<li class="pfad-linie" aria-hidden="true" style="left:' + halb + '%;right:' + halb + '%"></li>' +
+    '<li class="pfad-linie pfad-linie-voll" aria-hidden="true" style="left:' + halb + '%;width:' + fortschritt + '%"></li>' +
+    knoten + '</ol></nav>';
+}
+
+/** Ausführliche Phasen mit Kompetenzen – aufklappbar unter den Stationen. */
+function lernwegKarte(thema, z) {
+  const { phasen, zuordnung } = stationenJePhase(thema);
+  if (!phasen.length) return '';
 
   const abschnitte = phasen.map((p, i) => {
     const stationen = zuordnung.get(p.id) || [];
@@ -798,96 +977,58 @@ function lernwegKarte(thema, z) {
       max += w.max;
       erreicht += w.erreicht;
     }
-
     const punkte = (p.checkliste || [])
       .map((id) => thema.checkliste.find((c) => c.id === id))
       .filter(Boolean);
 
-    return '<li class="phase phase-' + esc(p.farbe || 'neutral') + '">' +
+    return '<li class="phase">' +
       '<p class="phase-kopf"><span class="phase-nr">' + (i + 1) + '</span>' +
       '<span><span class="phase-name">' + esc(p.name || p.id) + '</span>' +
       (p.untertitel ? '<span class="phase-unter">' + esc(p.untertitel) + '</span>' : '') +
       '</span></p>' +
-      // Bewusst schlichte Punkte statt Gesichter: Der Lernweg zeigt den Aufbau
-      // des Themas, die Einschätzung steht in der Selbsteinschätzung.
       '<ul class="phase-ziele">' + punkte.map((c) =>
         '<li' + (c.spaeter ? ' class="ist-spaeter"' : '') + '><span class="phase-punkt"></span>' +
         markdownZeile(c.text) +
         (c.spaeter ? '<span class="chip chip-spaeter">später</span>' : '') + '</li>'
       ).join('') + '</ul>' +
-      (stationen.length
-        ? '<p class="phase-stationen">' + stationen.map((st) =>
-            '<a class="chip" href="' + themaPfad(aktuell.stufe, aktuell.themaId) +
-            '/s/' + encodeURIComponent(st.id) + '">' + esc(st.id) + '</a>').join('') + '</p>'
-        : '') +
       (max > 0 ? balkenZeile('Punkte', erreicht, max) : '') +
       '</li>';
   }).join('');
 
-  return '<p class="kicker">Lernweg</p>' +
-    '<ol class="lernweg">' + abschnitte +
-    (thema.abschluss ? '<li class="phase phase-ziel"><span class="phase-nr">★</span>' +
-      '<span class="phase-name">' + esc(thema.abschluss) + '</span></li>' : '') +
-    '</ol>';
+  return '<ol class="lernweg">' + abschnitte + '</ol>';
 }
 
 function stationsKarte(station, z) {
   const w = stationsWerte(station, z);
   const status = stationsStatus(station, z);
   const empfohlen = (station.typ === 'wahl' || 'kategorie' in station) && istEmpfohlen(station, z);
-  const pfad = themaPfad(aktuell.stufe, aktuell.themaId) + '/s/' + encodeURIComponent(station.id);
-
   const rolle = rolleVon(station, z);
   const tandemOhneRolle = istTandem(station) && !rolle;
+  const anteil = w.max > 0 ? Math.round((w.erreicht / w.max) * 100) : 0;
 
-  // Bild aus dem Thema; fehlt es, steht dort das Symbol der Sozialform.
-  const bild = station.bild
-    ? '<img src="' + esc(new URL(station.bild, aktuell.ordner).href) + '" alt="" decoding="async">'
-    : '<span class="kachel-ersatz">' + sozialformSymbol(station.sozialform) + '</span>';
-
-  return '<li><a class="kachel karte karte-link" href="' + pfad + '">' +
-    '<span class="kachel-bild">' + bild + '</span>' +
-    '<span class="kachel-text">' +
-    '<span class="kachel-kopf"><span class="kachel-titel">' +
-    '<b class="kachel-kennung">' + esc(station.id) + '</b> ' + esc(station.titel || '') + '</span>' +
-    '<span class="kachel-marken">' +
+  return '<li><a class="s-karte" href="' + stationsPfad(station.id) + '">' +
+    '<span class="s-kopf"><span class="kennung kat-' + katVon(station) + '">' + esc(station.id) + '</span>' +
+    '<span class="s-marken">' +
     (empfohlen ? '<span class="chip chip-empf">' + symbol('empfohlen') + 'empfohlen</span>' : '') +
     statusChip(status) + '</span></span>' +
+    '<span class="s-titel">' + esc(station.titel || '') + '</span>' +
     '<span class="meta meta-reihe">' +
     (station.dauer_min ? '<span>' + symbol('dauer') + esc(String(station.dauer_min)) + ' min</span>' : '') +
     '<span>' + sozialformSymbol(station.sozialform) + esc(sozialformText(station.sozialform)) + '</span>' +
     (station.hilfsmittel ? '<span>' + symbol('hilfsmittel') + esc(station.hilfsmittel) + '</span>' : '') +
-    (tandemOhneRolle
-      ? '<span>' + station.aufgaben.length + ' Nummern zu zweit</span>'
-      : '<span>' + w.anzahl + ' Aufgabe' + (w.anzahl === 1 ? '' : 'n') +
-        (rolle ? ' als Partner ' + esc(rolle) : '') + '</span>') +
     '</span>' +
+    (station.bild ? '<img class="s-bild" src="' + esc(new URL(station.bild, aktuell.ordner).href) + '" alt="" decoding="async">' : '') +
     (tandemOhneRolle
-      ? '<span class="meta">Rolle noch nicht gewählt</span>'
-      : balkenZeile('Punkte', w.erreicht, w.max)) +
-    '</span></a></li>';
+      ? '<span class="s-fuss meta">' + station.aufgaben.length + ' Nummern zu zweit · Rolle noch nicht gewählt</span>'
+      : '<span class="s-fuss"><span class="balken" aria-hidden="true"><i style="width:' + anteil + '%"></i></span>' +
+        '<span class="s-punkte"><b>' + pkt(w.erreicht) + '</b> / ' + pkt(w.max) + ' P</span></span>') +
+    '</a></li>';
 }
 
 /* ---------- Ansicht: Station ---------- */
 
-/** Kopfzeile, Meta-Angaben und Checklistenbezug – für alle Stationsarten gleich. */
-function stationsKopf(station) {
-  const bezug = (station.checkliste || [])
-    .map((id) => (aktuell.thema.checkliste.find((c) => c.id === id) || {}).text)
-    .filter(Boolean);
-
-  return '<p class="meta"><a href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '">← Stationsübersicht</a></p>' +
-    '<h1>' + esc(station.id) + ' · ' + esc(station.titel || '') + '</h1>' +
-    '<p class="meta meta-reihe">' +
-    '<span>' + stationsArt(station) + '</span>' +
-    (station.dauer_min ? '<span>' + symbol('dauer') + esc(String(station.dauer_min)) + ' min</span>' : '') +
-    '<span>' + sozialformSymbol(station.sozialform) + esc(sozialformText(station.sozialform)) + '</span>' +
-    (station.hilfsmittel ? '<span>' + symbol('hilfsmittel') + esc(station.hilfsmittel) + '</span>' : '') +
-    '</p>' +
-    (station.hinweis ? '<p class="hinweis">' + markdownZeile(station.hinweis) + '</p>' : '') +
-    (bezug.length
-      ? '<p class="meta meta-bezug">Darum geht es: ' + bezug.map((b) => markdownZeile(b)).join(' · ') + '</p>'
-      : '');
+function pdfAdresse(station) {
+  return station.pdf ? new URL(station.pdf, aktuell.ordner).href : null;
 }
 
 function pdfKnoepfe(pdfURL) {
@@ -898,32 +1039,69 @@ function pdfKnoepfe(pdfURL) {
     '</div>';
 }
 
+function bandPdf(pdfURL) {
+  return '<a class="band-knopf" href="' + esc(pdfURL) + '" target="_blank" rel="noopener">' +
+    symbol('arbeitsblatt') + 'Arbeitsblatt</a>';
+}
+
 /**
- * Bereich für das Arbeitsblatt.
- * Bei "pdf_optional": true erscheinen die Knöpfe erst, wenn die Datei wirklich existiert –
- * Tandemstationen kommen ohne Papier aus, ein Druck-PDF ist dort nur eine Zugabe.
+ * Arbeitsblatt im Kopf. Bei "pdf_optional": true erscheint der Knopf erst, wenn die Datei
+ * wirklich existiert – Tandemstationen kommen ohne Papier aus.
  */
-function pdfBereich(station) {
-  const pdfURL = station.pdf ? new URL(station.pdf, aktuell.ordner).href : null;
+function pdfImBand(station) {
+  const url = pdfAdresse(station);
+  if (!url) return '';
   if (station.pdf_optional) {
-    if (pdfURL) pruefePdfNach(pdfURL);
-    return '<div id="pdf-platz"></div>';
+    pruefePdfNach(url);
+    return '<span id="pdf-platz"></span>';
   }
-  if (!pdfURL) return '<p class="hinweis hinweis-warn">Zu dieser Station ist kein Arbeitsblatt hinterlegt.</p>';
-  return pdfKnoepfe(pdfURL);
+  return bandPdf(url);
 }
 
 function pruefePdfNach(pdfURL) {
   fetch(pdfURL, { method: 'HEAD' })
     .then((antwort) => {
       const platz = document.getElementById('pdf-platz');
-      if (antwort.ok && platz) platz.innerHTML = pdfKnoepfe(pdfURL);
+      if (antwort.ok && platz) platz.innerHTML = bandPdf(pdfURL);
     })
     .catch(() => { /* ohne Datei bleibt der Bereich leer */ });
 }
 
+/** Ablauf einer Station in drei Schritten; aktiv ist 1, 2 oder 3. */
+function ablaufLeiste(aktiv) {
+  const schritte = ['Blatt bearbeiten', 'Einschätzen', 'Lösungen und Punkte'];
+  return '<nav class="ablauf" aria-label="Ablauf der Station"><ol>' + schritte.map((text, i) => {
+    const nr = i + 1;
+    const art = nr < aktiv ? 'fertig' : nr === aktiv ? 'jetzt' : 'offen';
+    return (i ? '<li class="ablauf-linie ablauf-linie-' + (nr <= aktiv ? 'fertig' : 'offen') + '" aria-hidden="true"></li>' : '') +
+      '<li class="ablauf-schritt ablauf-' + art + '"' + (art === 'jetzt' ? ' aria-current="step"' : '') + '>' +
+      '<span class="ablauf-nr">' + (art === 'fertig' ? symbol('haken') : nr) + '</span>' + text + '</li>';
+  }).join('') + '</ol></nav>';
+}
+
+/** Darum geht es: die Checklistenpunkte der Station. */
+function bezugHtml(station) {
+  const bezug = (station.checkliste || [])
+    .map((id) => (aktuell.thema.checkliste.find((c) => c.id === id) || {}).text)
+    .filter(Boolean);
+  return bezug.length
+    ? '<p class="meta meta-bezug">Darum geht es: ' + bezug.map((b) => markdownZeile(b)).join(' · ') + '</p>'
+    : '';
+}
+
+/** Seitenleiste vor den Lösungen: was auf dem Blatt steht. */
+function blattListe(station) {
+  if (!station.aufgaben.length) return '';
+  return '<section class="karte"><p class="lbl">Auf dem Blatt</p><ul class="blatt-liste">' +
+    station.aufgaben.map((a) => {
+      const maxA = Number(a.punkte) || 0;
+      return '<li><b>' + esc(a.label || a.id) + '</b><span class="chip">' + pkt(maxA) + ' P</span>' +
+        (a.afb ? '<span class="chip">AFB ' + esc(a.afb) + '</span>' : '') + '</li>';
+    }).join('') + '</ul></section>';
+}
+
 function ansichtStation(stationId) {
-  kopfSetzen(true);
+  kopfSetzen();
   const z = aktuell.zustand;
   const station = aktuell.thema.stationen.find((s) => String(s.id) === String(stationId));
   if (!station) {
@@ -938,53 +1116,131 @@ function ansichtStation(stationId) {
   if (istTandem(station)) { ansichtTandem(station); return; }
 
   const s = stand(z, station.id);
-  const w = stationsWerte(station, z);
-  const frei = !!s.stufe;      // Lösungen sind freigeschaltet
+  const schritt = s.stufe ? 3 : s.bereit ? 2 : 1;
+  const pdfURL = pdfAdresse(station);
 
-  let html = stationsKopf(station) + pdfBereich(station);
+  let html = stationsBand(station, pdfURL ? bandPdf(pdfURL) : '') + ablaufLeiste(schritt);
+  html += '<div class="seite"><div class="zweispaltig">';
 
-  html += '<h2 style="margin-top:1.4rem">Aufgaben</h2>';
-
-  if (!frei) {
-    // Vor der Freischaltung: nur die Übersicht, was auf dem Blatt zu tun ist.
-    html += '<p class="meta">' + esc(t('stationVorher')) + '</p>' +
-      station.aufgaben.map((a) => aufgabenKarte(a, z, false)).join('');
-
-    html += s.bereit
-      ? '<section class="karte station-einschaetzung">' +
-        '<h3>' + esc(t('stationFrage')) + '</h3>' +
-        '<p class="meta">' + esc(t('stationFrageHinweis')) + '</p>' +
-        skala({ feld: 'station-' + station.id, stufe: null, lage: null, label: t('stationFrage') })
-          .replace('<fieldset', '<fieldset data-stationskala="' + esc(station.id) + '"') +
-        '</section>'
-      : '<div class="btn-reihe"><button type="button" class="btn btn-primaer btn-gross" ' +
-        'data-aktion="freischalten" data-id="' + esc(station.id) + '">' +
-        symbol('loesung') + esc(t('freischaltenBtn')) + '</button></div>';
-
-    html += '<div class="btn-reihe"><a class="btn btn-schlicht" href="' +
-      themaPfad(aktuell.stufe, aktuell.themaId) + '">Zurück zur Übersicht</a></div>';
+  if (schritt === 1) {
+    html += '<section class="karte karte-gross"><p class="lbl lbl-fach">Schritt 1 von 3</p>' +
+      '<h2>Blatt bearbeiten</h2><p>' + esc(t('stationVorher')) + '</p>' +
+      (pdfURL ? pdfKnoepfe(pdfURL) : '<p class="hinweis hinweis-warn">Zu dieser Station ist kein Arbeitsblatt hinterlegt.</p>') +
+      (station.hinweis ? '<p class="hinweis">' + markdownZeile(station.hinweis) + '</p>' : '') +
+      bezugHtml(station) +
+      '<div class="btn-reihe karte-fuss"><button type="button" class="btn btn-primaer btn-gross-b" ' +
+      'data-aktion="freischalten" data-id="' + esc(station.id) + '">' +
+      symbol('loesung') + esc(t('freischaltenBtn')) + '</button></div></section>' +
+      '<aside class="seitenleiste">' + blattListe(station) + '</aside>';
+  } else if (schritt === 2) {
+    html += '<section class="karte karte-gross karte-fach station-einschaetzung"><p class="lbl lbl-fach">Schritt 2 von 3</p>' +
+      '<h2 class="frage-gross">' + esc(t('stationFrage')) + '</h2>' +
+      '<p>' + esc(t('stationFrageHinweis')) + '</p>' +
+      '<div class="skala-gross">' +
+      skala({ feld: 'station-' + station.id, stufe: null, lage: null, label: t('stationFrage') })
+        .replace('<fieldset', '<fieldset data-stationskala="' + esc(station.id) + '"') +
+      '<p class="meta skala-tipp">' + esc(t('skalaTipp')) + '</p></div>' +
+      '<p class="karte-fuss meta">' + symbol('loesung') + esc(t('loesungenGleich').replace('#', String(station.aufgaben.length))) + '</p>' +
+      '</section>' +
+      '<aside class="seitenleiste">' +
+      (station.hinweis ? '<section class="karte"><p class="lbl">Hinweis zur Station</p><p>' + markdownZeile(station.hinweis) + '</p></section>' : '') +
+      blattListe(station) + '</aside>';
+  } else {
+    html = html.replace('<div class="seite"><div class="zweispaltig">', '');
+    html += fokusAnsicht(station, z, s);
     zeichne(html);
     return;
   }
 
-  // Nach der Freischaltung: Einschätzung (änderbar), dann alle Lösungen mit Punkten.
-  html += '<section class="karte station-einschaetzung">' +
-    '<h3>' + esc(t('stationFrage')) + '</h3>' +
-    skala({ feld: 'station-' + station.id, stufe: s.stufe, lage: s.lage, label: t('stationFrage') })
-      .replace('<fieldset', '<fieldset data-stationskala="' + esc(station.id) + '"') +
-    '<p class="meta">' + esc(t('stationFrageSpaeter')) + '</p>' +
-    '</section>';
+  html += '</div></div>';
+  zeichne(html);
+}
 
-  html += '<p class="meta" id="station-stand">' + standZeile(w) + '</p>' +
-    station.aufgaben.map((a) => aufgabenKarte(a, z, true)).join('');
+/** Nach dem Freischalten: eine Aufgabe nach der anderen (Tim, 17.11.2026). */
+function fokusAnsicht(station, z, s) {
+  const n = station.aufgaben.length;
+  const w = stationsWerte(station, z);
+  if (!n) return '<div class="seite"><p class="hinweis hinweis-warn">Diese Station enthält keine Aufgaben.</p></div>';
+  const i = grenze(s.schritt || 0, 0, n - 1);
+  const a = station.aufgaben[i];
 
-  html += '<div class="btn-reihe">' +
-    '<a class="btn btn-primaer" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '">' +
-    symbol('haken') + esc(t('stationFertigBtn')) + '</a>' +
-    '<a class="btn btn-schlicht" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '/auswertung">Auswertung</a>' +
+  const leiste = '<nav class="aufgaben-leiste" aria-label="Aufgaben"><div class="aufgaben-leiste-innen">' +
+    '<ol>' + station.aufgaben.map((x, k) => {
+      const e = eintrag(z, x.id);
+      const art = k === i ? 'jetzt' : e.uebersprungen ? 'weg' : (e.punkte !== null && e.punkte !== undefined) ? 'fertig' : 'offen';
+      return '<li><button type="button" class="pille pille-' + art + '" data-aktion="takt-zu" data-wert="' + k + '"' +
+        (k === i ? ' aria-current="step"' : '') + ' aria-label="Aufgabe ' + esc(x.label || x.id) +
+        (art === 'fertig' ? ', ausgewertet' : art === 'weg' ? ', nicht bearbeitet' : '') + '">' +
+        (art === 'fertig' ? symbol('haken') : '') + esc(x.label || x.id) + '</button></li>';
+    }).join('') + '</ol>' +
+    '<p class="aufgaben-stand" id="station-stand">' + standZeile(w) + '</p></div></nav>';
+
+  const vor = i > 0 ? station.aufgaben[i - 1] : null;
+  const nach = i < n - 1 ? station.aufgaben[i + 1] : null;
+  const nav = '<div class="fokus-nav">' +
+    (vor
+      ? '<button type="button" class="btn btn-gross-b" data-aktion="takt-zurueck">' + ZURUECK + esc(vor.label || vor.id) + '</button>'
+      : '<span></span>') +
+    (nach
+      ? '<button type="button" class="btn btn-primaer btn-gross-b" data-aktion="takt-weiter">Weiter zu ' + esc(nach.label || nach.id) + WEITER + '</button>'
+      : '<a class="btn btn-primaer btn-gross-b" href="' + uebersichtPfad() + '">' + symbol('haken') + esc(t('stationFertigBtn')) + '</a>') +
     '</div>';
 
-  zeichne(html);
+  const seite = '<aside class="seitenleiste">' +
+    '<section class="karte station-einschaetzung"><h2 class="h-klein">' + esc(t('stationFrage')) + '</h2>' +
+    skala({ feld: 'station-' + station.id, stufe: s.stufe, lage: s.lage, label: t('stationFrage') })
+      .replace('<fieldset', '<fieldset data-stationskala="' + esc(station.id) + '"') +
+    '<p class="meta">' + esc(t('stationFrageSpaeter')) + '</p></section>' +
+    (station.hinweis ? '<section class="karte"><p class="lbl">Hinweis zur Station</p><p>' + markdownZeile(station.hinweis) + '</p></section>' : '') +
+    '<a class="btn btn-voll" href="' + uebersichtPfad() + '/auswertung">' + symbol('ergebnis') + 'Auswertung</a>' +
+    '</aside>';
+
+  return leiste + '<div class="seite"><div class="zweispaltig">' +
+    '<section class="karte karte-gross fokus">' + aufgabeFokus(a, z) + nav + '</section>' +
+    seite + '</div></div>';
+}
+
+/** Eine Aufgabe mit Lösung, Punkten und dem Schalter „nicht bearbeitet“. */
+function aufgabeFokus(a, z) {
+  const e = eintrag(z, a.id);
+  const maxA = Number(a.punkte) || 0;
+  const uebersprungen = e.uebersprungen === true;
+  const hatPunkte = e.punkte !== null && e.punkte !== undefined;
+
+  let html = '<div class="aufgabe' + (uebersprungen ? ' ist-uebersprungen' : '') + '" id="a-' + esc(a.id) + '">' +
+    '<div class="aufgabe-kopf"><h2>Aufgabe ' + esc(a.label || a.id) + '</h2>' +
+    '<span class="chip">' + pkt(maxA) + ' ' + (maxA === 1 ? 'Punkt' : 'Punkte') + '</span>' +
+    (a.afb ? '<span class="chip">AFB ' + esc(a.afb) + '</span>' : '') + '</div>' +
+    '<div class="loesung"><p class="loesung-marke">' + symbol('loesung') + 'Lösung</p>' +
+    (a.loesung ? markdown(a.loesung) : '<p>Für diese Aufgabe ist keine Lösung hinterlegt.</p>') +
+    bildHtml(a) + '</div>';
+
+  // Bis 4 Punkte Tasten in halben Punkten, darüber der Stepper (Tim, 17.11.2026).
+  if (maxA > 0 && maxA <= 4) {
+    const werte = [];
+    for (let v = 0; v <= maxA + 1e-9; v += 0.5) werte.push(v);
+    html += '<fieldset class="punkte-wahl"' + (uebersprungen ? ' disabled' : '') + '><legend>' + esc(t('punkteFrage')) + '</legend>' +
+      '<div class="punkte-tasten" style="--n:' + werte.length + '">' + werte.map((v) => {
+        const an = hatPunkte && !uebersprungen && Math.abs(grenze(e.punkte, 0, maxA) - v) < 1e-9;
+        return '<button type="button" class="punkte-taste" data-aktion="punkte-setzen" data-id="' + esc(a.id) +
+          '" data-wert="' + v + '" aria-pressed="' + an + '">' + pkt(v) + '</button>';
+      }).join('') + '</div></fieldset>';
+  } else {
+    const wert = hatPunkte ? pkt(grenze(e.punkte, 0, maxA)) : '';
+    html += '<div class="punkte-wahl"><p class="legende">' + esc(t('punkteFrage')) + '</p><div class="stepper">' +
+      '<button type="button" class="btn" data-aktion="punkte-minus" data-id="' + esc(a.id) + '"' +
+      (uebersprungen ? ' disabled' : '') + ' aria-label="Halben Punkt abziehen">−</button>' +
+      '<input type="text" inputmode="decimal" value="' + esc(wert) + '" data-punkte="' + esc(a.id) + '"' +
+      (uebersprungen ? ' disabled' : '') +
+      ' aria-label="Erreichte Punkte für Aufgabe ' + esc(a.label || a.id) + ', maximal ' + pkt(maxA) + '">' +
+      '<button type="button" class="btn" data-aktion="punkte-plus" data-id="' + esc(a.id) + '"' +
+      (uebersprungen ? ' disabled' : '') + ' aria-label="Halben Punkt hinzufügen">+</button>' +
+      '<span class="max">von ' + pkt(maxA) + '</span></div></div>';
+  }
+
+  html += '<label class="schalter"><input type="checkbox" data-uebersprungen="' + esc(a.id) + '"' +
+    (uebersprungen ? ' checked' : '') + '><span>' + esc(t('nichtBearbeitet')) + '</span></label>';
+  return html + '</div>';
 }
 
 /** „x von y Aufgaben ausgewertet“, übersprungene getrennt ausgewiesen. */
@@ -1000,53 +1256,6 @@ function standZeile(w) {
     (w.uebersprungen > 0 ? ' · ' + w.bearbeitet + ' von ' + w.anzahl + ' Aufgaben bearbeitet' : '');
 }
 
-/**
- * Aufgabenkarte. Vor der Freischaltung steht nur der Kopf da,
- * danach Lösung, Punkte-Stepper und der Schalter „nicht bearbeitet“.
- */
-function aufgabenKarte(a, z, frei) {
-  const e = eintrag(z, a.id);
-  const maxA = Number(a.punkte) || 0;
-  const uebersprungen = e.uebersprungen === true;
-  const hatPunkte = e.punkte !== null && e.punkte !== undefined;
-  const klassen = 'karte aufgabe' +
-    (uebersprungen ? ' ist-uebersprungen' : hatPunkte && frei ? ' fertig' : '');
-
-  let html = '<article class="' + klassen + '" id="a-' + esc(a.id) + '">' +
-    '<div class="aufgabe-kopf"><span class="nr">Aufgabe ' + esc(a.label || a.id) + '</span>' +
-    '<span class="chip">' + pkt(maxA) + ' ' + (maxA === 1 ? 'Punkt' : 'Punkte') + '</span>' +
-    (a.afb ? '<span class="chip">AFB ' + esc(a.afb) + '</span>' : '') +
-    (frei && uebersprungen ? '<span class="chip">nicht bearbeitet</span>' : '') +
-    (frei && !uebersprungen && hatPunkte
-      ? '<span class="chip chip-fertig">' + pkt(grenze(e.punkte, 0, maxA)) + ' erreicht</span>' : '') +
-    '</div>';
-
-  if (!frei) return html + '</article>';
-
-  html += '<div class="loesung"><p class="loesung-marke">' + symbol('loesung') + 'Lösung</p>' +
-    (a.loesung ? markdown(a.loesung) : '<p>Für diese Aufgabe ist keine Lösung hinterlegt.</p>') +
-    bildHtml(a) + '</div>';
-
-  const wert = hatPunkte ? pkt(grenze(e.punkte, 0, maxA)) : '';
-  html += '<div class="punkte-zeile">' +
-    '<div class="stepper">' +
-    '<button type="button" class="btn" data-aktion="punkte-minus" data-id="' + esc(a.id) + '"' +
-    (uebersprungen ? ' disabled' : '') + ' aria-label="Halben Punkt abziehen">−</button>' +
-    '<input type="text" inputmode="decimal" value="' + esc(wert) + '" data-punkte="' + esc(a.id) + '"' +
-    (uebersprungen ? ' disabled' : '') +
-    ' aria-label="Erreichte Punkte für Aufgabe ' + esc(a.label || a.id) + ', maximal ' + pkt(maxA) + '">' +
-    '<button type="button" class="btn" data-aktion="punkte-plus" data-id="' + esc(a.id) + '"' +
-    (uebersprungen ? ' disabled' : '') + ' aria-label="Halben Punkt hinzufügen">+</button>' +
-    '<span class="max">von ' + pkt(maxA) + '</span>' +
-    '</div>' +
-    '<label class="schalter">' +
-    '<input type="checkbox" data-uebersprungen="' + esc(a.id) + '"' + (uebersprungen ? ' checked' : '') + '>' +
-    '<span>nicht bearbeitet</span></label>' +
-    '</div>';
-
-  return html + '</article>';
-}
-
 /* ---------- Ansicht: Tandemstation ----------
    Zwei Geräte, kein Papier: Beide sehen dieselbe Nummer. Wer die Aufgabe hat, löst laut;
    das Gegenüber sieht die Lösung, gibt bei Bedarf den Tipp und meldet zurück.
@@ -1057,17 +1266,21 @@ function ansichtTandem(station) {
   const st = stand(z, station.id);
   const rolle = st.rolle;
 
-  let html = stationsKopf(station) + pdfBereich(station);
+  const rechts = pdfImBand(station) + (rolle
+    ? '<span class="band-rolle">Partner ' + esc(rolle) +
+      '<button type="button" data-aktion="rolle-wechseln">wechseln</button></span>'
+    : '');
+  let html = stationsBand(station, rechts);
 
   if (!rolle) {
-    html += '<section class="karte"><h2>' + esc(t('rolleFrage')) + '</h2>' +
+    html += '<div class="seite"><section class="karte karte-gross"><h2>' + esc(t('rolleFrage')) + '</h2>' +
       '<p>' + esc(t('tandemIntro')) + '</p>' +
       '<div class="btn-reihe">' +
       '<button type="button" class="btn btn-primaer btn-gross" data-aktion="rolle" data-wert="A">Ich bin Partner A</button>' +
       '<button type="button" class="btn btn-primaer btn-gross" data-aktion="rolle" data-wert="B">Ich bin Partner B</button>' +
       '</div>' +
       '<p class="meta">Wichtig: Einigt euch vorher, wer A und wer B ist – sonst habt ihr beide dieselben Aufgaben.</p>' +
-      '</section>';
+      '</section></div>';
     zeichne(html);
     return;
   }
@@ -1077,39 +1290,44 @@ function ansichtTandem(station) {
   const a = station.aufgaben[schritt];
   const w = stationsWerte(station, z);
 
-  html += '<section class="karte takt">' +
-    '<p class="takt-nr" aria-hidden="true">' + (schritt + 1) + '</p>' +
-    '<p class="takt-zeile"><strong>Nummer ' + (schritt + 1) + ' von ' + anzahl + '</strong></p>' +
-    '<p class="meta">' + esc(t('taktHinweis')) + '</p>' +
+  html += '<section class="takt"><div class="takt-innen">' +
+    '<p class="takt-zahl"><b aria-hidden="true">' + (schritt + 1) + '</b>' +
+    '<span><strong>Nummer ' + (schritt + 1) + ' von ' + anzahl + '</strong><br>' + esc(t('taktHinweis')) + '</span></p>' +
     taktPunkte(station, z, rolle, schritt) +
-    '<p class="meta takt-rolle">Rolle: <strong>Partner ' + esc(rolle) + '</strong> · ' +
-    pkt(w.erreicht) + ' von ' + pkt(w.max) + ' eigenen Punkten ' +
-    '<button type="button" class="btn btn-schlicht btn-klein" data-aktion="rolle-wechseln">Rolle wechseln</button></p>' +
-    '</section>';
+    '<p class="takt-legende" aria-hidden="true"><span><i class="l-eigen"></i>' + esc(t('legendeEigen')) + '</span>' +
+    '<span><i class="l-partner"></i>' + esc(t('legendePartner')) + '</span></p>' +
+    '</div></section>';
 
   const eigen = a ? (a.partner || 'A') === rolle : false;
-  if (!a) html += '<p class="hinweis hinweis-warn">Diese Station enthält keine Aufgaben.</p>';
-  else if (eigen) html += tandemEigene(a, z, schritt);
-  else html += tandemKontrolle(a, schritt, rolle);
+  let karte;
+  if (!a) karte = '<p class="hinweis hinweis-warn">Diese Station enthält keine Aufgaben.</p>';
+  else if (eigen) karte = tandemEigene(a, z, schritt);
+  else karte = tandemKontrolle(a, schritt, rolle);
 
-  html += '<div class="btn-reihe">' +
-    '<button type="button" class="btn" data-aktion="takt-zurueck"' + (schritt === 0 ? ' disabled' : '') + '>← Vorherige</button>' +
+  const nav = '<div class="fokus-nav">' +
+    '<button type="button" class="btn btn-gross-b" data-aktion="takt-zurueck"' + (schritt === 0 ? ' disabled' : '') + '>' +
+    ZURUECK + 'Nummer ' + Math.max(1, schritt) + '</button>' +
     (schritt < anzahl - 1
-      ? '<button type="button" class="btn btn-primaer" data-aktion="takt-weiter">Weiter →</button>'
-      : '<a class="btn btn-primaer" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '/auswertung">Zur Auswertung</a>') +
-    '<a class="btn btn-schlicht" href="' + themaPfad(aktuell.stufe, aktuell.themaId) + '">Stationsübersicht</a>' +
+      ? '<button type="button" class="btn btn-primaer btn-gross-b" data-aktion="takt-weiter">Weiter zu Nummer ' + (schritt + 2) + WEITER + '</button>'
+      : '<a class="btn btn-primaer btn-gross-b" href="' + uebersichtPfad() + '/auswertung">Zur Auswertung' + WEITER + '</a>') +
     '</div>';
 
+  let seite = '<aside class="seitenleiste">' +
+    '<section class="karte"><p class="lbl">Eigene Punkte</p><p class="gross-zahl"><b>' + pkt(w.erreicht) + '</b> von ' + pkt(w.max) + '</p>' +
+    '<p class="meta">Nur die Nummern, die Sie selbst lösen, zählen.</p></section>';
   if (schritt === anzahl - 1) {
     // Die Selbsteinschätzung wird bei Tandem einmal am Ende abgefragt.
-    html += '<section class="karte station-einschaetzung">' +
-      '<h3>' + esc(t('stationFrage')) + '</h3>' +
+    seite += '<section class="karte station-einschaetzung"><h2 class="h-klein">' + esc(t('stationFrage')) + '</h2>' +
       skala({ feld: 'station-' + station.id, stufe: st.stufe, lage: st.lage, label: t('stationFrage') })
         .replace('<fieldset', '<fieldset data-stationskala="' + esc(station.id) + '"') +
-      '</section>' +
-      '<p class="hinweis">' + esc(t('tandemFertig')) + '</p>';
+      '</section><p class="hinweis">' + esc(t('tandemFertig')) + '</p>';
   }
+  seite += '</aside>';
+  if (anrede() === 'du') seite = seite.replace('Nur die Nummern, die Sie selbst lösen, zählen.', 'Nur die Nummern, die du selbst löst, zählen.');
 
+  html += '<div class="seite"><div class="zweispaltig">' +
+    '<section class="karte karte-gross fokus' + (eigen ? ' karte-eigen' : ' karte-partner') + '">' + karte + nav + '</section>' +
+    seite + '</div></div>';
   zeichne(html);
 }
 
@@ -1133,8 +1351,8 @@ function tandemEigene(a, z, schritt) {
   const e = eintrag(z, a.id);
   const maxA = Number(a.punkte) || 0;
 
-  let html = '<article class="karte aufgabe' + (e.kontrolle ? ' fertig' : ' aktiv') + '" id="a-' + esc(a.id) + '">' +
-    '<div class="aufgabe-kopf"><span class="nr">Eigene Aufgabe ' + esc(a.label || String(schritt + 1)) + '</span>' +
+  let html = '<div class="aufgabe" id="a-' + esc(a.id) + '">' +
+    '<div class="aufgabe-kopf"><span class="rolle-marke rolle-eigen">' + esc(t('legendeEigen')) + '</span>' +
     '<span class="chip">' + pkt(maxA) + ' ' + (maxA === 1 ? 'Punkt' : 'Punkte') + '</span>' +
     (a.afb ? '<span class="chip">AFB ' + esc(a.afb) + '</span>' : '') +
     '</div>' +
@@ -1143,19 +1361,19 @@ function tandemEigene(a, z, schritt) {
 
   if (!e.bearbeitet) {
     return html + '<div class="btn-reihe">' +
-      '<button type="button" class="btn btn-primaer" data-aktion="bearbeitet" data-id="' + esc(a.id) + '">Ich habe laut gelöst</button>' +
-      '</div></article>';
+      '<button type="button" class="btn btn-primaer btn-gross-b" data-aktion="bearbeitet" data-id="' + esc(a.id) + '">Ich habe laut gelöst</button>' +
+      '</div></div>';
   }
 
-  html += '<p style="margin:.9rem 0 .4rem"><strong>' + esc(t('kontrolleFrage')) + '</strong></p>' +
-    '<div class="btn-reihe" role="group" aria-label="' + esc(t('kontrolleFrage')) + '">' +
+  html += '<fieldset class="punkte-wahl"><legend>' + esc(t('kontrolleFrage')) + '</legend>' +
+    '<div class="punkte-tasten" style="--n:3">' +
     KONTROLLEN.map((k) => {
       const aktiv = e.kontrolle === k.id;
-      return '<button type="button" class="btn kontroll-btn' + (aktiv ? ' ist-aktiv' : '') + '"' +
+      return '<button type="button" class="punkte-taste kontroll-btn"' +
         ' data-aktion="kontrolle" data-id="' + esc(a.id) + '" data-wert="' + k.id + '"' +
         ' aria-pressed="' + (aktiv ? 'true' : 'false') + '">' +
-        esc(k.text) + ' <span class="kontroll-punkte">' + pkt(punkteFuerKontrolle(maxA, k.id)) + ' P</span></button>';
-    }).join('') + '</div>';
+        esc(k.text) + '<span class="kontroll-punkte">' + pkt(punkteFuerKontrolle(maxA, k.id)) + ' P</span></button>';
+    }).join('') + '</div></fieldset>';
 
   if (e.kontrolle) {
     html += '<p class="meta">Eingetragen: ' + pkt(grenze(e.punkte || 0, 0, maxA)) + ' von ' + pkt(maxA) +
@@ -1165,14 +1383,14 @@ function tandemEigene(a, z, schritt) {
       bildHtml(a) + '</div>';
   }
 
-  return html + '</article>';
+  return html + '</div>';
 }
 
 function tandemKontrolle(a, schritt, rolle) {
   const anderer = rolle === 'A' ? 'B' : 'A';
-  return '<article class="karte kontrollkarte" id="a-' + esc(a.id) + '">' +
-    '<div class="aufgabe-kopf"><span class="nr">Kontrollkarte für Partner ' + esc(anderer) + '</span>' +
-    '<span class="chip">zählt nicht für die eigene Auswertung</span></div>' +
+  return '<div class="aufgabe" id="a-' + esc(a.id) + '">' +
+    '<div class="aufgabe-kopf"><span class="rolle-marke">' + esc(t('legendePartner')) + '</span>' +
+    '<span class="chip">Kontrollkarte für Partner ' + esc(anderer) + ' · zählt nicht für die eigene Auswertung</span></div>' +
     '<p class="meta">' + esc(t('partnerKarte')) + '</p>' +
     '<div class="aufgabentext">' + (a.aufgabe ? markdown(a.aufgabe) : '<p class="m-fehler">Für diese Nummer fehlt der Aufgabentext.</p>') + '</div>' +
     '<div class="loesung"><p class="loesung-marke">' + symbol('loesung') + 'Lösung</p>' +
@@ -1181,7 +1399,7 @@ function tandemKontrolle(a, schritt, rolle) {
     (a.tipp
       ? '<details class="tipp"><summary>' + symbol('tipp') + 'Tipp geben</summary><div class="tipp-inhalt">' + markdown(a.tipp) + '</div></details>'
       : '<p class="meta">Für diese Nummer ist kein Tipp hinterlegt.</p>') +
-    '</article>';
+    '</div>';
 }
 
 function bildHtml(a) {
@@ -1200,26 +1418,52 @@ function punkteFuerKontrolle(maxA, kontrolle) {
 
 /* ---------- Ansicht: Auswertung ---------- */
 
+function ring(prozent) {
+  const u = 2 * Math.PI * 60;
+  const voll = Math.round((grenze(prozent, 0, 100) / 100) * u);
+  return '<svg class="ring" viewBox="0 0 148 148" role="img" aria-label="' + prozent + ' Prozent der Punkte erreicht">' +
+    '<circle cx="74" cy="74" r="60" fill="none" stroke="rgba(255,255,255,.16)" stroke-width="16"/>' +
+    (voll > 0 ? '<circle cx="74" cy="74" r="60" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" ' +
+      'stroke-dasharray="' + voll + ' ' + Math.ceil(u) + '" transform="rotate(-90 74 74)"/>' : '') +
+    '<text x="74" y="83" text-anchor="middle" font-size="28" font-weight="800" fill="#fff">' + prozent + ' %</text></svg>';
+}
+
 function ansichtAuswertung() {
-  kopfSetzen(true);
+  kopfSetzen();
   const z = aktuell.zustand;
   const thema = aktuell.thema;
   const g = gesamtWerte(thema, z);
   const prozent = g.max > 0 ? Math.round((g.erreicht / g.max) * 100) : 0;
 
-  let html = '<h1>Auswertung</h1>' +
-    '<p class="meta">' + esc(thema.titel || '') + (z.name ? ' · ' + esc(z.name) : '') + '</p>';
+  // Punkte je Kategorie als kleine Marken im Kopf
+  let marken = '';
+  if (thema.stationen.some((s) => 'kategorie' in s)) {
+    marken = '<p class="band-marken">' + [['grundlagen', 'Grundlagen'], ['neu', 'Neue Themen'], ['vernetzen', 'Vernetzen']].map(([k, name]) => {
+      let e = 0, m = 0;
+      for (const st of thema.stationen.filter((s) => kategorieVon(s) === k)) {
+        const w = stationsWerte(st, z); e += w.erreicht; m += w.max;
+      }
+      return m > 0 ? '<span>' + name + ' ' + pkt(e) + ' / ' + pkt(m) + '</span>' : '';
+    }).join('') + '</p>';
+  }
 
-  html += '<section class="karte"><h2>Gesamt</h2>' +
-    balkenZeile('Punkte', g.erreicht, g.max) +
-    '<p class="meta">' + prozent + ' % · ' + aufgabenZeile(g) + '</p></section>';
+  let html = band({
+    unter: esc(thema.titel || '') + (z.name ? ' · ' + esc(z.name) : ''),
+    titel: 'Auswertung',
+    lead: pkt(g.erreicht) + ' von ' + pkt(g.max) + ' Punkten · ' + aufgabenZeile(g),
+    rechts: ring(prozent),
+    unten: marken
+  });
+
+  html += '<div class="seite"><div class="auswertung">';
+  html += kalibrierungsKarte(thema, z);
 
   html += '<section class="karte"><h2>Nach Stationen</h2>';
   for (const st of thema.stationen) {
     const w = stationsWerte(st, z);
     html += balkenZeile(st.id, w.erreicht, w.max);
   }
-  html += '</section>';
+  html += '</section><div class="auswertung-rechts">';
 
   const afbSchluessel = Object.keys(g.afb).sort();
   if (afbSchluessel.length) {
@@ -1230,10 +1474,10 @@ function ansichtAuswertung() {
     html += '</section>';
   }
 
-  html += kalibrierungsKarte(thema, z);
   html += ausgangsKarte(thema, z);
   html += zusammenfassungsKarte(thema, z);
   html += sicherungsKarte();
+  html += '</div></div></div>';
 
   zeichne(html);
 }
@@ -1242,12 +1486,12 @@ const URTEILE = {
   ueberschaetzt: 'überschätzt',
   unterschaetzt: 'unterschätzt',
   passend: 'gut eingeschätzt',
-  zuwenig: 'zu wenig bearbeitet für eine Einschätzung'
+  zuwenig: 'zu wenig bearbeitet'
 };
 
 function kalibrierungsKarte(thema, z) {
   const zeilen = kalibrierung(thema, z);
-  let html = '<section class="karte"><h2>Einschätzung und Ergebnis</h2>';
+  let html = '<section class="karte karte-breit"><h2>Einschätzung und Ergebnis</h2>';
   if (!zeilen.length) {
     return html + '<p class="meta">Sobald eine Station eingeschätzt und bepunktet ist, ' +
       'erscheint hier der Vergleich.</p></section>';
@@ -1263,18 +1507,23 @@ function kalibrierungsKarte(thema, z) {
   if (!saetze.length && passend.length) saetze.push(t('passend'));
   html += saetze.map((x) => '<p>' + esc(x) + '</p>').join('');
 
-  html += '<ul class="kalib">' + zeilen.map((r) => {
-    const prozent = Math.round(r.quote * 100);
-    return '<li class="kalib-zeile urteil-' + r.urteil + '">' +
-      '<span class="kalib-station">' + esc(r.station.id) + ' · ' + esc(r.station.titel || '') + '</span>' +
-      stufeZelle(r.stufe) +
-      '<span class="kalib-quote">' + (r.urteil === 'zuwenig' ? '–' : prozent + ' %') + '</span>' +
-      '<span class="kalib-urteil">' + esc(URTEILE[r.urteil]) + '</span>' +
-      (r.werte.bearbeitet < r.werte.anzahl
-        ? '<span class="kalib-hinweis">' + r.werte.bearbeitet + ' von ' + r.werte.anzahl + ' Aufgaben bearbeitet</span>'
-        : '') +
-      '</li>';
-  }).join('') + '</ul>';
+  html += '<div class="kalib" role="table" aria-label="Einschätzung und Ergebnis je Station">' +
+    '<div class="kalib-zeile kalib-kopf" role="row"><span role="columnheader">Station</span><span role="columnheader">Einschätzung</span>' +
+    '<span role="columnheader">Punkte</span><span role="columnheader">Urteil</span></div>' +
+    zeilen.map((r) => {
+      const prozent = Math.round(r.quote * 100);
+      const s = stand(z, r.station.id);
+      const lage = s.lage === null || s.lage === undefined ? lageAusStufe(r.stufe) : s.lage;
+      return '<div class="kalib-zeile urteil-' + r.urteil + '" role="row">' +
+        '<span class="kalib-station" role="cell"><b>' + esc(r.station.id) + '</b> · ' + esc(r.station.titel || '') +
+        (r.werte.bearbeitet < r.werte.anzahl
+          ? '<span class="kalib-hinweis">' + r.werte.bearbeitet + ' von ' + r.werte.anzahl + ' Aufgaben bearbeitet</span>'
+          : '') + '</span>' +
+        '<span role="cell" class="kalib-lage" aria-label="' + esc(stufenWort(r.stufe)) + '"><span class="mini-skala"><i style="left:' + Math.round(lage) + '%"></i></span></span>' +
+        '<span class="kalib-quote" role="cell">' + (r.urteil === 'zuwenig' ? '–' : prozent + ' %') + '</span>' +
+        '<span role="cell"><span class="urteil">' + esc(URTEILE[r.urteil]) + '</span></span>' +
+        '</div>';
+    }).join('') + '</div>';
 
   return html + '</section>';
 }
@@ -1394,6 +1643,11 @@ function uebernimmSkala(regler) {
     const spalte = phase === 'eingang' ? 'vorher' : 'nachher';
     const zelle = document.querySelector('[data-' + spalte + '="' + punktId + '"]');
     if (zelle) zelle.innerHTML = stufeZelle(stufe);
+    const zaehler = document.getElementById('ck-zaehler');
+    if (zaehler && phase === 'eingang') {
+      const ids = new Set(aktiveCheckliste(aktuell.thema).map((c) => c.id));
+      zaehler.textContent = Object.keys(aktuell.zustand.diagnose.eingang).filter((k) => ids.has(k)).length;
+    }
   }
 }
 
@@ -1483,11 +1737,24 @@ function aktionenVerdrahten() {
     if (aktion === 'punkte-plus' || aktion === 'punkte-minus') {
       const schritt = aktion === 'punkte-plus' ? 0.5 : -0.5;
       setzePunkte(id, aktuellePunkte(id) + schritt);
-      const feld = main.querySelector('[data-punkte="' + id + '"]');
-      const e = eintrag(aktuell.zustand, id);
-      if (feld) feld.value = e.punkte === null ? '' : pkt(e.punkte);
-      aktualisiereKartenKopf(id);
-      aktualisiereStationsStand();
+      route();
+      return;
+    }
+
+    if (aktion === 'punkte-setzen') {
+      setzePunkte(id, Number(el.dataset.wert));
+      route();
+      return;
+    }
+
+    if (aktion === 'filter') {
+      // Nur ein- und ausblenden, ohne neu zu zeichnen
+      filterWahl = el.dataset.wert || 'alle';
+      main.querySelectorAll('[data-aktion="filter"]').forEach((b) =>
+        b.setAttribute('aria-pressed', String(b.dataset.wert === filterWahl)));
+      main.querySelectorAll('[data-gruppe]').forEach((g) => {
+        g.hidden = filterWahl !== 'alle' && g.dataset.gruppe !== filterWahl;
+      });
       return;
     }
 
@@ -1527,8 +1794,12 @@ function aktionenVerdrahten() {
       st.schritt = grenze(isFinite(ziel) ? ziel : 0, 0, letzte);
       speichereZustand();
       route().then(() => {
-        const takt = document.querySelector('.takt');
-        if (takt) takt.scrollIntoView({ block: 'start', behavior: 'smooth' });
+        // Nur zurückscrollen, wenn die Aufgabe oben aus dem Bild gerutscht ist
+        const ziel = document.querySelector('.fokus');
+        if (ziel && ziel.getBoundingClientRect().top < 0) {
+          const ruhig = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+          ziel.scrollIntoView({ block: 'start', behavior: ruhig ? 'auto' : 'smooth' });
+        }
       });
       return;
     }
@@ -1584,18 +1855,11 @@ function aktionenVerdrahten() {
     if (ziel.matches('[data-punkte]')) {
       const id = ziel.dataset.punkte;
       const roh = ziel.value.trim().replace(',', '.');
-      if (roh === '') {
-        setzePunkte(id, null); ziel.value = '';
-        aktualisiereKartenKopf(id); aktualisiereStationsStand();
-        return;
-      }
+      if (roh === '') { setzePunkte(id, null); route(); return; }
       const n = Number(roh);
       if (!isFinite(n)) { meldung('Bitte eine Zahl eintragen.'); ziel.value = ''; return; }
       setzePunkte(id, n);
-      const e = eintrag(aktuell.zustand, id);
-      ziel.value = e.punkte === null ? '' : pkt(e.punkte);
-      aktualisiereKartenKopf(id);
-      aktualisiereStationsStand();
+      route();
     }
   });
 
@@ -1612,41 +1876,6 @@ function aktionenVerdrahten() {
       ev.target.setAttribute('aria-valuetext', stufenWort(stufeAusLage(Number(ev.target.value))));
     }
   });
-}
-
-/** Aktualisiert nur den Kopf einer Aufgabenkarte, damit das Eingabefeld den Fokus behält. */
-function aktualisiereKartenKopf(id) {
-  const karte = document.getElementById('a-' + id);
-  if (!karte) return;
-  const a = findeAufgabe(id);
-  const e = eintrag(aktuell.zustand, id);
-  const maxA = Number(a && a.punkte) || 0;
-  const alt = karte.querySelector('.chip-fertig');
-  const fertig = !e.uebersprungen && e.punkte !== null && e.punkte !== undefined;
-  if (fertig) {
-    const text = pkt(grenze(e.punkte, 0, maxA)) + ' erreicht';
-    if (alt) alt.textContent = text;
-    else {
-      const chip = document.createElement('span');
-      chip.className = 'chip chip-fertig';
-      chip.textContent = text;
-      karte.querySelector('.aufgabe-kopf').appendChild(chip);
-    }
-    karte.classList.add('fertig');
-    karte.classList.remove('aktiv');
-  } else if (alt) {
-    alt.remove();
-    karte.classList.remove('fertig');
-  }
-}
-
-/** Schreibt den Zwischenstand der Station neu, ohne die Seite neu zu zeichnen. */
-function aktualisiereStationsStand() {
-  const zeile = document.getElementById('station-stand');
-  if (!zeile) return;
-  const sid = stationAusPfad();
-  const station = sid && aktuell.thema.stationen.find((x) => String(x.id) === sid);
-  if (station) zeile.textContent = standZeile(stationsWerte(station, aktuell.zustand));
 }
 
 /* ---------- Router ---------- */
