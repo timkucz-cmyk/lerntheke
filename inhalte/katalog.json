@@ -60,10 +60,10 @@
       "themen": [
         {
           "id": "exponentialfunktionen",
-          "name": "Exponentialfunktionen – Training",
+          "name": "Exponentialfunktionen – Lerntheke",
           "fach": "mathe",
           "aktiv": true,
-          "beschreibung": "Lineares vs. exponentielles Wachstum, Parameter, Logarithmus, Halbwertszeit, Modellieren"
+          "beschreibung": "Lineares und exponentielles Wachstum, allgemeine Exponentialfunktion, Asymptote und Monotonie, Exponentialgleichungen mit dem Logarithmus, Halbwertszeit und Verdopplungszeit, Modellieren"
         },
         {
           "id": "elektrizitaet",
