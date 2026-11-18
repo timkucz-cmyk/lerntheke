@@ -38,6 +38,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Haus der Vierecke, Kongruenzsätze, Konstruktion, Dreieck, Parallelogramm, Trapez, Drachen und Raute, Vielecke"
+        },
+        {
+          "id": "lineare-funktionen",
+          "name": "Lineare Funktionen – Training",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Funktionsbegriff, Steigung, y-Achsenabschnitt, Funktionsgleichung, Nullstelle, Schnittpunkt"
         }
       ]
     },
