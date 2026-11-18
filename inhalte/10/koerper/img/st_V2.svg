@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Drei Kerzen: Kegel, Kugel und Pyramide">
+  <style>
+    .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #B61E33; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #F08A99; }
+      .marke  { fill: #F08A99; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #F08A99; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="fuell" d="M20 62 L36 14 L52 62 A16 4.8 0 0 1 20 62 Z"/>
+  <path class="akzent" d="M20 62 L36 14 L52 62 A16 4.8 0 0 1 20 62"/>
+  <path class="hilfs" d="M20 62 A16 4.8 0 0 1 52 62"/>
+  <path class="grau" d="M36 14 v-8"/>
+  <circle class="fuell" cx="82" cy="48" r="14"/>
+  <circle class="grau" cx="82" cy="48" r="14"/>
+  <path class="hilfs" d="M68 48 A14 4.2 0 0 0 96 48"/>
+  <path class="grau" d="M68 48 A14 4.2 0 0 1 96 48"/>
+  <path class="grau" d="M82 34 v-8"/>
+  <path class="fuell" d="M110 62 h30 l10.5 -10.5 L130.25 16 Z"/>
+  <path class="grau" d="M110 62 h30 l10.5 -10.5 M110 62 L130.25 16 L140 62 M130.25 16 L150.5 51.5"/>
+  <path class="hilfs" d="M110 62 l10.5 -10.5 h30 M120.5 51.5 L130.25 16"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Pyramide und Würfel mit gleicher Grundfläche">
+  <style>
+    .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #B61E33; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #F08A99; }
+      .marke  { fill: #F08A99; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #F08A99; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="fuell" d="M20 62 h48 l16.799999999999997 -16.799999999999997 L52.4 12 Z"/>
+  <path class="akzent" d="M20 62 h48 l16.799999999999997 -16.799999999999997 M20 62 L52.4 12 L68 62 M52.4 12 L84.8 45.2"/>
+  <path class="hilfs" d="M20 62 l16.799999999999997 -16.799999999999997 h48 M36.8 45.2 L52.4 12"/>
+  <path class="grau" d="M96 62 h44 v-44 h-44 Z M96 18 l14 -12 h44 l-14 12 M140 62 l14 -12 v-44"/>
+</svg>
