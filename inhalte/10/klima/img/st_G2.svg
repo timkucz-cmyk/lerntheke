@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Solarkocher: Sonne, gewölbter Spiegel und Topf">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <circle class="akzent" cx="22" cy="18" r="7"/>
+  <path class="akzent" d="M22.0 8.0 L22.0 4.0"/>
+  <path class="akzent" d="M22.0 28.0 L22.0 32.0"/>
+  <path class="akzent" d="M12.0 18.0 L8.0 18.0"/>
+  <path class="akzent" d="M32.0 18.0 L36.0 18.0"/>
+  <path class="akzent" d="M29.0 25.0 L31.8 27.8"/>
+  <path class="akzent" d="M15.0 25.0 L12.2 27.8"/>
+  <path class="akzent" d="M29.0 11.0 L31.8 8.2"/>
+  <path class="akzent" d="M15.0 11.0 L12.2 8.2"/>
+  <path class="akzent" d="M60 30 Q90 70 120 30"/>
+  <rect class="marke" x="82" y="22" width="16" height="12"/>
+  <path class="hilfs" d="M34 26 L88 46 M88 46 L90 34"/>
+  <path class="grau" d="M8 64 H152"/>
+</svg>

@@ -1,0 +1,1403 @@
+{
+  "version": 1,
+  "titel": "Klima – Lerntheke vor dem Test",
+  "fach": "physik",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind testrelevant. Bist du beim Vorwissen unsicher (Energieformen, Wärmestrahlung und Wärmekapazität, Leistung und Wirkungsgrad aus dem Thema Energie; Kraftwerke aus der Energieversorgung; Reihenschaltung aus der Elektrizitätslehre), beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg bis N11. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4 (Treibhauseffekt), V2 nach N5 bis N7 (Klimawandel), V3 nach N8 bis N11 (Klimaschutz). N12 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N12.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Energieformen benennen und eine Energieumwandlungskette mit Energieflussdiagramm beschreiben"
+    },
+    {
+      "id": "g2",
+      "text": "Wärmeleitung, Wärmeströmung und Wärmestrahlung unterscheiden und Absorption, Reflexion und Emission beschreiben"
+    },
+    {
+      "id": "g3",
+      "text": "Mit der spezifischen Wärmekapazität rechnen (Q = m · c · ΔT) und die Rolle des Wassers als Wärmespeicher erklären"
+    },
+    {
+      "id": "g4",
+      "text": "Energie, Leistung und Wirkungsgrad mit P = E : t und η = E_Nutz : E_zu berechnen und kWh in MJ umrechnen"
+    },
+    {
+      "id": "g5",
+      "text": "Kraftwerke nach ihrer Energiequelle unterscheiden und die Energieumwandlungskette eines Wärmekraftwerks angeben"
+    },
+    {
+      "id": "g6",
+      "text": "Elektrische Energie mit E_el = U · I · t berechnen und Spannungen in einer Reihenschaltung addieren"
+    },
+    {
+      "id": "c1",
+      "text": "Die Begriffe Wetter und Klima unterscheiden (Zeitraum, Mittelwerte) und Einzelereignisse richtig einordnen"
+    },
+    {
+      "id": "c2",
+      "text": "Den natürlichen Treibhauseffekt mit Sonnenstrahlung, Wärmestrahlung und Treibhausgasen erklären"
+    },
+    {
+      "id": "c3",
+      "text": "Treibhausgase nennen und erklären, wie der zusätzliche (menschengemachte) Treibhauseffekt die Erde erwärmt"
+    },
+    {
+      "id": "c4",
+      "text": "Messdaten zur CO₂-Konzentration (in ppm) und zur Temperatur aus Diagrammen auswerten und ihren Zusammenhang beschreiben"
+    },
+    {
+      "id": "c5",
+      "text": "Erläutern, wie man naturwissenschaftlich belegen kann, dass der Klimawandel menschengemacht ist"
+    },
+    {
+      "id": "c6",
+      "text": "Folgen des Klimawandels sowie Rückkopplungen und Kippelemente (z. B. Eis-Albedo, Meeresspiegel) erklären"
+    },
+    {
+      "id": "c7",
+      "text": "Regenerative von fossilen Energiequellen unterscheiden und ihre CO₂-Bilanz vergleichen"
+    },
+    {
+      "id": "c8",
+      "text": "Die Funktionsweise einer Brennstoffzelle erklären und ihre Rolle als Energiewandler für Wasserstoff beurteilen"
+    },
+    {
+      "id": "c9",
+      "text": "Maßnahmen zum Klimaschutz (Energie sparen, regenerative Energien, Klimaabkommen) mit Zahlen vergleichen und bewerten"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Energie und Energieversorgung",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Treibhauseffekt",
+      "untertitel": "Wetter und Klima, Strahlung, Treibhausgase",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Klimawandel",
+      "untertitel": "Messdaten, Belege, Folgen und Kippelemente",
+      "farbe": "orange",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Klimaschutz",
+      "untertitel": "Energiequellen, Brennstoffzelle, Maßnahmen",
+      "farbe": "gruen",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c9"
+      ]
+    }
+  ],
+  "abschluss": "Test Klima",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 24,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Taschenrechner und Regelheft, 24 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Das Wachs enthält chemische Energie. Beim Brennen wird sie in thermische Energie (heiße Flamme, warme Luft) und Strahlungsenergie (Licht und Wärmestrahlung) umgewandelt."
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Breiter Pfeil „chemische Energie des Wachses“ in die Flamme. Heraus führen ein fast genauso breiter Pfeil „thermische Energie (und Wärmestrahlung)“ und ein ganz schmaler Pfeil „Licht“. Die Breiten der beiden abgehenden Pfeile ergeben zusammen die Breite des zugeführten Pfeils (Energieerhaltung).",
+          "loesung_bild": "img/G1-1b.png"
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "(1) Wärmeströmung (Konvektion), (2) Wärmestrahlung, (3) Wärmeleitung"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die dunkle Oberfläche absorbiert den größten Teil des Sonnenlichts und wandelt ihn in thermische Energie um. Die weiße Oberfläche reflektiert einen großen Teil. Das dunkle Auto nimmt also mehr Energie auf und erwärmt sich stärker."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$Q = m \\cdot c \\cdot \\Delta T = 2{,}0\\,\\mathrm{kg} \\cdot 4190\\,\\mathrm{\\frac{J}{kg \\cdot K}} \\cdot 10\\,\\mathrm{K} = 83\\,800\\,\\mathrm{J} = 83{,}8\\,\\mathrm{kJ}$"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Wasser hat eine etwa fünfmal so große spezifische Wärmekapazität wie Stein. Gibt jedes Kilogramm nachts gleich viel Energie ab, sinkt die Temperatur des Wassers viel weniger. Das Wasser ist ein guter Wärmespeicher (außerdem hat der Teich meist eine große Masse)."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$t = 365 \\cdot 24\\,\\mathrm{h} = 8760\\,\\mathrm{h}$\n\n$E = P \\cdot t = 0{,}010\\,\\mathrm{kW} \\cdot 8760\\,\\mathrm{h} = 87{,}6\\,\\mathrm{kWh}$\n\n$87{,}6 \\cdot 3{,}6\\,\\mathrm{MJ} \\approx 315\\,\\mathrm{MJ}$"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\eta = \\frac{P_{Nutz}}{P_{zu}} = \\frac{280\\,\\mathrm{W}}{400\\,\\mathrm{W}} = 0{,}70 = 70\\,\\%$"
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Chemische Energie des Mülls → (Verbrennung im Kessel) thermische Energie des Wasserdampfs → (Turbine) kinetische Energie → (Generator) elektrische Energie. Ein großer Teil bleibt Abwärme."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Kohlekraftwerk und Kernkraftwerk: Beide erzeugen Wärme (Verbrennung bzw. Kernspaltung), mit der Wasserdampf eine Turbine antreibt. Die Windkraftanlage nutzt die kinetische Energie des Windes direkt, ohne Wärme – sie ist kein Wärmekraftwerk."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "In der Reihenschaltung addieren sich die Spannungen: $U = 4 \\cdot 1{,}5\\,\\mathrm{V} = 6\\,\\mathrm{V}$"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$t = 30\\,\\mathrm{min} = 1800\\,\\mathrm{s}$\n\n$E_{el} = U \\cdot I \\cdot t = 18\\,\\mathrm{V} \\cdot 2{,}0\\,\\mathrm{A} \\cdot 1800\\,\\mathrm{s} = 64\\,800\\,\\mathrm{J} = 64{,}8\\,\\mathrm{kJ}$"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Strahlung, Wärme und Wirkungsgrad",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 12,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "g2",
+        "g3",
+        "g4",
+        "g1"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Taschenrechner und Regelheft, 12 Minuten. Wiederholt Wärmestrahlung, Wärmekapazität und Wirkungsgrad aus dem Thema Energie – die Grundlagen für den Treibhauseffekt.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen_Strahlung_Waerme.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der glänzende Spiegel reflektiert das Sonnenlicht zum Topf. Der schwarze Topf absorbiert fast das ganze Licht und wandelt es in thermische Energie um."
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Haube lässt das Sonnenlicht durch, hält aber die warme Luft um den Topf fest. Ohne Haube würde die erwärmte Luft aufsteigen und durch kalte Luft ersetzt (Wärmeströmung) – der Topf verlöre mehr Energie."
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$Q = m \\cdot c \\cdot \\Delta T = 1{,}5\\,\\mathrm{kg} \\cdot 4190\\,\\mathrm{\\frac{J}{kg \\cdot K}} \\cdot 80\\,\\mathrm{K} = 502\\,800\\,\\mathrm{J} \\approx 503\\,\\mathrm{kJ}$"
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P = \\frac{Q}{t} = \\frac{502\\,800\\,\\mathrm{J}}{1800\\,\\mathrm{s}} \\approx 279\\,\\mathrm{W}$"
+        },
+        {
+          "id": "G2-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\eta = \\frac{P_{Nutz}}{P_{zu}} = \\frac{279\\,\\mathrm{W}}{600\\,\\mathrm{W}} \\approx 0{,}47 = 47\\,\\%$"
+        },
+        {
+          "id": "G2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Strahlungsenergie des Sonnenlichts → (Absorption am schwarzen Topf) thermische Energie des Topfes → (Wärmeleitung) thermische Energie des Wassers.\n\nVerluste zum Beispiel: Ein Teil des Lichts wird nicht reflektiert oder am Topf reflektiert; der heiße Topf gibt Wärmestrahlung ab; Wärme geht über die Luft verloren."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Wo stehe ich?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Wetter ist der Zustand der Luft an einem Ort für Stunden bis Tage. Klima ist das Mittel des Wetters über mindestens 30 Jahre. Ein kühler Monat ist eine normale Schwankung des Wetters.\n\n*A, C oder D gewählt?* Wetter und Klima verwechselt. → **N2**"
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Das Sonnenlicht durchdringt die Luft fast ungehindert. Der Boden absorbiert es, erwärmt sich und gibt Wärmestrahlung (Infrarot) ab. Diese absorbieren die Treibhausgase und strahlen einen Teil zum Boden zurück.\n\n*A oder C gewählt?* Sonnenlicht und Wärmestrahlung verwechselt. *B gewählt?* Die Ozonschicht filtert UV-Strahlung – das hat mit dem Treibhauseffekt kaum zu tun. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "N1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Stickstoff und Sauerstoff (zusammen 99 % der Luft) lassen Wärmestrahlung durch. CO₂ absorbiert sie stark. Deshalb wirkt schon ein kleiner Anteil.\n\n*B gewählt?* Entscheidend ist nicht die Menge, sondern ob ein Gas Wärmestrahlung absorbiert. *C oder D gewählt?* Die Dichte und eine „eigene Wärme“ spielen keine Rolle. → **N3** Aufgabe 2, **N4**"
+        },
+        {
+          "id": "N1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Im Sommer wachsen die Pflanzen auf der Nordhalbkugel und nehmen CO₂ auf, im Winter wird es wieder frei. Diese Schwankung im Jahr liegt auf einem steigenden Trend: Jedes Jahresmittel ist höher als das vorige.\n\n*A, B oder D gewählt?* Schwankung im Jahr und langfristiger Trend verwechselt. → **N5** Aufgabe 1"
+        },
+        {
+          "id": "N1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Kohle, Erdöl und Erdgas sind aus Pflanzen entstanden (wenig ¹³C) und Millionen Jahre alt: Das radioaktive ¹⁴C darin (Halbwertszeit 5730 Jahre) ist zerfallen. Wird dieser Kohlenstoff als CO₂ frei, sinken die Anteile von ¹³C und ¹⁴C in der Luft – genau das misst man.\n\n*B oder C gewählt?* Das zeigt nicht, woher das CO₂ kommt. *D gewählt?* Vulkane liefern nur etwa 1 % so viel CO₂ wie die Menschen. → **N6**"
+        },
+        {
+          "id": "N1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Schwimmendes Eis verdrängt genau so viel Wasser, wie es selbst wiegt. Geschmolzen füllt es genau diesen Raum. Genauso hebt schmelzendes Meereis den Meeresspiegel (fast) nicht – anders das Eis an Land (Grönland, Antarktis, Gletscher).\n\n*A oder C gewählt?* Schwimmendes Eis und Eis an Land verwechselt. *B gewählt?* Das Schmelzwasser füllt den verdrängten Raum. → **N7** Aufgabe 1"
+        },
+        {
+          "id": "N1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Holz wächst in Jahrzehnten nach und bindet dabei das CO₂, das beim Verbrennen frei wird. Fossil sind nur Kohle, Erdöl und Erdgas, die vor Millionen Jahren entstanden sind.\n\n*A oder B gewählt?* Auch regenerative Brennstoffe setzen CO₂ frei – entscheidend ist, ob es wieder gebunden wird. *D gewählt?* Holz ist ein Brennstoff. → **N8** Aufgabe 1 und 2"
+        },
+        {
+          "id": "N1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – In der Brennstoffzelle reagieren Wasserstoff und Sauerstoff ohne Flamme zu Wasser. Dabei wird die chemische Energie direkt in elektrische Energie (und etwas Wärme) umgewandelt.\n\n*A gewählt?* Im Wasserstoff ist kein Kohlenstoff. *C gewählt?* Es gibt keine Verbrennung mit Flamme und keinen Generator. *D gewählt?* Das ist die Umkehrung (Elektrolyse). → **N9**"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Wetter oder Klima?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 12,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner und Regelheft, 12 Minuten. Klima bedeutet: Mittelwerte und Schwankungen des Wetters über mindestens 30 Jahre.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Wetter_oder_Klima.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Wetter ist der Zustand der Atmosphäre (Temperatur, Wind, Niederschlag, Wolken) an einem Ort zu einer bestimmten Zeit – für Stunden bis Tage. Klima beschreibt die Mittelwerte und typischen Schwankungen des Wetters an einem Ort über einen langen Zeitraum, mindestens 30 Jahre."
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Wetter: (1), (3), (5) – einzelne Tage. Klima: (2), (4), (6) – Mittelwerte bzw. Veränderung über Jahrzehnte.\n\nBewertung: 5 oder 6 richtig zugeordnet = 1 Punkt."
+        },
+        {
+          "id": "N2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Juli mit etwa $18{,}3\\,°\\mathrm{C}$ (August fast gleich warm, etwa $18{,}0\\,°\\mathrm{C}$)."
+        },
+        {
+          "id": "N2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Kältester Monat: Januar mit etwa $1{,}5\\,°\\mathrm{C}$.\n\n$18{,}3\\,°\\mathrm{C} - 1{,}5\\,°\\mathrm{C} = 16{,}8\\,\\mathrm{K}$ (Ablesewerte $\\pm 0{,}5$ sind in Ordnung)."
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Wetter hängt von vielen kleinen, sich schnell ändernden Vorgängen ab (Wind, Wolken, Luftdruck); kleine Messfehler wachsen in wenigen Tagen stark an. Für das Klima braucht man nicht das Wetter eines Tages, sondern die Mittelwerte. Diese hängen von der Energiebilanz der Erde ab (Sonne, Treibhausgase) – und die lässt sich über Jahrzehnte berechnen."
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage ist nicht haltbar. Ein einzelner Winter ist Wetter und schwankt von Jahr zu Jahr. Ob sich das Klima erwärmt, zeigt nur das Mittel über viele Jahre (zum Beispiel weniger Frosttage im Mittel seit 1960). Ein kalter Winter widerspricht diesem Trend nicht."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Der Treibhauseffekt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c2",
+        "c3",
+        "g2",
+        "g1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner und Regelheft, 20 Minuten. Wiederhole Absorption, Reflexion und Emission (Wärmestrahlung) aus dem Thema Energie, wenn du unsicher bist.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Treibhauseffekt.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "1 Sonnenstrahlung (vor allem sichtbares Licht), die bis zum Boden gelangt\n2 Sonnenstrahlung, die an Wolken und hellen Flächen ins All reflektiert wird\n3 Wärmestrahlung (Infrarot), die der erwärmte Boden abgibt\n4 Wärmestrahlung, die Treibhausgase absorbieren und zum Boden zurückstrahlen\n5 Wärmestrahlung, die ins All entweicht\n\nBewertung: 4 bis 5 richtig = 2 Punkte, 2 bis 3 richtig = 1 Punkt."
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Boden absorbiert das Sonnenlicht: Strahlungsenergie → thermische Energie (der Boden wird warm). Der warme Boden gibt Energie als Wärmestrahlung (Infrarot) wieder ab."
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$15\\,°\\mathrm{C} - (-18\\,°\\mathrm{C}) = 33\\,\\mathrm{K}$\n\nOhne den natürlichen Treibhauseffekt wären die Ozeane weitgehend gefroren; es gäbe kaum flüssiges Wasser und Leben, wie wir es kennen, wäre kaum möglich."
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Wasserdampf, Kohlenstoffdioxid (CO₂), Methan (CH₄), Lachgas (N₂O); auch Ozon zählt dazu. Stickstoff und Sauerstoff, die Hauptbestandteile der Luft, sind keine Treibhausgase."
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mit mehr CO₂ wird mehr Wärmestrahlung des Bodens absorbiert und zum Boden zurückgestrahlt (Pfeil 4 wird stärker, Pfeil 5 zunächst schwächer). Die Erde gibt dann weniger Energie ab, als sie von der Sonne aufnimmt – sie erwärmt sich.\n\nEin wärmerer Boden strahlt mehr Wärmestrahlung ab. Die Temperatur steigt deshalb nur so lange, bis die Erde wieder genauso viel Energie abgibt, wie sie aufnimmt (neues Strahlungsgleichgewicht bei höherer Temperatur)."
+        },
+        {
+          "id": "N3-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$t = 365 \\cdot 24 \\cdot 3600\\,\\mathrm{s} = 31\\,536\\,000\\,\\mathrm{s}$\n\n$E = P \\cdot t = 1\\,\\mathrm{W} \\cdot 31\\,536\\,000\\,\\mathrm{s} \\approx 31{,}5\\,\\mathrm{MJ}$ (je Quadratmeter)"
+        },
+        {
+          "id": "N3-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{31{,}5\\,\\mathrm{MJ}}{1{,}2\\,\\mathrm{MJ}} \\approx 26$: Die Erde nimmt etwa 26-mal so viel zusätzliche Energie auf, wie die Menschheit im Jahr nutzt. Diese Energie erwärmt vor allem die Ozeane. Der Überschuss wird kleiner, wenn sich die Erde erwärmt (Aufgabe 3), bleibt aber, solange die CO₂-Konzentration weiter steigt."
+        },
+        {
+          "id": "N3-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Gemeinsam: Sonnenlicht kommt herein, der Boden erwärmt sich, Energie entweicht langsamer.\n\nUnterschied: Das Glashaus bleibt vor allem warm, weil das Glas die warme Luft festhält (keine Wärmeströmung nach außen). Die Atmosphäre hat keinen Deckel; dort wirkt die Absorption und Rückstrahlung der Wärmestrahlung durch die Treibhausgase.\n\nUrteil: Der Vergleich passt für „Energie kommt leichter herein als hinaus“, erklärt aber den Vorgang falsch – ein brauchbares, aber ungenaues Modell."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Simulation: Treibhauseffekt",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 18,
+      "hilfsmittel": "iPad, Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c2",
+        "c6",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Partnerarbeit mit der PhET-Simulation „Treibhauseffekt“ (phet.colorado.edu, Suche „Treibhauseffekt“). Drücke „Sonnenlicht starten“ und hake „Energieausgleich“ an. Lies Temperaturen erst ab, wenn das Thermometer ruhig steht (etwa eine Minute). Notiere jede Vorhersage, bevor du etwas einstellst.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Simulation_Treibhauseffekt.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Vorhersage: Die Temperatur steigt von der Eiszeit über 1750 und 1950 bis 2020, weil die Konzentration der Treibhausgase steigt und mehr Wärmestrahlung zum Boden zurückgestrahlt wird. (Bewertet wird die Begründung, nicht, ob die Vorhersage stimmt.)"
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| Zeitpunkt | Temperatur (Simulation) |\n|---|---|\n| Eiszeit | etwa 7,5 °C |\n| 1750 | etwa 13,6 °C |\n| 1950 | etwa 13,8 °C |\n| 2020 | etwa 14,9 °C |\n\nAbweichungen von etwa 1 °C sind in Ordnung (die Anzeige schwankt). In der Eiszeit liegen außerdem Gletscher auf dem Land. Bewertung: vier Werte = 2 Punkte, zwei bis drei = 1 Punkt."
+        },
+        {
+          "id": "N4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Ohne Wolke steigt die Temperatur deutlich (in der Simulation auf etwa 25 °C). Die Wolke reflektiert einen Teil des Sonnenlichts zurück ins All; dieser Teil erreicht den Boden nicht. Mit Wolke nimmt die Erde also weniger Energie auf."
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die gelben Photonen (Sonnenlicht) gehen durch die Schicht hindurch zum Boden. Die roten Photonen (Wärmestrahlung des Bodens) werden von der Schicht absorbiert; die Schicht sendet selbst rote Photonen aus – nach oben ins All und nach unten zurück zum Boden."
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Mit 0 Schichten etwa −18 °C, mit 1 Schicht etwa 30 °C. Mit der Schicht bekommt der Boden zusätzlich die Wärmestrahlung, die die Schicht nach unten abgibt. Er muss wärmer werden, bis er wieder so viel abgibt, wie er insgesamt aufnimmt. (Die Schicht wirkt hier wie sehr viel Treibhausgas.)"
+        },
+        {
+          "id": "N4-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Temperatur sinkt stark (in der Simulation auf etwa −9 °C), weil der Boden mehr Sonnenlicht reflektiert und weniger absorbiert. Umgekehrt: Schmelzen helle Eis- und Schneeflächen, sinkt die Albedo, der Boden absorbiert mehr und erwärmt sich weiter – eine verstärkende Rückkopplung."
+        },
+        {
+          "id": "N4-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Mögliche Grenzen (zwei genügen):\n\n- Die Wolke reflektiert nur Sonnenlicht. Echte Wolken halten auch Wärmestrahlung zurück (warme Nächte bei Bewölkung) – diese zweite Wirkung zeigt die Simulation nicht.\n- Es gibt keine Ozeane, keinen Wasserdampf-Kreislauf und keine Jahreszeiten.\n- Eine vollständig absorbierende Schicht ist viel stärker als die echte Atmosphäre (30 °C).\n- Die Temperatur stellt sich in einer Minute ein, auf der Erde dauert das Jahrzehnte.\n\nUrteil: gut, um das Prinzip zu zeigen; für genaue Zahlen nicht geeignet."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Messdaten: CO₂ und Temperatur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c4",
+        "c1",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner und Regelheft, 18 Minuten. ppm heißt „Teile pro Million“: 1 ppm = 0,0001 %.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Messdaten_CO2_Temperatur.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "2015: etwa 400 ppm; 2025: etwa 425 ppm"
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{425\\,\\mathrm{ppm} - 400\\,\\mathrm{ppm}}{10\\,\\mathrm{Jahre}} = 2{,}5\\,\\mathrm{ppm}$ pro Jahr"
+        },
+        {
+          "id": "N5-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Im Frühling und Sommer wachsen auf der Nordhalbkugel (dort ist viel mehr Land mit Pflanzen) die Pflanzen und nehmen CO₂ auf – die Konzentration sinkt bis zum Herbst. Im Winter verrotten Blätter und Pflanzen wachsen kaum, CO₂ wird frei – die Konzentration steigt bis zum Mai."
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$425 \\cdot 0{,}0001\\,\\% = 0{,}0425\\,\\%$"
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{425 - 280}{280} = \\frac{145}{280} \\approx 0{,}52 = 52\\,\\%$"
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "etwa 1,1 K"
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Beide nehmen insgesamt zu, seit etwa 1960 besonders schnell: Je höher die CO₂-Konzentration, desto stärker die Erwärmung. Die Temperatur schwankt dabei (zum Beispiel 1941–1950 höher als 1961–1970), die CO₂-Konzentration steigt dagegen stetig und immer schneller."
+        },
+        {
+          "id": "N5-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Es fehlen $450 - 425 = 25\\,\\mathrm{ppm}$. Bei $2{,}5\\,\\mathrm{ppm}$ pro Jahr dauert das $10$ Jahre: etwa im Jahr $2035$."
+        },
+        {
+          "id": "N5-3d",
+          "label": "3d",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage ist so nicht richtig. Dass zwei Größen gleichzeitig steigen, beweist allein noch keine Ursache (es könnte eine dritte Ursache geben). Den Beweis liefern erst der physikalische Mechanismus (CO₂ absorbiert Wärmestrahlung, N3) und weitere Belege, die andere Ursachen wie die Sonne ausschließen (N6). Zusammen mit diesen Belegen passen die Daten aber gut zur Ursache CO₂."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Ist der Klimawandel menschengemacht?",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 18,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c5",
+        "c4",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Partnerarbeit, Taschenrechner und Regelheft, 18 Minuten. Die Belegkarten A bis E fassen Messungen zusammen (gerundet).",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Belege_menschengemacht.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- A: So viel CO₂ wie heute gab es in 800 000 Jahren nie – der Anstieg ist nicht Teil der natürlichen Schwankungen.\n- B: Die Menschen stoßen mehr als genug CO₂ aus, um den Anstieg zu erklären.\n- C: Das zusätzliche CO₂ stammt aus altem Kohlenstoff von Pflanzen – also aus Kohle, Erdöl, Erdgas.\n- D: Die Sonne kann die Erwärmung seit 1980 nicht erklären.\n- E: Vulkane liefern höchstens gut 1 % der Menge, die die Menschen ausstoßen.\n\nBewertung: 4 bis 5 Karten sinnvoll erläutert = 2 Punkte, 2 bis 3 = 1 Punkt."
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$2{,}5 \\cdot 7{,}8\\,\\mathrm{Mrd.\\ t} = 19{,}5\\,\\mathrm{Mrd.\\ t}$ bleiben in der Luft.\n\nAnteil: $\\frac{19{,}5}{37} \\approx 0{,}53 = 53\\,\\%$.\n\nDen Rest (etwa 47 %) nehmen Ozeane und Pflanzen auf. Die Natur ist also eine Senke für CO₂, nicht die Quelle des Anstiegs."
+        },
+        {
+          "id": "N6-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{300\\,000\\,000\\,\\mathrm{a}}{5730\\,\\mathrm{a}} \\approx 52\\,000$ Halbwertszeiten.\n\nNach jeder Halbwertszeit ist nur noch die Hälfte übrig; nach so vielen Halbwertszeiten ist praktisch alles ¹⁴C zerfallen."
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "(1) Nicht haltbar: Vulkane liefern weniger als 0,5 Mrd. t pro Jahr (E), die Menschen etwa 37 Mrd. t (B). Vulkan-CO₂ ist zwar auch frei von ¹⁴C, enthält aber nicht weniger ¹³C (C).\n(2) Nicht haltbar: Die Sonnenstrahlung hat seit 1980 nicht zugenommen, die Temperatur ist trotzdem um etwa 0,8 K gestiegen (D).\n(3) Richtig ist: Das Klima hat geschwankt (Eiszeiten, A). Aber so viel CO₂ gab es in 800 000 Jahren nie, und der heutige Anstieg ist sehr schnell und passt zu den Emissionen (A, B, C). Frühere Klimawechsel hatten natürliche Ursachen – die heutige Ursache ist der Mensch.\n\nJe Einwand 1 Punkt, wenn das Urteil mit mindestens einer Karte begründet ist."
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zum Beispiel C (das zusätzliche CO₂ stammt nachweislich aus fossilem Kohlenstoff) und B (die ausgestoßene Menge reicht für den Anstieg). Andere Paare mit passendem Stichwort sind ebenso richtig."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Folgen, Rückkopplungen und Kippelemente",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c6",
+        "c3",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner und Regelheft, 18 Minuten. Eine Rückkopplung ist verstärkend, wenn die Folge ihre eigene Ursache verstärkt. Ein Kippelement ist ein Teil des Klimasystems, der sich ab einer bestimmten Erwärmung von selbst weiter verändert.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Folgen_Kippelemente.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Glas A: Der Wasserstand bleibt gleich. Glas B: Der Wasserstand steigt."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Schwimmendes Eis (Meereis der Arktis, Eisberge) verdrängt schon so viel Wasser, wie es wiegt – sein Schmelzen hebt den Meeresspiegel (fast) nicht. Eis an Land (Grönland, Antarktis, Gletscher) fließt als zusätzliches Wasser ins Meer und hebt den Meeresspiegel."
+        },
+        {
+          "id": "N7-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ausdehnung um $0{,}02\\,\\% \\cdot 0{,}3 = 0{,}006\\,\\%$, also $0{,}00006$ der Schichtdicke.\n\n$\\Delta h = 0{,}00006 \\cdot 700\\,\\mathrm{m} = 0{,}042\\,\\mathrm{m} \\approx 4\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N7-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Eis: $20\\,\\% \\cdot 300\\,\\mathrm{W/m^2} = 60\\,\\mathrm{W/m^2}$\n\nWasser: $94\\,\\% \\cdot 300\\,\\mathrm{W/m^2} = 282\\,\\mathrm{W/m^2}$ (fast fünfmal so viel)"
+        },
+        {
+          "id": "N7-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Schmilzt Eis, wird dunkles Wasser frei. Es absorbiert viel mehr Sonnenstrahlung, das Meer erwärmt sich und noch mehr Eis schmilzt – eine verstärkende Rückkopplung."
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Erwärmung → Permafrost taut → CO₂ und Methan (beides Treibhausgase) entweichen → der Treibhauseffekt wird stärker → weitere Erwärmung → noch mehr Permafrost taut. Ab einer bestimmten Erwärmung kann sich das kaum noch aufhalten lassen (Kippelement)."
+        },
+        {
+          "id": "N7-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zum Beispiel (zwei genügen, jeweils mit Ursache):\n\n- Steigender Meeresspiegel (Landeis, Wärmeausdehnung): höhere Sturmfluten, Deiche müssen erhöht werden.\n- Mehr Hitzetage und trockenere Sommer: Dürre in der Landwirtschaft, Hitzebelastung in Städten.\n- Wärmere Luft kann mehr Wasserdampf aufnehmen: häufiger Starkregen."
+        },
+        {
+          "id": "N7-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Für einzelne Tage mag das stimmen (Wetter). Die Erwärmung des Klimas um wenige Kelvin im Mittel bedeutet aber deutlich mehr Extreme: Hitzewellen, Dürren, Starkregen, steigender Meeresspiegel; Rückkopplungen und Kippelemente können die Erwärmung weiter verstärken. Die Aussage verwechselt angenehmes Wetter mit den Folgen für das Klima und ist deshalb nicht haltbar.\n\nAuch ein abwägendes Urteil ist richtig (zum Beispiel regional längere Wachstumszeit, aber die Nachteile überwiegen), wenn es mit physikalischen Folgen begründet ist."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Fossil oder regenerativ?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c7",
+        "g5",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner und Regelheft, 16 Minuten. Regenerativ (erneuerbar) heißt: Die Energiequelle erneuert sich in menschlichen Zeiträumen. Fossil heißt: vor Millionen Jahren aus Lebewesen entstanden.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Fossil_oder_regenerativ.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Fossil: Braunkohle, Erdgas, Erdöl.\nRegenerativ: Sonne, Wind, Holz, Erdwärme, fließendes Wasser, Biogas.\nKeines von beiden: Uran (nicht erneuerbar, aber auch nicht aus Lebewesen entstanden; Kernkraftwerke stoßen im Betrieb kaum CO₂ aus).\n\nBewertung: alle richtig = 2 Punkte, ein oder zwei Fehler = 1 Punkt."
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Ein Baum nimmt beim Wachsen CO₂ aus der Luft auf. Beim Verbrennen wird genau dieses CO₂ wieder frei; wächst ein neuer Baum nach, bindet er es wieder (Kreislauf in Jahrzehnten). Die Kohle hat ihren Kohlenstoff vor Millionen Jahren gebunden. Beim Verbrennen kommt zusätzliches CO₂ in die Luft, das nicht in absehbarer Zeit wieder gebunden wird."
+        },
+        {
+          "id": "N8-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Heizöl: $18\\,000 \\cdot 0{,}27\\,\\mathrm{kg} = 4860\\,\\mathrm{kg} \\approx 4{,}9\\,\\mathrm{t}$\n\nHolzpellets: $18\\,000 \\cdot 0{,}03\\,\\mathrm{kg} = 540\\,\\mathrm{kg}$"
+        },
+        {
+          "id": "N8-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$4860\\,\\mathrm{kg} - 540\\,\\mathrm{kg} = 4320\\,\\mathrm{kg} \\approx 4{,}3\\,\\mathrm{t}$\n\n$\\frac{4320}{4860} \\approx 0{,}89 = 89\\,\\%$"
+        },
+        {
+          "id": "N8-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nur wenn das Holz nachhaltig gewonnen wird: Es darf nicht mehr Holz geschlagen werden, als nachwächst. Sonst wird das CO₂ nicht wieder gebunden, und der Wald als CO₂-Speicher schrumpft."
+        },
+        {
+          "id": "N8-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Kohle, Erdöl und Erdgas sind in Millionen Jahren entstanden. Wir verbrauchen sie viel schneller, als neue entstehen – die Vorräte gehen zu Ende."
+        },
+        {
+          "id": "N8-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Nicht ganz: Im Betrieb stoßen Wind, Sonne und Wasser kein CO₂ aus. Bei Herstellung, Transport und Bau der Anlagen entsteht aber CO₂, und bei Biomasse kommt es auf nachhaltigen Anbau an (Aufgabe 2). Regenerative Energie ist viel klimafreundlicher als fossile, aber nicht immer vollständig klimaneutral."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Die Brennstoffzelle",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c8",
+        "c7",
+        "g6",
+        "g4",
+        "g1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner und Regelheft, 20 Minuten. Gesamtreaktion der Brennstoffzelle: $2\\,\\mathrm{H}_2 + \\mathrm{O}_2 \\to 2\\,\\mathrm{H}_2\\mathrm{O}$.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Brennstoffzelle.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "1 Wasserstoff (Zufuhr)\n2 Minuspol (Anode)\n3 Membran (lässt nur Protonen durch)\n4 Pluspol (Kathode), an den Sauerstoff aus der Luft gelangt\n5 Wasser (Abfluss)\n\nBewertung: 4 bis 5 richtig = 2 Punkte, 2 bis 3 richtig = 1 Punkt."
+        },
+        {
+          "id": "N9-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Am Minuspol geben die Wasserstoffatome ihre Elektronen ab; übrig bleiben Protonen. Die Protonen wandern durch die Membran zum Pluspol. Die Elektronen fließen über den äußeren Stromkreis durch den Verbraucher zum Pluspol. Dort bilden Protonen, Elektronen und Sauerstoff Wasser."
+        },
+        {
+          "id": "N9-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Membran lässt nur Protonen durch, keine Elektronen. Die Elektronen kommen nur über den äußeren Stromkreis zum Pluspol – so entsteht ein elektrischer Strom, der den Verbraucher antreibt."
+        },
+        {
+          "id": "N9-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Chemische Energie → elektrische Energie (und etwas thermische Energie).\n\nBei der Flamme reagieren Wasserstoff und Sauerstoff direkt miteinander, die Energie wird fast nur als Wärme frei. In der Brennstoffzelle sind die beiden Gase durch die Membran getrennt; die Elektronen müssen den Umweg über den Stromkreis nehmen – so wird ein großer Teil direkt elektrische Energie."
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "In der Reihenschaltung addieren sich die Spannungen: $\\frac{48\\,\\mathrm{V}}{0{,}7\\,\\mathrm{V}} \\approx 68{,}6$. Es sind mindestens $69$ Zellen nötig ($69 \\cdot 0{,}7\\,\\mathrm{V} \\approx 48{,}3\\,\\mathrm{V}$)."
+        },
+        {
+          "id": "N9-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E_{el} = P \\cdot t = 2{,}0\\,\\mathrm{kW} \\cdot 10\\,\\mathrm{h} = 20\\,\\mathrm{kWh}$"
+        },
+        {
+          "id": "N9-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$E_{zu} = \\frac{E_{Nutz}}{\\eta} = \\frac{20\\,\\mathrm{kWh}}{0{,}50} = 40\\,\\mathrm{kWh}$"
+        },
+        {
+          "id": "N9-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$m = \\frac{40\\,\\mathrm{kWh}}{33\\,\\mathrm{kWh/kg}} \\approx 1{,}2\\,\\mathrm{kg}$"
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Beim Fahren entsteht nur Wasser, kein CO₂. Wasserstoff ist aber keine Energiequelle, sondern ein Energieträger: Er muss erst hergestellt werden. Wird er durch Elektrolyse mit Strom aus Wind oder Sonne gewonnen, ist das Fahrzeug klimafreundlich. Wird er aus Erdgas gewonnen oder mit Strom aus Kohle, entsteht dabei viel CO₂. Die Aussage stimmt also nicht „immer“."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Klimaschutz: Maßnahmen vergleichen und bewerten",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 16,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c9",
+        "c7",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Partnerarbeit, Taschenrechner und Regelheft, 16 Minuten. Alle Werte sind gerundet. In Aufgabe 2c zählt die Begründung mit Zahlen, nicht die Meinung.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Klimaschutz_Massnahmen.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$Q = 40\\,\\mathrm{kg} \\cdot 4190\\,\\mathrm{\\frac{J}{kg \\cdot K}} \\cdot 26\\,\\mathrm{K} \\approx 4{,}36\\,\\mathrm{MJ} \\approx 1{,}2\\,\\mathrm{kWh}$\n\nEinsparung je Tag: $16\\,\\mathrm{kg} \\cdot 4190\\,\\mathrm{\\frac{J}{kg \\cdot K}} \\cdot 26\\,\\mathrm{K} \\approx 1{,}74\\,\\mathrm{MJ} \\approx 0{,}48\\,\\mathrm{kWh}$\n\nIm Jahr: $365 \\cdot 0{,}484\\,\\mathrm{kWh} \\approx 177\\,\\mathrm{kWh}$, also $177 \\cdot 0{,}2\\,\\mathrm{kg} \\approx 35\\,\\mathrm{kg}$ CO₂\n\nBewertung: 1 Punkt für die Wärme je Dusche, 1 Punkt für die CO₂-Einsparung im Jahr."
+        },
+        {
+          "id": "N10-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Strecke: $2 \\cdot 12\\,\\mathrm{km} \\cdot 200 = 4800\\,\\mathrm{km}$\n\nAuto: $4800 \\cdot 0{,}15\\,\\mathrm{kg} = 720\\,\\mathrm{kg}$; Bahn: $4800 \\cdot 0{,}05\\,\\mathrm{kg} = 240\\,\\mathrm{kg}$; Einsparung $480\\,\\mathrm{kg}$"
+        },
+        {
+          "id": "N10-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Erwärmung soll gegenüber der Zeit vor der Industrialisierung deutlich unter 2 °C bleiben, möglichst bei 1,5 °C."
+        },
+        {
+          "id": "N10-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Duschen: $\\frac{35\\,\\mathrm{kg}}{7000\\,\\mathrm{kg}} = 0{,}5\\,\\%$; Pendeln mit der Bahn: $\\frac{480\\,\\mathrm{kg}}{7000\\,\\mathrm{kg}} \\approx 6{,}9\\,\\%$.\n\nDie Bahnfahrt spart etwa vierzehnmal so viel wie das kürzere Duschen."
+        },
+        {
+          "id": "N10-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Zahlen: $0{,}5\\,\\%$ des eigenen Ausstoßes; für alle: $84\\,000\\,000 \\cdot 35\\,\\mathrm{kg} \\approx 3\\,000\\,000\\,\\mathrm{t}$ CO₂ im Jahr; Pendeln mit der Bahn spart je Person etwa vierzehnmal so viel.\n\nBeide Urteile sind möglich, wenn sie mit diesen Zahlen begründet sind, zum Beispiel: „Für eine Person bringt es wenig (0,5 %), andere Maßnahmen wirken stärker – die Aussage stimmt eher.“ oder „Zusammen sind es etwa 3 Millionen Tonnen; jede Maßnahme zählt und spart auch Geld – die Aussage stimmt nicht.“\n\nJe ein Punkt für die richtige Verwendung der Zahlen und für ein begründetes Urteil."
+        },
+        {
+          "id": "N10-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Zum Beispiel: Photovoltaik auf dem Schuldach (große Wirkung, einmal hohe Kosten), Heizung nachts und in den Ferien absenken (spürbare Wirkung, sofort und kostenlos), Stoßlüften statt gekippter Fenster (kleine Wirkung, leicht umsetzbar). Bewertet wird, ob beide Kriterien begründet angewendet werden."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Tandem: Rechnen und Erklären",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c6",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets, Taschenrechner. Wer die Nummer hat, rechnet oder erklärt laut; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp.",
+      "bild": "img/st_N11.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N11-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Methan hat in der Luft heute (2025) eine Konzentration von etwa $1{,}9\\,\\mathrm{ppm}$, vor der Industrialisierung etwa $0{,}7\\,\\mathrm{ppm}$. Berechne den heutigen Anteil in Prozent und den Faktor der Zunahme ($1\\,\\mathrm{ppm} = 0{,}0001\\,\\%$).",
+          "tipp": "Mit $0{,}0001\\,\\%$ malnehmen; für den Faktor heute durch früher teilen.",
+          "loesung": "$1{,}9 \\cdot 0{,}0001\\,\\% = 0{,}00019\\,\\%$; Faktor $\\frac{1{,}9}{0{,}7} \\approx 2{,}7$"
+        },
+        {
+          "id": "N11-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Eine Wüste reflektiert etwa $40\\,\\%$ des Sonnenlichts, ein Nadelwald etwa $10\\,\\%$. Mittags treffen $800\\,\\mathrm{W/m^2}$ auf. Berechne die Strahlungsleistung je Quadratmeter, die beide absorbieren.",
+          "tipp": "Absorbiert wird der Anteil, der nicht reflektiert wird.",
+          "loesung": "Wüste: $60\\,\\% \\cdot 800\\,\\mathrm{W/m^2} = 480\\,\\mathrm{W/m^2}$; Wald: $90\\,\\% \\cdot 800\\,\\mathrm{W/m^2} = 720\\,\\mathrm{W/m^2}$"
+        },
+        {
+          "id": "N11-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Auto verbraucht $6\\,\\mathrm{l}$ Benzin auf $100\\,\\mathrm{km}$; je Liter entstehen etwa $2{,}3\\,\\mathrm{kg}$ CO₂. Berechne den CO₂-Ausstoß je $\\mathrm{km}$ und für $12\\,000\\,\\mathrm{km}$ im Jahr.",
+          "tipp": "Erst CO₂ für $100\\,\\mathrm{km}$, dann durch $100$ teilen.",
+          "loesung": "$6 \\cdot 2{,}3\\,\\mathrm{kg} = 13{,}8\\,\\mathrm{kg}$ je $100\\,\\mathrm{km}$, also $0{,}138\\,\\mathrm{kg}$ je $\\mathrm{km}$; im Jahr $12\\,000 \\cdot 0{,}138\\,\\mathrm{kg} \\approx 1660\\,\\mathrm{kg} \\approx 1{,}7\\,\\mathrm{t}$"
+        },
+        {
+          "id": "N11-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Stapel aus $120$ Brennstoffzellen in Reihe liefert $84\\,\\mathrm{V}$. Berechne die Spannung je Zelle und wie viele Zellen man in Reihe für mindestens $230\\,\\mathrm{V}$ braucht.",
+          "tipp": "In der Reihenschaltung addieren sich die Spannungen.",
+          "loesung": "$\\frac{84\\,\\mathrm{V}}{120} = 0{,}7\\,\\mathrm{V}$ je Zelle; $\\frac{230\\,\\mathrm{V}}{0{,}7\\,\\mathrm{V}} \\approx 328{,}6$, also mindestens $329$ Zellen"
+        },
+        {
+          "id": "N11-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Beschreibe den Unterschied zwischen Wetter und Klima an einem selbst gewählten Beispiel.",
+          "tipp": "Achte auf den Zeitraum.",
+          "loesung": "Wetter: Zustand der Atmosphäre für Stunden bis Tage, z. B. „Morgen regnet es in Kiel.“ Klima: Mittelwerte und Schwankungen über mindestens 30 Jahre, z. B. „Im Juli ist es in Kiel im Mittel etwa 17 °C warm.“"
+        },
+        {
+          "id": "N11-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Nenne den Grund, warum Stickstoff (78 % der Luft) kein Treibhausgas ist, CO₂ aber schon.",
+          "tipp": "Was muss ein Gas mit der Wärmestrahlung tun?",
+          "loesung": "Ein Treibhausgas absorbiert Wärmestrahlung (Infrarot) und strahlt sie wieder ab. Stickstoff lässt Wärmestrahlung fast ungehindert durch, CO₂ absorbiert sie stark."
+        },
+        {
+          "id": "N11-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Wasserdampf ist das stärkste Treibhausgas. Erkläre, warum er trotzdem nicht als Ursache, sondern als Verstärker der Erwärmung gilt.",
+          "tipp": "Wovon hängt ab, wie viel Wasserdampf die Luft enthält?",
+          "loesung": "Wie viel Wasserdampf die Luft enthält, hängt von der Temperatur ab: Wärmere Luft kann mehr aufnehmen, überschüssiger Wasserdampf regnet in wenigen Tagen aus. Der Mensch verändert den Wasserdampf also nicht direkt. Erwärmt CO₂ die Erde, verdunstet mehr Wasser, und der zusätzliche Wasserdampf verstärkt die Erwärmung (Rückkopplung)."
+        },
+        {
+          "id": "N11-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Eine Straßenbahn fährt elektrisch mit Strom aus dem Netz. Erkläre, warum sie trotzdem CO₂ verursacht, und nenne eine Bedingung, unter der sie (fast) keines verursacht.",
+          "tipp": "Woher kommt der Strom im Netz?",
+          "loesung": "Ein Teil des Netzstroms stammt aus Kohle- und Gaskraftwerken, die CO₂ ausstoßen; außerdem entsteht CO₂ beim Bau der Bahnen und Gleise. Bezieht der Betreiber Strom aus Wind, Sonne oder Wasserkraft, verursacht das Fahren (fast) kein CO₂."
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "titel": "Check-out: Was kann ich jetzt?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c8",
+        "c7",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung. Vergleiche danach mit deinem Ergebnis in N1.",
+      "bild": "img/st_N12.svg",
+      "pdf": "pdf/N12_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N12-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Ein einzelner Tag ist Wetter. Über das Klima sagen erst Mittelwerte über mindestens 30 Jahre etwas aus – zum Beispiel, ob Hitzetage im Mittel häufiger werden.\n\n*A, B oder D gewählt?* Wetter und Klima verwechselt. → **N2**"
+        },
+        {
+          "id": "N12-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – CO₂ absorbiert die Wärmestrahlung (Infrarot) und strahlt sie in alle Richtungen wieder ab – ein Teil geht zurück zum Boden. So bleibt mehr Energie in der Nähe des Bodens.\n\n*B gewählt?* Treibhausgase spiegeln nicht, sie absorbieren. *C gewählt?* Das Ozonloch betrifft die UV-Strahlung. *D gewählt?* Die Strahlung bleibt Wärmestrahlung. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "N12-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Sauerstoff und Stickstoff lassen Wärmestrahlung durch, Methan absorbiert sie sehr stark. Deshalb wirkt schon ein winziger Anteil.\n\n*A gewählt?* Entscheidend ist, ob ein Gas Wärmestrahlung absorbiert. *B oder C gewählt?* Dichte und eine „eigene Wärme“ spielen keine Rolle. → **N3** Aufgabe 2, **N4**"
+        },
+        {
+          "id": "N12-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Die Temperatur einzelner Jahre schwankt. Entscheidend ist der Trend über Jahrzehnte – und der steigt.\n\n*A, C oder D gewählt?* Schwankung und langfristiger Trend verwechselt. → **N5** Aufgabe 3"
+        },
+        {
+          "id": "N12-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Bäume bauen den Kohlenstoff aus dem CO₂ der Luft ein. Kohle, Erdöl und Erdgas enthalten kein ¹⁴C mehr (Millionen Jahre alt). Verbrennt man sie, kommt CO₂ ohne ¹⁴C in die Luft – der Anteil im Holz sinkt. (Auch Vulkan-CO₂ ist frei von ¹⁴C, Vulkane liefern aber nur etwa 1 % so viel.)\n\n*A, B oder C gewählt?* Das erklärt den Befund nicht; die CO₂-Menge steigt sogar. → **N6**"
+        },
+        {
+          "id": "N12-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Der schwimmende Eisberg verdrängt schon so viel Wasser, wie er wiegt; geschmolzen füllt er genau diesen Raum. Das Eis des Gletschers liegt an Land und fließt als zusätzliches Wasser ins Meer.\n\n*B oder C gewählt?* Schwimmendes Eis und Eis an Land verwechselt. *D gewählt?* Das Schmelzwasser bleibt im Meer. → **N7** Aufgabe 1"
+        },
+        {
+          "id": "N12-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Biogas entsteht aus Pflanzen (und Gülle von Tieren, die Pflanzen fressen) von heute. Die Pflanzen haben das CO₂ beim Wachsen gebunden, neue Pflanzen binden es wieder. Fossil sind nur Kohle, Erdöl und Erdgas.\n\n*A oder C gewählt?* Auch regenerative Brennstoffe setzen CO₂ frei – entscheidend ist, ob es wieder gebunden wird. *D gewählt?* Biogas entsteht natürlich durch Bakterien. → **N8** Aufgabe 1 und 2"
+        },
+        {
+          "id": "N12-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – In der Brennstoffzelle reagieren Wasserstoff und Sauerstoff aus der Luft zu Wasser. Es entweicht als Wasserdampf.\n\n*A gewählt?* Im Wasserstoff ist kein Kohlenstoff. *B oder D gewählt?* Die Gase werden in der Zelle zu Wasser umgesetzt. → **N9**"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Klima auf den Nachbarplaneten",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c2",
+        "c3",
+        "c1",
+        "g2",
+        "g3",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner und Regelheft, 18 Minuten. Vernetzt die Grundlagen mit Phase 1 (Treibhauseffekt) – am besten nach N2 bis N4.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Nachbarplaneten.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zwei Ursachen wirken zusammen:\n\n- Die Tage und Nächte sind sehr lang (je rund 15 Erdtage): Der Boden wird lange bestrahlt und kühlt lange aus.\n- Ohne Atmosphäre gibt es keinen Treibhauseffekt: Nachts entweicht die Wärmestrahlung des Bodens ungehindert ins All. Es gibt auch keine Luftströmungen und keine Ozeane, die Wärme verteilen oder speichern (Wasser hat eine große Wärmekapazität).\n\nDie Atmosphäre (mit Ozeanen) dämpft also die Schwankungen; auf dem Mond fehlt sie."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Venus: $25\\,\\% \\cdot 2600\\,\\mathrm{W/m^2} = 650\\,\\mathrm{W/m^2}$\n\nErde: $70\\,\\% \\cdot 1360\\,\\mathrm{W/m^2} \\approx 950\\,\\mathrm{W/m^2}$"
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Venus absorbiert weniger Sonnenstrahlung als die Erde (etwa 650 statt 950 W/m²), weil sie wegen ihrer Wolken 75 % reflektiert.\n\nTrotzdem ist sie mit 465 °C viel heißer: Die sehr dichte Venus-Atmosphäre aus 96 % CO₂ absorbiert fast die ganze Wärmestrahlung des Bodens und strahlt sie zurück. Der Boden muss sehr heiß werden, bis genug Energie ins All entweicht – ein extrem starker Treibhauseffekt."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Wetter: Ein Sturm ist ein Zustand der Atmosphäre für eine begrenzte Zeit (Wochen). Zum Klima des Mars gehört höchstens, wie oft und wann solche Stürme im Mittel über viele Jahre auftreten."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Strahlungsenergie der Sonne → (Absorption am Boden) thermische Energie des Bodens → (Emission) Strahlungsenergie der Wärmestrahlung (Infrarot)."
+        },
+        {
+          "id": "V1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Richtig ist: Die Venus zeigt, wie stark CO₂ über den Treibhauseffekt einen Planeten erwärmen kann.\n\nAber: Die Venus-Atmosphäre besteht zu 96 % aus CO₂ und ist viel dichter; auf der Erde sind es 0,04 %, und selbst mit allen fossilen Vorräten käme die Erde nicht in diese Nähe. Die Venus ist außerdem näher an der Sonne.\n\nUrteil: Als Beispiel für das Prinzip passend, als Vorhersage für die Erde übertrieben. (Auch schon wenige Kelvin Erwärmung haben auf der Erde große Folgen.)"
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Hat der Skilift noch Zukunft?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6",
+        "c1",
+        "c2",
+        "c3",
+        "g2",
+        "g4",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner und Regelheft, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Treibhauseffekt, Klimawandel) – am besten nach N5 bis N7.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Skilift.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ein einzelner Winter ist Wetter und kann vom Mittel stark abweichen – auch nach oben. Die Tabelle zeigt das Klima: Seit 1971 nimmt die Zahl der Schneetage in jedem Jahrzehnt ab und die Wintertemperatur steigt. Ein schneereicher Winter widerlegt diesen Trend nicht; die Aussage ist falsch."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Abnahme von 1971–1980 bis 2011–2020: $95 - 55 = 40$ Tage in $4$ Jahrzehnten, also etwa $10$ Tage je Jahrzehnt.\n\n2021–2030: etwa $45$, 2031–2040: etwa $35$, 2041–2050: etwa $25$ Schneetage pro Winter."
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Nur grob: Die Abschätzung setzt voraus, dass die Abnahme gleichmäßig weitergeht. Wie stark es sich erwärmt, hängt davon ab, wie viel CO₂ noch ausgestoßen wird; Rückkopplungen (Aufgabe 2) können die Abnahme beschleunigen. Außerdem schwanken einzelne Winter stark."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ist der Schnee weg, absorbiert die dunkle Wiese viel mehr Sonnenlicht (etwa 80 % statt 15 %). Der Boden und die Luft darüber werden wärmer, der restliche Schnee in der Umgebung schmilzt schneller – eine verstärkende Rückkopplung (wie beim Meereis)."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Nicht haltbar: Die Strahlung der Sonne hat seit 1980 nicht zugenommen, die Wintertemperatur ist aber seitdem um etwa 1,7 K gestiegen. Die Erwärmung passt dagegen zum steigenden CO₂ und zum zusätzlichen Treibhauseffekt."
+        },
+        {
+          "id": "V2-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Mehr CO₂ absorbiert mehr Wärmestrahlung des Bodens und strahlt sie zurück. Die Erde erwärmt sich, bis sie wieder so viel abstrahlt, wie sie aufnimmt – auch im Winter ist es im Mittel wärmer. Es fällt öfter Regen statt Schnee, und Schnee schmilzt früher."
+        },
+        {
+          "id": "V2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E = 100\\,000 \\cdot 3\\,\\mathrm{kWh} = 300\\,000\\,\\mathrm{kWh} = 300\\,\\mathrm{MWh}$"
+        },
+        {
+          "id": "V2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Thermische Energie der Umgebung (über die kinetische Energie von Wasser und Luft, Reibung und Wärme in Motoren und Pumpen)."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Eine Hallig wird klimaneutral",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 22,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c8",
+        "c7",
+        "c9",
+        "c6",
+        "c3",
+        "c5",
+        "g4",
+        "g6",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner und Regelheft, 22 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Treibhauseffekt, Klimawandel, Klimaschutz) – am besten nach N8 bis N11.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Hallig_klimaneutral.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$25\\,000 \\cdot 2{,}65\\,\\mathrm{kg} = 66\\,250\\,\\mathrm{kg} \\approx 66\\,\\mathrm{t}$"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Diesel (aus Erdöl): fossil. Wind und Sonne: regenerativ."
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\eta_{ges} = 0{,}70 \\cdot 0{,}50 = 0{,}35 = 35\\,\\%$\n\n$E_{zu} = \\frac{10\\,\\mathrm{MWh}}{0{,}35} \\approx 28{,}6\\,\\mathrm{MWh}$ Windstrom"
+        },
+        {
+          "id": "V3-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "100 Einheiten elektrische Energie → Elektrolyseur → 70 Einheiten chemische Energie im Wasserstoff (30 Einheiten Wärme) → Brennstoffzelle → 35 Einheiten elektrische Energie (35 Einheiten Wärme). Die Pfeilbreiten werden in jedem Schritt schmaler.",
+          "loesung_bild": "img/V3-1d.png"
+        },
+        {
+          "id": "V3-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$U = 300 \\cdot 0{,}7\\,\\mathrm{V} = 210\\,\\mathrm{V}$\n\nHinein gehen nur Wasserstoff und Sauerstoff, heraus kommt nur Wasser – ohne Kohlenstoff kann kein CO₂ entstehen."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Halligen liegen nur etwa 1 bis 2 m über dem mittleren Hochwasser und haben keine hohen Deiche. Der Meeresspiegel steigt, weil Eis an Land (Grönland, Antarktis, Gletscher) schmilzt und sich das wärmere Meerwasser ausdehnt. Dazu können Sturmfluten höher auflaufen – die Hallig wird häufiger überflutet („Landunter“)."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Anteil: $\\frac{66\\,\\mathrm{t}}{37\\,000\\,000\\,000\\,\\mathrm{t}} \\approx 0{,}000\\,000\\,2\\,\\%$ – für den Meeresspiegel vor der Hallig spielt das keine messbare Rolle.\n\nUrsache: Der Anstieg kommt von der weltweiten Erwärmung durch das CO₂ aller Menschen (zusätzlicher Treibhauseffekt). Er geht auch dann weiter, wenn eine Gemeinde klimaneutral wird; selbst bei weltweitem Stopp steigt das Meer noch lange (träges Eis und Ozean).\n\nNutzen: Die Hallig spart 66 t CO₂ im Jahr, wird unabhängig vom Diesel und ist ein Beispiel, dem andere folgen können. Urteil zum Beispiel: Die Aussage ist falsch, der Plan trotzdem sinnvoll – Schutz vor dem Wasser braucht zusätzlich Deiche bzw. höhere Warften.\n\nBeim Nutzen sind auch andere begründete Urteile richtig (zum Beispiel: hohe Kosten für eine sehr kleine Einsparung). Falsch ist nur die Aussage, das Wasser steige dann nicht mehr.\n\nJe ein Punkt für jedes der drei Kriterien mit Begründung."
+        }
+      ]
+    }
+  ]
+}

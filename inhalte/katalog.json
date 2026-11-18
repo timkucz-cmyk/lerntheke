@@ -127,6 +127,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Pyramide, Kegel, Kugel: Hilfsdreiecke, Mantelfläche, Oberflächeninhalt, Volumen, Kreisausschnitt, Vervielfachen, zusammengesetzte und ausgehöhlte Körper, Modellieren"
+        },
+        {
+          "id": "klima",
+          "name": "Klima – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Wetter und Klima, Treibhauseffekt, Treibhausgase, CO₂-Messdaten, Belege für den menschengemachten Klimawandel, Folgen und Kippelemente, fossile und regenerative Energiequellen, Brennstoffzelle, Klimaschutz"
         }
       ]
     },
