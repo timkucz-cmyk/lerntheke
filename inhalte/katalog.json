@@ -167,6 +167,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Skalarprodukt, Vektorprodukt, Ebenen in Parameter-, Koordinaten- und Normalenform, Lagebeziehungen, Schnittpunkte, Winkel, Scharen"
+        },
+        {
+          "id": "analysis",
+          "name": "Analysis – Trainingswoche",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Produkt- und Kettenregel, Tangente und Normale, Stetigkeit, e-Funktion, Funktionen mit e-Anteil, Wendetangente, Randextrema, Ortskurven, Optimierung"
         }
       ]
     },
