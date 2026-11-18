@@ -18,6 +18,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Diagramme lesen, Formeln und Wertetabellen, proportionale Zuordnungen"
+        },
+        {
+          "id": "geometrie",
+          "name": "Winkel, Dreiecke und Konstruktionen – Training",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Neben-, Scheitel-, Stufen- und Wechselwinkel, Winkelsummen, Basiswinkelsatz, Satz des Thales, Grundkonstruktionen, besondere Linien, Umkreis und Inkreis"
         }
       ]
     },
