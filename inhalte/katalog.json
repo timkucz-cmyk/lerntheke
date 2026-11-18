@@ -209,6 +209,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Produkt- und Kettenregel, Tangente und Normale, Stetigkeit, e-Funktion, Funktionen mit e-Anteil, Wendetangente, Randextrema, Ortskurven, Optimierung"
+        },
+        {
+          "id": "stochastik",
+          "name": "Stochastik (Q1) – Trainingswoche",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Lage- und Streumaße, Zufallsgrößen, Simulation, Erwartungswert und Standardabweichung, Bernoulli-Ketten, Binomialverteilung, hypergeometrische Verteilung"
         }
       ]
     },
