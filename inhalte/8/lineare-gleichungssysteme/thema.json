@@ -1,0 +1,1064 @@
+{
+  "version": 1,
+  "titel": "Lineare Gleichungssysteme – Training vor der Klassenarbeit",
+  "fach": "mathe",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Geraden, beim Aufstellen oder Lösen von Gleichungen oder beim Auflösen von Klammern unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N2 (Gleichungen mit zwei Variablen), V2 nach N3 bis N4 (Gleichsetzen und Einsetzen), V3 nach N5 bis N8 (Additionsverfahren und Sachaufgaben). Ohne Taschenrechner. Geodreieck bereitlegen; dein Regelheft darfst du benutzen.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Den Graphen einer linearen Funktion aus der Funktionsgleichung zeichnen"
+    },
+    {
+      "id": "g2",
+      "text": "Die Funktionsgleichung einer Geraden aus dem Graphen ablesen"
+    },
+    {
+      "id": "g3",
+      "text": "Zu einer Sachsituation eine Gleichung aufstellen"
+    },
+    {
+      "id": "g4",
+      "text": "Mit einer Probe prüfen, ob eine Zahl eine Lösung einer Gleichung ist"
+    },
+    {
+      "id": "g5",
+      "text": "Gleichungen mit Äquivalenzumformungen lösen"
+    },
+    {
+      "id": "g6",
+      "text": "Klammern auflösen – auch mit Minus vor der Klammer – und Terme zusammenfassen"
+    },
+    {
+      "id": "c1",
+      "text": "Lösungen einer Gleichung mit zwei Variablen als Zahlenpaare angeben und als Gerade darstellen"
+    },
+    {
+      "id": "c2",
+      "text": "Ein Gleichungssystem grafisch lösen und die Lösung mit der Probe in beiden Gleichungen prüfen"
+    },
+    {
+      "id": "c3",
+      "text": "Die Anzahl der Lösungen eines Gleichungssystems bestimmen – an der Lage der Geraden und rechnerisch"
+    },
+    {
+      "id": "c4",
+      "text": "Das Gleichsetzungsverfahren anwenden"
+    },
+    {
+      "id": "c5",
+      "text": "Das Einsetzungsverfahren anwenden"
+    },
+    {
+      "id": "c6",
+      "text": "Das Additionsverfahren anwenden"
+    },
+    {
+      "id": "c7",
+      "text": "Ein passendes Lösungsverfahren auswählen und die Wahl begründen"
+    },
+    {
+      "id": "c8",
+      "text": "Sachaufgaben mit einem Gleichungssystem lösen und die Lösung im Sachzusammenhang deuten"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Lineare Funktionen und Terme und Gleichungen",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Gleichungen mit zwei Variablen",
+      "untertitel": "Zahlenpaare, Geraden, grafisch lösen, Anzahl der Lösungen",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Gleichsetzen und Einsetzen",
+      "untertitel": "Die ersten Rechenverfahren",
+      "farbe": "orange",
+      "checkliste": [
+        "c4",
+        "c5"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Additionsverfahren und Sachaufgaben",
+      "untertitel": "Addieren, Verfahren wählen, Probleme lösen",
+      "farbe": "gruen",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c8"
+      ]
+    }
+  ],
+  "abschluss": "Klassenarbeit",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "y-Achsenabschnitt $b = 2$: Start im Punkt $(0 \\mid 2)$. Steigung $m = -1$: 1 nach rechts, 1 nach **unten**. Weitere Punkte z. B. $(2 \\mid 0)$ und $(4 \\mid -2)$. Die Gerade fällt."
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Start in $(0 \\mid -2)$. Steigung $m = 0{,}5$: 2 nach rechts, 1 nach oben. Weitere Punkte z. B. $(2 \\mid -1)$ und $(4 \\mid 0)$.\n\nÜben: **G2** Aufgabe 1.",
+          "loesung_bild": "img/G1-1b.png"
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "y-Achsenabschnitt $b = -3$, Steigung: 1 nach rechts, 1 nach oben, also $m = 1$.\n\n$$h(x) = x - 3$$"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "y-Achsenabschnitt $b = 2$. Steigungsdreieck: 3 nach rechts, 1 nach **unten**, also $m = \\frac{-1}{3} = -\\frac{1}{3}$.\n\n$$g(x) = -\\frac{1}{3}x + 2$$\n\nÜben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Vier Hefte kosten $4x$, dazu kommt der Zirkel:\n\n$$4x + 6{,}5 = 9{,}3$$\n\n(auch richtig: $4 \\cdot x + 6{,}50 = 9{,}30$)"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$4x + 6{,}5 = 9{,}3 \\quad \\mid -6{,}5$$\n\n$$4x = 2{,}8 \\quad \\mid : 4$$\n\n$$x = 0{,}7$$\n\nEin Heft kostet **0,70 €**.\n\nÜben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Links: $4 \\cdot 4 - 5 = 11$. Rechts: $4 + 7 = 11$. Beide Seiten sind gleich, also ist $x = 4$ eine Lösung ✓."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Links: $4 \\cdot (-1) - 5 = -4 - 5 = -9$. Rechts: $-1 + 7 = 6$. Wegen $-9 \\ne 6$ ist $x = -1$ **keine** Lösung.\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$6x - 7 = 2x + 9 \\quad \\mid -2x$$\n\n$$4x - 7 = 9 \\quad \\mid +7$$\n\n$$4x = 16 \\quad \\mid : 4$$\n\n$$x = 4$$"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$4 - 3x = x + 12 \\quad \\mid -x$$\n\n$$4 - 4x = 12 \\quad \\mid -4$$\n\n$$-4x = 8 \\quad \\mid : (-4)$$\n\n$$x = -2$$\n\nProbe: links $4 - 3 \\cdot (-2) = 10$, rechts $-2 + 12 = 10$ ✓\n\nÜben: **G2** Aufgabe 5."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die $-2$ wird mit **jedem** Summanden in der Klammer multipliziert: $-2 \\cdot 4 = -8$ und $-2 \\cdot (-x) = +2x$.\n\n$$3x - 8 + 2x = 5x - 8$$"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Minus vor der Klammer: Beim Auflösen ändern sich **alle** Vorzeichen in der Klammer.\n\n$$10 - 3y + 2 + y = 12 - 2y$$\n\nÜben: **G2** Aufgabe 6."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Geraden, Gleichungen, Klammern",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Hier übst du das Vorwissen aus „Lineare Funktionen“ und „Terme und Gleichungen“. Wähle die Aufgaben, die zu deinen Lücken aus G1 passen: 1 Geraden zeichnen, 2 Geraden ablesen, 3 Gleichung aufstellen, 4 Probe, 5 Gleichungen lösen, 6 Klammern.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen_Geraden_Gleichungen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Start im y-Achsenabschnitt $(0 \\mid 2)$ (1 P).\n\nSteigung $m = -3$: 1 nach rechts, 3 nach **unten** – so kommst du zu $(1 \\mid -1)$. Gerade durch beide Punkte zeichnen (1 P).",
+          "loesung_bild": "img/G2-1.png"
+        },
+        {
+          "id": "G2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$g$: $b = 2$; 2 nach rechts, 3 nach unten, also $m = \\frac{-3}{2} = -1{,}5$:\n\n$$g(x) = -1{,}5x + 2$$\n\n$h$: $b = -2$; 4 nach rechts, 1 nach oben, also $m = \\frac{1}{4} = 0{,}25$:\n\n$$h(x) = 0{,}25x - 2$$\n\nJe Gleichung 1 P."
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Zahl heißt $x$. Das Doppelte ist $2x$:\n\n$$2x + 9 = 3$$"
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$2x + 9 = 3 \\quad \\mid -9$$\n\n$$2x = -6 \\quad \\mid : 2$$\n\n$$x = -3$$\n\nDie Zahl ist $-3$. Probe: $2 \\cdot (-3) + 9 = 3$ ✓"
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Links: $2 - 3 \\cdot (-1) = 2 + 3 = 5$. Rechts: $-1 + 6 = 5$. Beide Seiten sind gleich, also ist $x = -1$ eine Lösung ✓."
+        },
+        {
+          "id": "G2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$7x + 3 = 4x - 9 \\quad \\mid -4x$$\n\n$$3x + 3 = -9 \\quad \\mid -3$$\n\n$$3x = -12 \\quad \\mid : 3$$\n\n$$x = -4$$"
+        },
+        {
+          "id": "G2-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Alle Vorzeichen in der Klammer ändern sich: $5x - 2x + 6 = 3x + 6$"
+        },
+        {
+          "id": "G2-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$-2 \\cdot 3 = -6$ und $-2 \\cdot (-y) = +2y$:\n\n$$4 - 6 + 2y = 2y - 2$$"
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Gleichungen mit zwei Variablen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c1",
+        "g4",
+        "g1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner, Geodreieck.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Gleichungen_zwei_Variablen.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Jeweils $x$ und $y$ einsetzen:\n\n- $(2 \\mid 1)$: $3 \\cdot 2 + 2 \\cdot 1 = 6 + 2 = 8$ ✓ Lösung\n- $(-1 \\mid 4)$: $3 \\cdot (-1) + 2 \\cdot 4 = -3 + 8 = 5 \\ne 8$ – keine Lösung\n- $(4 \\mid -2)$: $3 \\cdot 4 + 2 \\cdot (-2) = 12 - 4 = 8$ ✓ Lösung\n\nAlle drei richtig: 2 P, zwei richtig: 1 P."
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x = -2$ einsetzen:\n\n$$3 \\cdot (-2) + 2y = 8$$\n\n$$-6 + 2y = 8 \\quad \\mid +6$$\n\n$$2y = 14 \\quad \\mid : 2$$\n\n$$y = 7$$\n\nDas Zahlenpaar $(-2 \\mid 7)$ ist eine Lösung."
+        },
+        {
+          "id": "N1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$3x + 2y = 8 \\quad \\mid -3x$$\n\n$$2y = -3x + 8 \\quad \\mid : 2$$\n\n$$y = -1{,}5x + 4$$"
+        },
+        {
+          "id": "N1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Start in $(0 \\mid 4)$; Steigung $-1{,}5$: 2 nach rechts, 3 nach unten. Die Gerade geht durch $(2 \\mid 1)$ und $(4 \\mid -2)$ – die Lösungen aus Aufgabe 1.",
+          "loesung_bild": "img/N1-2b.png"
+        },
+        {
+          "id": "N1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Gerade ist der Graph von $y = -1{,}5x + 4$. Diese Gleichung ist durch Äquivalenzumformungen aus $3x + 2y = 8$ entstanden, beide Gleichungen haben also dieselben Lösungen. Jeder Punkt der Geraden erfüllt $y = -1{,}5x + 4$ und damit auch $3x + 2y = 8$."
+        },
+        {
+          "id": "N1-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nach $y$ umformen: A: $y = -2x + 4$; B: $y = 0{,}5x - 1$; C: $y = -x - 1$.\n\n1 – B (steigt, $b = -1$) · 2 – C (fällt, $b = -1$) · 3 – A (fällt steil, $b = 4$)\n\nAuch möglich: Punkte prüfen, z. B. liegt $(2 \\mid 0)$ auf Gerade 1 und erfüllt B."
+        },
+        {
+          "id": "N1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$6x + 4y = 120$$\n\n(auch richtig gekürzt: $3x + 2y = 60$)"
+        },
+        {
+          "id": "N1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zum Beispiel $(0 \\mid 30)$, $(2 \\mid 27)$, $(10 \\mid 15)$ oder $(20 \\mid 0)$. Kontrolle: $6 \\cdot 10 + 4 \\cdot 15 = 60 + 60 = 120$ ✓\n\nAlle Möglichkeiten: $x = 0; 2; 4; \\ldots; 20$ mit $y = 30 - 1{,}5x$."
+        },
+        {
+          "id": "N1-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Nach $y$ umgeformt: $y = 30 - 1{,}5x$. Damit $y$ eine natürliche Zahl ist, muss $1{,}5x$ eine ganze Zahl sein. Das klappt nur, wenn $x$ gerade ist (z. B. $1{,}5 \\cdot 3 = 4{,}5$, aber $1{,}5 \\cdot 4 = 6$).\n\nAuch richtig: $4y$ und $120$ sind durch 4 teilbar, also muss auch $6x$ durch 4 teilbar sein – das geht nur bei geradem $x$."
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Gleichungssysteme grafisch lösen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c2",
+        "c3",
+        "c1",
+        "g1",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner, Geodreieck. Gezeichnet wird nur in Aufgabe 1.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Grafisch_loesen.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "I: $x + y = 8$\nII: $x - y = 2$\n\nBeide Bedingungen müssen gleichzeitig gelten."
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Umformen: I: $y = -x + 8$, II: $y = x - 2$. Beide Geraden zeichnen (1 P).\n\nDie Geraden schneiden sich im Punkt $(5 \\mid 3)$. Die Lösung ist $(5 \\mid 3)$ (1 P).",
+          "loesung_bild": "img/N2-1b.png"
+        },
+        {
+          "id": "N2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "I: $5 + 3 = 8$ ✓ II: $5 - 3 = 2$ ✓ – das Zahlenpaar erfüllt beide Gleichungen."
+        },
+        {
+          "id": "N2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "(a) keine Lösung (die Geraden sind parallel) · (b) unendlich viele Lösungen (die Geraden sind identisch) · (c) genau eine Lösung (die Geraden schneiden sich)"
+        },
+        {
+          "id": "N2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "II nach $y$ umformen: $x + 2y = 6 \\quad \\mid -x$, also $2y = -x + 6 \\quad \\mid : 2$, also $y = -0{,}5x + 3$. Das ist dieselbe Gleichung wie I. Beide Geraden sind identisch, jeder Punkt der Geraden ist eine Lösung, z. B. $(0 \\mid 3)$ und $(6 \\mid 0)$."
+        },
+        {
+          "id": "N2-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Abgelesen: $(3 \\mid 2)$.\n\nProbe: I: $2 \\cdot 3 - 4 = 2$ ✓ II: $-3 + 5 = 2$ ✓"
+        },
+        {
+          "id": "N2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "II nach $y$ umformen (1 P):\n\n$$8x - 2y = 5 \\quad \\mid -8x$$\n\n$$-2y = -8x + 5 \\quad \\mid : (-2)$$\n\n$$y = 4x - 2{,}5$$\n\nBeide Geraden haben die Steigung 4, aber verschiedene y-Achsenabschnitte ($-1$ und $-2{,}5$). Die Geraden sind parallel und schneiden sich nie – es gibt keine Lösung (1 P)."
+        },
+        {
+          "id": "N2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Gerade zu II muss parallel zu I sein: gleiche Steigung $-2$, anderer y-Achsenabschnitt, z. B. II: $y = -2x + 1$ (auch $2x + y = 0$ ist richtig)."
+        },
+        {
+          "id": "N2-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Probe: I: $2 \\cdot 1{,}5 - 2 = 1$ ✓, aber II: $-1{,}5 + 2 = 0{,}5 \\ne 1$. Bens Zahlenpaar ist **keine** Lösung (1 P).\n\nDer Schnittpunkt liegt nicht auf einer Kästchenecke (genau bei $x = \\frac{4}{3}$, $y = \\frac{2}{3}$). Aus einer Zeichnung kann man ihn dann nur ungefähr ablesen. Deshalb gehört zum grafischen Lösen immer die Probe; genau rechnet man mit den Verfahren aus N3 (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Gleichsetzen und Einsetzen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c3",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Weitere Übung zu zweit: Tandem N4.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Gleichsetzen_Einsetzen.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Gleichsetzen und $x$ bestimmen (1 P):\n\n$$3x - 4 = x + 2 \\quad \\mid -x$$\n\n$$2x - 4 = 2 \\quad \\mid +4$$\n\n$$2x = 6 \\quad \\mid : 2$$\n\n$$x = 3$$\n\n$x = 3$ in II einsetzen (1 P): $y = 3 + 2 = 5$\n\nLösung und Probe (1 P): Die Lösung ist $(3 \\mid 5)$. Probe in I: $3 \\cdot 3 - 4 = 5$ ✓"
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Erst beide Gleichungen nach $y$ umformen: I: $y = -2x + 7$, II: $y = x + 1$.\n\nGleichsetzen und $x$ bestimmen (1 P):\n\n$$-2x + 7 = x + 1 \\quad \\mid -x$$\n\n$$-3x + 7 = 1 \\quad \\mid -7$$\n\n$$-3x = -6 \\quad \\mid : (-3)$$\n\n$$x = 2$$\n\n$x = 2$ in II einsetzen (1 P): $y = 2 + 1 = 3$\n\nLösung und Probe (1 P): $(2 \\mid 3)$. Probe: I: $2 \\cdot 2 + 3 = 7$ ✓ II: $3 - 2 = 1$ ✓"
+        },
+        {
+          "id": "N3-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "I in II einsetzen – $3y - 1$ in Klammern – und $y$ bestimmen (1 P):\n\n$$4y - 2(3y - 1) = 6$$\n\n$$4y - 6y + 2 = 6$$\n\n$$-2y + 2 = 6 \\quad \\mid -2$$\n\n$$-2y = 4 \\quad \\mid : (-2)$$\n\n$$y = -2$$\n\n$y = -2$ in I einsetzen (1 P): $x = 3 \\cdot (-2) - 1 = -7$\n\nLösung und Probe (1 P): $(-7 \\mid -2)$. Probe in II: $4 \\cdot (-2) - 2 \\cdot (-7) = -8 + 14 = 6$ ✓"
+        },
+        {
+          "id": "N3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$6x + 3(-2x + 3) = 4$$\n\n$$6x - 6x + 9 = 4$$\n\n$$9 = 4$$\n\nDas ist eine **falsche Aussage**. Das Gleichungssystem hat **keine Lösung**: $L = \\{\\,\\}$."
+        },
+        {
+          "id": "N3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Mia hat **nicht** unbedingt falsch gerechnet. Fällt die Variable weg und bleibt eine falsche Aussage stehen, gibt es kein Zahlenpaar, das beide Gleichungen erfüllt. Formt man II nach $y$ um, erhält man $y = -2x + \\frac{4}{3}$: Beide Geraden haben die Steigung $-2$, sie sind parallel."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Tandem: Gleichsetzen und Einsetzen",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c4",
+        "c5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert. Nach jeder Nummer wird gewechselt.",
+      "bild": "img/st_N4.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N4-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechne mit dem Gleichsetzungsverfahren: I: $y = -2x + 1$, II: $y = x - 5$.",
+          "tipp": "Setze $-2x + 1 = x - 5$. Vorsicht beim Teilen durch eine negative Zahl.",
+          "loesung": "$-2x + 1 = x - 5 \\quad \\mid -x$\n\n$-3x + 1 = -5 \\quad \\mid -1$\n\n$-3x = -6 \\quad \\mid : (-3)$\n\n$x = 2$, dann $y = 2 - 5 = -3$\n\nLösung $(2 \\mid -3)$"
+        },
+        {
+          "id": "N4-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechne mit dem Gleichsetzungsverfahren: I: $y = 3x + 2$, II: $y = x - 2$.",
+          "tipp": "Setze $3x + 2 = x - 2$. Das Ergebnis ist negativ.",
+          "loesung": "$3x + 2 = x - 2 \\quad \\mid -x$\n\n$2x + 2 = -2 \\quad \\mid -2$\n\n$2x = -4 \\quad \\mid : 2$\n\n$x = -2$, dann $y = -2 - 2 = -4$\n\nLösung $(-2 \\mid -4)$"
+        },
+        {
+          "id": "N4-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechne mit dem Einsetzungsverfahren: I: $y = 2x - 3$, II: $3x + 2y = 8$.",
+          "tipp": "Setze $2x - 3$ in Klammern für $y$ in II ein.",
+          "loesung": "$3x + 2(2x - 3) = 8$\n\n$3x + 4x - 6 = 8$\n\n$7x = 14$, also $x = 2$, dann $y = 2 \\cdot 2 - 3 = 1$\n\nLösung $(2 \\mid 1)$"
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechne mit dem Einsetzungsverfahren: I: $x = y + 2$, II: $2x + 3y = 9$.",
+          "tipp": "Setze $y + 2$ in Klammern für $x$ in II ein.",
+          "loesung": "$2(y + 2) + 3y = 9$\n\n$2y + 4 + 3y = 9$\n\n$5y = 5$, also $y = 1$, dann $x = 1 + 2 = 3$\n\nLösung $(3 \\mid 1)$"
+        },
+        {
+          "id": "N4-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne mit dem Einsetzungsverfahren: I: $y = 2x - 1$, II: $5x - 3y = 4$.",
+          "tipp": "Minus vor der Klammer: $-3(2x - 1) = -6x + 3$.",
+          "loesung": "$5x - 3(2x - 1) = 4$\n\n$5x - 6x + 3 = 4$\n\n$-x = 1$, also $x = -1$, dann $y = 2 \\cdot (-1) - 1 = -3$\n\nLösung $(-1 \\mid -3)$"
+        },
+        {
+          "id": "N4-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne mit dem Einsetzungsverfahren: I: $y = 3x - 2$, II: $4x - 2y = 6$.",
+          "tipp": "Minus vor der Klammer: $-2(3x - 2) = -6x + 4$.",
+          "loesung": "$4x - 2(3x - 2) = 6$\n\n$4x - 6x + 4 = 6$\n\n$-2x = 2$, also $x = -1$, dann $y = 3 \\cdot (-1) - 2 = -5$\n\nLösung $(-1 \\mid -5)$"
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Das Additionsverfahren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Additionsverfahren.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Vor $y$ stehen schon Gegenzahlen. I + II, $x$ bestimmen (1 P):\n\n$$5x = 15 \\quad \\mid : 5$$\n\n$$x = 3$$\n\n$x = 3$ in I einsetzen (1 P): $2 \\cdot 3 + y = 9$, also $y = 3$\n\nLösung und Probe (1 P): $(3 \\mid 3)$. Probe in II: $3 \\cdot 3 - 3 = 6$ ✓"
+        },
+        {
+          "id": "N5-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "$2 \\cdot \\text{I}$: $6x + 4y = 8$. Jetzt stehen $+4y$ und $-4y$ da.\n\n$2 \\cdot \\text{I} + \\text{II}$, $x$ bestimmen (1 P):\n\n$$7x = 14 \\quad \\mid : 7$$\n\n$$x = 2$$\n\n$x = 2$ in I einsetzen (1 P): $6 + 2y = 4$, also $2y = -2$ und $y = -1$\n\nLösung und Probe (1 P): $(2 \\mid -1)$. Probe in II: $2 - 4 \\cdot (-1) = 2 + 4 = 6$ ✓"
+        },
+        {
+          "id": "N5-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$5 \\cdot \\text{I}$: $25x + 10y = 5$ und $2 \\cdot \\text{II}$: $6x + 10y = -14$. Vor $y$ steht jetzt beide Male $10y$, also subtrahieren.\n\n$5 \\cdot \\text{I} - 2 \\cdot \\text{II}$, $x$ bestimmen (1 P):\n\n$$19x = 19 \\quad \\mid : 19$$\n\n$$x = 1$$\n\n$x = 1$ in I einsetzen (1 P): $5 + 2y = 1$, also $2y = -4$ und $y = -2$\n\nLösung und Probe (1 P): $(1 \\mid -2)$. Probe in II: $3 + 5 \\cdot (-2) = -7$ ✓\n\nAuch richtig: I mit 3 und II mit 5 multiplizieren und $x$ wegfallen lassen."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$2 \\cdot \\text{I}$: $4x - 6y = 8$. Dazu II addieren: $0 = 0$. Das ist eine **wahre Aussage** ohne Variable: Das Gleichungssystem hat **unendlich viele Lösungen** – alle Zahlenpaare der Geraden $2x - 3y = 4$, z. B. $(2 \\mid 0)$ und $(5 \\mid 2)$."
+        },
+        {
+          "id": "N5-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei **System B**: Vor $y$ stehen schon die Gegenzahlen $+2y$ und $-2y$. Addiert man die Gleichungen, fällt $y$ sofort weg ($8x = 8$). Bei System A sind beide Gleichungen nach $y$ umgeformt – dort ist das Gleichsetzungsverfahren geschickter."
+        },
+        {
+          "id": "N5-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Fast richtig: Man darf mit jeder Zahl **außer 0** multiplizieren – und zwar beide Seiten der Gleichung. Multipliziert man mit 0, wird aus der Gleichung $0 = 0$: Die Information der Gleichung geht verloren, das System hat dann scheinbar unendlich viele Lösungen."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Das passende Verfahren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Passendes_Verfahren.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "(a) Gleichsetzungsverfahren · (b) Einsetzungsverfahren · (c) Additionsverfahren"
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "(a) Beide Gleichungen sind schon nach $y$ umgeformt – man kann die rechten Seiten direkt gleichsetzen.\n\n(b) I ist nach $y$ umgeformt, II nicht: $3x - 5$ lässt sich direkt für $y$ in II einsetzen.\n\n(c) Vor $y$ steht in beiden Gleichungen $3y$: $\\text{I} - \\text{II}$ lässt $y$ sofort wegfallen.\n\nAlle drei Begründungen: 2 P, zwei: 1 P. Andere Wahl mit stichhaltiger Begründung ist auch richtig."
+        },
+        {
+          "id": "N6-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$\\text{I} - \\text{II}$, $x$ bestimmen (1 P):\n\n$$2x = 4 \\quad \\mid : 2$$\n\n$$x = 2$$\n\n$x = 2$ in I einsetzen (1 P): $8 + 3y = 11$, also $3y = 3$ und $y = 1$\n\nLösung und Probe (1 P): $(2 \\mid 1)$. Probe in II: $2 \\cdot 2 + 3 \\cdot 1 = 7$ ✓"
+        },
+        {
+          "id": "N6-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Additionsverfahren: $2 \\cdot \\text{I}$ ist $6x + 4y = 24$; $2 \\cdot \\text{I} + \\text{II}$ ergibt sofort $11x = 33$, also $x = 3$ – mit ganzen Zahlen. Ole muss erst zweimal umformen und dann mit Dezimalzahlen wie $1{,}25$ und $2{,}25$ weiterrechnen."
+        },
+        {
+          "id": "N6-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Oles Weg ist **nicht falsch**: Auch das Gleichsetzungsverfahren liefert die Lösung $(3 \\mid 1{,}5)$ (1 P).\n\nEr ist aber umständlich und fehleranfällig, weil keine Gleichung nach $y$ umgeformt gegeben ist und Dezimalzahlen entstehen. Mit dem Additionsverfahren fällt $y$ nach einer Multiplikation weg – das ist hier die geschicktere Wahl (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Sachaufgaben mit Gleichungssystemen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c3",
+        "c7",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Sachaufgaben.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "I: $x + y = 14$\nII: $3x + y = 30$\n\nI zählt die Spiele, II die Punkte."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$\\text{II} - \\text{I}$, $x$ bestimmen (1 P): $2x = 16$, also $x = 8$\n\n$x = 8$ in I einsetzen (1 P): $8 + y = 14$, also $y = 6$\n\nProbe und Antwort (1 P): $3 \\cdot 8 + 6 = 30$ ✓. Die Lösung ist $(8 \\mid 6)$: Die Mannschaft hat **8 Spiele gewonnen** und 6-mal unentschieden gespielt."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "I: $10x + 15y = 9$\nII: $20x + 30y = 18$\n\n$2 \\cdot \\text{I} - \\text{II}$: $0 = 0$, eine wahre Aussage (1 P).\n\nDas System hat unendlich viele Lösungen: II ist nur das Doppelte von I und liefert keine neue Information. Die Preise lassen sich **nicht** bestimmen – möglich wären z. B. 0,30 € und 0,40 € oder 0,60 € und 0,20 € (1 P)."
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Jonas hat **nicht recht**. Mit II: $20x + 30y = 20$ ergibt $2 \\cdot \\text{I} - \\text{II}$ $0 = -2$, eine falsche Aussage: Das System hätte **keine** Lösung. Die doppelte Menge müsste bei festen Stückpreisen genau doppelt so viel kosten; 20 € statt 18 € passt zu keinem Preis (die Angebote widersprächen sich)."
+        },
+        {
+          "id": "N7-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x$: Anzahl der Fahrräder, $y$: Anzahl der Lastenräder\n\nI: $x + y = 32$\nII: $2x + 3y = 70$"
+        },
+        {
+          "id": "N7-3b",
+          "label": "3b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$2 \\cdot \\text{I}$: $2x + 2y = 64$. $\\text{II} - 2 \\cdot \\text{I}$, $y$ bestimmen (1 P): $y = 6$\n\n$y = 6$ in I einsetzen (1 P): $x + 6 = 32$, also $x = 26$\n\nProbe und Antwort (1 P): $2 \\cdot 26 + 3 \\cdot 6 = 52 + 18 = 70$ ✓. Die Lösung ist $(26 \\mid 6)$: An der Station stehen **26 Fahrräder und 6 Lastenräder**.\n\nAuch richtig: Einsetzungsverfahren mit $x = 32 - y$."
+        },
+        {
+          "id": "N7-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Der Betreiber hat **recht**. Selbst wenn alle 32 Fahrzeuge Lastenräder wären, hätten sie nur $3 \\cdot 32 = 96$ Räder.\n\nAuch richtig mit dem System I: $x + y = 32$, II: $2x + 3y = 100$: Es ergibt $y = 36$ und $x = -4$ – eine negative Anzahl ist im Sachzusammenhang unmöglich."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c5",
+        "c4",
+        "c3",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Lukas hat nur die linke Seite mit 2 multipliziert. Eine Äquivalenzumformung muss auf **beiden** Seiten gemacht werden (1 P).\n\nRichtig: $2x + 6y = 10$ (1 P).\n\nZur Kontrolle: $2 \\cdot \\text{I} - \\text{II}$ ergibt $7y = 7$, also $y = 1$ und $x = 2$; Lösung $(2 \\mid 1)$."
+        },
+        {
+          "id": "N8-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Emre hat $4 - x$ ohne Klammer eingesetzt. Die $-2$ muss mit dem **ganzen** Term multipliziert werden (1 P).\n\nRichtig: $3x - 2(4 - x) = 7$, also $3x - 8 + 2x = 7$ und $5x - 8 = 7$ (1 P).\n\nZur Kontrolle: $x = 3$, $y = 4 - 3 = 1$; Lösung $(3 \\mid 1)$."
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Vor $y$ stehen die Gegenzahlen $+2y$ und $-2y$. Bei $\\text{I} - \\text{II}$ fällt $y$ nicht weg: $2y - (-2y) = 4y$, richtig wäre $2x + 4y = 8$. Ida hat $-(-2y)$ falsch gerechnet. Bei Gegenzahlen muss man **addieren** (1 P).\n\n$\\text{I} + \\text{II}$: $4x = 8$, also $x = 2$; in II: $2 - 2y = 0$, also $y = 1$. Die Lösung ist $(2 \\mid 1)$ (1 P). Probe in I: $6 + 2 = 8$ ✓"
+        },
+        {
+          "id": "N8-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$0 = 0$ ist eine wahre Aussage **ohne** Variable – sie sagt nichts über $x = 0$ und $y = 0$. Diese Aussage bedeutet: Das System hat unendlich viele Lösungen (beide Gleichungen beschreiben dieselbe Gerade). $(0 \\mid 0)$ ist sogar **keine** Lösung: $0 - 2 \\cdot 0 = 0 \\ne 3$."
+        },
+        {
+          "id": "N8-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Pias Vorgehen reicht **nicht**. Eine Lösung des Gleichungssystems muss **beide** Gleichungen gleichzeitig erfüllen; $(2 \\mid 1)$ liegt sicher nur auf der Geraden zu I, die Lösung ist aber der Schnittpunkt beider Geraden (1 P).\n\nProbe in II: $2 \\cdot 2 - 1 = 3 \\ne 0$. Also ist $(2 \\mid 1)$ **keine** Lösung (1 P).\n\n(Zusatz: $\\text{I} + \\text{II}$ ergibt $3x = 3$, also $x = 1$, $y = 2$; die Lösung ist $(1 \\mid 2)$.)"
+        },
+        {
+          "id": "N8-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Max hat **nicht recht**. Alle Verfahren formen nur äquivalent um und führen deshalb zur selben Lösung. Hat das System genau eine Lösung, gibt es genau ein Zahlenpaar – mindestens eine Rechnung ist falsch. Die Probe in beiden Gleichungen zeigt, welches Paar (wenn überhaupt) stimmt. (Bei unendlich vielen Lösungen ergäbe jedes Verfahren eine wahre Aussage wie $0 = 0$, nicht zwei verschiedene Zahlenpaare.)"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Solarmodule für das Schuldach",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c2",
+        "c1",
+        "c3",
+        "g1",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner, Geodreieck. Vernetzt die Grundlagen mit Phase 1 (Gleichungen mit zwei Variablen) – am besten nach N1 bis N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Solarmodule.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$300x + 400y = 4800$$\n\nGekürzt durch 100: $3x + 4y = 48$.\n\nKontrolle z. B. mit $(4 \\mid 9)$: $300 \\cdot 4 + 400 \\cdot 9 = 1200 + 3600 = 4800$ ✓"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nach $y$ umgeformt: $4y = 48 - 3x$, also $y = 12 - 0{,}75x$ (1 P).\n\n$y$ ist nur dann eine natürliche Zahl, wenn $x$ durch 4 teilbar ist (und höchstens 16):\n\n| $x$ | 0 | 4 | 8 | 12 | 16 |\n|---|---|---|---|---|---|\n| $y$ | 12 | 9 | 6 | 3 | 0 |\n\nFünf Möglichkeiten (1 P)."
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Zweite Gleichung: $x + y = 14$ (1 P).\n\nUmgeformt: I: $y = -0{,}75x + 12$, II: $y = -x + 14$. Beide Geraden zeichnen, x-Achse: kleine Module, y-Achse: große Module (1 P).\n\nSchnittpunkt ablesen: $(8 \\mid 6)$, also 8 kleine und 6 große Module (1 P).",
+          "loesung_bild": "img/V1-1c.png"
+        },
+        {
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "I: $300 \\cdot 8 + 400 \\cdot 6 = 2400 + 2400 = 4800$ ✓ II: $8 + 6 = 14$ ✓"
+        },
+        {
+          "id": "V1-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der Hausmeister hat **nicht recht**. Selbst 10 große Module leisten höchstens $10 \\cdot 400 = 4000$ W, und $4000 < 4800$ (1 P).\n\nGrafisch: Die Gerade zu $x + y = 10$ liegt im Bereich $x \\ge 0$, $y \\ge 0$ ganz unterhalb der Geraden zu $3x + 4y = 48$; die beiden Geraden schneiden sich erst bei negativem $x$. Es gibt keine sinnvolle Lösung (1 P)."
+        },
+        {
+          "id": "V1-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$6x + 8y = 96$ ist das Doppelte von $3x + 4y = 48$. Beide Gleichungen haben dieselben Lösungen und dieselbe Gerade. Ein System aus diesen beiden Gleichungen hätte unendlich viele Lösungen."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Federn im Physikraum",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c3",
+        "g2",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 2 (Gleichungen mit zwei Variablen, Gleichsetzen und Einsetzen) – am besten nach N3 bis N4.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Federn.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bei $x = 0$ ist A 10 cm lang: $b = 10$. Je 2 · 100 g wird A um 4 cm länger, also $m = \\frac{4}{2} = 2$.\n\n$$f(x) = 2x + 10$$\n\nKontrolle: $f(8) = 16 + 10 = 26$ ✓"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$b = 16$. Je 2 · 100 g wird B um 1 cm länger, also $m = \\frac{1}{2} = 0{,}5$.\n\n$$g(x) = 0{,}5x + 16$$\n\nKontrolle: $g(8) = 4 + 16 = 20$ ✓"
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Gleichsetzen und $x$ bestimmen (1 P):\n\n$$2x + 10 = 0{,}5x + 16 \\quad \\mid -0{,}5x$$\n\n$$1{,}5x + 10 = 16 \\quad \\mid -10$$\n\n$$1{,}5x = 6 \\quad \\mid : 1{,}5$$\n\n$$x = 4$$\n\nLänge berechnen (1 P): $f(4) = 8 + 10 = 18$ (Kontrolle: $g(4) = 2 + 16 = 18$ ✓)\n\nAntwort (1 P): Die Geraden schneiden sich in $(4 \\mid 18)$. Bei **400 g** sind beide Federn **18 cm** lang."
+        },
+        {
+          "id": "V2-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "II in I einsetzen und $x$ bestimmen (1 P):\n\n$$2x + 10 = 0{,}5(x + 3) + 16$$\n\n$$2x + 10 = 0{,}5x + 17{,}5 \\quad \\mid -0{,}5x$$\n\n$$1{,}5x + 10 = 17{,}5 \\quad \\mid -10$$\n\n$$1{,}5x = 7{,}5 \\quad \\mid : 1{,}5$$\n\n$$x = 5$$\n\n$y$ bestimmen (1 P): $y = 5 + 3 = 8$, Lösung $(5 \\mid 8)$\n\nAntwort (1 P): An A hängen **500 g**, an B **800 g**. Beide Federn sind $2 \\cdot 5 + 10 = 20$ cm lang (Kontrolle: $0{,}5 \\cdot 8 + 16 = 20$ ✓)."
+        },
+        {
+          "id": "V2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Länge von C: $h(x) = 2x + 13$. Gleichsetzen: $2x + 10 = 2x + 13 \\quad \\mid -2x$ ergibt $10 = 13$, eine falsche Aussage. Es gibt keine Lösung: Die Geraden sind parallel, C ist immer 3 cm länger als A."
+        },
+        {
+          "id": "V2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "5 kg sind 5000 g, also $x = 50$: $f(50) = 100 + 10 = 110$ cm (1 P).\n\nDiese Vorhersage ist **unsicher**: Gemessen wurde nur bis 800 g. Eine Schraubenfeder wird bei zu großer Masse überdehnt; dann wächst die Länge nicht mehr gleichmäßig, oder die Feder bleibt verbogen. Das lineare Modell gilt nur im untersuchten Bereich (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Messing aus Kupfer und Zink",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c6",
+        "c7",
+        "c5",
+        "c2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 3 (Gleichungen mit zwei Variablen, Gleichsetzen und Einsetzen, Additionsverfahren und Sachaufgaben) – am besten nach N5 bis N8.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Messing.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "I: $x + y = 100$"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Kupfer wiegt $9x$ Gramm, Zink $7y$ Gramm: II: $9x + 7y = 840$"
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 4,
+          "afb": "II",
+          "loesung": "Wahl (1 P): z. B. Additionsverfahren, weil man I nur mit 7 multiplizieren muss, damit $7y$ in beiden Gleichungen steht. (Auch begründet richtig: Einsetzungsverfahren mit $y = 100 - x$, weil I sich leicht umformen lässt.)\n\n$7 \\cdot \\text{I}$: $7x + 7y = 700$. $\\text{II} - 7 \\cdot \\text{I}$, $x$ bestimmen (1 P):\n\n$$2x = 140 \\quad \\mid : 2$$\n\n$$x = 70$$\n\n$x = 70$ in I einsetzen (1 P): $70 + y = 100$, also $y = 30$\n\nLösung und Probe (1 P): $(70 \\mid 30)$. Probe in II: $9 \\cdot 70 + 7 \\cdot 30 = 630 + 210 = 840$ ✓. Im Block sind 70 cm³ Kupfer und 30 cm³ Zink.\n\nMit Einsetzen: $9x + 7(100 - x) = 840$, also $2x + 700 = 840$ und $x = 70$."
+        },
+        {
+          "id": "V3-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$9 \\cdot 70 = 630$, also **630 g** Kupfer."
+        },
+        {
+          "id": "V3-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{630}{840} = \\frac{63}{84} = \\frac{3}{4} = 75\\,\\%$. Drei Viertel der Masse sind Kupfer."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "I: $60 + (-10) = 50$ ✓ II: $9 \\cdot 60 + 7 \\cdot (-10) = 540 - 70 = 470$ ✓\n\nLars hat richtig gerechnet: $(60 \\mid -10)$ ist die Lösung des Gleichungssystems."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ein negatives Volumen gibt es nicht – das Ergebnis passt nicht zu einem Stück aus Kupfer und Zink (1 P).\n\nSelbst ein Stück aus reinem Kupfer wöge nur $9 \\cdot 50 = 450$ g, weniger als 470 g. Also stimmt eine Messung nicht, oder im Stück steckt ein schwereres Metall – das Modell „nur Kupfer und Zink“ passt hier nicht (1 P)."
+        },
+        {
+          "id": "V3-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Das leichteste Stück wäre reines Zink: $7 \\cdot 100 = 700$ g; das schwerste reines Kupfer: $9 \\cdot 100 = 900$ g. Jede Mischung wiegt dazwischen, denn wird 1 cm³ Zink durch 1 cm³ Kupfer ersetzt, kommen genau 2 g hinzu."
+        }
+      ]
+    }
+  ]
+}

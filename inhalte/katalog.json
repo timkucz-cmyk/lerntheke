@@ -45,6 +45,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Funktionsbegriff, Steigung, y-Achsenabschnitt, Funktionsgleichung, Nullstelle, Schnittpunkt"
+        },
+        {
+          "id": "lineare-gleichungssysteme",
+          "name": "Lineare Gleichungssysteme – Training",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Gleichungen mit zwei Variablen, grafisch lösen, Anzahl der Lösungen, Gleichsetzungs-, Einsetzungs- und Additionsverfahren, Sachaufgaben"
         }
       ]
     },
