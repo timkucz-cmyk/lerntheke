@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Tabellenblatt mit Zufallszahlen">
+  <style>
+    .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #B61E33; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #F08A99; }
+      .marke  { fill: #F08A99; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #F08A99; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <rect class="hilfs" x="24" y="8" width="112" height="54"/>
+  <path class="hilfs" d="M24 22 H136 M24 36 H136 M24 50 H136 M52 8 V62 M80 8 V62 M108 8 V62"/>
+  <text class="text" x="32" y="33">4</text>
+  <text class="text" x="60" y="33">2</text>
+  <text class="text" x="32" y="47">1</text>
+  <text class="text" x="60" y="47">1</text>
+  <text class="text" x="86" y="33">=ZUF</text>
+</svg>

@@ -1,0 +1,1707 @@
+{
+  "version": 1,
+  "titel": "Stochastik – Trainingswoche",
+  "fach": "mathe",
+  "anrede": "sie",
+  "hinweis": "Alle Stationen sind abiturrelevant – auch die Grundlagen. Sind Sie beim Vorwissen aus Klasse E unsicher (Baumdiagramm, Gegenereignis, bedingte Wahrscheinlichkeit, Vierfeldertafel, Unabhängigkeit), beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt das Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N14. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Daten auswerten), V2 nach N3 bis N6 (Zufallsgrößen), V3 nach N7 bis N14 als Komplexaufgabe. N15 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N15.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Ergebnis, Ereignis und Ergebnismenge unterscheiden, Gegenereignis, Schnitt und Vereinigung angeben und Laplace-Wahrscheinlichkeiten berechnen"
+    },
+    {
+      "id": "g2",
+      "text": "Mehrstufige Zufallsexperimente (mit und ohne Zurücklegen) im Baumdiagramm darstellen und mit den Pfadregeln rechnen"
+    },
+    {
+      "id": "g3",
+      "text": "Mit dem Gegenereignis rechnen, insbesondere bei „mindestens einmal“-Aufgaben"
+    },
+    {
+      "id": "g4",
+      "text": "Bedingte Wahrscheinlichkeiten aus Baumdiagrammen bestimmen, Baumdiagramme invertieren und Bedingung und Ereignis nicht verwechseln"
+    },
+    {
+      "id": "g5",
+      "text": "Vierfeldertafeln vervollständigen und daraus Wahrscheinlichkeiten ablesen und berechnen"
+    },
+    {
+      "id": "g6",
+      "text": "Zwei Ereignisse auf stochastische Unabhängigkeit prüfen"
+    },
+    {
+      "id": "c1",
+      "text": "Lage- und Streumaße einer Datenreihe auswählen und berechnen (Median, arithmetisches Mittel, Spannweite, Varianz, Standardabweichung)"
+    },
+    {
+      "id": "c2",
+      "text": "Median und arithmetisches Mittel deuten (auch bei Ausreißern)"
+    },
+    {
+      "id": "c3",
+      "text": "Spannweite, Varianz und Standardabweichung deuten und Datenreihen damit vergleichen"
+    },
+    {
+      "id": "c4",
+      "text": "Den Begriff der Zufallsgröße erklären und Ereignisse wie X = k als Teilmenge der Ergebnismenge beschreiben"
+    },
+    {
+      "id": "c5",
+      "text": "Wahrscheinlichkeitsverteilungen aufstellen"
+    },
+    {
+      "id": "c6",
+      "text": "Häufigkeits- und Wahrscheinlichkeitsverteilungen im Histogramm darstellen und vergleichen"
+    },
+    {
+      "id": "c7",
+      "text": "Zufallsexperimente mit dem Computer simulieren und die Ergebnisse mit berechneten Wahrscheinlichkeiten vergleichen"
+    },
+    {
+      "id": "c8",
+      "text": "Den Erwartungswert diskreter Zufallsgrößen berechnen und deuten (faires Spiel)"
+    },
+    {
+      "id": "c9",
+      "text": "Varianz und Standardabweichung diskreter Zufallsgrößen berechnen und deuten"
+    },
+    {
+      "id": "c10",
+      "text": "Bernoulli-Experimente erläutern und den Begriff der Bernoulli-Kette verwenden (Modellannahmen prüfen)"
+    },
+    {
+      "id": "c11",
+      "text": "Fakultät und Binomialkoeffizient berechnen und deuten"
+    },
+    {
+      "id": "c12",
+      "text": "Wahrscheinlichkeiten P(X = k) und P(k₁ ≤ X ≤ k₂) bei Binomialverteilungen berechnen"
+    },
+    {
+      "id": "c13",
+      "text": "Erwartungswert und Standardabweichung einer Binomialverteilung berechnen und deuten"
+    },
+    {
+      "id": "c14",
+      "text": "Mit der hypergeometrischen Verteilung rechnen und begründet zwischen Binomial- und hypergeometrischer Verteilung entscheiden"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse E",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Daten auswerten",
+      "untertitel": "Lage- und Streumaße",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Zufallsgrößen",
+      "untertitel": "Verteilung, Simulation, Erwartungswert, Streuung",
+      "farbe": "orange",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Binomial- und hypergeometrische Verteilung",
+      "untertitel": "Bernoulli-Ketten, Ziehen ohne Zurücklegen",
+      "farbe": "gruen",
+      "checkliste": [
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14"
+      ]
+    }
+  ],
+  "abschluss": "Ende Q1 (Juni 2027)",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Ohne Taschenrechner, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeiten Sie die Blöcke, bei denen Sie in der Selbsteinschätzung unsicher sind. Lücken schließen Sie danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Für jeden Zug gibt es 4 Möglichkeiten: $|\\Omega|=4\\cdot4=16$. Alle Paare sind gleich wahrscheinlich (Laplace-Experiment)."
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A=\\{(1|4);(2|3);(3|2);(4|1)\\}$, also $P(A)=\\frac{4}{16}=\\frac14$.\n\n$B$: alle Paare mit einer 4: $(4|1),(4|2),(4|3),(4|4),(1|4),(2|4),(3|4)$, also $P(B)=\\frac{7}{16}$."
+        },
+        {
+          "id": "G1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$A\\cap B=\\{(1|4);(4|1)\\}$, $P(A\\cap B)=\\frac{2}{16}$.\n\n$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)=\\frac{4}{16}+\\frac{7}{16}-\\frac{2}{16}=\\frac{9}{16}$"
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Erste Stufe: $P(S)=\\frac46$, $P(G)=\\frac26$. Zweite Stufe nach $S$: $\\frac35$ und $\\frac25$, nach $G$: $\\frac45$ und $\\frac15$ (eine Socke fehlt schon).",
+          "loesung_bild": "img/G1-2a.png"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "1. Pfadregel: $P(SS)=\\frac46\\cdot\\frac35=\\frac{12}{30}=\\frac25$"
+        },
+        {
+          "id": "G1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "2. Pfadregel: $P(SG)+P(GS)=\\frac46\\cdot\\frac25+\\frac26\\cdot\\frac45=\\frac{8}{30}+\\frac{8}{30}=\\frac{16}{30}=\\frac{8}{15}$"
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\overline{A}$: „Es fällt keinmal Zahl“, also fünfmal Wappen."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P(\\overline{A})=\\left(\\frac12\\right)^5=\\frac{1}{32}$, also $P(A)=1-\\frac{1}{32}=\\frac{31}{32}$."
+        },
+        {
+          "id": "G1-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Ansatz: $1-\\left(\\frac12\\right)^n\\ge0{,}99$, also $\\frac{1}{2^n}\\le0{,}01$, d. h. $2^n\\ge100$.\n\n$2^6=64<100$, $2^7=128\\ge100$. Man muss mindestens 7-mal werfen."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P_P(G)=0{,}75$: Von den Gästen, die Popcorn kaufen, kaufen 75 % auch ein Getränk."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P(G)=0{,}4\\cdot0{,}75+0{,}6\\cdot0{,}5=0{,}3+0{,}3=0{,}6$"
+        },
+        {
+          "id": "G1-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$P_G(P)=\\frac{P(P\\cap G)}{P(G)}=\\frac{0{,}3}{0{,}6}=0{,}5$\n\n$P_G(P)$ bezieht sich nur auf die Gäste **mit Getränk**: Die Hälfte von ihnen hat Popcorn. $P_P(G)$ bezieht sich nur auf die Gäste **mit Popcorn**. Bedingung und Ereignis sind vertauscht."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "| | $T$ | $\\overline{T}$ | Summe |\n|---|---|---|---|\n| $M$ | 40 | 80 | 120 |\n| $\\overline{M}$ | 10 | 70 | 80 |\n| Summe | 50 | 150 | 200 |"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P_T(M)=\\frac{40}{50}=0{,}8$: 80 % der Gäste mit Führung haben eine Mitgliedskarte."
+        },
+        {
+          "id": "G1-5c",
+          "label": "5c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P(M\\cup T)=\\frac{120+50-40}{200}=\\frac{130}{200}=0{,}65$"
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$P(M)\\cdot P(T)=0{,}6\\cdot0{,}25=0{,}15$, aber $P(M\\cap T)=\\frac{40}{200}=0{,}2$.\n\n$0{,}2\\neq0{,}15$: $M$ und $T$ sind abhängig. (Ebenso: $P_T(M)=0{,}8\\neq0{,}6=P(M)$.)"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Unabhängig heißt $P_T(M)=P(M)=0{,}6$: Von den 50 Gästen mit Führung müssten $0{,}6\\cdot50=30$ eine Mitgliedskarte haben.\n\nKontrolle: $\\frac{30}{200}=0{,}15=0{,}6\\cdot0{,}25$."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Baum, Vierfeldertafel, Unabhängigkeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "g4",
+        "g2",
+        "g3",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 15 Minuten. Übt die typischen Lücken aus G1: Ziehen ohne Zurücklegen, Gegenereignis, Baum invertieren, Schreibweisen, Vierfeldertafel und Unabhängigkeit.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{7}{10}\\cdot\\frac69\\cdot\\frac58=\\frac{210}{720}=\\frac{7}{24}\\approx0{,}2917$"
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gegenereignis von „kein Kabel defekt“: $1-\\frac{7}{24}=\\frac{17}{24}\\approx0{,}7083$"
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Erste Stufe $E$ / $\\overline{E}$ mit $0{,}3$ / $0{,}7$, zweite Stufe $Z$ / $\\overline{Z}$ mit $0{,}6$ / $0{,}4$ bzw. $0{,}2$ / $0{,}8$.\n\n$P(Z)=0{,}3\\cdot0{,}6+0{,}7\\cdot0{,}2=0{,}18+0{,}14=0{,}32$",
+          "loesung_bild": "img/G2-2a.png"
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Baum invertieren: $P_Z(E)=\\frac{P(E\\cap Z)}{P(Z)}=\\frac{0{,}18}{0{,}32}=0{,}5625$\n\nVon allen Zusagen gehen etwa 56 % an Bewerbungen mit Empfehlungsschreiben – obwohl nur 30 % der Bewerbungen eines haben."
+        },
+        {
+          "id": "G2-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "(1) $P(E\\cap Z)=0{,}18$ (2) $P_E(Z)=0{,}6$ (3) $P_Z(E)>0{,}5$ (genau $0{,}5625$, siehe b)\n\nMerkhilfe: Was nach „von den …“ steht, ist die Bedingung und steht unten am $P$."
+        },
+        {
+          "id": "G2-2d",
+          "label": "2d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "| | $Z$ | $\\overline{Z}$ | Summe |\n|---|---|---|---|\n| $E$ | 90 | 60 | 150 |\n| $\\overline{E}$ | 70 | 280 | 350 |\n| Summe | 160 | 340 | 500 |\n\n$P(E\\cap Z)=\\frac{90}{500}=0{,}18$, aber $P(E)\\cdot P(Z)=0{,}3\\cdot0{,}32=0{,}096$ – nicht gleich, also abhängig. (Ebenso $P_E(Z)=0{,}6\\neq0{,}32=P(Z)$.)\n\nEin Empfehlungsschreiben geht mit einer deutlich höheren Zusagewahrscheinlichkeit einher."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Daten, Zufallsgrößen, Verteilungen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c4",
+        "c8",
+        "c9",
+        "c11",
+        "c12",
+        "c14"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Sortiert: 3, 4, 5, 7, 9, 12. Bei sechs Werten ist der Median der Mittelwert der beiden mittleren Werte: $\\frac{5+7}{2}=6$.\n\n*A gewählt?* Die Werte wurden nicht sortiert (Mittel von 9 und 4). → **N2** Aufgabe 1\n\n*B gewählt?* Nur einer der beiden mittleren Werte. → **N2**\n\n*D gewählt?* Das ist das arithmetische Mittel $\\frac{40}{6}$. → **N2**"
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Vorher: Mittel 4, Median 3. Nachher: Mittel $\\frac{60}{6}=10$, Median $\\frac{3+4}{2}=3{,}5$. Der Median ist unempfindlich gegen Ausreißer.\n\n*B oder D gewählt?* In das Mittel geht der Wert 40 voll ein, in den Median nur seine Lage. → **N2** Aufgabe 1\n\n*C gewählt?* Die beiden Lagemaße reagieren verschieden. → **N2**"
+        },
+        {
+          "id": "N1-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – „$X=4$“ ist das Ereignis $\\{(1|3);(2|2);(3|1)\\}$ mit 3 von 36 gleich wahrscheinlichen Paaren: $P(X=4)=\\frac{3}{36}=\\frac{1}{12}$.\n\n*A gewählt?* Die 11 Werte 2 bis 12 sind nicht gleich wahrscheinlich. → **N3**\n\n*B gewählt?* Das Paar $(2|2)$ fehlt. → **N3** Aufgabe 1\n\n*C gewählt?* $(2|2)$ wurde doppelt gezählt. → **N3**"
+        },
+        {
+          "id": "N1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $E(X)=0\\cdot0{,}7+10\\cdot0{,}2+100\\cdot0{,}1=0+2+10=12$\n\n*A gewählt?* Das ist das ungewichtete Mittel der drei Werte. → **N5**\n\n*C gewählt?* Das ist der wahrscheinlichste Wert, nicht der Erwartungswert. → **N5**\n\n*D gewählt?* Die Werte müssen mit ihren Wahrscheinlichkeiten gewichtet werden. → **N5**"
+        },
+        {
+          "id": "N1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Beide haben den Erwartungswert 5. $\\mathit{Var}(X)=0{,}5\\cdot1+0{,}5\\cdot1=1$, $\\sigma(X)=1$; $\\mathit{Var}(Y)=0{,}5\\cdot25+0{,}5\\cdot25=25$, $\\sigma(Y)=5$. Also $\\sigma(Y)=5\\cdot\\sigma(X)$.\n\n*A gewählt?* Gleicher Erwartungswert sagt nichts über die Streuung. → **N6** Aufgabe 1\n\n*B gewählt?* Die Werte von $Y$ liegen weiter vom Erwartungswert entfernt. → **N6**\n\n*C gewählt?* Varianz und Standardabweichung verwechselt: $\\mathit{Var}(Y)=25$. → **N6**"
+        },
+        {
+          "id": "N1-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Es gibt $\\binom42=6$ Pfade mit genau zweimal Zahl, jeder hat die Wahrscheinlichkeit $\\frac{1}{16}$: $P=6\\cdot\\frac{1}{16}=\\frac38$.\n\n*A gewählt?* Das ist nur ein einzelner Pfad – der Binomialkoeffizient fehlt. → **N7**, **N8**\n\n*B gewählt?* „Die Hälfte der Würfe“ ist nicht die Wahrscheinlichkeit. → **N7**\n\n*D gewählt?* Die Anzahl der Pfade ist $\\binom42=6$, nicht 4. → **N7**"
+        },
+        {
+          "id": "N1-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – „Mindestens 3“ ist das Gegenereignis von „höchstens 2“: $P(X\\ge3)=1-P(X\\le2)$.\n\n*B gewählt?* $X=3$ gehört zu „mindestens 3“ und darf nicht abgezogen werden. → **N8**, **N12**\n\n*C gewählt?* Das ist „höchstens 3“. → **N8**\n\n*D gewählt?* Das Gegenereignis von „genau 3“ ist nicht „mindestens 3“. → **N8**"
+        },
+        {
+          "id": "N1-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Ohne Zurücklegen: $\\frac{\\binom32}{\\binom{10}{2}}=\\frac{3}{45}=\\frac{1}{15}$ (ebenso $\\frac{3}{10}\\cdot\\frac29$).\n\n*A gewählt?* So wäre es mit Zurücklegen (binomial). → **N11**\n\n*C gewählt?* Die Reihenfolge wurde doppelt gezählt. → **N11**\n\n*D gewählt?* Beim zweiten Zug wurde die Zahl der Zitronenbonbons nicht verringert. → **N11**"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Lage- und Streumaße",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Nutzen Sie den Statistikmodus des WTR; die Varianz in Aufgabe 2 rechnen Sie von Hand.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Lage_Streumasse.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Sortiert: 9,5; 20,5; 21,0; 21,5; 21,5; 21,5; 22,0; 22,0; 22,5; 23,0.\n\nMedian: Mittel der Werte an 5. und 6. Stelle: $\\frac{21{,}5+21{,}5}{2}=21{,}5$ h.\n\nMittelwert: $\\overline{x}=\\frac{205}{10}=20{,}5$ h."
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Spannweite: $23{,}0-9{,}5=13{,}5$ h.\n\nWTR (Statistikmodus, σx): $\\sigma\\approx3{,}73$ h (Varianz $\\sigma^2=13{,}9$)."
+        },
+        {
+          "id": "N2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Median bleibt gleich (21,5 h): Er hängt nur von der Lage der mittleren Werte ab.\n\nDer Mittelwert sinkt durch den Ausreißer um gut 1 h (21,7 h → 20,5 h), die Standardabweichung steigt stark (0,71 h → 3,73 h). Mittelwert und Standardabweichung sind empfindlich gegen Ausreißer."
+        },
+        {
+          "id": "N2-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Modell 1: 9 von 10 Exemplaren halten mindestens 20 h, die übrigen Werte liegen eng zusammen ($\\sigma\\approx0{,}71$ h ohne Ausreißer); ein Exemplar fiel aber stark ab (vermutlich defekt).\n\nModell 2: höherer Mittelwert (21,7 h), aber große Streuung ($\\sigma\\approx2{,}88$ h, Spannweite 8,5 h): Laufzeiten deutlich unter 20 h sind zu erwarten ($21{,}7-2{,}88\\approx18{,}8$ h liegt noch im typischen Bereich).\n\nFür eine verlässliche Mindestlaufzeit von 20 h spricht mehr für Modell 1 (geringe Streuung). Eine begründete Wahl von Modell 2 (höheres Mittel, kein Totalausfall) ist ebenfalls vertretbar."
+        },
+        {
+          "id": "N2-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Median (21,5 h): Fast alle Exemplare laufen um 21,5 h; der Mittelwert 20,5 h wird durch den einen Ausreißer nach unten gezogen."
+        },
+        {
+          "id": "N2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mittelwert: $\\overline{x}=\\frac{30}{5}=6$.\n\nAbweichungen: $-2$; $1$; $-1$; $3$; $-1$. Quadrate: $4$; $1$; $1$; $9$; $1$, Summe $16$.\n\n$\\sigma^2=\\frac{16}{5}=3{,}2$ und $\\sigma=\\sqrt{3{,}2}\\approx1{,}79$ min."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Zufallsgrößen und ihre Verteilung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner, 20 Minuten. Rechnen Sie mit Brüchen; ein gemeinsamer Nenner 36 hilft.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Zufallsgroessen.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$(1|1)\\mapsto2$; $(1|2),(2|1)\\mapsto3$; $(1|3),(2|2),(3|1)\\mapsto4$; $(2|3),(3|2)\\mapsto5$; $(3|3)\\mapsto6$. $X$ ordnet jedem der 9 Paare eine Zahl zu."
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$X=4$ ist die Menge $\\{(1|3);(2|2);(3|1)\\}$.\n\n$P(X=4)=\\frac12\\cdot\\frac16+\\frac13\\cdot\\frac13+\\frac16\\cdot\\frac12=\\frac{3}{36}+\\frac{4}{36}+\\frac{3}{36}=\\frac{10}{36}=\\frac{5}{18}$"
+        },
+        {
+          "id": "N3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| $k$ | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|\n| $P(X=k)$ | $\\frac{9}{36}$ | $\\frac{12}{36}$ | $\\frac{10}{36}$ | $\\frac{4}{36}$ | $\\frac{1}{36}$ |\n\nZum Beispiel $P(X=3)=2\\cdot\\frac12\\cdot\\frac13=\\frac{12}{36}$; Kontrolle: Die Summe ist $\\frac{36}{36}=1$."
+        },
+        {
+          "id": "N3-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Säulen der Breite 1 über $k=2,\\ldots,6$ mit den Höhen $0{,}25$; $0{,}33$; $0{,}28$; $0{,}11$; $0{,}03$.",
+          "loesung_bild": "img/N3-1d.png"
+        },
+        {
+          "id": "N3-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P(X\\ge4)=\\frac{10+4+1}{36}=\\frac{15}{36}=\\frac{5}{12}$"
+        },
+        {
+          "id": "N3-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bei $a$ Einsen, $b$ Zweien und $c$ Dreien ($a+b+c=6$) gilt $P(X=4)=\\frac{2\\cdot a\\cdot c+b^2}{36}$.\n\nDie Zweien gehen quadratisch ein: Möglichst viele Zweien, also $a=c=1$, $b=4$ (Beschriftung 1, 2, 2, 2, 2, 3): $P(X=4)=\\frac{2+16}{36}=\\frac12$.\n\nVergleich: $(2,2,2)$ liefert $\\frac{12}{36}$, $(1,3,2)$ und $(2,3,1)$ liefern $\\frac{13}{36}$ – alle kleiner."
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Relative Häufigkeiten: $\\frac{13}{60}\\approx0{,}22$; $0{,}37$; $0{,}28$; $0{,}10$; $0{,}03$ – Wahrscheinlichkeiten: $0{,}25$; $0{,}33$; $0{,}28$; $0{,}11$; $0{,}03$.\n\nDie Form stimmt überein (Maximum bei 3, nach rechts abfallend); die Abweichungen von höchstens etwa 0,04 sind bei nur 60 Durchgängen zufällig."
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$600\\cdot\\frac{12}{36}=200$-mal"
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Simulation mit der Tabellenkalkulation",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c7",
+        "c6",
+        "c5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 15 Minuten. Wer mag, baut die Simulation zusätzlich in Excel oder Numbers nach.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Simulation.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "„ZUFALLSBEREICH(1;6)“ liefert jede der Zahlen 1 bis 6 mit der Wahrscheinlichkeit $\\frac16$ – wie ein normaler Würfel.\n\nDie Formel macht aus 1, 2, 3 eine 1 (Wahrscheinlichkeit $\\frac36$), aus 4, 5 eine 2 ($\\frac26$) und aus 6 eine 3 ($\\frac16$). Das sind genau die Wahrscheinlichkeiten des besonderen Würfels."
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$X=2$: $\\frac{11}{50}=0{,}22$ und $\\frac{246}{1000}=0{,}246$ (Wahrscheinlichkeit $0{,}25$).\n\n$X=5$: $\\frac{4}{50}=0{,}08$ und $\\frac{106}{1000}=0{,}106$ (Wahrscheinlichkeit $\\frac{4}{36}\\approx0{,}111$)."
+        },
+        {
+          "id": "N4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nach 1000 Durchläufen liegen die relativen Häufigkeiten viel näher an den Wahrscheinlichkeiten als nach 50 (Gesetz der großen Zahlen)."
+        },
+        {
+          "id": "N4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Simulation: $\\frac{106+30}{1000}=0{,}136$. Exakt: $\\frac{4+1}{36}=\\frac{5}{36}\\approx0{,}139$ – sehr gute Übereinstimmung."
+        },
+        {
+          "id": "N4-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ungeeignet: „ZUFALLSBEREICH(2;6)“ liefert die Werte 2 bis 6 jeweils mit der Wahrscheinlichkeit $\\frac15=0{,}2$. Tatsächlich sind die Summen nicht gleich wahrscheinlich ($\\frac{9}{36}$ bis $\\frac{1}{36}$). Man muss die beiden Würfe einzeln simulieren und dann addieren."
+        },
+        {
+          "id": "N4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "„=WENN(ODER(B2=3;D2=3);1;0)“ (ebenso richtig: „=WENN(MAX(B2;D2)=3;1;0)“)"
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Erwartungswert und faires Spiel",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c8",
+        "c5",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Gewinn = Auszahlung − Einsatz; fair heißt: Der erwartete Gewinn ist 0 €.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Erwartungswert.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$E(X)=0\\cdot0{,}5+1\\cdot0{,}3+3\\cdot0{,}15+10\\cdot0{,}05=0+0{,}3+0{,}45+0{,}5=1{,}25$ €"
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Erwarteter Gewinn der Spielenden: $1{,}25-1{,}50=-0{,}25$ € pro Spiel.\n\nDer Stand nimmt im Mittel 0,25 € pro Spiel ein: bei 300 Spielen etwa $300\\cdot0{,}25=75$ € Überschuss."
+        },
+        {
+          "id": "N5-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Fair, wenn der erwartete Gewinn 0 € ist: Einsatz $=E(X)=1{,}25$ €."
+        },
+        {
+          "id": "N5-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Gesucht ist $a$ mit $0{,}3+0{,}45+0{,}05\\cdot a=1{,}50$.\n\n$0{,}05\\cdot a=0{,}75$, also $a=15$ €."
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Ergebnis: ein zufällig ausgewähltes Auto. $X$ ordnet ihm die Anzahl der Personen darin zu. „$X=2$“ ist das Ereignis „Im Auto sitzen genau zwei Personen“."
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$E(X)=1\\cdot0{,}62+2\\cdot0{,}25+3\\cdot0{,}09+4\\cdot0{,}04=0{,}62+0{,}5+0{,}27+0{,}16=1{,}55$\n\nIm Mittel sitzen in einem Auto 1,55 Personen; bei 1000 Autos sind es etwa 1550 Personen."
+        },
+        {
+          "id": "N5-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Neue Verteilung: $0{,}40$; $0{,}47$; $0{,}09$; $0{,}04$.\n\n$E(X)=0{,}40+0{,}94+0{,}27+0{,}16=1{,}77<2$ – das Ziel wird nicht erreicht.\n\nFür $E(X)=2$ müssten viel mehr Autos mit drei oder vier Personen fahren oder die Einzelfahrten noch deutlich seltener werden."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Streuung von Zufallsgrößen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 15 Minuten. Varianz und Standardabweichung stehen im Formeldokument.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Streuung.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "A: $2\\cdot0{,}5=1$ €. B: $10\\cdot0{,}1=1$ €. Beide Erwartungswerte sind gleich."
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "A: $\\mathit{Var}=(2-1)^2\\cdot0{,}5+(0-1)^2\\cdot0{,}5=1$, $\\sigma=1$ €.\n\nB: $\\mathit{Var}=(10-1)^2\\cdot0{,}1+(0-1)^2\\cdot0{,}9=8{,}1+0{,}9=9$, $\\sigma=3$ €."
+        },
+        {
+          "id": "N6-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei B weichen die Auszahlungen im Mittel viel stärker vom Erwartungswert ab: meistens nichts, selten viel. B ist riskanter, A gleichmäßiger."
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E(X)=\\frac{2\\cdot9+3\\cdot12+4\\cdot10+5\\cdot4+6\\cdot1}{36}=\\frac{120}{36}=\\frac{10}{3}\\approx3{,}33$"
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\mathit{Var}(X)=\\left(2-\\tfrac{10}{3}\\right)^2\\cdot\\tfrac{9}{36}+\\ldots+\\left(6-\\tfrac{10}{3}\\right)^2\\cdot\\tfrac{1}{36}=\\frac{10}{9}\\approx1{,}11$\n\n$\\sigma(X)=\\sqrt{\\tfrac{10}{9}}\\approx1{,}05$"
+        },
+        {
+          "id": "N6-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Auf lange Sicht ist die mittlere Auszahlung bei beiden gleich (1 € pro Spiel). Bei wenigen Spielen unterscheiden sie sich aber stark: B bringt meist nichts und selten viel (größere Standardabweichung, mehr Risiko).\n\nOb das „egal“ ist, hängt davon ab, wie viel Risiko man eingehen will – die Aussage stimmt nur für den Mittelwert vieler Spiele."
+        },
+        {
+          "id": "N6-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Varianz ist eine Summe von Quadraten mal Wahrscheinlichkeiten, also nie negativ; $\\sigma$ ist ihre Wurzel. Sie ist nur 0, wenn jede Abweichung $x_i-E(X)$ mit positiver Wahrscheinlichkeit 0 ist, also wenn $X$ immer denselben Wert hat."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Bernoulli-Ketten und Binomialkoeffizient",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c10",
+        "c11",
+        "c12"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner, 15 Minuten. Ergebnisse dürfen als Term oder Bruch stehen bleiben.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Bernoulli.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "(1) Ja: $n=5$, $p=\\frac16$, die Würfe sind unabhängig.\n\n(2) Nein: ohne Zurücklegen ändert sich $p$ von Zug zu Zug ($\\frac{12}{25}$, dann $\\frac{11}{24}$ oder $\\frac{12}{24}$).\n\n(3) Ja: $n=6$, $p=\\frac13$, jede Frage unabhängig.\n\n(4) Nein bzw. höchstens als grobes Modell: Regentage folgen oft aufeinander (nicht unabhängig), und $p$ ist nicht an jedem Tag gleich."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$5!=120$; $\\binom62=\\frac{6\\cdot5}{2}=15$; $\\binom64=\\binom62=15$; $\\binom83=\\frac{8\\cdot7\\cdot6}{3\\cdot2\\cdot1}=56$"
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Es gibt 15 Pfade mit genau 2 Treffern (und 4 Nieten): So viele Möglichkeiten gibt es, die 2 Trefferstellen unter 6 Stufen auszuwählen."
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$P(X=2)=\\binom62\\cdot\\left(\\frac13\\right)^2\\cdot\\left(\\frac23\\right)^4=15\\cdot\\frac19\\cdot\\frac{16}{81}=\\frac{240}{729}=\\frac{80}{243}$ (etwa 0,33)"
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Mit der Formel: $\\binom{n}{n-k}=\\frac{n!}{(n-k)!\\cdot(n-(n-k))!}=\\frac{n!}{(n-k)!\\cdot k!}=\\binom{n}{k}$.\n\nAnschaulich: Wer festlegt, an welchen $k$ Stufen die Treffer liegen, legt damit auch die $n-k$ Stufen der Nieten fest – es sind dieselben Pfade."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Binomialverteilte Wahrscheinlichkeiten",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c12",
+        "c10",
+        "c11"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Übersetzen Sie jede Formulierung zuerst in $X\\le k$, $X=k$ oder $X\\ge k$.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Binomialverteilung.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$P(X=8)=\\binom{10}{8}\\cdot0{,}75^8\\cdot0{,}25^2=45\\cdot0{,}1001\\cdot0{,}0625\\approx0{,}2816$\n\nWTR: Binomial-PD mit $x=8$, $N=10$, $p=0{,}75$."
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Höchstens 6: $P(X\\le6)\\approx0{,}2241$ (Binomial-CD, $x=6$).\n\nWeniger als 5: $P(X\\le4)\\approx0{,}0197$."
+        },
+        {
+          "id": "N8-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mehr als 7: $P(X\\ge8)=1-P(X\\le7)\\approx1-0{,}4744=0{,}5256$.\n\nMindestens 6 und höchstens 9: $P(6\\le X\\le9)=P(X\\le9)-P(X\\le5)$\n\n$\\approx0{,}9437-0{,}0781=0{,}8656$."
+        },
+        {
+          "id": "N8-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$P(X=7)\\approx0{,}2503$, $P(X=8)\\approx0{,}2816$, $P(X=9)\\approx0{,}1877$: Am wahrscheinlichsten sind 8 Tore."
+        },
+        {
+          "id": "N8-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$0{,}25^{10}$ ist $P(X=0)$, also kein Tor. $1-0{,}25^{10}$ ist die Wahrscheinlichkeit für „mindestens ein Tor“."
+        },
+        {
+          "id": "N8-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$P(X\\le5)\\approx0{,}0781$: Fünf oder weniger Tore kommen nur in etwa 8 % solcher Spiele vor – selten, aber etwa in jedem 13. Spiel zu erwarten.\n\nBeide Urteile sind mit dieser Begründung vertretbar („eher ungewöhnlich“ oder „noch im Rahmen“); entscheidend ist der Bezug auf $P(X\\le5)$, nicht nur auf $P(X=5)\\approx0{,}0584$."
+        },
+        {
+          "id": "N8-1g",
+          "label": "1g",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Binomialverteilung setzt voraus: gleiche Trefferwahrscheinlichkeit bei jedem Wurf und Unabhängigkeit.\n\nBeides ist fraglich: Torhüterinnen wechseln, Spielstand und Druck beeinflussen die Quote, ein verworfener Siebenmeter kann den nächsten beeinflussen. Als Näherung für eine Saison ist das Modell brauchbar, für einzelne Spiele nur grob."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Histogramm, Erwartungswert und Streuung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c13",
+        "c12",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 15 Minuten. $\\mu=n\\cdot p$ und $\\sigma=\\sqrt{n\\cdot p\\cdot(1-p)}$ stehen im Formeldokument.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Histogramm_Erwartungswert.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Maximum liegt beim Erwartungswert $\\mu=20\\cdot p$.\n\nAbb. 1: symmetrisch um 10 → $p=0{,}5$. Abb. 2: Maximum bei 16 → $p=0{,}8$. Abb. 3: Maximum bei 4 → $p=0{,}2$."
+        },
+        {
+          "id": "N9-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\mu=50\\cdot0{,}4=20$; $\\sigma=\\sqrt{50\\cdot0{,}4\\cdot0{,}6}=\\sqrt{12}\\approx3{,}46$"
+        },
+        {
+          "id": "N9-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\mu-\\sigma\\approx16{,}54$, $\\mu+\\sigma\\approx23{,}46$ – ganzzahlig also $17\\le X\\le23$.\n\n$P(17\\le X\\le23)=P(X\\le23)-P(X\\le16)\\approx0{,}6877$"
+        },
+        {
+          "id": "N9-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei vielen solchen Terminen kommen im Mittel 20 Personen mit Blutgruppe 0; typischerweise schwankt die Zahl um etwa 3 bis 4 Personen um diesen Wert."
+        },
+        {
+          "id": "N9-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$\\sigma=\\sqrt{200\\cdot0{,}4\\cdot0{,}6}=\\sqrt{48}\\approx6{,}93$: Bei viermal so vielen Personen verdoppelt sich $\\sigma$ (Wurzel aus 4).\n\nBezogen auf die Personenzahl wird die Streuung aber kleiner ($\\frac{3{,}46}{50}\\approx6{,}9$ % gegenüber $\\frac{6{,}93}{200}\\approx3{,}5$ %): Der Anteil liegt bei mehr Personen näher an 40 %."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Tandem: Binomialverteilung",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c11",
+        "c12",
+        "c13"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets, WTR erlaubt. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp.",
+      "bild": "img/st_N10.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N10-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechnen Sie $\\binom73$.",
+          "tipp": "$\\binom73=\\frac{7\\cdot6\\cdot5}{3\\cdot2\\cdot1}$",
+          "loesung": "$\\binom73=35$"
+        },
+        {
+          "id": "N10-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechnen Sie $\\binom92$.",
+          "tipp": "$\\binom92=\\frac{9\\cdot8}{2\\cdot1}$",
+          "loesung": "$\\binom92=36$"
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "$X$ ist binomialverteilt mit $n=5$ und $p=0{,}4$. Berechnen Sie $P(X=3)$.",
+          "tipp": "Formel: $\\binom53\\cdot0{,}4^3\\cdot0{,}6^2$.",
+          "loesung": "$P(X=3)=10\\cdot0{,}064\\cdot0{,}36=0{,}2304$"
+        },
+        {
+          "id": "N10-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "$X$ ist binomialverteilt mit $n=6$ und $p=0{,}5$. Berechnen Sie $P(X=2)$.",
+          "tipp": "Formel: $\\binom62\\cdot0{,}5^2\\cdot0{,}5^4$.",
+          "loesung": "$P(X=2)=15\\cdot0{,}5^6=\\frac{15}{64}\\approx0{,}2344$"
+        },
+        {
+          "id": "N10-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "$X$ ist binomialverteilt mit $n=8$ und $p=0{,}3$. Berechnen Sie $P(X\\le2)$.",
+          "tipp": "WTR: Binomial-CD mit $x=2$.",
+          "loesung": "$P(X\\le2)\\approx0{,}5518$"
+        },
+        {
+          "id": "N10-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "$X$ ist binomialverteilt mit $n=12$ und $p=0{,}25$. Berechnen Sie $P(X\\le3)$.",
+          "tipp": "WTR: Binomial-CD mit $x=3$.",
+          "loesung": "$P(X\\le3)\\approx0{,}6488$"
+        },
+        {
+          "id": "N10-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "$X$ ist binomialverteilt mit $n=10$ und $p=0{,}2$. Berechnen Sie $P(X\\ge2)$.",
+          "tipp": "Gegenereignis: $X\\le1$.",
+          "loesung": "$P(X\\ge2)=1-P(X\\le1)\\approx1-0{,}3758=0{,}6242$"
+        },
+        {
+          "id": "N10-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "$X$ ist binomialverteilt mit $n=15$ und $p=0{,}1$. Berechnen Sie $P(X\\ge1)$.",
+          "tipp": "Gegenereignis: $X=0$.",
+          "loesung": "$P(X\\ge1)=1-0{,}9^{15}\\approx0{,}7941$"
+        },
+        {
+          "id": "N10-9",
+          "label": "9",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechnen Sie $\\mu$ und $\\sigma$ für $n=40$ und $p=0{,}25$.",
+          "tipp": "$\\mu=n\\cdot p$, $\\sigma=\\sqrt{n\\cdot p\\cdot(1-p)}$.",
+          "loesung": "$\\mu=10$; $\\sigma=\\sqrt{7{,}5}\\approx2{,}74$"
+        },
+        {
+          "id": "N10-10",
+          "label": "10",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechnen Sie $\\mu$ und $\\sigma$ für $n=60$ und $p=0{,}5$.",
+          "tipp": "$\\mu=n\\cdot p$, $\\sigma=\\sqrt{n\\cdot p\\cdot(1-p)}$.",
+          "loesung": "$\\mu=30$; $\\sigma=\\sqrt{15}\\approx3{,}87$"
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Hypergeometrische Verteilung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c14",
+        "c11",
+        "c12"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Die Formel der hypergeometrischen Verteilung steht nicht im Formeldokument – sie steht im Kasten.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Hypergeometrisch.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P(X=0)=\\frac{\\binom40\\cdot\\binom{16}{5}}{\\binom{20}{5}}=\\frac{4368}{15504}\\approx0{,}2817$"
+        },
+        {
+          "id": "N11-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P(X=1)=\\frac{\\binom41\\cdot\\binom{16}{4}}{\\binom{20}{5}}=\\frac{4\\cdot1820}{15504}\\approx0{,}4696$"
+        },
+        {
+          "id": "N11-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$P(X\\ge2)=1-P(X=0)-P(X=1)$\n\n$\\approx1-0{,}2817-0{,}4696=0{,}2487$"
+        },
+        {
+          "id": "N11-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$P(X\\le1)\\approx0{,}2817+0{,}4696=0{,}7513$"
+        },
+        {
+          "id": "N11-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Obwohl 20 % der Netzteile defekt sind, nimmt er die Lieferung mit etwa 75 % Wahrscheinlichkeit an. Die Regel schützt kaum.\n\nBesser: größere Stichprobe oder strengere Regel (z. B. nur bei 0 defekten annehmen: Annahme nur mit etwa 28 %)."
+        },
+        {
+          "id": "N11-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P(X=0)=0{,}8^5\\approx0{,}3277$; $P(X=1)=5\\cdot0{,}2\\cdot0{,}8^4\\approx0{,}4096$"
+        },
+        {
+          "id": "N11-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bei 20 Netzteilen weichen die Werte deutlich ab (0,2817 gegen 0,3277): Jede Entnahme verändert den Anteil der defekten spürbar.\n\nBei 2000 Netzteilen ändert sich der Anteil durch 5 Entnahmen kaum; die Werte stimmen fast überein. Die Binomialverteilung ist eine gute Näherung, wenn die Stichprobe im Vergleich zur Gesamtheit klein ist."
+        },
+        {
+          "id": "N11-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "(1) hypergeometrisch: ohne Zurücklegen aus wenigen Eiern. (2) binomial (näherungsweise): Die Gesamtheit ist riesig, der Anteil bleibt praktisch gleich. (3) binomial: unabhängige Würfe mit gleichem $p$. (4) hypergeometrisch: ohne Zurücklegen aus einer kleinen Gesamtheit."
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "titel": "Mindestens, höchstens, wie viele?",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c12",
+        "c13",
+        "c10",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten, Partnerarbeit: Bearbeiten Sie Aufgabe 1 zuerst allein und vergleichen Sie dann. Wertetabellen erstellen Sie mit der Listenfunktion des WTR.",
+      "bild": "img/st_N12.svg",
+      "pdf": "pdf/N12_Mindestens_wie_viele.pdf",
+      "aufgaben": [
+        {
+          "id": "N12-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$P(X\\ge1)=1-0{,}92^n\\ge0{,}95$, also $0{,}92^n\\le0{,}05$."
+        },
+        {
+          "id": "N12-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "WTR-Tabelle oder Logarithmus: $n\\ge\\frac{\\log(0{,}05)}{\\log(0{,}92)}\\approx35{,}9$.\n\nProbe: $1-0{,}92^{35}\\approx0{,}9460<0{,}95$ und $1-0{,}92^{36}\\approx0{,}9503\\ge0{,}95$. Man muss mindestens 36 Booster kaufen."
+        },
+        {
+          "id": "N12-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\mu=50\\cdot0{,}3=15$"
+        },
+        {
+          "id": "N12-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gesucht ist das kleinste $k$ mit $P(X\\le k)\\ge0{,}95$.\n\nWTR-Liste: $P(X\\le19)\\approx0{,}9152$, $P(X\\le20)\\approx0{,}9522$. Es müssen mindestens 20 Boards bereitstehen."
+        },
+        {
+          "id": "N12-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Im Mittel werden 15 Boards ausgeliehen, $20-15=5$ bleiben frei. Nur in den seltenen Fällen mit mehr als 20 Ausleihen (etwa 5 %) sind alle weg; deshalb ist es „etwa“ 5 (genau etwa 5,1)."
+        },
+        {
+          "id": "N12-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Fraglich: Bei gutem Wetter oder in den Ferien leihen viele gleichzeitig, bei Regen kaum jemand; Freunde kommen zusammen. Die Ausleihen hängen voneinander ab – an sonnigen Samstagen reichen 20 Boards womöglich nicht."
+        },
+        {
+          "id": "N12-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$(1-p)^{10}\\ge0{,}9$, also $1-p\\ge0{,}9^{\\frac{1}{10}}\\approx0{,}9895$.\n\n$p\\le1-0{,}9895\\approx0{,}0105$: höchstens etwa 1,05 % Ausschuss."
+        },
+        {
+          "id": "N12-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch: $P(X\\ge1)=1-0{,}9^{10}\\approx0{,}6513$. In etwa 35 % der Fälle gibt es nach 10 Versuchen noch keinen Treffer. Im Mittel gibt es zwar 1 Treffer ($\\mu=10\\cdot0{,}1$), sicher ist er aber nie."
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c14",
+        "c12",
+        "c11",
+        "c9",
+        "c8",
+        "c1",
+        "c13"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner, 20 Minuten. Jede der sechs Lösungen enthält einen typischen Fehler.",
+      "bild": "img/st_N13.svg",
+      "pdf": "pdf/N13_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N13-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Abweichungen wurden nicht quadriert; ihre Summe ist immer 0.\n\nRichtig: $\\sigma^2=\\frac{9+1+16}{3}=\\frac{26}{3}\\approx8{,}67$."
+        },
+        {
+          "id": "N13-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Werte wurden nicht mit ihren Wahrscheinlichkeiten gewichtet.\n\nRichtig: $E(X)=0\\cdot0{,}5+5\\cdot0{,}4+20\\cdot0{,}1=0+2+2=4$."
+        },
+        {
+          "id": "N13-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das ist nur ein Pfad; der Binomialkoeffizient fehlt.\n\nRichtig: $\\binom42\\cdot0{,}5^4=\\frac{6}{16}=\\frac38$."
+        },
+        {
+          "id": "N13-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Das Gegenereignis von „mindestens 4“ ist „höchstens 3“; $X=4$ wurde zu viel abgezogen.\n\nRichtig: $P(X\\ge4)=1-P(X\\le3)$."
+        },
+        {
+          "id": "N13-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Es wurde wie mit Zurücklegen (binomial) gerechnet; beim zweiten Zug gibt es nur noch 2 defekte unter 11 Teilen.\n\nRichtig: $\\frac{\\binom32}{\\binom{12}{2}}=\\frac{3}{66}=\\frac{1}{22}$ (ebenso $\\frac{3}{12}\\cdot\\frac{2}{11}$)."
+        },
+        {
+          "id": "N13-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Berechnet wurde die Varianz, nicht die Standardabweichung; die Wurzel fehlt.\n\nRichtig: $\\sigma=\\sqrt{16}=4$. Typische Werte liegen etwa zwischen $20-4=16$ und $20+4=24$."
+        }
+      ]
+    },
+    {
+      "id": "N14",
+      "titel": "Hilfsmittelfreier Teil (HMF)",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c12",
+        "c13",
+        "c14",
+        "c11",
+        "c1",
+        "c5",
+        "c8",
+        "g5",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner und Formeldokument, 20 Minuten – wie Teil A einer Klausur.",
+      "bild": "img/st_N14.svg",
+      "pdf": "pdf/N14_HMF.pdf",
+      "aufgaben": [
+        {
+          "id": "N14-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Sortiert: 2, 3, 3, 5, 8, 9. Median $\\frac{3+5}{2}=4$."
+        },
+        {
+          "id": "N14-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Summe ist 1: $P(X=3)=1-0{,}1-0{,}3-0{,}2=0{,}4$.\n\n$E(X)=1\\cdot0{,}1+2\\cdot0{,}3+3\\cdot0{,}4+4\\cdot0{,}2$\n\n$=0{,}1+0{,}6+1{,}2+0{,}8=2{,}7$"
+        },
+        {
+          "id": "N14-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\binom52=\\frac{5\\cdot4}{2}=10$; $P(X=2)=10\\cdot0{,}5^5=\\frac{10}{32}=\\frac{5}{16}$"
+        },
+        {
+          "id": "N14-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\mu=100\\cdot0{,}5=50$; $\\sigma=\\sqrt{100\\cdot0{,}5\\cdot0{,}5}=\\sqrt{25}=5$"
+        },
+        {
+          "id": "N14-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P_F(K)=\\frac{18}{40}=0{,}45$ (von den Frühaufstehern trinken 45 % Kaffee).\n\n$P_K(F)=\\frac{18}{30}=0{,}6$ (von den Kaffeetrinkern sind 60 % Frühaufsteher)."
+        },
+        {
+          "id": "N14-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{\\binom32}{\\binom52}=\\frac{3}{10}$ (ebenso $\\frac35\\cdot\\frac24=\\frac{6}{20}$)"
+        },
+        {
+          "id": "N14-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$0{,}9^{20}=P(X=0)$. Also ist $1-0{,}9^{20}=P(X\\ge1)$: „mindestens ein Treffer“."
+        },
+        {
+          "id": "N14-7",
+          "label": "7",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Gegenbeispiel $p=0{,}1$: $P(X=5)=\\binom{10}{5}\\cdot0{,}1^5\\cdot0{,}9^5<252\\cdot0{,}00001\\approx0{,}003$, aber $P(X=0)=0{,}9^{10}\\approx0{,}35$ ($0{,}9^2=0{,}81$, $0{,}81^2\\approx0{,}66$, …). Also ist $P(X=0)>P(X=5)$.\n\nAnschaulich: Das Maximum liegt in der Nähe von $\\mu=n\\cdot p=1$. Jedes andere $p$ weit weg von $0{,}5$ ist ebenfalls ein Gegenbeispiel; $X=5$ ist nur für $p$ nahe $0{,}5$ am wahrscheinlichsten."
+        }
+      ]
+    },
+    {
+      "id": "N15",
+      "titel": "Check-out",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c14",
+        "c1",
+        "c2",
+        "c4",
+        "c8",
+        "c9",
+        "c11",
+        "c12"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Am Ende bearbeiten. Ohne Hilfsmittel, 8 Minuten. Jede Aufgabe gehört zur Aufgabe mit derselben Nummer in N1 – vergleichen Sie in der Auswertung Ihre Punkte in N1 und N15.",
+      "bild": "img/st_N15.svg",
+      "pdf": "pdf/N15_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N15-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Sortiert: 2, 3, 4, 6, 8, 11. Median $\\frac{4+6}{2}=5$.\n\n*A gewählt?* Die Werte wurden nicht sortiert (Mittel von 6 und 11). → **N2** Aufgabe 1\n\n*C gewählt?* Nur einer der beiden mittleren Werte. → **N2**\n\n*D gewählt?* Das ist das arithmetische Mittel $\\frac{34}{6}$. → **N2**"
+        },
+        {
+          "id": "N15-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Vorher: Mittel 6, Median 6. Nachher: Mittel $\\frac{30}{6}=5$, Median (Werte 0; 5; 6; 6; 6; 7) $\\frac{6+6}{2}=6$.\n\n*A oder C gewählt?* Der Median hängt nur von den mittleren Werten ab. → **N2** Aufgabe 1\n\n*B gewählt?* Die beiden Lagemaße reagieren verschieden auf einen Ausreißer. → **N2**"
+        },
+        {
+          "id": "N15-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – „$X=5$“ $=\\{(1|4);(2|3);(3|2);(4|1)\\}$: $P(X=5)=\\frac{4}{36}=\\frac19$.\n\n*B gewählt?* Die Werte 2 bis 12 sind nicht gleich wahrscheinlich. → **N3**\n\n*C oder D gewählt?* Es fehlen Paare – die Reihenfolge zählt. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "N15-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $E(X)=0\\cdot0{,}6+5\\cdot0{,}3+50\\cdot0{,}1=1{,}5+5=6{,}5$\n\n*A gewählt?* Das ist das ungewichtete Mittel der drei Werte. → **N5**\n\n*B gewählt?* Das ist der wahrscheinlichste Wert. → **N5**\n\n*D gewählt?* Die Werte müssen mit ihren Wahrscheinlichkeiten gewichtet werden. → **N5**"
+        },
+        {
+          "id": "N15-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Beide haben den Erwartungswert 10. $\\sigma(X)=1$, $\\mathit{Var}(Y)=100$ und $\\sigma(Y)=10$.\n\n*B gewählt?* Gleicher Erwartungswert sagt nichts über die Streuung. → **N6** Aufgabe 1\n\n*C gewählt?* Varianz und Standardabweichung verwechselt. → **N6**\n\n*D gewählt?* Vertauscht: Die Werte von $Y$ liegen weiter vom Erwartungswert weg. → **N6**"
+        },
+        {
+          "id": "N15-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $\\binom52=10$ Pfade mit je $\\frac{1}{32}$: $P=\\frac{10}{32}=\\frac{5}{16}$.\n\n*A gewählt?* Nur ein Pfad – der Binomialkoeffizient fehlt. → **N7**, **N8**\n\n*C gewählt?* Der Anteil der Würfe ist keine Wahrscheinlichkeit. → **N7**\n\n*D gewählt?* Die Zahl der Pfade ist $\\binom52=10$, nicht 5. → **N7**"
+        },
+        {
+          "id": "N15-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – „Mehr als 4“ heißt $X\\ge5$, Gegenereignis $X\\le4$: $P(X>4)=1-P(X\\le4)$.\n\n*A gewählt?* $X=5$ gehört zu „mehr als 4“. → **N8**, **N12**\n\n*B gewählt?* Das ist „höchstens 4“. → **N8**\n\n*C gewählt?* Hier wurde $X=4$ mitgezählt, also „mindestens 4“. → **N8**"
+        },
+        {
+          "id": "N15-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $\\frac{\\binom22}{\\binom82}=\\frac{1}{28}$ (ebenso $\\frac28\\cdot\\frac17$).\n\n*A gewählt?* So wäre es mit Zurücklegen. → **N11**\n\n*B gewählt?* Die Reihenfolge wurde doppelt gezählt. → **N11**\n\n*D gewählt?* Beim zweiten Zug gibt es nur noch eine blaue unter 7 Murmeln. → **N11**"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Abfüllanlagen für Mineralwasser",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c3",
+        "c1",
+        "c2",
+        "g5",
+        "g4",
+        "g6",
+        "g3"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Daten auswerten) – am besten nach N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Abfuellanlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Anlage A: $\\overline{x}=1000$ ml, Spannweite $1004-996=8$ ml, $\\sigma\\approx2{,}45$ ml.\n\nAnlage B: $\\overline{x}=1006$ ml, Spannweite $1008-1003=5$ ml, $\\sigma\\approx1{,}34$ ml."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Anlage A trifft im Mittel genau die Sollmenge, streut aber stärker; einige Flaschen enthalten weniger als 1000 ml.\n\nAnlage B füllt im Mittel 6 ml zu viel ein (systematische Abweichung), streut aber nur etwa halb so stark."
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Nach der Verschiebung um $-6$ ml: Mittelwert von B ebenfalls 1000 ml. Spannweite und Standardabweichung ändern sich durch eine Verschiebung nicht ($\\sigma\\approx1{,}34$ ml).\n\nB hält die Sollmenge dann genauer ein als A ($1{,}34<2{,}45$) und ist die bessere Anlage."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "| | $U$ | $\\overline{U}$ | Summe |\n|---|---|---|---|\n| $A$ | 12 | 228 | 240 |\n| $B$ | 2 | 158 | 160 |\n| Summe | 14 | 386 | 400 |\n\n$P_U(A)=\\frac{12}{14}\\approx0{,}857$: Etwa 86 % der undichten Flaschen stammen von Anlage A."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(A)\\cdot P(U)=0{,}6\\cdot0{,}035=0{,}021$, aber $P(A\\cap U)=\\frac{12}{400}=0{,}03$: abhängig.\n\nAnlage A verschließt schlechter: $P_A(U)=\\frac{12}{240}=5$ %, $P_B(U)=\\frac{2}{160}=1{,}25$ %."
+        },
+        {
+          "id": "V1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gegenereignis: $1-0{,}965^6\\approx1-0{,}8075=0{,}1925$"
+        },
+        {
+          "id": "V1-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Flaschen eines Packs stammen meist von derselben Anlage und kurz hintereinander. Kommt ein Pack von A, ist die Wahrscheinlichkeit größer (5 %), von B kleiner – und ein verstellter Verschließer betrifft mehrere Flaschen zugleich. Die Annahme ist nur eine grobe Näherung."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Eiswagen in der Innenstadt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c7",
+        "c5",
+        "c4",
+        "c6",
+        "c1",
+        "c3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 und 2 (Daten auswerten, Zufallsgrößen) – am besten nach N3 bis N6.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Eiswagen.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\overline{x}=\\frac{2\\cdot6+3\\cdot10+4\\cdot14+5\\cdot8+6\\cdot2}{40}=\\frac{150}{40}=3{,}75$ Kisten; WTR (Häufigkeitsspalte): $\\sigma\\approx1{,}09$ Kisten.\n\nHistogramm: Säulen über 2 bis 6 mit den relativen Häufigkeiten $0{,}15$; $0{,}25$; $0{,}35$; $0{,}20$; $0{,}05$.",
+          "loesung_bild": "img/V2-1a.png"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(X=2)=0{,}15$; $P(X=3)=0{,}25$; $P(X=4)=0{,}35$; $P(X=5)=0{,}20$; $P(X=6)=0{,}05$.\n\nAnnahme: Die 40 Tage sind typisch, die Nachfrage verhält sich künftig wie in diesen Tagen (gleiches Wetter, gleiche Saison, gleicher Standort)."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$X=2$: $2\\cdot30-2\\cdot12=36$ €; $X=3$: $90-12=78$ €; $X\\ge4$: $4\\cdot30=120$ €.\n\n$P(G=36)=0{,}15$, $P(G=78)=0{,}25$, $P(G=120)=0{,}35+0{,}20+0{,}05=0{,}60$.\n\n$E(G)=36\\cdot0{,}15+78\\cdot0{,}25+120\\cdot0{,}6$\n\n$=5{,}4+19{,}5+72=96{,}90$ €"
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\mathit{Var}(G)=(36-96{,}9)^2\\cdot0{,}15+(78-96{,}9)^2\\cdot0{,}25$\n\n$+(120-96{,}9)^2\\cdot0{,}6\\approx965{,}79$\n\n$\\sigma(G)\\approx31{,}08$ €"
+        },
+        {
+          "id": "V2-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "4 Kisten haben den größten erwarteten Gewinn (96,90 €). 5 Kisten bringen im Mittel kaum weniger, schwanken aber stärker; 3 Kisten sind am sichersten, bringen aber gut 13 € weniger. Empfehlung: 4 Kisten."
+        },
+        {
+          "id": "V2-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Jede der Zahlen 1 bis 40 steht für einen der 40 notierten Tage. Die Bereiche sind genau so groß wie die Anzahlen der Tage (6, 10, 14, 8, 2) – so tritt jede Nachfrage mit ihrer relativen Häufigkeit auf."
+        },
+        {
+          "id": "V2-2e",
+          "label": "2e",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Ja: 98,12 € weicht nur um gut 1 € von 96,90 € ab. Bei $\\sigma(G)\\approx31$ € pro Tag ist eine solche Abweichung des Mittelwerts aus 1000 Tagen zufällig."
+        },
+        {
+          "id": "V2-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P_S(X\\ge4)=\\frac{20}{25}=0{,}8$; $P_{\\overline{S}}(X\\ge4)=\\frac{4}{15}\\approx0{,}27$\n\nKontrolle: $\\frac{20+4}{40}=0{,}6=P(X\\ge4)$."
+        },
+        {
+          "id": "V2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Nachfrage hängt stark vom Wetter ab ($0{,}8$ gegen $0{,}27$). Mit nur einer Verteilung für alle Tage bestellt sie an Regentagen zu viel und an Sonnentagen eher zu wenig.\n\nSinnvoll: getrennte Verteilungen für Sonnen- und Regentage aufstellen und je Wettervorhersage die Menge mit dem größten erwarteten Gewinn wählen (an Sonnentagen eher 4 bis 5, an Regentagen eher 3 Kisten). Grenze: Vorhersagen sind selbst unsicher, und 40 Tage sind wenig Daten."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Komplexaufgabe: Escape-Room",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 35,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c12",
+        "c14",
+        "c13",
+        "c10",
+        "c11",
+        "c8",
+        "c9",
+        "c5",
+        "c1",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 35 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 – am besten nach N7 bis N14.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Escape-Room.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "$\\overline{x}=\\frac{668}{12}\\approx55{,}67$ min; sortiert: 45, 48, 50, 52, 55, 57, 58, 59, 60, 60, 61, 63, also Median $\\frac{57+58}{2}=57{,}5$ min; $\\sigma\\approx5{,}45$ min.\n\n8 von 12 Teams brauchten weniger als 60 Minuten: $\\frac23\\approx67$ %."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Jede Buchung ist ein Bernoulli-Experiment (Team erscheint oder nicht) mit $p=0{,}9$. Nimmt man an, dass die Teams unabhängig voneinander erscheinen, ist $X$ binomialverteilt mit $n=9$ und $p=0{,}9$."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Fraglich: Bei Unwetter, Ferien oder Krankheitswellen sagen mehrere Teams zugleich ab; $p$ kann je nach Uhrzeit verschieden sein. Die Unabhängigkeit ist nur näherungsweise erfüllt."
+        },
+        {
+          "id": "V3-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Das passiert, wenn alle 9 Teams erscheinen: $P(X=9)=0{,}9^9\\approx0{,}3874$."
+        },
+        {
+          "id": "V3-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\mu=9\\cdot0{,}9=8{,}1$; $\\sigma=\\sqrt{9\\cdot0{,}9\\cdot0{,}1}=0{,}9$. Im Mittel erscheinen 8,1 Teams – etwas mehr als Zeitfenster vorhanden sind."
+        },
+        {
+          "id": "V3-2e",
+          "label": "2e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei 8 Buchungen ist die Zahl $Y$ der erscheinenden Teams binomialverteilt mit $n=8$, $p=0{,}9$; alle erschienenen Teams können spielen: $E(\\text{Erlös})=120\\cdot8\\cdot0{,}9=864$ €."
+        },
+        {
+          "id": "V3-2f",
+          "label": "2f",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bei $X\\le8$ spielen alle erschienenen Teams, bei $X=9$ nur 8, und es fällt ein Gutschein an.\n\n$E(\\text{Erlös})=120\\cdot\\left(E(X)-P(X=9)\\right)-50\\cdot P(X=9)$\n\n$=120\\cdot(8{,}1-0{,}3874)-50\\cdot0{,}3874\\approx906{,}14$ €.\n\nMit Überbuchung ist der erwartete Erlös um gut 42 € höher."
+        },
+        {
+          "id": "V3-2g",
+          "label": "2g",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "An etwa 39 % der Samstage wird ein Team abgewiesen – das ist für die Kundschaft ärgerlich und kann dem Ruf schaden, auch wenn ein Gutschein winkt. Der Mehrerlös von gut 42 € wiegt das nicht unbedingt auf."
+        },
+        {
+          "id": "V3-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Hypergeometrisch mit $N=15$, $M=5$, $n=4$: $P(X=0)=\\frac{\\binom50\\binom{10}{4}}{\\binom{15}{4}}=\\frac{210}{1365}\\approx0{,}1538$, $P(X=1)=\\frac{\\binom51\\binom{10}{3}}{\\binom{15}{4}}=\\frac{600}{1365}\\approx0{,}4396$.\n\n$P(X\\ge2)=1-0{,}1538-0{,}4396\\approx0{,}4066$"
+        },
+        {
+          "id": "V3-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(R)=0{,}6\\cdot0{,}7+0{,}4\\cdot0{,}45=0{,}42+0{,}18=0{,}6$\n\n$P_R(H)=\\frac{0{,}42}{0{,}6}=0{,}7$: 70 % der erfolgreichen Teams haben einen Hinweis genutzt."
+        },
+        {
+          "id": "V3-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$P_H(R)=0{,}7\\neq0{,}6=P(R)$: $H$ und $R$ sind abhängig; Teams mit Hinweis sind häufiger erfolgreich.\n\nEine Abhängigkeit beweist aber keine Ursache: Vielleicht bekommen vor allem Teams Hinweise, die schon weit sind, oder erfahrene Teams nehmen eher Hinweise. Die Aussage ist plausibel, aber aus den Daten allein nicht belegt."
+        }
+      ]
+    }
+  ]
+}
