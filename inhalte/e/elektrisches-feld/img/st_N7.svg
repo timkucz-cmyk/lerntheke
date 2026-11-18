@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Zwei Vektoren und ihre Summe">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <circle class="akzent" cx="30" cy="55" r="7"/>
+  <path class="akzent" d="M26 55 h8"/>
+  <path class="akzent" d="M30 51 v8"/>
+  <circle class="akzent" cx="130" cy="55" r="7"/>
+  <path class="akzent" d="M126 55 h8"/>
+  <path class="grau" d="M80.0 30.0 L104.0 12.0"/>
+  <path class="marke" d="M104.0 12.0 L101.2 17.3 L98.1 13.2 z"/>
+  <path class="grau" d="M80.0 30.0 L104.0 48.0"/>
+  <path class="marke" d="M104.0 48.0 L98.1 46.8 L101.2 42.7 z"/>
+  <path class="akzent" d="M80.0 30.0 L120.0 30.0"/>
+  <path class="marke" d="M120.0 30.0 L114.6 32.6 L114.6 27.4 z"/>
+</svg>

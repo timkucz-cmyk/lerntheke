@@ -1,0 +1,1802 @@
+{
+  "version": 1,
+  "titel": "Elektrisches Feld – Lerntheke vor der Klausur",
+  "fach": "physik",
+  "anrede": "sie",
+  "hinweis": "Alle Stationen sind klausurrelevant. Sind Sie beim Vorwissen aus Mechanik, Gravitationsfeld und Klasse 10 unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Kräfte, Energie, Stromkreis und Felder auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N13. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Ladung und Coulomb-Kraft), V2 nach N4 bis N5 (Feld und Feldlinien), V3 nach N6 bis N8 (Feldstärke und Energie), V4 nach N9 bis N13 (Kondensator). N14 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N14. Das Gravitationsfeld ist kein Klausurstoff; zum Wiederholen gibt es die Lerntheke Gravitationsfeld.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Mit Zehnerpotenzen rechnen und Größen mit Vorsätzen (p, n, µ, m, k, M) in SI-Einheiten umrechnen"
+    },
+    {
+      "id": "g2",
+      "text": "Stromstärke, Spannung und Widerstand im Stromkreis berechnen: Ohm’sches Gesetz und Reihenschaltung"
+    },
+    {
+      "id": "g3",
+      "text": "Kräfte vektoriell addieren und zerlegen (zeichnerisch und rechnerisch)"
+    },
+    {
+      "id": "g4",
+      "text": "Die Newton’schen Axiome anwenden: Kräftegleichgewicht, F = m · a, Wechselwirkungsprinzip"
+    },
+    {
+      "id": "g5",
+      "text": "Arbeit, kinetische und potenzielle Energie berechnen und die Energieerhaltung anwenden"
+    },
+    {
+      "id": "g6",
+      "text": "Feldmodell, Feldlinien, Feldstärke und Potenzial im Gravitationsfeld beschreiben und anwenden"
+    },
+    {
+      "id": "c1",
+      "text": "Die physikalische Größe Ladung beschreiben (Elektronenüberschuss und -mangel, Ladungstrennung, Elementarladung) und mit Q = Nₑ · e und ΔQ = I · Δt rechnen"
+    },
+    {
+      "id": "c2",
+      "text": "Elektrische Ladung experimentell nachweisen (Elektroskop, Glimmlampe)"
+    },
+    {
+      "id": "c3",
+      "text": "Das Coulomb’sche Gesetz benennen und anwenden"
+    },
+    {
+      "id": "c4",
+      "text": "Das elektrische Feld um geladene Kugeln beschreiben und die Feldlinien zeichnen"
+    },
+    {
+      "id": "c5",
+      "text": "Feldlinienbilder von Platten, Ringen, Spitzen und Kugeln sowie Kombinationen skizzieren und die Feldformen benennen"
+    },
+    {
+      "id": "c6",
+      "text": "Influenz und Polarisation beschreiben und unterscheiden"
+    },
+    {
+      "id": "c7",
+      "text": "Das Prinzip und die Anwendungen des Faraday’schen Käfigs erläutern"
+    },
+    {
+      "id": "c8",
+      "text": "Die elektrische Feldstärke erläutern und im Plattenkondensator sowie in beliebigen Feldern berechnen"
+    },
+    {
+      "id": "c9",
+      "text": "Die Superposition zweier Felder zeichnerisch und rechnerisch bestimmen"
+    },
+    {
+      "id": "c10",
+      "text": "Energie und Arbeit von und mit geladenen Teilchen im elektrischen Feld berechnen"
+    },
+    {
+      "id": "c11",
+      "text": "Den Zusammenhang von potenzieller Energie einer Ladung und dem Potenzial erläutern"
+    },
+    {
+      "id": "c12",
+      "text": "Kondensatoren beschreiben, ihre Anwendung als Energiespeicher und kapazitives Bauelement erläutern und Kapazität und Energie berechnen"
+    },
+    {
+      "id": "c13",
+      "text": "Das Verhalten eines Dielektrikums im elektrischen Feld beschreiben"
+    },
+    {
+      "id": "c14",
+      "text": "Den zeitlichen Verlauf der Stromstärke beim Auf- und Entladen eines Kondensators beschreiben und begründen"
+    },
+    {
+      "id": "c15",
+      "text": "Den Verlauf der Spannung beim Laden eines Kondensators begründen und den Einfluss von Widerstand und Kapazität erläutern"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Mechanik, Gravitationsfeld und Klasse 10",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Ladung und Coulomb-Kraft",
+      "untertitel": "Ladung, Nachweis, Coulomb’sches Gesetz",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Feld und Feldlinien",
+      "untertitel": "Feldlinienbilder, Influenz, Polarisation, Faraday’scher Käfig",
+      "farbe": "orange",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6",
+        "c7"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Feldstärke und Energie",
+      "untertitel": "Feldstärke, Superposition, Arbeit, Potenzial",
+      "farbe": "gruen",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Kondensator",
+      "untertitel": "Kapazität, Energie, Dielektrikum, Laden und Entladen",
+      "farbe": "rot",
+      "checkliste": [
+        "c12",
+        "c13",
+        "c14",
+        "c15"
+      ]
+    }
+  ],
+  "abschluss": "Klausur Elektrisches Feld",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeiten Sie die Blöcke, bei denen Sie in der Selbsteinschätzung unsicher sind. Lücken schließen Sie danach mit G2. Rechnen Sie mit $g = 9{,}81\\,\\mathrm{N/kg}$.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$4{,}7\\,\\mathrm{\\mu F} = 4{,}7 \\cdot 10^{-6}\\,\\mathrm{F}$ (mikro = $10^{-6}$)\n\n$0{,}25\\,\\mathrm{nC} = 0{,}25 \\cdot 10^{-9}\\,\\mathrm{C} = 2{,}5 \\cdot 10^{-10}\\,\\mathrm{C}$ (nano = $10^{-9}$)\n\n$3{,}0\\,\\frac{\\mathrm{kV}}{\\mathrm{cm}} = \\frac{3{,}0 \\cdot 10^{3}\\,\\mathrm{V}}{10^{-2}\\,\\mathrm{m}} = 3{,}0 \\cdot 10^{5}\\,\\frac{\\mathrm{V}}{\\mathrm{m}}$"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{3{,}2}{1{,}6} \\cdot 5{,}0 \\cdot 10^{-19 + 6 - (-19)} = 2{,}0 \\cdot 5{,}0 \\cdot 10^{6} = 10 \\cdot 10^{6} = 1{,}0 \\cdot 10^{7}$"
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$U_1 = R_1 \\cdot I = 2{,}0 \\cdot 10^{3}\\,\\Omega \\cdot 4{,}0 \\cdot 10^{-3}\\,\\mathrm{A} = 8{,}0\\,\\mathrm{V}$"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In der Reihenschaltung addieren sich die Spannungen: $U = U_1 + U_2$\n\n$U_2 = 12\\,\\mathrm{V} - 8{,}0\\,\\mathrm{V} = 4{,}0\\,\\mathrm{V}$\n\nDurch beide Widerstände fließt derselbe Strom: $R_2 = \\frac{U_2}{I} = \\frac{4{,}0\\,\\mathrm{V}}{4{,}0 \\cdot 10^{-3}\\,\\mathrm{A}} = 1{,}0\\,\\mathrm{k\\Omega}$"
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Kräfteparallelogramm (hier ein Rechteck): $F_1$ als 3 cm langer Pfeil nach rechts, $F_2$ als 4 cm langer Pfeil nach oben, beide am Knoten. Die Diagonale ist die resultierende Kraft, gemessen 5,0 cm, also $5{,}0\\,\\mathrm{N}$.",
+          "loesung_bild": "img/G1-3a.png"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Kräfte stehen senkrecht aufeinander: $F_{ges} = \\sqrt{F_1^2 + F_2^2} = \\sqrt{3{,}0^2 + 4{,}0^2}\\,\\mathrm{N} = 5{,}0\\,\\mathrm{N}$\n\nWinkel zur 3-N-Kraft: $\\tan(\\alpha) = \\frac{4{,}0}{3{,}0} \\Rightarrow \\alpha \\approx 53{,}1°$"
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Drei Kräfte: Gewichtskraft $F_G$ (senkrecht nach unten), waagerechte Kraft $F$ und Fadenkraft $F_{Faden}$ (längs des Fadens zum Aufhängepunkt). Die Kugel ruht, also ist die Summe der drei Kräfte null (Trägheitsprinzip).",
+          "loesung_bild": "img/G1-4a.png"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$F_G = m \\cdot g = 2{,}0 \\cdot 10^{-3}\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} = 1{,}96 \\cdot 10^{-2}\\,\\mathrm{N}$\n\nDie Fadenkraft muss $F$ und $F_G$ zusammen ausgleichen: $\\tan(\\alpha) = \\frac{F}{F_G} = \\frac{5{,}0 \\cdot 10^{-3}\\,\\mathrm{N}}{1{,}96 \\cdot 10^{-2}\\,\\mathrm{N}} \\approx 0{,}255 \\Rightarrow \\alpha \\approx 14{,}3°$"
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$W = F \\cdot s = 2{,}0\\,\\mathrm{N} \\cdot 0{,}80\\,\\mathrm{m} = 1{,}6\\,\\mathrm{J}$"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Arbeit steckt ganz in der kinetischen Energie: $\\frac{1}{2} \\cdot m \\cdot v^2 = W$\n\n$v = \\sqrt{\\frac{2 \\cdot W}{m}} = \\sqrt{\\frac{2 \\cdot 1{,}6\\,\\mathrm{J}}{0{,}50\\,\\mathrm{kg}}} \\approx 2{,}5\\,\\mathrm{m/s}$"
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$G^* = \\frac{F}{m} = \\frac{17{,}7\\,\\mathrm{N}}{2{,}0\\,\\mathrm{kg}} \\approx 8{,}85\\,\\mathrm{N/kg}$"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Radialsymmetrisches Feld: gerade Linien, die von allen Seiten auf den Mittelpunkt des Planeten zeigen (Pfeile nach innen). Nach außen werden die Linien weniger dicht, das Feld wird schwächer.",
+          "loesung_bild": "img/G1-6b.png"
+        },
+        {
+          "id": "G1-6c",
+          "label": "6c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Gewichtskraft ist proportional zur Masse des Probekörpers ($F = G^* \\cdot m$). Beim Teilen durch $m$ fällt die Probemasse heraus: $G^*$ beschreibt nur das Feld des Planeten am Ort, nicht den Probekörper."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Kräfte, Energie, Stromkreis und Felder",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g3",
+        "g4",
+        "g5",
+        "g2",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 15 Minuten. Übt die typischen Lücken aus G1: Kräfte vektoriell, Gleichgewicht, Energie, Reihenschaltung und Feldmodell. Rechnen Sie mit $g = 9{,}81\\,\\mathrm{N/kg}$.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Gegenkraft zur Gewichtskraft ($200\\,\\mathrm{N}$ nach oben) ist die Diagonale. Ihre Zerlegung längs der beiden Seilrichtungen ergibt die Seilkräfte (Raute, weil beide Seiten gleich geneigt sind).",
+          "loesung_bild": "img/G2-1a.png"
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die senkrechten Anteile beider Seilkräfte tragen die Ampel: $2 \\cdot F_S \\cdot \\sin(30°) = 200\\,\\mathrm{N}$\n\n$F_S = \\frac{200\\,\\mathrm{N}}{2 \\cdot 0{,}5} = 200\\,\\mathrm{N}$"
+        },
+        {
+          "id": "G2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$F_S = \\frac{200\\,\\mathrm{N}}{2 \\cdot \\sin(10°)} \\approx 576\\,\\mathrm{N}$\n\nIm Gleichgewicht muss die Summe der senkrechten Anteile immer $200\\,\\mathrm{N}$ sein. Je flacher das Seil, desto kleiner ist der senkrechte Anteil jeder Seilkraft – die Seilkraft selbst muss also größer werden."
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$U_R = 12\\,\\mathrm{V} - 6{,}0\\,\\mathrm{V} = 6{,}0\\,\\mathrm{V}$ (Spannungen addieren sich)"
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Es fließt überall $0{,}50\\,\\mathrm{A}$: $R = \\frac{U_R}{I} = \\frac{6{,}0\\,\\mathrm{V}}{0{,}50\\,\\mathrm{A}} = 12\\,\\Omega$"
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$G^* \\sim \\frac{1}{r^2}$: doppelter Abstand ergibt ein Viertel, $\\frac{9{,}81\\,\\mathrm{N/kg}}{4} \\approx 2{,}45\\,\\mathrm{N/kg}$"
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Pfeile der Feldlinien zeigen die Richtung der Kraft auf eine Probemasse (zum Erdmittelpunkt). Nach außen liegen die Linien weiter auseinander: geringere Liniendichte bedeutet kleinere Feldstärke."
+        },
+        {
+          "id": "G2-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Energieerhaltung: $m \\cdot g \\cdot h = \\frac{1}{2} \\cdot m \\cdot v^2$, die Masse kürzt sich.\n\n$v = \\sqrt{2 \\cdot g \\cdot h} = \\sqrt{2 \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 1{,}5\\,\\mathrm{m}} \\approx 5{,}4\\,\\mathrm{m/s}$"
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Elektrisches Feld",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c3",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c12",
+        "c14"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Beim Reiben werden Ladungen getrennt, nicht erzeugt: Elektronen gehen vom Tuch auf den Kamm über. Der Kamm hat danach einen Elektronenüberschuss (negativ), das Tuch einen Mangel (positiv).\n\n*A gewählt?* Ladung entsteht nicht, sie wird nur verschoben. *B gewählt?* Protonen sitzen fest in den Atomkernen. *D gewählt?* Dann wäre der Kamm positiv. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $F_C = \\frac{1}{4\\pi\\varepsilon_0} \\cdot \\frac{q_1 \\cdot q_2}{r^2}$: Der Abstand steht im Quadrat im Nenner, dreifacher Abstand ergibt $\\frac{1}{3^2} = \\frac{1}{9}$.\n\n*B gewählt?* $F \\sim \\frac{1}{r}$ angenommen. *C gewählt?* Faktor 2 statt Quadrat. *D gewählt?* Die Kraft nimmt mit dem Abstand ab. → **N2** Aufgabe 3, danach **N3**"
+        },
+        {
+          "id": "N1-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Die Feldlinien beginnen an den positiven Ladungen und zeigen nach außen. Zwischen den Ladungen biegen sie auseinander; in der Mitte liegt ein feldfreier Punkt.\n\n*A gewählt?* Gleichnamige Ladungen sind nie durch Feldlinien verbunden. *B gewählt?* Die Pfeile zeigen zu den positiven Ladungen hin – Feldlinien laufen von Plus nach Minus. *C gewählt?* Feldlinien kreuzen sich nie. → **N4**"
+        },
+        {
+          "id": "N1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Styropor ist ein Isolator. Im Feld des Stabs verschieben sich in den Molekülen die Ladungen ein wenig (Polarisation). Die ungleichnamigen Ladungen liegen näher am Stab und werden stärker angezogen, als die gleichnamigen abgestoßen werden.\n\n*A gewählt?* Die Flocke bleibt insgesamt neutral. *C gewählt?* Freie Elektronen gibt es nur in Leitern (Influenz). *D gewählt?* Die Gravitation ist viel zu schwach. → **N5** Aufgabe 2"
+        },
+        {
+          "id": "N1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Im Metallkasten verschieben sich die freien Elektronen so (Influenz), dass ihr Feld das äußere Feld im Inneren genau aufhebt: Der Kasten wirkt als Faraday’scher Käfig.\n\n*A gewählt?* Metall leitet Ladungen, das Feld endet aber an der Außenseite. *B gewählt?* Auch die Berührung ändert das Feld im Inneren nicht. *C gewählt?* Im geschlossenen Leiter ist das Feld null, nicht nur kleiner. → **N5** Aufgabe 3"
+        },
+        {
+          "id": "N1-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Zwischen den Platten ist das Feld homogen: $E = \\frac{U}{d}$ ist überall gleich, also auch $F = q \\cdot E$.\n\n*B, C oder D gewählt?* Hier wurde wie bei einer Punktladung gedacht. Die Felder beider Platten überlagern sich zu einem überall gleich starken Feld. → **N6** Aufgabe 1"
+        },
+        {
+          "id": "N1-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – $C = \\varepsilon_0 \\cdot \\varepsilon_r \\cdot \\frac{A}{d}$ halbiert sich, die Spannung bleibt (Quelle angeschlossen). Mit $Q = C \\cdot U$ halbiert sich die Ladung.\n\n*A gewählt?* Die Ladung bleibt nur, wenn der Kondensator von der Quelle getrennt ist. *B gewählt?* $C$ nimmt mit dem Abstand ab, nicht zu. *D gewählt?* $d$ steht nicht im Quadrat. → **N9**, danach **N10**"
+        },
+        {
+          "id": "N1-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Zu Beginn ist $U_C = 0$, die ganze Spannung liegt am Widerstand: $I_0 = \\frac{U_0}{R}$. Mit steigender Kondensatorspannung bleibt für den Widerstand immer weniger, der Strom nimmt ab.\n\n*A gewählt?* Ein voller Kondensator lässt keinen Strom mehr fließen. *C gewählt?* Das gilt nur für einen Widerstand allein. *D gewählt?* Nach $\\tau$ ist der Strom schon auf 37 % gefallen. → **N11**"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Ladung und Coulomb’sches Gesetz",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Ladung_Coulomb.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$N_e = \\frac{\\left| Q \\right|}{e} = \\frac{2{,}0 \\cdot 10^{-6}\\,\\mathrm{C}}{1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}} \\approx 1{,}25 \\cdot 10^{13}$ Elektronen Überschuss\n\nBeim Reiben gehen Elektronen von einem Körper auf den anderen über (hier auf das Band und von dort auf die Kugel). Wo Elektronen hinzukommen, fehlen sie anderswo: Rolle bzw. Erdung tragen zusammen genau die entgegengesetzte Ladung. Die Gesamtladung bleibt null."
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Gesamtladung $+6{,}0\\,\\mathrm{nC} - 2{,}0\\,\\mathrm{nC} = +4{,}0\\,\\mathrm{nC}$ bleibt erhalten und verteilt sich bei gleich großen Kugeln gleichmäßig: je $+2{,}0\\,\\mathrm{nC}$.\n\n(Elektronen fließen von der negativen zur positiven Kugel, bis beide gleich geladen sind.)"
+        },
+        {
+          "id": "N2-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Ein Teil der Ladung geht auf das Elektroskop über und verteilt sich auf Halterung und Zeiger. Beide sind gleichnamig geladen und stoßen sich ab – der Zeiger dreht sich weg. Je größer die Ladung, desto größer der Ausschlag (das Vorzeichen zeigt das Elektroskop nicht)."
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$F_C = \\frac{1}{4\\pi\\varepsilon_0} \\cdot \\frac{q_1 \\cdot q_2}{r^2} = \\frac{1}{4\\pi \\cdot 8{,}854 \\cdot 10^{-12}} \\cdot \\frac{(2{,}0 \\cdot 10^{-9})^2}{(0{,}030)^2}\\,\\mathrm{N}$\n\nMit $\\frac{1}{4\\pi\\varepsilon_0} \\approx 8{,}99 \\cdot 10^{9}\\,\\frac{\\mathrm{N \\cdot m^2}}{\\mathrm{C^2}}$: $F_C \\approx 4{,}0 \\cdot 10^{-5}\\,\\mathrm{N}$ (abstoßend, gleichnamig)"
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$r = \\sqrt{\\frac{1}{4\\pi\\varepsilon_0} \\cdot \\frac{q_1 \\cdot q_2}{F_C}} = \\sqrt{8{,}99 \\cdot 10^{9} \\cdot \\frac{4{,}0 \\cdot 10^{-18}}{1{,}0 \\cdot 10^{-3}}}\\,\\mathrm{m} \\approx 6{,}0 \\cdot 10^{-3}\\,\\mathrm{m} = 6{,}0\\,\\mathrm{mm}$\n\nUnmöglich: Bei $1{,}0\\,\\mathrm{cm}$ Radius berühren sich die Kügelchen schon bei $2{,}0\\,\\mathrm{cm}$ Mittelpunktsabstand."
+        },
+        {
+          "id": "N2-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$F_C \\sim \\frac{q_1 \\cdot q_2}{r^2}$: Zähler $\\cdot 2$, Nenner $\\cdot 2^2 = 4$. Die Kraft halbiert sich: $\\frac{2}{4} = \\frac{1}{2}$."
+        },
+        {
+          "id": "N2-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$F_G = \\gamma \\cdot \\frac{m_1 \\cdot m_2}{r^2} = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{(5{,}0 \\cdot 10^{-3})^2}{(0{,}030)^2}\\,\\mathrm{N} \\approx 1{,}9 \\cdot 10^{-12}\\,\\mathrm{N}$\n\n$\\frac{F_C}{F_G} \\approx \\frac{4{,}0 \\cdot 10^{-5}}{1{,}9 \\cdot 10^{-12}} \\approx 2 \\cdot 10^{7}$: Die Coulomb-Kraft ist rund 20 Millionen Mal so groß; die Gravitation zwischen den Kügelchen spielt keine Rolle. Beide Gesetze haben dieselbe Form ($\\sim \\frac{1}{r^2}$, Produkt der Ladungen bzw. Massen); die Gravitation wirkt aber nur anziehend.\n\nNach dem Wechselwirkungsprinzip stößt das zweite Kügelchen das erste mit gleich großer Kraft ($4{,}0 \\cdot 10^{-5}\\,\\mathrm{N}$) in entgegengesetzter Richtung ab."
+        },
+        {
+          "id": "N2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Das Coulomb’sche Gesetz gilt für Punktladungen. Eine gleichmäßig geladene Kugel wirkt nach außen wie eine Punktladung in ihrem Mittelpunkt – deshalb rechnet man mit dem Mittelpunktsabstand.\n\nHier sind die Kügelchen aber aus Metall und sehr nah beieinander: Die gleichnamigen Ladungen stoßen sich ab und sammeln sich auf den abgewandten Seiten. Der Abstand der Ladungsschwerpunkte ist größer als $3{,}0\\,\\mathrm{cm}$, die tatsächliche Kraft ist etwas kleiner. Die Rechnung gilt nur näherungsweise; erst bei Abständen, die groß gegen die Radien sind, wird sie genau."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Messreihe: Coulomb-Gesetz prüfen",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument, Excel",
+      "checkliste": [
+        "c3",
+        "c1",
+        "g4",
+        "g1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit, WTR, Formeldokument und Excel, 20 Minuten. Beispielmessung (Aufbau wie Experiment Nr. 50 der digitalen Messwerterfassung).",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Messreihe_Coulomb.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Auf die ruhende Pendelkugel wirken Gewichtskraft, Fadenkraft und waagerecht die Coulomb-Kraft. Im Gleichgewicht gilt (wie bei G1 Aufgabe 4) $\\tan(\\alpha) = \\frac{F_C}{m \\cdot g}$.\n\nFür kleine Winkel ist $\\tan(\\alpha) \\approx \\sin(\\alpha) = \\frac{x}{l}$, also $F_C = m \\cdot g \\cdot \\frac{x}{l}$."
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$m \\cdot \\frac{g}{l} = 2{,}0 \\cdot 10^{-3}\\,\\mathrm{kg} \\cdot \\frac{9{,}81\\,\\mathrm{N/kg}}{1{,}00\\,\\mathrm{m}} = 1{,}96 \\cdot 10^{-2}\\,\\mathrm{N/m}$, also $F_C = 1{,}96 \\cdot 10^{-2}\\,\\mathrm{N/m} \\cdot x$:\n\n| $r$ in cm | 6,0 | 8,0 | 10,0 | 12,0 | 15,0 | 20,0 |\n|---|---|---|---|---|---|---|\n| $F_C$ in mN | 2,08 | 1,24 | 0,804 | 0,549 | 0,353 | 0,196 |\n\nPotenz-Trendlinie: $F_C \\approx 8{,}4 \\cdot 10^{-6} \\cdot r^{-1{,}97}$ (mit $r$ in m), also $n \\approx -1{,}97 \\approx -2$: $F_C \\sim \\frac{1}{r^2}$."
+        },
+        {
+          "id": "N3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{1}{r^2}$ in $\\frac{1}{\\mathrm{m^2}}$: 278; 156; 100; 69,4; 44,4; 25. Die Punkte liegen nahezu auf einer Ursprungsgeraden; nur der Punkt bei $r = 6{,}0\\,\\mathrm{cm}$ liegt etwas darunter.",
+          "loesung_bild": "img/N3-1c.png"
+        },
+        {
+          "id": "N3-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Eine Gerade lässt sich viel sicherer erkennen und auswerten als eine gekrümmte Kurve (Linearisierung). Liegen die Punkte auf einer Ursprungsgeraden, gilt $F_C \\sim \\frac{1}{r^2}$ – genau die Abstandsabhängigkeit des Coulomb’schen Gesetzes."
+        },
+        {
+          "id": "N3-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ursprungsgerade durch alle Punkte: Steigung $s \\approx 7{,}6 \\cdot 10^{-6}\\,\\mathrm{N \\cdot m^2}$ (ohne den Punkt bei $6{,}0\\,\\mathrm{cm}$: $7{,}9 \\cdot 10^{-6}\\,\\mathrm{N \\cdot m^2}$).\n\nNach Coulomb ist $s = \\frac{1}{4\\pi\\varepsilon_0} \\cdot q^2$, also\n\n$q = \\sqrt{4\\pi\\varepsilon_0 \\cdot s} = \\sqrt{\\frac{7{,}6 \\cdot 10^{-6}}{8{,}99 \\cdot 10^{9}}}\\,\\mathrm{C} \\approx 2{,}9 \\cdot 10^{-8}\\,\\mathrm{C} \\approx 29\\,\\mathrm{nC}$ (ohne den ersten Punkt $30\\,\\mathrm{nC}$)"
+        },
+        {
+          "id": "N3-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bei $6{,}0\\,\\mathrm{cm}$ Mittelpunktsabstand sind zwischen den Kugeln nur $2{,}0\\,\\mathrm{cm}$ Luft. Auf den leitenden Kugeln stoßen sich die gleichnamigen Ladungen ab und rücken auf die abgewandten Seiten. Die Ladungsschwerpunkte sind weiter voneinander entfernt als die Mittelpunkte – die Kraft ist kleiner als mit $r$ berechnet. Das Punktladungsmodell gilt nur für Abstände, die groß gegen die Radien sind.\n\n(Weitere mögliche Ursache: Bei hoher Luftfeuchte fließt im Lauf der Messung Ladung ab.)"
+        },
+        {
+          "id": "N3-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Nur eingeschränkt: Bei großen Kräften wird die Auslenkung groß, die Näherung $\\tan(\\alpha) \\approx \\frac{x}{l}$ wird ungenau (dann $F_C = m \\cdot g \\cdot \\tan(\\alpha)$ exakt rechnen), und die Pendelkugel verschiebt sich so weit, dass sich $r$ während der Messung stark ändert oder die Kugeln sich berühren. Besser wäre eine schwerere Pendelkugel oder ein Kraftsensor."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Feldlinienbilder zeichnen und lesen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c4",
+        "c5",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Feldlinienbilder.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "(1) Gerade Linien, radial von der Kugel nach außen.\n\n(2) Linien beginnen an der positiven und enden an der negativen Ladung, zwischen beiden am dichtesten; außen weite Bögen.\n\n(3) Alle Linien beginnen an den Ladungen und laufen nach außen. Zwischen den Ladungen biegen sie auseinander; in der Mitte ist ein feldfreier Punkt. Keine Linie verbindet die Ladungen.",
+          "loesung_bild": "img/N4-1a.png"
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "(1) Radialfeld, (2) Dipolfeld, Plattenkondensator: homogenes Feld."
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Innen parallele, gleich weit entfernte Linien von der positiven zur negativen Platte, senkrecht auf den Platten (homogenes Feld). Am Rand wölben sich die Linien nach außen (Randfeld).",
+          "loesung_bild": "img/N4-2a.png"
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Außen radial nach außen, senkrecht auf der Ringoberfläche. Innen keine Feldlinien: Die Ladung sitzt außen auf dem Leiter, der Innenraum ist feldfrei.",
+          "loesung_bild": "img/N4-2b.png"
+        },
+        {
+          "id": "N4-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Feldlinien stehen senkrecht auf beiden Elektroden. An der Spitze laufen sie auf engstem Raum zusammen, zur flachen Elektrode hin breiten sie sich aus.\n\nDie Liniendichte und damit die Feldstärke ist an der Spitze am größten. Dort wird die Feldstärke, ab der Luft leitend wird (Durchschlag), zuerst erreicht – der Funke startet an der Spitze.",
+          "loesung_bild": "img/N4-2c.png"
+        },
+        {
+          "id": "N4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "A ist positiv (die Linien beginnen dort), B ist negativ (die Linien enden dort)."
+        },
+        {
+          "id": "N4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Von A gehen 16 Linien aus, in B enden 8. Die Zahl der Feldlinien ist proportional zum Betrag der Ladung: $\\left| Q_A \\right| = 2 \\cdot \\left| Q_B \\right|$. Die übrigen 8 Linien laufen ins Unendliche – auch daran erkennt man, dass A mehr Ladung trägt."
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist im Allgemeinen falsch. Die Feldlinie gibt die Richtung der **Kraft** an, also der Beschleunigung, nicht die Richtung der Geschwindigkeit. Hat die Ladung schon eine Geschwindigkeit quer zur Feldlinie oder ist die Feldlinie gekrümmt, weicht die Bahn wegen der Trägheit von der Feldlinie ab (wie beim waagerechten Wurf im Schwerefeld).\n\nRichtig ist sie nur, wenn die Ladung aus der Ruhe startet und die Feldlinie gerade ist, z. B. im homogenen Feld."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Vorhersagen – beobachten – erklären: Influenz, Polarisation, Abschirmung",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "Kunststoffrohr oder -lineal, Wolltuch, leere Getränkedose, Papierschnipsel, Elektroskop, Metallsieb",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c2",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit, 20 Minuten. Material: Kunststoffrohr oder -lineal, Wolltuch, leere Getränkedose, Papierschnipsel, Elektroskop (oder Alufolienstreifen an einem Trinkhalm), Metallsieb. Ist das Material nicht da, sehen Sie sich die Versuche als Demonstration am Pult an. Erst vorhersagen, dann beobachten, dann erklären.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_VBE_Influenz_Polarisation.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zum Beispiel: „Die Dose rollt auf das Rohr zu.“ (Jede begründete Vermutung zählt.)"
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Dose rollt auf das Rohr zu und folgt ihm, wenn man das Rohr langsam wegbewegt."
+        },
+        {
+          "id": "N5-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Rohr ist negativ geladen (Elektronenüberschuss). In der Metalldose sind Elektronen frei beweglich; sie werden abgestoßen und wandern auf die abgewandte Seite. Die rohrnahe Seite hat nun Elektronenmangel (positiv). Das ist **Influenz**: Ladungstrennung in einem Leiter ohne Berührung.\n\nDie positive Seite ist näher am Rohr als die negative; die Anziehung ist deshalb größer als die Abstoßung – die Dose rollt zum Rohr.",
+          "loesung_bild": "img/N5-1c.png"
+        },
+        {
+          "id": "N5-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Schnipsel springen zum Rohr und bleiben haften.\n\nPapier ist ein Isolator, freie Elektronen gibt es kaum. Im Feld des Rohrs verschieben sich aber in jedem Molekül die Ladungen ein wenig: Die Moleküle werden zu kleinen Dipolen und richten sich aus (**Polarisation**). Die rohrnahe Oberfläche ist dadurch positiv, die abgewandte negativ; wegen des kleineren Abstands überwiegt die Anziehung."
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Ohne Sieb schlägt der Zeiger beim Annähern aus und geht beim Entfernen zurück. Mit Sieb bleibt der Zeiger in Ruhe."
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ohne Sieb: Influenz im Elektroskop – Elektronen werden vom Teller zum Zeiger gedrängt, Zeiger und Halterung sind gleichnamig geladen und stoßen sich ab. Entfernt man das Rohr, verteilen sich die Elektronen wieder.\n\nMit Sieb: Die Influenz findet im Sieb statt. Die verschobenen Ladungen des Siebs erzeugen innen ein Feld, das das äußere Feld genau aufhebt; die Feldlinien enden außen auf dem Sieb. Das Elektroskop steht in einem feldfreien Raum (**Faraday’scher Käfig**). Ein Gitter genügt, wenn die Löcher klein gegen den Abstand zum geladenen Körper sind.",
+          "loesung_bild": "img/N5-3b.png"
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Die geschlossene Blechhütte ist ein Faraday’scher Käfig: Im Inneren ist das Feld null, ein Blitz fließt über die leitende Außenhaut in den Boden, die Menschen innen liegen nicht im Strompfad.\n\nHolz isoliert schlecht und ungleichmäßig (vor allem nass); es lenkt den Blitzstrom nicht um. Der Strom kann sich seinen Weg über das Dach, Wände oder Personen suchen. (Modellgrenze: Beim Blitz fließt ein Strom; der Käfig schützt auch dann, weil der Strom außen bleibt.)"
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Feldstärke im Plattenkondensator und in beliebigen Feldern",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8",
+        "c4",
+        "c3",
+        "g1"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Feldstaerke.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$E = \\frac{U}{d} = \\frac{120\\,\\mathrm{V}}{0{,}15\\,\\mathrm{m}} = 800\\,\\frac{\\mathrm{V}}{\\mathrm{m}} = 800\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$\n\n$F = \\left| q \\right| \\cdot E = 1{,}6 \\cdot 10^{-16}\\,\\mathrm{C} \\cdot 800\\,\\frac{\\mathrm{N}}{\\mathrm{C}} \\approx 1{,}3 \\cdot 10^{-13}\\,\\mathrm{N}$"
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zur positiven Elektrode: Auf eine negative Ladung wirkt die Kraft entgegen der Feldrichtung (die Feldlinien zeigen von Plus nach Minus)."
+        },
+        {
+          "id": "N6-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Kraft ist für das längere Stück dreimal so groß, die Feldstärke $E = \\frac{F}{q}$ bleibt gleich: $800\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$. Die Feldstärke ist eine Eigenschaft des Feldes am Ort, unabhängig von der Probeladung; mit ihr lässt sich für jede Ladung sofort $F = q \\cdot E$ angeben."
+        },
+        {
+          "id": "N6-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Aus $U = \\frac{W}{Q}$ folgt $1\\,\\mathrm{V} = 1\\,\\frac{\\mathrm{J}}{\\mathrm{C}} = 1\\,\\frac{\\mathrm{N \\cdot m}}{\\mathrm{C}}$.\n\nAlso $1\\,\\frac{\\mathrm{V}}{\\mathrm{m}} = 1\\,\\frac{\\mathrm{N \\cdot m}}{\\mathrm{C \\cdot m}} = 1\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$. Beide Einheiten der Feldstärke sind gleichwertig."
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$E = \\frac{1}{4\\pi\\varepsilon_0} \\cdot \\frac{Q}{r^2}$\n\nOberfläche ($r = 0{,}15\\,\\mathrm{m}$): $E \\approx 8{,}99 \\cdot 10^{9} \\cdot \\frac{2{,}0 \\cdot 10^{-6}}{0{,}15^2}\\,\\frac{\\mathrm{N}}{\\mathrm{C}} \\approx 8{,}0 \\cdot 10^{5}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$\n\nBei $r = 0{,}50\\,\\mathrm{m}$: $E \\approx 8{,}99 \\cdot 10^{9} \\cdot \\frac{2{,}0 \\cdot 10^{-6}}{0{,}50^2}\\,\\frac{\\mathrm{N}}{\\mathrm{C}} \\approx 7{,}2 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$ (Abstand 3,3-mal, Feldstärke ein Elftel)"
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$Q_{max} = 4\\pi\\varepsilon_0 \\cdot E_{max} \\cdot R^2 = \\frac{3{,}0 \\cdot 10^{6} \\cdot 0{,}15^2}{8{,}99 \\cdot 10^{9}}\\,\\mathrm{C} \\approx 7{,}5 \\cdot 10^{-6}\\,\\mathrm{C} = 7{,}5\\,\\mathrm{\\mu C}$\n\nDie Höchstladung wächst mit $R^2$: Bei einer größeren Kugel verteilt sich die Ladung auf eine größere Fläche, die Feldstärke an der Oberfläche bleibt kleiner – die Kugel kann mehr Ladung tragen, bevor Funken überspringen."
+        },
+        {
+          "id": "N6-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "P: Die Linien $+20\\,\\mathrm{V}$ und $-20\\,\\mathrm{V}$ liegen etwa $1{,}0\\,\\mathrm{cm}$ auseinander: $E_P \\approx \\frac{40\\,\\mathrm{V}}{0{,}010\\,\\mathrm{m}} \\approx 4 \\cdot 10^{3}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$ (genau: $4{,}0 \\cdot 10^{3}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$)\n\nS: Die Linien $+20\\,\\mathrm{V}$ und $-20\\,\\mathrm{V}$ liegen etwa $2{,}9\\,\\mathrm{cm}$ auseinander: $E_S \\approx \\frac{40\\,\\mathrm{V}}{0{,}029\\,\\mathrm{m}} \\approx 1{,}4 \\cdot 10^{3}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$\n\nDie Feldstärke zeigt senkrecht zu den Linien, von hohem zu niedrigem Potenzial (in P und S zur negativen Ladung hin, parallel zur Verbindungslinie)."
+        },
+        {
+          "id": "N6-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Dicht an den beiden Ladungen: Dort liegen die Äquipotenziallinien am engsten beieinander, dieselbe Potenzialdifferenz von $20\\,\\mathrm{V}$ wird auf dem kürzesten Weg überwunden – $\\frac{\\Delta\\varphi}{\\Delta s}$ ist am größten. (Im Feldlinienbild sind dort die Feldlinien am dichtesten.)"
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Superposition: Felder überlagern",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c3",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Superposition.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Vektor von A zeigt von A weg (positive Ladung), also nach rechts; der Vektor von B zeigt zu B hin (negative Ladung), ebenfalls nach rechts. Beide sind gleich lang.",
+          "loesung_bild": "img/N7-1a.png"
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Jede Ladung ist $4{,}0\\,\\mathrm{cm}$ entfernt: $E_A = E_B = 8{,}99 \\cdot 10^{9} \\cdot \\frac{4{,}0 \\cdot 10^{-9}}{0{,}040^2}\\,\\frac{\\mathrm{N}}{\\mathrm{C}} \\approx 2{,}25 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$\n\nGleiche Richtung, die Beträge addieren sich: $E = 2 \\cdot 2{,}25 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}} \\approx 4{,}5 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$ (nach rechts, zu B)"
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E_A = E_B = 8{,}99 \\cdot 10^{9} \\cdot \\frac{4{,}0 \\cdot 10^{-9}}{0{,}050^2}\\,\\frac{\\mathrm{N}}{\\mathrm{C}} \\approx 1{,}44 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$"
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\vec{E}_A$ zeigt von A weg (nach rechts oben), $\\vec{E}_B$ zu B hin (nach rechts unten), beide 1,44 cm lang. Kräfteparallelogramm: Die Diagonale zeigt waagerecht nach rechts und ist etwa 2,3 cm lang, also $E \\approx 2{,}3 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$.\n\nFeldstärken sind Vektoren: Ihre senkrechten Anteile heben sich hier auf. Die Summe der Beträge ($2{,}9 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$) gilt nur für gleich gerichtete Vektoren.",
+          "loesung_bild": "img/N7-2b.png"
+        },
+        {
+          "id": "N7-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Komponenten (Richtungen aus dem Raster: von A nach P₂ sind es 4 cm nach rechts und 3 cm nach oben, von P₂ nach B 4 cm nach rechts und 3 cm nach unten):\n\n$E_x = 2 \\cdot 1{,}44 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}} \\cdot \\frac{4}{5} \\approx 2{,}3 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$, $E_y = 1{,}44 \\cdot 10^{4} \\cdot \\frac{3}{5} - 1{,}44 \\cdot 10^{4} \\cdot \\frac{3}{5} = 0$\n\nEbenso mit $E = \\sqrt{E_A^2 + E_B^2 + 2 \\cdot E_A \\cdot E_B \\cdot \\cos(\\alpha)}$. Achtung: $\\alpha$ ist der Winkel **zwischen den Vektoren**, hier $\\cos(\\alpha) = \\frac{16 - 9}{25} = 0{,}28$, $\\alpha \\approx 73{,}7°$ (nicht der Winkel zwischen den Verbindungslinien, $106{,}3°$):\n\n$E = 1{,}44 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}} \\cdot \\sqrt{2 + 2 \\cdot 0{,}28} \\approx 2{,}3 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$"
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F = q \\cdot E = 1{,}0 \\cdot 10^{-9}\\,\\mathrm{C} \\cdot 2{,}3 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}} \\approx 2{,}3 \\cdot 10^{-5}\\,\\mathrm{N}$ (waagerecht nach rechts)"
+        },
+        {
+          "id": "N7-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Zwischen zwei positiven Ladungen zeigen die Felder in entgegengesetzte Richtungen. Im Abstand $x$ von A ist das Feld null, wenn $\\frac{4{,}0\\,\\mathrm{nC}}{x^2} = \\frac{1{,}0\\,\\mathrm{nC}}{(8{,}0\\,\\mathrm{cm} - x)^2}$.\n\nWurzel ziehen: $\\frac{2}{x} = \\frac{1}{8{,}0\\,\\mathrm{cm} - x} \\Rightarrow 16\\,\\mathrm{cm} - 2x = x \\Rightarrow x \\approx 5{,}3\\,\\mathrm{cm}$ von A (näher an der kleineren Ladung)."
+        },
+        {
+          "id": "N7-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Ja, indirekt: Durch den Nullpunkt läuft keine Feldlinie; die Linien biegen dort auseinander, es entsteht eine Lücke. Genau ablesen lässt sich seine Lage aber nicht – dafür braucht man die Rechnung."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Arbeit, Energie und Potenzial",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c10",
+        "c11",
+        "c8",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Arbeit_Energie_Potenzial.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E = \\frac{U}{d} = \\frac{200\\,\\mathrm{V}}{0{,}040\\,\\mathrm{m}} = 5{,}0 \\cdot 10^{3}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$\n\n$W = q \\cdot E \\cdot \\Delta s = 2{,}0 \\cdot 10^{-9}\\,\\mathrm{C} \\cdot 5{,}0 \\cdot 10^{3}\\,\\frac{\\mathrm{N}}{\\mathrm{C}} \\cdot 0{,}030\\,\\mathrm{m} = 3{,}0 \\cdot 10^{-7}\\,\\mathrm{J}$"
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Kraft $q \\cdot E$ zeigt senkrecht (entlang der Feldlinien). Bei einer Verschiebung senkrecht zur Kraft wird keine Arbeit verrichtet: Die Ladung bleibt auf derselben Äquipotenzialfläche, ihre potenzielle Energie ändert sich nicht."
+        },
+        {
+          "id": "N8-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nur der Anteil entlang der Feldlinien zählt: $\\Delta s = 5{,}0\\,\\mathrm{cm} \\cdot \\cos(60°) = 2{,}5\\,\\mathrm{cm}$\n\n$W = q \\cdot E \\cdot \\Delta s = 2{,}0 \\cdot 10^{-9} \\cdot 5{,}0 \\cdot 10^{3} \\cdot 0{,}025\\,\\mathrm{J} = 2{,}5 \\cdot 10^{-7}\\,\\mathrm{J}$ (die Ladung endet bei $3{,}0\\,\\mathrm{cm}$, noch zwischen den Platten)"
+        },
+        {
+          "id": "N8-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\varphi = E \\cdot s$ (Formeldokument: $\\varphi = \\frac{U}{d} \\cdot s$): $50\\,\\mathrm{V}$, $100\\,\\mathrm{V}$, $150\\,\\mathrm{V}$.\n\nDie Äquipotenzialflächen sind Ebenen parallel zu den Platten (im Schnitt waagerechte Linien), gleich weit voneinander entfernt, senkrecht zu den Feldlinien. Die positive Platte hat $200\\,\\mathrm{V}$.",
+          "loesung_bild": "img/N8-2a.png"
+        },
+        {
+          "id": "N8-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$E_{Pot} = q \\cdot \\varphi = 2{,}0 \\cdot 10^{-9}\\,\\mathrm{C} \\cdot 150\\,\\mathrm{V} = 3{,}0 \\cdot 10^{-7}\\,\\mathrm{J}$ (gegenüber der negativen Platte).\n\nDie Energie hängt von der Ladung ab, das Potenzial $\\varphi = \\frac{E_{Pot}}{q}$ nicht: Es beschreibt den Ort im Feld, für jede Ladung gilt $E_{Pot} = q \\cdot \\varphi$. Die Spannung zwischen zwei Orten ist die Potenzialdifferenz $U = \\Delta\\varphi$."
+        },
+        {
+          "id": "N8-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E_{kin} = e \\cdot U_B = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C} \\cdot 1{,}5 \\cdot 10^{3}\\,\\mathrm{V} \\approx 2{,}4 \\cdot 10^{-16}\\,\\mathrm{J}$"
+        },
+        {
+          "id": "N8-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{1}{2} \\cdot m_e \\cdot v^2 = e \\cdot U_B \\Rightarrow v = \\sqrt{\\frac{2 \\cdot e \\cdot U_B}{m_e}} = \\sqrt{\\frac{2 \\cdot 1{,}602 \\cdot 10^{-19} \\cdot 1{,}5 \\cdot 10^{3}}{9{,}109 \\cdot 10^{-31}}}\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\approx 2{,}3 \\cdot 10^{7}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ (knapp 8 % der Lichtgeschwindigkeit, klassische Rechnung noch zulässig)\n\nDas Proton gewinnt dieselbe Energie ($e \\cdot U_B$), ist aber 1836-mal so schwer: $\\frac{v_e}{v_p} = \\sqrt{\\frac{m_p}{m_e}} \\approx 43$, $v_p \\approx 5{,}4 \\cdot 10^{5}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$."
+        },
+        {
+          "id": "N8-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch.\n\n- Bei größerem Abstand $d$ ist die Feldstärke $E = \\frac{U_B}{d}$ kleiner, die Kraft $e \\cdot E$ wird kleiner.\n- Die Arbeit ist $W = e \\cdot E \\cdot d = e \\cdot U_B$: Längerer Weg und kleinere Kraft gleichen sich genau aus.\n- Allgemein hängt die Arbeit nur von der Potenzialdifferenz zwischen Start und Ziel ab, nicht vom Weg. Das Elektron braucht nur länger, die Endgeschwindigkeit bleibt gleich."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Kondensator: Kapazität und Energie",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c12",
+        "c8",
+        "g1",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Kondensator_Kapazitaet_Energie.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Quelle pumpt Elektronen von der einen Platte auf die andere: Eine Platte wird negativ, die andere gleich stark positiv geladen ($+Q$ und $-Q$). Das geht, bis die Spannung zwischen den Platten gleich der Quellenspannung ist; dann fließt kein Strom mehr. Zwischen den Platten entsteht ein homogenes Feld, in dem die Energie gespeichert ist."
+        },
+        {
+          "id": "N9-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "$C = \\varepsilon_0 \\cdot \\varepsilon_r \\cdot \\frac{A}{d} = 8{,}854 \\cdot 10^{-12} \\cdot 1 \\cdot \\frac{0{,}050}{2{,}0 \\cdot 10^{-3}}\\,\\mathrm{F} \\approx 2{,}2 \\cdot 10^{-10}\\,\\mathrm{F} = 221\\,\\mathrm{pF}$\n\n$Q = C \\cdot U = 2{,}21 \\cdot 10^{-10}\\,\\mathrm{F} \\cdot 1{,}0 \\cdot 10^{3}\\,\\mathrm{V} \\approx 2{,}2 \\cdot 10^{-7}\\,\\mathrm{C}$\n\n$E = \\frac{U}{d} = \\frac{1{,}0 \\cdot 10^{3}\\,\\mathrm{V}}{2{,}0 \\cdot 10^{-3}\\,\\mathrm{m}} = 5{,}0 \\cdot 10^{5}\\,\\frac{\\mathrm{V}}{\\mathrm{m}}$"
+        },
+        {
+          "id": "N9-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E_{el} = \\frac{1}{2} \\cdot C \\cdot U^2 = \\frac{1}{2} \\cdot 1{,}0\\,\\mathrm{F} \\cdot (3{,}0\\,\\mathrm{V})^2 = 4{,}5\\,\\mathrm{J}$"
+        },
+        {
+          "id": "N9-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nutzbar ist die Energie zwischen $3{,}0\\,\\mathrm{V}$ und $1{,}5\\,\\mathrm{V}$:\n\n$\\Delta E_{el} = \\frac{1}{2} \\cdot 1{,}0\\,\\mathrm{F} \\cdot \\left((3{,}0\\,\\mathrm{V})^2 - (1{,}5\\,\\mathrm{V})^2\\right) \\approx 3{,}4\\,\\mathrm{J}$\n\n$t = \\frac{\\Delta E_{el}}{P} = \\frac{3{,}375\\,\\mathrm{J}}{0{,}030\\,\\mathrm{W}} \\approx 113\\,\\mathrm{s} \\approx 2\\,\\mathrm{min}$ – genug für eine Ampelphase."
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Beim Laden steigt die Spannung proportional zur Ladung ($U = \\frac{Q}{C}$, Ursprungsgerade). Jede kleine Ladungsportion $\\Delta Q$ braucht die Arbeit $\\Delta W = U \\cdot \\Delta Q$ bei der gerade herrschenden Spannung. Die Summe ist die Fläche unter der Geraden, ein Dreieck: $\\frac{1}{2} \\cdot Q \\cdot U$. Anschaulich: Im Mittel wird die Ladung gegen die halbe Endspannung transportiert."
+        },
+        {
+          "id": "N9-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Falsch: $E_{el} = \\frac{1}{2} \\cdot C \\cdot U^2$ – bei doppelter Spannung ist auch die Ladung doppelt so groß, die Energie wird viermal so groß."
+        },
+        {
+          "id": "N9-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$15\\,\\mathrm{Wh} = 15 \\cdot 3600\\,\\mathrm{J} = 5{,}4 \\cdot 10^{4}\\,\\mathrm{J}$ – das ist rund 12 000-mal so viel wie die $4{,}5\\,\\mathrm{J}$ des Kondensators. Kondensatoren speichern bei gleicher Größe viel weniger Energie, und ihre Spannung sinkt beim Entladen stetig. Dafür können sie sehr schnell laden und entladen (große Leistung). Als Ersatz für den Akku taugen sie nicht, als Kurzzeitspeicher (Standlicht, Blitz) sehr wohl."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Kondensator als Bauelement und Dielektrikum",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c13",
+        "c12",
+        "c8",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Bauelement_Dielektrikum.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Spannung wächst proportional zum Abstand: doppelter Abstand, doppelte Spannung ($U \\sim d$, Ursprungsgerade). Bei großem Abstand liegen die Werte etwas darunter."
+        },
+        {
+          "id": "N10-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$E = \\frac{U}{d}$ in $10^{5}\\,\\frac{\\mathrm{V}}{\\mathrm{m}}$: 1,00; 1,01; 0,99; 0,99; 0,99; 0,98 – nahezu konstant.\n\nBegründung: Die Ladung auf den Platten bleibt gleich (getrennt). Die Feldstärke hängt nur von der Ladung pro Fläche ab, nicht vom Abstand ($E = \\frac{U}{d} = \\frac{Q}{C \\cdot d} = \\frac{Q}{\\varepsilon_0 \\cdot A}$). Die leichte Abnahme bei großem $d$ kommt vom Randfeld: Das Feld ist dann nicht mehr homogen."
+        },
+        {
+          "id": "N10-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$Q = C_1 \\cdot U_1 = \\varepsilon_0 \\cdot \\frac{A}{d_1} \\cdot U_1 \\approx 4{,}4 \\cdot 10^{-8}\\,\\mathrm{C}$; $E_{el}$ steigt von $\\frac{1}{2} \\cdot 4{,}4 \\cdot 10^{-8} \\cdot 1000\\,\\mathrm{J} \\approx 2{,}2 \\cdot 10^{-5}\\,\\mathrm{J}$ auf etwa $1{,}3 \\cdot 10^{-4}\\,\\mathrm{J}$.\n\nDie Quelle ist abgetrennt, sie liefert nichts. Die ungleichnamig geladenen Platten ziehen sich an; wer sie auseinanderzieht, verrichtet Arbeit gegen diese Kraft. Diese Arbeit steckt danach als zusätzliche Energie im größeren Feldraum."
+        },
+        {
+          "id": "N10-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$Q$ bleibt gleich, $C = \\frac{Q}{U}$ steigt um den Faktor $\\frac{1{,}00\\,\\mathrm{kV}}{0{,}40\\,\\mathrm{kV}} = 2{,}5$. Wegen $C = \\varepsilon_0 \\cdot \\varepsilon_r \\cdot \\frac{A}{d}$ ist $\\varepsilon_r = 2{,}5$."
+        },
+        {
+          "id": "N10-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Im Kunststoff richten sich die Moleküle als Dipole aus (Polarisation). An der Oberfläche zur positiven Platte entsteht eine negative, an der anderen eine positive Schicht. Deren Feld zeigt entgegen dem Feld der Platten und schwächt es: Bei gleicher Ladung sind Feldstärke und Spannung nur noch $\\frac{1}{2{,}5}$ so groß."
+        },
+        {
+          "id": "N10-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$C_{leer} = \\varepsilon_0 \\cdot \\frac{A}{d} = 8{,}854 \\cdot 10^{-12} \\cdot \\frac{0{,}020 \\cdot 0{,}30}{5{,}0 \\cdot 10^{-3}}\\,\\mathrm{F} \\approx 1{,}06 \\cdot 10^{-11}\\,\\mathrm{F} = 10{,}6\\,\\mathrm{pF}$"
+        },
+        {
+          "id": "N10-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die untere und die obere Hälfte wirken wie zwei Kondensatoren nebeneinander, die Kapazitäten addieren sich:\n\n$C = \\varepsilon_0 \\cdot \\frac{A}{2 \\cdot d} \\cdot (1 + 80) = 5{,}3\\,\\mathrm{pF} \\cdot 81 \\approx 430\\,\\mathrm{pF}$ – rund 40-mal so viel wie leer."
+        },
+        {
+          "id": "N10-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Bei halber Füllung mit Öl: $C \\approx 5{,}3\\,\\mathrm{pF} \\cdot (1 + 3) \\approx 21\\,\\mathrm{pF}$, also nur doppelt so viel wie leer. Der Sensor funktioniert, ist aber viel unempfindlicher: Kleine Störungen (Kabel, Temperatur) fallen stärker ins Gewicht. Er muss für jede Flüssigkeit neu kalibriert werden."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Messreihe: Laden und Entladen",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument, Excel",
+      "checkliste": [
+        "c14",
+        "c15",
+        "c12",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit, WTR, Formeldokument und Excel, 20 Minuten. Beispielmessung (Aufbau wie Experiment Nr. 46/47); eine eigene Messung mit Strom- und Spannungssonde ist möglich.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Messreihe_Laden_Entladen.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$U_C$ steigt zunächst steil, dann immer flacher und nähert sich $6{,}0\\,\\mathrm{V}$. $I$ ist zu Beginn am größten und fällt immer langsamer gegen null.\n\n$\\frac{U_0}{R} = \\frac{6{,}0\\,\\mathrm{V}}{4{,}7 \\cdot 10^{3}\\,\\Omega} \\approx 1{,}28\\,\\mathrm{mA}$ – genau der gemessene Anfangswert."
+        },
+        {
+          "id": "N11-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zu Beginn ist der Kondensator leer, $U_C = 0$: Die ganze Spannung liegt am Widerstand, $I_0 = \\frac{U_0}{R}$. Mit jeder Ladung steigt $U_C = \\frac{Q}{C}$; für den Widerstand bleibt $U_R = U_0 - U_C$ und damit $I = \\frac{U_0 - U_C}{R}$ immer weniger. Je voller der Kondensator, desto langsamer lädt er – bis $U_C = U_0$ und $I = 0$."
+        },
+        {
+          "id": "N11-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Nach $\\tau$ ist $U_C = 0{,}63 \\cdot U_0 \\approx 3{,}8\\,\\mathrm{V}$. Das liegt zwischen $t = 2\\,\\mathrm{s}$ ($3{,}44\\,\\mathrm{V}$) und $t = 3\\,\\mathrm{s}$ ($4{,}33\\,\\mathrm{V}$); linear interpoliert $\\tau \\approx 2{,}4\\,\\mathrm{s}$. (Ebenso: $I$ ist nach $\\tau$ auf 37 % gefallen, $0{,}47\\,\\mathrm{mA}$.)"
+        },
+        {
+          "id": "N11-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\tau = R \\cdot C = 4{,}7 \\cdot 10^{3}\\,\\Omega \\cdot 470 \\cdot 10^{-6}\\,\\mathrm{F} \\approx 2{,}2\\,\\mathrm{s}$; die Messung ergibt etwa 8 % mehr."
+        },
+        {
+          "id": "N11-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Abweichung liegt weit innerhalb der Toleranz des Elkos ($\\pm 20\\,\\%$): Der Kondensator hat vermutlich etwa $500\\,\\mathrm{\\mu F}$. Weitere Gründe: Toleranz des Widerstands, Ablesen zwischen zwei Messpunkten (grobes Raster von 1 s)."
+        },
+        {
+          "id": "N11-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{1}{2} \\cdot U_0 = U_0 \\cdot \\left(1 - e^{-\\frac{t}{\\tau}}\\right) \\Rightarrow e^{-\\frac{t}{\\tau}} = \\frac{1}{2} \\Rightarrow t = \\tau \\cdot \\ln(2)$\n\n$t \\approx 2{,}21\\,\\mathrm{s} \\cdot 0{,}693 \\approx 1{,}5\\,\\mathrm{s}$. In der Messung wird $3{,}0\\,\\mathrm{V}$ zwischen 1 s und 2 s erreicht (etwa 1,7 s, wegen des größeren $\\tau$)."
+        },
+        {
+          "id": "N11-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$U_C$ fällt von $6{,}0\\,\\mathrm{V}$ zuerst steil, dann immer flacher gegen null ($U_C = U_0 \\cdot e^{-\\frac{t}{R \\cdot C}}$). Der Strom fließt in umgekehrter Richtung: $I$ beginnt bei $-1{,}28\\,\\mathrm{mA}$ und geht gegen null.\n\nBei doppelter Kapazität ist $\\tau = R \\cdot C$ doppelt so groß: Die Kurven verlaufen gleich, nur zeitlich doppelt so lang gestreckt (doppelte Ladung bei gleichem Anfangsstrom).",
+          "loesung_bild": "img/N11-3a.png"
+        },
+        {
+          "id": "N11-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch: Am Ende gilt in beiden Fällen $U_C = U_0$, also $E_{el} = \\frac{1}{2} \\cdot C \\cdot U_0^2 = \\frac{1}{2} \\cdot 470 \\cdot 10^{-6}\\,\\mathrm{F} \\cdot (6{,}0\\,\\mathrm{V})^2 \\approx 8{,}5\\,\\mathrm{mJ}$ – unabhängig von $R$. Der größere Widerstand verlängert nur die Ladezeit ($\\tau = R \\cdot C$); dafür ist die Stromstärke kleiner."
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "titel": "Tandem: Rechnen im elektrischen Feld",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c12",
+        "c1",
+        "c3",
+        "c8",
+        "c10",
+        "c14"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets, WTR. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. Konstanten: $e = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}$, $\\varepsilon_0 = 8{,}854 \\cdot 10^{-12}\\,\\frac{\\mathrm{A \\cdot s}}{\\mathrm{V \\cdot m}}$, $m_e = 9{,}109 \\cdot 10^{-31}\\,\\mathrm{kg}$.",
+      "bild": "img/st_N12.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N12-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Eine Kugel trägt die Ladung $-3{,}2\\,\\mathrm{nC}$. Berechnen Sie die Zahl der überschüssigen Elektronen.",
+          "tipp": "$N_e = \\frac{\\left| Q \\right|}{e}$, nano = $10^{-9}$.",
+          "loesung": "$N_e = \\frac{3{,}2 \\cdot 10^{-9}\\,\\mathrm{C}}{1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}} \\approx 2{,}0 \\cdot 10^{10}$"
+        },
+        {
+          "id": "N12-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Zwei gleiche Metallkugeln tragen $+5{,}0\\,\\mathrm{nC}$ und $-1{,}0\\,\\mathrm{nC}$. Sie berühren sich kurz. Geben Sie die Ladungen danach an und begründen Sie.",
+          "tipp": "Die Gesamtladung bleibt erhalten und verteilt sich gleichmäßig.",
+          "loesung": "Gesamtladung $+4{,}0\\,\\mathrm{nC}$, je Kugel $+2{,}0\\,\\mathrm{nC}$ (Ladungserhaltung; Elektronen fließen von der negativen zur positiven Kugel)."
+        },
+        {
+          "id": "N12-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Zwei Punktladungen $4{,}0\\,\\mathrm{nC}$ und $6{,}0\\,\\mathrm{nC}$ sind $2{,}0\\,\\mathrm{cm}$ voneinander entfernt. Berechnen Sie den Betrag der Coulomb-Kraft.",
+          "tipp": "$F_C = \\frac{1}{4\\pi\\varepsilon_0} \\cdot \\frac{q_1 \\cdot q_2}{r^2}$, $r$ in Metern.",
+          "loesung": "$F_C = 8{,}99 \\cdot 10^{9} \\cdot \\frac{4{,}0 \\cdot 10^{-9} \\cdot 6{,}0 \\cdot 10^{-9}}{(0{,}020)^2}\\,\\mathrm{N} \\approx 5{,}4 \\cdot 10^{-4}\\,\\mathrm{N}$"
+        },
+        {
+          "id": "N12-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Zwei Punktladungen von je $3{,}0\\,\\mathrm{nC}$ stoßen sich mit $1{,}0\\,\\mathrm{mN}$ ab. Berechnen Sie ihren Abstand.",
+          "tipp": "Coulomb-Gesetz nach $r$ umstellen.",
+          "loesung": "$r = \\sqrt{\\frac{1}{4\\pi\\varepsilon_0} \\cdot \\frac{q_1 \\cdot q_2}{F_C}} = \\sqrt{8{,}99 \\cdot 10^{9} \\cdot \\frac{9{,}0 \\cdot 10^{-18}}{1{,}0 \\cdot 10^{-3}}}\\,\\mathrm{m} \\approx 9{,}0 \\cdot 10^{-3}\\,\\mathrm{m} = 9{,}0\\,\\mathrm{mm}$"
+        },
+        {
+          "id": "N12-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "An einem Plattenkondensator ($d = 5{,}0\\,\\mathrm{mm}$) liegen $300\\,\\mathrm{V}$. Berechnen Sie die Feldstärke und die Kraft auf eine Ladung von $2{,}0\\,\\mathrm{nC}$.",
+          "tipp": "$E = \\frac{U}{d}$, $F = q \\cdot E$.",
+          "loesung": "$E = \\frac{300\\,\\mathrm{V}}{5{,}0 \\cdot 10^{-3}\\,\\mathrm{m}} = 6{,}0 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$\n\n$F = 2{,}0 \\cdot 10^{-9}\\,\\mathrm{C} \\cdot 6{,}0 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}} = 1{,}2 \\cdot 10^{-4}\\,\\mathrm{N}$"
+        },
+        {
+          "id": "N12-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Elektron wird aus der Ruhe mit $500\\,\\mathrm{V}$ beschleunigt. Berechnen Sie seine kinetische Energie und seine Geschwindigkeit.",
+          "tipp": "$E_{kin} = e \\cdot U$; $v = \\sqrt{\\frac{2 \\cdot E_{kin}}{m_e}}$.",
+          "loesung": "$E_{kin} = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C} \\cdot 500\\,\\mathrm{V} \\approx 8{,}0 \\cdot 10^{-17}\\,\\mathrm{J}$\n\n$v = \\sqrt{\\frac{2 \\cdot 8{,}0 \\cdot 10^{-17}}{9{,}109 \\cdot 10^{-31}}}\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\approx 1{,}3 \\cdot 10^{7}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "N12-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Plattenkondensator hat $A = 0{,}020\\,\\mathrm{m^2}$ und $d = 0{,}50\\,\\mathrm{mm}$ (Luft). Berechnen Sie die Kapazität und die Ladung bei $100\\,\\mathrm{V}$.",
+          "tipp": "$C = \\varepsilon_0 \\cdot \\varepsilon_r \\cdot \\frac{A}{d}$, $Q = C \\cdot U$.",
+          "loesung": "$C = 8{,}854 \\cdot 10^{-12} \\cdot \\frac{0{,}020}{5{,}0 \\cdot 10^{-4}}\\,\\mathrm{F} \\approx 3{,}5 \\cdot 10^{-10}\\,\\mathrm{F} = 354\\,\\mathrm{pF}$\n\n$Q = 3{,}54 \\cdot 10^{-10}\\,\\mathrm{F} \\cdot 100\\,\\mathrm{V} \\approx 3{,}5 \\cdot 10^{-8}\\,\\mathrm{C}$"
+        },
+        {
+          "id": "N12-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Kondensator mit $220\\,\\mathrm{\\mu F}$ ist auf $12\\,\\mathrm{V}$ geladen und wird über $10\\,\\mathrm{k\\Omega}$ entladen. Berechnen Sie die gespeicherte Energie und die Zeitkonstante.",
+          "tipp": "$E_{el} = \\frac{1}{2} \\cdot C \\cdot U^2$, $\\tau = R \\cdot C$.",
+          "loesung": "$E_{el} = \\frac{1}{2} \\cdot 220 \\cdot 10^{-6}\\,\\mathrm{F} \\cdot (12\\,\\mathrm{V})^2 \\approx 1{,}6 \\cdot 10^{-2}\\,\\mathrm{J}$\n\n$\\tau = 1{,}0 \\cdot 10^{4}\\,\\Omega \\cdot 220 \\cdot 10^{-6}\\,\\mathrm{F} = 2{,}2\\,\\mathrm{s}$"
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c14",
+        "c15",
+        "c3",
+        "c5",
+        "c8",
+        "c9",
+        "c10",
+        "c11"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N13.svg",
+      "pdf": "pdf/N13_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N13-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Abstand wurde in cm und ohne Quadrat eingesetzt. Richtig: $r = 0{,}040\\,\\mathrm{m}$, $r^2 = 1{,}6 \\cdot 10^{-3}\\,\\mathrm{m^2}$:\n\n$F = 8{,}99 \\cdot 10^{9} \\cdot \\frac{1{,}5 \\cdot 10^{-17}}{1{,}6 \\cdot 10^{-3}}\\,\\mathrm{N} \\approx 8{,}4 \\cdot 10^{-5}\\,\\mathrm{N}$"
+        },
+        {
+          "id": "N13-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Eine Feldlinie verbindet die beiden gleichnamigen Ladungen, und Feldlinien kreuzen sich. Beides ist unmöglich: Feldlinien laufen von Plus nach Minus, und in jedem Punkt gibt es nur eine Richtung der Kraft.\n\nRichtig: Alle Linien laufen von den Ladungen nach außen, zwischen den Ladungen biegen sie auseinander; in der Mitte ist ein feldfreier Punkt."
+        },
+        {
+          "id": "N13-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Erstens: $d$ in Metern einsetzen: $E = \\frac{230\\,\\mathrm{V}}{5{,}0 \\cdot 10^{-3}\\,\\mathrm{m}} = 4{,}6 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$.\n\nZweitens: Bei gleicher Spannung gilt $E = \\frac{U}{d}$ – doppelter Abstand halbiert die Feldstärke ($2{,}3 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$). „Homogen“ heißt nur: zwischen den Platten überall gleich."
+        },
+        {
+          "id": "N13-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch: Feldstärken sind Vektoren. Beträge darf man nur bei gleicher Richtung addieren. Senkrecht aufeinander: $E = \\sqrt{E_1^2 + E_2^2} = \\sqrt{3{,}0^2 + 4{,}0^2} \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}} = 5{,}0 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$. $7{,}0 \\cdot 10^{4}$ wäre nur richtig, wenn beide Vektoren in dieselbe Richtung zeigten."
+        },
+        {
+          "id": "N13-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch: Auf eine negative Ladung wirkt die Kraft entgegen der Feldrichtung, also zur positiven Platte. Das Elektron wird beschleunigt (es startet ja aus der Ruhe und bewegt sich nur deshalb). Es gewinnt die kinetische Energie $e \\cdot U$; seine potenzielle Energie nimmt um denselben Betrag ab. „Gegen das Feld“ bremst nur positive Ladungen."
+        },
+        {
+          "id": "N13-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nach $\\tau$ ist $U_C$ erst bei 63 % von $U_0$ (voll gilt der Kondensator nach etwa $5\\tau$, 99 %). Der Strom ist nicht konstant: $I = \\frac{U_0}{R}$ gilt nur zu Beginn, danach fällt er exponentiell ($I = I_0 \\cdot e^{-\\frac{t}{R \\cdot C}}$)."
+        },
+        {
+          "id": "N13-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Mit der Ladung steigt $U_C$. Nach $U_0 = U_R + U_C$ bleibt für den Widerstand immer weniger Spannung, also $I = \\frac{U_0 - U_C}{R}$ immer weniger Strom. Ein konstanter Strom würde $U_C$ gleichmäßig über $U_0$ hinaus steigen lassen – unmöglich."
+        }
+      ]
+    },
+    {
+      "id": "N14",
+      "titel": "Check-out",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c14",
+        "c1",
+        "c3",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c12"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Am Ende der Lerntheke. Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung. Vergleichen Sie Ihre Punkte mit N1.",
+      "bild": "img/st_N14.svg",
+      "pdf": "pdf/N14_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N14-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Der Stab hat einen Elektronenmangel: Elektronen sind vom Glas auf das Tuch übergegangen. Ladung wird getrennt, nicht erzeugt.\n\n*A gewählt?* Reibung erzeugt keine Ladung. *C gewählt?* Protonen sitzen fest in den Kernen. *D gewählt?* Dann wäre der Stab negativ. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "N14-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Zähler $2 \\cdot 2 = 4$, Nenner $2^2 = 4$: Die Kraft bleibt gleich.\n\n*A, B oder C gewählt?* Ladungsprodukt oder Abstandsquadrat nicht vollständig berücksichtigt. → **N2** Aufgabe 3, danach **N3**"
+        },
+        {
+          "id": "N14-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Die Feldlinien beginnen an der positiven und enden an der negativen Ladung; zwischen den Ladungen sind sie am dichtesten.\n\n*B gewählt?* Die Pfeile laufen von Minus nach Plus. *C gewählt?* Feldlinien kreuzen sich nie. *D gewählt?* So sieht das Feld zweier gleichnamiger Ladungen aus; bei ungleichnamigen Ladungen verbinden Feldlinien beide. → **N4**"
+        },
+        {
+          "id": "N14-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Im Metall sind Elektronen frei beweglich. Das Feld des Stabs verschiebt sie (Influenz); die stabnahe Seite trägt die ungleichnamige Ladung und wird stärker angezogen, als die abgewandte Seite abgestoßen wird.\n\n*A gewählt?* Die Kugel bleibt insgesamt neutral. *B gewählt?* Viel zu schwach. *D gewählt?* Das ist Polarisation in Isolatoren; im Metall überwiegt die Verschiebung freier Elektronen. → **N5** Aufgabe 1"
+        },
+        {
+          "id": "N14-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Influenz im Blech: Die verschobenen Ladungen erzeugen innen ein Gegenfeld, das das äußere Feld genau aufhebt (Faraday’scher Käfig).\n\n*B gewählt?* Die Feldlinien enden außen auf dem Blech. *C gewählt?* Im geschlossenen Leiter ist das Feld null. *D gewählt?* Die Abschirmung braucht keine Erdung. → **N5** Aufgabe 3"
+        },
+        {
+          "id": "N14-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $E = \\frac{U}{d}$: Bei gleicher Spannung und halbem Abstand verdoppelt sich $E$.\n\n*A gewählt?* Das gilt nur bei gleicher Ladung (getrennte Quelle). *B gewählt?* $d$ steht im Nenner. *C gewählt?* $d$ steht nicht im Quadrat. → **N6** Aufgabe 1"
+        },
+        {
+          "id": "N14-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $C = \\varepsilon_0 \\cdot \\varepsilon_r \\cdot \\frac{A}{d}$ verdoppelt sich, $U$ bleibt: $Q = C \\cdot U$ verdoppelt sich.\n\n*A gewählt?* Mehr Fläche nimmt bei gleicher Spannung mehr Ladung auf. *C gewählt?* $A$ steht im Zähler. *D gewählt?* $A$ steht nicht im Quadrat. → **N9**, danach **N10**"
+        },
+        {
+          "id": "N14-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Zu Beginn liegt die volle Kondensatorspannung am Widerstand: $\\left| I_0 \\right| = \\frac{U_0}{R}$. Mit sinkender Spannung sinkt der Strom. Er fließt entgegengesetzt zum Ladestrom.\n\n*A gewählt?* Fast leer heißt fast keine Spannung, also fast kein Strom. *B gewählt?* Der Strom hängt von $U_C$ ab. *D gewählt?* Nach $\\tau$ ist er auf 37 % gefallen. → **N11**"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "ESD-Schutz in der Elektronikfertigung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g2",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Ladung und Coulomb-Kraft) – am besten nach N2 bis N3.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_ESD-Schutz.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$N_e = \\frac{Q}{e} = \\frac{0{,}60 \\cdot 10^{-6}\\,\\mathrm{C}}{1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}} \\approx 3{,}7 \\cdot 10^{12}$"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bei jedem Schritt berühren und trennen sich Sohle und Boden. Dabei gehen Elektronen von der Sohle auf den Boden über (Ladungstrennung); die Sohle und damit der Körper hat dann einen Elektronenmangel, ist also positiv. Ladung wird nicht erzeugt: Der Boden trägt die gleich große negative Ladung. Weil Kunststoff isoliert, fließt die Ladung nicht zurück."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$I = \\frac{\\Delta Q}{\\Delta t} = \\frac{0{,}60 \\cdot 10^{-6}\\,\\mathrm{C}}{50 \\cdot 10^{-9}\\,\\mathrm{s}} = 12\\,\\mathrm{A}$ – für einen winzigen Chip ein riesiger Strom."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$I_0 = \\frac{U}{R} = \\frac{3{,}0 \\cdot 10^{3}\\,\\mathrm{V}}{1{,}0 \\cdot 10^{6}\\,\\Omega} = 3{,}0 \\cdot 10^{-3}\\,\\mathrm{A} = 3{,}0\\,\\mathrm{mA}$"
+        },
+        {
+          "id": "V1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der große Widerstand begrenzt die Stromstärke auf wenige Milliampere: Die Ladung fließt langsam und ungefährlich ab, es gibt keinen Funken. Mit einem Draht würde sich der Körper schlagartig mit sehr großer Stromstärke entladen; berührt man versehentlich eine Spannung führende Leitung, würde zudem ein gefährlicher Strom durch den Körper fließen."
+        },
+        {
+          "id": "V1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Man streift das Tray am Teller eines ungeladenen Elektroskops ab. Schlägt der Zeiger aus, war das Tray geladen (gleichnamige Ladung auf Zeiger und Halterung stößt sich ab). Bleibt der Zeiger in Ruhe, ist das Tray (nahezu) ungeladen."
+        },
+        {
+          "id": "V1-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$F_C = \\frac{1}{4\\pi\\varepsilon_0} \\cdot \\frac{q_1 \\cdot q_2}{r^2} \\approx 8{,}99 \\cdot 10^{9} \\cdot \\frac{80 \\cdot 10^{-9} \\cdot 2{,}0 \\cdot 10^{-9}}{(0{,}020)^2}\\,\\mathrm{N} \\approx 3{,}6 \\cdot 10^{-3}\\,\\mathrm{N}$ (anziehend, ungleichnamig)\n\nGewichtskraft: $F_G = m \\cdot g = 0{,}20 \\cdot 10^{-3}\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 2{,}0 \\cdot 10^{-3}\\,\\mathrm{N}$\n\nDie resultierende Kraft zeigt nach oben ($F_C > F_G$): Nach dem Aktionsprinzip wird das Bauteil angehoben und springt an das Tray."
+        },
+        {
+          "id": "V1-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Wechselwirkungsprinzip: gleich groß ($3{,}6 \\cdot 10^{-3}\\,\\mathrm{N}$), entgegengesetzt gerichtet – das Bauteil zieht das Tray nach unten."
+        },
+        {
+          "id": "V1-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch: Zwischen $100\\,\\mathrm{V}$ und $3\\,\\mathrm{kV}$ zerstört eine Entladung den Chip, ohne dass man sie bemerkt. Gerade die unbemerkten Entladungen sind gefährlich, deshalb erdet man dauerhaft (Armband, leitfähiger Boden).\n\nDie Rechnung mit Punktladungen ist grob: Ein Tray ist ausgedehnt, und im Bauteil verschiebt das Feld zusätzlich Ladungen. Die Größenordnung (Coulomb-Kraft ähnlich groß wie die Gewichtskraft) zeigt aber: Kleine Bauteile können von geladenen Trays tatsächlich angezogen werden."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Arbeiten unter Spannung an der Freileitung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c1",
+        "g1",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Ladung und Coulomb-Kraft, Feld und Feldlinien) – am besten nach N4 bis N5.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Freileitung.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Feldlinien beginnen senkrecht auf dem Seil (radial nach außen) und enden senkrecht auf dem Boden. Zum Boden hin breiten sie sich aus.",
+          "loesung_bild": "img/V2-1a.png"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nahe am Seil ähnelt das Bild einem Radialfeld (wie das Gravitationsfeld der Erde), aber die Linien zeigen vom Seil weg: Das Seil ist eine Quelle, die Erde im G-Feld eine Senke (Pfeile zum Mittelpunkt). Am Boden ist das E-Feld nahezu homogen – wie das G-Feld in einem kleinen Ausschnitt der Erdoberfläche. Die Feldstärke ist am Seil am größten."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Glas ist ein Isolator (Dielektrikum). Im Feld verschieben sich in den Molekülen die Ladungen gegeneinander, die Moleküle werden zu Dipolen und richten sich aus: **Polarisation**. Es fließt keine Ladung durch das Glas."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Skizze: seilnahe Seite des Korbs negativ, abgewandte Seite positiv.\n\nIm Metall sind Elektronen frei beweglich und wandern zur Seite des positiven Seils (**Influenz**). Ladung wird über den ganzen Korb verschoben. Im Glas bewegen sich die Ladungen nur innerhalb der Moleküle (Polarisation)."
+        },
+        {
+          "id": "V2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Faraday’scher Käfig: Eine geschlossene leitende Hülle schirmt elektrische Felder ab."
+        },
+        {
+          "id": "V2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Feld verschieben sich die freien Elektronen im leitfähigen Gewebe, bis ihr eigenes Feld das äußere Feld im Inneren genau aufhebt (Superposition zweier gleich starker, entgegengesetzter Felder). Die Feldlinien enden außen auf dem Anzug; der Körper bleibt feldfrei.\n\nEin dichtes Netz aus Metallfäden wirkt wie eine geschlossene Hülle, wenn die Maschen klein gegen den Abstand zum Seil sind (wie das Sieb in N5)."
+        },
+        {
+          "id": "V2-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Auf einem Leiter stehen die Feldlinien senkrecht auf der Oberfläche. An Spitzen und scharfen Kanten drängen sie sich auf engem Raum zusammen: große Liniendichte, große Feldstärke (Spitzenwirkung). Dort können zuerst Funken oder Glimmentladungen entstehen – deshalb sind Handschuhe und Haube Teil des Anzugs und Werkzeuge abgerundet."
+        },
+        {
+          "id": "V2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$N_e = \\frac{Q}{e} = \\frac{10 \\cdot 10^{-6}\\,\\mathrm{C}}{1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}} \\approx 6{,}2 \\cdot 10^{13}$ (sie fließen vom Korb zum positiv geladenen Seil)"
+        },
+        {
+          "id": "V2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Falsch: Kunststoff wird nur polarisiert, das Feld dringt hindurch und wirkt auf den Körper. Erst die leitende Hülle schirmt das Feld ab (Faraday’scher Käfig) und verhindert, dass beim Kontakt Ladung durch den Körper fließt."
+        },
+        {
+          "id": "V2-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Falsch: Abschirmung beruht darauf, dass sich positive und negative Ladungen verschieben und ein Gegenfeld erzeugen. Masse gibt es nur mit einem „Vorzeichen“, Gravitation wirkt nur anziehend – es gibt kein Gegenfeld, das Gravitationsfeld lässt sich nicht abschirmen."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Tropfen auf Abwegen: Der Industrie-Tintenstrahldrucker",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 30,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c1",
+        "c3",
+        "c6",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 30 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Ladung und Coulomb-Kraft, Feld und Feldlinien, Feldstärke und Energie) – am besten nach N6 bis N8.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Tintenstrahldrucker.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Skizze: Spitze des Strahls (nahe der Ladeelektrode) negativ, Elektrode positiv.\n\nInfluenz: Die positive Ladeelektrode zieht freie Elektronen der leitenden Tinte in die Spitze des Strahls (Nachschub aus der Erde über den Drucker). Reißt der Tropfen in diesem Moment ab, nimmt er den Elektronenüberschuss mit."
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$N_e = \\frac{\\left| Q \\right|}{e} = \\frac{1{,}0 \\cdot 10^{-12}\\,\\mathrm{C}}{1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}} \\approx 6{,}2 \\cdot 10^{6}$"
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$E = \\frac{U}{d} = \\frac{3{,}0 \\cdot 10^{3}\\,\\mathrm{V}}{6{,}0 \\cdot 10^{-3}\\,\\mathrm{m}} = 5{,}0 \\cdot 10^{5}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$\n\n$F = \\left| Q \\right| \\cdot E = 1{,}0 \\cdot 10^{-12}\\,\\mathrm{C} \\cdot 5{,}0 \\cdot 10^{5}\\,\\frac{\\mathrm{N}}{\\mathrm{C}} = 5{,}0 \\cdot 10^{-7}\\,\\mathrm{N}$ (waagerecht, zur positiven Platte)"
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$F_G = m \\cdot g = 1{,}4 \\cdot 10^{-10}\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 1{,}37 \\cdot 10^{-9}\\,\\mathrm{N}$; $\\frac{F}{F_G} \\approx 360$.\n\nDie Kräfte stehen senkrecht aufeinander (waagerecht und senkrecht): $F_{ges} = \\sqrt{F^2 + F_G^2} \\approx 5{,}0 \\cdot 10^{-7}\\,\\mathrm{N}$, nur um $\\arctan\\left(\\frac{F_G}{F}\\right) \\approx 0{,}16°$ gegen die Waagerechte geneigt. Die Gewichtskraft ist vernachlässigbar."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$a = \\frac{F}{m} = \\frac{5{,}0 \\cdot 10^{-7}\\,\\mathrm{N}}{1{,}4 \\cdot 10^{-10}\\,\\mathrm{kg}} \\approx 3{,}6 \\cdot 10^{3}\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}$, Flugzeit $t = \\frac{0{,}012\\,\\mathrm{m}}{20\\,\\mathrm{m/s}} = 6{,}0 \\cdot 10^{-4}\\,\\mathrm{s}$\n\n$y = \\frac{1}{2} \\cdot a \\cdot t^2 \\approx \\frac{1}{2} \\cdot 3{,}57 \\cdot 10^{3} \\cdot (6{,}0 \\cdot 10^{-4})^2\\,\\mathrm{m} \\approx 6{,}4 \\cdot 10^{-4}\\,\\mathrm{m} = 0{,}64\\,\\mathrm{mm}$"
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zwischen den Platten ein Parabelbogen zur positiven Platte hin, danach eine gerade Linie in der Richtung, die der Tropfen am Plattenende hat (kein Feld mehr, Trägheit). Ungeladene Tropfen erfahren keine Kraft ($F = Q \\cdot E = 0$) und fliegen geradeaus in die Auffangrinne.",
+          "loesung_bild": "img/V3-3b.png"
+        },
+        {
+          "id": "V3-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$W = F \\cdot y = 5{,}0 \\cdot 10^{-7}\\,\\mathrm{N} \\cdot 6{,}4 \\cdot 10^{-4}\\,\\mathrm{m} \\approx 3{,}2 \\cdot 10^{-10}\\,\\mathrm{J}$\n\n$E_{kin} = \\frac{1}{2} \\cdot m \\cdot v^2 = \\frac{1}{2} \\cdot 1{,}4 \\cdot 10^{-10}\\,\\mathrm{kg} \\cdot (20\\,\\mathrm{m/s})^2 = 2{,}8 \\cdot 10^{-8}\\,\\mathrm{J}$\n\nDie Arbeit beträgt nur gut 1 % der Bewegungsenergie: Der Tropfen wird kaum schneller, nur seine Richtung ändert sich etwas."
+        },
+        {
+          "id": "V3-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Nur die Verschiebung längs der Feldlinien zählt: $\\Delta\\varphi = E \\cdot y = 5{,}0 \\cdot 10^{5}\\,\\frac{\\mathrm{N}}{\\mathrm{C}} \\cdot 6{,}4 \\cdot 10^{-4}\\,\\mathrm{m} \\approx 320\\,\\mathrm{V}$ (der Tropfen fliegt zum höheren Potenzial, zur positiven Platte).\n\n$\\left| Q \\right| \\cdot \\Delta\\varphi = 1{,}0 \\cdot 10^{-12}\\,\\mathrm{C} \\cdot 320\\,\\mathrm{V} \\approx 3{,}2 \\cdot 10^{-10}\\,\\mathrm{J}$ – wie in 4a. Die Arbeit im elektrischen Feld hängt nur von der Potenzialdifferenz zwischen Start und Ziel ab, nicht vom Weg: Die Bewegung längs der Platten verläuft auf einer Äquipotenzialfläche und trägt nichts bei."
+        },
+        {
+          "id": "V3-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$F_C = 8{,}99 \\cdot 10^{9} \\cdot \\frac{(1{,}0 \\cdot 10^{-12})^2}{(3{,}0 \\cdot 10^{-4})^2}\\,\\mathrm{N} \\approx 1{,}0 \\cdot 10^{-7}\\,\\mathrm{N}$ – das sind 20 % der ablenkenden Kraft, also nicht von vornherein vernachlässigbar.\n\nIn einer langen Kette gleich geladener Tropfen wird jeder Tropfen vom Vordermann nach hinten und vom Hintermann nach vorn abgestoßen. Die Kräfte überlagern sich (Superposition) und heben sich weitgehend auf; sie wirken zudem längs der Flugrichtung, nicht quer. Stark betroffen sind nur der erste und letzte Tropfen einer Gruppe – reale Drucker setzen deshalb ungeladene „Schutztropfen“ dazwischen."
+        },
+        {
+          "id": "V3-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$y = \\frac{1}{2} \\cdot \\frac{\\left| Q \\right| \\cdot U}{m \\cdot d} \\cdot t^2$: Die Ablenkung ist proportional zu Tropfenladung und Plattenspannung, beides wirkt gleich. Die Ladung lässt sich für jeden Tropfen einzeln über die Ladeelektrode einstellen – so setzt der Drucker die Punkte eines Zeichens untereinander. Eine doppelte Plattenspannung ($E = 1{,}0 \\cdot 10^{6}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$) wirkt auf alle Tropfen gleich und rückt näher an die Durchschlagfeldstärke der Luft (etwa $3 \\cdot 10^{6}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$). Besser ist also die Steuerung über die Ladung."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Der Defibrillator",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 30,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c8",
+        "c1",
+        "c7",
+        "g1",
+        "g2",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 30 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 4 (Ladung und Coulomb-Kraft, Feld und Feldlinien, Feldstärke und Energie, Kondensator) – am besten nach N9 bis N13.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Defibrillator.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "$Q = C \\cdot U_0 = 150 \\cdot 10^{-6}\\,\\mathrm{F} \\cdot 1{,}6 \\cdot 10^{3}\\,\\mathrm{V} = 0{,}24\\,\\mathrm{C}$\n\n$E_{el} = \\frac{1}{2} \\cdot C \\cdot U_0^2 = \\frac{1}{2} \\cdot 150 \\cdot 10^{-6}\\,\\mathrm{F} \\cdot (1{,}6 \\cdot 10^{3}\\,\\mathrm{V})^2 = 192\\,\\mathrm{J}$\n\n$N_e = \\frac{Q}{e} = \\frac{0{,}24\\,\\mathrm{C}}{1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}} \\approx 1{,}5 \\cdot 10^{18}$"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$U_C$ steigt zuerst steil, dann immer flacher und nähert sich $1{,}6\\,\\mathrm{kV}$ ($U_C = U_0 \\cdot (1 - e^{-\\frac{t}{R_L \\cdot C}})$).\n\nZu Beginn liegt die ganze Spannung an $R_L$, der Ladestrom ist am größten. Mit steigender Kondensatorspannung bleibt für den Widerstand $U_R = U_0 - U_C$ immer weniger, der Strom und damit der Anstieg von $U_C$ werden kleiner."
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$5 \\cdot \\tau = 5\\,\\mathrm{s} \\Rightarrow \\tau = 1{,}0\\,\\mathrm{s}$; $R_L = \\frac{\\tau}{C} = \\frac{1{,}0\\,\\mathrm{s}}{150 \\cdot 10^{-6}\\,\\mathrm{F}} \\approx 6{,}7\\,\\mathrm{k\\Omega}$\n\nFür $3\\,\\mathrm{s}$: $\\tau = 0{,}6\\,\\mathrm{s}$, $R_L = \\frac{0{,}6\\,\\mathrm{s}}{150 \\cdot 10^{-6}\\,\\mathrm{F}} = 4{,}0\\,\\mathrm{k\\Omega}$ – der Widerstand muss kleiner werden (dafür steigt die Ladestromstärke)."
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$I_0 = \\frac{U_0}{R} = \\frac{1{,}6 \\cdot 10^{3}\\,\\mathrm{V}}{50\\,\\Omega} = 32\\,\\mathrm{A}$"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Skizze: Exponentiell fallende Kurve von $32\\,\\mathrm{A}$ gegen null; nach $\\tau = R \\cdot C = 50\\,\\Omega \\cdot 150 \\cdot 10^{-6}\\,\\mathrm{F} = 7{,}5\\,\\mathrm{ms}$ noch 37 % (12 A).\n\n$I(10\\,\\mathrm{ms}) = 32\\,\\mathrm{A} \\cdot e^{-\\frac{10}{7{,}5}} \\approx 32\\,\\mathrm{A} \\cdot 0{,}264 \\approx 8{,}4\\,\\mathrm{A}$"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$U_C(10\\,\\mathrm{ms}) = 1{,}6\\,\\mathrm{kV} \\cdot 0{,}264 \\approx 422\\,\\mathrm{V}$, Restenergie $\\frac{1}{2} \\cdot 150 \\cdot 10^{-6}\\,\\mathrm{F} \\cdot (422\\,\\mathrm{V})^2 \\approx 13\\,\\mathrm{J}$\n\nAbgegeben: $192\\,\\mathrm{J} - 13\\,\\mathrm{J} \\approx 179\\,\\mathrm{J}$, also 93 % (Energieerhaltung)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$A = \\frac{C \\cdot d}{\\varepsilon_0 \\cdot \\varepsilon_r} = \\frac{150 \\cdot 10^{-6} \\cdot 10 \\cdot 10^{-6}}{8{,}854 \\cdot 10^{-12} \\cdot 3{,}0}\\,\\mathrm{m^2} \\approx 56\\,\\mathrm{m^2}$ (ohne Dielektrikum dreimal so viel, $170\\,\\mathrm{m^2}$) – deshalb werden die Folien gewickelt.\n\nIm Kunststoff richten sich Dipole aus (Polarisation). Ihr Feld schwächt das Feld der Ladungen auf den Folien; bei gleicher Spannung passt deshalb mehr Ladung auf die Folien: $C$ steigt um $\\varepsilon_r$."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$E = \\frac{U_0}{d} = \\frac{1{,}6 \\cdot 10^{3}\\,\\mathrm{V}}{10 \\cdot 10^{-6}\\,\\mathrm{m}} = 1{,}6 \\cdot 10^{8}\\,\\frac{\\mathrm{V}}{\\mathrm{m}}$ – etwa ein Drittel der zulässigen Feldstärke. Die Folie hält, mit Sicherheitsreserve (z. B. für Spannungsspitzen und Alterung). Eine dünnere Folie spart Fläche, hätte aber weniger Reserve."
+        },
+        {
+          "id": "V4-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$25\\,\\Omega$: $I_0 = 64\\,\\mathrm{A}$, $\\tau = 3{,}75\\,\\mathrm{ms}$ – sehr starker, kurzer Stoß. $150\\,\\Omega$: $I_0 \\approx 10{,}7\\,\\mathrm{A}$, $\\tau = 22{,}5\\,\\mathrm{ms}$ – schwacher, langer Stoß.\n\nDie Wirkung aufs Herz hängt von Stromstärke und Dauer ab. Mit fester Ladespannung bekäme jede Person einen anderen Schock; deshalb misst das Gerät den Widerstand und passt Spannung bzw. Dauer an."
+        },
+        {
+          "id": "V4-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der Schock braucht etwa $190\\,\\mathrm{J}$ in rund $10\\,\\mathrm{ms}$, also eine Leistung von $P \\approx \\frac{192\\,\\mathrm{J}}{7{,}5\\,\\mathrm{ms}} \\approx 26\\,\\mathrm{kW}$ und eine hohe Spannung. Ein kleiner Akku kann das nicht liefern; er lädt den Kondensator über Sekunden, der Kondensator gibt die Energie in Millisekunden ab.\n\nDas EKG misst sehr kleine Spannungen (Millivolt). Die leitende Hülle wirkt als Faraday’scher Käfig und hält äußere elektrische Störfelder vom Signal fern."
+        }
+      ]
+    }
+  ]
+}

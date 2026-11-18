@@ -189,6 +189,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Bedingte Wahrscheinlichkeit, Baumdiagramme invertieren, Vierfeldertafel, stochastische Unabhängigkeit, Erwartungswert"
+        },
+        {
+          "id": "elektrisches-feld",
+          "name": "Elektrisches Feld – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Ladung, Coulomb’sches Gesetz, Feldlinien, Influenz und Polarisation, Faraday’scher Käfig, Feldstärke, Superposition, Arbeit und Potenzial, Kondensator, Dielektrikum, Laden und Entladen"
         }
       ]
     },
