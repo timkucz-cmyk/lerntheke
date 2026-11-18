@@ -1,0 +1,721 @@
+{
+ "version": 1,
+ "titel": "Mündliches Abitur – 60-Sekunden-Memory",
+ "fach": "physik",
+ "anrede": "sie",
+ "modus": "memory",
+ "hinweis": "Zu zweit mit zwei Geräten. Unter jeder Karte steckt ein Lerngegenstand oder eine Abbildung. Wer erklärt, sieht die Aufgabe und startet die 60 Sekunden, sobald die Gedanken sortiert sind. Wer prüft, öffnet dieselbe Nummer und sieht den Erwartungshorizont. Danach Rollen tauschen – und nach zwei Runden Partner wechseln.",
+ "memory": {
+  "sekunden": 60,
+  "pakete": [
+   {
+    "id": "1",
+    "name": "E-Feld und Gravitationsfeld"
+   },
+   {
+    "id": "2",
+    "name": "Magnetfeld und Induktion"
+   },
+   {
+    "id": "3",
+    "name": "Schwingungen"
+   },
+   {
+    "id": "4",
+    "name": "Wellen"
+   },
+   {
+    "id": "5",
+    "name": "Quantenphysik"
+   }
+  ],
+  "karten": [
+   {
+    "nr": 1,
+    "typ": "begriff",
+    "paket": "1",
+    "titel": "Was ist ein Feld?",
+    "muss": [
+     "Zustand des Raumes um Ladungen, Massen, Magnete bzw. Ströme",
+     "Nachweis über die Kraft auf einen Probekörper",
+     "Feldlinien: Richtung der Kraft, Dichte ~ Feldstärke",
+     "Feldstärke $E=\\frac{F}{q}$ bzw. $g=\\frac{F}{m}$",
+     "Vergleich: E-Feld (Anziehung und Abstoßung, Feldlinien von + nach –), Gravitationsfeld (nur Anziehung), Magnetfeld (geschlossene Feldlinien)"
+    ],
+    "nachfrage": "Warum ist das Feldkonzept nützlicher als eine reine „Fernwirkung“?",
+    "antwort": "Feld beschreibt den Raum unabhängig vom Probekörper, Energie im Feld, endliche Ausbreitung von Änderungen"
+   },
+   {
+    "nr": 2,
+    "typ": "begriff",
+    "paket": "1",
+    "titel": "Coulomb’sches Gesetz und Gravitationsgesetz",
+    "muss": [
+     "$F=\\frac{1}{4\\pi\\varepsilon_0}\\cdot\\frac{Q_1\\cdot Q_2}{r^2}$ und $F=G\\cdot\\frac{m_1\\cdot m_2}{r^2}$",
+     "Gemeinsamkeiten: proportional zum Produkt der Ladungen bzw. Massen, $\\sim\\frac{1}{r^2}$, Radialfeld",
+     "Unterschiede: Gravitation nur anziehend, Coulombkraft anziehend oder abstoßend",
+     "Gravitation viel schwächer (Elektron–Proton: Faktor ca. $10^{39}$)",
+     "im Großen dominiert trotzdem die Gravitation, weil Körper meist elektrisch neutral sind"
+    ],
+    "nachfrage": "Warum fallen wir nicht durch den Fußboden?",
+    "antwort": "elektrische Abstoßung der Elektronenhüllen ist viel stärker als die Gewichtskraft"
+   },
+   {
+    "nr": 3,
+    "typ": "begriff",
+    "paket": "1",
+    "titel": "Der Plattenkondensator",
+    "muss": [
+     "zwei parallele Platten mit Ladung $+Q$ und $-Q$; innen homogenes Feld, Feldlinien von + nach –",
+     "$E=\\frac{U}{d}$",
+     "Kapazität $C=\\frac{Q}{U}=\\varepsilon_0\\cdot\\varepsilon_{\\text{r}}\\cdot\\frac{A}{d}$; Dielektrikum vergrößert $C$",
+     "gespeicherte Energie $W=\\frac{1}{2}\\cdot C\\cdot U^2$",
+     "Anwendungen: Energiespeicher (Blitzgerät), Bauteil in Stromkreisen"
+    ],
+    "nachfrage": "Der geladene Kondensator wird von der Quelle getrennt und der Plattenabstand vergrößert. Was passiert mit $Q$, $C$ und $U$?",
+    "antwort": "$Q$ bleibt, $C$ sinkt, $U=\\frac{Q}{C}$ steigt ($E$ bleibt gleich)"
+   },
+   {
+    "nr": 4,
+    "typ": "begriff",
+    "paket": "1",
+    "titel": "Influenz und Faraday-Käfig",
+    "muss": [
+     "Influenz: Ladungstrennung in einem Leiter durch ein äußeres elektrisches Feld",
+     "Polarisation: Ausrichtung bzw. Verschiebung der Ladungen in Isolatoren (Dipole)",
+     "Ladungen verschieben sich, bis das Innere des Leiters feldfrei ist",
+     "Faraday-Käfig: geschlossene leitende Hülle schirmt äußere Felder ab",
+     "Beispiele: Auto oder Flugzeug bei Blitzeinschlag, Kabelschirmung, Mikrowellengerät"
+    ],
+    "nachfrage": "Warum ist der Handyempfang im Aufzug oft schlecht?",
+    "antwort": "Aufzugkabine aus Metall wirkt wie ein Faraday-Käfig"
+   },
+   {
+    "nr": 5,
+    "typ": "begriff",
+    "paket": "1",
+    "titel": "Der Millikan-Versuch",
+    "muss": [
+     "geladene Öltröpfchen zwischen horizontalen Kondensatorplatten",
+     "Schwebezustand: $q\\cdot\\frac{U}{d}=m\\cdot g$ ⇒ $q=\\frac{m\\cdot g\\cdot d}{U}$",
+     "Masse über die Sinkgeschwindigkeit (Reibung) bestimmt",
+     "Ergebnis: alle Ladungen sind ganzzahlige Vielfache von $e=1{,}6\\cdot 10^{-19}\\,\\text{C}$",
+     "Ladung ist gequantelt"
+    ],
+    "nachfrage": "Was würde ein Tröpfchen mit $q=1{,}5\\cdot e$ für das Ergebnis bedeuten?",
+    "antwort": "Widerspruch zur Quantelung – Messfehler oder neue Physik"
+   },
+   {
+    "nr": 6,
+    "typ": "begriff",
+    "paket": "1",
+    "titel": "Ein Elektron im homogenen elektrischen Feld",
+    "muss": [
+     "Kraft $F=e\\cdot E$, für Elektronen entgegen der Feldrichtung",
+     "längs zum Feld: Beschleunigung, $e\\cdot U=\\frac{1}{2}\\cdot m\\cdot v^2$",
+     "quer zum Feld: Parabelbahn, $x$ gleichförmig, $y$ gleichmäßig beschleunigt mit $a=\\frac{e\\cdot E}{m}$",
+     "Analogie zum waagerechten Wurf (Gravitationsfeld)",
+     "Anwendung: Braun’sche Röhre, Ablenkung von Elektronenstrahlen"
+    ],
+    "nachfrage": "Warum darf man die Gewichtskraft des Elektrons vernachlässigen?",
+    "antwort": "$F_{\\text{el}}$ ist um viele Größenordnungen größer als $m\\cdot g$"
+   },
+   {
+    "nr": 7,
+    "typ": "abbildung",
+    "paket": "1",
+    "titel": "Feldlinienbild",
+    "muss": [
+     "Feldlinienbild eines Dipols: zwei gleich große, ungleichnamige Ladungen",
+     "Feldlinien beginnen an + und enden an –, kreuzen sich nie",
+     "Richtung: Kraft auf eine positive Probeladung",
+     "Feldliniendichte ~ Feldstärke: am stärksten zwischen den Ladungen",
+     "symmetrisch zur Verbindungslinie"
+    ],
+    "nachfrage": "Wie sähe das Bild bei zwei positiven Ladungen aus?",
+    "antwort": "Feldlinien beginnen an beiden Ladungen, laufen auseinander; feldfreier Punkt in der Mitte",
+    "bild": "img/f01_dipol.png",
+    "bild_alt": "Feldlinienbild zweier Ladungen, links positiv, rechts negativ"
+   },
+   {
+    "nr": 8,
+    "typ": "abbildung",
+    "paket": "1",
+    "titel": "Elektron im Kondensator",
+    "muss": [
+     "Elektron tritt mit $v_0$ senkrecht zu den Feldlinien in einen Plattenkondensator ein",
+     "homogenes Feld von + nach –, $E=\\frac{U}{d}$",
+     "konstante Kraft zur positiven Platte → gleichmäßig beschleunigt quer, gleichförmig längs",
+     "Parabelbahn wie beim waagerechten Wurf",
+     "nach dem Austritt: geradlinig weiter"
+    ],
+    "nachfrage": "Wie ändert sich die Bahn bei doppelter Spannung, wie bei größerer Eintrittsgeschwindigkeit?",
+    "antwort": "doppelte Spannung: stärkere Ablenkung; größere $v_0$: kürzere Flugzeit, schwächere Ablenkung",
+    "bild": "img/f02_querfeld.png",
+    "bild_alt": "Elektron fliegt waagerecht in einen Plattenkondensator (oben plus, unten minus) und wird auf einer Parabel nach oben abgelenkt"
+   },
+   {
+    "nr": 9,
+    "typ": "abbildung",
+    "paket": "1",
+    "titel": "Diagramm Entladestrom",
+    "muss": [
+     "Entladestrom eines Kondensators über einen Widerstand",
+     "Stromstärke fällt exponentiell: $I(t)=I_0\\cdot e^{-\\frac{t}{R\\cdot C}}$",
+     "Anfangswert $I_0=5\\,\\text{mA}$; nach $\\tau=R\\cdot C=2\\,\\text{s}$ noch ca. 37 %",
+     "Ursache: mit der Ladung sinkt die Spannung am Kondensator, damit der Strom",
+     "Fläche unter der Kurve = abgeflossene Ladung $Q$"
+    ],
+    "nachfrage": "Wie ändert sich die Kurve bei doppeltem Widerstand?",
+    "antwort": "$\\tau=R\\cdot C$ doppelt so groß: kleinerer Anfangsstrom, langsameres Abklingen, gleiche Fläche",
+    "bild": "img/f05_entladung.png",
+    "bild_alt": "Diagramm Stromstärke in mA über der Zeit in s: exponentieller Abfall von 5 mA, bei 2 s gestrichelt markiert"
+   },
+   {
+    "nr": 10,
+    "typ": "begriff",
+    "paket": "2",
+    "titel": "Die Lorentzkraft",
+    "muss": [
+     "Kraft auf bewegte Ladungen im Magnetfeld; $F_{\\text{L}}=q\\cdot v\\cdot B$ für $\\vec{v}\\perp\\vec{B}$",
+     "Richtung senkrecht zu $\\vec{v}$ und $\\vec{B}$, Drei-Finger-Regel (linke Hand für Elektronen)",
+     "verrichtet keine Arbeit: ändert nur die Richtung, nicht den Betrag von $v$",
+     "Kraft auf stromdurchflossenen Leiter: $F=I\\cdot l\\cdot B$ (Leiterschaukel)",
+     "Folge: Kreisbahn geladener Teilchen im homogenen Feld"
+    ],
+    "nachfrage": "Was passiert, wenn sich das Teilchen parallel zu den Feldlinien bewegt?",
+    "antwort": "keine Lorentzkraft, Bewegung geradlinig gleichförmig"
+   },
+   {
+    "nr": 11,
+    "typ": "begriff",
+    "paket": "2",
+    "titel": "Das Fadenstrahlrohr",
+    "muss": [
+     "Glühkathode, Beschleunigung durch $U$, Helmholtz-Spulen (homogenes $B$), Gas macht Bahn sichtbar",
+     "Kreisbahn: Lorentzkraft wirkt als Zentripetalkraft",
+     "$e\\cdot v\\cdot B=\\frac{m\\cdot v^2}{r}$ und $e\\cdot U=\\frac{1}{2}\\cdot m\\cdot v^2$",
+     "⇒ $\\frac{e}{m}=\\frac{2\\cdot U}{B^2\\cdot r^2}\\approx 1{,}76\\cdot 10^{11}\\,\\frac{\\text{C}}{\\text{kg}}$",
+     "mit $e$ aus dem Millikan-Versuch → Masse des Elektrons"
+    ],
+    "nachfrage": "Wie ändert sich der Radius bei doppelter Flussdichte?",
+    "antwort": "$r\\sim\\frac{1}{B}$: Radius halbiert"
+   },
+   {
+    "nr": 12,
+    "typ": "begriff",
+    "paket": "2",
+    "titel": "Der Hall-Effekt (+)",
+    "muss": [
+     "stromdurchflossenes Leiterplättchen senkrecht im Magnetfeld",
+     "Lorentzkraft lenkt die Ladungsträger zur Seite → Querspannung $U_{\\text{H}}$",
+     "Gleichgewicht: $e\\cdot E=e\\cdot v\\cdot B$ ⇒ $U_{\\text{H}}=v\\cdot B\\cdot d$",
+     "$U_{\\text{H}}\\sim B$ → Hallsonde zur Messung der Flussdichte"
+    ],
+    "nachfrage": "Wie kann man mit dem Hall-Effekt das Vorzeichen der Ladungsträger bestimmen?",
+    "antwort": "Vorzeichen der Hallspannung zeigt, ob positive oder negative Ladungsträger abgelenkt werden"
+   },
+   {
+    "nr": 13,
+    "typ": "begriff",
+    "paket": "2",
+    "titel": "Elektromagnetische Induktion",
+    "muss": [
+     "Änderung des magnetischen Flusses $\\Phi=B\\cdot A$ induziert eine Spannung",
+     "$U_{\\text{ind}}=-N\\cdot\\frac{\\Delta\\Phi}{\\Delta t}$",
+     "zwei Wege: $B$ ändern oder Fläche $A$ ändern (bewegter Leiter: $U=B\\cdot l\\cdot v$)",
+     "Lenz’sche Regel: Induktionsstrom wirkt seiner Ursache entgegen (Energieerhaltung)",
+     "Beispiele: Generator, Wirbelstrombremse, Induktionsherd"
+    ],
+    "nachfrage": "Warum folgt die Lenz’sche Regel aus der Energieerhaltung?",
+    "antwort": "sonst würde der Induktionsstrom seine Ursache verstärken → Energie aus dem Nichts"
+   },
+   {
+    "nr": 14,
+    "typ": "begriff",
+    "paket": "2",
+    "titel": "Der Generator",
+    "muss": [
+     "Spule dreht sich im Magnetfeld (oder Magnet in der Spule)",
+     "Fluss ändert sich periodisch → sinusförmige Wechselspannung",
+     "höhere Drehzahl → größere Amplitude und höhere Frequenz",
+     "mit Kommutator: pulsierende Gleichspannung",
+     "Energieumwandlung mechanisch → elektrisch; Lenz: Belastung bremst die Drehung"
+    ],
+    "nachfrage": "Warum tritt man schwerer, wenn das Licht am Fahrraddynamo eingeschaltet ist?",
+    "antwort": "Induktionsstrom erzeugt ein Magnetfeld, das der Drehung entgegenwirkt"
+   },
+   {
+    "nr": 15,
+    "typ": "abbildung",
+    "paket": "2",
+    "titel": "Massenspektrometer",
+    "muss": [
+     "positive Ionen gleicher Geschwindigkeit treten in ein homogenes Magnetfeld (aus der Ebene heraus)",
+     "Lorentzkraft als Zentripetalkraft → Halbkreisbahnen, Ablenkung nach rechts (Handregel)",
+     "$r=\\frac{m\\cdot v}{q\\cdot B}$ → größere Masse, größerer Radius: $m_2>m_1$",
+     "Auftreffort im Abstand $2r$ auf dem Detektor → Massen bestimmen bzw. trennen"
+    ],
+    "nachfrage": "Wozu braucht man vorher einen Geschwindigkeitsfilter ($v=\\frac{E}{B}$)?",
+    "antwort": "nur Ionen gleicher Geschwindigkeit kommen durch, sonst hinge $r$ auch von $v$ ab",
+    "bild": "img/f03_massenspektrometer.png",
+    "bild_alt": "Positive Ionen treten von unten in ein Magnetfeld aus der Ebene heraus und beschreiben zwei Halbkreise mit verschiedenen Radien bis zum Detektor"
+   },
+   {
+    "nr": 16,
+    "typ": "abbildung",
+    "paket": "2",
+    "titel": "Diagramm Induktionsspannung",
+    "muss": [
+     "Induktionsspannung, während ein Stabmagnet durch eine Spule fällt",
+     "Eintritt: Fluss nimmt zu → Spannungsstoß; Austritt: Fluss nimmt ab → umgekehrtes Vorzeichen (Lenz)",
+     "zweiter Stoß höher und kürzer: Magnet ist schneller, Flussänderung pro Zeit größer",
+     "Flächen unter beiden Stößen gleich groß (gleiche Flussänderung)",
+     "$U_{\\text{ind}}=-N\\cdot\\frac{\\Delta\\Phi}{\\Delta t}$"
+    ],
+    "nachfrage": "Was ändert sich bei doppelter Windungszahl, was bei größerer Fallhöhe?",
+    "antwort": "doppelte Windungszahl: doppelte Spannungen; größere Fallhöhe: höhere, kürzere Stöße",
+    "bild": "img/f04_induktion.png",
+    "bild_alt": "Diagramm Induktionsspannung über der Zeit: erst ein flacher positiver, dann ein höherer, schmalerer negativer Spannungsstoß"
+   },
+   {
+    "nr": 17,
+    "typ": "begriff",
+    "paket": "3",
+    "titel": "Die harmonische Schwingung",
+    "muss": [
+     "periodische Bewegung um eine Ruhelage; Amplitude, Periodendauer, Frequenz $f=\\frac{1}{T}$",
+     "sinusförmiger Verlauf: $y(t)=\\hat{y}\\cdot\\sin(\\omega\\cdot t)$ mit $\\omega=2\\pi\\cdot f$",
+     "Bedingung: rücktreibende Kraft proportional zur Auslenkung ($F=-D\\cdot y$)",
+     "Periodendauer unabhängig von der Amplitude",
+     "ständige Umwandlung von potenzieller in kinetische Energie und zurück"
+    ],
+    "nachfrage": "An welcher Stelle ist die Geschwindigkeit maximal, wo die Beschleunigung?",
+    "antwort": "$v$ maximal in der Ruhelage, Beschleunigung maximal an den Umkehrpunkten"
+   },
+   {
+    "nr": 18,
+    "typ": "begriff",
+    "paket": "3",
+    "titel": "Federpendel und Fadenpendel",
+    "muss": [
+     "Federpendel: $T=2\\pi\\cdot\\sqrt{\\frac{m}{D}}$ – hängt von Masse und Federhärte ab, nicht von $g$",
+     "Fadenpendel: $T=2\\pi\\cdot\\sqrt{\\frac{l}{g}}$ – hängt von Länge und Ortsfaktor ab, nicht von der Masse",
+     "Fadenpendel nur bei kleinen Auslenkungen harmonisch",
+     "Messung: mehrere Perioden stoppen und teilen"
+    ],
+    "nachfrage": "Wie verhalten sich beide Pendel auf dem Mond?",
+    "antwort": "Federpendel unverändert; Fadenpendel schwingt langsamer (größeres $T$, da $g$ kleiner)"
+   },
+   {
+    "nr": 19,
+    "typ": "begriff",
+    "paket": "3",
+    "titel": "Gedämpfte Schwingung und Resonanz",
+    "muss": [
+     "Dämpfung durch Reibung: Amplitude nimmt ab, Energie wird in innere Energie umgewandelt",
+     "Schwingfall (schwache Dämpfung) und Kriechfall (starke Dämpfung, kein Überschwingen)",
+     "erzwungene Schwingung: Erreger zwingt dem Oszillator seine Frequenz auf (+)",
+     "Resonanz: Erregerfrequenz ≈ Eigenfrequenz → sehr große Amplitude (+)",
+     "Beispiele: Schaukel, Brücken, Erdbebenschutz bei Hochhäusern"
+    ],
+    "nachfrage": "Wie schützt man ein Hochhaus vor Resonanz bei Erdbeben?",
+    "antwort": "Eigenfrequenz verschieben, Dämpfer (Schwingungstilger) einbauen"
+   },
+   {
+    "nr": 20,
+    "typ": "abbildung",
+    "paket": "3",
+    "titel": "Zwei Schwingungsverläufe",
+    "muss": [
+     "zwei gedämpfte Schwingungen, Auslenkung über der Zeit",
+     "a: Schwingfall – Amplitude nimmt (exponentiell) ab, Periodendauer bleibt etwa gleich",
+     "b: Kriechfall – starke Dämpfung, kehrt ohne Überschwingen in die Ruhelage zurück",
+     "Ursache: Reibung, Energieabgabe an die Umgebung",
+     "Beispiele: Pendel in Luft (a), Stoßdämpfer (b)"
+    ],
+    "nachfrage": "Warum soll ein Stoßdämpfer im Auto nicht nachschwingen?",
+    "antwort": "Rad soll schnell wieder Bodenkontakt haben, Aufschaukeln vermeiden",
+    "bild": "img/f06_daempfung.png",
+    "bild_alt": "Zwei Auslenkungs-Zeit-Verläufe: a schwingt mit abnehmender Amplitude, b kehrt ohne Überschwingen in die Ruhelage zurück"
+   },
+   {
+    "nr": 21,
+    "typ": "abbildung",
+    "paket": "3",
+    "titel": "Diagramm y(t)",
+    "muss": [
+     "zwei harmonische Schwingungen, Auslenkung über der Zeit",
+     "A: $\\hat{y}=2\\,\\text{cm}$, $T=2\\,\\text{s}$, $f=0{,}5\\,\\text{Hz}$",
+     "B: $\\hat{y}=1\\,\\text{cm}$, $T=1\\,\\text{s}$, $f=1\\,\\text{Hz}$",
+     "beide starten in der Ruhelage nach oben: $y(t)=\\hat{y}\\cdot\\sin(\\frac{2\\pi}{T}\\cdot t)$",
+     "Nulldurchgänge, Maxima und Minima benennen"
+    ],
+    "nachfrage": "Geben Sie die Schwingungsgleichung von A an. Wo ist bei $t=1\\,\\text{s}$ die Geschwindigkeit von A am größten?",
+    "antwort": "$y(t)=2\\,\\text{cm}\\cdot\\sin(\\pi\\,\\text{s}^{-1}\\cdot t)$; bei $t=1\\,\\text{s}$ Nulldurchgang → $v$ maximal",
+    "bild": "img/f07_zwei_schwingungen.png",
+    "bild_alt": "Zwei Sinusschwingungen A und B, Auslenkung in cm über der Zeit in s"
+   },
+   {
+    "nr": 22,
+    "typ": "abbildung",
+    "paket": "3",
+    "titel": "Messreihe Federpendel",
+    "muss": [
+     "Messreihe am Federpendel: $T^2$ über der Masse $m$",
+     "Messpunkte liegen auf einer Ursprungsgeraden → $T^2\\sim m$, also $T\\sim\\sqrt{m}$",
+     "bestätigt $T=2\\pi\\cdot\\sqrt{\\frac{m}{D}}$",
+     "Steigung ca. $2\\,\\frac{\\text{s}^2}{\\text{kg}}=\\frac{4\\pi^2}{D}$ ⇒ $D\\approx 20\\,\\frac{\\text{N}}{\\text{m}}$",
+     "kleine Streuung durch Messunsicherheiten"
+    ],
+    "nachfrage": "Warum trägt man $T^2$ statt $T$ auf?",
+    "antwort": "Linearisierung: Gerade ist leichter zu prüfen und die Steigung liefert $D$",
+    "bild": "img/f08_federpendel.png",
+    "bild_alt": "Messpunkte T-Quadrat über der Masse auf einer Ursprungsgeraden"
+   },
+   {
+    "nr": 23,
+    "typ": "begriff",
+    "paket": "4",
+    "titel": "Was ist eine Welle?",
+    "muss": [
+     "Ausbreitung einer Schwingung im Raum durch gekoppelte Oszillatoren",
+     "transportiert Energie, keine Materie",
+     "Wellenlänge, Frequenz, Ausbreitungsgeschwindigkeit: $c=\\lambda\\cdot f$",
+     "Transversalwelle (Schwingung quer) und Longitudinalwelle (Schwingung längs)",
+     "$y$-$x$-Diagramm (Momentaufnahme) und $y$-$t$-Diagramm (fester Ort)"
+    ],
+    "nachfrage": "Ist Schall eine Transversal- oder eine Longitudinalwelle? Begründen Sie.",
+    "antwort": "longitudinal: Luftteilchen schwingen in Ausbreitungsrichtung (Druckwelle), nicht polarisierbar"
+   },
+   {
+    "nr": 24,
+    "typ": "begriff",
+    "paket": "4",
+    "titel": "Das Huygens’sche Prinzip",
+    "muss": [
+     "jeder Punkt einer Wellenfront ist Ausgangspunkt einer Elementarwelle",
+     "neue Wellenfront = Einhüllende der Elementarwellen",
+     "erklärt Reflexion, Brechung (andere Ausbreitungsgeschwindigkeit), Beugung",
+     "Grundlage der Interferenz an Spalt, Doppelspalt und Gitter"
+    ],
+    "nachfrage": "Wie erklärt Huygens die Brechung beim Übergang in ein anderes Medium?",
+    "antwort": "Elementarwellen breiten sich im zweiten Medium langsamer aus → Wellenfront knickt ab"
+   },
+   {
+    "nr": 25,
+    "typ": "begriff",
+    "paket": "4",
+    "titel": "Interferenz am Doppelspalt",
+    "muss": [
+     "kohärentes Licht; beide Spalte sind Ausgangspunkte von Elementarwellen",
+     "Gangunterschied $\\Delta s=g\\cdot\\sin\\alpha$",
+     "Maxima: $\\Delta s=k\\cdot\\lambda$; Minima: $\\Delta s=(2k-1)\\cdot\\frac{\\lambda}{2}$",
+     "Geometrie am Schirm: $\\tan\\alpha_k=\\frac{a_k}{e}$ → Wellenlänge bestimmen",
+     "Beleg für die Wellennatur des Lichts (Young)"
+    ],
+    "nachfrage": "Wie ändert sich das Muster, wenn der Spaltabstand kleiner wird?",
+    "antwort": "Maxima rücken auseinander"
+   },
+   {
+    "nr": 26,
+    "typ": "begriff",
+    "paket": "4",
+    "titel": "Das optische Gitter",
+    "muss": [
+     "sehr viele Spalte im gleichen Abstand $g$ (Gitterkonstante)",
+     "Hauptmaxima bei $g\\cdot\\sin\\alpha_k=k\\cdot\\lambda$, sehr scharf und hell",
+     "dazwischen fast überall Auslöschung",
+     "weißes Licht → Spektrum, Rot außen (größere Wellenlänge, größerer Winkel)",
+     "Anwendung: genaue Wellenlängenbestimmung, Spektroskopie"
+    ],
+    "nachfrage": "Warum sind die Maxima beim Gitter schärfer als beim Doppelspalt?",
+    "antwort": "außerhalb der Hauptmaxima findet sich fast immer ein Partnerspalt zur Auslöschung"
+   },
+   {
+    "nr": 27,
+    "typ": "begriff",
+    "paket": "4",
+    "titel": "Stehende Wellen",
+    "muss": [
+     "Überlagerung von hin- und rücklaufender Welle gleicher Frequenz (Reflexion)",
+     "Knoten (immer in Ruhe) und Bäuche (maximale Amplitude); Knotenabstand $\\frac{\\lambda}{2}$",
+     "beidseitig fest: $L=n\\cdot\\frac{\\lambda}{2}$, Eigenfrequenzen $f_n=n\\cdot\\frac{c}{2\\cdot L}$",
+     "Beispiele: Saiten, Pfeifen, Mikrowellengerät"
+    ],
+    "nachfrage": "Transportiert eine stehende Welle Energie?",
+    "antwort": "nein, Energie pendelt zwischen den Knoten hin und her"
+   },
+   {
+    "nr": 28,
+    "typ": "begriff",
+    "paket": "4",
+    "titel": "Licht als elektromagnetische Welle",
+    "muss": [
+     "schwingende Ladungen (Hertz’scher Dipol, Schwingkreis) senden elektromagnetische Wellen aus",
+     "$\\vec{E}$ und $\\vec{B}$ schwingen senkrecht zueinander und zur Ausbreitungsrichtung → transversal",
+     "Ausbreitung auch im Vakuum mit $c\\approx 3\\cdot 10^8\\,\\frac{\\text{m}}{\\text{s}}$",
+     "Spektrum: Radio, Mikrowellen, Infrarot, sichtbares Licht (ca. 380–780 nm), UV, Röntgen, Gamma",
+     "Beleg für Transversalität: Polarisation"
+    ],
+    "nachfrage": "Woran erkennt man experimentell, dass Licht eine Transversalwelle ist?",
+    "antwort": "Polarisationsfilter: Helligkeit ändert sich beim Drehen eines zweiten Filters"
+   },
+   {
+    "nr": 29,
+    "typ": "begriff",
+    "paket": "4",
+    "titel": "Der Dopplereffekt",
+    "muss": [
+     "bewegte Quelle oder bewegter Beobachter → wahrgenommene Frequenz ändert sich",
+     "Annäherung: höher; Entfernung: tiefer",
+     "Erklärung: Wellenfronten werden vor der Quelle gestaucht, hinter ihr gedehnt",
+     "Beispiele: Martinshorn, Radarfalle, Rotverschiebung (qualitativ)"
+    ],
+    "nachfrage": "Was hört jemand, der mit der Quelle mitfährt?",
+    "antwort": "keine Frequenzänderung, keine Relativbewegung"
+   },
+   {
+    "nr": 30,
+    "typ": "abbildung",
+    "paket": "4",
+    "titel": "Momentaufnahme",
+    "muss": [
+     "$y$-$x$-Diagramm: Momentaufnahme einer harmonischen Welle, Ausbreitung nach rechts",
+     "Amplitude 2 cm, Wellenlänge $\\lambda=0{,}8\\,\\text{m}$ (Abstand zweier Wellenberge)",
+     "Teilchen schwingen nur um ihre Ruhelage, die Form wandert",
+     "Punkt P bewegt sich im nächsten Moment nach unten",
+     "mit $f$ folgt $c=\\lambda\\cdot f$"
+    ],
+    "nachfrage": "Wie unterscheidet sich ein $y$-$t$-Diagramm von dieser Darstellung?",
+    "antwort": "$y$-$t$: Schwingung an einem festen Ort, Abstand der Maxima = Periodendauer",
+    "bild": "img/f09_momentaufnahme.png",
+    "bild_alt": "Momentaufnahme einer Sinuswelle, Auslenkung in cm über dem Ort in m, Punkt P auf der Nulllinie, Pfeil Ausbreitung nach rechts"
+   },
+   {
+    "nr": 31,
+    "typ": "abbildung",
+    "paket": "4",
+    "titel": "Saite",
+    "muss": [
+     "stehende Wellen auf einer beidseitig eingespannten Saite: Grundschwingung und zwei Oberschwingungen",
+     "an den Enden Knoten; Knotenabstand $\\frac{\\lambda}{2}$",
+     "$L=n\\cdot\\frac{\\lambda}{2}$ ⇒ $\\lambda_n=\\frac{2\\cdot L}{n}$, $f_n=n\\cdot f_1$",
+     "durchgezogen und gestrichelt: Auslenkung zu zwei Zeitpunkten (halbe Periode versetzt)",
+     "Entstehung durch Reflexion und Überlagerung"
+    ],
+    "nachfrage": "Warum klingt derselbe Ton auf verschiedenen Instrumenten unterschiedlich?",
+    "antwort": "unterschiedliche Anteile der Oberschwingungen (Klangfarbe)",
+    "bild": "img/f10_stehende_wellen.png",
+    "bild_alt": "Drei stehende Wellen auf einer eingespannten Saite mit n gleich 1, 2 und 3"
+   },
+   {
+    "nr": 32,
+    "typ": "abbildung",
+    "paket": "4",
+    "titel": "Geometrie",
+    "muss": [
+     "Geometrie am Doppelspalt: Spaltabstand $g$, Schirmabstand $e$, Abstand $a_k$ des Maximums",
+     "Wege zum Punkt P nahezu parallel, da $e\\gg g$",
+     "Gangunterschied $\\Delta s=g\\cdot\\sin\\alpha$; Maximum bei $\\Delta s=k\\cdot\\lambda$",
+     "$\\tan\\alpha=\\frac{a_k}{e}$; für kleine Winkel $\\sin\\alpha\\approx\\tan\\alpha$"
+    ],
+    "nachfrage": "Warum darf man die beiden Wege als parallel annehmen?",
+    "antwort": "$e$ ist viel größer als $g$, Winkel zwischen den Wegen vernachlässigbar",
+    "bild": "img/f11_doppelspalt_geometrie.png",
+    "bild_alt": "Skizze Doppelspalt mit Spaltabstand g, Schirmabstand e, Winkel alpha, Abstand a k und Gangunterschied Delta s"
+   },
+   {
+    "nr": 33,
+    "typ": "abbildung",
+    "paket": "4",
+    "titel": "Intensitätsverteilungen",
+    "muss": [
+     "Intensität auf dem Schirm: oben Doppelspalt, unten Gitter mit gleicher Gitterkonstante",
+     "Maxima an denselben Stellen: $g\\cdot\\sin\\alpha_k=k\\cdot\\lambda$",
+     "Gitter: viel schärfere Hauptmaxima, dazwischen fast dunkel, kleine Nebenmaxima",
+     "Grund: bei vielen Spalten löschen sich die Wellen außerhalb der Hauptmaxima fast vollständig aus"
+    ],
+    "nachfrage": "Wozu nutzt man diesen Vorteil des Gitters?",
+    "antwort": "genaue Wellenlängenbestimmung, Spektralanalyse",
+    "bild": "img/f12_doppelspalt_gitter.png",
+    "bild_alt": "Intensitätsverteilungen: oben Doppelspalt mit breiten Maxima, unten Gitter mit schmalen Maxima an denselben Stellen"
+   },
+   {
+    "nr": 34,
+    "typ": "abbildung",
+    "paket": "4",
+    "titel": "Drei Spektren",
+    "muss": [
+     "(1) kontinuierliches Spektrum: glühender Festkörper, Sonne",
+     "(2) Emissionsspektrum: helle Linien eines Gases (hier Wasserstoff: 410, 434, 486, 656 nm)",
+     "(3) Absorptionsspektrum: dunkle Linien an denselben Stellen, kühles Gas vor heißer Quelle",
+     "Linien sind der „Fingerabdruck“ des Elements",
+     "Deutung über Energieniveaus: $\\Delta E=h\\cdot f$ (Atommodell)"
+    ],
+    "nachfrage": "Wie entstehen die Fraunhofer-Linien im Sonnenspektrum?",
+    "antwort": "kühlere Gase in der Sonnenatmosphäre absorbieren bestimmte Wellenlängen",
+    "bild": "img/f13_spektren.png",
+    "bild_alt": "Drei Spektren zwischen 400 und 700 nm: kontinuierlich, helle Linien auf dunklem Grund, dunkle Linien im kontinuierlichen Spektrum"
+   },
+   {
+    "nr": 35,
+    "typ": "abbildung",
+    "paket": "4",
+    "titel": "Welle trifft auf einen Spalt",
+    "muss": [
+     "ebene Wellenfronten treffen auf einen schmalen Spalt",
+     "Spalt wird nach Huygens Ausgangspunkt einer Elementarwelle → kreisförmige Wellenfronten",
+     "Welle gelangt in den geometrischen Schattenraum: Beugung",
+     "Wellenlänge bleibt gleich; Beugung umso stärker, je schmaler der Spalt im Verhältnis zu $\\lambda$"
+    ],
+    "nachfrage": "Warum hört man um die Ecke, sieht aber nicht um die Ecke?",
+    "antwort": "Schallwellenlänge (cm bis m) passt zu Türen, Lichtwellenlänge (nm) ist viel kleiner",
+    "bild": "img/f14_beugung.png",
+    "bild_alt": "Gerade Wellenfronten treffen auf einen Spalt, dahinter kreisförmige Wellenfronten"
+   },
+   {
+    "nr": 36,
+    "typ": "begriff",
+    "paket": "5",
+    "titel": "Der Photoeffekt",
+    "muss": [
+     "Licht löst Elektronen aus einer Metalloberfläche (Hallwachs: Zinkplatte, UV-Licht)",
+     "Befunde: Grenzfrequenz; $E_{\\text{kin,max}}$ hängt von $f$ ab, nicht von der Intensität; keine Verzögerung",
+     "Intensität bestimmt nur die Anzahl der Elektronen",
+     "Einstein: $h\\cdot f=W_{\\text{A}}+E_{\\text{kin,max}}$",
+     "mit dem Wellenmodell nicht erklärbar → Photonen"
+    ],
+    "nachfrage": "Warum hilft eine hellere Lampe mit rotem Licht nicht?",
+    "antwort": "Energie eines roten Photons liegt unter der Austrittsarbeit"
+   },
+   {
+    "nr": 37,
+    "typ": "begriff",
+    "paket": "5",
+    "titel": "Das Photon",
+    "muss": [
+     "Lichtquant mit $E=h\\cdot f=\\frac{h\\cdot c}{\\lambda}$ und $p=\\frac{h}{\\lambda}$",
+     "bewegt sich immer mit $c$, keine Ruhemasse",
+     "gibt seine Energie nur als Ganzes ab (Photoeffekt)",
+     "kein klassisches Teilchen: zeigt Interferenz, Ort nur mit Wahrscheinlichkeit vorhersagbar",
+     "Photonenzahl: $N=\\frac{P\\cdot t}{h\\cdot f}$"
+    ],
+    "nachfrage": "Wie viele Photonen sendet ein Laserpointer mit 1 mW pro Sekunde etwa aus?",
+    "antwort": "Größenordnung $3\\cdot 10^{15}$ Photonen pro Sekunde (650 nm)"
+   },
+   {
+    "nr": 38,
+    "typ": "begriff",
+    "paket": "5",
+    "titel": "Einzelne Photonen am Doppelspalt",
+    "muss": [
+     "jedes Photon erzeugt einen einzelnen, lokalisierten Treffer",
+     "Ort eines einzelnen Treffers nicht vorhersagbar (zufällig)",
+     "viele Treffer → Interferenzmuster; Verteilung ist determiniert",
+     "Wahrscheinlichkeitsdeutung: Muster gibt die Trefferwahrscheinlichkeit an",
+     "Interferenz, obwohl immer nur ein Photon in der Apparatur ist (Superposition)"
+    ],
+    "nachfrage": "Was ändert sich, wenn ein Spalt verschlossen wird?",
+    "antwort": "Einfachspaltmuster ohne Doppelspaltstreifen"
+   },
+   {
+    "nr": 39,
+    "typ": "begriff",
+    "paket": "5",
+    "titel": "Elektronen als Quantenobjekte",
+    "muss": [
+     "Elektronenbeugungsröhre: Ringe auf dem Schirm → Interferenz → Wellenverhalten",
+     "de Broglie: $\\lambda=\\frac{h}{p}=\\frac{h}{m\\cdot v}$",
+     "nach Beschleunigung: $p=\\sqrt{2\\cdot m\\cdot e\\cdot U}$",
+     "größere Spannung → kleinere Wellenlänge → engere Ringe",
+     "auch Doppelspalt mit Elektronen; Anwendung Elektronenmikroskop"
+    ],
+    "nachfrage": "Warum zeigt ein Fußball keine Interferenz?",
+    "antwort": "Masse sehr groß → Wellenlänge winzig, kein Interferenzmuster messbar"
+   },
+   {
+    "nr": 40,
+    "typ": "begriff",
+    "paket": "5",
+    "titel": "Weginformation und Komplementarität",
+    "muss": [
+     "ist (prinzipiell) feststellbar, durch welchen Spalt das Quantenobjekt ging → kein Interferenzmuster",
+     "Weginformation und Interferenz schließen sich aus: Komplementarität",
+     "entscheidend ist die Möglichkeit der Information, nicht ihr Ablesen",
+     "Quantenradierer: Weginformation löschen → Interferenz wieder sichtbar"
+    ],
+    "nachfrage": "Warum ist das kein bloßer Messfehler?",
+    "antwort": "Verlust der Interferenz ist eine grundsätzliche Eigenschaft von Quantenobjekten, keine Störung"
+   },
+   {
+    "nr": 41,
+    "typ": "begriff",
+    "paket": "5",
+    "titel": "Licht – Welle oder Teilchen?",
+    "muss": [
+     "Wellenmodell erklärt Interferenz, Beugung, Polarisation",
+     "Photonenmodell erklärt den Photoeffekt",
+     "keines allein reicht → Quantenobjekt: Ausbreitung nach Wahrscheinlichkeiten, Nachweis lokalisiert",
+     "Modelle sind Werkzeuge mit Gültigkeitsgrenzen",
+     "gilt ebenso für Elektronen"
+    ],
+    "nachfrage": "Welches Modell nutzen Sie für eine Solarzelle, welches für ein Spektrometer?",
+    "antwort": "Solarzelle: Photonen (Energieportionen); Spektrometer: Wellenmodell (Interferenz)"
+   },
+   {
+    "nr": 42,
+    "typ": "abbildung",
+    "paket": "5",
+    "titel": "Diagramm Photoeffekt",
+    "muss": [
+     "maximale kinetische Energie der Photoelektronen über der Frequenz, für Cäsium und Zink",
+     "parallele Geraden, Steigung = Planck’sches Wirkungsquantum $h$",
+     "Schnittpunkt mit der $f$-Achse = Grenzfrequenz (Cäsium ca. $5\\cdot 10^{14}\\,\\text{Hz}$, Zink ca. $10\\cdot 10^{14}\\,\\text{Hz}$)",
+     "Verlängerung schneidet die Energieachse bei $-W_{\\text{A}}$",
+     "$E_{\\text{kin,max}}=h\\cdot f-W_{\\text{A}}$; Cäsium hat die kleinere Austrittsarbeit"
+    ],
+    "nachfrage": "Warum hängt die Steigung nicht vom Metall ab?",
+    "antwort": "$h$ ist eine Naturkonstante, das Metall verschiebt nur die Grenzfrequenz",
+    "bild": "img/f15_photoeffekt.png",
+    "bild_alt": "Diagramm maximale kinetische Energie über der Frequenz: zwei parallele Geraden für Cäsium und Zink"
+   },
+   {
+    "nr": 43,
+    "typ": "abbildung",
+    "paket": "5",
+    "titel": "Trefferbilder",
+    "muss": [
+     "Trefferbilder einzelner Photonen hinter einem Doppelspalt",
+     "wenige Photonen: zufällig verteilte, lokalisierte Einzeltreffer",
+     "viele Photonen: Interferenzmuster des Doppelspalts entsteht",
+     "stochastische Vorhersagbarkeit: Einzelereignis zufällig, Verteilung determiniert",
+     "Wahrscheinlichkeitsdeutung"
+    ],
+    "nachfrage": "Wie sähe das Bild mit Weginformation aus?",
+    "antwort": "zwei überlagerte Einfachspaltmuster, keine Streifen",
+    "bild": "img/f16_einzelphotonen.png",
+    "bild_alt": "Trefferbilder nach 20, 300 und 6000 Photonen, zuletzt deutliche Streifen"
+   },
+   {
+    "nr": 44,
+    "typ": "abbildung",
+    "paket": "5",
+    "titel": "Elektronenbeugungsröhre",
+    "muss": [
+     "Elektronen werden beschleunigt und treffen auf eine polykristalline Graphitfolie",
+     "auf dem Schirm konzentrische Ringe → Interferenz → Wellenverhalten der Elektronen",
+     "$\\lambda=\\frac{h}{p}$ mit $p=\\sqrt{2\\cdot m\\cdot e\\cdot U_{\\text{B}}}$",
+     "größere Beschleunigungsspannung → kleinere Wellenlänge → kleinere Ringe",
+     "Auswertung mit Bragg-Geometrie $\\tan(2\\theta)=\\frac{r}{L}$ (+)"
+    ],
+    "nachfrage": "Wie bestimmt man aus dem Ringradius die Wellenlänge?",
+    "antwort": "Winkel aus $\\tan(2\\theta)=\\frac{r}{L}$, dann Bragg-Bedingung mit dem Netzebenenabstand (+)",
+    "bild": "img/f17_elektronenbeugung.png",
+    "bild_alt": "Elektronenbeugungsröhre mit Kathode und Graphitfolie, daneben Schirmbild mit zwei Ringen"
+   }
+  ]
+ },
+ "checkliste": [],
+ "stationen": []
+}
