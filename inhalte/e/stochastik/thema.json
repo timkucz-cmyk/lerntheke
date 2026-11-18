@@ -1,0 +1,1613 @@
+{
+  "version": 1,
+  "titel": "Stochastik – Lerntheke vor der Klausur",
+  "fach": "mathe",
+  "anrede": "sie",
+  "hinweis": "Alle Stationen sind klausurrelevant – auch die Grundlagen. Sind Sie bei Häufigkeiten, Laplace-Wahrscheinlichkeiten, Baumdiagrammen, Pfadregeln oder Prozenten unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt das Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Bedingte Wahrscheinlichkeit), V2 nach N4 bis N6 (Invertieren und Vierfeldertafel), V3 nach N7 bis N8 (Unabhängigkeit), V4 nach N9 bis N10 (Erwartungswert) als Komplexaufgabe. N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Die Begriffe Zufallsexperiment, Ergebnis, Ereignis, absolute und relative Häufigkeit und Wahrscheinlichkeit erläutern und das Gesetz der großen Zahlen anwenden"
+    },
+    {
+      "id": "g2",
+      "text": "Laplace-Experimente erkennen und Laplace-Wahrscheinlichkeiten berechnen"
+    },
+    {
+      "id": "g3",
+      "text": "Mehrstufige Zufallsexperimente (mit und ohne Zurücklegen) in Baumdiagrammen darstellen"
+    },
+    {
+      "id": "g4",
+      "text": "Wahrscheinlichkeiten mit den Pfadregeln und der Gegenwahrscheinlichkeit berechnen"
+    },
+    {
+      "id": "g5",
+      "text": "Mit Prozenten und Anteilen rechnen (Bruch, Dezimalzahl, Prozent; Anteil vom Anteil)"
+    },
+    {
+      "id": "g6",
+      "text": "Wahrscheinlichkeitsverteilungen angeben und arithmetische Mittelwerte bestimmen"
+    },
+    {
+      "id": "c1",
+      "text": "Schnitt- und Vereinigungswahrscheinlichkeiten erläutern, mit Symbolen notieren und berechnen"
+    },
+    {
+      "id": "c2",
+      "text": "Bedingte Wahrscheinlichkeiten erkennen, in Worten beschreiben und berechnen"
+    },
+    {
+      "id": "c3",
+      "text": "Baumdiagramme mit Anzahlen und mit Wahrscheinlichkeiten erstellen und die Äste der zweiten Stufe als bedingte Wahrscheinlichkeiten deuten"
+    },
+    {
+      "id": "c4",
+      "text": "Baumdiagramme invertieren und bedingte Wahrscheinlichkeiten mit dem Satz von Bayes berechnen"
+    },
+    {
+      "id": "c5",
+      "text": "Sachverhalte in Vierfeldertafeln und Mehrfeldertafeln darstellen, Tafeln vervollständigen und Wahrscheinlichkeiten ablesen"
+    },
+    {
+      "id": "c6",
+      "text": "Zwischen Baumdiagramm, invertiertem Baumdiagramm und Vierfeldertafel wechseln"
+    },
+    {
+      "id": "c7",
+      "text": "Zwei Ereignisse auf stochastische Unabhängigkeit prüfen und das Ergebnis im Sachzusammenhang deuten"
+    },
+    {
+      "id": "c8",
+      "text": "Bei vorausgesetzter Unabhängigkeit Wahrscheinlichkeiten berechnen und Baumdiagramme so ergänzen, dass Unabhängigkeit gilt"
+    },
+    {
+      "id": "c9",
+      "text": "Zufallsvariablen festlegen und ihre Wahrscheinlichkeitsverteilung angeben"
+    },
+    {
+      "id": "c10",
+      "text": "Den Erwartungswert einer Zufallsvariablen berechnen und als langfristigen Mittelwert deuten"
+    },
+    {
+      "id": "c11",
+      "text": "Glücksspiele und Entscheidungen mit dem Erwartungswert beurteilen (lohnt sich, fairer Einsatz)"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 10 und der Wiederholung",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Bedingte Wahrscheinlichkeit",
+      "untertitel": "Schnitt, Vereinigung, Bedingung, Baumdiagramme",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Invertieren und Vierfeldertafel",
+      "untertitel": "Satz von Bayes, Darstellungen wechseln",
+      "farbe": "orange",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Unabhängigkeit",
+      "untertitel": "Stochastisch unabhängige Ereignisse",
+      "farbe": "gruen",
+      "checkliste": [
+        "c7",
+        "c8"
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Erwartungswert",
+      "untertitel": "Zufallsvariable und Glücksspiele",
+      "farbe": "rot",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c11"
+      ]
+    }
+  ],
+  "abschluss": "Klausur Stochastik",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 22,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Ohne Taschenrechner, 22 Minuten für alle Blöcke. Bearbeiten Sie die Blöcke, bei denen Sie in der Selbsteinschätzung unsicher sind. Lücken schließen Sie danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Relative Häufigkeit = absolute Häufigkeit : Anzahl der Würfe:\n\n$\\dfrac{9}{50}=0{,}18=18\\,\\%$"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei nur $50$ Würfen schwankt die relative Häufigkeit zufällig um die Wahrscheinlichkeit. Nach dem Gesetz der großen Zahlen stabilisiert sie sich erst bei sehr vielen Würfen.\n\nNach $6000$ Würfen erwartet man etwa $\\tfrac16\\cdot6000=1000$ Sechsen, die relative Häufigkeit liegt dann nahe bei $0{,}167$. Üben: → **G2** Aufgabe 4"
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Günstig: $2, 3, 5, 7, 11, 13, 17, 19$ – das sind $8$ von $20$ gleich wahrscheinlichen Ergebnissen.\n\n$P(\\text{Primzahl})=\\dfrac{8}{20}=\\dfrac25=0{,}4$. Üben: → **G2** Aufgabe 2"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "(1) Kein Laplace-Experiment: Die beiden Lagen sind wegen der Form nicht gleich wahrscheinlich.\n\n(2) Laplace-Experiment: Alle $8$ Felder sind gleich groß, also gleich wahrscheinlich."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Erster Zug: $P(r)=\\tfrac46$, $P(b)=\\tfrac26$. Nach Rot liegen noch $3$ rote und $2$ blaue Kugeln im Beutel ($\\tfrac35$, $\\tfrac25$), nach Blau $4$ rote und $1$ blaue ($\\tfrac45$, $\\tfrac15$). Üben: → **G2** Aufgabe 1",
+          "loesung_bild": "img/G1-3a.png"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Mit Zurücklegen ist der Beutel beim zweiten Zug wieder wie am Anfang: an allen Ästen der zweiten Stufe $P(r)=\\tfrac46$ und $P(b)=\\tfrac26$, unabhängig vom ersten Zug."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "1. Pfadregel (entlang des Pfades multiplizieren):\n\n$P(r,r)=\\dfrac46\\cdot\\dfrac35=\\dfrac{12}{30}=\\dfrac25$. Üben: → **G2** Aufgabe 2"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "2. Pfadregel (die Pfade addieren):\n\n$P(r,b)+P(b,r)=\\dfrac46\\cdot\\dfrac25+\\dfrac26\\cdot\\dfrac45=\\dfrac{8}{30}+\\dfrac{8}{30}=\\dfrac{8}{15}$"
+        },
+        {
+          "id": "G1-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gegenereignis „keinmal Blau“ = „zweimal Rot“:\n\n$P(\\text{mindestens einmal b})=1-P(r,r)=1-\\dfrac25=\\dfrac35$. Üben: → **G2** Aufgabe 1"
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$0{,}35=\\dfrac{35}{100}=\\dfrac{7}{20}=35\\,\\%$. Üben: → **G2** Aufgabe 2"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Anteil vom Anteil: multiplizieren.\n\n$0{,}4\\cdot0{,}25=0{,}1=10\\,\\%$ der Stufe. Üben: → **G2** Aufgabe 3"
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Wahrscheinlichkeiten aller Ergebnisse ergeben zusammen $1$:\n\n$P(3)=1-0{,}25-0{,}4=0{,}35$. Üben: → **G2** Aufgabe 1"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\bar x=\\dfrac{12+15+9+14+10}{5}=\\dfrac{60}{5}=12$"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Baumdiagramme und Pfadregeln",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "g3",
+        "g4",
+        "g1",
+        "g2",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Ohne Taschenrechner, 15 Minuten. Diese Station übt die Werkzeuge aus Klasse 10, die Sie für bedingte Wahrscheinlichkeiten brauchen.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "An jedem Knoten: $P(T)=0{,}7$, $P(\\overline{T})=0{,}3$. Pfade: $0{,}7\\cdot0{,}7=0{,}49$, $0{,}7\\cdot0{,}3=0{,}21$, $0{,}3\\cdot0{,}7=0{,}21$, $0{,}3\\cdot0{,}3=0{,}09$.",
+          "loesung_bild": "img/G2-1a.png"
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Genau ein Treffer (2. Pfadregel): $0{,}21+0{,}21=0{,}42$\n\nMindestens ein Treffer (Gegenereignis „kein Treffer“): $1-0{,}09=0{,}91$"
+        },
+        {
+          "id": "G2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "| Anzahl Treffer | $0$ | $1$ | $2$ |\n|---|---|---|---|\n| Wahrscheinlichkeit | $0{,}09$ | $0{,}42$ | $0{,}49$ |\n\nSumme: $0{,}09+0{,}42+0{,}49=1$ – alle Möglichkeiten sind erfasst."
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Laplace: $3$ günstige von $8$ Kugeln, $P(\\text{grün})=\\dfrac38=0{,}375=37{,}5\\,\\%$"
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Nach dem ersten grünen Zug liegen noch $2$ grüne von $7$ Kugeln im Beutel:\n\n$\\dfrac38\\cdot\\dfrac27=\\dfrac{6}{56}=\\dfrac{3}{28}$"
+        },
+        {
+          "id": "G2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$0{,}6\\cdot\\dfrac14=0{,}15=15\\,\\%$ aller Gäste"
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Relative Häufigkeit $\\dfrac{19}{40}=0{,}475$, Wahrscheinlichkeit $\\dfrac38=0{,}375$.\n\nBei $40$ Zügen sind solche Abweichungen durch Zufall möglich. Erst bei sehr vielen Zügen nähert sich die relative Häufigkeit der Wahrscheinlichkeit an (Gesetz der großen Zahlen)."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c7",
+        "c10"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen; als Begründung genügt ein Satz oder ein Stichwort. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $\\cap$ bedeutet „und“: Beide Ereignisse treten ein. Im Baumdiagramm ist das die Pfadwahrscheinlichkeit.\n\n*A gewählt?* „A oder B“ ist die Vereinigung $A\\cup B$. → **N2** Aufgabe 1\n\n*B oder D gewählt?* „Genau eines“ und „keines“ sind andere Ereignisse. → **N2**"
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Die Bedingung A schränkt auf die $40$ Sportler ein: $P(B\\mid A)=\\dfrac{10}{40}=0{,}25$.\n\n*B gewählt?* $\\tfrac{10}{200}$ ist $P(A\\cap B)$ – bezogen auf alle Befragten. → **N2** Aufgabe 2\n\n*C gewählt?* $\\tfrac{40}{200}$ ist $P(A)$. → **N2**\n\n*D gewählt?* $P(B)$ braucht man dafür nicht. → **N2**"
+        },
+        {
+          "id": "N1-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Äste der zweiten Stufe sind bedingte Wahrscheinlichkeiten: B unter der Bedingung A.\n\n*A gewählt?* $P(A\\cap B)$ steht am Ende des Pfades (Produkt). → **N3** Aufgabe 2\n\n*B gewählt?* $P(B)$ gilt für alle, nicht nur für A. → **N3**\n\n*C gewählt?* Bedingung und Ergebnis vertauscht. → **N3**"
+        },
+        {
+          "id": "N1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – 1. Pfadregel: $P(A\\cap B)=P(A)\\cdot P(B\\mid A)=0{,}4\\cdot0{,}5=0{,}2$.\n\n*A gewählt?* Entlang eines Pfades wird multipliziert, nicht addiert. → **G2** Aufgabe 1\n\n*C gewählt?* Subtrahiert statt multipliziert. → **G2**\n\n*D gewählt?* Dividiert statt multipliziert. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "N1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $P(A\\mid B)=\\dfrac{P(B\\mid A)\\cdot P(A)}{P(B)}=\\dfrac{0{,}2\\cdot0{,}5}{0{,}25}=\\dfrac{0{,}1}{0{,}25}=0{,}4$\n\n*B gewählt?* $P(B\\mid A)$ und $P(A\\mid B)$ verwechselt. → **N4** Aufgabe 5\n\n*C gewählt?* $0{,}1$ ist $P(A\\cap B)$ – es fehlt die Division durch $P(B)$. → **N4**\n\n*D gewählt?* Zähler und Nenner falsch zusammengesetzt. → **N4**"
+        },
+        {
+          "id": "N1-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – In der Spalte B gilt: $|A\\cap B|+|\\overline{A}\\cap B|=|B|$, also $45-30=15$.\n\n*A gewählt?* $50-30$ gehört in das Feld $A\\cap \\overline{B}$ (Zeile statt Spalte). → **N5** Aufgabe 1\n\n*B gewählt?* $50$ ist die Randsumme von $\\overline{A}$. → **N5**\n\n*D gewählt?* $100-50-45+30=35$ gehört in das Feld $\\overline{A}\\cap \\overline{B}$ (falsches Feld). → **N5**"
+        },
+        {
+          "id": "N1-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $P(A)\\cdot P(B)=0{,}5\\cdot0{,}4=0{,}2=P(A\\cap B)$: unabhängig.\n\n*A gewählt?* $P(A\\cap B)=0$ würde heißen, dass A und B nie zusammen eintreten – das hat mit Unabhängigkeit nichts zu tun. → **N7** Aufgabe 1\n\n*C oder D gewählt?* Das Kriterium vergleicht das Produkt, nicht die Summe. → **N7**"
+        },
+        {
+          "id": "N1-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $E(X)=(-2)\\cdot0{,}5+1\\cdot0{,}3+5\\cdot0{,}2=-1+0{,}3+1=0{,}3$\n\n*A gewählt?* Das ist der Mittelwert der drei Werte ohne Gewichtung. → **N9** Aufgabe 1\n\n*B gewählt?* Das Minuszeichen von $-2$ ging verloren. → **N9**\n\n*C gewählt?* Nur die Werte addiert. → **N9**"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Schnitt, Vereinigung und Bedingung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c1",
+        "c2",
+        "g2",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR zugelassen, 20 Minuten.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Schnitt_Vereinigung_Bedingung.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "(1) $P(V\\cap N)$ (2) $P(V\\cup N)$ – mindestens eines von beiden, auch beides (3) $P(N\\mid V)$ – Bedingung V, gefragt N (4) $P(V\\mid N)$ – Bedingung N, gefragt V"
+        },
+        {
+          "id": "N2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P(V\\cap N)=\\dfrac{100}{400}=0{,}25$"
+        },
+        {
+          "id": "N2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Mindestens eines von beiden: $160+250-100=310$ Personen (die $100$ mit beidem nur einmal zählen).\n\n$P(V\\cup N)=\\dfrac{310}{400}=0{,}775$ – ebenso mit dem Additionssatz $0{,}4+0{,}625-0{,}25=0{,}775$.\n\nAbgrenzung: „genau eines von beiden“ wären nur $310-100=210$ Personen, also $0{,}525$."
+        },
+        {
+          "id": "N2-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Bedingung legt fest, worauf man sich bezieht:\n\n$P(N\\mid V)=\\dfrac{100}{160}=0{,}625$ (von den $160$ Vegetariern)\n\n$P(V\\mid N)=\\dfrac{100}{250}=0{,}4$ (von den $250$ Nachtisch-Essern)"
+        },
+        {
+          "id": "N2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Beide zählen dieselben $100$ Personen. $P(V\\cap N)$ bezieht sie auf **alle** $400$ Befragten: Ein Viertel aller Befragten isst vegetarisch und nimmt Nachtisch.\n\n$P(N\\mid V)$ bezieht sie nur auf die $160$ **Vegetarier**: $62{,}5\\,\\%$ der Vegetarier nehmen Nachtisch."
+        },
+        {
+          "id": "N2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P_A(B)=P(B\\mid A)=\\dfrac{P(A\\cap B)}{P(A)}=\\dfrac{0{,}15}{0{,}6}=0{,}25$"
+        },
+        {
+          "id": "N2-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(\\overline{A})=1-0{,}6=0{,}4$, also $P(\\overline{A}\\cap B)=0{,}4\\cdot0{,}5=0{,}2$ (1. Pfadregel).\n\n$P(B)=P(A\\cap B)+P(\\overline{A}\\cap B)=0{,}15+0{,}2=0{,}35$ (2. Pfadregel)"
+        },
+        {
+          "id": "N2-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "(1) Falsch. Gegenbeispiel Mensa: $P(V\\mid N)=0{,}4$, aber $P(N\\mid V)=0{,}625$.\n\n(2) Wahr. $P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}$ und $P(B\\mid A)=\\dfrac{P(A\\cap B)}{P(A)}$ haben denselben Zähler; bei $P(A)=P(B)$ sind auch die Nenner gleich."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Baumdiagramme mit Anzahlen und Wahrscheinlichkeiten",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c3",
+        "c2",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR zugelassen, 15 Minuten.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Baumdiagramme.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Erste Stufe: $0{,}4\\cdot1500=600$, $0{,}25\\cdot1500=375$, $0{,}35\\cdot1500=525$.\n\nZweite Stufe: $0{,}3\\cdot600=180$ und $420$; $0{,}8\\cdot375=300$ und $75$; $0{,}6\\cdot525=315$ und $210$. Innerhalb jeder Stufe ergeben die Anzahlen zusammen $1500$.",
+          "loesung_bild": "img/N3-1a.png"
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Pfade (1. Pfadregel): $P(E\\cap S)=0{,}4\\cdot0{,}3=0{,}12$, $P(E\\cap \\overline{S})=0{,}28$, $P(J\\cap S)=0{,}25\\cdot0{,}8=0{,}2$, $P(J\\cap \\overline{S})=0{,}05$, $P(K\\cap S)=0{,}35\\cdot0{,}6=0{,}21$, $P(K\\cap \\overline{S})=0{,}14$. Summe aller Pfade: $1$.",
+          "loesung_bild": "img/N3-1b.png"
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "2. Pfadregel: $P(S)=0{,}12+0{,}2+0{,}21=0{,}53$ – ebenso $\\dfrac{180+300+315}{1500}=\\dfrac{795}{1500}=0{,}53$."
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(S\\mid J)=0{,}8$ steht am **Ast** von J nach S: $80\\,\\%$ der Jugendlichen haben eine Saisonkarte.\n\n$P(J\\cap S)=0{,}2$ steht am **Ende des Pfades** J → S: $20\\,\\%$ aller Gäste sind Jugendliche mit Saisonkarte."
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Äste eines Knotens beschreiben alle Möglichkeiten **innerhalb einer Gruppe** (z. B. alle Erwachsenen: mit oder ohne Saisonkarte), also zusammen $100\\,\\%$ dieser Gruppe.\n\nDie zweite Stufe besteht aus drei solchen Gruppen mit je $100\\,\\%$; addiert ergibt das $3$. Erst die Pfadwahrscheinlichkeiten beziehen sich alle auf dieselbe Gesamtheit und ergeben zusammen $1$."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Baumdiagramme invertieren – Satz von Bayes",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 22,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6",
+        "c3",
+        "c2",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR zugelassen, 22 Minuten.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Baum_invertieren.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$P(A\\cap V)=0{,}5\\cdot0{,}04=0{,}02$, $P(A\\cap \\overline{V})=0{,}48$, $P(B\\cap V)=0{,}3\\cdot0{,}1=0{,}03$, $P(B\\cap \\overline{V})=0{,}27$, $P(C\\cap V)=0{,}2\\cdot0{,}06=0{,}012$, $P(C\\cap \\overline{V})=0{,}188$",
+          "loesung_bild": "img/N4-1a.png"
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P(V)=0{,}02+0{,}03+0{,}012=0{,}062=6{,}2\\,\\%$"
+        },
+        {
+          "id": "N4-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Innere Felder = Pfadwahrscheinlichkeit · $1000$, Ränder als Zeilen- und Spaltensummen:\n\n|   | $V$ | $\\overline{V}$ | $\\Sigma$ |\n|---|---|---|---|\n| $A$ | $20$ | $480$ | $500$ |\n| $B$ | $30$ | $270$ | $300$ |\n| $C$ | $12$ | $188$ | $200$ |\n| $\\Sigma$ | $62$ | $938$ | $1000$ |"
+        },
+        {
+          "id": "N4-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Erste Stufe: $P(V)=0{,}062$, $P(\\overline{V})=0{,}938$.\n\nZweite Stufe aus der Spalte V der Tafel: $P(A\\mid V)=\\dfrac{20}{62}\\approx32{,}3\\,\\%$, $P(B\\mid V)=\\dfrac{30}{62}\\approx48{,}4\\,\\%$, $P(C\\mid V)=\\dfrac{12}{62}\\approx19{,}4\\,\\%$\n\naus der Spalte $\\overline{V}$: $P(A\\mid \\overline{V})=\\dfrac{480}{938}\\approx51{,}2\\,\\%$, $P(B\\mid \\overline{V})=\\dfrac{270}{938}\\approx28{,}8\\,\\%$, $P(C\\mid \\overline{V})=\\dfrac{188}{938}\\approx20{,}0\\,\\%$\n\nDie Pfadenden sind dieselben Schnittwahrscheinlichkeiten wie im Ausgangsbaum, nur anders sortiert.",
+          "loesung_bild": "img/N4-3.png"
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Fast die Hälfte ($48{,}4\\,\\%$) aller verspäteten Züge gehört zur Linie B, obwohl B nur $30\\,\\%$ der Ankünfte stellt – B ist besonders unpünktlich ($10\\,\\%$ Verspätungen)."
+        },
+        {
+          "id": "N4-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(B)=0{,}3\\cdot0{,}8+0{,}7\\cdot0{,}2=0{,}24+0{,}14=0{,}38$\n\n$P(A\\mid B)=\\dfrac{P(B\\mid A)\\cdot P(A)}{P(B)}=\\dfrac{0{,}24}{0{,}38}\\approx0{,}632=63{,}2\\,\\%$"
+        },
+        {
+          "id": "N4-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Gleiche Wahrscheinlichkeit $P(A\\mid V)=P(C\\mid V)$ heißt gleicher Zähler, also $P(A\\cap V)=P(C\\cap V)$.\n\n$0{,}2\\cdot q=0{,}02$, also $q=0{,}1$: $10\\,\\%$ der Züge von C müssten verspätet sein."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Vierfeldertafel",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c1",
+        "c2",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR zugelassen, 20 Minuten.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Vierfeldertafel.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$|S|=0{,}35\\cdot800=280$; gegeben $|W|=120$ und $|S\\cap W|=70$. Der Rest folgt aus den Summen:\n\n|   | $W$ | $\\overline{W}$ | $\\Sigma$ |\n|---|---|---|---|\n| $S$ | $70$ | $210$ | $280$ |\n| $\\overline{S}$ | $50$ | $470$ | $520$ |\n| $\\Sigma$ | $120$ | $680$ | $800$ |"
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Jede Anzahl durch $800$ teilen:\n\n|   | $W$ | $\\overline{W}$ | $\\Sigma$ |\n|---|---|---|---|\n| $S$ | $0{,}0875$ | $0{,}2625$ | $0{,}35$ |\n| $\\overline{S}$ | $0{,}0625$ | $0{,}5875$ | $0{,}65$ |\n| $\\Sigma$ | $0{,}15$ | $0{,}85$ | $1$ |"
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P(S\\cap \\overline{W})=0{,}2625$ (Photovoltaik, keine Wärmepumpe); $P(\\overline{S}\\cap\\overline{W})=0{,}5875$ (keins von beiden)"
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Bezug ist jeweils die Zeile der Bedingung:\n\n$P(W\\mid S)=\\dfrac{70}{280}=0{,}25$; $P(W\\mid \\overline{S})=\\dfrac{50}{520}\\approx0{,}096=9{,}6\\,\\%$"
+        },
+        {
+          "id": "N5-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "S zuerst: $P(S)=0{,}35$; $P(W\\mid S)=0{,}25$, $P(W\\mid \\overline{S})\\approx0{,}096$.\n\nW zuerst: $P(W)=0{,}15$; $P(S\\mid W)=\\dfrac{70}{120}\\approx0{,}583$, $P(S\\mid \\overline{W})=\\dfrac{210}{680}\\approx0{,}309$.\n\nAn den Pfadenden stehen in beiden Bäumen die vier inneren Felder der Tafel.",
+          "loesung_bild": "img/N5-3.png"
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(A\\cap B)=0{,}4\\cdot0{,}75=0{,}3$, $P(A\\cap \\overline{B})=0{,}1$, $P(\\overline{A}\\cap\\overline{B})=0{,}6\\cdot0{,}5=0{,}3$, $P(\\overline{A}\\cap B)=0{,}3$\n\n|   | $B$ | $\\overline{B}$ | $\\Sigma$ |\n|---|---|---|---|\n| $A$ | $0{,}3$ | $0{,}1$ | $0{,}4$ |\n| $\\overline{A}$ | $0{,}3$ | $0{,}3$ | $0{,}6$ |\n| $\\Sigma$ | $0{,}6$ | $0{,}4$ | $1$ |"
+        },
+        {
+          "id": "N5-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "(1) Wahr: $P(S\\mid W)=\\dfrac{70}{120}\\approx58{,}3\\,\\%$, also mehr als die Hälfte.\n\n(2) Falsch: $P(W\\mid S)=\\dfrac{70}{280}=25\\,\\%$. Die beiden Sätze vertauschen Bedingung und Ergebnis – dieselben $70$ Haushalte werden auf verschiedene Gruppen bezogen."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Tandem: Bäume, Tafeln, Bedingungen",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c5",
+        "c4",
+        "c6",
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets, ohne Hilfsmittel. Wer die Nummer hat, antwortet laut; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp.",
+      "bild": "img/st_N6.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N6-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "In einer Vierfeldertafel mit Anzahlen gilt $|A|=30$ und $|A\\cap B|=12$. Welche Zahl steht im Feld $A\\cap \\overline{B}$?",
+          "tipp": "Die Zeile A ergibt zusammen $|A|$.",
+          "loesung": "$30-12=18$"
+        },
+        {
+          "id": "N6-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "In einer Vierfeldertafel mit Anzahlen gilt $|B|=25$ und $|A\\cap B|=10$. Welche Zahl steht im Feld $\\overline{A}\\cap B$?",
+          "tipp": "Die Spalte B ergibt zusammen $|B|$.",
+          "loesung": "$25-10=15$"
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Es gilt $P(A)=0{,}5$ und $P(A\\cap B)=0{,}2$. Berechnen Sie $P(B\\mid A)$.",
+          "tipp": "Schnitt durch die Bedingung teilen.",
+          "loesung": "$\\dfrac{0{,}2}{0{,}5}=0{,}4$"
+        },
+        {
+          "id": "N6-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Es gilt $P(A)=0{,}4$ und $P(A\\cap B)=0{,}1$. Berechnen Sie $P(B\\mid A)$.",
+          "tipp": "Schnitt durch die Bedingung teilen.",
+          "loesung": "$\\dfrac{0{,}1}{0{,}4}=0{,}25$"
+        },
+        {
+          "id": "N6-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Im Baumdiagramm gilt $P(A)=0{,}3$ und $P(B\\mid A)=0{,}6$. Wie groß ist $P(A\\cap B)$?",
+          "tipp": "1. Pfadregel.",
+          "loesung": "$0{,}3\\cdot0{,}6=0{,}18$"
+        },
+        {
+          "id": "N6-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Im Baumdiagramm gilt $P(A)=0{,}8$ und $P(B\\mid A)=0{,}25$. Wie groß ist $P(A\\cap B)$?",
+          "tipp": "1. Pfadregel.",
+          "loesung": "$0{,}8\\cdot0{,}25=0{,}2$"
+        },
+        {
+          "id": "N6-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Es gilt $P(B\\mid A)=0{,}7$. Wie groß ist $P(\\overline{B}\\mid A)$?",
+          "tipp": "Die Äste eines Knotens ergänzen sich zu $1$.",
+          "loesung": "$1-0{,}7=0{,}3$"
+        },
+        {
+          "id": "N6-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Es gilt $P(B\\mid \\overline{A})=0{,}35$. Wie groß ist $P(\\overline{B}\\mid \\overline{A})$?",
+          "tipp": "Die Äste eines Knotens ergänzen sich zu $1$.",
+          "loesung": "$1-0{,}35=0{,}65$"
+        },
+        {
+          "id": "N6-9",
+          "label": "9",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Es gilt $P(A\\cap B)=0{,}18$ und $P(\\overline{A}\\cap B)=0{,}12$. Berechnen Sie $P(B)$ und $P(A\\mid B)$.",
+          "tipp": "Erst die Pfade zu B addieren, dann teilen.",
+          "loesung": "$P(B)=0{,}3$; $P(A\\mid B)=\\dfrac{0{,}18}{0{,}3}=0{,}6$"
+        },
+        {
+          "id": "N6-10",
+          "label": "10",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Es gilt $P(A\\cap B)=0{,}2$ und $P(\\overline{A}\\cap B)=0{,}05$. Berechnen Sie $P(B)$ und $P(A\\mid B)$.",
+          "tipp": "Erst die Pfade zu B addieren, dann teilen.",
+          "loesung": "$P(B)=0{,}25$; $P(A\\mid B)=\\dfrac{0{,}2}{0{,}25}=0{,}8$"
+        },
+        {
+          "id": "N6-11",
+          "label": "11",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Es gilt $P(A)=0{,}6$, $P(B)=0{,}5$ und $P(A\\cap B)=0{,}4$. Berechnen Sie $P(A\\cup B)$.",
+          "tipp": "Additionssatz: das Gemeinsame nur einmal zählen.",
+          "loesung": "$0{,}6+0{,}5-0{,}4=0{,}7$"
+        },
+        {
+          "id": "N6-12",
+          "label": "12",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Es gilt $P(A)=0{,}3$, $P(B)=0{,}4$ und $P(A\\cap B)=0{,}1$. Berechnen Sie $P(A\\cup B)$.",
+          "tipp": "Additionssatz: das Gemeinsame nur einmal zählen.",
+          "loesung": "$0{,}3+0{,}4-0{,}1=0{,}6$"
+        },
+        {
+          "id": "N6-13",
+          "label": "13",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Es gilt $P(A)=0{,}5$, $P(B\\mid A)=0{,}4$ und $P(B)=0{,}25$. Berechnen Sie $P(A\\mid B)$.",
+          "tipp": "Satz von Bayes.",
+          "loesung": "$\\dfrac{0{,}4\\cdot0{,}5}{0{,}25}=0{,}8$"
+        },
+        {
+          "id": "N6-14",
+          "label": "14",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Es gilt $P(A)=0{,}2$, $P(B\\mid A)=0{,}9$ und $P(B)=0{,}3$. Berechnen Sie $P(A\\mid B)$.",
+          "tipp": "Satz von Bayes.",
+          "loesung": "$\\dfrac{0{,}9\\cdot0{,}2}{0{,}3}=0{,}6$"
+        },
+        {
+          "id": "N6-15",
+          "label": "15",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Eine Tafel enthält $P(A\\cap B)=0{,}12$ und $P(A)=0{,}4$. Welche Wahrscheinlichkeit steht im Baumdiagramm (A zuerst) am Ast von A nach B?",
+          "tipp": "Ast der zweiten Stufe = bedingte Wahrscheinlichkeit.",
+          "loesung": "$P(B\\mid A)=\\dfrac{0{,}12}{0{,}4}=0{,}3$"
+        },
+        {
+          "id": "N6-16",
+          "label": "16",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Eine Tafel enthält $P(A\\cap \\overline{B})=0{,}24$ und $P(A)=0{,}6$. Welche Wahrscheinlichkeit steht im Baumdiagramm (A zuerst) am Ast von A nach $\\overline{B}$?",
+          "tipp": "Ast der zweiten Stufe = bedingte Wahrscheinlichkeit.",
+          "loesung": "$P(\\overline{B}\\mid A)=\\dfrac{0{,}24}{0{,}6}=0{,}4$"
+        },
+        {
+          "id": "N6-17",
+          "label": "17",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Es gilt $P(A\\cup B)=0{,}7$. Wie groß ist $P(\\overline{A}\\cap \\overline{B})$?",
+          "tipp": "„Keines von beiden“ ist das Gegenereignis von „mindestens eines“.",
+          "loesung": "$1-0{,}7=0{,}3$"
+        },
+        {
+          "id": "N6-18",
+          "label": "18",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Es gilt $P(A\\cup B)=0{,}85$. Wie groß ist $P(\\overline{A}\\cap \\overline{B})$?",
+          "tipp": "„Keines von beiden“ ist das Gegenereignis von „mindestens eines“.",
+          "loesung": "$1-0{,}85=0{,}15$"
+        },
+        {
+          "id": "N6-19",
+          "label": "19",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Von $200$ Personen gehören $80$ zu A, von diesen $20$ zu B. Wie groß ist $P(B\\mid A)$?",
+          "tipp": "Nur die $80$ Personen aus A zählen.",
+          "loesung": "$\\dfrac{20}{80}=0{,}25$"
+        },
+        {
+          "id": "N6-20",
+          "label": "20",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Von $300$ Personen gehören $150$ zu B, von diesen $45$ zu A. Wie groß ist $P(A\\mid B)$?",
+          "tipp": "Nur die $150$ Personen aus B zählen.",
+          "loesung": "$\\dfrac{45}{150}=0{,}3$"
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Stochastische Unabhängigkeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c5",
+        "g2",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR zugelassen, 20 Minuten.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Unabhaengigkeit.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(A)=\\dfrac{10}{20}=0{,}5$, $P(B)=\\dfrac{10}{20}=0{,}5$; $A\\cap B$: $12, 14, 16, 18, 20$, also $P(A\\cap B)=\\dfrac{5}{20}=0{,}25$.\n\n$P(A)\\cdot P(B)=0{,}25=P(A\\cap B)$: A und B sind unabhängig."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$P(D)=\\dfrac{8}{20}=0{,}4$; $A\\cap D$ enthält nur die $2$: $P(A\\cap D)=0{,}05$.\n\n$P(A)\\cdot P(D)=0{,}2\\neq0{,}05$: A und D sind abhängig."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(L\\mid A)=\\dfrac{12}{100}=0{,}12$ und $P(L)=\\dfrac{30}{250}=0{,}12$.\n\nBeide sind gleich: A und L sind (in dieser Umfrage) unabhängig."
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Unter Brillenträgern ist der Anteil der Linkshänder genauso groß wie unter allen Befragten: Ob jemand eine Brille trägt, verändert die Wahrscheinlichkeit für Linkshändigkeit nicht."
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(\\overline{A})=0{,}4$; $P(\\overline{B}\\mid A)=0{,}7$.\n\nUnabhängig heißt: B hat unter beiden Bedingungen dieselbe Wahrscheinlichkeit, also $P(B\\mid \\overline{A})=0{,}3$ und $P(\\overline{B}\\mid \\overline{A})=0{,}7$. Dann ist $P(B)=0{,}6\\cdot0{,}3+0{,}4\\cdot0{,}3=0{,}3=P(B\\mid A)$."
+        },
+        {
+          "id": "N7-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bei Unabhängigkeit gilt $P(G_1\\cap G_2)=P(G_1)\\cdot P(G_2)=0{,}4\\cdot0{,}5=0{,}2$."
+        },
+        {
+          "id": "N7-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Gegenereignis von „beide Grün“: $1-0{,}2=0{,}8$"
+        },
+        {
+          "id": "N7-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ohne gemeinsames Ergebnis ist $P(A\\cap B)=0$. Wegen $P(A)>0$ und $P(B)>0$ ist aber $P(A)\\cdot P(B)>0$.\n\nAlso $P(A\\cap B)\\neq P(A)\\cdot P(B)$: abhängig. Anschaulich: Tritt A ein, kann B sicher nicht mehr eintreten – A verändert die Wahrscheinlichkeit von B (auf $0$)."
+        },
+        {
+          "id": "N7-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Bei einer grünen Welle ist die zweite Ampel gerade dann eher grün, wenn man bei der ersten Grün hatte. Die Ereignisse sind abhängig; $0{,}2$ unterschätzt dann die Wahrscheinlichkeit für zweimal Grün."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 22,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c4",
+        "c5",
+        "c2",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner, 22 Minuten. Jede Lösung enthält genau einen Fehler.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Text steht $P(T\\mid A)=0{,}75$ – Bedingung und Ergebnis wurden vertauscht.\n\nRichtig: $P(T)=0{,}4\\cdot0{,}75+0{,}6\\cdot0{,}1=0{,}3+0{,}06=0{,}36$ und $P(A\\mid T)=\\dfrac{0{,}3}{0{,}36}=\\dfrac56\\approx0{,}833$"
+        },
+        {
+          "id": "N8-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Es wurde auf alle $200$ Befragten bezogen; das ist $P(R\\cap W)$. Die Bedingung R beschränkt auf die $80$ Radfahrer.\n\nRichtig: $P(W\\mid R)=\\dfrac{20}{80}=0{,}25$"
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(B)=0{,}4$ stimmt. Am neuen Ast steht aber $P(A\\mid B)$, nicht $P(B\\mid A)$ – die alten Äste lassen sich nicht übernehmen.\n\nRichtig: $P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=\\dfrac{0{,}3}{0{,}4}=0{,}75$"
+        },
+        {
+          "id": "N8-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Es wurde in der Spalte B gerechnet; $50-15=35$ ist $|\\overline{A}\\cap B|$. Das Feld $A\\cap\\overline{B}$ liegt in der Zeile A.\n\nRichtig: $|A\\cap \\overline{B}|=40-15=25$"
+        },
+        {
+          "id": "N8-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Das Kriterium ist falsch. „Gemeinsam eintreten können“ heißt nur, dass A und B nicht unvereinbar sind; über Unabhängigkeit entscheidet der Vergleich mit dem Produkt.\n\n$P(A)\\cdot P(B)=0{,}3\\cdot0{,}4=0{,}12=P(A\\cap B)$: A und B sind unabhängig."
+        },
+        {
+          "id": "N8-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ohne Zurücklegen verändert der erste Zug den Inhalt der Urne – die Züge sind abhängig.\n\nRichtig (1. Pfadregel): $P(A\\cap B)=\\dfrac{5}{10}\\cdot\\dfrac49=\\dfrac29\\approx0{,}222$. Zum Vergleich: $P(B)=\\dfrac{5}{10}\\cdot\\dfrac49+\\dfrac{5}{10}\\cdot\\dfrac59=\\dfrac12$, also $P(A)\\cdot P(B)=\\dfrac14\\neq\\dfrac29$."
+        },
+        {
+          "id": "N8-7",
+          "label": "7",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Ergebnisse, bei denen A und B beide eintreten, wurden doppelt gezählt.\n\nRichtig (Additionssatz): $P(A\\cup B)=0{,}5+0{,}4-0{,}2=0{,}7$"
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Erwartungswert und Glücksspiele",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 22,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c11",
+        "g6",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR zugelassen, 22 Minuten.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Erwartungswert.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| $x_i$ in € | $0$ | $1$ | $3$ | $10$ |\n|---|---|---|---|---|\n| $P(X=x_i)$ | $\\tfrac{6}{12}=\\tfrac12$ | $\\tfrac{3}{12}=\\tfrac14$ | $\\tfrac{2}{12}=\\tfrac16$ | $\\tfrac{1}{12}$ |\n\nSumme: $\\tfrac{6+3+2+1}{12}=1$"
+        },
+        {
+          "id": "N9-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E(X)=0\\cdot\\tfrac12+1\\cdot\\tfrac14+3\\cdot\\tfrac16+10\\cdot\\tfrac{1}{12}$\n\n$=\\tfrac{3}{12}+\\tfrac{6}{12}+\\tfrac{10}{12}=\\tfrac{19}{12}\\approx1{,}58\\,€$"
+        },
+        {
+          "id": "N9-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gewinn = Auszahlung − Einsatz: $E(X)-2=\\tfrac{19}{12}-2=-\\tfrac{5}{12}\\approx-0{,}42\\,€$.\n\nDer erwartete Gewinn ist negativ – das Spiel lohnt sich für die Spielenden nicht."
+        },
+        {
+          "id": "N9-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei sehr vielen Spielen verliert man im Mittel etwa $42$ Cent je Spiel; nach $100$ Spielen also rund $42\\,€$. Ein einzelnes Spiel kann trotzdem $8\\,€$ Gewinn bringen."
+        },
+        {
+          "id": "N9-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Fair heißt: erwarteter Gewinn $0\\,€$, also Einsatz $=E(X)=\\tfrac{19}{12}\\approx1{,}58\\,€$."
+        },
+        {
+          "id": "N9-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gesucht: $E(X)=2-0{,}25=1{,}75$. Mit dem Hauptfeld $a$: $\\dfrac{a+2\\cdot3+3\\cdot1}{12}=1{,}75$.\n\n$a+9=21$, also $a=12\\,€$."
+        },
+        {
+          "id": "N9-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Je Drehung $P(S)=\\tfrac14$, $P(\\overline{S})=\\tfrac34$.\n\n| Rabatt in € | $0$ | $2$ | $10$ |\n|---|---|---|---|\n| Wahrscheinlichkeit | $\\tfrac{9}{16}$ | $\\tfrac{3}{16}+\\tfrac{3}{16}=\\tfrac{6}{16}$ | $\\tfrac{1}{16}$ |",
+          "loesung_bild": "img/N9-3a.png"
+        },
+        {
+          "id": "N9-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$E(R)=0\\cdot\\tfrac{9}{16}+2\\cdot\\tfrac{6}{16}+10\\cdot\\tfrac{1}{16}=\\tfrac{22}{16}=1{,}375\\,€$"
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Bedingung: $E(X)=2-0{,}25=1{,}75$; bei $16$ gleich großen Feldern muss die Summe aller Auszahlungen $16\\cdot1{,}75=28\\,€$ betragen.\n\nBeispiel: ein Feld $20\\,€$, zwei Felder $2\\,€$, vier Felder $1\\,€$, neun Felder $0\\,€$ (Summe $20+4+4=28$).\n\nNachweis: $E(X)=20\\cdot\\tfrac{1}{16}+2\\cdot\\tfrac{2}{16}+1\\cdot\\tfrac{4}{16}=\\tfrac{28}{16}=1{,}75\\,€$, also im Mittel $2-1{,}75=0{,}25\\,€$ für den Stand. Andere Aufteilungen mit Summe $28\\,€$ und einem Feld ab $20\\,€$ sind ebenso richtig."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Hilfsmittelfreier Teil (HMF)",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c10",
+        "c11",
+        "c9",
+        "c1",
+        "c2",
+        "c4",
+        "c5",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner und Formelsammlung, 20 Minuten – im Format des hilfsmittelfreien Teils A der Klausur.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_HMF.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Wahrscheinlichkeit, dass eine volljährige Person keinen Führerschein hat."
+        },
+        {
+          "id": "N10-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$|A\\cup B|=12+8-5=15$, also $|\\overline{A}\\cap \\overline{B}|=20-15=5$"
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(B)=\\dfrac13\\cdot\\dfrac34+\\dfrac23\\cdot\\dfrac14=\\dfrac14+\\dfrac16=\\dfrac{5}{12}$\n\n$P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=\\dfrac{1}{4}:\\dfrac{5}{12}=\\dfrac{12}{20}=\\dfrac35$"
+        },
+        {
+          "id": "N10-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$P(A)\\cdot P(B)=0{,}2\\cdot0{,}5=0{,}1=P(A\\cap B)$: unabhängig."
+        },
+        {
+          "id": "N10-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E(X)=0\\cdot0{,}7+5\\cdot0{,}2+20\\cdot0{,}1=0+1+2=3\\,€$"
+        },
+        {
+          "id": "N10-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$3\\,€$: Dann ist der erwartete Gewinn $E(X)-3=0\\,€$."
+        },
+        {
+          "id": "N10-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Wahr. $P(B\\mid A)>P(B)$ heißt $\\dfrac{P(A\\cap B)}{P(A)}>P(B)$, also $P(A\\cap B)>P(A)\\cdot P(B)$.\n\nTeilt man diese Ungleichung durch $P(B)>0$, folgt $\\dfrac{P(A\\cap B)}{P(B)}>P(A)$, also $P(A\\mid B)>P(A)$."
+        },
+        {
+          "id": "N10-7",
+          "label": "7",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Beispiel: A „Ein Gast der Jugendherberge reist mit dem Rad an“ ($20\\,\\%$), B „Der Gast bucht ein Lunchpaket“. Von den Radfahrern bucht die Hälfte ein Lunchpaket, von den übrigen ein Viertel. (Jeder stimmige Zusammenhang mit A als Bedingung ist richtig.)\n\n$P(B)=0{,}2\\cdot0{,}5+0{,}8\\cdot0{,}25=0{,}1+0{,}2=0{,}3$"
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Check-out",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Am Ende der dritten Stunde bearbeiten. Ohne Hilfsmittel, 8 Minuten. Jede Aufgabe gehört zur Aufgabe mit derselben Nummer in N1 – vergleichen Sie in der Auswertung Ihre Punkte in N1 und N11.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $\\cup$ bedeutet „oder“: mindestens eines von beiden, auch beide.\n\n*B gewählt?* „Genau eines“ schließt den Fall „beide“ aus; die Vereinigung enthält ihn. → **N2** Aufgabe 2\n\n*C gewählt?* „A und B“ ist der Schnitt $A\\cap B$. → **N2** Aufgabe 1\n\n*A gewählt?* „Keines“ ist das Gegenereignis der Vereinigung. → **N2**"
+        },
+        {
+          "id": "N11-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $P(B\\mid A)=\\dfrac{36}{120}=0{,}3$ – Bezug sind nur die Autofahrer.\n\n*A gewählt?* $\\tfrac{36}{300}$ ist $P(A\\cap B)$. → **N2** Aufgabe 2\n\n*B gewählt?* $\\tfrac{120}{300}$ ist $P(A)$. → **N2**\n\n*D gewählt?* $P(B)$ braucht man dafür nicht. → **N2**"
+        },
+        {
+          "id": "N11-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Am Pfadende steht das Produkt der Äste, also die Schnittwahrscheinlichkeit $P(A\\cap \\overline{B})$.\n\n*A gewählt?* $P(\\overline{B}\\mid A)$ steht am Ast, nicht am Pfadende. → **N3** Aufgabe 2\n\n*C gewählt?* $P(\\overline{B})$ ist die Summe zweier Pfade. → **N3**\n\n*D gewählt?* Bedingung und Ergebnis vertauscht. → **N3**"
+        },
+        {
+          "id": "N11-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – 1. Pfadregel: $0{,}3\\cdot0{,}4=0{,}12$\n\n*B gewählt?* Entlang eines Pfades wird multipliziert, nicht addiert. → **G2** Aufgabe 1\n\n*C gewählt?* Subtrahiert statt multipliziert. → **G2**\n\n*D gewählt?* Dividiert statt multipliziert. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "N11-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – $P(A\\mid B)=\\dfrac{0{,}5\\cdot0{,}4}{0{,}25}=\\dfrac{0{,}2}{0{,}25}=0{,}8$\n\n*A gewählt?* $P(B\\mid A)$ und $P(A\\mid B)$ verwechselt. → **N4** Aufgabe 5\n\n*B gewählt?* $0{,}2$ ist $P(A\\cap B)$ – es fehlt die Division durch $P(B)$. → **N4**\n\n*D gewählt?* Mit $P(B)$ multipliziert statt durch $P(B)$ geteilt. → **N4**"
+        },
+        {
+          "id": "N11-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – In der Zeile A gilt: $|A\\cap B|+|A\\cap \\overline{B}|=|A|$, also $40-12=28$.\n\n*A gewählt?* $30-12$ gehört in das Feld $\\overline{A}\\cap B$ (Spalte statt Zeile). → **N5** Aufgabe 1\n\n*B gewählt?* $40$ ist die Randsumme von A bzw. $\\overline{A}$. → **N5**\n\n*C gewählt?* $50$ ist die Randsumme von $\\overline{B}$. → **N5**"
+        },
+        {
+          "id": "N11-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $P(A)\\cdot P(B)=0{,}15\\neq0{,}2=P(A\\cap B)$: abhängig.\n\n*B gewählt?* $P(A\\cap B)\\neq0$ heißt nur, dass A und B gemeinsam eintreten können. → **N7** Aufgabe 5\n\n*C gewählt?* Die Summe spielt für Unabhängigkeit keine Rolle. → **N7**\n\n*D gewählt?* $P(B\\mid A)=\\tfrac{0{,}2}{0{,}3}\\approx0{,}67\\neq0{,}5$. → **N7** Aufgabe 2"
+        },
+        {
+          "id": "N11-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $E(X)=(-4)\\cdot0{,}5+2\\cdot0{,}4+10\\cdot0{,}1=-2+0{,}8+1=-0{,}2$\n\n*A gewählt?* Das ist der Mittelwert der drei Werte ohne Gewichtung. → **N9** Aufgabe 1\n\n*C gewählt?* Das Minuszeichen von $-4$ ging verloren. → **N9**\n\n*D gewählt?* Nur die Werte addiert. → **N9**"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Fahrradverleih am Bahnhof",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Bedingte Wahrscheinlichkeit) – am besten nach N2 bis N3.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Fahrradverleih.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Jede der $240$ Ausleihen ist gleich wahrscheinlich (Laplace): $P(E)=\\dfrac{90}{240}=0{,}375$"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Anzahlen: $90$ → $18$ / $72$; $150$ → $15$ / $135$.\n\nWahrscheinlichkeiten: $P(E)=0{,}375$, $P(R\\mid E)=\\dfrac{18}{90}=0{,}2$, $P(R\\mid \\overline{E})=\\dfrac{15}{150}=0{,}1$; Pfade $0{,}075$; $0{,}3$; $0{,}0625$; $0{,}5625$.",
+          "loesung_bild": "img/V1-1b.png"
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(E\\cap R)=\\dfrac{18}{240}=0{,}075$\n\n$P(E\\cup R)=\\dfrac{90+33-18}{240}=\\dfrac{105}{240}=0{,}4375$ (E-Bike oder zu spät, mindestens eines)"
+        },
+        {
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$20\\,\\%$ der E-Bikes, aber nur $10\\,\\%$ der Räder ohne Motor kommen zu spät zurück: Bei E-Bikes ist eine verspätete Rückgabe doppelt so häufig."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nein. $20\\,\\%$ ist eine relative Häufigkeit aus vielen Ausleihen. Bei nur $10$ Ausleihen kann es zufällig mehr oder weniger sein; erst auf lange Sicht liegt der Anteil etwa bei $20\\,\\%$ (Gesetz der großen Zahlen)."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Pünktlich waren $240-33=207$ Ausleihen. Gegenereignis „beide pünktlich“:\n\n$\\dfrac{207}{240}\\cdot\\dfrac{206}{239}\\approx0{,}7434$, also $P(\\text{mindestens eine zu spät})\\approx1-0{,}7434=0{,}2566\\approx25{,}7\\,\\%$"
+        },
+        {
+          "id": "V1-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Bisher: $P(R)=\\dfrac{33}{240}=0{,}1375$. Neu: $P(R)=0{,}5\\cdot0{,}2+0{,}5\\cdot0{,}1=0{,}15$.\n\nDer Anteil verspäteter Rückgaben steigt von $13{,}75\\,\\%$ auf $15\\,\\%$.\n\nDie Annahme ist fraglich: Mit mehr E-Bikes ändern sich vielleicht die Kundinnen und Kunden (z. B. mehr Ausflügler, die länger fahren) – die bedingten Quoten müssen nicht gleich bleiben."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Regenvorhersage einer Wetter-App",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6",
+        "c1",
+        "c2",
+        "c3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Bedingte Wahrscheinlichkeit, Invertieren und Vierfeldertafel) – am besten nach N4 bis N6.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Wetter-App.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Pfade: $P(R\\cap V)=0{,}3\\cdot0{,}85=0{,}255$, $P(R\\cap \\overline{V})=0{,}045$, $P(\\overline{R}\\cap V)=0{,}7\\cdot0{,}15=0{,}105$, $P(\\overline{R}\\cap \\overline{V})=0{,}595$",
+          "loesung_bild": "img/V2-1a.png"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P(V)=0{,}255+0{,}105=0{,}36$"
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "|   | $V$ | $\\overline{V}$ | $\\Sigma$ |\n|---|---|---|---|\n| $R$ | $255$ | $45$ | $300$ |\n| $\\overline{R}$ | $105$ | $595$ | $700$ |\n| $\\Sigma$ | $360$ | $640$ | $1000$ |"
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$P_V(R)=P(R\\mid V)=\\dfrac{0{,}255}{0{,}36}\\approx0{,}708=70{,}8\\,\\%$\n\n$P(\\overline{V})=0{,}64$ und $P_{\\overline{V}}(\\overline{R})=P(\\overline{R}\\mid \\overline{V})=\\dfrac{0{,}595}{0{,}64}\\approx0{,}930=93{,}0\\,\\%$",
+          "loesung_bild": "img/V2-2a.png"
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Sagt die App Regen voraus, regnet es in gut $70\\,\\%$ der Fälle – nicht in $85\\,\\%$. Sagt sie keinen Regen voraus, bleibt es in $93\\,\\%$ der Fälle trocken; auf „kein Regen“ kann man sich also eher verlassen."
+        },
+        {
+          "id": "V2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$P(V)=0{,}1\\cdot0{,}85+0{,}9\\cdot0{,}15=0{,}085+0{,}135=0{,}22$; $P(R\\mid V)=\\dfrac{0{,}085}{0{,}22}\\approx0{,}386=38{,}6\\,\\%$\n\nEs gibt viel mehr trockene Tage; die wenigen Fehlalarme an diesen vielen Tagen ($0{,}135$) sind häufiger als die richtigen Vorhersagen an den seltenen Regentagen ($0{,}085$)."
+        },
+        {
+          "id": "V2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Richtig liegt die App bei $R\\cap V$ oder $\\overline{R}\\cap \\overline{V}$: am ersten Ort $0{,}255+0{,}595=0{,}85$, am trockenen Ort $0{,}085+0{,}765=0{,}85$. Die Aussage stimmt also.\n\nSie verschweigt aber, dass eine Regenvorhersage nur in $70{,}8\\,\\%$ bzw. sogar nur $38{,}6\\,\\%$ der Fälle zutrifft. Für Nutzer zählt $P(R\\mid V)$, nicht die Gesamttrefferquote."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Brandmeldeanlage mit zwei Sensoren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c4",
+        "c5",
+        "c1",
+        "c2",
+        "c3",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Bedingte Wahrscheinlichkeit, Invertieren und Vierfeldertafel, Unabhängigkeit) – am besten nach N7 bis N8.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Brandmeldeanlage.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bei Unabhängigkeit: $0{,}9\\cdot0{,}8=0{,}72$"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gegenereignis „beide versagen“: $0{,}1\\cdot0{,}2=0{,}02$, also $1-0{,}02=0{,}98$"
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "|   | $W$ | $\\overline{W}$ | $\\Sigma$ |\n|---|---|---|---|\n| $R$ | $150$ | $30$ | $180$ |\n| $\\overline{R}$ | $10$ | $10$ | $20$ |\n| $\\Sigma$ | $160$ | $40$ | $200$ |\n\n$P(R)\\cdot P(W)=0{,}9\\cdot0{,}8=0{,}72$, aber $P(R\\cap W)=\\dfrac{150}{200}=0{,}75$: abhängig."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Beide versagten $10$-mal, also in $5\\,\\%$ der Prüfungen statt der bei Unabhängigkeit erwarteten $2\\,\\%$. Die Sensoren versagen eher gemeinsam (z. B. gleicher Einbauort, Verschmutzung) – „mindestens einer löst aus“ ist mit $95\\,\\%$ seltener als die berechneten $98\\,\\%$."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Pfade: $P(F\\cap A)=0{,}002\\cdot0{,}98=0{,}00196$; $P(\\overline{F}\\cap A)=0{,}998\\cdot0{,}01=0{,}00998$\n\n$P(A)=0{,}00196+0{,}00998=0{,}01194$\n\n$P(F\\mid A)=\\dfrac{0{,}00196}{0{,}01194}\\approx0{,}164=16{,}4\\,\\%$",
+          "loesung_bild": "img/V3-3a.png"
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der erste Satz stimmt ungefähr: Nur etwa jeder sechste Alarm ist ein echter Brand.\n\nDie Folgerung ist falsch: Ein Alarm erhöht die Wahrscheinlichkeit für einen Brand von $0{,}2\\,\\%$ auf $16{,}4\\,\\%$, also auf das $82$-Fache. Weil ein Brand Menschenleben gefährdet, muss jeder Alarm ernst genommen werden."
+        },
+        {
+          "id": "V3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Alle drei versagen mit $0{,}1\\cdot0{,}2\\cdot(1-p)=0{,}02\\cdot(1-p)$. Bedingung: $0{,}02\\cdot(1-p)\\le0{,}001$.\n\n$1-p\\le0{,}05$, also $p\\ge0{,}95$: Der dritte Sensor muss bei einem Brand mit mindestens $95\\,\\%$ auslösen."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Komplexaufgabe: Garantie für Saugroboter",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c11",
+        "c7",
+        "c4",
+        "c5",
+        "c6",
+        "c1",
+        "c3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR zugelassen, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 4 (Bedingte Wahrscheinlichkeit, Invertieren und Vierfeldertafel, Unabhängigkeit, Erwartungswert) – am besten nach N9 bis N10.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Komplexaufgabe_Saugroboter.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Pfade: $P(B\\cap D)=0{,}6\\cdot0{,}15=0{,}09$, $P(\\overline{B}\\cap D)=0{,}4\\cdot0{,}1=0{,}04$\n\n$P(D)=0{,}09+0{,}04=0{,}13$",
+          "loesung_bild": "img/V4-1a.png"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "|   | $D$ | $\\overline{D}$ | $\\Sigma$ |\n|---|---|---|---|\n| $B$ | $180$ | $1020$ | $1200$ |\n| $\\overline{B}$ | $80$ | $720$ | $800$ |\n| $\\Sigma$ | $260$ | $1740$ | $2000$ |"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$P(\\overline{B}\\mid D)=\\dfrac{80}{260}\\approx0{,}308=30{,}8\\,\\%$"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(D\\mid B)=0{,}15\\neq0{,}13=P(D)$ (ebenso $P(B)\\cdot P(D)=0{,}078\\neq0{,}09$): abhängig.\n\nDas Modell verändert die Wahrscheinlichkeit eines Defekts: Basis-Geräte gehen häufiger kaputt."
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "| $x_i$ in € | $0$ | $80$ | $250$ |\n|---|---|---|---|\n| $P(X=x_i)$ | $0{,}85$ | $0{,}10$ | $0{,}05$ |\n\n$E(X)=0\\cdot0{,}85+80\\cdot0{,}1+250\\cdot0{,}05=8+12{,}5=20{,}50\\,€$"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Mittel kosten Reparaturen ohne Garantie $20{,}50\\,€$, die Garantie kostet $49\\,€$: Im Mittel lohnt sie sich für die Kundschaft nicht.\n\nDer Händler nimmt je Garantie im Mittel $49-20{,}50=28{,}50\\,€$ ein."
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Der Erwartungswert beschreibt den Mittelwert über sehr viele Geräte. Eine einzelne Person hat nur ein Gerät: Mit $5\\,\\%$ droht ein Verlust von $250\\,€$. Wer dieses Risiko nicht tragen will oder kann, zahlt lieber sicher $49\\,€$ (Absicherung statt Mittelwert).\n\nGrenzen: Ein Gerät kann mehrmals defekt werden; die Kosten sind nicht genau $80\\,€$ oder $250\\,€$; die Quoten stammen aus früheren Jahren und können sich ändern."
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bisher $15\\,\\%$ Defekte im Verhältnis $10:5=2:1$. Mittlere Kosten je Defekt: $\\dfrac{2\\cdot80+1\\cdot250}{3}=\\dfrac{410}{3}\\approx136{,}67\\,€$.\n\nFair, wenn $q\\cdot\\dfrac{410}{3}=49$, also $q=\\dfrac{147}{410}\\approx0{,}359$: ab einer Defektquote von etwa $35{,}9\\,\\%$."
+        }
+      ]
+    }
+  ]
+}

@@ -161,6 +161,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Punkte im Raum, Vektoren, Betrag, Skalarprodukt, Geraden in Parameterform, Lagebeziehungen von Geraden, Einstieg Matrizen"
+        },
+        {
+          "id": "stochastik",
+          "name": "Stochastik (E) – Lerntheke",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Bedingte Wahrscheinlichkeit, Baumdiagramme invertieren, Vierfeldertafel, stochastische Unabhängigkeit, Erwartungswert"
         }
       ]
     },
