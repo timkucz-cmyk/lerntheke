@@ -3,8 +3,32 @@
   "titel": "Kreisbewegung – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "sie",
-  "hinweis": "Beginnen Sie mit P1 (Diagnose). Die Lösungen von P1 empfehlen Ihnen passende Wahlstationen. P4 (Check-out) bearbeiten Sie am Ende der zweiten Stunde – vergleichen Sie dann Ihre Punkte in P1 und P4. W5 (Drehimpulserhaltung) übt Teststoff, der in keiner Pflichtstation vorkommt: Bearbeiten Sie W5 auf jeden Fall, wenn P1 Aufgabe 7 falsch oder unsicher war.",
+  "hinweis": "Alle Stationen sind testrelevant. Sind Sie bei Grundlagen aus Kinematik, Dynamik oder Mathematik (Geschwindigkeit, Bogenmaß, Winkelfunktionen, Kräfte, Impuls) unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt die typischen Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Kreisbewegung beschreiben), V2 nach N3 bis N5 (Zentripetalkraft), V3 nach N6 bis N8 (Kurven im Straßenverkehr), V4 nach N9 (Drehimpuls). N10 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N10.",
   "checkliste": [
+    {
+      "id": "g1",
+      "text": "Geschwindigkeiten berechnen und zwischen km/h und m/s umrechnen"
+    },
+    {
+      "id": "g2",
+      "text": "Kreisumfang und Bogenlänge berechnen und Winkel zwischen Grad- und Bogenmaß umrechnen"
+    },
+    {
+      "id": "g3",
+      "text": "Sinus, Kosinus und Tangens im rechtwinkligen Dreieck anwenden, auch zur Berechnung von Winkeln"
+    },
+    {
+      "id": "g4",
+      "text": "Die Newton’schen Axiome anwenden: Trägheitsprinzip, F = m · a mit der resultierenden Kraft, Wechselwirkungsprinzip"
+    },
+    {
+      "id": "g5",
+      "text": "Kräfte zeichnerisch und rechnerisch addieren und zerlegen; Gewichts-, Normal- und Haftreibungskraft berechnen"
+    },
+    {
+      "id": "g6",
+      "text": "Den Impuls berechnen und die Impulserhaltung anwenden"
+    },
     {
       "id": "c1",
       "text": "Die Grundgrößen der Kreisbewegung erläutern und ineinander umrechnen (Umlaufdauer, Frequenz, Bahn- und Winkelgeschwindigkeit)"
@@ -39,6 +63,20 @@
     }
   ],
   "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Kinematik, Dynamik und Mathematik",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
     {
       "id": "p1",
       "name": "Kreisbewegung beschreiben",
@@ -83,9 +121,192 @@
   "abschluss": "Test Kreisbewegung",
   "stationen": [
     {
-      "id": "P1",
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeiten Sie die Blöcke, bei denen Sie in der Selbsteinschätzung unsicher sind. Lücken schließen Sie danach mit G2. Rechnen Sie mit $g = 9{,}81\\,\\mathrm{m/s^2}$.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$t = 24\\,\\mathrm{min} = \\frac{24}{60}\\,\\mathrm{h} = 0{,}40\\,\\mathrm{h}$\n\n$v = \\frac{s}{t} = \\frac{36\\,\\mathrm{km}}{0{,}40\\,\\mathrm{h}} = 90\\,\\mathrm{km/h}$"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$1\\,\\mathrm{m/s} = \\frac{3600\\,\\mathrm{m}}{1\\,\\mathrm{h}} = 3{,}6\\,\\mathrm{km/h}$, also:\n\n$90\\,\\mathrm{km/h} : 3{,}6 = 25\\,\\mathrm{m/s}$; $15\\,\\mathrm{m/s} \\cdot 3{,}6 = 54\\,\\mathrm{km/h}$"
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$u = \\pi \\cdot d = \\pi \\cdot 0{,}40\\,\\mathrm{m} \\approx 1{,}26\\,\\mathrm{m}$\n\nJe Umdrehung rollt das Rad einen Umfang ab: $N = \\frac{100\\,\\mathrm{m}}{1{,}257\\,\\mathrm{m}} \\approx 80$ Umdrehungen."
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Ein voller Kreis: $360° \\mathrel{\\hat{=}} 2\\pi$, also $\\varphi = \\frac{\\alpha}{360°} \\cdot 2\\pi$.\n\n$45° \\mathrel{\\hat{=}} \\frac{\\pi}{4} \\approx 0{,}785$; $270° \\mathrel{\\hat{=}} \\frac{3\\pi}{2} \\approx 4{,}71$; $1{,}0 \\mathrel{\\hat{=}} \\frac{180°}{\\pi} \\approx 57{,}3°$"
+        },
+        {
+          "id": "G1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Im Bogenmaß: $\\varphi = \\frac{75°}{360°} \\cdot 2\\pi \\approx 1{,}309$\n\n$s = \\varphi \\cdot r = 1{,}309 \\cdot 12\\,\\mathrm{m} \\approx 15{,}7\\,\\mathrm{m}$\n\n(Ebenso: $\\frac{75}{360}$ des Umfangs $2\\pi \\cdot 12\\,\\mathrm{m}$.)"
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Schnur ist die Hypotenuse, die Höhe die Gegenkathete des Winkels:\n\n$h = 40\\,\\mathrm{m} \\cdot \\sin(35°) \\approx 22{,}9\\,\\mathrm{m}$"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Höhe (Gegenkathete) und waagerechte Strecke (Ankathete) sind bekannt, also Tangens:\n\n$\\tan(\\alpha) = \\frac{12\\,\\mathrm{m}}{100\\,\\mathrm{m}} = 0{,}12 \\Rightarrow \\alpha = \\tan^{-1}(0{,}12) \\approx 6{,}8°$"
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nach dem Trägheitsprinzip behält ein Körper seine Geschwindigkeit bei, solange keine resultierende Kraft auf ihn wirkt. Die Füße werden durch die Reibung am Boden mit dem Bus abgebremst, der Oberkörper nicht: Er bewegt sich mit der bisherigen Geschwindigkeit weiter und kippt deshalb gegenüber dem Bus nach vorn. Eine Kraft nach vorn gibt es dabei nicht."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Im Aktionsprinzip steht die resultierende Kraft: $F_{ges} = m \\cdot a = 1200\\,\\mathrm{kg} \\cdot 2{,}5\\,\\mathrm{m/s^2} = 3000\\,\\mathrm{N}$\n\n$F_{ges} = F_{Antrieb} - 400\\,\\mathrm{N} \\Rightarrow F_{Antrieb} = 3400\\,\\mathrm{N}$"
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$F_G = m \\cdot g = 40\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{m/s^2} \\approx 392\\,\\mathrm{N}$; auf waagerechtem Boden ist $F_N = F_G \\approx 392\\,\\mathrm{N}$.\n\n$F_{H,max} = \\mu_H \\cdot F_N = 0{,}50 \\cdot 392\\,\\mathrm{N} \\approx 196\\,\\mathrm{N}$"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Kräfte stehen senkrecht aufeinander; das Kräfteparallelogramm ist ein Rechteck:\n\n$F_{ges} = \\sqrt{(30\\,\\mathrm{N})^2 + (40\\,\\mathrm{N})^2} = 50\\,\\mathrm{N}$\n\n$\\tan(\\alpha) = \\frac{40\\,\\mathrm{N}}{30\\,\\mathrm{N}} \\Rightarrow \\alpha \\approx 53°$ von Osten in Richtung Norden."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$p = m \\cdot v = 0{,}27\\,\\mathrm{kg} \\cdot 20\\,\\mathrm{m/s} = 5{,}4\\,\\mathrm{N\\,s}$ ($= 5{,}4\\,\\mathrm{kg \\cdot m/s}$)"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Impulserhaltung (unelastisch, danach gemeinsame Geschwindigkeit):\n\n$30\\,\\mathrm{kg} \\cdot 4{,}0\\,\\mathrm{m/s} + 0 = (30\\,\\mathrm{kg} + 10\\,\\mathrm{kg}) \\cdot v$\n\n$v = \\frac{120\\,\\mathrm{N\\,s}}{40\\,\\mathrm{kg}} = 3{,}0\\,\\mathrm{m/s}$"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Bogenmaß, Winkel und Kräfte",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g2",
+        "g1",
+        "g3",
+        "g5",
+        "g4"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 15 Minuten. Übt typische Lücken aus G1: Bogenmaß und Bogenlänge, Geschwindigkeit, Winkelfunktionen, Kräfte zerlegen, Haftreibung, Aktionsprinzip. Rechnen Sie mit $g = 9{,}81\\,\\mathrm{m/s^2}$.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen_Bogenmass_Kraefte.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\varphi = \\frac{110°}{360°} \\cdot 2\\pi \\approx 1{,}92$"
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bogenlänge: $s = \\varphi \\cdot r = 1{,}920 \\cdot 0{,}55\\,\\mathrm{m} \\approx 1{,}06\\,\\mathrm{m}$\n\n(Ebenso: Umfang $2\\pi \\cdot 0{,}55\\,\\mathrm{m} \\approx 3{,}46\\,\\mathrm{m}$, davon $\\frac{110}{360}$, also $\\approx 1{,}06\\,\\mathrm{m}$.)"
+        },
+        {
+          "id": "G2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$v = \\frac{s}{t} = \\frac{1{,}056\\,\\mathrm{m}}{0{,}60\\,\\mathrm{s}} \\approx 1{,}76\\,\\mathrm{m/s}$; $1{,}76\\,\\mathrm{m/s} \\cdot 3{,}6 \\approx 6{,}3\\,\\mathrm{km/h}$"
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Rampe ist die Hypotenuse, der Höhenunterschied die Gegenkathete:\n\n$\\sin(\\alpha) = \\frac{3{,}0\\,\\mathrm{m}}{20\\,\\mathrm{m}} = 0{,}15 \\Rightarrow \\alpha = \\sin^{-1}(0{,}15) \\approx 8{,}6°$"
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$F_G = m \\cdot g = 1300\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{m/s^2} \\approx 12{,}75\\,\\mathrm{kN}$\n\n$F_{Gx} = F_G \\cdot \\sin(\\alpha) = 12{,}75\\,\\mathrm{kN} \\cdot 0{,}15 \\approx 1{,}91\\,\\mathrm{kN}$\n\n$F_N = F_G \\cdot \\cos(\\alpha) \\approx 12{,}75\\,\\mathrm{kN} \\cdot 0{,}989 \\approx 12{,}61\\,\\mathrm{kN}$"
+        },
+        {
+          "id": "G2-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Entlang der Rampe (bergauf positiv) wirken die Antriebskraft und die Hangabtriebskraft:\n\n$F_{Antrieb} - F_{Gx} = m \\cdot a \\Rightarrow F_{Antrieb} = m \\cdot a + F_{Gx}$\n\n$F_{Antrieb} = 1300\\,\\mathrm{kg} \\cdot 1{,}2\\,\\mathrm{m/s^2} + 1913\\,\\mathrm{N} \\approx 3{,}5\\,\\mathrm{kN}$\n\n($1560\\,\\mathrm{N}$ für das Schnellerwerden, $1913\\,\\mathrm{N}$ gegen die Hangabtriebskraft.)"
+        },
+        {
+          "id": "G2-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$F_{H,max} = \\mu_H \\cdot F_N = 0{,}70 \\cdot 12{,}61\\,\\mathrm{kN} \\approx 8{,}8\\,\\mathrm{kN}$\n\nDie Haftreibung muss nur $F_{Gx} \\approx 1{,}9\\,\\mathrm{kN}$ aufbringen, also bleibt das Auto stehen. (Achtung: Die Normalkraft ist auf der Rampe kleiner als $F_G$.)"
+        }
+      ]
+    },
+    {
+      "id": "N1",
       "titel": "Diagnose: Kreisbewegungen",
-      "typ": "pflicht",
+      "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 7,
       "hilfsmittel": "keine",
@@ -98,65 +319,66 @@
         "c6",
         "c8"
       ],
+      "kategorie": "neu",
       "hinweis": "Ohne Hilfsmittel, 7 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
-      "bild": "img/st_P1.svg",
-      "pdf": "pdf/P1_Diagnose.pdf",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
       "aufgaben": [
         {
-          "id": "P1-1",
+          "id": "N1-1",
           "label": "1",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**B** – Alle Punkte des Flügels überstreichen in derselben Zeit denselben Winkel, also ist $\\omega$ überall gleich. Wegen $v = \\omega \\cdot r$ ist $v$ beim vierfachen Radius viermal so groß: S legt je Umlauf den vierfachen Weg zurück.\n\n*A oder C gewählt?* Sie übertragen „außen schneller“ auf die Winkelgeschwindigkeit. *D gewählt?* Sie unterscheiden Bahn- und Winkelgeschwindigkeit nicht. → **W1** (Tandem, Nummer 4), danach **W4** Aufgabe 2"
+          "loesung": "**B** – Alle Punkte des Flügels überstreichen in derselben Zeit denselben Winkel, also ist $\\omega$ überall gleich. Wegen $v = \\omega \\cdot r$ ist $v$ beim vierfachen Radius viermal so groß: S legt je Umlauf den vierfachen Weg zurück.\n\n*A oder C gewählt?* Sie übertragen „außen schneller“ auf die Winkelgeschwindigkeit. *D gewählt?* Sie unterscheiden Bahn- und Winkelgeschwindigkeit nicht. → **N8** (Tandem, Nummer 4), danach **N7** Aufgabe 2"
         },
         {
-          "id": "P1-2",
+          "id": "N1-2",
           "label": "2",
           "punkte": 1,
           "afb": "I",
-          "loesung": "**D** – Die Umlaufdauer ist die Zeit für einen Umlauf: $T = \\frac{t}{N} = \\frac{60\\,\\mathrm{s}}{6} = 10\\,\\mathrm{s}$. Die Frequenz ist der Kehrwert: $f = \\frac{N}{t} = 0{,}1\\,\\mathrm{Hz}$.\n\n*B gewählt?* Sie haben die Frequenz berechnet. *A oder C gewählt?* Sie haben die Zahlen übernommen bzw. multipliziert. → **W1** (Tandem, Nummer 1), danach **W4** Aufgabe 1"
+          "loesung": "**D** – Die Umlaufdauer ist die Zeit für einen Umlauf: $T = \\frac{t}{N} = \\frac{60\\,\\mathrm{s}}{6} = 10\\,\\mathrm{s}$. Die Frequenz ist der Kehrwert: $f = \\frac{N}{t} = 0{,}1\\,\\mathrm{Hz}$.\n\n*B gewählt?* Sie haben die Frequenz berechnet. *A oder C gewählt?* Sie haben die Zahlen übernommen bzw. multipliziert. → **N8** (Tandem, Nummer 1), danach **N7** Aufgabe 1"
         },
         {
-          "id": "P1-3",
+          "id": "N1-3",
           "label": "3",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**A** – Solange das Teilchen an der Scheibe hängt, zwingt die Zentripetalkraft es auf die Kreisbahn. Löst es sich, fehlt diese Kraft. Nach dem Trägheitsprinzip bewegt es sich mit seiner Geschwindigkeit geradeaus weiter – und die zeigt tangential zur Bahn. (Danach zieht die Gewichtskraft die Bahn nach unten.)\n\n*B oder D gewählt?* Dahinter steckt die Vorstellung einer „Fliehkraft“, die nach außen zieht. *C gewählt?* Ein Körper „merkt“ sich keine Kreisbahn. → **W3** Aufgabe 1"
+          "loesung": "**A** – Solange das Teilchen an der Scheibe hängt, zwingt die Zentripetalkraft es auf die Kreisbahn. Löst es sich, fehlt diese Kraft. Nach dem Trägheitsprinzip bewegt es sich mit seiner Geschwindigkeit geradeaus weiter – und die zeigt tangential zur Bahn. (Danach zieht die Gewichtskraft die Bahn nach unten.)\n\n*B oder D gewählt?* Dahinter steckt die Vorstellung einer „Fliehkraft“, die nach außen zieht. *C gewählt?* Ein Körper „merkt“ sich keine Kreisbahn. → **N3** Aufgabe 1"
         },
         {
-          "id": "P1-4",
+          "id": "N1-4",
           "label": "4",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**C** – Auf die Kugel wirken nur zwei Kräfte: die Gewichtskraft $F_G$ und die Normalkraft $F_N$ der schrägen Trichterwand. Weil die Wand geneigt ist, zeigt $F_N$ schräg nach innen oben. Die Resultierende beider Kräfte zeigt waagerecht zur Mitte: Sie **ist** die Zentripetalkraft.\n\n*A gewählt?* Die Zentripetalkraft ist keine zusätzliche Kraft, sondern die Resultierende. *B oder D gewählt?* Eine „Zentrifugalkraft“ spürt man nur im mitfahrenden System, im ruhenden System gibt es sie nicht. → **W6** Aufgabe 1, danach **W4** Aufgabe 3"
+          "loesung": "**C** – Auf die Kugel wirken nur zwei Kräfte: die Gewichtskraft $F_G$ und die Normalkraft $F_N$ der schrägen Trichterwand. Weil die Wand geneigt ist, zeigt $F_N$ schräg nach innen oben. Die Resultierende beider Kräfte zeigt waagerecht zur Mitte: Sie **ist** die Zentripetalkraft.\n\n*A gewählt?* Die Zentripetalkraft ist keine zusätzliche Kraft, sondern die Resultierende. *B oder D gewählt?* Eine „Zentrifugalkraft“ spürt man nur im mitfahrenden System, im ruhenden System gibt es sie nicht. → **N4** Aufgabe 1, danach **N7** Aufgabe 3"
         },
         {
-          "id": "P1-5",
+          "id": "N1-5",
           "label": "5",
           "punkte": 1,
           "afb": "I",
-          "loesung": "**B** – $F_Z = \\frac{m \\cdot v^2}{r}$: Die Geschwindigkeit geht **quadratisch** ein. Doppelte Geschwindigkeit bedeutet $2^2 = 4$-fache Zentripetalkraft.\n\n*C gewählt?* Sie haben $F_Z \\sim v$ angenommen. *D gewählt?* $F_Z \\sim \\frac{1}{v}$ verwechselt (wie bei $\\frac{1}{r}$). *A gewählt?* Die Geschwindigkeit spielt sehr wohl eine Rolle. → **W4** Aufgabe 4, danach **W1** (Tandem, Nummer 5)"
+          "loesung": "**B** – $F_Z = \\frac{m \\cdot v^2}{r}$: Die Geschwindigkeit geht **quadratisch** ein. Doppelte Geschwindigkeit bedeutet $2^2 = 4$-fache Zentripetalkraft.\n\n*C gewählt?* Sie haben $F_Z \\sim v$ angenommen. *D gewählt?* $F_Z \\sim \\frac{1}{v}$ verwechselt (wie bei $\\frac{1}{r}$). *A gewählt?* Die Geschwindigkeit spielt sehr wohl eine Rolle. → **N7** Aufgabe 4, danach **N8** (Tandem, Nummer 5)"
         },
         {
-          "id": "P1-6",
+          "id": "N1-6",
           "label": "6",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**D** – Die Haftreibungskraft liefert die Zentripetalkraft: $\\mu_H \\cdot m \\cdot g = \\frac{m \\cdot v^2}{r}$. Die Masse steht auf beiden Seiten und kürzt sich: $v_{max} = \\sqrt{\\mu_H \\cdot g \\cdot r}$. Der LKW braucht zwar mehr Zentripetalkraft, bekommt aber auch eine größere Haftreibungskraft.\n\n*A, B oder C gewählt?* Sie betrachten nur eine der beiden Kräfte. → **W3** Aufgabe 2, danach **P3** Aufgabe 1c und **W4** Aufgabe 6"
+          "loesung": "**D** – Die Haftreibungskraft liefert die Zentripetalkraft: $\\mu_H \\cdot m \\cdot g = \\frac{m \\cdot v^2}{r}$. Die Masse steht auf beiden Seiten und kürzt sich: $v_{max} = \\sqrt{\\mu_H \\cdot g \\cdot r}$. Der LKW braucht zwar mehr Zentripetalkraft, bekommt aber auch eine größere Haftreibungskraft.\n\n*A, B oder C gewählt?* Sie betrachten nur eine der beiden Kräfte. → **N3** Aufgabe 2, danach **N6** Aufgabe 1c und **N7** Aufgabe 6; Normal- und Haftreibungskraft: **G2** Aufgabe 2"
         },
         {
-          "id": "P1-7",
+          "id": "N1-7",
           "label": "7",
           "punkte": 1,
           "afb": "II",
-          "loesung": "**A** – Ohne äußere Einwirkung bleibt der Drehimpuls $L = J \\cdot \\omega$ erhalten. Mit angezogenen Armen ist die Masse näher an der Drehachse, das Trägheitsmoment $J = \\sum m_i \\cdot r_i^2$ wird kleiner. Damit $J \\cdot \\omega$ gleich bleibt, muss $\\omega$ größer werden.\n\n*B gewählt?* Sie halten $\\omega$ für fest. *C gewählt?* Der Drehimpuls entsteht nicht durch das Anziehen der Arme. *D gewählt?* $\\omega$ und $J$ ändern sich gegenläufig, nicht gleichsinnig. → **W5** (Drehimpulserhaltung)"
+          "loesung": "**A** – Ohne äußere Einwirkung bleibt der Drehimpuls $L = J \\cdot \\omega$ erhalten. Mit angezogenen Armen ist die Masse näher an der Drehachse, das Trägheitsmoment $J = \\sum m_i \\cdot r_i^2$ wird kleiner. Damit $J \\cdot \\omega$ gleich bleibt, muss $\\omega$ größer werden.\n\n*B gewählt?* Sie halten $\\omega$ für fest. *C gewählt?* Der Drehimpuls entsteht nicht durch das Anziehen der Arme. *D gewählt?* $\\omega$ und $J$ ändern sich gegenläufig, nicht gleichsinnig. → **N9** (Drehimpulserhaltung)"
         }
       ]
     },
     {
-      "id": "P2",
+      "id": "N2",
       "titel": "Grundgrößen und Zentripetalkraft",
-      "typ": "pflicht",
+      "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 20,
       "hilfsmittel": "WTR, Formeldokument",
@@ -166,53 +388,54 @@
         "c3",
         "c4"
       ],
-      "bild": "img/st_P2.svg",
-      "pdf": "pdf/P2_Grundgroessen_Zentripetalkraft.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Grundgroessen_Zentripetalkraft.pdf",
       "aufgaben": [
         {
-          "id": "P2-1a",
+          "id": "N2-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "$T = \\frac{t}{N} = \\frac{60\\,\\mathrm{s}}{12} = 5{,}0\\,\\mathrm{s}$; $f = \\frac{1}{T} = 0{,}20\\,\\mathrm{Hz}$\n\n$\\omega = \\frac{2\\pi}{T} = \\frac{2\\pi}{5{,}0\\,\\mathrm{s}} \\approx 1{,}26\\,\\frac{1}{\\mathrm{s}}$"
         },
         {
-          "id": "P2-1b",
+          "id": "N2-1b",
           "label": "1b",
           "punkte": 1,
           "afb": "I",
           "loesung": "$v = \\omega \\cdot r = 1{,}257\\,\\frac{1}{\\mathrm{s}} \\cdot 60\\,\\mathrm{m} \\approx 75{,}4\\,\\mathrm{m/s} \\approx 271\\,\\mathrm{km/h}$\n\n(Ebenso: $v = \\frac{2\\pi \\cdot r}{T} = \\frac{2\\pi \\cdot 60\\,\\mathrm{m}}{5{,}0\\,\\mathrm{s}}$.)"
         },
         {
-          "id": "P2-1c",
+          "id": "N2-1c",
           "label": "1c",
           "punkte": 2,
           "afb": "II",
           "loesung": "$\\omega$ ist gleich ($1{,}26\\,\\frac{1}{\\mathrm{s}}$): Der ganze Rotor dreht sich in derselben Zeit um denselben Winkel.\n\n$v = \\omega \\cdot r$ und $a_Z = \\omega^2 \\cdot r$ sind bei H halb so groß wie bei S: $v_H \\approx 37{,}7\\,\\mathrm{m/s}$, $a_{Z,H} \\approx 47\\,\\mathrm{m/s^2}$; $v_S \\approx 75{,}4\\,\\mathrm{m/s}$, $a_{Z,S} \\approx 95\\,\\mathrm{m/s^2}$.\n\nBeschleunigt: Die Geschwindigkeit ist eine gerichtete Größe. Ihre Richtung ändert sich ständig (immer tangential zur Bahn). Nach dem Trägheitsprinzip braucht jede Richtungsänderung eine Kraft – hier die Zentripetalkraft zur Nabe."
         },
         {
-          "id": "P2-1d",
+          "id": "N2-1d",
           "label": "1d",
           "punkte": 2,
           "afb": "II",
           "loesung": "$F_Z = m \\cdot \\omega^2 \\cdot r = 0{,}50\\,\\mathrm{kg} \\cdot (1{,}257\\,\\frac{1}{\\mathrm{s}})^2 \\cdot 60\\,\\mathrm{m} \\approx 47\\,\\mathrm{N}$\n\nIm höchsten Punkt zeigt die Gewichtskraft $F_G = 0{,}50\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{m/s^2} \\approx 4{,}9\\,\\mathrm{N}$ schon zur Nabe und liefert einen Teil der Zentripetalkraft. Den Rest muss die Haftkraft des Eises liefern (ebenfalls zur Nabe):\n\n$F_{Haft} = F_Z - F_G \\approx 47\\,\\mathrm{N} - 4{,}9\\,\\mathrm{N} \\approx 42\\,\\mathrm{N}$\n\nDas ist fast das Neunfache der Gewichtskraft.\n\n(Löst sich der Brocken, fliegt er nach dem Trägheitsprinzip tangential weiter, im höchsten Punkt also waagerecht – daher die Warnschilder „Eisabwurf“.)"
         },
         {
-          "id": "P2-2a",
+          "id": "N2-2a",
           "label": "2a",
           "punkte": 1,
           "afb": "I",
           "loesung": "$a_Z = \\omega^2 \\cdot r = (146{,}6\\,\\frac{1}{\\mathrm{s}})^2 \\cdot 0{,}24\\,\\mathrm{m} \\approx 5{,}16 \\cdot 10^3\\,\\mathrm{m/s^2}$\n\n$\\frac{a_Z}{g} = \\frac{5158\\,\\mathrm{m/s^2}}{9{,}81\\,\\mathrm{m/s^2}} \\approx 526$, also rund das 530-Fache der Fallbeschleunigung."
         },
         {
-          "id": "P2-2b",
+          "id": "N2-2b",
           "label": "2b",
           "punkte": 2,
           "afb": "II",
           "loesung": "Damit sich etwas auf der Kreisbahn bewegt, muss eine Kraft zur Drehachse wirken. Für die Wäsche liefert die Trommelwand diese Zentripetalkraft (sie drückt die Wäsche nach innen).\n\nDas Wasser wird in der Wäsche nur schwach festgehalten. An den Löchern fehlt die Wand: Dort wirkt auf das Wasser keine ausreichende Kraft zur Achse. Nach dem Trägheitsprinzip bewegt es sich tangential geradeaus weiter – durch die Löcher hinaus."
         },
         {
-          "id": "P2-2c",
+          "id": "N2-2c",
           "label": "2c",
           "punkte": 2,
           "afb": "III",
@@ -221,9 +444,213 @@
       ]
     },
     {
-      "id": "P3",
+      "id": "N3",
+      "titel": "Vorhersagen – beobachten – erklären",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "iPad (Zeitlupe), Murmel, Ring einer Springform, Drehteller oder Bürostuhl mit Pappe, Münzen",
+      "checkliste": [
+        "c3",
+        "c2",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Vorhersagen_beobachten_erklaeren.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Jede begründete Vorhersage mit Skizze zählt, z. B. „Sie rollt geradeaus weiter, weil die Wand fehlt“ oder „Sie fliegt nach außen“. Bewertet wird die Begründung, nicht die Richtigkeit."
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Murmel rollt an der Lücke **geradeaus** weiter, und zwar in der Richtung, in die sie sich gerade bewegt hat: tangential zum Ring. Sie fliegt weder radial nach außen noch läuft sie auf dem Kreisbogen weiter.",
+          "loesung_bild": "img/N3-1b.png"
+        },
+        {
+          "id": "N3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Ring drückt die Wand die Murmel ständig zur Mitte (Normalkraft der Wand = Zentripetalkraft) und ändert so laufend die Richtung ihrer Geschwindigkeit. An der Lücke fehlt diese Kraft. Nach dem Trägheitsprinzip bewegt sich die Murmel dann geradlinig mit ihrer momentanen Geschwindigkeit weiter – tangential.\n\nGäbe es eine Kraft nach außen, müsste die Murmel an der Lücke radial nach außen abbiegen. Das beobachtet man nicht. Die „Fliehkraft“ spürt man nur im mitfahrenden System; im ruhenden System gibt es sie nicht."
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Jede begründete Vorhersage zählt (häufig: „außen zuerst“ und „die schwere Münze zuerst“)."
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "(i) Die äußere Münze rutscht deutlich früher.\n\n(ii) Die beiden Münzen rutschen etwa gleichzeitig; kleine Unterschiede je nach Münze und Oberfläche sind normal (verschiedene Haftreibungszahlen, siehe e)."
+        },
+        {
+          "id": "N3-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Haftreibungskraft liefert die Zentripetalkraft. Grenzfall:\n\n$\\mu_H \\cdot m \\cdot g = m \\cdot \\omega_{max}^2 \\cdot r \\Rightarrow \\omega_{max} = \\sqrt{\\frac{\\mu_H \\cdot g}{r}}$\n\n(i) Größeres $r$ → kleineres $\\omega_{max}$: Die äußere Münze rutscht zuerst (bei doppeltem Radius schon bei $\\frac{1}{\\sqrt{2}} \\approx 71\\,\\%$ der Winkelgeschwindigkeit). Alle Münzen haben dasselbe $\\omega$, außen ist aber die nötige Zentripetalkraft größer.\n\n(ii) Die Masse kürzt sich: Beide Münzen rutschen bei derselben Drehzahl."
+        },
+        {
+          "id": "N3-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Folgerung ist falsch. Es gibt keine Kraft „nach außen“. Die schwere Münze braucht zwar eine größere Zentripetalkraft ($F_Z \\sim m$), sie wird aber auch stärker angedrückt und erhält eine größere Haftreibungskraft ($F_H \\sim m$). Beide wachsen gleich, die Masse kürzt sich."
+        },
+        {
+          "id": "N3-2e",
+          "label": "2e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bedingungen des Modells (zwei genügen): gleiche Haftreibungszahl beider Münzen; Münzen klein gegen den Radius (Massenpunkt); Drehzahl langsam gesteigert (gleichförmige Kreisbewegung); waagerechter Teller.\n\nWeichen die Haftreibungszahlen ab, rutscht nach $\\omega_{max} = \\sqrt{\\frac{\\mu_H \\cdot g}{r}}$ die Münze mit dem kleineren $\\mu_H$ zuerst – unabhängig von ihrer Masse. Kleine Unterschiede in Versuch (ii) sind also kein Widerspruch zum Modell."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Kettenkarussell und Looping",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c5",
+        "c4",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Kettenkarussell_Looping.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Es wirken nur die Gewichtskraft $F_G$ (senkrecht nach unten) und die Kettenkraft $F_{Kette}$ (entlang der Kette schräg nach innen oben). Ihre Resultierende zeigt waagerecht zur Drehachse und ist die Zentripetalkraft $F_Z$.",
+          "loesung_bild": "img/N4-1a.png"
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Kräftedreieck liegt $F_Z$ gegenüber von $\\alpha$, $F_G$ anliegend:\n\n$\\tan(\\alpha) = \\frac{F_Z}{F_G} = \\frac{m \\cdot \\omega^2 \\cdot r}{m \\cdot g} = \\frac{\\omega^2 \\cdot r}{g}$\n\nDie Masse kürzt sich: Der Winkel hängt nur von $\\omega$ und $r$ ab, nicht davon, wer im Sitz sitzt. Leere und besetzte Sitze hängen deshalb gleich schräg."
+        },
+        {
+          "id": "N4-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$\\omega = \\frac{2\\pi}{6{,}0\\,\\mathrm{s}} \\approx 1{,}047\\,\\frac{1}{\\mathrm{s}}$, $\\frac{\\omega^2}{g} \\approx 0{,}1118\\,\\frac{1}{\\mathrm{m}}$. Gesucht ist $\\alpha$ mit $\\tan(\\alpha) = 0{,}1118 \\cdot (5{,}0 + 6{,}0 \\cdot \\sin(\\alpha))$:\n\n- $\\alpha = 40°$: links $0{,}839$, rechts $0{,}990$ (links zu klein)\n- $\\alpha = 45°$: links $1{,}000$, rechts $1{,}033$ (links zu klein)\n- $\\alpha = 46°$: links $1{,}036$, rechts $1{,}042$ (fast gleich)\n- $\\alpha = 47°$: links $1{,}072$, rechts $1{,}049$ (links zu groß)\n\nAlso $\\alpha \\approx 46°$, Bahnradius $r \\approx 9{,}3\\,\\mathrm{m}$. (Die Gleichung lässt sich nicht einfach nach $\\alpha$ umstellen, deshalb das Probieren.)"
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Gewichtskraft $F_G$ nach unten, Normalkraft $F_N$ des Sitzes nach oben (zur Mitte des Loopings). Ihre Resultierende zeigt zur Mitte und ist die Zentripetalkraft:\n\n$F_N - F_G = F_Z \\Rightarrow F_N = F_G + F_Z = m \\cdot g + \\frac{m \\cdot v^2}{r}$"
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{F_N}{F_G} = 1 + \\frac{v^2}{r \\cdot g} = 1 + \\frac{(23\\,\\mathrm{m/s})^2}{10\\,\\mathrm{m} \\cdot 9{,}81\\,\\mathrm{m/s^2}} \\approx 1 + 5{,}4 = 6{,}4$\n\nDie Person wird mit gut dem Sechsfachen ihrer Gewichtskraft in den Sitz gedrückt (über $6\\,g$). Das ist sehr viel (übliche Achterbahnen bleiben bei etwa 3 bis 4 $g$) und für Kopf und Nacken gefährlich – ein kreisförmiger Looping dieser Größe ist ungeeignet."
+        },
+        {
+          "id": "N4-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Tiefster Punkt: Dort ist der Wagen am schnellsten. Ein großer Radius macht $\\frac{v^2}{r}$ und damit die Belastung $F_N = m \\cdot \\left(g + \\frac{v^2}{r}\\right)$ klein.\n\nHöchster Punkt: Dort ist der Wagen langsam. Damit die Fahrgäste nicht aus dem Sitz fallen, muss $\\frac{v^2}{r} \\ge g$ sein, also $v_{oben} \\ge \\sqrt{g \\cdot r}$. Ein kleiner Radius oben macht diese Mindestgeschwindigkeit klein. Dann genügt unten eine kleinere Einfahrgeschwindigkeit (weniger Anlaufhöhe), was wiederum die Belastung unten senkt.\n\nEin Kreis kann das nicht: Damit der Wagen oben ankommt, braucht er unten mindestens $v = \\sqrt{5 \\cdot g \\cdot r}$ (Energieerhaltung über die Höhe $2r$), und dann ist $\\frac{F_N}{F_G} = 1 + 5 = 6$ – jeder kreisförmige Looping belastet unten mit mindestens $6\\,g$. Die Tropfenform verbindet eine erträgliche Belastung unten mit sicherem Durchfahren oben."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Messreihe: Zentripetalbeschleunigung",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c7",
+        "c4",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Messreihe_Drehteller.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Stufe 2: $T = \\frac{t_{10}}{10} = 1{,}123\\,\\mathrm{s}$; $\\omega = \\frac{2\\pi}{T} \\approx 5{,}60\\,\\frac{1}{\\mathrm{s}}$; $\\omega^2 \\approx 31{,}3\\,\\frac{1}{\\mathrm{s^2}}$\n\nStufe 5: $T = 0{,}606\\,\\mathrm{s}$; $\\omega \\approx 10{,}37\\,\\frac{1}{\\mathrm{s}}$; $\\omega^2 \\approx 107{,}5\\,\\frac{1}{\\mathrm{s^2}}$"
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Messpunkte liegen auf einer Geraden fast durch den Ursprung: $a_Z$ hängt linear von $\\omega^2$ ab, nahezu proportional ($a_Z \\sim \\omega^2$, der Achsenabschnitt ist klein). „linear“ und „proportional“ werden beide als richtig gewertet."
+        },
+        {
+          "id": "N5-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nach $a_Z = \\omega^2 \\cdot r$ ist die Steigung der Radius: $r \\approx 0{,}1582\\,\\mathrm{m}$.\n\nAbweichung: $\\frac{0{,}1582 - 0{,}150}{0{,}150} \\approx +5{,}5\\,\\%$. Der gemessene Radius ist etwas größer als die Markierung."
+        },
+        {
+          "id": "N5-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Diese Kraft übt die Verschraubung auf die Sonde aus (durch bloßes Haften wäre sie nicht aufzubringen, dafür wäre $\\mu_H > 2$ nötig).\n\n$F_Z = m \\cdot a_Z = 0{,}120\\,\\mathrm{kg} \\cdot 22{,}71\\,\\mathrm{m/s^2} \\approx 2{,}73\\,\\mathrm{N}$"
+        },
+        {
+          "id": "N5-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Folgerung ist falsch. Aus $a_Z = \\omega^2 \\cdot r = 4\\pi^2 \\cdot r \\cdot f^2$ folgt: Über $f$ aufgetragen ergibt sich eine Parabel – die gekrümmte Kurve passt also gerade zum Modell.\n\nPrüfen lässt sich das am einfachsten mit einer Geraden (Linearisierung): $a_Z$ über $f^2$ oder über $\\omega^2$ auftragen. Liegen die Punkte auf einer Ursprungsgeraden, ist $a_Z \\sim f^2$ bestätigt.",
+          "loesung_bild": "img/N5-1e.png"
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$T = 0{,}800\\,\\mathrm{s}$, $\\omega = \\frac{2\\pi}{T} \\approx 7{,}85\\,\\frac{1}{\\mathrm{s}}$, $\\omega^2 \\approx 61{,}7\\,\\frac{1}{\\mathrm{s^2}}$\n\nModell: $0{,}05\\,\\mathrm{m} \\to 3{,}08\\,\\mathrm{m/s^2}$; $0{,}10\\,\\mathrm{m} \\to 6{,}17\\,\\mathrm{m/s^2}$; $0{,}15\\,\\mathrm{m} \\to 9{,}25\\,\\mathrm{m/s^2}$; $0{,}20\\,\\mathrm{m} \\to 12{,}34\\,\\mathrm{m/s^2}$\n\nAlle Messwerte liegen um etwa $0{,}55$ bis $0{,}63\\,\\mathrm{m/s^2}$ darüber (Achsenabschnitt der Trendlinie $0{,}54\\,\\mathrm{m/s^2}$). Die Steigung der Trendlinie ($62{,}0\\,\\frac{1}{\\mathrm{s^2}}$, z. B. aus den Messwerten $\\frac{12{,}97 - 3{,}66}{0{,}15} \\approx 62{,}1$) stimmt gut mit $\\omega^2$ überein, aber die Gerade geht nicht durch den Ursprung."
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ein reiner Nullpunktversatz verschiebt beide Geraden um denselben kleinen Wert nach oben und ändert keine Steigung. Messreihe 1 hat aber nur $0{,}08\\,\\mathrm{m/s^2}$ Achsenabschnitt, Messreihe 2 dagegen $0{,}54\\,\\mathrm{m/s^2}$.\n\nEin Radiusversatz $\\delta$ erklärt beides: $a_Z = \\omega^2 \\cdot (r + \\delta)$.\n\n- Messreihe 1: Steigung $r + \\delta \\approx 0{,}1582\\,\\mathrm{m}$, also $\\delta \\approx 8\\,\\mathrm{mm}$.\n- Messreihe 2: Achsenabschnitt $\\omega^2 \\cdot \\delta \\approx 0{,}46\\,\\mathrm{m/s^2}$ (nach Abzug des kleinen Versatzes aus Reihe 1), also $\\delta \\approx \\frac{0{,}46}{61{,}7}\\,\\mathrm{m} \\approx 7\\,\\mathrm{mm}$.\n\nBeide Reihen passen zu einem Radiusversatz von etwa 7 bis 8 mm (Chip weiter außen als die Markierung); dazu kommt ein kleiner Nullpunktversatz von etwa $0{,}08\\,\\mathrm{m/s^2}$. Abhilfe: den Radius bis zur Chipmitte messen."
+        }
+      ]
+    },
+    {
+      "id": "N6",
       "titel": "Kurven im Straßenverkehr",
-      "typ": "pflicht",
+      "typ": "wahl",
       "sozialform": "einzel",
       "dauer_min": 20,
       "hilfsmittel": "WTR, Formeldokument",
@@ -232,152 +659,146 @@
         "c5",
         "c4"
       ],
-      "bild": "img/st_P3.svg",
-      "pdf": "pdf/P3_Kurven_Strassenverkehr.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Kurven_Strassenverkehr.pdf",
       "aufgaben": [
         {
-          "id": "P3-1a",
+          "id": "N6-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "Senkrecht: Gewichtskraft $F_G$ nach unten, Normalkraft $F_N$ der Straße nach oben ($F_N = F_G$). Waagerecht: Haftreibungskraft $F_H$ der Straße auf die Reifen, zum Kurvenmittelpunkt hin.\n\nDie Haftreibungskraft liefert die Zentripetalkraft: $F_H = F_Z$. Eine Kraft nach außen gibt es nicht.",
-          "loesung_bild": "img/P3-1a.png"
+          "loesung_bild": "img/N6-1a.png"
         },
         {
-          "id": "P3-1b",
+          "id": "N6-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "I",
           "loesung": "Grenzfall: Die größtmögliche Haftreibungskraft ist gerade so groß wie die nötige Zentripetalkraft:\n\n$\\mu_H \\cdot m \\cdot g = \\frac{m \\cdot v_{max}^2}{r} \\Rightarrow v_{max} = \\sqrt{\\mu_H \\cdot g \\cdot r}$\n\ntrocken: $v_{max} = \\sqrt{0{,}75 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 60\\,\\mathrm{m}} \\approx 21{,}0\\,\\mathrm{m/s} \\approx 76\\,\\mathrm{km/h}$\n\nnass: $v_{max} \\approx 16{,}3\\,\\mathrm{m/s} \\approx 59\\,\\mathrm{km/h}$\n\nGlatteis: $v_{max} \\approx 9{,}4\\,\\mathrm{m/s} \\approx 34\\,\\mathrm{km/h}$"
         },
         {
-          "id": "P3-1c",
+          "id": "N6-1c",
           "label": "1c",
           "punkte": 2,
           "afb": "II",
           "loesung": "In $\\mu_H \\cdot m \\cdot g = \\frac{m \\cdot v^2}{r}$ kürzt sich die Masse: Der LKW braucht zwar eine größere Zentripetalkraft (bei 12 t statt 1,2 t die zehnfache), bekommt aber im selben Verhältnis eine größere Haftreibungskraft. $v_{max}$ hängt nur von $\\mu_H$, $g$ und $r$ ab.\n\nGründe für langsameres Fahren (einer genügt):\n\n- Der LKW hat einen hohen Schwerpunkt und kann **kippen**, bevor er rutscht. Das Modell „Massenpunkt“ erfasst das nicht.\n- LKW-Reifen haben meist eine etwas kleinere Haftreibungszahl als PKW-Reifen.\n- Ladung kann verrutschen, der Bremsweg ist länger."
         },
         {
-          "id": "P3-1d",
+          "id": "N6-1d",
           "label": "1d",
           "punkte": 1,
           "afb": "II",
           "loesung": "$v = 50\\,\\mathrm{km/h} \\approx 13{,}9\\,\\mathrm{m/s}$\n\n$\\frac{F_Z}{F_{H,max}} = \\frac{m \\cdot v^2 / r}{\\mu_H \\cdot m \\cdot g} = \\frac{v^2}{\\mu_H \\cdot g \\cdot r} = \\frac{(13{,}9\\,\\mathrm{m/s})^2}{0{,}45 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 60\\,\\mathrm{m}} \\approx 0{,}73$\n\nRund $73\\,\\%$ der Haftreibung werden schon für die Kurve gebraucht.\n\n(Zusatz: Für zusätzliches Bremsen steht nur noch ein Teil der Haftreibung zur Verfügung – wer in der nassen Kurve stark bremst, kann ins Rutschen kommen. Brems- und Kurvenkraft stehen senkrecht aufeinander und addieren sich vektoriell; als Bremskraft bleiben etwa $\\sqrt{1 - 0{,}73^2} \\approx 0{,}68$, also rund 68 bis 69 % von $F_{H,max}$.)"
         },
         {
-          "id": "P3-2a",
+          "id": "N6-2a",
           "label": "2a",
           "punkte": 1,
           "afb": "I",
           "loesung": "$v = 10\\,\\mathrm{m/s}$\n\n$\\alpha = \\tan^{-1}\\left(\\frac{(10\\,\\mathrm{m/s})^2}{15\\,\\mathrm{m} \\cdot 9{,}81\\,\\mathrm{m/s^2}}\\right) = \\tan^{-1}(0{,}68) \\approx 34°$"
         },
         {
-          "id": "P3-2b",
+          "id": "N6-2b",
           "label": "2b",
           "punkte": 2,
           "afb": "II",
           "loesung": "Die Haftreibungskraft muss die Zentripetalkraft liefern: $\\mu_H \\cdot m \\cdot g \\ge \\frac{m \\cdot v^2}{r}$, also\n\n$\\mu_H \\ge \\frac{v^2}{r \\cdot g} = \\tan(\\alpha) \\approx 0{,}68$\n\nTrocken ($0{,}8 > 0{,}68$) gelingt die Fahrt, aber mit wenig Reserve. Nass ($0{,}45 < 0{,}68$) rutscht das Rad weg – sie muss langsamer fahren."
         },
         {
-          "id": "P3-2c",
+          "id": "N6-2c",
           "label": "2c",
           "punkte": 2,
           "afb": "III",
           "loesung": "Ohne Haftreibung wirken nur $F_G$ (senkrecht) und die Normalkraft $F_N$ (senkrecht zur Bahn, also um $\\beta$ gegen die Senkrechte geneigt). Ihre Resultierende muss waagerecht zum Kurvenmittelpunkt zeigen und ist $F_Z$:\n\n$\\tan(\\beta) = \\frac{F_Z}{F_G} = \\frac{v^2}{r \\cdot g} \\Rightarrow v = \\sqrt{g \\cdot r \\cdot \\tan(\\beta)}$\n\n$v = \\sqrt{9{,}81\\,\\mathrm{m/s^2} \\cdot 25\\,\\mathrm{m} \\cdot \\tan(42°)} \\approx 14{,}9\\,\\mathrm{m/s} \\approx 53\\,\\mathrm{km/h}$\n\nEs ist dieselbe Beziehung wie beim Neigungswinkel: Die Fahrerin steht dann senkrecht zur Bahn ($\\alpha = \\beta$).",
-          "loesung_bild": "img/P3-2c.png"
+          "loesung_bild": "img/N6-2c.png"
         }
       ]
     },
     {
-      "id": "P4",
-      "titel": "Check-out",
-      "typ": "pflicht",
+      "id": "N7",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
       "sozialform": "einzel",
-      "dauer_min": 7,
-      "hilfsmittel": "keine",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
       "checkliste": [
-        "c2",
-        "c1",
-        "c3",
-        "c5",
-        "c4",
         "c6",
-        "c8"
+        "c3",
+        "c1",
+        "c2",
+        "c5",
+        "c4"
       ],
-      "hinweis": "Am Ende der zweiten Stunde bearbeiten. Ohne Hilfsmittel, 7 Minuten. Jede Aufgabe entspricht der Aufgabe mit derselben Nummer in P1 – vergleichen Sie in der Auswertung Ihre Punkte in P1 und P4.",
-      "bild": "img/st_P4.svg",
-      "pdf": "pdf/P4_Check-out.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Fehler_finden_begruenden.pdf",
       "aufgaben": [
         {
-          "id": "P4-1",
+          "id": "N7-1",
           "label": "1",
-          "punkte": 1,
+          "punkte": 2,
           "afb": "II",
-          "loesung": "**C** – Der ganze Türflügel dreht sich in derselben Zeit um denselben Winkel: $\\omega$ ist gleich. Wegen $v = \\omega \\cdot r$ ist $v$ beim doppelten Radius doppelt so groß.\n\n*A oder B gewählt?* „Außen schneller“ gilt nur für $v$, nicht für $\\omega$. *D gewählt?* Bahn- und Winkelgeschwindigkeit werden nicht unterschieden. → **W1** (Tandem, Nummer 4), danach **W4** Aufgabe 2"
+          "loesung": "Fehler: Der Winkel wurde in Grad statt im Bogenmaß eingesetzt (für $v = \\omega \\cdot r$ muss ein Umlauf $2\\pi$ sein); dabei wurde die Einheit ° einfach weggelassen ($180\\,°/\\mathrm{min}$ wurde zu $180\\,\\frac{1}{\\mathrm{min}}$). Das Ergebnis ($1440\\,\\mathrm{m/min} = 24\\,\\mathrm{m/s}$) ist für eine Drehbühne absurd. Dass Kim in Minuten rechnet, ist dagegen kein Fehler.\n\nIn Minuten: $\\omega = \\frac{2\\pi}{2{,}0\\,\\mathrm{min}} \\approx 3{,}14\\,\\frac{1}{\\mathrm{min}}$, $v = \\omega \\cdot r \\approx 25\\,\\mathrm{m/min}$. In SI: $\\omega = \\frac{2\\pi}{120\\,\\mathrm{s}} \\approx 0{,}052\\,\\frac{1}{\\mathrm{s}}$; $v \\approx 0{,}052\\,\\frac{1}{\\mathrm{s}} \\cdot 8{,}0\\,\\mathrm{m} \\approx 0{,}42\\,\\mathrm{m/s}$"
         },
         {
-          "id": "P4-2",
+          "id": "N7-2",
           "label": "2",
           "punkte": 1,
-          "afb": "I",
-          "loesung": "**A** – $T = \\frac{t}{N} = \\frac{60\\,\\mathrm{s}}{15} = 4\\,\\mathrm{s}$; die Frequenz ist $f = \\frac{1}{T} = 0{,}25\\,\\mathrm{Hz}$.\n\n*C gewählt?* Das ist die Frequenz. *B oder D gewählt?* Zahlen übernommen bzw. multipliziert. → **W1** (Tandem, Nummer 1), danach **W4** Aufgabe 1"
+          "afb": "II",
+          "loesung": "Alle Punkte des starren Rades drehen sich in derselben Zeit um denselben Winkel: $\\omega$ ist überall gleich. Nur die Bahngeschwindigkeit $v = \\omega \\cdot r$ ist außen größer. Jonas verwechselt Bahn- und Winkelgeschwindigkeit."
         },
         {
-          "id": "P4-3",
+          "id": "N7-3",
           "label": "3",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**D** – Ohne Haftung am Reifen fehlt die Zentripetalkraft. Nach dem Trägheitsprinzip fliegt der Klumpen mit seiner Bahngeschwindigkeit geradeaus weiter, also tangential.\n\n*A oder C gewählt?* Es gibt keine Kraft, die ihn nach außen zieht. *B gewählt?* Ein Körper „merkt“ sich keine Kreisbahn. → **W3** Aufgabe 1"
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Zwei Fehler:\n\n- $F_Z$ ist keine zusätzliche Kraft. Auf das Flugzeug wirken nur die Gewichtskraft $F_G$ und die Auftriebskraft $F_A$ (senkrecht zu den Tragflächen, also schräg). Ihre Resultierende zeigt waagerecht zum Kurvenmittelpunkt – sie **ist** die Zentripetalkraft.\n- Eine „Zentrifugalkraft“ gibt es im ruhenden Bezugssystem nicht. Wäre die resultierende Kraft null (Gleichgewicht), flöge das Flugzeug nach dem Trägheitsprinzip geradeaus – es gäbe gar keine Kurve.\n\nRichtiges Kräftebild: nur $F_G$ nach unten und $F_A$ schräg nach innen oben; die Resultierende (gestrichelt) waagerecht nach innen."
         },
         {
-          "id": "P4-4",
+          "id": "N7-4",
           "label": "4",
-          "punkte": 1,
+          "punkte": 2,
           "afb": "II",
-          "loesung": "**B** – Auf den Bob wirken nur die Gewichtskraft und die Normalkraft der geneigten Eiswand. Ihre Resultierende zeigt waagerecht zum Kurvenmittelpunkt – sie ist die Zentripetalkraft.\n\n*A gewählt?* Die Zentripetalkraft ist keine zusätzliche Kraft. *C oder D gewählt?* Eine „Zentrifugalkraft“ gibt es im ruhenden System nicht. → **W6** Aufgabe 1, danach **W4** Aufgabe 3"
+          "loesung": "Fehler: $v$ nicht quadriert und den Durchmesser statt des Radius eingesetzt (die Einheit $\\mathrm{kg/s}$ zeigt schon, dass etwas nicht stimmt).\n\n$F_Z = \\frac{m \\cdot v^2}{r} = \\frac{160\\,\\mathrm{kg} \\cdot (10\\,\\mathrm{m/s})^2}{12\\,\\mathrm{m}} \\approx 1{,}3\\,\\mathrm{kN}$"
         },
         {
-          "id": "P4-5",
+          "id": "N7-5",
           "label": "5",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "**C** – $F_Z = \\frac{m \\cdot v^2}{r}$: Halbe Geschwindigkeit bedeutet $\\left(\\frac{1}{2}\\right)^2 = \\frac{1}{4}$ der Zentripetalkraft.\n\n*A gewählt?* Sie haben $F_Z \\sim v$ angenommen. *D gewählt?* $F_Z \\sim \\frac{1}{v}$ verwechselt. *B gewählt?* Die Geschwindigkeit spielt sehr wohl eine Rolle. → **W4** Aufgabe 4, danach **W1** (Tandem, Nummer 5)"
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im höchsten Punkt zeigen Gewichtskraft und Kraft des Sitzes beide nach unten, zur Mitte des Loopings. Ihre Summe ist die Zentripetalkraft. Ist der Wagen zu langsam, ist die nötige Zentripetalkraft kleiner als $F_G$: Die Gewichtskraft zieht die Fahrgäste stärker nach unten, als für die Kreisbahn nötig – sie fallen aus dem Sitz. Eine „Fliehkraft“ hält sie nicht.\n\nGrenzfall (Sitz drückt nicht mehr): $F_G = F_Z$, also $m \\cdot g = \\frac{m \\cdot v^2}{r}$:\n\n$v_{min} = \\sqrt{g \\cdot r} = \\sqrt{9{,}81\\,\\mathrm{m/s^2} \\cdot 8{,}0\\,\\mathrm{m}} \\approx 8{,}9\\,\\mathrm{m/s} \\approx 32\\,\\mathrm{km/h}$"
         },
         {
-          "id": "P4-6",
+          "id": "N7-6",
           "label": "6",
-          "punkte": 1,
+          "punkte": 2,
           "afb": "II",
-          "loesung": "**A** – $\\mu_H \\cdot m \\cdot g = \\frac{m \\cdot v^2}{r}$: Die Masse kürzt sich, $v_{max} = \\sqrt{\\mu_H \\cdot g \\cdot r}$ hängt nicht von der Masse ab.\n\n*B, C oder D gewählt?* Sie betrachten nur eine der beiden Kräfte. → **W3** Aufgabe 2, danach **P3** Aufgabe 1c und **W4** Aufgabe 6"
-        },
-        {
-          "id": "P4-7",
-          "label": "7",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "**D** – Der Drehimpuls $L = J \\cdot \\omega$ bleibt erhalten. Mit angezogenen Beinen ist das Trägheitsmoment kleiner, also wird $\\omega$ größer.\n\n*A gewählt?* $\\omega$ ist nicht fest. *B gewählt?* Durch das Anziehen entsteht kein zusätzlicher Drehimpuls. *C gewählt?* $\\omega$ und $J$ ändern sich gegenläufig, nicht gleichsinnig. → **W5** (Drehimpulserhaltung)"
+          "loesung": "Die Masse gehört nicht in die Formel: Aus $\\mu_H \\cdot m \\cdot g = \\frac{m \\cdot v^2}{r}$ kürzt sie sich heraus. Schon die Einheit ($\\sqrt{\\mathrm{kg}} \\cdot \\mathrm{m/s}$) und der Wert (über 8000 km/h) zeigen den Fehler. Die Schlussfolgerung ist deshalb falsch: $v_{max}$ hängt nicht von der Masse ab.\n\n$v_{max} = \\sqrt{0{,}6 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 50\\,\\mathrm{m}} \\approx 17\\,\\mathrm{m/s} \\approx 62\\,\\mathrm{km/h}$"
         }
       ]
     },
     {
-      "id": "W1",
+      "id": "N8",
       "titel": "Tandem: Kreisbewegung rechnen",
       "typ": "wahl",
       "sozialform": "tandem",
       "dauer_min": 15,
       "hilfsmittel": "WTR",
       "checkliste": [
+        "c6",
         "c1",
         "c2",
-        "c4",
-        "c6"
+        "c4"
       ],
+      "kategorie": "neu",
       "hinweis": "Zwei Personen, zwei Tablets, WTR. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. Rechnen Sie mit $g = 9{,}81\\,\\mathrm{m/s^2}$.",
-      "bild": "img/st_W1.svg",
+      "bild": "img/st_N8.svg",
       "pdf_optional": true,
       "aufgaben": [
         {
-          "id": "W1-1",
+          "id": "N8-1",
           "label": "1",
           "partner": "A",
           "punkte": 2,
@@ -387,7 +808,7 @@
           "loesung": "$f = 4{,}0\\,\\mathrm{Hz}$, $T = 0{,}25\\,\\mathrm{s}$\n\n$v = \\frac{u}{T} = \\frac{2{,}10\\,\\mathrm{m}}{0{,}25\\,\\mathrm{s}} = 8{,}4\\,\\mathrm{m/s} \\approx 30\\,\\mathrm{km/h}$"
         },
         {
-          "id": "W1-2",
+          "id": "N8-2",
           "label": "2",
           "partner": "B",
           "punkte": 2,
@@ -397,7 +818,7 @@
           "loesung": "$T = 720\\,\\mathrm{s}$; $\\omega = \\frac{2\\pi}{720\\,\\mathrm{s}} \\approx 8{,}7 \\cdot 10^{-3}\\,\\frac{1}{\\mathrm{s}}$\n\n$v = \\omega \\cdot r \\approx 8{,}73 \\cdot 10^{-3}\\,\\frac{1}{\\mathrm{s}} \\cdot 30\\,\\mathrm{m} \\approx 0{,}26\\,\\mathrm{m/s}$"
         },
         {
-          "id": "W1-3",
+          "id": "N8-3",
           "label": "3",
           "partner": "A",
           "punkte": 2,
@@ -407,7 +828,7 @@
           "loesung": "$f = \\frac{4800}{60\\,\\mathrm{s}} = 80\\,\\mathrm{Hz}$; $\\omega = 2\\pi \\cdot 80\\,\\mathrm{Hz} \\approx 503\\,\\frac{1}{\\mathrm{s}}$\n\n$v = \\omega \\cdot r \\approx 503\\,\\frac{1}{\\mathrm{s}} \\cdot 0{,}125\\,\\mathrm{m} \\approx 63\\,\\mathrm{m/s}$"
         },
         {
-          "id": "W1-4",
+          "id": "N8-4",
           "label": "4",
           "partner": "B",
           "punkte": 2,
@@ -417,7 +838,7 @@
           "loesung": "$f = \\frac{33{,}3}{60\\,\\mathrm{s}} \\approx 0{,}556\\,\\mathrm{Hz}$; $\\omega = 2\\pi \\cdot f \\approx 3{,}49\\,\\frac{1}{\\mathrm{s}}$\n\naußen: $v \\approx 3{,}49\\,\\frac{1}{\\mathrm{s}} \\cdot 0{,}14\\,\\mathrm{m} \\approx 0{,}49\\,\\mathrm{m/s}$; innen: $v \\approx 0{,}21\\,\\mathrm{m/s}$\n\nGleich bleiben $\\omega$, $T$ und $f$."
         },
         {
-          "id": "W1-5",
+          "id": "N8-5",
           "label": "5",
           "partner": "A",
           "punkte": 2,
@@ -427,7 +848,7 @@
           "loesung": "$v = \\frac{25}{3{,}6}\\,\\mathrm{m/s} \\approx 6{,}94\\,\\mathrm{m/s}$\n\n$F_Z = \\frac{12\\,000\\,\\mathrm{kg} \\cdot (6{,}94\\,\\mathrm{m/s})^2}{18\\,\\mathrm{m}} \\approx 32\\,\\mathrm{kN}$"
         },
         {
-          "id": "W1-6",
+          "id": "N8-6",
           "label": "6",
           "partner": "B",
           "punkte": 2,
@@ -437,7 +858,7 @@
           "loesung": "$a_Z = 8 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\approx 78{,}5\\,\\mathrm{m/s^2}$\n\n$\\omega = \\sqrt{\\frac{a_Z}{r}} = \\sqrt{\\frac{78{,}5\\,\\mathrm{m/s^2}}{8{,}0\\,\\mathrm{m}}} \\approx 3{,}13\\,\\frac{1}{\\mathrm{s}}$; $T = \\frac{2\\pi}{\\omega} \\approx 2{,}0\\,\\mathrm{s}$"
         },
         {
-          "id": "W1-7",
+          "id": "N8-7",
           "label": "7",
           "partner": "A",
           "punkte": 2,
@@ -447,7 +868,7 @@
           "loesung": "$v_{max} = \\sqrt{0{,}6 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 10\\,\\mathrm{m}} \\approx 7{,}7\\,\\mathrm{m/s} \\approx 28\\,\\mathrm{km/h}$"
         },
         {
-          "id": "W1-8",
+          "id": "N8-8",
           "label": "8",
           "partner": "B",
           "punkte": 2,
@@ -459,210 +880,7 @@
       ]
     },
     {
-      "id": "W2",
-      "titel": "Messreihe: Zentripetalbeschleunigung",
-      "typ": "wahl",
-      "sozialform": "partner",
-      "dauer_min": 20,
-      "hilfsmittel": "WTR, Formeldokument",
-      "checkliste": [
-        "c7",
-        "c4",
-        "c1"
-      ],
-      "bild": "img/st_W2.svg",
-      "pdf": "pdf/W2_Messreihe_Drehteller.pdf",
-      "aufgaben": [
-        {
-          "id": "W2-1a",
-          "label": "1a",
-          "punkte": 2,
-          "afb": "I",
-          "loesung": "Stufe 2: $T = \\frac{t_{10}}{10} = 1{,}123\\,\\mathrm{s}$; $\\omega = \\frac{2\\pi}{T} \\approx 5{,}60\\,\\frac{1}{\\mathrm{s}}$; $\\omega^2 \\approx 31{,}3\\,\\frac{1}{\\mathrm{s^2}}$\n\nStufe 5: $T = 0{,}606\\,\\mathrm{s}$; $\\omega \\approx 10{,}37\\,\\frac{1}{\\mathrm{s}}$; $\\omega^2 \\approx 107{,}5\\,\\frac{1}{\\mathrm{s^2}}$"
-        },
-        {
-          "id": "W2-1b",
-          "label": "1b",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "Die Messpunkte liegen auf einer Geraden fast durch den Ursprung: $a_Z$ hängt linear von $\\omega^2$ ab, nahezu proportional ($a_Z \\sim \\omega^2$, der Achsenabschnitt ist klein). „linear“ und „proportional“ werden beide als richtig gewertet."
-        },
-        {
-          "id": "W2-1c",
-          "label": "1c",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Nach $a_Z = \\omega^2 \\cdot r$ ist die Steigung der Radius: $r \\approx 0{,}1582\\,\\mathrm{m}$.\n\nAbweichung: $\\frac{0{,}1582 - 0{,}150}{0{,}150} \\approx +5{,}5\\,\\%$. Der gemessene Radius ist etwas größer als die Markierung."
-        },
-        {
-          "id": "W2-1d",
-          "label": "1d",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "Diese Kraft übt die Verschraubung auf die Sonde aus (durch bloßes Haften wäre sie nicht aufzubringen, dafür wäre $\\mu_H > 2$ nötig).\n\n$F_Z = m \\cdot a_Z = 0{,}120\\,\\mathrm{kg} \\cdot 22{,}71\\,\\mathrm{m/s^2} \\approx 2{,}73\\,\\mathrm{N}$"
-        },
-        {
-          "id": "W2-1e",
-          "label": "1e",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Die Folgerung ist falsch. Aus $a_Z = \\omega^2 \\cdot r = 4\\pi^2 \\cdot r \\cdot f^2$ folgt: Über $f$ aufgetragen ergibt sich eine Parabel – die gekrümmte Kurve passt also gerade zum Modell.\n\nPrüfen lässt sich das am einfachsten mit einer Geraden (Linearisierung): $a_Z$ über $f^2$ oder über $\\omega^2$ auftragen. Liegen die Punkte auf einer Ursprungsgeraden, ist $a_Z \\sim f^2$ bestätigt.",
-          "loesung_bild": "img/W2-1e.png"
-        },
-        {
-          "id": "W2-2a",
-          "label": "2a",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "$T = 0{,}800\\,\\mathrm{s}$, $\\omega = \\frac{2\\pi}{T} \\approx 7{,}85\\,\\frac{1}{\\mathrm{s}}$, $\\omega^2 \\approx 61{,}7\\,\\frac{1}{\\mathrm{s^2}}$\n\nModell: $0{,}05\\,\\mathrm{m} \\to 3{,}08\\,\\mathrm{m/s^2}$; $0{,}10\\,\\mathrm{m} \\to 6{,}17\\,\\mathrm{m/s^2}$; $0{,}15\\,\\mathrm{m} \\to 9{,}25\\,\\mathrm{m/s^2}$; $0{,}20\\,\\mathrm{m} \\to 12{,}34\\,\\mathrm{m/s^2}$\n\nAlle Messwerte liegen um etwa $0{,}55$ bis $0{,}63\\,\\mathrm{m/s^2}$ darüber (Achsenabschnitt der Trendlinie $0{,}54\\,\\mathrm{m/s^2}$). Die Steigung der Trendlinie ($62{,}0\\,\\frac{1}{\\mathrm{s^2}}$, z. B. aus den Messwerten $\\frac{12{,}97 - 3{,}66}{0{,}15} \\approx 62{,}1$) stimmt gut mit $\\omega^2$ überein, aber die Gerade geht nicht durch den Ursprung."
-        },
-        {
-          "id": "W2-2b",
-          "label": "2b",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "Ein reiner Nullpunktversatz verschiebt beide Geraden um denselben kleinen Wert nach oben und ändert keine Steigung. Messreihe 1 hat aber nur $0{,}08\\,\\mathrm{m/s^2}$ Achsenabschnitt, Messreihe 2 dagegen $0{,}54\\,\\mathrm{m/s^2}$.\n\nEin Radiusversatz $\\delta$ erklärt beides: $a_Z = \\omega^2 \\cdot (r + \\delta)$.\n\n- Messreihe 1: Steigung $r + \\delta \\approx 0{,}1582\\,\\mathrm{m}$, also $\\delta \\approx 8\\,\\mathrm{mm}$.\n- Messreihe 2: Achsenabschnitt $\\omega^2 \\cdot \\delta \\approx 0{,}46\\,\\mathrm{m/s^2}$ (nach Abzug des kleinen Versatzes aus Reihe 1), also $\\delta \\approx \\frac{0{,}46}{61{,}7}\\,\\mathrm{m} \\approx 7\\,\\mathrm{mm}$.\n\nBeide Reihen passen zu einem Radiusversatz von etwa 7 bis 8 mm (Chip weiter außen als die Markierung); dazu kommt ein kleiner Nullpunktversatz von etwa $0{,}08\\,\\mathrm{m/s^2}$. Abhilfe: den Radius bis zur Chipmitte messen."
-        }
-      ]
-    },
-    {
-      "id": "W3",
-      "titel": "Vorhersagen – beobachten – erklären",
-      "typ": "wahl",
-      "sozialform": "partner",
-      "dauer_min": 20,
-      "hilfsmittel": "iPad (Zeitlupe), Murmel, Ring einer Springform, Drehteller oder Bürostuhl mit Pappe, Münzen",
-      "checkliste": [
-        "c3",
-        "c2",
-        "c6"
-      ],
-      "bild": "img/st_W3.svg",
-      "pdf": "pdf/W3_Vorhersagen_beobachten_erklaeren.pdf",
-      "aufgaben": [
-        {
-          "id": "W3-1a",
-          "label": "1a",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "Jede begründete Vorhersage mit Skizze zählt, z. B. „Sie rollt geradeaus weiter, weil die Wand fehlt“ oder „Sie fliegt nach außen“. Bewertet wird die Begründung, nicht die Richtigkeit."
-        },
-        {
-          "id": "W3-1b",
-          "label": "1b",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "Die Murmel rollt an der Lücke **geradeaus** weiter, und zwar in der Richtung, in die sie sich gerade bewegt hat: tangential zum Ring. Sie fliegt weder radial nach außen noch läuft sie auf dem Kreisbogen weiter.",
-          "loesung_bild": "img/W3-1b.png"
-        },
-        {
-          "id": "W3-1c",
-          "label": "1c",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Im Ring drückt die Wand die Murmel ständig zur Mitte (Normalkraft der Wand = Zentripetalkraft) und ändert so laufend die Richtung ihrer Geschwindigkeit. An der Lücke fehlt diese Kraft. Nach dem Trägheitsprinzip bewegt sich die Murmel dann geradlinig mit ihrer momentanen Geschwindigkeit weiter – tangential.\n\nGäbe es eine Kraft nach außen, müsste die Murmel an der Lücke radial nach außen abbiegen. Das beobachtet man nicht. Die „Fliehkraft“ spürt man nur im mitfahrenden System; im ruhenden System gibt es sie nicht."
-        },
-        {
-          "id": "W3-2a",
-          "label": "2a",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "Jede begründete Vorhersage zählt (häufig: „außen zuerst“ und „die schwere Münze zuerst“)."
-        },
-        {
-          "id": "W3-2b",
-          "label": "2b",
-          "punkte": 1,
-          "afb": "I",
-          "loesung": "(i) Die äußere Münze rutscht deutlich früher.\n\n(ii) Die beiden Münzen rutschen etwa gleichzeitig; kleine Unterschiede je nach Münze und Oberfläche sind normal (verschiedene Haftreibungszahlen, siehe e)."
-        },
-        {
-          "id": "W3-2c",
-          "label": "2c",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Die Haftreibungskraft liefert die Zentripetalkraft. Grenzfall:\n\n$\\mu_H \\cdot m \\cdot g = m \\cdot \\omega_{max}^2 \\cdot r \\Rightarrow \\omega_{max} = \\sqrt{\\frac{\\mu_H \\cdot g}{r}}$\n\n(i) Größeres $r$ → kleineres $\\omega_{max}$: Die äußere Münze rutscht zuerst (bei doppeltem Radius schon bei $\\frac{1}{\\sqrt{2}} \\approx 71\\,\\%$ der Winkelgeschwindigkeit). Alle Münzen haben dasselbe $\\omega$, außen ist aber die nötige Zentripetalkraft größer.\n\n(ii) Die Masse kürzt sich: Beide Münzen rutschen bei derselben Drehzahl."
-        },
-        {
-          "id": "W3-2d",
-          "label": "2d",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "Die Folgerung ist falsch. Es gibt keine Kraft „nach außen“. Die schwere Münze braucht zwar eine größere Zentripetalkraft ($F_Z \\sim m$), sie wird aber auch stärker angedrückt und erhält eine größere Haftreibungskraft ($F_H \\sim m$). Beide wachsen gleich, die Masse kürzt sich."
-        },
-        {
-          "id": "W3-2e",
-          "label": "2e",
-          "punkte": 2,
-          "afb": "III",
-          "loesung": "Bedingungen des Modells (zwei genügen): gleiche Haftreibungszahl beider Münzen; Münzen klein gegen den Radius (Massenpunkt); Drehzahl langsam gesteigert (gleichförmige Kreisbewegung); waagerechter Teller.\n\nWeichen die Haftreibungszahlen ab, rutscht nach $\\omega_{max} = \\sqrt{\\frac{\\mu_H \\cdot g}{r}}$ die Münze mit dem kleineren $\\mu_H$ zuerst – unabhängig von ihrer Masse. Kleine Unterschiede in Versuch (ii) sind also kein Widerspruch zum Modell."
-        }
-      ]
-    },
-    {
-      "id": "W4",
-      "titel": "Fehler finden und begründen",
-      "typ": "wahl",
-      "sozialform": "einzel",
-      "dauer_min": 20,
-      "hilfsmittel": "WTR, Formeldokument",
-      "checkliste": [
-        "c3",
-        "c1",
-        "c2",
-        "c5",
-        "c4",
-        "c6"
-      ],
-      "bild": "img/st_W4.svg",
-      "pdf": "pdf/W4_Fehler_finden_begruenden.pdf",
-      "aufgaben": [
-        {
-          "id": "W4-1",
-          "label": "1",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Fehler: Der Winkel wurde in Grad statt im Bogenmaß eingesetzt (für $v = \\omega \\cdot r$ muss ein Umlauf $2\\pi$ sein); dabei wurde die Einheit ° einfach weggelassen ($180\\,°/\\mathrm{min}$ wurde zu $180\\,\\frac{1}{\\mathrm{min}}$). Das Ergebnis ($1440\\,\\mathrm{m/min} = 24\\,\\mathrm{m/s}$) ist für eine Drehbühne absurd. Dass Kim in Minuten rechnet, ist dagegen kein Fehler.\n\nIn Minuten: $\\omega = \\frac{2\\pi}{2{,}0\\,\\mathrm{min}} \\approx 3{,}14\\,\\frac{1}{\\mathrm{min}}$, $v = \\omega \\cdot r \\approx 25\\,\\mathrm{m/min}$. In SI: $\\omega = \\frac{2\\pi}{120\\,\\mathrm{s}} \\approx 0{,}052\\,\\frac{1}{\\mathrm{s}}$; $v \\approx 0{,}052\\,\\frac{1}{\\mathrm{s}} \\cdot 8{,}0\\,\\mathrm{m} \\approx 0{,}42\\,\\mathrm{m/s}$"
-        },
-        {
-          "id": "W4-2",
-          "label": "2",
-          "punkte": 1,
-          "afb": "II",
-          "loesung": "Alle Punkte des starren Rades drehen sich in derselben Zeit um denselben Winkel: $\\omega$ ist überall gleich. Nur die Bahngeschwindigkeit $v = \\omega \\cdot r$ ist außen größer. Jonas verwechselt Bahn- und Winkelgeschwindigkeit."
-        },
-        {
-          "id": "W4-3",
-          "label": "3",
-          "punkte": 3,
-          "afb": "III",
-          "loesung": "Zwei Fehler:\n\n- $F_Z$ ist keine zusätzliche Kraft. Auf das Flugzeug wirken nur die Gewichtskraft $F_G$ und die Auftriebskraft $F_A$ (senkrecht zu den Tragflächen, also schräg). Ihre Resultierende zeigt waagerecht zum Kurvenmittelpunkt – sie **ist** die Zentripetalkraft.\n- Eine „Zentrifugalkraft“ gibt es im ruhenden Bezugssystem nicht. Wäre die resultierende Kraft null (Gleichgewicht), flöge das Flugzeug nach dem Trägheitsprinzip geradeaus – es gäbe gar keine Kurve.\n\nRichtiges Kräftebild: nur $F_G$ nach unten und $F_A$ schräg nach innen oben; die Resultierende (gestrichelt) waagerecht nach innen."
-        },
-        {
-          "id": "W4-4",
-          "label": "4",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Fehler: $v$ nicht quadriert und den Durchmesser statt des Radius eingesetzt (die Einheit $\\mathrm{kg/s}$ zeigt schon, dass etwas nicht stimmt).\n\n$F_Z = \\frac{m \\cdot v^2}{r} = \\frac{160\\,\\mathrm{kg} \\cdot (10\\,\\mathrm{m/s})^2}{12\\,\\mathrm{m}} \\approx 1{,}3\\,\\mathrm{kN}$"
-        },
-        {
-          "id": "W4-5",
-          "label": "5",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Im höchsten Punkt zeigen Gewichtskraft und Kraft des Sitzes beide nach unten, zur Mitte des Loopings. Ihre Summe ist die Zentripetalkraft. Ist der Wagen zu langsam, ist die nötige Zentripetalkraft kleiner als $F_G$: Die Gewichtskraft zieht die Fahrgäste stärker nach unten, als für die Kreisbahn nötig – sie fallen aus dem Sitz. Eine „Fliehkraft“ hält sie nicht.\n\nGrenzfall (Sitz drückt nicht mehr): $F_G = F_Z$, also $m \\cdot g = \\frac{m \\cdot v^2}{r}$:\n\n$v_{min} = \\sqrt{g \\cdot r} = \\sqrt{9{,}81\\,\\mathrm{m/s^2} \\cdot 8{,}0\\,\\mathrm{m}} \\approx 8{,}9\\,\\mathrm{m/s} \\approx 32\\,\\mathrm{km/h}$"
-        },
-        {
-          "id": "W4-6",
-          "label": "6",
-          "punkte": 2,
-          "afb": "II",
-          "loesung": "Die Masse gehört nicht in die Formel: Aus $\\mu_H \\cdot m \\cdot g = \\frac{m \\cdot v^2}{r}$ kürzt sie sich heraus. Schon die Einheit ($\\sqrt{\\mathrm{kg}} \\cdot \\mathrm{m/s}$) und der Wert (über 8000 km/h) zeigen den Fehler. Die Schlussfolgerung ist deshalb falsch: $v_{max}$ hängt nicht von der Masse ab.\n\n$v_{max} = \\sqrt{0{,}6 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 50\\,\\mathrm{m}} \\approx 17\\,\\mathrm{m/s} \\approx 62\\,\\mathrm{km/h}$"
-        }
-      ]
-    },
-    {
-      "id": "W5",
+      "id": "N9",
       "titel": "Drehimpulserhaltung",
       "typ": "wahl",
       "sozialform": "einzel",
@@ -672,46 +890,47 @@
         "c8",
         "c4"
       ],
-      "bild": "img/st_W5.svg",
-      "pdf": "pdf/W5_Drehimpulserhaltung.pdf",
+      "kategorie": "neu",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Drehimpulserhaltung.pdf",
       "aufgaben": [
         {
-          "id": "W5-1a",
+          "id": "N9-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
           "loesung": "Drehimpulserhaltung: $J_1 \\cdot \\omega_1 = J_2 \\cdot \\omega_2$\n\n$\\omega_2 = \\frac{J_1 \\cdot \\omega_1}{J_2} = \\frac{15\\,\\mathrm{kg\\,m^2} \\cdot 2{,}0\\,\\frac{1}{\\mathrm{s}}}{4{,}0\\,\\mathrm{kg\\,m^2}} = 7{,}5\\,\\frac{1}{\\mathrm{s}}$"
         },
         {
-          "id": "W5-1b",
+          "id": "N9-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "II",
           "loesung": "$f_2 = \\frac{\\omega_2}{2\\pi} \\approx 1{,}19\\,\\mathrm{Hz}$; $N = f_2 \\cdot t \\approx 1{,}19\\,\\mathrm{Hz} \\cdot 1{,}2\\,\\mathrm{s} \\approx 1{,}4$ Umdrehungen\n\nDie Flugzeit ist durch die Höhe festgelegt, der Drehimpuls durch den Absprung. Mehr Umdrehungen gibt es nur mit größerem $\\omega$, also mit kleinerem $J$: Je enger die Hocke (Masse näher an der Achse), desto schneller dreht sie sich."
         },
         {
-          "id": "W5-1c",
+          "id": "N9-1c",
           "label": "1c",
           "punkte": 2,
           "afb": "III",
           "loesung": "$E_{rot,1} = \\frac{1}{2} \\cdot 15\\,\\mathrm{kg\\,m^2} \\cdot (2{,}0\\,\\frac{1}{\\mathrm{s}})^2 = 30\\,\\mathrm{J}$; $E_{rot,2} = \\frac{1}{2} \\cdot 4{,}0\\,\\mathrm{kg\\,m^2} \\cdot (7{,}5\\,\\frac{1}{\\mathrm{s}})^2 \\approx 113\\,\\mathrm{J}$\n\nDie Rotationsenergie wächst auf fast das Vierfache, obwohl der Drehimpuls gleich bleibt. Die Energie stammt aus der Muskelarbeit: Beim Anhocken müssen die Muskeln Arme und Beine gegen deren Bestreben, geradeaus weiterzufliegen, zur Achse ziehen (sie bringen die nötige Zentripetalkraft auf und verrichten dabei Arbeit). Ein Teil der chemischen Energie wird so zu Rotationsenergie."
         },
         {
-          "id": "W5-2a",
+          "id": "N9-2a",
           "label": "2a",
           "punkte": 2,
           "afb": "I",
-          "loesung": "$J_1 = J_P + 2 \\cdot m \\cdot r_1^2 = 1{,}6\\,\\mathrm{kg\\,m^2} + 2 \\cdot 2{,}0\\,\\mathrm{kg} \\cdot (0{,}75\\,\\mathrm{m})^2 = 3{,}85\\,\\mathrm{kg\\,m^2}$\n\n$J_2 = 1{,}6\\,\\mathrm{kg\\,m^2} + 2 \\cdot 2{,}0\\,\\mathrm{kg} \\cdot (0{,}20\\,\\mathrm{m})^2 = 1{,}76\\,\\mathrm{kg\\,m^2}$"
+          "loesung": "Trägheitsmoment mit zwei Hanteln: $J = J_P + 2 \\cdot m \\cdot r^2$\n\n$J_1 = 1{,}6\\,\\mathrm{kg\\,m^2} + 2 \\cdot 2{,}0\\,\\mathrm{kg} \\cdot (0{,}75\\,\\mathrm{m})^2 = 3{,}85\\,\\mathrm{kg\\,m^2}$\n\n$J_2 = 1{,}6\\,\\mathrm{kg\\,m^2} + 2 \\cdot 2{,}0\\,\\mathrm{kg} \\cdot (0{,}20\\,\\mathrm{m})^2 = 1{,}76\\,\\mathrm{kg\\,m^2}$"
         },
         {
-          "id": "W5-2b",
+          "id": "N9-2b",
           "label": "2b",
           "punkte": 2,
           "afb": "II",
           "loesung": "Mit $\\omega = 2\\pi \\cdot f$: $J_1 \\cdot f_1 = J_2 \\cdot f_2$\n\n$f_2 = \\frac{3{,}85\\,\\mathrm{kg\\,m^2} \\cdot 0{,}40\\,\\mathrm{Hz}}{1{,}76\\,\\mathrm{kg\\,m^2}} \\approx 0{,}875\\,\\mathrm{Hz}$; gemessen $0{,}81\\,\\mathrm{Hz}$ (etwa $7\\,\\%$ weniger).\n\nPassende Ursachen (zwei genügen):\n\n- Lagerreibung bremst während des Heranziehens.\n- Die Hanteln sind keine Massenpunkte: Ihr eigenes Trägheitsmoment kommt vorher und nachher gleich hinzu, das Verhältnis $\\frac{J_1}{J_2}$ wird kleiner.\n- $r_2 = 0{,}20\\,\\mathrm{m}$ ist kaum erreichbar; ist $r_2$ größer, wird $f_2$ kleiner.\n\nNicht passend: Die Arme ziehen sich mit ein und verkleinern $J$ zusätzlich – das würde $f_2$ noch **größer** machen und erklärt die Abweichung nicht."
         },
         {
-          "id": "W5-3",
+          "id": "N9-3",
           "label": "3",
           "punkte": 2,
           "afb": "II",
@@ -720,62 +939,379 @@
       ]
     },
     {
-      "id": "W6",
-      "titel": "Kettenkarussell und Looping",
+      "id": "N10",
+      "titel": "Check-out",
       "typ": "wahl",
       "sozialform": "einzel",
-      "dauer_min": 20,
-      "hilfsmittel": "WTR, Formeldokument",
+      "dauer_min": 7,
+      "hilfsmittel": "keine",
       "checkliste": [
+        "c8",
+        "c2",
+        "c1",
+        "c3",
         "c5",
         "c4",
-        "c3"
+        "c6"
       ],
-      "bild": "img/st_W6.svg",
-      "pdf": "pdf/W6_Kettenkarussell_Looping.pdf",
+      "kategorie": "neu",
+      "hinweis": "Zum Schluss bearbeiten. Ohne Hilfsmittel, 7 Minuten. Jede Aufgabe entspricht der Aufgabe mit derselben Nummer in N1 – vergleichen Sie in der Auswertung Ihre Punkte in N1 und N10.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Check-out.pdf",
       "aufgaben": [
         {
-          "id": "W6-1a",
+          "id": "N10-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Der ganze Türflügel dreht sich in derselben Zeit um denselben Winkel: $\\omega$ ist gleich. Wegen $v = \\omega \\cdot r$ ist $v$ beim doppelten Radius doppelt so groß.\n\n*A oder B gewählt?* „Außen schneller“ gilt nur für $v$, nicht für $\\omega$. *D gewählt?* Bahn- und Winkelgeschwindigkeit werden nicht unterschieden. → **N8** (Tandem, Nummer 4), danach **N7** Aufgabe 2"
+        },
+        {
+          "id": "N10-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $T = \\frac{t}{N} = \\frac{60\\,\\mathrm{s}}{15} = 4\\,\\mathrm{s}$; die Frequenz ist $f = \\frac{1}{T} = 0{,}25\\,\\mathrm{Hz}$.\n\n*C gewählt?* Das ist die Frequenz. *B oder D gewählt?* Zahlen übernommen bzw. multipliziert. → **N8** (Tandem, Nummer 1), danach **N7** Aufgabe 1"
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Ohne Haftung am Reifen fehlt die Zentripetalkraft. Nach dem Trägheitsprinzip fliegt der Klumpen mit seiner Bahngeschwindigkeit geradeaus weiter, also tangential.\n\n*A oder C gewählt?* Es gibt keine Kraft, die ihn nach außen zieht. *B gewählt?* Ein Körper „merkt“ sich keine Kreisbahn. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "N10-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Auf den Bob wirken nur die Gewichtskraft und die Normalkraft der geneigten Eiswand. Ihre Resultierende zeigt waagerecht zum Kurvenmittelpunkt – sie ist die Zentripetalkraft.\n\n*A gewählt?* Die Zentripetalkraft ist keine zusätzliche Kraft. *C oder D gewählt?* Eine „Zentrifugalkraft“ gibt es im ruhenden System nicht. → **N4** Aufgabe 1, danach **N7** Aufgabe 3"
+        },
+        {
+          "id": "N10-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $F_Z = \\frac{m \\cdot v^2}{r}$: Halbe Geschwindigkeit bedeutet $\\left(\\frac{1}{2}\\right)^2 = \\frac{1}{4}$ der Zentripetalkraft.\n\n*A gewählt?* Sie haben $F_Z \\sim v$ angenommen. *D gewählt?* $F_Z \\sim \\frac{1}{v}$ verwechselt. *B gewählt?* Die Geschwindigkeit spielt sehr wohl eine Rolle. → **N7** Aufgabe 4, danach **N8** (Tandem, Nummer 5)"
+        },
+        {
+          "id": "N10-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $\\mu_H \\cdot m \\cdot g = \\frac{m \\cdot v^2}{r}$: Die Masse kürzt sich, $v_{max} = \\sqrt{\\mu_H \\cdot g \\cdot r}$ hängt nicht von der Masse ab.\n\n*B, C oder D gewählt?* Sie betrachten nur eine der beiden Kräfte. → **N3** Aufgabe 2, danach **N6** Aufgabe 1c und **N7** Aufgabe 6; Normal- und Haftreibungskraft: **G2** Aufgabe 2"
+        },
+        {
+          "id": "N10-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Der Drehimpuls $L = J \\cdot \\omega$ bleibt erhalten. Mit angezogenen Beinen ist das Trägheitsmoment kleiner, also wird $\\omega$ größer.\n\n*A gewählt?* $\\omega$ ist nicht fest. *B gewählt?* Durch das Anziehen entsteht kein zusätzlicher Drehimpuls. *C gewählt?* $\\omega$ und $J$ ändern sich gegenläufig, nicht gleichsinnig. → **N9** (Drehimpulserhaltung)"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Die Festplatte",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c2",
+        "c1",
+        "g1",
+        "g2"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 (Umlaufdauer, Frequenz, Bahn- und Winkelgeschwindigkeit) – am besten nach N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Festplatte.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
           "label": "1a",
           "punkte": 2,
           "afb": "I",
-          "loesung": "Es wirken nur die Gewichtskraft $F_G$ (senkrecht nach unten) und die Kettenkraft $F_{Kette}$ (entlang der Kette schräg nach innen oben). Ihre Resultierende zeigt waagerecht zur Drehachse und ist die Zentripetalkraft $F_Z$.",
-          "loesung_bild": "img/W6-1a.png"
+          "loesung": "$f = \\frac{N}{t} = \\frac{7200}{60\\,\\mathrm{s}} = 120\\,\\mathrm{Hz}$; $T = \\frac{1}{f} \\approx 8{,}33\\,\\mathrm{ms}$\n\n$\\omega = 2\\pi \\cdot f = 2\\pi \\cdot 120\\,\\mathrm{Hz} \\approx 754\\,\\frac{1}{\\mathrm{s}}$"
         },
         {
-          "id": "W6-1b",
+          "id": "V1-1b",
           "label": "1b",
           "punkte": 2,
           "afb": "II",
-          "loesung": "Im Kräftedreieck liegt $F_Z$ gegenüber von $\\alpha$, $F_G$ anliegend:\n\n$\\tan(\\alpha) = \\frac{F_Z}{F_G} = \\frac{m \\cdot \\omega^2 \\cdot r}{m \\cdot g} = \\frac{\\omega^2 \\cdot r}{g}$\n\nDie Masse kürzt sich: Der Winkel hängt nur von $\\omega$ und $r$ ab, nicht davon, wer im Sitz sitzt. Leere und besetzte Sitze hängen deshalb gleich schräg."
+          "loesung": "Alle Spuren haben dieselbe Winkelgeschwindigkeit, die Bahngeschwindigkeit wächst mit dem Radius: $v = \\omega \\cdot r$.\n\ninnen: $v_i = 754\\,\\frac{1}{\\mathrm{s}} \\cdot 0{,}020\\,\\mathrm{m} \\approx 15{,}1\\,\\mathrm{m/s}$\n\naußen: $v_a = 754\\,\\frac{1}{\\mathrm{s}} \\cdot 0{,}046\\,\\mathrm{m} \\approx 34{,}7\\,\\mathrm{m/s}$; $34{,}7\\,\\mathrm{m/s} \\cdot 3{,}6 \\approx 125\\,\\mathrm{km/h}$"
         },
         {
-          "id": "W6-1c",
+          "id": "V1-1c",
           "label": "1c",
           "punkte": 2,
-          "afb": "III",
-          "loesung": "$\\omega = \\frac{2\\pi}{6{,}0\\,\\mathrm{s}} \\approx 1{,}047\\,\\frac{1}{\\mathrm{s}}$, $\\frac{\\omega^2}{g} \\approx 0{,}1118\\,\\frac{1}{\\mathrm{m}}$. Gesucht ist $\\alpha$ mit $\\tan(\\alpha) = 0{,}1118 \\cdot (5{,}0 + 6{,}0 \\cdot \\sin(\\alpha))$:\n\n- $\\alpha = 40°$: links $0{,}839$, rechts $0{,}990$ (links zu klein)\n- $\\alpha = 45°$: links $1{,}000$, rechts $1{,}033$ (links zu klein)\n- $\\alpha = 46°$: links $1{,}036$, rechts $1{,}042$ (fast gleich)\n- $\\alpha = 47°$: links $1{,}072$, rechts $1{,}049$ (links zu groß)\n\nAlso $\\alpha \\approx 46°$, Bahnradius $r \\approx 9{,}3\\,\\mathrm{m}$. (Die Gleichung lässt sich nicht einfach nach $\\alpha$ umstellen, deshalb das Probieren.)"
+          "afb": "II",
+          "loesung": "Im günstigsten Fall ist der Block gerade unter dem Kopf (Wartezeit 0), im ungünstigsten Fall ist er gerade vorbei und kommt erst nach einem vollen Umlauf wieder (Wartezeit $T$). Alle Lagen auf der Spur sind gleich wahrscheinlich, also beträgt die Wartezeit im Mittel die Hälfte:\n\n$\\frac{T}{2} = \\frac{8{,}33\\,\\mathrm{ms}}{2} \\approx 4{,}2\\,\\mathrm{ms}$"
         },
         {
-          "id": "W6-2a",
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Winkel im Bogenmaß: $\\varphi = \\frac{36°}{360°} \\cdot 2\\pi \\approx 0{,}628$\n\nWeg (Kreisbogen um die Armachse): $s = \\varphi \\cdot r = 0{,}628 \\cdot 44\\,\\mathrm{mm} \\approx 27{,}6\\,\\mathrm{mm}$\n\n$\\omega_{Arm} = \\frac{\\Delta\\varphi}{\\Delta t} = \\frac{0{,}628}{0{,}015\\,\\mathrm{s}} \\approx 42\\,\\frac{1}{\\mathrm{s}}$"
+        },
+        {
+          "id": "V1-2a",
           "label": "2a",
           "punkte": 2,
           "afb": "I",
-          "loesung": "Gewichtskraft $F_G$ nach unten, Normalkraft $F_N$ des Sitzes nach oben (zur Mitte des Loopings). Ihre Resultierende zeigt zur Mitte und ist die Zentripetalkraft:\n\n$F_N - F_G = F_Z \\Rightarrow F_N = F_G + F_Z = m \\cdot g + \\frac{m \\cdot v^2}{r}$"
+          "loesung": "$u = 2\\pi \\cdot r_a = 2\\pi \\cdot 46\\,\\mathrm{mm} \\approx 289\\,\\mathrm{mm}$\n\n$N = \\frac{0{,}289\\,\\mathrm{m}}{25 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 1{,}16 \\cdot 10^7$ Bit (etwa $1{,}4\\,\\mathrm{MB}$)"
         },
         {
-          "id": "W6-2b",
+          "id": "V1-2b",
           "label": "2b",
           "punkte": 2,
           "afb": "II",
-          "loesung": "$\\frac{F_N}{F_G} = 1 + \\frac{v^2}{r \\cdot g} = 1 + \\frac{(23\\,\\mathrm{m/s})^2}{10\\,\\mathrm{m} \\cdot 9{,}81\\,\\mathrm{m/s^2}} \\approx 1 + 5{,}4 = 6{,}4$\n\nDie Person wird mit gut dem Sechsfachen ihrer Gewichtskraft in den Sitz gedrückt (über $6\\,g$). Das ist sehr viel (übliche Achterbahnen bleiben bei etwa 3 bis 4 $g$) und für Kopf und Nacken gefährlich – ein kreisförmiger Looping dieser Größe ist ungeeignet."
+          "loesung": "In jeder Sekunde läuft das Spurstück der Länge $v \\cdot 1\\,\\mathrm{s}$ unter dem Kopf durch; Bits je Sekunde $= \\frac{v}{25\\,\\mathrm{nm}}$.\n\naußen: $\\frac{34{,}7\\,\\mathrm{m/s}}{25 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 1{,}39 \\cdot 10^9$ Bit/s $\\approx 173\\,\\mathrm{MB/s}$\n\ninnen: $\\frac{15{,}1\\,\\mathrm{m/s}}{25 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 6{,}0 \\cdot 10^8$ Bit/s $\\approx 75\\,\\mathrm{MB/s}$"
         },
         {
-          "id": "W6-2c",
+          "id": "V1-2c",
           "label": "2c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Vermutung ist unnötig: Der Abfall folgt schon aus der Kreisbewegung.\n\n- Die Scheibe dreht sich mit fester Winkelgeschwindigkeit, die Bahngeschwindigkeit unter dem Kopf ist $v = \\omega \\cdot r$, also proportional zum Radius.\n- Weil jedes Bit gleich lang ist, ist auch die Leserate proportional zu $r$: $\\frac{r_a}{r_i} = \\frac{46\\,\\mathrm{mm}}{20\\,\\mathrm{mm}} = 2{,}3$, gemessen $\\frac{170}{75} \\approx 2{,}3$ – das passt.\n- Gegenprobe: Liest man danach wieder außen, ist die Rate wieder hoch; bei Überhitzung bliebe sie niedrig.\n\nWärme ist als Ursache nicht nötig; der Test zeigt die Kreisgeometrie."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Der Rotor auf dem Jahrmarkt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c5",
+        "c3",
+        "c4",
+        "c7",
+        "c1",
+        "g5",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Grundgrößen, Zentripetalkraft, Kräfte, Messdaten auswerten) – am besten nach N3 bis N5.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Rotor_Jahrmarkt.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Gewichtskraft $F_G$ senkrecht nach unten; Haftreibungskraft $F_H$ der Wand senkrecht nach oben (sie trägt den Fahrgast, $F_H = F_G$); Normalkraft $F_N$ der Wand waagerecht zur Drehachse.\n\nDie Normalkraft der Wand liefert die Zentripetalkraft: $F_N = F_Z$. Eine Kraft nach außen gibt es nicht.",
+          "loesung_bild": "img/V2-1a.png"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nach dem Trägheitsprinzip würde sich der Fahrgast ohne Kraft geradlinig weiterbewegen, tangential zur Kreisbahn. Die Wand ist ihm dabei im Weg: Sie drückt ihn ständig zur Achse und zwingt ihn so auf die Kreisbahn (Zentripetalkraft).\n\nWas er spürt, ist diese Kraft der Wand auf seinen Rücken. Nach dem Wechselwirkungsprinzip drückt er gleich stark nach außen gegen die Wand – diese Kraft wirkt auf die Wand, nicht auf ihn."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Die größte Haftreibungskraft muss die Gewichtskraft tragen; die Normalkraft ist die Zentripetalkraft $F_N = m \\cdot \\omega^2 \\cdot R$:\n\n$\\mu_H \\cdot m \\cdot \\omega^2 \\cdot R \\ge m \\cdot g \\Rightarrow \\omega_{min} = \\sqrt{\\frac{g}{\\mu_H \\cdot R}}$ (die Masse kürzt sich)\n\n$\\omega_{min} = \\sqrt{\\frac{9{,}81\\,\\mathrm{m/s^2}}{0{,}40 \\cdot 2{,}0\\,\\mathrm{m}}} \\approx 3{,}50\\,\\frac{1}{\\mathrm{s}}$\n\n$f = \\frac{\\omega}{2\\pi} \\approx 0{,}557\\,\\mathrm{Hz}$, also etwa 33 Umdrehungen pro Minute ($T \\approx 1{,}8\\,\\mathrm{s}$)."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "$\\omega = \\frac{2\\pi}{1{,}5\\,\\mathrm{s}} \\approx 4{,}19\\,\\frac{1}{\\mathrm{s}}$\n\nNötige Haftreibungszahl: $\\mu_H \\ge \\frac{g}{\\omega^2 \\cdot R} = \\frac{9{,}81\\,\\mathrm{m/s^2}}{(4{,}19\\,\\frac{1}{\\mathrm{s}})^2 \\cdot 2{,}0\\,\\mathrm{m}} \\approx 0{,}28$\n\nMit normaler Kleidung ($0{,}40 > 0{,}28$) haften die Fahrgäste mit Reserve. Mit der Regenjacke ($0{,}25 < 0{,}28$) rutscht der Fahrgast an der Wand nach unten – unabhängig von seiner Masse. Sicher wäre es erst ab $\\omega = \\sqrt{\\frac{g}{0{,}25 \\cdot R}} \\approx 4{,}43\\,\\frac{1}{\\mathrm{s}}$; der Betreiber sollte schneller drehen oder glatte Kleidung ausschließen."
+        },
+        {
+          "id": "V2-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{F_N}{F_G} = \\frac{m \\cdot \\omega^2 \\cdot R}{m \\cdot g} = \\frac{(4{,}19\\,\\frac{1}{\\mathrm{s}})^2 \\cdot 2{,}0\\,\\mathrm{m}}{9{,}81\\,\\mathrm{m/s^2}} \\approx 3{,}6$"
+        },
+        {
+          "id": "V2-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nach $a_Z = \\omega^2 \\cdot r$ muss $\\frac{a_Z}{\\omega^2}$ konstant sein und gleich $r$:\n\n| $\\omega$ in 1/s | 1,20 | 1,80 | 2,40 | 3,00 | 3,60 | 4,20 |\n|---|---|---|---|---|---|---|\n| $\\frac{a_Z}{\\omega^2}$ in m | 1,91 | 1,79 | 1,84 | 1,81 | 1,83 | 1,81 |\n\nDie Quotienten sind nahezu gleich, also $a_Z \\sim \\omega^2$. Mittelwert: $r \\approx 1{,}83\\,\\mathrm{m}$."
+        },
+        {
+          "id": "V2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Smartphone sitzt in der Brusttasche, der Rücken liegt an der Wand. Es ist also um die Dicke des Oberkörpers (etwa 20 cm) näher an der Achse: $2{,}0\\,\\mathrm{m} - 0{,}2\\,\\mathrm{m} \\approx 1{,}8\\,\\mathrm{m}$. Das Ergebnis ist plausibel."
+        },
+        {
+          "id": "V2-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei kleinem $\\omega$ ist auch $a_Z$ klein. Eine gleich große Messunsicherheit des Sensors (z. B. $\\pm 0{,}1\\,\\mathrm{m/s^2}$) macht dann einen viel größeren Anteil des Messwerts aus als bei großen Werten. (Außerdem wird der Zylinder beim Hochfahren noch schneller; die Mittelung über eine Umdrehung passt bei langsamer Drehung schlechter.)"
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Ladung sichern",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c6",
+        "c4",
+        "c5",
+        "c3",
+        "c1",
+        "g5",
+        "g3",
+        "g4",
+        "g1",
+        "g2"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Grundgrößen, Zentripetalkraft, Kurven im Straßenverkehr) – am besten nach N6 bis N8.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Ladung_sichern.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$v = \\frac{50}{3{,}6}\\,\\mathrm{m/s} \\approx 13{,}9\\,\\mathrm{m/s}$; Bogenlänge $s = \\frac{\\pi}{2} \\cdot 40\\,\\mathrm{m} \\approx 62{,}8\\,\\mathrm{m}$\n\n$t = \\frac{s}{v} = \\frac{62{,}8\\,\\mathrm{m}}{13{,}9\\,\\mathrm{m/s}} \\approx 4{,}5\\,\\mathrm{s}$; $\\omega = \\frac{v}{r} = \\frac{13{,}9\\,\\mathrm{m/s}}{40\\,\\mathrm{m}} \\approx 0{,}35\\,\\frac{1}{\\mathrm{s}}$"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$a_Z = \\frac{v^2}{r} = \\frac{(13{,}89\\,\\mathrm{m/s})^2}{40\\,\\mathrm{m}} \\approx 4{,}82\\,\\mathrm{m/s^2}$\n\nNur die Haftreibung des Ladebodens kann die Kiste auf die Kurvenbahn zwingen. Sie schafft höchstens $\\frac{F_{H,max}}{m} = \\frac{\\mu_H \\cdot m \\cdot g}{m} = 0{,}30 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\approx 2{,}94\\,\\mathrm{m/s^2}$.\n\nWegen $2{,}94\\,\\mathrm{m/s^2} < 4{,}82\\,\\mathrm{m/s^2}$ rutscht die Kiste."
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Vom Straßenrand aus: Die Haftreibung reicht für die Kreisbahn nicht. Auf die rutschende Kiste wirkt nur noch die kleinere Gleitreibungskraft (entgegen ihrer Rutschbewegung auf der Ladefläche, also ungefähr zur Kurvenmitte); sie bewegt sich deshalb auf einer deutlich schwächer gekrümmten Bahn als der Transporter, eher geradeaus weiter (Trägheitsprinzip).\n\nDer Transporter fährt dagegen die Kurve. Er bewegt sich unter der Kiste nach innen weg, sodass die Kiste relativ zur Ladefläche nach außen wandert, bis sie an die Seitenwand stößt. Eine Kraft nach außen gibt es nicht."
+        },
+        {
+          "id": "V3-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Masse kürzt sich: $v_{max} = \\sqrt{\\mu_H \\cdot g \\cdot r}$\n\nKiste: $v_{max} = \\sqrt{0{,}30 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 40\\,\\mathrm{m}} \\approx 10{,}8\\,\\mathrm{m/s} \\approx 39\\,\\mathrm{km/h}$\n\nTransporter: $v_{max} = \\sqrt{0{,}80 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 40\\,\\mathrm{m}} \\approx 17{,}7\\,\\mathrm{m/s} \\approx 64\\,\\mathrm{km/h}$\n\nZwischen etwa 39 und 64 km/h kommt der Transporter sicher durch die Kurve, die Ladung aber nicht."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Jedes Gurtende zieht an der Kiste mit $F_V$ schräg nach unten. Zerlegen in eine senkrechte und eine waagerechte Komponente:\n\nsenkrecht: $F_V \\cdot \\sin(\\beta)$ nach unten; waagerecht: $F_V \\cdot \\cos(\\beta)$ nach außen\n\nDie waagerechten Komponenten beider Enden sind gleich groß und entgegengesetzt, sie heben sich auf. Die senkrechten addieren sich zu $2 \\cdot F_V \\cdot \\sin(\\beta)$. Um diesen Betrag wird die Normalkraft größer: $F_N = m \\cdot g + 2 \\cdot F_V \\cdot \\sin(\\beta)$."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bedingung: $\\mu_H \\cdot F_N \\ge m \\cdot a_Z$, also $F_N \\ge \\frac{120\\,\\mathrm{kg} \\cdot 4{,}82\\,\\mathrm{m/s^2}}{0{,}30} \\approx 1929\\,\\mathrm{N}$\n\nOhne Gurt ist $F_N = m \\cdot g \\approx 1177\\,\\mathrm{N}$; der Gurt muss also $752\\,\\mathrm{N}$ beitragen:\n\n$2 \\cdot F_V \\cdot \\sin(60°) \\ge 752\\,\\mathrm{N} \\Rightarrow F_V \\ge \\frac{752\\,\\mathrm{N}}{2 \\cdot 0{,}866} \\approx 434\\,\\mathrm{N}$"
+        },
+        {
+          "id": "V3-2c",
+          "label": "2c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Damit die Kiste mit abgebremst wird, muss die Haftreibung die Kraft $m \\cdot a = 120\\,\\mathrm{kg} \\cdot 7{,}0\\,\\mathrm{m/s^2} = 840\\,\\mathrm{N}$ aufbringen.\n\nMit dem Gurt ist höchstens $F_{H,max} = 0{,}30 \\cdot 1929\\,\\mathrm{N} \\approx 579\\,\\mathrm{N}$ möglich. Wegen $579\\,\\mathrm{N} < 840\\,\\mathrm{N}$ rutscht die Kiste nach dem Trägheitsprinzip nach vorn weiter.\n\nDie Aussage ist falsch: Beim Bremsen ist die nötige Beschleunigung größer als in der Kurve. Man müsste stärker spannen ($F_V \\ge \\frac{840\\,\\mathrm{N} / 0{,}30 - 1177\\,\\mathrm{N}}{2 \\cdot 0{,}866} \\approx 937\\,\\mathrm{N}$) oder die Kiste vorn an die Stirnwand stellen, damit diese sie hält."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Winterdienst",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 30,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8",
+        "c6",
+        "c4",
+        "c5",
+        "c3",
+        "c1",
+        "g6",
+        "g5",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 30 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 4 (Grundgrößen, Zentripetalkraft, Kurven im Straßenverkehr, Drehimpuls) – am besten nach N9.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Winterdienst.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f = \\frac{360}{60\\,\\mathrm{s}} = 6{,}0\\,\\mathrm{Hz}$; $\\omega = 2\\pi \\cdot f \\approx 37{,}7\\,\\frac{1}{\\mathrm{s}}$\n\n$v = \\omega \\cdot r = 37{,}7\\,\\frac{1}{\\mathrm{s}} \\cdot 0{,}25\\,\\mathrm{m} \\approx 9{,}4\\,\\mathrm{m/s}$"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$a_Z = \\omega^2 \\cdot r = (37{,}7\\,\\frac{1}{\\mathrm{s}})^2 \\cdot 0{,}10\\,\\mathrm{m} \\approx 142\\,\\mathrm{m/s^2}$ (etwa das 14-Fache von $g$)\n\nDie Haftreibung kann höchstens $a = \\frac{\\mu_H \\cdot m \\cdot g}{m} = 0{,}5 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\approx 4{,}9\\,\\mathrm{m/s^2}$ bewirken – viel zu wenig. Das Korn kann der Kreisbahn nicht folgen und gleitet über den Teller nach außen. Erst die Schaufeln liefern mit ihrer Normalkraft die nötige Kraft zur Achse."
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$40\\,\\mathrm{km/h} \\approx 11{,}1\\,\\mathrm{m/s}$ nach vorn. Gegenüber der Straße: $11{,}1\\,\\mathrm{m/s} - 9{,}4\\,\\mathrm{m/s} \\approx 1{,}7\\,\\mathrm{m/s}$ nach vorn.\n\nDas Korn bewegt sich gegenüber der Straße nur noch langsam in Fahrtrichtung und fällt fast senkrecht hinter dem Fahrzeug auf die Fahrbahn, statt weit nach vorn oder hinten zu fliegen. Körner, die zur Seite abfliegen, verteilen das Salz über die Breite der Fahrbahn."
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$v_{max} = \\sqrt{\\mu_H \\cdot g \\cdot r}$ (die Masse kürzt sich)\n\nvereist: $v_{max} = \\sqrt{0{,}10 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 60\\,\\mathrm{m}} \\approx 7{,}7\\,\\mathrm{m/s} \\approx 28\\,\\mathrm{km/h}$\n\ngestreut: $v_{max} \\approx 14{,}4\\,\\mathrm{m/s} \\approx 52\\,\\mathrm{km/h}$"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
           "punkte": 2,
           "afb": "III",
-          "loesung": "Tiefster Punkt: Dort ist der Wagen am schnellsten. Ein großer Radius macht $\\frac{v^2}{r}$ und damit die Belastung $F_N = m \\cdot \\left(g + \\frac{v^2}{r}\\right)$ klein.\n\nHöchster Punkt: Dort ist der Wagen langsam. Damit die Fahrgäste nicht aus dem Sitz fallen, muss $\\frac{v^2}{r} \\ge g$ sein, also $v_{oben} \\ge \\sqrt{g \\cdot r}$. Ein kleiner Radius oben macht diese Mindestgeschwindigkeit klein. Dann genügt unten eine kleinere Einfahrgeschwindigkeit (weniger Anlaufhöhe), was wiederum die Belastung unten senkt.\n\nEin Kreis kann das nicht: Damit der Wagen oben ankommt, braucht er unten mindestens $v = \\sqrt{5 \\cdot g \\cdot r}$ (Energieerhaltung über die Höhe $2r$), und dann ist $\\frac{F_N}{F_G} = 1 + 5 = 6$ – jeder kreisförmige Looping belastet unten mit mindestens $6\\,g$. Die Tropfenform verbindet eine erträgliche Belastung unten mit sicherem Durchfahren oben."
+          "loesung": "Der Teller sitzt hinten, das Salz landet hinter dem Fahrzeug. Die Reifen des Streufahrzeugs fahren selbst noch auf dem Eis; für sie gilt $\\mu_H = 0{,}10$ und $v_{max} \\approx 28\\,\\mathrm{km/h}$.\n\n$45\\,\\mathrm{km/h}$ sind deutlich zu schnell: Die nötige Zentripetalkraft wäre etwa $\\left(\\frac{45}{27{,}6}\\right)^2 \\approx 2{,}7$-mal so groß wie die größte Haftreibungskraft. Erst die nachfolgenden Fahrzeuge profitieren vom Salz."
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Von außen wirkt nichts auf die Drehung: Der Drehimpuls von Teller und Salz bleibt erhalten. Nahe der Achse hat das Salz noch keinen Drehimpuls ($r \\approx 0$).\n\n$J_T \\cdot \\omega_1 = (J_T + m \\cdot r^2) \\cdot \\omega_2$ mit $J_T + m \\cdot r^2 = 0{,}15\\,\\mathrm{kg\\,m^2} + 0{,}40\\,\\mathrm{kg} \\cdot (0{,}25\\,\\mathrm{m})^2 = 0{,}175\\,\\mathrm{kg\\,m^2}$\n\n$\\omega_2 = \\frac{0{,}15\\,\\mathrm{kg\\,m^2} \\cdot 37{,}7\\,\\frac{1}{\\mathrm{s}}}{0{,}175\\,\\mathrm{kg\\,m^2}} \\approx 32{,}3\\,\\frac{1}{\\mathrm{s}}$"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Vergleich: Beim unelastischen Stoß bleibt der Impuls $m \\cdot v$ erhalten, beide Wagen haben danach dieselbe Geschwindigkeit, ein Teil der Bewegungsenergie wird in innere Energie umgewandelt. Hier bleibt der Drehimpuls $J \\cdot \\omega$ erhalten, Teller und Salz haben danach dieselbe Winkelgeschwindigkeit, und beim Mitnehmen (Aufprall auf die Schaufeln, Reibung) geht Rotationsenergie verloren.\n\n$E_{rot,1} = \\frac{1}{2} \\cdot 0{,}15\\,\\mathrm{kg\\,m^2} \\cdot (37{,}7\\,\\frac{1}{\\mathrm{s}})^2 \\approx 106{,}6\\,\\mathrm{J}$\n\n$E_{rot,2} = \\frac{1}{2} \\cdot 0{,}175\\,\\mathrm{kg\\,m^2} \\cdot (32{,}3\\,\\frac{1}{\\mathrm{s}})^2 \\approx 91{,}4\\,\\mathrm{J}$\n\nUmgewandelt: etwa $15\\,\\mathrm{J}$, also rund $14\\,\\%$ (die Bewegung des Salzes nach außen ist dabei vernachlässigt)."
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Aussage ist falsch. Beim Abfliegen übt das Salz keine Kraft mehr auf den Teller aus, der Teller behält $\\omega_2 \\approx 32{,}3\\,\\frac{1}{\\mathrm{s}}$. Das Salz nimmt seinen Drehimpuls $m \\cdot r^2 \\cdot \\omega_2 \\approx 0{,}81\\,\\mathrm{kg\\,m^2/s}$ mit; dem Teller bleiben $J_T \\cdot \\omega_2 \\approx 4{,}85\\,\\mathrm{kg\\,m^2/s}$ statt vorher $5{,}65\\,\\mathrm{kg\\,m^2/s}$.\n\nJede Salzportion bremst den frei laufenden Teller weiter ab. Im Betrieb muss der Antrieb deshalb ständig Drehimpuls und Energie nachliefern."
         }
       ]
     }

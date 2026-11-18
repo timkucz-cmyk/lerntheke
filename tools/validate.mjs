@@ -142,6 +142,36 @@ async function pruefeStation(st, ort, ordner, stationsIds, aufgabenIds, checklis
     String(summe).replace('.', ',') + ' Punkte' + (st.typ === 'wahl' ? '  (Wahl)' : ''));
 }
 
+/** Thema im Memory-Modus: nummerierte Karten statt Stationen. */
+async function pruefeMemory(th, ort, ordner) {
+  const m = th.memory;
+  if (!m || typeof m !== 'object') { f(ort, 'Memory-Thema ohne "memory"'); return; }
+  if (m.sekunden !== undefined && !(typeof m.sekunden === 'number' && m.sekunden > 0)) f(ort, '"memory.sekunden" muss eine Zahl größer 0 sein');
+  const paketIds = new Set((m.pakete || []).map((p) => String(p.id)));
+  if (!Array.isArray(m.karten) || m.karten.length === 0) { f(ort, 'Memory ohne Karten'); return; }
+  const nummern = new Set();
+  let abb = 0;
+  for (const k of m.karten) {
+    const o = ort + ' › Karte ' + k.nr;
+    if (!Number.isInteger(k.nr) || k.nr < 1) { f(o, '"nr" muss eine ganze Zahl ab 1 sein'); continue; }
+    if (nummern.has(k.nr)) f(o, 'doppelte Kartennummer');
+    nummern.add(k.nr);
+    if (!['begriff', 'abbildung'].includes(k.typ)) f(o, '"typ" muss "begriff" oder "abbildung" sein');
+    if (!istText(k.titel)) f(o, 'kein "titel"');
+    if (paketIds.size && !paketIds.has(String(k.paket))) f(o, 'unbekanntes "paket": ' + JSON.stringify(k.paket));
+    if (!Array.isArray(k.muss) || k.muss.length === 0 || !k.muss.every(istText)) f(o, '"muss" braucht mindestens einen Punkt');
+    if (!istText(k.nachfrage)) w(o, 'keine "nachfrage"');
+    if (k.typ === 'abbildung') {
+      abb++;
+      if (!istText(k.bild)) f(o, 'Abbildungskarte ohne "bild"');
+      else if (!await existiert(path.join(ordner, k.bild))) f(o, 'Bild fehlt: ' + k.bild);
+      if (!istText(k.bild_alt)) w(o, 'kein "bild_alt" (Beschreibung für Screenreader)');
+    }
+  }
+  for (let i = 1; i <= m.karten.length; i++) if (!nummern.has(i)) w(ort, 'Kartennummer ' + i + ' fehlt – die Nummern sollten lückenlos sein');
+  console.log('    Memory: ' + m.karten.length + ' Karten (' + abb + ' Abbildungen)');
+}
+
 async function pruefeThema(stufeId, themaId) {
   const ordner = path.join(INHALTE, stufeId, themaId);
   const datei = path.join(ordner, 'thema.json');
@@ -155,6 +185,11 @@ async function pruefeThema(stufeId, themaId) {
   if (!istText(th.fach)) f(ort, 'kein "fach"');
   else if (!['mathe', 'physik'].includes(th.fach)) w(ort, 'unbekanntes "fach" – es gibt keine Fachfarbe dafür');
   if (!['du', 'sie'].includes(th.anrede)) f(ort, '"anrede" muss "du" oder "sie" sein');
+
+  if (th.modus !== undefined) {
+    if (th.modus === 'memory') { await pruefeMemory(th, ort, ordner); return; }
+    f(ort, 'unbekannter "modus" (erlaubt: "memory")');
+  }
 
   const checklistenIds = new Set();
   const spaeterIds = new Set();

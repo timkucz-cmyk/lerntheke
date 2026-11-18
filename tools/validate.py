@@ -166,6 +166,55 @@ def pruefe_station(st, ort, ordner, stations_ids, aufgaben_ids, checklisten_ids)
           % (st["id"], len(aufgaben), zahl_text(summe), "  (Wahl)" if st.get("typ") == "wahl" else ""))
 
 
+def pruefe_memory(th, ort, ordner):
+    """Thema im Memory-Modus: nummerierte Karten statt Stationen."""
+    m = th.get("memory")
+    if not isinstance(m, dict):
+        f(ort, 'Memory-Thema ohne "memory"')
+        return
+    if "sekunden" in m and not (ist_zahl(m["sekunden"]) and m["sekunden"] > 0):
+        f(ort, '"memory.sekunden" muss eine Zahl groesser 0 sein')
+    paket_ids = set(str(p.get("id")) for p in (m.get("pakete") or []))
+    karten = m.get("karten")
+    if not isinstance(karten, list) or not karten:
+        f(ort, "Memory ohne Karten")
+        return
+    nummern = set()
+    abb = 0
+    for k in karten:
+        o = "%s > Karte %s" % (ort, k.get("nr"))
+        nr = k.get("nr")
+        if not isinstance(nr, int) or isinstance(nr, bool) or nr < 1:
+            f(o, '"nr" muss eine ganze Zahl ab 1 sein')
+            continue
+        if nr in nummern:
+            f(o, "doppelte Kartennummer")
+        nummern.add(nr)
+        if k.get("typ") not in ("begriff", "abbildung"):
+            f(o, '"typ" muss "begriff" oder "abbildung" sein')
+        if not ist_text(k.get("titel")):
+            f(o, 'kein "titel"')
+        if paket_ids and str(k.get("paket")) not in paket_ids:
+            f(o, 'unbekanntes "paket": %r' % k.get("paket"))
+        muss = k.get("muss")
+        if not isinstance(muss, list) or not muss or not all(ist_text(x) for x in muss):
+            f(o, '"muss" braucht mindestens einen Punkt')
+        if not ist_text(k.get("nachfrage")):
+            w(o, 'keine "nachfrage"')
+        if k.get("typ") == "abbildung":
+            abb += 1
+            if not ist_text(k.get("bild")):
+                f(o, 'Abbildungskarte ohne "bild"')
+            elif not os.path.isfile(os.path.join(ordner, k["bild"])):
+                f(o, "Bild fehlt: " + k["bild"])
+            if not ist_text(k.get("bild_alt")):
+                w(o, 'kein "bild_alt" (Beschreibung fuer Screenreader)')
+    for i in range(1, len(karten) + 1):
+        if i not in nummern:
+            w(ort, "Kartennummer %d fehlt - die Nummern sollten lueckenlos sein" % i)
+    print("    Memory: %d Karten (%d Abbildungen)" % (len(karten), abb))
+
+
 def pruefe_thema(stufe_id, thema_id):
     ordner = os.path.join(INHALTE, stufe_id, thema_id)
     ort = "%s/%s/thema.json" % (stufe_id, thema_id)
@@ -183,6 +232,12 @@ def pruefe_thema(stufe_id, thema_id):
         w(ort, 'unbekanntes "fach" - es gibt keine Fachfarbe dafuer')
     if th.get("anrede") not in ("du", "sie"):
         f(ort, '"anrede" muss "du" oder "sie" sein')
+
+    if "modus" in th:
+        if th["modus"] == "memory":
+            pruefe_memory(th, ort, ordner)
+            return
+        f(ort, 'unbekannter "modus" (erlaubt: "memory")')
 
     checklisten_ids = set()
     spaeter_ids = set()

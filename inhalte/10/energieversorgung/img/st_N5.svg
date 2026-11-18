@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Neutron trifft Kern, Kern zerfällt in zwei Teile">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <circle class="grau" cx="14" cy="36" r="3"/>
+  <path class="grau" d="M18 36 L30 36"/>
+  <circle class="akzent" cx="46" cy="36" r="13"/>
+  <path class="grau" d="M66 36 H80 M74 30 l6 6 l-6 6"/>
+  <circle class="akzent" cx="100" cy="26" r="9"/>
+  <circle class="akzent" cx="112" cy="48" r="8"/>
+  <circle class="grau" cx="132" cy="22" r="3"/>
+  <circle class="grau" cx="138" cy="40" r="3"/>
+  <circle class="grau" cx="128" cy="58" r="3"/>
+</svg>

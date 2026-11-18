@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Graph einer Exponentialfunktion mit waagerechter Asymptote">
+  <style>
+    .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #B61E33; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #F08A99; }
+      .marke  { fill: #F08A99; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #F08A99; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M20 62 h124 M20 62 V8"/>
+  <path class="hilfs" d="M20 44 H144"/>
+  <path class="akzent" d="M20 44.0 L24 43.2 L28 43.1 L32 43.0 L36 42.9 L40 42.7 L44 42.6 L48 42.4 L52 42.2 L56 41.9 L60 41.7 L64 41.4 L68 41.0 L72 40.7 L76 40.2 L80 39.7 L84 39.2 L88 38.6 L92 37.8 L96 37.0 L100 36.1 L104 35.1 L108 34.0 L112 32.7 L116 31.2 L120 29.6 L124 27.7 L128 25.6 L132 23.2 L136 20.5 L140 17.4 L144 14.0"/>
+</svg>

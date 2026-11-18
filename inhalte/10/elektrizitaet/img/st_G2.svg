@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Wechselschaltung: zwei Umschalter und eine Lampe">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M16 14 V33.0 M7 33.0 h18 M16 41.0 V60"/>
+  <path class="grau" d="M12 41.0 h8" stroke-width="5"/>
+  <path class="grau" d="M16 14 H34 M54 6 H104 M54 22 H104 M124 14 H140 V25 M140 43 V60 H16"/>
+  <path class="akzent" d="M34 14 L52 6 M124 14 L106 22"/>
+  <circle class="marke" cx="34" cy="14" r="2.4"/>
+  <circle class="marke" cx="124" cy="14" r="2.4"/>
+  <circle class="akzent" cx="140" cy="34" r="9"/>
+  <path class="akzent" d="M133.6 27.6 L146.4 40.4 M133.6 40.4 L146.4 27.6"/>
+</svg>

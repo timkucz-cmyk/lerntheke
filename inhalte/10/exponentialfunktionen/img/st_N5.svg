@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Zerfallskurve mit markierter Halbwertszeit">
+  <style>
+    .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #B61E33; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #F08A99; }
+      .marke  { fill: #F08A99; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #F08A99; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M20 62 h124 M20 62 V8"/>
+  <path class="akzent" d="M20 58.0 L24 53.8 L28 49.9 L32 46.5 L36 43.3 L40 40.5 L44 38.0 L48 35.7 L52 33.6 L56 31.7 L60 30.0 L64 28.4 L68 27.1 L72 25.8 L76 24.7 L80 23.6 L84 22.7 L88 21.9 L92 21.1 L96 20.4 L100 19.8 L104 19.2 L108 18.7 L112 18.3 L116 17.9 L120 17.5 L124 17.2 L128 16.9 L132 16.6 L136 16.3 L140 16.1 L144 15.9"/>
+  <path class="hilfs" d="M20 36 H47 V62"/>
+  <circle class="marke" cx="47" cy="36" r="2.5"/>
+</svg>

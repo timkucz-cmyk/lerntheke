@@ -141,6 +141,17 @@ function normalisiere(roh, stufe, thema) {
     }
   }
 
+  // Memory-Modus: Rolle und eigene Einschätzung je Karte
+  if (istObjekt(roh.memory)) {
+    const m = roh.memory;
+    z.memory = { rolle: ['erklaeren', 'pruefen'].includes(m.rolle) ? m.rolle : null, karten: {} };
+    if (istObjekt(m.karten)) {
+      for (const nr of Object.keys(m.karten)) {
+        if (['sicher', 'teils', 'unsicher'].includes(m.karten[nr])) z.memory.karten[nr] = m.karten[nr];
+      }
+    }
+  }
+
   if (istObjekt(roh.aufgaben)) {
     for (const id of Object.keys(roh.aufgaben)) {
       const a = roh.aufgaben[id];

@@ -1,0 +1,1015 @@
+{
+  "version": 1,
+  "titel": "Lineare Funktionen – Training vor der Klassenarbeit",
+  "fach": "mathe",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Zuordnungen, im Koordinatensystem, bei Termen oder Gleichungen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N2 (Funktionen und Steigung), V2 nach N3 (Funktionsgleichung), V3 nach N4 bis N8 (Nullstellen und Schnittpunkte). Ohne Taschenrechner. Geodreieck bereitlegen; dein Regelheft darfst du benutzen.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Zuordnungen mit einer Wertetabelle und einer Formel beschreiben"
+    },
+    {
+      "id": "g2",
+      "text": "Punkte im Koordinatensystem ablesen und eintragen und Zuordnungen als Graph darstellen"
+    },
+    {
+      "id": "g3",
+      "text": "Terme mit Variablen aufstellen und vereinfachen"
+    },
+    {
+      "id": "g4",
+      "text": "Den Wert eines Terms berechnen – auch mit negativen Zahlen und Dezimalzahlen"
+    },
+    {
+      "id": "g5",
+      "text": "Gleichungen mit Äquivalenzumformungen lösen"
+    },
+    {
+      "id": "c1",
+      "text": "Eine Zuordnung als Funktion erkennen (jedem x-Wert genau ein y-Wert)"
+    },
+    {
+      "id": "c2",
+      "text": "Eine Wertetabelle erstellen und den Graphen zeichnen – Stelle und Funktionswert ablesen"
+    },
+    {
+      "id": "c3",
+      "text": "Die Steigung mit einem Steigungsdreieck bestimmen"
+    },
+    {
+      "id": "c4",
+      "text": "Mit einer Punktprobe prüfen, ob ein Punkt auf einer Geraden liegt"
+    },
+    {
+      "id": "c5",
+      "text": "Den y-Achsenabschnitt ablesen und deuten"
+    },
+    {
+      "id": "c6",
+      "text": "Den Graphen zu $f(x) = m \\cdot x + b$ zeichnen"
+    },
+    {
+      "id": "c7",
+      "text": "Die Funktionsgleichung aus zwei Punkten bestimmen"
+    },
+    {
+      "id": "c8",
+      "text": "Die Nullstelle einer linearen Funktion berechnen"
+    },
+    {
+      "id": "c9",
+      "text": "Den Schnittpunkt zweier Geraden berechnen"
+    },
+    {
+      "id": "c10",
+      "text": "Sachsituationen mit linearen Funktionen beschreiben und Ergebnisse im Sachzusammenhang deuten"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 7 und aus Terme und Gleichungen",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Funktionen und Steigung",
+      "untertitel": "Funktion, Wertetabelle, Steigungsdreieck",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Die Funktionsgleichung",
+      "untertitel": "m und b ablesen, zeichnen, bestimmen",
+      "farbe": "orange",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c7"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Nullstellen und Schnittpunkte",
+      "untertitel": "Berechnen und im Sachzusammenhang deuten",
+      "farbe": "gruen",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10"
+      ]
+    }
+  ],
+  "abschluss": "Klassenarbeit",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 5 gehören zu den Grundlagen g1 bis g5 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Jede Anzahl mit 2,5 kg multiplizieren:\n\n| Anzahl der Pakete | 1 | 2 | 4 | 10 |\n|---|---|---|---|---|\n| Gewicht (in kg) | 2,5 | 5 | 10 | 25 |\n\nAlle vier Werte richtig: 1 P."
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$y = 2{,}5x$ (auch richtig: $y = 2{,}5 \\cdot x$) (0,5 P)\n\n2,5 ist das Gewicht **eines** Pakets: Mit jedem Paket mehr wird der Stapel 2,5 kg schwerer (0,5 P).\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Erst den x-Wert nach rechts (plus) oder links (minus), dann den y-Wert nach oben (plus) oder unten (minus):\n\n- $A$: 2 nach rechts, 3 nach unten\n- $B$: 1,5 nach links, auf der x-Achse\n- $C$: 3 nach links, 2,5 nach oben\n- $D$: auf der y-Achse, 3,5 nach oben\n\nAlle vier richtig: 1 P, drei richtig: 0,5 P.",
+          "loesung_bild": "img/G1-2a.png"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Punkte aus der Tabelle eintragen, z. B. $(2 \\mid 5)$, $(4 \\mid 10)$ und $(10 \\mid 25)$; dazu $(0 \\mid 0)$. Alle Punkte liegen auf einer Geraden durch den Ursprung (proportionale Zuordnung).\n\nAchtung: 25 kg liegen bei 5 cm, nicht bei 25 cm. Weil es nur ganze Pakete gibt, sind genau genommen nur die Punkte sinnvoll; die Gerade zeigt, dass sie auf einer Linie liegen.\n\nÜben: **G2** Aufgabe 2.",
+          "loesung_bild": "img/G1-2b.png"
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $4x + 2x - 7 + 3 = 6x - 4$ (gleichartige Summanden zusammenfassen)\n- $3(2x - 1) - x = 6x - 3 - x = 5x - 3$ (erst ausmultiplizieren)\n\nJe Ergebnis 0,5 P."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Länge: $x + 3$. Umfang = 2 · Breite + 2 · Länge (0,5 P):\n\n$$2x + 2(x + 3) = 2x + 2x + 6 = 4x + 6$$\n\n(0,5 P)\n\nÜben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $x = 3$: $5 - 2 \\cdot 3 = 5 - 6 = -1$\n- $x = -4$: $5 - 2 \\cdot (-4) = 5 + 8 = 13$ (Minus mal Minus ergibt Plus)\n\nJe Ergebnis 0,5 P."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$0{,}5 \\cdot (-3) - 1{,}5 = -1{,}5 - 1{,}5 = -3$"
+        },
+        {
+          "id": "G1-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Finn hat $-2 + 3 = 1$ gerechnet. Für $x$ wird aber $-2$ eingesetzt, und das Minus davor bleibt stehen: $-(-2) = +2$ (0,5 P).\n\nRichtig: $-(-2) + 3 = 2 + 3 = 5$ (0,5 P)\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$3x + 7 = -8 \\quad \\mid -7$$\n\n$$3x = -15 \\quad \\mid : 3$$\n\n$$x = -5$$"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$5x - 4 = 2x + 11 \\quad \\mid -2x$$\n\n$$3x - 4 = 11 \\quad \\mid +4$$\n\n$$3x = 15 \\quad \\mid : 3$$\n\n$$x = 5$$"
+        },
+        {
+          "id": "G1-5c",
+          "label": "5c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$2x - 2 = x + 4 \\quad \\mid -x$$\n\n$$x - 2 = 4 \\quad \\mid +2$$\n\n$$x = 6$$\n\nProbe: links $2 \\cdot (6 - 1) = 10$, rechts $6 + 4 = 10$ ✓\n\nÜben: **G2** Aufgabe 5."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Koordinaten, Terme, Gleichungen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Hier übst du das Vorwissen aus Klasse 7 und aus „Terme und Gleichungen“. Wähle die Aufgaben, die zu deinen Lücken aus G1 passen: 1 Zuordnungen mit Formeln, 2 Koordinaten, 3 Terme, 4 Termwerte, 5 Gleichungen.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen_Koordinaten_Terme.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Ein Bleistift kostet 0,80 €, also $y = 0{,}8x$ (0,5 P).\n\n15 Bleistifte: $0{,}8 \\cdot 15 = 12$, also **12 €** (0,5 P)."
+        },
+        {
+          "id": "G2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$A(3 \\mid -2)$, $B(-2{,}5 \\mid 1)$, $C(0 \\mid -3)$, $D(-4 \\mid -1{,}5)$\n\nErst nach rechts/links (x-Wert), dann nach oben/unten (y-Wert). Alle vier richtig: 2 P, zwei oder drei richtig: 1 P."
+        },
+        {
+          "id": "G2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $5x - 2x + 3 - 8 = 3x - 5$\n- $4(x + 2) - 3x = 4x + 8 - 3x = x + 8$ (erst ausmultiplizieren)\n\nJe Ergebnis 0,5 P."
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$x = -2$: $-3 \\cdot (-2) + 4 = 6 + 4 = 10$\n\n$x = 0$: $-3 \\cdot 0 + 4 = 4$\n\n$x = 1{,}5$: $-3 \\cdot 1{,}5 + 4 = -4{,}5 + 4 = -0{,}5$\n\nMinus mal minus ergibt plus. Alle drei richtig: 2 P, zwei richtig: 1 P."
+        },
+        {
+          "id": "G2-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$4x - 6 = 0 \\quad \\mid +6$\n\n$4x = 6 \\quad \\mid : 4$\n\n$x = 1{,}5$"
+        },
+        {
+          "id": "G2-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$-2x + 7 = 1 \\quad \\mid -7$\n\n$-2x = -6 \\quad \\mid : (-2)$\n\n$x = 3$"
+        },
+        {
+          "id": "G2-5c",
+          "label": "5c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$0{,}5x + 3 = -1 \\quad \\mid -3$\n\n$0{,}5x = -4 \\quad \\mid \\cdot 2$\n\n$x = -8$"
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Funktion, Graph, Steigung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Lege das Geodreieck bereit; Graphen zeichnest du in deine Notizen.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Funktion_Graph_Steigung.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** und **C** sind Funktionen: Jeder Sorte ist genau ein Preis zugeordnet, und jeder Anzahl Kugeln genau ein Gesamtpreis (z. B. 2 Kugeln → 3,60 €).\n\nB ist keine Funktion."
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei B gehören zum Preis 1,80 € **zwei** Sorten: Vanille und Schokolade. Bei einer Funktion muss jedem Wert der ersten Größe **genau ein** Wert der zweiten Größe zugeordnet sein. Deshalb ist B keine Funktion."
+        },
+        {
+          "id": "N1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Jeden x-Wert einsetzen:\n\n$f(-1) = 2 \\cdot (-1) - 3 = -2 - 3 = -5$\n\n$f(0) = 0 - 3 = -3$, $f(1) = 2 - 3 = -1$, $f(2) = 4 - 3 = 1$, $f(3) = 6 - 3 = 3$\n\n| $x$ | $-1$ | $0$ | $1$ | $2$ | $3$ |\n|---|---|---|---|---|---|\n| $f(x)$ | $-5$ | $-3$ | $-1$ | $1$ | $3$ |\n\nAlle fünf Werte richtig: 2 P, ein oder zwei Fehler: 1 P."
+        },
+        {
+          "id": "N1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Punkte aus der Tabelle eintragen, z. B. $(-1 \\mid -5)$, $(0 \\mid -3)$ und $(3 \\mid 3)$, und mit dem Lineal zu einer Geraden verbinden.",
+          "loesung_bild": "img/N1-2b.png"
+        },
+        {
+          "id": "N1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$2x - 3 = 7 \\quad \\mid +3$$\n\n$$2x = 10 \\quad \\mid : 2$$\n\n$$x = 5$$\n\nAn der Stelle $x = 5$ ist der Funktionswert 7. Probe: $f(5) = 10 - 3 = 7$."
+        },
+        {
+          "id": "N1-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$g$: 3 nach rechts, 2 nach oben, also $m = \\frac{2}{3}$.\n\n$h$: 2 nach rechts, 3 nach **unten**, also $m = \\frac{-3}{2} = -1{,}5$. Die Gerade fällt, deshalb ist die Steigung negativ.\n\nJedes andere Steigungsdreieck an der Geraden ist auch richtig, z. B. bei $h$: 1 nach rechts, 1,5 nach unten. Je Steigung 1 P.",
+          "loesung_bild": "img/N1-3a.png"
+        },
+        {
+          "id": "N1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$h$ ist eine Ursprungsgerade, also $b = 0$:\n\n$$h(x) = -1{,}5x$$\n\nAuch richtig: $y = -1{,}5x$ oder $h(x) = -\\frac{3}{2}x$."
+        },
+        {
+          "id": "N1-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Punktprobe: x-Wert einsetzen und mit dem y-Wert vergleichen.\n\n$P$: $f(-4) = 2{,}5 \\cdot (-4) = -10$. Das ist der y-Wert von $P$, also liegt $P$ auf dem Graphen.\n\n$Q$: $f(6) = 2{,}5 \\cdot 6 = 15 \\ne 14$. Also liegt $Q$ **nicht** auf dem Graphen.\n\nJe Punkt 1 P."
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Funktionen und ihre Graphen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c1",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Hier geht es um Funktionen, deren Graph keine Gerade ist.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Funktionen_Graphen.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f(14) = 3{,}5$ (1 P)\n\nUm 14 Uhr steht das Wasser am Pegel 3,5 m hoch. Das ist der höchste Wasserstand am Nachmittag (Hochwasser) (1 P)."
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Waagerecht bei 2 m: Die Linie schneidet den Graphen viermal, an den Stellen $x = 5$, $x = 11$, $x = 17$ und $x = 23$ (also um 5, 11, 17 und 23 Uhr)."
+        },
+        {
+          "id": "N2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bei einer Funktion gehört zu jedem Wert der ersten Größe **genau ein** Wert der zweiten Größe (1 P).\n\nZum Wasserstand 2 m gehören aber vier Uhrzeiten (5, 11, 17 und 23 Uhr). Also ist die Zuordnung keine Funktion (1 P)."
+        },
+        {
+          "id": "N2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** und **D** sind Graphen von Funktionen."
+        },
+        {
+          "id": "N2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zum Beispiel Kurve A (Kreis): Eine senkrechte Linie rechts neben der y-Achse schneidet den Kreis zweimal, einmal oben und einmal unten (1 P). Zu diesem x-Wert gehören also zwei y-Werte, das ist keine Funktion (1 P).\n\nEbenso Kurve C: Eine senkrechte Linie rechts von der Spitze trifft die Kurve einmal oberhalb und einmal unterhalb der x-Achse.",
+          "loesung_bild": "img/N2-2b.png"
+        },
+        {
+          "id": "N2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ein Beispiel (es gibt viele richtige Graphen): Start in $(0 \\mid 2)$, fallend bis $(1 \\mid 0)$, unterhalb der x-Achse bis $(4 \\mid 0)$, dann steigend bis zum höchsten Punkt mit y-Wert 3, danach wieder fallend.\n\nKontrolle: Der Graph geht durch $(0 \\mid 2)$, $(1 \\mid 0)$ und $(4 \\mid 0)$, trifft die x-Achse sonst nicht, erreicht den y-Wert 3, aber keinen höheren, und jede senkrechte Linie trifft ihn höchstens einmal.\n\nAuch richtig sind Graphen, die die x-Achse bei 1 und/oder 4 nur berühren, oder deren höchster Punkt (y-Wert 3) zwischen 0 und 1 oder am Rand bei $x = 8$ liegt. Maßgeblich sind die Bedingungen. Alle erfüllt: 2 P, eine verletzt: 1 P.",
+          "loesung_bild": "img/N2-3.png"
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Die Funktionsgleichung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Du liest Steigung und y-Achsenabschnitt ab, zeichnest Geraden und bestimmst Funktionsgleichungen.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Funktionsgleichung.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$g$: schneidet die y-Achse bei 2, also $b = 2$. Steigungsdreieck: 2 nach rechts, 1 nach oben, also $m = \\frac{1}{2} = 0{,}5$.\n\n$$g(x) = 0{,}5x + 2$$\n\n$h$: $b = -1$. 1 nach rechts, 2 nach unten, also $m = -2$.\n\n$$h(x) = -2x - 1$$\n\nJe Gerade 1 P."
+        },
+        {
+          "id": "N3-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Start im y-Achsenabschnitt $(0 \\mid 3)$. Steigung $-\\frac{3}{4}$: 4 nach rechts, 3 nach **unten**. So erreicht man $(4 \\mid 0)$. Beide Punkte mit dem Lineal verbinden.\n\nAuch richtig: 4 nach links und 3 nach oben, das führt zu $(-4 \\mid 6)$.",
+          "loesung_bild": "img/N3-2.png"
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "1. Steigung (1 P):\n\n$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-3 - 5}{3 - (-1)} = \\frac{-8}{4} = -2$$\n\n2. $A$ in $f(x) = -2x + b$ einsetzen und nach $b$ auflösen (1 P):\n\n$$5 = -2 \\cdot (-1) + b$$\n\n$$5 = 2 + b \\quad \\mid -2$$\n\n$$b = 3$$\n\n3. Funktionsgleichung (1 P):\n\n$$f(x) = -2x + 3$$\n\nProbe mit $B$: $f(3) = -6 + 3 = -3$ ✓"
+        },
+        {
+          "id": "N3-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Punkte $(2 \\mid 250)$ und $(6 \\mid 450)$:\n\n$$m = \\frac{450 - 250}{6 - 2} = \\frac{200}{4} = 50$$\n\n$$250 = 50 \\cdot 2 + b \\Rightarrow b = 250 - 100 = 150$$\n\n$$f(x) = 50x + 150$$"
+        },
+        {
+          "id": "N3-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$m = 50$: Der Ballon steigt **50 m pro Minute** (1 P).\n\n$b = 150$: Zum Zeitpunkt 0, also beim Start, ist der Ballon 150 m über dem Meeresspiegel. Der Startplatz liegt 150 m hoch – das ist der Anfangswert (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Nullstellen und Schnittpunkte",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Für die Nullstelle setzt du den Funktionsterm gleich 0, für den Schnittpunkt setzt du die beiden Funktionsterme gleich.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Nullstellen_Schnittpunkte.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$2x + 5 = 0 \\quad \\mid -5$$\n\n$$2x = -5 \\quad \\mid : 2$$\n\n$$x = -2{,}5$$\n\nDie Nullstelle ist $x = -2{,}5$; der Graph schneidet die x-Achse in $N(-2{,}5 \\mid 0)$."
+        },
+        {
+          "id": "N4-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "1. Gleichsetzen und $x$ bestimmen (1 P):\n\n$$2x - 1 = -x + 5 \\quad \\mid +x$$\n\n$$3x - 1 = 5 \\quad \\mid +1$$\n\n$$3x = 6 \\quad \\mid : 3$$\n\n$$x = 2$$\n\n2. $x = 2$ in eine der Gleichungen einsetzen (1 P): $f(2) = 2 \\cdot 2 - 1 = 3$ (Kontrolle: $g(2) = -2 + 5 = 3$).\n\n3. Schnittpunkt angeben (1 P): $S(2 \\mid 3)$"
+        },
+        {
+          "id": "N4-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$-12x + 180 = 0 \\quad \\mid -180$$\n\n$$-12x = -180 \\quad \\mid : (-12)$$\n\n$$x = 15$$\n\nDie Nullstelle ist $x = 15$ (1 P). Nach **15 Minuten** ist die Regentonne leer (1 P)."
+        },
+        {
+          "id": "N4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Paul: $p(x) = 10x + 40$\n\nJana: $j(x) = 5x + 100$\n\n(Andere Funktionsnamen sind auch richtig.)"
+        },
+        {
+          "id": "N4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$10x + 40 = 5x + 100 \\quad \\mid -5x$$\n\n$$5x + 40 = 100 \\quad \\mid -40$$\n\n$$5x = 60 \\quad \\mid : 5$$\n\n$$x = 12$$\n\n$p(12) = 120 + 40 = 160$, also $S(12 \\mid 160)$ (1 P).\n\nNach **12 Wochen** haben beide gleich viel gespart, nämlich **160 €**. Danach hat Paul mehr (1 P)."
+        },
+        {
+          "id": "N4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Jana hat **recht**.\n\nPaul hätte dann $5x + 40$, Jana hat $5x + 100$. Beide Graphen haben dieselbe Steigung 5, sie verlaufen **parallel** und schneiden sich nicht (1 P).\n\nIm Sachzusammenhang: Beide legen jede Woche gleich viel dazu. Der Unterschied von $100 - 40 = 60$ € bleibt jede Woche gleich, Paul holt Jana nie ein (1 P).\n\nAuch richtig mit Gleichsetzen: $5x + 40 = 5x + 100 \\quad \\mid -5x$ ergibt $40 = 100$. Das ist eine falsche Aussage, es gibt also kein $x$ mit gleichem Betrag – kein Schnittpunkt."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Tandem: Punkte, Steigung, Gleichung",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert. Nach jeder Nummer wird gewechselt.",
+      "bild": "img/st_N5.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N5-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechne die Steigung der Geraden durch $P(-1 \\mid -4)$ und $Q(2 \\mid 2)$.",
+          "tipp": "$m = \\frac{y_2 - y_1}{x_2 - x_1}$ – Vorsicht bei $2 - (-4)$.",
+          "loesung": "$$m = \\frac{2 - (-4)}{2 - (-1)} = \\frac{6}{3} = 2$$"
+        },
+        {
+          "id": "N5-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechne die Steigung der Geraden durch $P(-2 \\mid 5)$ und $Q(2 \\mid -3)$.",
+          "tipp": "$m = \\frac{y_2 - y_1}{x_2 - x_1}$ – Vorsicht bei $2 - (-2)$.",
+          "loesung": "$$m = \\frac{-3 - 5}{2 - (-2)} = \\frac{-8}{4} = -2$$"
+        },
+        {
+          "id": "N5-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Eine Gerade hat die Steigung $-3$ und geht durch $P(2 \\mid 1)$. Gib ihre Funktionsgleichung an.",
+          "tipp": "Setze $P$ in $f(x) = -3x + b$ ein und löse nach $b$ auf.",
+          "loesung": "$1 = -3 \\cdot 2 + b$, also $1 = -6 + b$ und $b = 7$.\n\n$$f(x) = -3x + 7$$"
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Eine Gerade hat die Steigung $-0{,}5$ und geht durch $P(4 \\mid 6)$. Gib ihre Funktionsgleichung an.",
+          "tipp": "Setze $P$ in $f(x) = -0{,}5x + b$ ein und löse nach $b$ auf.",
+          "loesung": "$6 = -0{,}5 \\cdot 4 + b$, also $6 = -2 + b$ und $b = 8$.\n\n$$f(x) = -0{,}5x + 8$$"
+        },
+        {
+          "id": "N5-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechne die Nullstelle von $f(x) = -4x - 6$.",
+          "tipp": "Setze $f(x) = 0$. Beim Teilen durch $-4$ auf das Vorzeichen achten.",
+          "loesung": "$-4x - 6 = 0 \\quad \\mid +6$\n\n$-4x = 6 \\quad \\mid : (-4)$\n\n$x = -1{,}5$"
+        },
+        {
+          "id": "N5-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechne die Nullstelle von $f(x) = 0{,}5x + 3$.",
+          "tipp": "Setze $f(x) = 0$. Durch 0,5 teilen heißt mal 2 rechnen.",
+          "loesung": "$0{,}5x + 3 = 0 \\quad \\mid -3$\n\n$0{,}5x = -3 \\quad \\mid \\cdot 2$\n\n$x = -6$"
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Darstellungen wechseln",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c5",
+        "c6",
+        "c3",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Hier wechselst du zwischen Tabelle, Graph, Gleichung und Worten.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Darstellungen_wechseln.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$b$ ist der Funktionswert an der Stelle 0: $b = f(0) = 7$.\n\n$m$: Wenn $x$ um 1 größer wird, wird $f(x)$ jedes Mal um 3 kleiner, also $m = -3$.\n\n$$f(x) = -3x + 7$$\n\nGleichung 1 P, Beschreibung 1 P."
+        },
+        {
+          "id": "N6-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "1 – B (fällt, $b = 1$) · 2 – D (steigt steil, $b = -1$) · 3 – C (steigt flach, $b = 1$) · 4 – A (steigt steil, $b = 1$)\n\nErst auf den y-Achsenabschnitt schauen, dann auf die Steigung. Alle vier richtig: 2 P, zwei richtig: 1 P."
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Beispiel: Ein Wasserkanister enthält 20 l. Jede Minute laufen 4 l heraus. $x$: Zeit (in min), $f(x)$: Wasser im Kanister (in l).\n\n20 ist der Anfangswert (20 l zu Beginn), $-4$ heißt: Es werden jede Minute 4 l weniger.\n\nSinnvoll nur von $x = 0$ bis zur Nullstelle $x = 5$: Nach 5 Minuten ist der Kanister leer, negative Wassermengen gibt es nicht.\n\nPassende Situation mit Deutung von $-4$ und $20$ 1 P. Sinnvoller Bereich, passend zur eigenen Situation begründet, 1 P – meist von $x = 0$ bis $x = 5$, weil die Größe nicht negativ werden kann. Darf die Größe negativ werden (z. B. eine Temperatur), begrenzt die Situation den Bereich, nicht die Nullstelle; zählt $x$ z. B. Wochen, sind nur ganze Zahlen sinnvoll.\n\nJede Situation mit Anfangswert 20 und gleichmäßiger Abnahme um 4 je Einheit ist richtig, z. B. ein Guthaben von 20 €, von dem jede Woche 4 € abgehen."
+        },
+        {
+          "id": "N6-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Parallel heißt: gleiche Steigung $m = 1{,}5$. Durch $(0 \\mid -2)$ heißt $b = -2$.\n\n$$h(x) = 1{,}5x - 2$$"
+        },
+        {
+          "id": "N6-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$g$: Start in $(0 \\mid 1)$, dann 2 nach rechts und 3 nach oben. $h$: Start in $(0 \\mid -2)$, ebenso 2 nach rechts und 3 nach oben. Die Geraden verlaufen parallel.\n\nAuch richtig: jedes andere Steigungsdreieck mit $m = 1{,}5$, z. B. 1 nach rechts und 1,5 nach oben oder 4 nach rechts und 6 nach oben.",
+          "loesung_bild": "img/N6-4b.png"
+        },
+        {
+          "id": "N6-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Nullstelle von $f$: $x = -2$ · Nullstelle von $g$: $x = 4$ · Schnittpunkt $S(2 \\mid 2)$"
+        },
+        {
+          "id": "N6-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$f(2) = 0{,}5 \\cdot 2 + 1 = 2$ ✓ und $g(2) = -2 + 4 = 2$ ✓\n\n$S(2 \\mid 2)$ liegt auf beiden Geraden, der abgelesene Schnittpunkt stimmt."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Sachprobleme und Modellieren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c10",
+        "c9",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Schreibe bei 1c und 2b einen Antwortsatz.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Sachprobleme.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zunahmen pro Stunde: $32 - 20 = 12$; $45 - 32 = 13$; $56 - 45 = 11$; $68 - 56 = 12$ (1 P).\n\nDas Wasser steigt jede Stunde um ungefähr 12 cm, also fast gleichmäßig. Die Punkte liegen fast auf einer Geraden (1 P)."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gerade durch den ersten und den letzten Messwert, $(0 \\mid 20)$ und $(4 \\mid 68)$:\n\n$$m = \\frac{68 - 20}{4 - 0} = \\frac{48}{4} = 12, \\quad b = 20$$\n\n$$f(x) = 12x + 20$$"
+        },
+        {
+          "id": "N7-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "1,80 m = 180 cm:\n\n$$12x + 20 = 180 \\quad \\mid -20$$\n\n$$12x = 160 \\quad \\mid : 12$$\n\n$$x = 13\\frac{1}{3}$$\n\n13 h 20 min nach 8 Uhr, also 21:20 Uhr. Die Rechnung stimmt (1 P).\n\nUrteil: als Richtwert brauchbar, aber nicht minutengenau. Das Wasser steigt nur ungefähr 12 cm pro Stunde (gemessen 11 bis 13 cm). Mit 13 cm pro Stunde wäre das Becken schon gegen 20:20 Uhr voll, mit 11 cm pro Stunde erst gegen 22:30 Uhr. Außerdem gilt das Modell nur bis zum Rand: Danach läuft das Wasser über. Man sollte deshalb rechtzeitig nachsehen und die Pumpe abstellen (1 P)."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Tarif A: $f_A(x) = 10x + 30$\n\nTarif B: $f_B(x) = 16x$"
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$10x + 30 = 16x \\quad \\mid -10x$$\n\n$$30 = 6x \\quad \\mid : 6$$\n\n$$x = 5$$\n\nBei **5 Stunden** kosten beide 80 € (1 P).\n\nBei mehr Stunden ist **Tarif A** günstiger: Seine Gerade steigt weniger steil (10 € statt 16 € je Stunde), sie liegt rechts vom Schnittpunkt unter der Geraden von B. Beispiel: 6 h kosten bei A 90 €, bei B 96 € (1 P)."
+        },
+        {
+          "id": "N7-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Tarif A kostet bei 4 Stunden $10 \\cdot 4 + 30 = 70$ €. Tarif B soll für 4 Stunden auch 70 € kosten (1 P):\n\n$$4 \\cdot p = 70 \\quad \\mid : 4$$\n\n$$p = 17{,}5$$\n\nDer neue Stundenpreis ist **17,50 €** (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c3",
+        "c7",
+        "c8"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. In jeder Aufgabe steckt ein typischer Fehler – finde ihn und begründe.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Tom hat nur die x-Koordinate bestimmt. Ein Punkt hat aber zwei Koordinaten (1 P).\n\n$f(3) = 3 + 1 = 4$ (Kontrolle: $g(3) = -6 + 10 = 4$), also $S(3 \\mid 4)$ (1 P)."
+        },
+        {
+          "id": "N8-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Gerade fällt: 2 nach **unten** zählt negativ. Mia hat das Vorzeichen vergessen (1 P).\n\n$m = \\frac{-2}{1} = -2$ (1 P)"
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ben hat im Zähler die x-Werte und im Nenner die y-Werte genommen. Richtig ist „y-Differenz durch x-Differenz“ (1 P).\n\nRichtige Rechnung (1 P):\n\n$$m = \\frac{5 - 3}{5 - 1} = \\frac{2}{4} = 0{,}5$$"
+        },
+        {
+          "id": "N8-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Rechts muss $0 - 6 = -6$ stehen, nicht 6 (1 P).\n\nProbe: $f(3) = 2 \\cdot 3 + 6 = 12 \\ne 0$, also ist 3 keine Nullstelle (1 P).\n\nZur Kontrolle: Richtig ist $2x = -6$, also $x = -3$; $f(-3) = -6 + 6 = 0$ ✓"
+        },
+        {
+          "id": "N8-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Nina hat **nicht recht**.\n\n$m = \\frac{4 - 4}{3 - 0} = \\frac{0}{3} = 0$. Die Gerade hat die Steigung 0, sie verläuft waagerecht (1 P).\n\nMit $b = 4$ lautet die Funktionsgleichung $f(x) = 0 \\cdot x + 4$, also $f(x) = 4$. Jeder Stelle wird genau der Wert 4 zugeordnet – das ist eine lineare Funktion (1 P).\n\nMerke: $m = 0$ bedeutet eine waagerechte Gerade mit $f(x) = b$."
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Die Passstraße",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c1",
+        "c2",
+        "c4",
+        "g1",
+        "g2",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner, Geodreieck. Vernetzt die Grundlagen mit Phase 1 (Funktionen und Steigung) – am besten nach N1 bis N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Passstrasse.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Auf 100 m steigt die Straße 8 m, auf 1 m also $8 : 100 = 0{,}08$ m.\n\n| $x$ | $0$ | $50$ | $100$ | $250$ | $400$ |\n|---|---|---|---|---|---|\n| $f(x)$ | $0$ | $4$ | $8$ | $20$ | $32$ |\n\nWertetabelle 1 P.\n\n$$f(x) = 0{,}08x$$\n\n(1 P; auch richtig: $f(x) = \\frac{8}{100}x$ oder $y = 0{,}08x$)"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Ursprungsgerade durch $(0 \\mid 0)$ und $(400 \\mid 32)$, also 8 cm nach rechts und 8 cm nach oben. Steigungsdreieck z. B. 100 nach rechts und 8 nach oben (2 cm und 2 cm).",
+          "loesung_bild": "img/V1-1b.png"
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Punktprobe mit $(250 \\mid 22)$: $f(250) = 0{,}08 \\cdot 250 = 20 \\ne 22$.\n\nDer Punkt liegt nicht auf dem Graphen: Bei 8 % Steigung liegt die Hütte nur 20 m höher. Die Angaben passen nicht zusammen."
+        },
+        {
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$0{,}08x = 50 \\quad \\mid : 0{,}08$$\n\n$$x = 5000 : 8 = 625$$\n\nNach **625 m** waagerechter Strecke. Kontrolle: $0{,}08 \\cdot 625 = 50$ ✓\n\nHinweis: In Wirklichkeit wird die Straße ab 400 m steiler (Aufgabe 2). Dann liegt sie schon nach 550 m 50 m höher."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zweiter Abschnitt von $(400 \\mid 32)$ bis $(600 \\mid 56)$: 200 nach rechts, $56 - 32 = 24$ nach oben.\n\n$$m = \\frac{24}{200} = 0{,}12$$\n\n(1 P) Das sind 12 m auf 100 m, also **12 %** (1 P).\n\nJedes andere Steigungsdreieck am zweiten Abschnitt ist auch richtig, z. B. 50 nach rechts und 6 nach oben."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Lina hat **nicht recht**.\n\n100 % heißt: 100 m höher auf 100 m waagerechter Strecke, also $m = 1$ – Steigungsdreieck 1 nach rechts, 1 nach oben. Die Straße wäre sehr steil, aber schräg, nicht senkrecht (1 P).\n\nBei einer senkrechten Linie gibt es keinen waagerechten Weg: Ein Steigungsdreieck ist nicht möglich, und zu einer Stelle $x$ gehören viele Höhen. Das wäre nicht einmal der Graph einer Funktion (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Grad Celsius und Grad Fahrenheit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c5",
+        "c6",
+        "c3",
+        "c4",
+        "c2",
+        "g2",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner, Geodreieck. Vernetzt die Grundlagen mit Phase 1 bis 2 (Funktionen und Steigung, Funktionsgleichung) – am besten nach N3.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Celsius_Fahrenheit.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Punkte $(0 \\mid 32)$ und $(100 \\mid 212)$:\n\n$$m = \\frac{212 - 32}{100 - 0} = \\frac{180}{100} = 1{,}8$$\n\n(1 P)\n\nDer Punkt $(0 \\mid 32)$ liegt auf der y-Achse, also $b = 32$:\n\n$$f(x) = 1{,}8x + 32$$\n\n(1 P)"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$b = 32$: Bei 0 °C zeigt die Fahrenheit-Skala 32 °F (1 P).\n\n$m = 1{,}8$: Wird es um 1 °C wärmer, steigt die Temperatur in Fahrenheit um 1,8 °F. Ein Grad Celsius ist also größer als ein Grad Fahrenheit (1 P)."
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Start im y-Achsenabschnitt $(0 \\mid 32)$. Steigungsdreieck: 10 nach rechts, 18 nach oben, das führt zu $(10 \\mid 50)$. Die Gerade reicht von $(-20 \\mid -4)$ bis $(40 \\mid 104)$.",
+          "loesung_bild": "img/V2-1c.png"
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$1{,}8x + 32 = 77 \\quad \\mid -32$$\n\n$$1{,}8x = 45 \\quad \\mid : 1{,}8$$\n\n$$x = 450 : 18 = 25$$\n\n(1 P) In New York sind es **25 °C** (1 P)."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f(37) = 1{,}8 \\cdot 37 + 32 = 66{,}6 + 32 = 98{,}6$ ✓\n\nDer Punkt $(37 \\mid 98{,}6)$ liegt auf dem Graphen: 98,6 °F sind genau 37 °C."
+        },
+        {
+          "id": "V2-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Faustregel: $g(x) = 2x + 30$. Vergleich an einigen Stellen (1 P):\n\n| °C | $-10$ | $0$ | $10$ | $30$ | $100$ |\n|---|---|---|---|---|---|\n| genau: $f(x)$ | $14$ | $32$ | $50$ | $86$ | $212$ |\n| Faustregel: $g(x)$ | $10$ | $30$ | $50$ | $90$ | $230$ |\n\nBei 10 °C stimmt die Faustregel genau. Die Faustregel hat die Steigung 2 statt 1,8: Mit jedem Grad Abstand von 10 °C wird der Fehler um 0,2 °F größer. Für Wettertemperaturen von etwa 0 °C bis 25 °C liegt sie höchstens 3 °F daneben – als Schätzung gut. Für hohe Temperaturen (Backofen, kochendes Wasser) passt sie nicht (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Ein Tunnel wird gebohrt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10",
+        "c7",
+        "c5",
+        "c4",
+        "g1",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 3 (Funktionen und Steigung, Funktionsgleichung, Nullstellen und Schnittpunkte) – am besten nach N4 bis N8.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Tunnel.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f(x) = 15x$ (1 P)\n\nPunktprobe: $f(20) = 15 \\cdot 20 = 300$ ✓ – die Meldung stimmt (1 P)."
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Punkte $(4 \\mid 1100)$ und $(10 \\mid 950)$:\n\n$$m = \\frac{950 - 1100}{10 - 4} = \\frac{-150}{6} = -25$$\n\n(1 P)\n\n$$1100 = -25 \\cdot 4 + b \\Rightarrow b = 1100 + 100 = 1200$$\n\n$$g(x) = -25x + 1200$$\n\n(1 P)\n\nDeutung: Zu Beginn ist B 1200 m vom Westportal entfernt – B startet am Ostportal, der Tunnel ist 1200 m lang (1 P). Die Steigung $-25$ heißt: B kommt dem Westportal jeden Tag 25 m näher."
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$-25x + 1200 = 0 \\quad \\mid -1200$$\n\n$$-25x = -1200 \\quad \\mid : (-25)$$\n\n$$x = 48$$\n\n(1 P) Nach 48 Tagen wäre Maschine B am Westportal: So lange bräuchte B, wenn sie den Tunnel allein bohren würde (1 P)."
+        },
+        {
+          "id": "V3-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$15x = -25x + 1200 \\quad \\mid +25x$$\n\n$$40x = 1200 \\quad \\mid : 40$$\n\n$$x = 30$$\n\n$f(30) = 15 \\cdot 30 = 450$ (Kontrolle: $g(30) = -750 + 1200 = 450$), also $S(30 \\mid 450)$ (1 P).\n\nNach **30 Tagen** treffen sich die Maschinen **450 m** vom Westportal entfernt (1 P)."
+        },
+        {
+          "id": "V3-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Neu: $20x = -20x + 1200$, also $40x = 1200$ und $x = 30$; Treffpunkt bei $20 \\cdot 30 = 600$ m, genau in der Mitte. Der erste Teil stimmt (1 P).\n\nFrüher fertig ist der Tunnel aber nicht: Wie vorher nach 30 Tagen, weil beide Maschinen zusammen weiterhin $15 + 25 = 20 + 20 = 40$ m pro Tag schaffen. Der zweite Teil stimmt nicht (1 P)."
+        }
+      ]
+    }
+  ]
+}

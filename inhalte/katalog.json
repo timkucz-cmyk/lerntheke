@@ -38,6 +38,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Haus der Vierecke, Kongruenzsätze, Konstruktion, Dreieck, Parallelogramm, Trapez, Drachen und Raute, Vielecke"
+        },
+        {
+          "id": "lineare-funktionen",
+          "name": "Lineare Funktionen – Training",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Funktionsbegriff, Steigung, y-Achsenabschnitt, Funktionsgleichung, Nullstelle, Schnittpunkt"
         }
       ]
     },
@@ -60,10 +67,10 @@
       "themen": [
         {
           "id": "exponentialfunktionen",
-          "name": "Exponentialfunktionen – Training",
+          "name": "Exponentialfunktionen – Lerntheke",
           "fach": "mathe",
           "aktiv": true,
-          "beschreibung": "Lineares vs. exponentielles Wachstum, Parameter, Logarithmus, Halbwertszeit, Modellieren"
+          "beschreibung": "Lineares und exponentielles Wachstum, allgemeine Exponentialfunktion, Asymptote und Monotonie, Exponentialgleichungen mit dem Logarithmus, Halbwertszeit und Verdopplungszeit, Modellieren"
         },
         {
           "id": "elektrizitaet",
@@ -85,6 +92,20 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Kongruenz, zentrische Streckung, Streckzentrum und Streckfaktor, ähnliche Figuren, Ähnlichkeitssätze für Dreiecke, Strahlensätze, unzugängliche Längen bestimmen"
+        },
+        {
+          "id": "trigonometrie",
+          "name": "Trigonometrie – Lerntheke",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Einheitskreis, Sinus, Kosinus und Tangens im rechtwinkligen Dreieck, Seiten und Winkel berechnen, Arcusfunktionen, Sinussatz, Kosinussatz, Höhen- und Tiefenwinkel"
+        },
+        {
+          "id": "energieversorgung",
+          "name": "Energieversorgung – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Kraftwerke, Energieumwandlung, Leistung und Wirkungsgrad, Speicher, Kernspaltung, Kettenreaktion, Massendefekt, Kernfusion, biologische Strahlenwirkung, Strahlenschutz, Nutzen und Gefahren"
         }
       ]
     },
@@ -158,7 +179,7 @@
           "name": "Quantenphysik – Training",
           "fach": "physik",
           "aktiv": true,
-          "beschreibung": "Photoeffekt, Photonen, Wahrscheinlichkeit, Weginformation, Deutung"
+          "beschreibung": "Photoeffekt, Photonen, Quantenobjekte und Wahrscheinlichkeit, Weginformation, Deutung, Elektronen und de Broglie"
         },
         {
           "id": "atommodell",
@@ -166,6 +187,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Orbitale, Energieniveaus, Emission und Absorption, Linienspektren des Wasserstoffatoms"
+        },
+        {
+          "id": "memory-abi",
+          "name": "Mündliches Abitur – 60-Sekunden-Memory",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Zu zweit mit zwei Geräten: Lerngegenstände erklären und Abbildungen beschreiben, Partner prüft mit Erwartungshorizont"
         }
       ]
     }
