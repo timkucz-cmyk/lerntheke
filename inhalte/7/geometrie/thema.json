@@ -1,0 +1,1171 @@
+{
+  "version": 1,
+  "titel": "Winkel, Dreiecke und Konstruktionen – Training vor der Klassenarbeit",
+  "fach": "mathe",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du beim Messen und Zeichnen von Winkeln, bei Dreiecksarten, Kreisen oder Koordinaten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** folgen dem Lernweg von N1 bis N10. Wenig Zeit? Dann zuerst N1, N3, N4 und N7. Bist du bei Winkelsummen unsicher, nimm N2 dazu. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 und N2, V2 nach N3 bis N6, V3 nach N7 bis N10. N9 und V3 bearbeitest du, sobald Umkreis und Inkreis im Unterricht dran waren. Winkelaufgaben rechnest und begründest du in deinen Notizen. **Konstruktionen** machst du auf Papier mit Zirkel und Geodreieck – wie in der Arbeit (1 LE = 1 cm = 2 Kästchen). Ohne Taschenrechner; dein Regelheft darfst du benutzen.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Winkel messen und zeichnen, Winkelarten (spitz, recht, stumpf, gestreckt, überstumpf) und Winkelbezeichnungen angeben"
+    },
+    {
+      "id": "g2",
+      "text": "Senkrechte und parallele Geraden mit dem Geodreieck zeichnen und den Abstand eines Punktes von einer Geraden bestimmen"
+    },
+    {
+      "id": "g3",
+      "text": "Dreiecke nach Seiten und Winkeln einteilen und ein Dreieck richtig beschriften (Ecken, Seiten, Winkel)"
+    },
+    {
+      "id": "g4",
+      "text": "Kreise mit dem Zirkel zeichnen und Mittelpunkt, Radius und Durchmesser angeben"
+    },
+    {
+      "id": "g5",
+      "text": "Punkte im Koordinatensystem eintragen und ablesen"
+    },
+    {
+      "id": "c1",
+      "text": "Nebenwinkel, Scheitelwinkel, Stufenwinkel und Wechselwinkel an geschnittenen Geraden erkennen und benennen"
+    },
+    {
+      "id": "c2",
+      "text": "Mit den Winkelsätzen fehlende Winkel berechnen und jeden Schritt mit dem passenden Satz begründen"
+    },
+    {
+      "id": "c3",
+      "text": "Mit der Umkehrung des Stufenwinkelsatzes entscheiden, ob zwei Geraden parallel sind"
+    },
+    {
+      "id": "c4",
+      "text": "Mit der Innenwinkelsumme fehlende Winkel in Dreiecken berechnen und die Innenwinkelsumme begründen"
+    },
+    {
+      "id": "c5",
+      "text": "Die Winkelsumme in Vierecken und Vielecken durch Zerlegen in Dreiecke begründen und nutzen"
+    },
+    {
+      "id": "c6",
+      "text": "Mit dem Basiswinkelsatz fehlende Winkel in gleichschenkligen und gleichseitigen Dreiecken berechnen"
+    },
+    {
+      "id": "c7",
+      "text": "Mit der Umkehrung des Basiswinkelsatzes begründen, dass ein Dreieck gleichschenklig ist, und einen Satz von seiner Umkehrung unterscheiden"
+    },
+    {
+      "id": "c8",
+      "text": "Den Satz des Thales anwenden: rechte Winkel erkennen, Winkel berechnen und rechtwinklige Dreiecke mit dem Thaleskreis konstruieren"
+    },
+    {
+      "id": "c9",
+      "text": "Einen Beweis des Satzes des Thales erläutern (Voraussetzung, Behauptung, Beweisschritte mit Begründung)"
+    },
+    {
+      "id": "c10",
+      "text": "Mit Zirkel und Lineal Mittelsenkrechte, Senkrechte, Winkelhalbierende und Parallele konstruieren"
+    },
+    {
+      "id": "c11",
+      "text": "Eine vollständige Konstruktionsbeschreibung verfassen und eine Beschreibung ausführen"
+    },
+    {
+      "id": "c12",
+      "text": "Mittelsenkrechten, Winkelhalbierende, Seitenhalbierende und Höhen eines Dreiecks beschreiben und konstruieren"
+    },
+    {
+      "id": "c13",
+      "text": "Umkreis und Inkreis eines Dreiecks konstruieren und begründen, warum ihre Mittelpunkte so liegen"
+    },
+    {
+      "id": "c14",
+      "text": "Kongruenz von Figuren erläutern",
+      "spaeter": true
+    },
+    {
+      "id": "c15",
+      "text": "Mit den Kongruenzsätzen Dreiecke auf Kongruenz prüfen",
+      "spaeter": true
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 5 und 6",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Winkel an Geraden und Winkelsummen",
+      "untertitel": "Neben-, Scheitel-, Stufen- und Wechselwinkel, Winkelsummen",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Gleichschenklige Dreiecke und Thales",
+      "untertitel": "Basiswinkel, Umkehrung, Thaleskreis, Beweis",
+      "farbe": "orange",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c8",
+        "c9"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Konstruktionen und besondere Linien",
+      "untertitel": "Zirkel und Lineal, Umkreis, Inkreis",
+      "farbe": "gruen",
+      "checkliste": [
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14",
+        "c15"
+      ]
+    }
+  ],
+  "abschluss": "Klassenarbeit",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Geodreieck, Zirkel, Karopapier, ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, Geodreieck, Zirkel und Karopapier, ohne Taschenrechner, 25 Minuten für alle Blöcke. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- 35°: spitzer Winkel (kleiner als 90°)\n- 90°: rechter Winkel\n- 145°: stumpfer Winkel (zwischen 90° und 180°)\n- 180°: gestreckter Winkel\n- 230°: überstumpfer Winkel (zwischen 180° und 360°)\n\nAlle fünf richtig 1 P, vier richtig 0,5 P."
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\angle ASB = 62°$ (± 2°).\n\nSo misst du: Nullpunkt des Geodreiecks auf den Scheitel S, die Grundlinie auf den Schenkel SA legen und an der Skala ablesen, die bei SA mit 0° beginnt.\n\nÜben: **G2** Aufgabe 1 und 2."
+        },
+        {
+          "id": "G1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Schenkel QP zeichnen, Geodreieck mit dem Nullpunkt auf Q anlegen, bei 125° markieren (stumpfer Winkel, also größer als ein rechter) und den zweiten Schenkel QR zeichnen. Q ist der **Scheitel**, die Strahlen QP und QR sind die **Schenkel**. Winkelbogen eintragen."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Geodreieck mit der Mittellinie auf g legen und verschieben, bis die Kante durch P geht. Die Senkrechte trifft g im Punkt $F(3{,}6 \\mid 1{,}8)$.",
+          "loesung_bild": "img/G1-2a.png"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Eine Hilfslinie des Geodreiecks auf g legen und das Geodreieck verschieben, bis die Kante durch P geht. Die Parallele geht z. B. auch durch $(4 \\mid 6)$ und $(6 \\mid 7)$ – sie steigt wie g um 1 LE je 2 LE nach rechts."
+        },
+        {
+          "id": "G1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Abstand ist die Länge des Lots von P auf g, also der Strecke $\\overline{PF}$ aus a). Auf dem Papier misst du etwa **3,6 cm** (± 1 mm).\n\n*Schräg gemessen?* Der Abstand wird immer senkrecht zur Geraden gemessen – jede andere Strecke von P zu g ist länger. Üben: **G2** Aufgabe 5."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Nach den Seiten: **gleichschenklig** (zwei Seiten gleich lang). Nach den Winkeln: **stumpfwinklig** (ein Winkel größer als 90°). Je Angabe 0,5 P."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Ecken A, B, C **gegen den Uhrzeigersinn**. Die Seite gegenüber von A heißt a, gegenüber von B heißt b, gegenüber von C heißt c. Der Winkel bei A heißt α, bei B β, bei C γ.\n\nÜben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gleichschenklig heißt: (mindestens) zwei Seiten sind gleich lang. Im gleichseitigen Dreieck sind sogar alle drei Seiten gleich lang – also auf jeden Fall zwei."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Radius ist der halbe Durchmesser: $r = 7 : 2 = 3{,}5\\,\\mathrm{cm}$ (0,5 P). Zirkel auf 3 cm öffnen (am Lineal kontrollieren), Spitze in M, Kreis zeichnen (0,5 P)."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Auf dem Kreis liegen **genau die Punkte, die von M den Abstand r haben**. Punkte mit kleinerem Abstand liegen innerhalb, Punkte mit größerem Abstand außerhalb.\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Erste Zahl: nach rechts (x), zweite Zahl: nach oben (y). A und B liegen auf derselben Höhe (y = 2), C liegt 4 LE darüber in der Mitte."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\overline{AB}$ ist 6 LE lang und liegt waagerecht. Die Mitte liegt 3 LE rechts von A: $M_{AB}(4 \\mid 2)$.\n\n*x und y vertauscht?* Erst nach rechts, dann nach oben. Üben: **G2** Aufgabe 4."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Winkel, Dreiecke, Kreise",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Zirkel, Karopapier, ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, 20 Minuten, Geodreieck, Zirkel und Karopapier. Übt die Lücken aus G1: Aufgabe 1 und 2 Winkel messen, Aufgabe 3 Dreiecksarten, Aufgabe 4 Kreise und Koordinaten, Aufgabe 5 Senkrechte, Parallele und Abstand.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "① **40°** (spitz) · ② **115°** (stumpf) · ③ **205°** (überstumpf).\n\nÜberstumpfe Winkel misst du über den Rest zum Vollwinkel: Der Winkel auf der anderen Seite ist 155°, also $360° - 155° = 205°$.\n\nJe Messung ± 2°; 2 P für drei richtige Werte, 1 P für zwei."
+        },
+        {
+          "id": "G2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Geodreieck hat zwei Skalen. Pia hat auf der Skala abgelesen, die **nicht** bei ihrem ersten Schenkel mit 0° beginnt (1 P). Richtig: $180° - 130° = 50°$ (1 P). Kontrolle: 50° ist spitz – passt."
+        },
+        {
+          "id": "G2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| Dreieck | nach den Winkeln | nach den Seiten |\n|---|---|---|\n| A | spitzwinklig | gleichseitig |\n| B | spitzwinklig | gleichschenklig |\n| C | rechtwinklig | gleichschenklig (zwei gleiche Winkel) |\n| D | stumpfwinklig | weder gleichschenklig noch gleichseitig |\n\nJe Dreieck 0,5 P."
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- $P_1(2 \\mid 3)$: 3 LE links von M → **auf** dem Kreis\n- $P_2(5 \\mid 7)$: 4 LE über M → **außerhalb**\n- $P_3(6 \\mid 4)$: 1 LE rechts und 1 LE hoch, ungefähr 1,4 LE von M → **innerhalb**\n- $P_4(8 \\mid 3)$: 3 LE rechts von M → **auf** dem Kreis\n\nJe Punkt 0,5 P."
+        },
+        {
+          "id": "G2-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Senkrechte: Mittellinie des Geodreiecks auf h, Kante durch Q. Die Senkrechte trifft h im Punkt $F(3{,}2 \\mid 3{,}4)$. Parallele: Hilfslinie auf h, verschieben bis R. Die Parallele steigt wie h um 3 LE je 4 LE nach rechts (z. B. durch $(6 \\mid 9)$, im Raster durch $(4 \\mid 7{,}5)$). Je Linie 0,5 P.",
+          "loesung_bild": "img/G2-5a.png"
+        },
+        {
+          "id": "G2-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Abstand = Länge des Lots $\\overline{QF}$. Gemessen auf dem Papier: **3 cm** (± 1 mm)."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Winkel an Geraden",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Begründe jeden Winkel mit dem Fachbegriff.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Winkel_an_Geraden.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- β: **Nebenwinkel** zu α (gleicher Scheitel, zusammen ein gestreckter Winkel)\n- γ: **Scheitelwinkel** zu α (gegenüber am selben Scheitel)\n- δ: **Stufenwinkel** zu α (an h in derselben Lage wie α an g)\n- ε: **Wechselwinkel** zu α (an h, auf der anderen Seite von t und zwischen den Parallelen)\n\nJe Winkel 0,5 P."
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- $\\beta = 180° - 57° = 123°$ (Nebenwinkel zu α)\n- $\\gamma = 57°$ (Scheitelwinkel zu α)\n- $\\delta = 57°$ (Stufenwinkel zu α, $g \\parallel h$)\n- $\\varepsilon = 57°$ (Wechselwinkel zu α, $g \\parallel h$; oder: Scheitelwinkel zu δ)\n\nJe Winkel mit Begründung 0,5 P.\n\n*β = 57° gesetzt?* Nebenwinkel sind nicht gleich groß, sie ergänzen sich zu 180°. → **N10** Aufgabe 1"
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Nebenwinkel des 106°-Winkels an h ist $180° - 106° = 74°$ (Nebenwinkel) (1 P). Er liegt an h in derselben Lage wie der 74°-Winkel an g: Die beiden **Stufenwinkel sind gleich groß**.\n\nNach der Umkehrung des Satzes vom Stufenwinkel sind **g und h parallel** (1 P)."
+        },
+        {
+          "id": "N1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Hilfsparallele p durch P ist parallel zu g und zu h. p teilt x in zwei Teile:\n\n- oberer Teil: 35° (Wechselwinkel zum 35°-Winkel, $g \\parallel p$)\n- unterer Teil: 48° (Wechselwinkel zum 48°-Winkel, $p \\parallel h$)\n\n$x = 35° + 48° = 83°$\n\nHilfsparallele und Ansatz 1 P, Ergebnis mit Begründungen 1 P."
+        },
+        {
+          "id": "N1-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nebenwinkel ergeben zusammen 180° (1 P). Sind beide gleich groß, ist jeder die Hälfte davon: $180° : 2 = 90°$ (1 P). Die beiden Geraden stehen dann senkrecht aufeinander."
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Winkelsummen in Dreiecken und Vielecken",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Innenwinkelsumme (IWS) im Dreieck, im Viereck und im Vieleck.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Winkelsummen.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\gamma = 180° - 38° - 77° = 65°$ (IWS)"
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Für α und β zusammen bleiben $180° - 52° = 128°$ (IWS). Beide sind gleich groß: $\\alpha = \\beta = 128° : 2 = 64°$."
+        },
+        {
+          "id": "N2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- $\\gamma = 180° - 128° = 52°$ (Nebenwinkel zu $\\angle BCD$) (1 P)\n- $\\beta = 180° - 55° - 52° = 73°$ (IWS) (1 P)\n\nBeobachtung: $128° = 55° + 73°$ – der Winkel an der verlängerten Seite ist so groß wie die beiden anderen Innenwinkel zusammen."
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Diagonale zerlegt das Viereck in **zwei Dreiecke**. Die Winkel der beiden Dreiecke bilden zusammen genau die vier Winkel des Vierecks. Jedes Dreieck hat 180° (IWS), also $2 \\cdot 180° = 360°$."
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$360° - 95° - 110° - 70° = 85°$\n\n*Mit 180° gerechnet?* Das gilt nur im Dreieck. → **N10** Aufgabe 2"
+        },
+        {
+          "id": "N2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Von einer Ecke aus gehen 3 Diagonalen, sie zerlegen das Sechseck in **4 Dreiecke**: $4 \\cdot 180° = 720°$ (1 P).\n\nIm regelmäßigen Sechseck sind alle 6 Winkel gleich: $720° : 6 = 120°$ (1 P).\n\nAllgemein: Ein n-Eck zerfällt in $n - 2$ Dreiecke, die Winkelsumme ist $(n - 2) \\cdot 180°$."
+        },
+        {
+          "id": "N2-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "| Schritt | Begründung |\n|---|---|\n| $\\alpha' = \\alpha$ | Wechselwinkel an den Parallelen p und AB |\n| $\\beta' = \\beta$ | Wechselwinkel an den Parallelen p und AB |\n| $\\alpha' + \\gamma + \\beta' = 180°$ | Die drei Winkel bilden an p einen gestreckten Winkel. |\n| $\\alpha + \\gamma + \\beta = 180°$ | α′ und β′ ersetzen |\n\nWechselwinkel erkannt 1 P, gestreckter Winkel und Schluss 1 P. (Statt Wechselwinkeln kann man auch Stufen- und Scheitelwinkel nutzen.)"
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Gleichschenklige Dreiecke",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Basiswinkelsatz (BWS) und seine Umkehrung.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Gleichschenklige_Dreiecke.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Basiswinkel sind gleich groß (BWS): $(180° - 40°) : 2 = 70°$.\n\n*Spitze als Basiswinkel genommen?* → **N10** Aufgabe 3"
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beide Basiswinkel sind 35° (BWS): $180° - 2 \\cdot 35° = 110°$ (IWS)."
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Dritter Winkel: $180° - 50° - 80° = 50°$ (IWS). Zwei Winkel sind gleich groß (50°), also ist das Dreieck nach der Umkehrung des BWS **gleichschenklig**."
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Dritter Winkel: $180° - 45° - 100° = 35°$ (IWS). Die Winkel 45°, 100°, 35° sind alle verschieden. Im gleichschenkligen Dreieck müssten zwei Winkel gleich sein – **nicht gleichschenklig**."
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "| Schritt | Begründung |\n|---|---|\n| $\\angle ACD = 52°$ | BWS im Dreieck ADC ($\\overline{AD} = \\overline{DC}$) |\n| $\\beta = 52°$ | BWS im Dreieck ABC ($\\overline{AC} = \\overline{BC}$) |\n| $\\gamma = 180° - 52° - 52° = 76°$ | IWS im Dreieck ABC |\n| $\\delta = 76° - 52° = 24°$ | γ ist aus $\\angle ACD$ und δ zusammengesetzt |\n\nJe richtiger Schritt mit Begründung 0,5 P."
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\beta = 180° - 28° - 124° = 28°$ (IWS), also $\\alpha = \\beta$ (1 P).\n\nNach der Umkehrung des BWS sind die Seiten gleich lang, die α und β gegenüberliegen: $a = b$, also $\\overline{BC} = \\overline{AC}$ (1 P)."
+        },
+        {
+          "id": "N3-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "**Fall 1:** Der 60°-Winkel ist ein Basiswinkel. Dann ist der andere Basiswinkel auch 60° (BWS) und die Spitze $180° - 120° = 60°$ (IWS).\n\n**Fall 2:** Der 60°-Winkel ist die Spitze. Dann sind die Basiswinkel $(180° - 60°) : 2 = 60°$.\n\nIn beiden Fällen sind alle Winkel 60°. Dann sind alle Seiten gleich lang (Umkehrung des BWS) – das Dreieck ist gleichseitig. Je Fall 1 P."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Der Satz des Thales",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Zirkel, Geodreieck, Karopapier, ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c6",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Aufgabe 3 zeichnest du auf Papier mit Zirkel und Geodreieck.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Satz_des_Thales.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\gamma = 90°$ (Satz des Thales: C liegt auf dem Halbkreis über $\\overline{AB}$).\n\n*Den rechten Winkel bei A oder B vermutet?* Er liegt immer bei dem Punkt auf dem Halbkreis. → **N10** Aufgabe 4"
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\beta = 180° - 90° - 32° = 58°$ (IWS)"
+        },
+        {
+          "id": "N4-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "| Schritt | Begründung |\n|---|---|\n| $\\angle ACM = 25°$ | $\\overline{MA} = \\overline{MC}$ (Radien), BWS im Dreieck AMC |\n| $\\angle MCB = 90° - 25° = 65°$ | Thales: $\\angle ACB = 90°$ |\n| $\\angle MBC = 65°$ | $\\overline{MB} = \\overline{MC}$ (Radien), BWS im Dreieck MBC |\n| $\\angle BMC = 180° - 65° - 65° = 50°$ | IWS im Dreieck MBC |\n\nJe Winkel mit Begründung 1 P."
+        },
+        {
+          "id": "N4-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "1. Strecke $\\overline{AB} = 7\\,\\mathrm{cm}$ zeichnen, ihren Mittelpunkt M bestimmen (3,5 cm von A abmessen oder – nach N7 – mit der Mittelsenkrechten konstruieren).\n2. Thaleskreis: Halbkreis um M mit dem Radius 3,5 cm.\n3. Kreis um A mit dem Radius 4 cm. Sein Schnittpunkt mit dem Thaleskreis ist C.\n4. Dreieck ABC zeichnen. Bei C ist nach Thales ein rechter Winkel.\n\nKontrollmaß: $\\overline{BC} \\approx 5{,}7\\,\\mathrm{cm}$ (± 1 mm).\n\nMitte und Thaleskreis 1 P, Kreis um A und Punkt C 1 P, Dreieck und Kontrollmaß 1 P.",
+          "loesung_bild": "img/N4-3.png"
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nach dem Satz des Thales ist $\\gamma = 90°$, egal wo C auf dem Halbkreis liegt (1 P). Mit der IWS gilt $\\alpha + \\beta = 180° - 90° = 90°$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Begründen und beweisen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c7",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Beweis des Satzes des Thales, Umkehrungen und allgemeine Begründungen.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Begruenden_und_beweisen.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "**Voraussetzung:** Der Punkt C eines Dreiecks ABC liegt auf dem Halbkreis mit dem Durchmesser $\\overline{AB}$ (1 P).\n\n**Behauptung:** Das Dreieck hat bei C einen rechten Winkel, $\\gamma = 90°$ (1 P)."
+        },
+        {
+          "id": "N5-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "- (1): $\\overline{MA} = \\overline{MC}$ (beides Radien), also ist das Dreieck AMC gleichschenklig; nach dem BWS ist $\\alpha' = \\alpha$.\n- (2): $\\overline{MB} = \\overline{MC}$ (Radien), Dreieck MBC gleichschenklig; BWS.\n- (4): Innenwinkelsumme im Dreieck ABC (IWS).\n\nJe Begründung 1 P."
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Umkehrung: „Wenn zwei Winkel gleich groß sind, dann sind sie Scheitelwinkel.“ **Falsch**: Die beiden Basiswinkel eines gleichschenkligen Dreiecks sind gleich groß, aber keine Scheitelwinkel."
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Umkehrung: „Wenn ein Viereck vier rechte Winkel hat, dann ist es ein Quadrat.“ **Falsch**: Ein Rechteck mit den Seiten 3 cm und 5 cm hat vier rechte Winkel, ist aber kein Quadrat."
+        },
+        {
+          "id": "N5-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Umkehrung: „Wenn zwei Stufenwinkel gleich groß sind, dann liegen sie an parallelen Geraden.“ **Wahr** – das ist Teil 2 des Satzes vom Stufenwinkel (Regelheft). Man nutzt ihn, um ohne Messen zu zeigen, dass Geraden parallel sind."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Nebenwinkel seien α und $180° - \\alpha$ (Nebenwinkel ergeben 180°) (0,5 P). Die Winkelhalbierenden teilen sie in $\\frac{\\alpha}{2}$ und $\\frac{180° - \\alpha}{2}$ (0,5 P). Der Winkel zwischen den Winkelhalbierenden ist\n\n$$\\frac{\\alpha}{2} + \\frac{180° - \\alpha}{2} = \\frac{180°}{2} = 90°$$\n\nfür jedes α (1 P). Beispiel: $\\alpha = 50°$ → $25° + 65° = 90°$."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Tandem: Winkel berechnen",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c8",
+        "c4",
+        "c2",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut und nennt zu jedem Winkel den Satz. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert. Nach jeder Nummer wird gewechselt. Skizzen helfen.",
+      "bild": "img/st_N6.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N6-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Winkel an einer Geradenkreuzung ist 124° groß. Berechne seinen Nebenwinkel und gib seinen Scheitelwinkel an.",
+          "tipp": "Nebenwinkel ergänzen sich zu 180°.",
+          "loesung": "Nebenwinkel: $180° - 124° = 56°$ (Nebenwinkel ergeben 180°).\n\nScheitelwinkel: $124°$ (Scheitelwinkel sind gleich groß)."
+        },
+        {
+          "id": "N6-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Zwei parallele Geraden werden von einer dritten Geraden geschnitten. Ein Winkel ist 67° groß. Gib seinen Wechselwinkel an und berechne seinen Nebenwinkel.",
+          "tipp": "An Parallelen sind Wechselwinkel gleich groß.",
+          "loesung": "Wechselwinkel: $67°$ (Wechselwinkel an Parallelen sind gleich groß).\n\nNebenwinkel: $180° - 67° = 113°$."
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "In einem Dreieck ist $\\alpha = 47°$ und $\\beta = 68°$. Berechne γ.",
+          "tipp": "Die drei Innenwinkel ergeben zusammen 180°.",
+          "loesung": "$\\gamma = 180° - 47° - 68° = 65°$ (IWS)"
+        },
+        {
+          "id": "N6-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "In einem rechtwinkligen Dreieck ist $\\alpha = 90°$ und $\\beta = 33°$. Berechne γ.",
+          "tipp": "Die drei Innenwinkel ergeben zusammen 180°.",
+          "loesung": "$\\gamma = 180° - 90° - 33° = 57°$ (IWS)"
+        },
+        {
+          "id": "N6-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein gleichschenkliges Dreieck hat an der Spitze einen Winkel von 48°. Berechne die Basiswinkel.",
+          "tipp": "Die beiden Basiswinkel sind gleich groß. Ziehe zuerst die Spitze von 180° ab.",
+          "loesung": "$(180° - 48°) : 2 = 132° : 2 = 66°$. Beide Basiswinkel sind **66°** (BWS, IWS)."
+        },
+        {
+          "id": "N6-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "In einem gleichschenkligen Dreieck ist ein Basiswinkel 72° groß. Berechne den Winkel an der Spitze.",
+          "tipp": "Beide Basiswinkel sind gleich groß.",
+          "loesung": "$180° - 72° - 72° = 36°$. Der Winkel an der Spitze ist **36°** (BWS, IWS)."
+        },
+        {
+          "id": "N6-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "C liegt auf dem Halbkreis über $\\overline{AB}$. Es ist $\\alpha = 35°$. Berechne β.",
+          "tipp": "Nach Thales ist der Winkel bei C ein rechter.",
+          "loesung": "$\\gamma = 90°$ (Thales), also $\\beta = 180° - 90° - 35° = 55°$ (IWS)."
+        },
+        {
+          "id": "N6-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "C liegt auf dem Halbkreis über $\\overline{AB}$. α ist doppelt so groß wie β. Berechne α und β.",
+          "tipp": "α und β ergeben zusammen 90°. Teile 90° in drei gleiche Teile.",
+          "loesung": "$\\gamma = 90°$ (Thales), also $\\alpha + \\beta = 90°$. α ist das Doppelte von β: drei gleiche Teile zu je $90° : 3 = 30°$. Also $\\beta = 30°$ und $\\alpha = 60°$."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Grundkonstruktionen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Zirkel, Geodreieck, Karopapier, ohne Taschenrechner",
+      "checkliste": [
+        "c10",
+        "c11"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, Zirkel, Geodreieck (nur als Lineal) und Papier. Konstruieren heißt: nur mit Zirkel und Lineal, ohne zu messen. Lass die Kreisbögen stehen.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Grundkonstruktionen.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "1. Kreis um A mit einem Radius größer als die halbe Strecke, z. B. 4 cm.\n2. Kreis um B mit demselben Radius.\n3. Die Gerade durch die beiden Schnittpunkte der Kreise ist die Mittelsenkrechte $m_{\\overline{AB}}$.\n\nKontrolle: Die Mittelsenkrechte schneidet $\\overline{AB}$ 3 cm von A entfernt senkrecht.\n\nBeide Kreisbögen sichtbar 1 P, Mittelsenkrechte durch beide Schnittpunkte 1 P.",
+          "loesung_bild": "img/N7-1.png"
+        },
+        {
+          "id": "N7-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "1. Kreis um S, er schneidet die Schenkel in P und Q.\n2. Kreise um P und um Q mit demselben Radius; sie schneiden sich in T.\n3. Die Halbgerade von S durch T ist die Winkelhalbierende $w_\\alpha$.\n\nKontrolle: Beide Teilwinkel sind 35° (± 2°).\n\nKreisbögen sichtbar 1 P, Winkelhalbierende 1 P.",
+          "loesung_bild": "img/N7-2.png"
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "1. Kreis um P, der g in zwei Punkten A und B schneidet.\n2. Kreise um A und um B mit demselben Radius; sie schneiden sich in einem Punkt Q auf der anderen Seite von g.\n3. Die Gerade PQ ist die Senkrechte zu g durch P.\n\nKontrolle: Geodreieck mit der Mittellinie auf g legen – PQ liegt an der Mittellinie (rechter Winkel).\n\nKreisbögen 0,5 P, Senkrechte 0,5 P.",
+          "loesung_bild": "img/N7-3.png"
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "1. Zeichne einen Kreis um P. Er schneidet g im Punkt A.\n2. Zeichne einen Kreis um A mit demselben Radius. Er schneidet g im Punkt B.\n3. Zeichne Kreise um B und um P mit demselben Radius. Die beiden Kreise schneiden sich in A und in Q.\n4. Zeichne die Gerade PQ. PQ ist die Parallele zu g durch P.\n\nJe zwei richtige Schritte 1 P, Ausführung 1 P. (Warum es klappt: PABQ hat vier gleich lange Seiten, ist also eine Raute – gegenüberliegende Seiten sind parallel.)"
+        },
+        {
+          "id": "N7-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Beide Kreise haben denselben Radius r. Jeder Schnittpunkt der Kreise ist deshalb von A und von B gleich weit entfernt, nämlich r (1 P).\n\nDie Punkte, die von A und B gleich weit entfernt sind, liegen auf der Mittelsenkrechten. Die Gerade durch die zwei Schnittpunkte ist also die Mittelsenkrechte (1 P). (Auch richtig: A, die beiden Schnittpunkte und B bilden eine Raute; ihre Diagonalen halbieren sich und stehen senkrecht aufeinander.)"
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Besondere Linien im Dreieck",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Zirkel, Geodreieck, Karopapier, ohne Taschenrechner",
+      "checkliste": [
+        "c12",
+        "c10"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, Zirkel, Geodreieck und Karopapier. Mittelsenkrechte, Winkelhalbierende, Seitenhalbierende und Höhe.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Besondere_Linien.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- ① **Mittelsenkrechte** von $\\overline{AB}$ (senkrecht zu AB durch die Mitte)\n- ② **Winkelhalbierende** des Winkels bei B (zwei gleich große Teilwinkel)\n- ③ **Seitenhalbierende** $s_c$ (von C zur Mitte von AB)\n- ④ **Höhe** $h_a$ (von A senkrecht auf BC)\n\nJe Linie 0,5 P."
+        },
+        {
+          "id": "N8-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beide gehen durch den Mittelpunkt von $\\overline{AB}$ (gemeinsam). Die Mittelsenkrechte steht **senkrecht** auf AB und geht im Allgemeinen nicht durch C (1 P). Die Seitenhalbierende verbindet den Mittelpunkt mit der **gegenüberliegenden Ecke C** und steht im Allgemeinen nicht senkrecht auf AB (1 P)."
+        },
+        {
+          "id": "N8-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- Mitte von $\\overline{AB}$: $(5 \\mid 1)$\n- Mitte von $\\overline{BC}$: $(6 \\mid 4)$\n- Mitte von $\\overline{AC}$: $(2 \\mid 4)$\n\n(Jeweils in der Mitte zwischen den x-Werten und zwischen den y-Werten.) Die Mittelsenkrechte zur Kontrolle geht durch den Mittelpunkt."
+        },
+        {
+          "id": "N8-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Jede Ecke mit der Mitte der gegenüberliegenden Seite verbinden. Die drei Seitenhalbierenden schneiden sich in einem Punkt, dem **Schwerpunkt** $S \\approx (4{,}3 \\mid 3)$.",
+          "loesung_bild": "img/N8-3b.png"
+        },
+        {
+          "id": "N8-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "AB liegt waagerecht, das Lot von C geht senkrecht nach unten: Fußpunkt $(3 \\mid 1)$, Länge $h_c = 6\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N8-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Dreieck ist bei B stumpfwinklig. Das Lot von C trifft nicht die Seite $\\overline{AB}$ selbst, sondern ihre **Verlängerung** über B hinaus im Punkt $(7 \\mid 1)$. Die Höhe liegt außerhalb des Dreiecks; $h_c = 3\\,\\mathrm{cm}$.\n\n(Die drei Höhen – oder ihre Verlängerungen – schneiden sich im Höhenschnittpunkt.)"
+        },
+        {
+          "id": "N8-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch** (1 P). Gegenbeispiel aus Aufgabe 3 und 4: Die Seitenhalbierende $s_c$ endet in $(5 \\mid 1)$, die Höhe $h_c$ in $(3 \\mid 1)$ – verschiedene Linien.\n\nNur im **gleichschenkligen** Dreieck fällt die Seitenhalbierende zur Basis mit der Höhe zusammen (Symmetrieachse) (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Umkreis und Inkreis",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Zirkel, Geodreieck, Karopapier, ohne Taschenrechner",
+      "checkliste": [
+        "c13",
+        "c12",
+        "c10"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, Zirkel, Geodreieck und Karopapier. Bearbeite N9, sobald Umkreis und Inkreis im Unterricht dran waren.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Umkreis_und_Inkreis.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "1. Mittelsenkrechte von $\\overline{AB}$ (sie ist die Gerade $x = 4$) und von $\\overline{BC}$ konstruieren.\n2. Der Schnittpunkt der beiden ist $U(4 \\mid 2)$.\n3. Kreis um U durch A, B und C. Radius etwa 3,2 cm.\n\nJe Mittelsenkrechte 1 P, U und Kreis 1 P. Kontrolle: Der Kreis geht durch alle drei Ecken.",
+          "loesung_bild": "img/N9-1.png"
+        },
+        {
+          "id": "N9-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Winkelhalbierenden von α und β schneiden sich in $I(4 \\mid 2{,}5)$ (die Winkelhalbierende von γ geht auch hindurch). Je Winkelhalbierende 1 P.\n\n*Mittelsenkrechten genommen?* Die liefern den Umkreis. → **N10** Aufgabe 5"
+        },
+        {
+          "id": "N9-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Lot von I auf $\\overline{AB}$: Fußpunkt $(4 \\mid 1)$, Radius $r = 1{,}5\\,\\mathrm{cm}$. Kreis um I mit diesem Radius berührt alle drei Seiten.",
+          "loesung_bild": "img/N9-2b.png"
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "U sei der Schnittpunkt der Mittelsenkrechten von $\\overline{AB}$ und $\\overline{BC}$. Weil U auf $m_{\\overline{AB}}$ liegt, ist U von A und B gleich weit entfernt; weil U auf $m_{\\overline{BC}}$ liegt, auch von B und C (1 P).\n\nDann ist U auch von A und C gleich weit entfernt und liegt deshalb auch auf der Mittelsenkrechten von $\\overline{AC}$ (1 P)."
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Spitzwinklig: **innerhalb** (wie in Aufgabe 1). Rechtwinklig: **auf der längsten Seite**, genau in ihrer Mitte. Stumpfwinklig: **außerhalb** (1 P).\n\nBegründung: Liegt der rechte Winkel bei C, dann liegt C auf dem Thaleskreis über $\\overline{AB}$. Sein Mittelpunkt, die Mitte von $\\overline{AB}$, ist von A, B und C gleich weit entfernt – er ist also U (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c12",
+        "c13",
+        "c2",
+        "c5",
+        "c6",
+        "c8"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. In jeder Lösung steckt ein typischer Fehler.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Mats verwechselt Nebenwinkel mit Scheitelwinkel: **Scheitelwinkel** sind gleich groß, **Nebenwinkel** ergänzen sich zu 180° (1 P). Richtig: $180° - 115° = 65°$ (1 P)."
+        },
+        {
+          "id": "N10-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Hanna nimmt die Winkelsumme des Dreiecks. Im Viereck beträgt sie 360° (zwei Dreiecke) (1 P). Richtig: $360° - 70° - 95° - 120° = 75°$ (1 P)."
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die gleich langen Seiten AC und BC treffen sich in C – **C ist die Spitze**, γ ist kein Basiswinkel. Gleich groß sind die Winkel gegenüber den gleich langen Seiten: α und β (1 P).\n\nRichtig: $\\alpha = \\beta = (180° - 50°) : 2 = 65°$ (1 P)."
+        },
+        {
+          "id": "N10-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der rechte Winkel liegt bei dem Punkt **auf dem Halbkreis**, also bei C – nicht bei A (A und B sind die Enden des Durchmessers) (1 P).\n\nRichtig: $\\gamma = 90°$ (Thales), $\\alpha = 180° - 90° - 40° = 50°$ (IWS) (1 P)."
+        },
+        {
+          "id": "N10-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Im Allgemeinen ist es **falsch** (0,5 P): Der Schnittpunkt der Mittelsenkrechten ist von allen **Ecken** gleich weit entfernt (Umkreis). Der Inkreismittelpunkt muss von allen **Seiten** gleich weit entfernt sein – das liefern die Winkelhalbierenden (0,5 P).\n\nIm gleichseitigen Dreieck fallen Mittelsenkrechten und Winkelhalbierende zusammen (es sind die Symmetrieachsen) – nur deshalb stimmt es dort (0,5 P). Gegenbeispiel: Im Dreieck aus N9 Aufgabe 2 liegt der Schnittpunkt der Mittelsenkrechten bei $(4 \\mid 1{,}875)$, der Inkreismittelpunkt bei $(4 \\mid 2{,}5)$ (0,5 P)."
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Das Treppengeländer",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, Geodreieck, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 (Winkel an Geraden und Winkelsummen) – am besten nach N1 und N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Treppengelaender.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**Stufenwinkel**: Der Handlauf schneidet die parallelen Stäbe, und die beiden Winkel ε liegen an jedem Stab in derselben Lage."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Hilfsdreieck steht die Waagerechte senkrecht auf dem Stab (90°), am anderen Ende liegt die Neigung 35°.\n\n- $\\varepsilon = 180° - 90° - 35° = 55°$ (IWS) (1 P)\n- $\\varphi = 180° - 55° = 125°$ (Nebenwinkel zu ε) (1 P)"
+        },
+        {
+          "id": "V1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Gemessen: etwa **32°** (± 2°). Die Treppe im Schulhaus ist **flacher** als die Treppe aus Abb. 1 (35°)."
+        },
+        {
+          "id": "V1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Unten an der Leiste: zweimal **90°** (Stäbe senkrecht, Leiste waagerecht). Oben am rechten Stab: **55°** (wie ε, Stufenwinkel). Oben am linken Stab: **125°** (wie φ) (1 P).\n\nKontrolle: $90° + 90° + 55° + 125° = 360°$ ✓ (Winkelsumme im Viereck) (1 P)."
+        },
+        {
+          "id": "V1-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Wäre der neue Stab parallel zu den anderen, müssten die Stufenwinkel gleich groß sein, also 55° (Satz vom Stufenwinkel) (1 P). Er bildet aber 57°: Der neue Stab ist **nicht parallel** – er steht um 2° schief (1 P)."
+        },
+        {
+          "id": "V1-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Beispiel 40° statt 35°: $\\varepsilon = 180° - 90° - 40° = 50°$ (kleiner), aber $\\varphi = 180° - 50° = 130°$ (größer) (1 P).\n\nDie Aussage ist **falsch**: Der spitze Winkel wird kleiner, sein Nebenwinkel wird um genauso viel größer (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Ein Rundbogenfenster",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c1",
+        "c2",
+        "c4",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 2 (Winkel an Geraden und Winkelsummen, Gleichschenklige Dreiecke und Thales) – am besten nach N3 bis N6.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Rundbogenfenster.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\angle ACB = 90°$ (Satz des Thales: C liegt auf dem Halbkreis über $\\overline{AB}$)."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "| Schritt | Begründung |\n|---|---|\n| $\\angle ACM = 30°$ | $\\overline{MA} = \\overline{MC}$ (Radien), BWS im Dreieck AMC |\n| $\\angle AMC = 180° - 30° - 30° = 120°$ | IWS im Dreieck AMC |\n| $\\angle CMB = 180° - 120° = 60°$ | Nebenwinkel zu $\\angle AMC$ |\n\nJe Winkel mit Begründung 1 P."
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\overline{MB} = \\overline{MC}$ (Radien), also sind die Winkel bei B und C im Dreieck MBC gleich groß (BWS): $(180° - 60°) : 2 = 60°$. Alle drei Winkel sind 60°, also sind alle Seiten gleich lang – das Dreieck ist gleichseitig (1 P).\n\n$\\overline{BC} = \\overline{MB} = 1{,}20\\,\\mathrm{m} : 2 = 0{,}60\\,\\mathrm{m}$ (Radius) (1 P)."
+        },
+        {
+          "id": "V2-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**30°**: Die Zierleiste ist parallel zum Querholz $\\overline{AB}$. Der Winkel zwischen Sprosse und Zierleiste bei C ist **Wechselwinkel** zu $\\angle CAB = 30°$, also gleich groß."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Sprosse MC teilt den Winkel bei C in $\\alpha'$ und $\\beta'$. Weil MA, MB und MC Radien sind, sind die Dreiecke AMC und MBC gleichschenklig: $\\alpha' = \\alpha$ und $\\beta' = \\beta$ (BWS) (1 P).\n\nIWS im Dreieck ABC: $\\alpha + \\beta + \\alpha' + \\beta' = 180°$, also $2 \\cdot (\\alpha' + \\beta') = 180°$ und $\\angle ACB = \\alpha' + \\beta' = 90°$ – für jede Lage von C (1 P)."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Genau **in der Mitte des Bogens** (senkrecht über M). Dann ist $\\angle ACM = \\alpha$ gleich $\\angle MCB = \\beta$, also $\\alpha = \\beta = 45°$."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Ein Trinkbrunnen für den Pausenhof",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Zirkel, Geodreieck, Karopapier, ohne Taschenrechner",
+      "checkliste": [
+        "c13",
+        "c10",
+        "c11",
+        "c12",
+        "c8",
+        "c6",
+        "c4",
+        "g2",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 25 Minuten, Zirkel, Geodreieck und Karopapier, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 3 (Winkel an Geraden und Winkelsummen, Gleichschenklige Dreiecke und Thales, Konstruktionen und besondere Linien) – am besten nach N7 bis N10.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Trinkbrunnen.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "U ist der Umkreismittelpunkt: Schnittpunkt der Mittelsenkrechten von $\\overline{AC}$ (die Gerade $y = 4$) und von $\\overline{BC}$ (die Gerade $x = 5$): $U(5 \\mid 4)$ (1 P).\n\nEntfernung: 5 cm auf dem Plan, also $5 \\cdot 5\\,\\mathrm{m} = 25\\,\\mathrm{m}$ (1 P).",
+          "loesung_bild": "img/V3-1a.png"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Hof hat bei C einen rechten Winkel (Hofränder waagerecht und senkrecht im Raster). Also liegt C auf dem Thaleskreis über $\\overline{AB}$ (1 P). Der Mittelpunkt dieses Kreises – die Mitte von $\\overline{AB}$ – ist von A, B und C gleich weit entfernt. Er ist also U und liegt auf der Schulwand $\\overline{AB}$ (1 P)."
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\alpha \\approx 180° - 90° - 37° = 53°$ (IWS) (1 P).\n\n$\\overline{UB} = \\overline{UC}$ (beide 25 m), das Dreieck UBC ist gleichschenklig, also $\\angle UCB = \\angle UBC = \\beta \\approx 37°$ (BWS) (1 P)."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Sitzinsel ist der Inkreis: Winkelhalbierende von zwei Winkeln (z. B. bei C und bei A) konstruieren, Schnittpunkt $I(3 \\mid 3)$ (1 P). Lot von I auf einen Hofrand: 2 cm, also Radius $2 \\cdot 5\\,\\mathrm{m} = 10\\,\\mathrm{m}$ (1 P)."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "1. Zeichne Kreise um A und um C mit demselben Radius (größer als die halbe Strecke). Die Gerade durch ihre Schnittpunkte ist die Mittelsenkrechte von $\\overline{AC}$.\n2. Konstruiere ebenso die Mittelsenkrechte von $\\overline{BC}$ mit Kreisen um B und um C.\n3. Der Schnittpunkt der beiden Mittelsenkrechten ist U.\n\nJe vollständiger Schritt 0,5 P, Reihenfolge und Fachbegriffe 0,5 P."
+        },
+        {
+          "id": "V3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Abstand von U zu $\\overline{AC}$: 4 cm, also 20 m. Abstand zu $\\overline{CB}$: 3 cm, also 15 m (Lote im Raster) (1 P).\n\nDie Aussage ist **falsch**. Gleich weit von allen Hofrändern ist nur der Inkreismittelpunkt I (10 m). U ist gleich weit von den **Eingängen** (Ecken) (1 P)."
+        }
+      ]
+    }
+  ]
+}
