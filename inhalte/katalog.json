@@ -99,6 +99,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Einheitskreis, Sinus, Kosinus und Tangens im rechtwinkligen Dreieck, Seiten und Winkel berechnen, Arcusfunktionen, Sinussatz, Kosinussatz, Höhen- und Tiefenwinkel"
+        },
+        {
+          "id": "energieversorgung",
+          "name": "Energieversorgung – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Kraftwerke, Energieumwandlung, Leistung und Wirkungsgrad, Speicher, Kernspaltung, Kettenreaktion, Massendefekt, Kernfusion, biologische Strahlenwirkung, Strahlenschutz, Nutzen und Gefahren"
         }
       ]
     },
