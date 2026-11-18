@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Leiterseil über dem Boden mit Feldlinien">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M10 62 H150"/>
+  <circle class="akzent" cx="80" cy="16" r="5"/>
+  <path class="akzent" d="M70.4 21.0 L32.0 60.0"/>
+  <path class="marke" d="M32.0 60.0 L33.9 54.3 L37.7 58.0 z"/>
+  <path class="akzent" d="M75.2 21.0 L56.0 60.0"/>
+  <path class="marke" d="M56.0 60.0 L56.0 54.0 L60.7 56.3 z"/>
+  <path class="akzent" d="M80.0 21.0 L80.0 60.0"/>
+  <path class="marke" d="M80.0 60.0 L77.4 54.6 L82.6 54.6 z"/>
+  <path class="akzent" d="M84.8 21.0 L104.0 60.0"/>
+  <path class="marke" d="M104.0 60.0 L99.3 56.3 L104.0 54.0 z"/>
+  <path class="akzent" d="M89.6 21.0 L128.0 60.0"/>
+  <path class="marke" d="M128.0 60.0 L122.3 58.0 L126.1 54.3 z"/>
+</svg>
