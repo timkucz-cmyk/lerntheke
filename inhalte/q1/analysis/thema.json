@@ -1,0 +1,1758 @@
+{
+  "version": 1,
+  "titel": "Analysis – Trainingswoche",
+  "fach": "mathe",
+  "anrede": "sie",
+  "hinweis": "Alle Stationen sind klausurrelevant (Klausur 2). Sind Sie beim Vorwissen aus Klasse 10 und E unsicher (Ableiten, Potenzen, Gleichungen, Extrem- und Wendepunkte, exponentielles Wachstum), beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt das Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N14. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4 (Ableiten und Graphen), V2 nach N5 bis N8 (Exponentialfunktionen), V3 nach N9 bis N14 als Komplexaufgabe auf Klausurniveau. N15 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N15.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Ganzrationale Funktionen ableiten (Summen-, Faktor-, Potenzregel, auch f″ und f‴)"
+    },
+    {
+      "id": "g2",
+      "text": "Potenzen und Wurzeln umformen, auch mit negativen und rationalen Exponenten"
+    },
+    {
+      "id": "g3",
+      "text": "Gleichungen durch Ausklammern, mit dem Nullproduktsatz und der pq-Formel lösen"
+    },
+    {
+      "id": "g4",
+      "text": "Graphen von f und f′ einander zuordnen sowie Monotonie und Krümmung mit f′ und f″ beschreiben"
+    },
+    {
+      "id": "g5",
+      "text": "Extrem- und Wendepunkte ganzrationaler Funktionen mit notwendiger und hinreichender Bedingung bestimmen"
+    },
+    {
+      "id": "g6",
+      "text": "Exponentielles Wachstum mit f(x) = a · bˣ beschreiben (Anfangswert, Wachstumsfaktor, Halbwerts- und Verdopplungszeit)"
+    },
+    {
+      "id": "c1",
+      "text": "Die Produktregel zum Ableiten anwenden"
+    },
+    {
+      "id": "c2",
+      "text": "Die Kettenregel bei einfachen Funktionen anwenden"
+    },
+    {
+      "id": "c3",
+      "text": "Tangenten- und Normalengleichungen in einem Punkt bestimmen"
+    },
+    {
+      "id": "c4",
+      "text": "Zusammengesetzte Funktionen auf Stetigkeit und Differenzierbarkeit prüfen (sprungfrei, knickfrei)"
+    },
+    {
+      "id": "c5",
+      "text": "Aus dem Graphen einer Ableitung mögliche Graphen der Funktion (Stammfunktionen) skizzieren"
+    },
+    {
+      "id": "c6",
+      "text": "Die e-Funktion als ihre eigene Ableitung charakterisieren und Funktionen mit e-Anteil ableiten"
+    },
+    {
+      "id": "c7",
+      "text": "Exponentialfunktionen auf Monotonie und Grenzverhalten untersuchen und den Einfluss der Parameter beschreiben"
+    },
+    {
+      "id": "c8",
+      "text": "Wachstums- und Abnahmeprozesse mit Exponentialfunktionen modellieren und die Eignung des Modells prüfen"
+    },
+    {
+      "id": "c9",
+      "text": "Extrempunkte bei Funktionen mit e-Anteil bestimmen"
+    },
+    {
+      "id": "c10",
+      "text": "Funktionen mit e-Anteil vollständig untersuchen (Nullstellen, Grenzverhalten, Extrem- und Wendepunkte, Graph)"
+    },
+    {
+      "id": "c11",
+      "text": "Wendetangenten bestimmen"
+    },
+    {
+      "id": "c12",
+      "text": "Lokale und globale Extrema unterscheiden und Randextrema bestimmen"
+    },
+    {
+      "id": "c13",
+      "text": "Ortskurven charakteristischer Punkte von Funktionenscharen bestimmen"
+    },
+    {
+      "id": "c14",
+      "text": "Einfache Optimierungsprobleme lösen"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 10 und E",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Ableiten und Graphen",
+      "untertitel": "Produkt- und Kettenregel, Tangente, Übergänge",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Exponentialfunktionen",
+      "untertitel": "Die e-Funktion und ihre Eigenschaften",
+      "farbe": "orange",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c8",
+        "c9"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Funktionsuntersuchung und Optimierung",
+      "untertitel": "Wendetangente, Rand, Scharen",
+      "farbe": "gruen",
+      "checkliste": [
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c14"
+      ]
+    }
+  ],
+  "abschluss": "Klausur 2",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Ohne Taschenrechner, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeiten Sie die Blöcke, bei denen Sie in der Selbsteinschätzung unsicher sind. Lücken schließen Sie danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f'(x)=8x^3-6x+5$\n\n$f''(x)=24x^2-6$"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$g'(x)=\\frac12x^2-x$, $g''(x)=x-1$, $g'''(x)=1$"
+        },
+        {
+          "id": "G1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$k'(x)=3x^2-2$, also $k'(-1)=3\\cdot1-2=1$. Die Steigung ist $1$."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{x}=x^{\\frac12}$, $\\frac{1}{x^2}=x^{-2}$, $\\sqrt[3]{x^2}=x^{\\frac23}$"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Exponenten addieren: $x^{\\frac12+\\frac32}=x^{2}$"
+        },
+        {
+          "id": "G1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Erst als Potenzen schreiben: $f(x)=4x^{\\frac12}-2x^{-1}$\n\n$f'(x)=4\\cdot\\frac12x^{-\\frac12}-2\\cdot(-1)x^{-2}=2x^{-\\frac12}+2x^{-2}=\\frac{2}{\\sqrt{x}}+\\frac{2}{x^2}$"
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Ausklammern: $x\\cdot(x^2-4)=0$. Nullproduktsatz: $x=0$ oder $x^2=4$, also $x_1=0$, $x_2=2$, $x_3=-2$."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Durch 2 teilen: $x^2-2x-3=0$. pq-Formel: $x=1\\pm\\sqrt{1+3}=1\\pm2$, also $x_1=3$, $x_2=-1$."
+        },
+        {
+          "id": "G1-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nullproduktsatz: $x-1=0$ ergibt $x=1$. Der zweite Faktor wird nie null, denn $x^2\\ge0$, also $x^2+2\\ge2>0$. Einzige Lösung: $x=1$.\n\nDieselbe Überlegung brauchen Sie bei der e-Funktion: $e^{x}$ ist immer positiv."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f$ steigt, wo $f'(x)>0$ ist: auf $]-1;\\,3[$. $f$ fällt, wo $f'(x)<0$ ist: auf $]-\\infty;\\,-1[$ und auf $]3;\\,\\infty[$.\n\nGeschlossene Grenzen an den Extremstellen sind ebenfalls richtig."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$x=-1$: $f'$ wechselt das Vorzeichen von $-$ nach $+$ → Tiefpunkt.\n\n$x=3$: $f'$ wechselt das Vorzeichen von $+$ nach $-$ → Hochpunkt."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f'(x)=3x^2-6x=3x(x-2)=0$ ergibt $x=0$ oder $x=2$. $f''(x)=6x-6$.\n\n$f''(0)=-6<0$: Hochpunkt $\\mathrm{HP}(0\\mid2)$. $f''(2)=6>0$: Tiefpunkt $\\mathrm{TP}(2\\mid-2)$."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$f''(x)=6x-6=0$ ergibt $x=1$; $f'''(x)=6\\neq0$. $f(1)=1-3+2=0$, also $\\mathrm{WP}(1\\mid0)$."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Abnahme um 25 % heißt Faktor $b=1-0{,}25=0{,}75$: $f(t)=800\\cdot0{,}75^t$"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f(2)=800\\cdot0{,}75^2=800\\cdot0{,}5625=450$ Tiere"
+        },
+        {
+          "id": "G1-6c",
+          "label": "6c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "15 Tage sind 3 Verdopplungszeiten: Faktor $2^3=8$."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Potenzen, Gleichungen, Wachstum",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "g2",
+        "g3",
+        "g5",
+        "g6",
+        "g1"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Ohne Taschenrechner, 15 Minuten. Übt die typischen Lücken aus G1: Potenzen umschreiben, Faktoren ohne Nullstelle, den Fall $f''=0$ und Wachstumsfaktoren.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f(x)=3x^{-3}$, also $f'(x)=3\\cdot(-3)x^{-4}=-9x^{-4}=-\\frac{9}{x^4}$.\n\nTypischer Fehler: $\\frac{3}{x^3}$ als $3x^3$ schreiben – der Exponent wird beim Hochholen negativ."
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$g(x)=x^1\\cdot x^{\\frac12}=x^{\\frac32}$, also $g'(x)=\\frac32x^{\\frac12}=1{,}5\\sqrt{x}$."
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x^2=0$ oder $x-3=0$: $x_1=0$, $x_2=3$."
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nur $x+2=0$ liefert eine Lösung: $x=-2$. Der Faktor $x^2+1$ ist immer mindestens $1$ und wird nie null."
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f'(x)=4x^3-12x^2=4x^2(x-3)=0$ ergibt $x=0$ oder $x=3$."
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$f''(x)=12x^2-24x$. $f''(3)=108-72=36>0$: Tiefpunkt $\\mathrm{TP}(3\\mid-27)$.\n\n$f''(0)=0$: Das Kriterium entscheidet nicht. Vorzeichenwechsel prüfen: $f'(-0{,}1)=4\\cdot0{,}01\\cdot(-3{,}1)<0$ und $f'(0{,}1)=4\\cdot0{,}01\\cdot(-2{,}9)<0$. Kein Vorzeichenwechsel, also Sattelpunkt $S(0\\mid0)$."
+        },
+        {
+          "id": "G2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$a=f(0)=50$; $b=\\frac{f(1)}{f(0)}=\\frac{60}{50}=1{,}2$, also Zunahme um 20 % je Zeitschritt."
+        },
+        {
+          "id": "G2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "12 Stunden sind 3 Halbwertszeiten: $80\\cdot\\left(\\frac12\\right)^3=10$ mg."
+        },
+        {
+          "id": "G2-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$b^4=\\frac12$, also $b=\\left(\\frac12\\right)^{\\frac14}=0{,}5^{\\frac14}$ (etwa $0{,}84$)."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Ableiten und Untersuchen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c9",
+        "c12"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Produktregel mit $u=x^2$, $v=x-1$: $f'(x)=2x\\cdot(x-1)+x^2\\cdot1=3x^2-2x$.\n\n*A gewählt?* Sie haben $u'\\cdot v'$ gerechnet – richtig ist $u'\\cdot v+u\\cdot v'$. → **N2** Aufgabe 3\n\n*C gewählt?* Der Summand $u\\cdot v'$ fehlt. → **N2** Aufgabe 1\n\n*D gewählt?* Das Produkt wurde wie eine Summe abgeleitet. → **N2**, **N13**"
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Äußere Ableitung mal innere Ableitung: $f'(x)=4(3x-1)^3\\cdot3=12(3x-1)^3$.\n\n*A gewählt?* Die innere Ableitung $3$ fehlt. → **N2** Aufgabe 1, **N6**\n\n*B gewählt?* Die Klammer wurde aufgelöst, als wäre $-1$ nicht da. → **N2**\n\n*C gewählt?* Mit der inneren Ableitung multipliziert, aber die äußere Funktion nicht abgeleitet. → **N2**"
+        },
+        {
+          "id": "N1-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Normale und Tangente stehen senkrecht aufeinander: $m_t\\cdot m_n=-1$, also $m_n=-\\frac{1}{4}$.\n\n*B gewählt?* Nur das Vorzeichen gewechselt – auch der Kehrwert gehört dazu. → **N3** Aufgabe 1\n\n*C gewählt?* Nur der Kehrwert – das Vorzeichen fehlt. → **N3**\n\n*D gewählt?* Das ist die Steigung der Tangente. → **N3**"
+        },
+        {
+          "id": "N1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Werte: $0{,}5\\cdot2^2=2$ und $3\\cdot2-4=2$ – gleich, also sprungfrei (stetig). Steigungen: $(0{,}5x^2)'=x$ ergibt $2$, die Gerade hat die Steigung $3$ – verschieden, also ein Knick (nicht differenzierbar).\n\n*A gewählt?* Beide Teile treffen sich im Punkt $(2\\mid2)$. → **N3** Aufgabe 2\n\n*B oder D gewählt?* Gleiche Werte sichern nur die Sprungfreiheit; knickfrei heißt zusätzlich gleiche Steigung. → **N3** Aufgabe 2"
+        },
+        {
+          "id": "N1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Es gilt $F'=f$. Bei $x=2$ ist die Steigung von $F$ am größten, also hat $F$ dort eine Wendestelle (Stelle größter Steigung). Weil $f>0$ ist, steigt $F$ überall und hat gar keinen Extrempunkt.\n\n*A oder C gewählt?* Extremstellen von $F$ liegen dort, wo $f$ das Vorzeichen wechselt – nicht, wo $f$ einen Hochpunkt hat. → **N4**\n\n*B gewählt?* Über die Lage von $F$ in $y$-Richtung sagt $f$ nichts aus. → **N4**"
+        },
+        {
+          "id": "N1-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Kettenregel: äußere Ableitung $e^{-2x}$ mal innere Ableitung $-2$: $f'(x)=-2e^{-2x}$.\n\n*A gewählt?* $e^{x}$ ist seine eigene Ableitung, $e^{-2x}$ aber nicht – die innere Ableitung fehlt. → **N5** Aufgabe 2, **N6**\n\n*C gewählt?* Die Potenzregel gilt nur für $x^r$, nicht für $e^{x}$. → **N5**\n\n*D gewählt?* Das Vorzeichen der inneren Ableitung fehlt. → **N5**"
+        },
+        {
+          "id": "N1-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Nullproduktsatz: $x-2=0$ oder $e^{x}=0$. Weil $e^{x}>0$ für alle $x$ ist, bleibt nur $x=2$.\n\n*A gewählt?* $e^{0}=1$, nicht $0$ – $e^{x}$ hat keine Nullstelle. → **N8** Aufgabe 1, **G2** Aufgabe 2\n\n*B gewählt?* Der erste Faktor wird bei $x=2$ null. → **N8**\n\n*D gewählt?* Hier gibt es kein Quadrat, das zwei Lösungen liefert. → **G2** Aufgabe 2"
+        },
+        {
+          "id": "N1-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Kandidaten für das globale Maximum sind der Hochpunkt **und** die Randwerte: $f(1)=4$, $f(0)=0$, $f(5)=20$. Das globale Maximum ist $20$ am Rand $x=5$ (Randmaximum); der Hochpunkt ist nur ein lokales Maximum.\n\n*B gewählt?* Randwerte vergessen. → **N10** Aufgabe 1, **N12**\n\n*C gewählt?* Stelle und Wert verwechselt. → **N10**\n\n*D gewählt?* Auf einem abgeschlossenen Intervall hat eine ganzrationale Funktion einen größten Wert. → **N10**"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Produkt- und Kettenregel",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c1",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner, 15 Minuten. Notieren Sie bei jeder Ableitung, welche Regel Sie verwenden (u, v bzw. innere und äußere Funktion).",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Produkt_Kettenregel.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Kettenregel (außen $u^4$, innen $2x+1$): $f'(x)=4(2x+1)^3\\cdot2=8(2x+1)^3$"
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$g(x)=(4x-3)^{\\frac12}$: $g'(x)=\\frac12(4x-3)^{-\\frac12}\\cdot4=\\frac{2}{\\sqrt{4x-3}}$"
+        },
+        {
+          "id": "N2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Produktregel mit $u=x$, $v=(x-2)^3$, $v'=3(x-2)^2$ (Kettenregel, innere Ableitung 1):\n\n$h'(x)=1\\cdot(x-2)^3+x\\cdot3(x-2)^2$\n\n$=(x-2)^2\\cdot(x-2+3x)=(x-2)^2(4x-2)$"
+        },
+        {
+          "id": "N2-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Produktregel: $k'(x)=2x\\cdot\\sqrt{x}+x^2\\cdot\\frac{1}{2\\sqrt{x}}=2x\\sqrt{x}+\\frac12x\\sqrt{x}=2{,}5x\\sqrt{x}$\n\nPotenz: $k(x)=x^{\\frac52}$, also $k'(x)=\\frac52x^{\\frac32}=2{,}5x\\sqrt{x}$ – beide Wege liefern dasselbe."
+        },
+        {
+          "id": "N2-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Kettenregel: $m'(x)=-1\\cdot(x^2+1)^{-2}\\cdot2x=-2x\\,(x^2+1)^{-2}$"
+        },
+        {
+          "id": "N2-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f'(x)=2(x^2-1)\\cdot2x=4x(x^2-1)$. Nullproduktsatz: $x=0$ oder $x^2=1$, also $f'(x)=0$ für $x=-1$, $x=0$, $x=1$."
+        },
+        {
+          "id": "N2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**. Gegenbeispiel: $u(x)=v(x)=x$. Dann ist $u(x)\\cdot v(x)=x^2$ mit der Ableitung $2x$, aber $u'(x)\\cdot v'(x)=1\\cdot1=1\\neq2x$.\n\nRichtig ist die Produktregel $(u\\cdot v)'=u'\\cdot v+u\\cdot v'=1\\cdot x+x\\cdot1=2x$."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Tangenten, Normalen, Übergänge",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Tangente und Normale stehen senkrecht aufeinander; an Nahtstellen vergleichen Sie Funktionswerte und Steigungen.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Tangenten_Normalen.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f(4)=\\sqrt9=3$. Kettenregel: $f'(x)=\\frac{1}{2\\sqrt{2x+1}}\\cdot2=\\frac{1}{\\sqrt{2x+1}}$, also $f'(4)=\\frac13$.\n\n$t(x)=\\frac13x+b$ mit $3=\\frac43+b$, also $b=\\frac53$: $t(x)=\\frac13x+\\frac53$"
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$m_n=-\\frac{1}{m_t}=-3$. $n(x)=-3x+b$ mit $3=-12+b$, also $b=15$: $n(x)=-3x+15$"
+        },
+        {
+          "id": "N3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$t(x)=0$: $\\frac13x=-\\frac53$, also $x=-5$; $n(x)=0$: $x=5$. Schnittpunkte $(-5\\mid0)$ und $(5\\mid0)$."
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Sprungfrei: Die Gerade geht durch $(2\\mid f(2))=(2\\mid1)$. Knickfrei: Sie hat die Steigung $f'(2)=0{,}5\\cdot2=1$.\n\n$y=1\\cdot(x-2)+1=x-1$ – die Gerade ist die Tangente an $f$ in $x=2$."
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$1^2+1=2$ und $4\\cdot1-2=2$: gleiche Werte, der Graph ist bei $x=1$ sprungfrei (stetig)."
+        },
+        {
+          "id": "N3-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Steigung links: $(x^2+1)'=2x$ ergibt $2$; Steigung rechts: $4$. Verschieden: Der Graph hat bei $x=1$ einen Knick, $k$ ist dort nicht differenzierbar."
+        },
+        {
+          "id": "N3-3a",
+          "label": "3a",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Scheitel $(0\\mid0)$: Die Tangente ist waagerecht ($y=0$), die Normale ist die senkrechte Gerade $x=0$ (y-Achse) – sie geht durch $Q$.\n\nFür $u\\neq0$: Tangentensteigung $2u$, Normalensteigung $-\\frac{1}{2u}$. Normale: $n(x)=-\\frac{1}{2u}(x-u)+u^2$. Durch $Q$: $n(0)=\\frac12+u^2=3$, also $u^2=2{,}5$ und $u=\\pm\\sqrt{2{,}5}\\approx\\pm1{,}58$.\n\nPunkte: $(0\\mid0)$, $(1{,}58\\mid2{,}5)$ und $(-1{,}58\\mid2{,}5)$."
+        },
+        {
+          "id": "N3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$k$ aus Aufgabe 2 ist bei $x=1$ sprungfrei (beide Teile liefern $2$), hat dort aber einen Knick (Steigungen $2$ und $4$). Sprungfreiheit sagt nur etwas über die Werte, nicht über die Steigungen."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Vom Graphen der Ableitung zur Funktion",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 12,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner, 12 Minuten. Skizzieren Sie in Ihren Notizen. Hier ist $f$ die Ableitung der gesuchten Stammfunktion $F$.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Graph_der_Ableitung.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F$ fällt, wo $f<0$ ist: für $x<-2$. $F$ steigt, wo $f>0$ ist: für $x>-2$ (bei $x=1$ ist die Steigung kurz null)."
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$x=-2$: $f$ wechselt das Vorzeichen von $-$ nach $+$ → $F$ hat einen Tiefpunkt.\n\n$x=1$: $f$ berührt die x-Achse ohne Vorzeichenwechsel → $F$ hat einen Sattelpunkt."
+        },
+        {
+          "id": "N4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$F''=f'$. $f$ steigt für $x<-1$ → $F$ linksgekrümmt; $f$ fällt auf $]-1;\\,1[$ → $F$ rechtsgekrümmt; $f$ steigt für $x>1$ → $F$ linksgekrümmt. Wendestellen von $F$: $x=-1$ und $x=1$ (Extremstellen von $f$)."
+        },
+        {
+          "id": "N4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Tiefpunkt bei $x=-2$ (bei $F(0)=0$: $F(-2)=-3$), dann steigend; bei $x=-1$ steilster Anstieg (Wendepunkt), bei $x=1$ Sattelpunkt ($F(1)\\approx0{,}38$), danach steigt $F$ immer stärker.",
+          "loesung_bild": "img/N4-1d.png"
+        },
+        {
+          "id": "N4-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Graph von $f$ legt nur die Steigungen von $F$ fest, nicht die Höhe. Mit $F$ ist auch $F+c$ eine Stammfunktion, denn $(F+c)'=F'=f$. Alle Graphen gehen durch Verschieben in y-Richtung auseinander hervor; eine Bedingung wie $F(0)=0$ legt einen fest."
+        },
+        {
+          "id": "N4-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**. Bei $x=-1$ hat $f$ einen Hochpunkt mit $f(-1)=2>0$: $F$ steigt dort, und zwar am stärksten – $F$ hat bei $x=-1$ einen Wendepunkt, keinen Hochpunkt.\n\nHochpunkte von $F$ liegen dort, wo $f$ das Vorzeichen von $+$ nach $-$ wechselt."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Die e-Funktion",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c6",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner, 15 Minuten. Eigenschaften, Ableitung und Graphen der e-Funktion.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_e-Funktion.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Wertemenge $]0;\\,\\infty[$ (alle Werte positiv) | Schnittpunkt $(0\\mid1)$, denn $e^{0}=1$ | $\\lim_{x\\to+\\infty}e^{x}=+\\infty$, $\\lim_{x\\to-\\infty}e^{x}=0$ | waagerechte Asymptote $y=0$ (für $x\\to-\\infty$) | streng monoton steigend | $f'(x)=e^{x}$: Die e-Funktion ist ihre eigene Ableitung, die Steigung an jeder Stelle ist gleich dem Funktionswert."
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Kettenregel: $g'(x)=3e^{3x}$; $h'(x)=2\\cdot(-0{,}5)e^{-0{,}5x}=-e^{-0{,}5x}$"
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$k'(x)=-(-1)e^{-x}=e^{-x}$; $m'(x)=2x\\,e^{x^2}$ (innere Ableitung $2x$)"
+        },
+        {
+          "id": "N5-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "I gehört zu $f_3$: fällt, Asymptote $y=2$ für $x\\to-\\infty$.\n\nII gehört zu $f_4$: steigt, geht durch $(0\\mid0)$, Asymptote $y=-1$.\n\nIII gehört zu $f_2$: fällt, Asymptote $y=0$ für $x\\to+\\infty$ (Spiegelbild von $e^{x}$ an der y-Achse).\n\nIV gehört zu $f_1$: steigt, geht durch $(0\\mid1)$, Asymptote $y=0$ für $x\\to-\\infty$."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$f_1$: $a=3>0$, $0<b<1$ → Werte werden immer kleiner, fällt.\n\n$f_2$: $0{,}8^x$ fällt, durch $a=-2<0$ wird der Graph an der x-Achse gespiegelt → steigt.\n\n$f_3'(x)=-0{,}8e^{-0{,}2x}<0$, weil $e^{-0{,}2x}>0$ → fällt.\n\n$f_4'(x)=0{,}15e^{0{,}3x}>0$ → steigt.\n\nAllgemein: $a\\cdot e^{kx}$ steigt, wenn $a\\cdot k>0$ ist, und fällt, wenn $a\\cdot k<0$ ist."
+        },
+        {
+          "id": "N5-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Tangente: $t(x)=e^{u}(x-u)+e^{u}=e^{u}(x-u+1)$. Wegen $e^{u}>0$ ist $t(x)=0$ genau dann, wenn $x-u+1=0$, also $x=u-1$."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Tandem: Ableiten mit Produkt-, Kettenregel und e",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c6",
+        "c1",
+        "c2",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets, ohne Hilfsmittel. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp.",
+      "bild": "img/st_N6.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N6-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Bestimmen Sie die Ableitung von $f(x)=x\\cdot e^{x}$.",
+          "tipp": "Produktregel mit $u=x$ und $v=e^{x}$.",
+          "loesung": "$f'(x)=1\\cdot e^{x}+x\\cdot e^{x}=(1+x)\\,e^{x}$"
+        },
+        {
+          "id": "N6-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Bestimmen Sie die Ableitung von $f(x)=e^{-2x+1}$.",
+          "tipp": "Innere Funktion $-2x+1$ ableiten.",
+          "loesung": "$f'(x)=-2e^{-2x+1}$"
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Bestimmen Sie die Ableitung von $f(x)=(x^2+1)^3$.",
+          "tipp": "Äußere Ableitung $3(\\ldots)^2$, innere Ableitung $2x$.",
+          "loesung": "$f'(x)=3(x^2+1)^2\\cdot2x=6x(x^2+1)^2$"
+        },
+        {
+          "id": "N6-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Bestimmen Sie die Ableitung von $f(x)=\\sqrt{1+x^2}$.",
+          "tipp": "$\\sqrt{z}=z^{\\frac12}$, innere Ableitung $2x$.",
+          "loesung": "$f'(x)=\\frac{1}{2\\sqrt{1+x^2}}\\cdot2x=\\frac{x}{\\sqrt{1+x^2}}$"
+        },
+        {
+          "id": "N6-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Bestimmen Sie die Ableitung von $f(x)=x^2\\cdot e^{-x}$ und klammern Sie $e^{-x}$ aus.",
+          "tipp": "Produktregel; $(e^{-x})'=-e^{-x}$.",
+          "loesung": "$f'(x)=2x\\,e^{-x}+x^2\\cdot(-e^{-x})=(2x-x^2)\\,e^{-x}=x(2-x)\\,e^{-x}$"
+        },
+        {
+          "id": "N6-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechnen Sie $f'(0)$ für $f(x)=(x+1)\\cdot e^{2x}$.",
+          "tipp": "Produktregel, dann $x=0$ einsetzen; $e^{0}=1$.",
+          "loesung": "$f'(x)=e^{2x}+(x+1)\\cdot2e^{2x}=(2x+3)\\,e^{2x}$, also $f'(0)=3$."
+        },
+        {
+          "id": "N6-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Bestimmen Sie die Tangente an den Graphen von $f(x)=e^{2x}$ im Punkt $(0\\mid1)$.",
+          "tipp": "Steigung $f'(0)$, y-Achsenabschnitt ist schon bekannt.",
+          "loesung": "$f'(x)=2e^{2x}$, $f'(0)=2$: $t(x)=2x+1$"
+        },
+        {
+          "id": "N6-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Bestimmen Sie die Tangente an den Graphen von $f(x)=x\\cdot e^{x}$ im Ursprung.",
+          "tipp": "Nutzen Sie $f'(x)=(1+x)\\,e^{x}$.",
+          "loesung": "$f(0)=0$, $f'(0)=1$: $t(x)=x$"
+        },
+        {
+          "id": "N6-9",
+          "label": "9",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Bestimmen Sie alle Stellen mit $f'(x)=0$ für $f(x)=x^2\\cdot e^{x}$.",
+          "tipp": "Ableiten, $e^{x}$ ausklammern, Nullproduktsatz; $e^{x}$ ist nie null.",
+          "loesung": "$f'(x)=(2x+x^2)\\,e^{x}=x(x+2)\\,e^{x}=0$ für $x=0$ oder $x=-2$."
+        },
+        {
+          "id": "N6-10",
+          "label": "10",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Begründen Sie, dass der Graph von $f(x)=5-3e^{-x}$ überall steigt.",
+          "tipp": "Vorzeichen der Ableitung; $e^{-x}>0$.",
+          "loesung": "$f'(x)=-3\\cdot(-1)e^{-x}=3e^{-x}>0$ für alle $x$, also ist $f$ streng monoton steigend."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Wachstum und Abnahme modellieren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c8",
+        "c7",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Gleichungen mit $e$ lösen Sie mit dem WTR (SOLVE) oder mit dem Logarithmus.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Wachstum_Abnahme.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Differenzen: $1{,}0$; $1{,}5$; $2{,}25$ – nicht konstant, also nicht linear.\n\nQuotienten: $\\frac{3{,}0}{2{,}0}=\\frac{4{,}5}{3{,}0}=\\frac{6{,}75}{4{,}5}=1{,}5$ – konstant, also exponentielles Wachstum (Faktor 1,5 alle 2 Tage)."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$A(2)=3$: $2e^{2k}=3$, also $e^{2k}=1{,}5$.\n\nMit dem WTR (SOLVE) oder mit dem Logarithmus zur Basis $e$: $2k=\\ln(1{,}5)$, $k=\\frac{\\ln(1{,}5)}{2}\\approx0{,}2027$.\n\nProbe: $A(4)=2e^{0{,}2027\\cdot4}\\approx4{,}5$ (stimmt mit der Tabelle überein)."
+        },
+        {
+          "id": "N7-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A'(t)=2k\\,e^{kt}$, $A'(6)=2\\cdot0{,}2027\\cdot e^{0{,}2027\\cdot6}\\approx1{,}37$. Einheit: m² pro Tag. Am Tag 6 wächst die bedeckte Fläche um etwa 1,37 m² pro Tag."
+        },
+        {
+          "id": "N7-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$A'(t)=2\\cdot k\\,e^{kt}=k\\cdot(2e^{kt})=k\\cdot A(t)$.\n\nDie Zunahme pro Tag ist proportional zur schon bedeckten Fläche: Je mehr Wasserlinsen da sind, desto schneller breiten sie sich aus."
+        },
+        {
+          "id": "N7-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$2e^{kt}=60$, also $e^{kt}=30$ (es gibt nur eine Lösung, weil $A$ streng monoton steigt). WTR oder $t=\\frac{\\ln(30)}{k}\\approx16{,}8$. Nach knapp 17 Tagen ist der halbe Teich bedeckt."
+        },
+        {
+          "id": "N7-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Nach dem Modell wäre der Teich bei $2e^{kt}=120$, also nach etwa $20{,}2$ Tagen, ganz bedeckt; danach würde $A$ weiter wachsen, mehr als 120 m² ist aber unmöglich. Das Modell gilt nur, solange noch viel freie Fläche da ist; später wird das Wachstum gebremst (begrenztes Wachstum)."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$w(0)=60+5=65$ %. Für $t\\to\\infty$ geht $e^{-0{,}04t}\\to0$, also $w(t)\\to5$ %: Asymptote $y=5$."
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$w'(t)=60\\cdot(-0{,}04)e^{-0{,}04t}=-2{,}4e^{-0{,}04t}<0$, weil $e^{-0{,}04t}>0$ ist. $w$ ist streng monoton fallend."
+        },
+        {
+          "id": "N7-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$60e^{-0{,}04t}+5=10$, also $e^{-0{,}04t}=\\frac{1}{12}$. WTR oder $t=\\frac{\\ln(12)}{0{,}04}\\approx62{,}1$. Nach etwa 62 Minuten liegt die Restfeuchte unter 10 %."
+        },
+        {
+          "id": "N7-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ohne $+5$ ginge die Restfeuchte gegen 0 %. An der Luft trocknet Wäsche aber nicht völlig aus: Sie nimmt die Feuchte der umgebenden Luft an. Der Summand $5$ ist die Restfeuchte, der sich die Wäsche annähert (Asymptote), und hängt von der Luftfeuchtigkeit ab."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Extrempunkte bei Funktionen mit e-Anteil",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c9",
+        "c6",
+        "c7",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner, 15 Minuten. Klammern Sie den e-Faktor aus und nutzen Sie, dass er nie null wird.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Extrempunkte_e.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f'(x)=1\\cdot e^{-x}+x\\cdot(-e^{-x})=(1-x)\\,e^{-x}$\n\n$f''(x)=-e^{-x}+(1-x)\\cdot(-e^{-x})=(x-2)\\,e^{-x}$"
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$f'(x)=0$: $1-x=0$ (denn $e^{-x}>0$), also $x=1$.\n\n$f''(1)=-e^{-1}<0$: Hochpunkt $\\mathrm{HP}\\left(1\\mid\\frac1e\\right)$, denn $f(1)=1\\cdot e^{-1}=\\frac1e$."
+        },
+        {
+          "id": "N8-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$e^{-x}>0$, also hat $f'$ das Vorzeichen von $1-x$: $f$ steigt streng monoton für $x<1$ und fällt streng monoton für $x>1$."
+        },
+        {
+          "id": "N8-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$g'(x)=2x\\,e^{x}+(x^2-3)\\,e^{x}$\n\n$=(x^2+2x-3)\\,e^{x}=(x+3)(x-1)\\,e^{x}$"
+        },
+        {
+          "id": "N8-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Kandidaten: $x=-3$ und $x=1$.\n\n$g''(1)=(1+4-1)e=4e>0$: Tiefpunkt $\\mathrm{TP}(1\\mid-2e)$, denn $g(1)=(1-3)e=-2e$.\n\n$g''(-3)=(9-12-1)e^{-3}=-4e^{-3}<0$: Hochpunkt $\\mathrm{HP}(-3\\mid6e^{-3})$, denn $g(-3)=(9-3)e^{-3}=6e^{-3}$."
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$p'(x)=e^{x}+(x+2)e^{x}=(x+3)e^{x}$. Wegen $e^{x}>0$ ist $p'(x)=0$ nur für $x=-3$, und dort wechselt $x+3$ das Vorzeichen: genau ein Extrempunkt (Tiefpunkt).\n\n$q'(x)=e^{x}+1>0$ für alle $x$: $q$ steigt überall und hat keinen Extrempunkt."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Funktionsuntersuchung mit e-Anteil",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c10",
+        "c11",
+        "c9",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten. Eine vollständige Untersuchung mit Wendetangente; Werte auf zwei Nachkommastellen.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Funktionsuntersuchung.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$e^{-0{,}5x}>0$, also $f(x)=0$ nur für $x+1=0$: Nullstelle $x=-1$, Punkt $N(-1\\mid0)$.\n\n$f(0)=1\\cdot e^{0}=1$: Schnittpunkt $(0\\mid1)$."
+        },
+        {
+          "id": "N9-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f(x)=\\frac{x+1}{e^{0{,}5x}}$: Für $x\\to+\\infty$ wächst der Nenner schneller als jede Potenz (Formeldokument), also $f(x)\\to0$ – Asymptote $y=0$.\n\nFür $x\\to-\\infty$ gilt $x+1\\to-\\infty$ und $e^{-0{,}5x}\\to+\\infty$, also $f(x)\\to-\\infty$."
+        },
+        {
+          "id": "N9-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Produktregel: $f'(x)=e^{-0{,}5x}+(x+1)\\cdot(-0{,}5)e^{-0{,}5x}$\n\n$=(0{,}5-0{,}5x)\\,e^{-0{,}5x}=0{,}5(1-x)\\,e^{-0{,}5x}$\n\n$f''(x)=0{,}5\\left[-e^{-0{,}5x}+(1-x)(-0{,}5)e^{-0{,}5x}\\right]$\n\n$=0{,}5(0{,}5x-1{,}5)\\,e^{-0{,}5x}=0{,}25(x-3)\\,e^{-0{,}5x}$"
+        },
+        {
+          "id": "N9-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f'(x)=0$ für $x=1$; $f''(1)=0{,}25\\cdot(-2)e^{-0{,}5}<0$ → Hochpunkt. $f(1)=2e^{-0{,}5}\\approx1{,}21$: $\\mathrm{HP}(1\\mid1{,}21)$"
+        },
+        {
+          "id": "N9-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$f''(x)=0$ für $x=3$; dort wechselt $x-3$ das Vorzeichen, also auch $f''$. $f(3)=4e^{-1{,}5}\\approx0{,}89$: $\\mathrm{WP}(3\\mid0{,}89)$"
+        },
+        {
+          "id": "N9-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$m=f'(3)=0{,}5\\cdot(-2)e^{-1{,}5}=-e^{-1{,}5}\\approx-0{,}2231$.\n\n$t(x)=-e^{-1{,}5}(x-3)+4e^{-1{,}5}=e^{-1{,}5}(7-x)$\n\n$t(x)\\approx-0{,}2231x+1{,}5619$"
+        },
+        {
+          "id": "N9-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Graph: steigt von $N(-1\\mid0)$ zum Hochpunkt $(1\\mid1{,}21)$, fällt dann, Wendepunkt $(3\\mid0{,}89)$, nähert sich danach von oben der x-Achse.",
+          "loesung_bild": "img/N9-1g.png"
+        },
+        {
+          "id": "N9-1h",
+          "label": "1h",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$f'$ hat nur die Nullstelle $x=1$; $f$ steigt für $x<1$ und fällt für $x>1$. Also ist $f(1)$ der größte Wert überhaupt (globales Maximum). Einen Tiefpunkt gibt es nicht, weil $f'$ sonst nirgends null ist. Für $x\\to-\\infty$ werden die Werte beliebig klein.\n\nWertemenge: $]-\\infty;\\,2e^{-0{,}5}]\\approx]-\\infty;\\,1{,}21]$"
+        },
+        {
+          "id": "N9-1i",
+          "label": "1i",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$t(x)=e^{-1{,}5}(7-x)=0$ genau für $x=7$, denn $e^{-1{,}5}\\neq0$."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Lokal, global, am Rand",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c12",
+        "c9"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 15 Minuten. Vergleichen Sie immer die lokalen Extrema mit den Randwerten.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Lokal_global_Rand.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f'(x)=3x^2-12=0$ ergibt $x=\\pm2$ (beide im Inneren von $D$). $f''(x)=6x$:\n\n$f''(-2)=-12<0$: $\\mathrm{HP}(-2\\mid16)$; $f''(2)=12>0$: $\\mathrm{TP}(2\\mid-16)$."
+        },
+        {
+          "id": "N10-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Randwerte: $f(-3)=-27+36=9$ und $f(5)=125-60=65$.\n\nVergleich mit $16$ und $-16$: Globales Maximum $65$ am Rand $x=5$ (Randmaximum), globales Minimum $-16$ im Tiefpunkt bei $x=2$. Der Hochpunkt $(-2\\mid16)$ ist nur ein lokales Maximum."
+        },
+        {
+          "id": "N10-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f(3)=27-36=-9$. Jetzt ist $16$ (im Hochpunkt bei $x=-2$) der größte Wert: globales Maximum $16$."
+        },
+        {
+          "id": "N10-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$g'(t)=e^{-0{,}5t}+(t-1)(-0{,}5)e^{-0{,}5t}$\n\n$=0{,}5(3-t)\\,e^{-0{,}5t}$. Null für $t=3$; $3-t$ wechselt dort von $+$ nach $-$: lokales Maximum bei $t=3$."
+        },
+        {
+          "id": "N10-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$g(3)=2e^{-1{,}5}\\approx0{,}45$; Randwerte $g(0)=-1$ und $g(8)=7e^{-4}\\approx0{,}13$.\n\nGlobales Maximum $\\approx0{,}45$ bei $t=3$; globales Minimum $-1$ am Rand $t=0$ (Randminimum)."
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**. Gegenbeispiel Aufgabe 1: $f(x)=x^3-12x$ hat im Inneren von $[-3;5]$ genau einen Hochpunkt $(-2\\mid16)$, das globale Maximum $65$ liegt aber am Rand $x=5$.\n\nRichtig wird die Aussage erst, wenn man zusätzlich die Randwerte vergleicht – oder wenn es im Inneren keinen Tiefpunkt gibt (dann fällt $f$ rechts und links vom Hochpunkt)."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Funktionenscharen und Ortskurven",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c13",
+        "c9",
+        "c10"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Rechnen Sie mit dem Parameter $a$ wie mit einer festen Zahl.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Scharen_Ortskurven.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$e^{x}>0$, also $f_a(x)=0$ nur für $x=a$."
+        },
+        {
+          "id": "N11-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f_a'(x)=e^{x}+(x-a)e^{x}=(x-a+1)\\,e^{x}$\n\n$f_a''(x)=e^{x}+(x-a+1)e^{x}=(x-a+2)\\,e^{x}$"
+        },
+        {
+          "id": "N11-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$f_a'(x)=0$ für $x=a-1$. $f_a''(a-1)=1\\cdot e^{a-1}>0$: Tiefpunkt.\n\n$f_a(a-1)=(a-1-a)\\,e^{a-1}=-e^{a-1}$: $T_a(a-1\\mid-e^{a-1})$"
+        },
+        {
+          "id": "N11-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$x=a-1$ ergibt $a=x+1$. Einsetzen in $y=-e^{a-1}$: $y=-e^{x+1-1}=-e^{x}$.\n\nAlle Tiefpunkte liegen auf dem Graphen von $y=-e^{x}$."
+        },
+        {
+          "id": "N11-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Für $a\\neq b$ angenommen $f_a(x)=f_b(x)$: $(x-a)e^{x}=(x-b)e^{x}$. Teilen durch $e^{x}>0$: $x-a=x-b$, also $a=b$ – Widerspruch. Es gibt keinen gemeinsamen Punkt."
+        },
+        {
+          "id": "N11-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$g_a'(x)=3x^2-3a=0$ ergibt $x=\\pm\\sqrt{a}$; $g_a''(x)=6x$.\n\n$g_a''(\\sqrt a)>0$: $\\mathrm{TP}(\\sqrt a\\mid-2a\\sqrt a)$, denn $a\\sqrt a-3a\\sqrt a=-2a\\sqrt a$.\n\n$g_a''(-\\sqrt a)<0$: $\\mathrm{HP}(-\\sqrt a\\mid2a\\sqrt a)$."
+        },
+        {
+          "id": "N11-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Tiefpunkt: $x=\\sqrt a$, also $a=x^2$ und $y=-2x^2\\cdot x=-2x^3$.\n\nHochpunkt: $x=-\\sqrt a$, also $a=x^2$, $\\sqrt a=-x$ und $y=2x^2\\cdot(-x)=-2x^3$."
+        },
+        {
+          "id": "N11-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$-2a\\sqrt a=-16$, also $a\\sqrt a=a^{\\frac32}=8$ und $a=8^{\\frac23}=4$. Probe: $-2\\cdot4\\cdot2=-16$."
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "titel": "Optimieren mit e-Funktionen",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c14",
+        "c12",
+        "c9"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten, allein oder zu zweit: Aufgabe 1 zuerst allein, dann vergleichen, Aufgabe 2 gemeinsam. Denken Sie an die Randwerte.",
+      "bild": "img/st_N12.svg",
+      "pdf": "pdf/N12_Optimieren.pdf",
+      "aufgaben": [
+        {
+          "id": "N12-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Breite $u$, Höhe $f(u)$: $A(u)=u\\cdot5e^{-0{,}25u}=5u\\,e^{-0{,}25u}$ mit $D=]0;\\,\\infty[$."
+        },
+        {
+          "id": "N12-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$A'(u)=5e^{-0{,}25u}+5u\\cdot(-0{,}25)e^{-0{,}25u}$\n\n$=(5-1{,}25u)\\,e^{-0{,}25u}$\n\n$A'(u)=0$ für $u=4$."
+        },
+        {
+          "id": "N12-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$5-1{,}25u$ wechselt bei $u=4$ von $+$ nach $-$: lokales Maximum. Es ist der einzige Kandidat; für $u\\to0$ und $u\\to\\infty$ geht $A(u)\\to0$ (Formeldokument). Also globales Maximum.\n\nBreite 4, Höhe $f(4)=5e^{-1}\\approx1{,}84$, $A(4)=20e^{-1}\\approx7{,}36$ FE."
+        },
+        {
+          "id": "N12-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$N(10)=2000e^{-0{,}5}\\approx1213$ Lampen, Umsatz $10\\cdot2000e^{-0{,}5}\\approx12\\,131$ €."
+        },
+        {
+          "id": "N12-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$U(p)=2000p\\,e^{-0{,}05p}$, $U'(p)=2000e^{-0{,}05p}(1-0{,}05p)$. $U'(p)=0$ für $p=20$; $1-0{,}05p$ wechselt dort von $+$ nach $-$: Maximum.\n\n$U(20)=40\\,000e^{-1}\\approx14\\,715$ €. Bei 20 € ist der Umsatz mit etwa 14 715 € pro Woche am größten."
+        },
+        {
+          "id": "N12-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Neue Definitionsmenge $D=[0;15]$. Auf $D$ ist $1-0{,}05p>0$, also $U'(p)>0$: $U$ steigt auf ganz $D$. $U'(p)=0$ hat in $D$ keine Lösung.\n\nDas Maximum liegt am Rand: Randmaximum bei $p=15$ €, $U(15)=30\\,000e^{-0{,}75}\\approx14\\,171$ €."
+        },
+        {
+          "id": "N12-2d",
+          "label": "2d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "$G'(p)=2000e^{-0{,}05p}+(p-5)\\cdot2000\\cdot(-0{,}05)e^{-0{,}05p}$\n\n$=2000e^{-0{,}05p}(1{,}25-0{,}05p)$\n\n$G'(p)=0$ für $p=25$ (Vorzeichenwechsel von $+$ nach $-$: Maximum).\n\n$G(25)=20\\cdot2000e^{-1{,}25}\\approx11\\,460$ € Gewinn pro Woche.\n\nBegründung: Beim Umsatz zählt jede verkaufte Lampe voll, beim Gewinn nur $p-5$. Ein höherer Preis kostet zwar Bestellungen, spart aber Einkaufskosten – deshalb lohnt sich ein höherer Preis als 20 €."
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c12",
+        "c1",
+        "c2",
+        "c3",
+        "c9",
+        "c13"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner, 20 Minuten. Jede Lösung enthält genau einen typischen Fehler.",
+      "bild": "img/st_N13.svg",
+      "pdf": "pdf/N13_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N13-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Es wurden nur die beiden Faktoren einzeln abgeleitet und multipliziert ($u'\\cdot v'$). Für ein Produkt gilt die Produktregel $u'\\cdot v+u\\cdot v'$.\n\nRichtig: $f'(x)=2x\\,e^{x}+x^2e^{x}=(x^2+2x)\\,e^{x}$"
+        },
+        {
+          "id": "N13-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Nur $e^{x}$ ist seine eigene Ableitung. Bei $e^{-2x}$ ist der Exponent eine innere Funktion; nach der Kettenregel kommt die innere Ableitung $-2$ als Faktor dazu.\n\nRichtig: $g'(x)=-2e^{-2x}$"
+        },
+        {
+          "id": "N13-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Für senkrechte Geraden gilt $m_t\\cdot m_n=-1$; nur das Vorzeichen zu ändern reicht nicht ($2\\cdot(-2)=-4\\neq-1$).\n\nRichtig: $m_n=-\\frac12$; $2=-\\frac12\\cdot1+b$ ergibt $b=2{,}5$: $n(x)=-0{,}5x+2{,}5$"
+        },
+        {
+          "id": "N13-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Ableitung ist richtig, die Folgerung nicht: $e^{x}=0$ hat keine Lösung, denn $e^{x}>0$ für alle $x$; insbesondere ist $e^{0}=1$. Es gibt nur den Kandidaten $x=1$.\n\nDort wechselt $x-1$ das Vorzeichen von $-$ nach $+$: Tiefpunkt $\\mathrm{TP}(1\\mid-e)$, denn $f(1)=-e$."
+        },
+        {
+          "id": "N13-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Randwerte fehlen. $A(0)=0$ und $A(6)=216-324+144=36$.\n\nRichtig: Das globale Maximum ist $36$ am Rand $x=6$ (Randmaximum). Bei $x=2$ liegt nur ein lokales Maximum, bei $x=4$ ein lokales Minimum."
+        },
+        {
+          "id": "N13-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der Tiefpunkt stimmt, aber $y=1-a^2$ ist keine Ortskurve: In der Gleichung muss der Parameter durch $x$ ersetzt werden.\n\nRichtig: $x=a$, also $y=1-x^2$. Alle Tiefpunkte liegen auf dieser Parabel."
+        }
+      ]
+    },
+    {
+      "id": "N14",
+      "titel": "Hilfsmittelfreier Teil (HMF)",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c10",
+        "c11",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c9",
+        "c13"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner und Formeldokument, 20 Minuten – wie Teil A der Klausur.",
+      "bild": "img/st_N14.svg",
+      "pdf": "pdf/N14_HMF.pdf",
+      "aufgaben": [
+        {
+          "id": "N14-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f'(x)=e^{2x}+x\\cdot2e^{2x}=(1+2x)\\,e^{2x}$"
+        },
+        {
+          "id": "N14-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$f(0)=0$, $f'(0)=1$: $t(x)=x$"
+        },
+        {
+          "id": "N14-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$g'(x)=2e^{x}+(2x-4)e^{x}=(2x-2)\\,e^{x}=0$ für $x=1$ (denn $e^{x}>0$)."
+        },
+        {
+          "id": "N14-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$2x-2$ wechselt bei $x=1$ das Vorzeichen von $-$ nach $+$, also auch $g'$: Tiefpunkt $\\mathrm{TP}(1\\mid-2e)$."
+        },
+        {
+          "id": "N14-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x=-2$: $f'$ wechselt von $+$ nach $-$ → Hochpunkt. $x=2$: von $-$ nach $+$ → Tiefpunkt."
+        },
+        {
+          "id": "N14-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$x=0$: Dort hat $f'$ einen Tiefpunkt, die Steigung von $f$ ist dort am kleinsten."
+        },
+        {
+          "id": "N14-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Werte: $e^{0}=1$ und $0+1=1$ – sprungfrei. Steigungen: $(e^{x})'=e^{x}$ ergibt $1$, die Gerade hat die Steigung $1$ – knickfrei. $h$ ist bei $x=0$ differenzierbar."
+        },
+        {
+          "id": "N14-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**: $e^{kx}>0$ für alle $x$ und $a\\neq0$, also ist $a\\cdot e^{kx}\\neq0$. Eine solche Funktion hat **keine** Nullstelle; ihr Graph nähert sich der x-Achse nur an (für $k\\neq0$)."
+        },
+        {
+          "id": "N14-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$f_a'(x)=-2x+2a=0$ für $x=a$; $f_a''=-2<0$: Hochpunkt $H_a(a\\mid a^2)$, denn $-a^2+2a^2=a^2$.\n\n$x=a$ einsetzen: Ortskurve $y=x^2$."
+        }
+      ]
+    },
+    {
+      "id": "N15",
+      "titel": "Check-out",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "ohne",
+      "checkliste": [
+        "c12",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c9"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Am Ende bearbeiten. Ohne Hilfsmittel, 8 Minuten. Jede Aufgabe gehört zur Aufgabe mit derselben Nummer in N1 – vergleichen Sie in der Auswertung Ihre Punkte in N1 und N15.",
+      "bild": "img/st_N15.svg",
+      "pdf": "pdf/N15_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N15-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Produktregel: $f'(x)=3x^2(x+2)+x^3\\cdot1=4x^3+6x^2$.\n\n*A gewählt?* $u'\\cdot v'$ gerechnet. → **N2** Aufgabe 3\n\n*B gewählt?* Der Summand $u\\cdot v'$ fehlt. → **N2** Aufgabe 1\n\n*D gewählt?* Wie eine Summe abgeleitet. → **N2**, **N13**"
+        },
+        {
+          "id": "N15-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Äußere mal innere Ableitung: $3(2x+5)^2\\cdot2=6(2x+5)^2$.\n\n*B gewählt?* Die innere Ableitung $2$ fehlt. → **N2**, **N6**\n\n*C gewählt?* Die Zahl $5$ in der Klammer wurde übergangen. → **N2**\n\n*D gewählt?* Nur mit der inneren Ableitung multipliziert. → **N2**"
+        },
+        {
+          "id": "N15-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $m_t\\cdot m_n=-1$: $m_n=-\\frac{1}{-\\frac23}=\\frac32$.\n\n*A gewählt?* Kehrwert, aber das Vorzeichen nicht gewechselt. → **N3**\n\n*B gewählt?* Nur das Vorzeichen gewechselt. → **N3**\n\n*C gewählt?* Das ist die Tangentensteigung. → **N3**"
+        },
+        {
+          "id": "N15-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Werte: $0{,}5\\cdot4+1=3$ und $2\\cdot2-1=3$ – sprungfrei. Steigungen: $(0{,}5x^2+1)'=x$ ergibt $2$, die Gerade hat die Steigung $2$ – knickfrei.\n\n*A oder D gewählt?* Beide Teile liefern bei $x=2$ den Wert $3$. → **N3** Aufgabe 2\n\n*C gewählt?* Die Steigungen stimmen überein – vergleichen Sie $f'$ von links und rechts. → **N3**"
+        },
+        {
+          "id": "N15-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $F'=f$ hat bei $x=1$ ihren kleinsten Wert: Dort steigt $F$ am schwächsten – Wendestelle. Da $f>0$ ist, steigt $F$ überall und hat keinen Extrempunkt.\n\n*B oder D gewählt?* Extremstellen von $F$ liegen dort, wo $f$ das Vorzeichen wechselt. → **N4**\n\n*C gewählt?* Die Höhe von $F$ ist durch $f$ nicht festgelegt. → **N4**"
+        },
+        {
+          "id": "N15-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Kettenregel: $3\\cdot0{,}5\\,e^{0{,}5x}=1{,}5e^{0{,}5x}$.\n\n*A gewählt?* Innere Ableitung vergessen. → **N5**, **N6**\n\n*B gewählt?* Ein $x$ zu viel – die innere Ableitung von $0{,}5x$ ist $0{,}5$. → **N5**\n\n*D gewählt?* Der Faktor $3$ fehlt (Faktorregel). → **N5**"
+        },
+        {
+          "id": "N15-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Nullproduktsatz: $x+3=0$ oder $e^{-x}=0$. $e^{-x}$ ist immer positiv, also nur $x=-3$.\n\n*A gewählt?* $e^{0}=1\\neq0$. → **N8**, **G2** Aufgabe 2\n\n*C gewählt?* Der erste Faktor wird bei $x=-3$ null. → **N8**\n\n*D gewählt?* Es gibt kein Quadrat. → **G2** Aufgabe 2"
+        },
+        {
+          "id": "N15-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Kandidaten: Tiefpunkt $f(4)=0$ und Randwerte $f(0)=-16$, $f(6)=20$. Globales Minimum $-16$ am Rand $x=0$ (Randminimum).\n\n*A gewählt?* Randwerte vergessen. → **N10**, **N12**\n\n*B gewählt?* Stelle und Wert vermischt. → **N10**\n\n*C gewählt?* Auf einem abgeschlossenen Intervall hat eine ganzrationale Funktion einen kleinsten Wert. → **N10**"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Vase aus dem 3D-Drucker",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c4",
+        "c1",
+        "c2",
+        "c3",
+        "c5",
+        "g1",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Produkt- und Kettenregel, Tangente und Normale, Übergänge, Graph der Ableitung) – am besten nach N2 bis N4.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Vase.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$r'(x)=0{,}01\\left[1\\cdot(x-15)^2+x\\cdot2(x-15)\\right]$\n\n$=0{,}01(x-15)(x-15+2x)$\n\n$=0{,}01(x-15)(3x-15)=0{,}03(x-5)(x-15)$"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$r'(x)=0$ für $x=5$ oder $x=15$. $r''(x)=0{,}06(x-10)$: $r''(5)=-0{,}3<0$ → Maximum.\n\n$r(5)=0{,}01\\cdot5\\cdot100+3=8$: In 5 cm Höhe ist der Radius 8 cm, der Durchmesser 16 cm."
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$x=15$: $r(15)=3$ (wie der Hals) und $r'(15)=0$ (wie der zylindrische Hals) → sprung- und knickfrei.\n\n$x=0$: $r(0)=3$ (wie der Fuß) → sprungfrei; aber $r'(0)=0{,}03\\cdot(-5)\\cdot(-15)=2{,}25\\neq0$ → Knick."
+        },
+        {
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Stärkste Verengung = kleinstes $r'$ = Wendestelle: $r''(x)=0$ für $x=10$, $r''$ wechselt dort das Vorzeichen.\n\n$r'(10)=0{,}03\\cdot5\\cdot(-5)=-0{,}75$, $r(10)=5{,}5$: In 10 cm Höhe nimmt der Radius um 0,75 cm pro cm Höhe ab."
+        },
+        {
+          "id": "V1-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$m_n=-\\frac{1}{-0{,}75}=\\frac43$; $n(x)=\\frac43(x-10)+5{,}5=\\frac43x-\\frac{47}{6}\\approx1{,}33x-7{,}83$"
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$s>0$ für $x<4$: Die Vase wird weiter; bei $x=4$ wechselt $s$ von $+$ nach $-$ → weiteste Stelle des Bauchs in 4 cm Höhe. Bei $x=12$ wechselt $s$ von $-$ nach $+$ → engste Stelle des Halses in 12 cm Höhe. Dazwischen bei $x=8$ (Tiefpunkt von $s$) verengt sie sich am stärksten.",
+          "loesung_bild": "img/V1-2a.png"
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bei $x=0$ trifft der Bauch mit der Steigung $2{,}25$ auf den zylindrischen Fuß (Steigung $0$): Der Übergang ist sprungfrei, hat aber einen deutlichen Knick – die Vase hat dort eine Kante und wirkt abgesetzt.\n\nKnickfrei wäre der Übergang nur, wenn das Profil $r_F$ des Fußes bei $x=0$ denselben Wert **und** dieselbe Steigung hätte: $r_F(0)=3$ und $r_F'(0)=r'(0)=2{,}25$. Ein zylindrischer Fuß (Steigung $0$) kann das nicht leisten; einfacher ist es, den Bauch so zu ändern, dass $r'(0)=0$ gilt."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Aufrufe eines Erklärvideos",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c9",
+        "c6",
+        "c7",
+        "c8",
+        "c1",
+        "c2",
+        "c3",
+        "g3",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 und 2 (Ableitungsregeln, Tangente, e-Funktion, Modellieren, Extrempunkte) – am besten nach N5 bis N8.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Erklaervideo.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Produkt- und Kettenregel: $v'(t)=600e^{-0{,}5t}+600t\\cdot(-0{,}5)e^{-0{,}5t}$\n\n$=(600-300t)\\,e^{-0{,}5t}=-300(t-2)\\,e^{-0{,}5t}$\n\n$v''(t)=-300e^{-0{,}5t}+(-300)(t-2)(-0{,}5)e^{-0{,}5t}$\n\n$=(150t-600)\\,e^{-0{,}5t}=150(t-4)\\,e^{-0{,}5t}$"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$v'(t)=0$ für $t=2$ (denn $e^{-0{,}5t}>0$); $v''(2)=-300e^{-1}<0$ → Maximum.\n\n$v(2)=1200e^{-1}\\approx441$: Zwei Tage nach dem Hochladen gibt es mit etwa 441 Aufrufen pro Tag die meisten Aufrufe."
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Für $0<t<2$ ist $v'>0$: Die täglichen Aufrufe nehmen zu (das Video spricht sich herum). Für $t>2$ ist $v'<0$: Sie nehmen ab. $v(t)>0$ für $t>0$, und für $t\\to\\infty$ geht $v(t)\\to0$ (Formeldokument): Das Interesse erlischt allmählich, ohne ganz auf null zu fallen."
+        },
+        {
+          "id": "V2-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$v''(t)=0$ für $t=4$, Vorzeichenwechsel von $t-4$ → Wendestelle, dort ist $v'$ am kleinsten.\n\n$v'(4)=-600e^{-2}\\approx-81{,}2$; Ränder: $v'(0)=600>0$, $v'(14)\\approx-3{,}3$. Am Tag 4 sinkt die Zahl der Aufrufe pro Tag am stärksten, um etwa 81 pro Tag."
+        },
+        {
+          "id": "V2-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$v(4)=2400e^{-2}\\approx324{,}8$. Tangente: $T(t)=-600e^{-2}(t-4)+2400e^{-2}=600e^{-2}(8-t)$. $T(t)=0$ für $t=8$.\n\nNach dem Modell gibt es am Tag 8 aber noch $v(8)=4800e^{-4}\\approx88$ Aufrufe. Die lineare Fortsetzung ist zu pessimistisch, weil der Graph rechts vom Wendepunkt linksgekrümmt ist und flacher wird."
+        },
+        {
+          "id": "V2-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$600t\\,e^{-0{,}5t}=50$ mit dem WTR (SOLVE, Startwert z. B. 10): $t\\approx9{,}47$. Die zweite Lösung $t\\approx0{,}09$ liegt vor dem Maximum und gehört nicht zur Frage. Ab etwa dem 10. Tag sind es weniger als 50 Aufrufe pro Tag."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$a\\cdot e^{-2}=2400e^{-2}$, also $a=2400$ und $w(t)=2400e^{-0{,}5t}$.\n\n$\\frac{v(t)}{w(t)}=\\frac{600t}{2400}=\\frac{t}{4}>1$ für $t>4$: $v$ liegt über $w$, das reine Abnahmemodell sagt also weniger Aufrufe voraus. Beide Modelle nähern sich 0; $w$ halbiert sich alle $\\approx1{,}4$ Tage, $v$ fällt langsamer."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$v_k'(t)=600e^{-kt}(1-kt)=0$ für $t=\\frac1k$. Maximum am Tag 4: $k=0{,}25$.\n\n$v_{0{,}25}(4)=2400e^{-1}\\approx883$ Aufrufe pro Tag – doppelt so viele wie beim ersten Video (441)."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Komplexaufgabe: Sommerrodelbahn",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 35,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c14",
+        "c10",
+        "c11",
+        "c12",
+        "c13",
+        "c9",
+        "c6",
+        "c4",
+        "c3",
+        "c1",
+        "g3",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 35 Minuten. Klausurniveau, Teil mit Hilfsmitteln. Vernetzt die Grundlagen mit Phase 1 bis 3 (Ableitungsregeln, e-Funktion, Funktionsuntersuchung, Rand, Scharen, Optimierung) – am besten nach N9 bis N14.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Sommerrodelbahn.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$h(0)=20$ und $h(80)=100e^{-4}\\approx1{,}83$: Höhenunterschied etwa $18{,}17$ m."
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$h'(x)=1\\cdot e^{-0{,}05x}+(x+20)\\cdot(-0{,}05)e^{-0{,}05x}$\n\n$=(1-0{,}05x-1)\\,e^{-0{,}05x}=-0{,}05x\\,e^{-0{,}05x}$"
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$h'(0)=0$: waagerechter Start. Für $x>0$ ist $-0{,}05x<0$ und $e^{-0{,}05x}>0$, also $h'(x)<0$: Die Bahn fällt ständig.\n\nHöchster Punkt am Rand $x=0$ (20 m, Randmaximum), tiefster Punkt am Rand $x=80$ ($\\approx1{,}83$ m, Randminimum); im Inneren gibt es keine lokalen Extrema."
+        },
+        {
+          "id": "V3-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$h''(x)=0$ für $x=20$, Vorzeichenwechsel von $x-20$ → Wendestelle, dort ist $h'$ am kleinsten.\n\n$h'(20)=-e^{-1}\\approx-0{,}368$: Gefälle etwa 36,8 %."
+        },
+        {
+          "id": "V3-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$h(20)=40e^{-1}\\approx14{,}72$\n\n$t(x)=-e^{-1}(x-20)+40e^{-1}=e^{-1}(60-x)$\n\n$t(x)\\approx-0{,}368x+22{,}07$"
+        },
+        {
+          "id": "V3-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Das größte Gefälle tritt im Wendepunkt auf: 36,8 % < 40 %. An den Rändern ist das Gefälle kleiner ($0$ bzw. $h'(80)\\approx-0{,}073$). Die Vorgabe wird überall eingehalten."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Stützenlänge $d(x)=h(x)-g(x)$, $d'(x)=h'(x)+0{,}2=0$, also $0{,}05x\\,e^{-0{,}05x}=0{,}2$ bzw. $x\\,e^{-0{,}05x}=4$.\n\nWTR (SOLVE) im Bereich $0\\le x\\le40$: $x\\approx5{,}18$ (die zweite Lösung $x\\approx50{,}85$ liegt außerhalb). $d(5{,}18)\\approx4{,}47$.\n\nRandwerte: $d(0)=4$ und $d(40)\\approx0{,}12$. Die längste Stütze steht etwa 5,2 m hinter dem Start und ist etwa 4,47 m lang."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Sprungfrei: Der Auslauf beginnt in der Höhe $h(80)$. Knickfrei: $h'(80)=-4e^{-4}\\approx-0{,}073$, der Auslauf hat die Steigung $0$ – es gibt einen kleinen Knick (7,3 % Gefälle gegen 0 %).\n\nDer Knick ist klein, führt aber zu einem spürbaren Stoß; in der Praxis rundet man den Übergang mit einem kurzen Bogen aus, der bei $x=80$ die Steigung $-0{,}073$ und am Ende die Steigung 0 hat."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$h_a(0)=a$. $h_a'(x)=e^{-\\frac{x}{a}}+(x+a)\\left(-\\frac1a\\right)e^{-\\frac{x}{a}}=-\\frac{x}{a}\\,e^{-\\frac{x}{a}}$, also $h_a'(0)=0$.\n\n$h_a''(x)=0$ für $x=a$ mit Vorzeichenwechsel; $h_a(a)=2a\\,e^{-1}$: $W_a(a\\mid2a\\,e^{-1})$"
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$x=a$ einsetzen: $y=2x\\,e^{-1}=\\frac{2}{e}x\\approx0{,}74x$ – eine Ursprungsgerade.\n\n$h_a'(a)=-\\frac{a}{a}e^{-1}=-e^{-1}$: Das größte Gefälle ist für jedes $a$ etwa 36,8 %. Eine höhere Bahn ist nur gestreckt, aber nicht steiler."
+        },
+        {
+          "id": "V3-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Zum Beispiel: Die Bahn ist als Graph über einer geraden Linie beschrieben – Kurven im Grundriss fehlen, die tatsächliche Bahnlänge ist größer. Das Gelände ist als gerade Linie angenommen; die Stützenlängen sind daher nur Richtwerte. Das Profil ist glatt, Bremsabschnitte und Kuppen fehlen."
+        }
+      ]
+    }
+  ]
+}
