@@ -187,6 +187,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Orbitale, Energieniveaus, Emission und Absorption, Linienspektren des Wasserstoffatoms"
+        },
+        {
+          "id": "memory-abi",
+          "name": "Mündliches Abitur – 60-Sekunden-Memory",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Zu zweit mit zwei Geräten: Lerngegenstände erklären und Abbildungen beschreiben, Partner prüft mit Erwartungshorizont"
         }
       ]
     }

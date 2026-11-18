@@ -1700,6 +1700,279 @@ function importieren(datei) {
   leser.readAsText(datei);
 }
 
+/* ---------- Memory-Modus (Tim, 18.11.2026) ----------
+   Thema mit "modus": "memory": verdeckte, nummerierte Karten; zwei Geräte.
+   Wer erklärt, sieht Lerngegenstand oder Abbildung und startet die Zeit selbst,
+   wer prüft, öffnet dieselbe Nummer und sieht den Erwartungshorizont.
+   Gespeichert wird nur die eigene Einschätzung je Karte und die Rolle. */
+
+const MEM_URTEILE = [
+  { id: 'sicher', text: 'Sicher', zeichen: '+' },
+  { id: 'teils', text: 'Teilweise', zeichen: 'o' },
+  { id: 'unsicher', text: 'Unsicher', zeichen: '–' }
+];
+const MEM_FILTER = [
+  { id: 'alle', text: 'Alle' },
+  { id: 'felder', text: 'Felder', pakete: ['1', '2'] },
+  { id: 'wellen', text: 'Schwingungen und Wellen', pakete: ['3', '4'] },
+  { id: 'quanten', text: 'Quanten', pakete: ['5'] },
+  { id: 'offen', text: 'Noch nicht geübt' },
+  { id: 'wiederholen', text: 'Wiederholen' }
+];
+const MEM_BESCHREIBEN = [
+  'Art der Darstellung: Diagramm oder Skizze? Welche Größen, welche Einheiten?',
+  'Aufbau und Objekte: Was ist zu sehen, wie ist es angeordnet?',
+  'Auffälligkeiten: Verlauf, besondere Punkte, Werte ablesen',
+  'Physikalische Deutung: Welches Phänomen, welches Gesetz, welche Formel?',
+  'Einordnung: Anwendung, Grenzen, Bezug zu anderen Themen'
+];
+
+let memFilter = 'alle';
+let memUhr = null;          // { nr, start, dauer, id, fertig }
+const memHaken = {};        // nr -> Set der abgehakten Punkte (nur für die laufende Runde)
+
+function memDaten() {
+  const m = aktuell.thema.memory || {};
+  return { sekunden: Number(m.sekunden) || 60, karten: Array.isArray(m.karten) ? m.karten : [], pakete: m.pakete || [] };
+}
+function memZustand() {
+  const z = aktuell.zustand;
+  if (!z.memory) z.memory = { rolle: null, karten: {} };
+  return z.memory;
+}
+function memPfad(nr) { return uebersichtPfad() + (nr ? '/k/' + encodeURIComponent(nr) : ''); }
+
+function memUhrStoppen() {
+  if (memUhr && memUhr.id) clearInterval(memUhr.id);
+  if (memUhr) memUhr.id = null;
+}
+
+function memRoute(unter, wert) {
+  kopfSetzen();
+  const nr = unter === 'k' ? Number(wert) : null;
+  if (!memUhr || memUhr.nr !== nr) { memUhrStoppen(); memUhr = null; }
+  if (nr) ansichtMemoryKarte(nr); else ansichtMemoryBrett();
+}
+
+function memRolleSchalter(rolle) {
+  return '<div class="mem-rolle" role="group" aria-label="Ihre Rolle">' +
+    '<button type="button" data-aktion="mem-rolle" data-wert="erklaeren" aria-pressed="' + (rolle === 'erklaeren') + '">' +
+    '<b>Ich erkläre</b><span>Aufgabe sehen, Zeit starten</span></button>' +
+    '<button type="button" data-aktion="mem-rolle" data-wert="pruefen" aria-pressed="' + (rolle === 'pruefen') + '">' +
+    '<b>Ich prüfe</b><span>Erwartungshorizont sehen</span></button></div>';
+}
+
+function memSichtbar(k, mz) {
+  const f = MEM_FILTER.find((x) => x.id === memFilter) || MEM_FILTER[0];
+  if (f.pakete) return f.pakete.includes(String(k.paket));
+  if (f.id === 'offen') return !mz.karten[k.nr];
+  if (f.id === 'wiederholen') return mz.karten[k.nr] === 'teils' || mz.karten[k.nr] === 'unsicher';
+  return true;
+}
+
+function ansichtMemoryBrett() {
+  const { karten } = memDaten();
+  const mz = memZustand();
+  const geuebt = karten.filter((k) => mz.karten[k.nr]).length;
+  const zaehle = (id) => karten.filter((k) => mz.karten[k.nr] === id).length;
+
+  let html = band({
+    unter: esc(aktuell.stufeName) + ' · ' + esc(fachName(aktuell.thema.fach)),
+    titel: esc(aktuell.thema.titel || 'Memory'),
+    lead: esc(aktuell.thema.hinweis || ''),
+    rechts: '<p class="band-zahl"><span>geübt</span><b>' + geuebt + '</b> von ' + karten.length + '</p>'
+  });
+
+  html += '<div class="seite">' +
+    '<section class="karte mem-start"><h2 class="h-klein">Welche Rolle haben Sie gerade?</h2>' +
+    memRolleSchalter(mz.rolle) +
+    '<p class="meta">Einigen Sie sich auf eine Nummer und tippen Sie sie auf beiden Geräten an. Nach jeder Karte werden die Rollen getauscht.</p></section>';
+
+  html += '<div class="mem-leiste"><div class="filter" role="group" aria-label="Karten filtern">' +
+    MEM_FILTER.map((f) => '<button type="button" data-aktion="mem-filter" data-wert="' + f.id + '" aria-pressed="' + (memFilter === f.id) + '">' + esc(f.text) + '</button>').join('') +
+    '</div><p class="mem-bilanz" aria-label="Ihre Einschätzungen">' +
+    MEM_URTEILE.map((u) => '<span class="mem-marke mem-' + u.id + '">' + u.zeichen + '</span> ' + zaehle(u.id)).join(' &nbsp; ') + '</p></div>';
+
+  const sichtbar = karten.filter((k) => memSichtbar(k, mz));
+  html += '<ol class="mem-brett">' + sichtbar.map((k) => {
+    const u = MEM_URTEILE.find((x) => x.id === mz.karten[k.nr]);
+    return '<li><a class="mem-kachel' + (u ? ' ist-geuebt mem-' + u.id : '') + '" href="' + memPfad(k.nr) + '"' +
+      ' aria-label="Karte ' + k.nr + (u ? ', eingeschätzt: ' + u.text : '') + '">' +
+      '<b>' + k.nr + '</b>' + (u ? '<span class="mem-marke mem-' + u.id + '" aria-hidden="true">' + u.zeichen + '</span>' : '') +
+      '</a></li>';
+  }).join('') + '</ol>';
+  if (!sichtbar.length) html += '<p class="hinweis">Für diesen Filter gibt es gerade keine Karten.</p>';
+
+  html += '<details class="karte mem-regeln"><summary>So funktioniert das Memory</summary>' +
+    '<ol><li>Zu zweit, jede Person mit eigenem Gerät. Eine Person erklärt, die andere prüft.</li>' +
+    '<li>Beide tippen dieselbe Nummer an. Wer erklärt, sortiert kurz die Gedanken und startet dann die 60 Sekunden.</li>' +
+    '<li><b>Lerngegenstand:</b> frei und fachsprachlich erklären. <b>Abbildung:</b> physikalisch beschreiben.</li>' +
+    '<li>Wer prüft, hakt ab, was genannt wird, und gibt danach etwa eine Minute Feedback. Bei Zeit: die Nachfrage stellen.</li>' +
+    '<li>Wer erklärt hat, schätzt sich ein. Dann Rollen tauschen; nach zwei Runden Partner wechseln.</li></ol>' +
+    '<p class="btn-reihe"><button type="button" class="btn btn-klein" data-aktion="reset">Einschätzungen zurücksetzen</button></p></details>';
+
+  html += '</div>';
+  zeichne(html);
+}
+
+function memKartenBand(k, rolle) {
+  const vor = !rolle ? 'Karte ' + k.nr : rolle === 'pruefen' ? 'Erwartungshorizont' : (k.typ === 'abbildung' ? 'Abbildung' : 'Lerngegenstand');
+  const rechts = !rolle ? '' : '<span class="band-rolle">' + (rolle === 'pruefen' ? 'Ich prüfe' : 'Ich erkläre') +
+    '<button type="button" data-aktion="mem-rolle" data-wert="' + (rolle === 'pruefen' ? 'erklaeren' : 'pruefen') + '">wechseln</button></span>';
+  return '<header class="band band-kompakt"><div class="band-innen">' +
+    '<a class="band-zurueck" href="' + memPfad() + '" aria-label="Zurück zum Spielfeld">' + ZURUECK + '</a>' +
+    '<span class="kennung kat-neu">' + esc(String(k.nr)) + '</span>' +
+    '<div class="band-text"><p class="band-unter">' + esc(aktuell.thema.titel || '') + ' · Karte ' + esc(String(k.nr)) + '</p>' +
+    '<h1>' + (rolle ? 'Nr. ' + esc(String(k.nr)) + ' · ' : '') + esc(rolle === 'pruefen' ? k.titel : vor) + '</h1></div>' +
+    (rechts ? '<div class="band-rechts">' + rechts + '</div>' : '') + '</div></header>';
+}
+
+function memBild(k, klein) {
+  if (!k.bild) return '';
+  const src = new URL(k.bild, aktuell.ordner).href;
+  return '<figure class="mem-bild' + (klein ? ' mem-bild-klein' : '') + '"><img src="' + esc(src) + '" alt="' + esc(k.bild_alt || k.titel) + '"></figure>';
+}
+
+function ansichtMemoryKarte(nr) {
+  const { karten, sekunden } = memDaten();
+  const k = karten.find((x) => Number(x.nr) === nr);
+  if (!k) { fehlerAnsicht('Karte nicht gefunden', 'Eine Karte mit der Nummer ' + nr + ' gibt es nicht.'); return; }
+  const mz = memZustand();
+  if (!mz.rolle) {
+    zeichne(memKartenBand(k, null) +
+      '<div class="seite"><section class="karte karte-gross"><h2>Welche Rolle haben Sie bei dieser Karte?</h2>' +
+      memRolleSchalter(null) + '</section></div>');
+    return;
+  }
+  if (mz.rolle === 'pruefen') { memPruefen(k); return; }
+
+  // ----- Erklären
+  const urteil = mz.karten[k.nr];
+  const u = memUhr && memUhr.nr === k.nr ? memUhr : null;
+  const auftrag = k.typ === 'abbildung'
+    ? memBild(k) + '<p class="mem-auftrag">Beschreiben Sie die Abbildung in ' + sekunden + ' Sekunden physikalisch.</p>' +
+      '<details class="tipp"><summary>' + symbol('tipp') + 'So beschreiben Sie eine Abbildung</summary><div class="tipp-inhalt"><ol>' +
+      MEM_BESCHREIBEN.map((x) => '<li>' + esc(x) + '</li>').join('') + '</ol></div></details>'
+    : '<p class="mem-begriff">' + markdownZeile(k.titel) + '</p>' +
+      '<p class="mem-auftrag">Erklären Sie in ' + sekunden + ' Sekunden – frei und fachsprachlich.</p>';
+
+  let uhr;
+  if (!u) {
+    uhr = '<p class="mem-uhr-text">Sortieren Sie kurz Ihre Gedanken. Wenn Sie bereit sind:</p>' +
+      '<button type="button" class="btn btn-primaer btn-gross-b mem-startknopf" data-aktion="mem-start" data-wert="' + k.nr + '">Start – ' + sekunden + ' Sekunden</button>';
+  } else if (!u.fertig) {
+    uhr = memUhrHtml(u) + '<button type="button" class="btn btn-gross-b" data-aktion="mem-stop">Fertig</button>';
+  } else {
+    uhr = '<p class="mem-uhr-ende" role="status">Zeit ist um.</p>' +
+      '<button type="button" class="btn btn-klein" data-aktion="mem-start" data-wert="' + k.nr + '">Noch einmal starten</button>';
+  }
+
+  const einschaetzung = '<section class="karte mem-urteil"><h2 class="h-klein">Wie lief es?</h2>' +
+    '<p class="meta">Holen Sie sich zuerst das Feedback Ihres Gegenübers, dann schätzen Sie sich ein.</p>' +
+    '<div class="mem-urteile">' + MEM_URTEILE.map((x) =>
+      '<button type="button" class="btn mem-' + x.id + '" data-aktion="mem-urteil" data-wert="' + x.id + '" data-id="' + k.nr + '" aria-pressed="' + (urteil === x.id) + '">' +
+      '<span class="mem-marke mem-' + x.id + '" aria-hidden="true">' + x.zeichen + '</span>' + esc(x.text) + '</button>').join('') + '</div>' +
+    (urteil ? '<button type="button" class="btn btn-primaer btn-gross-b btn-voll" data-aktion="mem-tauschen" data-wert="pruefen">Rollen tauschen – jetzt prüfen Sie' + WEITER + '</button>' : '') +
+    '</section>';
+
+  zeichne(memKartenBand(k, 'erklaeren') + '<div class="seite"><div class="zweispaltig">' +
+    '<section class="karte karte-gross mem-vorne">' + auftrag + '</section>' +
+    '<aside class="seitenleiste"><section class="karte mem-uhr" id="mem-uhr">' + uhr + '</section>' + einschaetzung + '</aside>' +
+    '</div></div>');
+  if (u && !u.fertig) memUhrLaufen();
+}
+
+function memUhrHtml(u) {
+  const rest = Math.max(0, u.dauer - (Date.now() - u.start) / 1000);
+  const anteil = rest / u.dauer;
+  const umfang = 2 * Math.PI * 52;
+  return '<div class="mem-ring" aria-hidden="true"><svg viewBox="0 0 120 120"><circle class="mem-ring-grund" cx="60" cy="60" r="52"/>' +
+    '<circle class="mem-ring-wert" cx="60" cy="60" r="52" stroke-dasharray="' + umfang.toFixed(1) + '" stroke-dashoffset="' + (umfang * (1 - anteil)).toFixed(1) + '"/></svg>' +
+    '<b id="mem-sek">' + Math.ceil(rest) + '</b></div><p class="mem-uhr-text">Sekunden</p>';
+}
+
+function memUhrLaufen() {
+  memUhrStoppen();
+  const tick = () => {
+    if (!memUhr) return;
+    const ziel = document.getElementById('mem-uhr');
+    if (!ziel) { memUhrStoppen(); return; }
+    const rest = memUhr.dauer - (Date.now() - memUhr.start) / 1000;
+    if (rest <= 0) { memUhr.fertig = true; memUhrStoppen(); route(); return; }
+    const ring = ziel.querySelector('.mem-ring-wert');
+    const zahlEl = ziel.querySelector('#mem-sek');
+    if (ring) {
+      const umfang = 2 * Math.PI * 52;
+      ring.setAttribute('stroke-dashoffset', (umfang * (1 - rest / memUhr.dauer)).toFixed(1));
+    }
+    if (zahlEl) zahlEl.textContent = String(Math.ceil(rest));
+    ziel.classList.toggle('ist-knapp', rest <= 10);
+  };
+  memUhr.id = setInterval(tick, 200);
+  tick();
+}
+
+function memPruefen(k) {
+  const haken = memHaken[k.nr] || (memHaken[k.nr] = new Set());
+  const n = (k.muss || []).length;
+  const liste = '<ul class="mem-muss">' + (k.muss || []).map((m, i) =>
+    '<li><button type="button" class="mem-haken" data-aktion="mem-haken" data-id="' + k.nr + '" data-wert="' + i + '" aria-pressed="' + haken.has(i) + '">' +
+    '<span class="mem-kasten" aria-hidden="true"></span><span>' + markdownZeile(m) + '</span></button></li>').join('') + '</ul>';
+
+  const html = memKartenBand(k, 'pruefen') + '<div class="seite"><div class="zweispaltig">' +
+    '<section class="karte karte-gross mem-hinten">' +
+    '<p class="meta">Ihr Gegenüber sieht ' + (k.typ === 'abbildung' ? 'die Abbildung rechts' : 'den Lerngegenstand') +
+    ' und startet die Zeit auf dem eigenen Gerät. Haken Sie ab, was genannt wird.</p>' +
+    '<h2 class="h-klein">Muss rein <span class="mem-zaehler" id="mem-zaehler">' + haken.size + ' von ' + n + '</span></h2>' + liste +
+    '<details class="tipp"><summary>' + symbol('tipp') + 'Nachfrage stellen</summary><div class="tipp-inhalt">' +
+    '<p>' + markdownZeile(k.nachfrage || '') + '</p>' +
+    (k.antwort ? '<p class="mem-antwort"><b>Erwartet:</b> ' + markdownZeile(k.antwort) + '</p>' : '') + '</div></details>' +
+    '</section><aside class="seitenleiste">' +
+    (k.typ === 'abbildung' ? '<section class="karte">' + memBild(k, true) + '</section>' : '') +
+    '<section class="karte"><h2 class="h-klein">Feedback geben</h2><ul class="mem-feedback">' +
+    '<li><b>Vollständig?</b> Wie viele Punkte kamen?</li><li><b>Fachsprache?</b> Begriffe korrekt?</li>' +
+    '<li><b>Struktur?</b> Roter Faden, frei gesprochen?</li><li><b>Zeit?</b> 60 Sekunden genutzt?</li></ul>' +
+    '<p class="meta">Je ein Top und ein Tipp.</p></section>' +
+    '<button type="button" class="btn btn-primaer btn-gross-b btn-voll" data-aktion="mem-tauschen" data-wert="erklaeren">Rollen tauschen – jetzt erklären Sie' + WEITER + '</button>' +
+    '</aside></div></div>';
+  zeichne(html);
+}
+
+/** Klicks im Memory. Liefert true, wenn die Aktion erledigt wurde. */
+function memAktion(aktion, el) {
+  if (!aktion.startsWith('mem-')) return false;
+  const mz = memZustand();
+  if (aktion === 'mem-rolle') {
+    mz.rolle = el.dataset.wert === 'pruefen' ? 'pruefen' : 'erklaeren';
+    speichereZustand(); memUhrStoppen(); memUhr = null; route();
+  } else if (aktion === 'mem-filter') {
+    memFilter = el.dataset.wert || 'alle'; route();
+  } else if (aktion === 'mem-start') {
+    memUhr = { nr: Number(el.dataset.wert), start: Date.now(), dauer: memDaten().sekunden, id: null, fertig: false };
+    route();
+  } else if (aktion === 'mem-stop') {
+    if (memUhr) { memUhr.fertig = true; memUhrStoppen(); }
+    route();
+  } else if (aktion === 'mem-urteil') {
+    mz.karten[el.dataset.id] = el.dataset.wert;
+    speichereZustand(); route();
+  } else if (aktion === 'mem-haken') {
+    const set = memHaken[el.dataset.id] || (memHaken[el.dataset.id] = new Set());
+    const i = Number(el.dataset.wert);
+    if (set.has(i)) set.delete(i); else set.add(i);
+    el.setAttribute('aria-pressed', String(set.has(i)));
+    const z = document.getElementById('mem-zaehler');
+    if (z) z.textContent = set.size + ' von ' + el.closest('.mem-muss').children.length;
+  } else if (aktion === 'mem-tauschen') {
+    mz.rolle = el.dataset.wert === 'pruefen' ? 'pruefen' : 'erklaeren';
+    speichereZustand();
+    memUhrStoppen(); memUhr = null;
+    for (const key of Object.keys(memHaken)) delete memHaken[key];
+    location.hash = memPfad();
+  }
+  return true;
+}
+
 /* ---------- Ereignisse ---------- */
 
 function aktionenVerdrahten() {
@@ -1718,6 +1991,8 @@ function aktionenVerdrahten() {
     if (!el) return;
     const aktion = el.dataset.aktion;
     const id = el.dataset.id;
+
+    if (memAktion(aktion, el)) return;
 
     if (aktion === 'bearbeitet') {
       const z = aktuell.zustand;
@@ -1911,6 +2186,8 @@ async function route() {
     if (!stufe || !thema) { ansichtStart(); return; }
 
     await themaLaden(stufe, thema);
+
+    if (aktuell.thema.modus === 'memory') { memRoute(unter, wert); return; }
 
     if (unter === 'diagnose') ansichtDiagnose();
     else if (unter === 'auswertung') ansichtAuswertung();
