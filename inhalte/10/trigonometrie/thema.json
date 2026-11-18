@@ -1,0 +1,979 @@
+{
+  "version": 1,
+  "titel": "Trigonometrie – Training vor der Klassenarbeit",
+  "fach": "mathe",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind arbeitsrelevant. Bist du bei Pythagoras, der Innenwinkelsumme, ähnlichen Dreiecken oder beim Umformen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt Pythagoras, Winkelsumme und Umformen auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 und N2 (Einheitskreis), V2 nach N3 und N4 (rechtwinklige Dreiecke), V3 nach N5 bis N8 (beliebige Dreiecke). Im Training schaffst du nicht alles – den Rest kannst du zu Hause bearbeiten. Taschenrechner (Gradmodus D) und Geodreieck sind erlaubt, außer im Tandem N6 (ohne Taschenrechner). Dein Regelheft mit den Checklists darfst du benutzen.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Im rechtwinkligen Dreieck Katheten und Hypotenuse benennen"
+    },
+    {
+      "id": "g2",
+      "text": "Den Satz des Pythagoras formulieren und fehlende Seitenlängen in rechtwinkligen Dreiecken berechnen"
+    },
+    {
+      "id": "g3",
+      "text": "Die Innenwinkelsumme im Dreieck und im Viereck nutzen"
+    },
+    {
+      "id": "g4",
+      "text": "Ähnliche Dreiecke erkennen: gleiche Winkel und gleiche Seitenverhältnisse"
+    },
+    {
+      "id": "g5",
+      "text": "Gleichungen mit Brüchen umformen – auch wenn x im Nenner steht"
+    },
+    {
+      "id": "c2",
+      "text": "Den Einheitskreis beschreiben und Sinus und Kosinus am Einheitskreis erläutern"
+    },
+    {
+      "id": "c3",
+      "text": "Wichtige Werte für Sinus und Kosinus (0°, 45°, 90°, 135°, 180°) benennen und Werte mit dem Taschenrechner bestimmen"
+    },
+    {
+      "id": "c4",
+      "text": "Gegenkathete, Ankathete und Hypotenuse zu einem Winkel benennen und Sinus, Kosinus und Tangens als Seitenverhältnisse aufstellen"
+    },
+    {
+      "id": "c5",
+      "text": "Seitenlängen im rechtwinkligen Dreieck mit Sinus, Kosinus und Tangens berechnen"
+    },
+    {
+      "id": "c6",
+      "text": "Winkel im rechtwinkligen Dreieck mit arcsin, arccos und arctan berechnen"
+    },
+    {
+      "id": "c7",
+      "text": "Mit dem Sinussatz Seiten und Winkel in beliebigen Dreiecken berechnen"
+    },
+    {
+      "id": "c8",
+      "text": "Mit dem Kosinussatz Seiten und Winkel in beliebigen Dreiecken berechnen"
+    },
+    {
+      "id": "c9",
+      "text": "Entscheiden, welcher Lösungsansatz passt (Pythagoras, Innenwinkelsumme, sin/cos/tan, Arcus, Sinussatz, Kosinussatz)"
+    },
+    {
+      "id": "c10",
+      "text": "Sachprobleme mit Trigonometrie modellieren (Höhen-, Tiefen- und Neigungswinkel, Teildreiecke in Figuren) und das Ergebnis beurteilen"
+    },
+    {
+      "id": "c11",
+      "text": "Winkel im Grad- und im Bogenmaß darstellen",
+      "spaeter": true
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 8 und 9",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Einheitskreis und Seitenverhältnisse",
+      "untertitel": "Sinus, Kosinus, Tangens, wichtige Werte",
+      "farbe": "blau",
+      "checkliste": [
+        "c2",
+        "c3",
+        "c4"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Rechtwinklige Dreiecke",
+      "untertitel": "Seiten und Winkel berechnen",
+      "farbe": "orange",
+      "checkliste": [
+        "c5",
+        "c6"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Beliebige Dreiecke",
+      "untertitel": "Sinussatz, Kosinussatz, Anwenden",
+      "farbe": "gruen",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11"
+      ]
+    }
+  ],
+  "abschluss": "Klassenarbeit",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit mit Taschenrechner, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 5 gehören zu den Grundlagen g1 bis g5 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2. Zu Block 4 (ähnliche Dreiecke) hilft die Lerntheke Ähnlichkeit.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Hypotenuse liegt dem rechten Winkel gegenüber: $q$ (die Strecke $\\overline{PR}$). Die Katheten sind die beiden Seiten am rechten Winkel: $p$ und $r$ (0,5 P Hypotenuse, 0,5 P Katheten).\n\n*Unsicher?* → **G2** Aufgabe 1"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nach dem Satz des Thales hat jedes Dreieck, dessen Ecke $C$ auf dem Halbkreis über $\\overline{AB}$ liegt, bei $C$ einen rechten Winkel (0,5 P). Die Hypotenuse liegt $C$ gegenüber: $c$, also der Durchmesser $\\overline{AB}$ (0,5 P)."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Aussage stimmt nur, wenn der rechte Winkel bei $C$ liegt, also $c$ die Hypotenuse ist. Allgemein gilt: In einem rechtwinkligen Dreieck ist die Summe der Quadrate der beiden Katheten gleich dem Quadrat der Hypotenuse (1 P). Im Dreieck $PQR$ aus Aufgabe 1 heißt der Satz $p^2 + r^2 = q^2$.\n\n*Unsicher?* → **G2** Aufgabe 5"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- (1) $\\sqrt{3{,}6^2 + 4{,}8^2}\\,\\mathrm{cm} = \\sqrt{36}\\,\\mathrm{cm} = 6{,}0\\,\\mathrm{cm}$ (1 P)\n- (2) $\\sqrt{10{,}4^2 - 9{,}6^2}\\,\\mathrm{cm} = \\sqrt{16}\\,\\mathrm{cm} = 4{,}0\\,\\mathrm{cm}$ (1 P)\n\nIst eine Kathete gesucht, wird subtrahiert. *Fehler?* → **G2** Aufgabe 2"
+        },
+        {
+          "id": "G1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Wäre das Dreieck rechtwinklig, läge der rechte Winkel der längsten Seite (9 cm) gegenüber, und es müsste $5^2 + 7^2 = 9^2$ gelten. Es ist aber $5^2 + 7^2 = 74$ und $9^2 = 81$. Das Dreieck ist nicht rechtwinklig (1 P)."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Innenwinkelsumme im Dreieck beträgt 180° (je 0,5 P).\n\n- (1) $180° - 90° - 38° = 52°$\n- (2) Die beiden Basiswinkel sind gleich groß: $(180° - 40°) : 2 = 70°$\n\n*Fehler?* → **G2** Aufgabe 3"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 0.5,
+          "afb": "I",
+          "loesung": "Die Innenwinkelsumme im Viereck beträgt 360°: $360° - 95° - 80° - 110° = 75°$ (0,5 P)."
+        },
+        {
+          "id": "G1-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die beiden spitzen Winkel ergeben zusammen $180° - 90° = 90°$. Mit $\\beta$ und $\\alpha = 2\\beta$ gilt $3\\beta = 90°$, also $\\beta = 30°$ und $\\alpha = 60°$ (1 P)."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Streckfaktor $k = \\frac{7{,}5}{3} = 2{,}5$. Die anderen Seiten sind $4\\,\\mathrm{cm} \\cdot 2{,}5 = 10\\,\\mathrm{cm}$ und $5\\,\\mathrm{cm} \\cdot 2{,}5 = 12{,}5\\,\\mathrm{cm}$ lang (je 0,5 P)."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "In $D_1$ ist $\\frac{3}{5} = 0{,}6$, in $D_2$ ist $\\frac{7{,}5}{12{,}5} = 0{,}6$. In ähnlichen Dreiecken sind die Verhältnisse entsprechender Seiten gleich (1 P)."
+        },
+        {
+          "id": "G1-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "In beiden Dreiecken ist der dritte Winkel $180° - 90° - 25° = 65°$. Die Dreiecke stimmen in allen Winkeln überein und sind deshalb nach dem Ähnlichkeitssatz (1) (gleiche Winkel) ähnlich (1 P).\n\nDas brauchst du in N3 Aufgabe 4 wieder. Ähnlichkeit wiederholen: Lerntheke Ähnlichkeit, Station N3 „Ähnliche Figuren und Dreiecke“."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- (1) $\\frac{x}{8} = 0{,}35 \\quad | \\cdot 8 \\qquad x = 2{,}8$ (0,5 P)\n- (2) $\\frac{4{,}5}{x} = 0{,}9 \\quad | \\cdot x \\qquad 4{,}5 = 0{,}9 \\cdot x \\quad | : 0{,}9 \\qquad x = 5$ (0,5 P)\n\nSteht $x$ im Nenner, zuerst mit $x$ multiplizieren. *Fehler?* → **G2** Aufgabe 4"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x^2 = 2{,}5^2 - 1{,}5^2 = 6{,}25 - 2{,}25 = 4$, also $x = 2$ (positive Lösung) (1 P)."
+        },
+        {
+          "id": "G1-5c",
+          "label": "5c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$\\frac{6}{x + 2} = 0{,}8 \\quad | \\cdot (x + 2)$$\n\n$$6 = 0{,}8 \\cdot (x + 2) \\quad | : 0{,}8$$\n\n$$7{,}5 = x + 2 \\quad | - 2 \\qquad x = 5{,}5$$\n\n(1 P) So stellst du in N3 und N4 um, wenn die gesuchte Länge im Nenner steht."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Pythagoras, Winkelsumme, Umformen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "g2",
+        "g1",
+        "g3",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, 15 Minuten. Frischt Hypotenuse, Pythagoras, Winkelsumme und Umformen auf – passend zu den Blöcken 1, 2, 3 und 5 des Check-ins G1.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Pythagoras_Winkelsumme_Umformen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Hypotenuse liegt dem rechten Winkel gegenüber und ist die längste Seite (je 0,5 P).\n\n- a) rechter Winkel bei $V$: Hypotenuse $v$ (die Strecke $\\overline{UW}$)\n- b) rechter Winkel bei $Z$: Hypotenuse $z$ (die Strecke $\\overline{XY}$)"
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$c = \\sqrt{2{,}4^2 + 3{,}2^2}\\,\\mathrm{m} = \\sqrt{16}\\,\\mathrm{m} = 4{,}0\\,\\mathrm{m}$$"
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$b = \\sqrt{6{,}5^2 - 2{,}5^2}\\,\\mathrm{cm} = \\sqrt{36}\\,\\mathrm{cm} = 6{,}0\\,\\mathrm{cm}$$\n\nBei einer gesuchten Kathete wird subtrahiert."
+        },
+        {
+          "id": "G2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Innenwinkelsumme im Dreieck beträgt 180° (je 0,5 P).\n\n- (1) $180° - 90° - 27° = 63°$\n- (2) $180° - 2 \\cdot 52° = 76°$"
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- (1) $0{,}6 = \\frac{x}{12} \\quad | \\cdot 12 \\qquad x = 7{,}2$\n- (2) $0{,}6 = \\frac{4{,}2}{x} \\quad | \\cdot x \\qquad 0{,}6 \\cdot x = 4{,}2 \\quad | : 0{,}6 \\qquad x = 7$\n\nSteht $x$ im Nenner, zuerst mit $x$ multiplizieren (je 0,5 P)."
+        },
+        {
+          "id": "G2-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Aussage ist falsch. Der Satz des Pythagoras gilt nur in rechtwinkligen Dreiecken (1 P).\n\nGegenbeispiel: In einem gleichseitigen Dreieck mit 3 cm Seitenlänge ergäbe „Pythagoras“ $\\sqrt{3^2 + 3^2}\\,\\mathrm{cm} \\approx 4{,}24\\,\\mathrm{cm}$ statt 3 cm (1 P).\n\nOhne rechten Winkel braucht man außer zwei Seiten noch den Winkel dazwischen und dann den Kosinussatz."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Einheitskreis und Seitenverhältnisse",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner (Aufgabe 2 ohne)",
+      "checkliste": [
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 15 Minuten. Aufgabe 2 ohne Taschenrechner. Am Einheitskreis ist die $x$-Koordinate der Kosinus und die $y$-Koordinate der Sinus.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Einheitskreis_Seitenverhaeltnisse.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Am Gitter ablesen: $P(0{,}64 \\mid 0{,}77)$\n\nWerte zwischen 0,62 und 0,66 bzw. 0,75 und 0,79 sind richtig."
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Fällt man von $P$ das Lot auf die $x$-Achse, entsteht ein rechtwinkliges Dreieck. Seine Hypotenuse ist der Radius, also 1 lang.\n\n- Die $x$-Koordinate ist die Ankathete von 50°: $\\cos(50°) = \\frac{x}{1} = x$\n- Die $y$-Koordinate ist die Gegenkathete von 50°: $\\sin(50°) = \\frac{y}{1} = y$\n\nKontrolle mit dem Taschenrechner: $\\cos(50°) \\approx 0{,}643$, $\\sin(50°) \\approx 0{,}766$.\n\n*Unsicher?* → **N2**"
+        },
+        {
+          "id": "N1-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Radius zu $Q$ bildet mit der negativen $x$-Achse den Winkel $180° - 130° = 50°$. $Q$ ist also das Spiegelbild von $P$ an der $y$-Achse: $Q(-0{,}64 \\mid 0{,}77)$.\n\n- $P$ und $Q$ liegen gleich hoch, deshalb ist $\\sin(130°) = \\sin(50°) \\approx 0{,}77$ (1 P).\n- $Q$ liegt genauso weit links von der $y$-Achse wie $P$ rechts davon, deshalb ist $\\cos(130°) = -\\cos(50°) \\approx -0{,}64$ (1 P).\n\nAllgemein für jeden Winkel → **N2** Aufgabe 2"
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Am Einheitskreis ablesen (je 0,5 P):\n\n| Winkel | Punkt am Einheitskreis | gesuchter Wert |\n|---|---|---|\n| 0° | $(1 \\mid 0)$ | $\\sin(0°) = 0$ |\n| 90° | $(0 \\mid 1)$ | $\\cos(90°) = 0$ |\n| 45° | $x$ und $y$ gleich groß | $\\sin(45°) = \\frac{1}{2}\\sqrt{2} \\approx 0{,}71$ |\n| 180° | $(-1 \\mid 0)$ | $\\cos(180°) = -1$ |\n\nZu 45°: Der Punkt liegt auf der Winkelhalbierenden, also $x = y$. Mit dem Satz des Pythagoras im Einheitskreis gilt $x^2 + y^2 = 1$, also $2y^2 = 1$ und $y = \\sqrt{\\frac{1}{2}} = \\frac{1}{2}\\sqrt{2} \\approx 0{,}71$. Den Wert findest du auch in deinem Regelheft (Tabelle der wichtigen Werte).\n\n*Fehler dabei?* → **N2** und Tandem **N6** Nummern 3 und 4"
+        },
+        {
+          "id": "N1-3",
+          "label": "3",
+          "punkte": 1.5,
+          "afb": "I",
+          "loesung": "Die Hypotenuse liegt dem rechten Winkel gegenüber: $t$. Gegenkathete von $\\rho$ ist $r$, Ankathete von $\\rho$ ist $s$.\n\n$$\\sin\\rho = \\frac{r}{t} \\qquad \\cos\\rho = \\frac{s}{t} \\qquad \\tan\\rho = \\frac{r}{s}$$\n\nJe 0,5 P. *Seiten verwechselt?* → **G2** Aufgabe 1 und Tandem **N6** Nummern 1 und 2"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Einheitskreis genauer",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Geodreieck",
+      "checkliste": [
+        "c2",
+        "c3",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, mit Geodreieck. Sinus und Kosinus am Einheitskreis genauer verstehen. Aufgabe 5 braucht den Sinussatz – bearbeite sie nach N5.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Einheitskreis.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Winkel von der positiven $x$-Achse aus abtragen, Schnittpunkt mit dem Kreis markieren, Koordinaten ablesen (1 P Zeichnung, 1 P Werte; Abweichung bis 0,03 ist in Ordnung):\n\n| Winkel | Kosinus ($x$-Koordinate) | Sinus ($y$-Koordinate) |\n|---|---|---|\n| 20° | $\\approx 0{,}94$ | $\\approx 0{,}34$ |\n| 110° | $\\approx -0{,}34$ | $\\approx 0{,}94$ |",
+          "loesung_bild": "img/N2-1.png"
+        },
+        {
+          "id": "N2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Punkt $Q$ zum Winkel $180° - \\alpha$ bildet mit der **negativen** $x$-Achse den Winkel $\\alpha$. Er ist das Spiegelbild des Punktes $P$ zu $\\alpha$ an der $y$-Achse (wie in N1 bei 50° und 130°).\n\n- Gleiche Höhe: gleiche $y$-Koordinate, also $\\sin(180° - \\alpha) = \\sin(\\alpha)$ (1 P)\n- Gespiegelte $x$-Koordinate, also $\\cos(180° - \\alpha) = -\\cos(\\alpha)$ (1 P)\n\nBeispiel aus Aufgabe 1: $\\sin(110°) = \\sin(70°) \\approx 0{,}94$."
+        },
+        {
+          "id": "N2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- (1) Die $x$-Koordinate ist negativ, der Punkt liegt links von der $y$-Achse: $90° < \\alpha \\le 180°$ (1 P).\n- (2) Die $y$-Koordinate ist 0, der Punkt liegt auf der $x$-Achse: $\\alpha = 0°$ und $\\alpha = 180°$ (1 P)."
+        },
+        {
+          "id": "N2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der Punkt zum Winkel $\\alpha$ ist $P(\\cos\\alpha \\mid \\sin\\alpha)$. Das Lot von $P$ auf die $x$-Achse ergibt ein rechtwinkliges Dreieck mit den Katheten $\\cos\\alpha$ und $\\sin\\alpha$ (bzw. deren Beträgen) und der Hypotenuse 1, dem Radius (1 P).\n\nSatz des Pythagoras: $(\\cos\\alpha)^2 + (\\sin\\alpha)^2 = 1^2 = 1$. Durch das Quadrieren spielt das Vorzeichen keine Rolle (1 P).\n\nBei 0°, 90° und 180° gibt es kein solches Dreieck. Dort gilt direkt $1^2 + 0^2 = 1$.\n\nKontrolle mit Aufgabe 1: $0{,}94^2 + 0{,}34^2 \\approx 1{,}00$"
+        },
+        {
+          "id": "N2-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Auf dem oberen Halbkreis gibt es zwei Punkte mit der $y$-Koordinate 0,8. Diese Punkte liegen spiegelbildlich zur $y$-Achse: $53{,}1°$ und $180° - 53{,}1° = 126{,}9°$. Der Taschenrechner gibt nur den spitzen Winkel an (1 P).\n\nMit $\\alpha = 70°$ wäre $70° + 126{,}9° = 196{,}9° > 180°$. Das ist unmöglich, also passt nur $\\beta \\approx 53{,}1°$ (1 P).\n\nRegelheft: Der Sinussatz liefert den Sinuswert, aber nicht, ob der Winkel spitz oder stumpf ist."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Seiten und Winkel im rechtwinkligen Dreieck",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c10"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, mit Taschenrechner im Gradmodus. Nutze die Checklist aus deinem Regelheft: Seiten benennen, passende Gleichung wählen, umformen.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Rechtwinklige_Dreiecke.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Gegeben: $\\alpha = 34°$ und die Hypotenuse $c = 8{,}5\\,\\mathrm{cm}$. $a$ ist die Gegenkathete, $b$ die Ankathete von $\\alpha$.\n\n$$\\sin(34°) = \\frac{a}{8{,}5\\,\\mathrm{cm}} \\quad\\Rightarrow\\quad a = 8{,}5\\,\\mathrm{cm} \\cdot \\sin(34°) \\approx 4{,}75\\,\\mathrm{cm}$$\n\n$$\\cos(34°) = \\frac{b}{8{,}5\\,\\mathrm{cm}} \\quad\\Rightarrow\\quad b = 8{,}5\\,\\mathrm{cm} \\cdot \\cos(34°) \\approx 7{,}05\\,\\mathrm{cm}$$\n\nProbe mit Pythagoras: $4{,}75^2 + 7{,}05^2 \\approx 72{,}3 \\approx 8{,}5^2 = 72{,}25$\n\n*sin und cos vertauscht?* → **N7** Aufgabe 1"
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Gegeben sind beide Katheten. Für $\\alpha$ ist $a$ die Gegenkathete und $b$ die Ankathete, also passt der Tangens:\n\n$$\\tan\\alpha = \\frac{4{,}8}{6{,}3} \\quad\\Rightarrow\\quad \\alpha = \\arctan\\left(\\frac{4{,}8}{6{,}3}\\right) \\approx 37{,}3°$$\n\nInnenwinkelsumme: $\\beta = 180° - 90° - 37{,}3° = 52{,}7°$ (oder $\\beta = \\arctan\\left(\\frac{6{,}3}{4{,}8}\\right) \\approx 52{,}7°$).\n\n*Taschenrechner zeigt einen sehr kleinen Winkel?* Prüfe den Gradmodus → **N7** Aufgabe 3"
+        },
+        {
+          "id": "N3-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$x$ ist die Hypotenuse, 5,6 cm ist die Gegenkathete von 38°:\n\n$$\\sin(38°) = \\frac{5{,}6\\,\\mathrm{cm}}{x} \\quad | \\cdot x$$\n\n$$x \\cdot \\sin(38°) = 5{,}6\\,\\mathrm{cm} \\quad | : \\sin(38°)$$\n\n$$x = \\frac{5{,}6\\,\\mathrm{cm}}{\\sin(38°)} \\approx 9{,}10\\,\\mathrm{cm}$$\n\nProbe: Die Hypotenuse ist länger als die Kathete. *Ergebnis kleiner als 5,6 cm?* → **N7** Aufgabe 2"
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Modul, Stütze und Dach bilden ein rechtwinkliges Dreieck. Das Modul ist die Hypotenuse, die Stütze die Gegenkathete und die Tiefe die Ankathete von 25°.\n\n$$h = 1{,}72\\,\\mathrm{m} \\cdot \\sin(25°) \\approx 0{,}73\\,\\mathrm{m}$$\n\n$$t = 1{,}72\\,\\mathrm{m} \\cdot \\cos(25°) \\approx 1{,}56\\,\\mathrm{m}$$\n\nDie Stütze ist etwa 73 cm hoch, das Modul braucht etwa 1,56 m Tiefe (je 1 P).\n\n*Schwierigkeiten mit Sachsituationen?* → **N4**"
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Zwei rechtwinklige Dreiecke mit einem 34°-Winkel stimmen in allen drei Winkeln überein (90°, 34° und 56°). Nach dem Ähnlichkeitssatz (1) (gleiche Winkel) sind sie deshalb ähnlich (1 P).\n\nIn ähnlichen Dreiecken sind die Verhältnisse entsprechender Seiten gleich, also auch Gegenkathete durch Hypotenuse. Darum hängt $\\sin(34°) \\approx 0{,}559$ nur vom Winkel ab und nicht von der Größe des Dreiecks (1 P). Nur deshalb kann der Taschenrechner den Wert ohne Dreieck angeben."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Modellieren: Höhen und Entfernungen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c10"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, mit Taschenrechner. Hier modellierst du: Skizze machen, rechtwinkliges Dreieck finden, rechnen, Ergebnis beurteilen.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Modellieren.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Ausleger als Hypotenuse, Neigungswinkel 65°:\n\n$$24\\,\\mathrm{m} \\cdot \\sin(65°) \\approx 21{,}75\\,\\mathrm{m} \\quad\\Rightarrow\\quad 21{,}75\\,\\mathrm{m} + 2{,}5\\,\\mathrm{m} = 24{,}25\\,\\mathrm{m}$$\n\n$$24\\,\\mathrm{m} \\cdot \\cos(65°) \\approx 10{,}14\\,\\mathrm{m}$$\n\nDie Spitze ist etwa 24,25 m hoch und waagerecht etwa 10,14 m vom Drehpunkt entfernt (je 1 P)."
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Höhe über dem Drehpunkt: $20\\,\\mathrm{m} - 2{,}5\\,\\mathrm{m} = 17{,}5\\,\\mathrm{m}$ (1 P)\n\n$$\\sin(\\delta) = \\frac{17{,}5}{24} \\quad\\Rightarrow\\quad \\delta = \\arcsin\\left(\\frac{17{,}5}{24}\\right) \\approx 46{,}8°$$\n\n*56,4° erhalten?* Die 2,5 m bis zum Drehpunkt wurden nicht abgezogen."
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In der Skizze liegt die Waagerechte $e$ in Augenhöhe. Unterhalb davon entsteht ein rechtwinkliges Dreieck: 28 m ist die Gegenkathete, $e$ die Ankathete des Tiefenwinkels (1 P Skizze).\n\n$$\\tan(35°) = \\frac{28\\,\\mathrm{m}}{e} \\quad\\Rightarrow\\quad e = \\frac{28\\,\\mathrm{m}}{\\tan(35°)} \\approx 39{,}99\\,\\mathrm{m}$$\n\nDer Abstand beträgt also rund 40 m.",
+          "loesung_bild": "img/N4-2a.png"
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Oberhalb der Augenhöhe: $\\tan(12°) = \\frac{x}{e}$, also\n\n$$x = 39{,}99\\,\\mathrm{m} \\cdot \\tan(12°) \\approx 8{,}50\\,\\mathrm{m}$$\n\nHöhe: $28\\,\\mathrm{m} + 8{,}50\\,\\mathrm{m} = 36{,}50\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N4-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Mit 34° statt 35°: $\\frac{28\\,\\mathrm{m}}{\\tan(34°)} \\approx 41{,}51\\,\\mathrm{m}$, mit 36°: $\\frac{28\\,\\mathrm{m}}{\\tan(36°)} \\approx 38{,}54\\,\\mathrm{m}$. Der Abstand kann also um etwa ±1,5 m (rund 4 %) abweichen (1 P).\n\n„39,99 m“ täuscht eine Genauigkeit auf 1 cm vor. Sinnvoll ist „etwa 40 m“ bzw. „zwischen 38,5 und 41,5 m“ (1 P). Auch die Augenhöhe ist nur ungefähr bekannt."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Sinussatz und Kosinussatz",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c7",
+        "c8"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten. Erst überlegen, welcher Ansatz passt: rechtwinklig → sin/cos/tan; Paar aus Seite und Gegenwinkel bekannt → Sinussatz; sonst Kosinussatz.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Sinussatz_Kosinussatz.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- Dreieck 1 ist rechtwinklig. 5 cm ist die Ankathete von 40°, $x$ die Hypotenuse: **Kosinus**, $\\cos(40°) = \\frac{5\\,\\mathrm{cm}}{x}$ (0,5 P).\n- Dreieck 2 hat keinen rechten Winkel. Gegeben sind zwei Winkel und eine Seite: Mit der Innenwinkelsumme ist $\\gamma = 70°$, dann **Sinussatz** $\\frac{x}{7\\,\\mathrm{cm}} = \\frac{\\sin(50°)}{\\sin(70°)}$ (0,5 P).\n\n*Unsicher bei der Wahl?* → Tandem **N6** Nummern 7 und 8"
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "- Dreieck 3: zwei Seiten und der eingeschlossene Winkel, die dritte Seite ist gesucht: **Kosinussatz**, $x^2 = 4^2 + 6^2 - 2 \\cdot 4 \\cdot 6 \\cdot \\cos(35°)$ (0,5 P).\n- Dreieck 4: drei Seiten, ein Winkel ist gesucht. Ein rechter Winkel ist nicht markiert (und $4^2 + 6^2 = 52 \\neq 8^2$), also kein sin/cos/tan. Der Sinussatz geht auch nicht, denn es ist kein Paar aus Seite und Gegenwinkel bekannt. **Kosinussatz**, nach dem Winkel umgestellt: $\\cos(\\gamma) = \\frac{4^2 + 6^2 - 8^2}{2 \\cdot 4 \\cdot 6}$ (0,5 P).\n\nErgänze in deinem Entscheidungsbaum: drei Seiten gegeben → Kosinussatz."
+        },
+        {
+          "id": "N5-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Das Paar $a$ und $\\alpha$ ist bekannt, $b$ liegt $\\beta$ gegenüber. Sinussatz:\n\n$$\\frac{b}{a} = \\frac{\\sin(\\beta)}{\\sin(\\alpha)} \\quad\\Rightarrow\\quad b = 6{,}4\\,\\mathrm{cm} \\cdot \\frac{\\sin(41°)}{\\sin(72°)} \\approx 4{,}41\\,\\mathrm{cm}$$\n\nProbe: $\\beta$ ist kleiner als $\\alpha$, also ist $b$ kürzer als $a$.\n\n*Andere Zahl erhalten?* Seiten und Gegenwinkel vertauscht? → **N7** Aufgabe 5"
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Zwei Seiten und der eingeschlossene Winkel sind bekannt, das Achterliek $x$ liegt dem Winkel am Hals gegenüber. Kosinussatz:\n\n$$x^2 = 4{,}20^2 + 1{,}90^2 - 2 \\cdot 4{,}20 \\cdot 1{,}90 \\cdot \\cos(78°) \\approx 17{,}93$$\n\n$$x \\approx 4{,}23\\,\\mathrm{m}$$\n\nErgebnis $x^2 \\approx 1{,}10$ erhalten? Punkt vor Strich beachten → **N7** Aufgabe 4"
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Jetzt sind alle drei Seiten bekannt. $\\varphi$ liegt dem Unterliek (1,90 m) gegenüber. Kosinussatz, nach dem Winkel umgestellt, mit dem ungerundeten Achterliek $x \\approx 4{,}2346$ (Taste Ans):\n\n$$\\cos(\\varphi) = \\frac{4{,}20^2 + x^2 - 1{,}90^2}{2 \\cdot 4{,}20 \\cdot x} \\approx 0{,}899$$\n\n$$\\varphi = \\arccos(0{,}899) \\approx 26{,}0°$$\n\nMit dem gerundeten Wert 4,23 m erhältst du $\\cos(\\varphi) \\approx 0{,}898$ und ebenfalls $\\varphi \\approx 26{,}0°$ – auch richtig.\n\nAuch der Sinussatz geht hier, weil das Paar Achterliek und 78° bekannt ist: $\\sin(\\varphi) = \\frac{1{,}90 \\cdot \\sin(78°)}{x} \\approx 0{,}439$, $\\varphi \\approx 26{,}0°$ (spitz, denn das Unterliek ist die kürzeste Seite).\n\nKosinussatz für Winkel üben → **N8** Aufgabe 1b"
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Tandem: Verhältnisse, Werte, Ansätze",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c4",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert.",
+      "bild": "img/st_N6.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N6-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Im Dreieck $ABC$ liegt der rechte Winkel bei $C$. Die Seite $a$ liegt $A$ gegenüber, $b$ liegt $B$ gegenüber, $c$ liegt $C$ gegenüber. Gib $\\sin\\alpha$ als Verhältnis von zwei Seiten an.",
+          "tipp": "Sinus = Gegenkathete durch Hypotenuse. Die Hypotenuse liegt dem rechten Winkel gegenüber.",
+          "loesung": "Hypotenuse $c$, Gegenkathete von $\\alpha$ ist $a$:\n\n$$\\sin\\alpha = \\frac{a}{c}$$"
+        },
+        {
+          "id": "N6-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Im Dreieck $KLM$ liegt der rechte Winkel bei $M$, der Winkel $\\kappa$ bei $K$. Die Seite $k$ liegt $K$ gegenüber, $l$ liegt $L$ gegenüber, $m$ liegt $M$ gegenüber. Gib $\\tan\\kappa$ als Verhältnis von zwei Seiten an.",
+          "tipp": "Tangens = Gegenkathete durch Ankathete. Die Hypotenuse $m$ kommt nicht vor.",
+          "loesung": "Gegenkathete von $\\kappa$ ist $k$, Ankathete ist $l$:\n\n$$\\tan\\kappa = \\frac{k}{l}$$"
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Gib $\\sin(90°)$ und $\\cos(0°)$ an.",
+          "tipp": "Einheitskreis: Bei 90° liegt der Punkt bei $(0 \\mid 1)$, bei 0° bei $(1 \\mid 0)$. Der Sinus ist die $y$-, der Kosinus die $x$-Koordinate.",
+          "loesung": "$\\sin(90°) = 1$ ($y$-Koordinate von $(0 \\mid 1)$) und $\\cos(0°) = 1$ ($x$-Koordinate von $(1 \\mid 0)$)"
+        },
+        {
+          "id": "N6-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Gib $\\cos(180°)$ und $\\sin(0°)$ an.",
+          "tipp": "Einheitskreis: Bei 180° liegt der Punkt bei $(-1 \\mid 0)$, bei 0° bei $(1 \\mid 0)$. Der Sinus ist die $y$-, der Kosinus die $x$-Koordinate.",
+          "loesung": "$\\cos(180°) = -1$ ($x$-Koordinate von $(-1 \\mid 0)$) und $\\sin(0°) = 0$ ($y$-Koordinate von $(1 \\mid 0)$)"
+        },
+        {
+          "id": "N6-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "In einem rechtwinkligen Dreieck ist die Hypotenuse 10 cm lang. Für den Winkel $\\alpha$ gilt $\\sin\\alpha = 0{,}6$. Berechne die Gegenkathete von $\\alpha$.",
+          "tipp": "Setze in $\\sin\\alpha = \\frac{\\text{Gegenkathete}}{\\text{Hypotenuse}}$ ein und multipliziere mit 10 cm.",
+          "loesung": "$$0{,}6 = \\frac{x}{10\\,\\mathrm{cm}} \\quad | \\cdot 10\\,\\mathrm{cm}$$\n\n$$x = 0{,}6 \\cdot 10\\,\\mathrm{cm} = 6\\,\\mathrm{cm}$$"
+        },
+        {
+          "id": "N6-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "In einem rechtwinkligen Dreieck ist die Ankathete von $\\alpha$ 8 cm lang. Es gilt $\\tan\\alpha = 0{,}75$. Berechne die Gegenkathete von $\\alpha$.",
+          "tipp": "Setze in $\\tan\\alpha = \\frac{\\text{Gegenkathete}}{\\text{Ankathete}}$ ein und multipliziere mit 8 cm.",
+          "loesung": "$$0{,}75 = \\frac{x}{8\\,\\mathrm{cm}} \\quad | \\cdot 8\\,\\mathrm{cm}$$\n\n$$x = 0{,}75 \\cdot 8\\,\\mathrm{cm} = 6\\,\\mathrm{cm}$$"
+        },
+        {
+          "id": "N6-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Im Dreieck $ABC$ sind $b = 5\\,\\mathrm{cm}$, $c = 7\\,\\mathrm{cm}$ und $\\alpha = 40°$ gegeben, gesucht ist $a$. Gib an, ob du den Sinussatz oder den Kosinussatz brauchst, und gib die Gleichung an. Nicht ausrechnen!",
+          "tipp": "Liegt $\\alpha$ zwischen den beiden gegebenen Seiten? Gibt es ein bekanntes Paar aus Seite und Gegenwinkel?",
+          "loesung": "Zwei Seiten und der eingeschlossene Winkel sind gegeben, es gibt kein Paar aus Seite und Gegenwinkel: **Kosinussatz**\n\n$$a^2 = 5^2 + 7^2 - 2 \\cdot 5 \\cdot 7 \\cdot \\cos(40°)$$\n\n(Zur Kontrolle: $a \\approx 4{,}51\\,\\mathrm{cm}$)"
+        },
+        {
+          "id": "N6-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Im Dreieck $ABC$ sind $a = 8\\,\\mathrm{cm}$, $b = 6\\,\\mathrm{cm}$ und $\\alpha = 70°$ gegeben, gesucht ist der Winkel $\\beta$. Gib an, ob du den Sinussatz oder den Kosinussatz brauchst, und gib die Gleichung an. Nicht ausrechnen!",
+          "tipp": "Gibt es ein bekanntes Paar aus Seite und Gegenwinkel?",
+          "loesung": "Das Paar $a$ und $\\alpha$ ist bekannt, $\\beta$ liegt $b$ gegenüber: **Sinussatz**\n\n$$\\frac{\\sin(\\beta)}{\\sin(70°)} = \\frac{6\\,\\mathrm{cm}}{8\\,\\mathrm{cm}}$$\n\n(Zur Kontrolle: $\\beta \\approx 44{,}8°$, spitz, weil $b$ kürzer als $a$ ist)"
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c5",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten. In jeder Lösung steckt ein typischer Fehler.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Fehler: $a$ liegt $\\alpha$ gegenüber, ist also die Gegenkathete. Finn hat den Kosinus (Ankathete) benutzt (1 P).\n\nRichtig: $a = 9\\,\\mathrm{cm} \\cdot \\sin(28°) \\approx 4{,}23\\,\\mathrm{cm}$ (1 P)"
+        },
+        {
+          "id": "N7-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: falsch umgestellt. $x$ steht im Nenner, also erst mit $x$ multiplizieren und dann durch $\\sin(40°)$ teilen. Außerdem kann die Hypotenuse nicht kürzer als eine Kathete sein (1 P).\n\nRichtig: $x = \\frac{5\\,\\mathrm{cm}}{\\sin(40°)} \\approx 7{,}78\\,\\mathrm{cm}$ (1 P)"
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Der Taschenrechner steht nicht im Gradmodus (D). Ein Winkel von 0,64° ist bei Katheten von 3 cm und 4 cm unmöglich, das Dreieck wäre fast flach (1 P).\n\nRichtig: Gradmodus einstellen, $\\alpha = \\arctan(0{,}75) \\approx 36{,}9°$ (1 P)\n\nHinweis: Steht oben in der Anzeige „R“ (RAD), rechnet der Taschenrechner in einer anderen Winkeleinheit."
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Punkt vor Strich. Nur $2 \\cdot 5 \\cdot 8$ wird mit $\\cos(60°)$ multipliziert, nicht die ganze Differenz (1 P).\n\nRichtig: $c^2 = 89 - 80 \\cdot 0{,}5 = 49$, also $c = 7\\,\\mathrm{cm}$ (1 P)"
+        },
+        {
+          "id": "N7-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Begründung ohne Rechnung: Im Dreieck liegt dem größeren Winkel die längere Seite gegenüber. $\\beta = 65°$ ist größer als $\\alpha = 50°$, also muss $b$ länger als $a = 7\\,\\mathrm{cm}$ sein. 5,92 cm ist kürzer, das kann nicht stimmen. Elias hat Seiten und Gegenwinkel vertauscht: $b$ gehört zu $\\beta$, also $\\frac{b}{a} = \\frac{\\sin(\\beta)}{\\sin(\\alpha)}$ (1 P).\n\nRichtig: $b = 7\\,\\mathrm{cm} \\cdot \\frac{\\sin(65°)}{\\sin(50°)} \\approx 8{,}28\\,\\mathrm{cm}$ (1 P)"
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Dreiecke in Figuren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c10",
+        "c9",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten. Zerlege die Figuren in Dreiecke und wähle den passenden Ansatz.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Dreiecke_in_Figuren.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Leisten teilen den Drachen in vier rechtwinklige Dreiecke. Halbe Querleiste: 30 cm, unterer Teil der Längsleiste: $90\\,\\mathrm{cm} - 20\\,\\mathrm{cm} = 70\\,\\mathrm{cm}$.\n\n- oben: $\\sqrt{30^2 + 20^2}\\,\\mathrm{cm} \\approx 36{,}06\\,\\mathrm{cm}$ (zwei Seiten, 1 P)\n- unten: $\\sqrt{30^2 + 70^2}\\,\\mathrm{cm} \\approx 76{,}16\\,\\mathrm{cm}$ (zwei Seiten, 1 P)"
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Längsleiste ist Symmetrieachse des Drachens, denn sie steht senkrecht auf der Querleiste und halbiert sie. Deshalb halbiert sie die Winkel an der Spitze und unten:\n\n- Spitze: $\\tan(\\delta_1) = \\frac{30}{20}$, $\\delta_1 \\approx 56{,}3°$, Winkel $2 \\cdot 56{,}3° \\approx 112{,}6°$\n- unten: $\\tan(\\delta_2) = \\frac{30}{70}$, $\\delta_2 \\approx 23{,}2°$, Winkel $2 \\cdot 23{,}2° \\approx 46{,}4°$\n- an den Enden der Querleiste (Winkelsumme im Viereck 360°): $\\frac{360° - 112{,}6° - 46{,}4°}{2} \\approx 100{,}5°$\n\nAnderer Weg für die Spitze: Kosinussatz im Dreieck aus den beiden oberen Seiten und der Querleiste (drei Seiten bekannt): $\\cos(\\varepsilon) = \\frac{36{,}06^2 + 36{,}06^2 - 60^2}{2 \\cdot 36{,}06 \\cdot 36{,}06} \\approx -0{,}384$, $\\varepsilon \\approx 112{,}6°$.\n\n1 P Spitze und unten, 1 P Seitenwinkel."
+        },
+        {
+          "id": "N8-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Fünfeck besteht aus fünf gleichen gleichschenkligen Dreiecken. Winkel bei $M$: $360° : 5 = 72°$, Basiswinkel: $(180° - 72°) : 2 = 54°$ (1 P).\n\nAbstand $r = \\overline{MA}$, Sinussatz im Dreieck $MAB$ ($r$ liegt dem Winkel 54° gegenüber, 4 m dem Winkel 72°):\n\n$$\\frac{r}{4\\,\\mathrm{m}} = \\frac{\\sin(54°)}{\\sin(72°)} \\quad\\Rightarrow\\quad r \\approx 3{,}40\\,\\mathrm{m}$$\n\nAnderer Weg: halbes Dreieck mit $\\sin(36°) = \\frac{2\\,\\mathrm{m}}{r}$ (1 P)."
+        },
+        {
+          "id": "N8-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Aussage ist falsch. Der Sinussatz liefert nur Verhältnisse wie $\\frac{a}{b} = \\frac{\\sin(\\alpha)}{\\sin(\\beta)}$. Alle Dreiecke mit denselben Winkeln sind ähnlich und können verschieden groß sein. Ohne eine bekannte Länge lässt sich keine Seite berechnen (1 P)."
+        },
+        {
+          "id": "N8-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Nach dem Sinussatz verhalten sich die Seiten wie die Sinuswerte ihrer Gegenwinkel:\n\n$$a : b : c = \\sin(40°) : \\sin(60°) : \\sin(80°) \\approx 0{,}643 : 0{,}866 : 0{,}985$$\n\nSumme der Verhältniszahlen $\\approx 2{,}494$ (1 P). Der Umfang 30 cm wird in diesem Verhältnis aufgeteilt, Faktor $30\\,\\mathrm{cm} : 2{,}494 \\approx 12{,}03\\,\\mathrm{cm}$:\n\n$a \\approx 7{,}73\\,\\mathrm{cm}$, $b \\approx 10{,}42\\,\\mathrm{cm}$, $c \\approx 11{,}85\\,\\mathrm{cm}$ (1 P). Probe: $7{,}73 + 10{,}42 + 11{,}85 = 30{,}00$"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Die Parkhausschranke",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner (Aufgabe 2 ohne)",
+      "checkliste": [
+        "c2",
+        "c3",
+        "c4",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, mit Taschenrechner (Aufgabe 2 ohne). Vernetzt die Grundlagen mit Phase 1 (Einheitskreis, wichtige Werte, Seitenverhältnisse) – am besten nach N1 und N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Parkhausschranke.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Im Dreieck $DFS$ liegt der rechte Winkel bei $F$, die Hypotenuse ist $\\overline{DS}$. Gegenkathete von $\\alpha$ ist $\\overline{FS}$, Ankathete ist $\\overline{DF}$ (je 0,5 P):\n\n$$\\sin\\alpha = \\frac{\\overline{FS}}{\\overline{DS}} \\qquad \\cos\\alpha = \\frac{\\overline{DF}}{\\overline{DS}}$$\n\n*Seiten verwechselt?* → **N1** Aufgabe 3"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Weg 1 (Umformen): Aus $\\sin\\alpha = \\frac{\\overline{FS}}{3\\,\\mathrm{m}}$ folgt durch Multiplizieren mit 3 m: $\\overline{FS} = 3\\,\\mathrm{m} \\cdot \\sin\\alpha$ (1 P). Ebenso folgt aus $\\cos\\alpha = \\frac{\\overline{DF}}{3\\,\\mathrm{m}}$: $\\overline{DF} = 3\\,\\mathrm{m} \\cdot \\cos\\alpha$ (1 P).\n\nWeg 2 (Einheitskreis): Die Spitze bewegt sich auf einem Kreis um $D$ mit dem Radius 3 m. Das Dreieck $DFS$ hat dieselben Winkel wie das Dreieck am Einheitskreis (Radius 1, Lot auf die $x$-Achse). Es ist also ähnlich dazu, alle Seiten sind 3-mal so lang. Am Einheitskreis sind die Katheten $\\sin\\alpha$ und $\\cos\\alpha$, hier also $3\\,\\mathrm{m} \\cdot \\sin\\alpha$ und $3\\,\\mathrm{m} \\cdot \\cos\\alpha$."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 1.5,
+          "afb": "I",
+          "loesung": "Höhe der Spitze über der Fahrbahn: $1{,}00\\,\\mathrm{m} + 3\\,\\mathrm{m} \\cdot \\sin\\alpha$ (je 0,5 P)\n\n- 0°: $\\sin(0°) = 0$, Höhe $1{,}00\\,\\mathrm{m}$\n- 90°: $\\sin(90°) = 1$, Höhe $1{,}00\\,\\mathrm{m} + 3{,}00\\,\\mathrm{m} = 4{,}00\\,\\mathrm{m}$\n- 45°: $\\sin(45°) = \\frac{1}{2}\\sqrt{2} \\approx 0{,}71$, Höhe $1{,}00\\,\\mathrm{m} + 3\\,\\mathrm{m} \\cdot \\frac{1}{2}\\sqrt{2} \\approx 3{,}12\\,\\mathrm{m}$\n\nMit dem gerundeten Wert 0,71 erhältst du 3,13 m – auch richtig.\n\n*Wichtige Werte unsicher?* → **N1** Aufgabe 2"
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$3\\,\\mathrm{m} \\cdot \\sin(70°) \\approx 2{,}82\\,\\mathrm{m} \\quad\\Rightarrow\\quad \\text{Höhe} \\approx 1{,}00\\,\\mathrm{m} + 2{,}82\\,\\mathrm{m} = 3{,}82\\,\\mathrm{m}$$\n\n$$3\\,\\mathrm{m} \\cdot \\cos(70°) \\approx 1{,}03\\,\\mathrm{m}$$\n\n(je 0,5 P) Kontrolle mit den ungerundeten Werten: $2{,}819^2 + 1{,}026^2 \\approx 9{,}00 = 3^2$ (1 P)."
+        },
+        {
+          "id": "V1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Nach 3 Sekunden ist $\\alpha = 45°$. Die Spitze liegt dann $3\\,\\mathrm{m} \\cdot \\sin(45°) \\approx 2{,}12\\,\\mathrm{m}$ über $D$, am Ende $3{,}00\\,\\mathrm{m}$. Die Hälfte davon wäre $1{,}50\\,\\mathrm{m}$. Leons Aussage ist falsch (1 P).\n\nBegründung: Die Höhe über $D$ ist proportional zu $\\sin\\alpha$, nicht zu $\\alpha$. Am Einheitskreis steigt der Punkt zuerst schnell und in der Nähe von 90° nur noch langsam. Wegen $\\sin(30°) = 0{,}5$ ist die Spitze schon bei 30°, also nach 2 Sekunden, halb so hoch (1 P)."
+        },
+        {
+          "id": "V1-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Innenwinkelsumme: $180° - 90° - 70° = 20°$ (1 P).\n\n$\\cos(70°) = \\frac{\\overline{DF}}{\\overline{DS}}$. Für den Winkel 20° bei $S$ ist $\\overline{DF}$ die Gegenkathete, also $\\sin(20°) = \\frac{\\overline{DF}}{\\overline{DS}}$. Beide Verhältnisse sind gleich: $\\cos(70°) = \\sin(20°) \\approx 0{,}34$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Torschuss im Fußball",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 22,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c5",
+        "c4",
+        "g2",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 22 Minuten, mit Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 2 (Seitenverhältnisse, Seiten und Winkel im rechtwinkligen Dreieck) – am besten nach N3 und N4.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Torschuss.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Von der Tormitte bis zum Pfosten sind es $7{,}32\\,\\mathrm{m} : 2 = 3{,}66\\,\\mathrm{m}$. Die Linie von $E$ zur Tormitte steht senkrecht auf der Torlinie. Satz des Pythagoras:\n\n$$\\sqrt{11^2 + 3{,}66^2}\\,\\mathrm{m} \\approx 11{,}59\\,\\mathrm{m} \\quad (1\\ \\text{P})$$"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Linie von $E$ zur Tormitte teilt das Dreieck in zwei gleiche rechtwinklige Dreiecke. Für den halben Winkel $\\delta$ ist 3,66 m die Gegenkathete und 11 m die Ankathete:\n\n$$\\tan(\\delta) = \\frac{3{,}66}{11} \\quad\\Rightarrow\\quad \\delta = \\arctan\\left(\\frac{3{,}66}{11}\\right) \\approx 18{,}4° \\quad (1\\ \\text{P})$$\n\nDer Schütze sieht das Tor unter dem Winkel $2 \\cdot 18{,}4° \\approx 36{,}8°$ (1 P).\n\n*Winkel aus zwei Seiten unsicher?* → **N3** Aufgabe 1b"
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Halber Winkel: 20°. Gesucht ist die Ankathete $d$, die halbe Torbreite ist die Gegenkathete:\n\n$$\\tan(20°) = \\frac{3{,}66\\,\\mathrm{m}}{d} \\quad | \\cdot d \\quad | : \\tan(20°)$$\n\n$$d = \\frac{3{,}66\\,\\mathrm{m}}{\\tan(20°)} \\approx 10{,}06\\,\\mathrm{m}$$\n\n(je 1 P für Ansatz und Ergebnis) Der Punkt liegt knapp 1 m näher am Tor als $E$ – der Winkel ist größer.\n\n*Gesuchte Länge im Nenner?* → **G2** Aufgabe 4 und **N7** Aufgabe 2"
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die beiden halben Dreiecke (Schütze, Tormitte, Pfosten) haben beim großen und beim Jugendtor je einen rechten Winkel und denselben halben Sehwinkel. Die Dreiecke stimmen in allen Winkeln überein und sind nach dem Ähnlichkeitssatz (1) ähnlich (1 P).\n\nAlso gilt dasselbe Seitenverhältnis: $\\frac{d}{2{,}5\\,\\mathrm{m}} = \\frac{11\\,\\mathrm{m}}{3{,}66\\,\\mathrm{m}}$, also $d = 2{,}5\\,\\mathrm{m} \\cdot \\frac{11}{3{,}66} \\approx 7{,}51\\,\\mathrm{m}$ (1 P).\n\nEbenso richtig: $d = \\frac{2{,}5\\,\\mathrm{m}}{\\tan(\\delta)}$ mit dem ungerundeten $\\delta$ aus Aufgabe 1b."
+        },
+        {
+          "id": "V2-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Lot von $P$ auf die Torlinie ist 11 m lang. Sein Fußpunkt ist vom nahen Pfosten $5\\,\\mathrm{m} - 3{,}66\\,\\mathrm{m} = 1{,}34\\,\\mathrm{m}$ entfernt, vom fernen Pfosten $5\\,\\mathrm{m} + 3{,}66\\,\\mathrm{m} = 8{,}66\\,\\mathrm{m}$. In den beiden rechtwinkligen Dreiecken ist 11 m jeweils die Ankathete des Winkels bei $P$ (1 P):\n\n$$\\arctan\\left(\\frac{8{,}66}{11}\\right) \\approx 38{,}2° \\qquad \\arctan\\left(\\frac{1{,}34}{11}\\right) \\approx 6{,}9°$$\n\nDer Sehwinkel ist die Differenz: $38{,}2° - 6{,}9° = 31{,}3°$ (1 P). Er ist kleiner als vom Elfmeterpunkt (36,8°)."
+        },
+        {
+          "id": "V2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "1 m vor der Torlinie: $\\arctan\\left(\\frac{8{,}66}{1}\\right) - \\arctan\\left(\\frac{1{,}34}{1}\\right) \\approx 83{,}4° - 53{,}3° = 30{,}1°$. Das ist kleiner als in $P$ (31,3°) (1 P).\n\nDie Aussage ist falsch. Der Winkel wird zuerst größer (3 m vor der Torlinie etwa 46,8°) und dann wieder kleiner. Auf der Torlinie selbst liegen beide Pfosten in derselben Richtung, der Winkel ist dort 0° (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Schwimmstrecke im See",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c7",
+        "c9",
+        "c10",
+        "c5",
+        "c2",
+        "g2",
+        "g3",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, mit Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 3 (Einheitskreis, rechtwinklige und beliebige Dreiecke) – am besten nach N5 bis N8.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Schwimmstrecke.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Zwei Seiten und der eingeschlossene Winkel sind bekannt, $x$ liegt dem Winkel 48° gegenüber. Kosinussatz:\n\n$$x^2 = 400^2 + 650^2 - 2 \\cdot 400 \\cdot 650 \\cdot \\cos(48°) \\approx 234\\,552$$\n\n$$x \\approx 484\\,\\mathrm{m} \\quad (1\\ \\text{P})$$\n\nKurs: $400\\,\\mathrm{m} + 484\\,\\mathrm{m} + 650\\,\\mathrm{m} = 1534\\,\\mathrm{m}$, also rund 1,5 km (1 P).\n\n*Ansatz unsicher?* → **N5** Aufgabe 1"
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ein Weg genügt.\n\n**Weg 1 (Kosinussatz):** Nach dem Winkel umgestellt: $\\cos(\\beta) = \\frac{400^2 + x^2 - 650^2}{2 \\cdot 400 \\cdot x} \\approx -0{,}072$ (1 P). Am Einheitskreis ist der Kosinus nur für Winkel über 90° negativ, also ist $\\beta$ stumpf (1 P).\n\n**Weg 2 (Pythagoras):** Der Winkel bei $B_1$ liegt der längsten Seite (650 m) gegenüber. Wäre er genau 90°, müsste $400^2 + x^2 = 650^2$ gelten. Es ist aber $400^2 + x^2 \\approx 394\\,552 < 422\\,500 = 650^2$ (1 P). Die Seite gegenüber von $\\beta$ ist also länger als bei einem rechten Winkel, deshalb ist $\\beta$ größer als 90° (1 P). Genauer mit dem Kosinussatz: $650^2 = 400^2 + x^2 - 2 \\cdot 400 \\cdot x \\cdot \\cos(\\beta)$ geht nur, wenn $\\cos(\\beta)$ negativ ist."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zum Sinuswert 0,997 gehören zwei Winkel zwischen 0° und 180°. Die zugehörigen Punkte liegen auf dem Einheitskreis spiegelbildlich zur $y$-Achse: $85{,}9°$ und $180° - 85{,}9° = 94{,}1°$. Der Taschenrechner gibt nur den spitzen Winkel an. Richtig ist $\\beta \\approx 94{,}1°$ (0,5 P Begründung, 0,5 P Winkel), ebenso mit $\\arccos(-0{,}072) \\approx 94{,}1°$.\n\n*Spitz oder stumpf unsicher?* → **N2** Aufgabe 5"
+        },
+        {
+          "id": "V3-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Innenwinkelsumme: $180° - 48° - 94{,}1° = 37{,}9°$ (1 P)"
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Richtung von $S$ nach $B_2$ bildet mit dem Ufer den Winkel $30° + 48° = 78°$ (1 P). Das Lot von $B_2$ auf das Ufer ergibt ein rechtwinkliges Dreieck mit der Hypotenuse 650 m. Der Abstand ist die Gegenkathete von 78°:\n\n$$650\\,\\mathrm{m} \\cdot \\sin(78°) \\approx 636\\,\\mathrm{m} \\quad (1\\ \\text{P})$$"
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$B_2$ liegt etwa 636 m vom Ufer entfernt, das sind mehr als 600 m. Der Kurs erfüllt die Vorgabe nicht ($B_1$ liegt nur $400\\,\\mathrm{m} \\cdot \\sin(30°) = 200\\,\\mathrm{m}$ vom Ufer entfernt) (1 P).\n\n$$\\sin(78°) = \\frac{600\\,\\mathrm{m}}{d} \\quad\\Rightarrow\\quad d = \\frac{600\\,\\mathrm{m}}{\\sin(78°)} \\approx 613\\,\\mathrm{m}$$\n\n$B_2$ darf höchstens etwa 613 m vom Start entfernt liegen (1 P). Dann wird der Kurs etwas kürzer."
+        }
+      ]
+    }
+  ]
+}

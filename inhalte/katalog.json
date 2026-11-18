@@ -92,6 +92,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Kongruenz, zentrische Streckung, Streckzentrum und Streckfaktor, ähnliche Figuren, Ähnlichkeitssätze für Dreiecke, Strahlensätze, unzugängliche Längen bestimmen"
+        },
+        {
+          "id": "trigonometrie",
+          "name": "Trigonometrie – Lerntheke",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Einheitskreis, Sinus, Kosinus und Tangens im rechtwinkligen Dreieck, Seiten und Winkel berechnen, Arcusfunktionen, Sinussatz, Kosinussatz, Höhen- und Tiefenwinkel"
         }
       ]
     },
