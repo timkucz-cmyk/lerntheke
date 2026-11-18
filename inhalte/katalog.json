@@ -147,6 +147,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Astronomische Grundgrößen, Ellipse, Kepler-Gesetze, Gravitationsgesetz, Kreisbahnen, Feldmodell, Feldlinien, Feldstärke, Arbeit und potenzielle Energie, Potenzial"
+        },
+        {
+          "id": "analytische-geometrie",
+          "name": "Analytische Geometrie (E) – Lerntheke",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Punkte im Raum, Vektoren, Betrag, Skalarprodukt, Geraden in Parameterform, Lagebeziehungen von Geraden, Einstieg Matrizen"
         }
       ]
     },
