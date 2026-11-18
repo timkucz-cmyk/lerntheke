@@ -1,0 +1,1669 @@
+{
+  "version": 1,
+  "titel": "Analytische Geometrie – Lerntheke vor der Klausur",
+  "fach": "mathe",
+  "anrede": "sie",
+  "hinweis": "Alle Stationen sind klausurrelevant (Klausur 3). Sind Sie beim Satz des Pythagoras, bei besonderen Vierecken, bei Sinus, Kosinus und Tangens oder bei Gleichungssystemen unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt das Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Punkte und Vektoren), V2 nach N4 bis N5 (Längen und Winkel), V3 nach N6 bis N9 (Geraden), V4 nach N10 (Matrizen) als Komplexaufgabe. N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Mit dem Satz des Pythagoras Längen in Figuren und Körpern berechnen und mit seiner Umkehrung rechte Winkel nachweisen"
+    },
+    {
+      "id": "g2",
+      "text": "Den Abstand zweier Punkte im ebenen Koordinatensystem mit dem Satz des Pythagoras berechnen"
+    },
+    {
+      "id": "g3",
+      "text": "Eigenschaften besonderer Dreiecke und Vierecke beschreiben und nutzen"
+    },
+    {
+      "id": "g4",
+      "text": "Mit Sinus, Kosinus und Tangens Seiten und Winkel in rechtwinkligen Dreiecken berechnen"
+    },
+    {
+      "id": "g5",
+      "text": "Lineare Gleichungssysteme mit zwei oder drei Unbekannten lösen"
+    },
+    {
+      "id": "c1",
+      "text": "Punkte im räumlichen Koordinatensystem ablesen, einzeichnen und ihre Lage beschreiben"
+    },
+    {
+      "id": "c2",
+      "text": "Die Bedeutung von Vektoren erläutern und Orts- und Verschiebungsvektoren bestimmen"
+    },
+    {
+      "id": "c3",
+      "text": "Mit Vektoren rechnen (Addition, Subtraktion, S-Multiplikation, Rechengesetze, Linearkombination)"
+    },
+    {
+      "id": "c4",
+      "text": "Vektoren skalieren und auf Kollinearität prüfen"
+    },
+    {
+      "id": "c5",
+      "text": "Die Länge eines Vektors mit dem Betrag berechnen (Abstand zweier Punkte, Einheitsvektor)"
+    },
+    {
+      "id": "c6",
+      "text": "Prüfen, ob zwei Vektoren senkrecht zueinander stehen (Skalarprodukt, Umkehrung des Pythagoras)"
+    },
+    {
+      "id": "c7",
+      "text": "Den Winkel zwischen zwei Vektoren mit dem Skalarprodukt berechnen"
+    },
+    {
+      "id": "c8",
+      "text": "Geraden in Parameterform angeben und Punktproben durchführen"
+    },
+    {
+      "id": "c9",
+      "text": "Die Lage zweier Geraden untersuchen (parallel und identisch, parallel und verschieden, Schnittpunkt, windschief)"
+    },
+    {
+      "id": "c10",
+      "text": "Einstufige Prozesse mit Matrizen beschreiben und Matrix mal Vektor berechnen"
+    },
+    {
+      "id": "c11",
+      "text": "Matrizen addieren, subtrahieren und mit einer Zahl multiplizieren und besondere Matrizen benennen"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus der Mittelstufe",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Punkte und Vektoren",
+      "untertitel": "Koordinaten, Verschiebungen, Rechnen",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Längen und Winkel",
+      "untertitel": "Betrag und Skalarprodukt",
+      "farbe": "orange",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c7"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Geraden",
+      "untertitel": "Parameterform und Lagebeziehungen",
+      "farbe": "gruen",
+      "checkliste": [
+        "c8",
+        "c9"
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Matrizen",
+      "untertitel": "Einstufige Prozesse",
+      "farbe": "rot",
+      "checkliste": [
+        "c10",
+        "c11"
+      ]
+    }
+  ],
+  "abschluss": "Klausur 3",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR zugelassen, 20 Minuten für alle Blöcke. Bearbeiten Sie die Blöcke, bei denen Sie in der Selbsteinschätzung unsicher sind. Lücken schließen Sie danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Erst die Diagonale der Grundfläche, dann das Dreieck aus Grundflächendiagonale, Höhe und Raumdiagonale:\n\n$e^2=2^2+6^2=40$, $d=\\sqrt{e^2+9^2}=\\sqrt{40+81}=\\sqrt{121}=11$\n\nDie Raumdiagonale ist $11\\,\\mathrm{cm}$ lang. Üben: → **G2** Aufgabe 1"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Umkehrung des Satzes des Pythagoras: $8^2+15^2=64+225=289=17^2$\n\nDas Dreieck ist rechtwinklig; der rechte Winkel liegt gegenüber der längsten Seite ($17\\,\\mathrm{cm}$)."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Koordinatendifferenzen sind die Katheten: $3-(-2)=5$ und $13-1=12$\n\n$d=\\sqrt{5^2+12^2}=\\sqrt{169}=13$ (Längeneinheiten). Üben: → **G2** Aufgabe 2"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$(x-1)^2+(2-(-6))^2=17^2$, also $(x-1)^2+64=289$ und $(x-1)^2=225$\n\n$x-1=15$ oder $x-1=-15$, also $x=16$ oder $x=-14$."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Diagonalen, die sich halbieren: Parallelogramm. Gleich lange Diagonalen im Parallelogramm: Rechteck. Weil sie nicht senkrecht aufeinander stehen, ist es kein Quadrat.\n\nEs ist ein Rechteck, aber kein Quadrat. Üben: → **G2** Aufgabe 2"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Im gleichschenkligen Dreieck sind die Basiswinkel gleich groß:\n\n$\\alpha=\\beta=\\dfrac{180^\\circ-50^\\circ}{2}=65^\\circ$"
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\tan\\alpha=\\dfrac{\\text{Gegenkathete}}{\\text{Ankathete}}=\\dfrac47$\n\n$\\alpha=\\arctan\\dfrac47\\approx29{,}74^\\circ$. Üben: → **G2** Aufgabe 1"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\cos\\alpha=\\dfrac{\\text{Ankathete}}{\\text{Hypotenuse}}$, also Ankathete $=12\\cdot\\cos40^\\circ\\approx9{,}19\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "G1-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Steigungsdreieck mit Ankathete $5$ (waagerecht) und Gegenkathete $2$ (senkrecht):\n\n$\\tan\\alpha=\\dfrac25$, also $\\alpha\\approx21{,}80^\\circ$."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Aus II: $x=7-2y$. In I: $3(7-2y)-y=7$, also $21-7y=7$ und $y=2$.\n\n$x=7-2\\cdot2=3$. Lösung: $x=3$, $y=2$ (Probe in I: $9-2=7$). Üben: → **G2** Aufgabe 3"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Mit dem Gleichungsmodus des WTR oder von Hand, z. B.: I + III ergibt $2x+4y=-2$; 3 · I − II ergibt $x+4y=-3$. Subtrahieren: $x=1$, dann $4y=-4$, also $y=-1$, und aus I $z=2-1+1=2$.\n\nLösung: $x=1$, $y=-1$, $z=2$."
+        },
+        {
+          "id": "G1-5c",
+          "label": "5c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$4=7$ ist eine falsche Aussage. Die einzigen Werte, die die ersten beiden Gleichungen erfüllen, erfüllen die dritte nicht.\n\nDas Gleichungssystem hat **keine Lösung**."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Pythagoras, Vierecke, Gleichungssysteme",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR zugelassen, 15 Minuten. Diese Station übt die Rechnungen, die Sie für Längen, Winkel und Schnittpunkte im Raum brauchen.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Grundfläche $4\\,\\mathrm{cm}\\times6\\,\\mathrm{cm}$: $e=\\sqrt{4^2+6^2}=\\sqrt{52}\\approx7{,}21\\,\\mathrm{cm}$\n\nRaumdiagonale: $d=\\sqrt{e^2+12^2}=\\sqrt{52+144}=\\sqrt{196}=14\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Rechtwinkliges Dreieck aus Grundflächendiagonale (Ankathete), Höhe (Gegenkathete) und Raumdiagonale:\n\n$\\tan\\varphi=\\dfrac{12}{\\sqrt{52}}\\approx1{,}664$, also $\\varphi\\approx59{,}00^\\circ$."
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$|AB|=\\sqrt{6^2+2^2}=\\sqrt{40}$, $|BC|=\\sqrt{2^2+6^2}=\\sqrt{40}$, $|CD|=\\sqrt{6^2+2^2}=\\sqrt{40}$, $|DA|=\\sqrt{2^2+6^2}=\\sqrt{40}$\n\nAlle vier Seiten sind $\\sqrt{40}\\approx6{,}32$ Längeneinheiten lang."
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$|AC|=\\sqrt{8^2+8^2}=\\sqrt{128}\\approx11{,}31$, $|BD|=\\sqrt{4^2+4^2}=\\sqrt{32}\\approx5{,}66$\n\nVier gleich lange Seiten: mindestens eine Raute. Ein Quadrat hätte gleich lange Diagonalen; hier sind sie verschieden lang. ABCD ist eine Raute, aber kein Quadrat."
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "I + II: $4r=4$, also $r=1$. Aus II: $s=r+1=2$."
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "III: $2\\cdot1+3\\cdot2=8$ – wahre Aussage. Das System I, II, III hat genau die Lösung $r=1$, $s=2$.\n\nIII′: $1+2\\cdot2=5\\neq4$ – falsche Aussage. Das System I, II, III′ hat keine Lösung.\n\nGenau so prüft man später, ob sich zwei Geraden schneiden (wahr) oder windschief sind (falsch)."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Vektoren und Geraden",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c4",
+        "c5",
+        "c6",
+        "c8",
+        "c9",
+        "c10"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen; als Begründung genügt ein Satz oder ein Stichwort. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Die $x_2$-Koordinate ist $0$, die anderen nicht: P liegt in der $x_1x_3$-Ebene.\n\n*A gewählt?* Auf einer Achse sind **zwei** Koordinaten null. → **N2** Aufgabe 1\n\n*B oder D gewählt?* In der $x_1x_2$-Ebene ist $x_3=0$, in der $x_2x_3$-Ebene ist $x_1=0$. → **N2**"
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – „Ziel − Start“: $\\overrightarrow{AB}=\\vec b-\\vec a=\\begin{pmatrix} 1-4 \\\\ 3-(-1) \\\\ 2-2 \\end{pmatrix}=\\begin{pmatrix} -3 \\\\ 4 \\\\ 0 \\end{pmatrix}$\n\n*B gewählt?* Start − Ziel ergibt den Gegenvektor $\\overrightarrow{BA}$. → **N2** Aufgabe 3\n\n*C gewählt?* Das ist der Ortsvektor von B. → **N2**\n\n*D gewählt?* Ortsvektoren addiert statt subtrahiert. → **N2**"
+        },
+        {
+          "id": "N1-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – In jeder Zeile gilt $v_i=-0{,}5\\cdot u_i$: $-0{,}5\\cdot2=-1$, $-0{,}5\\cdot(-6)=3$, $-0{,}5\\cdot4=-2$. Kollinear, aber entgegengesetzt gerichtet (antiparallel).\n\n*A gewählt?* Auch ein negativer Faktor ist erlaubt. → **N3** Aufgabe 3\n\n*B gewählt?* Prüfen Sie alle drei Zeilen mit demselben Faktor. → **N3**\n\n*C gewählt?* Richtung verwechselt: $2\\cdot\\vec v=-\\vec u$, nicht $\\vec v=2\\vec u$. → **N3**"
+        },
+        {
+          "id": "N1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $|\\vec a|=\\sqrt{2^2+(-1)^2+2^2}=\\sqrt{9}=3$\n\n*A gewählt?* Die Beträge der Koordinaten addiert – die Länge kommt aus dem Satz des Pythagoras. → **N4** Aufgabe 1, **G2** Aufgabe 1\n\n*C gewählt?* Erst addiert, dann die Wurzel gezogen; die Koordinaten müssen quadriert werden. → **N4**\n\n*D gewählt?* Die Wurzel fehlt. → **N4**"
+        },
+        {
+          "id": "N1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $\\vec a\\cdot\\vec b=3\\cdot1+(-1)\\cdot5+2\\cdot1=3-5+2=0$. Das Skalarprodukt ist eine **Zahl**; ist sie null, stehen die Vektoren senkrecht zueinander.\n\n*B gewählt?* Null bedeutet senkrecht, nicht parallel. → **N4** Aufgabe 3\n\n*C gewählt?* Komponentenweise multipliziert, aber nicht addiert. → **N4**\n\n*D gewählt?* Vorzeichen von $-5$ übersehen. → **N4**"
+        },
+        {
+          "id": "N1-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – I: $5=1+2t$, $t=2$; II: $4=2+t$, $t=2$; III: $5=0+3t$, $t=\\tfrac53$. Kein $t$ passt in allen drei Zeilen: P liegt nicht auf g.\n\n*A oder D gewählt?* Alle drei Zeilen müssen mit demselben $t$ stimmen. → **N6** Aufgabe 2\n\n*B gewählt?* Auf g liegen unendlich viele Punkte, nicht nur der Stützpunkt. → **N6**"
+        },
+        {
+          "id": "N1-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Nicht parallel und kein gemeinsamer Punkt: windschief. Im Raum müssen sich zwei nicht parallele Geraden nicht schneiden.\n\n*A gewählt?* „Nicht parallel“ reicht im Raum nicht; erst die dritte Zeile entscheidet. → **N7** Aufgabe 1\n\n*C oder D gewählt?* Parallel wären g und h nur mit kollinearen Richtungsvektoren. → **N7**"
+        },
+        {
+          "id": "N1-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Zeile mal Spalte: $1\\cdot2+0\\cdot1+2\\cdot1=4$ und $3\\cdot2+1\\cdot1+0\\cdot1=7$. Eine $2\\times3$-Matrix mal ein Vektor mit 3 Zeilen ergibt einen Vektor mit 2 Zeilen.\n\n*A gewählt?* Die Produkte einer Zeile müssen addiert werden. → **N10** Aufgabe 2\n\n*B gewählt?* Die Matrix muss nicht quadratisch sein; die Spaltenzahl von A muss zur Zeilenzahl des Vektors passen. → **N10**\n\n*C gewählt?* Das Ergebnis hat so viele Zeilen wie die Matrix. → **N10**"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Punkte und Vektoren im Raum",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner, 20 Minuten. Zeichnen Sie im Schrägbild direkt auf dem Blatt (iPad).",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Punkte_Vektoren.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$A(4 \\mid 0 \\mid 0)$, $B(4 \\mid 6 \\mid 0)$, $E(0 \\mid 0 \\mid 3)$, $F(0 \\mid 6 \\mid 3)$\n\nDie Kanten liegen parallel zu den Achsen; deshalb lassen sich die Koordinaten an den Achsenstrichen ablesen."
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Vom Ursprung 2 Einheiten in $x_1$-Richtung (schräg nach vorn), 6 Einheiten in $x_2$-Richtung (nach rechts) und 1,5 Einheiten nach oben.\n\nZ ist der Mittelpunkt der Kante BF: $\\tfrac12(4+0)=2$, $\\tfrac12(0+3)=1{,}5$."
+        },
+        {
+          "id": "N2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x_2x_3$-Ebene ($x_1=0$): C, D, E, F.\n\nAuf einer Achse (zwei Koordinaten null): A auf der $x_1$-Achse, C auf der $x_2$-Achse, E auf der $x_3$-Achse, D im Ursprung (auf allen drei Achsen)."
+        },
+        {
+          "id": "N2-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beim Spiegeln an der $x_1x_2$-Ebene ändert sich nur das Vorzeichen der $x_3$-Koordinate: $F'(0 \\mid 6 \\mid -3)$."
+        },
+        {
+          "id": "N2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\overrightarrow{AF}=\\vec f-\\vec a=\\begin{pmatrix} 0-4 \\\\ 6-0 \\\\ 3-0 \\end{pmatrix}=\\begin{pmatrix} -4 \\\\ 6 \\\\ 3 \\end{pmatrix}$\n\n$\\overrightarrow{FA}=-\\overrightarrow{AF}=\\begin{pmatrix} 4 \\\\ -6 \\\\ -3 \\end{pmatrix}$ (Gegenvektor), $\\overrightarrow{OF}=\\begin{pmatrix} 0 \\\\ 6 \\\\ 3 \\end{pmatrix}$"
+        },
+        {
+          "id": "N2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\vec b\\,'=\\vec b+\\vec v=\\begin{pmatrix} 4 \\\\ 6 \\\\ 0 \\end{pmatrix}+\\begin{pmatrix} 5 \\\\ 2 \\\\ 0 \\end{pmatrix}=\\begin{pmatrix} 9 \\\\ 8 \\\\ 0 \\end{pmatrix}$, also $B'(9 \\mid 8 \\mid 0)$.\n\nJeder Punkt des Keils wandert 5 Einheiten in $x_1$-Richtung und 2 Einheiten in $x_2$-Richtung; die Höhe bleibt gleich."
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Parallelogramm KLMN gilt $\\overrightarrow{KN}=\\overrightarrow{LM}=\\begin{pmatrix} 2-4 \\\\ 5-1 \\\\ -1-2 \\end{pmatrix}=\\begin{pmatrix} -2 \\\\ 4 \\\\ -3 \\end{pmatrix}$.\n\n$\\vec n=\\vec k+\\overrightarrow{LM}=\\begin{pmatrix} 1 \\\\ -2 \\\\ 3 \\end{pmatrix}+\\begin{pmatrix} -2 \\\\ 4 \\\\ -3 \\end{pmatrix}=\\begin{pmatrix} -1 \\\\ 2 \\\\ 0 \\end{pmatrix}$, also $N(-1 \\mid 2 \\mid 0)$."
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\vec m_{KM}=\\vec k+\\tfrac12\\overrightarrow{KM}=\\begin{pmatrix} 1 \\\\ -2 \\\\ 3 \\end{pmatrix}+\\tfrac12\\cdot\\begin{pmatrix} 1 \\\\ 7 \\\\ -4 \\end{pmatrix}=\\begin{pmatrix} 1{,}5 \\\\ 1{,}5 \\\\ 1 \\end{pmatrix}$\n\nMittelpunkt $(1{,}5 \\mid 1{,}5 \\mid 1)$. (Kontrolle: Die Diagonale LN hat denselben Mittelpunkt.)"
+        },
+        {
+          "id": "N2-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Jeder der drei Punkte kann der Ecke gegenüberliegen, die ergänzt wird. Es gibt drei Punkte:\n\n- gegenüber von L: $\\vec k+\\vec m-\\vec l=\\begin{pmatrix} -1 \\\\ 2 \\\\ 0 \\end{pmatrix}$ (Parallelogramm KLMN)\n- gegenüber von M: $\\vec k+\\vec l-\\vec m=\\begin{pmatrix} 3 \\\\ -6 \\\\ 6 \\end{pmatrix}$\n- gegenüber von K: $\\vec l+\\vec m-\\vec k=\\begin{pmatrix} 5 \\\\ 8 \\\\ -2 \\end{pmatrix}$\n\nBegründung: Im Parallelogramm ergibt die Summe der Ortsvektoren gegenüberliegender Ecken dasselbe, weil sich die Diagonalen halbieren."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Rechnen mit Vektoren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c3",
+        "c4",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner, 15 Minuten.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Rechnen_mit_Vektoren.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\begin{pmatrix} 4 \\\\ -2 \\\\ 6 \\end{pmatrix}-\\begin{pmatrix} 0 \\\\ 12 \\\\ -6 \\end{pmatrix}+\\begin{pmatrix} -3 \\\\ 1 \\\\ 5 \\end{pmatrix}=\\begin{pmatrix} 1 \\\\ -13 \\\\ 17 \\end{pmatrix}$\n\nKoordinatenweise rechnen, z. B. dritte Zeile: $6-(-6)+5=17$."
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Ausmultiplizieren (Distributivgesetz) und zusammenfassen wie bei Zahlen:\n\n$3\\vec a-6\\vec b-2\\vec a+8\\vec b+\\vec b=\\vec a+3\\vec b$\n\n(Mit Zahlen: $\\vec a+3\\vec b=\\begin{pmatrix} 2 \\\\ 11 \\\\ -3 \\end{pmatrix}$.)"
+        },
+        {
+          "id": "N3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$4\\vec x-2\\vec x=\\vec a+\\vec b$, also $2\\vec x=\\vec a+\\vec b=\\begin{pmatrix} 2 \\\\ 3 \\\\ 1 \\end{pmatrix}$\n\n$\\vec x=\\tfrac12\\cdot\\begin{pmatrix} 2 \\\\ 3 \\\\ 1 \\end{pmatrix}=\\begin{pmatrix} 1 \\\\ 1{,}5 \\\\ 0{,}5 \\end{pmatrix}$"
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zeilenweise: I: $r+3s=7$, II: $2r-s=0$, III: $2s=4$\n\nAus III: $s=2$; aus I: $r=7-6=1$; Probe in II: $2\\cdot1-2=0$ – wahr.\n\nAlso $r=1$, $s=2$: $\\begin{pmatrix} 7 \\\\ 0 \\\\ 4 \\end{pmatrix}=1\\cdot\\vec u+2\\cdot\\vec v$."
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "III: $2s=1$, also $s=0{,}5$; I: $r=1-1{,}5=-0{,}5$; II: $2\\cdot(-0{,}5)-0{,}5=-1{,}5\\neq1$ – falsche Aussage.\n\nEs gibt keine passenden Zahlen r und s."
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\begin{pmatrix} -4 \\\\ 6 \\\\ -2 \\end{pmatrix}=-\\tfrac23\\cdot\\begin{pmatrix} 6 \\\\ -9 \\\\ 3 \\end{pmatrix}$ (in allen drei Zeilen): kollinear, entgegengesetzt gerichtet.\n\n$\\begin{pmatrix} 2 \\\\ -3 \\\\ 2 \\end{pmatrix}$: Zeile I und II verlangen den Faktor $\\tfrac13$, Zeile III aber $\\tfrac23$ – nicht kollinear."
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Aus $\\overrightarrow{AB}=\\overrightarrow{DC}$ folgt $\\vec b-\\vec a=\\vec c-\\vec d$, also $\\vec b+\\vec d=\\vec a+\\vec c$.\n\nMittelpunkte: $\\vec m_{AC}=\\tfrac12(\\vec a+\\vec c)$ und $\\vec m_{BD}=\\tfrac12(\\vec b+\\vec d)=\\tfrac12(\\vec a+\\vec c)$.\n\nBeide Diagonalen haben denselben Mittelpunkt – sie halbieren sich gegenseitig."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Länge, Abstand und Skalarprodukt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c7",
+        "g1",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR zugelassen, 25 Minuten. Aufgabe 1 und 3 lassen sich auch gut ohne Rechner lösen.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Betrag_Skalarprodukt.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$|\\vec a|=\\sqrt{4+36+9}=\\sqrt{49}=7$"
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\overrightarrow{AB}=\\begin{pmatrix} 4 \\\\ -7 \\\\ 4 \\end{pmatrix}$, $|\\overrightarrow{AB}|=\\sqrt{16+49+16}=\\sqrt{81}=9$"
+        },
+        {
+          "id": "N4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\vec a_0=\\dfrac{1}{|\\vec a|}\\cdot\\vec a=\\dfrac17\\cdot\\begin{pmatrix} 2 \\\\ -6 \\\\ 3 \\end{pmatrix}=\\begin{pmatrix} \\tfrac{2}{7} \\\\ -\\tfrac{6}{7} \\\\ \\tfrac{3}{7} \\end{pmatrix}$ mit der Länge $1$."
+        },
+        {
+          "id": "N4-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\overrightarrow{PQ}=\\begin{pmatrix} 2 \\\\ 1-a \\\\ -6 \\end{pmatrix}$, $|\\overrightarrow{PQ}|^2=4+(1-a)^2+36=49$\n\n$(1-a)^2=9$, also $1-a=3$ oder $1-a=-3$: $a=-2$ oder $a=4$."
+        },
+        {
+          "id": "N4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\vec u\\cdot\\vec v=4+2-6=0$: $\\vec u\\perp\\vec v$.\n\n$\\vec u\\cdot\\vec w=8-3-2=3\\neq0$: nicht senkrecht."
+        },
+        {
+          "id": "N4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\vec d\\cdot\\vec c=10+3e-4=0$, also $3e=-6$ und $e=-2$."
+        },
+        {
+          "id": "N4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\overrightarrow{AB}=\\begin{pmatrix} 2 \\\\ 3 \\\\ 6 \\end{pmatrix}$, $|\\overrightarrow{AB}|=\\sqrt{49}=7$; $\\overrightarrow{AC}=\\begin{pmatrix} 6 \\\\ 2 \\\\ -3 \\end{pmatrix}$, $|\\overrightarrow{AC}|=7$; $\\overrightarrow{BC}=\\begin{pmatrix} 4 \\\\ -1 \\\\ -9 \\end{pmatrix}$, $|\\overrightarrow{BC}|=\\sqrt{98}\\approx9{,}90$"
+        },
+        {
+          "id": "N4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Skalarprodukt: $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=12+6-18=0$, also stehen die Seiten AB und AC senkrecht aufeinander.\n\nPythagoras: $|\\overrightarrow{AB}|^2+|\\overrightarrow{AC}|^2=49+49=98=|\\overrightarrow{BC}|^2$."
+        },
+        {
+          "id": "N4-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\overrightarrow{BA}=\\begin{pmatrix} -2 \\\\ -3 \\\\ -6 \\end{pmatrix}$, $\\overrightarrow{BC}=\\begin{pmatrix} 4 \\\\ -1 \\\\ -9 \\end{pmatrix}$, $\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=-8+3+54=49$\n\n$\\beta=\\arccos\\dfrac{49}{7\\cdot\\sqrt{98}}\\approx\\arccos0{,}7071=45^\\circ$"
+        },
+        {
+          "id": "N4-4d",
+          "label": "4d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Dreieck ist gleichschenklig ($|AB|=|AC|=7$), die Basiswinkel bei B und C sind gleich: $\\gamma=45^\\circ$. Kontrolle: $90^\\circ+45^\\circ+45^\\circ=180^\\circ$."
+        },
+        {
+          "id": "N4-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Im Wesentlichen richtig. Im Bruch $\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a|\\cdot|\\vec b|}$ ist der Nenner positiv; ist der Zähler negativ, ist $\\cos\\varphi<0$ und damit $90^\\circ<\\varphi\\le180^\\circ$.\n\nSonderfall: Sind $\\vec a$ und $\\vec b$ entgegengesetzt gerichtet (z. B. $\\vec b=-\\vec a$), ist $\\varphi=180^\\circ$ – ein gestreckter, streng genommen kein stumpfer Winkel. Bis auf diesen Fall stimmt die Aussage."
+        },
+        {
+          "id": "N4-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch – man darf nicht „durch $\\vec a$ teilen“. Gegenbeispiel: $\\vec a=\\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}$, $\\vec b=\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}$, $\\vec c=\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}$.\n\n$\\vec a\\cdot\\vec b=0=\\vec a\\cdot\\vec c$, aber $\\vec b\\neq\\vec c$. (Beide stehen senkrecht auf $\\vec a$.)"
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Tandem: Vektoren, Längen, Winkel",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c7",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets, ohne Hilfsmittel. Wer die Nummer hat, antwortet laut; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp.",
+      "bild": "img/st_N5.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N5-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Bestimmen Sie den Vektor von $P(2 \\mid -1 \\mid 4)$ nach $Q(5 \\mid 3 \\mid 0)$.",
+          "tipp": "Ziel minus Start.",
+          "loesung": "$\\overrightarrow{PQ}=\\begin{pmatrix} 3 \\\\ 4 \\\\ -4 \\end{pmatrix}$"
+        },
+        {
+          "id": "N5-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Bestimmen Sie den Vektor von $R(-1 \\mid 2 \\mid 0)$ nach $S(3 \\mid -2 \\mid 5)$.",
+          "tipp": "Ziel minus Start.",
+          "loesung": "$\\overrightarrow{RS}=\\begin{pmatrix} 4 \\\\ -4 \\\\ 5 \\end{pmatrix}$"
+        },
+        {
+          "id": "N5-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Wie lang ist $\\begin{pmatrix} 1 \\\\ 4 \\\\ 8 \\end{pmatrix}$?",
+          "tipp": "Quadrieren, addieren, Wurzel.",
+          "loesung": "$\\sqrt{1+16+64}=\\sqrt{81}=9$"
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Wie lang ist $\\begin{pmatrix} 2 \\\\ 3 \\\\ 6 \\end{pmatrix}$?",
+          "tipp": "Quadrieren, addieren, Wurzel.",
+          "loesung": "$\\sqrt{4+9+36}=\\sqrt{49}=7$"
+        },
+        {
+          "id": "N5-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Bestimmen Sie den Mittelpunkt der Strecke von $A(2 \\mid -4 \\mid 6)$ nach $B(4 \\mid 0 \\mid -2)$.",
+          "tipp": "Koordinatenweise den Mittelwert bilden.",
+          "loesung": "$(3 \\mid -2 \\mid 2)$"
+        },
+        {
+          "id": "N5-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Bestimmen Sie den Mittelpunkt der Strecke von $C(-1 \\mid 5 \\mid 3)$ nach $D(3 \\mid 1 \\mid -3)$.",
+          "tipp": "Koordinatenweise den Mittelwert bilden.",
+          "loesung": "$(1 \\mid 3 \\mid 0)$"
+        },
+        {
+          "id": "N5-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Stehen $\\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}$ und $\\begin{pmatrix} 4 \\\\ 5 \\\\ -1 \\end{pmatrix}$ senkrecht zueinander?",
+          "tipp": "Skalarprodukt berechnen.",
+          "loesung": "$8-5-3=0$: ja."
+        },
+        {
+          "id": "N5-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Stehen $\\begin{pmatrix} 1 \\\\ 3 \\\\ -2 \\end{pmatrix}$ und $\\begin{pmatrix} 2 \\\\ -2 \\\\ -1 \\end{pmatrix}$ senkrecht zueinander?",
+          "tipp": "Skalarprodukt berechnen.",
+          "loesung": "$2-6+2=-2\\neq0$: nein."
+        },
+        {
+          "id": "N5-9",
+          "label": "9",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Für welches $k$ steht $\\begin{pmatrix} k \\\\ 2 \\\\ -1 \\end{pmatrix}$ senkrecht zu $\\begin{pmatrix} 3 \\\\ 1 \\\\ 4 \\end{pmatrix}$?",
+          "tipp": "Skalarprodukt gleich null setzen.",
+          "loesung": "$3k+2-4=0$, also $k=\\tfrac23$."
+        },
+        {
+          "id": "N5-10",
+          "label": "10",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Für welches $k$ steht $\\begin{pmatrix} 1 \\\\ k \\\\ 2 \\end{pmatrix}$ senkrecht zu $\\begin{pmatrix} 4 \\\\ -2 \\\\ 1 \\end{pmatrix}$?",
+          "tipp": "Skalarprodukt gleich null setzen.",
+          "loesung": "$4-2k+2=0$, also $k=3$."
+        },
+        {
+          "id": "N5-11",
+          "label": "11",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Welchen Winkel schließen $\\begin{pmatrix} 1 \\\\ -1 \\\\ 0 \\end{pmatrix}$ und $\\begin{pmatrix} 0 \\\\ 1 \\\\ -1 \\end{pmatrix}$ ein?",
+          "tipp": "$\\cos\\varphi=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a|\\cdot|\\vec b|}$; $\\cos120^\\circ=-0{,}5$.",
+          "loesung": "$\\cos\\varphi=\\dfrac{-1}{\\sqrt2\\cdot\\sqrt2}=-\\dfrac12$, also $\\varphi=120^\\circ$."
+        },
+        {
+          "id": "N5-12",
+          "label": "12",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Welchen Winkel schließen $\\begin{pmatrix} 3 \\\\ 0 \\\\ 0 \\end{pmatrix}$ und $\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}$ ein?",
+          "tipp": "$\\cos\\varphi=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a|\\cdot|\\vec b|}$; $\\cos45^\\circ=\\tfrac12\\sqrt2$.",
+          "loesung": "$\\cos\\varphi=\\dfrac{3}{3\\cdot\\sqrt2}=\\dfrac{1}{\\sqrt2}$, also $\\varphi=45^\\circ$."
+        },
+        {
+          "id": "N5-13",
+          "label": "13",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Sind $\\begin{pmatrix} 2 \\\\ -4 \\\\ 6 \\end{pmatrix}$ und $\\begin{pmatrix} -3 \\\\ 6 \\\\ -9 \\end{pmatrix}$ kollinear? Geben Sie gegebenenfalls den Faktor an.",
+          "tipp": "Gibt es eine Zahl, die in allen drei Zeilen passt?",
+          "loesung": "Ja: $\\begin{pmatrix} -3 \\\\ 6 \\\\ -9 \\end{pmatrix}=-1{,}5\\cdot\\begin{pmatrix} 2 \\\\ -4 \\\\ 6 \\end{pmatrix}$."
+        },
+        {
+          "id": "N5-14",
+          "label": "14",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Sind $\\begin{pmatrix} 1 \\\\ 2 \\\\ -3 \\end{pmatrix}$ und $\\begin{pmatrix} 2 \\\\ 4 \\\\ 6 \\end{pmatrix}$ kollinear? Geben Sie gegebenenfalls den Faktor an.",
+          "tipp": "Gibt es eine Zahl, die in allen drei Zeilen passt?",
+          "loesung": "Nein: Zeile I und II verlangen den Faktor $2$, Zeile III den Faktor $-2$."
+        },
+        {
+          "id": "N5-15",
+          "label": "15",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechnen Sie $2\\cdot\\begin{pmatrix} 1 \\\\ 0 \\\\ 3 \\end{pmatrix}-\\begin{pmatrix} 4 \\\\ -1 \\\\ 2 \\end{pmatrix}$.",
+          "tipp": "Erst vervielfachen, dann koordinatenweise subtrahieren.",
+          "loesung": "$\\begin{pmatrix} -2 \\\\ 1 \\\\ 4 \\end{pmatrix}$"
+        },
+        {
+          "id": "N5-16",
+          "label": "16",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechnen Sie $3\\cdot\\begin{pmatrix} 0 \\\\ 2 \\\\ -1 \\end{pmatrix}+\\begin{pmatrix} 1 \\\\ -5 \\\\ 4 \\end{pmatrix}$.",
+          "tipp": "Erst vervielfachen, dann koordinatenweise addieren.",
+          "loesung": "$\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$"
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Geraden in Parameterform",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c8",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner, 15 Minuten.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Geraden.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Stützvektor $\\vec a$, Richtungsvektor $\\overrightarrow{AB}=\\begin{pmatrix} 3 \\\\ 6 \\\\ -3 \\end{pmatrix}$:\n\n$$g:\\ \\vec x=\\begin{pmatrix} 1 \\\\ -2 \\\\ 4 \\end{pmatrix}+t\\cdot\\begin{pmatrix} 3 \\\\ 6 \\\\ -3 \\end{pmatrix},\\quad t\\in\\mathbb{R}$$"
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 0.5,
+          "afb": "I",
+          "loesung": "Zum Beispiel mit B als Stützpunkt und einem Vielfachen des Richtungsvektors:\n\n$g:\\ \\vec x=\\begin{pmatrix} 4 \\\\ 4 \\\\ 1 \\end{pmatrix}+t\\cdot\\begin{pmatrix} 1 \\\\ 2 \\\\ -1 \\end{pmatrix}$. Jede Gleichung mit einem Punkt von g und einem Vielfachen von $\\begin{pmatrix} 3 \\\\ 6 \\\\ -3 \\end{pmatrix}$ ist richtig."
+        },
+        {
+          "id": "N6-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "P: I: $7=1+3t$, $t=2$; II: $10=-2+6t$, $t=2$; III: $-2=4-3t$, $t=2$ – wahre Aussagen mit demselben $t$. P liegt auf g.\n\nQ: I: $-2=1+3t$, $t=-1$; II: $-8=-2+6t$, $t=-1$; III: $6=4-3t$, $t=-\\tfrac23$ – kein gemeinsames $t$. Q liegt nicht auf g."
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "II: $0=-2+6t$, also $t=\\tfrac13$. Probe in III: $4-3\\cdot\\tfrac13=3$ – wahr.\n\nI: $r_1=1+3\\cdot\\tfrac13=2$, also $R(2 \\mid 0 \\mid 3)$."
+        },
+        {
+          "id": "N6-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$t=0$ liefert A, $t=1$ liefert B; die Strecke AB gehört zu $0\\le t\\le1$.\n\nT teilt die Strecke im Verhältnis $2:1$, also $t=\\tfrac23$: $\\vec t=\\begin{pmatrix} 1 \\\\ -2 \\\\ 4 \\end{pmatrix}+\\tfrac23\\cdot\\begin{pmatrix} 3 \\\\ 6 \\\\ -3 \\end{pmatrix}=\\begin{pmatrix} 3 \\\\ 2 \\\\ 2 \\end{pmatrix}$, $T(3 \\mid 2 \\mid 2)$."
+        },
+        {
+          "id": "N6-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\overrightarrow{AC}=\\begin{pmatrix} 9 \\\\ 18 \\\\ -9 \\end{pmatrix}=3\\cdot\\begin{pmatrix} 3 \\\\ 6 \\\\ -3 \\end{pmatrix}=3\\cdot\\overrightarrow{AB}$: die Vektoren sind kollinear und haben den Punkt A gemeinsam.\n\nA, B und C liegen auf einer Geraden (C gehört zu $t=3$ in g)."
+        },
+        {
+          "id": "N6-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Für $t=0$ erhält man $\\vec x=\\vec 0$, also den Ursprung O.\n\nUmgekehrt: Geht eine Gerade durch O, darf man O als Stützpunkt wählen. Der Stützvektor ist dann $\\vec 0$, und es bleibt $\\vec x=t\\cdot\\vec u$ mit einem Richtungsvektor $\\vec u$. Ja, jede Gerade durch den Ursprung lässt sich so schreiben."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Lage zweier Geraden",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c4",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR zugelassen, 25 Minuten. Gleichungssysteme dürfen Sie mit dem Gleichungsmodus lösen; notieren Sie den Ansatz.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Lage_zweier_Geraden.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\begin{pmatrix} -4 \\\\ 2 \\\\ -6 \\end{pmatrix}=-2\\cdot\\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}$: kollinear, also parallel.\n\nPunktprobe $(3 \\mid 4 \\mid 1)$ in g: I: $3=1+2r$, $r=1$; II: $4=-r$, $r=-4$ – Widerspruch.\n\ng und $h_1$ sind parallel und verschieden."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\begin{pmatrix} 6 \\\\ -3 \\\\ 9 \\end{pmatrix}=3\\cdot\\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}$: kollinear.\n\nPunktprobe $(5 \\mid -2 \\mid 8)$ in g: I: $5=1+2r$, $r=2$; II: $-2=-r$, $r=2$; III: $8=2+3r$, $r=2$ – wahr.\n\ng und $h_2$ sind parallel und identisch."
+        },
+        {
+          "id": "N7-1c",
+          "label": "1c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Nicht kollinear (Zeile I verlangt den Faktor $\\tfrac12$, Zeile II den Faktor $2$).\n\nGleichsetzen: I: $1+2r=2+s$, II: $-r=1-2s$, III: $2+3r=-3+8s$\n\nAus II: $r=2s-1$; in I: $1+4s-2=2+s$, also $s=1$ und $r=1$.\n\nProbe III: $2+3=5$ und $-3+8=5$ – wahr. Schnittpunkt ($r=1$ in g): $S(3 \\mid -1 \\mid 5)$"
+        },
+        {
+          "id": "N7-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nicht kollinear. Gleichsetzen: I: $1+2r=s$, II: $-r=2+s$, III: $2+3r=1-s$\n\nI in II: $-r=2+1+2r$, also $r=-1$ und $s=-1$.\n\nProbe III: $2-3=-1$, aber $1-(-1)=2$ – falsche Aussage. g und $h_4$ sind windschief."
+        },
+        {
+          "id": "N7-2",
+          "label": "2",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "Aus Zeile I und II: $\\begin{pmatrix} -6 \\\\ 3 \\\\ b_3 \\end{pmatrix}=-3\\cdot\\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}$, also $b_3=-9$.\n\nPunktprobe $(0 \\mid 1 \\mid 5)$ in g: I: $0=1+2r$, $r=-0{,}5$; II: $1=-r=0{,}5$ – falsch. k und g sind parallel und verschieden."
+        },
+        {
+          "id": "N7-3a",
+          "label": "3a",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "I: $1+2r=5$, also $r=2$; III: $2+3\\cdot2=1+s$, also $s=7$.\n\nII: $-2=q_2+7$, also $q_2=-9$. Schnittpunkt ($r=2$ in g): $S(5 \\mid -2 \\mid 8)$"
+        },
+        {
+          "id": "N7-3b",
+          "label": "3b",
+          "punkte": 1.5,
+          "afb": "III",
+          "loesung": "$\\begin{pmatrix} 0 \\\\ 1 \\\\ 1 \\end{pmatrix}$ ist kein Vielfaches von $\\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}$ (Zeile I: $0=2k$ verlangt $k=0$, dann wäre der Vektor der Nullvektor) – unabhängig von $q_2$, denn $q_2$ steckt nur im Stützvektor. Also nie parallel.\n\nZeile I und III legen $r=2$ und $s=7$ fest, ohne $q_2$ zu benutzen. Zeile II ist nur für $q_2=-9$ erfüllt; für jeden anderen Wert entsteht eine falsche Aussage: windschief."
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "m braucht den Stützpunkt P (P liegt auf g, $r=0$) und einen Richtungsvektor $\\vec w$ mit $\\vec w\\cdot\\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}=0$, z. B. $\\vec w=\\begin{pmatrix} 1 \\\\ 2 \\\\ 0 \\end{pmatrix}$: $2-2+0=0$.\n\n$m:\\ \\vec x=\\begin{pmatrix} 1 \\\\ 0 \\\\ 2 \\end{pmatrix}+s\\cdot\\begin{pmatrix} 1 \\\\ 2 \\\\ 0 \\end{pmatrix}$. m und g haben P gemeinsam und stehen senkrecht zueinander. (Es gibt unendlich viele richtige Lösungen.)"
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Hilfsmittelfreier Teil (HMF)",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c1",
+        "c2",
+        "c5",
+        "c6",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner und Formelsammlung, 20 Minuten – im Format des hilfsmittelfreien Teils A der Klausur.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_HMF.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\overrightarrow{TT'}=\\begin{pmatrix} 1-(-3) \\\\ 0-2 \\\\ 8-5 \\end{pmatrix}=\\begin{pmatrix} 4 \\\\ -2 \\\\ 3 \\end{pmatrix}$"
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Nur die $x_1$-Koordinate wechselt das Vorzeichen: $(3 \\mid 2 \\mid 5)$."
+        },
+        {
+          "id": "N8-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$|\\vec a|=\\sqrt{1+4+4}=3$"
+        },
+        {
+          "id": "N8-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\vec a\\cdot\\vec b=4+0-6=-2$\n\nDas Skalarprodukt ist nicht null: Die Vektoren stehen nicht senkrecht zueinander. Weil es negativ ist, schließen sie einen stumpfen Winkel ein (größer als $90^\\circ$)."
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$16+1+a^2=81$, also $a^2=64$ und $a=8$ oder $a=-8$."
+        },
+        {
+          "id": "N8-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\begin{pmatrix} 1 \\\\ 0 \\\\ -1 \\end{pmatrix}$ ist kein Vielfaches von $\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}$: Zeile I verlangt den Faktor $1$, Zeile II den Faktor $0$."
+        },
+        {
+          "id": "N8-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "I: $2+r=-1+s$, II: $r=-1$, III: $1=3-s$\n\nAus II: $r=-1$; aus III: $s=2$. Probe I: $2-1=1$ und $-1+2=1$ – wahr.\n\nSchnittpunkt ($r=-1$ in g): $S(1 \\mid -1 \\mid 1)$"
+        },
+        {
+          "id": "N8-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch. Senkrechte Richtungsvektoren schließen nur Parallelität aus; die Geraden können trotzdem windschief sein.\n\nGegenbeispiel: $g:\\ \\vec x=r\\cdot\\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}$ (die $x_1$-Achse) und $h:\\ \\vec x=\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}+s\\cdot\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}$. $\\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}\\cdot\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}=0$, aber h verläuft in der Höhe $x_3=1$ und trifft die $x_1$-Achse nie (Zeile III: $0=1$)."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c2",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Taschenrechner, 20 Minuten. Jede Lösung enthält genau einen Fehler.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1",
+          "label": "1",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "Es wurde Start minus Ziel gerechnet; das ergibt den Gegenvektor $\\overrightarrow{BA}$.\n\nRichtig: $\\overrightarrow{AB}=\\vec b-\\vec a=\\begin{pmatrix} -2 \\\\ 3 \\\\ 2 \\end{pmatrix}$"
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "Die Beträge der Koordinaten wurden addiert. Die Länge folgt aber aus dem Satz des Pythagoras: quadrieren, addieren, Wurzel ziehen.\n\n$\\sqrt{9+16+144}=\\sqrt{169}=13$"
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "Die Rechnung stimmt, die Folgerung nicht: Skalarprodukt null bedeutet **senkrecht**.\n\nParallel (kollinear) sind die Vektoren nicht: Zeile I verlangt den Faktor $\\tfrac12$, Zeile II den Faktor $-1$."
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Das LGS ist richtig gelöst, aber der Parameter $s$ gehört zu h und wurde in die Gleichung von g eingesetzt.\n\nRichtig: $r=2$ in g: $\\begin{pmatrix} 0 \\\\ 1 \\\\ 1 \\end{pmatrix}+2\\cdot\\begin{pmatrix} 1 \\\\ 2 \\\\ 0 \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ 5 \\\\ 1 \\end{pmatrix}$, Kontrolle mit $s=1$ in h: $\\begin{pmatrix} 3 \\\\ 4 \\\\ -1 \\end{pmatrix}+\\begin{pmatrix} -1 \\\\ 1 \\\\ 2 \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ 5 \\\\ 1 \\end{pmatrix}$.\n\nSchnittpunkt $S(2 \\mid 5 \\mid 1)$"
+        },
+        {
+          "id": "N9-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "„Nicht parallel“ heißt im Raum nicht „schneiden sich“. Die dritte Zeile wurde nicht geprüft.\n\nIII: $2r=1+s$ mit $r=-2$, $s=-1$: $-4\\neq0$ – falsche Aussage.\n\ng und h sind windschief; S liegt zwar auf g, aber nicht auf h."
+        },
+        {
+          "id": "N9-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ein $t$ aus einer einzigen Zeile reicht nicht; dasselbe $t$ muss alle drei Zeilen erfüllen.\n\nII: $6=0+3\\cdot2$ – wahr; III: $2=-1+2\\cdot2=3$ – falsch.\n\nP liegt nicht auf g."
+        },
+        {
+          "id": "N9-7",
+          "label": "7",
+          "punkte": 1.5,
+          "afb": "III",
+          "loesung": "Es wurden nur zwei von drei Zeilen geprüft. Zeile III: $-2\\cdot3=-6\\neq6$.\n\nKein Faktor passt in allen drei Zeilen; die Richtungsvektoren sind nicht kollinear. Die Geraden können nicht parallel sein (sie schneiden sich oder sind windschief)."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Matrizen: Kerzenmanufaktur",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c10",
+        "c11",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR zugelassen, 20 Minuten, Partnerarbeit: Aufgabe 1 und 2 zuerst allein, dann vergleichen. Aufgabe 2 ohne Taschenrechner.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Matrizen_Kerzen.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$A=\\begin{pmatrix} 300 & 15 & 180 \\\\ 12 & 2 & 8 \\\\ 6 & 0 & 4 \\end{pmatrix}$$\n\nTeelichter enthalten kein Duftöl; deshalb steht in Zeile 3, Spalte 2 eine $0$."
+        },
+        {
+          "id": "N10-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "A ist eine $3\\times3$-Matrix (quadratisch).\n\n$a_{23}=8$ (Zeile 2: Docht, Spalte 3: Glaskerze): Für eine Glaskerze braucht man $8\\,\\mathrm{cm}$ Docht."
+        },
+        {
+          "id": "N10-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\vec x=\\begin{pmatrix} 10 \\\\ 50 \\\\ 20 \\end{pmatrix}$, Zeile mal Spalte:\n\n$$\\vec y=\\begin{pmatrix} 300\\cdot10+15\\cdot50+180\\cdot20 \\\\ 12\\cdot10+2\\cdot50+8\\cdot20 \\\\ 6\\cdot10+0\\cdot50+4\\cdot20 \\end{pmatrix}=\\begin{pmatrix} 7350 \\\\ 380 \\\\ 140 \\end{pmatrix}$$\n\nMan braucht $7350\\,\\mathrm{g}$ Wachs, $380\\,\\mathrm{cm}$ Docht und $140\\,\\mathrm{ml}$ Duftöl."
+        },
+        {
+          "id": "N10-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$B+C=\\begin{pmatrix} 18 & 90 & 45 \\\\ 11 & 180 & 10 \\end{pmatrix}$\n\nGesamtbestellung beider Wochen je Laden und Sorte, z. B. 180 Teelichter für Laden 2."
+        },
+        {
+          "id": "N10-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "S-Multiplikation: $2\\cdot C=\\begin{pmatrix} 16 & 80 & 50 \\\\ 12 & 160 & 20 \\end{pmatrix}$\n\nTransponieren (Zeilen und Spalten tauschen): $C^T=\\begin{pmatrix} 8 & 6 \\\\ 40 & 80 \\\\ 25 & 10 \\end{pmatrix}$"
+        },
+        {
+          "id": "N10-4a",
+          "label": "4a",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "Sie hat die Bestellung mit der ersten **Spalte** von A multipliziert (300 g Wachs, 12 cm Docht, 6 ml Duftöl einer Stumpenkerze) und damit Gramm, Zentimeter und Milliliter vermischt.\n\nRichtig: erste **Zeile** (Wachs je Sorte) mal Bestellung: $300\\cdot10+15\\cdot50+180\\cdot20=7350$."
+        },
+        {
+          "id": "N10-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Jede Zeile von A wird mit $\\vec x$ „Zeile mal Spalte“ multipliziert: der erste Eintrag der Zeile mit dem ersten Eintrag von $\\vec x$ usw. Das geht nur, wenn eine Zeile von A (also die Spaltenzahl) genauso viele Einträge hat wie $\\vec x$."
+        },
+        {
+          "id": "N10-5a",
+          "label": "5a",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "Gesucht ist $\\vec x$ mit $A\\cdot\\vec x=\\begin{pmatrix} 9300 \\\\ 480 \\\\ 180 \\end{pmatrix}$ (Einheiten g, cm, ml):\n\nI: $300S+15T+180G=9300$, II: $12S+2T+8G=480$, III: $6S+4G=180$\n\nGleichungsmodus des WTR: $S=10$, $T=60$, $G=30$.\n\n10 Stumpenkerzen, 60 Teelichter und 30 Glaskerzen."
+        },
+        {
+          "id": "N10-5b",
+          "label": "5b",
+          "punkte": 1.5,
+          "afb": "III",
+          "loesung": "$A\\cdot\\vec x=\\begin{pmatrix} 8700 \\\\ 480 \\\\ 180 \\end{pmatrix}$ ergibt mit dem WTR $S=-10$, $T=60$, $G=60$.\n\nEine negative Anzahl Stumpenkerzen ist im Sachzusammenhang unmöglich. Mit $8{,}7\\,\\mathrm{kg}$ Wachs lassen sich Docht und Duftöl nicht genau aufbrauchen; es bleiben Reste."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Check-out",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c10",
+        "c1",
+        "c2",
+        "c4",
+        "c5",
+        "c6",
+        "c8",
+        "c9"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Am Ende der dritten Stunde bearbeiten. Ohne Hilfsmittel, 8 Minuten. Jede Aufgabe gehört zur Aufgabe mit derselben Nummer in N1 – vergleichen Sie in der Auswertung Ihre Punkte in N1 und N11.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Die $x_1$-Koordinate ist $0$, die anderen nicht: Q liegt in der $x_2x_3$-Ebene.\n\n*B gewählt?* Auf einer Achse sind **zwei** Koordinaten null. → **N2** Aufgabe 1\n\n*C oder D gewählt?* In der $x_1x_3$-Ebene ist $x_2=0$, in der $x_1x_2$-Ebene ist $x_3=0$. → **N2**"
+        },
+        {
+          "id": "N11-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – „Ziel − Start“: $\\overrightarrow{CD}=\\vec d-\\vec c=\\begin{pmatrix} 3-(-2) \\\\ 1-5 \\\\ 1-1 \\end{pmatrix}=\\begin{pmatrix} 5 \\\\ -4 \\\\ 0 \\end{pmatrix}$\n\n*A gewählt?* Start − Ziel ergibt den Gegenvektor $\\overrightarrow{DC}$. → **N2** Aufgabe 3\n\n*B gewählt?* Das ist der Ortsvektor von D. → **N2**\n\n*C gewählt?* Ortsvektoren addiert statt subtrahiert. → **N2**"
+        },
+        {
+          "id": "N11-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – In jeder Zeile gilt $v_i=-1{,}5\\cdot u_i$: $-1{,}5\\cdot4=-6$, $-1{,}5\\cdot(-2)=3$, $-1{,}5\\cdot6=-9$. Kollinear, entgegengesetzt gerichtet.\n\n*A gewählt?* Auch ein negativer Faktor ist erlaubt. → **N3** Aufgabe 3\n\n*C gewählt?* Vorzeichen des Faktors übersehen. → **N3**\n\n*D gewählt?* Der Faktor muss keine ganze Zahl sein. → **N3**"
+        },
+        {
+          "id": "N11-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $|\\vec a|=\\sqrt{36+4+9}=\\sqrt{49}=7$\n\n*A gewählt?* Die Beträge der Koordinaten addiert. → **N4** Aufgabe 1, **G2** Aufgabe 1\n\n*B gewählt?* Die Wurzel fehlt. → **N4**\n\n*D gewählt?* Erst addiert, dann die Wurzel gezogen; die Koordinaten müssen quadriert werden. → **N4**"
+        },
+        {
+          "id": "N11-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $\\vec a\\cdot\\vec b=2\\cdot3+4\\cdot(-1)+(-1)\\cdot2=6-4-2=0$: Die Vektoren stehen senkrecht zueinander.\n\n*A gewählt?* Komponentenweise multipliziert, aber nicht addiert. → **N4** Aufgabe 3\n\n*B gewählt?* Null bedeutet senkrecht, nicht parallel. → **N4**\n\n*C gewählt?* Vorzeichen übersehen. → **N4**"
+        },
+        {
+          "id": "N11-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – I: $3=t$; II: $-3=3-2t$, $t=3$; III: $7=-1+2t$, $t=4$. Kein $t$ passt in allen drei Zeilen: P liegt nicht auf g.\n\n*B oder C gewählt?* Alle drei Zeilen müssen mit demselben $t$ stimmen. → **N6** Aufgabe 2\n\n*D gewählt?* Auf g liegen unendlich viele Punkte, nicht nur der Stützpunkt. → **N6**"
+        },
+        {
+          "id": "N11-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Nicht parallel, und das LGS hat wegen Zeile III keine Lösung: kein gemeinsamer Punkt, also windschief.\n\n*A oder D gewählt?* Die dritte Zeile entscheidet; eine falsche Aussage bedeutet: kein Schnittpunkt. → **N7** Aufgabe 1\n\n*B gewählt?* Parallel wären g und h nur mit kollinearen Richtungsvektoren. → **N7**"
+        },
+        {
+          "id": "N11-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Zeile mal Spalte: $2\\cdot3+1\\cdot(-1)=5$, $0\\cdot3+3\\cdot(-1)=-3$, $1\\cdot3+1\\cdot(-1)=2$. Eine $3\\times2$-Matrix mal ein Vektor mit 2 Zeilen ergibt einen Vektor mit 3 Zeilen.\n\n*A gewählt?* Die Matrix muss nicht quadratisch sein; 2 Spalten passen zu 2 Zeilen des Vektors. → **N10** Aufgabe 2\n\n*C gewählt?* Die Produkte einer Zeile müssen addiert werden. → **N10**\n\n*D gewählt?* Das Ergebnis hat so viele Zeilen wie die Matrix. → **N10**"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Hochregallager",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "g1",
+        "g3",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Ohne Taschenrechner, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Punkte und Vektoren) – am besten nach N2 bis N3.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Hochregallager.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Vorn: $x_1=2$, rechts: $x_2=24$: $B(2 \\mid 24 \\mid 0)$, $G(2 \\mid 24 \\mid 10)$.\n\nIn der $x_2x_3$-Ebene ($x_1=0$) liegen die vier Ecken der Rückseite: $(0 \\mid 0 \\mid 0)$, $(0 \\mid 24 \\mid 0)$, $(0 \\mid 24 \\mid 10)$, $(0 \\mid 0 \\mid 10)$."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\overrightarrow{UF_1}=\\begin{pmatrix} 0 \\\\ 8 \\\\ 4 \\end{pmatrix}$, $\\overrightarrow{F_1F_2}=\\begin{pmatrix} 0 \\\\ 8 \\\\ -4 \\end{pmatrix}$\n\nRückfahrt: $\\overrightarrow{F_2U}=-\\overrightarrow{UF_2}=\\begin{pmatrix} 0 \\\\ -16 \\\\ 0 \\end{pmatrix}$"
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "$\\begin{pmatrix} 0 \\\\ 8 \\\\ 4 \\end{pmatrix}+\\begin{pmatrix} 0 \\\\ 8 \\\\ -4 \\end{pmatrix}=\\begin{pmatrix} 0 \\\\ 16 \\\\ 0 \\end{pmatrix}=\\vec f_2-\\vec u$ – die Einzelfahrten ergeben zusammen die direkte Verschiebung.\n\nVorderseite $x_1=2$ mit $0\\le x_2\\le24$, $0\\le x_3\\le10$: Mittelpunkt $\\tfrac12\\cdot(\\vec a+\\vec g)$ mit $A(2 \\mid 0 \\mid 0)$, $G(2 \\mid 24 \\mid 10)$: $(2 \\mid 12 \\mid 5)$."
+        },
+        {
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\overrightarrow{UF_3}=\\begin{pmatrix} 0 \\\\ 20 \\\\ 10 \\end{pmatrix}=2{,}5\\cdot\\begin{pmatrix} 0 \\\\ 8 \\\\ 4 \\end{pmatrix}=2{,}5\\cdot\\overrightarrow{UF_1}$: kollinear mit gemeinsamem Punkt U.\n\nJa, die drei Punkte liegen auf einer Geraden; das Gerät fährt ohne Richtungswechsel."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Fahrt verläuft in der Ebene $x_1=3$: $8\\cdot2{,}5=20\\,\\mathrm{m}$ waagerecht und $10\\,\\mathrm{m}$ nach oben.\n\n$\\sqrt{20^2+10^2}=\\sqrt{500}=10\\sqrt5\\approx22{,}36\\,\\mathrm{m}$"
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "Alle drei Punkte liegen in der Ebene $x_1=3$; die Längen folgen aus dem Satz des Pythagoras:\n\n$|UF_1|=\\sqrt{8^2+4^2}=\\sqrt{80}$, $|F_1F_2|=\\sqrt{8^2+4^2}=\\sqrt{80}$, $|UF_2|=16$\n\nZwei Seiten sind gleich lang: Das Dreieck ist gleichschenklig mit der Spitze $F_1$."
+        },
+        {
+          "id": "V1-3a",
+          "label": "3a",
+          "punkte": 1.5,
+          "afb": "II",
+          "loesung": "$r\\cdot\\begin{pmatrix} 0 \\\\ 2 \\\\ 1 \\end{pmatrix}+s\\cdot\\begin{pmatrix} 0 \\\\ 1 \\\\ -1 \\end{pmatrix}=\\overrightarrow{UF_4}=\\begin{pmatrix} 0 \\\\ 9 \\\\ 0 \\end{pmatrix}$\n\nII: $2r+s=9$, III: $r-s=0$ (Zeile I: $0=0$). Aus III: $r=s$, in II: $3r=9$.\n\n$r=3$, $s=3$."
+        },
+        {
+          "id": "V1-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ziel $(3 \\mid a \\mid b)$: II: $2r+s=a$, III: $r-s=b$. Addieren: $3r=a+b$, also $r=\\tfrac{a+b}{3}$ und $s=r-b=\\tfrac{a-2b}{3}$ – für alle a und b lösbar.\n\nDie $x_1$-Koordinate beider Richtungen ist $0$; jede Kombination ändert $x_1$ also nicht. Von U ($x_1=3$) aus bleibt das Gerät immer in der Ebene $x_1=3$."
+        },
+        {
+          "id": "V1-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Ein negativer Wert bedeutet, dass das Gerät entgegen der Richtung fährt. Kann es nur vorwärts in Richtung $\\vec p$ bzw. $\\vec q$ fahren, sind nur $r\\ge0$ und $s\\ge0$ sinnvoll; dann erreicht es nicht mehr jedes Fach, z. B. nicht das hohe Fach $(3 \\mid 4 \\mid 10)$ nahe der Übergabestation: $r=\\tfrac{14}{3}$, $s=-\\tfrac{16}{3}$. Kann es auch rückwärts fahren, sind negative Werte erlaubt."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Windmessmast mit Abspannseilen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c7",
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR zugelassen, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Punkte und Vektoren, Längen und Winkel) – am besten nach N4 bis N5.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Windmessmast.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\vec m=\\begin{pmatrix} 0 \\\\ 0 \\\\ 40 \\end{pmatrix}$, $\\vec s=\\begin{pmatrix} 0 \\\\ 0 \\\\ 80 \\end{pmatrix}$\n\n$\\overrightarrow{SA_1}=\\begin{pmatrix} 30 \\\\ 0 \\\\ -80 \\end{pmatrix}$, $\\overrightarrow{MA_1}=\\begin{pmatrix} 30 \\\\ 0 \\\\ -40 \\end{pmatrix}$"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zu $A_1$: $|\\overrightarrow{SA_1}|=\\sqrt{900+6400}=\\sqrt{7300}\\approx85{,}44\\,\\mathrm m$, $|\\overrightarrow{MA_1}|=\\sqrt{900+1600}=50\\,\\mathrm m$\n\nZu $A_2$: $\\overrightarrow{SA_2}=\\begin{pmatrix} -15 \\\\ 26 \\\\ -80 \\end{pmatrix}$, $\\sqrt{225+676+6400}=\\sqrt{7301}\\approx85{,}45\\,\\mathrm m$; $\\overrightarrow{MA_2}=\\begin{pmatrix} -15 \\\\ 26 \\\\ -40 \\end{pmatrix}$, $\\sqrt{2501}\\approx50{,}01\\,\\mathrm m$\n\n$A_3$ liegt spiegelbildlich zu $A_2$ (gleiche Seillängen). Gesamt: $\\sqrt{7300}+2\\cdot\\sqrt{7301}+50+2\\cdot\\sqrt{2501}\\approx406{,}35\\,\\mathrm m$"
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mast von S nach unten: $\\overrightarrow{SO}=\\begin{pmatrix} 0 \\\\ 0 \\\\ -80 \\end{pmatrix}$\n\n$\\overrightarrow{SA_1}\\cdot\\overrightarrow{SO}=0+0+6400=6400$\n\n$\\varphi=\\arccos\\dfrac{6400}{\\sqrt{7300}\\cdot80}\\approx\\arccos0{,}9363\\approx20{,}56^\\circ$"
+        },
+        {
+          "id": "V2-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Seitenansicht: rechtwinkliges Dreieck mit Gegenkathete $80$ (Mast) und Ankathete $30$ (Boden):\n\n$\\tan\\beta=\\dfrac{80}{30}$, $\\beta\\approx69{,}44^\\circ$\n\nKontrolle: $20{,}56^\\circ+69{,}44^\\circ=90^\\circ$ – die beiden Winkel ergänzen sich im rechtwinkligen Dreieck."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\overrightarrow{PQ}=\\begin{pmatrix} 3 \\\\ 4 \\\\ 0 \\end{pmatrix}$. Mast: $\\begin{pmatrix} 3 \\\\ 4 \\\\ 0 \\end{pmatrix}\\cdot\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}=0$ – senkrecht.\n\nSeil: $\\begin{pmatrix} 3 \\\\ 4 \\\\ 0 \\end{pmatrix}\\cdot\\begin{pmatrix} 30 \\\\ 0 \\\\ -40 \\end{pmatrix}=90\\neq0$ – nicht senkrecht."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$|OM|=40$, $|OA_1|=30$, $|MA_1|=50$: $30^2+40^2=900+1600=2500=50^2$.\n\nDas Dreieck ist rechtwinklig; der rechte Winkel liegt bei O gegenüber der längsten Seite."
+        },
+        {
+          "id": "V2-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$|A_1A_2|=\\sqrt{45^2+26^2}=\\sqrt{2701}\\approx51{,}97$, $|A_1A_3|=\\sqrt{45^2+26^2}\\approx51{,}97$, $|A_2A_3|=52$\n\nZwei Seiten sind gleich lang: gleichschenklig. Weil $\\sqrt{2701}\\neq52$, ist es nicht exakt gleichseitig – die Abweichung beträgt nur etwa $3\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "V2-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\vec k=\\vec s+\\tfrac14\\cdot\\overrightarrow{SA_1}=\\begin{pmatrix} 0 \\\\ 0 \\\\ 80 \\end{pmatrix}+\\begin{pmatrix} 7{,}5 \\\\ 0 \\\\ -20 \\end{pmatrix}=\\begin{pmatrix} 7{,}5 \\\\ 0 \\\\ 60 \\end{pmatrix}$, also $K(7{,}5 \\mid 0 \\mid 60)$."
+        },
+        {
+          "id": "V2-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Nach außen: $\\overrightarrow{SA}=\\begin{pmatrix} 33 \\\\ 0 \\\\ -80 \\end{pmatrix}$, $\\cos\\varphi=\\dfrac{6400}{80\\cdot\\sqrt{7489}}\\approx0{,}9244$, $\\varphi\\approx22{,}42^\\circ$\n\nErdwall: $\\overrightarrow{SA}=\\begin{pmatrix} 30 \\\\ 0 \\\\ -76 \\end{pmatrix}$, $\\cos\\varphi=\\dfrac{6080}{80\\cdot\\sqrt{6676}}\\approx0{,}9302$, $\\varphi\\approx21{,}54^\\circ$\n\nDas Versetzen nach außen vergrößert den Winkel stärker (vorher $20{,}56^\\circ$).\n\nBegründung: Im Seitenriss gilt $\\tan\\varphi=\\dfrac{\\text{Abstand}}{\\text{Höhenunterschied}}$. Der Winkel wird größer, wenn der Abstand wächst oder der Höhenunterschied schrumpft. 3 m sind ein Zehntel des Abstands (30 m), 4 m nur ein Zwanzigstel des Höhenunterschieds (80 m) – deshalb wirkt das Versetzen nach außen stärker."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Rohrleitungen in einer Werkhalle",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c5",
+        "c7",
+        "c2",
+        "c4",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR zugelassen, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Punkte und Vektoren, Längen und Winkel, Geraden) – am besten nach N6 bis N9.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Rohrleitungen.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\overrightarrow{P_1P_2}=\\begin{pmatrix} 6 \\\\ 24 \\\\ 0 \\end{pmatrix}=6\\cdot\\begin{pmatrix} 1 \\\\ 4 \\\\ 0 \\end{pmatrix}$\n\n$r_1:\\ \\vec x=\\begin{pmatrix} 2 \\\\ 0 \\\\ 6 \\end{pmatrix}+r\\cdot\\begin{pmatrix} 1 \\\\ 4 \\\\ 0 \\end{pmatrix},\\ r\\in\\mathbb{R}$ (oder mit $\\begin{pmatrix} 6 \\\\ 24 \\\\ 0 \\end{pmatrix}$ als Richtungsvektor)."
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "I: $5=2+r$, $r=3$; II: $12=4r$, $r=3$; III: $6=6$ – wahr. H sitzt an Rohr 1 ($r=3$)."
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$|\\overrightarrow{P_1P_2}|=\\sqrt{36+576+0}=\\sqrt{612}\\approx24{,}74\\,\\mathrm m$"
+        },
+        {
+          "id": "V3-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Pro Schritt $s=1$: waagerecht $\\sqrt{(-2)^2+1^2}=\\sqrt5\\approx2{,}236\\,\\mathrm m$, nach oben $0{,}25\\,\\mathrm m$.\n\n$\\tan\\alpha=\\dfrac{0{,}25}{\\sqrt5}\\approx0{,}1118$, also $\\alpha\\approx6{,}38^\\circ$."
+        },
+        {
+          "id": "V3-1e",
+          "label": "1e",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$\\begin{pmatrix} -2 \\\\ 1 \\\\ 0{,}25 \\end{pmatrix}$ ist kein Vielfaches von $\\begin{pmatrix} 1 \\\\ 4 \\\\ 0 \\end{pmatrix}$ (dritte Zeile): nicht parallel.\n\nGleichsetzen: I: $2+r=12-2s$, II: $4r=2+s$, III: $6=5+0{,}25s$\n\nAus III: $s=4$; aus II: $r=1{,}5$. Probe I: $3{,}5\\neq12-8=4$ – falsche Aussage.\n\nDie Rohre sind windschief: Sie kreuzen sich, ohne sich zu berühren."
+        },
+        {
+          "id": "V3-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\begin{pmatrix} 2 \\\\ 8 \\\\ 0 \\end{pmatrix}=2\\cdot\\begin{pmatrix} 1 \\\\ 4 \\\\ 0 \\end{pmatrix}$: kollinear, also parallel.\n\nPunktprobe $(2 \\mid 0 \\mid 6{,}5)$ in Rohr 1: III: $6{,}5=6$ – falsch. Parallel und verschieden (Rohr 4 verläuft $0{,}5\\,\\mathrm m$ über Rohr 1)."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "B liegt auf Rohr 1: II: $16=4r$, $r=4$; III: $6=6$ – wahr; I: $b_1=2+4=6$.\n\n$B(6 \\mid 16 \\mid 6)$"
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\overrightarrow{WB}=\\begin{pmatrix} 6 \\\\ 6 \\\\ 0 \\end{pmatrix}$, $\\overrightarrow{P_1P_2}=\\begin{pmatrix} 6 \\\\ 24 \\\\ 0 \\end{pmatrix}$, Skalarprodukt $36+144=180$\n\n$\\varphi=\\arccos\\dfrac{180}{\\sqrt{72}\\cdot\\sqrt{612}}\\approx\\arccos0{,}8575\\approx30{,}96^\\circ$"
+        },
+        {
+          "id": "V3-2c",
+          "label": "2c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Begründung trägt nicht: Rohr 2 steigt an und erreicht die Höhe $6\\,\\mathrm m$ bei $s=4$, im Punkt $(4 \\mid 6 \\mid 6)$. In dieser Höhe könnte es Rohr 3 treffen.\n\nPrüfen: Rohr 3: $\\vec x=\\begin{pmatrix} 0 \\\\ 10 \\\\ 6 \\end{pmatrix}+t\\cdot\\begin{pmatrix} 6 \\\\ 6 \\\\ 0 \\end{pmatrix}$. Für $x_1=4$ ist $t=\\tfrac23$ und $x_2=10+4=14\\neq6$. Der Punkt liegt nicht auf Rohr 3.\n\nDie Aussage stimmt also (keine Berührung), ihre Begründung aber nicht."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Komplexaufgabe: Ausstellungsrahmen aus Traversen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 35,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c10",
+        "c11",
+        "c8",
+        "c9",
+        "c5",
+        "c6",
+        "c7",
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR zugelassen, 35 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 4 (Punkte und Vektoren, Längen und Winkel, Geraden, Matrizen) – am besten nach N10.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Komplexaufgabe_Traversen.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$C(0 \\mid 6 \\mid 0)$, $F(4 \\mid 6 \\mid 3)$, $G(0 \\mid 6 \\mid 3)$"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\overrightarrow{AG}=\\begin{pmatrix} -4 \\\\ 6 \\\\ 3 \\end{pmatrix}$, $|\\overrightarrow{AG}|=\\sqrt{16+36+9}=\\sqrt{61}\\approx7{,}81\\,\\mathrm m$"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Strebe steigt auf $\\sqrt{61}\\,\\mathrm m$ Länge um $3\\,\\mathrm m$; im rechtwinkligen Dreieck aus Strebe, Höhe und Bodenstrecke AC gilt:\n\n$\\sin\\alpha=\\dfrac{3}{\\sqrt{61}}\\approx0{,}3841$, $\\alpha\\approx22{,}59^\\circ$\n\nGleichwertig mit dem Skalarprodukt: Winkel zwischen $\\overrightarrow{AG}$ und $\\overrightarrow{AC}=\\begin{pmatrix} -4 \\\\ 6 \\\\ 0 \\end{pmatrix}$: $\\cos\\alpha=\\dfrac{52}{\\sqrt{61}\\cdot\\sqrt{52}}$."
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\overrightarrow{DG}=\\begin{pmatrix} 0 \\\\ 6 \\\\ 3 \\end{pmatrix}$, $|\\overrightarrow{DG}|=\\sqrt{45}\\approx6{,}71\\,\\mathrm m$\n\nDas 6-m-Seil ist zu kurz; man braucht das 7-m-Seil."
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E(4 \\mid 0 \\mid 3)$, $\\overrightarrow{EF}=\\begin{pmatrix} 0 \\\\ 6 \\\\ 0 \\end{pmatrix}$\n\n$\\vec l_1=\\vec e+\\tfrac13\\overrightarrow{EF}=\\begin{pmatrix} 4 \\\\ 2 \\\\ 3 \\end{pmatrix}$, $\\vec l_2=\\vec e+\\tfrac23\\overrightarrow{EF}=\\begin{pmatrix} 4 \\\\ 4 \\\\ 3 \\end{pmatrix}$"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$\\ell_1:\\ \\vec x=\\begin{pmatrix} 4 \\\\ 2 \\\\ 3 \\end{pmatrix}+r\\cdot\\begin{pmatrix} -3 \\\\ 1 \\\\ -2 \\end{pmatrix}$, $\\ell_2:\\ \\vec x=\\begin{pmatrix} 4 \\\\ 4 \\\\ 3 \\end{pmatrix}+s\\cdot\\begin{pmatrix} -3 \\\\ -1 \\\\ -2 \\end{pmatrix}$ (nicht kollinear)\n\nI: $4-3r=4-3s$, II: $2+r=4-s$, III: $3-2r=3-2s$\n\nAus I: $r=s$; in II: $2r=2$, also $r=s=1$; Probe III: $1=1$ – wahr.\n\nSchnittpunkt $X(1 \\mid 3 \\mid 1)$: in $1\\,\\mathrm m$ Höhe, also auf der Oberseite der Vitrine. Beide Scheinwerfer beleuchten dieselbe Stelle des Ausstellungsstücks."
+        },
+        {
+          "id": "V4-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\vec u\\cdot\\vec v=9-1+4=12$, $|\\vec u|=|\\vec v|=\\sqrt{14}$: $\\varphi=\\arccos\\dfrac{12}{14}\\approx31{,}00^\\circ$\n\n$\\vec u\\cdot\\overrightarrow{EF}=\\begin{pmatrix} -3 \\\\ 1 \\\\ -2 \\end{pmatrix}\\cdot\\begin{pmatrix} 0 \\\\ 6 \\\\ 0 \\end{pmatrix}=6\\neq0$: nicht senkrecht."
+        },
+        {
+          "id": "V4-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Neuer Zielpunkt $(1 \\mid 4 \\mid 1)$. Rückwärts entlang der festen Richtungen: $\\begin{pmatrix} 1 \\\\ 4 \\\\ 1 \\end{pmatrix}-\\begin{pmatrix} -3 \\\\ 1 \\\\ -2 \\end{pmatrix}=\\begin{pmatrix} 4 \\\\ 3 \\\\ 3 \\end{pmatrix}$ und $\\begin{pmatrix} 1 \\\\ 4 \\\\ 1 \\end{pmatrix}-\\begin{pmatrix} -3 \\\\ -1 \\\\ -2 \\end{pmatrix}=\\begin{pmatrix} 4 \\\\ 5 \\\\ 3 \\end{pmatrix}$ – beide liegen auf EF ($x_1=4$, $x_3=3$).\n\nBegründung: Verschiebt man den Zielpunkt um $\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}$, verschiebt sich jede Lichtachse mit fester Richtung um denselben Vektor. Weil $\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix}$ in Richtung der Traverse EF zeigt, reicht es, beide Scheinwerfer um $1\\,\\mathrm m$ entlang EF zu versetzen."
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "A hat 4 Zeilen (Bauteile) und 3 Spalten (Rahmen): $4\\times3$-Matrix.\n\n$a_{21}=12$: Für einen Rahmen S braucht man zwölf 3-m-Traversen."
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die 4 senkrechten Kanten sind $3\\,\\mathrm m$ lang: 4 Traversen. Die 4 Kanten in $x_2$-Richtung sind $6\\,\\mathrm m$ lang: je zwei 3-m-Traversen, also 8. Zusammen $4+8=12$. (Die 4 Kanten mit $4\\,\\mathrm m$ bestehen aus je zwei 2-m-Traversen: 8.)"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\vec x=\\begin{pmatrix} 3 \\\\ 2 \\\\ 1 \\end{pmatrix}$\n\n$$\\vec y=\\begin{pmatrix} 8 & 10 & 14 \\\\ 12 & 16 & 20 \\\\ 8 & 12 & 16 \\\\ 4 & 6 & 8 \\end{pmatrix}\\cdot\\begin{pmatrix} 3 \\\\ 2 \\\\ 1 \\end{pmatrix}=\\begin{pmatrix} 24+20+14 \\\\ 36+32+20 \\\\ 24+24+16 \\\\ 12+12+8 \\end{pmatrix}=\\begin{pmatrix} 58 \\\\ 88 \\\\ 64 \\\\ 32 \\end{pmatrix}$$"
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$N+J=\\begin{pmatrix} 3 & 2 \\\\ 3 & 2 \\\\ 2 & 1 \\end{pmatrix}$ (Bestellungen beider Monate je Filiale)\n\nJuli: $2\\cdot J=\\begin{pmatrix} 2 & 2 \\\\ 4 & 2 \\\\ 2 & 2 \\end{pmatrix}$\n\nKontrolle: Die Zeilensummen von N ergeben die Mai-Bestellung $\\begin{pmatrix} 3 \\\\ 2 \\\\ 1 \\end{pmatrix}$ aus c), die von J die Juni-Bestellung $\\begin{pmatrix} 2 \\\\ 3 \\\\ 2 \\end{pmatrix}$."
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$A\\cdot\\begin{pmatrix} 2 \\\\ 3 \\\\ 2 \\end{pmatrix}=\\begin{pmatrix} 16+30+28 \\\\ 24+48+40 \\\\ 16+36+32 \\\\ 8+18+16 \\end{pmatrix}=\\begin{pmatrix} 74 \\\\ 112 \\\\ 84 \\\\ 42 \\end{pmatrix}$\n\nEs fehlen 4 Traversen 2 m ($74>70$); alles andere reicht."
+        },
+        {
+          "id": "V4-3f",
+          "label": "3f",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ja. Jede Zeile wird „Zeile mal Spalte“ gerechnet; für die Summe zweier Vektoren darf man wie bei Zahlen ausmultiplizieren (Distributivgesetz).\n\nKontrolle: $A\\cdot\\begin{pmatrix} 5 \\\\ 5 \\\\ 3 \\end{pmatrix}=\\begin{pmatrix} 132 \\\\ 200 \\\\ 148 \\\\ 74 \\end{pmatrix}$ und $\\begin{pmatrix} 58 \\\\ 88 \\\\ 64 \\\\ 32 \\end{pmatrix}+\\begin{pmatrix} 74 \\\\ 112 \\\\ 84 \\\\ 42 \\end{pmatrix}=\\begin{pmatrix} 132 \\\\ 200 \\\\ 148 \\\\ 74 \\end{pmatrix}$."
+        },
+        {
+          "id": "V4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Traversen sind Gitterträger mit etwa $30\\,\\mathrm{cm}$ Querschnitt; die Eckpunkte des Modells liegen in ihrer Mitte. Für Längen von mehreren Metern ist der Fehler klein, bei Anschlüssen (Seillänge, Abstand zur Vitrine) muss man ihn berücksichtigen.\n\nEin Scheinwerfer erzeugt einen Lichtkegel, keinen Strahl. Die Gerade beschreibt nur seine Achse: Ob die Achsen sich genau treffen, ist für die Ausleuchtung weniger wichtig als die Größe des Lichtflecks. Für das Ausrichten ist das Modell trotzdem brauchbar."
+        }
+      ]
+    }
+  ]
+}
