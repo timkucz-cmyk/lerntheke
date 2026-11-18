@@ -1,0 +1,1035 @@
+{
+  "version": 1,
+  "titel": "Körper – Training vor der Klassenarbeit",
+  "fach": "mathe",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind klassenarbeitsrelevant. Bist du bei Pythagoras, Kreis, Prisma und Zylinder, beim Umstellen von Formeln oder bei Sinus, Kosinus und Tangens unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt Zylinder, Prisma und das Umstellen auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Pyramide), V2 nach N3 bis N5 (Kegel und Kugel), V3 nach N6 bis N8 (zusammengesetzte Körper). Taschenrechner und Geodreieck sind erlaubt, außer im Tandem N5 (ohne Taschenrechner, Ergebnisse mit π). Dein Regelheft darfst du benutzen.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Mit dem Satz des Pythagoras fehlende Längen berechnen, auch die Raumdiagonale eines Quaders"
+    },
+    {
+      "id": "g2",
+      "text": "Umfang und Flächeninhalt eines Kreises berechnen, auch den Radius aus dem Flächeninhalt"
+    },
+    {
+      "id": "g3",
+      "text": "Volumen und Oberflächeninhalt von Prismen und Zylindern berechnen und ihre Netze beschreiben"
+    },
+    {
+      "id": "g4",
+      "text": "Formeln nach einer Größe umstellen, auch mit Quadrat und dritter Potenz (Wurzel ziehen)"
+    },
+    {
+      "id": "g5",
+      "text": "Längen-, Flächen- und Volumeneinheiten umrechnen (cm³, dm³, Liter, m³)"
+    },
+    {
+      "id": "g6",
+      "text": "Seiten und Winkel im rechtwinkligen Dreieck mit Sinus, Kosinus und Tangens (und arcsin, arccos, arctan) berechnen"
+    },
+    {
+      "id": "c1",
+      "text": "Körper nach ihren Flächen (eben/gekrümmt) und ihrer Form (spitz/stumpf) ordnen, Pyramiden beschreiben (Grundfläche, Spitze, Seitenflächen, Seitenkanten, Höhe, Seitenhöhe), ihre Netze skizzieren und Schrägbilder lesen"
+    },
+    {
+      "id": "c2",
+      "text": "In Pyramiden und Kegeln die rechtwinkligen Hilfsdreiecke nutzen, um Höhen, Kanten und Winkel zu berechnen"
+    },
+    {
+      "id": "c3",
+      "text": "Mantelfläche, Oberflächeninhalt und Volumen gerader quadratischer und rechteckiger Pyramiden berechnen"
+    },
+    {
+      "id": "c4",
+      "text": "Aus Volumen oder Oberflächeninhalt eine fehlende Länge berechnen (rückwärts rechnen)"
+    },
+    {
+      "id": "c5",
+      "text": "Den Mantel eines Kegels als Kreisausschnitt verstehen: Flächeninhalt, Bogenlänge und Mittelpunktswinkel berechnen"
+    },
+    {
+      "id": "c6",
+      "text": "Mantelfläche, Oberflächeninhalt und Volumen von Kegeln berechnen"
+    },
+    {
+      "id": "c7",
+      "text": "Volumen und Oberflächeninhalt von Kugeln berechnen, auch den Radius aus Volumen oder Oberflächeninhalt"
+    },
+    {
+      "id": "c8",
+      "text": "Beschreiben, wie sich Volumen und Oberflächeninhalt ändern, wenn Längen vervielfacht werden"
+    },
+    {
+      "id": "c9",
+      "text": "Volumen und Oberflächeninhalt zusammengesetzter und ausgehöhlter Körper berechnen"
+    },
+    {
+      "id": "c10",
+      "text": "Sachprobleme mit Körpern modellieren (Material, Füllmenge, Masse, Kosten) und das Ergebnis beurteilen"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 9 und 10",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Pyramide",
+      "untertitel": "Hilfsdreiecke, Oberfläche, Volumen",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Kegel und Kugel",
+      "untertitel": "Kreisausschnitt, Formeln, Vervielfachen",
+      "farbe": "orange",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c7",
+        "c8"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Zusammengesetzte Körper",
+      "untertitel": "Zerlegen, Aushöhlen, Modellieren",
+      "farbe": "gruen",
+      "checkliste": [
+        "c9",
+        "c10"
+      ]
+    }
+  ],
+  "abschluss": "Klassenarbeit",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit mit Taschenrechner, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2; zu jedem Block nennt die Lösung, wo du das Wissen wieder brauchst.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$c^2 = 7^2 + 24^2 = 49 + 576 = 625$, also $c = 25\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Diagonale der Grundfläche: $d^2 = 3^2 + 4^2 = 25$, also $d = 5\\,\\mathrm{cm}$.\n\nDie Raumdiagonale ist die Hypotenuse im Dreieck aus $d$ und der Höhe: $e^2 = 5^2 + 12^2 = 169$, also $e = 13\\,\\mathrm{cm}$.\n\n1 P Grundflächendiagonale, 1 P Raumdiagonale.\n\nHilfsdreiecke in Körpern brauchst du wieder in **N1** Aufgabe 4."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$u = \\pi \\cdot d = \\pi \\cdot 10\\,\\mathrm{cm} \\approx 31{,}42\\,\\mathrm{cm}$ (oder $u = 2 \\cdot \\pi \\cdot r$ mit $r = 5\\,\\mathrm{cm}$)."
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\pi \\cdot r^2 = 50 \\quad \\Rightarrow \\quad r^2 = \\frac{50}{\\pi} \\approx 15{,}92 \\quad \\Rightarrow \\quad r \\approx 3{,}99\\,\\mathrm{cm}$\n\nGrundkreise brauchst du für Kegel (**N3**) und Zylinder (**N6**)."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Grundfläche: $G = \\frac{1}{2} \\cdot 6 \\cdot 8 = 24$, also $G = 24\\,\\mathrm{cm^2}$.\n\n$V = G \\cdot H = 24\\,\\mathrm{cm^2} \\cdot 5\\,\\mathrm{cm} = 120\\,\\mathrm{cm^3}$\n\nMantel: drei Rechtecke, zusammen $(6 + 8 + 10) \\cdot 5 = 120$, also $M = 120\\,\\mathrm{cm^2}$.\n\n$O = 2 \\cdot G + M = 48\\,\\mathrm{cm^2} + 120\\,\\mathrm{cm^2} = 168\\,\\mathrm{cm^2}$\n\n1 P Volumen, 1 P Oberflächeninhalt."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$V = \\pi \\cdot r^2 \\cdot H = \\pi \\cdot 16 \\cdot 10 = 160\\pi \\approx 502{,}65$, also $V \\approx 502{,}65\\,\\mathrm{cm^3}$.\n\nÜben: **G2** Aufgabe 1 und 2."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Durch $\\pi \\cdot H$ teilen: $r^2 = \\frac{V}{\\pi \\cdot H}$. Wurzel ziehen ($r > 0$):\n\n$$r = \\sqrt{\\frac{V}{\\pi \\cdot H}}$$\n\nUmstellen brauchst du in **N2** Aufgabe 3 und **N4** Aufgabe 2. Üben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x = \\sqrt[3]{343} = 7$, denn $7 \\cdot 7 \\cdot 7 = 343$.\n\nDie dritte Wurzel brauchst du, wenn der Kugelradius aus dem Volumen gesucht ist (**N4**)."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$1\\,\\mathrm{l} = 1\\,\\mathrm{dm^3} = 1000\\,\\mathrm{cm^3}$, also $2{,}5\\,\\mathrm{l} = 2500\\,\\mathrm{cm^3}$ und $1{,}2\\,\\mathrm{dm^3} = 1200\\,\\mathrm{cm^3}$.\n\nJe 0,5 P."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$1\\,\\mathrm{m^3} = 1000\\,\\mathrm{dm^3} = 1000\\,\\mathrm{l}$, also $0{,}8\\,\\mathrm{m^3} = 800\\,\\mathrm{l}$.\n\n$1\\,\\mathrm{m^2} = 10\\,000\\,\\mathrm{cm^2}$, also $3500\\,\\mathrm{cm^2} = 0{,}35\\,\\mathrm{m^2}$.\n\nJe 0,5 P. Üben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sin(\\alpha) = \\frac{5}{8} = 0{,}625 \\quad \\Rightarrow \\quad \\alpha = \\arcsin(0{,}625) \\approx 38{,}7°$"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\tan(\\alpha) = \\frac{\\text{Gegenkathete}}{\\text{Ankathete}}$, also Gegenkathete $= 6\\,\\mathrm{cm} \\cdot \\tan(35°) \\approx 4{,}20\\,\\mathrm{cm}$.\n\nWinkel in Pyramiden berechnest du in **N1** Aufgabe 4. Üben: Lerntheke Trigonometrie, Station „Seiten und Winkel im rechtwinkligen Dreieck“."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Zylinder, Prisma und Umstellen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "g3",
+        "g4",
+        "g5",
+        "g1"
+      ],
+      "kategorie": "grundlagen",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Zylinder_Prisma_Umstellen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die lange Rechteckseite ist der Umfang des Grundkreises: $u = 2 \\cdot \\pi \\cdot r$.\n\n$r = \\frac{37{,}7\\,\\mathrm{cm}}{2 \\cdot \\pi} \\approx 6{,}0\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$V = \\pi \\cdot r^2 \\cdot H = \\pi \\cdot 6^2 \\cdot 20 = 720\\pi \\approx 2262$, also $V \\approx 2262\\,\\mathrm{cm^3}$ (etwa 2,26 Liter)."
+        },
+        {
+          "id": "G2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$r = 6\\,\\mathrm{cm}$, $V = \\pi \\cdot 6^2 \\cdot 25 = 900\\pi \\approx 2827$, also $V \\approx 2827\\,\\mathrm{cm^3}$.\n\nMit $1000\\,\\mathrm{cm^3} = 1\\,\\mathrm{l}$: etwa **2,83 Liter**.\n\n1 P Volumen, 1 P Umrechnung.\n\n*Mit dem Durchmesser statt dem Radius gerechnet?* Das ergibt das Vierfache. → **N7** Aufgabe 2"
+        },
+        {
+          "id": "G2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$G = \\frac{1}{2} \\cdot 5 \\cdot 4 = 10$, also $G = 10\\,\\mathrm{cm^2}$.\n\n$V = G \\cdot H \\quad \\Rightarrow \\quad H = \\frac{V}{G} = \\frac{75}{10} = 7{,}5$, also $H = 7{,}5\\,\\mathrm{cm}$.\n\n1 P Grundfläche, 1 P Höhe. Genauso rechnest du bei Pyramiden rückwärts (**N2** Aufgabe 3)."
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Längsschnitt durch die Achse: ein Rechteck, 8 cm breit und 15 cm lang. Der längste Stab liegt auf der Diagonale.\n\n$x^2 = 8^2 + 15^2 = 64 + 225 = 289$, also $x = 17\\,\\mathrm{cm}$.\n\n1 P Idee Diagonale im Längsschnitt, 1 P Länge."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Pyramiden: Aufbau, Netz und Hilfsdreiecke",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Geodreieck",
+      "checkliste": [
+        "c1",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Pyramiden_Aufbau.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "| | spitz | stumpf | weder spitz noch stumpf |\n|---|---|---|---|\n| nur ebene Flächen | E (Pyramide) | A (Würfel), D (Prisma) | – |\n| auch gekrümmte Flächen | B (Kegel) | F (Zylinder) | C (Kugel) |\n\nSpitze Körper (Pyramide, Kegel) laufen von der Grundfläche zu einer Spitze $S$ zusammen. Für sie gilt dieselbe Volumenformel $V = \\frac{1}{3} \\cdot G \\cdot H$.\n\n1 P, wenn alle sechs Körper richtig stehen; 0,5 P bei einem Fehler."
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "1: Höhe $H$ (von der Spitze senkrecht auf den Mittelpunkt der Grundfläche)\n\n2: Seitenhöhe $h_s$ (von der Spitze senkrecht auf die Mitte einer Grundkante, liegt in einer Seitenfläche)\n\n3: Seitenkante $s$ (von einer Ecke der Grundfläche zur Spitze)\n\n4: Grundkante $a$\n\nJe zwei richtig 0,5 P."
+        },
+        {
+          "id": "N1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "A: ja – an jeder Seite des Quadrats hängt ein Dreieck.\n\nB: nein – es fehlt ein Dreieck (eine quadratische Pyramide hat vier Seitenflächen).\n\nC: ja – die vier Dreiecke hängen fächerförmig aneinander, ihre Spitzen treffen sich beim Falten in $S$.\n\nD: nein – ein Dreieck zu viel (fünf Seitenflächen).\n\nJe Netz 0,5 P."
+        },
+        {
+          "id": "N1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Hilfsdreieck aus $H$, der halben Grundkante $\\frac{a}{2} = 3\\,\\mathrm{cm}$ und $h_s$ (rechter Winkel am Fußpunkt der Höhe):\n\n$h_s^2 = H^2 + \\left(\\frac{a}{2}\\right)^2 = 16 + 9 = 25$, also $h_s = 5\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Hilfsdreieck in der Seitenfläche aus $h_s$, $\\frac{a}{2}$ und $s$:\n\n$s^2 = h_s^2 + \\left(\\frac{a}{2}\\right)^2 = 25 + 9 = 34$, also $s = \\sqrt{34} \\approx 5{,}83\\,\\mathrm{cm}$.\n\nAuch richtig: mit $H$ und der halben Diagonale $\\frac{d}{2} = 3\\sqrt{2} \\approx 4{,}24$: $s^2 = 16 + 18 = 34$."
+        },
+        {
+          "id": "N1-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Im Hilfsdreieck aus a): $\\tan(\\beta) = \\frac{H}{a/2} = \\frac{4}{3}$, also $\\beta \\approx 53{,}1°$."
+        },
+        {
+          "id": "N1-4d",
+          "label": "4d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Hilfsdreieck aus $H$, der halben Diagonale und $s$: $\\tan(\\varepsilon) = \\frac{4}{3\\sqrt{2}} \\approx 0{,}943$, also $\\varepsilon \\approx 43{,}3°$.\n\n(Auch: $\\sin(\\varepsilon) = \\frac{H}{s} = \\frac{4}{\\sqrt{34}}$.)\n\n*Unsicher bei sin, cos, tan?* Üben: Lerntheke Trigonometrie."
+        },
+        {
+          "id": "N1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Quadrat mit $a = 6\\,\\mathrm{cm}$, an jeder Seite ein gleichschenkliges Dreieck mit der Grundseite $6\\,\\mathrm{cm}$ und der Höhe $h_s = 5\\,\\mathrm{cm}$ (Schenkel $s \\approx 5{,}83\\,\\mathrm{cm}$). Eine Skizze muss nicht maßstäblich sein.",
+          "loesung_bild": "img/N1-5.png"
+        },
+        {
+          "id": "N1-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Im Hilfsdreieck aus $H$, $\\frac{a}{2}$ und $h_s$ ist $h_s$ die Hypotenuse, also länger als die Kathete $H$. Im Hilfsdreieck aus $h_s$, $\\frac{a}{2}$ und $s$ ist $s$ die Hypotenuse, also länger als $h_s$.\n\nDie Hypotenuse ist immer die längste Seite im rechtwinkligen Dreieck."
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Pyramiden: Oberfläche und Volumen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Pyramiden_Oberflaeche_Volumen.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Seitenhöhe: $h_s^2 = 3^2 + 4^2 = 25$, also $h_s = 5\\,\\mathrm{cm}$.\n\n$G = 8^2 = 64\\,\\mathrm{cm^2}$, Mantel aus vier Dreiecken: $M = 4 \\cdot \\frac{1}{2} \\cdot 8 \\cdot 5 = 80\\,\\mathrm{cm^2}$.\n\n$O = G + M = 64\\,\\mathrm{cm^2} + 80\\,\\mathrm{cm^2} = 144\\,\\mathrm{cm^2}$\n\n$V = \\frac{1}{3} \\cdot G \\cdot H = \\frac{1}{3} \\cdot 64 \\cdot 3 = 64$, also $V = 64\\,\\mathrm{cm^3}$.\n\n1 P $h_s$, 1 P $O$, 1 P $V$.\n\n*Den Faktor ein Drittel vergessen?* → **N7** Aufgabe 1. *Seitenhöhe und Körperhöhe verwechselt?* → **N7** Aufgabe 4"
+        },
+        {
+          "id": "N2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Seitenflächen sind zwei Paare verschiedener Dreiecke mit verschiedenen Seitenhöhen.\n\nDreieck über $a = 6$: Der Fußpunkt der Höhe ist $\\frac{b}{2} = 2$ von der Kante entfernt, $h_a = \\sqrt{4^2 + 2^2} = \\sqrt{20} \\approx 4{,}47\\,\\mathrm{cm}$.\n\nDreieck über $b = 4$: Abstand $\\frac{a}{2} = 3$, $h_b = \\sqrt{4^2 + 3^2} = 5\\,\\mathrm{cm}$.\n\n$M = 2 \\cdot \\frac{1}{2} \\cdot 6 \\cdot \\sqrt{20} + 2 \\cdot \\frac{1}{2} \\cdot 4 \\cdot 5 \\approx 26{,}83 + 20 = 46{,}83$\n\n$O = 24 + 46{,}83 = 70{,}83$, also $O \\approx 70{,}83\\,\\mathrm{cm^2}$.\n\n1 P beide Seitenhöhen, 1 P Oberflächeninhalt."
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$V = \\frac{1}{3} \\cdot a^2 \\cdot H \\quad \\Rightarrow \\quad H = \\frac{3 \\cdot V}{a^2} = \\frac{300}{25} = 12$, also $H = 12\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$G = \\frac{3 \\cdot V}{H} = \\frac{3 \\cdot 96}{9} = 32$, also $G = 32\\,\\mathrm{cm^2}$.\n\n$G = 8 \\cdot b = 32 \\quad \\Rightarrow \\quad b = 4\\,\\mathrm{cm}$\n\n1 P Grundfläche, 1 P Seitenlänge.\n\n*Probleme beim Umstellen?* → **G2** Aufgabe 3"
+        },
+        {
+          "id": "N2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die sechs gleichen Pyramiden füllen den Würfel genau aus: $V_{Pyramide} = \\frac{1}{6} \\cdot a^3$.\n\nFür jede Pyramide ist $G = a^2$ und $H = \\frac{a}{2}$ (Abstand von $M$ zu jeder Fläche).\n\n$$\\frac{1}{3} \\cdot G \\cdot H = \\frac{1}{3} \\cdot a^2 \\cdot \\frac{a}{2} = \\frac{1}{6} \\cdot a^3 = V_{Pyramide}$$\n\n1 P $V = \\frac{1}{6} a^3$ aus der Zerlegung, 1 P Vergleich mit $\\frac{1}{3} \\cdot G \\cdot H$."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Kegel und Kreisausschnitt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Kegel_Kreisausschnitt.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$A_{Kreisausschnitt} = \\frac{150°}{360°} \\cdot \\pi \\cdot 12^2 = 60\\pi \\approx 188{,}50\\,\\mathrm{cm^2}$\n\n$b = \\frac{150°}{360°} \\cdot 2 \\cdot \\pi \\cdot 12 = 10\\pi \\approx 31{,}42\\,\\mathrm{cm}$\n\n1 P Flächeninhalt, 1 P Bogenlänge."
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Hilfsdreieck aus $r$, $H$ und $s$: $s^2 = 5^2 + 12^2 = 169$, also $s = 13\\,\\mathrm{cm}$.\n\n$O = \\pi \\cdot r^2 + \\pi \\cdot r \\cdot s = 25\\pi + 65\\pi = 90\\pi \\approx 282{,}74\\,\\mathrm{cm^2}$ (Mantelfläche $M = 65\\pi \\approx 204{,}20\\,\\mathrm{cm^2}$).\n\n1 P Mantellinie, 1 P Oberflächeninhalt.\n\n*Für den Mantel die Höhe statt der Mantellinie genommen?* → **N7** Aufgabe 3"
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$V_{Kegel} = \\frac{1}{3} \\cdot \\pi \\cdot 5^2 \\cdot 12 = 100\\pi \\approx 314{,}16\\,\\mathrm{cm^3}$\n\n$V_{Zylinder} = \\pi \\cdot 5^2 \\cdot 12 = 300\\pi \\approx 942{,}48\\,\\mathrm{cm^3}$\n\nDer Kegel hat genau ein Drittel des Zylindervolumens – wie die Pyramide ein Drittel des Prismas mit gleicher Grundfläche und Höhe: $V = \\frac{1}{3} \\cdot G \\cdot H$.\n\n1 P Kegelvolumen, 1 P Vergleich."
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Radius des Ausschnitts wird zur Mantellinie: $s = 12\\,\\mathrm{cm}$. Die Bogenlänge wird zum Umfang des Grundkreises:\n\n$2 \\cdot \\pi \\cdot r = 10\\pi \\quad \\Rightarrow \\quad r = 5\\,\\mathrm{cm}$\n\n$H = \\sqrt{s^2 - r^2} = \\sqrt{144 - 25} = \\sqrt{119} \\approx 10{,}91\\,\\mathrm{cm}$\n\n1 P Radius, 1 P Höhe."
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Bogenlänge des Mantels ist der Umfang des Grundkreises:\n\n$$\\frac{\\alpha}{360°} \\cdot 2 \\cdot \\pi \\cdot s = 2 \\cdot \\pi \\cdot r \\quad \\Rightarrow \\quad \\alpha = 360° \\cdot \\frac{r}{s}$$\n\nIm Hilfsdreieck ist $s$ die Hypotenuse, also $s > r$ und $\\frac{r}{s} < 1$. Deshalb ist $\\alpha < 360°$: Der Mantel ist immer kleiner als ein ganzer Kreis.\n\nProbe mit Aufgabe 3: $360° \\cdot \\frac{5}{12} = 150°$ ✓\n\n1 P Gleichung über Bogenlänge und Umfang, 1 P Begründung $s > r$."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Kugel und Vervielfachen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Kugel_Vervielfachen.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$V = \\frac{4}{3} \\cdot \\pi \\cdot 6^3 = 288\\pi \\approx 904{,}78\\,\\mathrm{cm^3}$\n\n$O = 4 \\cdot \\pi \\cdot 6^2 = 144\\pi \\approx 452{,}39\\,\\mathrm{cm^2}$\n\n1 P Volumen, 1 P Oberflächeninhalt.\n\n*Mit dem Durchmesser gerechnet?* → **N7** Aufgabe 2"
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$1\\,\\mathrm{l} = 1000\\,\\mathrm{cm^3}$.\n\n$\\frac{4}{3} \\cdot \\pi \\cdot r^3 = 1000 \\quad \\Rightarrow \\quad r^3 = \\frac{3000}{4 \\cdot \\pi} \\approx 238{,}73$\n\n$r = \\sqrt[3]{238{,}73} \\approx 6{,}20\\,\\mathrm{cm}$\n\n1 P nach $r^3$ umstellen, 1 P dritte Wurzel. *Unsicher beim Umstellen?* → **G2** Aufgabe 3"
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$4 \\cdot \\pi \\cdot r^2 = 100 \\quad \\Rightarrow \\quad r^2 = \\frac{100}{4 \\cdot \\pi} \\approx 7{,}96 \\quad \\Rightarrow \\quad r \\approx 2{,}82\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N4-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Radius wird mit $k = \\frac{30}{20} = 1{,}5$ multipliziert.\n\n$O = 4 \\cdot \\pi \\cdot r^2$ enthält $r^2$: Faktor $1{,}5^2 = 2{,}25$.\n\n$V = \\frac{4}{3} \\cdot \\pi \\cdot r^3$ enthält $r^3$: Faktor $1{,}5^3 = 3{,}375$.\n\nProbe: $O = 1600\\pi$ bzw. $3600\\pi$ ($\\frac{3600}{1600} = 2{,}25$), $V = \\frac{4}{3}\\pi \\cdot 8000$ bzw. $\\frac{4}{3}\\pi \\cdot 27\\,000$ ($\\frac{27\\,000}{8000} = 3{,}375$).\n\n1 P Faktor Oberfläche, 1 P Faktor Volumen mit Begründung über $r^2$ und $r^3$.\n\nWie bei ähnlichen Figuren: Längen mal $k$, Flächen mal $k^2$, Volumen mal $k^3$."
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "A gehört zu $O = 4 \\cdot \\pi \\cdot r^2$, B zu $V = \\frac{4}{3} \\cdot \\pi \\cdot r^3$.\n\nBegründung (eine genügt): Für $r > 3$ wächst $r^3$ schneller, B liegt dort oben. Oder: Für $r = 1$ ist $O = 4\\pi \\approx 12{,}6$ größer als $V \\approx 4{,}2$. Bei $r = 3$ sind beide gleich ($36\\pi \\approx 113$)."
+        },
+        {
+          "id": "N4-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**.\n\nDoppeltes Volumen heißt $k^3 = 2$, also $k = \\sqrt[3]{2} \\approx 1{,}26$ für den Radius. Die Folie (Oberfläche) wächst mit $k^2 = \\left(\\sqrt[3]{2}\\right)^2 \\approx 1{,}59$ – man braucht nur etwa 1,6-mal so viel Folie.\n\nZahlenbeispiel: $r = 20\\,\\mathrm{cm}$, $V \\approx 33\\,510\\,\\mathrm{cm^3}$, $O \\approx 5027\\,\\mathrm{cm^2}$. Doppeltes Volumen $67\\,021\\,\\mathrm{cm^3}$ ergibt $r \\approx 25{,}20\\,\\mathrm{cm}$ und $O \\approx 7979\\,\\mathrm{cm^2}$ (Faktor 1,59).\n\n1 P Urteil mit Faktor oder Beispiel, 1 P Begründung über $r^2$ und $r^3$."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Tandem: Pyramide, Kegel und Kugel",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c3",
+        "c2",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N5.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N5-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Eine Pyramide hat ein rechtwinkliges Dreieck mit den Katheten $6\\,\\mathrm{cm}$ und $4\\,\\mathrm{cm}$ als Grundfläche und ist $5\\,\\mathrm{cm}$ hoch. Gib ihr Volumen an.",
+          "tipp": "Erst die Grundfläche (halbes Rechteck), dann $V = \\frac{1}{3} \\cdot G \\cdot H$.",
+          "loesung": "$G = \\frac{1}{2} \\cdot 6 \\cdot 4 = 12\\,\\mathrm{cm^2}$, $V = \\frac{1}{3} \\cdot 12 \\cdot 5 = 20\\,\\mathrm{cm^3}$"
+        },
+        {
+          "id": "N5-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Ein Kegel hat den Radius $3\\,\\mathrm{cm}$ und die Höhe $4\\,\\mathrm{cm}$. Gib sein Volumen mit $\\pi$ an.",
+          "tipp": "$V = \\frac{1}{3} \\cdot \\pi \\cdot r^2 \\cdot H$ – das $\\frac{1}{3}$ nicht vergessen.",
+          "loesung": "$V = \\frac{1}{3} \\cdot \\pi \\cdot 9 \\cdot 4 = 12\\pi\\,\\mathrm{cm^3}$"
+        },
+        {
+          "id": "N5-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Eine Kugel hat den Radius $3\\,\\mathrm{cm}$. Gib ihr Volumen mit $\\pi$ an.",
+          "tipp": "$V = \\frac{4}{3} \\cdot \\pi \\cdot r^3$ und $3^3 = 27$.",
+          "loesung": "$V = \\frac{4}{3} \\cdot \\pi \\cdot 27 = 36\\pi\\,\\mathrm{cm^3}$"
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Eine Kugel hat den Radius $5\\,\\mathrm{cm}$. Gib ihren Oberflächeninhalt mit $\\pi$ an.",
+          "tipp": "$O = 4 \\cdot \\pi \\cdot r^2$",
+          "loesung": "$O = 4 \\cdot \\pi \\cdot 25 = 100\\pi\\,\\mathrm{cm^2}$"
+        },
+        {
+          "id": "N5-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Eine quadratische Pyramide hat die Grundkante $a = 10\\,\\mathrm{cm}$ und die Höhe $H = 12\\,\\mathrm{cm}$. Berechne die Seitenhöhe $h_s$.",
+          "tipp": "Hilfsdreieck aus $H$, der halben Grundkante und $h_s$.",
+          "loesung": "$h_s^2 = 12^2 + 5^2 = 144 + 25 = 169$, also $h_s = 13\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N5-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Kegel hat den Radius $8\\,\\mathrm{cm}$ und die Höhe $15\\,\\mathrm{cm}$. Berechne die Mantellinie $s$.",
+          "tipp": "Hilfsdreieck aus $r$, $H$ und $s$ – $s$ ist die Hypotenuse.",
+          "loesung": "$s^2 = 8^2 + 15^2 = 64 + 225 = 289$, also $s = 17\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N5-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Kegel hat das Volumen $48\\pi\\,\\mathrm{cm^3}$ und den Radius $4\\,\\mathrm{cm}$. Berechne seine Höhe.",
+          "tipp": "$\\frac{1}{3} \\cdot \\pi \\cdot 16 \\cdot H = 48\\pi$ – teile durch $\\pi$ und multipliziere mit 3.",
+          "loesung": "$16 \\cdot H = 144$, also $H = 9\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N5-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Eine Kugel hat den Oberflächeninhalt $64\\pi\\,\\mathrm{cm^2}$. Berechne ihren Radius.",
+          "tipp": "$4 \\cdot \\pi \\cdot r^2 = 64\\pi$ – teile durch $4\\pi$.",
+          "loesung": "$r^2 = 16$, also $r = 4\\,\\mathrm{cm}$"
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Zusammengesetzte und ausgehöhlte Körper",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c6",
+        "c7",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Zusammengesetzte_Koerper.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Grundkreis des Zylinders (unten), Mantel des Zylinders, Mantel des Kegels.\n\nDie Kontaktfläche zwischen Zylinder und Kegel (oberer Zylinderkreis = Grundkreis des Kegels) gehört **nicht** zur Oberfläche."
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$V_{Zylinder} = \\pi \\cdot 3^2 \\cdot 8 = 72\\pi$, $V_{Kegel} = \\frac{1}{3} \\cdot \\pi \\cdot 3^2 \\cdot 4 = 12\\pi$\n\n$V = 72\\pi + 12\\pi = 84\\pi \\approx 263{,}89\\,\\mathrm{cm^3}$\n\n1 P Teilvolumina, 1 P Summe."
+        },
+        {
+          "id": "N6-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mantellinie des Kegels: $s = \\sqrt{3^2 + 4^2} = 5\\,\\mathrm{cm}$.\n\n$O = \\pi \\cdot 3^2 + 2 \\cdot \\pi \\cdot 3 \\cdot 8 + \\pi \\cdot 3 \\cdot 5 = 9\\pi + 48\\pi + 15\\pi = 72\\pi \\approx 226{,}19\\,\\mathrm{cm^2}$\n\n1 P Mantellinie, 1 P Oberflächeninhalt ohne Kontaktfläche.\n\n*Beide Kreise mitgezählt?* Die Kontaktfläche liegt innen und gehört nicht zur Oberfläche."
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$V_{Mulde} = \\frac{1}{2} \\cdot \\frac{4}{3} \\cdot \\pi \\cdot 3^3 = 18\\pi \\approx 56{,}55\\,\\mathrm{cm^3}$, also etwa $56{,}5\\,\\mathrm{ml}$ ($1\\,\\mathrm{cm^3} = 1\\,\\mathrm{ml}$)."
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Quader: $22 \\cdot 14 \\cdot 4 = 1232\\,\\mathrm{cm^3}$. Sechs Mulden: $6 \\cdot 18\\pi = 108\\pi \\approx 339{,}29\\,\\mathrm{cm^3}$.\n\n$V = 1232 - 108\\pi \\approx 892{,}7\\,\\mathrm{cm^3}$\n\n1 P Quader und Mulden, 1 P Differenz."
+        },
+        {
+          "id": "N6-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Quader: $O_Q = 2 \\cdot (22 \\cdot 14 + 22 \\cdot 4 + 14 \\cdot 4) = 2 \\cdot 452 = 904\\,\\mathrm{cm^2}$.\n\nAn der Oberseite fallen sechs Kreise weg: $6 \\cdot \\pi \\cdot 3^2 = 54\\pi$. Dafür kommen sechs Halbkugelflächen dazu (Schnittflächen): $6 \\cdot \\frac{1}{2} \\cdot 4 \\cdot \\pi \\cdot 3^2 = 108\\pi$.\n\n$O = 904 - 54\\pi + 108\\pi = 904 + 54\\pi \\approx 1073{,}6\\,\\mathrm{cm^2}$\n\n1 P Quader und weggefallene Kreise, 1 P Halbkugelflächen und Ergebnis."
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**.\n\nGegenbeispiel Seifenform: Ohne Mulden hätte der Quader $904\\,\\mathrm{cm^2}$, mit Mulden $904 + 54\\pi \\approx 1073{,}6\\,\\mathrm{cm^2}$. Jede Mulde nimmt einen Kreis ($\\pi r^2$) weg, fügt aber eine Halbkugelfläche ($2\\pi r^2$) hinzu.\n\nDas Volumen wird beim Herausschneiden immer kleiner, die Oberfläche kann wachsen, gleich bleiben oder kleiner werden (z. B. wenn man eine Ecke ganz abschneidet).\n\n1 P Urteil mit Gegenbeispiel, 1 P Begründung über weggefallene und neue Flächen."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c3",
+        "c6",
+        "c7",
+        "c8"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Fehler: Beim Kegel fehlt der Faktor $\\frac{1}{3}$ (Ida hat das Zylindervolumen gerechnet).\n\nRichtig: $V_{Kegel} = \\frac{1}{3} \\cdot \\pi \\cdot 9 \\cdot 8 = 24\\pi$, $V = 24\\pi + 18\\pi = 42\\pi \\approx 131{,}95\\,\\mathrm{cm^3}$.\n\n1 P Fehler, 1 P richtiges Ergebnis."
+        },
+        {
+          "id": "N7-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Fehler: Nils hat den Durchmesser statt des Radius eingesetzt.\n\nRichtig: $r = 5\\,\\mathrm{cm}$, $V = \\frac{4}{3} \\cdot \\pi \\cdot 5^3 \\approx 523{,}60\\,\\mathrm{cm^3}$ (Nils’ Ergebnis ist $2^3 = 8$-mal zu groß).\n\n1 P Fehler, 1 P richtiges Ergebnis."
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: In $M = \\pi \\cdot r \\cdot s$ steht die Mantellinie $s$, nicht die Höhe $H$.\n\nRichtig: $s = \\sqrt{6^2 + 8^2} = 10\\,\\mathrm{cm}$, $M = \\pi \\cdot 6 \\cdot 10 = 60\\pi \\approx 188{,}50\\,\\mathrm{cm^2}$.\n\n1 P Fehler, 1 P richtiges Ergebnis."
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: In $V = \\frac{1}{3} \\cdot G \\cdot H$ steht die Körperhöhe $H$, nicht die Seitenhöhe $h_s$.\n\nRichtig: $H = \\sqrt{13^2 - 5^2} = \\sqrt{144} = 12\\,\\mathrm{cm}$, $V = \\frac{1}{3} \\cdot 100 \\cdot 12 = 400\\,\\mathrm{cm^3}$.\n\n1 P Fehler, 1 P richtiges Ergebnis."
+        },
+        {
+          "id": "N7-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Fehler: Der Radius steht in $V = \\frac{1}{3} \\cdot \\pi \\cdot r^2 \\cdot H$ im Quadrat. Halber Radius macht die Grundfläche $\\left(\\frac{1}{2}\\right)^2 = \\frac{1}{4}$-mal so groß.\n\nRichtig: $\\frac{1}{4} \\cdot 2 = \\frac{1}{2}$ – das Volumen halbiert sich.\n\nBeispiel: $r = 4$, $H = 3$: $V = 16\\pi$; $r = 2$, $H = 6$: $V = 8\\pi$.\n\n1 P Fehler ($r^2$), 1 P richtiger Faktor."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Modellieren: Lagern und Speichern",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c10",
+        "c7",
+        "c6",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Modellieren.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{4}{3} \\cdot \\pi \\cdot r^3 = 1000 \\quad \\Rightarrow \\quad r^3 = \\frac{3000}{4\\pi} \\approx 238{,}73 \\quad \\Rightarrow \\quad r \\approx 6{,}20\\,\\mathrm{m}$\n\n$d = 2 \\cdot r \\approx 12{,}41\\,\\mathrm{m}$\n\n1 P Radius, 1 P Durchmesser."
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$O = 4 \\cdot \\pi \\cdot r^2 \\approx 4 \\cdot \\pi \\cdot 6{,}20^2 \\approx 483{,}6\\,\\mathrm{m^2}$ (mit dem ungerundeten Radius).\n\nZwei Anstriche: $2 \\cdot 483{,}6 = 967{,}2\\,\\mathrm{m^2}$, Farbe: $967{,}2 : 8 \\approx 120{,}9$ Liter.\n\n$120{,}9 : 12{,}5 \\approx 9{,}7$, also **10 Eimer**.\n\n1 P Oberfläche, 1 P Farbmenge, 1 P Eimer (aufgerundet)."
+        },
+        {
+          "id": "N8-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Hilfsdreieck aus $r = 8\\,\\mathrm{m}$, $H$ und $s$: $\\tan(32°) = \\frac{H}{8}$, also $H = 8 \\cdot \\tan(32°) \\approx 5{,}00\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N8-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$V = \\frac{1}{3} \\cdot \\pi \\cdot 8^2 \\cdot H \\approx 335{,}0\\,\\mathrm{m^3}$ (mit dem ungerundeten $H$; mit $H = 5\\,\\mathrm{m}$ gerechnet: $335{,}1\\,\\mathrm{m^3}$)\n\n$m \\approx 335{,}0 \\cdot 1{,}2 \\approx 402\\,\\mathrm{t}$\n\n1 P Volumen, 1 P Masse."
+        },
+        {
+          "id": "N8-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$402 : 25 \\approx 16{,}1$ – mit 16 Fahrten bleibt ein Rest liegen, also **17 Fahrten** (aufrunden)."
+        },
+        {
+          "id": "N8-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Das Modell liefert eine brauchbare Größenordnung (etwa 400 t), aber keinen genauen Wert:\n\n- Ein echter Haufen ist kein exakter Kegel: Die Spitze ist abgeflacht, der Rand unregelmäßig, oft liegt er an einer Hallenwand an (dann eher ein halber Kegel).\n- Der Böschungswinkel schwankt mit der Feuchte des Salzes (etwa 30° bis 35°): Bei 30° wären es nur etwa 370 t, bei 35° etwa 450 t (das Ergebnis reagiert stark auf den Winkel).\n- Auch die Dichte 1,2 t/m³ ist ein Schätzwert.\n\n1 P zwei sinnvolle Modellannahmen kritisch, 1 P Folgerung zur Genauigkeit."
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Ein Dach für den Spielturm",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c1",
+        "c2",
+        "c4",
+        "g1",
+        "g6",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, mit Taschenrechner. Vernetzt die Grundlagen mit Phase 1 (Pyramide) – am besten nach N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Spielturm.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$h_s^2 = 1{,}20^2 + 0{,}90^2 = 1{,}44 + 0{,}81 = 2{,}25$, also $h_s = 1{,}50\\,\\mathrm{m}$."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Vier gleichschenklige Dreiecke mit der Grundseite $1{,}80\\,\\mathrm{m}$ und der Höhe $1{,}50\\,\\mathrm{m}$, fächerförmig mit gemeinsamer Spitze aneinandergesetzt (auch richtig: vier einzelne Dreiecke).",
+          "loesung_bild": "img/V1-1b.png"
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$M = 4 \\cdot \\frac{1}{2} \\cdot 1{,}80 \\cdot 1{,}50 = 5{,}40\\,\\mathrm{m^2}$\n\nMit 10 % Zuschlag: $5{,}40 \\cdot 1{,}1 = 5{,}94\\,\\mathrm{m^2}$.\n\n1 P Mantelfläche, 1 P Zuschlag."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\tan(\\beta) = \\frac{1{,}20}{0{,}90} \\approx 1{,}333$, also $\\beta \\approx 53{,}1°$."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Seitenkante: $s^2 = 1{,}50^2 + 0{,}90^2 = 3{,}06$, also $s \\approx 1{,}75\\,\\mathrm{m}$.\n\nVier Balken: $4 \\cdot 1{,}749 \\approx 7{,}00\\,\\mathrm{m}$."
+        },
+        {
+          "id": "V1-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$1500\\,\\mathrm{l} = 1{,}5\\,\\mathrm{m^3}$, $G = 1{,}80^2 = 3{,}24\\,\\mathrm{m^2}$.\n\n$H = \\frac{3 \\cdot V}{G} = \\frac{4{,}5}{3{,}24} \\approx 1{,}39\\,\\mathrm{m}$\n\n$h_s = \\sqrt{1{,}389^2 + 0{,}90^2} \\approx 1{,}655\\,\\mathrm{m}$, $M = 4 \\cdot \\frac{1}{2} \\cdot 1{,}80 \\cdot 1{,}655 \\approx 5{,}96\\,\\mathrm{m^2}$\n\n(Das alte Dach fasst $\\frac{1}{3} \\cdot 3{,}24 \\cdot 1{,}20 \\approx 1{,}30\\,\\mathrm{m^3}$.)\n\n1 P Höhe (mit Umrechnung), 1 P Plane."
+        },
+        {
+          "id": "V1-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**.\n\n$H = 2{,}40\\,\\mathrm{m}$: $h_s = \\sqrt{2{,}40^2 + 0{,}90^2} \\approx 2{,}563\\,\\mathrm{m}$, $M = 3{,}6 \\cdot 2{,}563 \\approx 9{,}23\\,\\mathrm{m^2}$ – das ist etwa das 1,71-Fache von $5{,}40\\,\\mathrm{m^2}$.\n\nDie Plane hängt von der Seitenhöhe ab, nicht von $H$. Wegen $h_s^2 = H^2 + 0{,}9^2$ wächst $h_s$ langsamer als $H$ (das Volumen dagegen verdoppelt sich).\n\n1 P Rechnung, 1 P Begründung über die Seitenhöhe."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Kerzen gießen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c2",
+        "c3",
+        "g1",
+        "g2",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, mit Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 2 (Pyramide, Kegel und Kugel) – am besten nach N3 bis N5.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Kerzen.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Bogenlänge $b = \\frac{144°}{360°} \\cdot 2 \\cdot \\pi \\cdot 15 = 12\\pi \\approx 37{,}70\\,\\mathrm{cm}$ = Umfang des Grundkreises: $2 \\cdot \\pi \\cdot r = 12\\pi$, also $r = 6\\,\\mathrm{cm}$.\n\nMantellinie $s = 15\\,\\mathrm{cm}$: $H = \\sqrt{15^2 - 6^2} = \\sqrt{189} \\approx 13{,}75\\,\\mathrm{cm}$.\n\n$V = \\frac{1}{3} \\cdot \\pi \\cdot 6^2 \\cdot \\sqrt{189} \\approx 518{,}3\\,\\mathrm{cm^3}$\n\n1 P Radius, 1 P Höhe, 1 P Volumen."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$518{,}3 \\cdot 0{,}9\\,\\mathrm{g} \\approx 466\\,\\mathrm{g}$"
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Wachs gesamt: $1000\\,\\mathrm{g} : 0{,}9\\,\\mathrm{g/cm^3} \\approx 1111{,}1\\,\\mathrm{cm^3}$, Rest: $1111{,}1 - 518{,}3 \\approx 592{,}8\\,\\mathrm{cm^3}$.\n\nKugel: $r = 4\\,\\mathrm{cm}$, $V = \\frac{4}{3} \\cdot \\pi \\cdot 4^3 \\approx 268{,}1\\,\\mathrm{cm^3}$.\n\n$592{,}8 : 268{,}1 \\approx 2{,}2$, also **2 Kugelkerzen**; es bleiben etwa $56{,}7\\,\\mathrm{cm^3}$ übrig.\n\n1 P Restvolumen, 1 P Anzahl."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$H = \\sqrt{10^2 - 3^2} = \\sqrt{91} \\approx 9{,}54\\,\\mathrm{cm}$\n\n$V = \\frac{1}{3} \\cdot 36 \\cdot 9{,}54 \\approx 114{,}5\\,\\mathrm{cm^3}$\n\n$114{,}5\\,\\mathrm{cm^3} > 56{,}7\\,\\mathrm{cm^3}$: Das Wachs reicht **nicht**.\n\n1 P Höhe, 1 P Volumen und Vergleich."
+        },
+        {
+          "id": "V2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**.\n\nRadius und Höhe verdoppeln sich: $V = \\frac{1}{3} \\cdot \\pi \\cdot (2r)^2 \\cdot 2H = 8 \\cdot \\frac{1}{3} \\cdot \\pi \\cdot r^2 \\cdot H$ – das Volumen wird **8-mal** so groß.\n\nFür Hannas Kerze: $8 \\cdot 518{,}3 \\approx 4146\\,\\mathrm{cm^3}$, also etwa $3{,}73\\,\\mathrm{kg}$ Wachs statt 466 g.\n\n1 P Urteil mit Faktor 8, 1 P Begründung."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Ein Getreidesilo",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c10",
+        "c9",
+        "c6",
+        "c5",
+        "c8",
+        "c3",
+        "c2",
+        "g2",
+        "g3",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 25 Minuten, mit Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 3 (Pyramide, Kegel und Kugel, zusammengesetzte Körper) – am besten nach N6 bis N8.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Getreidesilo.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$V_Z = \\pi \\cdot 3^2 \\cdot 12 = 108\\pi \\approx 339{,}3\\,\\mathrm{m^3}$"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$V_T = \\frac{1}{3} \\cdot \\pi \\cdot 3^2 \\cdot 3 = 9\\pi \\approx 28{,}3\\,\\mathrm{m^3}$, $V = 108\\pi + 9\\pi = 117\\pi \\approx 367{,}6\\,\\mathrm{m^3}$\n\n$m \\approx 367{,}6 \\cdot 0{,}78 \\approx 287\\,\\mathrm{t}$\n\n1 P Gesamtvolumen, 1 P Masse."
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\tan(\\beta) = \\frac{3}{3} = 1$, also $\\beta = 45°$. (Weizen rutscht ab etwa 25° bis 30° nach – der Trichter ist steil genug.)"
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$s = \\sqrt{3{,}2^2 + 1{,}2^2} = \\sqrt{11{,}68} \\approx 3{,}42\\,\\mathrm{m}$\n\n$M = \\pi \\cdot 3{,}2 \\cdot 3{,}418 \\approx 34{,}4\\,\\mathrm{m^2}$\n\n1 P Mantellinie, 1 P Mantelfläche."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\alpha = 360° \\cdot \\frac{r}{s} = 360° \\cdot \\frac{3{,}2}{3{,}418} \\approx 337°$ – fast ein ganzer Kreis, weil das Dach flach ist."
+        },
+        {
+          "id": "V3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$V = 6^2 \\cdot 12 + \\frac{1}{3} \\cdot 6^2 \\cdot 3 = 432 + 36 = 468\\,\\mathrm{m^3}$\n\n$468 : 367{,}6 \\approx 1{,}27$: Das eckige Silo fasst etwa 27 % mehr (genau $\\frac{4}{\\pi}$-mal so viel, weil der Kreis mit $d = 6$ in das Quadrat passt).\n\n1 P Fassungsvermögen, 1 P Vergleich."
+        },
+        {
+          "id": "V3-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**.\n\nGleiche Neigung ($45°$, Aufgabe 1c) heißt: Trichterhöhe = Radius. Mit $r = 6\\,\\mathrm{m}$ ist der Trichter $6\\,\\mathrm{m}$ hoch: $V = \\pi \\cdot 6^2 \\cdot 12 + \\frac{1}{3} \\cdot \\pi \\cdot 6^2 \\cdot 6 = 432\\pi + 72\\pi = 504\\pi \\approx 1583{,}4\\,\\mathrm{m^3}$.\n\n$504\\pi : 117\\pi \\approx 4{,}3$ – das Silo fasst gut viermal so viel: Der Radius steht im Quadrat ($2^2 = 4$), der Trichter wächst sogar mit $2^3 = 8$.\n\n1 P Rechnung, 1 P Begründung über $r^2$."
+        },
+        {
+          "id": "V3-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Annahme ist eine Vereinfachung. Beim Befüllen von oben bildet der Weizen einen Schüttkegel, die Oberfläche ist nicht eben: Entweder bleibt am Rand Platz frei (dann passt etwas weniger hinein), oder die Spitze des Haufens ragt in den Dachraum (dann etwas mehr). Außerdem füllt man ein Silo selten ganz randvoll, und die Dichte 0,78 t/m³ schwankt.\n\nDie 287 t sind deshalb nur ein Richtwert für die Größenordnung. 1 P für einen dieser Punkte mit Folgerung für das Ergebnis."
+        }
+      ]
+    }
+  ]
+}

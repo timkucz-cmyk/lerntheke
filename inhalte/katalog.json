@@ -106,6 +106,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Kraftwerke, Energieumwandlung, Leistung und Wirkungsgrad, Speicher, Kernspaltung, Kettenreaktion, Massendefekt, Kernfusion, biologische Strahlenwirkung, Strahlenschutz, Nutzen und Gefahren"
+        },
+        {
+          "id": "koerper",
+          "name": "Körper – Lerntheke",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Pyramide, Kegel, Kugel: Hilfsdreiecke, Mantelfläche, Oberflächeninhalt, Volumen, Kreisausschnitt, Vervielfachen, zusammengesetzte und ausgehöhlte Körper, Modellieren"
         }
       ]
     },

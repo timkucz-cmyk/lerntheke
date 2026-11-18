@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Kleine und große Kugel">
+  <style>
+    .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #B61E33; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #F08A99; }
+      .marke  { fill: #F08A99; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #F08A99; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <circle class="fuell" cx="50" cy="44" r="14"/>
+  <circle class="grau" cx="50" cy="44" r="14"/>
+  <path class="hilfs" d="M36 44 A14 4.2 0 0 0 64 44"/>
+  <path class="grau" d="M36 44 A14 4.2 0 0 1 64 44"/>
+  <circle class="fuell" cx="112" cy="36" r="26"/>
+  <circle class="akzent" cx="112" cy="36" r="26"/>
+  <path class="hilfs" d="M86 36 A26 7.8 0 0 0 138 36"/>
+  <path class="akzent" d="M86 36 A26 7.8 0 0 1 138 36"/>
+</svg>

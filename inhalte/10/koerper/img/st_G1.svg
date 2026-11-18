@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Checkliste mit Häkchen, daneben ein Zylinder und ein rechtwinkliges Dreieck">
+  <style>
+    .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #B61E33; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #F08A99; }
+      .marke  { fill: #F08A99; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #F08A99; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M14 14 h12 v12 h-12 Z M14 32 h12 v12 h-12 Z M14 50 h12 v12 h-12 Z"/>
+  <path class="akzent" d="M16 20 l4 4 l8 -10 M16 38 l4 4 l8 -10"/>
+  <path class="fuell" d="M56 24 V58 A14 4.2 0 0 0 84 58 V24 Z"/>
+  <path class="grau" d="M56 24 V58 A14 4.2 0 0 0 84 58 V24"/>
+  <ellipse class="grau" cx="70" cy="24" rx="14" ry="4.2"/>
+  <path class="akzent" d="M110 60 h40 v-40 Z"/>
+  <path class="grau" d="M144 60 v-6 h6"/>
+</svg>
