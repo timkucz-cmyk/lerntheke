@@ -3,7 +3,7 @@
   "titel": "Terme und Gleichungen – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du beim Rechnen mit negativen Zahlen, Brüchen oder Klammern aus Klasse 5 bis 7 unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N2 (Terme), V2 nach N3 bis N4 (binomische Formeln), V3 nach N5 bis N8 (Gleichungen und Ungleichungen). Ohne Taschenrechner; dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du beim Rechnen mit negativen Zahlen, Brüchen oder Klammern aus Klasse 5 bis 7 unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N2 (Terme), V2 nach N3 bis N4 (binomische Formeln), V3 nach N5 bis N8 (Gleichungen und Ungleichungen). Ganz am Ende prüft V4 (Probearbeit, 60 Minuten) alles wie in der Klassenarbeit. Ohne Taschenrechner (außer Teil B von V4); dein Regelheft darfst du benutzen.",
   "checkliste": [
     {
       "id": "g1",
@@ -1059,6 +1059,181 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Mia irrt. Verdoppelte Seitenlänge: $(2x)^2 = 2x \\cdot 2x = 4x^2$. Man braucht **viermal** so viele Platten (1 P).\n\nBeispiel: $x = 9$ braucht 81 Platten, $x = 18$ braucht $18 \\cdot 18 = 324 = 4 \\cdot 81$ Platten (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Taschenrechner",
+      "checkliste": [
+        "c4",
+        "c9",
+        "c5",
+        "c1",
+        "c2",
+        "c3",
+        "c6",
+        "c7",
+        "c8",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1) ohne Hilfsmittel, danach Teil B (Aufgabe 2 bis 5) mit Taschenrechner. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (ohne Ungleichungen) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $-5 + 3 \\cdot 4 = -5 + 12 = 7$: erst die Potenz, dann Punkt vor Strich.\n\n*A gewählt?* $(-2)^2$ ist $+4$, nicht $-4$. *C gewählt?* Von links nach rechts gerechnet. *D gewählt?* Erst $3 \\cdot (-2)$, dann quadriert. → **G2**"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Mit dem Kehrwert multiplizieren: $\\frac{5}{6} \\cdot \\frac{3}{2} = \\frac{15}{12} = \\frac{5}{4}$\n\n*A gewählt?* Multipliziert statt dividiert. *B gewählt?* Den Kehrwert des ersten Bruchs genommen. *C gewählt?* Subtrahiert. → **G2**"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $4a - a - 3b + 5b = 3a + 2b$\n\n*B gewählt?* Vorzeichen vor den Gliedern übersehen. *C gewählt?* $-3b + 5b = +2b$. *D gewählt?* Das Glied $-a$ vergessen. → **N1**"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $3 \\cdot (-4) \\cdot x \\cdot x = -12x^2$\n\n*A gewählt?* Addiert statt multipliziert. *B gewählt?* $x \\cdot x = x^2$. *D gewählt?* Plus mal Minus ergibt Minus. → **N1**"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – 2. binomische Formel: $(2y)^2 - 2 \\cdot 2y \\cdot 3 + 3^2 = 4y^2 - 12y + 9$\n\n*A gewählt?* Das gemischte Glied fehlt. *B gewählt?* Faktor 2 im gemischten Glied vergessen. *C gewählt?* Die 2 vor $y$ nicht mitquadriert. → **N3**"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Neuer Preis = 110 % des alten: $66 : 1{,}1 = 60$ €. Kontrolle: $60 + 6 = 66$ ✓\n\n*A gewählt?* 10 % vom neuen Preis abgezogen – der Grundwert ist der alte Preis. *C gewählt?* 10 € statt 10 % abgezogen. *D gewählt?* Noch einmal erhöht."
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $4x$ ausklammern: $12x^2 : 4x = 3x$ und $8x : 4x = 2$, also $4x \\cdot (3x - 2)$.\n\n*B oder C gewählt?* Nur das erste Glied durch den Faktor geteilt. *D gewählt?* $8x$ nicht durch $2x$ geteilt. → **N1**"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – 3. binomische Formel: $(x + 3) \\cdot (x - 3) = x^2 - 9$\n\n*A gewählt?* $(x - 3)^2 = x^2 - 6x + 9$. *B gewählt?* Ergibt $x^2 - 81$. *D gewählt?* Ergibt $9 - x^2$. → **N3**"
+        },
+        {
+          "id": "V4-1i",
+          "label": "1i",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $2x + 2 = 5x - 7$, also $9 = 3x$ und $x = 3$. Probe: $2 \\cdot 4 = 8$ und $15 - 7 = 8$ ✓\n\n*A gewählt?* Vorzeichenfehler beim Teilen. *C gewählt?* Nicht durch 3 geteilt. *D gewählt?* Die Zahlen falsch auf die andere Seite gebracht. → **N5**"
+        },
+        {
+          "id": "V4-1j",
+          "label": "1j",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $6x - 2 - x + 4 = 5x + 2$ (Minus vor der Klammer ändert beide Vorzeichen).\n\n*A gewählt?* Das Minus nur auf $x$ angewendet. *B gewählt?* $-x$ als $+x$ übernommen. *C gewählt?* $-(-4) = +4$ vergessen. → **N1**"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "(1) $3a^2 - a^2 + 5a - 7a = 2a^2 - 2a$\n\n(2) $4 \\cdot (-2) \\cdot 3 \\cdot x \\cdot y = -24xy$\n\nJe 1 P."
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "(1) $(-2)^2 - 2 \\cdot (-2) \\cdot 3 + 3 \\cdot 3 = 4 + 12 + 9 = 25$\n\n(2) $4^2 - 2 \\cdot 4 \\cdot (-1) + 3 \\cdot (-1) = 16 + 8 - 3 = 21$\n\nJe 1 P. Häufiger Fehler: $(-2)^2$ negativ gerechnet. → **G2**"
+        },
+        {
+          "id": "V4-2c",
+          "label": "2c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Zaunlänge: ringsum $2a + 2b$, dazu der Trennzaun $b$; drei Drähte: $3 \\cdot (2a + 2b + b)$ (1 P)\n\nZusammengefasst: $3 \\cdot (2a + 3b) = 6a + 9b$ (1 P)\n\nEingesetzt: $6 \\cdot 40 + 9 \\cdot 25 = 240 + 225 = 465$, also **465 m** Draht (1 P)."
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "(1) $-8x + 12$\n\n(2) $x^2 - 3x + 4x - 12 = x^2 + x - 12$\n\n(3) $2a^2 + 10a - a - 5 = 2a^2 + 9a - 5$\n\nJe 1 P. → **N2**"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "(1) $9x^2 + 12xy + 4y^2$\n\n(2) $0{,}25a^2 - 4a + 16$\n\n(3) $4k^2 - 25$ (3. binomische Formel, die Faktoren stehen nur in anderer Reihenfolge)\n\nJe 1 P. → **N3**"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "(1) $2 \\cdot (x^2 + 6x + 9) = 2 \\cdot (x + 3)^2$\n\n(2) $(7 + 4b) \\cdot (7 - 4b)$\n\n(3) $3 \\cdot (25 - y^2) = 3 \\cdot (5 + y) \\cdot (5 - y)$\n\nJe 1 P. Bei (1) und (3) zuerst den gemeinsamen Faktor ausklammern. → **N3**"
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Ausmultiplizieren (1 P):\n\n$$x^2 + 3x - 10 = x^2 + 2x + 8 \\quad | -x^2$$\n\n$$3x - 10 = 2x + 8 \\quad | -2x \\quad | +10$$\n\n$$x = 18$$\n\n(1 P)\n\nProbe (1 P): links $16 \\cdot 23 = 368$, rechts $324 + 36 + 8 = 368$ ✓"
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$$7 - 3x = 2x - 8 \\quad | -2x$$\n\n$$7 - 5x = -8 \\quad | -7$$\n\n$$-5x = -15 \\quad | :(-5)$$\n\n$$x = 3$$\n\n1 P Umformungen notiert, 1 P Lösung. Andere Reihenfolgen der Umformungen sind ebenso richtig. → **N5**"
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$x$: Strecke am 1. Tag in km; 2. Tag $2x$, 3. Tag $2x - 6$ (1 P):\n\n$$x + 2x + 2x - 6 = 154$$\n\n$$5x - 6 = 154 \\quad | +6$$\n\n$$5x = 160 \\quad | :5$$\n\n$$x = 32$$\n\n(1 P)\n\n1. Tag 32 km, 2. Tag 64 km, 3. Tag 58 km (1 P). Probe: $32 + 64 + 58 = 154$ ✓ → **N7**"
+        },
+        {
+          "id": "V4-5a",
+          "label": "5a",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Linke Seite vereinfacht: $3x - 6 + x = 4x - 6$. Keine Lösung z. B. für $c = 0$: $4x - 6 = 4x$ führt auf $-6 = 0$ (falsch). Jede Zahl $c \\neq -6$ ist richtig (1 P).\n\nUnendlich viele Lösungen genau für $c = -6$: $4x - 6 = 4x - 6$ gilt für jedes $x$ (1 P).\n\nGenau eine Lösung gibt es für kein $c$: Auf beiden Seiten steht $4x$; subtrahiert man $4x$, bleibt $-6 = c$ ohne $x$ übrig. Diese Aussage ist entweder immer wahr oder nie (1 P)."
+        },
+        {
+          "id": "V4-5b",
+          "label": "5b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Ausmultipliziert: $(a \\cdot x + b)^2 = a^2x^2 + 2abx + b^2$, also $2ab = 12$ und $ab = 6$ (1 P).\n\nAlle Terme: $(x + 6)^2$, $(2x + 3)^2$, $(3x + 2)^2$, $(6x + 1)^2$ (1 P).\n\nKeine weiteren: 6 lässt sich nur als $1 \\cdot 6$, $2 \\cdot 3$, $3 \\cdot 2$ und $6 \\cdot 1$ als Produkt natürlicher Zahlen schreiben (1 P)."
         }
       ]
     }
