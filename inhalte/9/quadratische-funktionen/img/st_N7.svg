@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Tabelle, Parabel und Gleichung">
+  <style>
+    .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #B61E33; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #F08A99; }
+      .marke  { fill: #F08A99; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #F08A99; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M10 22 H50 M10 40 H50 M30 12 V50"/>
+  <path class="grau" d="M62 60 H108 M85 60 V10"/>
+  <path class="akzent" d="M64.0 4.6 L66.0 13.9 L68.0 22.3 L70.0 29.8 L72.0 36.3 L74.0 41.9 L76.0 46.5 L78.0 50.3 L80.0 53.1 L82.0 55.0 L84.0 55.9 L86.0 55.9 L88.0 55.0 L90.0 53.1 L92.0 50.3 L94.0 46.5 L96.0 41.9 L98.0 36.3 L100.0 29.8 L102.0 22.3 L104.0 13.9 L106.0 4.6"/>
+  <text class="text gross" x="120" y="44">=</text>
+</svg>

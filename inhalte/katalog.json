@@ -72,6 +72,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Stromstärke, Spannung, Widerstand in Reihen- und Parallelschaltung"
+        },
+        {
+          "id": "quadratische-funktionen",
+          "name": "Quadratische Funktionen – Lerntheke",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Normalparabel, Scheitelpunktform, Normalform, quadratische Ergänzung, quadratische Gleichungen, p,q-Formel, Modellieren"
         }
       ]
     },
