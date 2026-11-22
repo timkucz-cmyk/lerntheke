@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Dreiecksprisma, Sechseckprisma und Zylinder">
+  <style>
+    .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #B61E33; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #F08A99; }
+      .marke  { fill: #F08A99; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #F08A99; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="fuell" d="M12 60 L46 60 L29 34 Z"/>
+  <path class="hilfs" d="M24 48 L58 48 L41 22 Z M12 60 L24 48 M46 60 L58 48 M29 34 L41 22"/>
+  <path class="akzent" d="M12 60 L46 60 L29 34 Z"/>
+  <path class="fuell" d="M66 60 L88 60 L96 48 L88 36 L66 36 L58 48 Z"/>
+  <path class="hilfs" d="M74 52 L96 52 L104 40 L96 28 L74 28 L66 40 Z M66 60 L74 52 M88 60 L96 52 M96 48 L104 40 M88 36 L96 28 M66 36 L74 28 M58 48 L66 40"/>
+  <path class="akzent" d="M66 60 L88 60 L96 48 L88 36 L66 36 L58 48 Z"/>
+  <path class="fuell" d="M121 26 V60 A13 4.55 0 0 0 147 60 V26 Z"/>
+  <path class="akzent" d="M121 26 V60 A13 4.55 0 0 0 147 60 V26"/>
+  <path class="hilfs" d="M121 60 A13 4.55 0 0 1 147 60"/>
+  <ellipse class="akzent" cx="134" cy="26" rx="13" ry="4.55"/>
+</svg>
