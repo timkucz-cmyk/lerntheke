@@ -1,0 +1,1397 @@
+{
+  "version": 1,
+  "titel": "Der Satz des Pythagoras – Training vor der Klassenarbeit",
+  "fach": "mathe",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Flächeninhalten, Wurzeln, Umformen oder Wenn-dann-Sätzen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N11. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N4, V2 nach N5 bis N9, V3 nach N10 bis N11. Den Taschenrechner benutzt du nur in N4, N7, N8 und V1 bis V3. Geodreieck bereitlegen; dein Regelheft darfst du benutzen.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Flächeninhalte von Dreiecken und Vierecken berechnen, auch durch Zerlegen und Ergänzen"
+    },
+    {
+      "id": "g2",
+      "text": "Die Winkelsumme im Dreieck nutzen und den Kongruenzsatz sss anwenden"
+    },
+    {
+      "id": "g3",
+      "text": "Bedingung und Folgerung eines Satzes („Wenn …, dann …“) angeben und die Umkehrung bilden"
+    },
+    {
+      "id": "g4",
+      "text": "Formeln nach einer Variablen umstellen und Gleichungen wie x² = 49 lösen"
+    },
+    {
+      "id": "g5",
+      "text": "Quadratwurzeln berechnen und mit Wurzeln rechnen (z. B. √72 = 6√2)"
+    },
+    {
+      "id": "g6",
+      "text": "Binomische Formeln anwenden und Terme mit Variablen vereinfachen"
+    },
+    {
+      "id": "c1",
+      "text": "Rechtwinklige Dreiecke erkennen und Katheten und Hypotenuse benennen – auch bei anderen Bezeichnungen"
+    },
+    {
+      "id": "c2",
+      "text": "Den Satz des Pythagoras mit Flächen und als Gleichung angeben – passend zur Lage des rechten Winkels"
+    },
+    {
+      "id": "c3",
+      "text": "Fehlende Seitenlängen im rechtwinkligen Dreieck berechnen (Hypotenuse und Kathete)"
+    },
+    {
+      "id": "c4",
+      "text": "Sachaufgaben mit dem Satz des Pythagoras lösen (Skizze, rechtwinkliges Dreieck, Ergebnis im Sachzusammenhang)"
+    },
+    {
+      "id": "c5",
+      "text": "In ebenen Figuren ein geeignetes Hilfsdreieck finden und Streckenlängen berechnen (Diagonale, Höhe, Trapez, Raute, Koordinatensystem)"
+    },
+    {
+      "id": "c6",
+      "text": "Flächeninhalte von Dreiecken und Vielecken mithilfe des Satzes des Pythagoras berechnen, auch allgemein (d = a√2, h = a/2 · √3)"
+    },
+    {
+      "id": "c7",
+      "text": "In Würfel, Quader und Prisma Flächendiagonalen, Raumdiagonalen und andere Strecken berechnen"
+    },
+    {
+      "id": "c8",
+      "text": "Einen Beweis des Satzes des Pythagoras nachvollziehen, ergänzen und begründen; Beispiel und Beweis unterscheiden"
+    },
+    {
+      "id": "c9",
+      "text": "Die Umkehrung des Satzes des Pythagoras angeben und ihren Beweis nachvollziehen"
+    },
+    {
+      "id": "c10",
+      "text": "Mit der Umkehrung untersuchen, ob ein Dreieck rechtwinklig ist (auch pythagoreische Zahlentripel, Koordinatensystem, Praxis)"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 7 und 8 und aus Reelle Zahlen",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Der Satz des Pythagoras",
+      "untertitel": "Katheten, Hypotenuse, Seiten berechnen, Sachaufgaben",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Pythagoras in Figuren und Körpern",
+      "untertitel": "Hilfsdreiecke, Flächeninhalte, Raumdiagonalen",
+      "farbe": "orange",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c7"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Beweis und Umkehrung",
+      "untertitel": "Warum der Satz gilt – und wie man rechte Winkel prüft",
+      "farbe": "gruen",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10"
+      ]
+    }
+  ],
+  "abschluss": "Klassenarbeit",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$A = \\frac{1}{2} \\cdot g \\cdot h = \\frac{1}{2} \\cdot 7 \\cdot 4 = 14$$\n\nDer Flächeninhalt beträgt $14\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Rechteck minus Quadrat (Ergänzen und Abziehen):\n\n$$8 \\cdot 6 - 2 \\cdot 2 = 48 - 4 = 44$$\n\nDie Restfigur hat $44\\,\\mathrm{cm^2}$.\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Winkelsumme im Dreieck: $\\beta = 180° - 90° - 35° = 55°$."
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zwei rechte Winkel ergäben schon $90° + 90° = 180°$. Für den dritten Winkel bliebe wegen der Winkelsumme von 180° nichts übrig – das ist kein Dreieck."
+        },
+        {
+          "id": "G1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Stimmen zwei Dreiecke in allen drei Seitenlängen überein, dann sind sie kongruent (deckungsgleich).\n\nÜben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "„Wenn ein Viereck ein Quadrat ist, dann ist es ein Rechteck.“\n\n- Bedingung: Das Viereck ist ein Quadrat.\n- Folgerung: Das Viereck ist ein Rechteck."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Umkehrung: „Wenn ein Viereck ein Rechteck ist, dann ist es ein Quadrat.“ Bedingung und Folgerung sind vertauscht.\n\nDie Umkehrung ist **falsch**. Gegenbeispiel: ein Rechteck mit den Seiten $3\\,\\mathrm{cm}$ und $5\\,\\mathrm{cm}$ ist kein Quadrat.\n\nÜben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$A = \\frac{1}{2} \\cdot g \\cdot h \\quad \\mid \\cdot 2 \\qquad 2A = g \\cdot h \\quad \\mid : g \\qquad h = \\frac{2A}{g}$$\n\n$h = \\frac{2 \\cdot 24}{8} = 6$, die Höhe ist $6\\,\\mathrm{cm}$ lang."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$x^2 + 36 = 100 \\quad \\mid -36 \\qquad x^2 = 64$$\n\nDa x eine Länge ist, kommt nur die positive Lösung in Frage: $x = 8$.\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{81} = 9$, denn $9^2 = 81$.\n\n$\\sqrt{1{,}44} = 1{,}2$, denn $1{,}2^2 = 1{,}44$."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sqrt{8} \\cdot \\sqrt{2} = \\sqrt{16} = 4$\n\n$\\sqrt{45} = \\sqrt{9 \\cdot 5} = \\sqrt{9} \\cdot \\sqrt{5} = 3\\sqrt{5}$ (Wurzelgesetz)\n\nÜben: **G2** Aufgabe 5."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$(x + 4)^2 = x^2 + 8x + 16$ (1. binomische Formel)\n\n$(2a - b)^2 = 4a^2 - 4ab + b^2$ (2. binomische Formel)"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$(a^2 + 2ab + b^2) - (a^2 - 2ab + b^2) = a^2 + 2ab + b^2 - a^2 + 2ab - b^2 = 4ab$$\n\nDie zweite Klammer wird mit dem Minus davor aufgelöst – alle Vorzeichen drehen sich um.\n\nÜben: **G2** Aufgabe 6."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Flächen, Wurzeln, Umformen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Aufgabe k übt die Lücken aus Block k von G1 – wähle die Aufgaben, die zu deinen Lücken passen.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Für Drachen und Raute gilt $A = \\frac{e \\cdot f}{2}$ (die Diagonalen stehen senkrecht aufeinander):\n\n$$A = \\frac{6 \\cdot 9}{2} = 27$$\n\nDer Flächeninhalt beträgt $27\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beide Basiswinkel sind gleich groß: $(180° - 40°) : 2 = 70°$."
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Beide Dreiecke stimmen in allen drei Seitenlängen überein (nur die Reihenfolge der Namen ist anders). Nach dem Kongruenzsatz **sss** sind sie kongruent."
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- Bedingung: C liegt auf dem Halbkreis über $\\overline{AB}$.\n- Folgerung: $\\gamma = 90°$."
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "„Wenn der Winkel bei C ein rechter Winkel ist, dann liegt C auf dem Halbkreis über $\\overline{AB}$.“ Bedingung und Folgerung sind vertauscht. Diese Umkehrung ist ebenfalls wahr."
+        },
+        {
+          "id": "G2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$c = \\frac{V}{a \\cdot b} = \\frac{60}{5 \\cdot 4} = 3$$\n\nDie Kante c ist $3\\,\\mathrm{cm}$ lang."
+        },
+        {
+          "id": "G2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x = \\sqrt{2{,}25} = 1{,}5$ (nur die positive Lösung, weil x eine Länge ist)."
+        },
+        {
+          "id": "G2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sqrt{12} = \\sqrt{4 \\cdot 3} = \\sqrt{4} \\cdot \\sqrt{3} = 2\\sqrt{3}$\n\n$\\sqrt{3} \\cdot \\sqrt{27} = \\sqrt{81} = 9$\n\nJe Term 0,5 P."
+        },
+        {
+          "id": "G2-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$(b - a)^2 = b^2 - 2ab + a^2$ (2. binomische Formel)"
+        },
+        {
+          "id": "G2-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\left(\\frac{a}{2}\\right)^2 = \\frac{a^2}{4}$ (Zähler und Nenner quadrieren)\n\n$a^2 - \\frac{a^2}{4} = \\frac{4a^2}{4} - \\frac{a^2}{4} = \\frac{3}{4}a^2$\n\nDiese Rechnung brauchst du später für die Höhe im gleichseitigen Dreieck."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Katheten, Hypotenuse und der Satz",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c1",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 15 Minuten. Suche zuerst immer den rechten Winkel.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Katheten_Hypotenuse.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- Dreieck ①: rechter Winkel zwischen r und s → Hypotenuse **t**, Katheten r und s\n- Dreieck ②: rechter Winkel bei Q → Hypotenuse $\\overline{PR}$, Katheten $\\overline{PQ}$ und $\\overline{QR}$\n- Dreieck ③: rechter Winkel zwischen f und g → Hypotenuse **e**, Katheten f und g\n\nAlle drei richtig 2 P, zwei richtig 1 P."
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- ①: $r^2 + s^2 = t^2$\n- ②: $\\overline{PQ}^2 + \\overline{QR}^2 = \\overline{PR}^2$\n- ③: $f^2 + g^2 = e^2$\n\nDie Hypotenuse steht immer allein auf einer Seite. Alle drei richtig 2 P, zwei richtig 1 P."
+        },
+        {
+          "id": "N1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Das Hypotenusenquadrat ist so groß wie beide Kathetenquadrate zusammen: $2{,}25 + 4 = 6{,}25$, also $6{,}25\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Hypotenuse ist die Seite des Quadrats mit $6{,}25\\,\\mathrm{cm^2}$: $c = \\sqrt{6{,}25} = 2{,}5$, also $2{,}5\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**(2)**: Der rechte Winkel liegt bei A, gegenüber liegt die Seite a. Also ist **a** die Hypotenuse, b und c sind die Katheten: $b^2 + c^2 = a^2$.\n\n*(1) gewählt?* $a^2 + b^2 = c^2$ gilt nur, wenn der rechte Winkel bei C liegt."
+        },
+        {
+          "id": "N1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Es gilt $c^2 = a^2 + b^2$. Weil $b^2 > 0$ ist, ist $c^2 > a^2$. Für positive Längen folgt daraus $c > a$. Genauso folgt mit $a^2 > 0$, dass $c > b$ ist."
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Seiten berechnen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c1",
+        "c2",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Erst die Hypotenuse finden, dann rechnen.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Seiten_berechnen.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$c = \\sqrt{18^2 + 24^2} = \\sqrt{324 + 576} = \\sqrt{900} = 30$, also $c = 30\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$c = \\sqrt{1{,}44 + 2{,}56} = \\sqrt{4} = 2$, also $c = 2\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$c = \\sqrt{4 + 9} = \\sqrt{13}\\,\\mathrm{cm}$. Wegen $3^2 = 9 < 13 < 16 = 4^2$ liegt c zwischen $3\\,\\mathrm{cm}$ und $4\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$b = \\sqrt{41^2 - 9^2} = \\sqrt{1681 - 81} = \\sqrt{1600} = 40$, also $b = 40\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$a = \\sqrt{42{,}25 - 39{,}69} = \\sqrt{2{,}56} = 1{,}6$, also $a = 1{,}6\\,\\mathrm{m}$.\n\n*Addiert?* Die Hypotenuse ist die längste Seite – eine Kathete muss kürzer sein als 6,5 m."
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der rechte Winkel liegt bei A, also ist **a** die Hypotenuse: $b^2 + c^2 = a^2$.\n\n$c = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$, also $c = 12\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der rechte Winkel liegt bei B, also ist **b** die Hypotenuse: $a^2 + c^2 = b^2$.\n\n$c = \\sqrt{26^2 - 10^2} = \\sqrt{676 - 100} = \\sqrt{576} = 24$, also $c = 24\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Neue Hypotenuse: $c^2 = 19^2 + 24^2 = 361 + 576 = 937$.\n\nEs ist $31^2 = 961 \\ne 937$. Die neue Hypotenuse ist also **nicht** $31\\,\\mathrm{cm}$ lang, sondern kürzer."
+        },
+        {
+          "id": "N2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Wegen $30^2 = 900 < 937 < 961 = 31^2$ liegt sie zwischen $30\\,\\mathrm{cm}$ und $31\\,\\mathrm{cm}$ (genau $\\sqrt{937}\\,\\mathrm{cm}$)."
+        },
+        {
+          "id": "N2-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Neue Hypotenuse zum Quadrat: $(a + 1)^2 + b^2 = a^2 + 2a + 1 + b^2 = c^2 + 2a + 1$.\n\nWäre die Hypotenuse um 1 länger, müsste ihr Quadrat $(c + 1)^2 = c^2 + 2c + 1$ sein.\n\nWeil die Kathete kürzer ist als die Hypotenuse ($a < c$), ist $c^2 + 2a + 1 < c^2 + 2c + 1$. Die neue Hypotenuse ist also kürzer als $c + 1$."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Tandem: Seiten berechnen",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c1",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut und sagt dabei, welche Seite die Hypotenuse ist. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert. Nach jeder Nummer wird gewechselt.",
+      "bild": "img/st_N3.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N3-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Im Dreieck KLM liegt der rechte Winkel bei L. Gib die Hypotenuse an und schreibe den Satz des Pythagoras für dieses Dreieck auf.",
+          "tipp": "Die Hypotenuse liegt dem rechten Winkel gegenüber.",
+          "loesung": "Hypotenuse: $\\overline{KM}$ (gegenüber von L).\n\n$\\overline{KL}^2 + \\overline{LM}^2 = \\overline{KM}^2$"
+        },
+        {
+          "id": "N3-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Im Dreieck XYZ liegt der rechte Winkel bei X. Gib die Hypotenuse an und schreibe den Satz des Pythagoras für dieses Dreieck auf.",
+          "tipp": "Die Hypotenuse liegt dem rechten Winkel gegenüber.",
+          "loesung": "Hypotenuse: $\\overline{YZ}$ (gegenüber von X).\n\n$\\overline{XY}^2 + \\overline{XZ}^2 = \\overline{YZ}^2$"
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Die Katheten eines rechtwinkligen Dreiecks sind 15 cm und 20 cm lang. Berechne die Hypotenuse.",
+          "tipp": "Quadrate addieren, dann die Wurzel ziehen.",
+          "loesung": "$c = \\sqrt{15^2 + 20^2} = \\sqrt{225 + 400} = \\sqrt{625} = 25$, also $25\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Die Katheten eines rechtwinkligen Dreiecks sind 10 cm und 24 cm lang. Berechne die Hypotenuse.",
+          "tipp": "Quadrate addieren, dann die Wurzel ziehen.",
+          "loesung": "$c = \\sqrt{10^2 + 24^2} = \\sqrt{100 + 576} = \\sqrt{676} = 26$, also $26\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N3-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein rechtwinkliges Dreieck hat die Hypotenuse 2,5 m und eine Kathete 2 m. Berechne die andere Kathete.",
+          "tipp": "Hypotenuse zum Quadrat minus Kathete zum Quadrat.",
+          "loesung": "$\\sqrt{2{,}5^2 - 2^2} = \\sqrt{6{,}25 - 4} = \\sqrt{2{,}25} = 1{,}5$, also $1{,}5\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N3-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein rechtwinkliges Dreieck hat die Hypotenuse 1,3 m und eine Kathete 0,5 m. Berechne die andere Kathete.",
+          "tipp": "Hypotenuse zum Quadrat minus Kathete zum Quadrat.",
+          "loesung": "$\\sqrt{1{,}3^2 - 0{,}5^2} = \\sqrt{1{,}69 - 0{,}25} = \\sqrt{1{,}44} = 1{,}2$, also $1{,}2\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N3-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Im Dreieck ABC ist $\\alpha = 90°$, a = 6 cm und b = 4 cm. Berechne c und lass das Ergebnis als vereinfachte Wurzel stehen.",
+          "tipp": "Bei $\\alpha = 90°$ ist a die Hypotenuse.",
+          "loesung": "a ist die Hypotenuse: $c = \\sqrt{6^2 - 4^2} = \\sqrt{20} = \\sqrt{4 \\cdot 5} = 2\\sqrt{5}$, also $c = 2\\sqrt{5}\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N3-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Im Dreieck ABC ist $\\beta = 90°$, a = 5 cm und b = 7 cm. Berechne c und lass das Ergebnis als vereinfachte Wurzel stehen.",
+          "tipp": "Bei $\\beta = 90°$ ist b die Hypotenuse.",
+          "loesung": "b ist die Hypotenuse: $c = \\sqrt{7^2 - 5^2} = \\sqrt{24} = \\sqrt{4 \\cdot 6} = 2\\sqrt{6}$, also $c = 2\\sqrt{6}\\,\\mathrm{cm}$."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Sachaufgaben",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c4",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 25 Minuten. Zu jeder Aufgabe zuerst eine Skizze.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Sachaufgaben.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die beiden Seiten des Platzes sind die Katheten, der Weg quer ist die Hypotenuse:\n\n$$d = \\sqrt{48^2 + 36^2} = \\sqrt{2304 + 1296} = \\sqrt{3600} = 60$$\n\nDer Weg quer über den Platz ist $60\\,\\mathrm{m}$ lang."
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Außen herum: $48 + 36 = 84$, also $84\\,\\mathrm{m}$. Man spart $84 - 60 = 24$, also $24\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{24}{84} \\approx 0{,}2857$, also spart man etwa $28{,}57\\,\\%$ des Weges."
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Rechteck $1{,}40\\,\\mathrm{m} \\times 1{,}05\\,\\mathrm{m}$, die Strebe ist eine Diagonale. Das Dreieck aus Breite, Höhe und Strebe hat den rechten Winkel an der Ecke des Tors; die **Strebe** ist die Hypotenuse."
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$s = \\sqrt{1{,}40^2 + 1{,}05^2} = \\sqrt{1{,}96 + 1{,}1025} = \\sqrt{3{,}0625} = 1{,}75$$\n\nDie Strebe ist $1{,}75\\,\\mathrm{m}$ lang."
+        },
+        {
+          "id": "N4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Mast und Boden bilden einen rechten Winkel, das Seil ist die Hypotenuse:\n\n$$s = \\sqrt{6^2 + 2{,}5^2} = \\sqrt{36 + 6{,}25} = \\sqrt{42{,}25} = 6{,}5$$\n\nDas Seil ist $6{,}50\\,\\mathrm{m}$ lang."
+        },
+        {
+          "id": "N4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Jetzt ist die Hypotenuse bekannt, gesucht ist eine Kathete:\n\n$$x = \\sqrt{7^2 - 6^2} = \\sqrt{49 - 36} = \\sqrt{13} \\approx 3{,}61$$\n\nDer Anker ist etwa $3{,}61\\,\\mathrm{m}$ vom Mast entfernt."
+        },
+        {
+          "id": "N4-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Doppelte Entfernung: $5{,}00\\,\\mathrm{m}$. Dann ist $s = \\sqrt{6^2 + 5^2} = \\sqrt{61} \\approx 7{,}81$, also etwa $7{,}81\\,\\mathrm{m}$ – nicht $13\\,\\mathrm{m}$.\n\nDie Aussage ist **falsch**: Verdoppelt wird nur eine Kathete, die Höhe am Mast bleibt gleich. Das Seil wird länger, aber weit weniger als doppelt so lang."
+        },
+        {
+          "id": "N4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Beim Kippen dreht sich der Schrank um die untere Kante. Die Ecke, die am weitesten von dieser Kante entfernt ist, liegt am Ende der **Diagonale der Seitenfläche**. Steht diese Diagonale senkrecht, ist der Schrank am höchsten. Die Diagonale muss also kürzer als die Zimmerhöhe sein."
+        },
+        {
+          "id": "N4-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$d = \\sqrt{2{,}20^2 + 0{,}60^2} = \\sqrt{4{,}84 + 0{,}36} = \\sqrt{5{,}2} \\approx 2{,}28$$\n\nDie Diagonale ist etwa $2{,}28\\,\\mathrm{m}$ lang."
+        },
+        {
+          "id": "N4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Im Modell ja: $2{,}28\\,\\mathrm{m} < 2{,}30\\,\\mathrm{m}$, es bleiben nur etwa $2\\,\\mathrm{cm}$ Luft (1 P).\n\nIn der Wirklichkeit wird es sehr knapp: Eine Deckenlampe, ein Teppich oder eine Sockelleiste, ein Schrank mit überstehender Kante oder Messfehler von wenigen Zentimetern können das Aufrichten verhindern. Besser vorher genau nachmessen (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Hilfsdreiecke in Figuren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Suche in jeder Figur ein rechtwinkliges Hilfsdreieck.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Hilfsdreiecke.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Höhe $h_c$ halbiert die Basis. Hilfsdreieck: Kathete $12\\,\\mathrm{cm}$ (halbe Basis), Kathete $h_c$ (gesucht), Hypotenuse $20\\,\\mathrm{cm}$ (Schenkel)."
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$h_c = \\sqrt{20^2 - 12^2} = \\sqrt{400 - 144} = \\sqrt{256} = 16$, also $h_c = 16\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N5-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Höhen an den Enden von c schneiden von a links und rechts je ein Stück ab: $(26 - 16) : 2 = 5$, also $5\\,\\mathrm{cm}$ (1 P).\n\nHilfsdreieck aus diesem Stück, der Höhe und dem Schenkel als Hypotenuse:\n\n$h = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$, also $h = 12\\,\\mathrm{cm}$ (1 P).",
+          "loesung_bild": "img/N5-2.png"
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Diagonalen einer Raute halbieren sich und stehen senkrecht aufeinander. Hilfsdreieck: Katheten $3{,}5\\,\\mathrm{cm}$ und $1{,}2\\,\\mathrm{cm}$ (halbe Diagonalen), Hypotenuse: eine Seite der Raute."
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$s = \\sqrt{3{,}5^2 + 1{,}2^2} = \\sqrt{12{,}25 + 1{,}44} = \\sqrt{13{,}69} = 3{,}7$, also $s = 3{,}7\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N5-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Waagerecht von A nach B: $4 - (-1) = 5$ Einheiten. Senkrecht: $10 - (-2) = 12$ Einheiten. Der rechte Winkel liegt beim Punkt $(4 \\mid -2)$."
+        },
+        {
+          "id": "N5-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\overline{AB} = \\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$ Einheiten."
+        },
+        {
+          "id": "N5-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Diagonale $\\overline{AC}$ (Symmetrieachse) halbiert $\\overline{BD}$ senkrecht im Punkt M: $\\overline{BM} = 2\\,\\mathrm{cm}$. Es entstehen zwei Hilfsdreiecke mit rechtem Winkel bei M:\n\n- $\\overline{AM} = \\sqrt{2{,}5^2 - 2^2} = \\sqrt{6{,}25 - 4} = \\sqrt{2{,}25} = 1{,}5$ (1 P)\n- $\\overline{MC} = \\sqrt{5{,}2^2 - 2^2} = \\sqrt{27{,}04 - 4} = \\sqrt{23{,}04} = 4{,}8$\n\n$\\overline{AC} = 1{,}5 + 4{,}8 = 6{,}3$, also $6{,}3\\,\\mathrm{cm}$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Besondere Figuren allgemein",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c5",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Ergebnisse als vereinfachte Wurzel.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Besondere_Figuren.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$d = \\sqrt{6^2 + 6^2} = \\sqrt{72} = \\sqrt{36 \\cdot 2} = 6\\sqrt{2}$, also $d = 6\\sqrt{2}\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Diagonale teilt das Quadrat in zwei rechtwinklige Dreiecke mit den Katheten a und a und der Hypotenuse d (1 P):\n\n$$d^2 = a^2 + a^2 = 2a^2 \\qquad d = \\sqrt{2a^2} = \\sqrt{a^2} \\cdot \\sqrt{2} = a\\sqrt{2}$$\n\n(1 P)"
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Höhe halbiert die Grundseite: Hilfsdreieck mit Hypotenuse 8 und Kathete 4.\n\n$h = \\sqrt{8^2 - 4^2} = \\sqrt{48} = \\sqrt{16 \\cdot 3} = 4\\sqrt{3}$, also $h = 4\\sqrt{3}\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$h^2 = a^2 - \\left(\\frac{a}{2}\\right)^2 = a^2 - \\frac{a^2}{4} = \\frac{3}{4}a^2$$\n\n(1 P)\n\n$$h = \\sqrt{\\frac{3}{4}a^2} = \\frac{\\sqrt{3}}{2} \\cdot a = \\frac{a}{2}\\sqrt{3}$$\n\n(1 P)\n\nKontrolle mit a): $\\frac{8}{2}\\sqrt{3} = 4\\sqrt{3}$ ✓"
+        },
+        {
+          "id": "N6-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = \\frac{1}{2} \\cdot 8 \\cdot 4\\sqrt{3} = 16\\sqrt{3}$, also $A = 16\\sqrt{3}\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N6-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$A = \\frac{1}{2} \\cdot a \\cdot \\frac{a}{2}\\sqrt{3} = \\frac{a^2}{4}\\sqrt{3}$$"
+        },
+        {
+          "id": "N6-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Aus $d^2 = a^2 + a^2 = 2a^2$ folgt $a^2 = \\frac{d^2}{2}$ (1 P). Der Flächeninhalt des Quadrats ist genau $a^2$:\n\n$$A = a^2 = \\frac{10^2}{2} = 50$$\n\nDas Quadrat hat $50\\,\\mathrm{cm^2}$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Flächeninhalte mit Pythagoras",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c5",
+        "g1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Für den Flächeninhalt fehlt meist eine Höhe – die liefert ein Hilfsdreieck.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Flaecheninhalte.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Hilfsdreieck aus halber Basis ($4{,}5\\,\\mathrm{cm}$), Höhe und Schenkel (Hypotenuse):\n\n$h = \\sqrt{7{,}5^2 - 4{,}5^2} = \\sqrt{56{,}25 - 20{,}25} = \\sqrt{36} = 6$, also $6\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$A = \\frac{1}{2} \\cdot 9 \\cdot 6 = 27$, also $A = 27\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$h = \\sqrt{4^2 - 2^2} = \\sqrt{12} \\approx 3{,}46$, also etwa $3{,}46\\,\\mathrm{cm}$ (oder mit $h = \\frac{a}{2}\\sqrt{3} = 2\\sqrt{3}$)."
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$A = 6 \\cdot \\frac{1}{2} \\cdot 4 \\cdot \\sqrt{12} = 12\\sqrt{12} = 24\\sqrt{3} \\approx 41{,}57$, also etwa $41{,}57\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N7-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zwischen zwei gegenüberliegenden Seiten liegen genau zwei Dreieckshöhen (durch den Mittelpunkt):\n\n$2 \\cdot \\sqrt{12} = 4\\sqrt{3} \\approx 6{,}93$, also etwa $6{,}93\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N7-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$(18 - 10) : 2 = 4$, also $4\\,\\mathrm{cm}$ auf jeder Seite."
+        },
+        {
+          "id": "N7-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$h = \\sqrt{6^2 - 4^2} = \\sqrt{20} \\approx 4{,}47$, also etwa $4{,}47\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N7-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$A = \\frac{18 + 10}{2} \\cdot \\sqrt{20} = 14 \\cdot \\sqrt{20} \\approx 62{,}61$, also etwa $62{,}61\\,\\mathrm{cm^2}$ (mit ungerundetem h gerechnet)."
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "- Basis 10: $h = \\sqrt{13^2 - 5^2} = \\sqrt{144} = 12$, $A = \\frac{1}{2} \\cdot 10 \\cdot 12 = 60$\n- Basis 24: $h = \\sqrt{13^2 - 12^2} = \\sqrt{25} = 5$, $A = \\frac{1}{2} \\cdot 24 \\cdot 5 = 60$\n\nBeide haben $60\\,\\mathrm{cm^2}$ (1 P). Grund: Jedes Dreieck besteht aus zwei Hilfsdreiecken mit den Katheten 5 und 12 und der Hypotenuse 13 – nur „andersherum“ zusammengesetzt (einmal an der Kathete 12, einmal an der Kathete 5). Gleiche Teile ergeben den gleichen Flächeninhalt (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Strecken in Würfel und Quader",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Im Raum brauchst du oft zwei Hilfsdreiecke nacheinander.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Strecken_in_Koerpern.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$d_1 = \\sqrt{5^2 + 5^2} = \\sqrt{50} \\approx 7{,}07$, also etwa $7{,}07\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Hilfsdreieck aus $d_1$, einer senkrechten Kante und d:\n\n$d = \\sqrt{50 + 5^2} = \\sqrt{75} \\approx 8{,}66$, also etwa $8{,}66\\,\\mathrm{cm}$ (kurz: $d = 5\\sqrt{3}$)."
+        },
+        {
+          "id": "N8-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$d_1 = \\sqrt{6^2 + 3^2} = \\sqrt{45} \\approx 6{,}71$, also etwa $6{,}71\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N8-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$d = \\sqrt{45 + 2^2} = \\sqrt{49} = 7$, also genau $7\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N8-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Unter M liegt auf der Grundfläche der Punkt $M'$, die Mitte von $\\overline{DC}$. Das Dreieck $AM'M$ hat bei $M'$ einen rechten Winkel, weil $\\overline{M'M}$ senkrecht steht (parallel zu $\\overline{AE}$).",
+          "loesung_bild": "img/N8-3a.png"
+        },
+        {
+          "id": "N8-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Erst am Boden: $\\overline{AM'}^2 = 5^2 + 6^2 = 61$ (5 cm bis zur Mitte, 6 cm in die Tiefe).\n\nDann nach oben: $\\overline{AM} = \\sqrt{61 + 4^2} = \\sqrt{77} \\approx 8{,}77$, also etwa $8{,}77\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N8-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Für den Würfel gilt $d^2 = a^2 + a^2 + a^2 = 3a^2$ (1 P):\n\n$$3a^2 = 144 \\qquad a^2 = 48 \\qquad a = \\sqrt{48} = 4\\sqrt{3} \\approx 6{,}93$$\n\nDie Kante ist etwa $6{,}93\\,\\mathrm{cm}$ lang (1 P)."
+        },
+        {
+          "id": "N8-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Leiste läge auf der Raumdiagonale:\n\n$d = \\sqrt{60^2 + 40^2 + 110^2} = \\sqrt{3600 + 1600 + 12100} = \\sqrt{17300} \\approx 131{,}53$, also etwa $131{,}53\\,\\mathrm{cm}$ (1 P).\n\nIm Modell passt die Leiste mit gut $1{,}5\\,\\mathrm{cm}$ Spielraum. In der Wirklichkeit ist das knapp: Halterungen in den Ecken, die Dicke der Leiste und ungenaue Innenmaße brauchen Platz – vorher nachmessen oder eine kürzere Leiste nehmen (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c3",
+        "c6",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. In jeder Lösung steckt ein typischer Fehler.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Hypotenuse wurde wie eine Kathete behandelt – es wurde addiert statt subtrahiert. Das Ergebnis ist sogar länger als die Hypotenuse, das kann nicht sein (1 P).\n\nRichtig: $x = \\sqrt{4{,}1^2 - 0{,}9^2} = \\sqrt{16{,}81 - 0{,}81} = \\sqrt{16} = 4$, also $4\\,\\mathrm{cm}$ (1 P)."
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Wurzel aus einer Summe ist nicht die Summe der Wurzeln: $\\sqrt{5^2 + 12^2} \\ne 5 + 12$. Sonst wäre die Hypotenuse so lang wie beide Katheten zusammen (1 P).\n\nRichtig: $c = \\sqrt{25 + 144} = \\sqrt{169} = 13$, also $13\\,\\mathrm{cm}$ (1 P)."
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Überstand verteilt sich auf **beide** Seiten. Die Kathete im Hilfsdreieck ist nur die Hälfte der Differenz: $20 : 2 = 10$ (1 P).\n\nRichtig: $h = \\sqrt{26^2 - 10^2} = \\sqrt{676 - 100} = \\sqrt{576} = 24$, also $24\\,\\mathrm{cm}$ (1 P)."
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Hilfsdreieck ist die Kathete die **halbe** Basis ($2{,}5\\,\\mathrm{cm}$), nicht die ganze – die Höhe halbiert die Basis (1 P).\n\nRichtig: $h = \\sqrt{6{,}5^2 - 2{,}5^2} = \\sqrt{42{,}25 - 6{,}25} = \\sqrt{36} = 6$ und $A = \\frac{1}{2} \\cdot 5 \\cdot 6 = 15$, also $15\\,\\mathrm{cm^2}$ (1 P)."
+        },
+        {
+          "id": "N9-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Berechnet wurde nur die **Flächendiagonale** $d_1 = \\sqrt{32}$ einer Würfelfläche. Die Raumdiagonale ist die Hypotenuse eines zweiten Hilfsdreiecks aus $d_1$ und einer senkrechten Kante (1 P).\n\nRichtig: $d = \\sqrt{32 + 4^2} = \\sqrt{48} = 4\\sqrt{3}$, also $d = 4\\sqrt{3}\\,\\mathrm{cm}$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Den Satz beweisen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "g6",
+        "g1",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Rechne mit den Buchstaben a, b und c, nicht mit Zahlen.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Beweis.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "An jeder Seite des kleinen Quadrats liegt die lange Kathete b eines Dreiecks, von der die kurze Kathete a des Nachbardreiecks abgeht: Seitenlänge $b - a$."
+        },
+        {
+          "id": "N10-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- als großes Quadrat: $A = c^2$ (1 P)\n- als vier Dreiecke und kleines Quadrat: $A = 4 \\cdot \\frac{1}{2}ab + (b - a)^2$ (1 P)"
+        },
+        {
+          "id": "N10-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$c^2 = 4 \\cdot \\frac{1}{2}ab + (b - a)^2 = 2ab + b^2 - 2ab + a^2 = a^2 + b^2$$\n\nBinomische Formel (1 P), $2ab$ fällt weg (1 P). Weil a und b beliebig waren, gilt das für **jedes** rechtwinklige Dreieck."
+        },
+        {
+          "id": "N10-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "An jeder Ecke treffen die beiden spitzen Winkel α und β zweier Dreiecke zusammen. In jedem Dreieck gilt $\\alpha + \\beta = 180° - 90° = 90°$ (Winkelsumme). Also ist jeder Eckwinkel 90° – die vier Dreiecke passen genau in die Ecken des Quadrats."
+        },
+        {
+          "id": "N10-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = \\frac{a + b}{2} \\cdot (a + b) = \\frac{(a + b)^2}{2}$"
+        },
+        {
+          "id": "N10-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Reihenfolge **(C), (A), (B)**: erst den Flächeninhalt aus den drei Dreiecken bestimmen (C), dann mit der Trapezformel gleichsetzen (A), dann umformen (B)."
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch** (1 P): Zehn Beispiele zeigen nur, dass der Satz für diese zehn Dreiecke ungefähr stimmt – Messungen sind ungenau („≈“), und es gibt unendlich viele rechtwinklige Dreiecke.\n\nEin Beweis rechnet mit allgemeinen Längen a, b und c wie in Aufgabe 1. Dann gilt die Gleichung für jedes rechtwinklige Dreieck, ohne Messfehler (1 P). Die Beispiele sind trotzdem nützlich, weil sie den Satz glaubhaft machen."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Die Umkehrung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c10",
+        "g3",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Mit der Umkehrung prüfst du rechte Winkel, ohne zu messen.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Umkehrung.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "„**Wenn** ein Dreieck ABC bei C einen rechten Winkel hat, **dann** gilt $a^2 + b^2 = c^2$.“\n\n- Bedingung: Das Dreieck hat bei C einen rechten Winkel.\n- Folgerung: $a^2 + b^2 = c^2$."
+        },
+        {
+          "id": "N11-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "„**Wenn** in einem Dreieck ABC $a^2 + b^2 = c^2$ gilt, **dann** hat es bei C einen rechten Winkel.“ Der rechte Winkel liegt gegenüber der Seite c."
+        },
+        {
+          "id": "N11-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "(1) $12^2 + 35^2 = 144 + 1225 = 1369 = 37^2$ → **rechtwinklig** (Umkehrung).\n\n(2) $7^2 + 8^2 = 49 + 64 = 113 \\ne 121 = 11^2$ → **nicht** rechtwinklig (wäre es rechtwinklig, müsste nach dem Satz des Pythagoras Gleichheit gelten). Je 0,5 P.\n\nImmer die beiden kürzeren Seiten quadrieren und addieren und mit dem Quadrat der längsten vergleichen."
+        },
+        {
+          "id": "N11-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "(3) In cm: 50, 120, 130. $50^2 + 120^2 = 2500 + 14400 = 16900 = 130^2$ → **rechtwinklig**.\n\n(4) $12^2 + 16^2 = 144 + 256 = 400 \\ne 441 = 21^2$ → **nicht** rechtwinklig. Je 0,5 P.\n\n*Ohne Umrechnen gerechnet?* $0{,}5^2 + 12^2 \\ne 130^2$ – Längen nur in derselben Einheit vergleichen."
+        },
+        {
+          "id": "N11-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der rechte Winkel liegt jeweils **gegenüber der längsten Seite**: in (1) gegenüber der Seite mit $37\\,\\mathrm{cm}$, in (3) gegenüber der Seite mit $130\\,\\mathrm{cm}$ (also zwischen den beiden kürzeren Seiten)."
+        },
+        {
+          "id": "N11-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nach dem Satz des Pythagoras hat $A'B'C'$ die Hypotenuse $\\sqrt{a^2 + b^2} = \\sqrt{c^2} = c$ (1 P).\n\nBeide Dreiecke haben die Seiten a, b und c. Nach dem Kongruenzsatz **sss** sind sie kongruent, also sind auch ihre Winkel gleich: $\\gamma = \\gamma' = 90°$ (1 P)."
+        },
+        {
+          "id": "N11-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Quadrate der Seitenlängen über Hilfsdreiecke im Gitter (1 P):\n\n- $\\overline{AB}^2 = 4^2 + 2^2 = 20$\n- $\\overline{AC}^2 = 1^2 + 2^2 = 5$\n- $\\overline{BC}^2 = 5^2 + 0^2 = 25$\n\n$20 + 5 = 25$ → nach der Umkehrung **rechtwinklig**, der rechte Winkel liegt bei A, gegenüber von $\\overline{BC}$ (1 P)."
+        },
+        {
+          "id": "N11-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$(2a)^2 + (2b)^2 = 4a^2 + 4b^2 = 4(a^2 + b^2) = 4c^2 = (2c)^2$. Außerdem sind 2a, 2b und 2c wieder natürliche Zahlen. Beispiel: (18, 80, 82)."
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Bildschirmdiagonalen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c4",
+        "c3",
+        "c2",
+        "c1",
+        "g1",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Der Satz des Pythagoras) – am besten nach N1 bis N4.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Bildschirmdiagonalen.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Breite und Höhe stehen senkrecht aufeinander, die **Diagonale** d liegt dem rechten Winkel gegenüber und ist die Hypotenuse: $\\text{Breite}^2 + \\text{Höhe}^2 = d^2$."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$d = \\sqrt{121{,}8^2 + 68{,}5^2} = \\sqrt{14835{,}24 + 4692{,}25} = \\sqrt{19527{,}49} \\approx 139{,}74$, also etwa $139{,}74\\,\\mathrm{cm}$ (1 P).\n\n$139{,}74 : 2{,}54 \\approx 55{,}02$ – ein **55-Zoll-Fernseher** (1 P)."
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = 121{,}8 \\cdot 68{,}5 = 8343{,}3$, also etwa $8343{,}30\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$(4k)^2 + (3k)^2 = 16k^2 + 9k^2 = 25k^2 = d^2$, also $5k = 139{,}7$ und $k = 27{,}94$ (1 P).\n\nBreite $4k = 111{,}76\\,\\mathrm{cm}$, Höhe $3k = 83{,}82\\,\\mathrm{cm}$ (1 P)."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bildfläche 4 : 3: $111{,}76 \\cdot 83{,}82 \\approx 9367{,}72$, also etwa $9367{,}72\\,\\mathrm{cm^2}$, gegenüber etwa $8343{,}30\\,\\mathrm{cm^2}$ bei 16 : 9 (1 P).\n\nDie Aussage ist **falsch**: Bei gleicher Diagonale hat das „quadratischere“ Format 4 : 3 rund $1000\\,\\mathrm{cm^2}$ mehr Fläche. Je länglicher das Rechteck, desto kleiner die Fläche bei gleicher Diagonale (1 P)."
+        },
+        {
+          "id": "V1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Diagonale in cm: $6{,}1 \\cdot 2{,}54 = 15{,}494$ (1 P).\n\nDie Höhe ist eine Kathete: $h = \\sqrt{15{,}494^2 - 7{,}1^2} \\approx \\sqrt{240{,}06 - 50{,}41} \\approx 13{,}77$, also etwa $13{,}77\\,\\mathrm{cm}$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Ein Hauszelt für die Klassenfahrt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c5",
+        "c6",
+        "c4",
+        "c3",
+        "g1",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Der Satz des Pythagoras, Pythagoras in Figuren und Körpern) – am besten nach N5 bis N9.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Hauszelt.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Höhe vom First zum Boden halbiert die Bodenbreite. Hilfsdreieck: Kathete $1{,}20\\,\\mathrm{m}$ (halbe Breite), Kathete h, Hypotenuse $2{,}00\\,\\mathrm{m}$ (Zeltwand)."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$h = \\sqrt{2^2 - 1{,}2^2} = \\sqrt{4 - 1{,}44} = \\sqrt{2{,}56} = 1{,}6$, also $1{,}60\\,\\mathrm{m}$."
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$2 \\cdot \\frac{1}{2} \\cdot 2{,}4 \\cdot 1{,}6 = 3{,}84$, also $3{,}84\\,\\mathrm{m^2}$."
+        },
+        {
+          "id": "V2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gesucht ist die halbe Breite x als Kathete (1 P): $x = \\sqrt{2^2 - 1{,}8^2} = \\sqrt{4 - 3{,}24} = \\sqrt{0{,}76} \\approx 0{,}872$.\n\nDer Boden ist $2x \\approx 1{,}74\\,\\mathrm{m}$ breit (1 P) – höher bedeutet hier schmaler."
+        },
+        {
+          "id": "V2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Unter F liegt auf dem Boden der Punkt $F'$ (Mitte der hinteren Bodenkante). Das Dreieck $AF'F$ hat bei $F'$ einen rechten Winkel; $\\overline{AF'}$ liegt auf dem Boden, $\\overline{F'F}$ ist die Firsthöhe.\n\nAuch richtig: Dreieck aus A, der vorderen Firstecke S und F – rechter Winkel bei S, Katheten $\\overline{AS} = 2{,}00\\,\\mathrm{m}$ (Zeltwand) und $\\overline{SF} = 3{,}00\\,\\mathrm{m}$ (First).",
+          "loesung_bild": "img/V2-3a.png"
+        },
+        {
+          "id": "V2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$\\overline{AF'}^2 = 1{,}2^2 + 3^2 = 10{,}44$ und $\\overline{AF} = \\sqrt{10{,}44 + 1{,}6^2} = \\sqrt{13} \\approx 3{,}61$, also etwa $3{,}61\\,\\mathrm{m}$ (1 P).\n\nDie Diagonale des Bodens ist aber länger: $\\sqrt{2{,}4^2 + 3^2} = \\sqrt{14{,}76} \\approx 3{,}84$, also etwa $3{,}84\\,\\mathrm{m}$. Die Aussage ist **falsch** – die längste Stange liegt diagonal auf dem Boden (1 P)."
+        },
+        {
+          "id": "V2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\ell = \\sqrt{1{,}6^2 + 0{,}9^2} = \\sqrt{2{,}56 + 0{,}81} = \\sqrt{3{,}37} \\approx 1{,}84$, also etwa $1{,}84\\,\\mathrm{m}$."
+        },
+        {
+          "id": "V2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$x = \\sqrt{2^2 - 1{,}6^2} = \\sqrt{4 - 2{,}56} = \\sqrt{1{,}44} = 1{,}2$, also $1{,}20\\,\\mathrm{m}$ hinter dem Zelt."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Ein Streetball-Platz für den Schulhof",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c10",
+        "c9",
+        "c8",
+        "c7",
+        "c5",
+        "c4",
+        "c3",
+        "g1",
+        "g3",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Der Satz des Pythagoras, Pythagoras in Figuren und Körpern, Beweis und Umkehrung) – am besten nach N10 bis N11.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Streetball.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = 15 \\cdot 11 = 165$, also $165\\,\\mathrm{m^2}$."
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bei rechten Winkeln müsste die Diagonale $\\sqrt{15^2 + 11^2} = \\sqrt{346} \\approx 18{,}60$, also etwa $18{,}60\\,\\mathrm{m}$ lang sein (1 P).\n\nGemessen sind $18{,}40\\,\\mathrm{m}$: Es gilt $15^2 + 11^2 = 346 \\ne 18{,}4^2 = 338{,}56$. Wären die Ecken, an denen die Diagonale nicht endet, rechte Winkel, müsste nach dem **Satz des Pythagoras** Gleichheit gelten. Also sind sie **keine** rechten Winkel – das Feld muss neu abgesteckt werden (1 P)."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$3^2 + 4^2 = 9 + 16 = 25 = 5^2$. Nach der Umkehrung des Satzes des Pythagoras ist das Dreieck rechtwinklig (1 P).\n\nDer rechte Winkel liegt gegenüber der längsten Seite (5 Abschnitte), also zwischen den Seiten mit 3 und 4 Abschnitten (1 P)."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "$4^2 + 5^2 = 41 \\ne 36 = 6^2$ – der Vorschlag ist falsch (1 P).\n\nAllgemein ($a^2 + b^2 = c^2$, c ist die längste Seite):\n\n$(a + 1)^2 + (b + 1)^2 = a^2 + b^2 + 2a + 2b + 2 = c^2 + 2a + 2b + 2$ und $(c + 1)^2 = c^2 + 2c + 1$ (1 P).\n\nGleich wären beide nur, wenn $2a + 2b + 1 = 2c$. Links steht eine ungerade, rechts eine gerade Zahl – das ist unmöglich (1 P)."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$(4{,}90 - 3{,}60) : 2 = 0{,}65$, also $0{,}65\\,\\mathrm{m}$ auf jeder Seite."
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$s = \\sqrt{5{,}8^2 + 0{,}65^2} = \\sqrt{33{,}64 + 0{,}4225} = \\sqrt{34{,}0625} \\approx 5{,}84$, also etwa $5{,}84\\,\\mathrm{m}$."
+        },
+        {
+          "id": "V3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Erst auf dem Boden: $\\sqrt{4^2 + 2^2} = \\sqrt{20} \\approx 4{,}47$ (1 P).\n\nDann zum Korb hinauf (zweites Hilfsdreieck): $\\sqrt{20 + 3{,}05^2} = \\sqrt{29{,}3025} \\approx 5{,}41$, also etwa $5{,}41\\,\\mathrm{m}$ (1 P)."
+        }
+      ]
+    }
+  ]
+}
