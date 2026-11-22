@@ -114,6 +114,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Kreisbegriffe, Kreiszahl π, Umfang und Flächeninhalt, Kreisausschnitt und Kreisbogen, Kreisring, zusammengesetzte Figuren"
+        },
+        {
+          "id": "prismen-und-zylinder",
+          "name": "Prismen und Zylinder – Lerntheke",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Eigenschaften, Netze und Schrägbilder, Oberflächeninhalt und Volumen von Prismen und Zylindern, fehlende Längen, Modellieren"
         }
       ]
     },

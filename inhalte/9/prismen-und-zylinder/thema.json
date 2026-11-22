@@ -1,0 +1,1247 @@
+{
+  "version": 1,
+  "titel": "Prismen und Zylinder – Training vor der Klassenarbeit",
+  "fach": "mathe",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Quadern, Einheiten, Flächen, Kreis oder Pythagoras unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N2, V2 nach N3 bis N5, V3 nach N6 bis N9. Ohne Taschenrechner arbeitest du in G1, N1, N2, N5 und N9, sonst ist er erlaubt. Geodreieck und Karopapier bereitlegen; dein Regelheft darfst du benutzen.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Volumen und Oberflächeninhalt von Quadern und Würfeln berechnen"
+    },
+    {
+      "id": "g2",
+      "text": "Längen-, Flächen- und Volumeneinheiten umrechnen, auch Liter"
+    },
+    {
+      "id": "g3",
+      "text": "Flächeninhalt und Umfang von Dreiecken, Vierecken und zusammengesetzten Vielecken berechnen"
+    },
+    {
+      "id": "g4",
+      "text": "Umfang und Flächeninhalt eines Kreises berechnen"
+    },
+    {
+      "id": "g5",
+      "text": "Mit dem Satz des Pythagoras fehlende Seiten in Figuren berechnen (z. B. Dreieckshöhe, Trapezschenkel)"
+    },
+    {
+      "id": "g6",
+      "text": "Terme vereinfachen und Formeln nach einer Größe umstellen"
+    },
+    {
+      "id": "c1",
+      "text": "Prismen und Zylinder an ihren Eigenschaften erkennen und beschreiben (Grund- und Deckfläche, Mantel, Höhe; Würfel und Quader als besondere Prismen)"
+    },
+    {
+      "id": "c2",
+      "text": "Körpernetze von Prismen und Zylindern zeichnen, erkennen und ergänzen"
+    },
+    {
+      "id": "c3",
+      "text": "Schrägbilder von Prismen und Zylindern zeichnen und lesen"
+    },
+    {
+      "id": "c4",
+      "text": "Mantelflächeninhalt und Oberflächeninhalt von Prismen berechnen"
+    },
+    {
+      "id": "c5",
+      "text": "Das Volumen von Prismen berechnen und Prismahöhe und Höhe der Grundfläche unterscheiden"
+    },
+    {
+      "id": "c6",
+      "text": "Volumen, Mantelflächeninhalt und Oberflächeninhalt von Zylindern berechnen und die Formeln begründen"
+    },
+    {
+      "id": "c7",
+      "text": "Aus Volumen, Mantel- oder Oberflächeninhalt eines Prismas oder Zylinders eine fehlende Länge berechnen"
+    },
+    {
+      "id": "c8",
+      "text": "Volumen und Oberflächeninhalt schätzen und Sachprobleme mit Prismen und Zylindern modellieren (Füllmenge, Material, Masse, auch zusammengesetzte Körper)"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 5 bis 9",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Körper erkennen und darstellen",
+      "untertitel": "Eigenschaften, Netze, Schrägbilder",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Prismen berechnen",
+      "untertitel": "Oberflächeninhalt und Volumen",
+      "farbe": "orange",
+      "checkliste": [
+        "c4",
+        "c5"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Zylinder und Modellieren",
+      "untertitel": "Formeln, fehlende Längen, Sachprobleme",
+      "farbe": "gruen",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c8"
+      ]
+    }
+  ],
+  "abschluss": "Klassenarbeit",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$V = a \\cdot b \\cdot c = 5 \\cdot 4 \\cdot 2{,}5 = 50$$\n\nDas Volumen beträgt $50\\,\\mathrm{cm^3}$."
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Je zwei Flächen sind gleich groß:\n\n$$O = 2 \\cdot (5 \\cdot 4 + 5 \\cdot 2{,}5 + 4 \\cdot 2{,}5) = 2 \\cdot (20 + 12{,}5 + 10) = 85$$\n\nDer Oberflächeninhalt beträgt $85\\,\\mathrm{cm^2}$.\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $3{,}5\\,\\mathrm{dm^3} = 3500\\,\\mathrm{cm^3}$ (Faktor 1000)\n- $2{,}5\\,\\mathrm{l} = 2{,}5\\,\\mathrm{dm^3} = 2500\\,\\mathrm{cm^3}$ ($1\\,\\mathrm{l} = 1\\,\\mathrm{dm^3}$)\n\nJe Umrechnung 0,5 P."
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $0{,}75\\,\\mathrm{m^3} = 750\\,\\mathrm{dm^3} = 750\\,\\mathrm{l}$ (Faktor 1000)\n- $4200\\,\\mathrm{cm^2} = 42\\,\\mathrm{dm^2}$ (Faktor 100)\n\nJe Umrechnung 0,5 P.\n\nÜben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$A = \\frac{a + c}{2} \\cdot h = \\frac{9 + 5}{2} \\cdot 4 = 7 \\cdot 4 = 28$$\n\nDer Flächeninhalt beträgt $28\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zerlegen: Rechteck $6 \\cdot 4 = 24$, Dreieck $\\frac{1}{2} \\cdot 6 \\cdot 3 = 9$.\n\nZusammen $24 + 9 = 33$, also $33\\,\\mathrm{cm^2}$.\n\nÜben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$A = \\pi \\cdot r^2 = \\pi \\cdot 5^2 = 25\\pi$$\n\nDer Flächeninhalt beträgt $25\\pi\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zuerst der Radius: $r = 14 : 2 = 7$.\n\n$U = 2 \\cdot \\pi \\cdot 7 = 14\\pi$, also $14\\pi\\,\\mathrm{cm}$; $A = \\pi \\cdot 7^2 = 49\\pi$, also $49\\pi\\,\\mathrm{cm^2}$.\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$c = \\sqrt{0{,}9^2 + 1{,}2^2} = \\sqrt{0{,}81 + 1{,}44} = \\sqrt{2{,}25} = 1{,}5$$\n\nDie Hypotenuse ist $1{,}5\\,\\mathrm{m}$ lang."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Höhe halbiert die Basis. Im Hilfsdreieck ist der Schenkel die Hypotenuse, eine Kathete ist $24 : 2 = 12$:\n\n$$h = \\sqrt{20^2 - 12^2} = \\sqrt{400 - 144} = \\sqrt{256} = 16$$\n\nDie Höhe ist $16\\,\\mathrm{cm}$ lang.\n\nÜben: **G2** Aufgabe 5."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$A = \\frac{1}{2} \\cdot g \\cdot h \\quad \\mid \\cdot 2 \\qquad 2A = g \\cdot h \\quad \\mid : g \\qquad h = \\frac{2A}{g}$$"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$c = \\frac{V}{a \\cdot b} = \\frac{120}{6 \\cdot 5} = \\frac{120}{30} = 4$$\n\nDie Kante c ist $4\\,\\mathrm{cm}$ lang.\n\nÜben: **G2** Aufgabe 6."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Quader, Flächen, Kreis",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 15 Minuten. Aufgabe k übt die Lücken aus Block k von G1 – wähle die Aufgaben, die zu deinen Lücken passen.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$V = a^3 = 6^3 = 216$, also $216\\,\\mathrm{cm^3}$ (1 P).\n\nSechs gleiche Quadrate: $O = 6 \\cdot a^2 = 6 \\cdot 36 = 216$, also $216\\,\\mathrm{cm^2}$ (1 P).\n\nGleiche Maßzahl, aber verschiedene Größen: Volumen in cm³, Fläche in cm²."
+        },
+        {
+          "id": "G2-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$1{,}8\\,\\mathrm{l} = 1{,}8\\,\\mathrm{dm^3} = 1800\\,\\mathrm{cm^3}$\n\n$0{,}35\\,\\mathrm{m^2} = 35\\,\\mathrm{dm^2} = 3500\\,\\mathrm{cm^2}$ (Faktor 100 je Schritt)\n\nJe 0,5 P."
+        },
+        {
+          "id": "G2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = g \\cdot h = 7{,}5 \\cdot 4 = 30$, also $30\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$r = 4{,}5$; $A = \\pi \\cdot 4{,}5^2 = 20{,}25\\pi \\approx 63{,}62$, also etwa $63{,}62\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "G2-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Höhe halbiert die Seite: $h = \\sqrt{5^2 - 2{,}5^2} = \\sqrt{18{,}75} \\approx 4{,}33$, also etwa $4{,}33\\,\\mathrm{cm}$ (1 P).\n\n$A = 6 \\cdot \\frac{1}{2} \\cdot 5 \\cdot \\sqrt{18{,}75} \\approx 64{,}95$, also etwa $64{,}95\\,\\mathrm{cm^2}$ (1 P)."
+        },
+        {
+          "id": "G2-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$u = 2 \\cdot (a + b) \\quad \\mid : 2 \\qquad \\frac{u}{2} = a + b \\quad \\mid -a \\qquad b = \\frac{u}{2} - a$$\n\n$b = 15 - 8 = 7$, also $b = 7\\,\\mathrm{cm}$."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Prismen und Zylinder erkennen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c1",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 15 Minuten. Suche zuerst Grund- und Deckfläche.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Prismen_Zylinder_erkennen.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- Prisma: ① (Quader), ③ (liegendes Dreiecksprisma), ⑤ (L-förmige Grundfläche), ⑦ (Sechseck), ⑧ (Würfel)\n- Zylinder: ④\n- weder noch: ② (Pyramide) und ⑥ (Kegel) – sie laufen spitz zu, es gibt keine Deckfläche.\n\nAlle acht richtig 2 P, höchstens zwei Fehler 1 P."
+        },
+        {
+          "id": "N1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "| | Dreieck | Fünfeck | Sechseck |\n|---|---|---|---|\n| Ecken | 6 | 10 | 12 |\n| Kanten | 9 | 15 | 18 |\n| Flächen | 5 | 7 | 8 |\n\nMindestens acht Werte richtig 1 P."
+        },
+        {
+          "id": "N1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "- Ecken: $2n$ (n unten, n oben)\n- Kanten: $3n$ (n unten, n oben, n senkrecht)\n- Flächen: $n + 2$ (n Mantelrechtecke, dazu Grund- und Deckfläche)"
+        },
+        {
+          "id": "N1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** und **C** sind Netze: drei Mantelrechtecke und je ein Dreieck an jedem Ende.\n\nB: Beide Dreiecke liegen am selben Ende – beim Falten liegen sie aufeinander, das andere Ende bleibt offen.\n\nD: Es fehlt ein Mantelrechteck."
+        },
+        {
+          "id": "N1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zum Beispiel: die drei Rechtecke nebeneinander, ein Dreieck oben am **ersten** und eines unten am **zweiten** Rechteck (Abb.). Wichtig: je ein Dreieck an jedem Ende des Streifens.",
+          "loesung_bild": "img/N1-3b.png"
+        },
+        {
+          "id": "N1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gegenüberliegende Flächen eines Quaders sind parallele, kongruente Rechtecke. Jedes dieser drei Flächenpaare kann Grund- und Deckfläche sein; die übrigen vier Flächen sind Rechtecke und bilden den Mantel. Also ist der Quader auf drei Arten ein Prisma."
+        },
+        {
+          "id": "N1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Als **Vorstellung** sinnvoll: Vielecke mit immer mehr Ecken nähern den Kreis immer besser an, und die Formeln $V = G \\cdot h$ und $O = 2 \\cdot G + M$ gelten auch für den Zylinder.\n\nStreng genommen aber **falsch**: Ein Kreis hat keine Ecken, der Mantel ist gekrümmt und besteht nicht aus Rechtecken. Deshalb ist der Zylinder ein eigener Körper."
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Netze und Schrägbilder",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Karopapier, ohne Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c2",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, mit Geodreieck und Karopapier, 20 Minuten. In den Abbildungen zählst du Kästchen – miss nicht mit dem Lineal.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Netze_Schraegbilder.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "- Vorderfläche: Dreieck mit 8 Kästchen waagerecht und 6 Kästchen senkrecht, rechter Winkel unten links (1 P).\n- Drei Tiefenkanten mit je **6 Kästchendiagonalen** nach rechts oben (1 P).\n- Rückfläche verbinden; die Tiefenkante am rechten Winkel und die zwei hinteren Kanten an ihr sind verdeckt und werden gestrichelt (1 P).",
+          "loesung_bild": "img/N2-1.png"
+        },
+        {
+          "id": "N2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Gleichschenkliges Trapez: unten 12 Kästchen = $6\\,\\mathrm{cm}$, oben 6 Kästchen = $3\\,\\mathrm{cm}$, Höhe 4 Kästchen = $2\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Jede Tiefenkante geht über **3 Kästchendiagonalen**. Eine Kästchendiagonale steht für 1 cm Tiefe, also ist das Prisma $3\\,\\mathrm{cm}$ tief. (Die Kante ist im Bild kürzer gezeichnet, weil die Tiefe im Schrägbild verkürzt wird.)"
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "An **p** und an **r**: Die zweite Grundfläche gehört an das andere Ende des Mantelstreifens als die erste. q liegt am selben Ende wie die vorhandene Grundfläche – dort wäre sie doppelt.\n\nAn p passt die lange Seite ($6\\,\\mathrm{cm}$), an r die kurze Seite ($3\\,\\mathrm{cm}$) des Trapezes."
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Länge des Streifens ist der Umfang u des Trapezes. Die Schenkel sind im Netz je 5 Kästchen = $2{,}5\\,\\mathrm{cm}$ breit:\n\n$$u = 6 + 2{,}5 + 3 + 2{,}5 = 14$$\n\nDer Streifen ist $14\\,\\mathrm{cm}$ lang (und $3\\,\\mathrm{cm}$ breit, so breit, wie das Prisma tief ist)."
+        },
+        {
+          "id": "N2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- Bild A: Die Tiefenkanten gehen über 4 Kästchendiagonalen. Richtig sind 2 (für 2 cm Tiefe) – die Tiefe ist nicht verkürzt (1 P).\n- Bild B: Die verdeckten Kanten hinten links unten sind durchgezogen. Diese Kanten müssen gestrichelt sein (1 P)."
+        },
+        {
+          "id": "N2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Tiefenkante steht in Wirklichkeit senkrecht auf der Vorderfläche, also senkrecht zum Blatt. Auf dem Blatt kann man diese Richtung nicht zeichnen. Man ersetzt sie durch eine Schräge unter 45° – deshalb erscheint der rechte Winkel als 45°- bzw. 135°-Winkel. Nur Winkel in der Vorderfläche bleiben wahr."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Oberflächeninhalt von Prismen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c4",
+        "c2",
+        "g3",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Denk an das Netz: zweimal Grundfläche, dazu der Mantel.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Oberflaecheninhalt.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$G = \\frac{1}{2} \\cdot 4 \\cdot 4{,}2 = 8{,}4$, also $8{,}4\\,\\mathrm{cm^2}$ (die Katheten stehen senkrecht aufeinander)."
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$u = 4 + 4{,}2 + 5{,}8 = 14$; $M = u \\cdot h = 14 \\cdot 12 = 168$, also $168\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$O = 2 \\cdot G + M = 2 \\cdot 8{,}4 + 168 = 184{,}8$, also $184{,}8\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Überstand auf jeder Seite: $(10 - 4) : 2 = 3$. Im Hilfsdreieck ist der Schenkel die Hypotenuse:\n\n$$h_D = \\sqrt{5^2 - 3^2} = \\sqrt{16} = 4$$\n\nDie Trapezhöhe ist $4\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$G = \\frac{10 + 4}{2} \\cdot 4 = 28$ (1 P).\n\n$u = 10 + 4 + 5 + 5 = 24$, $M = 24 \\cdot 15 = 360$; $O = 2 \\cdot 28 + 360 = 416$, also $416\\,\\mathrm{cm^2}$ (1 P)."
+        },
+        {
+          "id": "N3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$2 \\cdot \\frac{1}{2} \\cdot 12 \\cdot 3{,}5 = 42$, also $42\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Rückseite $3{,}5 \\cdot 4 = 14$, schräge Fläche $12{,}5 \\cdot 4 = 50$, Standfläche ($12 \\cdot 4$) zählt nicht:\n\n$$42 + 14 + 50 = 106$$\n\nLackiert werden $106\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N3-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$h = 24$: $M = 14 \\cdot 24 = 336$, $O = 2 \\cdot 8{,}4 + 336 = 352{,}8$, also $352{,}8\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N3-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "**Falsch:** Doppelt wäre $2 \\cdot 184{,}8 = 369{,}6$, es sind aber nur $352{,}8\\,\\mathrm{cm^2}$. Nur der Mantel verdoppelt sich, die beiden Grundflächen bleiben gleich groß."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Volumen von Prismen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c4",
+        "g2",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Unterscheide die Prismahöhe h von der Höhe h_D der Grundfläche.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Volumen.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$G = \\frac{1}{2} \\cdot 5 \\cdot 3 = 7{,}5$; $V = 7{,}5 \\cdot 8 = 60$, also $60\\,\\mathrm{cm^3}$."
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$G = \\frac{7 + 3}{2} \\cdot 4 = 20$; $V = 20 \\cdot 6 = 120$, also $120\\,\\mathrm{cm^3}$."
+        },
+        {
+          "id": "N4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "L-Fläche als Rechteck minus Ausschnitt: $G = 5 \\cdot 4 - 3 \\cdot 2 = 14$; $V = 14 \\cdot 5 = 70$, also $70\\,\\mathrm{cm^3}$."
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Grund- und Deckfläche sind die beiden parallelen, kongruenten **Dreiecke** (vorn und hinten). Die Prismahöhe ist ihr Abstand, also die Tiefe $8\\,\\mathrm{cm}$ – nicht die $3\\,\\mathrm{cm}$ hohe Dreieckshöhe $h_D$. Wie das Prisma liegt, ist egal."
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$120\\,\\mathrm{cm^3} = 0{,}12\\,\\mathrm{dm^3} = 0{,}12\\,\\mathrm{l}$."
+        },
+        {
+          "id": "N4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$G = 15 \\cdot 30 - \\frac{1}{2} \\cdot 3 \\cdot 3 = 450 - 4{,}5 = 445{,}5$ (cm²).\n\n$V = 445{,}5 \\cdot 100 = 44\\,550$, also $44\\,550\\,\\mathrm{cm^3} = 44{,}55\\,\\mathrm{dm^3}$."
+        },
+        {
+          "id": "N4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$44{,}55 \\cdot 2{,}7 \\approx 120{,}29$, der Bordstein wiegt etwa $120{,}29\\,\\mathrm{kg}$."
+        },
+        {
+          "id": "N4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Quader: $G = 12$, Dreieck: $G = \\frac{1}{2} \\cdot 8 \\cdot 3 = 12$. Gleiche Grundfläche, gleiche Höhe – beide haben $V = 12 \\cdot 7 = 84\\,\\mathrm{cm^3}$. Die Form der Grundfläche spielt keine Rolle."
+        },
+        {
+          "id": "N4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Neue Grundfläche: $\\frac{1}{2} \\cdot (2g) \\cdot (2h_D) = 4 \\cdot \\frac{1}{2} \\cdot g \\cdot h_D = 4G$ (1 P).\n\nBei gleicher Prismahöhe wird das Volumen also **vierfach**, nicht doppelt. Die Aussage ist **falsch** (Beispiel Prisma A: $60\\,\\mathrm{cm^3}$ → $240\\,\\mathrm{cm^3}$) (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Tandem: Prismen berechnen",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c4",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut und sagt dabei, welche Fläche die Grundfläche ist. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert. Nach jeder Nummer wird gewechselt.",
+      "bild": "img/st_N5.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N5-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Dreiecksprisma hat die Grundseite g = 6 cm, die Dreieckshöhe $h_D$ = 5 cm und die Prismahöhe h = 8 cm. Berechne G und V.",
+          "tipp": "Erst die Dreiecksfläche, dann mal Prismahöhe.",
+          "loesung": "$G = \\frac{1}{2} \\cdot 6 \\cdot 5 = 15\\,\\mathrm{cm^2}$, $V = 15 \\cdot 8 = 120\\,\\mathrm{cm^3}$."
+        },
+        {
+          "id": "N5-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Dreiecksprisma hat die Grundseite g = 4 cm, die Dreieckshöhe $h_D$ = 7 cm und die Prismahöhe h = 10 cm. Berechne G und V.",
+          "tipp": "Erst die Dreiecksfläche, dann mal Prismahöhe.",
+          "loesung": "$G = \\frac{1}{2} \\cdot 4 \\cdot 7 = 14\\,\\mathrm{cm^2}$, $V = 14 \\cdot 10 = 140\\,\\mathrm{cm^3}$."
+        },
+        {
+          "id": "N5-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Die Grundfläche eines Prismas ist ein Dreieck mit den Seiten 5 cm, 6 cm und 7 cm. Das Prisma ist 10 cm hoch. Berechne den Mantelflächeninhalt.",
+          "tipp": "M = Umfang der Grundfläche mal Prismahöhe.",
+          "loesung": "$u = 5 + 6 + 7 = 18$, $M = 18 \\cdot 10 = 180\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Die Grundfläche eines Prismas ist ein regelmäßiges Sechseck mit der Seite 3 cm. Das Prisma ist 7 cm hoch. Berechne den Mantelflächeninhalt.",
+          "tipp": "M = Umfang der Grundfläche mal Prismahöhe.",
+          "loesung": "$u = 6 \\cdot 3 = 18$, $M = 18 \\cdot 7 = 126\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N5-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Die Grundfläche eines 10 cm hohen Prismas ist ein gleichschenkliges Trapez mit a = 12 cm, c = 6 cm, Schenkeln von 5 cm und der Höhe 4 cm. Berechne den Oberflächeninhalt.",
+          "tipp": "O = 2 · G + M; der Umfang enthält beide Schenkel.",
+          "loesung": "$G = \\frac{12 + 6}{2} \\cdot 4 = 36$, $u = 12 + 6 + 5 + 5 = 28$, $M = 280$.\n\n$O = 2 \\cdot 36 + 280 = 352\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N5-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Die Grundfläche eines 6 cm hohen Prismas ist ein gleichschenkliges Trapez mit a = 10 cm, c = 2 cm, Schenkeln von 5 cm und der Höhe 3 cm. Berechne den Oberflächeninhalt.",
+          "tipp": "O = 2 · G + M; der Umfang enthält beide Schenkel.",
+          "loesung": "$G = \\frac{10 + 2}{2} \\cdot 3 = 18$, $u = 10 + 2 + 5 + 5 = 22$, $M = 132$.\n\n$O = 2 \\cdot 18 + 132 = 168\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N5-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Prisma hat das Volumen 210 cm³ und die Grundfläche 14 cm². Wie hoch ist es?",
+          "tipp": "V = G · h nach h umstellen.",
+          "loesung": "$h = \\frac{V}{G} = \\frac{210}{14} = 15$, das Prisma ist $15\\,\\mathrm{cm}$ hoch."
+        },
+        {
+          "id": "N5-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Prisma hat das Volumen 156 cm³ und die Grundfläche 13 cm². Wie hoch ist es?",
+          "tipp": "V = G · h nach h umstellen.",
+          "loesung": "$h = \\frac{V}{G} = \\frac{156}{13} = 12$, das Prisma ist $12\\,\\mathrm{cm}$ hoch."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Der Zylinder",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c2",
+        "c3",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Achte darauf, ob der Radius oder der Durchmesser gegeben ist.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Zylinder.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$V = \\pi \\cdot 2{,}5^2 \\cdot 12 = 75\\pi \\approx 235{,}62$, also etwa $235{,}62\\,\\mathrm{cm^3}$."
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$M = 2 \\cdot \\pi \\cdot 2{,}5 \\cdot 12 = 60\\pi \\approx 188{,}50$, also etwa $188{,}50\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N6-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$O = 2 \\cdot \\pi \\cdot 2{,}5^2 + 60\\pi = 12{,}5\\pi + 60\\pi = 72{,}5\\pi \\approx 227{,}77$, also etwa $227{,}77\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N6-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Radius $r = 9$: $V = \\pi \\cdot 9^2 \\cdot 5 = 405\\pi \\approx 1272{,}35$, also etwa $1272{,}35\\,\\mathrm{cm^3}$."
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Ausschnitte bilden oben und unten je den halben Umfang: Der „Fast-Quader“ ist $\\pi \\cdot r$ lang, r breit und h hoch (1 P).\n\n$V = \\pi \\cdot r \\cdot r \\cdot h = \\pi \\cdot r^2 \\cdot h$. Je feiner man zerschneidet, desto genauer wird es ein Quader (1 P)."
+        },
+        {
+          "id": "N6-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Länge des Mantelrechtecks ist der Umfang des Kreises: $2 \\cdot \\pi \\cdot r = 37{,}7$, also $r = \\frac{37{,}7}{2 \\cdot \\pi} \\approx 6{,}00$. Der Radius ist etwa $6\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N6-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B**: $r = 6\\,\\mathrm{cm}$ und $h = 9\\,\\mathrm{cm}$ (die Breite des Mantelrechtecks). A hat den falschen Radius, bei C sind Radius und Höhe vertauscht."
+        },
+        {
+          "id": "N6-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$V_P = \\pi \\cdot 4^2 \\cdot 8 = 128\\pi \\approx 402{,}12\\,\\mathrm{cm^3}$, $V_Q = \\pi \\cdot 8^2 \\cdot 4 = 256\\pi \\approx 804{,}25\\,\\mathrm{cm^3}$. Q hat das doppelte Volumen."
+        },
+        {
+          "id": "N6-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "**Falsch:** Der Radius geht als Quadrat in das Volumen ein, die Höhe nur einfach. Ein großer Radius zählt deshalb mehr als eine große Höhe."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Fehlende Längen bestimmen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c5",
+        "c6",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Erst die Formel umstellen, dann einsetzen.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Fehlende_Laengen.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$h = \\frac{V}{G} = \\frac{540}{36} = 15$, also $15\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$G = \\frac{V}{h} = \\frac{240}{12} = 20$ (1 P).\n\n$G = \\frac{1}{2} \\cdot g \\cdot h_D$ ergibt $h_D = \\frac{2 \\cdot G}{g} = \\frac{40}{8} = 5$, also $5\\,\\mathrm{cm}$ (1 P)."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$r = \\frac{M}{2 \\cdot \\pi \\cdot h} = \\frac{150}{16\\pi} \\approx 2{,}98$, also etwa $2{,}98\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$1\\,\\mathrm{l} = 1000\\,\\mathrm{cm^3}$ (1 P).\n\n$r = \\sqrt{\\frac{V}{\\pi \\cdot h}} = \\sqrt{\\frac{1000}{15\\pi}} \\approx \\sqrt{21{,}22} \\approx 4{,}61$, also etwa $4{,}61\\,\\mathrm{cm}$ (1 P)."
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Mit $h = r$: $O = 2 \\cdot \\pi \\cdot r^2 + 2 \\cdot \\pi \\cdot r \\cdot r = 4 \\cdot \\pi \\cdot r^2$ (1 P).\n\n$4\\pi r^2 = 200$, $r^2 = \\frac{50}{\\pi} \\approx 15{,}92$, $r \\approx 3{,}99$, also etwa $3{,}99\\,\\mathrm{cm}$ (1 P)."
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "**Falsch:** Mit doppeltem Radius wird $r^2$ und damit das Volumen **vierfach**: $\\pi \\cdot (2r)^2 \\cdot h = 4 \\cdot \\pi \\cdot r^2 \\cdot h$ (1 P).\n\nFür doppeltes Volumen muss $r^2$ doppelt werden, also $r$ mit $\\sqrt{2} \\approx 1{,}41$ multipliziert werden (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Schätzen und Modellieren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c6",
+        "c5",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 25 Minuten. Überlege zuerst, welcher Körper passt, und schreibe deine Annahmen auf.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Schaetzen_Modellieren.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Überschlag mit $\\pi \\approx 3$, $r \\approx 10$, $h \\approx 30$: $3 \\cdot 100 \\cdot 30 = 9000$, also etwa $9\\,\\mathrm{l}$ – Schätzungen zwischen 8 und 12 Litern sind gut."
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$V = \\pi \\cdot 10{,}5^2 \\cdot 29{,}7 \\approx 10\\,287$, also etwa $10\\,287\\,\\mathrm{cm^3} \\approx 10{,}29\\,\\mathrm{l}$."
+        },
+        {
+          "id": "N8-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$V = \\pi \\cdot 0{,}625^2 \\cdot 1{,}2 \\approx 1{,}47$, also etwa $1{,}47\\,\\mathrm{m^3}$."
+        },
+        {
+          "id": "N8-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$1{,}4726 \\cdot 150 \\approx 220{,}89$, ein Ballen wiegt etwa $221\\,\\mathrm{kg}$."
+        },
+        {
+          "id": "N8-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$10\\,000 : 220{,}89 \\approx 45{,}3$ – man braucht **46** Ballen (aufrunden, sonst fehlt Heu)."
+        },
+        {
+          "id": "N8-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$O = 2 \\cdot \\pi \\cdot 0{,}625^2 + 2 \\cdot \\pi \\cdot 0{,}625 \\cdot 1{,}2 \\approx 2{,}45 + 4{,}71 \\approx 7{,}17$ (1 P).\n\nSechs Lagen: $6 \\cdot 7{,}1668 \\approx 43{,}00$, also etwa $43\\,\\mathrm{m^2}$ (1 P)."
+        },
+        {
+          "id": "N8-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Stehend braucht ein Ballen ein Quadrat von $1{,}25\\,\\mathrm{m} \\times 1{,}25\\,\\mathrm{m}$: längs $8{,}00 : 1{,}25 = 6{,}4$, also 6; quer passt nur 1 ($2 \\cdot 1{,}25 = 2{,}5 > 2{,}45$). Das sind 6 je Lage, 12 insgesamt (1 P).\n\nLiegend braucht ein Ballen $1{,}20\\,\\mathrm{m}$ (quer) $\\times 1{,}25\\,\\mathrm{m}$ (längs): quer passen 2 ($2{,}40\\,\\mathrm{m}$), längs 6. Das sind 12 je Lage, **24** insgesamt – liegend passen mehr, doppelt so viele (1 P).\n\n(Wer stehende Ballen versetzt in zwei Reihen stellt, bekommt bis zu 11 je Lage, also 22 – liegend bleibt besser.)"
+        },
+        {
+          "id": "N8-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Gut für eine Abschätzung, aber nicht genau: Die Ränder sind abgerundet, der Ballen ist nicht überall gleich fest gepresst und beim Lagern etwas platt gedrückt. Masse und Folienbedarf sind deshalb nur Näherungswerte; Folie braucht man wegen Überlappung eher mehr."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c4",
+        "c5",
+        "c7",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. In jeder Lösung steckt ein typischer Fehler.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beim Dreieck fehlt der Faktor $\\frac{1}{2}$: $9 \\cdot 4$ ist ein Rechteck, nicht das Dreieck."
+        },
+        {
+          "id": "N9-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$G = \\frac{1}{2} \\cdot 9 \\cdot 4 = 18$, $V = 18 \\cdot 5 = 90$, also $90\\,\\mathrm{cm^3}$."
+        },
+        {
+          "id": "N9-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Es wurde der Durchmesser statt des Radius eingesetzt. Die Formel braucht $r = d : 2 = 4$."
+        },
+        {
+          "id": "N9-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$V = \\pi \\cdot 4^2 \\cdot 5 = 80\\pi$, also $80\\pi\\,\\mathrm{cm^3}$ – ein Viertel des falschen Ergebnisses."
+        },
+        {
+          "id": "N9-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$G \\cdot h$ ist das **Volumen**. Für den Mantel braucht man den Umfang der Grundfläche: $M = u \\cdot h$."
+        },
+        {
+          "id": "N9-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$u = 16 + 10 + 10 = 36$, $M = 36 \\cdot 4 = 144$, also $144\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N9-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Es wurde nur **ein** Kreis gezählt. Eine geschlossene Dose hat Boden **und** Deckel, also zwei Kreise."
+        },
+        {
+          "id": "N9-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$O = 2 \\cdot 9\\pi + 30\\pi = 48\\pi$, also $48\\pi\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N9-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Im ersten Summanden steht $r^2$: Er wird mit doppeltem Radius **vierfach**, nicht doppelt ($2 \\cdot \\pi \\cdot (2r)^2 = 4 \\cdot 2 \\cdot \\pi \\cdot r^2$). Nur der Mantel verdoppelt sich."
+        },
+        {
+          "id": "N9-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$r = 1$: $O = 2\\pi + 2\\pi = 4\\pi$. $r = 2$: $O = 8\\pi + 4\\pi = 12\\pi$ – also **dreifach**.\n\nAllgemein liegt der Faktor zwischen 2 und 4, je nachdem, wie groß der Mantel im Vergleich zu den Kreisen ist."
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Sitzstufen für ein Außenklassenzimmer",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Körper erkennen und darstellen) – am besten nach N1 bis N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Sitzstufen.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die beiden treppenförmigen Seitenflächen (vorn und hinten im Schrägbild)."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die beiden Treppenflächen sind parallel und kongruent und Vielecke (Achtecke). Alle übrigen Flächen sind Rechtecke, die die Treppenflächen verbinden."
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Grundfläche ist ein Achteck ($n = 8$): $2n = 16$ Ecken, $3n = 24$ Kanten, $n + 2 = 10$ Flächen."
+        },
+        {
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Tiefenkanten gehen über 6 Kästchendiagonalen, also $6\\,\\mathrm{cm}$ in der Zeichnung. Maßstab 1 : 50: $6 \\cdot 50 = 300$, der Block ist $3{,}00\\,\\mathrm{m}$ lang."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Senkrecht in drei Quader zerlegt, jeder $0{,}75\\,\\mathrm{m}$ tief und $3{,}00\\,\\mathrm{m}$ lang, $0{,}50\\,\\mathrm{m}$, $1{,}00\\,\\mathrm{m}$ und $1{,}50\\,\\mathrm{m}$ hoch (1 P):\n\n$$V = 0{,}75 \\cdot 3 \\cdot (0{,}5 + 1 + 1{,}5) = 2{,}25 \\cdot 3 = 6{,}75$$\n\nDas Volumen beträgt $6{,}75\\,\\mathrm{m^3}$ (1 P)."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$6{,}75 \\cdot 2{,}4 = 16{,}2$, der Block wiegt etwa $16{,}2\\,\\mathrm{t}$."
+        },
+        {
+          "id": "V1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "8 Rechtecke (so viele, wie die Grundfläche Ecken hat), alle $3{,}00\\,\\mathrm{m}$ lang. Breiten: Boden $2{,}25\\,\\mathrm{m}$, Rückwand $1{,}50\\,\\mathrm{m}$, drei Sitzflächen je $0{,}75\\,\\mathrm{m}$, drei Vorderseiten der Stufen je $0{,}50\\,\\mathrm{m}$."
+        },
+        {
+          "id": "V1-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "**Richtig.** Treppenfläche: $0{,}75 \\cdot (0{,}5 + 1 + 1{,}5) = 2{,}25\\,\\mathrm{m^2}$, mal $3\\,\\mathrm{m}$ ergibt wieder $6{,}75\\,\\mathrm{m^3}$ (1 P).\n\nAllgemein: Der Block besteht aus vielen dünnen Scheiben, jede so groß wie die Treppenfläche. Das ist die Formel „Grundfläche mal Höhe“ für Prismen, hier mit der Länge als Prismahöhe (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Ein Schwimmbecken im Freibad",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c4",
+        "c1",
+        "c3",
+        "g2",
+        "g3",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Körper darstellen, Prismen berechnen) – am besten nach N3 bis N5.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Schwimmbecken.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Grundfläche: die trapezförmige Seitenwand (Längsschnitt) mit den parallelen Seiten $1{,}20\\,\\mathrm{m}$ und $2{,}00\\,\\mathrm{m}$. Prismahöhe: die Breite $12{,}50\\,\\mathrm{m}$."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$G = \\frac{1{,}2 + 2{,}0}{2} \\cdot 25 = 40$, also $40\\,\\mathrm{m^2}$."
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$V = 40 \\cdot 12{,}5 = 500$, also $500\\,\\mathrm{m^3} = 500\\,000\\,\\mathrm{l}$."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Boden fällt auf $25\\,\\mathrm{m}$ Länge um $2{,}0 - 1{,}2 = 0{,}8\\,\\mathrm{m}$ ab (Pythagoras):\n\n$$b = \\sqrt{25^2 + 0{,}8^2} = \\sqrt{625{,}64} \\approx 25{,}01$$\n\nDer Boden ist etwa $25{,}01\\,\\mathrm{m}$ lang."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zwei trapezförmige Längswände: $2 \\cdot 40 = 80$ (1 P).\n\nBoden und Stirnwände (alle $12{,}5\\,\\mathrm{m}$ breit): $(25{,}0128 + 1{,}2 + 2{,}0) \\cdot 12{,}5 \\approx 352{,}66$. Zusammen etwa $432{,}66\\,\\mathrm{m^2}$ (1 P). (Das ist der Oberflächeninhalt ohne die Wasserfläche.)"
+        },
+        {
+          "id": "V2-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$500 : 120 \\approx 4{,}17$ Stunden, also etwa 4 Stunden und 10 Minuten."
+        },
+        {
+          "id": "V2-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ebener Boden: $25 \\cdot 12{,}5 = 312{,}5\\,\\mathrm{m^2}$; schräger Boden: $25{,}0128 \\cdot 12{,}5 \\approx 312{,}66\\,\\mathrm{m^2}$ (1 P).\n\nDer Unterschied ist nur etwa $0{,}16\\,\\mathrm{m^2}$ (0,05 %) – die Aussage ist **falsch**. Bei so flacher Neigung ist der schräge Boden kaum länger (1 P)."
+        },
+        {
+          "id": "V2-2e",
+          "label": "2e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Flache Wasserschicht: $25 \\cdot 12{,}5 \\cdot 0{,}005 = 1{,}5625$, also $1{,}5625\\,\\mathrm{m^3} = 1562{,}5\\,\\mathrm{l}$."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Dachrinnen: halbrund oder eckig?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c6",
+        "c7",
+        "c5",
+        "c4",
+        "c1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Körper darstellen, Prismen, Zylinder und Modellieren) – am besten nach N6 bis N9.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Dachrinnen.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Grundfläche: das Trapez (Querschnitt) an jedem Ende. Prismahöhe: die Länge der Rinne, $10\\,\\mathrm{m}$."
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Halber Kreis mit $r = 6{,}25$: $G = \\frac{1}{2} \\cdot \\pi \\cdot 6{,}25^2 \\approx 61{,}36$, also etwa $61{,}36\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Länge $10\\,\\mathrm{m} = 1000\\,\\mathrm{cm}$ ist die Prismahöhe.\n\nHalbrund: $V = G \\cdot h \\approx 61\\,359\\,\\mathrm{cm^3} \\approx 61{,}36\\,\\mathrm{l}$ (mit dem ungerundeten G gerechnet).\n\nKasten: $G = \\frac{14 + 8}{2} \\cdot 8 = 88$, $V = 88 \\cdot 1000 = 88\\,000\\,\\mathrm{cm^3} = 88\\,\\mathrm{l}$."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Halber Mantel: $\\frac{1}{2} \\cdot 2 \\cdot \\pi \\cdot 6{,}25 \\cdot 1000 \\approx 19\\,635\\,\\mathrm{cm^2} \\approx 1{,}96\\,\\mathrm{m^2}$."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Schräge Seite: Überstand $(14 - 8) : 2 = 3$, $s = \\sqrt{3^2 + 8^2} = \\sqrt{73} \\approx 8{,}54$ (1 P).\n\nBlechbreite $8 + 2 \\cdot 8{,}544 \\approx 25{,}09\\,\\mathrm{cm}$, Blech $25{,}088 \\cdot 1000 \\approx 25\\,088\\,\\mathrm{cm^2} \\approx 2{,}51\\,\\mathrm{m^2}$ (1 P)."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zufluss $80 \\cdot 2 = 160\\,\\mathrm{l}$ pro Minute, Abfluss $2 \\cdot 60 = 120\\,\\mathrm{l}$ pro Minute. Es bleiben $40\\,\\mathrm{l}$ pro Minute."
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Halbrund: $61{,}36 : 40 \\approx 1{,}53$ Minuten, Kasten: $88 : 40 = 2{,}2$ Minuten.\n\nBeide laufen bei einem solchen Wolkenbruch nach kurzer Zeit über; ein zweites Fallrohr wäre sinnvoll. In Wirklichkeit staut sich das Wasser zuerst am Fallrohr, die Zeiten sind nur grobe Werte."
+        },
+        {
+          "id": "V3-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{1}{2} \\cdot \\pi \\cdot r^2 = 88$, $r^2 = \\frac{176}{\\pi} \\approx 56{,}02$, $r \\approx 7{,}48$, also etwa $7{,}48\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "V3-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Blechbreite der halbrunden Rinne: $\\pi \\cdot 7{,}485 \\approx 23{,}51\\,\\mathrm{cm}$ (1 P).\n\nDie Kastenrinne braucht $25{,}09\\,\\mathrm{cm}$, also mehr. Die Aussage ist **falsch**: Bei gleichem Querschnitt braucht die halbrunde Rinne etwa 6 % weniger Blech (1 P)."
+        }
+      ]
+    }
+  ]
+}
