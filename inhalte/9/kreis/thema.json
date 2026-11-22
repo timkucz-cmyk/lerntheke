@@ -1,0 +1,1200 @@
+{
+  "version": 1,
+  "titel": "Der Kreis – Training vor der Klassenarbeit",
+  "fach": "mathe",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Anteilen, Einheiten, Flächen von Vielecken, Umstellen oder Wurzeln unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N4, V2 nach N5 bis N6, V3 nach N7 bis N9. Ohne Taschenrechner arbeitest du in G1, G2, N1 und N9 – dort lässt du π im Ergebnis stehen. In allen anderen Stationen rechnest du mit der π-Taste des Taschenrechners. Dein Regelheft darfst du benutzen.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Anteile als Bruch, Dezimalzahl und Prozentsatz angeben – auch einen Winkel als Anteil des Vollwinkels 360°"
+    },
+    {
+      "id": "g2",
+      "text": "Längen- und Flächeneinheiten umrechnen"
+    },
+    {
+      "id": "g3",
+      "text": "Umfang und Flächeninhalt von Rechtecken, Quadraten und Dreiecken berechnen, auch durch Zerlegen und Ergänzen"
+    },
+    {
+      "id": "g4",
+      "text": "Formeln nach einer Größe umstellen und Terme mit Variablen zusammenfassen"
+    },
+    {
+      "id": "g5",
+      "text": "Quadratwurzeln bestimmen und Ergebnisse sinnvoll runden"
+    },
+    {
+      "id": "c1",
+      "text": "Die Begriffe Mittelpunkt, Radius, Durchmesser, Kreislinie und Umfang verwenden, d = 2 · r nutzen und Kreisgrößen schätzen"
+    },
+    {
+      "id": "c2",
+      "text": "Die Kreiszahl π als Verhältnis von Umfang und Durchmesser deuten, einen Näherungswert für π bestimmen und π als irrationale Zahl einordnen"
+    },
+    {
+      "id": "c3",
+      "text": "Den Umfang eines Kreises berechnen (U = 2 · π · r) – auch Radius und Durchmesser aus dem Umfang"
+    },
+    {
+      "id": "c4",
+      "text": "Den Flächeninhalt eines Kreises berechnen (A = π · r²) – auch den Radius aus dem Flächeninhalt und den Umfang aus dem Flächeninhalt"
+    },
+    {
+      "id": "c5",
+      "text": "Begründen, wie sich Umfang und Flächeninhalt ändern, wenn der Radius vervielfacht wird"
+    },
+    {
+      "id": "c6",
+      "text": "Bogenlänge und Flächeninhalt eines Kreisausschnitts berechnen – auch den Mittelpunktswinkel oder den Radius"
+    },
+    {
+      "id": "c7",
+      "text": "Flächeninhalt und Randlänge eines Kreisrings berechnen"
+    },
+    {
+      "id": "c8",
+      "text": "Zusammengesetzte Figuren in Kreise, Kreisteile und Vielecke zerlegen oder ergänzen und ihren Flächeninhalt berechnen"
+    },
+    {
+      "id": "c9",
+      "text": "Die Randlänge zusammengesetzter Figuren aus Kreisbögen und Strecken berechnen"
+    },
+    {
+      "id": "c10",
+      "text": "Für zusammengesetzte Figuren eine Formel in Abhängigkeit vom Radius aufstellen und Figuren damit vergleichen"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 6 bis 8 und aus Reelle Zahlen",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Umfang und Flächeninhalt",
+      "untertitel": "Begriffe, Kreiszahl π, Formeln, Rückwärtsrechnen",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Kreisausschnitt und Kreisring",
+      "untertitel": "Bogenlänge, Ausschnitte, Ringe",
+      "farbe": "orange",
+      "checkliste": [
+        "c6",
+        "c7"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Zusammengesetzte Figuren",
+      "untertitel": "Zerlegen und Ergänzen, Randlängen, allgemeine Formeln",
+      "farbe": "gruen",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10"
+      ]
+    }
+  ],
+  "abschluss": "Klassenarbeit",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 5 gehören zu den Grundlagen g1 bis g5 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{3}{4} = 0{,}75 = 75\\,\\%$"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{90°}{360°} = \\frac{1}{4}$, $\\frac{45°}{360°} = \\frac{1}{8}$, $\\frac{120°}{360°} = \\frac{1}{3}$\n\nAlle drei richtig 1 P, zwei richtig 0,5 P."
+        },
+        {
+          "id": "G1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$30\\,\\% \\text{ von } 360° = 0{,}3 \\cdot 360° = 108°$\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$2{,}5\\,\\mathrm{m} = 250\\,\\mathrm{cm}$ (Umrechnungszahl 100)\n\n$3\\,\\mathrm{cm^2} = 300\\,\\mathrm{mm^2}$ (bei Flächen Umrechnungszahl $10 \\cdot 10 = 100$)"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Von $\\mathrm{cm^2}$ zu $\\mathrm{m^2}$ ist die Umrechnungszahl $100 \\cdot 100 = 10\\,000$:\n\n$45\\,000 : 10\\,000 = 4{,}5$, also $4{,}5\\,\\mathrm{m^2}$.\n\nÜben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$U = 2 \\cdot 8 + 2 \\cdot 5 = 26$, also $26\\,\\mathrm{cm}$.\n\n$A = 8 \\cdot 5 = 40$, also $40\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = \\frac{1}{2} \\cdot g \\cdot h = \\frac{1}{2} \\cdot 6 \\cdot 4 = 12$, also $12\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "G1-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Flächeninhalt: großes Quadrat minus kleines Quadrat: $10 \\cdot 10 - 4 \\cdot 4 = 100 - 16 = 84$, also $84\\,\\mathrm{cm^2}$.\n\nUmfang: Die zwei Seiten des Ausschnitts (je $4\\,\\mathrm{cm}$) ersetzen genau die zwei weggefallenen Stücke des Randes. Der Umfang bleibt $4 \\cdot 10 = 40$, also $40\\,\\mathrm{cm}$.\n\nJe 0,5 P.\n\nÜben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$U = 2a + 2b \\quad \\mid -2a \\qquad U - 2a = 2b \\quad \\mid : 2 \\qquad b = \\frac{U - 2a}{2}$$\n\n$b = \\frac{30 - 18}{2} = 6$, also $b = 6\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$4r^2 - 2r^2 + r^2 = 3r^2$ (nur gleichartige Terme zusammenfassen)\n\n$2 \\cdot 3 \\cdot r = 6r$\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{81} = 9$, denn $9^2 = 81$. $\\sqrt{0{,}25} = 0{,}5$, denn $0{,}5^2 = 0{,}25$."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$5^2 = 25 < 30 < 36 = 6^2$, also liegt $\\sqrt{30}$ zwischen 5 und 6.\n\n$3{,}14159 \\approx 3{,}14$ (die dritte Nachkommastelle 1 ist kleiner als 5, also abrunden).\n\nÜben: **G2** Aufgabe 5."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Anteile, Flächen, Umstellen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 15 Minuten. Aufgabe k übt die Lücken aus Block k von G1 – wähle die Aufgaben, die zu deinen Lücken passen.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{72°}{360°} = \\frac{1}{5} = 0{,}2 = 20\\,\\%$"
+        },
+        {
+          "id": "G2-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Umrechnungszahl $100 \\cdot 100 = 10\\,000$: $0{,}8 \\cdot 10\\,000 = 8000$, also $8000\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Das Dreieck ist ein halbes Quadrat: $\\frac{6 \\cdot 6}{2} = 18$, also $18\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Flächeninhalt: $7 \\cdot 5 - 3 \\cdot 2 = 35 - 6 = 29$, also $29\\,\\mathrm{cm^2}$.\n\nUmfang: Die beiden Kanten des Ausschnitts ersetzen genau die weggefallenen Randstücke, der Umfang bleibt $2 \\cdot 7 + 2 \\cdot 5 = 24$, also $24\\,\\mathrm{cm}$.\n\nJe 0,5 P."
+        },
+        {
+          "id": "G2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$A = \\frac{1}{2} \\cdot g \\cdot h \\quad \\mid \\cdot 2 \\qquad 2A = g \\cdot h \\quad \\mid : g \\qquad h = \\frac{2A}{g}$$"
+        },
+        {
+          "id": "G2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$3a^2 - \\frac{1}{2}a^2 = 2{,}5a^2 = \\frac{5}{2}a^2$ (Vorzahlen subtrahieren, $a^2$ bleibt)."
+        },
+        {
+          "id": "G2-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{1{,}44} = 1{,}2$, denn $1{,}2^2 = 1{,}44$."
+        },
+        {
+          "id": "G2-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$2{,}349 \\approx 2{,}3$: Es zählt nur die zweite Nachkommastelle 4, sie ist kleiner als 5 – also abrunden. (Nicht schrittweise erst auf 2,35 und dann auf 2,4 runden.)"
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Begriffe am Kreis und die Zahl π",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c1",
+        "c2",
+        "g5",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Zum Schätzen reicht π ≈ 3.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Begriffe_Kreiszahl.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\overline{MC}$ ist ein **Radius** (vom Mittelpunkt zur Kreislinie).\n\n$\\overline{AB}$ ist ein **Durchmesser** (durch M, von Kreislinie zu Kreislinie).\n\n$\\overline{DE}$ ist weder noch: Die Strecke verbindet zwei Punkte der Kreislinie, geht aber nicht durch M.\n\nAlle drei richtig 1 P, zwei richtig 0,5 P."
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$d = 2 \\cdot 3{,}5 = 7$, also $7\\,\\mathrm{cm}$. $r = 9 : 2 = 4{,}5$, also $4{,}5\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Umfang ist gut dreimal so lang wie der Durchmesser: $U \\approx 3 \\cdot 24 = 72$, also etwa $72\\,\\mathrm{cm}$ (genauer etwas mehr, weil $\\pi > 3$)."
+        },
+        {
+          "id": "N1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Rückwärts: $d \\approx U : 3 = 1{,}9 : 3 \\approx 0{,}63$. Der Durchmesser ist etwa $0{,}6\\,\\mathrm{m}$ (genauer etwas weniger, weil $\\pi > 3$)."
+        },
+        {
+          "id": "N1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Teelicht $12{,}6 : 4 = 3{,}15$, Glas $25 : 8 = 3{,}125 \\approx 3{,}13$, Blumentopf $47 : 15 \\approx 3{,}13$, Eimer $94 : 30 \\approx 3{,}13$.\n\nAlle Quotienten liegen bei etwa 3,1. Näherungswert: $\\pi \\approx 3{,}1$ (der genaue Wert ist $3{,}14159\\ldots$).\n\n0,5 P Quotienten, 0,5 P Näherungswert."
+        },
+        {
+          "id": "N1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Werte sind **Messwerte**: Der Faden liegt nicht ganz genau an, er dehnt sich, und Ablesen am Lineal ist nur etwa auf 1 mm genau. Beim kleinen Teelicht wirkt sich 1 mm Messfehler besonders stark aus. Die Abweichungen kommen von der Messung, nicht von den Kreisen."
+        },
+        {
+          "id": "N1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Sechseck: sechs Seiten, jede so lang wie der Radius (gleichseitige Dreiecke): $6r$.\n\nQuadrat: Die Seite ist so lang wie der Durchmesser $2r$, also $4 \\cdot 2r = 8r$.\n\nJe 0,5 P."
+        },
+        {
+          "id": "N1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Aus der Anordnung folgt $6r < U < 8r$ mit $U = 2 \\cdot \\pi \\cdot r$:\n\n$$6r < 2\\pi r < 8r \\quad \\mid : 2r \\qquad 3 < \\pi < 4$$\n\nDas gilt für jeden Radius, denn r kürzt sich heraus."
+        },
+        {
+          "id": "N1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**Falsch** als Gleichung: 3,14 ist ein gerundeter Wert. Richtig ist $\\pi \\approx 3{,}14$."
+        },
+        {
+          "id": "N1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die erste Aussage ist **wahr**: π ist irrational, die Dezimaldarstellung bricht nicht ab und wird nicht periodisch.\n\nDie zweite Aussage ist **falsch**: Wächst der Durchmesser, wächst der Umfang im gleichen Verhältnis. Der Quotient $\\frac{U}{d} = \\pi$ ist für alle Kreise gleich.\n\nJe 0,5 P."
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Umfang und Flächeninhalt berechnen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c1",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Kläre zuerst: Ist r oder d gegeben?",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Umfang_Flaeche.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$U = 2 \\cdot \\pi \\cdot 2{,}8 \\approx 17{,}59$, also $U \\approx 17{,}59\\,\\mathrm{cm}$.\n\n$A = \\pi \\cdot 2{,}8^2 = \\pi \\cdot 7{,}84 \\approx 24{,}63$, also $A \\approx 24{,}63\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$U = 2 \\cdot \\pi \\cdot r$ nach r umstellen: $r = \\frac{U}{2\\pi} = \\frac{50}{2\\pi} \\approx 7{,}9577$, also $r \\approx 7{,}96\\,\\mathrm{dm}$.\n\nMit dem ungerundeten Wert weiter: $A = \\pi \\cdot 7{,}9577^2 \\approx 198{,}94$, also $A \\approx 198{,}94\\,\\mathrm{dm^2}$.\n\nHinweis: Wer $199{,}06$ erhält, hat mit dem gerundeten Radius $7{,}96$ gerechnet."
+        },
+        {
+          "id": "N2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$A = \\pi \\cdot r^2$ nach r umstellen: $r^2 = \\frac{40}{\\pi} \\approx 12{,}7324$, $r = \\sqrt{12{,}7324} \\approx 3{,}5682$, also $r \\approx 3{,}57\\,\\mathrm{cm}$.\n\n$U = 2 \\cdot \\pi \\cdot 3{,}5682 \\approx 22{,}42$, also $U \\approx 22{,}42\\,\\mathrm{cm}$.\n\nHinweis: Wer $22{,}43$ erhält, hat mit dem gerundeten Radius $3{,}57$ gerechnet."
+        },
+        {
+          "id": "N2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$U = 2 \\cdot \\pi \\cdot r \\quad \\mid : (2\\pi) \\qquad r = \\frac{U}{2 \\cdot \\pi}$$"
+        },
+        {
+          "id": "N2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$A = \\pi \\cdot r^2 \\quad \\mid : \\pi \\qquad r^2 = \\frac{A}{\\pi} \\qquad r = \\sqrt{\\frac{A}{\\pi}}$$\n\nNur die positive Wurzel, weil r eine Länge ist."
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$r = \\sqrt{\\frac{1{,}5}{\\pi}} \\approx 0{,}6910$, also $r \\approx 0{,}69\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Saum ist der Umfang: $U = 2 \\cdot \\pi \\cdot 0{,}6910 \\approx 4{,}34$, also etwa $4{,}34\\,\\mathrm{m}$."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Tandem: Umfang und Flächeninhalt",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c4",
+        "c3",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit mit zwei Tablets und Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut und sagt dabei, ob r oder d gegeben ist. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert. Nach jeder Nummer wird gewechselt.",
+      "bild": "img/st_N3.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N3-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Kreis hat den Radius 3,5 cm. Berechne seinen Umfang.",
+          "tipp": "U = 2 · π · r",
+          "loesung": "$U = 2 \\cdot \\pi \\cdot 3{,}5 \\approx 21{,}99$, also $U \\approx 21{,}99\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N3-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Kreis hat den Durchmesser 9 cm. Berechne seinen Umfang.",
+          "tipp": "U = π · d",
+          "loesung": "$U = \\pi \\cdot 9 \\approx 28{,}27$, also $U \\approx 28{,}27\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Kreis hat den Durchmesser 12 cm. Berechne seinen Flächeninhalt.",
+          "tipp": "Zuerst den Radius bestimmen.",
+          "loesung": "$r = 6\\,\\mathrm{cm}$, $A = \\pi \\cdot 6^2 = 36\\pi \\approx 113{,}10$, also $A \\approx 113{,}10\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Kreis hat den Radius 4,5 cm. Berechne seinen Flächeninhalt.",
+          "tipp": "A = π · r²",
+          "loesung": "$A = \\pi \\cdot 4{,}5^2 = 20{,}25\\pi \\approx 63{,}62$, also $A \\approx 63{,}62\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N3-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Kreis hat den Umfang 30 cm. Berechne seinen Radius.",
+          "tipp": "U = 2 · π · r nach r umstellen.",
+          "loesung": "$r = \\frac{30}{2\\pi} \\approx 4{,}77$, also $r \\approx 4{,}77\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N3-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Kreis hat den Flächeninhalt 60 cm². Berechne seinen Radius.",
+          "tipp": "Durch π teilen, dann die Wurzel ziehen.",
+          "loesung": "$r = \\sqrt{\\frac{60}{\\pi}} \\approx 4{,}37$, also $r \\approx 4{,}37\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N3-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Kreis hat den Umfang 20 cm. Berechne seinen Flächeninhalt.",
+          "tipp": "Erst den Radius aus dem Umfang, dann mit dem ungerundeten Radius den Flächeninhalt.",
+          "loesung": "$r = \\frac{20}{2\\pi} \\approx 3{,}1831$, $A = \\pi \\cdot 3{,}1831^2 \\approx 31{,}83$, also $A \\approx 31{,}83\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N3-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Kreis hat den Flächeninhalt 80 cm². Berechne seinen Umfang.",
+          "tipp": "Erst den Radius aus dem Flächeninhalt, dann mit dem ungerundeten Radius den Umfang.",
+          "loesung": "$r = \\sqrt{\\frac{80}{\\pi}} \\approx 5{,}0463$, $U = 2 \\cdot \\pi \\cdot 5{,}0463 \\approx 31{,}71$, also $U \\approx 31{,}71\\,\\mathrm{cm}$."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Kreise im Alltag",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c3",
+        "c4",
+        "g1",
+        "g2",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 25 Minuten. Zu jeder Aufgabe ein Antwortsatz.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Kreise_Alltag.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$U = \\pi \\cdot d = \\pi \\cdot 1{,}20 \\approx 3{,}77$, also etwa $3{,}77\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$377 : 59{,}4 \\approx 6{,}35$ (in cm gerechnet). Es passen **6** Plakate ganz nebeneinander – ein siebtes hätte keinen Platz mehr, deshalb wird abgerundet."
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$d = \\frac{U}{\\pi} = \\frac{1{,}00}{\\pi} \\approx 0{,}3183$, also etwa $31{,}83\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$237 \\cdot 1{,}00\\,\\mathrm{m} = 237\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$r = 5$: $U \\approx 31{,}42\\,\\mathrm{cm}$, $A \\approx 78{,}54\\,\\mathrm{cm^2}$\n\n$r = 10$: $U \\approx 62{,}83\\,\\mathrm{cm}$, $A \\approx 314{,}16\\,\\mathrm{cm^2}$\n\nDer Umfang wird doppelt so groß, der Flächeninhalt viermal so groß."
+        },
+        {
+          "id": "N4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Neuer Radius $2r$: $U_{neu} = 2 \\cdot \\pi \\cdot (2r) = 2 \\cdot (2 \\cdot \\pi \\cdot r) = 2 \\cdot U$ und $A_{neu} = \\pi \\cdot (2r)^2 = \\pi \\cdot 4r^2 = 4 \\cdot A$.\n\nNeuer Radius $3r$: $U$ wird dreimal so groß, $A$ wegen $(3r)^2 = 9r^2$ neunmal so groß.\n\nDer Umfang wächst wie der Radius, der Flächeninhalt mit dem **Quadrat** des Faktors. 1 P Verdoppeln, 1 P Verdreifachen."
+        },
+        {
+          "id": "N4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Großes Rohr: $\\pi \\cdot 10^2 \\approx 314{,}16\\,\\mathrm{cm^2}$.\n\nZwei kleine: $2 \\cdot \\pi \\cdot 5^2 \\approx 157{,}08\\,\\mathrm{cm^2}$ – nur die Hälfte. Zwei reichen **nicht**."
+        },
+        {
+          "id": "N4-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$314{,}16 : 78{,}54 = 4$: Man braucht **4** kleine Rohre (halber Durchmesser, ein Viertel der Fläche)."
+        },
+        {
+          "id": "N4-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Fläche der drei Rohre: $3 \\cdot \\pi \\cdot 5^2 = 75\\pi$.\n\n$\\pi \\cdot r^2 = 75\\pi$, also $r = \\sqrt{75} \\approx 8{,}66$ und $d \\approx 17{,}32\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N4-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Plakate: Gefragt ist eine Anzahl ganzer Plakate. Von $6{,}35$ Plakaten passen nur 6 ganz um die Säule, ein siebtes nicht mehr – also abrunden (1 P).\n\nMessrad: Der Durchmesser $31{,}83\\,\\mathrm{cm}$ bestimmt, wie genau gemessen wird. Mit $d = 32\\,\\mathrm{cm}$ wäre der Umfang $\\pi \\cdot 32 \\approx 100{,}53\\,\\mathrm{cm}$ – bei 237 Umdrehungen schon über 1 m Fehler. Hier ist Runden auf ganze cm zu grob (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Kreisausschnitt und Kreisbogen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c6",
+        "g1",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Erst den Anteil des Vollwinkels, dann rechnen.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Kreisausschnitt.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$b = \\frac{60°}{360°} \\cdot 2 \\cdot \\pi \\cdot 6 \\approx 6{,}28$, also $b \\approx 6{,}28\\,\\mathrm{cm}$.\n\n$A_S = \\frac{60°}{360°} \\cdot \\pi \\cdot 6^2 \\approx 18{,}85$, also $A_S \\approx 18{,}85\\,\\mathrm{cm^2}$.\n\nJe 0,5 P."
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$b = \\frac{135°}{360°} \\cdot 2 \\cdot \\pi \\cdot 10 \\approx 23{,}56$, also $b \\approx 23{,}56\\,\\mathrm{m}$.\n\n$A_S = \\frac{135°}{360°} \\cdot \\pi \\cdot 10^2 \\approx 117{,}81$, also $A_S \\approx 117{,}81\\,\\mathrm{m^2}$.\n\nJe 0,5 P."
+        },
+        {
+          "id": "N5-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Viertelkreis: $\\frac{1}{4} \\cdot 360° = 90°$; Drittelkreis: $120°$; Achtelkreis: $45°$.\n\nAlle drei richtig 1 P, zwei richtig 0,5 P."
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "20 Minuten sind $\\frac{20}{60} = \\frac{1}{3}$ einer Stunde, also $\\frac{1}{3} \\cdot 360° = 120°$."
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$b = \\frac{120°}{360°} \\cdot 2 \\cdot \\pi \\cdot 1{,}20 \\approx 2{,}51$, also etwa $2{,}51\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$A_S = \\frac{\\alpha}{360°} \\cdot \\pi \\cdot r^2$ nach α umstellen: $\\alpha = \\frac{A_S}{\\pi \\cdot r^2} \\cdot 360°$ (1 P).\n\n$\\alpha = \\frac{50}{\\pi \\cdot 64} \\cdot 360° \\approx 89{,}52°$ – fast ein Viertelkreis (1 P)."
+        },
+        {
+          "id": "N5-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "72° sind $\\frac{72°}{360°} = \\frac{1}{5}$ des Vollwinkels, der ganze Umfang ist also $5 \\cdot 15 = 75$ (1 P).\n\n$r = \\frac{75}{2\\pi} \\approx 11{,}94$, also $r \\approx 11{,}94\\,\\mathrm{cm}$ (1 P)."
+        },
+        {
+          "id": "N5-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$\\frac{\\alpha}{360°} \\cdot \\pi \\cdot r^2 = \\pi \\cdot \\left(\\frac{r}{2}\\right)^2 = \\frac{1}{4} \\cdot \\pi \\cdot r^2$\n\nAlso $\\frac{\\alpha}{360°} = \\frac{1}{4}$ und $\\alpha = 90°$. Auf beiden Seiten steht $\\pi \\cdot r^2$ – es kürzt sich heraus, deshalb gilt das für jeden Radius."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Kreisringe",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c6",
+        "c3",
+        "c4",
+        "g1",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Großer Kreis minus kleiner Kreis.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Kreisringe.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A_R = \\pi \\cdot (5^2 - 2^2) = 21\\pi \\approx 65{,}97$, also $A_R \\approx 65{,}97\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$U_R = 2 \\cdot \\pi \\cdot 5 + 2 \\cdot \\pi \\cdot 2 = 14\\pi \\approx 43{,}98$, also $U_R \\approx 43{,}98\\,\\mathrm{cm}$ (äußere **und** innere Kreislinie)."
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A_R = \\pi \\cdot (5{,}8^2 - 2{,}3^2) = \\pi \\cdot 28{,}35 \\approx 89{,}06$, also etwa $89{,}06\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Kreisfläche $\\pi \\cdot 6^2 \\approx 113{,}10\\,\\mathrm{cm^2}$; Anteil mit ungerundeten Werten: $\\frac{\\pi \\cdot 28{,}35}{\\pi \\cdot 36} = \\frac{28{,}35}{36} = 0{,}7875$, also $78{,}75\\,\\%$."
+        },
+        {
+          "id": "N6-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Radien: $r_a = 12\\,\\mathrm{mm}$, $r_i = 6{,}5\\,\\mathrm{mm}$.\n\n$A_R = \\pi \\cdot (12^2 - 6{,}5^2) = \\pi \\cdot 101{,}75 \\approx 319{,}66$, also $A_R \\approx 319{,}66\\,\\mathrm{mm^2}$."
+        },
+        {
+          "id": "N6-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Umrechnungszahl 100: $319{,}66 : 100 \\approx 3{,}20$, also etwa $3{,}20\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N6-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\pi \\cdot (10^2 - r_i^2) = 200$, also $100 - r_i^2 = \\frac{200}{\\pi} \\approx 63{,}6620$ (1 P).\n\n$r_i^2 \\approx 36{,}3380$ und $r_i \\approx 6{,}03$, also $r_i \\approx 6{,}03\\,\\mathrm{cm}$ (1 P)."
+        },
+        {
+          "id": "N6-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**. Gegenbeispiel: $r_a = 5\\,\\mathrm{cm}$, $r_i = 3\\,\\mathrm{cm}$ (2 cm breit) ergibt $\\pi \\cdot (25 - 9) = 16\\pi$, nicht $4\\pi$ (1 P).\n\nBegründung: Man darf nicht erst subtrahieren und dann quadrieren, $r_a^2 - r_i^2 \\neq (r_a - r_i)^2$. Je weiter außen ein gleich breiter Ring liegt, desto länger ist er und desto größer seine Fläche (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Zusammengesetzte Figuren: Flächeninhalt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c6",
+        "c7",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Beschreibe zuerst in Worten, woraus die Figur besteht.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Zusammengesetzte_Flaechen.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Quadrat minus Viertelkreis: $100 - \\frac{1}{4} \\cdot \\pi \\cdot 10^2 \\approx 100 - 78{,}54 = 21{,}46$, also etwa $21{,}46\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Rechteck plus zwei Halbkreise mit $r = 3\\,\\mathrm{cm}$; zwei Halbkreise sind ein ganzer Kreis (1 P).\n\n$A = 12 \\cdot 6 + \\pi \\cdot 3^2 \\approx 72 + 28{,}27 = 100{,}27$, also etwa $100{,}27\\,\\mathrm{cm^2}$ (1 P)."
+        },
+        {
+          "id": "N7-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Viertelkreis minus rechtwinkliges Dreieck mit den Katheten $6\\,\\mathrm{cm}$ und $6\\,\\mathrm{cm}$ (1 P):\n\n$\\frac{1}{4} \\cdot \\pi \\cdot 6^2 - \\frac{1}{2} \\cdot 6 \\cdot 6 \\approx 28{,}27 - 18 = 10{,}27$, also etwa $10{,}27\\,\\mathrm{cm^2}$ (1 P)."
+        },
+        {
+          "id": "N7-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zerlegen: Rechteck $3\\,\\mathrm{m} \\times 6\\,\\mathrm{m}$ plus zwei Viertelkreise mit $r = 6\\,\\mathrm{m}$ (zusammen ein Halbkreis) (1 P).\n\n$A = 3 \\cdot 6 + \\frac{1}{2} \\cdot \\pi \\cdot 6^2 = 18 + 18\\pi \\approx 74{,}55$, also etwa $74{,}55\\,\\mathrm{m^2}$ – im Sachzusammenhang rund $75\\,\\mathrm{m^2}$ (1 P)."
+        },
+        {
+          "id": "N7-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$r = 6\\,\\mathrm{cm}$: $\\frac{\\pi \\cdot 6^2}{12 \\cdot 12} = \\frac{36\\pi}{144} = \\frac{\\pi}{4} \\approx 0{,}7854$, also etwa $78{,}54\\,\\%$."
+        },
+        {
+          "id": "N7-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Jeder kleine Kreis hat $r = \\frac{a}{4}$, der große $r = \\frac{a}{2}$ (1 P).\n\n$4 \\cdot \\pi \\cdot \\left(\\frac{a}{4}\\right)^2 = 4 \\cdot \\frac{\\pi a^2}{16} = \\frac{\\pi a^2}{4}$ und $\\pi \\cdot \\left(\\frac{a}{2}\\right)^2 = \\frac{\\pi a^2}{4}$ – beide bedecken **gleich viel** (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Randlängen und Formeln mit r",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c8",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Fahre den Rand mit dem Finger ab: Welche Strecken und Bögen gehören dazu?",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Randlaengen_Formeln.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zwei Quadratseiten und ein Viertelkreisbogen: $10 + 10 + \\frac{1}{4} \\cdot 2 \\cdot \\pi \\cdot 10 = 20 + 5\\pi \\approx 35{,}71$, also etwa $35{,}71\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zwei lange Seiten und zwei Halbkreisbögen (zusammen ein Kreisumfang): $2 \\cdot 12 + 2 \\cdot \\pi \\cdot 3 \\approx 24 + 18{,}85 = 42{,}85$, also etwa $42{,}85\\,\\mathrm{cm}$. Die kurzen Seiten gehören nicht zum Rand."
+        },
+        {
+          "id": "N8-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zwei Viertelkreisbögen sind zusammen ein Halbkreisbogen: $\\pi \\cdot 6 \\approx 18{,}85$ (1 P).\n\n$3 + 6\\pi \\approx 21{,}85$, also etwa $21{,}85\\,\\mathrm{m}$ (1 P)."
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ist $\\overline{AB} = d$, dann ist der große Bogen $\\frac{1}{2} \\cdot \\pi \\cdot d$ lang (1 P).\n\nJeder kleine Bogen hat den Durchmesser $\\frac{d}{2}$, zusammen: $2 \\cdot \\frac{1}{2} \\cdot \\pi \\cdot \\frac{d}{2} = \\frac{1}{2} \\cdot \\pi \\cdot d$ – gleich lang, für jedes d (1 P)."
+        },
+        {
+          "id": "N8-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Quadrat minus Kreis: $(2r)^2 - \\pi \\cdot r^2 = 4r^2 - \\pi r^2$ (1 P).\n\nAusklammern: $(4 - \\pi) \\cdot r^2 \\approx 0{,}86 \\cdot r^2$ (1 P)."
+        },
+        {
+          "id": "N8-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{(4 - \\pi) \\cdot r^2}{4r^2} = \\frac{4 - \\pi}{4}$ – r kürzt sich heraus (1 P).\n\n$\\frac{4 - \\pi}{4} \\approx 0{,}2146$, also etwa $21{,}46\\,\\%$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c3",
+        "c4",
+        "c6",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. In jeder Lösung steckt ein typischer Fehler.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "In die Formel gehört der **Radius**, eingesetzt wurde der Durchmesser (1 P).\n\n$r = 5\\,\\mathrm{cm}$: $A = \\pi \\cdot 5^2 = 25\\pi\\,\\mathrm{cm^2}$ (1 P)."
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Berechnet wurde nur der Bogen. Zum Rand des Halbkreises gehört auch der **Durchmesser** (1 P).\n\n$U = 4\\pi + 8$, also $(4\\pi + 8)\\,\\mathrm{cm}$ (1 P)."
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Es wurde erst subtrahiert und dann quadriert. Richtig: beide Radien quadrieren, dann subtrahieren (1 P).\n\n$A_R = \\pi \\cdot (49 - 16) = 33\\pi\\,\\mathrm{cm^2}$ (1 P)."
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Anteil bezieht sich auf den Vollwinkel **360°**, nicht auf 100 (1 P).\n\n$A_S = \\frac{40°}{360°} \\cdot \\pi \\cdot 81 = \\frac{1}{9} \\cdot 81\\pi = 9\\pi\\,\\mathrm{cm^2}$ (1 P)."
+        },
+        {
+          "id": "N9-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Fehler: Die obere Seite wurde ganz mitgezählt. Das $4\\,\\mathrm{cm}$ lange Stück, an dem der Halbkreis ausgeschnitten ist, gehört nicht mehr zum Rand – dort verläuft jetzt der Bogen. Richtig: $8 + 4 + 4 + (8 - 4) + \\frac{1}{2} \\cdot \\pi \\cdot 4 = (20 + 2\\pi)\\,\\mathrm{cm}$ (1 P).\n\nDer Bogen $2\\pi \\approx 6{,}3$ ist länger als die weggefallene Strecke $4\\,\\mathrm{cm}$. Deshalb wächst der Rand um $2\\pi - 4$, obwohl Fläche weggenommen wird (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Eine Zirkusmanege",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c4",
+        "c3",
+        "c2",
+        "c5",
+        "c1",
+        "g1",
+        "g2",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Umfang und Flächeninhalt) – am besten nach N1 bis N4.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Zirkusmanege.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$U = \\pi \\cdot 13 \\approx 40{,}84$, also etwa $40{,}84\\,\\mathrm{m}$."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$40{,}84 : 1{,}50 \\approx 27{,}2$. Mit 27 Elementen bliebe eine Lücke, also braucht man **28** Elemente (aufrunden)."
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{U}{d} = \\frac{40{,}9}{13{,}0} \\approx 3{,}146$ – nahe an $\\pi \\approx 3{,}142$.\n\nDie Abweichung kommt von der Messung: Das Maßband liegt außen an der Bande und nicht genau auf der Kreislinie, und abgelesen wird nur auf 10 cm genau."
+        },
+        {
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = \\pi \\cdot 6{,}5^2 \\approx 132{,}73$, also etwa $133\\,\\mathrm{m^2}$."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zeltfläche: $\\pi \\cdot 22^2 \\approx 1520{,}53\\,\\mathrm{m^2}$ (1 P).\n\nAnteil: $\\frac{132{,}73}{1520{,}53} \\approx 0{,}087$, also etwa $8{,}7\\,\\%$ (1 P). Kürzer: $\\left(\\frac{6{,}5}{22}\\right)^2 \\approx 0{,}087$."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Länge der Reihe: $2 \\cdot \\pi \\cdot 7{,}5 \\approx 47{,}12\\,\\mathrm{m} = 4712\\,\\mathrm{cm}$ (1 P).\n\n$4712 : 55 \\approx 85{,}7$ – es gibt **85** ganze Plätze (abrunden) (1 P)."
+        },
+        {
+          "id": "V1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der Vorschlag ist **falsch**: Doppelter Durchmesser ergibt die **vierfache** Fläche, etwa $531\\,\\mathrm{m^2}$ statt $265\\,\\mathrm{m^2}$ (1 P).\n\nDoppelte Fläche: $\\pi \\cdot r^2 = 2 \\cdot \\pi \\cdot 6{,}5^2$, also $r^2 = 2 \\cdot 6{,}5^2$ und $r = 6{,}5 \\cdot \\sqrt{2} \\approx 9{,}19$. Der Durchmesser muss etwa $18{,}38\\,\\mathrm{m}$ sein – nur rund $41\\,\\%$ mehr (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Eine Dartscheibe",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c4",
+        "c5",
+        "g1",
+        "g2"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Umfang und Flächeninhalt, Kreisausschnitt und Kreisring) – am besten nach N5 bis N6.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Dartscheibe.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$360° : 20 = 18°$"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A_S = \\frac{18°}{360°} \\cdot \\pi \\cdot 170^2 \\approx 4539{,}60$, also etwa $4540\\,\\mathrm{mm^2}$."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Doppelring: $\\pi \\cdot (170^2 - 162^2) = 2656\\pi \\approx 8344$, also etwa $8344\\,\\mathrm{mm^2}$ (1 P).\n\nEin Doppelfeld ist $\\frac{1}{20}$ davon: $8344{,}07 : 20 \\approx 417$, also etwa $417\\,\\mathrm{mm^2}$ (1 P)."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$b = \\frac{18°}{360°} \\cdot 2 \\cdot \\pi \\cdot 170 \\approx 53{,}41$, also etwa $53{,}4\\,\\mathrm{mm}$."
+        },
+        {
+          "id": "V2-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Triplering: $\\pi \\cdot (107^2 - 99^2) = 1648\\pi \\approx 5177\\,\\mathrm{mm^2}$; Spielfläche: $\\pi \\cdot 170^2 \\approx 90\\,792\\,\\mathrm{mm^2}$ (1 P).\n\nAnteil: $\\frac{1648\\pi}{28\\,900\\pi} = \\frac{1648}{28\\,900} \\approx 0{,}057$, also etwa $5{,}7\\,\\%$ (1 P)."
+        },
+        {
+          "id": "V2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\pi \\cdot (15{,}9^2 - 6{,}35^2) \\approx 667{,}55$, also etwa $668\\,\\mathrm{mm^2}$; durch 100: etwa $6{,}68\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "V2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**: Doppelring etwa $8344\\,\\mathrm{mm^2}$, Triplering etwa $5177\\,\\mathrm{mm^2}$ (1 P).\n\nBei gleicher Breite zählt, wie lang ein Ring ist: Der Doppelring liegt weiter außen, sein Umfang ist größer. Allgemein ist $A_R = \\pi \\cdot (r_a + r_i) \\cdot (r_a - r_i)$ – bei gleicher Breite $r_a - r_i$ wächst die Fläche mit $r_a + r_i$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Eine Laufbahn für das Sportfest",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10",
+        "c7",
+        "c6",
+        "c3",
+        "c4",
+        "g1",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Umfang und Flächeninhalt, Kreisausschnitt und Kreisring, zusammengesetzte Figuren) – am besten nach N7 bis N9.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Laufbahn.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Rechteck $84{,}39\\,\\mathrm{m} \\times 73{,}00\\,\\mathrm{m}$ plus zwei Halbkreise mit $r = 36{,}50\\,\\mathrm{m}$ (zusammen ein Kreis) (1 P):\n\n$84{,}39 \\cdot 73 + \\pi \\cdot 36{,}5^2 \\approx 6160{,}47 + 4185{,}39 = 10\\,345{,}86$, also etwa $10\\,346\\,\\mathrm{m^2}$ (1 P)."
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Radius der Messlinie $36{,}50 + 0{,}30 = 36{,}80$: $2 \\cdot 84{,}39 + 2 \\cdot \\pi \\cdot 36{,}80 \\approx 168{,}78 + 231{,}22 = 400{,}00$, also $400{,}00\\,\\mathrm{m}$."
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Radius: $36{,}50 + 1{,}22 + 0{,}20 = 37{,}92$ (1 P).\n\n$2 \\cdot 84{,}39 + 2 \\cdot \\pi \\cdot 37{,}92 \\approx 168{,}78 + 238{,}26 = 407{,}04$, also etwa $407{,}04\\,\\mathrm{m}$ (1 P)."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Breite aller Bahnen: $8 \\cdot 1{,}22 = 9{,}76$, Außenradius $36{,}50 + 9{,}76 = 46{,}26$ (1 P).\n\nZwei Halbringe in den Kurven sind zusammen ein Kreisring: $\\pi \\cdot (46{,}26^2 - 36{,}5^2) \\approx 2537{,}58$ (1 P).\n\nZwei Rechtecke auf den Geraden: $2 \\cdot 84{,}39 \\cdot 9{,}76 \\approx 1647{,}29$. Zusammen etwa $4184{,}88$, also rund $4185\\,\\mathrm{m^2}$ (1 P)."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{4184{,}88}{10\\,345{,}86 + 4184{,}88} \\approx 0{,}288$, also etwa $28{,}8\\,\\%$."
+        },
+        {
+          "id": "V3-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Bahn 2 gegenüber Bahn 1: $\\pi \\cdot 37{,}92 - \\pi \\cdot 36{,}80 = \\pi \\cdot 1{,}12 \\approx 3{,}52$, also etwa $3{,}52\\,\\mathrm{m}$. Bahn 3 (Radius $39{,}14$) gegenüber Bahn 2: $\\pi \\cdot 1{,}22 \\approx 3{,}83$, also etwa $3{,}83\\,\\mathrm{m}$ (1 P).\n\nAllgemein: Liegt die Messlinie um $1{,}22\\,\\mathrm{m}$ weiter außen, ist der Halbkreisbogen $\\pi \\cdot (r + 1{,}22) - \\pi \\cdot r = \\pi \\cdot 1{,}22$ länger – r fällt heraus. Deshalb ist der Vorsprung ab Bahn 3 immer gleich (1 P).\n\nBahn 1 wird $0{,}30\\,\\mathrm{m}$, Bahn 2 nur $0{,}20\\,\\mathrm{m}$ neben der inneren Begrenzung gemessen. Die Messlinien liegen also nur $1{,}12\\,\\mathrm{m}$ auseinander, deshalb ist der Vorsprung kleiner (1 P)."
+        }
+      ]
+    }
+  ]
+}
