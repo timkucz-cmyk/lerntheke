@@ -1,0 +1,1581 @@
+{
+  "version": 1,
+  "titel": "Quadratische Funktionen und Gleichungen – Training vor der Klassenarbeit",
+  "fach": "mathe",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Funktionen, binomischen Formeln, Termen oder Gleichungen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N14. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N4, V2 nach N5 bis N7, V3 nach N8 bis N12, V4 nach N13 bis N14. Schreibst du nur über Teil 1, reichen Phase 1 und 2 mit V1 und V2. N1 bis N12 ohne Taschenrechner, N13, N14 und V4 mit Taschenrechner. Geodreieck bereitlegen; dein Regelheft darfst du benutzen.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Zu einer Funktionsgleichung eine Wertetabelle erstellen sowie Funktionswerte und Argumente berechnen"
+    },
+    {
+      "id": "g2",
+      "text": "Lineare Funktionen: Funktionsgleichung bestimmen, Nullstelle und Schnittpunkt zweier Geraden berechnen"
+    },
+    {
+      "id": "g3",
+      "text": "Die binomischen Formeln in beide Richtungen anwenden"
+    },
+    {
+      "id": "g4",
+      "text": "Terme mit x² vereinfachen, ausmultiplizieren und ausklammern"
+    },
+    {
+      "id": "g5",
+      "text": "Lineare Gleichungen und lineare Gleichungssysteme mit zwei Variablen lösen"
+    },
+    {
+      "id": "g6",
+      "text": "Quadratwurzeln bestimmen und mit Wurzeln rechnen"
+    },
+    {
+      "id": "c1",
+      "text": "Eigenschaften der Normalparabel benennen und mit f(x) = x² Funktionswerte und Argumente berechnen"
+    },
+    {
+      "id": "c2",
+      "text": "Die Scheitelpunktform angeben, den Scheitelpunkt ablesen und die Normalparabel verschieben"
+    },
+    {
+      "id": "c3",
+      "text": "Parabeln strecken, stauchen und an der x-Achse spiegeln – den Einfluss von a beschreiben"
+    },
+    {
+      "id": "c4",
+      "text": "Die Funktionsgleichung einer Parabel aus dem Graphen, aus Scheitelpunkt und Punkt oder aus einer Wertetabelle bestimmen"
+    },
+    {
+      "id": "c5",
+      "text": "Die Normalform angeben, den y-Achsenabschnitt ablesen und Normal- und Scheitelpunktform vergleichen"
+    },
+    {
+      "id": "c6",
+      "text": "Von der Scheitelpunktform in die Normalform wechseln (Ausmultiplizieren)"
+    },
+    {
+      "id": "c7",
+      "text": "Von der Normalform in die Scheitelpunktform wechseln (quadratische Ergänzung)"
+    },
+    {
+      "id": "c8",
+      "text": "Quadratische Gleichungen der Form x² − q = 0 und x² + rx = 0 lösen"
+    },
+    {
+      "id": "c9",
+      "text": "Die faktorisierte Form benennen, zwischen faktorisierter Form und Normalform wechseln und Gleichungen der Form (x − r) · (x − s) = 0 lösen"
+    },
+    {
+      "id": "c10",
+      "text": "Quadratische Gleichungen mit der p,q-Formel lösen und die Anzahl der Lösungen begründen"
+    },
+    {
+      "id": "c11",
+      "text": "Nullstellen quadratischer Funktionen und Schnittpunkte von Parabel und Gerade berechnen"
+    },
+    {
+      "id": "c12",
+      "text": "Sachsituationen mit quadratischen Funktionen modellieren (Gleichung aus Scheitelpunkt und Punkt oder aus y-Achsenabschnitt und zwei Punkten)"
+    },
+    {
+      "id": "c13",
+      "text": "Sachprobleme mit quadratischen Gleichungen lösen, größte und kleinste Werte über den Scheitelpunkt bestimmen und Ergebnisse deuten"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 8 und Reelle Zahlen",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Parabeln und Scheitelpunktform",
+      "untertitel": "Normalparabel, verschieben, strecken, Gleichung bestimmen",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Normalform und Formwechsel",
+      "untertitel": "Ausmultiplizieren und quadratische Ergänzung",
+      "farbe": "orange",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c7"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Quadratische Gleichungen",
+      "untertitel": "Level 1 bis 4, Nullstellen und Schnittpunkte",
+      "farbe": "gruen",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Modellieren und Sachprobleme",
+      "untertitel": "Parabeln in Sachsituationen",
+      "farbe": "rot",
+      "checkliste": [
+        "c12",
+        "c13"
+      ]
+    }
+  ],
+  "abschluss": "Klassenarbeit",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Jeden x-Wert einsetzen, z. B. $f(3) = 2{,}5 \\cdot 3 + 4 = 7{,}5 + 4 = 11{,}5$:\n\n| $x$ | $0$ | $1$ | $2$ | $3$ | $4$ |\n|---|---|---|---|---|---|\n| $f(x)$ | $4$ | $6{,}5$ | $9$ | $11{,}5$ | $14$ |\n\nAlle Werte richtig: 1 P."
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gesucht ist das Argument $x$ mit $f(x) = 16{,}5$:\n\n$$2{,}5x + 4 = 16{,}5 \\quad \\mid -4$$\n\n$$2{,}5x = 12{,}5 \\quad \\mid : 2{,}5$$\n\n$$x = 5$$\n\nFür 16,50 € kann man das Rad **5 Stunden** leihen.\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$m = \\frac{1 - (-5)}{2 - (-1)} = \\frac{6}{3} = 2$$\n\n$B$ einsetzen: $1 = 2 \\cdot 2 + b$, also $b = -3$.\n\n$$f(x) = 2x - 3$$"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$2x - 3 = 0 \\quad \\mid +3$$\n\n$$2x = 3 \\quad \\mid : 2$$\n\n$$x = 1{,}5$$"
+        },
+        {
+          "id": "G1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gleichsetzen: $2x - 3 = -x + 6 \\quad \\mid +x + 3$\n\n$$3x = 9 \\quad \\mid : 3$$\n\n$$x = 3$$\n\n$f(3) = 2 \\cdot 3 - 3 = 3$ (Kontrolle: $g(3) = -3 + 6 = 3$), also $S(3 \\mid 3)$.\n\nÜben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $(x + 4)^2 = x^2 + 2 \\cdot 4 \\cdot x + 16 = x^2 + 8x + 16$\n- $(2x - 3)^2 = (2x)^2 - 2 \\cdot 2x \\cdot 3 + 9 = 4x^2 - 12x + 9$\n\nJe Ergebnis 0,5 P."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$49 = 7^2$ und $14x = 2 \\cdot 7 \\cdot x$, mit Minus: zweite binomische Formel.\n\n$$x^2 - 14x + 49 = (x - 7)^2$$\n\nÜben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$3x^2 - 2x(x + 4) = 3x^2 - 2x^2 - 8x = x^2 - 8x$$\n\nErst ausmultiplizieren, dann zusammenfassen."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beide Summanden enthalten den Faktor $3x$:\n\n$$6x^2 - 9x = 3x(2x - 3)$$\n\nKontrolle durch Ausmultiplizieren: $3x \\cdot 2x - 3x \\cdot 3 = 6x^2 - 9x$ ✓\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$7x + 3 = 4x - 9 \\quad \\mid -4x$$\n\n$$3x + 3 = -9 \\quad \\mid -3$$\n\n$$3x = -12 \\quad \\mid : 3$$\n\n$$x = -4$$"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zweite Gleichung nach $a$ umstellen: $a = 4 - b$.\n\nEinsetzen: $4(4 - b) + 2b = 10$, also $16 - 4b + 2b = 10$, $-2b = -6$, $b = 3$.\n\nDann $a = 4 - 3 = 1$. Probe: $4 \\cdot 1 + 2 \\cdot 3 = 10$ ✓\n\nÜben: **G2** Aufgabe 5."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{144} = 12$, $\\sqrt{0{,}25} = 0{,}5$, $\\sqrt{\\frac{49}{81}} = \\frac{7}{9}$\n\nKontrolle: $12^2 = 144$, $0{,}5^2 = 0{,}25$, $\\left(\\frac{7}{9}\\right)^2 = \\frac{49}{81}$."
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Wurzelgesetz: $\\sqrt{a} \\cdot \\sqrt{b} = \\sqrt{a \\cdot b}$ für $a, b \\ge 0$.\n\n$$\\sqrt{2} \\cdot \\sqrt{8} = \\sqrt{16} = 4$$\n\nÜben: **G2** Aufgabe 6."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Funktionen, Terme, Gleichungen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Wähle die Aufgaben, die zu deinen Lücken aus G1 passen: 1 Funktionswerte, 2 lineare Funktionen, 3 binomische Formeln, 4 Terme, 5 Gleichungen, 6 Wurzeln.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zum Beispiel $f(-1) = -2 \\cdot (-1) + 5 = 2 + 5 = 7$:\n\n| $x$ | $-1$ | $0$ | $1$ | $2$ | $3$ |\n|---|---|---|---|---|---|\n| $f(x)$ | $7$ | $5$ | $3$ | $1$ | $-1$ |"
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$-2x + 5 = -3 \\quad \\mid -5$$\n\n$$-2x = -8 \\quad \\mid : (-2)$$\n\n$$x = 4$$"
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$m = \\frac{5 - 1}{2 - 0} = \\frac{4}{2} = 2$$\n\n$P$ liegt auf der y-Achse, also $b = 1$:\n\n$$f(x) = 2x + 1$$"
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$2x + 1 = -x + 4 \\quad \\mid +x - 1$$\n\n$$3x = 3 \\quad \\mid : 3$$\n\n$$x = 1$$\n\n$f(1) = 2 + 1 = 3$, also $S(1 \\mid 3)$."
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $(x - 6)^2 = x^2 - 12x + 36$\n- $(x + 1{,}5)^2 = x^2 + 3x + 2{,}25$\n\nDie Zahl vor dem $x$ ist das Doppelte von 6 bzw. 1,5, die Zahl am Ende das Quadrat."
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $x^2 + 12x + 36 = (x + 6)^2$ (erste binomische Formel, $36 = 6^2$, $12 = 2 \\cdot 6$)\n- $x^2 - 9 = (x + 3)(x - 3)$ (dritte binomische Formel)"
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$2(x - 1)^2 - 2x^2 = 2(x^2 - 2x + 1) - 2x^2 = 2x^2 - 4x + 2 - 2x^2 = -4x + 2$$\n\nErst die binomische Formel, dann ausmultiplizieren, dann zusammenfassen."
+        },
+        {
+          "id": "G2-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$3x - 7 = 5x + 3 \\quad \\mid -5x$$\n\n$$-2x - 7 = 3 \\quad \\mid +7$$\n\n$$-2x = 10 \\quad \\mid : (-2)$$\n\n$$x = -5$$"
+        },
+        {
+          "id": "G2-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Erste Gleichung umstellen: $a = 1 - b$.\n\nEinsetzen: $4(1 - b) + 2b = 6$, also $4 - 4b + 2b = 6$, $-2b = 2$, $b = -1$.\n\nDann $a = 1 - (-1) = 2$. Probe: $4 \\cdot 2 + 2 \\cdot (-1) = 6$ ✓"
+        },
+        {
+          "id": "G2-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{0{,}81} = 0{,}9$, $\\sqrt{1{,}44} = 1{,}2$, $\\sqrt{\\frac{25}{64}} = \\frac{5}{8}$\n\nKontrolle: $0{,}9^2 = 0{,}81$ und $1{,}2^2 = 1{,}44$."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Die Normalparabel",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 15 Minuten, ohne Taschenrechner. Lege das Geodreieck bereit.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Normalparabel.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Quadrieren, auch bei negativen Zahlen: $(-1{,}5)^2 = (-1{,}5) \\cdot (-1{,}5) = 2{,}25$.\n\n| $x$ | $-2$ | $-1{,}5$ | $-1$ | $0$ | $1$ | $1{,}5$ | $2$ |\n|---|---|---|---|---|---|---|---|\n| $f(x)$ | $4$ | $2{,}25$ | $1$ | $0$ | $1$ | $2{,}25$ | $4$ |"
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Punkte aus der Tabelle eintragen und mit einer glatten, nach oben geöffneten Kurve verbinden – unten im Scheitelpunkt rund, nicht spitz.",
+          "loesung_bild": "img/N1-1b.png"
+        },
+        {
+          "id": "N1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Zum Beispiel:\n\n- Scheitelpunkt $S(0 \\mid 0)$, das ist der tiefste Punkt\n- symmetrisch zur y-Achse, denn $f(-x) = f(x)$\n- nach oben geöffnet\n- $D = \\mathbb{R}$: Man darf jede Zahl einsetzen.\n- Wertemenge: alle Zahlen $y \\ge 0$, also $W = \\{y \\mid y \\ge 0\\}$\n- Für große positive und große negative x-Werte werden die Funktionswerte beliebig groß.\n\nJe zwei richtige Eigenschaften 1 P."
+        },
+        {
+          "id": "N1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$f(-2{,}5) = (-2{,}5)^2 = 6{,}25$$"
+        },
+        {
+          "id": "N1-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$x^2 = 0{,}36$ gilt für $x = 0{,}6$ und für $x = -0{,}6$, denn $0{,}6^2 = 0{,}36$ und $(-0{,}6)^2 = 0{,}36$ (1 P).\n\nEin Quadrat ist nie negativ: $x^2 \\ge 0$ für jede Zahl $x$. Deshalb gibt es kein $x$ mit $x^2 = -1$; der Graph liegt nie unterhalb der x-Achse (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Verschieben: die Scheitelpunktform",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c2",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Merkregel: Minus nach dem x – nach rechts, Plus – nach links.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Scheitelpunktform.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- $f_1$: $S(5 \\mid 1)$\n- $f_2$: $S(-3 \\mid -2)$, denn $(x + 3)^2 - 2 = (x - (-3))^2 + (-2)$\n- $f_3$: $S(0 \\mid -5)$, nur nach unten verschoben\n- $f_4$: $S(-1{,}5 \\mid 0)$, nur nach links verschoben\n\nJe zwei richtige Scheitelpunkte 1 P."
+        },
+        {
+          "id": "N2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Scheitelpunkt $S(-3 \\mid -2)$ eintragen (1 P). Weitere Punkte: $(-2 \\mid -1)$, $(-4 \\mid -1)$, $(-1 \\mid 2)$, $(-5 \\mid 2)$; glatt verbinden (1 P).",
+          "loesung_bild": "img/N2-2.png"
+        },
+        {
+          "id": "N2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Scheitelpunkte ablesen und einsetzen:\n\n- $f$: $S(2 \\mid -3)$, also $f(x) = (x - 2)^2 - 3$\n- $g$: $S(-4 \\mid 0)$, also $g(x) = (x + 4)^2$\n- $h$: $S(0 \\mid 2{,}5)$, also $h(x) = x^2 + 2{,}5$\n\nAlle drei richtig: 2 P, zwei richtig: 1 P."
+        },
+        {
+          "id": "N2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Scheitelpunkte vergleichen: $S_{f_2}(-3 \\mid -2)$ und $S_k(1 \\mid 2)$.\n\n- waagerecht: von $-3$ nach $1$, also **4 nach rechts** (1 P)\n- senkrecht: von $-2$ nach $2$, also **4 nach oben** (1 P)"
+        },
+        {
+          "id": "N2-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Parabel ist eine verschobene Normalparabel, also nach oben geöffnet. Der tiefste Punkt der Parabel ist der Scheitelpunkt $S(d \\mid e)$ (1 P).\n\nMit Termen: $(x - d)^2 \\ge 0$, also $f(x) = (x - d)^2 + e \\ge e > 0$. Der Graph liegt ganz oberhalb der x-Achse und schneidet sie nie (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Strecken, stauchen, spiegeln",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Achte beim Faktor a auf den Betrag und das Vorzeichen.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Strecken_Stauchen.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Gut ablesbare Punkte nutzen: $B$ geht durch $(1 \\mid 2)$, $D$ durch $(2 \\mid 2)$, $C$ durch $(2 \\mid -4)$, $A$ durch $(4 \\mid -4)$. Einsetzen in $y = ax^2$ ergibt $a = 2$, $0{,}5$, $-1$ und $-0{,}25$.\n\n- $y = 2x^2$: **B** (nach oben, enger als die Normalparabel)\n- $y = 0{,}5x^2$: **D** (nach oben, weiter)\n- $y = -x^2$: **C** (nach unten, gespiegelt)\n- $y = -0{,}25x^2$: **A** (nach unten, sehr weit)\n\nAlle vier richtig: 2 P, zwei richtig: 1 P."
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $a > 0$: nach oben geöffnet; $a < 0$: nach unten geöffnet (an der x-Achse gespiegelt)\n- $\\left| a \\right| > 1$: gestreckt (enger als die Normalparabel)\n- $\\left| a \\right| < 1$: gestaucht (weiter als die Normalparabel)\n- $a = 1$: Normalparabel"
+        },
+        {
+          "id": "N3-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P$ einsetzen: $6 = a \\cdot 2^2 = 4a$, also $a = 1{,}5$ (1 P).\n\n$Q$ einsetzen: $-6 = a \\cdot (-3)^2 = 9a$, also $a = -\\frac{6}{9} = -\\frac{2}{3}$ (1 P)."
+        },
+        {
+          "id": "N3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zum Beispiel $f(-3) = -0{,}5 \\cdot (-2)^2 + 4 = -2 + 4 = 2$:\n\n| $x$ | $-4$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|---|---|---|\n| $f(x)$ | $-0{,}5$ | $2$ | $3{,}5$ | $4$ | $3{,}5$ | $2$ | $-0{,}5$ |"
+        },
+        {
+          "id": "N3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Punkte eintragen, Scheitelpunkt $S(-1 \\mid 4)$ ist der höchste Punkt, glatt verbinden.",
+          "loesung_bild": "img/N3-3b.png"
+        },
+        {
+          "id": "N3-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "An der x-Achse gespiegelt (nach unten geöffnet), mit dem Faktor 0,5 gestaucht, um 1 nach links und um 4 nach oben verschoben."
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Mia hat **nicht recht** (1 P).\n\nEntscheidend ist der Betrag: $\\left| -3 \\right| = 3 > 1$. Der Graph ist also mit dem Faktor 3 **gestreckt** und wegen des Minuszeichens an der x-Achse gespiegelt. Bei $x = 1$ ist er schon 3 Einheiten von der x-Achse entfernt, die Normalparabel nur 1 Einheit (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Parabelgleichungen bestimmen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c4",
+        "c3",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Das Rezept aus dem Regelheft hilft: Scheitelpunkt plus ein weiterer Punkt.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Parabelgleichungen.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ablesen: $S(1 \\mid 3)$ und $P(3 \\mid 2)$. Ansatz: $f(x) = a(x - 1)^2 + 3$ (1 P).\n\n$P$ einsetzen: $2 = a(3 - 1)^2 + 3$, also $2 = 4a + 3$, $4a = -1$, $a = -0{,}25$.\n\n$$f(x) = -0{,}25(x - 1)^2 + 3$$\n\n(1 P)"
+        },
+        {
+          "id": "N4-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ansatz: $f(x) = a(x - 2)^2 - 3$ (1 P).\n\n$P$ einsetzen: $5 = a(4 - 2)^2 - 3 = 4a - 3$, also $4a = 8$ und $a = 2$.\n\n$$f(x) = 2(x - 2)^2 - 3$$\n\n(1 P)"
+        },
+        {
+          "id": "N4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Werte sind symmetrisch zu $x = 2$: $f(1) = f(3)$, $f(0) = f(4)$, $f(-1) = f(5)$. Der kleinste Wert ist $f(2) = 1$, also $S(2 \\mid 1)$."
+        },
+        {
+          "id": "N4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Ansatz $f(x) = a(x - 2)^2 + 1$, Punkt $(3 \\mid 1{,}5)$: $1{,}5 = a \\cdot 1 + 1$, also $a = 0{,}5$.\n\n$$f(x) = 0{,}5(x - 2)^2 + 1$$"
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- $g$: $S(-3 \\mid -1)$; vom Scheitelpunkt 1 nach rechts und 1 nach oben, also $a = 1$: $g(x) = (x + 3)^2 - 1$\n- $h$: $S(2 \\mid 4)$; vom Scheitelpunkt 1 nach rechts und 2 nach **unten**, also $a = -2$: $h(x) = -2(x - 2)^2 + 4$\n\nJe Gleichung 1 P."
+        },
+        {
+          "id": "N4-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Pauls Aussage ist **falsch**, nur ein Sonderfall stimmt.\n\nGegenbeispiel: Durch $(0 \\mid 0)$ und $(2 \\mid 0)$ gehen z. B. $y = (x - 1)^2 - 1$ und $y = -(x - 1)^2 + 1$ und $y = 2(x - 1)^2 - 2$ – unendlich viele Parabeln (1 P).\n\nIst einer der beiden Punkte der **Scheitelpunkt**, reicht es: Dann kennt man $d$ und $e$, und der zweite Punkt liefert $a$ (Rezept) (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Normalform und Ausmultiplizieren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Binomische Formel – ausmultiplizieren – zusammenfassen.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Normalform.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f(0) = 5$: Der y-Achsenabschnitt ist das konstante Glied $c = 5$.\n\n$g(0) = 0$: Der Graph von $g$ geht durch den Ursprung ($c = 0$)."
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$$f(x) = 3(x^2 - 4x + 4) + 1$$\n\n(binomische Formel, 1 P)\n\n$$= 3x^2 - 12x + 12 + 1 = 3x^2 - 12x + 13$$\n\n(ausmultiplizieren und zusammenfassen, 1 P)"
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$g(x) = -0{,}5(x^2 + 8x + 16) + 6$$\n\n(1 P)\n\n$$= -0{,}5x^2 - 4x - 8 + 6 = -0{,}5x^2 - 4x - 2$$\n\n(1 P) Vorsicht: Der Faktor $-0{,}5$ wird mit **jedem** Summanden der Klammer multipliziert."
+        },
+        {
+          "id": "N5-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Scheitelpunktform $a(x - d)^2 + e$: den Scheitelpunkt $S(d \\mid e)$. Normalform $ax^2 + bx + c$: den y-Achsenabschnitt $c$. In beiden Formen steht derselbe Faktor $a$: Er zeigt Öffnung und Streckung."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Vergleiche den Faktor $a$ und den y-Achsenabschnitt $f(0)$:\n\n- (1): $a = 1$, $f(0) = 1 + 4 = 5$ → **(B)**\n- (2): $a = 1$, $f(0) = 1 - 3 = -2$ → **(C)**\n- (3): $a = -1$, $f(0) = -4 + 1 = -3$ → **(A)**\n\nZuordnung 1 P, Begründung 1 P."
+        },
+        {
+          "id": "N5-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$f(0) = a(0 - d)^2 + e = a \\cdot (-d)^2 + e = a \\cdot d^2 + e$, denn $(-d)^2 = d^2$ (1 P).\n\nHier ist $a = -2$, $d = -3$, $e = 10$: $-2 \\cdot 9 + 10 = -8$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Die quadratische Ergänzung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Ein Beispiel für die quadratische Ergänzung steht auf dem Blatt.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Quadratische_Ergaenzung.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$$f(x) = x^2 + 6x + 3^2 - 3^2 + 5 = (x + 3)^2 - 9 + 5 = (x + 3)^2 - 4$$\n\n(1 P) Scheitelpunkt $S(-3 \\mid -4)$ (1 P)"
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Hälfte von 5 ist 2,5:\n\n$$g(x) = x^2 - 5x + 2{,}5^2 - 2{,}5^2 + 4 = (x - 2{,}5)^2 - 6{,}25 + 4$$\n\n$$= (x - 2{,}5)^2 - 2{,}25$$\n\n(1 P) Scheitelpunkt $S(2{,}5 \\mid -2{,}25)$ (1 P)"
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Faktor 2 ausklammern: $h(x) = 2(x^2 - 4x) + 3$\n\n$$= 2(x^2 - 4x + 2^2 - 2^2) + 3 = 2\\left((x - 2)^2 - 4\\right) + 3$$\n\n$$= 2(x - 2)^2 - 8 + 3 = 2(x - 2)^2 - 5$$\n\n(1 P) Scheitelpunkt $S(2 \\mid -5)$ (1 P)"
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Faktor $-1$ ausklammern: $k(x) = -(x^2 - 4x) + 1$\n\n$$= -(x^2 - 4x + 2^2 - 2^2) + 1 = -\\left((x - 2)^2 - 4\\right) + 1$$\n\n$$= -(x - 2)^2 + 4 + 1 = -(x - 2)^2 + 5$$\n\n(1 P) Scheitelpunkt $S(2 \\mid 5)$ (1 P). Vorsicht: Das Minus vor der Klammer macht aus $-4$ ein $+4$."
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Quadratische Ergänzung mit der Hälfte von $b$:\n\n$$x^2 + bx + c = \\left(x + \\frac{b}{2}\\right)^2 - \\left(\\frac{b}{2}\\right)^2 + c$$\n\nIn der Scheitelpunktform steht $x + \\frac{b}{2} = x - \\left(-\\frac{b}{2}\\right)$, also $d = -\\frac{b}{2}$ (1 P).\n\nFür $b = -14$: $x = 7$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Darstellungen wechseln",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c4",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Du wechselst zwischen Gleichung, Wertetabelle, Graph und Worten.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Darstellungen.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "| $x$ | $-4$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|---|---|---|\n| $f(x)$ | $2{,}5$ | $0$ | $-1{,}5$ | $-2$ | $-1{,}5$ | $0$ | $2{,}5$ |\n\nZum Beispiel $f(-4) = 0{,}5 \\cdot (-3)^2 - 2 = 4{,}5 - 2 = 2{,}5$."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Scheitelpunkt $S(-1 \\mid -2)$, Nullstellen bei $-3$ und $1$; glatt verbinden.",
+          "loesung_bild": "img/N7-1b.png"
+        },
+        {
+          "id": "N7-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Symmetrie: $f(0) = f(2) = -1$, also liegt der Scheitelpunkt bei $x = 1$: $S(1 \\mid -2)$. Mit $(0 \\mid -1)$: $-1 = a \\cdot (0 - 1)^2 - 2$, also $a = 1$.\n\n$$f(x) = (x - 1)^2 - 2$$\n\n(1 P)\n\n$$f(x) = x^2 - 2x + 1 - 2 = x^2 - 2x - 1$$\n\n(1 P) Kontrolle: $f(-2) = 4 + 4 - 1 = 7$ ✓"
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Scheitelpunkt $S(-2 \\mid 1)$; 1 nach rechts, 2 nach unten, also $a = -2$:\n\n$$k(x) = -2(x + 2)^2 + 1$$\n\n(1 P)\n\n$$k(x) = -2(x^2 + 4x + 4) + 1 = -2x^2 - 8x - 7$$\n\n(1 P)"
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$f(x) = -3x^2 + 4$$\n\nMinus für „nach unten“, 3 für „gestreckt“, $+4$ für den Scheitelpunkt auf der y-Achse."
+        },
+        {
+          "id": "N7-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$p(x) = x^2 + 4x + 2^2 - 2^2 + 7 = (x + 2)^2 + 3$$"
+        },
+        {
+          "id": "N7-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Scheitelpunkt $S(-2 \\mid 3)$, dazu z. B. $(-1 \\mid 4)$ und $(-3 \\mid 4)$ oder der y-Achsenabschnitt $(0 \\mid 7)$; nach oben geöffnete Normalparabel-Form."
+        },
+        {
+          "id": "N7-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Eine Parabel ist symmetrisch zur senkrechten Geraden durch den Scheitelpunkt. Zwei Punkte mit gleichem y-Wert liegen symmetrisch dazu, der Scheitelpunkt liegt also genau in der Mitte: $\\frac{-1 + 5}{2} = 2$."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Einfache quadratische Gleichungen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c9"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Level 1 bis 3: Wurzel ziehen, Ausklammern, Nullproduktsatz.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Einfache_Gleichungen.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- $x^2 = 49$, also $L = \\{-7; 7\\}$\n- $2x^2 = 18$, $x^2 = 9$, also $L = \\{-3; 3\\}$\n- $x^2 = -4$: Ein Quadrat ist nie negativ, also $L = \\{\\,\\}$\n- $L = \\{-\\sqrt{7}; \\sqrt{7}\\}$\n\nJe zwei richtige Lösungsmengen 1 P. Nicht die negative Lösung vergessen!"
+        },
+        {
+          "id": "N8-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- $x(x - 6) = 0$, also $x = 0$ oder $x = 6$: $L = \\{0; 6\\}$\n- $3x(x + 4) = 0$, also $x = 0$ oder $x = -4$: $L = \\{-4; 0\\}$\n\nJe Gleichung 1 P."
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x - 4 = 0$ oder $x + 2{,}5 = 0$, also $L = \\{-2{,}5; 4\\}$"
+        },
+        {
+          "id": "N8-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nullstellen (Nullproduktsatz): $x = -2$ und $x = 6$. y-Achsenabschnitt: $f(0) = 0{,}5 \\cdot 2 \\cdot (-6) = -6$."
+        },
+        {
+          "id": "N8-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Scheitelpunkt liegt in der Mitte zwischen den Nullstellen: $x = \\frac{-2 + 6}{2} = 2$, $f(2) = 0{,}5 \\cdot 4 \\cdot (-4) = -8$. Also $S(2 \\mid -8)$."
+        },
+        {
+          "id": "N8-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$f(x) = 0{,}5(x^2 - 6x + 2x - 12) = 0{,}5(x^2 - 4x - 12) = 0{,}5x^2 - 2x - 6$$"
+        },
+        {
+          "id": "N8-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ansatz mit den Nullstellen: $f(x) = a(x + 1)(x - 3)$ (1 P).\n\ny-Achsenabschnitt: $f(0) = a \\cdot 1 \\cdot (-3) = -3a = 6$, also $a = -2$:\n\n$$f(x) = -2(x + 1)(x - 3)$$\n\n(1 P)"
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Die p,q-Formel",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c10",
+        "c8"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Level 4: Erst die Voraussetzungen prüfen, dann einsetzen.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_pq-Formel.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$p = -2$, $q = -8$: $x_{1,2} = 1 \\pm \\sqrt{1 + 8} = 1 \\pm 3$, also $L = \\{-2; 4\\}$"
+        },
+        {
+          "id": "N9-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$p = 5$, $q = 6{,}25$: $x_{1,2} = -2{,}5 \\pm \\sqrt{6{,}25 - 6{,}25} = -2{,}5 \\pm 0$, also $L = \\{-2{,}5\\}$"
+        },
+        {
+          "id": "N9-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$p = -2$, $q = 5$: $x_{1,2} = 1 \\pm \\sqrt{1 - 5} = 1 \\pm \\sqrt{-4}$. Die Wurzel aus einer negativen Zahl gibt es nicht, also $L = \\{\\,\\}$"
+        },
+        {
+          "id": "N9-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Erst durch 2 teilen: $x^2 + 2x - 3 = 0$ (1 P).\n\n$x_{1,2} = -1 \\pm \\sqrt{1 + 3} = -1 \\pm 2$, also $L = \\{-3; 1\\}$ (1 P)"
+        },
+        {
+          "id": "N9-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Erst auf 0 bringen: $x^2 + x - 6 = 0$ (1 P).\n\n$x_{1,2} = -0{,}5 \\pm \\sqrt{0{,}25 + 6} = -0{,}5 \\pm 2{,}5$, also $L = \\{-3; 2\\}$ (1 P)"
+        },
+        {
+          "id": "N9-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Unter der Wurzel steht $\\left(\\frac{p}{2}\\right)^2 - q$: $9 > 0$ → zwei Lösungen ($\\pm 3$); $0$ → eine Lösung ($\\pm 0$ ändert nichts); $-4 < 0$ → keine Lösung."
+        },
+        {
+          "id": "N9-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Unter der Wurzel steht $3^2 - q = 9 - q$.\n\nGenau eine Lösung: $9 - q = 0$, also $q = 9$ (1 P).\n\nZwei Lösungen: $9 - q > 0$, also für alle $q < 9$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Nullstellen und Schnittpunkte",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c11",
+        "c10",
+        "c9"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Nullstellen: f(x) = 0. Schnittpunkte: f(x) = g(x).",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Nullstellen_Schnittpunkte.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x^2 + 2x - 15 = 0$: $x_{1,2} = -1 \\pm \\sqrt{1 + 15} = -1 \\pm 4$, also $x_1 = 3$ und $x_2 = -5$."
+        },
+        {
+          "id": "N10-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Mit den Nullstellen 3 und $-5$ und $a = 1$: $f(x) = (x - 3)(x + 5)$.\n\nKontrolle: $(x - 3)(x + 5) = x^2 + 5x - 3x - 15 = x^2 + 2x - 15$ ✓"
+        },
+        {
+          "id": "N10-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$2(x - 1)^2 - 8 = 0 \\quad \\mid +8 \\quad \\mid : 2$$\n\n$$(x - 1)^2 = 4$$\n\n(1 P)\n\n$x - 1 = 2$ oder $x - 1 = -2$, also $x_1 = 3$ und $x_2 = -1$ (1 P)."
+        },
+        {
+          "id": "N10-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$k_1$: keine, $k_2$: zwei, $k_3$: eine."
+        },
+        {
+          "id": "N10-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "- $k_1$: nach oben geöffnet, $S(-2 \\mid 3)$ liegt über der x-Achse → keine Nullstelle\n- $k_2$: nach unten geöffnet, $S(2 \\mid 4)$ liegt über der x-Achse → zwei Nullstellen\n- $k_3$: $S(3 \\mid 0)$ liegt auf der x-Achse → eine Nullstelle"
+        },
+        {
+          "id": "N10-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gleichsetzen und auf 0 bringen: $x^2 - 2x - 1 = x + 3$, also $x^2 - 3x - 4 = 0$ (1 P).\n\n$x_{1,2} = 1{,}5 \\pm \\sqrt{2{,}25 + 4} = 1{,}5 \\pm 2{,}5$, also $x_1 = 4$ und $x_2 = -1$ (1 P)."
+        },
+        {
+          "id": "N10-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "In die Geradengleichung einsetzen: $g(4) = 7$ und $g(-1) = 2$. Also $S_1(-1 \\mid 2)$ und $S_2(4 \\mid 7)$."
+        },
+        {
+          "id": "N10-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Gleichsetzen: $x^2 = 2x + b$, also $x^2 - 2x - b = 0$ mit $p = -2$ und $q = -b$ (1 P).\n\nGenau eine Lösung, wenn unter der Wurzel 0 steht: $1 - (-b) = 1 + b = 0$, also $b = -1$. Dann ist $x = 1$, der gemeinsame Punkt ist $(1 \\mid 1)$: Die Gerade **berührt** die Parabel dort (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Tandem: Quadratische Gleichungen",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c11",
+        "c10",
+        "c8",
+        "c9"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert. Nach jeder Nummer wird gewechselt.",
+      "bild": "img/st_N11.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N11-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Bestimme die Lösungen von $x^2 - 64 = 0$ (Level 1).",
+          "tipp": "Umstellen zu $x^2 = 64$ und die Wurzel ziehen – an beide Vorzeichen denken.",
+          "loesung": "$x^2 = 64$, also $x = 8$ oder $x = -8$: $L = \\{-8; 8\\}$"
+        },
+        {
+          "id": "N11-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Bestimme die Lösungen von $x^2 - 0{,}25 = 0$ (Level 1).",
+          "tipp": "Umstellen zu $x^2 = 0{,}25$ und die Wurzel ziehen – an beide Vorzeichen denken.",
+          "loesung": "$x^2 = 0{,}25$, also $x = 0{,}5$ oder $x = -0{,}5$: $L = \\{-0{,}5; 0{,}5\\}$"
+        },
+        {
+          "id": "N11-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Bestimme die Lösungen von $x^2 + 7x = 0$ (Level 2).",
+          "tipp": "$x$ ausklammern, dann den Nullproduktsatz nutzen.",
+          "loesung": "$x(x + 7) = 0$, also $x = 0$ oder $x = -7$: $L = \\{-7; 0\\}$"
+        },
+        {
+          "id": "N11-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Bestimme die Lösungen von $2x^2 - 10x = 0$ (Level 2).",
+          "tipp": "$2x$ ausklammern, dann den Nullproduktsatz nutzen.",
+          "loesung": "$2x(x - 5) = 0$, also $x = 0$ oder $x = 5$: $L = \\{0; 5\\}$"
+        },
+        {
+          "id": "N11-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Bestimme die Lösungen von $3x^2 - 6x - 9 = 0$.",
+          "tipp": "Erst durch 3 teilen, dann die p,q-Formel.",
+          "loesung": "$x^2 - 2x - 3 = 0$: $x_{1,2} = 1 \\pm \\sqrt{1 + 3} = 1 \\pm 2$, also $L = \\{-1; 3\\}$"
+        },
+        {
+          "id": "N11-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Bestimme die Lösungen von $x^2 + 4x = 12$.",
+          "tipp": "Erst auf 0 bringen, dann die p,q-Formel.",
+          "loesung": "$x^2 + 4x - 12 = 0$: $x_{1,2} = -2 \\pm \\sqrt{4 + 12} = -2 \\pm 4$, also $L = \\{-6; 2\\}$"
+        },
+        {
+          "id": "N11-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne die Nullstellen von $f(x) = (x + 1)^2 - 9$.",
+          "tipp": "Gleich 0 setzen und umstellen zu $(x + 1)^2 = 9$, dann Level 1.",
+          "loesung": "$(x + 1)^2 = 9$, also $x + 1 = 3$ oder $x + 1 = -3$: $x_1 = 2$, $x_2 = -4$"
+        },
+        {
+          "id": "N11-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne die Schnittpunkte der Graphen von $f(x) = x^2$ und $g(x) = x + 2$.",
+          "tipp": "Gleichsetzen und auf 0 bringen: $x^2 - x - 2 = 0$.",
+          "loesung": "$x_{1,2} = 0{,}5 \\pm \\sqrt{0{,}25 + 2} = 0{,}5 \\pm 1{,}5$, also $x_1 = 2$, $x_2 = -1$.\n\n$g(2) = 4$, $g(-1) = 1$: $S_1(-1 \\mid 1)$ und $S_2(2 \\mid 4)$"
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c10",
+        "c2",
+        "c7",
+        "c8",
+        "c9"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. In jeder Aufgabe steckt ein typischer Fehler – finde ihn und begründe.",
+      "bild": "img/st_N12.svg",
+      "pdf": "pdf/N12_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N12-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Das Vorzeichen von $d$ ist falsch: In $(x - d)^2$ steht ein Minus, $(x + 3)^2 = (x - (-3))^2$, also $d = -3$ (1 P).\n\nRichtig: $S(-3 \\mid -2)$ (1 P)."
+        },
+        {
+          "id": "N12-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beim Teilen durch $x$ geht die Lösung $x = 0$ verloren – durch 0 darf man nicht teilen (1 P).\n\nRichtig (Level 2): $x^2 - 3x = 0$, $x(x - 3) = 0$, also $L = \\{0; 3\\}$ (1 P)."
+        },
+        {
+          "id": "N12-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die ergänzte Zahl $3^2 = 9$ wurde nicht wieder abgezogen: $(x + 3)^2 = x^2 + 6x + 9$ ist um 9 zu groß (1 P).\n\nRichtig: $x^2 + 6x + 9 - 9 + 2 = (x + 3)^2 - 7$ (1 P)."
+        },
+        {
+          "id": "N12-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Vor $x^2$ steht der Faktor 2. Die p,q-Formel gilt nur für $x^2 + px + q = 0$, also erst durch 2 teilen (1 P).\n\nRichtig: $x^2 + 4x - 5 = 0$, $x_{1,2} = -2 \\pm \\sqrt{4 + 5} = -2 \\pm 3$, also $L = \\{-5; 1\\}$ (1 P)."
+        },
+        {
+          "id": "N12-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der Nullproduktsatz gilt nur, wenn das Produkt **0** ist. Probe: $(2 - 2)(2 + 5) = 0 \\ne 8$ – die Lösung ist falsch (1 P).\n\nRichtig: ausmultiplizieren und auf 0 bringen: $x^2 + 3x - 10 = 8$, also $x^2 + 3x - 18 = 0$; $x_{1,2} = -1{,}5 \\pm \\sqrt{2{,}25 + 18} = -1{,}5 \\pm 4{,}5$, also $L = \\{-6; 3\\}$ (1 P). Probe: $(3 - 2)(3 + 5) = 8$ ✓"
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "titel": "Modellieren mit Parabeln",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c12",
+        "c13",
+        "c4",
+        "c5",
+        "c11",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, Taschenrechner erlaubt. Schreibe zu jedem Ergebnis einen Antwortsatz.",
+      "bild": "img/st_N13.svg",
+      "pdf": "pdf/N13_Modellieren.pdf",
+      "aufgaben": [
+        {
+          "id": "N13-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Scheitelpunkt in der Mitte: $S(3 \\mid 2{,}7)$, Ansatz $f(x) = a(x - 3)^2 + 2{,}7$ (1 P).\n\nFußpunkt $(0 \\mid 0)$ einsetzen: $0 = 9a + 2{,}7$, also $a = -0{,}3$:\n\n$$f(x) = -0{,}3(x - 3)^2 + 2{,}7$$\n\n(1 P)"
+        },
+        {
+          "id": "N13-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f(1) = -0{,}3 \\cdot (1 - 3)^2 + 2{,}7 = -1{,}2 + 2{,}7 = 1{,}5$. Dort ist das Dach **1,50 m** hoch."
+        },
+        {
+          "id": "N13-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$-0{,}3(x - 3)^2 + 2{,}7 = 2 \\quad \\Rightarrow \\quad (x - 3)^2 = \\frac{0{,}7}{0{,}3} \\approx 2{,}333$$\n\n(1 P)\n\n$x - 3 \\approx \\pm 1{,}528$, also $x \\approx 1{,}47$ oder $x \\approx 4{,}53$. Zwischen etwa 1,47 m und 4,53 m vom linken Fußpunkt ist das Dach mindestens 2 m hoch – ein etwa 3,06 m breiter Bereich (1 P)."
+        },
+        {
+          "id": "N13-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$f(0{,}5) = -0{,}3 \\cdot (-2{,}5)^2 + 2{,}7 = -1{,}875 + 2{,}7 = 0{,}825$. Dort ist das Dach nur gut 0,80 m hoch – der Vorschlag funktioniert **nicht** (1 P).\n\n1,90 m Höhe: $(x - 3)^2 = \\frac{0{,}8}{0{,}3} \\approx 2{,}667$, $x \\approx 3 - 1{,}63 = 1{,}37$. Die Fahrräder müssen mindestens etwa 1,40 m vom Fußpunkt entfernt hängen (mit etwas Abstand zum Blech) (1 P)."
+        },
+        {
+          "id": "N13-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Düse liegt bei $(0 \\mid 0{,}5)$, also $c = 0{,}5$ (y-Achsenabschnitt).\n\nPunkte einsetzen: $a + b + 0{,}5 = 2{,}1$, also $a + b = 1{,}6$; $4a + 2b + 0{,}5 = 2{,}9$, also $4a + 2b = 2{,}4$ (1 P).\n\n$a = 1{,}6 - b$ einsetzen: $6{,}4 - 4b + 2b = 2{,}4$, $b = 2$, $a = -0{,}4$:\n\n$$f(x) = -0{,}4x^2 + 2x + 0{,}5$$\n\n(1 P)"
+        },
+        {
+          "id": "N13-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$f(x) = -0{,}4(x^2 - 5x) + 0{,}5 = -0{,}4(x^2 - 5x + 6{,}25 - 6{,}25) + 0{,}5$$\n\n$$= -0{,}4(x - 2{,}5)^2 + 2{,}5 + 0{,}5 = -0{,}4(x - 2{,}5)^2 + 3$$\n\n(1 P)\n\nScheitelpunkt $S(2{,}5 \\mid 3)$: 2,50 m von der Düse entfernt ist der Strahl am höchsten, 3 m über dem Wasser (1 P)."
+        },
+        {
+          "id": "N13-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$-0{,}4x^2 + 2x + 0{,}5 = 0 \\quad \\mid : (-0{,}4)$, also $x^2 - 5x - 1{,}25 = 0$ (1 P):\n\n$$x_{1,2} = 2{,}5 \\pm \\sqrt{6{,}25 + 1{,}25} = 2{,}5 \\pm \\sqrt{7{,}5}$$\n\n$x_1 \\approx 5{,}24$ (die negative Lösung liegt hinter der Düse). Der Strahl trifft etwa **5,24 m** von der Düse entfernt auf das Wasser (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N14",
+      "titel": "Sachprobleme lösen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c13",
+        "c12",
+        "c10",
+        "c11"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, Taschenrechner erlaubt. Schreibe zu jedem Ergebnis einen Antwortsatz.",
+      "bild": "img/st_N14.svg",
+      "pdf": "pdf/N14_Sachprobleme.pdf",
+      "aufgaben": [
+        {
+          "id": "N14-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{v}{10} \\cdot 3 = 0{,}3v$ und $\\frac{v}{10} \\cdot \\frac{v}{10} = \\frac{v^2}{100} = 0{,}01v^2$. Summe: $s(v) = 0{,}01v^2 + 0{,}3v$."
+        },
+        {
+          "id": "N14-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$s(50) = 0{,}01 \\cdot 2500 + 0{,}3 \\cdot 50 = 25 + 15 = 40$. Der Anhalteweg beträgt **40 m**."
+        },
+        {
+          "id": "N14-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$0{,}01v^2 + 0{,}3v = 60 \\quad \\mid \\cdot 100$, also $v^2 + 30v - 6000 = 0$ (1 P).\n\n$$v_{1,2} = -15 \\pm \\sqrt{225 + 6000} = -15 \\pm \\sqrt{6225} \\approx -15 \\pm 78{,}90$$\n\n$v_1 \\approx 63{,}9$. Bis etwa **63,9 km/h** (also knapp unter 64 km/h) reichen 60 m zum Anhalten (1 P)."
+        },
+        {
+          "id": "N14-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die zweite Lösung $v_2 \\approx -93{,}9$ ist negativ. Eine negative Geschwindigkeit ergibt hier keinen Sinn, also passt nur $v_1 \\approx 63{,}9$ km/h."
+        },
+        {
+          "id": "N14-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$s(30) = 0{,}01 \\cdot 900 + 0{,}3 \\cdot 30 = 9 + 9 = 18$ m, die Hälfte von 40 m wäre 20 m (1 P).\n\nDie Aussage stimmt ungefähr, der Anhalteweg ist sogar **etwas kürzer** als die Hälfte. Grund: Der Bremsweg wächst mit dem Quadrat der Geschwindigkeit – bei $\\frac{3}{5}$ der Geschwindigkeit ist er nur $\\frac{9}{25}$ so lang (9 m statt 25 m) (1 P)."
+        },
+        {
+          "id": "N14-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beet mit Weg: Länge $12 + 2x$, Breite $8 + 2x$ (der Weg liegt auf beiden Seiten) (1 P).\n\n$$(12 + 2x)(8 + 2x) = 140$$\n\n$$96 + 24x + 16x + 4x^2 = 140, \\text{ also } 4x^2 + 40x - 44 = 0$$\n\n(1 P)"
+        },
+        {
+          "id": "N14-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Durch 4 teilen: $x^2 + 10x - 11 = 0$; $x_{1,2} = -5 \\pm \\sqrt{25 + 11} = -5 \\pm 6$, also $x_1 = 1$ (die Lösung $-11$ ist keine Breite). Der Weg ist **1 m** breit. Probe: $14 \\cdot 10 = 140$ ✓"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Die Halfpipe",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c4",
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 (Parabeln und Scheitelpunktform) – am besten nach N1 bis N4.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Halfpipe.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Ränder liegen bei $(-4 \\mid 4)$ und $(4 \\mid 4)$: $f(4) = 0{,}25 \\cdot 16 = 4$ ✓ und ebenso $f(-4) = 4$ ✓. Der tiefste Punkt ist $(0 \\mid 0)$ ✓. Die Gleichung passt."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "| $x$ | $0$ | $1$ | $2$ | $3$ | $4$ |\n|---|---|---|---|---|---|\n| $f(x)$ | $0$ | $0{,}25$ | $1$ | $2{,}25$ | $4$ |"
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f(2) = 1$: Dort ist die Halfpipe **1 m** hoch (aus der Tabelle)."
+        },
+        {
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$0{,}25x^2 = 2{,}25 \\quad \\mid \\cdot 4$, also $x^2 = 9$ und $x = 3$ oder $x = -3$: 3 m links und 3 m rechts von der tiefsten Stelle."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gleiche Form heißt gleiches $a = 0{,}25$ (1 P). Scheitelpunkt $S(10 \\mid 0{,}5)$:\n\n$$g(x) = 0{,}25(x - 10)^2 + 0{,}5$$\n\n(1 P)"
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ansatz $h(x) = ax^2$ mit dem Rand $(4 \\mid 2)$: $2 = 16a$, also $a = 0{,}125$ und $h(x) = 0{,}125x^2$ (1 P).\n\n$a$ ist halb so groß wie bei der ersten Halfpipe: Die Parabel ist stärker gestaucht, also flacher (1 P)."
+        },
+        {
+          "id": "V1-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Doppelt so breit: 16 m, Rand bei $(8 \\mid 4)$: $4 = 64a$, also $a = \\frac{1}{16} = 0{,}0625$ (1 P).\n\nDas ist ein **Viertel** von 0,25, nicht die Hälfte. Die Aussage ist falsch: Der doppelte x-Wert geht quadriert ein, $8^2 = 4 \\cdot 4^2$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Der Solarkocher",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c5",
+        "c6",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "g3",
+        "g4",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 2 (Parabeln und Scheitelpunktform, Normalform und Formwechsel) – am besten nach N5 bis N7.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Solarkocher.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$h(0) = 1{,}8$: Am linken Rand ist der Spiegel 1,8 dm hoch."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$h(x) = 0{,}05(x^2 - 12x) + 1{,}8 = 0{,}05(x^2 - 12x + 36 - 36) + 1{,}8$$\n\n$$= 0{,}05(x - 6)^2 - 1{,}8 + 1{,}8 = 0{,}05(x - 6)^2$$\n\n(1 P)\n\n$S(6 \\mid 0)$: In der Mitte liegt der tiefste Punkt des Spiegels. Der Spiegel ist 12 dm breit und 1,8 dm tief (1 P)."
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$a = 0{,}05$: $\\frac{1}{4 \\cdot 0{,}05} = \\frac{1}{0{,}2} = 5$. Der Topf muss **5 dm** über dem Scheitelpunkt stehen."
+        },
+        {
+          "id": "V2-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$0{,}05(x - 6)^2 = 0{,}8 \\quad \\mid : 0{,}05$, also $(x - 6)^2 = 16$ (1 P).\n\n$x - 6 = 4$ oder $x - 6 = -4$, also $x = 10$ oder $x = 2$. Der Spiegel ist dort $10 - 2 = 8$ dm breit (1 P)."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$h_2(x) = 0{,}1(x^2 - 12x + 36) = 0{,}1x^2 - 1{,}2x + 3{,}6$"
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$h_2$ ist weniger stark gestaucht ($0{,}1 > 0{,}05$), also enger und tiefer: Am Rand ist er 3,6 dm hoch statt 1,8 dm. Sein Brennpunkt liegt $\\frac{1}{0{,}4} = 2{,}5$ dm über dem Scheitelpunkt, also tiefer als beim ersten Spiegel (5 dm)."
+        },
+        {
+          "id": "V2-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage **stimmt** (1 P).\n\nDer Spiegel wird um 2 dm nach oben verschoben: $0{,}05(x - 6)^2 + 2 = 0{,}05x^2 - 0{,}6x + 3{,}8$. Eine Verschiebung nach oben addiert 2 zum ganzen Term; $a$ und $b$ bleiben gleich, nur $c$ wird von 1,8 zu 3,8 (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Lichterkette über dem Marktplatz",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c11",
+        "c8",
+        "c9",
+        "c10",
+        "c7",
+        "c6",
+        "c2",
+        "g2",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 3 (Parabeln, Normalform und Formwechsel, quadratische Gleichungen) – am besten nach N8 bis N12.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Lichterkette.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$S(15 \\mid 3{,}5)$: Genau in der Mitte zwischen den Masten hängt das Kabel am tiefsten, 3,5 m über dem Boden."
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$k(0) = 0{,}02 \\cdot 225 + 3{,}5 = 4{,}5 + 3{,}5 = 8$ und ebenso $k(30) = 8$: Das Kabel hängt an beiden Mastspitzen."
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$0{,}02(x - 15)^2 + 3{,}5 = 4$, also $(x - 15)^2 = 25$, $x - 15 = \\pm 5$, $x = 10$ oder $x = 20$ (1 P).\n\nZwischen 10 m und 20 m hängt das Kabel tiefer als 4 m. Das Feuerwehrauto passt nur in den Bereichen von 0 m bis 10 m und von 20 m bis 30 m durch, also neben den Masten, nicht in der Mitte (1 P)."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$m = \\frac{8 - 2}{30 - 0} = \\frac{6}{30} = 0{,}2$, y-Achsenabschnitt 2: $g(x) = 0{,}2x + 2$"
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$k(x) = 0{,}02(x^2 - 30x + 225) + 3{,}5 = 0{,}02x^2 - 0{,}6x + 4{,}5 + 3{,}5 = 0{,}02x^2 - 0{,}6x + 8$"
+        },
+        {
+          "id": "V3-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gleichsetzen: $0{,}02x^2 - 0{,}6x + 8 = 0{,}2x + 2$, also $0{,}02x^2 - 0{,}8x + 6 = 0 \\quad \\mid \\cdot 50$:\n\n$$x^2 - 40x + 300 = 0$$\n\n(1 P)\n\n$x_{1,2} = 20 \\pm \\sqrt{400 - 300} = 20 \\pm 10$, also $x = 10$ oder $x = 30$ (faktorisiert: $(x - 10)(x - 30) = 0$). Bei $x = 30$ ist die Drohne am Ziel; bei $x = 10$ stößt sie mit dem Kabel zusammen, im Punkt $(10 \\mid 4)$ (1 P)."
+        },
+        {
+          "id": "V3-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Mastspitzen bleiben: $k_2(0) = \\frac{225}{75} + 5 = 8$. Gleichsetzen mit $g$ und mit 75 multiplizieren: $(x - 15)^2 + 375 = 15x + 150$, also $x^2 - 45x + 450 = 0$; $x_{1,2} = 22{,}5 \\pm \\sqrt{506{,}25 - 450} = 22{,}5 \\pm 7{,}5$, also $x = 15$ oder $x = 30$ (1 P).\n\nDie Drohne trifft das Kabel jetzt bei $(15 \\mid 5)$. Der Vorschlag hilft **nicht**; die Drohne sollte z. B. höher starten oder über 8 m Höhe fliegen (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Komplexaufgabe: Der Waffelstand der Schülerfirma",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c13",
+        "c12",
+        "c11",
+        "c10",
+        "c9",
+        "c7",
+        "c5",
+        "c2",
+        "g2",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 25 Minuten, Taschenrechner erlaubt. Vernetzt die Grundlagen mit Phase 1 bis 4 (Parabeln, Formwechsel, quadratische Gleichungen, Modellieren) – am besten nach N13 bis N14.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Waffelstand.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Punkte $(2 \\mid 160)$ und $(3 \\mid 120)$: $m = \\frac{120 - 160}{3 - 2} = -40$ (1 P).\n\n$160 = -40 \\cdot 2 + b$, also $b = 240$: $n(p) = -40p + 240$ (1 P)."
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E(p) = p \\cdot n(p) = p(-40p + 240) = -40p^2 + 240p$"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E(2{,}5) = -40 \\cdot 6{,}25 + 240 \\cdot 2{,}5 = -250 + 600 = 350$ ✓ – der Vorjahreswert passt zum Modell."
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Faktorisiert: $E(p) = -40p(p - 6)$ mit den Nullstellen 0 und 6. Der Scheitelpunkt liegt in der Mitte, bei $p = 3$ (1 P).\n\n$E(3) = -360 + 720 = 360$. Bei **3,00 €** ist der Erlös mit **360 €** am größten (1 P). (Auch richtig über die quadratische Ergänzung: $E(p) = -40(p - 3)^2 + 360$.)"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$K(p) = 0{,}8 \\cdot n(p) + 40 = 0{,}8(-40p + 240) + 40 = -32p + 232$ (1 P)\n\n$G(p) = -40p^2 + 240p - (-32p + 232) = -40p^2 + 272p - 232$ (1 P)"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$G(p) = 0 \\quad \\mid : (-40)$: $p^2 - 6{,}8p + 5{,}8 = 0$ (1 P)\n\n$p_{1,2} = 3{,}4 \\pm \\sqrt{11{,}56 - 5{,}8} = 3{,}4 \\pm \\sqrt{5{,}76} = 3{,}4 \\pm 2{,}4$, also $p = 1$ oder $p = 5{,}8$. Bei Preisen zwischen **1,00 €** und **5,80 €** macht die Firma Gewinn (1 P)."
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Am meisten verdient man beim größten **Gewinn**, nicht beim größten Erlös (1 P). Der Scheitelpunkt von $G$ liegt in der Mitte der Nullstellen 1 und 5,8, also bei $p = 3{,}4$: $G(3{,}4) = 230{,}40$ €. Bei 3,00 € sind es nur $G(3) = 224$ € – der Vorschlag ist nicht der beste (1 P).\n\nGrenze des Modells, z. B.: Der lineare Zusammenhang ist nur in der Nähe der getesteten Preise gesichert; nach dem Modell würde bei 6 € niemand mehr kaufen; es werden nur ganze Waffeln verkauft (1 P)."
+        }
+      ]
+    }
+  ]
+}
