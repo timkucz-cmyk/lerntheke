@@ -1,0 +1,1307 @@
+{
+  "version": 1,
+  "titel": "Bewegungen – Lerntheke vor dem Test",
+  "fach": "physik",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du beim Umrechnen von Einheiten, beim Ablesen von Graphen, bei Steigungen, beim Umstellen von Formeln oder bei Kräften unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4, V2 nach N5 bis N7, V3 nach N8 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Lege Taschenrechner und Lineal bereit; dein Regelheft darfst du benutzen. Diagramme zeichnest du direkt in die Vorlagen im Arbeitsblatt auf dem iPad.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Längen und Zeiten in andere Einheiten umrechnen (mm bis km, s, min, h; auch Kommazahlen wie 1,2 h)"
+    },
+    {
+      "id": "g2",
+      "text": "Werte aus Tabellen und Graphen ablesen, Punkte eintragen und Achsen sinnvoll beschriften"
+    },
+    {
+      "id": "g3",
+      "text": "Proportionale und lineare Zuordnungen erkennen und die Steigung mit einem Steigungsdreieck sowie den y-Achsenabschnitt bestimmen"
+    },
+    {
+      "id": "g4",
+      "text": "Formeln nach einer Größe umstellen und Gleichungen durch Gleichsetzen lösen"
+    },
+    {
+      "id": "g5",
+      "text": "Kraftwirkungen (Verformung, Beschleunigung, Richtungsänderung) und das Kräftegleichgewicht beschreiben"
+    },
+    {
+      "id": "c1",
+      "text": "Die Grundgrößen Strecke, Zeit und Geschwindigkeit mit Formelzeichen und Einheiten erläutern und eine Bewegung in einem Bezugssystem beschreiben"
+    },
+    {
+      "id": "c2",
+      "text": "Bewegungsarten unterscheiden (gleichförmig oder beschleunigt, geradlinig oder krummlinig) und Beschleunigung als Änderung der Geschwindigkeit erläutern"
+    },
+    {
+      "id": "c3",
+      "text": "Geschwindigkeiten mit v = s : t berechnen und die Formel nach s oder t umstellen"
+    },
+    {
+      "id": "c4",
+      "text": "Geschwindigkeiten in andere Einheiten umrechnen (km/h und m/s) und miteinander vergleichen"
+    },
+    {
+      "id": "c5",
+      "text": "Geschwindigkeiten durch Messen von Strecke und Zeit bestimmen und Messfehler beschreiben"
+    },
+    {
+      "id": "c6",
+      "text": "t-s-Diagramme gleichförmiger Bewegungen zeichnen und die Geschwindigkeit aus der Steigung bestimmen"
+    },
+    {
+      "id": "c7",
+      "text": "Gleichförmige Bewegungen mit dem Bewegungsgesetz s(t) = v · t + s₀ beschreiben und zwischen Text, Tabelle, t-s-Diagramm, t-v-Diagramm und Gesetz wechseln"
+    },
+    {
+      "id": "c8",
+      "text": "Zusammengesetzte Bewegungen im t-s-Diagramm deuten und Durchschnittsgeschwindigkeiten berechnen"
+    },
+    {
+      "id": "c9",
+      "text": "Überholen und Entgegenkommen mit Bewegungsgesetzen und Diagrammen modellieren und den Treffpunkt bestimmen"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Einheiten, Graphen und Gleichungen aus Mathe, Kräfte aus Klasse 9",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Bewegung und Geschwindigkeit",
+      "untertitel": "Grundgrößen, Bewegungsarten, Geschwindigkeit berechnen und messen",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Diagramme und Bewegungsgesetz",
+      "untertitel": "t-s-Diagramm, Bewegungsgesetz, zusammengesetzte Bewegungen",
+      "farbe": "orange",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c8"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Bewegungen modellieren",
+      "untertitel": "Überholen und Entgegenkommen",
+      "farbe": "gruen",
+      "checkliste": [
+        "c9"
+      ]
+    }
+  ],
+  "abschluss": "Test",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner, Lineal, Regelheft",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Taschenrechner, Lineal und Regelheft, 25 Minuten. Die Aufgaben 1 bis 5 gehören zu den Grundlagen g1 bis g5 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$3{,}6\\,\\mathrm{km} = 3\\,600\\,\\mathrm{m}$ (mal 1 000)\n\n$250\\,\\mathrm{cm} = 2{,}5\\,\\mathrm{m}$ (durch 100)\n\n$45\\,\\mathrm{mm} = 0{,}045\\,\\mathrm{m}$ (durch 1 000)"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$1\\,\\mathrm{h}\\ 12\\,\\mathrm{min} = 60\\,\\mathrm{min} + 12\\,\\mathrm{min} = 72\\,\\mathrm{min}$\n\nIn Stunden: $72 : 60 = 1{,}2$, also $1{,}2\\,\\mathrm{h}$ (nicht $1{,}12\\,\\mathrm{h}$!).\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bei $t = 6$ Tagen auf der Rechtsachse hochgehen bis zum Graphen, dann nach links ablesen: $h \\approx 50\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Ablesen: nach 4 Tagen $36\\,\\mathrm{cm}$, nach 8 Tagen $68\\,\\mathrm{cm}$.\n\nZuwachs: $68\\,\\mathrm{cm} - 36\\,\\mathrm{cm} = 32\\,\\mathrm{cm}$ in 4 Tagen, im Mittel $32\\,\\mathrm{cm} : 4 = 8\\,\\mathrm{cm}$ pro Tag.\n\nÜben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Quotienten: $\\frac{5}{2} = \\frac{10}{4} = \\frac{15}{6} = \\frac{20}{8} = 2{,}5$.\n\nAlle Quotienten sind gleich: Die Zuordnung ist proportional (Graph: Gerade durch den Ursprung)."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zum Beispiel von $(0 \\mid 1)$ nach $(4 \\mid 7)$: 4 nach rechts, 6 nach oben.\n\n$m = \\frac{6}{4} = 1{,}5$",
+          "loesung_bild": "img/G1-3b.png"
+        },
+        {
+          "id": "G1-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Gerade schneidet die y-Achse bei $1$: $b = 1$.\n\n$f(x) = 1{,}5 \\cdot x + 1$\n\nÜben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beide Seiten durch $b$ teilen: $h = \\frac{A}{b}$"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$3x + 12 = 5x \\quad | -3x$\n\n$12 = 2x \\quad | : 2$\n\n$x = 6$"
+        },
+        {
+          "id": "G1-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$2{,}5 \\cdot t + 40 = 4{,}5 \\cdot t \\quad | -2{,}5 \\cdot t$\n\n$40 = 2 \\cdot t \\quad | : 2$\n\n$t = 20$\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "(1) Verformung: Die Matratze wird eingedrückt.\n\n(2) Beschleunigung: Der Ball wird abgebremst, seine Geschwindigkeit ändert sich.\n\n(3) Richtungsänderung: Das Tempo bleibt gleich, die Richtung ändert sich."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Gewichtskraft zieht das Schild nach unten, die Kette zieht es mit einer gleich großen Kraft nach oben. Die Kräfte heben sich auf (Kräftegleichgewicht), deshalb bleibt das Schild in Ruhe.\n\nÜben: **G2** Aufgabe 5."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Einheiten, Graphen, Gleichungen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner, Lineal, Regelheft",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Taschenrechner, Lineal und Regelheft, 15 Minuten. Aufgabe k übt den Block k aus G1.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$0{,}75 \\cdot 60\\,\\mathrm{min} = 45\\,\\mathrm{min}$"
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$135\\,\\mathrm{min} = 120\\,\\mathrm{min} + 15\\,\\mathrm{min} = 2\\,\\mathrm{h}\\ 15\\,\\mathrm{min}$\n\n$135 : 60 = 2{,}25$, also $2{,}25\\,\\mathrm{h}$."
+        },
+        {
+          "id": "G2-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bei $320\\,\\mathrm{km}$ hochgehen bis zur Geraden: etwa $30\\,\\mathrm{L}$."
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zum Beispiel von $(0 \\mid 50)$ nach $(640 \\mid 10)$: $640\\,\\mathrm{km}$ nach rechts, $40\\,\\mathrm{L}$ nach unten.\n\n$m = \\frac{-40\\,\\mathrm{L}}{640\\,\\mathrm{km}} = -0{,}0625\\,\\frac{\\mathrm{L}}{\\mathrm{km}}$",
+          "loesung_bild": "img/G2-3a.png"
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Minus bedeutet: Der Tankinhalt nimmt ab. Pro Kilometer werden $0{,}0625\\,\\mathrm{L}$ verbraucht, das sind $6{,}25\\,\\mathrm{L}$ auf $100\\,\\mathrm{km}$."
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$80 - 15x = 5x \\quad | +15x$\n\n$80 = 20x \\quad | : 20$\n\n$x = 4$"
+        },
+        {
+          "id": "G2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beschleunigung (hier: Abbremsen). Man erkennt sie daran, dass sich die Geschwindigkeit ändert: Das Rad wird langsamer, bis es steht."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Wo stehe ich?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c6",
+        "c8",
+        "c9"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Ob ein Körper ruht oder sich bewegt, hängt vom Bezugssystem ab. Im Bezugssystem Zug bleibt der Fahrgast am selben Ort, im Bezugssystem Bahnsteig bewegt er sich mit dem Zug.\n\n*A gewählt?* Das gilt nur im Bezugssystem Zug. *B gewählt?* Ohne Bezugssystem ist die Aussage nicht prüfbar. *D gewählt?* Bezugssysteme vertauscht. → **N2**"
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Beschleunigt heißt: Die Geschwindigkeit ändert sich – beim Schnellerwerden und beim Langsamerwerden. Das Auto fährt geradeaus, also geradlinig beschleunigt.\n\n*B gewählt?* Auch Bremsen ist eine Änderung der Geschwindigkeit. *C gewählt?* Bis zum Stillstand bewegt sich das Auto. *D gewählt?* Krummlinig bedeutet eine gekrümmte Bahn. → **N2**"
+        },
+        {
+          "id": "N1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $t = \\frac{s}{v} = \\frac{12\\,\\mathrm{km}}{4\\,\\mathrm{km/h}} = 3\\,\\mathrm{h}$\n\n*A gewählt?* $s \\cdot v$ statt $s : v$ gerechnet. *B gewählt?* $v : s$ gerechnet. *C gewählt?* Subtrahiert. → **N3**"
+        },
+        {
+          "id": "N1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Von km/h nach m/s teilt man durch $3{,}6$: $36 : 3{,}6 = 10$, also $10\\,\\mathrm{m/s}$.\n\n*A gewählt?* Mit $3{,}6$ multipliziert statt geteilt. *C gewählt?* Den Umrechnungsfaktor abgeschrieben. *D gewählt?* Nicht umgerechnet. → **N3**"
+        },
+        {
+          "id": "N1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Das t-s-Diagramm zeigt den Ort über der Zeit, nicht die Form der Straße. Eine steile Gerade bedeutet: In kurzer Zeit wird eine große Strecke zurückgelegt – große, gleichbleibende Geschwindigkeit.\n\n*B gewählt?* Das Diagramm ist kein Bild der Straße. *C gewählt?* Eine Gerade bedeutet gleichbleibende Geschwindigkeit. *D gewählt?* Stillstand ist eine waagerechte Linie. → **N5**"
+        },
+        {
+          "id": "N1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Waagerecht im t-s-Diagramm heißt: Die Zeit vergeht, der Ort ändert sich nicht. Der Wagen steht, $v = 0$.\n\n*A gewählt?* Verwechslung mit dem t-v-Diagramm. *B gewählt?* Das Diagramm ist kein Bild der Straße. *D gewählt?* Eine Rückfahrt ist ein fallender Graph. → **N7**"
+        },
+        {
+          "id": "N1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Hinweg $0{,}5\\,\\mathrm{h}$, Rückweg $0{,}75\\,\\mathrm{h}$: $v = \\frac{60\\,\\mathrm{km}}{1{,}25\\,\\mathrm{h}} = 48\\,\\mathrm{km/h}$.\n\n*A gewählt?* Der Mittelwert der Geschwindigkeiten gilt nur bei gleich langen Fahrzeiten; der langsame Rückweg dauert länger. *C oder D gewählt?* Addiert oder subtrahiert. → **N7**"
+        },
+        {
+          "id": "N1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Ein Punkt im t-s-Diagramm gibt Zeit und Ort an. Gleicher Punkt heißt: gleiche Zeit, gleicher Ort – die beiden treffen sich (Überholen oder Begegnen).\n\n*A gewählt?* Gleiche Geschwindigkeit erkennt man an gleicher Steigung, nicht am Schnittpunkt. *B gewählt?* Das gilt nur, wenn beide am selben Ort gestartet sind. *C gewählt?* Gerade Graphen zeigen gleichförmige Bewegungen. → **N8**"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Bewegungen beschreiben",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Lineal, Regelheft",
+      "checkliste": [
+        "c1",
+        "c2",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner, Lineal und Regelheft, 20 Minuten. Bewegungsarten wie im Regelheft: gleichförmig oder beschleunigt, geradlinig oder krummlinig.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Bewegungen_beschreiben.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| Größe | Formelzeichen | SI-Einheit | weitere Einheit |\n|---|---|---|---|\n| Strecke | $s$ | Meter ($\\mathrm{m}$) | Kilometer ($\\mathrm{km}$) |\n| Zeit | $t$ | Sekunde ($\\mathrm{s}$) | Minute ($\\mathrm{min}$), Stunde ($\\mathrm{h}$) |\n| Geschwindigkeit | $v$ | Meter pro Sekunde ($\\mathrm{m/s}$) | Kilometer pro Stunde ($\\mathrm{km/h}$) |\n\n1 P für Strecke und Zeit, 1 P für die Geschwindigkeit."
+        },
+        {
+          "id": "N2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- (1) geradlinig gleichförmig\n- (2) krummlinig gleichförmig (das Tempo bleibt gleich)\n- (3) geradlinig beschleunigt\n- (4) geradlinig beschleunigt\n\nJe zwei richtige Zuordnungen 1 P. Hinweis: In der Oberstufe zählt auch eine Richtungsänderung als Beschleunigung – dann wäre (2) beschleunigt."
+        },
+        {
+          "id": "N2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- Hochziehen: geradlinig gleichförmig, gleichbleibende Geschwindigkeit nach oben.\n- Warten: Die Gondel ruht ($v = 0$).\n- Fallen: geradlinig beschleunigt, die Geschwindigkeit nimmt zu.\n- Abbremsen: geradlinig beschleunigt, die Geschwindigkeit nimmt bis null ab. Kraftwirkung: Beschleunigung (Änderung der Geschwindigkeit) durch die Bremsen.\n\n1 P für die vier Bewegungsarten, 1 P für Geschwindigkeiten und Kraftwirkung."
+        },
+        {
+          "id": "N2-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bezugssystem Sitz (bewegtes Bezugssystem): Der Fahrgast bleibt am selben Ort, er ruht.\n\nBezugssystem Mutter (ruhendes Bezugssystem): Der Fahrgast bewegt sich auf einer Kreisbahn, also krummlinig, mit gleichbleibendem Tempo."
+        },
+        {
+          "id": "N2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage stimmt nur im Bezugssystem Erdboden: Relativ zum Boden bleibt die Mutter am selben Ort. Im Bezugssystem des Fahrgasts bewegt sie sich, und mit der Erde dreht sie sich und bewegt sich um die Sonne. Ob etwas ruht, kann man nur zusammen mit einem Bezugssystem sagen – einen Körper, der „absolut in Ruhe“ ist, gibt es nicht."
+        },
+        {
+          "id": "N2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bei einer beschleunigten Bewegung ändert sich die Geschwindigkeit: Der Körper wird schneller oder langsamer. Ursache ist eine Kraft (Kraftwirkung Beschleunigung). Beispiel: Ein Fahrrad bremst vor der Ampel."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Geschwindigkeit berechnen und umrechnen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Lineal, Regelheft",
+      "checkliste": [
+        "c3",
+        "c4",
+        "g1",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner, Lineal und Regelheft, 20 Minuten. Von km/h nach m/s teilst du durch 3,6, von m/s nach km/h multiplizierst du mit 3,6.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Geschwindigkeit.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Fußgängerin: $5{,}4 : 3{,}6 = 1{,}5$, also $1{,}5\\,\\mathrm{m/s}$\n\nRadfahrer: $5\\,\\mathrm{m/s}$\n\nHubschrauber: $234 : 3{,}6 = 65$, also $65\\,\\mathrm{m/s}$\n\nFernzug: $300 : 3{,}6 \\approx 83{,}3$, also etwa $83\\,\\mathrm{m/s}$\n\nReihenfolge: Fußgängerin, Radfahrer, Hubschrauber, Fernzug."
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$90 \\cdot 3{,}6 = 324$, also $324\\,\\mathrm{km/h}$."
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$324 : 130 \\approx 2{,}5$: Der Falke ist im Sturzflug etwa zweieinhalbmal so schnell wie das Auto."
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In $1{,}8\\,\\mathrm{s}$ legt der Schall $s = v \\cdot t = 340\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 1{,}8\\,\\mathrm{s} = 612\\,\\mathrm{m}$ zurück.\n\nDas ist der Weg hin und zurück. Entfernung zur Wand: $612\\,\\mathrm{m} : 2 = 306\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N3-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$t = \\frac{s}{v} = \\frac{289\\,\\mathrm{km}}{180\\,\\mathrm{km/h}} \\approx 1{,}61\\,\\mathrm{h}$"
+        },
+        {
+          "id": "N3-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nur der Teil hinter dem Komma wird umgerechnet: $0{,}606\\,\\mathrm{h} \\cdot 60 \\approx 36\\,\\mathrm{min}$, also etwa $1\\,\\mathrm{h}\\ 36\\,\\mathrm{min}$."
+        },
+        {
+          "id": "N3-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Mit $80\\,\\mathrm{km/h}$: $t = \\frac{30\\,\\mathrm{km}}{80\\,\\mathrm{km/h}} = 0{,}375\\,\\mathrm{h} = 22{,}5\\,\\mathrm{min}$\n\nMit $100\\,\\mathrm{km/h}$: $t = \\frac{30\\,\\mathrm{km}}{100\\,\\mathrm{km/h}} = 0{,}3\\,\\mathrm{h} = 18\\,\\mathrm{min}$\n\nDer Zeitgewinn beträgt nur $4{,}5\\,\\mathrm{min}$ – und auch nur, wenn man die ganze Strecke gleichmäßig so schnell fahren kann (Kurven, Orte, Verkehr). Dafür steigen Unfallgefahr, Bremsweg und Verbrauch. Die Aussage ist übertrieben: Man spart wenig Zeit."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Experiment: Geschwindigkeit messen",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Regelheft, Backförmchen, Zollstock, Stoppuhr (iPad)",
+      "checkliste": [
+        "c5",
+        "c3",
+        "c2",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Partnerarbeit, 20 Minuten. Material: Papier-Backförmchen, Zollstock, Klebeband, Stoppuhr am iPad. Ohne Material: Ersatzwerte im Arbeitsblatt.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Experiment_Messen.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Ersatzwerte: A → B: $\\frac{0{,}78 + 0{,}92 + 0{,}86}{3}\\,\\mathrm{s} \\approx 0{,}85\\,\\mathrm{s}$; A → Boden: $\\frac{1{,}62 + 1{,}79 + 1{,}71}{3}\\,\\mathrm{s} \\approx 1{,}71\\,\\mathrm{s}$.\n\nEigene Messungen liefern ähnliche Werte; sie hängen vom Förmchen ab."
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$v = \\frac{0{,}85\\,\\mathrm{m}}{0{,}85\\,\\mathrm{s}} = 1{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ und $v = \\frac{1{,}70\\,\\mathrm{m}}{1{,}71\\,\\mathrm{s}} \\approx 0{,}99\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$\n\nBeide Male etwa $1\\,\\mathrm{m/s}$."
+        },
+        {
+          "id": "N4-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Für die doppelte Strecke braucht das Förmchen etwa die doppelte Zeit ($0{,}85\\,\\mathrm{s}$ und $1{,}71\\,\\mathrm{s}$). Die Geschwindigkeit ist auf beiden Strecken gleich (etwa $1\\,\\mathrm{m/s}$).\n\nIm Rahmen der Messgenauigkeit fällt das Förmchen ab Marke A gleichförmig. (Auch: Von A nach B und von B zum Boden vergeht jeweils etwa $0{,}85\\,\\mathrm{s}$.)"
+        },
+        {
+          "id": "N4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zum Beispiel: Reaktionszeit beim Starten und Stoppen der Uhr (etwa $0{,}2\\,\\mathrm{s}$); ungenaues Erkennen, wann das Förmchen auf Höhe der Marke ist; Luftzug, der das Förmchen seitlich ablenkt."
+        },
+        {
+          "id": "N4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Mehr Messungen verringern zufällige Fehler: Zu früh und zu spät gestoppte Zeiten gleichen sich im Mittelwert teilweise aus. Fehler, die immer in dieselbe Richtung gehen (zum Beispiel immer etwas zu spät gestoppt oder eine falsch abgemessene Marke), bleiben aber. „Genau richtig“ wird das Ergebnis nie – besser wird es durch genauere Verfahren wie ein Zeitlupenvideo."
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Förmchen: Es ist leicht und hat eine große Fläche. Schon bei kleiner Geschwindigkeit ist der Luftwiderstand so groß wie die Gewichtskraft. Dann heben sich die Kräfte auf und die Geschwindigkeit bleibt gleich – das Förmchen fällt gleichförmig.\n\nKugel: Die Kugel ist schwer und klein. Auf der kurzen Fallstrecke bleibt der Luftwiderstand viel kleiner als die Gewichtskraft. Die Kräfte heben sich nicht auf, die Gewichtskraft beschleunigt die Kugel – sie wird immer schneller."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "t-s-Diagramme zeichnen und lesen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Lineal, Regelheft",
+      "checkliste": [
+        "c6",
+        "c3",
+        "g2",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner, Lineal und Regelheft, 20 Minuten. Im t-s-Diagramm (Zeit-Weg-Diagramm) steht die Zeit auf der Rechtsachse, der Ort auf der Hochachse. Die Steigung ist die Geschwindigkeit.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_t-s-Diagramme.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die fünf Wertepaare eintragen und verbinden: Es entsteht eine Gerade durch den Ursprung bis $(40\\,\\mathrm{s} \\mid 16\\,\\mathrm{m})$.\n\n1 P Punkte richtig eingetragen, 1 P Gerade gezeichnet.",
+          "loesung_bild": "img/N5-1a.png"
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zum Beispiel von $(0 \\mid 0)$ bis $(40\\,\\mathrm{s} \\mid 16\\,\\mathrm{m})$: $v_A = \\frac{16\\,\\mathrm{m}}{40\\,\\mathrm{s}} = 0{,}4\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "N5-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "B startet bei $4\\,\\mathrm{m}$ und ist nach $40\\,\\mathrm{s}$ bei $12\\,\\mathrm{m}$: $v_B = \\frac{12\\,\\mathrm{m} - 4\\,\\mathrm{m}}{40\\,\\mathrm{s} - 0\\,\\mathrm{s}} = 0{,}2\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$\n\nAchtung: Nicht $12\\,\\mathrm{m} : 40\\,\\mathrm{s}$ rechnen – B startet nicht im Ursprung."
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Startort: B startet $4\\,\\mathrm{m}$ von der Ladestation entfernt, A an der Ladestation. B hat also $4\\,\\mathrm{m}$ Vorsprung.\n\nGeschwindigkeit: A fährt mit $0{,}4\\,\\mathrm{m/s}$ doppelt so schnell wie B mit $0{,}2\\,\\mathrm{m/s}$; der Graph von A ist steiler."
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Graph von B beginnt bei $t = 0$ nicht im Ursprung, sondern bei $s_0 = 4\\,\\mathrm{m}$ auf der Hochachse. Dieser Startort ist der Vorsprung."
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bei $t = 30\\,\\mathrm{s}$ abgelesen: $s_B = 10\\,\\mathrm{m}$ (Kontrolle: $4\\,\\mathrm{m} + 0{,}2\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 30\\,\\mathrm{s} = 10\\,\\mathrm{m}$)."
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Graphen schneiden sich bei $t = 20\\,\\mathrm{s}$ und $s = 8\\,\\mathrm{m}$: Nach $20\\,\\mathrm{s}$ sind beide $8\\,\\mathrm{m}$ von der Ladestation entfernt."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Das t-s-Diagramm zeigt, wie weit der Roboter zu jeder Zeit von der Ladestation entfernt ist – nicht die Form des Geländes. Ein steigender Graph heißt nur: Der Abstand wird größer. Die Steigung ist die Geschwindigkeit. Der Roboter kann dabei auf ebenem Rasen fahren."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Bewegungsgesetz und Darstellungen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Lineal, Regelheft",
+      "checkliste": [
+        "c7",
+        "c6",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner, Lineal und Regelheft, 20 Minuten. Bewegungsgesetz der gleichförmigen Bewegung: $s(t) = v \\cdot t + s_0$.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Bewegungsgesetz.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$s(t) = 1{,}2\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t + 400\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "| t in s | 0 | 100 | 200 | 300 |\n|---|---|---|---|---|\n| s in m | 400 | 520 | 640 | 760 |\n\nZum Beispiel $s(100\\,\\mathrm{s}) = 1{,}2 \\cdot 100\\,\\mathrm{m} + 400\\,\\mathrm{m} = 520\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N6-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Waagerechte Linie bei $v = 1{,}2\\,\\mathrm{m/s}$ von $t = 0$ bis $t = 300\\,\\mathrm{s}$: Die Geschwindigkeit bleibt gleich.",
+          "loesung_bild": "img/N6-1c.png"
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$10\\,\\mathrm{min} = 600\\,\\mathrm{s}$: $s(600\\,\\mathrm{s}) = 1{,}2\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 600\\,\\mathrm{s} + 400\\,\\mathrm{m} = 1\\,120\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$1\\,000\\,\\mathrm{m} = 1{,}2\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t + 400\\,\\mathrm{m}$\n\n$600\\,\\mathrm{m} = 1{,}2\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t$, also $t = \\frac{600\\,\\mathrm{m}}{1{,}2\\,\\mathrm{m/s}} = 500\\,\\mathrm{s}$ (gut $8\\,\\mathrm{min}$)."
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Startort bei $t = 0$ ablesen: $s_0 = 100\\,\\mathrm{m}$.\n\nSteigungsdreieck, zum Beispiel von $(0 \\mid 100\\,\\mathrm{m})$ bis $(500\\,\\mathrm{s} \\mid 500\\,\\mathrm{m})$: $v = \\frac{400\\,\\mathrm{m}}{500\\,\\mathrm{s}} = 0{,}8\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$\n\n$s(t) = 0{,}8\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t + 100\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N6-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$s(t) = -0{,}8\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t + 1\\,120\\,\\mathrm{m}$\n\nDas Kanu fährt jetzt flussaufwärts, also gegen die positive Richtung. Der Abstand zum Steg wird kleiner, deshalb ist die Geschwindigkeit negativ."
+        },
+        {
+          "id": "N6-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "In gleichen Zeitabschnitten von $2\\,\\mathrm{s}$ legt das Boot $1$, $3$, $5$ und $7\\,\\mathrm{m}$ zurück – immer mehr. Die Geschwindigkeit nimmt zu: Die Bewegung ist beschleunigt, nicht gleichförmig.\n\nt-s-Diagramm: Die Punkte liegen nicht auf einer Geraden, der Graph wird immer steiler. Gesetz: Es gibt kein festes $v$, mit dem $s(t) = v \\cdot t + s_0$ alle Werte liefert."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Zusammengesetzte Bewegungen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Lineal, Regelheft",
+      "checkliste": [
+        "c8",
+        "c6",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner, Lineal und Regelheft, 20 Minuten. Durchschnittsgeschwindigkeit = gesamte Strecke : gesamte Zeit (mit Pausen).",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Zusammengesetzte_Bewegungen.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- $0$ bis $6\\,\\mathrm{min}$: Er fährt vom Depot $3{,}0\\,\\mathrm{km}$ weit.\n- $6$ bis $9\\,\\mathrm{min}$: Er steht (erster Halt, Verkauf).\n- $9$ bis $15\\,\\mathrm{min}$: Er fährt langsam $0{,}6\\,\\mathrm{km}$ weiter (Spielstraße).\n- $15$ bis $24\\,\\mathrm{min}$: Er steht (zweiter Halt).\n- $24$ bis $33\\,\\mathrm{min}$: Er fährt $3{,}6\\,\\mathrm{km}$ zurück zum Depot.\n\n1 P für Fahr- und Halteabschnitte, 1 P für Richtung und Strecken."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "1. Abschnitt: $v = \\frac{3{,}0\\,\\mathrm{km}}{6\\,\\mathrm{min}} = \\frac{3{,}0\\,\\mathrm{km}}{0{,}1\\,\\mathrm{h}} = 30\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$\n\n2. Abschnitt: $v = \\frac{0{,}6\\,\\mathrm{km}}{0{,}1\\,\\mathrm{h}} = 6\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$\n\n3. Abschnitt: $v = \\frac{-3{,}6\\,\\mathrm{km}}{9\\,\\mathrm{min}} = \\frac{-3{,}6\\,\\mathrm{km}}{0{,}15\\,\\mathrm{h}} = -24\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$ (Rückfahrt, Betrag $24\\,\\mathrm{km/h}$)"
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Im ersten Abschnitt ($0$ bis $6\\,\\mathrm{min}$): Dort fährt der Eiswagen am schnellsten ($30\\,\\mathrm{km/h}$)."
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Erste $24\\,\\mathrm{min}$: $v = \\frac{3{,}6\\,\\mathrm{km}}{0{,}4\\,\\mathrm{h}} = 9\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$\n\nGanze Tour: gefahrene Strecke $3{,}6\\,\\mathrm{km} + 3{,}6\\,\\mathrm{km} = 7{,}2\\,\\mathrm{km}$ in $33\\,\\mathrm{min} = 0{,}55\\,\\mathrm{h}$: $v = \\frac{7{,}2\\,\\mathrm{km}}{0{,}55\\,\\mathrm{h}} \\approx 13\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$"
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Waagerechte Stücke: $30\\,\\mathrm{km/h}$ ($0$ bis $6\\,\\mathrm{min}$), $0$ (Halt), $6\\,\\mathrm{km/h}$ ($9$ bis $15\\,\\mathrm{min}$), $0$ (Halt), $-24\\,\\mathrm{km/h}$ ($24$ bis $33\\,\\mathrm{min}$). Im Modell springt die Geschwindigkeit an den Übergängen.",
+          "loesung_bild": "img/N7-4.png"
+        },
+        {
+          "id": "N7-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Richtig sind etwa $13\\,\\mathrm{km/h}$ (Aufgabe 3).\n\nGründe: Die Halte gehören zur Zeit, werden beim Mittelwert aber nicht berücksichtigt. Außerdem dauern die Fahrabschnitte verschieden lange (6, 6 und 9 Minuten): Ein Abschnitt zählt umso mehr, je länger er dauert. Selbst ohne Halte ergibt sich $\\frac{7{,}2\\,\\mathrm{km}}{0{,}35\\,\\mathrm{h}} \\approx 20{,}6\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$, nicht genau der Mittelwert. Der einfache Mittelwert stimmt nur bei gleich langen Zeitabschnitten."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Überholen und Entgegenkommen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Lineal, Regelheft",
+      "checkliste": [
+        "c9",
+        "c7",
+        "c4",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner, Lineal und Regelheft, 20 Minuten. Treffen heißt: zur selben Zeit am selben Ort. Arbeite in m und s.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Ueberholen_Entgegenkommen.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Umrechnen: $27\\,\\mathrm{km/h} = 7{,}5\\,\\mathrm{m/s}$, $72\\,\\mathrm{km/h} = 20\\,\\mathrm{m/s}$\n\nAuto: $s_A(t) = 20\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t$\n\nMähdrescher: $s_M(t) = 7{,}5\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t + 250\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gleichsetzen: $20 \\cdot t = 7{,}5 \\cdot t + 250$ (in m und s)\n\n$12{,}5 \\cdot t = 250$, also $t = 20\\,\\mathrm{s}$\n\nOrt: $s_A(20\\,\\mathrm{s}) = 20\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 20\\,\\mathrm{s} = 400\\,\\mathrm{m}$ hinter dem Startort des Autos."
+        },
+        {
+          "id": "N8-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Graphen schneiden sich bei $t = 20\\,\\mathrm{s}$ und $s = 400\\,\\mathrm{m}$ – das passt."
+        },
+        {
+          "id": "N8-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$54\\,\\mathrm{km/h} = 15\\,\\mathrm{m/s}$, $90\\,\\mathrm{km/h} = 25\\,\\mathrm{m/s}$\n\n$s_R(t) = 15\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t$ und $s_N(t) = -25\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t + 9\\,000\\,\\mathrm{m}$\n\n$15 \\cdot t = -25 \\cdot t + 9\\,000$, also $40 \\cdot t = 9\\,000$ und $t = 225\\,\\mathrm{s} = 3\\,\\mathrm{min}\\ 45\\,\\mathrm{s}$\n\nOrt: $s_R(225\\,\\mathrm{s}) = 15 \\cdot 225\\,\\mathrm{m} = 3\\,375\\,\\mathrm{m}$, also etwa $3{,}4\\,\\mathrm{km}$ vom Dorf entfernt.\n\n1 P Umrechnen und Gesetze, 1 P Zeitpunkt, 1 P Ort."
+        },
+        {
+          "id": "N8-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zur Zeit des Schnittpunkts sind beide Fahrzeuge am selben Ort, die Fahrzeuge begegnen sich."
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Vor dem Treffen nimmt der Abstand ab, nach dem Treffen (wenn beide weiterfahren) nimmt er wieder zu. Der Abstand ändert sich in jeder Sekunde um $15\\,\\mathrm{m} + 25\\,\\mathrm{m} = 40\\,\\mathrm{m}$.\n\nVorher: $9\\,000\\,\\mathrm{m} - 40\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t = 500\\,\\mathrm{m}$, also $t = 212{,}5\\,\\mathrm{s}$\n\nNachher: $40\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t - 9\\,000\\,\\mathrm{m} = 500\\,\\mathrm{m}$, also $t = 237{,}5\\,\\mathrm{s}$"
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Tandem: Bewegungen berechnen",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c7",
+        "c6",
+        "c4",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets. Wer die Nummer hat, rechnet und erklärt laut; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp.",
+      "bild": "img/st_N9.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N9-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Eisschnellläufer legt $500\\,\\mathrm{m}$ in $40\\,\\mathrm{s}$ zurück. Berechne seine Geschwindigkeit in $\\mathrm{m/s}$.",
+          "tipp": "$v = \\frac{s}{t}$",
+          "loesung": "$v = \\frac{500\\,\\mathrm{m}}{40\\,\\mathrm{s}} = 12{,}5\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Eine Schwimmerin schwimmt $100\\,\\mathrm{m}$ in $80\\,\\mathrm{s}$. Berechne ihre Geschwindigkeit in $\\mathrm{m/s}$.",
+          "tipp": "$v = \\frac{s}{t}$",
+          "loesung": "$v = \\frac{100\\,\\mathrm{m}}{80\\,\\mathrm{s}} = 1{,}25\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Linienbus fährt $2\\,\\mathrm{km}$ in $4\\,\\mathrm{min}$, steht $2\\,\\mathrm{min}$ an einer Haltestelle und fährt dann $3\\,\\mathrm{km}$ in $6\\,\\mathrm{min}$. Berechne die Durchschnittsgeschwindigkeit in $\\mathrm{km/h}$.",
+          "tipp": "Gesamte Strecke durch gesamte Zeit – die Pause zählt mit.",
+          "loesung": "Strecke $5\\,\\mathrm{km}$, Zeit $12\\,\\mathrm{min} = 0{,}2\\,\\mathrm{h}$: $v = \\frac{5\\,\\mathrm{km}}{0{,}2\\,\\mathrm{h}} = 25\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$"
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein t-s-Graph ist eine Gerade durch $(2\\,\\mathrm{s} \\mid 7\\,\\mathrm{m})$ und $(6\\,\\mathrm{s} \\mid 19\\,\\mathrm{m})$. Bestimme die Geschwindigkeit und den Startort $s_0$.",
+          "tipp": "Steigungsdreieck zwischen den beiden Punkten; dann von $t = 2\\,\\mathrm{s}$ auf $t = 0$ zurückrechnen.",
+          "loesung": "$v = \\frac{19\\,\\mathrm{m} - 7\\,\\mathrm{m}}{6\\,\\mathrm{s} - 2\\,\\mathrm{s}} = 3\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$\n\n$s_0 = 7\\,\\mathrm{m} - 3\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 2\\,\\mathrm{s} = 1\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N9-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Tretboot ist bei $t = 0$ schon $150\\,\\mathrm{m}$ vom Steg entfernt und fährt mit $2\\,\\mathrm{m/s}$ weiter weg. Gib das Bewegungsgesetz an und berechne den Ort nach $1\\,\\mathrm{min}$.",
+          "tipp": "$s(t) = v \\cdot t + s_0$; $1\\,\\mathrm{min} = 60\\,\\mathrm{s}$",
+          "loesung": "$s(t) = 2\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t + 150\\,\\mathrm{m}$\n\n$s(60\\,\\mathrm{s}) = 120\\,\\mathrm{m} + 150\\,\\mathrm{m} = 270\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N9-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Auto fährt mit $12\\,\\mathrm{m/s}$ durch eine 30er-Zone. Gib die Geschwindigkeit in $\\mathrm{km/h}$ an und entscheide, ob es zu schnell ist.",
+          "tipp": "Von m/s nach km/h: mal $3{,}6$.",
+          "loesung": "$12 \\cdot 3{,}6 = 43{,}2$, also $43{,}2\\,\\mathrm{km/h}$ – deutlich schneller als $30\\,\\mathrm{km/h}$."
+        },
+        {
+          "id": "N9-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Lkw fährt mit $20\\,\\mathrm{m/s}$ an einer Raststätte vorbei. $30\\,\\mathrm{s}$ später fährt dort ein Auto mit $30\\,\\mathrm{m/s}$ in dieselbe Richtung los (gleich mit voller Geschwindigkeit). Wann und wo holt das Auto den Lkw ein?",
+          "tipp": "Vorsprung des Lkw: $20\\,\\mathrm{m/s} \\cdot 30\\,\\mathrm{s}$. Zeit ab der Abfahrt des Autos zählen.",
+          "loesung": "Vorsprung $600\\,\\mathrm{m}$. $30 \\cdot t = 20 \\cdot t + 600$, also $t = 60\\,\\mathrm{s}$ nach der Abfahrt des Autos.\n\nOrt: $30\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 60\\,\\mathrm{s} = 1\\,800\\,\\mathrm{m}$ hinter der Raststätte."
+        },
+        {
+          "id": "N9-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Zwei Radfahrerinnen sind $2{,}4\\,\\mathrm{km}$ voneinander entfernt und fahren mit $5\\,\\mathrm{m/s}$ und $7\\,\\mathrm{m/s}$ aufeinander zu. Wann und wo treffen sie sich?",
+          "tipp": "Die Geschwindigkeit der zweiten Fahrerin bekommt ein Minus; dann gleichsetzen.",
+          "loesung": "$5 \\cdot t = -7 \\cdot t + 2\\,400$, also $12 \\cdot t = 2\\,400$ und $t = 200\\,\\mathrm{s}$.\n\nOrt: $5\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 200\\,\\mathrm{s} = 1\\,000\\,\\mathrm{m}$ vom Startpunkt der langsameren Fahrerin."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Lineal, Regelheft",
+      "checkliste": [
+        "c9",
+        "c4",
+        "c6",
+        "c3",
+        "c7",
+        "c8"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner, Lineal und Regelheft, 20 Minuten. Jede Lösung enthält genau einen Fehler. Benenne ihn und stelle ihn richtig.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Von km/h nach m/s muss man durch $3{,}6$ teilen, nicht malnehmen ($1\\,\\mathrm{m/s}$ ist mehr als $1\\,\\mathrm{km/h}$, die Zahl in m/s ist also kleiner).\n\nRichtig: $72 : 3{,}6 = 20$, also $20\\,\\mathrm{m/s}$."
+        },
+        {
+          "id": "N10-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Körper startet nicht im Ursprung, sondern bei $s_0 = 6\\,\\mathrm{m}$. In $4\\,\\mathrm{s}$ legt er nur $18\\,\\mathrm{m} - 6\\,\\mathrm{m} = 12\\,\\mathrm{m}$ zurück. Man braucht ein Steigungsdreieck.\n\nRichtig: $v = \\frac{\\Delta s}{\\Delta t} = \\frac{12\\,\\mathrm{m}}{4\\,\\mathrm{s}} = 3\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "N10-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Rechnung $27 : 18 = 1{,}5$ stimmt. Falsch ist die Umrechnung: $1{,}5\\,\\mathrm{h}$ sind nicht $1\\,\\mathrm{h}\\ 50\\,\\mathrm{min}$."
+        },
+        {
+          "id": "N10-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$0{,}5\\,\\mathrm{h} = 0{,}5 \\cdot 60\\,\\mathrm{min} = 30\\,\\mathrm{min}$, also $1\\,\\mathrm{h}\\ 30\\,\\mathrm{min}$."
+        },
+        {
+          "id": "N10-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Personenzug fährt in die Gegenrichtung, seine Geschwindigkeit braucht ein Minus: $s_P = -25 \\cdot t + 8\\,000$.\n\n$15 \\cdot t = -25 \\cdot t + 8\\,000$, also $40 \\cdot t = 8\\,000$ und $t = 200\\,\\mathrm{s}$. Ort: $15 \\cdot 200\\,\\mathrm{m} = 3\\,000\\,\\mathrm{m}$ vom Startort des Güterzugs."
+        },
+        {
+          "id": "N10-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Lösung ist falsch: Der Mittelwert der Geschwindigkeiten berücksichtigt nicht, dass der schnelle Abschnitt doppelt so lange dauert.\n\nRichtig: Strecken $30\\,\\frac{\\mathrm{km}}{\\mathrm{h}} \\cdot \\frac{1}{6}\\,\\mathrm{h} = 5\\,\\mathrm{km}$ und $90\\,\\frac{\\mathrm{km}}{\\mathrm{h}} \\cdot \\frac{1}{3}\\,\\mathrm{h} = 30\\,\\mathrm{km}$, zusammen $35\\,\\mathrm{km}$ in $30\\,\\mathrm{min} = 0{,}5\\,\\mathrm{h}$: $v = \\frac{35\\,\\mathrm{km}}{0{,}5\\,\\mathrm{h}} = 70\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Check-out: Was kann ich jetzt?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c6",
+        "c4",
+        "c3",
+        "c2",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung. Vergleiche danach mit deinem Ergebnis aus N1.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Ruhe und Bewegung hängen vom Bezugssystem ab. Relativ zum Bus bleibt der Fahrgast am selben Ort, relativ zur Straße bewegt er sich mit dem Bus.\n\n*B gewählt?* Das gilt nur im Bezugssystem Bus. *C gewählt?* Bezugssysteme vertauscht. *D gewählt?* Ohne Bezugssystem ist die Aussage nicht prüfbar. → **N2**"
+        },
+        {
+          "id": "N11-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Beschleunigt heißt: Die Geschwindigkeit ändert sich – auch beim Langsamerwerden. Die Bahn ist gerade, also geradlinig beschleunigt.\n\n*A gewählt?* Auch Langsamerwerden ist eine Änderung der Geschwindigkeit. *B gewählt?* Die Radfahrerin rollt weiter, bewegt sich also. *C gewählt?* Krummlinig bedeutet eine gekrümmte Bahn. → **N2**"
+        },
+        {
+          "id": "N11-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $t = \\frac{s}{v} = \\frac{150\\,\\mathrm{m}}{2{,}5\\,\\mathrm{m/s}} = 60\\,\\mathrm{s}$\n\n*A gewählt?* $s \\cdot v$ statt $s : v$ gerechnet. *C gewählt?* $v : s$ gerechnet. *D gewählt?* Subtrahiert. → **N3**"
+        },
+        {
+          "id": "N11-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Von m/s nach km/h multipliziert man mit $3{,}6$: $15 \\cdot 3{,}6 = 54$, also $54\\,\\mathrm{km/h}$.\n\n*A gewählt?* Durch $3{,}6$ geteilt statt multipliziert. *B gewählt?* Nicht umgerechnet. *D gewählt?* Den Umrechnungsfaktor abgeschrieben. → **N3**"
+        },
+        {
+          "id": "N11-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Das t-s-Diagramm zeigt den Ort über der Zeit, nicht die Form der Straße. Ein fallender Graph bedeutet: Der Abstand zum Bezugspunkt wird kleiner – er fährt zurück, mit gleichbleibender Geschwindigkeit.\n\n*A gewählt?* Das Diagramm ist kein Bild der Straße. *B gewählt?* Eine Gerade bedeutet gleichbleibende Geschwindigkeit. *C gewählt?* Stillstand ist eine waagerechte Linie. → **N5**"
+        },
+        {
+          "id": "N11-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Waagerecht im t-s-Diagramm heißt: Die Zeit vergeht, der Ort ändert sich nicht. Die Maschine steht, $v = 0$.\n\n*A gewählt?* Verwechslung mit dem t-v-Diagramm. *C gewählt?* Das Diagramm ist kein Bild der Straße. *D gewählt?* Eine Rückfahrt ist ein fallender Graph. → **N7**"
+        },
+        {
+          "id": "N11-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Erster Teil $0{,}5\\,\\mathrm{h}$, zweiter Teil $\\frac{1}{6}\\,\\mathrm{h}$: $v = \\frac{40\\,\\mathrm{km}}{\\frac{2}{3}\\,\\mathrm{h}} = 60\\,\\mathrm{km/h}$.\n\n*A gewählt?* Der Mittelwert der Geschwindigkeiten gilt nur bei gleich langen Fahrzeiten; der langsame Teil dauert länger. *B gewählt?* Addiert. *D gewählt?* Nur den ersten Teil betrachtet. → **N7**"
+        },
+        {
+          "id": "N11-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Ein Punkt im t-s-Diagramm gibt Zeit und Ort an. Gleicher Punkt heißt: gleiche Zeit, gleicher Ort – die beiden treffen sich.\n\n*B gewählt?* Gleiche Geschwindigkeit erkennt man an gleicher Steigung. *C gewählt?* Das gilt nur bei gleichem Startort. *D gewählt?* Gerade Graphen zeigen gleichförmige Bewegungen. → **N8**"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Die Rolltreppe im U-Bahnhof",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Lineal, Regelheft",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "g1",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner, Lineal und Regelheft, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Bewegung und Geschwindigkeit) – am besten nach N2 bis N4.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Rolltreppe.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Geradlinig gleichförmig: Die Person bewegt sich auf einer geraden Bahn mit gleichbleibender Geschwindigkeit."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Kraftwirkung Beschleunigung: Die Geschwindigkeit der Person ändert sich von $0$ auf $0{,}50\\,\\mathrm{m/s}$. Man spürt einen kleinen Ruck und muss sich festhalten."
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$t = \\frac{s}{v} = \\frac{30\\,\\mathrm{m}}{0{,}50\\,\\mathrm{m/s}} = 60\\,\\mathrm{s} = 1\\,\\mathrm{min}$"
+        },
+        {
+          "id": "V1-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bezugssystem Rolltreppe: Die Person bleibt auf derselben Stufe, sie ruht.\n\nBezugssystem Bahnhofshalle: Die Person bewegt sich mit $0{,}50\\,\\mathrm{m/s}$ nach oben. Ob sie ruht, hängt also vom Bezugssystem ab."
+        },
+        {
+          "id": "V1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$v = 0{,}50\\,\\frac{\\mathrm{m}}{\\mathrm{s}} + 0{,}75\\,\\frac{\\mathrm{m}}{\\mathrm{s}} = 1{,}25\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$, das sind $1{,}25 \\cdot 3{,}6 = 4{,}5\\,\\mathrm{km/h}$.\n\n$t = \\frac{30\\,\\mathrm{m}}{1{,}25\\,\\mathrm{m/s}} = 24\\,\\mathrm{s}$"
+        },
+        {
+          "id": "V1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Still auf eine Stufe stellen und die Zeit vom Betreten bis zum Ende stoppen; mit der bekannten Länge (oder einer abgemessenen Strecke zwischen zwei Markierungen) $v = \\frac{s}{t}$ berechnen, mehrmals messen und mitteln. Fehlerquelle: Reaktionszeit beim Starten und Stoppen."
+        },
+        {
+          "id": "V1-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Relativ zur Halle: $0{,}50\\,\\frac{\\mathrm{m}}{\\mathrm{s}} - 0{,}50\\,\\frac{\\mathrm{m}}{\\mathrm{s}} = 0$. Das Kind bleibt am selben Ort der Halle – im Bezugssystem Halle stimmt die Aussage.\n\nRelativ zur Treppe bewegt es sich aber mit $0{,}50\\,\\mathrm{m/s}$ nach unten. Die Aussage stimmt also nur, wenn man das Bezugssystem Halle dazusagt."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Ein Tanker im Nord-Ostsee-Kanal",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Lineal, Regelheft",
+      "checkliste": [
+        "c8",
+        "c6",
+        "c7",
+        "c3",
+        "c4",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner, Lineal und Regelheft, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Bewegung und Geschwindigkeit; Diagramme und Bewegungsgesetz) – am besten nach N5 bis N7.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Nord-Ostsee-Kanal.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$6 \\cdot 1{,}852\\,\\mathrm{km/h} \\approx 11{,}1\\,\\mathrm{km/h}$ – etwas weniger als die erlaubten $12\\,\\mathrm{km/h}$."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$0$ bis $1\\,\\mathrm{h}$: in der Schleuse Brunsbüttel (Ort bleibt $0$). $1$ bis $5\\,\\mathrm{h}$: Fahrt bis $44\\,\\mathrm{km}$. $5$ bis $6\\,\\mathrm{h}$: Warten in einer Weiche. $6$ bis $11\\,\\mathrm{h}$: Fahrt bis zum Kanalende bei $98\\,\\mathrm{km}$. $11$ bis $12\\,\\mathrm{h}$: in der Schleuse Kiel-Holtenau."
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "1. Fahrabschnitt: $v = \\frac{44\\,\\mathrm{km}}{4\\,\\mathrm{h}} = 11\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$\n\n2. Fahrabschnitt: $v = \\frac{98\\,\\mathrm{km} - 44\\,\\mathrm{km}}{11\\,\\mathrm{h} - 6\\,\\mathrm{h}} = \\frac{54\\,\\mathrm{km}}{5\\,\\mathrm{h}} = 10{,}8\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$\n\nBeide liegen unter der Höchstgeschwindigkeit."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$s(t) = 10{,}8\\,\\frac{\\mathrm{km}}{\\mathrm{h}} \\cdot t + 44\\,\\mathrm{km}$\n\n$s(2{,}5\\,\\mathrm{h}) = 10{,}8 \\cdot 2{,}5\\,\\mathrm{km} + 44\\,\\mathrm{km} = 27\\,\\mathrm{km} + 44\\,\\mathrm{km} = 71\\,\\mathrm{km}$"
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$v = \\frac{98\\,\\mathrm{km}}{12\\,\\mathrm{h}} \\approx 8{,}2\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$"
+        },
+        {
+          "id": "V2-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Seeweg: $98\\,\\mathrm{km} + 460\\,\\mathrm{km} = 558\\,\\mathrm{km}$; $16\\,\\mathrm{kn} = 16 \\cdot 1{,}852\\,\\mathrm{km/h} \\approx 29{,}6\\,\\mathrm{km/h}$; $t = \\frac{558\\,\\mathrm{km}}{29{,}6\\,\\mathrm{km/h}} \\approx 18{,}8\\,\\mathrm{h}$\n\nKanal: $12\\,\\mathrm{h}$ mit Schleusen und Warten. Der Kanal spart also rund $7\\,\\mathrm{h}$, obwohl der Tanker dort viel langsamer fährt – er lohnt sich (Gebühren und Wartezeiten können das Ergebnis etwas ändern)."
+        },
+        {
+          "id": "V2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Als Modell für die Durchschnittsgeschwindigkeit ist die Annahme brauchbar. In Wirklichkeit fährt der Tanker nach Schleuse und Weiche erst an und bremst vorher ab (beschleunigt), Kurven und Gegenverkehr ändern die Geschwindigkeit. Die Knicke im Diagramm sind deshalb in Wirklichkeit abgerundet."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Verfolgungsrennen im Skilanglauf",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner, Lineal, Regelheft",
+      "checkliste": [
+        "c9",
+        "c7",
+        "c6",
+        "c8",
+        "c3",
+        "c2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner, Lineal und Regelheft, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Bewegung und Geschwindigkeit; Diagramme und Bewegungsgesetz; Bewegungen modellieren) – am besten nach N8 bis N10.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Skilanglauf.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$6{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 30\\,\\mathrm{s} = 180\\,\\mathrm{m}$"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$s_A(t) = 6{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t + 180\\,\\mathrm{m}$\n\n$s_B(t) = 6{,}5\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t$"
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$6{,}5 \\cdot t = 6{,}0 \\cdot t + 180$, also $0{,}5 \\cdot t = 180$ und $t = 360\\,\\mathrm{s}$ ($6\\,\\mathrm{min}$ nach dem Start von B).\n\nOrt: $s_B(360\\,\\mathrm{s}) = 6{,}5 \\cdot 360\\,\\mathrm{m} = 2\\,340\\,\\mathrm{m}$. Das ist weniger als $2\\,500\\,\\mathrm{m}$, also noch in der ersten Runde."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "A: Gerade von $(0 \\mid 180\\,\\mathrm{m})$ bis zum Beispiel $(400\\,\\mathrm{s} \\mid 2\\,580\\,\\mathrm{m})$. B: Gerade durch den Ursprung bis zum Beispiel $(400\\,\\mathrm{s} \\mid 2\\,600\\,\\mathrm{m})$. Je Graph 1 P.",
+          "loesung_bild": "img/V3-2a.png"
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Graphen schneiden sich bei etwa $t = 360\\,\\mathrm{s}$ und $s = 2\\,340\\,\\mathrm{m}$ – das stimmt mit der Rechnung überein. Weil die Geraden fast parallel verlaufen, lässt sich der Schnittpunkt nur grob ablesen (je nach Zeichnung etwa zwischen $300\\,\\mathrm{s}$ und $400\\,\\mathrm{s}$) – genau wird er erst durch die Rechnung."
+        },
+        {
+          "id": "V3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$s_T(t) = -4{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t + 2\\,100\\,\\mathrm{m}$\n\n$6{,}5 \\cdot t = -4{,}0 \\cdot t + 2\\,100$, also $10{,}5 \\cdot t = 2\\,100$ und $t = 200\\,\\mathrm{s}$\n\nOrt: $s_B(200\\,\\mathrm{s}) = 6{,}5 \\cdot 200\\,\\mathrm{m} = 1\\,300\\,\\mathrm{m}$ hinter der Startlinie."
+        },
+        {
+          "id": "V3-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "- Start: Aus dem Stand müssen die Läuferinnen erst schneller werden (beschleunigt; Kraftwirkung Beschleunigung durch den Abstoß mit Skiern und Stöcken).\n- Anstiege und Abfahrten: bergauf langsamer, bergab schneller – die Geschwindigkeit ist nicht konstant, die Bewegung ist abschnittsweise beschleunigt.\n- Bedeutung: $6{,}0$ und $6{,}5\\,\\mathrm{m/s}$ sind Durchschnittsgeschwindigkeiten. Treffpunkt und Zeitpunkt sind deshalb nur Schätzungen; das Überholen kann früher oder später passieren.\n\nFazit: Für eine grobe Vorhersage brauchbar, für den genauen Ort des Überholens nicht. (1 P je Gesichtspunkt mit Begründung.)"
+        }
+      ]
+    }
+  ]
+}
