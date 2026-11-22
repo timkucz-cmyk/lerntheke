@@ -25,6 +25,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Neben-, Scheitel-, Stufen- und Wechselwinkel, Winkelsummen, Basiswinkelsatz, Satz des Thales, Grundkonstruktionen, besondere Linien, Umkreis und Inkreis"
+        },
+        {
+          "id": "rationale-zahlen",
+          "name": "Rationale Zahlen – Lerntheke",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Negative Zahlen, Zahlengerade, Betrag, Zahlenmengen, Grundrechenarten mit rationalen Zahlen, Minusklammer, Rechengesetze, Sachaufgaben"
         }
       ]
     },
