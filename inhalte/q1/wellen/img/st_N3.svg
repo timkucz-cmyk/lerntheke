@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Welle mit eingezeichneter Wellenlänge">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="akzent" d="M10.0 38.0 L11.8 35.1 L13.5 32.3 L15.2 29.6 L17.0 27.3 L18.8 25.3 L20.5 23.7 L22.2 22.7 L24.0 22.1 L25.8 22.0 L27.5 22.5 L29.2 23.6 L31.0 25.1 L32.8 27.0 L34.5 29.3 L36.2 31.9 L38.0 34.7 L39.8 37.6 L41.5 40.5 L43.2 43.3 L45.0 46.0 L46.8 48.4 L48.5 50.4 L50.2 52.1 L52.0 53.2 L53.8 53.9 L55.5 54.0 L57.2 53.6 L59.0 52.6 L60.8 51.2 L62.5 49.3 L64.2 47.1 L66.0 44.5 L67.8 41.7 L69.5 38.8 L71.2 35.9 L73.0 33.1 L74.8 30.4 L76.5 27.9 L78.2 25.8 L80.0 24.1 L81.8 22.9 L83.5 22.2 L85.2 22.0 L87.0 22.3 L88.8 23.2 L90.5 24.6 L92.2 26.4 L94.0 28.6 L95.8 31.1 L97.5 33.9 L99.2 36.7 L101.0 39.7 L102.8 42.5 L104.5 45.3 L106.2 47.7 L108.0 49.9 L109.8 51.6 L111.5 52.9 L113.2 53.7 L115.0 54.0 L116.8 53.7 L118.5 52.9 L120.2 51.6 L122.0 49.9 L123.8 47.7 L125.5 45.3 L127.2 42.5 L129.0 39.7 L130.8 36.7 L132.5 33.9 L134.2 31.1 L136.0 28.6 L137.8 26.4 L139.5 24.6 L141.2 23.2 L143.0 22.3 L144.8 22.0 L146.5 22.2 L148.2 22.9 L150.0 24.1"/>
+  <path class="grau" d="M25.0 12.0 L85.0 12.0"/>
+  <path class="marke" d="M85.0 12.0 L79.6 14.6 L79.6 9.4 z"/>
+  <text class="text" x="50" y="9">λ</text>
+</svg>

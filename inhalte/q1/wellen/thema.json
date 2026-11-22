@@ -1,0 +1,1947 @@
+{
+  "version": 1,
+  "titel": "Mechanische Wellen – Lerntheke vor der Klausur",
+  "fach": "physik",
+  "anrede": "sie",
+  "hinweis": "Alle Stationen sind klausurrelevant; in der Klausur kommen die Schwingungen dazu (Lerntheke Schwingungen). Sind Sie beim Vorwissen unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Schwingungsgleichung, Laufzeiten und Funktionsgraphen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N13. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4 (Wellen beschreiben), V2 nach N5 bis N8 (Überlagerung und stehende Wellen), V3 nach N9 bis N13 (Dopplereffekt, Huygens und Beugung). N14 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N14. Stationen mit der Marke eA (N15 bis N17 und V4) gehören zum erhöhten Niveau. Die Ausbreitungsgeschwindigkeit heißt hier wie im Formeldokument $c$ (im Skript $v$).",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Schwingungen mit Auslenkung, Amplitude, Periodendauer und Frequenz beschreiben (T = 1/f, f = n/t)"
+    },
+    {
+      "id": "g2",
+      "text": "Harmonische Schwingungen mit y(t) = ŷ · sin(ω · t + φ₀) darstellen und den Startzustand deuten (Taschenrechner im Bogenmaß)"
+    },
+    {
+      "id": "g3",
+      "text": "Gleichförmige Bewegungen mit s = v · t berechnen, auch Laufzeiten mit Hin- und Rückweg (Echo)"
+    },
+    {
+      "id": "g4",
+      "text": "Abstände in Skizzen mit dem Satz des Pythagoras berechnen und Abstandsdifferenzen bilden"
+    },
+    {
+      "id": "g5",
+      "text": "Funktionsgraphen in x-Richtung verschieben und zwei Graphen punktweise addieren"
+    },
+    {
+      "id": "c1",
+      "text": "Wellen als Ausbreitung einer Schwingung durch gekoppelte Oszillatoren erklären und Welle und Schwingung unterscheiden (Energietransport ohne Materietransport)"
+    },
+    {
+      "id": "c2",
+      "text": "Wellen mit Wellenlänge, Frequenz, Periodendauer, Amplitude und Ausbreitungsgeschwindigkeit beschreiben (c = λ · f) und y-x- und y-t-Diagramme auswerten"
+    },
+    {
+      "id": "c3",
+      "text": "Transversal- und Longitudinalwellen unterscheiden (Schall als Längswelle) und die Polarisierbarkeit als Unterscheidungsmerkmal nutzen"
+    },
+    {
+      "id": "c4",
+      "text": "Harmonische Wellen mit Sinusfunktionen darstellen: Momentbild y(x) und Schwingung eines Ortes y(t) aufstellen und Momentbilder zu späteren Zeitpunkten zeichnen"
+    },
+    {
+      "id": "c5",
+      "text": "Die Reflexion von Wellen am festen und am losen Ende beschreiben (Phasenumkehr)"
+    },
+    {
+      "id": "c6",
+      "text": "Die Überlagerung von Wellen konstruieren und konstruktive und destruktive Interferenz mit Kohärenz und Gangunterschied erklären"
+    },
+    {
+      "id": "c7",
+      "text": "Die Lage von Maxima und Minima bei zwei Wellenquellen aus dem Gangunterschied berechnen und damit Wellenlängen bestimmen"
+    },
+    {
+      "id": "c8",
+      "text": "Stehende Wellen erklären und analysieren: Knoten und Bäuche, Wellenlängen und Eigenfrequenzen bei gleichartiger und verschiedenartiger Reflexion"
+    },
+    {
+      "id": "c9",
+      "text": "Den Dopplereffekt mit Wellenfronten erklären und Frequenzen bei bewegter Quelle oder bewegtem Beobachter berechnen"
+    },
+    {
+      "id": "c10",
+      "text": "Ausbreitung, Reflexion und Brechung von Wellen mit dem Huygens’schen Prinzip erklären"
+    },
+    {
+      "id": "c11",
+      "text": "Beugung an Hindernissen und Spalten beschreiben, mit dem Huygens’schen Prinzip erklären und mit der Wellenlänge begründen"
+    },
+    {
+      "id": "c12",
+      "text": "Die zeitliche und räumliche Entwicklung einer harmonischen Welle mit der Wellengleichung y(x, t) = ŷ · sin(2π(t/T − x/λ)) beschreiben, herleiten und Phasendifferenzen berechnen",
+      "niveau": "ea"
+    },
+    {
+      "id": "c13",
+      "text": "Aufbau und Funktionsweise eines Interferometers beschreiben und Wellenlängen damit bestimmen",
+      "niveau": "ea"
+    },
+    {
+      "id": "c14",
+      "text": "Stehende Wellen als Überlagerung zweier gegenläufiger Wellen mathematisch beschreiben (Amplitude in Abhängigkeit vom Ort, Lage der Knoten)",
+      "niveau": "ea"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen: Schwingungen, Laufzeiten, Pythagoras, Funktionsgraphen",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Wellen beschreiben",
+      "untertitel": "Oszillatoren, Wellengrößen, Wellenarten, Momentbild (eA: Wellengleichung)",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c12"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Überlagerung und stehende Wellen",
+      "untertitel": "Reflexion, Interferenz, Gangunterschied, stehende Wellen (eA: stehende Welle als Funktion, Interferometer)",
+      "farbe": "orange",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c13",
+        "c14"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Dopplereffekt, Huygens und Beugung",
+      "untertitel": "Bewegte Quellen und Beobachter, Huygens’sches Prinzip, Brechung, Beugung",
+      "farbe": "gruen",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c11"
+      ]
+    }
+  ],
+  "abschluss": "Klausur",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 5 gehören zu den Grundlagen g1 bis g5 der Selbsteinschätzung. Bearbeiten Sie die Blöcke, bei denen Sie in der Selbsteinschätzung unsicher sind. Lücken schließen Sie danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f = \\frac{n}{t} = \\frac{45}{60\\,\\mathrm{s}} = 0{,}75\\,\\mathrm{Hz}$\n\n$T = \\frac{1}{f} = \\frac{1}{0{,}75\\,\\mathrm{Hz}} \\approx 1{,}3\\,\\mathrm{s}$"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Amplitude $\\hat{y} = 2{,}5\\,\\mathrm{cm}$ (größte Auslenkung aus der Ruhelage, nicht der Abstand von Hoch- zu Tiefpunkt); Periodendauer $T = 0{,}80\\,\\mathrm{s}$ (Abstand zweier Hochpunkte)."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Aus Abb. 2: $\\hat{y} = 4{,}0\\,\\mathrm{cm}$, $T = 0{,}50\\,\\mathrm{s}$, Start in der Ruhelage nach oben, also Sinus ohne Phase.\n\n$\\omega = \\frac{2\\pi}{T} = \\frac{2\\pi}{0{,}50\\,\\mathrm{s}} = 4\\pi\\,\\mathrm{s^{-1}} \\approx 12{,}6\\,\\mathrm{s^{-1}}$\n\n$y(t) = 4{,}0\\,\\mathrm{cm} \\cdot \\sin(4\\pi\\,\\mathrm{s^{-1}} \\cdot t)$"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Taschenrechner im Bogenmaß: $y(0{,}10\\,\\mathrm{s}) = 4{,}0\\,\\mathrm{cm} \\cdot \\sin(0{,}4\\pi) \\approx 4{,}0\\,\\mathrm{cm} \\cdot 0{,}951 \\approx 3{,}8\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "G1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Nach einer Viertelperiode: $t = \\frac{T}{4} = \\frac{0{,}50\\,\\mathrm{s}}{4} = 0{,}125\\,\\mathrm{s}$"
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Schall legt Hin- und Rückweg zurück: $2s = c \\cdot t$\n\n$s = \\frac{343\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 1{,}2\\,\\mathrm{s}}{2} \\approx 206\\,\\mathrm{m}$"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$t = \\frac{s}{c} = \\frac{1000\\,\\mathrm{m}}{343\\,\\frac{\\mathrm{m}}{\\mathrm{s}}} \\approx 2{,}9\\,\\mathrm{s}$"
+        },
+        {
+          "id": "G1-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$s = \\frac{c \\cdot t}{2} = \\frac{1480\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 1{,}2\\,\\mathrm{s}}{2} = 888\\,\\mathrm{m}$"
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\overline{PQ_1} = \\sqrt{3^2 + 4^2}\\,\\mathrm{m} = 5{,}00\\,\\mathrm{m}$\n\n$\\overline{PQ_2} = \\sqrt{2^2 + 4^2}\\,\\mathrm{m} = \\sqrt{20}\\,\\mathrm{m} \\approx 4{,}47\\,\\mathrm{m}$"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "R liegt bei $(4 \\mid 3)$: $\\overline{RQ_1} = \\sqrt{4^2 + 3^2}\\,\\mathrm{m} = 5{,}00\\,\\mathrm{m}$, $\\overline{RQ_2} = \\sqrt{3^2 + 3^2}\\,\\mathrm{m} \\approx 4{,}24\\,\\mathrm{m}$\n\nDifferenz: $5{,}00\\,\\mathrm{m} - 4{,}24\\,\\mathrm{m} \\approx 0{,}76\\,\\mathrm{m}$"
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f_1(x) = \\sin(x - 1)$ – eine Verschiebung nach rechts bedeutet „$x$ minus 1“."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "An jeder Stelle werden die beiden Funktionswerte addiert, z. B.:\n\n| $x$ | $0$ | $\\frac{\\pi}{4}$ | $\\frac{\\pi}{2}$ | $\\frac{3\\pi}{4}$ | $\\pi$ |\n|---|---|---|---|---|---|\n| $f + g$ | $0$ | $1{,}21$ | $1{,}00$ | $0{,}21$ | $0$ |\n\nZwischen $\\pi$ und $2\\pi$ ist der Summengraph punktsymmetrisch zu $(\\pi \\mid 0)$ gespiegelt (Werte $-0{,}21$; $-1{,}00$; $-1{,}21$).",
+          "loesung_bild": "img/G1-5b.png"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Schwingung, Laufzeit und Graphen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 13,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g2",
+        "g1",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 13 Minuten. Übt die typischen Lücken aus G1: Schwingungsgleichung, Bogenmaß, Laufzeit, Abstandsdifferenzen und Funktionsgraphen.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\omega = \\frac{2\\pi}{2{,}0\\,\\mathrm{s}} = \\pi\\,\\mathrm{s^{-1}}$. Start im oberen Umkehrpunkt: Kosinus, oder Sinus mit Phase $\\frac{\\pi}{2}$:\n\n$y(t) = 3{,}0\\,\\mathrm{cm} \\cdot \\cos(\\pi\\,\\mathrm{s^{-1}} \\cdot t) = 3{,}0\\,\\mathrm{cm} \\cdot \\sin(\\pi\\,\\mathrm{s^{-1}} \\cdot t + \\frac{\\pi}{2})$"
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Taschenrechner steht im Gradmaß: $\\cos(1{,}57°) \\approx 0{,}9996$. Im Bogenmaß ist $\\cos(\\frac{\\pi}{2}) = 0$, also $y(0{,}50\\,\\mathrm{s}) = 0$ – nach einer Viertelperiode ist der Oszillator in der Ruhelage."
+        },
+        {
+          "id": "G2-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Schall braucht $t = \\frac{100\\,\\mathrm{m}}{343\\,\\frac{\\mathrm{m}}{\\mathrm{s}}} \\approx 0{,}29\\,\\mathrm{s}$ – um diese Zeit startet die Uhr zu spät, die gemessene Zeit ist zu kurz."
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\overline{PQ_1} = \\sqrt{2^2 + 3^2}\\,\\mathrm{m} \\approx 3{,}61\\,\\mathrm{m}$, $\\overline{PQ_2} = 3{,}00\\,\\mathrm{m}$"
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\Delta s = 3{,}61\\,\\mathrm{m} - 3{,}00\\,\\mathrm{m} = 0{,}61\\,\\mathrm{m}$, $\\frac{0{,}61\\,\\mathrm{m}}{0{,}20\\,\\mathrm{m}} \\approx 3$ – etwa das Dreifache."
+        },
+        {
+          "id": "G2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f_1(x) = 2 \\cdot \\sin(x - 2)$"
+        },
+        {
+          "id": "G2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Graph von $g$ ist der um $\\pi$ (eine halbe Periode) verschobene Sinus: $\\sin(x + \\pi) = -\\sin(x)$. An jeder Stelle haben $f$ und $g$ entgegengesetzt gleiche Werte, die Summe ist $0$."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Wellen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c5",
+        "c6",
+        "c8",
+        "c9",
+        "c11"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Eine Welle transportiert Energie, aber keine Materie: Jeder Oszillator (hier das Wasser mit dem Korken) schwingt nur um seinen Platz.\n\n*A oder D gewählt?* Die Wellenform wandert, nicht das Wasser. *C gewählt?* Der Korken wird mitbewegt, nur nicht fortgetragen. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Die Ausbreitungsgeschwindigkeit hängt vom Medium (Luft) ab, nicht von der Frequenz. Nur die Wellenlänge ist verschieden: $\\lambda = \\frac{c}{f}$.\n\n*A oder B gewählt?* Frequenz und Geschwindigkeit werden verwechselt. *C gewählt?* Die Amplitude ändert die Geschwindigkeit nicht. → **N3** Aufgabe 3"
+        },
+        {
+          "id": "N1-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – In Luft schwingen die Teilchen in Ausbreitungsrichtung (Verdichtungen und Verdünnungen).\n\n*B oder C gewählt?* Quer angeregt heißt: Schwingung senkrecht zur Ausbreitung – transversal. *D gewählt?* Nur Transversalwellen lassen sich durch einen Spalt sperren (Polarisation). → **N2** Aufgabe 3"
+        },
+        {
+          "id": "N1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Am festen Ende wird die Welle mit Phasenumkehr reflektiert: Aus dem Berg wird ein Tal.\n\n*A gewählt?* Das gilt für das lose Ende. *B oder D gewählt?* Die Welle wird reflektiert, ihre Amplitude bleibt (fast) gleich. → **N5** Aufgabe 1"
+        },
+        {
+          "id": "N1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Bei $\\Delta s = (k - \\frac{1}{2}) \\cdot \\lambda$ trifft Berg auf Tal: destruktive Interferenz, bei gleichen Amplituden Auslöschung.\n\n*A gewählt?* Verstärkung gibt es nur bei $\\Delta s = k \\cdot \\lambda$. *B gewählt?* Der Gangunterschied halbiert nicht die Amplitude. *C gewählt?* Die Frequenz ändert sich bei Überlagerung nicht. → **N6** Aufgabe 1"
+        },
+        {
+          "id": "N1-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Benachbarte Knoten liegen eine halbe Wellenlänge auseinander: $\\lambda = 2 \\cdot 30\\,\\mathrm{cm} = 60\\,\\mathrm{cm}$.\n\n*B gewählt?* Knotenabstand und Wellenlänge verwechselt. *C oder D gewählt?* Faktor 2 in die falsche Richtung bzw. doppelt angewendet. → **N7** Aufgabe 1"
+        },
+        {
+          "id": "N1-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Bei gleichförmiger Annäherung sind die Wellenfronten vor der Quelle gleichmäßig gestaucht: Die Frequenz ist höher, bleibt aber konstant (erst beim Vorbeifahren springt sie nach unten).\n\n*A gewählt?* Die Frequenz hängt von der Geschwindigkeit ab, nicht vom Abstand. *B gewählt?* Lautstärke und Tonhöhe verwechselt. *D gewählt?* Tiefer klingt es beim Entfernen. → **N9** Aufgabe 2"
+        },
+        {
+          "id": "N1-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Die Beugung ist umso stärker, je kleiner die Öffnung im Vergleich zur Wellenlänge ist. Die 1-m-Lücke wirkt wie ein einzelnes Zentrum einer Elementarwelle: Kreiswellen.\n\n*A, C oder D gewählt?* Bei breiten Lücken läuft die ebene Welle fast ungestört hindurch. → **N11** Aufgabe 1"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Was ist eine Welle?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c1",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 18 Minuten.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Was_ist_eine_Welle.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Erreger: die Zuschauergruppe, die zuerst aufsteht. Oszillatoren: die einzelnen Zuschauer (auf und ab). Kopplung: Jeder steht auf, sobald er seinen Nachbarn aufstehen sieht."
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Jeder Zuschauer führt nur eine Auf-und-ab-Bewegung an seinem Platz aus, aber etwas später als sein Nachbar. Weitergegeben wird nur der Bewegungszustand (Energie, Information) über die Kopplung – nicht die Zuschauer selbst."
+        },
+        {
+          "id": "N2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "**Schwingung:** (1) und (3) – ein einzelner Oszillator bewegt sich periodisch um seine Ruhelage, nichts breitet sich aus (nur zeitlich periodisch).\n\n**Welle:** (2) und (4) – die Luftteilchen sind gekoppelt und schwingen nacheinander; der Vorgang ist zeitlich und räumlich periodisch und breitet sich aus."
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Transversalwelle: Die Windungen schwingen **senkrecht** zur Ausbreitungsrichtung (Berge und Täler). Longitudinalwelle: Die Windungen schwingen **parallel** zur Ausbreitungsrichtung (Verdichtungen und Verdünnungen).",
+          "loesung_bild": "img/N2-3a.png"
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Luftteilchen sind nur über Stöße bzw. den Druck gekoppelt; eine seitliche Verschiebung ruft keine rücktreibende Kraft beim Nachbarn hervor (keine Scherkräfte in Gasen). Weitergegeben werden nur Verdichtungen und Verdünnungen in Ausbreitungsrichtung."
+        },
+        {
+          "id": "N2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nur Seilwellen, die in Spaltrichtung (senkrecht) schwingen, laufen durch; waagerecht schwingende werden gesperrt, schräge nur mit ihrem senkrechten Anteil (Polarisation). Eine Longitudinalwelle schwingt längs der Feder und passiert den Spalt immer – nur Transversalwellen lassen sich polarisieren."
+        },
+        {
+          "id": "N2-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Gemeinsamkeiten: Die Steine sind gekoppelt, die Störung läuft fort und transportiert Energie, die Steine selbst bleiben (fast) am Ort.\n\nUnterschiede: Die Steine schwingen nicht – sie kehren nicht in ihre Ruhelage zurück, und der Vorgang ist weder zeitlich noch räumlich periodisch. Es läuft nur ein einzelner Puls ab. Im Sinne der Definition ist es **keine Welle**."
+        },
+        {
+          "id": "N2-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Falsch. Jeder Oszillator gibt über die Kopplung Energie an den nächsten weiter; so wandert die Energie mit der Welle, obwohl keine Materie mitwandert. Beleg: Schall bringt ein entferntes Trommelfell zum Schwingen, eine Wasserwelle hebt einen weit entfernten Ball an."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Wellengrößen und Diagramme",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c2",
+        "c1",
+        "g1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 18 Minuten. Im Skript heißt die Ausbreitungsgeschwindigkeit $v$, im Formeldokument und hier $c$.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Wellengroessen.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Links (Momentaufnahme, $y$-$x$): $\\lambda = 4{,}0\\,\\mathrm{m}$, $\\hat{y} = 0{,}20\\,\\mathrm{m}$.\n\nRechts ($y$-$t$): $T = 1{,}6\\,\\mathrm{s}$."
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f = \\frac{1}{T} = \\frac{1}{1{,}6\\,\\mathrm{s}} \\approx 0{,}63\\,\\mathrm{Hz}$, $c = \\frac{\\lambda}{T} = \\frac{4{,}0\\,\\mathrm{m}}{1{,}6\\,\\mathrm{s}} = 2{,}5\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "N3-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das $y$-$x$-Diagramm ist ein Foto der ganzen Welle zu **einem** Zeitpunkt; der Abstand zweier Berge ist die Wellenlänge. Das $y$-$t$-Diagramm zeigt die Schwingung **eines** Ortes über die Zeit; der Abstand zweier Hochpunkte ist die Periodendauer.\n\nEine Welle ist räumlich **und** zeitlich periodisch: $\\lambda$ steht nur im einen, $T$ nur im anderen Diagramm. Erst beide zusammen liefern $c = \\frac{\\lambda}{T}$."
+        },
+        {
+          "id": "N3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\lambda = \\frac{c}{f}$: $\\frac{343\\,\\mathrm{m/s}}{16\\,\\mathrm{Hz}} \\approx 21\\,\\mathrm{m}$ und $\\frac{343\\,\\mathrm{m/s}}{20\\,000\\,\\mathrm{Hz}} \\approx 0{,}017\\,\\mathrm{m} = 1{,}7\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N3-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Ausbreitungsgeschwindigkeit des Schalls hängt vom Medium (Luft, Temperatur) ab, nicht von der Frequenz – alle Töne laufen mit $343\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$.\n\nAus $\\lambda = \\frac{c}{f}$ folgt bei festem $c$: Doppelte Frequenz, halbe Wellenlänge – hohe Töne haben kurze, tiefe Töne lange Wellen."
+        },
+        {
+          "id": "N3-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Nein. Es liefert nur $T$ (und $\\hat{y}$). Für $c$ braucht man zusätzlich eine räumliche Angabe: die Wellenlänge aus einer Momentaufnahme oder eine zweite Schwimmnudel in bekanntem Abstand, deren Schwingung um die Laufzeit $\\Delta t = \\frac{\\Delta x}{c}$ verzögert ist."
+        },
+        {
+          "id": "N3-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Gleichzeitig oben heißt nur: gleicher Schwingungszustand, also Abstand $= n \\cdot \\lambda$. Möglich sind $8{,}0\\,\\mathrm{m}$, $4{,}0\\,\\mathrm{m}$, $2{,}7\\,\\mathrm{m}$ … – hier ist $\\lambda = 4{,}0\\,\\mathrm{m}$ ($n = 2$). Eindeutig wird es erst, wenn zwischen den Schwimmern kein weiterer Ort im gleichen Zustand liegt."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Die harmonische Welle als Funktion",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c4",
+        "c2",
+        "g2",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Taschenrechner im Bogenmaß.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Harmonische_Welle.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$T = \\frac{1}{f} = 0{,}50\\,\\mathrm{s}$, $\\lambda = \\frac{c}{f} = \\frac{6{,}0\\,\\mathrm{m/s}}{2{,}0\\,\\mathrm{Hz}} = 3{,}0\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bei $x = 0$ liegt ein Wellenberg (Hand oben); alle Orte im Abstand $\\lambda$ sind im gleichen Zustand. Das Momentbild ist ein Kosinus mit der Periode $\\lambda$:\n\n$y(x) = 15\\,\\mathrm{cm} \\cdot \\cos(2\\pi \\cdot \\frac{x}{3{,}0\\,\\mathrm{m}})$"
+        },
+        {
+          "id": "N4-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In $0{,}25\\,\\mathrm{s}$ wandert die Wellenform um $c \\cdot t = 6{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 0{,}25\\,\\mathrm{s} = 1{,}5\\,\\mathrm{m} = \\frac{\\lambda}{2}$ nach rechts. Wo vorher Berge waren, sind jetzt Täler: $y(x) = -15\\,\\mathrm{cm} \\cdot \\cos(2\\pi \\cdot \\frac{x}{3{,}0\\,\\mathrm{m}})$ (die Hand ist jetzt im unteren Umkehrpunkt).",
+          "loesung_bild": "img/N4-1c.png"
+        },
+        {
+          "id": "N4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\Delta t = \\frac{x}{c} = \\frac{4{,}5\\,\\mathrm{m}}{6{,}0\\,\\mathrm{m/s}} = 0{,}75\\,\\mathrm{s} = 1{,}5 \\cdot T$"
+        },
+        {
+          "id": "N4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Punkt macht dieselbe Bewegung $1{,}5$ Perioden später – das ist gegenphasig zur Hand:\n\n$y(t) = -15\\,\\mathrm{cm} \\cdot \\cos(4\\pi\\,\\mathrm{s^{-1}} \\cdot t)$\n\nIst die Hand oben, ist der Punkt unten."
+        },
+        {
+          "id": "N4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Wellenform wandert nach rechts. Links von P ist das Seil höher (Berg bei $x = 0$); dieser Zustand kommt als Nächstes bei P an – P bewegt sich **nach oben**."
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch. Ein sinusförmiges Momentbild sieht für eine nach rechts und eine nach links laufende Welle gleich aus. Die Richtung erkennt man erst mit einer zweiten Information: einem zweiten Momentbild kurz danach, der Bewegungsrichtung eines Seilpunkts oder dem Ort des Erregers."
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Das Modell „ungedämpft, konstante Amplitude“ stimmt nur näherungsweise: Reibung im Seil, Luftwiderstand und das Schleifen auf dem Boden entziehen der Welle Energie. Für Wellenlänge, Frequenz und Laufzeit bleibt das Modell brauchbar, die Amplitude überschätzt es."
+        }
+      ]
+    },
+    {
+      "id": "N15",
+      "titel": "eA: Die Wellengleichung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c12",
+        "c4",
+        "c2",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR und Formeldokument zugelassen, 16 Minuten. Am besten nach N4.",
+      "bild": "img/st_N15.svg",
+      "pdf": "pdf/N15_eA_Wellengleichung.pdf",
+      "aufgaben": [
+        {
+          "id": "N15-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Vergleich mit $\\sin(2\\pi(\\frac{t}{T} - \\frac{x}{\\lambda}))$: $\\frac{1}{T} = 0{,}50\\,\\mathrm{s^{-1}}$ $\\Rightarrow T = 2{,}0\\,\\mathrm{s}$; $\\frac{1}{\\lambda} = 0{,}20\\,\\mathrm{m^{-1}} \\Rightarrow \\lambda = 5{,}0\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N15-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$c = \\frac{\\lambda}{T} = \\frac{5{,}0\\,\\mathrm{m}}{2{,}0\\,\\mathrm{s}} = 2{,}5\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$; das Minuszeichen vor $x$ bedeutet: Ausbreitung in $+x$-Richtung."
+        },
+        {
+          "id": "N15-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$y = 0{,}12\\,\\mathrm{m} \\cdot \\sin(2\\pi(1{,}5 - 0{,}8)) = 0{,}12\\,\\mathrm{m} \\cdot \\sin(1{,}4\\pi) \\approx 0{,}12\\,\\mathrm{m} \\cdot (-0{,}951) \\approx -0{,}114\\,\\mathrm{m}$ (unter der Ruhelage)"
+        },
+        {
+          "id": "N15-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\Delta\\varphi = 2\\pi \\cdot \\frac{\\Delta x}{\\lambda} = 2\\pi \\cdot \\frac{3{,}0\\,\\mathrm{m}}{5{,}0\\,\\mathrm{m}} = 1{,}2\\pi \\approx 3{,}77$\n\nSonde 2 schwingt genauso wie Sonde 1, aber um die Laufzeit $\\frac{3{,}0\\,\\mathrm{m}}{2{,}5\\,\\mathrm{m/s}} = 1{,}2\\,\\mathrm{s} = 0{,}6 \\cdot T$ später – weder gleich- noch gegenphasig (gegenphasig wäre $\\pi$, also $0{,}5 \\cdot T$)."
+        },
+        {
+          "id": "N15-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Vorzeichen vor $x$ umkehren: $y(x,t) = 0{,}12\\,\\mathrm{m} \\cdot \\sin(2\\pi(0{,}50\\,\\mathrm{s^{-1}} \\cdot t + 0{,}20\\,\\mathrm{m^{-1}} \\cdot x))$ – ein Ort weiter links ist jetzt später dran."
+        },
+        {
+          "id": "N15-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der Ort $x$ führt dieselbe Schwingung aus, aber um die Laufzeit $\\Delta t = \\frac{x}{c}$ später:\n\n$y(x,t) = y(0, t - \\frac{x}{c}) = \\hat{y} \\cdot \\sin(2\\pi \\cdot \\frac{t - \\frac{x}{c}}{T}) = \\hat{y} \\cdot \\sin(2\\pi(\\frac{t}{T} - \\frac{x}{c \\cdot T}))$\n\nMit $c \\cdot T = \\lambda$: $y(x,t) = \\hat{y} \\cdot \\sin(2\\pi(\\frac{t}{T} - \\frac{x}{\\lambda}))$"
+        },
+        {
+          "id": "N15-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$5{,}0\\,\\mathrm{m}$ ist genau eine Wellenlänge: Die Phasendifferenz ist $2\\pi$, beide Sonden zeigen dasselbe Signal. Ob die Verzögerung $0$, $T$ oder $2T$ beträgt, lässt sich nicht unterscheiden – das Vorhaben scheitert.\n\nBesser: einen Abstand kleiner als $\\lambda$ wählen oder die Ankunft der allerersten Wellenfront nach dem Einschalten messen."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Reflexion und Überlagerung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c5",
+        "c6",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 18 Minuten. Zeichnen Sie in Ihre Notizen ein Raster wie in Abb. 1 ab.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Reflexion_Ueberlagerung.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Festes Ende: Der Puls kommt **phaseninvertiert** zurück – aus dem Berg wird ein Tal.\n\nLoses Ende: Der Puls kommt **ohne Phasenumkehr** zurück – der Berg bleibt ein Berg.",
+          "loesung_bild": "img/N5-1a.png"
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$t = 2$: Berg (Kästchen 2 bis 6) und Tal (6 bis 10) berühren sich gerade; jeder hat noch seine Form.\n\n$t = 4$: Beide liegen genau übereinander (4 bis 8). Die Auslenkungen addieren sich überall zu null – die Feder ist in diesem Moment gerade. Danach laufen beide Pulse unverändert weiter.",
+          "loesung_bild": "img/N5-1b.png"
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Berg trifft auf Berg: $\\hat{y} = 3\\,\\mathrm{cm} + 2\\,\\mathrm{cm} = 5\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Berg trifft auf Tal: $\\hat{y} = 3\\,\\mathrm{cm} - 2\\,\\mathrm{cm} = 1\\,\\mathrm{cm}$. Vollständige Auslöschung gibt es nur bei gleichen Amplituden."
+        },
+        {
+          "id": "N5-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Punktweise addieren: Die Summe ist wieder eine Sinuswelle mit $\\lambda = 6\\,\\mathrm{cm}$; ihre Amplitude liegt zwischen $1$ und $5\\,\\mathrm{cm}$ (genau $\\sqrt{3^2 + 2^2}\\,\\mathrm{cm} \\approx 3{,}6\\,\\mathrm{cm}$), ihre Hochpunkte liegen zwischen denen der beiden Wellen.",
+          "loesung_bild": "img/N5-2c.png"
+        },
+        {
+          "id": "N5-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die beiden Erreger sind nicht **kohärent**: Ihre Frequenzen und ihre Phasenlage ändern sich ständig. An einem Ort wechseln Verstärkung und Abschwächung deshalb dauernd – Maxima und Minima bleiben nicht an festen Stellen."
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch. Bei $t = 4$ in Aufgabe 1 ist die Feder zwar gerade (keine Spannenergie aus Auslenkung), aber ihre Windungen bewegen sich dort am schnellsten – die Energie steckt als Bewegungsenergie in der Feder. Danach laufen beide Pulse vollständig weiter.\n\nBei ortsfesten Interferenzmustern wird die Energie nur umverteilt: In den Minima fehlt sie, in den Maxima ist entsprechend mehr."
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Einen Wellenberg losschicken und beobachten, was zurückkommt: ein Tal → festes Ende (Phasenumkehr); ein Berg → loses Ende. Ein Puls genügt, weil sich nur die Richtung des reflektierten Ausschlags unterscheidet."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Interferenz zweier Wellenquellen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c7",
+        "c6",
+        "c2",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Interferenz.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\lambda = \\frac{c}{f} = \\frac{343\\,\\mathrm{m/s}}{40\\,000\\,\\mathrm{Hz}} \\approx 0{,}0086\\,\\mathrm{m} = 8{,}6\\,\\mathrm{mm}$"
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Quellen müssen **kohärent** sein: gleiche Frequenz (also gleiche Wellenlänge) und eine zeitlich feste Phasenbeziehung. Für deutliche Minima sollten die Amplituden ähnlich groß sein."
+        },
+        {
+          "id": "N6-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\Delta s = 51{,}29\\,\\mathrm{cm} - 50{,}00\\,\\mathrm{cm} = 1{,}29\\,\\mathrm{cm}$, $\\frac{\\Delta s}{\\lambda} = \\frac{1{,}29\\,\\mathrm{cm}}{0{,}86\\,\\mathrm{cm}} \\approx 1{,}5$\n\n$\\Delta s = 1{,}5 \\cdot \\lambda = (2 - \\frac{1}{2}) \\cdot \\lambda$: Berg trifft auf Tal – **Minimum**."
+        },
+        {
+          "id": "N6-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Sender liegen $5\\,\\mathrm{cm}$ über und unter der Mittellinie; der Punkt liegt $4{,}3\\,\\mathrm{cm}$ über M:\n\n$s_1 = \\sqrt{50^2 + 9{,}3^2}\\,\\mathrm{cm} \\approx 50{,}86\\,\\mathrm{cm}$, $s_2 = \\sqrt{50^2 + 0{,}7^2}\\,\\mathrm{cm} \\approx 50{,}00\\,\\mathrm{cm}$\n\n$\\Delta s \\approx 0{,}85\\,\\mathrm{cm} \\approx \\lambda$ – Maximum 1. Ordnung."
+        },
+        {
+          "id": "N6-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beim 3. Maximum ist $\\Delta s = 3 \\cdot \\lambda$."
+        },
+        {
+          "id": "N6-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$s_1 = \\sqrt{50^2 + 18{,}4^2}\\,\\mathrm{cm} \\approx 53{,}28\\,\\mathrm{cm}$, $s_2 = \\sqrt{50^2 + 8{,}4^2}\\,\\mathrm{cm} \\approx 50{,}70\\,\\mathrm{cm}$\n\n$\\Delta s \\approx 2{,}58\\,\\mathrm{cm} = 3 \\cdot \\lambda \\Rightarrow \\lambda \\approx 0{,}86\\,\\mathrm{cm}$ – passt zur Rechnung in Teil a."
+        },
+        {
+          "id": "N6-1g",
+          "label": "1g",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "In M ist $\\Delta s = 0$, aber die Wellen starten schon gegenphasig: Berg trifft auf Tal – in M liegt jetzt ein **Minimum**.\n\nAllgemein kommt zur Wegdifferenz eine halbe Wellenlänge hinzu: Wo vorher Maxima waren ($\\Delta s = k \\cdot \\lambda$), liegen jetzt Minima, und umgekehrt. Das Muster verschiebt sich, die Abstände bleiben gleich; bei $4{,}3\\,\\mathrm{cm}$ misst man jetzt ein Minimum."
+        },
+        {
+          "id": "N6-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Höhere Frequenz bedeutet kleinere Wellenlänge. Der Gangunterschied kann höchstens so groß wie der Abstand der Tupfer werden; in diesen Bereich passen bei kleinerem $\\lambda$ mehr Werte $(k - \\frac{1}{2}) \\cdot \\lambda$ – also mehr Knotenlinien."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Stehende Wellen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8",
+        "c5",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Stehende_Wellen.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Welle wird an den festen Enden reflektiert; hin- und rücklaufende Welle haben gleiche Frequenz und Amplitude und überlagern sich. Nur wenn die Länge ein Vielfaches von $\\frac{\\lambda}{2}$ ist ($L = k \\cdot \\frac{\\lambda}{2}$), passt die Welle nach Hin- und Rückweg phasengleich auf sich selbst: Es entstehen ortsfeste Knoten (immer in Ruhe) und Bäuche (größte Amplitude)."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Gleichartige Reflexion (beide Enden fest): $\\lambda_k = \\frac{2L}{k}$, $f_k = \\frac{c}{\\lambda_k}$\n\n| $k$ | 1 | 2 | 3 |\n|---|---|---|---|\n| $\\lambda_k$ in m | 3,0 | 1,5 | 1,0 |\n| $f_k$ in Hz | 3,0 | 6,0 | 9,0 |\n\nAn beiden Enden liegen Knoten; benachbarte Knoten sind $\\frac{\\lambda}{2}$ voneinander entfernt, die Bäuche liegen genau dazwischen.",
+          "loesung_bild": "img/N7-1b.png"
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\lambda_1 = 2L = 4{,}0\\,\\mathrm{m}$, $f_1 = \\frac{343\\,\\mathrm{m/s}}{4{,}0\\,\\mathrm{m}} \\approx 85{,}8\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Ein Knoten am geschlossenen, ein Bauch am offenen Ende: $L = \\frac{\\lambda_1}{4}$, $\\lambda_1 = 8{,}0\\,\\mathrm{m}$, $f_1 = \\frac{343\\,\\mathrm{m/s}}{8{,}0\\,\\mathrm{m}} \\approx 42{,}9\\,\\mathrm{Hz}$ – eine Oktave tiefer."
+        },
+        {
+          "id": "N7-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Am einen Ende muss ein Knoten, am anderen ein Bauch liegen. Zwischen Knoten und Bauch liegen $\\frac{\\lambda}{4}$, $\\frac{3\\lambda}{4}$, $\\frac{5\\lambda}{4}$, …: $L = (2k - 1) \\cdot \\frac{\\lambda}{4}$, also $f_k = (2k - 1) \\cdot \\frac{c}{4L} = f_1, 3f_1, 5f_1, …$"
+        },
+        {
+          "id": "N7-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Verschiedenartige Reflexion: $\\lambda_1 = 4L = 10\\,\\mathrm{cm}$, $f_1 = \\frac{343\\,\\mathrm{m/s}}{0{,}10\\,\\mathrm{m}} \\approx 3{,}4\\,\\mathrm{kHz}$"
+        },
+        {
+          "id": "N7-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Ja, als Teilerklärung: Bei etwa $3{,}4\\,\\mathrm{kHz}$ bildet sich im Gehörgang eine stehende Welle mit einem Druckbauch am Trommelfell – Schall dieser Frequenz wird dort verstärkt. Das Modell ist grob (Gehörgang gekrümmt, Trommelfell nachgiebig); auch das Innenohr trägt zur Empfindlichkeit bei."
+        },
+        {
+          "id": "N7-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der Grundton ist gleich: gedackt $f_1 = \\frac{c}{4 \\cdot 1{,}0\\,\\mathrm{m}} \\approx 85{,}8\\,\\mathrm{Hz}$, offen $f_1 = \\frac{c}{2 \\cdot 2{,}0\\,\\mathrm{m}} \\approx 85{,}8\\,\\mathrm{Hz}$.\n\nDie Obertöne unterscheiden sich: Die offene Pfeife hat $2f_1, 3f_1, 4f_1, …$, die gedackte nur $3f_1, 5f_1, …$. Der Klang (die Klangfarbe) ist deshalb verschieden – gleicher Ton, anderer Klang."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Experiment oder Simulation: Wellenlänge messen",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "Material oder Simulation, WTR, Tabellenkalkulation",
+      "checkliste": [
+        "c8",
+        "c7",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Partnerarbeit, 20 Minuten. Material: Kundt’sches Rohr (Glasrohr mit Korkmehl, kleiner Lautsprecher am Tongenerator) **oder** die Simulation „Wellen auf einer Saite“ von PhET (phet.colorado.edu, HTML5). Teil a mit Rohr oder Simulation, die übrigen Teile mit der Beispielmessung.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Experiment_Wellenlaenge.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Rohr: Ton einstellen, bis das Korkmehl deutliche Häufchen bildet; den Abstand über mehrere Knoten messen und durch die Zahl der Abstände teilen – das ist $\\frac{\\lambda}{2}$. Beispiel: $1{,}5\\,\\mathrm{kHz}$, 5 Knotenabstände auf $57\\,\\mathrm{cm}$ → $\\lambda \\approx 23\\,\\mathrm{cm}$.\n\nSimulation: Frequenz suchen, bei der z. B. 3 Bäuche entstehen; Seillänge $L$ mit dem Lineal messen, $\\lambda = \\frac{2L}{3}$. (Eigene Messwerte weichen je nach Einstellung ab.)"
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Lage eines Knotens ist nur auf einige Millimeter genau ablesbar. Dieser Ablesefehler tritt nur an den beiden Enden der Messstrecke auf; über mehrere Abstände verteilt, wird der relative Fehler kleiner."
+        },
+        {
+          "id": "N8-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "5 Knotenabstände sind $5 \\cdot \\frac{\\lambda}{2}$, also $\\lambda = \\frac{2s}{5}$:\n\n| $f$ in kHz | 0,80 | 1,00 | 1,20 | 1,50 | 2,00 |\n|---|---|---|---|---|---|\n| $\\lambda$ in cm | 42,8 | 34,4 | 28,5 | 22,8 | 17,2 |"
+        },
+        {
+          "id": "N8-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{1}{f}$ in ms: 1,25; 1,00; 0,833; 0,667; 0,50. Die Punkte liegen auf einer Ursprungsgeraden, denn $\\lambda = c \\cdot \\frac{1}{f}$.\n\nSteigung (Ausgleichsgerade): $c \\approx \\frac{0{,}428\\,\\mathrm{m}}{1{,}25 \\cdot 10^{-3}\\,\\mathrm{s}} \\approx 343\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$",
+          "loesung_bild": "img/N8-2b.png"
+        },
+        {
+          "id": "N8-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Fehlerquellen: unscharfe Knotenhäufchen (etwa $\\pm 0{,}5\\,\\mathrm{cm}$ auf $43\\,\\mathrm{cm}$, rund 1 %), ungenaue Frequenzanzeige, Temperatur im Rohr.\n\nTemperatur: $5\\,°\\mathrm{C}$ ändern $c$ um $3\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$, also um etwa 1 %. Ablesung und Temperatur liegen in derselben Größenordnung; das Ergebnis ist auf etwa 1–2 % genau."
+        },
+        {
+          "id": "N8-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Bei gleicher Frequenz ist $\\lambda = \\frac{c}{f}$ etwa dreimal so groß: Knotenabstand $\\frac{\\lambda}{2} \\approx \\frac{1000\\,\\mathrm{m/s}}{2 \\cdot 1500\\,\\mathrm{Hz}} \\approx 33\\,\\mathrm{cm}$ statt etwa $11\\,\\mathrm{cm}$ – im Rohr wären nur noch wenige Häufchen zu sehen."
+        }
+      ]
+    },
+    {
+      "id": "N16",
+      "titel": "eA: Stehende Wellen als Funktion",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c14",
+        "c12",
+        "c8",
+        "c5"
+      ],
+      "kategorie": "neu",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR und Formeldokument zugelassen, 16 Minuten. Am besten nach N15 und N7.",
+      "bild": "img/st_N16.svg",
+      "pdf": "pdf/N16_eA_Stehende_Welle_Funktion.pdf",
+      "aufgaben": [
+        {
+          "id": "N16-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mit $\\alpha = 2\\pi(\\frac{t}{T} + \\frac{x}{\\lambda})$ und $\\beta = 2\\pi(\\frac{t}{T} - \\frac{x}{\\lambda})$: $\\frac{\\alpha + \\beta}{2} = 2\\pi\\frac{t}{T}$, $\\frac{\\alpha - \\beta}{2} = 2\\pi\\frac{x}{\\lambda}$\n\n$y = \\hat{y}(\\sin\\alpha + \\sin\\beta) = 2\\hat{y} \\cdot \\sin(2\\pi\\frac{t}{T}) \\cdot \\cos(2\\pi\\frac{x}{\\lambda})$"
+        },
+        {
+          "id": "N16-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bei $x = 0$ ist $\\cos(0) = 1$: Amplitude $2\\hat{y} = 0{,}24\\,\\mathrm{m}$ (Bauch an der Wand)."
+        },
+        {
+          "id": "N16-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Knoten, wo $\\cos(2\\pi\\frac{x}{\\lambda}) = 0$: $2\\pi\\frac{x}{\\lambda} = \\frac{\\pi}{2}, \\frac{3\\pi}{2}$ → $x = \\frac{\\lambda}{4} = 1{,}25\\,\\mathrm{m}$ und $x = \\frac{3\\lambda}{4} = 3{,}75\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N16-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\left| 2 \\cdot 0{,}12\\,\\mathrm{m} \\cdot \\cos(2\\pi \\cdot 0{,}40) \\right| = 0{,}24\\,\\mathrm{m} \\cdot 0{,}809 \\approx 0{,}19\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N16-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\cos(0{,}2\\pi) \\approx +0{,}81$, $\\cos(0{,}8\\pi) \\approx -0{,}81$: Beide Orte schwingen mit gleicher Amplitude, aber **gegenphasig** – zwischen ihnen liegt der Knoten bei $1{,}25\\,\\mathrm{m}$. Alle Punkte zwischen zwei Knoten schwingen gleichphasig."
+        },
+        {
+          "id": "N16-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Am festen Ende gibt es eine Phasenumkehr: $y_r = -\\hat{y} \\cdot \\sin(2\\pi(\\frac{t}{T} - \\frac{x}{\\lambda}))$.\n\n$y = \\hat{y}(\\sin\\alpha - \\sin\\beta) = 2\\hat{y} \\cdot \\cos(2\\pi\\frac{t}{T}) \\cdot \\sin(2\\pi\\frac{x}{\\lambda})$ – Sinus im Ort, also ein **Knoten** bei $x = 0$, wie es ein festes Ende verlangt."
+        },
+        {
+          "id": "N16-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "An einem Knoten ($1{,}25\\,\\mathrm{m}$, $3{,}75\\,\\mathrm{m}$) zeigt sie nichts. An einem Bauch (an der Wand oder bei $2{,}5\\,\\mathrm{m}$) misst sie die Frequenz der einlaufenden Welle und die Amplitude $2\\hat{y}$ – die einlaufende Amplitude ist die Hälfte. Voraussetzung: Die stehende Welle ist voll ausgebildet; sonst misst man besser weit vor der Wand, bevor die Reflexion ankommt."
+        }
+      ]
+    },
+    {
+      "id": "N17",
+      "titel": "eA: Interferometer",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c13",
+        "c6",
+        "c7",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR und Formeldokument zugelassen, 18 Minuten. Am besten nach N6.",
+      "bild": "img/st_N17.svg",
+      "pdf": "pdf/N17_eA_Interferometer.pdf",
+      "aufgaben": [
+        {
+          "id": "N17-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Welle 1: durch den Strahlteiler zu Reflektor 1, zurück zum Strahlteiler und von ihm zum Empfänger reflektiert. Welle 2: am Strahlteiler zu Reflektor 2 reflektiert, zurück und durch den Strahlteiler zum Empfänger."
+        },
+        {
+          "id": "N17-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Beide Teilwellen stammen aus demselben Sender (kohärent). Verschiebt man Reflektor 2 um $\\Delta d$, wird Weg 2 um $2\\Delta d$ länger (hin und zurück). Ist der Gangunterschied ein Vielfaches von $\\lambda$, verstärken sich die Wellen (Maximum), bei $(k - \\frac{1}{2})\\lambda$ löschen sie sich aus (Minimum)."
+        },
+        {
+          "id": "N17-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Von Maximum zu Maximum ändert sich der Gangunterschied um $\\lambda$, der Reflektor wandert also um $\\frac{\\lambda}{2}$:\n\n$20 \\cdot \\frac{\\lambda}{2} = 137{,}2\\,\\mathrm{mm} \\Rightarrow \\lambda = \\frac{2 \\cdot 137{,}2\\,\\mathrm{mm}}{20} \\approx 13{,}7\\,\\mathrm{mm}$"
+        },
+        {
+          "id": "N17-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$c = \\lambda \\cdot f = 13{,}72 \\cdot 10^{-3}\\,\\mathrm{m} \\cdot 25\\,000\\,\\mathrm{Hz} \\approx 343\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "N17-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Gangunterschied muss sich um $\\frac{\\lambda}{2}$ ändern, der Reflektor also um $\\frac{\\lambda}{4} \\approx 3{,}4\\,\\mathrm{mm}$."
+        },
+        {
+          "id": "N17-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Bügel verlängert den Weg auf beiden Seiten: $\\Delta s = 2 \\cdot 5{,}0\\,\\mathrm{cm} = 10\\,\\mathrm{cm}$. Von Minimum zu Minimum ändert sich $\\Delta s$ um $\\lambda$: $\\lambda = 10\\,\\mathrm{cm}$.\n\n$f = \\frac{c}{\\lambda} = \\frac{343\\,\\mathrm{m/s}}{0{,}10\\,\\mathrm{m}} \\approx 3{,}4\\,\\mathrm{kHz}$"
+        },
+        {
+          "id": "N17-2b",
+          "label": "2b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Von Maximum zu Minimum genügt $\\frac{\\lambda}{4} \\approx 3{,}4\\,\\mathrm{mm}$; misst man die Signalstärke genau, erkennt man Bruchteile davon – grob etwa $1\\,\\mathrm{mm}$. Luftbewegungen und Temperaturschwankungen ändern $c$ und stören.\n\nLicht hat mit $600\\,\\mathrm{nm}$ eine rund $20\\,000$-mal kleinere Wellenlänge: Dieselbe Methode löst dann Bruchteile eines Mikrometers auf. Das Prinzip bleibt gleich – die Auflösung skaliert mit $\\lambda$."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Der Dopplereffekt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c9",
+        "c2",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Dopplereffekt.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Vor der Quelle (rechts): $\\lambda_v = 1{,}5\\,\\mathrm{cm}$ (3 Kästchen); hinter der Quelle (links): $\\lambda_h = 2{,}5\\,\\mathrm{cm}$ (5 Kästchen)."
+        },
+        {
+          "id": "N9-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Quelle läuft ihren eigenen Wellenfronten hinterher und sendet jede neue Front ein Stück weiter vorn aus. Vor ihr liegen die Fronten enger (kleinere Wellenlänge); da sie mit derselben Geschwindigkeit $c$ laufen, treffen pro Sekunde mehr Fronten beim Beobachter ein: $f' = \\frac{c}{\\lambda_v} > f$."
+        },
+        {
+          "id": "N9-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Bewegte Quelle: Nähern $f' = 370\\,\\mathrm{Hz} \\cdot \\frac{343}{343 - 30} \\approx 405\\,\\mathrm{Hz}$, Entfernen $f' = 370\\,\\mathrm{Hz} \\cdot \\frac{343}{343 + 30} \\approx 340\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "N9-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Bewegter Beobachter: vorher $f' = 800\\,\\mathrm{Hz} \\cdot \\frac{343 + 25}{343} \\approx 858\\,\\mathrm{Hz}$, nachher $f' = 800\\,\\mathrm{Hz} \\cdot \\frac{343 - 25}{343} \\approx 742\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "N9-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Aus $f' = f \\cdot \\frac{c}{c - v_S}$ folgt $c - v_S = \\frac{f \\cdot c}{f'}$, also $v_S = c \\cdot \\frac{f' - f}{f'}$\n\n$v_S = 343\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot \\frac{398 - 370}{398} \\approx 24{,}1\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\approx 87\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$"
+        },
+        {
+          "id": "N9-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Entscheidend ist der Anteil der Zuggeschwindigkeit in Richtung zum Beobachter. Dicht an den Gleisen springt er beim Vorbeifahren fast schlagartig von $+v$ auf $-v$; weit entfernt ändert sich die Richtung zum Zug langsam, der Anteil und damit die Frequenz gehen allmählich über."
+        },
+        {
+          "id": "N9-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$f' = 370\\,\\mathrm{Hz} \\cdot \\frac{343 + 30}{343} \\approx 402\\,\\mathrm{Hz}$ – bei bewegter Quelle waren es $405\\,\\mathrm{Hz}$.\n\nDie Aussage stimmt nur näherungsweise für kleine Geschwindigkeiten. Schall breitet sich in Luft aus; entscheidend ist, wer sich **relativ zur Luft** bewegt. Bei großen Geschwindigkeiten werden die Unterschiede groß (Quelle mit fast $c$: $f'$ sehr groß; Beobachter mit fast $c$: nur etwa $2f$)."
+        },
+        {
+          "id": "N9-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Der Nenner $c - v_S$ wird null, die Formel liefert eine unendliche Frequenz – sie gilt hier nicht mehr. Die Quelle holt ihre eigenen Wellenfronten ein; sie stauen sich vor ihr zu einer starken Druckwelle (Grundlage des Überschallknalls bei Flugzeugen)."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Huygens’sches Prinzip: Reflexion und Brechung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c10",
+        "c5",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Zeichnen Sie Abb. 1 grob in Ihre Notizen ab.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Huygens.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Jeder Punkt einer Wellenfront ist Ausgangspunkt einer Elementarwelle (Kreiswelle mit gleicher Frequenz und Geschwindigkeit). Die neue Wellenfront ist die Einhüllende aller Elementarwellen.\n\nZeichnung: um drei Punkte der Front Kreise mit gleichem Radius $c \\cdot \\Delta t$; die gemeinsame Tangente ist wieder eine Gerade parallel zur alten Front (Skizze links; rechts die Lösung zu b).",
+          "loesung_bild": "img/N10-1a.png"
+        },
+        {
+          "id": "N10-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Front erreicht die Mauer nacheinander; jeder getroffene Mauerpunkt sendet eine Elementarwelle zurück, die früher getroffenen haben schon größere Radien. Die Einhüllende ist die reflektierte Front, die schräg vom Ufer wegläuft.\n\nReflexionsgesetz: Einfallswinkel = Reflexionswinkel (gemessen zum Lot)."
+        },
+        {
+          "id": "N10-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$c = \\sqrt{9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}} \\cdot 4000\\,\\mathrm{m}} \\approx 198\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\approx 713\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$ – so schnell wie ein Flugzeug."
+        },
+        {
+          "id": "N10-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Tiefsee: $\\lambda = c \\cdot T = 198\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 1200\\,\\mathrm{s} \\approx 238\\,\\mathrm{km}$. Küste: $c = \\sqrt{9{,}81 \\cdot 10}\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\approx 9{,}9\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$, $\\lambda \\approx 11{,}9\\,\\mathrm{km}$.\n\nJeder Oszillator wird von seinem Nachbarn angetrieben und übernimmt dessen Takt – die Frequenz legt der Erreger fest, sie ändert sich beim Übergang nicht. Kleineres $c$ heißt deshalb kleineres $\\lambda$."
+        },
+        {
+          "id": "N10-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der küstennahe Teil einer schrägen Front läuft schon im flacheren, langsameren Wasser; seine Elementarwellen werden in gleicher Zeit kleiner als die des küstenfernen Teils. Die Einhüllende knickt deshalb zur Küste hin ab und dreht sich, bis sie fast parallel zur Küste liegt (**Brechung**).",
+          "loesung_bild": "img/N10-2c.png"
+        },
+        {
+          "id": "N10-2d",
+          "label": "2d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Auf hoher See ist die Amplitude klein (etwa 1 m) und die Wellenlänge riesig ($238\\,\\mathrm{km}$): Das Schiff hebt sich in etwa 5 Minuten (einer Viertelperiode) um rund einen Meter – unmerklich.\n\nZur Küste hin wird die Welle langsamer, die Wellenlänge schrumpft auf wenige Kilometer. Die Energie der Welle drängt sich auf eine viel kürzere Strecke zusammen, die Amplitude wächst stark. Buchten bündeln die Fronten durch Brechung zusätzlich."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Beugung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c11",
+        "c10",
+        "c6",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 18 Minuten.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Beugung.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beugung ist die Ablenkung einer Welle an einem Hindernis oder einer Öffnung: Die Welle breitet sich auch in den geometrischen Schattenraum hinter dem Hindernis aus."
+        },
+        {
+          "id": "N11-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Schmale Lücke ($1\\,\\mathrm{m} < \\lambda$): Nur ein Stück Wellenfront kommt durch; es wirkt wie ein einziges Zentrum einer Elementarwelle – dahinter laufen Halbkreiswellen in alle Richtungen.\n\nBreite Lücke ($8\\,\\mathrm{m} = 2\\lambda$): Viele Elementarwellen bilden in der Mitte wieder eine ebene Front; nur an den Rändern biegt sie sich etwas in den Schattenraum.",
+          "loesung_bild": "img/N11-1b.png"
+        },
+        {
+          "id": "N11-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\lambda_E = \\frac{343\\,\\mathrm{m/s}}{15\\,\\mathrm{Hz}} \\approx 22{,}9\\,\\mathrm{m}$, $\\lambda_F = \\frac{343\\,\\mathrm{m/s}}{45\\,000\\,\\mathrm{Hz}} \\approx 7{,}6\\,\\mathrm{mm}$"
+        },
+        {
+          "id": "N11-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Infraschall: $\\lambda$ ist viel größer als ein Baumstamm – die Welle wird um ihn herum gebeugt und läuft nahezu ungestört weiter.\n\nUltraschall: $\\lambda$ ist etwa so groß wie die Motte – ein merklicher Teil wird an ihr reflektiert und gestreut; es kommt ein Echo zurück. Am Baumstamm ($\\gg \\lambda$) wird der Ultraschall reflektiert, dahinter liegt ein Schattenraum."
+        },
+        {
+          "id": "N11-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Beide Lücken senden durch Beugung Kreiswellen aus, die von derselben ebenen Welle stammen – sie sind kohärent. Wo der Gangunterschied $k \\cdot \\lambda$ ist, verstärken sie sich (bewegtes Wasser); wo er $(k - \\frac{1}{2}) \\cdot \\lambda$ ist, löschen sie sich aus (ruhiges Wasser)."
+        },
+        {
+          "id": "N11-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Seitlich hinter der breiten Lücke treffen Elementarwellen aus vielen Punkten der Lücke mit unterschiedlichen Gangunterschieden zusammen; sie löschen sich dort größtenteils gegenseitig aus. Nur geradeaus verstärken sie sich zur ebenen Front."
+        },
+        {
+          "id": "N11-3c",
+          "label": "3c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Bei $15\\,\\mathrm{Hz}$ ($\\lambda \\approx 23\\,\\mathrm{m}$) läuft die Welle um die winzige Motte herum, es kommt praktisch kein Echo zurück – Ortung unmöglich. Kleine Beute verlangt kleine Wellenlängen, also Ultraschall.\n\nElefanten wollen dagegen weit und um Hindernisse herum kommunizieren: Lange Wellen werden um Bäume und Hügel gebeugt und in der Luft kaum gedämpft. Jede Tierart nutzt die Wellenlänge, die zu ihrer Aufgabe passt."
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "titel": "Tandem: Rechnen mit Wellen",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c9",
+        "c2",
+        "c7",
+        "c8"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets, WTR. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. Schall in Luft: $c_{\\mathrm{Luft}} = 343\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$.",
+      "bild": "img/st_N12.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N12-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Ton von $2{,}0\\,\\mathrm{kHz}$ läuft durch Wasser ($c = 1480\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$). Berechnen Sie die Wellenlänge.",
+          "tipp": "$\\lambda = \\frac{c}{f}$.",
+          "loesung": "$\\lambda = \\frac{1480\\,\\mathrm{m/s}}{2000\\,\\mathrm{Hz}} = 0{,}74\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N12-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Auf einem Seil laufen Wellen mit $c = 4{,}8\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ und $\\lambda = 1{,}2\\,\\mathrm{m}$. Berechnen Sie die Frequenz.",
+          "tipp": "$f = \\frac{c}{\\lambda}$.",
+          "loesung": "$f = \\frac{4{,}8\\,\\mathrm{m/s}}{1{,}2\\,\\mathrm{m}} = 4{,}0\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "N12-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein $0{,}60\\,\\mathrm{m}$ langes Rohr ist an beiden Enden offen. Berechnen Sie die Grundfrequenz der Luftsäule.",
+          "tipp": "Gleichartige Reflexion: $\\lambda_1 = 2L$.",
+          "loesung": "$\\lambda_1 = 1{,}20\\,\\mathrm{m}$, $f_1 = \\frac{343\\,\\mathrm{m/s}}{1{,}20\\,\\mathrm{m}} \\approx 286\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "N12-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein $0{,}60\\,\\mathrm{m}$ langes Rohr ist an einem Ende verschlossen. Berechnen Sie die Grundfrequenz der Luftsäule.",
+          "tipp": "Verschiedenartige Reflexion: $\\lambda_1 = 4L$.",
+          "loesung": "$\\lambda_1 = 2{,}40\\,\\mathrm{m}$, $f_1 = \\frac{343\\,\\mathrm{m/s}}{2{,}40\\,\\mathrm{m}} \\approx 143\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "N12-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Zwei gleichphasige Quellen senden Wellen mit $\\lambda = 0{,}40\\,\\mathrm{m}$. Ein Punkt ist $3{,}0\\,\\mathrm{m}$ von der einen und $3{,}6\\,\\mathrm{m}$ von der anderen entfernt. Ermitteln Sie, ob dort ein Maximum oder ein Minimum liegt.",
+          "tipp": "Gangunterschied durch $\\lambda$ teilen.",
+          "loesung": "$\\Delta s = 0{,}6\\,\\mathrm{m} = 1{,}5 \\cdot \\lambda = (2 - \\frac{1}{2}) \\cdot \\lambda$ – Minimum."
+        },
+        {
+          "id": "N12-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Bei einer stehenden Welle mit $f = 680\\,\\mathrm{Hz}$ liegen benachbarte Knoten $25\\,\\mathrm{cm}$ auseinander. Berechnen Sie die Ausbreitungsgeschwindigkeit.",
+          "tipp": "Knotenabstand $= \\frac{\\lambda}{2}$.",
+          "loesung": "$\\lambda = 2 \\cdot 0{,}25\\,\\mathrm{m} = 0{,}50\\,\\mathrm{m}$, $c = \\lambda \\cdot f = 0{,}50\\,\\mathrm{m} \\cdot 680\\,\\mathrm{Hz} = 340\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "N12-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Eine Drohne mit einem Summton von $500\\,\\mathrm{Hz}$ fliegt mit $20\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ auf Sie zu. Berechnen Sie die Frequenz, die Sie hören.",
+          "tipp": "Bewegte Quelle bei Annäherung: $f' = f \\cdot \\frac{c}{c - v_S}$.",
+          "loesung": "$f' = 500\\,\\mathrm{Hz} \\cdot \\frac{343}{343 - 20} \\approx 531\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "N12-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Sie fahren mit dem Rad mit $8{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ von einer ruhenden Alarmanlage ($600\\,\\mathrm{Hz}$) weg. Berechnen Sie die Frequenz, die Sie hören.",
+          "tipp": "Bewegter Beobachter beim Entfernen: $f' = f \\cdot \\frac{c - v_B}{c}$.",
+          "loesung": "$f' = 600\\,\\mathrm{Hz} \\cdot \\frac{343 - 8{,}0}{343} \\approx 586\\,\\mathrm{Hz}$"
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c9",
+        "c2",
+        "c5",
+        "c6",
+        "c8",
+        "c11"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Jede Lösung A bis F enthält genau einen typischen Fehler.",
+      "bild": "img/st_N13.svg",
+      "pdf": "pdf/N13_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N13-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Es gilt $c = \\lambda \\cdot f$, nicht $\\frac{\\lambda}{f}$ (die Einheit $\\mathrm{m} \\cdot \\mathrm{s}$ verrät den Fehler). Richtig: $c = 6{,}8\\,\\mathrm{m} \\cdot 50\\,\\mathrm{Hz} = 340\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "N13-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Benachbarte Knoten liegen $\\frac{\\lambda}{2}$ auseinander: $\\lambda = 24\\,\\mathrm{cm}$, $c = 0{,}24\\,\\mathrm{m} \\cdot 25\\,\\mathrm{Hz} = 6{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "N13-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Wand ist ein festes Ende: Der Seilpunkt dort kann sich nicht bewegen. Die Wand übt auf das Seil eine Gegenkraft aus, die den Puls umgekehrt zurückschickt – aus dem Berg wird ein **Tal** (Phasenumkehr). Nur an einem losen Ende kommt ein Berg zurück."
+        },
+        {
+          "id": "N13-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Konstruktiv ist es nur bei ganzen Vielfachen von $\\lambda$. $3{,}0\\,\\mathrm{cm} = 1{,}5 \\cdot \\lambda$ ist ein **ungerades** Vielfaches von $\\frac{\\lambda}{2}$: Berg trifft auf Tal – **destruktive Interferenz** (Minimum)."
+        },
+        {
+          "id": "N13-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Lösung E benutzt die Formel für eine bewegte **Quelle**. Hier bewegt sich der Beobachter: $f' = 400\\,\\mathrm{Hz} \\cdot \\frac{343 + 20}{343} \\approx 423\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "N13-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Umgekehrt: Je schmaler die Öffnung im Vergleich zur Wellenlänge, desto stärker die Beugung. Bei einer schmalen Öffnung wirkt nur ein einziges Zentrum – es entsteht eine Kreiswelle. Bei einer breiten Öffnung löschen sich die vielen Elementarwellen seitlich aus und setzen sich geradeaus zur ebenen Front zusammen."
+        }
+      ]
+    },
+    {
+      "id": "N14",
+      "titel": "Check-out",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c9",
+        "c1",
+        "c2",
+        "c3",
+        "c5",
+        "c6",
+        "c8",
+        "c11"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung. Vergleichen Sie danach mit Ihren Punkten in N1.",
+      "bild": "img/st_N14.svg",
+      "pdf": "pdf/N14_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N14-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Die Ähren sind die Oszillatoren: Sie schwingen um ihren Standort, nur der Bewegungszustand wandert über das Feld.\n\n*A gewählt?* Eine Welle transportiert keine Materie. *B oder D gewählt?* Jede Ähre wird ausgelenkt und kehrt zurück. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "N14-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Die Ausbreitungsgeschwindigkeit hängt vom Seil (Spannung, Masse) ab, nicht von der Frequenz. Aus $\\lambda = \\frac{c}{f}$ folgt: doppelte Frequenz, halbe Wellenlänge.\n\n*B oder C gewählt?* Schnelleres Schütteln macht die Welle nicht schneller. *D gewählt?* $\\lambda$ und $f$ sind umgekehrt proportional. → **N3** Aufgabe 3"
+        },
+        {
+          "id": "N14-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Schall und Ultraschall sind in Flüssigkeiten (und Gasen) Längswellen: Die Teilchen schwingen in Ausbreitungsrichtung.\n\n*A oder C gewählt?* Quer angeregt heißt transversal. *B gewählt?* Was ein Spalt sperren kann, ist eine Transversalwelle (Polarisation). → **N2** Aufgabe 3"
+        },
+        {
+          "id": "N14-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Am losen Ende wird die Welle ohne Phasenumkehr reflektiert: Der Berg bleibt ein Berg.\n\n*A gewählt?* Ein Tal entsteht nur am festen Ende. *C oder D gewählt?* Die Welle wird reflektiert, ihre Amplitude bleibt (fast) gleich. → **N5** Aufgabe 1"
+        },
+        {
+          "id": "N14-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $\\frac{3}{2}\\lambda = (2 - \\frac{1}{2}) \\cdot \\lambda$: Berg trifft auf Tal – destruktive Interferenz.\n\n*B gewählt?* Ein Vielfaches der **halben** Wellenlänge reicht nicht; Verstärkung gibt es nur bei ganzen Vielfachen von $\\lambda$. *C oder D gewählt?* Die Frequenz bleibt, und die Amplituden addieren sich mit Vorzeichen. → **N6** Aufgabe 1"
+        },
+        {
+          "id": "N14-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Zwischen Knoten und Bauch liegt eine Viertelwellenlänge: $\\lambda = 4 \\cdot 15\\,\\mathrm{cm} = 60\\,\\mathrm{cm}$.\n\n*A oder B gewählt?* Knoten–Bauch ist $\\frac{\\lambda}{4}$, Knoten–Knoten $\\frac{\\lambda}{2}$. *D gewählt?* Faktor 8 statt 4. → **N7** Aufgabe 1"
+        },
+        {
+          "id": "N14-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Hinter der Quelle sind die Wellenfronten gleichmäßig gedehnt: Die Frequenz ist niedriger, bleibt bei gleichförmiger Bewegung aber konstant.\n\n*A gewählt?* Die Frequenz hängt von der Geschwindigkeit ab, nicht vom Abstand. *C gewählt?* Lautstärke und Tonhöhe verwechselt. *D gewählt?* Höher klingt es beim Nähern. → **N9** Aufgabe 2"
+        },
+        {
+          "id": "N14-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Entscheidend ist das Verhältnis von Öffnung zu Wellenlänge: Ist $\\lambda$ größer als die Lücke, wirkt sie wie ein einziges Zentrum einer Elementarwelle – starke Beugung.\n\n*A, B oder C gewählt?* Kurze Wellen laufen fast geradlinig durch. → **N11** Aufgabe 1"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Ultraschallprüfung von Bahnschienen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 24,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 24 Minuten. Vernetzt die Grundlagen mit Phase 1 (Wellen beschreiben) – am besten nach N2 bis N4.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Schienenpruefung.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$T = \\frac{1}{f} = \\frac{1}{2{,}0 \\cdot 10^{6}\\,\\mathrm{Hz}} = 0{,}50\\,\\mathrm{\\mu s}$\n\n$\\lambda_L = \\frac{c_L}{f} = \\frac{5900\\,\\mathrm{m/s}}{2{,}0 \\cdot 10^{6}\\,\\mathrm{Hz}} \\approx 2{,}95\\,\\mathrm{mm}$, $\\lambda_T = \\frac{3200\\,\\mathrm{m/s}}{2{,}0 \\cdot 10^{6}\\,\\mathrm{Hz}} = 1{,}6\\,\\mathrm{mm}$"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Eisenatome sind über elastische Bindungen gekoppelt. Der Prüfkopf lenkt die ersten Atome aus; die Bindungen ziehen bzw. schieben die Nachbarn, die die Schwingung mit kleiner Verzögerung übernehmen und weitergeben.\n\nWie schnell das geht, hängt von der Stärke der Kopplung (Steifigkeit) und der Masse der Oszillatoren ab – also vom Material. Daher hat Stahl andere Werte als Wasser oder Luft."
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Welle läuft hin und zurück: $2h = c_L \\cdot t$\n\n$h = \\frac{5900\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 61 \\cdot 10^{-6}\\,\\mathrm{s}}{2} \\approx 0{,}18\\,\\mathrm{m} = 18\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$d = \\frac{5900\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 25 \\cdot 10^{-6}\\,\\mathrm{s}}{2} \\approx 0{,}074\\,\\mathrm{m} = 7{,}4\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "V1-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Für eine Querwelle muss eine seitliche Verschiebung eines Teilchens den Nachbarn seitlich mitziehen (Scherkraft). Im festen Stahl halten die Bindungen die Atome an festen Plätzen – Scherkräfte wirken, Querwellen sind möglich.\n\nWasserteilchen sind gegeneinander frei verschiebbar; eine Flüssigkeit überträgt nur Druck, also Verdichtungen in Ausbreitungsrichtung – nur Längswellen."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$s = c_L \\cdot t = 5900\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 1{,}0 \\cdot 10^{-6}\\,\\mathrm{s} = 5{,}9\\,\\mathrm{mm} = 2 \\cdot \\lambda_L$ (zwei Periodendauern)."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Welle reicht bis $x = 5{,}9\\,\\mathrm{mm}$ (zwei Wellenlängen), dahinter ist der Stahl noch in Ruhe. An der Front beginnt das Teilchen gerade in positiver Richtung zu schwingen; das Teilchen am Prüfkopf hat zwei volle Schwingungen hinter sich und ist wieder in der Ruhelage.\n\nMomentbild: $y(x) = -\\hat{y} \\cdot \\sin(2\\pi \\cdot \\frac{x}{\\lambda_L})$ für $0 \\le x \\le 5{,}9\\,\\mathrm{mm}$, sonst $0$.",
+          "loesung_bild": "img/V1-2b.png"
+        },
+        {
+          "id": "V1-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Zwischen zwei Pulsen fährt der Zug $\\frac{40}{3{,}6}\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 0{,}001\\,\\mathrm{s} \\approx 1{,}1\\,\\mathrm{cm}$ weiter. Die Messpunkte liegen weiter auseinander, als der Riss lang ist – trifft der Schallstrahl nur sehr schmal, kann der Riss zwischen zwei Pulsen liegen. Ist das Schallbündel einige Millimeter breit (Angabe fehlt), wird er wahrscheinlich, aber nicht sicher erfasst.\n\nAbhilfe: langsamer fahren oder mehr Pulse pro Sekunde – möglich, weil das Echo aus der ganzen Schiene schon nach $61\\,\\mathrm{\\mu s}$ zurück ist."
+        },
+        {
+          "id": "V1-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Nein. Als Längswelle ergibt sich $7{,}4\\,\\mathrm{cm}$, als Querwelle $\\frac{3200\\,\\mathrm{m/s} \\cdot 25 \\cdot 10^{-6}\\,\\mathrm{s}}{2} = 4{,}0\\,\\mathrm{cm}$ – fast der halbe Wert. Man muss wissen, welche Wellenart der Prüfkopf erzeugt (Prüfköpfe sind dafür gebaut), oder die Laufzeit mit dem bekannten Echo des Schienenfußes vergleichen."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Raummoden im Tonstudio",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 26,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c2",
+        "c3",
+        "g1",
+        "g3",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 26 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Wellen beschreiben, Überlagerung und stehende Wellen) – am besten nach N5 bis N8.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Tonstudio.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Schall wird an beiden Wänden reflektiert; hin- und herlaufende Wellen gleicher Frequenz überlagern sich. Passt der Wandabstand zur Wellenlänge, entsteht eine stehende Welle mit ortsfesten Druckknoten und Druckbäuchen – eine Raummode."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "An beiden Wänden Druckbäuche – gleichartige Reflexion: $f_k = k \\cdot \\frac{c}{2L} = k \\cdot \\frac{343\\,\\mathrm{m/s}}{10\\,\\mathrm{m}}$\n\n$f_1 \\approx 34{,}3\\,\\mathrm{Hz}$, $f_2 \\approx 68{,}6\\,\\mathrm{Hz}$, $f_3 \\approx 102{,}9\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$f_1 = \\frac{343\\,\\mathrm{m/s}}{2 \\cdot 4{,}0\\,\\mathrm{m}} \\approx 42{,}9\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der reflektierte Schall läuft zur Wand und zurück: $\\Delta s = 2 \\cdot 1{,}2\\,\\mathrm{m} = 2{,}4\\,\\mathrm{m}$, $\\Delta t = \\frac{2{,}4\\,\\mathrm{m}}{343\\,\\mathrm{m/s}} \\approx 7{,}0\\,\\mathrm{ms}$.\n\nOhne Phasenumkehr gilt für Auslöschung $\\Delta s = (k - \\frac{1}{2}) \\cdot \\lambda$; tiefste Frequenz bei $k = 1$: $\\lambda = 4{,}8\\,\\mathrm{m}$, $f = \\frac{343\\,\\mathrm{m/s}}{4{,}8\\,\\mathrm{m}} \\approx 71{,}5\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$k = 2$: $\\Delta s = 1{,}5 \\cdot \\lambda$, $\\lambda = 1{,}6\\,\\mathrm{m}$, $f \\approx 214\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "V2-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zwei Sinuskurven gleicher Periode ($T \\approx 14\\,\\mathrm{ms}$), um eine halbe Periode ($7{,}0\\,\\mathrm{ms}$) gegeneinander verschoben: Berg auf Tal. Bei gleicher Amplitude ist die Summe null; real ist der reflektierte Anteil etwas schwächer, die Summe also klein.",
+          "loesung_bild": "img/V2-2c.png"
+        },
+        {
+          "id": "V2-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bei der Grundmode ist $L = \\frac{\\lambda}{2}$; zwischen den beiden Bäuchen an den Wänden liegt genau in der Mitte ($\\frac{\\lambda}{4}$ von der Wand) ein **Druckknoten**. Dort schwankt der Druck nicht – Ohr und Mikrofon nehmen den Ton kaum wahr, an den Wänden dagegen dröhnt er.",
+          "loesung_bild": "img/V2-3a.png"
+        },
+        {
+          "id": "V2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Schall ist eine Längswelle: Die Luftteilchen schwingen parallel zur Ausbreitung, also hin und her zwischen den beiden $5{,}0\\,\\mathrm{m}$ entfernten Wänden – am stärksten in der Raummitte, wo der Druck konstant bleibt."
+        },
+        {
+          "id": "V2-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Jetzt ist $\\Delta s = 0{,}60\\,\\mathrm{m}$; die tiefste Auslöschung liegt bei $f = \\frac{343\\,\\mathrm{m/s}}{1{,}2\\,\\mathrm{m}} \\approx 286\\,\\mathrm{Hz}$ – mitten im Bereich der Singstimme. Die Maßnahme verschiebt das Loch nur und macht es eher schlimmer. Zudem liegen an der Wand Druckbäuche aller Raummoden: Das Mikrofon nimmt die tiefen Moden voll auf, der Bass dröhnt.\n\nBesser: Mikrofon sehr dicht an die Wand ($\\Delta s$ sehr klein, Auslöschung erst im Kilohertzbereich) oder weit weg von Wänden und die Wand mit Absorbern belegen."
+        },
+        {
+          "id": "V2-3d",
+          "label": "3d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "(1) Zwischen nicht parallelen Wänden läuft der Schall nicht auf demselben Weg zurück; feste Knoten und Bäuche bilden sich zwischen diesen Wänden kaum aus. Die Moden der übrigen Wandpaare bleiben aber bestehen.\n\n(2) In den Ecken liegen Druckbäuche aller Moden; dort entziehen Absorber besonders viel Energie und dämpfen die Moden. Für tiefe Töne müssen sie aber sehr dick sein (Größenordnung $\\frac{\\lambda}{4} \\approx 2{,}5\\,\\mathrm{m}$ bei $34\\,\\mathrm{Hz}$) – in der Praxis nur teilweise erreichbar. Beide Maßnahmen zusammen wirken am besten."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "eA: Akustische Levitation",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 24,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c14",
+        "c13",
+        "c12",
+        "c8",
+        "c7",
+        "c5",
+        "c2",
+        "g2",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR und Formeldokument zugelassen, 24 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Wellen beschreiben, Überlagerung und stehende Wellen) auf erhöhtem Niveau – am besten nach N15 bis N17.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_eA_Levitation.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\lambda = \\frac{343\\,\\mathrm{m/s}}{40\\,000\\,\\mathrm{Hz}} \\approx 8{,}6\\,\\mathrm{mm}$"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Benachbarte Druckknoten liegen $\\frac{\\lambda}{2} \\approx 4{,}3\\,\\mathrm{mm}$ auseinander."
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{d}{\\lambda/2} = \\frac{30{,}0\\,\\mathrm{mm}}{4{,}29\\,\\mathrm{mm}} \\approx 7{,}0$ – passt ($n = 7$).\n\nDruckknoten liegen bei $\\frac{\\lambda}{4}, \\frac{3\\lambda}{4}, …$ vom Reflektor, also bei etwa $2{,}1\\,\\mathrm{mm}$, $6{,}4\\,\\mathrm{mm}$, …, $27{,}9\\,\\mathrm{mm}$: **7 Schwebepositionen**."
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Am Reflektor ist die Auslenkung null – für die Auslenkung wirkt er wie ein festes Ende (Sinus im Ort, vgl. N16):\n\n$y(x,t) = 2\\hat{y} \\cdot \\sin(2\\pi\\frac{x}{\\lambda}) \\cdot \\cos(2\\pi\\frac{t}{T})$ mit $\\lambda \\approx 8{,}6\\,\\mathrm{mm}$, $T = 25\\,\\mathrm{\\mu s}$ (auch mit $\\sin(2\\pi\\frac{t}{T})$ richtig – das hängt nur vom Zeitnullpunkt ab)."
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Wie beim Interferometer: Von Maximum zu Maximum ändert sich $d$ um $\\frac{\\lambda}{2}$. Zwischen dem 1. und 10. Maximum liegen 9 Abstände: $9 \\cdot \\frac{\\lambda}{2} = 38{,}6\\,\\mathrm{mm}$ $\\Rightarrow \\lambda \\approx 8{,}58\\,\\mathrm{mm}$"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\lambda = \\frac{355\\,\\mathrm{m/s}}{40\\,000\\,\\mathrm{Hz}} \\approx 8{,}9\\,\\mathrm{mm}$"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{30{,}0\\,\\mathrm{mm}}{4{,}44\\,\\mathrm{mm}} \\approx 6{,}8$ – kein ganzzahliges Vielfaches von $\\frac{\\lambda}{2}$, die Resonanzbedingung ist nicht mehr erfüllt."
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nur in einer stehenden Welle gibt es ortsfeste Stellen, an denen der Druck konstant bleibt (Druckknoten). Rundherum schwankt der Druck stark; im Mittel drückt der Schall die Kügelchen zu den Druckknoten hin. Knapp unter einem Knoten hält diese Kraft der Gewichtskraft das Gleichgewicht."
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Ein Kügelchen, das so groß ist wie der Abstand von Knoten zu Bauch, reicht über Bereiche mit entgegengesetzt wirkenden Kräften – es gibt keine stabile Lage. Kleine Kügelchen erfahren am Knoten eine eindeutige Rückstellkraft.\n\nBei $400\\,\\mathrm{Hz}$ ist $\\lambda \\approx 86\\,\\mathrm{cm}$: riesiger Aufbau, sehr laut und gesundheitsschädlich, und weil sich der Druck über viel größere Strecken ändert, sind die Kräfte bei gleicher Lautstärke viel kleiner. Ultraschall ist unhörbar und erzeugt starke Kräfte auf engem Raum."
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ohne Resonanz ist die stehende Welle viel schwächer (keine Verstärkung durch phasenrichtige Überlagerung); schwere Kügelchen fallen wahrscheinlich herunter.\n\nAbhilfe: Reflektor auf $d = 7 \\cdot 4{,}44\\,\\mathrm{mm} \\approx 31{,}1\\,\\mathrm{mm}$ nachstellen oder die Frequenz anpassen: $f = \\frac{7 \\cdot c}{2d} = \\frac{7 \\cdot 355\\,\\mathrm{m/s}}{0{,}060\\,\\mathrm{m}} \\approx 41{,}4\\,\\mathrm{kHz}$."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Das Echolot auf dem Angelboot",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 28,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c11",
+        "c2",
+        "c5",
+        "g1",
+        "g3"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 28 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Wellen beschreiben, Überlagerung und stehende Wellen, Dopplereffekt, Huygens und Beugung) – am besten nach N9 bis N13.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Echolot.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\lambda = \\frac{1480\\,\\mathrm{m/s}}{200\\,000\\,\\mathrm{Hz}} = 7{,}4\\,\\mathrm{mm}$, $T = \\frac{1}{f} = 5{,}0\\,\\mathrm{\\mu s}$"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$h = \\frac{c \\cdot t}{2} = \\frac{1480\\,\\mathrm{m/s} \\cdot 0{,}032\\,\\mathrm{s}}{2} \\approx 23{,}7\\,\\mathrm{m}$"
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Echo vom Grund wird an der Wasseroberfläche (Grenze Wasser–Luft) zum großen Teil wieder nach unten reflektiert, am Grund erneut und kommt dann zum zweiten Mal beim Schwinger an: doppelter Weg, doppelte Laufzeit $2 \\cdot 32\\,\\mathrm{ms} = 64\\,\\mathrm{ms}$. Bei jeder Reflexion geht Energie verloren – daher schwächer."
+        },
+        {
+          "id": "V3-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Ein Echo aus $60\\,\\mathrm{m}$ braucht $t = \\frac{2 \\cdot 60\\,\\mathrm{m}}{1480\\,\\mathrm{m/s}} \\approx 81\\,\\mathrm{ms}$. Der nächste Puls darf erst danach starten: höchstens $\\frac{1}{0{,}081\\,\\mathrm{s}} \\approx 12$ Pulse pro Sekunde."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Bei $50\\,\\mathrm{kHz}$ ist $\\lambda = \\frac{1480\\,\\mathrm{m/s}}{50\\,000\\,\\mathrm{Hz}} \\approx 3{,}0\\,\\mathrm{cm}$. Verhältnis Durchmesser zu Wellenlänge: $\\frac{5{,}0\\,\\mathrm{cm}}{0{,}74\\,\\mathrm{cm}} \\approx 6{,}8$ bzw. $\\frac{5{,}0\\,\\mathrm{cm}}{3{,}0\\,\\mathrm{cm}} \\approx 1{,}7$.\n\nJeder Punkt der Schwingerfläche sendet Elementarwellen aus. Ist die Fläche viele Wellenlängen breit, verstärken sie sich nur geradeaus und löschen sich seitlich aus – schmaler Kegel. Ist sie nur etwa eine Wellenlänge breit, wirkt sie fast wie ein Punkt – die Welle breitet sich weit seitlich aus (starke Beugung)."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Teil der Front, der die Schicht zuerst erreicht, läuft darunter langsamer; seine Elementarwellen sind in gleicher Zeit kleiner. Die Front knickt ab: Die Welle wird zum Lot hin gebrochen (läuft steiler nach unten), die Wellenlänge wird etwas kleiner, die Frequenz bleibt."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bewegte Beobachter (Annäherung): $f' = 200\\,\\mathrm{kHz} \\cdot \\frac{1480 + 1{,}5}{1480} \\approx 200{,}2\\,\\mathrm{kHz}$"
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die relative Änderung ist $\\frac{v}{c}$: im Wasser $\\frac{1{,}5}{1480} \\approx 0{,}1\\,\\%$, in Luft $\\frac{1{,}5}{343} \\approx 0{,}44\\,\\%$. Weil der Schall im Wasser viel schneller ist, wirkt dieselbe Geschwindigkeit dort kaum."
+        },
+        {
+          "id": "V3-3c",
+          "label": "3c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Der Puls läuft senkrecht nach unten. Für den Dopplereffekt zählt nur der Anteil der Geschwindigkeit in Richtung der Schallausbreitung – bei waagerechter Fahrt ist er null. Das Grundecho bleibt praktisch bei $200\\,\\mathrm{kHz}$ (nur der schräge Rand des Kegels ist leicht verschoben).\n\nDie Bootsgeschwindigkeit lässt sich so nicht bestimmen. Dazu müsste man schräg nach vorn einschallen, damit eine Komponente in Strahlrichtung entsteht."
+        },
+        {
+          "id": "V3-3d",
+          "label": "3d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Suche: $50\\,\\mathrm{kHz}$ – breiter Kegel durch starke Beugung, erfasst unter dem Boot eine große Fläche; man weiß aber nicht genau, wo im Kegel der Fisch schwimmt.\n\nOrtung: $200\\,\\mathrm{kHz}$ – schmaler Kegel, das Echo stammt sicher aus einem kleinen Bereich direkt unter dem Boot; die kleinere Wellenlänge zeigt auch kleine Fische und feine Einzelheiten. Viele Geräte nutzen deshalb beide Frequenzen nacheinander."
+        }
+      ]
+    }
+  ]
+}

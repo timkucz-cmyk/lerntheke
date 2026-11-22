@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Häkchen über einer Welle">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M15.0 50.0 L16.6 48.0 L18.2 46.1 L19.9 44.5 L21.5 43.2 L23.1 42.3 L24.8 42.0 L26.4 42.2 L28.0 42.9 L29.6 44.0 L31.2 45.6 L32.9 47.4 L34.5 49.4 L36.1 51.4 L37.8 53.3 L39.4 55.1 L41.0 56.5 L42.6 57.4 L44.2 57.9 L45.9 57.9 L47.5 57.4 L49.1 56.4 L50.8 55.0 L52.4 53.2 L54.0 51.3 L55.6 49.2 L57.2 47.2 L58.9 45.4 L60.5 43.9 L62.1 42.8 L63.8 42.2 L65.4 42.0 L67.0 42.4 L68.6 43.3 L70.2 44.6 L71.9 46.2 L73.5 48.1 L75.1 50.2 L76.8 52.2 L78.4 54.0 L80.0 55.7 L81.6 56.9 L83.2 57.7 L84.9 58.0 L86.5 57.8 L88.1 57.1 L89.8 55.9 L91.4 54.3 L93.0 52.5 L94.6 50.5 L96.2 48.4 L97.9 46.5 L99.5 44.8 L101.1 43.4 L102.8 42.5 L104.4 42.0 L106.0 42.1 L107.6 42.7 L109.2 43.7 L110.9 45.2 L112.5 46.9 L114.1 48.9 L115.8 50.9 L117.4 52.9 L119.0 54.7 L120.6 56.2 L122.2 57.3 L123.9 57.9 L125.5 58.0 L127.1 57.6 L128.8 56.7 L130.4 55.3 L132.0 53.6 L133.6 51.7 L135.2 49.7 L136.9 47.7 L138.5 45.8 L140.1 44.2 L141.8 43.0 L143.4 42.3 L145.0 42.0"/>
+  <path class="akzent" d="M60 25 L75 38 L105 10"/>
+</svg>
