@@ -1,0 +1,1397 @@
+{
+  "version": 1,
+  "titel": "Radioaktivität – Lerntheke vor dem Test",
+  "fach": "physik",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du bei Ladungen, dem Periodensystem, Kräften, großen Zahlen, Anteilen oder Mittelwerten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2, V2 nach N3 bis N5, V3 nach N6 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Lege Taschenrechner und Periodensystem bereit; dein Regelheft darfst du benutzen.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Positive und negative Ladungen unterscheiden und angeben, wann sich Ladungen anziehen oder abstoßen"
+    },
+    {
+      "id": "g2",
+      "text": "Stoffe im Teilchenmodell beschreiben und im Periodensystem Symbol, Ordnungszahl und Atommasse eines Elements ablesen"
+    },
+    {
+      "id": "g3",
+      "text": "Kräfte als Pfeile darstellen, ein Kräftegleichgewicht erkennen und beschreiben, dass bei gleicher Kraft ein Körper mit größerer Masse weniger stark beschleunigt wird"
+    },
+    {
+      "id": "g4",
+      "text": "Zeiteinheiten (s, min, h, d, a) umrechnen, große Zahlen in Worten (Million, Milliarde, Billion) lesen und Größen vergleichen"
+    },
+    {
+      "id": "g5",
+      "text": "Anteile als Bruch und in Prozent angeben und eine Größe mehrfach halbieren"
+    },
+    {
+      "id": "g6",
+      "text": "Messwerte in Tabellen und Diagrammen darstellen, ablesen und Mittelwerte bilden"
+    },
+    {
+      "id": "c1",
+      "text": "Das Atommodell nach Rutherford und Bohr erläutern und Protonen, Neutronen und Elektronen Ladung, Ort und Masse zuordnen"
+    },
+    {
+      "id": "c2",
+      "text": "Die Nuklidschreibweise lesen und nutzen, Protonen-, Neutronen- und Elektronenzahl bestimmen und Isotope erkennen"
+    },
+    {
+      "id": "c3",
+      "text": "Die Ursache der Radioaktivität mit Kernkraft und Coulombkraft beschreiben und begründen, warum große Kerne mehr Neutronen brauchen"
+    },
+    {
+      "id": "c4",
+      "text": "Die Strahlungsarten α, β⁻, β⁺, γ und Neutronenstrahlung unterscheiden und erläutern, wie sich ein instabiler Kern durch Strahlung stabilisiert"
+    },
+    {
+      "id": "c5",
+      "text": "Zerfallsgleichungen mit dem Periodensystem aufstellen"
+    },
+    {
+      "id": "c6",
+      "text": "Die Abschirmung von α-, β- und γ-Strahlung beschreiben und die Ablenkung im Magnetfeld mit der Ladung begründen"
+    },
+    {
+      "id": "c7",
+      "text": "Aufbau und Messprinzip des Geiger-Müller-Zählrohrs erläutern"
+    },
+    {
+      "id": "c8",
+      "text": "Strahlung mit dem Zählrohr nachweisen: Impulsrate, Nullrate und bereinigte Impulsrate bestimmen und Impulsrate und Aktivität unterscheiden"
+    },
+    {
+      "id": "c9",
+      "text": "Die Nuklidkarte lesen und Zerfallsreihen mit ihr aufstellen"
+    },
+    {
+      "id": "c10",
+      "text": "Die Halbwertszeit erklären und bestimmen, welcher Anteil nach mehreren Halbwertszeiten noch vorhanden ist"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 7 bis 9 und Chemie",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Der Atomkern",
+      "untertitel": "Atommodell, Isotope, Kernkraft",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Strahlung und ihr Nachweis",
+      "untertitel": "Strahlungsarten, Abschirmung, Zerfallsgleichungen, Zählrohr",
+      "farbe": "orange",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Nuklidkarte und Halbwertszeit",
+      "untertitel": "Zerfallsreihen, Halbwertszeit",
+      "farbe": "gruen",
+      "checkliste": [
+        "c9",
+        "c10"
+      ]
+    }
+  ],
+  "abschluss": "Test",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner, Periodensystem, Regelheft",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Taschenrechner, Periodensystem und Regelheft, 25 Minuten. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "(1) abstoßen, (2) anziehen, (3) abstoßen. Gleichnamige Ladungen stoßen sich ab, ungleichnamige ziehen sich an."
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Vorher gleich viele positive und negative Ladungen. Elektronen sind negativ geladen; fehlen welche, überwiegt die positive Ladung: Der Körper ist positiv geladen.\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Symbol S, Ordnungszahl 16, Atommasse etwa $32\\,\\mathrm{u}$ (genau $32{,}06\\,\\mathrm{u}$)."
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- Eis (fest): Teilchen dicht und regelmäßig angeordnet, schwingen nur am Platz.\n- Wasser (flüssig): Teilchen dicht, aber gegeneinander verschiebbar.\n- Wasserdampf (gasförmig): Teilchen weit voneinander entfernt, bewegen sich frei und schnell.\n\nÜben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Kräfte heben sich in ihrer Wirkung auf: Der Wagen bleibt in Ruhe. Fachbegriff: Kräftegleichgewicht."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Tischtennisball. Bei gleicher Kraft wird ein Körper mit größerer Masse weniger stark beschleunigt; die Kugelstoßkugel hat eine viel größere Masse.\n\nÜben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "4,6 Milliarden Jahre (eine Milliarde = 1000 Millionen)."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$3 \\cdot 24\\,\\mathrm{h} = 72\\,\\mathrm{h}$\n\n$72 \\cdot 60 \\cdot 60\\,\\mathrm{s} = 259\\,200\\,\\mathrm{s}$\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{8} = 12{,}5\\,\\%$"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$800\\,\\mathrm{g} \\to 400\\,\\mathrm{g} \\to 200\\,\\mathrm{g} \\to 100\\,\\mathrm{g}$\n\nÜben: **G2** Aufgabe 5."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{72 + 75 + 70 + 74 + 74}{5} = \\frac{365}{5} = 73$ Schläge pro Minute"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Einzelne Messwerte schwanken zufällig. Der Mittelwert vieler Messungen liegt näher am wahren Wert; einzelne Ausreißer fallen weniger ins Gewicht.\n\nÜben: **G2** Aufgabe 6."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Ladung, Teilchen und Zahlen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner, Periodensystem, Regelheft",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Taschenrechner, Periodensystem und Regelheft, 15 Minuten. Aufgabe k übt Block k aus G1.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen_Ladung_Zahlen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Pullover ist positiv geladen: Beim Reiben sind Elektronen vom Pullover auf die Folie übergegangen. Dem Pullover fehlen nun Elektronen."
+        },
+        {
+          "id": "G2-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Teilchen bewegen sich bei Erwärmung schneller. Einzelne schnelle Teilchen lösen sich von der Oberfläche und fliegen als Wasserdampf davon, bis keine mehr übrig sind (Verdunsten).\n\nSauerstoff: Ordnungszahl 8."
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beide Kräfte sind gleich groß und entgegengesetzt gerichtet (Kräftegleichgewicht). Deshalb ändert sich die Geschwindigkeit nicht."
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die leere Schubkarre: Sie hat die kleinere Masse und wird bei gleicher Kraft stärker beschleunigt."
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$24 \\cdot 60 = 1440$ Minuten.\n\n2 500 000 000 000 = 2,5 Billionen (eine Billion = 1000 Milliarden)."
+        },
+        {
+          "id": "G2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{16} = 6{,}25\\,\\%$"
+        },
+        {
+          "id": "G2-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{0{,}21 + 0{,}19 + 0{,}24 + 0{,}20 + 0{,}21}{5}\\,\\mathrm{s} = \\frac{1{,}05}{5}\\,\\mathrm{s} = 0{,}21\\,\\mathrm{s}$"
+        },
+        {
+          "id": "G2-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nein. Der Wert ist ein Ausreißer mit bekannter Ursache (Ablenkung) und gehört nicht zur eigentlichen Messung. Er würde den Mittelwert stark verfälschen (auf etwa $0{,}25\\,\\mathrm{s}$)."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Wo stehe ich?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c8",
+        "c9",
+        "c10"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Beide haben 6 Protonen (unten steht die Ordnungszahl 6), also gleiche Kernladung und gleich viele Elektronen. Sie unterscheiden sich in der Massenzahl: 6 bzw. 8 Neutronen. Es sind Isotope.\n\n*A oder D gewählt?* Dann wäre es ein anderes Element. *B gewählt?* Ein neutrales Atom hat so viele Elektronen wie Protonen. → **N2**"
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Beim α-Zerfall verliert der Kern 2 Protonen und 2 Neutronen: Z und N sinken je um 2, also zwei Felder nach links und zwei nach unten.\n\n*B gewählt?* Die Massenzahl sinkt um 4, auf der Karte zählen aber N und Z einzeln. *C gewählt?* Richtung vertauscht. *D gewählt?* Das ist der β⁻-Zerfall. → **N6**"
+        },
+        {
+          "id": "N1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Zwischen allen Nukleonen wirkt die anziehende Kernkraft. Auf kurze Entfernung ist sie stärker als die abstoßende Coulombkraft zwischen den Protonen.\n\n*A gewählt?* Die Elektronen sind viel zu weit weg. *B gewählt?* Die Gravitation ist viel zu schwach. *C gewählt?* Neutronen sind ungeladen. → **N2**"
+        },
+        {
+          "id": "N1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Beim β⁻-Zerfall wandelt sich im Kern ein Neutron in ein Proton um. Dabei entsteht das Elektron und verlässt den Kern sofort.\n\n*A oder D gewählt?* Die Strahlung kommt aus dem Kern, nicht aus der Hülle. *C gewählt?* Das ist der β⁺-Zerfall. → **N3**"
+        },
+        {
+          "id": "N1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Das α-Teilchen ${}^{4}_{2}\\alpha$ nimmt die Massenzahl 4 und die Ordnungszahl 2 mit: $210 - 4 = 206$, $84 - 2 = 82$ (Blei).\n\n*B gewählt?* Massenzahl nur um 2 verringert. *C gewählt?* Ordnungszahl um 4 verringert. *D gewählt?* Massenzahl nicht verändert. → **N4**"
+        },
+        {
+          "id": "N1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – α wird schon von Papier gestoppt, β von wenigen Millimetern Aluminium. Nur γ-Strahlung durchdringt die Platte (etwas abgeschwächt).\n\n*A gewählt?* α hat die kleinste Reichweite. *B oder C gewählt?* β wird vom Aluminium gestoppt. → **N3**"
+        },
+        {
+          "id": "N1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Auch ohne Präparat gibt es Strahlung aus der Umgebung und aus dem Weltall: die Nullrate (Nulleffekt). Sie wird bei Messungen abgezogen.\n\n*A gewählt?* Die Nullrate ist normal. *C gewählt?* Ohne Strahlung entsteht kein Impuls. *D gewählt?* Licht dringt nicht durch das Fenster und löst keine Impulse aus. → **N5**"
+        },
+        {
+          "id": "N1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – 20 Tage sind zwei Halbwertszeiten: $\\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4} = 25\\,\\%$.\n\n*A gewählt?* In jeder Halbwertszeit zerfällt nur die Hälfte der noch vorhandenen Kerne. *B gewählt?* Das gilt nach einer Halbwertszeit. *D gewählt?* Das wären drei Halbwertszeiten. → **N7**"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Der Atomkern: Bausteine, Isotope, Kernkraft",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner, Periodensystem, Regelheft",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner, Periodensystem und Regelheft, 25 Minuten. Proton und Neutron haben je etwa die Masse 1 u, ein Elektron etwa 0,0005 u.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Atomkern.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- A: Neutron, ungeladen\n- B: Proton, positiv geladen\n- C: Elektron, negativ geladen\n- D: Atomkern (Protonen und Neutronen, zusammen Nukleonen)\n- E: Atomhülle mit den Elektronen\n\nBeryllium hat 4 Protonen, 5 Neutronen und 4 Elektronen; das Atom ist nach außen neutral."
+        },
+        {
+          "id": "N2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Protonenzahl = Ordnungszahl, Elektronenzahl = Protonenzahl (neutrales Atom), Neutronenzahl $N = A - Z$.\n\n| Atom | Protonen | Neutronen | Elektronen |\n|---|---|---|---|\n| Natrium-23 | 11 | 12 | 11 |\n| Chlor-35 | 17 | 18 | 17 |\n| Eisen-56 | 26 | 30 | 26 |"
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$2 \\cdot 1\\,\\mathrm{u} + 16\\,\\mathrm{u} = 18\\,\\mathrm{u}$ (die Elektronen fallen kaum ins Gewicht)."
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Protonen und Neutronen haben je etwa $1\\,\\mathrm{u}$, ein Elektron nur etwa $0{,}0005\\,\\mathrm{u}$, also rund 2000-mal weniger. Protonen und Neutronen sitzen im Kern."
+        },
+        {
+          "id": "N2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Neon hat die Ordnungszahl 10: ${}^{22}_{10}\\mathrm{Ne}$.\n\nIsotope: ${}^{20}_{10}\\mathrm{Ne}$, ${}^{21}_{10}\\mathrm{Ne}$ und ${}^{22}_{10}\\mathrm{Ne}$. Sie haben dieselbe Protonenzahl 10 (dasselbe Element), aber 10, 11 bzw. 12 Neutronen. ${}^{22}_{11}\\mathrm{Na}$ hat dieselbe Massenzahl wie Neon-22, aber 11 Protonen – es ist ein anderes Element."
+        },
+        {
+          "id": "N2-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Coulombkraft: Gleichnamige Ladungen stoßen sich ab – Pfeil vom linken Proton weg. Kernkraft: wirkt anziehend zwischen allen Nukleonen – Pfeil zum linken Proton hin, länger.\n\nAuf sehr kurze Entfernung ist die Kernkraft viel stärker als die Coulombkraft. Außerdem ziehen auch die Neutronen über die Kernkraft an, ohne abzustoßen. Deshalb hält der Kern zusammen.",
+          "loesung_bild": "img/N2-5.png"
+        },
+        {
+          "id": "N2-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Kernkraft hat eine sehr kurze Reichweite: Ein Nukleon wird nur von seinen direkten Nachbarn angezogen. Die Coulombkraft reicht weiter: Jedes Proton wird von allen anderen Protonen im Kern abgestoßen.\n\nMit 30 Protonen ist die Abstoßung so groß, dass gleich viele Neutronen nicht genügen. Zusätzliche Neutronen liefern mehr Anziehung (Kernkraft), aber keine Abstoßung. Deshalb ist erst Zink mit Neutronenüberschuss (z. B. 34 Neutronen) stabil, Zink-60 ist radioaktiv. Je größer der Kern, desto größer muss der Neutronenüberschuss sein."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Strahlungsarten und Abschirmung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner, Periodensystem, Regelheft",
+      "checkliste": [
+        "c4",
+        "c6",
+        "c3",
+        "g1",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner, Periodensystem und Regelheft, 25 Minuten.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Strahlungsarten_Abschirmung.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "- α: Heliumkern (2 p, 2 n), positiv; der Kern verliert 2 Protonen und 2 Neutronen; gestoppt von Papier bzw. wenigen cm Luft.\n- β⁻: Elektron, negativ; ein Neutron wird zum Proton; gestoppt von wenigen mm Aluminium.\n- β⁺: Positron, positiv; ein Proton wird zum Neutron; gestoppt von wenigen mm Aluminium.\n- γ: Photon (Energieportion), ungeladen; nur Energie wird abgegeben; dickes Blei schwächt stark ab.\n- Neutronen: Neutron, ungeladen; ein Neutron weniger; dicke Schichten Wasser oder Beton."
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- zu viele Neutronen: β⁻-Zerfall, ein Neutron wird zum Proton.\n- zu viele Protonen: β⁺-Zerfall, ein Proton wird zum Neutron.\n- zu großer (schwerer) Kern: α-Zerfall, der Kern gibt einen Heliumkern ab und wird kleiner.\n- angeregter Kern (meist nach einem α- oder β-Zerfall): γ-Strahlung, der Kern gibt überschüssige Energie ab."
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "β⁻-Strahlung: Kohlenstoff-14 hat für 6 Protonen zu viele Neutronen. Wandelt sich ein Neutron in ein Proton um, entsteht Stickstoff-14 mit 7 Protonen und 7 Neutronen (stabil)."
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- Papier: 478 statt 480 – der Unterschied liegt im Rahmen der Schwankung. α-Strahlung ist nicht nachweisbar.\n- Aluminium: Die Impulsrate sinkt stark auf 62, bereinigt $62 - 20 = 42$ Impulse pro Minute. Das meiste war β-Strahlung.\n- Blei: 21 ist praktisch die Nullrate. Was durch das Aluminium kam, wird vom Blei stark abgeschwächt: γ-Strahlung.\n\nErgebnis: Das Präparat sendet β- und γ-Strahlung aus, α-Strahlung nicht nachweisbar."
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Magnetfeld lenkt nur geladene Teilchen ab. α-Teilchen sind positiv, Elektronen negativ geladen: Sie werden in entgegengesetzte Richtungen abgelenkt. γ-Strahlung ist ungeladen und geht geradeaus. Das α-Teilchen hat eine viel größere Masse und lässt sich deshalb schwerer aus seiner Bahn drängen."
+        },
+        {
+          "id": "N3-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Nur wenige Zentimeter. α-Teilchen ionisieren sehr viele Luftteilchen auf ihrem Weg und geben dabei ihre Energie schnell ab."
+        },
+        {
+          "id": "N3-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Teilweise richtig: Die Zahl der Protonen und Neutronen bleibt gleich, es entsteht kein anderes Element, Massen- und Ordnungszahl bleiben (Kennzeichen * fällt weg).\n\nTrotzdem verändert sich der Kern: Er war angeregt und gibt seine überschüssige Energie als γ-Strahlung ab. Danach ist er im energieärmeren Grundzustand. Die Aussage ist deshalb falsch."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Zerfallsgleichungen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Periodensystem, Regelheft",
+      "checkliste": [
+        "c5",
+        "c4",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner, Periodensystem und Regelheft, 20 Minuten. Neutrino und Antineutrino dürfen in deiner Gleichung fehlen.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Zerfallsgleichungen.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- Die Summe der Massenzahlen (oben) ist links und rechts gleich.\n- Die Summe der Ordnungszahlen (unten) ist links und rechts gleich.\n\nSchreibweise: ${}^{4}_{2}\\alpha$, ${}^{0}_{-1}e^{-}$, ${}^{0}_{+1}e^{+}$, ${}^{1}_{0}n$, $\\gamma$; ein angeregter Kern bekommt ein Sternchen, z. B. ${}^{60}_{28}\\mathrm{Ni}^{*}$."
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "${}^{238}_{94}\\mathrm{Pu} \\to \\, {}^{234}_{92}\\mathrm{U} + \\, {}^{4}_{2}\\alpha$\n\nMassenzahl 4 weniger, Ordnungszahl 2 weniger: Uran."
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "${}^{32}_{15}\\mathrm{P} \\to \\, {}^{32}_{16}\\mathrm{S} + \\, {}^{0}_{-1}e^{-} + \\bar{\\nu}_e$\n\nOrdnungszahl 1 mehr (Neutron → Proton): Schwefel."
+        },
+        {
+          "id": "N4-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "${}^{13}_{7}\\mathrm{N} \\to \\, {}^{13}_{6}\\mathrm{C} + \\, {}^{0}_{+1}e^{+} + \\nu_e$\n\nOrdnungszahl 1 weniger (Proton → Neutron): Kohlenstoff."
+        },
+        {
+          "id": "N4-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "${}^{60}_{28}\\mathrm{Ni}^{*} \\to \\, {}^{60}_{28}\\mathrm{Ni} + \\gamma$\n\nMassen- und Ordnungszahl bleiben gleich, der Kern gibt nur Energie ab."
+        },
+        {
+          "id": "N4-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Massenzahl: $14 = A + 0$, also $A = 14$. Ordnungszahl: $7 = Z - 1$, also $Z = 6$ (Kohlenstoff).\n\n${}^{14}_{6}\\mathrm{C} \\to \\, {}^{14}_{7}\\mathrm{N} + \\, {}^{0}_{-1}e^{-} + \\bar{\\nu}_e$"
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zu Polonium: Massenzahl gleich, Ordnungszahl 1 mehr: β⁻-Zerfall.\n\n${}^{212}_{83}\\mathrm{Bi} \\to \\, {}^{212}_{84}\\mathrm{Po} + \\, {}^{0}_{-1}e^{-} + \\bar{\\nu}_e$\n\nZu Thallium: Massenzahl 4 weniger, Ordnungszahl 2 weniger: α-Zerfall.\n\n${}^{212}_{83}\\mathrm{Bi} \\to \\, {}^{208}_{81}\\mathrm{Tl} + \\, {}^{4}_{2}\\alpha$"
+        },
+        {
+          "id": "N4-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Das Element bestimmt allein die Protonenzahl. Bei α-, β⁻- und β⁺-Zerfall ändert sie sich, es entsteht ein neues Element. Bei Neutronen- und γ-Strahlung bleibt die Protonenzahl gleich: Es entsteht nur ein anderes Isotop bzw. derselbe Kern mit weniger Energie."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Strahlung messen mit dem Zählrohr",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Periodensystem, Regelheft",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c4",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner, Periodensystem und Regelheft, 20 Minuten.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Zaehlrohr.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- A: dünnes Fenster (lässt Strahlung hinein)\n- B: Metallrohr, Kathode (−)\n- C: Draht in der Mitte, Anode (+)\n- D: Edelgas unter geringem Druck\n- E: Spannungsquelle (Hochspannung, einige hundert Volt)\n- F: Zähler (mit Verstärker)"
+        },
+        {
+          "id": "N5-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "1. Das Teilchen gelangt durch das Fenster ins Gas und ionisiert Gasatome: Es schlägt Elektronen heraus.\n2. Die Hochspannung beschleunigt die Elektronen zum Draht. Unterwegs ionisieren sie weitere Atome – eine Lawine entsteht.\n3. Kurz fließt ein Strom: ein Stromstoß. Er wird verstärkt und vom Zähler als ein Impuls gezählt (oft auch als Knacken hörbar)."
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "ohne Präparat: $\\frac{18 + 22 + 19 + 25 + 16}{5} = \\frac{100}{5} = 20$ Impulse pro Minute (Nullrate)\n\nmit Präparat: $\\frac{312 + 296 + 305 + 318 + 289}{5} = \\frac{1520}{5} = 304$ Impulse pro Minute"
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$304 - 20 = 284$ Impulse pro Minute. Die Nullrate stammt aus der Umgebung (Gestein, Baustoffe, Luft) und aus dem Weltall; sie wird abgezogen."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Radioaktiver Zerfall ist zufällig: Man kann nicht vorhersagen, wann ein Kern zerfällt. Deshalb zerfallen in jeder Minute etwas unterschiedlich viele Kerne. Mehrere Messungen und der Mittelwert gleichen das aus."
+        },
+        {
+          "id": "N5-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$284 : 60 \\approx 4{,}7$ Impulse pro Sekunde"
+        },
+        {
+          "id": "N5-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aktivität zählt alle Zerfälle im Präparat. Die Strahlung geht aber in alle Richtungen; nur ein kleiner Teil fliegt überhaupt in Richtung Fenster.\n\nAußerdem wird ein Teil auf dem Weg (Luft, Fenster) gestoppt, und nicht jedes Teilchen im Rohr löst einen Impuls aus. Deshalb misst das Zählrohr hier nur etwa 5 von 200 Zerfällen pro Sekunde."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Nuklidkarte und Zerfallsreihen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Periodensystem, Regelheft",
+      "checkliste": [
+        "c9",
+        "c5",
+        "c4",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner, Periodensystem und Regelheft, 20 Minuten. Die Karte ist ein vereinfachter Ausschnitt: Nicht alle Nuklide sind eingetragen.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Nuklidkarte.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "In einer Zeile stehen die Isotope eines Elements (gleiche Ordnungszahl). Ein Feld nach rechts: ein Neutron mehr, Massenzahl 1 mehr. Ein Feld nach oben: ein Proton mehr, Ordnungszahl 1 mehr (nächstes Element), Massenzahl ebenfalls 1 mehr."
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "β⁻-Strahler, Halbwertszeit $10{,}6\\,\\mathrm{h}$."
+        },
+        {
+          "id": "N6-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- α: Z und N je 2 weniger – zwei Felder nach links, zwei nach unten.\n- β⁻: ein Neutron wird zum Proton – ein Feld nach links, eins nach oben.\n- β⁺: ein Proton wird zum Neutron – ein Feld nach rechts, eins nach unten.",
+          "loesung_bild": "img/N6-2.png"
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Rn-220 (α) → Po-216 (α) → Pb-212 (β⁻) → Bi-212\n\nWeg 1: Bi-212 (β⁻) → Po-212 (α) → Pb-208 (stabil)\n\nWeg 2: Bi-212 (α) → Tl-208 (β⁻) → Pb-208 (stabil)\n\nKontrolle: α bedeutet Massenzahl 4 weniger und Ordnungszahl 2 weniger, β⁻ Massenzahl gleich und Ordnungszahl 1 mehr."
+        },
+        {
+          "id": "N6-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Nur der α-Zerfall ändert die Massenzahl, und zwar immer um 4. Bei β-Zerfällen bleibt sie gleich. Der Rest beim Teilen durch 4 bleibt also in einer Reihe immer gleich: 220, 216, 212, 208 lassen den Rest 0.\n\nKerne mit dem Rest 1, 2 oder 3 können nie in diese Reihe gelangen. Deshalb gibt es vier getrennte Reihen: Thorium-Reihe (Rest 0), Neptunium-Reihe (Rest 1), Uran-Radium-Reihe (Rest 2) und Uran-Actinium-Reihe (Rest 3). Die Neptunium-Reihe ist in der Natur fast vollständig zerfallen; die anderen drei kommen natürlich vor."
+        },
+        {
+          "id": "N6-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Polonium-212 mit $0{,}3$ Mikrosekunden."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Halbwertszeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Periodensystem, Regelheft",
+      "checkliste": [
+        "c10",
+        "g5",
+        "g6",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner, Periodensystem und Regelheft, 20 Minuten. Zeichne das Diagramm direkt in die Vorlage im Arbeitsblatt.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Halbwertszeit.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Halbwertszeit ist die Zeit, nach der die Hälfte der vorhandenen Kerne zerfallen ist. Nach einer weiteren Halbwertszeit ist von der Hälfte wieder die Hälfte zerfallen, und so weiter."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Nein. Der Zerfall eines einzelnen Kerns ist zufällig. Nur für sehr viele Kerne kann man sagen, dass nach einer Halbwertszeit etwa die Hälfte zerfallen ist."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Punkte liegen auf einer Kurve, die immer flacher wird und nicht auf null fällt (siehe Lösungsgrafik). Kleine Abweichungen der Punkte von der Kurve sind zufällige Schwankungen.",
+          "loesung_bild": "img/N7-2a.png"
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Hälfte von 640 ist 320. Die Kurve erreicht 320 nach etwa $70\\,\\mathrm{s}$; nach etwa $140\\,\\mathrm{s}$ ist ein Viertel (160) erreicht. Halbwertszeit etwa $70\\,\\mathrm{s}$ (Werte zwischen 65 s und 75 s sind richtig)."
+        },
+        {
+          "id": "N7-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$45\\,\\mathrm{h} = 3 \\cdot 15\\,\\mathrm{h}$, also drei Halbwertszeiten:\n\n2,4 Billionen → 1,2 Billionen → 0,6 Billionen → 0,3 Billionen = 300 Milliarden Kerne."
+        },
+        {
+          "id": "N7-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{1}{16} = \\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2}$: vier Halbwertszeiten, also $4 \\cdot 15\\,\\mathrm{h} = 60\\,\\mathrm{h}$."
+        },
+        {
+          "id": "N7-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Hälfte von 120 ist 60. Nach Wurf 3 sind noch 70, nach Wurf 4 noch 57 übrig: Die „Halbwertszeit“ beträgt knapp 4 Würfe. Von 60 auf 30 dauert es wieder knapp 4 Würfe."
+        },
+        {
+          "id": "N7-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Gut: Jeder Würfel „zerfällt“ zufällig mit derselben Wahrscheinlichkeit; man weiß nicht, welcher als Nächster dran ist. Deshalb halbiert sich die Anzahl immer in etwa gleich vielen Würfen.\n\nUnterschiede: Es gibt nur wenige Würfel statt riesig vieler Kerne, deshalb schwanken die Werte stark. Die Zeit läuft in Würfen statt gleichmäßig, und ein Würfel sendet beim „Zerfall“ keine Strahlung aus."
+        },
+        {
+          "id": "N7-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Der erste Teil stimmt: Nach 10 Halbwertszeiten ist noch $\\frac{1}{2^{10}} = \\frac{1}{1024}$ übrig, etwas weniger als ein Tausendstel.\n\nDer Schluss ist falsch: Ein Tausendstel von 1 Billion sind 1 Milliarde. Es sind also noch fast 1 Milliarde Kerne vorhanden, die weiter zerfallen. Das Präparat strahlt schwächer, aber es strahlt."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Simulation: Kerne bauen und zerfallen lassen",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "iPad, Periodensystem",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c4",
+        "c3",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Partnerarbeit mit der PhET-Simulation „Baue einen Atomkern“ (https://phet.colorado.edu/de/simulations/build-a-nucleus), 20 Minuten. Aufgabe 1 bis 4 auf dem Bildschirm „Zerfall“, Aufgabe 5 auf dem Bildschirm „Nuklidkarte“. Notiere deine Vermutung in Aufgabe 4, bevor du ausprobierst.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Simulation_Atomkern.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Helium-4, ${}^{4}_{2}\\mathrm{He}$, stabil."
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Helium-6 ist instabil, Halbwertszeit unter einer Sekunde (etwa 0,8 s), möglicher Zerfall: β⁻-Zerfall."
+        },
+        {
+          "id": "N8-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Kohlenstoff-12 und Kohlenstoff-13: stabil. Kohlenstoff-14: instabil, β⁻-Zerfall, Halbwertszeit sehr lang (etwa 5700 Jahre)."
+        },
+        {
+          "id": "N8-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Simulation bestätigt: Kohlenstoff-14 hat zu viele Neutronen und zerfällt durch β⁻-Strahlung zu Stickstoff-14."
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Kohlenstoff-10 ist instabil; angeboten wird der β⁺-Zerfall. Der Kern hat für seine Größe zu viele Protonen: Ein Proton wandelt sich in ein Neutron um, ein Positron wird ausgesandt. Es entsteht Bor-10 (5 Protonen, 5 Neutronen)."
+        },
+        {
+          "id": "N8-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Kohlenstoff-14: etwa 5700 Jahre, Kohlenstoff-15: nur wenige Sekunden, Kohlenstoff-16: unter einer Sekunde.\n\nJe weiter ein Kern von den stabilen Kernen entfernt ist, desto instabiler ist er und desto kürzer ist meist seine Halbwertszeit."
+        },
+        {
+          "id": "N8-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bor-12 ist ein β⁻-Strahler. Ein Neutron wird zum Proton: N sinkt von 7 auf 6, Z steigt von 5 auf 6. Der Tochterkern liegt ein Feld nach links und eins nach oben: Kohlenstoff-12 (stabil).\n\n${}^{12}_{5}\\mathrm{B} \\to \\, {}^{12}_{6}\\mathrm{C} + \\, {}^{0}_{-1}e^{-} + \\bar{\\nu}_e$"
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Tandem: Kerne und Strahlung erklären",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "Periodensystem",
+      "checkliste": [
+        "c10",
+        "c9",
+        "c8",
+        "c6",
+        "c5",
+        "c4",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets. Wer die Nummer hat, erklärt laut; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. Das Periodensystem liegt bereit.",
+      "bild": "img/st_N9.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N9-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Gib für ${}^{40}_{20}\\mathrm{Ca}$ die Zahl der Protonen, Neutronen und Elektronen an.",
+          "tipp": "Unten steht die Ordnungszahl, oben die Massenzahl.",
+          "loesung": "20 Protonen, $40 - 20 = 20$ Neutronen, 20 Elektronen (neutrales Atom)."
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Sind ${}^{63}_{29}\\mathrm{Cu}$ und ${}^{65}_{29}\\mathrm{Cu}$ Isotope? Begründe.",
+          "tipp": "Vergleiche die Protonenzahlen.",
+          "loesung": "Ja: Beide haben 29 Protonen (Kupfer), aber 34 bzw. 36 Neutronen."
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Präparat: Papier ändert die Impulsrate kaum, 5 mm Aluminium senken sie fast auf die Nullrate. Welche Strahlung sendet es aus?",
+          "tipp": "Was wird von Papier gestoppt, was von Aluminium?",
+          "loesung": "β-Strahlung: Kein α (Papier ändert nichts), kaum γ (hinter dem Aluminium nur noch Nullrate)."
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "${}^{232}_{90}\\mathrm{Th}$ sendet α-Strahlung aus. Gib die Zerfallsgleichung an.",
+          "tipp": "Massenzahl −4, Ordnungszahl −2; Ordnungszahl 88 ist Radium.",
+          "loesung": "${}^{232}_{90}\\mathrm{Th} \\to \\, {}^{228}_{88}\\mathrm{Ra} + \\, {}^{4}_{2}\\alpha$"
+        },
+        {
+          "id": "N9-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "${}^{42}_{19}\\mathrm{K}$ sendet β⁻-Strahlung aus. Welcher Kern entsteht?",
+          "tipp": "Ein Neutron wird zum Proton.",
+          "loesung": "${}^{42}_{20}\\mathrm{Ca}$ (Calcium): Massenzahl gleich, Ordnungszahl 1 mehr."
+        },
+        {
+          "id": "N9-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Mit Präparat zählt das Zählrohr 156 Impulse pro Minute, ohne Präparat 24. Gib die bereinigte Impulsrate an.",
+          "tipp": "Die Nullrate wird abgezogen.",
+          "loesung": "$156 - 24 = 132$ Impulse pro Minute."
+        },
+        {
+          "id": "N9-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Stoff hat eine Halbwertszeit von 5 Tagen. Wie viel ist von 80 mg nach 15 Tagen noch nicht zerfallen?",
+          "tipp": "Wie viele Halbwertszeiten sind 15 Tage?",
+          "loesung": "Drei Halbwertszeiten: $80\\,\\mathrm{mg} \\to 40\\,\\mathrm{mg} \\to 20\\,\\mathrm{mg} \\to 10\\,\\mathrm{mg}$."
+        },
+        {
+          "id": "N9-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Blei-214 zerfällt durch β⁻-Strahlung. In welche Richtung geht der Pfeil auf der Nuklidkarte (N nach rechts, Z nach oben), und welcher Kern entsteht?",
+          "tipp": "Ein Neutron wird zum Proton.",
+          "loesung": "Ein Feld nach links (N − 1) und eins nach oben (Z + 1): Bismut-214."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Periodensystem, Regelheft",
+      "checkliste": [
+        "c10",
+        "c2",
+        "c4",
+        "c5",
+        "c8"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner, Periodensystem und Regelheft, 20 Minuten. Jede Lösung enthält genau einen Fehler. Benenne ihn und stelle ihn richtig.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Massenzahl 24 zählt Protonen und Neutronen zusammen. Die Ordnungszahl muss abgezogen, nicht addiert werden.\n\nRichtig: $N = 24 - 12 = 12$ Neutronen."
+        },
+        {
+          "id": "N10-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Massenzahlen stimmen nicht: links 216, rechts $214 + 4 = 218$. Das α-Teilchen nimmt die Massenzahl 4 mit, nicht 2.\n\nRichtig: ${}^{216}_{84}\\mathrm{Po} \\to \\, {}^{212}_{82}\\mathrm{Pb} + \\, {}^{4}_{2}\\alpha$"
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die β⁻-Strahlung kommt aus dem Kern, nicht aus der Hülle. Im Kern wandelt sich ein Neutron in ein Proton um; die Ordnungszahl steigt von 11 auf 12.\n\nRichtig: Es entsteht Magnesium-24: ${}^{24}_{11}\\mathrm{Na} \\to \\, {}^{24}_{12}\\mathrm{Mg} + \\, {}^{0}_{-1}e^{-} + \\bar{\\nu}_e$"
+        },
+        {
+          "id": "N10-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Nullrate wurde addiert statt abgezogen."
+        },
+        {
+          "id": "N10-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$350 - 25 = 325$ Impulse pro Minute. Die Nullrate wird auch mit Präparat mitgezählt und muss deshalb abgezogen werden."
+        },
+        {
+          "id": "N10-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Zahl der Halbwertszeiten stimmt (vier). Falsch ist der Schluss „viermal → ein Viertel“: In jeder Halbwertszeit halbiert sich die noch vorhandene Menge.\n\nRichtig: $\\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{16}$. Nach 32 Stunden ist noch ein Sechzehntel übrig."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Check-out: Was kann ich jetzt?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c10",
+        "c9",
+        "c8",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung. Vergleiche danach mit deinem Ergebnis aus N1.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Beide haben 17 Protonen, also gleiche Kernladung und gleich viele Elektronen. Sie haben 18 bzw. 20 Neutronen. Es sind Isotope des Chlors.\n\n*A oder D gewählt?* Dann wäre es ein anderes Element. *C gewählt?* Ein neutrales Atom hat so viele Elektronen wie Protonen. → **N2**"
+        },
+        {
+          "id": "N11-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Beim β⁻-Zerfall wird ein Neutron zum Proton: N sinkt um 1, Z steigt um 1 – ein Feld nach links und eins nach oben.\n\n*A gewählt?* Das ist der β⁺-Zerfall. *B gewählt?* Das ist der α-Zerfall. *C gewählt?* Die Neutronenzahl sinkt, nicht steigt. → **N6**"
+        },
+        {
+          "id": "N11-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Die anziehende Kernkraft wirkt zwischen allen Nukleonen und ist auf kurze Entfernung stärker als die abstoßende Coulombkraft zwischen den Protonen.\n\n*B gewählt?* Die Elektronen sind viel zu weit weg. *C gewählt?* Die Gravitation ist viel zu schwach. *D gewählt?* Neutronen sind ungeladen. → **N2**"
+        },
+        {
+          "id": "N11-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Beim β⁺-Zerfall wandelt sich im Kern ein Proton in ein Neutron um. Dabei entsteht das Positron und verlässt den Kern.\n\n*A oder D gewählt?* Die Strahlung kommt aus dem Kern. *B gewählt?* Das ist der β⁻-Zerfall. → **N3**"
+        },
+        {
+          "id": "N11-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Das α-Teilchen nimmt die Massenzahl 4 und die Ordnungszahl 2 mit: $230 - 4 = 226$, $90 - 2 = 88$ (Radium).\n\n*A gewählt?* Massenzahl nur um 2 verringert. *B gewählt?* Ordnungszahl um 4 verringert. *C gewählt?* Massenzahl nicht verändert. → **N4**"
+        },
+        {
+          "id": "N11-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – α-Teilchen ionisieren sehr stark und geben ihre Energie schnell ab; ein Blatt Papier stoppt sie.\n\n*A gewählt?* β braucht einige Millimeter Aluminium. *C oder D gewählt?* γ durchdringt Papier fast ungehindert. → **N3**"
+        },
+        {
+          "id": "N11-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Die Nullrate wird mitgezählt und muss abgezogen werden: $140 - 20 = 120$ Impulse pro Minute.\n\n*A gewählt?* Nullrate addiert. *B gewählt?* Nullrate nicht abgezogen. *D gewählt?* Geteilt statt subtrahiert. → **N5**"
+        },
+        {
+          "id": "N11-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – 9 Stunden sind drei Halbwertszeiten: $\\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{8} = 12{,}5\\,\\%$.\n\n*B gewählt?* In jeder Halbwertszeit zerfällt nur die Hälfte der noch vorhandenen Kerne. *C gewählt?* Das wären zwei Halbwertszeiten. *D gewählt?* Drittel statt Halbierungen. → **N7**"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Lithium – ein Element, zwei Isotope",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Periodensystem, Regelheft",
+      "checkliste": [
+        "c2",
+        "c1",
+        "c3",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner, Periodensystem und Regelheft, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Der Atomkern) – am besten nach N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Lithium.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "${}^{7}_{3}\\mathrm{Li}$: 3 Protonen, 4 Neutronen, 3 Elektronen\n\n${}^{6}_{3}\\mathrm{Li}$: 3 Protonen, 3 Neutronen, 3 Elektronen"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Dem Ion fehlt ein Elektron (nur noch 2 Elektronen), deshalb ist es einfach positiv geladen. Der Kern ist unverändert: 3 Protonen und gleich viele Neutronen."
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$0{,}924 \\cdot 7{,}016\\,\\mathrm{u} + 0{,}076 \\cdot 6{,}015\\,\\mathrm{u} \\approx 6{,}483\\,\\mathrm{u} + 0{,}457\\,\\mathrm{u} \\approx 6{,}94\\,\\mathrm{u}$\n\nDas ist genau die Atommasse im Periodensystem: Dort steht der Mittelwert der natürlichen Isotope. Deshalb ist sie keine ganze Zahl."
+        },
+        {
+          "id": "V1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Lithium-6-Ionen: Bei gleicher Kraft wird der Körper mit der kleineren Masse stärker abgelenkt. Lithium-6 ist leichter und fliegt deshalb den engeren Bogen."
+        },
+        {
+          "id": "V1-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Lithium-8 hat 5, Lithium-9 sogar 6 Neutronen bei nur 3 Protonen. Für so einen kleinen Kern sind das zu viele Neutronen.\n\nDurch β⁻-Zerfall wandelt sich ein Neutron in ein Proton um; es entsteht Beryllium mit 4 Protonen."
+        },
+        {
+          "id": "V1-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Richtig ist: Neutronen tragen zur Anziehung bei und verursachen keine Coulomb-Abstoßung. Bei großen Kernen braucht man deshalb einen Neutronenüberschuss.\n\nDie Aussage gilt aber nicht unbegrenzt: Lithium-8 und Lithium-9 zeigen, dass ein Kern auch zu viele Neutronen haben kann. Er ist dann instabil und wandelt Neutronen durch β⁻-Zerfall in Protonen um. Stabil ist nur ein passendes Verhältnis von Neutronen zu Protonen."
+        },
+        {
+          "id": "V1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$75\\,000 \\cdot 1\\,\\mathrm{cm} = 75\\,000\\,\\mathrm{cm} = 750\\,\\mathrm{m}$ – so groß wie mehrere Fußballfelder hintereinander. Das Atom ist fast leer."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Die grüne Glasschale vom Flohmarkt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner, Periodensystem, Regelheft",
+      "checkliste": [
+        "c8",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c3",
+        "c2",
+        "g1",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner, Periodensystem und Regelheft, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Der Atomkern, Strahlung und ihr Nachweis) – am besten nach N3 bis N5.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Uranglas.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "${}^{238}_{92}\\mathrm{U} \\to \\, {}^{234}_{90}\\mathrm{Th} + \\, {}^{4}_{2}\\alpha$"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "${}^{234}_{90}\\mathrm{Th} \\to \\, {}^{234}_{91}\\mathrm{Pa} + \\, {}^{0}_{-1}e^{-} + \\bar{\\nu}_e$\n\n${}^{234}_{91}\\mathrm{Pa} \\to \\, {}^{234}_{92}\\mathrm{U} + \\, {}^{0}_{-1}e^{-} + \\bar{\\nu}_e$"
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Thorium-234 hat 90 Protonen und 144 Neutronen. Nach dem α-Zerfall hat der Kern für seine Protonenzahl zu viele Neutronen. Beim β⁻-Zerfall wird ein Neutron zum Proton."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$95 - 18 = 77$, $93 - 18 = 75$, $21 - 18 = 3$ Impulse pro Minute."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Papier ändert kaum etwas (77 → 75, im Rahmen der Schwankung): kaum α-Strahlung am Zählrohr. Aluminium senkt die Rate fast auf null (3): Fast alles war β-Strahlung. γ-Strahlung spielt kaum eine Rolle.\n\nGemessen wird vor allem die β-Strahlung der Folgekerne (Protactinium-234)."
+        },
+        {
+          "id": "V2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Uran steckt im Glas. α-Teilchen haben eine sehr kurze Reichweite: Fast alle werden schon im Glas selbst gestoppt, der Rest in der Luft oder am Fenster des Zählrohrs."
+        },
+        {
+          "id": "V2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Das β-Teilchen ionisiert Gasatome im Rohr. Die freien Elektronen werden zum positiv geladenen Draht gezogen; ein kurzer Stromstoß entsteht und wird als Impuls gezählt."
+        },
+        {
+          "id": "V2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Durch die Hochspannung werden die freigesetzten Elektronen so stark beschleunigt, dass sie selbst weitere Atome ionisieren. Es entsteht eine Lawine aus sehr vielen Elektronen und damit ein messbarer Stromstoß."
+        },
+        {
+          "id": "V2-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Teilweise richtig: Die α-Strahlung kommt nicht einmal aus dem Glas der Schale heraus. Eine Glasscheibe von einigen Millimetern stoppt auch den größten Teil der β-Strahlung.\n\nGanz stimmt die Aussage nicht: γ-Strahlung (wenn auch wenig) durchdringt die Scheibe. Ob außen noch etwas ankommt, lässt sich mit dem Zählrohr überprüfen: Liegt die Rate vor der Vitrine bei der Nullrate, kommt praktisch nichts mehr heraus."
+        },
+        {
+          "id": "V2-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Nullrate hängt vom Ort ab: Gestein, Baustoffe und Boden strahlen unterschiedlich stark. Zieht man eine falsche Nullrate ab, ist die bereinigte Impulsrate der Schale falsch – gerade bei kleinen Werten wie hinter dem Aluminium."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Der Wecker mit den Leuchtziffern",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner, Periodensystem, Regelheft",
+      "checkliste": [
+        "c10",
+        "c9",
+        "c8",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2",
+        "c1",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner, Periodensystem und Regelheft, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Der Atomkern, Strahlung und ihr Nachweis, Nuklidkarte und Halbwertszeit) – am besten nach N6 bis N10.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Wecker.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Ordnungszahl 88: 88 Protonen, $226 - 88 = 138$ Neutronen, 88 Elektronen."
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Kern ist sehr groß: Die 88 Protonen stoßen sich über den ganzen Kern ab, die Kernkraft wirkt nur zwischen Nachbarn. Ab 83 Protonen gibt es keinen stabilen Kern mehr, auch nicht mit vielen Neutronen."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "${}^{226}_{88}\\mathrm{Ra} \\to \\, {}^{222}_{86}\\mathrm{Rn} + \\, {}^{4}_{2}\\alpha$"
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ra-226 (α) → Rn-222 (α) → Po-218 (α) → Pb-214 (β⁻) → Bi-214 (β⁻) → Po-214 (α) → Pb-210\n\nBlei-210 ist kein Endpunkt: Es zerfällt mit 22 Jahren Halbwertszeit weiter über Bismut-210 und Polonium-210 zum stabilen Blei-206."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$240 - 20 = 220$ Impulse pro Minute."
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die α-Strahlung wird vom Uhrglas gestoppt. In der Leuchtfarbe entstehen aber laufend die Folgekerne der Reihe, darunter die β⁻-Strahler Blei-214 und Bismut-214.\n\nIhre β-Strahlung und die γ-Strahlung, die dabei oft entsteht, durchdringen das Glas und werden gemessen."
+        },
+        {
+          "id": "V3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Bis heute sind gut 75 Jahre vergangen, viel weniger als eine Halbwertszeit von 1600 Jahren.\n\nErst nach 1600 Jahren ist die Hälfte zerfallen, nach 3200 Jahren drei Viertel. Heute ist also noch deutlich mehr als die Hälfte vorhanden – fast das gesamte Radium."
+        },
+        {
+          "id": "V3-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{1}{8} = \\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2}$: drei Halbwertszeiten, also $3 \\cdot 1600 = 4800$ Jahre (im Jahr 6750)."
+        },
+        {
+          "id": "V3-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Vermutung trifft nicht zu: Es ist noch fast das ganze Radium vorhanden, die Strahlung ist kaum schwächer geworden. Die α-Teilchen ionisieren über die Jahre aber auch den Leuchtstoff selbst und beschädigen ihn. Der Leuchtstoff leuchtet deshalb schwächer, obwohl der Wecker weiter strahlt."
+        }
+      ]
+    }
+  ]
+}
