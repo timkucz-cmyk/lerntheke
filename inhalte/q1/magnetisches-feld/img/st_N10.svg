@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Rechteckspule fährt in ein begrenztes Magnetfeld">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="hilfs" d="M93.5 13.5 l5 5 M93.5 18.5 l5 -5"/>
+  <path class="hilfs" d="M93.5 25.5 l5 5 M93.5 30.5 l5 -5"/>
+  <path class="hilfs" d="M93.5 37.5 l5 5 M93.5 42.5 l5 -5"/>
+  <path class="hilfs" d="M93.5 49.5 l5 5 M93.5 54.5 l5 -5"/>
+  <path class="hilfs" d="M105.5 13.5 l5 5 M105.5 18.5 l5 -5"/>
+  <path class="hilfs" d="M105.5 25.5 l5 5 M105.5 30.5 l5 -5"/>
+  <path class="hilfs" d="M105.5 37.5 l5 5 M105.5 42.5 l5 -5"/>
+  <path class="hilfs" d="M105.5 49.5 l5 5 M105.5 54.5 l5 -5"/>
+  <path class="hilfs" d="M117.5 13.5 l5 5 M117.5 18.5 l5 -5"/>
+  <path class="hilfs" d="M117.5 25.5 l5 5 M117.5 30.5 l5 -5"/>
+  <path class="hilfs" d="M117.5 37.5 l5 5 M117.5 42.5 l5 -5"/>
+  <path class="hilfs" d="M117.5 49.5 l5 5 M117.5 54.5 l5 -5"/>
+  <path class="hilfs" d="M129.5 13.5 l5 5 M129.5 18.5 l5 -5"/>
+  <path class="hilfs" d="M129.5 25.5 l5 5 M129.5 30.5 l5 -5"/>
+  <path class="hilfs" d="M129.5 37.5 l5 5 M129.5 42.5 l5 -5"/>
+  <path class="hilfs" d="M129.5 49.5 l5 5 M129.5 54.5 l5 -5"/>
+  <path class="hilfs" d="M141.5 13.5 l5 5 M141.5 18.5 l5 -5"/>
+  <path class="hilfs" d="M141.5 25.5 l5 5 M141.5 30.5 l5 -5"/>
+  <path class="hilfs" d="M141.5 37.5 l5 5 M141.5 42.5 l5 -5"/>
+  <path class="hilfs" d="M141.5 49.5 l5 5 M141.5 54.5 l5 -5"/>
+  <rect class="akzent" x="34" y="18" width="44" height="34"/>
+  <path class="akzent" d="M40.0 10.0 L70.0 10.0"/>
+  <path class="marke" d="M70.0 10.0 L64.6 12.6 L64.6 7.4 z"/>
+</svg>

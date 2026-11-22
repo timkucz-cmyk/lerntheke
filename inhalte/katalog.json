@@ -237,6 +237,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Lage- und Streumaße, Zufallsgrößen, Simulation, Erwartungswert und Standardabweichung, Bernoulli-Ketten, Binomialverteilung, hypergeometrische Verteilung"
+        },
+        {
+          "id": "magnetisches-feld",
+          "name": "Magnetisches Feld und Induktion – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Magnetische Stoffe, Feldlinien, Kraft auf Leiter, Spule, Hall-Effekt, Lorentzkraft, Fadenstrahlrohr, Massenspektrometer, Beschleuniger, Induktion, Lenz’sche Regel, Generator; eA: Selbstinduktion, Schaltvorgänge, Schwingkreis"
         }
       ]
     },
