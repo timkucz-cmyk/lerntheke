@@ -1,0 +1,1938 @@
+{
+  "version": 1,
+  "titel": "Magnetisches Feld und Induktion – Lerntheke vor der Klausur",
+  "fach": "physik",
+  "anrede": "sie",
+  "hinweis": "Alle Stationen sind klausurrelevant. Sind Sie beim Vorwissen aus der E-Phase unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Energie, Kreisbewegung und Ladung auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N13. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Magnete und Magnetfelder), V2 nach N3 bis N5 (Kraft und Flussdichte), V3 nach N6 bis N8 (geladene Teilchen), V4 nach N9 bis N13 (Induktion). N14 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N14. Stationen mit der Marke eA (N15 bis N17, am besten nach N11) gehören zum erhöhten Niveau. Alle Richtungsangaben verwenden die Elektronenflussrichtung wie im Skript.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Mit Größen und Zehnerpotenzen rechnen, Vorsätze (µ, m, k, M) umrechnen und Änderungsraten als Steigung aus Diagrammen bestimmen"
+    },
+    {
+      "id": "g2",
+      "text": "Feldmodell, Feldlinien und Feldstärke im Gravitations- und im elektrischen Feld beschreiben (homogenes Feld, Radialfeld)"
+    },
+    {
+      "id": "g3",
+      "text": "Ladung, Stromstärke und Spannung beschreiben (Q = N · e, I = ΔQ/Δt) und Elektronenflussrichtung und technische Stromrichtung unterscheiden"
+    },
+    {
+      "id": "g4",
+      "text": "Kräfte und Energie im elektrischen Feld berechnen (F = q · E, E = U/d, W = q · U) und die Energieerhaltung anwenden"
+    },
+    {
+      "id": "g5",
+      "text": "Kreisbewegungen mit Umlaufdauer, Frequenz, Bahngeschwindigkeit und Zentripetalkraft beschreiben und berechnen"
+    },
+    {
+      "id": "g6",
+      "text": "Kräfte und Geschwindigkeiten vektoriell addieren und zerlegen und Kräftegleichgewichte aufstellen"
+    },
+    {
+      "id": "c1",
+      "text": "Ferro-, para- und diamagnetische Stoffe unterscheiden und die Magnetisierung mit Elementarmagneten, Weiss’schen Bezirken, Hysterese und Curie-Temperatur erklären"
+    },
+    {
+      "id": "c2",
+      "text": "Feldlinienbilder von Stab- und Hufeisenmagneten, zwei Magneten und der Erde skizzieren und deuten"
+    },
+    {
+      "id": "c3",
+      "text": "Das Magnetfeld eines stromdurchflossenen Leiters und einer Spule skizzieren und seine Richtung mit der Handregel bestimmen"
+    },
+    {
+      "id": "c4",
+      "text": "Kräfte auf stromdurchflossene Leiter im Magnetfeld beschreiben und berechnen und die magnetische Flussdichte damit definieren und messen"
+    },
+    {
+      "id": "c5",
+      "text": "Den Einfluss von Stromstärke, Windungszahl, Spulenlänge und Kern auf die Flussdichte einer Spule beschreiben und die Flussdichte berechnen"
+    },
+    {
+      "id": "c6",
+      "text": "Den Hall-Effekt erklären, die Hallspannung berechnen und die Hallsonde zur Messung der Flussdichte erläutern"
+    },
+    {
+      "id": "c7",
+      "text": "Die Lorentzkraft auf bewegte Ladungen beschreiben, ihre Richtung bestimmen und ihren Betrag berechnen"
+    },
+    {
+      "id": "c8",
+      "text": "Geschwindigkeit und Energie beschleunigter Ladungen mit dem Energiesatz berechnen"
+    },
+    {
+      "id": "c9",
+      "text": "Die Bewegung geladener Teilchen im homogenen Magnetfeld analysieren und berechnen (Kreisbahn, Umlaufdauer, Helixbahn)"
+    },
+    {
+      "id": "c10",
+      "text": "Die Bestimmung der Elektronenmasse (spezifische Ladung) mit dem Fadenstrahlrohr erläutern und auswerten"
+    },
+    {
+      "id": "c11",
+      "text": "Die Funktionsprinzipien von Massenspektrometern und Teilchenbeschleunigern (Linearbeschleuniger, Zyklotron, Synchrotron) erläutern"
+    },
+    {
+      "id": "c12",
+      "text": "Die Entstehung einer Induktionsspannung durch Änderung der Flussdichte oder der Fläche beschreiben, auch am bewegten Leiter"
+    },
+    {
+      "id": "c13",
+      "text": "Das Induktionsgesetz in den Fällen konstanter Fläche und konstanter Flussdichte anwenden"
+    },
+    {
+      "id": "c14",
+      "text": "Die Richtung des Induktionsstroms mit der Lenz’schen Regel bestimmen und seine Wirkung erläutern"
+    },
+    {
+      "id": "c15",
+      "text": "Technische Anwendungen der Induktion analysieren: Generator (Wechselspannung, Kommutator) und Wirbelströme"
+    },
+    {
+      "id": "c16",
+      "text": "Das Induktionsgesetz in differenzieller Form anwenden, die Induktivität einer langen Spule berechnen und die Selbstinduktionsspannung bestimmen",
+      "niveau": "ea"
+    },
+    {
+      "id": "c17",
+      "text": "Ein- und Ausschaltvorgänge an einer Spule analysieren und die Energie des Magnetfelds einer Spule berechnen",
+      "niveau": "ea"
+    },
+    {
+      "id": "c18",
+      "text": "Elektromagnetische Schwingkreise analysieren und frequenzabhängige Widerstände berechnen",
+      "niveau": "ea"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus der E-Phase: Felder, Ladung, Kreisbewegung",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Magnete und Magnetfelder",
+      "untertitel": "Magnetische Stoffe, Feldlinien, Feld von Leiter und Spule",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Kraft und Flussdichte",
+      "untertitel": "Kraft auf Leiter, Spule, Hall-Effekt",
+      "farbe": "orange",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Geladene Teilchen im Magnetfeld",
+      "untertitel": "Lorentzkraft, Kreisbahn, Fadenstrahlrohr, Massenspektrometer, Beschleuniger",
+      "farbe": "gruen",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11"
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Induktion",
+      "untertitel": "Induktionsgesetz, Lenz’sche Regel, Generator, Wirbelströme",
+      "farbe": "rot",
+      "checkliste": [
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c16",
+        "c17",
+        "c18"
+      ]
+    }
+  ],
+  "abschluss": "Klausur",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeiten Sie die Blöcke, bei denen Sie in der Selbsteinschätzung unsicher sind. Lücken schließen Sie danach mit G2. Konstanten: $e = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}$, $m_e = 9{,}109 \\cdot 10^{-31}\\,\\mathrm{kg}$.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$0{,}25\\,\\mathrm{mT} = 0{,}25 \\cdot 10^{-3}\\,\\mathrm{T} = 2{,}5 \\cdot 10^{-4}\\,\\mathrm{T}$\n\n$3{,}5\\,\\mathrm{cm^2} = 3{,}5 \\cdot (10^{-2}\\,\\mathrm{m})^2 = 3{,}5 \\cdot 10^{-4}\\,\\mathrm{m^2}$\n\n$12\\,\\mathrm{\\mu s} = 12 \\cdot 10^{-6}\\,\\mathrm{s} = 1{,}2 \\cdot 10^{-5}\\,\\mathrm{s}$"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Gerade steigt in $0{,}20\\,\\mathrm{s}$ von $0$ auf $40\\,\\mathrm{mT}$ (Steigungsdreieck):\n\n$\\frac{\\Delta B}{\\Delta t} = \\frac{40 \\cdot 10^{-3}\\,\\mathrm{T}}{0{,}20\\,\\mathrm{s}} = 0{,}20\\,\\frac{\\mathrm{T}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Punktladung: gerade Linien, die strahlenförmig von der Ladung weg zeigen – **Radialfeld**.\n\nPlattenkondensator: zwischen den Platten parallele, gleich dichte Linien von Plus nach Minus – **homogenes Feld** (am Rand gekrümmt).",
+          "loesung_bild": "img/G1-2a.png"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Feldlinie gibt an jedem Ort die Richtung der Kraft auf einen Probekörper an. An einem Schnittpunkt gäbe es zwei verschiedene Kraftrichtungen – die Kraft an einem Ort ist aber eindeutig."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$Q = I \\cdot \\Delta t = 2{,}0\\,\\mathrm{A} \\cdot 60\\,\\mathrm{s} = 120\\,\\mathrm{C}$\n\n$N = \\frac{Q}{e} = \\frac{120\\,\\mathrm{C}}{1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}} \\approx 7{,}5 \\cdot 10^{20}$ Elektronen"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Elektronen fließen außen vom Minuspol zum Pluspol (Elektronenflussrichtung). Die technische Stromrichtung ist umgekehrt festgelegt: außen von Plus nach Minus."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E = \\frac{U}{d} = \\frac{300\\,\\mathrm{V}}{0{,}015\\,\\mathrm{m}} = 2{,}0 \\cdot 10^{4}\\,\\frac{\\mathrm{V}}{\\mathrm{m}}$"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Arbeit des Feldes wird zu kinetischer Energie: $E_{kin} = e \\cdot U = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C} \\cdot 300\\,\\mathrm{V} \\approx 4{,}8 \\cdot 10^{-17}\\,\\mathrm{J}$\n\n$v = \\sqrt{\\frac{2 \\cdot E_{kin}}{m_e}} = \\sqrt{\\frac{2 \\cdot 4{,}8 \\cdot 10^{-17}\\,\\mathrm{J}}{9{,}109 \\cdot 10^{-31}\\,\\mathrm{kg}}} \\approx 1{,}0 \\cdot 10^{7}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f = \\frac{120}{60\\,\\mathrm{s}} = 2{,}0\\,\\mathrm{Hz}$, $T = \\frac{1}{f} = 0{,}50\\,\\mathrm{s}$"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$v = \\frac{2\\pi \\cdot r}{T} = \\frac{2\\pi \\cdot 0{,}15\\,\\mathrm{m}}{0{,}50\\,\\mathrm{s}} \\approx 1{,}9\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$\n\n$F_{ZP} = \\frac{m \\cdot v^2}{r} = \\frac{0{,}50\\,\\mathrm{kg} \\cdot (1{,}88\\,\\mathrm{m/s})^2}{0{,}15\\,\\mathrm{m}} \\approx 11{,}8\\,\\mathrm{N}$"
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Kräfte stehen senkrecht aufeinander: $F = \\sqrt{F_1^2 + F_2^2} = \\sqrt{0{,}30^2 + 0{,}40^2}\\,\\mathrm{N} = 0{,}50\\,\\mathrm{N}$\n\nWinkel zur Richtung von $F_1$: $\\tan(\\alpha) = \\frac{0{,}40}{0{,}30} \\Rightarrow \\alpha \\approx 53{,}1°$"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Summe aller angreifenden Kräfte ist null (Kräftegleichgewicht, Trägheitsprinzip)."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Energie, Kreisbewegung und Ladung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 13,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g4",
+        "g5",
+        "g6",
+        "g2",
+        "g3"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 13 Minuten. Übt die typischen Lücken aus G1: Energie im elektrischen Feld, Kreisbewegung, Zerlegen von Vektoren und Ladung. Konstanten: $e = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}$, $m_e = 9{,}109 \\cdot 10^{-31}\\,\\mathrm{kg}$, $m_p = 1{,}673 \\cdot 10^{-27}\\,\\mathrm{kg}$.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E_{kin} = e \\cdot U = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C} \\cdot 500\\,\\mathrm{V} \\approx 8{,}0 \\cdot 10^{-17}\\,\\mathrm{J}$"
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Aus $\\frac{1}{2} \\cdot m_p \\cdot v^2 = E_{kin}$: $v = \\sqrt{\\frac{2 \\cdot 8{,}0 \\cdot 10^{-17}\\,\\mathrm{J}}{1{,}673 \\cdot 10^{-27}\\,\\mathrm{kg}}} \\approx 3{,}1 \\cdot 10^{5}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F_{ZP} = \\frac{m_e \\cdot v^2}{r} = \\frac{9{,}109 \\cdot 10^{-31}\\,\\mathrm{kg} \\cdot (2{,}0 \\cdot 10^{6}\\,\\mathrm{m/s})^2}{0{,}040\\,\\mathrm{m}} \\approx 9{,}1 \\cdot 10^{-17}\\,\\mathrm{N}$"
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$T = \\frac{2\\pi \\cdot r}{v} = \\frac{2\\pi \\cdot 0{,}040\\,\\mathrm{m}}{2{,}0 \\cdot 10^{6}\\,\\mathrm{m/s}} \\approx 1{,}26 \\cdot 10^{-7}\\,\\mathrm{s}$"
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$v_x = v \\cdot \\cos(30°) \\approx 4{,}33\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$, $v_y = v \\cdot \\sin(30°) = 2{,}50\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Richtung der Feldlinie (Pfeil) gibt die Richtung der Kraft auf einen Probekörper an. Die Dichte der Linien zeigt die Stärke: Wo die Linien eng liegen, ist das Feld stark."
+        },
+        {
+          "id": "G2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$I = \\frac{\\Delta Q}{\\Delta t} = \\frac{2{,}0\\,\\mathrm{C}}{5{,}0\\,\\mathrm{s}} = 0{,}40\\,\\mathrm{A}$"
+        },
+        {
+          "id": "G2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$N = \\frac{Q}{e} = \\frac{2{,}0\\,\\mathrm{C}}{1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}} \\approx 1{,}25 \\cdot 10^{19}$"
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Magnetisches Feld und Induktion",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c7",
+        "c9",
+        "c12",
+        "c14"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Kupfer ist nicht ferromagnetisch (es ist diamagnetisch) und wird nicht angezogen. Eisen, Stahl und Nickel sind ferromagnetisch: Ihre Weiss’schen Bezirke richten sich im Feld aus.\n\n*A, B oder D gewählt?* Diese Stoffe sind ferromagnetisch. Wer meint, Magnete ziehen alle Metalle an, kann hier keine Antwort finden. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Magnetische Feldlinien haben weder Anfang noch Ende. Außen verlaufen sie vom Nord- zum Südpol, im Inneren des Magneten weiter vom Süd- zum Nordpol.\n\n*B oder C gewählt?* Feldlinien enden nicht an Polen (anders als elektrische an Ladungen). *D gewählt?* Außen zeigen die Pfeile vom Nord- zum Südpol. → **N2** Aufgabe 2"
+        },
+        {
+          "id": "N1-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Die Feldlinien eines geraden Leiters sind konzentrische Kreise um den Leiter. Jede Nadel stellt sich tangential zu diesem Kreis ein.\n\n*A gewählt?* So sieht das elektrische Feld einer Punktladung aus. *B gewählt?* Das Feld zeigt nie längs des Leiters. *C gewählt?* Das wäre nur das Erdfeld. → **N2** Aufgabe 3"
+        },
+        {
+          "id": "N1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Die Kraft ist $F = B \\cdot I \\cdot l \\cdot \\sin(\\alpha)$; liegt der Leiter parallel zum Feld ($\\alpha = 0°$), ist sie null.\n\n*A oder D gewählt?* Senkrecht zum Feld ist die Kraft am größten. *C gewählt?* Unter 45° wirkt etwa 71 % der größten Kraft. → **N3** Aufgabe 4"
+        },
+        {
+          "id": "N1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $B = \\mu_0 \\cdot \\mu_r \\cdot \\frac{I \\cdot N}{l}$: Die Länge steht im Nenner, doppelte Länge ergibt die halbe Flussdichte (die Windungen liegen weniger dicht).\n\n*B gewählt?* $N$ und $I$ allein bestimmen $B$ nicht. *C gewählt?* Gedacht: „längerer Draht, mehr Feld“. *D gewählt?* $l$ steht nicht im Quadrat. → **N4** Aufgabe 1"
+        },
+        {
+          "id": "N1-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Die Lorentzkraft steht immer senkrecht zur Geschwindigkeit. Sie ändert nur die Richtung, nicht den Betrag; sie verrichtet keine Arbeit. Das Elektron läuft auf einer Kreisbahn.\n\n*A, B oder D gewählt?* Eine Kraft quer zur Bewegung ändert die Energie nicht. → **N6** Aufgabe 2"
+        },
+        {
+          "id": "N1-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Induziert wird nur, wenn sich die Flussdichte in der Spule oder die durchsetzte Fläche ändert. Ein ruhender Magnet ändert nichts.\n\n*A, C oder D gewählt?* Ein Magnet „erzeugt“ keine Spannung, nur seine Bewegung. → **N9** Aufgabe 1"
+        },
+        {
+          "id": "N1-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Im Ring wird ein Strom induziert. Nach der Lenz’schen Regel wirkt sein Magnetfeld der Ursache entgegen: Der Ring zeigt dem Magneten einen Nordpol und wird abgestoßen.\n\n*A gewählt?* Aluminium ist nicht ferromagnetisch; der Ringstrom bremst das Annähern. *B gewählt?* Es wird induziert, weil sich die Flussdichte ändert. *C gewählt?* Die Kraft wirkt längs der Bewegung. → **N9** Aufgabe 2"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Magnetische Stoffe und Feldlinien",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "g2",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Stoffe_und_Feldlinien.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "1: **Sättigung** (alle Elementarmagnete ausgerichtet) · 2: **Remanenz** (bleibende Magnetisierung ohne äußeres Feld) · 3: **Koerzitivfeldstärke** (Gegenfeld, das die Magnetisierung auf null bringt)"
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Weichmagnetisch: schmale Hysteresekurve, kleine Remanenz. Schaltet man den Strom ab, verliert der Kern seine Magnetisierung fast vollständig – die Last fällt ab. Ein hartmagnetischer Kern bliebe magnetisch und hielte die Teile fest."
+        },
+        {
+          "id": "N2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Ein Magnet besteht aus vielen ausgerichteten Elementarmagneten, jeder mit Nord- und Südpol. An der Schnittstelle liegen danach freie Süd- bzw. Nordpole der Elementarmagnete: Es entstehen zwei vollständige, schwächere Magnete.\n\nEinzelne Pole gibt es nicht – das passt dazu, dass magnetische Feldlinien immer geschlossen sind."
+        },
+        {
+          "id": "N2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "(1) Ungleiche Pole: Viele Feldlinien laufen direkt vom Nordpol des einen zum Südpol des anderen Magneten; zwischen den Polen liegen sie dicht und nahezu parallel – Anziehung.\n\n(2) Gleiche Pole: Die Feldlinien beider Nordpole biegen voneinander weg. In der Mitte zwischen den Polen liegt eine feldfreie Stelle (die Felder heben sich dort auf) – Abstoßung.",
+          "loesung_bild": "img/N2-2.png"
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Konzentrische Kreise um den Leiter, innen enger. Linke-Faust-Regel: Daumen aus der Zeichenebene heraus (Elektronenflussrichtung) – die Finger zeigen **im Uhrzeigersinn**.",
+          "loesung_bild": "img/N2-3a.png"
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Inneren parallele, gleich dichte Feldlinien (homogenes Feld), außen ein Feld wie beim Stabmagneten.\n\nSpulenregel: Die Finger der linken Hand zeigen in Elektronenflussrichtung um die Windungen (vorne nach oben), der Daumen zeigt dann nach rechts. Der **Nordpol liegt rechts**: Innen laufen die Feldlinien nach rechts, außen von rechts zurück nach links.",
+          "loesung_bild": "img/N2-3b.png"
+        },
+        {
+          "id": "N2-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Felder stehen senkrecht aufeinander und addieren sich wie Vektoren (Rechteck). Die Nadel stellt sich in Richtung des Gesamtfelds ein:\n\n$\\tan(\\alpha) = \\frac{15\\,\\mathrm{\\mu T}}{19\\,\\mathrm{\\mu T}} \\Rightarrow \\alpha \\approx 38{,}3°$ nach Osten.",
+          "loesung_bild": "img/N2-4a.png"
+        },
+        {
+          "id": "N2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Nur dann steht das Leiterfeld (Kreise um den Leiter, unter dem Leiter waagerecht nach Osten oder Westen) senkrecht zum Erdfeld und lenkt die Nadel sichtbar seitlich ab. Läge der Leiter in Ost-West-Richtung, zeigte sein Feld am Kompass nach Norden oder Süden: Es würde das Erdfeld nur verstärken oder schwächen – die Nadel bliebe in Nord-Süd-Richtung (oder klappte bei starkem Strom um)."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Kraft auf Leiter: Flussdichte messen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c4",
+        "c3",
+        "g1",
+        "g3",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 18 Minuten. Beispielmessung: Eine elektronische Waage ersetzt den Kraftmesser. Rechnen Sie mit $g = 9{,}81\\,\\mathrm{N/kg}$.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Kraft_auf_Leiter.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Daumen in die Zeichenebene hinein (Elektronenbewegung), Zeigefinger nach rechts (Feld vom Nord- zum Südpol): Der Mittelfinger zeigt **nach oben**. Das Leiterstück wird nach oben gedrückt."
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Wechselwirkungsprinzip: Das Feld des Magneten drückt den Leiter nach oben, also wirkt auf den Magneten eine gleich große Gegenkraft nach unten. Der Magnet drückt stärker auf die Waage; die Anzeigeänderung $\\Delta m$ entspricht der Kraft $F = \\Delta m \\cdot g$."
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$F = \\Delta m \\cdot g$, z. B. $F = 0{,}62 \\cdot 10^{-3}\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 6{,}1\\,\\mathrm{mN}$:\n\n| $I$ in A | 0 | 1,0 | 2,0 | 3,0 | 4,0 | 5,0 |\n|---|---|---|---|---|---|---|\n| $F$ in mN | 0 | 6,1 | 11,8 | 18,1 | 23,9 | 30,1 |\n\nDie Punkte liegen nahezu auf einer Ursprungsgeraden: $F \\sim I$.",
+          "loesung_bild": "img/N3-2a.png"
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ausgleichs-Ursprungsgerade: Steigung $s = \\frac{F}{I} \\approx 6{,}0 \\cdot 10^{-3}\\,\\frac{\\mathrm{N}}{\\mathrm{A}}$\n\nAus $F = B \\cdot I \\cdot l$ folgt $s = B \\cdot l$, also $B = \\frac{s}{l} = \\frac{6{,}0 \\cdot 10^{-3}\\,\\mathrm{N/A}}{0{,}050\\,\\mathrm{m}} = 0{,}12\\,\\mathrm{T}$"
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die senkrechte Feldkomponente steht senkrecht zur waagerechten Leitung:\n\n$F = B \\cdot I \\cdot l = 45 \\cdot 10^{-6}\\,\\mathrm{T} \\cdot 500\\,\\mathrm{A} \\cdot 100\\,\\mathrm{m} \\approx 2{,}3\\,\\mathrm{N}$\n\n$F_G = 110\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 1{,}1 \\cdot 10^{3}\\,\\mathrm{N}$ – die magnetische Kraft beträgt nur etwa 0,2 % davon und ist bedeutungslos."
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Wirksam ist nur der Anteil senkrecht zum Feld: $F = B \\cdot I \\cdot l \\cdot \\sin(60°) \\approx 0{,}87 \\cdot B \\cdot I \\cdot l$. Alle Kräfte sind um 13 % kleiner; mit $F = B \\cdot I \\cdot l$ gerechnet erhält man $B \\approx 0{,}87 \\cdot 0{,}12\\,\\mathrm{T} \\approx 0{,}10\\,\\mathrm{T}$ – ein systematisch zu kleiner Wert.\n\nWeitere Fehlerquellen (zwei genügen): Kräfte auf die Zuleitungen, die ebenfalls im Feld liegen; Randfeld (das Leiterstück liegt nicht überall im homogenen Bereich); Erwärmung des Leiters bei großen Strömen; Nullpunktdrift oder Erschütterungen der Waage; Ablesegenauigkeit von $0{,}01\\,\\mathrm{g}$ bei kleinen Strömen."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Die Spule als Elektromagnet",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c5",
+        "c3",
+        "c1",
+        "g1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 18 Minuten. Konstante: $\\mu_0 = 1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}}$.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Spule.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$B = \\mu_0 \\cdot \\mu_r \\cdot \\frac{I \\cdot N}{l} = 1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}} \\cdot 1 \\cdot \\frac{2{,}5\\,\\mathrm{A} \\cdot 800}{0{,}20\\,\\mathrm{m}} \\approx 1{,}26 \\cdot 10^{-2}\\,\\mathrm{T} = 12{,}6\\,\\mathrm{mT}$"
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "(1) $B$ verdoppelt sich ($B \\sim I$). (2) $B$ verdoppelt sich ($B \\sim N$). (3) $B$ halbiert sich ($B \\sim \\frac{1}{l}$). (4) $B$ bleibt gleich – der Durchmesser kommt in der Formel nicht vor (solange die Spule lang gegen ihren Durchmesser ist)."
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$I = \\frac{B \\cdot l}{\\mu_0 \\cdot N} = \\frac{0{,}050\\,\\mathrm{T} \\cdot 0{,}20\\,\\mathrm{m}}{1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}} \\cdot 800} \\approx 9{,}9\\,\\mathrm{A}$"
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zum Beispiel (je 1 P):\n\n- etwa viermal so viele Windungen auf gleicher Länge ($N \\approx 3200$): Der Draht wird viel länger, der Widerstand größer – man braucht eine höhere Spannung, und die Spule wird schwer.\n- die Spule kürzer wickeln (z. B. $5\\,\\mathrm{cm}$): Sie ist dann nicht mehr lang gegen ihren Durchmesser, das Feld wird inhomogen, und die Formel gilt nur noch näherungsweise.\n- einen Eisenkern einsetzen: Der Innenraum ist dann nicht mehr frei für den Versuch.\n\nDer große Strom von 9,9 A hätte den Nachteil starker Erwärmung."
+        },
+        {
+          "id": "N4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$B = 400 \\cdot 12{,}6\\,\\mathrm{mT} \\approx 5{,}0\\,\\mathrm{T}$"
+        },
+        {
+          "id": "N4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Eisen kommt in die **Sättigung**: Sind fast alle Weiss’schen Bezirke ausgerichtet, nimmt die Magnetisierung kaum noch zu; die Kurve wird flach. Bei Eisen liegt die Grenze bei etwa $1{,}5$ bis $2\\,\\mathrm{T}$. $\\mu_r$ ist also keine Konstante, sondern wird bei starken Feldern kleiner – das Modell versagt hier."
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Widerstand: unverändert – Drahtlänge und Querschnitt bleiben gleich (die etwas größere zweite Lage vernachlässigt).\n\nStromstärke: unverändert, $I = \\frac{U}{R}$.\n\nFlussdichte: $B = \\mu_0 \\cdot \\frac{I \\cdot N}{l}$ mit gleichem $I$ und $N$, aber halber Länge – $B$ **verdoppelt** sich. Entscheidend ist die Windungsdichte $\\frac{N}{l}$, nicht die Drahtlänge."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Hall-Effekt und Hallsonde",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c6",
+        "c4",
+        "g3",
+        "g4",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 18 Minuten. Hall-Konstanten werden als Betrag angegeben; das Vorzeichen im Formeldokument zeigt die Art der Ladungsträger.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Hall-Effekt.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Linke-Hand-Regel: Daumen nach rechts (Elektronen), Zeigefinger aus der Zeichenebene (Feld) – der Mittelfinger zeigt nach oben. Die Elektronen werden zur **oberen Kante** abgelenkt; dort entsteht Elektronenüberschuss (negativ), unten Elektronenmangel (positiv).\n\nDie getrennten Ladungen erzeugen ein elektrisches Querfeld, das die folgenden Elektronen nach unten zieht. Die Ladungstrennung wächst, bis elektrische Kraft und Lorentzkraft gleich groß sind. Zwischen den Kanten liegt dann die Hallspannung $U_H$."
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F_{El} = F_L$: $e \\cdot E = e \\cdot B \\cdot v$ mit $E = \\frac{U_H}{b}$ (homogenes Querfeld über die Breite $b$):\n\n$\\frac{U_H}{b} = B \\cdot v \\Rightarrow U_H = b \\cdot v \\cdot B$"
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$U_H = 4{,}0 \\cdot 10^{-4}\\,\\frac{\\mathrm{m^3}}{\\mathrm{C}} \\cdot \\frac{5{,}0 \\cdot 10^{-3}\\,\\mathrm{A} \\cdot 0{,}10\\,\\mathrm{T}}{2{,}0 \\cdot 10^{-4}\\,\\mathrm{m}} = 1{,}0 \\cdot 10^{-3}\\,\\mathrm{V} = 1{,}0\\,\\mathrm{mV}$"
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$B = \\frac{U_H \\cdot d}{R_H \\cdot I} = \\frac{0{,}35 \\cdot 10^{-3}\\,\\mathrm{V} \\cdot 2{,}0 \\cdot 10^{-4}\\,\\mathrm{m}}{4{,}0 \\cdot 10^{-4}\\,\\frac{\\mathrm{m^3}}{\\mathrm{C}} \\cdot 5{,}0 \\cdot 10^{-3}\\,\\mathrm{A}} = 0{,}035\\,\\mathrm{T} = 35\\,\\mathrm{mT}$ (oder: $U_H \\sim B$, 0,35-mal so groß wie bei 0,10 T)"
+        },
+        {
+          "id": "N5-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Lorentzkraft hängt nur von der Feldkomponente senkrecht zum Plättchen ab. Das Plättchen muss senkrecht zu den Feldlinien stehen; in jeder anderen Lage ist $U_H$ zu klein. Praktisch dreht man die Sonde, bis die Anzeige am größten ist."
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$U_H = 5{,}2 \\cdot 10^{-11} \\cdot \\frac{5{,}0 \\cdot 10^{-3} \\cdot 0{,}10}{2{,}0 \\cdot 10^{-4}}\\,\\mathrm{V} = 1{,}3 \\cdot 10^{-10}\\,\\mathrm{V}$ – kaum messbar."
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$n$ ist die Dichte der freien Ladungsträger. Kupfer hat sehr viele freie Elektronen, ein Halbleiter sehr wenige (hier $n = \\frac{1}{R_H \\cdot e} \\approx 1{,}6 \\cdot 10^{22}\\,\\mathrm{m^{-3}}$). Bei gleichem Strom müssen die wenigen Ladungsträger viel schneller driften; die Lorentzkraft und damit $U_H$ sind viel größer – hier rund 8 Millionen Mal."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Rechnung: $U_H = 4{,}0 \\cdot 10^{-4} \\cdot \\frac{5{,}0 \\cdot 10^{-3} \\cdot 50 \\cdot 10^{-6}}{2{,}0 \\cdot 10^{-4}}\\,\\mathrm{V} = 5{,}0 \\cdot 10^{-7}\\,\\mathrm{V} = 0{,}50\\,\\mathrm{\\mu V}$.\n\nDas ist so klein wie Störspannungen (Thermospannungen an den Kontakten, Rauschen); ohne Verstärkung und Abgleich kann man das Erdfeld damit nicht zuverlässig messen.\n\nEin Smartphone-Sensor verwendet sehr dünne Schichten und Material mit kleiner Ladungsträgerdichte (großes $R_H$), verstärkt das Signal elektronisch, misst in drei Richtungen und wird kalibriert (Nullpunkt, Temperatur, Störfelder von Lautsprecher-Magneten oder Hüllen)."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Lorentzkraft und Kreisbahn",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c7",
+        "c9",
+        "c8",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 18 Minuten. Konstanten: $e = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}$, $m_e = 9{,}109 \\cdot 10^{-31}\\,\\mathrm{kg}$, $c = 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Lorentzkraft_Kreisbahn.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$e \\cdot U_B = \\frac{1}{2} \\cdot m_e \\cdot v^2 \\Rightarrow v = \\sqrt{\\frac{2 \\cdot e \\cdot U_B}{m_e}} = \\sqrt{\\frac{2 \\cdot 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C} \\cdot 6000\\,\\mathrm{V}}{9{,}109 \\cdot 10^{-31}\\,\\mathrm{kg}}} \\approx 4{,}6 \\cdot 10^{7}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{v}{c} = \\frac{4{,}6 \\cdot 10^{7}}{3{,}00 \\cdot 10^{8}} \\approx 0{,}15$: Die Elektronen sind langsamer als ein Fünftel der Lichtgeschwindigkeit. Die relativistisch richtige Geschwindigkeit ist nur etwa 1 % kleiner. Bei Geschwindigkeiten nahe $c$ würde die klassische Formel deutlich zu große Werte liefern."
+        },
+        {
+          "id": "N6-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F_L = e \\cdot B \\cdot v = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C} \\cdot 5{,}0 \\cdot 10^{-3}\\,\\mathrm{T} \\cdot 4{,}59 \\cdot 10^{7}\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\approx 3{,}7 \\cdot 10^{-14}\\,\\mathrm{N}$"
+        },
+        {
+          "id": "N6-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Lorentzkraft wirkt als Zentripetalkraft: $e \\cdot B \\cdot v = \\frac{m_e \\cdot v^2}{r} \\Rightarrow r = \\frac{m_e \\cdot v}{e \\cdot B}$\n\n$r = \\frac{9{,}109 \\cdot 10^{-31}\\,\\mathrm{kg} \\cdot 4{,}59 \\cdot 10^{7}\\,\\mathrm{m/s}}{1{,}602 \\cdot 10^{-19}\\,\\mathrm{C} \\cdot 5{,}0 \\cdot 10^{-3}\\,\\mathrm{T}} \\approx 5{,}2\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N6-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Linke-Hand-Regel: Daumen nach rechts (Bewegung der Elektronen), Zeigefinger in die Zeichenebene (Feld) – der Mittelfinger zeigt **nach unten**. Der Strahl krümmt sich nach unten (Kreisbahn im Uhrzeigersinn)."
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Lorentzkraft steht in jedem Moment senkrecht zur Geschwindigkeit. Arbeit wird nur von einer Kraftkomponente längs des Weges verrichtet – die gibt es hier nicht. Der Betrag der Geschwindigkeit und die kinetische Energie bleiben gleich, nur die Richtung ändert sich."
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$T = \\frac{2\\pi \\cdot r}{v} = \\frac{2\\pi}{v} \\cdot \\frac{m_e \\cdot v}{e \\cdot B} = \\frac{2\\pi \\cdot m_e}{e \\cdot B}$ – $v$ kürzt sich heraus: Schnellere Elektronen laufen auf größeren Kreisen und brauchen gleich lange. (Hier $T \\approx 7{,}1 \\cdot 10^{-9}\\,\\mathrm{s}$.)"
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Zerlegung: $v_\\perp = v \\cdot \\sin(80°) \\approx 4{,}52 \\cdot 10^{7}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ senkrecht zum Feld, $v_\\parallel = v \\cdot \\cos(80°) \\approx 7{,}97 \\cdot 10^{6}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ längs des Feldes. Nur $v_\\perp$ erfährt eine Lorentzkraft (Kreisbewegung), längs des Feldes bewegen sich die Elektronen gleichförmig weiter: Die Bahn ist eine **Schraubenlinie (Helix)**.\n\nRadius: $r = \\frac{m_e \\cdot v_\\perp}{e \\cdot B} \\approx 5{,}1\\,\\mathrm{cm}$\n\nGanghöhe: In einer Umlaufdauer $T = \\frac{2\\pi \\cdot m_e}{e \\cdot B} \\approx 7{,}15 \\cdot 10^{-9}\\,\\mathrm{s}$ legt das Elektron längs des Feldes $p = v_\\parallel \\cdot T \\approx 5{,}7\\,\\mathrm{cm}$ zurück."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Messreihe: Elektronenmasse mit dem Fadenstrahlrohr",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument, Tabellenkalkulation",
+      "checkliste": [
+        "c10",
+        "c8",
+        "c9",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit, WTR, Formeldokument und Tabellenkalkulation, 20 Minuten. Beispielmessung mit dem Fadenstrahlrohr (im Skript: Thomson-Röhre). Konstante: $e = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}$.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Fadenstrahlrohr.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Glühkathode setzt durch Erhitzen Elektronen frei. Die Anode (mit Loch) beschleunigt sie und formt einen Strahl. Die Gasatome werden von einzelnen Elektronen zum Leuchten angeregt und machen die Bahn sichtbar."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beschleunigung (Energiesatz): $e \\cdot U_B = \\frac{1}{2} \\cdot m_e \\cdot v^2$\n\nKreisbahn ($F_L = F_{ZP}$): $e \\cdot B \\cdot v = \\frac{m_e \\cdot v^2}{r} \\Rightarrow v = \\frac{e \\cdot B \\cdot r}{m_e}$\n\nEinsetzen: $e \\cdot U_B = \\frac{1}{2} \\cdot m_e \\cdot \\frac{e^2 \\cdot B^2 \\cdot r^2}{m_e^2} \\Rightarrow m_e = \\frac{e \\cdot B^2 \\cdot r^2}{2 \\cdot U_B}$"
+        },
+        {
+          "id": "N7-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$r^2$ in $\\mathrm{cm^2}$: 12,96; 15,21; 17,64; 19,36; 22,09; 24,01. Die Punkte liegen nahezu auf einer Ursprungsgeraden – nach der Formel gilt $r^2 = \\frac{2 \\cdot m_e}{e \\cdot B^2} \\cdot U_B$.",
+          "loesung_bild": "img/N7-1c.png"
+        },
+        {
+          "id": "N7-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ausgleichs-Ursprungsgerade: Steigung $k \\approx 0{,}0794\\,\\frac{\\mathrm{cm^2}}{\\mathrm{V}} = 7{,}94 \\cdot 10^{-6}\\,\\frac{\\mathrm{m^2}}{\\mathrm{V}}$\n\n$k = \\frac{2 \\cdot m_e}{e \\cdot B^2} \\Rightarrow m_e = \\frac{k \\cdot e \\cdot B^2}{2} = \\frac{7{,}94 \\cdot 10^{-6} \\cdot 1{,}602 \\cdot 10^{-19} \\cdot (1{,}20 \\cdot 10^{-3})^2}{2}\\,\\mathrm{kg} \\approx 9{,}16 \\cdot 10^{-31}\\,\\mathrm{kg}$"
+        },
+        {
+          "id": "N7-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Abweichung: $\\frac{9{,}16 - 9{,}109}{9{,}109} \\approx 0{,}6\\,\\%$ – sehr gute Übereinstimmung (die Einzelwerte streuen zwischen etwa $8{,}9$ und $9{,}3 \\cdot 10^{-31}\\,\\mathrm{kg}$)."
+        },
+        {
+          "id": "N7-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Man peilt so, dass der Leuchtstrahl und sein Spiegelbild in der Skala übereinander liegen; dann blickt man senkrecht auf die Skala, und Strahl und Skala liegen in einer Sichtlinie.\n\nEin Fehler von $1\\,\\mathrm{mm}$ bei $r = 4{,}0\\,\\mathrm{cm}$ sind 2,5 %. Da $r$ im Quadrat eingeht, ändert sich $m_e$ um etwa 5 %."
+        },
+        {
+          "id": "N7-1g",
+          "label": "1g",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Nur eingeschränkt richtig. Gemessen werden $U_B$, $B$ und $r$; daraus folgt nur das Verhältnis $\\frac{e}{m_e} = \\frac{2 \\cdot U_B}{B^2 \\cdot r^2}$, die **spezifische Ladung** (hier $\\approx 1{,}75 \\cdot 10^{11}\\,\\frac{\\mathrm{C}}{\\mathrm{kg}}$).\n\nDie Masse erhält man erst mit dem unabhängig bestimmten Wert der Elementarladung $e$ (aus dem Millikan-Versuch). Zusätzlich beruht das Ergebnis auf Modellannahmen: homogenes Feld, keine Energieverluste im Gas, Startgeschwindigkeit null, $v \\ll c$."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Massenspektrometer und Teilchenbeschleuniger",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 21,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c11",
+        "c9",
+        "c8",
+        "c7",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 21 Minuten. Konstanten: $e = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}$, $m_p = 1{,}673 \\cdot 10^{-27}\\,\\mathrm{kg}$, $1\\,\\mathrm{u} = 1{,}661 \\cdot 10^{-27}\\,\\mathrm{kg}$, $c = 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Massenspektrometer_Beschleuniger.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Geradlinig fliegen nur Ionen, auf die sich elektrische Kraft und Lorentzkraft aufheben: $q \\cdot E = q \\cdot B \\cdot v \\Rightarrow v = \\frac{E}{B}$\n\n$v = \\frac{5{,}0 \\cdot 10^{4}\\,\\mathrm{V/m}}{0{,}25\\,\\mathrm{T}} = 2{,}0 \\cdot 10^{5}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ (unabhängig von Masse und Ladung)"
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$r = \\frac{m \\cdot v}{q \\cdot B}$:\n\n$r_{44} = \\frac{44 \\cdot 1{,}661 \\cdot 10^{-27}\\,\\mathrm{kg} \\cdot 2{,}0 \\cdot 10^{5}\\,\\mathrm{m/s}}{1{,}602 \\cdot 10^{-19}\\,\\mathrm{C} \\cdot 0{,}25\\,\\mathrm{T}} \\approx 36{,}5\\,\\mathrm{cm}$, $r_{45} \\approx 37{,}3\\,\\mathrm{cm}$\n\nNach einem Halbkreis liegen die Auftreffpunkte $2 \\cdot r$ vom Eintritt entfernt: Abstand $2 \\cdot (r_{45} - r_{44}) \\approx 1{,}7\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N8-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Er lässt nur Ionen einer Geschwindigkeit durch. Dann hängt der Radius nur noch von der Masse (genauer $\\frac{m}{q}$) ab – sonst würden schnelle leichte und langsame schwere Ionen an dieselbe Stelle treffen."
+        },
+        {
+          "id": "N8-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f = \\frac{1}{T} = \\frac{e \\cdot B}{2\\pi \\cdot m_p} = \\frac{1{,}602 \\cdot 10^{-19}\\,\\mathrm{C} \\cdot 1{,}5\\,\\mathrm{T}}{2\\pi \\cdot 1{,}673 \\cdot 10^{-27}\\,\\mathrm{kg}} \\approx 22{,}9\\,\\mathrm{MHz}$ – für alle Bahnradien gleich, deshalb genügt eine Wechselspannung fester Frequenz."
+        },
+        {
+          "id": "N8-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$v = \\frac{e \\cdot B \\cdot r}{m_p} = \\frac{1{,}602 \\cdot 10^{-19} \\cdot 1{,}5 \\cdot 0{,}40}{1{,}673 \\cdot 10^{-27}}\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\approx 5{,}7 \\cdot 10^{7}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ (etwa $0{,}19\\,c$)\n\n$E_{kin} = \\frac{1}{2} \\cdot m_p \\cdot v^2 \\approx 2{,}8 \\cdot 10^{-12}\\,\\mathrm{J}$"
+        },
+        {
+          "id": "N8-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Das elektrische Wechselfeld im Spalt zwischen den beiden Duanten beschleunigt die Protonen bei jedem Durchgang. Das Magnetfeld zwingt sie auf Halbkreise, sodass sie immer wieder durch den Spalt laufen; es ändert ihre Energie nicht."
+        },
+        {
+          "id": "N8-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "In jeder Röhre fliegen die Teilchen feldfrei, während die Spannung umpolt; jede Röhre muss also in einer halben Periode durchflogen werden. Nach jedem Spalt sind die Teilchen schneller und legen in dieser Zeit eine längere Strecke zurück."
+        },
+        {
+          "id": "N8-3b",
+          "label": "3b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Aus $r = \\frac{m \\cdot v}{q \\cdot B}$ folgt bei festem $r$: $B = \\frac{m \\cdot v}{q \\cdot r}$. Mit wachsender Geschwindigkeit muss $B$ synchron mit $v$ erhöht werden (daher der Name).\n\nNähert sich $v$ der Lichtgeschwindigkeit, wächst $v$ kaum noch, die Energie aber weiter. Die klassischen Formeln ($E_{kin} = \\frac{1}{2} m v^2$, $r = \\frac{m v}{q B}$ mit konstanter Masse) gelten dann nicht mehr; schon bei etwa $0{,}2\\,c$ weichen sie um einige Prozent ab. Große Beschleuniger müssen relativistisch gerechnet werden."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Vorhersagen – beobachten – erklären: Induktion und Lenz’sche Regel",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 18,
+      "hilfsmittel": "Spule (600 Windungen), Stabmagnet, Messgerät mit Nullpunkt in der Mitte, Aluminiumringe an Fäden (geschlossen und geschlitzt)",
+      "checkliste": [
+        "c12",
+        "c14",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit, 18 Minuten. Material: Spule mit 600 Windungen, Stabmagnet, Spannungsmessgerät mit Nullpunkt in der Mitte (Millivolt-Bereich), ein geschlossener und ein geschlitzter Aluminiumring an Fäden. Ohne Material: Aufgabe 1 mit der PhET-Simulation „Faradays elektromagnetisches Labor“ (Bildschirm Spule), Aufgabe 2 mit den Beobachtungen im Kasten. Erst vorhersagen, dann beobachten, dann erklären.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_VBE_Induktion.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zum Beispiel: „Beim Hineinschieben schlägt der Zeiger aus, beim Herausziehen zur anderen Seite, in Ruhe nicht.“ (Jede begründete Vermutung zählt.)"
+        },
+        {
+          "id": "N9-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Hineinschieben: Ausschlag zu einer Seite · Ruhe: kein Ausschlag · Herausziehen: Ausschlag zur anderen Seite · schnell: größerer, kürzerer Ausschlag · Südpol voran: Ausschlag zur Gegenseite von „Nordpol voran“."
+        },
+        {
+          "id": "N9-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Eine Spannung wird nur induziert, solange sich die Flussdichte $B$ in der Spule ändert ($U_{Ind} = -N \\cdot A \\cdot \\frac{\\Delta B}{\\Delta t}$). Ruht der Magnet, ändert sich nichts – keine Spannung.\n\nHinein: $B$ nimmt zu; heraus: $B$ nimmt ab – umgekehrtes Vorzeichen. Schneller: größere Änderungsrate, größere Spannung. Südpol voran: Das Feld zeigt in die Gegenrichtung, seine Zunahme ist umgekehrt gerichtet – umgekehrte Polung."
+        },
+        {
+          "id": "N9-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Hypothese: jede begründete Vermutung zählt (häufig: „Der Ring wird angezogen“).\n\nBeobachtung: Beim Annähern weicht der Ring zurück (Abstoßung), beim Herausziehen folgt er dem Magneten (Anziehung)."
+        },
+        {
+          "id": "N9-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Ring wird ein Strom induziert. Lenz’sche Regel: Der Induktionsstrom ist so gerichtet, dass sein Magnetfeld der Ursache – der Änderung – entgegenwirkt.\n\nAnnähern: Die Flussdichte im Ring nimmt zu; der Ringstrom erzeugt ein Gegenfeld, der Ring zeigt dem Magneten einen **Nordpol** – Abstoßung. Herausziehen: Die Flussdichte nimmt ab; der Ring zeigt dem Nordpol einen **Südpol** – Anziehung. Beide Male wird die Bewegung gebremst."
+        },
+        {
+          "id": "N9-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Auch im geschlitzten Ring wird eine Spannung induziert, aber der Stromkreis ist unterbrochen: Es fließt kein Strom, also entsteht kein Magnetfeld und keine Kraft."
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage stimmt. Würde der Ring angezogen, beschleunigte er auf den Magneten zu; der Strom würde dadurch noch größer, die Anziehung stärker – Bewegungsenergie und elektrische Energie würden ohne Zutun wachsen. Das widerspricht dem Energieerhaltungssatz.\n\nTatsächlich muss man gegen die abstoßende Kraft Arbeit verrichten; genau diese Arbeit wird im Ring zu elektrischer Energie und schließlich zu Wärme. Die Lenz’sche Regel ist eine Folge der Energieerhaltung."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Das Induktionsgesetz anwenden",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c13",
+        "c12",
+        "c5",
+        "g1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 18 Minuten. Konstante: $\\mu_0 = 1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}}$.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Induktionsgesetz.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$B_{max} = \\mu_0 \\cdot \\frac{I \\cdot N_1}{l} = 1{,}257 \\cdot 10^{-6} \\cdot \\frac{3{,}0 \\cdot 500}{0{,}40}\\,\\mathrm{T} \\approx 4{,}7\\,\\mathrm{mT}$"
+        },
+        {
+          "id": "N10-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$0$ bis $0{,}20\\,\\mathrm{s}$: $U_{Ind} = -N_2 \\cdot A \\cdot \\frac{\\Delta B}{\\Delta t} = -200 \\cdot 12 \\cdot 10^{-4}\\,\\mathrm{m^2} \\cdot \\frac{4{,}71 \\cdot 10^{-3}\\,\\mathrm{T}}{0{,}20\\,\\mathrm{s}} \\approx -5{,}7\\,\\mathrm{mV}$\n\n$0{,}20$ bis $0{,}50\\,\\mathrm{s}$: $B$ konstant, $U_{Ind} = 0$\n\n$0{,}50$ bis $0{,}60\\,\\mathrm{s}$: $B$ fällt in der halben Zeit um denselben Betrag, $U_{Ind} \\approx +11{,}3\\,\\mathrm{mV}$ (doppelter Betrag, umgekehrtes Vorzeichen)"
+        },
+        {
+          "id": "N10-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Rechteckpulse: $-5{,}7\\,\\mathrm{mV}$ von $0$ bis $0{,}20\\,\\mathrm{s}$, null bis $0{,}50\\,\\mathrm{s}$, $+11{,}3\\,\\mathrm{mV}$ bis $0{,}60\\,\\mathrm{s}$, danach null.",
+          "loesung_bild": "img/N10-1c.png"
+        },
+        {
+          "id": "N10-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die durchsetzte Fläche wächst pro Sekunde um $\\frac{\\Delta A}{\\Delta t} = 0{,}040\\,\\mathrm{m} \\cdot 0{,}50\\,\\frac{\\mathrm{m}}{\\mathrm{s}} = 0{,}020\\,\\frac{\\mathrm{m^2}}{\\mathrm{s}}$:\n\n$\\left| U_{Ind} \\right| = N \\cdot B \\cdot \\frac{\\Delta A}{\\Delta t} = 50 \\cdot 0{,}30\\,\\mathrm{T} \\cdot 0{,}020\\,\\frac{\\mathrm{m^2}}{\\mathrm{s}} = 0{,}30\\,\\mathrm{V}$"
+        },
+        {
+          "id": "N10-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Hineinfahren ($0$ bis $0{,}12\\,\\mathrm{s}$, $6\\,\\mathrm{cm}$ bei $0{,}50\\,\\mathrm{m/s}$): $A$ nimmt zu, $U_{Ind} = -0{,}30\\,\\mathrm{V}$.\n\nGanz im Feld ($0{,}12$ bis $0{,}20\\,\\mathrm{s}$): $A$ konstant, $U_{Ind} = 0$.\n\nHerausfahren ($0{,}20$ bis $0{,}32\\,\\mathrm{s}$): $A$ nimmt ab, $U_{Ind} = +0{,}30\\,\\mathrm{V}$.",
+          "loesung_bild": "img/N10-2b.png"
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Elektronen bewegen sich mit dem Stab; die Lorentzkraft $e \\cdot B \\cdot v$ schiebt sie an ein Ende. Es entsteht ein elektrisches Feld $E = \\frac{U}{l}$, bis $e \\cdot E = e \\cdot B \\cdot v$ (wie beim Hall-Effekt):\n\n$\\frac{U}{l} = B \\cdot v \\Rightarrow U = B \\cdot l \\cdot v$ – dasselbe wie $B \\cdot \\frac{\\Delta A}{\\Delta t}$ mit $\\frac{\\Delta A}{\\Delta t} = l \\cdot v$."
+        },
+        {
+          "id": "N10-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "(1) richtig: $U_{Ind} \\sim N_2$ – doppelt.\n\n(2) richtig: gleiche Änderung von $B$ in der halben Zeit – doppelte Änderungsrate, doppelte Spannung.\n\n(3) falsch: doppelter Durchmesser bedeutet vierfache Fläche, also vierfache Spannung – vorausgesetzt, die Induktionsspule passt noch ganz in die Feldspule.\n\n(4) falsch: Die Windungen liegen weniger dicht, $B$ und damit die Spannung halbieren sich."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Generator und Wirbelströme",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c15",
+        "c14",
+        "c12",
+        "c1",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 18 Minuten.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Generator_Wirbelstroeme.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "An einer Spule laufen abwechselnd Nord- und Südpole vorbei. Die Flussdichte in der Spule ändert dabei ständig Betrag und Richtung; die Induktionsspannung wechselt deshalb periodisch ihr Vorzeichen – eine (näherungsweise sinusförmige) Wechselspannung."
+        },
+        {
+          "id": "N11-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Pro Umdrehung laufen 8 Polpaare vorbei, also 8 volle Perioden. $f = 8 \\cdot \\frac{360}{60\\,\\mathrm{s}} = 8 \\cdot 6{,}0\\,\\mathrm{Hz} = 48\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "N11-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beide verdoppeln sich: doppelt so viele Polwechsel pro Sekunde und doppelte Änderungsrate der Flussdichte."
+        },
+        {
+          "id": "N11-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Kommutator (Stromwender) polt die Anschlüsse der Spule bei jeder halben Umdrehung um. Aus der Wechselspannung wird eine pulsierende Gleichspannung (gleiches Vorzeichen, schwankender Betrag)."
+        },
+        {
+          "id": "N11-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Mit angeschlossenen Geräten fließt in den Spulen ein Strom. Nach der Lenz’schen Regel erzeugt er ein Magnetfeld, das der Ursache – der Drehung der Magnete – entgegenwirkt. Die bremsende Kraft wächst mit dem Strom; das Windrad muss mehr Arbeit verrichten, die als elektrische Energie abgegeben wird."
+        },
+        {
+          "id": "N11-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die rotierenden Magnete ändern die Flussdichte im Aluminium sehr schnell. Im leitenden Aluminium werden dadurch kreisförmige Ströme induziert (**Wirbelströme**). Nach der Lenz’schen Regel wirken ihre Magnetfelder der Änderung entgegen: Die Dose wird von den vorbeilaufenden Polen abgestoßen und in Laufrichtung mitgerissen."
+        },
+        {
+          "id": "N11-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Kunststoff und Glas sind Isolatoren: Es fließen keine Wirbelströme. Eisen ist ferromagnetisch und würde von der Walze angezogen und festgehalten statt weggeschleudert – deshalb trennt man es vorher mit einem Magneten ab."
+        },
+        {
+          "id": "N11-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Stärkere Magnete erhöhen bei gleicher Drehzahl die induzierte Spannung und damit den Strom in den Geräten. Ein größerer Strom bremst nach der Lenz’schen Regel aber stärker: Das Windrad muss mehr Arbeit verrichten.\n\nNach dem Energieerhaltungssatz kann der Generator höchstens so viel elektrische Energie abgeben, wie ihm als Bewegungsenergie zugeführt wird (abzüglich Verlusten). Stärkere Magnete helfen nur, die verfügbare Windenergie bei kleiner Drehzahl besser zu nutzen."
+        }
+      ]
+    },
+    {
+      "id": "N15",
+      "titel": "eA: Induktivität und Selbstinduktion",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c16",
+        "c13",
+        "c14",
+        "c5"
+      ],
+      "kategorie": "neu",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR und Formeldokument zugelassen, 16 Minuten. Am besten nach N11. Konstante: $\\mu_0 = 1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}}$.",
+      "bild": "img/st_N15.svg",
+      "pdf": "pdf/N15_eA_Induktivitaet.pdf",
+      "aufgaben": [
+        {
+          "id": "N15-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$L = \\mu_0 \\cdot \\frac{N^2 \\cdot A}{l} = 1{,}257 \\cdot 10^{-6} \\cdot \\frac{1200^2 \\cdot 12 \\cdot 10^{-4}}{0{,}30}\\,\\mathrm{H} \\approx 7{,}2 \\cdot 10^{-3}\\,\\mathrm{H} = 7{,}2\\,\\mathrm{mH}$"
+        },
+        {
+          "id": "N15-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$L = 300 \\cdot 7{,}24\\,\\mathrm{mH} \\approx 2{,}2\\,\\mathrm{H}$"
+        },
+        {
+          "id": "N15-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$U_{Ind} = -L \\cdot \\frac{\\Delta I}{\\Delta t} = -7{,}24 \\cdot 10^{-3}\\,\\mathrm{H} \\cdot \\frac{2{,}0\\,\\mathrm{A}}{0{,}020\\,\\mathrm{s}} \\approx -0{,}72\\,\\mathrm{V}$"
+        },
+        {
+          "id": "N15-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der wachsende Strom erzeugt ein wachsendes Magnetfeld in der eigenen Spule. Diese Änderung der Flussdichte induziert in derselben Spule eine Spannung (Selbstinduktion).\n\nNach der Lenz’schen Regel wirkt sie ihrer Ursache, dem Stromanstieg, entgegen – sie ist der angelegten Spannung entgegengerichtet. Der Strom steigt deshalb nur allmählich an."
+        },
+        {
+          "id": "N15-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$U_{Ind}(t) = -L \\cdot \\dot{I}(t) = -L \\cdot 0{,}50\\,\\mathrm{A} \\cdot \\omega \\cdot \\cos(\\omega \\cdot t)$ mit $\\omega = 2\\pi \\cdot 50\\,\\mathrm{Hz} \\approx 314\\,\\frac{1}{\\mathrm{s}}$\n\nScheitelwert: $0{,}40\\,\\mathrm{H} \\cdot 0{,}50\\,\\mathrm{A} \\cdot 314\\,\\frac{1}{\\mathrm{s}} \\approx 63\\,\\mathrm{V}$ – er tritt auf, wenn der Strom gerade null ist und am schnellsten wächst."
+        },
+        {
+          "id": "N15-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Beim Ausschalten sinkt der Strom sehr schnell. Abschätzung: $\\left| U_{Ind} \\right| = L \\cdot \\frac{\\Delta I}{\\Delta t} = 2{,}2\\,\\mathrm{H} \\cdot \\frac{0{,}15\\,\\mathrm{A}}{1 \\cdot 10^{-3}\\,\\mathrm{s}} \\approx 330\\,\\mathrm{V}$ – weit über der Zündspannung.\n\nDie Spannung ist so gerichtet, dass sie den Strom aufrechterhalten will (Lenz); der Strom fließt kurz durch die Lampe weiter. Die Energie stammt aus dem Magnetfeld der Spule, nicht aus der Batterie. Die Größe der Spannung hängt nicht von $U_0$, sondern von der Schnelligkeit der Stromänderung ab."
+        }
+      ]
+    },
+    {
+      "id": "N16",
+      "titel": "eA: Ein- und Ausschaltvorgänge an der Spule",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c17",
+        "c16",
+        "c14"
+      ],
+      "kategorie": "neu",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR und Formeldokument zugelassen, 16 Minuten. Am besten nach N15.",
+      "bild": "img/st_N16.svg",
+      "pdf": "pdf/N16_eA_Schaltvorgaenge.pdf",
+      "aufgaben": [
+        {
+          "id": "N16-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Nach langer Zeit ändert sich der Strom nicht mehr, es wird keine Spannung mehr induziert: $I_0 = \\frac{U_0}{R} = \\frac{6{,}0\\,\\mathrm{V}}{12\\,\\Omega} = 0{,}50\\,\\mathrm{A}$"
+        },
+        {
+          "id": "N16-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{R}{L} = \\frac{12\\,\\Omega}{0{,}60\\,\\mathrm{H}} = 20\\,\\frac{1}{\\mathrm{s}}$, also $\\frac{R}{L} \\cdot t = 2{,}0$:\n\n$I = 0{,}50\\,\\mathrm{A} \\cdot (1 - e^{-2{,}0}) \\approx 0{,}50\\,\\mathrm{A} \\cdot 0{,}865 \\approx 0{,}43\\,\\mathrm{A}$"
+        },
+        {
+          "id": "N16-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Kurve beginnt bei null mit größter Steigung und nähert sich $0{,}50\\,\\mathrm{A}$ an; nach $0{,}05\\,\\mathrm{s}$ sind 63 % erreicht ($0{,}32\\,\\mathrm{A}$), nach $0{,}25\\,\\mathrm{s}$ über 99 %.",
+          "loesung_bild": "img/N16-1c.png"
+        },
+        {
+          "id": "N16-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E = \\frac{1}{2} \\cdot L \\cdot I^2 = \\frac{1}{2} \\cdot 0{,}60\\,\\mathrm{H} \\cdot (0{,}50\\,\\mathrm{A})^2 = 0{,}075\\,\\mathrm{J}$"
+        },
+        {
+          "id": "N16-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Strom fließt in gleicher Richtung weiter und nimmt nach $I(t) = 0{,}50\\,\\mathrm{A} \\cdot e^{-20 \\cdot t}$ ab (nach $0{,}05\\,\\mathrm{s}$ noch 37 %).\n\nDie Selbstinduktionsspannung hält den Strom aufrecht. Die Energie des Magnetfelds ($0{,}075\\,\\mathrm{J}$) wird dabei im Widerstand vollständig in Wärme umgewandelt."
+        },
+        {
+          "id": "N16-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Ohne Diode wird der Stromkreis schlagartig unterbrochen, $\\frac{\\Delta I}{\\Delta t}$ ist sehr groß. Die Selbstinduktionsspannung $-L \\cdot \\frac{\\Delta I}{\\Delta t}$ wird sehr hoch (Hunderte Volt) – der Transistor kann durchschlagen, an Kontakten entstehen Funken.\n\nDie Energie des Magnetfelds muss irgendwohin. Mit Diode kann der Strom im Kreis aus Spule und Diode langsam abklingen; die Energie wird harmlos in Wärme umgesetzt. Die Diode ist also nötig."
+        }
+      ]
+    },
+    {
+      "id": "N17",
+      "titel": "eA: Schwingkreis und frequenzabhängige Widerstände",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c18",
+        "c16"
+      ],
+      "kategorie": "neu",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR und Formeldokument zugelassen, 16 Minuten. Am besten nach N16.",
+      "bild": "img/st_N17.svg",
+      "pdf": "pdf/N17_eA_Schwingkreis.pdf",
+      "aufgaben": [
+        {
+          "id": "N17-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$X_C = \\frac{1}{2\\pi \\cdot f \\cdot C}$: bei $100\\,\\mathrm{Hz}$ etwa $339\\,\\Omega$, bei $10\\,\\mathrm{kHz}$ etwa $3{,}4\\,\\Omega$."
+        },
+        {
+          "id": "N17-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$X_L = 2\\pi \\cdot f \\cdot L$: bei $100\\,\\mathrm{Hz}$ etwa $0{,}63\\,\\Omega$, bei $10\\,\\mathrm{kHz}$ etwa $63\\,\\Omega$."
+        },
+        {
+          "id": "N17-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Tiefe Töne: Der Kondensator sperrt ($339\\,\\Omega \\gg 8\\,\\Omega$), die Spule lässt durch – der Strom fließt zum Tieftöner. Hohe Töne: umgekehrt, der Kondensator lässt durch ($3{,}4\\,\\Omega$), die Spule sperrt ($63\\,\\Omega$). Jeder Lautsprecher erhält so nur den Frequenzbereich, für den er gebaut ist; der Hochtöner wird vor tiefen Tönen mit großen Auslenkungen geschützt."
+        },
+        {
+          "id": "N17-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$f = \\frac{1}{2\\pi \\cdot \\sqrt{L \\cdot C}} = \\frac{1}{2\\pi \\cdot \\sqrt{1{,}0 \\cdot 10^{-3}\\,\\mathrm{H} \\cdot 4{,}7 \\cdot 10^{-6}\\,\\mathrm{F}}} \\approx 2{,}3\\,\\mathrm{kHz}$ – etwa dort, wo die Weiche zwischen Hoch- und Tieftöner umschaltet."
+        },
+        {
+          "id": "N17-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zu Beginn steckt die Energie im elektrischen Feld des Kondensators. Er entlädt sich über die Spule; der Strom wächst, die Energie geht ins Magnetfeld der Spule über. Ist der Kondensator leer, ist der Strom maximal. Durch Selbstinduktion fließt der Strom weiter und lädt den Kondensator umgekehrt auf – und so fort.\n\nFederpendel: Spannenergie der Feder ↔ Bewegungsenergie. Die Kondensatorenergie entspricht der Spannenergie, die Feldenergie der Spule der Bewegungsenergie (Ladung ↔ Auslenkung, Strom ↔ Geschwindigkeit)."
+        },
+        {
+          "id": "N17-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Drähte (vor allem der Spule) haben einen ohmschen Widerstand; bei jedem Umlauf der Ladung wird ein Teil der Energie in Wärme umgewandelt (dazu ein wenig Abstrahlung). Die Amplitude sinkt – gedämpfte Schwingung, wie ein Federpendel mit Reibung.\n\nVierfache Induktivität: $T \\sim \\sqrt{L}$ verdoppelt sich, die Frequenz halbiert sich (etwa $1{,}2\\,\\mathrm{kHz}$)."
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "titel": "Tandem: Rechnen im Magnetfeld",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c13",
+        "c4",
+        "c5",
+        "c7",
+        "c8",
+        "c9",
+        "c12"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets, WTR. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. Konstanten: $e = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C}$, $m_e = 9{,}109 \\cdot 10^{-31}\\,\\mathrm{kg}$, $m_p = 1{,}673 \\cdot 10^{-27}\\,\\mathrm{kg}$, $1\\,\\mathrm{u} = 1{,}661 \\cdot 10^{-27}\\,\\mathrm{kg}$, $\\mu_0 = 1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}}$.",
+      "bild": "img/st_N12.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N12-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Leiterstück von $8{,}0\\,\\mathrm{cm}$ Länge führt $3{,}0\\,\\mathrm{A}$ und liegt senkrecht in einem Feld mit $B = 0{,}25\\,\\mathrm{T}$. Berechnen Sie die Kraft auf das Leiterstück.",
+          "tipp": "$F = B \\cdot I \\cdot l$, Länge in Metern.",
+          "loesung": "$F = 0{,}25\\,\\mathrm{T} \\cdot 3{,}0\\,\\mathrm{A} \\cdot 0{,}080\\,\\mathrm{m} = 0{,}060\\,\\mathrm{N}$"
+        },
+        {
+          "id": "N12-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Eine lange Luftspule hat 500 Windungen, ist $25\\,\\mathrm{cm}$ lang und führt $2{,}0\\,\\mathrm{A}$. Berechnen Sie die Flussdichte im Inneren.",
+          "tipp": "$B = \\mu_0 \\cdot \\frac{I \\cdot N}{l}$.",
+          "loesung": "$B = 1{,}257 \\cdot 10^{-6} \\cdot \\frac{2{,}0 \\cdot 500}{0{,}25}\\,\\mathrm{T} \\approx 5{,}0 \\cdot 10^{-3}\\,\\mathrm{T} = 5{,}0\\,\\mathrm{mT}$"
+        },
+        {
+          "id": "N12-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Proton fliegt mit $2{,}0 \\cdot 10^{6}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ senkrecht in ein Feld mit $B = 0{,}40\\,\\mathrm{T}$. Berechnen Sie die Lorentzkraft und den Bahnradius.",
+          "tipp": "$F_L = e \\cdot B \\cdot v$; Kreisbahn: $r = \\frac{m \\cdot v}{e \\cdot B}$.",
+          "loesung": "$F_L = 1{,}602 \\cdot 10^{-19} \\cdot 0{,}40 \\cdot 2{,}0 \\cdot 10^{6}\\,\\mathrm{N} \\approx 1{,}3 \\cdot 10^{-13}\\,\\mathrm{N}$\n\n$r = \\frac{1{,}673 \\cdot 10^{-27} \\cdot 2{,}0 \\cdot 10^{6}}{1{,}602 \\cdot 10^{-19} \\cdot 0{,}40}\\,\\mathrm{m} \\approx 5{,}2\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N12-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Elektron wird aus der Ruhe mit $2{,}5\\,\\mathrm{kV}$ beschleunigt. Berechnen Sie seine Geschwindigkeit.",
+          "tipp": "$e \\cdot U = \\frac{1}{2} \\cdot m_e \\cdot v^2$.",
+          "loesung": "$v = \\sqrt{\\frac{2 \\cdot 1{,}602 \\cdot 10^{-19} \\cdot 2500}{9{,}109 \\cdot 10^{-31}}}\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\approx 3{,}0 \\cdot 10^{7}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "N12-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "In einer Spule ($N = 300$, $A = 20\\,\\mathrm{cm^2}$) steigt die Flussdichte gleichmäßig in $0{,}050\\,\\mathrm{s}$ um $0{,}15\\,\\mathrm{T}$. Berechnen Sie den Betrag der Induktionsspannung.",
+          "tipp": "$\\left| U_{Ind} \\right| = N \\cdot A \\cdot \\frac{\\Delta B}{\\Delta t}$, Fläche in $\\mathrm{m^2}$.",
+          "loesung": "$\\left| U_{Ind} \\right| = 300 \\cdot 20 \\cdot 10^{-4}\\,\\mathrm{m^2} \\cdot \\frac{0{,}15\\,\\mathrm{T}}{0{,}050\\,\\mathrm{s}} = 1{,}8\\,\\mathrm{V}$"
+        },
+        {
+          "id": "N12-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein $40\\,\\mathrm{cm}$ langer Metallstab bewegt sich mit $3{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ senkrecht durch ein Feld mit $B = 0{,}20\\,\\mathrm{T}$. Berechnen Sie die Spannung zwischen seinen Enden.",
+          "tipp": "$U = B \\cdot l \\cdot v$.",
+          "loesung": "$U = 0{,}20\\,\\mathrm{T} \\cdot 0{,}40\\,\\mathrm{m} \\cdot 3{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}} = 0{,}24\\,\\mathrm{V}$"
+        },
+        {
+          "id": "N12-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein einfach positiv geladenes Ion der Masse $7{,}0\\,\\mathrm{u}$ kreist in einem Feld mit $B = 0{,}50\\,\\mathrm{T}$. Berechnen Sie seine Umlaufdauer.",
+          "tipp": "$T = \\frac{2\\pi \\cdot m}{q \\cdot B}$ – unabhängig von der Geschwindigkeit.",
+          "loesung": "$T = \\frac{2\\pi \\cdot 7{,}0 \\cdot 1{,}661 \\cdot 10^{-27}}{1{,}602 \\cdot 10^{-19} \\cdot 0{,}50}\\,\\mathrm{s} \\approx 9{,}1 \\cdot 10^{-7}\\,\\mathrm{s}$"
+        },
+        {
+          "id": "N12-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Eine quadratische Spule ($N = 20$, Seitenlänge $5{,}0\\,\\mathrm{cm}$) wird in $0{,}10\\,\\mathrm{s}$ gleichmäßig ganz aus einem Feld mit $B = 0{,}80\\,\\mathrm{T}$ herausgezogen. Berechnen Sie den Betrag der Induktionsspannung.",
+          "tipp": "$\\left| U_{Ind} \\right| = N \\cdot B \\cdot \\frac{\\Delta A}{\\Delta t}$, die Fläche nimmt ganz ab.",
+          "loesung": "$\\Delta A = (0{,}050\\,\\mathrm{m})^2 = 2{,}5 \\cdot 10^{-3}\\,\\mathrm{m^2}$\n\n$\\left| U_{Ind} \\right| = 20 \\cdot 0{,}80\\,\\mathrm{T} \\cdot \\frac{2{,}5 \\cdot 10^{-3}\\,\\mathrm{m^2}}{0{,}10\\,\\mathrm{s}} = 0{,}40\\,\\mathrm{V}$"
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c14",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c9"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Jede Lösung A bis F enthält genau einen typischen Fehler.",
+      "bild": "img/st_N13.svg",
+      "pdf": "pdf/N13_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N13-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Linke-Hand-Regel gilt mit der **Elektronenflussrichtung**; Lösung A setzt die technische Stromrichtung ein. Richtig: Daumen nach rechts, Zeigefinger nach unten – die Kraft zeigt **aus der Zeichenebene heraus**."
+        },
+        {
+          "id": "N13-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In der Formel steht die **Länge der Spule**, nicht die Länge des Drahtes:\n\n$B = 1{,}257 \\cdot 10^{-6} \\cdot \\frac{1{,}5 \\cdot 400}{0{,}10}\\,\\mathrm{T} \\approx 7{,}5 \\cdot 10^{-3}\\,\\mathrm{T} = 7{,}5\\,\\mathrm{mT}$"
+        },
+        {
+          "id": "N13-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch. Bei gleichem Strom müssen viele Ladungsträger nur sehr langsam driften; die Lorentzkraft $e \\cdot B \\cdot v$ auf jeden ist klein, und schon eine kleine Hallspannung hält ihr das Gleichgewicht. Formal: $U_H = R_H \\cdot \\frac{I \\cdot B}{d}$ mit $R_H = \\frac{1}{n \\cdot e}$ – je größer $n$, desto kleiner $U_H$. Deshalb nimmt man Halbleiter."
+        },
+        {
+          "id": "N13-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Teilweise richtig: Das Elektron wird beschleunigt – aber nur in der Richtung (Zentripetalbeschleunigung). Die Lorentzkraft steht immer senkrecht zur Geschwindigkeit und verrichtet keine Arbeit; der Betrag der Geschwindigkeit und die kinetische Energie bleiben gleich. Schneller wird es nicht."
+        },
+        {
+          "id": "N13-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Formel ist umgedreht. Aus $e \\cdot B \\cdot v = \\frac{m \\cdot v^2}{r}$ folgt $r = \\frac{m \\cdot v}{e \\cdot B}$, also $r \\sim \\frac{1}{B}$: Bei doppelter Flussdichte halbiert sich der Radius auf $2{,}0\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N13-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch. Beim Herausziehen nimmt die Flussdichte in der Spule ab. Nach der Lenz’schen Regel wirkt der Induktionsstrom dieser Abnahme entgegen: Die Spule zeigt dem Nordpol einen **Südpol** und zieht den Magneten an – das Herausziehen wird erschwert. Ginge es leichter, entstünde Energie aus dem Nichts."
+        }
+      ]
+    },
+    {
+      "id": "N14",
+      "titel": "Check-out",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c12",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c7",
+        "c9",
+        "c14"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung. Vergleichen Sie danach mit Ihren Punkten in N1.",
+      "bild": "img/st_N14.svg",
+      "pdf": "pdf/N14_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N14-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Messing (Kupfer und Zink) ist nicht ferromagnetisch. Stahl, Weißblech (verzinntes Stahlblech) und Eisen sind ferromagnetisch.\n\n*A, C oder D gewählt?* Diese Stoffe enthalten Eisen. Nicht jedes Metall wird angezogen. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "N14-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Zwischen den Schenkeln ist das Feld nahezu homogen; die Feldlinien verlaufen außen vom Nord- zum Südpol und setzen sich im Magneten geschlossen fort.\n\n*A gewählt?* Richtung vertauscht. *B gewählt?* Feldlinien sind geschlossen. *C gewählt?* Feldlinien kreuzen sich nie. → **N2** Aufgabe 2"
+        },
+        {
+          "id": "N14-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Die Feldlinien eines geraden Leiters sind konzentrische Kreise; die Späne richten sich längs dieser Kreise aus.\n\n*A gewählt?* So sähe ein Radialfeld aus. *B gewählt?* Ein homogenes Feld gibt es hier nicht. *D gewählt?* Der Strom erzeugt ein Magnetfeld. → **N2** Aufgabe 3"
+        },
+        {
+          "id": "N14-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Im Inneren der Spule zeigen die Feldlinien parallel zur Achse, also parallel zum Leiter: $\\sin(0°) = 0$, keine Kraft.\n\n*B oder C gewählt?* Die Kraft hängt vom Winkel zwischen Leiter und Feld ab. *D gewählt?* Die Richtung ändert nur das Vorzeichen, nicht den Betrag. → **N3** Aufgabe 4"
+        },
+        {
+          "id": "N14-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $B = \\mu_0 \\cdot \\mu_r \\cdot \\frac{I \\cdot N}{l}$ enthält den Durchmesser nicht; entscheidend ist die Windungsdichte $\\frac{N}{l}$.\n\n*A, B oder C gewählt?* Gedacht wurde an die Drahtlänge oder an die Fläche – beide stehen nicht in der Formel für $B$. → **N4** Aufgabe 1"
+        },
+        {
+          "id": "N14-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Die Lorentzkraft steht senkrecht zur Bewegung und verrichtet keine Arbeit. Energie gewinnt das Proton nur im elektrischen Feld des Spalts.\n\n*A, C oder D gewählt?* Eine Kraft quer zur Bewegung ändert nur die Richtung. → **N6** Aufgabe 2"
+        },
+        {
+          "id": "N14-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Ein konstanter Strom erzeugt ein konstantes Feld; die Flussdichte in der ersten Spule ändert sich nicht, es wird nichts induziert. Nur beim Ein- oder Ausschalten zeigt das Gerät kurz einen Ausschlag.\n\n*B, C oder D gewählt?* Ein Magnetfeld allein induziert keine Spannung, nur seine Änderung. → **N9** Aufgabe 1"
+        },
+        {
+          "id": "N14-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Die Flussdichte im Ring nimmt ab. Der Induktionsstrom wirkt dieser Abnahme entgegen: Der Ring wird vom Magneten angezogen und folgt ihm ein Stück.\n\n*A gewählt?* Abstoßung gibt es beim Annähern. *B gewählt?* Es ändert sich die Flussdichte, also wird induziert. *D gewählt?* Die Kraft wirkt längs der Bewegung. → **N9** Aufgabe 2"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Der Kompass auf dem Segelboot",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g2",
+        "g3",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Magnete und Magnetfelder) – am besten nach N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Kompass_Segelboot.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zerlegung des Feldvektors: $B_h = B \\cdot \\cos(67°) = 49\\,\\mathrm{\\mu T} \\cdot 0{,}391 \\approx 19{,}1\\,\\mathrm{\\mu T}$\n\n(Die senkrechte Komponente ist $B \\cdot \\sin(67°) \\approx 45\\,\\mathrm{\\mu T}$.)"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Erdfeld ähnelt dem Feld eines Stabmagneten. Der Nordpol der Kompassnadel zeigt nach Norden, wird also von einem magnetischen **Südpol** angezogen: In der Nähe des geographischen Nordpols liegt ein magnetischer Südpol. Außen laufen die Feldlinien von Süd nach Nord; bei uns zeigen sie schräg in den Boden.",
+          "loesung_bild": "img/V1-1b.png"
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Daumen der linken Hand nach Norden (Elektronenflussrichtung). Die Finger umgreifen das Kabel; über dem Kabel, also am Kompass, zeigen sie nach **Westen**."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Kabelfeld steht senkrecht zur waagerechten Erdfeldkomponente:\n\n$\\tan(\\alpha) = \\frac{4{,}0\\,\\mathrm{\\mu T}}{19{,}1\\,\\mathrm{\\mu T}} \\Rightarrow \\alpha \\approx 11{,}8°$ nach Westen – für die Navigation ein großer Fehler."
+        },
+        {
+          "id": "V1-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "In Hin- und Rückleitung fließen gleich viele Elektronen in entgegengesetzter Richtung. Ihre Felder sind am Kompass fast gleich groß, aber entgegengesetzt gerichtet, weil beide Leiter nahezu gleich weit entfernt sind: Sie heben sich weitgehend auf (Überlagerung). Die Maßnahme ist sinnvoll; ein kleiner Rest bleibt, weil die Abstände nicht exakt gleich sind. Verdrillen vertauscht die Lage der Leiter ständig, sodass sich auch dieser Rest weiter ausgleicht."
+        },
+        {
+          "id": "V1-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Stahl-Schraubendreher ist ferromagnetisch: Im Feld der Kompassnadel und der Erde richten sich seine Weiss’schen Bezirke aus, er wird selbst magnetisch und verändert das Feld am Kompass – er stört.\n\nEdelstahl-Schraubendreher und Messingschlüssel werden nicht angezogen, sie sind nicht ferromagnetisch und verändern das Feld praktisch nicht – sie dürfen neben dem Kompass liegen."
+        },
+        {
+          "id": "V1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Beim Streichen richten sich die Weiss’schen Bezirke im Stahl aus. Stahl ist hartmagnetisch (große Remanenz): Nach dem Entfernen des Magneten bleibt ein großer Teil der Ausrichtung erhalten – der Schraubendreher ist dauerhaft magnetisiert."
+        },
+        {
+          "id": "V1-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Weicheisen leitet Magnetfelder gut: Die Feldlinien verlaufen bevorzugt im Eisen um das Innere herum, der Innenraum wird abgeschirmt. Das würde Störfelder fernhalten – aber ebenso das Erdfeld. Der Kompass würde nicht mehr nach Norden zeigen. Der Vorschlag ist unbrauchbar; man muss Störquellen fernhalten oder ihre Wirkung ausgleichen (verdrillte Leitungen, Kompensation)."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Der Lautsprecher",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6",
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g3"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Magnete und Magnetfelder, Kraft und Flussdichte) – am besten nach N3 bis N5.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Lautsprecher.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Im Luftspalt verlaufen die Feldlinien radial vom Polkern (Nordpol) zur Polplatte (Südpol). Sie schließen sich durch die Weicheisenteile und den Magneten: Weicheisen führt das Feld zum Spalt.",
+          "loesung_bild": "img/V2-1a.png"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Jedes Drahtstück der Windungen steht senkrecht zum radialen Feld. Wirksame Länge: $l = N \\cdot 2\\pi \\cdot r = 60 \\cdot 2\\pi \\cdot 0{,}015\\,\\mathrm{m} \\approx 5{,}65\\,\\mathrm{m}$\n\n$F = B \\cdot I \\cdot l = 0{,}90\\,\\mathrm{T} \\cdot 0{,}50\\,\\mathrm{A} \\cdot 5{,}65\\,\\mathrm{m} \\approx 2{,}5\\,\\mathrm{N}$"
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Kraft steht senkrecht zum Draht und zum radialen Feld, also längs der Spulenachse: Die Spule wird je nach Elektronenflussrichtung nach vorn oder nach hinten gedrückt. Bei Wechselstrom kehrt sich die Kraft im Takt des Signals um – Spule und Membran schwingen und erzeugen Schall."
+        },
+        {
+          "id": "V2-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$B = \\frac{U_H \\cdot d}{R_H \\cdot I} = \\frac{9{,}0 \\cdot 10^{-3}\\,\\mathrm{V} \\cdot 2{,}0 \\cdot 10^{-4}\\,\\mathrm{m}}{4{,}0 \\cdot 10^{-4}\\,\\frac{\\mathrm{m^3}}{\\mathrm{C}} \\cdot 5{,}0 \\cdot 10^{-3}\\,\\mathrm{A}} = 0{,}90\\,\\mathrm{T}$ – der Sollwert ist erreicht."
+        },
+        {
+          "id": "V2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$B = \\mu_0 \\cdot \\mu_r \\cdot \\frac{I \\cdot N}{l} = 1{,}257 \\cdot 10^{-6} \\cdot 500 \\cdot \\frac{0{,}050 \\cdot 2000}{0{,}040}\\,\\mathrm{T} \\approx 1{,}6\\,\\mathrm{T}$ – Eisen ist damit schon an der Grenze zur Sättigung."
+        },
+        {
+          "id": "V2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Das Modell der langen Spule beschreibt nur den Kern. Im Luftspalt ist $\\mu_r = 1$; schon ein schmaler Spalt „kostet“ viel Feld, das Feld im Spalt ist deutlich kleiner. Für mehr Feld wären mehr Strom oder Windungen nötig – der Kern ist aber nahe der Sättigung.\n\nPermanentmagnete (Neodym) liefern das Feld dauerhaft ohne Stromverbrauch und ohne Erwärmung, sind klein und leicht. Eine Feldspule bräuchte ständig elektrische Leistung."
+        },
+        {
+          "id": "V2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Mit steigender Temperatur nimmt die Ordnung der Elementarmagnete im Neodym-Magneten ab. Ab einer Grenztemperatur der Sorte (oft schon um $80$ bis $150\\,°\\mathrm{C}$) geht ein Teil der Magnetisierung dauerhaft verloren, an der Curie-Temperatur ganz. Dann sinkt $B$ und mit $F = B \\cdot I \\cdot l$ die Lautstärke.\n\nAußerdem steigt der Widerstand des Drahtes, und Kleber und Lack der Spule können sich lösen."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Ionenimplantation: Silizium gezielt dotieren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 26,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c6",
+        "c2",
+        "g1",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 26 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Magnete, Kraft und Flussdichte, geladene Teilchen) – am besten nach N6 bis N8.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Ionenimplantation.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$E_{kin} = e \\cdot U = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C} \\cdot 4{,}0 \\cdot 10^{4}\\,\\mathrm{V} \\approx 6{,}4 \\cdot 10^{-15}\\,\\mathrm{J}$\n\n$v = \\sqrt{\\frac{2 \\cdot E_{kin}}{m}} = \\sqrt{\\frac{2 \\cdot 6{,}41 \\cdot 10^{-15}\\,\\mathrm{J}}{11{,}0 \\cdot 1{,}661 \\cdot 10^{-27}\\,\\mathrm{kg}}} \\approx 8{,}4 \\cdot 10^{5}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Positive Ionen, rechte Hand: Daumen nach rechts (Bewegung), Mittelfinger nach oben (nötige Kraft zum Kreismittelpunkt) – der Zeigefinger zeigt **in die Zeichenebene hinein**. (Ebenso mit der linken Hand, Daumen entgegen der Bewegung.)"
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$F_L = F_{ZP}$: $e \\cdot B \\cdot v = \\frac{m \\cdot v^2}{r} \\Rightarrow B = \\frac{m \\cdot v}{e \\cdot r} = \\frac{1{,}83 \\cdot 10^{-26}\\,\\mathrm{kg} \\cdot 8{,}38 \\cdot 10^{5}\\,\\mathrm{m/s}}{1{,}602 \\cdot 10^{-19}\\,\\mathrm{C} \\cdot 0{,}50\\,\\mathrm{m}} \\approx 0{,}19\\,\\mathrm{T}$"
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mit $v = \\sqrt{\\frac{2 e U}{m}}$ folgt $r = \\frac{m v}{e B} = \\frac{1}{B} \\cdot \\sqrt{\\frac{2 \\cdot m \\cdot U}{e}} \\sim \\sqrt{m}$:\n\n$r_{10} = 0{,}50\\,\\mathrm{m} \\cdot \\sqrt{\\frac{10{,}0}{11{,}0}} \\approx 0{,}477\\,\\mathrm{m}$ – gut $2\\,\\mathrm{cm}$ weniger. Sie treffen neben die Blende und werden aussortiert."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei gleicher Beschleunigungsspannung gilt $r = \\frac{1}{B} \\cdot \\sqrt{\\frac{2 \\cdot U}{q / m}}$: Der Radius hängt nur von der spezifischen Ladung ab – wie beim Fadenstrahlrohr, wo man aus $r$ auf $\\frac{e}{m_e}$ schließt. Ionen mit gleichem $\\frac{q}{m}$ lassen sich nicht trennen."
+        },
+        {
+          "id": "V3-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Doppelte Ladung: doppelte Energie $2 e U$, $v$ um den Faktor $\\sqrt{2}$ größer, Lorentzkraft doppelt so groß. Insgesamt $r \\sim \\sqrt{\\frac{m}{q}}$: $r = \\frac{0{,}50\\,\\mathrm{m}}{\\sqrt{2}} \\approx 0{,}35\\,\\mathrm{m}$ – sie werden aussortiert.\n\nFür $r = 0{,}50\\,\\mathrm{m}$ bräuchte man $B = \\frac{0{,}19\\,\\mathrm{T}}{\\sqrt{2}} \\approx 0{,}14\\,\\mathrm{T}$."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Zwischen den großen, parallelen Polschuhen: parallele, gleich dichte Feldlinien vom Nord- zum Südpol (homogenes Feld), am Rand leicht nach außen gewölbt.\n\n$U_H = R_H \\cdot \\frac{I \\cdot B}{d} = 4{,}0 \\cdot 10^{-4} \\cdot \\frac{5{,}0 \\cdot 10^{-3} \\cdot 0{,}191}{2{,}0 \\cdot 10^{-4}}\\,\\mathrm{V} \\approx 1{,}9\\,\\mathrm{mV}$",
+          "loesung_bild": "img/V3-3a.png"
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Lorentzkraft steht immer senkrecht zur Bewegung und verrichtet keine Arbeit. Die Ionen werden nur umgelenkt; ihre Energie stammt allein aus der Beschleunigungsspannung."
+        },
+        {
+          "id": "V3-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Nötige Flussdichte: $B = \\frac{1}{r} \\cdot \\sqrt{\\frac{2 \\cdot m \\cdot U}{e}} = \\frac{1}{0{,}50\\,\\mathrm{m}} \\cdot \\sqrt{\\frac{2 \\cdot 31{,}0 \\cdot 1{,}661 \\cdot 10^{-27} \\cdot 4{,}0 \\cdot 10^{4}}{1{,}602 \\cdot 10^{-19}}}\\,\\mathrm{T} \\approx 0{,}32\\,\\mathrm{T}$ – mehr als der Magnet schafft. So geht es nicht.\n\nAuswege (einer genügt): die Spannung senken ($B \\sim \\sqrt{U}$, bei $0{,}30\\,\\mathrm{T}$ höchstens etwa $35\\,\\mathrm{kV}$), doppelt geladene Ionen nutzen oder die Ionen erst nach dem Analysiermagneten weiter beschleunigen."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Der magnetisch-induktive Durchflussmesser",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 27,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c7",
+        "c6",
+        "c5",
+        "c1",
+        "c3",
+        "g1",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 27 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 4 (Magnete, Kraft und Flussdichte, geladene Teilchen, Induktion) – am besten nach N9 bis N13.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Durchflussmesser.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Positive Ionen (rechte Hand): Daumen in die Zeichenebene (Strömung), Zeigefinger nach unten (Feld) – Mittelfinger nach **links**. Negative Ionen werden nach **rechts** abgelenkt.\n\nPositive Ladung sammelt sich links, negative rechts: Beide Ionensorten machen die linke Elektrode positiv und die rechte negativ – ihre Wirkungen addieren sich."
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Ladungstrennung wächst, bis die elektrische Kraft die Lorentzkraft ausgleicht (wie beim Hall-Effekt): $q \\cdot \\frac{U}{d} = q \\cdot B \\cdot v \\Rightarrow U = B \\cdot d \\cdot v$.\n\nDie Wassersäule zwischen den Elektroden ist ein Leiter der Länge $d$, der sich mit $v$ senkrecht durch das Feld bewegt – genau der Fall $U = B \\cdot l \\cdot v$ des Induktionsgesetzes bei konstanter Flussdichte."
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$U = 4{,}0 \\cdot 10^{-3}\\,\\mathrm{T} \\cdot 0{,}30\\,\\mathrm{m} \\cdot 2{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}} = 2{,}4 \\cdot 10^{-3}\\,\\mathrm{V} = 2{,}4\\,\\mathrm{mV}$\n\nVolumenstrom: $\\frac{\\Delta V}{\\Delta t} = \\frac{\\pi \\cdot d^2}{4} \\cdot v = \\frac{\\pi \\cdot (0{,}30\\,\\mathrm{m})^2}{4} \\cdot 2{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\approx 0{,}14\\,\\frac{\\mathrm{m^3}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Im Rohr nahezu parallele, gleich dichte Feldlinien von oben nach unten (homogen), außen geschlossen um die Spulen herum.\n\nDie Flussdichte wächst mit Stromstärke und Windungszahl ($B \\sim N \\cdot I$, wie bei der langen Spule); wegen $U = B \\cdot d \\cdot v$ wächst das Messsignal im gleichen Verhältnis.",
+          "loesung_bild": "img/V4-2a.png"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zwei Gründe:\n\n- Ferromagnetischer Stahl führt die Feldlinien bevorzugt in der Rohrwand um das Innere herum – das Wasser läge im abgeschirmten Raum, $B$ im Rohr wäre viel kleiner.\n- Eine leitende Wand verbindet die beiden Elektroden und schließt die Messspannung kurz.\n\nDeshalb Kunststoff oder nichtmagnetischer Stahl mit isolierender Auskleidung."
+        },
+        {
+          "id": "V4-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Induktionsstrom ist so gerichtet, dass er seiner Ursache – der Bewegung des Wassers durch das Feld – entgegenwirkt: Die Kraft auf das stromdurchflossene Wasser zeigt **gegen** die Strömung. Wie beim Generator wird ein kleiner Teil der Bewegungsenergie in elektrische Energie umgewandelt; weil der Strom winzig ist, ist die Bremswirkung vernachlässigbar."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Spannung entsteht durch die Trennung beweglicher Ladungsträger. Leitungswasser enthält genug Ionen; die Ladungstrennung stellt sich schnell ein, und das Messgerät kann die Spannung abgreifen.\n\nDestilliertes Wasser enthält fast keine Ionen. Es wirkt wie eine Spannungsquelle mit riesigem Innenwiderstand: Schon der winzige Messstrom bricht die Spannung zusammen, Störungen überwiegen. Das Verfahren braucht eine Mindestleitfähigkeit."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Falsch. Bei gleichem Volumenstrom gilt $\\frac{\\pi \\cdot d^2}{4} \\cdot v = $ konstant: Bei halbem Durchmesser ist die Querschnittsfläche ein Viertel, das Wasser fließt viermal so schnell.\n\n$U = B \\cdot d \\cdot v$: halbes $d$, vierfaches $v$ – die Spannung **verdoppelt** sich. Allgemein ist $U = \\frac{4 \\cdot B}{\\pi \\cdot d} \\cdot \\frac{\\Delta V}{\\Delta t}$ – kleinere Rohre liefern bei gleichem Volumenstrom größere Signale."
+        }
+      ]
+    }
+  ]
+}

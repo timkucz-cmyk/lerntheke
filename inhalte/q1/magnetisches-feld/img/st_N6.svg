@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Kreisbahn eines Elektrons im Magnetfeld">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="hilfs" d="M67.5 11.5 l5 5 M67.5 16.5 l5 -5"/>
+  <path class="hilfs" d="M67.5 23.5 l5 5 M67.5 28.5 l5 -5"/>
+  <path class="hilfs" d="M67.5 35.5 l5 5 M67.5 40.5 l5 -5"/>
+  <path class="hilfs" d="M67.5 47.5 l5 5 M67.5 52.5 l5 -5"/>
+  <path class="hilfs" d="M79.5 11.5 l5 5 M79.5 16.5 l5 -5"/>
+  <path class="hilfs" d="M79.5 23.5 l5 5 M79.5 28.5 l5 -5"/>
+  <path class="hilfs" d="M79.5 35.5 l5 5 M79.5 40.5 l5 -5"/>
+  <path class="hilfs" d="M79.5 47.5 l5 5 M79.5 52.5 l5 -5"/>
+  <path class="hilfs" d="M91.5 11.5 l5 5 M91.5 16.5 l5 -5"/>
+  <path class="hilfs" d="M91.5 23.5 l5 5 M91.5 28.5 l5 -5"/>
+  <path class="hilfs" d="M91.5 35.5 l5 5 M91.5 40.5 l5 -5"/>
+  <path class="hilfs" d="M91.5 47.5 l5 5 M91.5 52.5 l5 -5"/>
+  <path class="hilfs" d="M103.5 11.5 l5 5 M103.5 16.5 l5 -5"/>
+  <path class="hilfs" d="M103.5 23.5 l5 5 M103.5 28.5 l5 -5"/>
+  <path class="hilfs" d="M103.5 35.5 l5 5 M103.5 40.5 l5 -5"/>
+  <path class="hilfs" d="M103.5 47.5 l5 5 M103.5 52.5 l5 -5"/>
+  <path class="hilfs" d="M115.5 11.5 l5 5 M115.5 16.5 l5 -5"/>
+  <path class="hilfs" d="M115.5 23.5 l5 5 M115.5 28.5 l5 -5"/>
+  <path class="hilfs" d="M115.5 35.5 l5 5 M115.5 40.5 l5 -5"/>
+  <path class="hilfs" d="M115.5 47.5 l5 5 M115.5 52.5 l5 -5"/>
+  <path class="hilfs" d="M127.5 11.5 l5 5 M127.5 16.5 l5 -5"/>
+  <path class="hilfs" d="M127.5 23.5 l5 5 M127.5 28.5 l5 -5"/>
+  <path class="hilfs" d="M127.5 35.5 l5 5 M127.5 40.5 l5 -5"/>
+  <path class="hilfs" d="M127.5 47.5 l5 5 M127.5 52.5 l5 -5"/>
+  <path class="akzent" d="M10 20 H70 A20 20 0 0 1 70 60"/>
+  <path class="akzent" d="M10.0 20.0 L40.0 20.0"/>
+  <path class="marke" d="M40.0 20.0 L34.6 22.6 L34.6 17.4 z"/>
+</svg>
