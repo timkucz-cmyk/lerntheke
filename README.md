@@ -363,7 +363,7 @@ vendor/fonts/              Source Sans 3, lokal (gehört mit ins Repo)
 inhalte/
   katalog.json             Stufen und Themen
   q1/integralrechnung/     Integralrechnung Q1 (echtes Material)
-  9/stromkreise/           Beispielthema Physik
+  9/stromkreise/           Beispielthema Physik (nicht im Katalog)
 tools/
   validate.mjs             Prüfung der Inhalte (Node)
   validate.py              dieselbe Prüfung ohne Node

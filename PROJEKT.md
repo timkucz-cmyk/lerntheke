@@ -77,7 +77,7 @@ vendor/fonts/              Source Sans 3 (lokal, 137 KB)
 inhalte/
   katalog.json             Stufen und Themen
   q1/integralrechnung/     thema.json, pdf/, img/
-  9/stromkreise/           Beispielthema Physik
+  9/stromkreise/           Beispielthema Physik (nicht im Katalog)
 tools/validate.mjs|.py     Inhaltsprüfung (Node bzw. Python)
 ```
 

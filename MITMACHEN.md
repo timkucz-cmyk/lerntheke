@@ -27,7 +27,7 @@ dazu ein Eintrag in `inhalte/katalog.json`.
 **Einmalig einrichten (empfohlen):** In ChatGPT ein *Projekt* „Lerntheke“ anlegen.
 Den Prompt aus Abschnitt 4 in die Projekt-Anweisungen kopieren und als Dateien hochladen:
 
-- `inhalte/9/stromkreise/thema.json` (kleines Beispiel)
+- `inhalte/9/stromkreise/thema.json` (kleines Beispiel, steht nicht im Katalog)
 - `inhalte/q1/integralrechnung/thema.json` (großes Beispiel mit Lernweg und Tandem)
 - `tools/validate.py` (die Prüfung)
 
