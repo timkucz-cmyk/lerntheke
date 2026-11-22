@@ -1,0 +1,1321 @@
+{
+  "version": 1,
+  "titel": "Reelle Zahlen – Training vor der Klassenarbeit",
+  "fach": "mathe",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Brüchen, Quadratzahlen oder der Primfaktorzerlegung unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N2, V2 nach N3 bis N5, V3 nach N6 bis N9. Du rechnest ohne Taschenrechner. Nur in N3 und V2 darfst du ihn zum Multiplizieren und Quadrieren benutzen – die Wurzeltaste bleibt aus. Dein Regelheft darfst du benutzen.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Brüche, Dezimalzahlen und Prozentangaben ineinander umwandeln, auch periodische Dezimalzahlen"
+    },
+    {
+      "id": "g2",
+      "text": "Mit rationalen Zahlen rechnen und die Rechenregeln beachten (Vorzeichen, Punkt vor Strich, Klammern, Distributivgesetz)"
+    },
+    {
+      "id": "g3",
+      "text": "Rationale Zahlen der Größe nach ordnen, an der Zahlengeraden darstellen und Ergebnisse überschlagen"
+    },
+    {
+      "id": "g4",
+      "text": "Natürliche, ganze und rationale Zahlen unterscheiden"
+    },
+    {
+      "id": "g5",
+      "text": "Zahlen quadrieren, Quadratzahlen bis 20² kennen und den Flächeninhalt von Quadraten berechnen"
+    },
+    {
+      "id": "g6",
+      "text": "Natürliche Zahlen in Primfaktoren zerlegen und in Potenzschreibweise notieren"
+    },
+    {
+      "id": "c1",
+      "text": "Die Quadratwurzel als Umkehrung des Quadrierens erklären und die Begriffe Wurzelzeichen und Radikand verwenden"
+    },
+    {
+      "id": "c2",
+      "text": "Quadratwurzeln aus Quadratzahlen, Dezimalzahlen und Brüchen ohne Taschenrechner bestimmen"
+    },
+    {
+      "id": "c3",
+      "text": "Gleichungen der Form x² = a lösen und Seitenlängen von Quadraten aus dem Flächeninhalt bestimmen"
+    },
+    {
+      "id": "c4",
+      "text": "Quadratwurzeln zwischen zwei natürlichen Zahlen einordnen, abschätzen und an der Zahlengeraden darstellen"
+    },
+    {
+      "id": "c5",
+      "text": "Näherungswerte für Quadratwurzeln mit einer Intervallschachtelung bestimmen"
+    },
+    {
+      "id": "c6",
+      "text": "Irrationale Zahlen erkennen und begründen, warum √2 keine rationale Zahl ist"
+    },
+    {
+      "id": "c7",
+      "text": "Die Zahlenmengen ℕ, ℤ, ℚ und ℝ angeben, ihre Beziehungen beschreiben und Zahlen zuordnen"
+    },
+    {
+      "id": "c8",
+      "text": "Die Produkt- und die Quotientenregel für Quadratwurzeln nutzen"
+    },
+    {
+      "id": "c9",
+      "text": "Wurzeln teilweise ziehen und Vielfache gleicher Wurzeln zusammenfassen"
+    },
+    {
+      "id": "c10",
+      "text": "Typische Fehler beim Rechnen mit Wurzeln erkennen und begründen, dass √(a²) = |a| gilt"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 5 bis 8",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Die Quadratwurzel",
+      "untertitel": "Wurzeln ziehen, Gleichungen x² = a, Quadrate",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Näherungswerte und reelle Zahlen",
+      "untertitel": "Abschätzen, Intervallschachtelung, irrationale Zahlen, Zahlenmengen",
+      "farbe": "orange",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6",
+        "c7"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Rechnen mit Wurzeln",
+      "untertitel": "Wurzelgesetze, vereinfachen, typische Fehler",
+      "farbe": "gruen",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10"
+      ]
+    }
+  ],
+  "abschluss": "Klassenarbeit",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$0{,}375 = \\frac{375}{1000} = \\frac{3}{8}$ (mit 125 gekürzt)\n\n$\\frac{7}{20} = \\frac{35}{100} = 0{,}35$ (mit 5 erweitert)"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Schriftlich dividieren: $5 : 6 = 0{,}8333\\ldots$ – beim Rest 2 wiederholt sich die 3 immer wieder.\n\n$\\frac{5}{6} = 0{,}8\\overline{3}$ (periodische Dezimalzahl)\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$\\left(-\\frac{2}{3}\\right) \\cdot \\frac{9}{4} = -\\frac{2 \\cdot 9}{3 \\cdot 4} = -\\frac{18}{12} = -\\frac{3}{2}$$\n\nMinus mal Plus ergibt Minus."
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Punkt vor Strich: $3{,}5 \\cdot (-2) = -7$.\n\n$$1{,}2 - (-7) = 1{,}2 + 7 = 8{,}2$$\n\nÜben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Als Dezimalzahlen: $-\\frac{4}{5} = -0{,}8$ und $\\frac{2}{3} = 0{,}666\\ldots$.\n\n$$-\\frac{4}{5} < -0{,}75 < \\frac{2}{3} < 0{,}7$$\n\nBei negativen Zahlen ist die Zahl mit dem größeren Betrag die kleinere."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Überschlag: $4{,}96 \\cdot 19{,}8 \\approx 5 \\cdot 20 = 100$.\n\nRichtig ist $98{,}208$.\n\nÜben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "| Zahl | natürlich | ganz | rational |\n|---|---|---|---|\n| $\\frac{18}{6} = 3$ | ja | ja | ja |\n| $-7$ | nein | ja | ja |\n| $0{,}25 = \\frac{1}{4}$ | nein | nein | ja |\n| $-\\frac{12}{4} = -3$ | nein | ja | ja |\n\nErst kürzen bzw. ausrechnen, dann zuordnen."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Jede ganze Zahl z lässt sich als Bruch schreiben: $z = \\frac{z}{1}$, z. B. $-7 = \\frac{-7}{1}$. Rationale Zahlen sind genau die Zahlen, die man als Bruch schreiben kann.\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$18^2 = 324$, $0{,}7^2 = 0{,}49$, $(-6)^2 = 36$, $\\left(\\frac{2}{5}\\right)^2 = \\frac{4}{25}$\n\nDas Quadrat einer negativen Zahl ist positiv: $(-6) \\cdot (-6) = 36$."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = 1{,}5^2 = 2{,}25$, also $2{,}25\\,\\mathrm{cm^2}$.\n\nÜben: **G2** Aufgabe 5."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$180 = 2 \\cdot 90 = 2 \\cdot 2 \\cdot 45 = 2 \\cdot 2 \\cdot 3 \\cdot 15 = 2 \\cdot 2 \\cdot 3 \\cdot 3 \\cdot 5$\n\n$$180 = 2^2 \\cdot 3^2 \\cdot 5$$"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Alle Exponenten sind gerade. Dann kann man die Faktoren gleichmäßig auf zwei gleiche Zahlen verteilen: $196 = (2 \\cdot 7) \\cdot (2 \\cdot 7) = 14^2$.\n\nÜben: **G2** Aufgabe 6."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Brüche, Quadrate, Primfaktoren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 15 Minuten. Aufgabe k übt die Lücken aus Block k von G1 – wähle die Aufgaben, die zu deinen Lücken passen.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$0{,}444\\ldots = 4 \\cdot 0{,}111\\ldots = \\frac{4}{9}$ und $0{,}777\\ldots = 7 \\cdot 0{,}111\\ldots = \\frac{7}{9}$"
+        },
+        {
+          "id": "G2-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Punkt vor Strich: $\\frac{3}{4} \\cdot (-2) = -\\frac{6}{4} = -1{,}5$.\n\n$$-1{,}5 + (-1{,}5) = -3$$"
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{7}{4} = 1{,}75$ → **A** (zwischen 1,5 und 2)\n\n$-1{,}25$ → **B** (links von −1)\n\n$0{,}6$ → **C** (zwischen 0,5 und 1)"
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$39{,}6 \\cdot 5{,}1 \\approx 40 \\cdot 5 = 200$ (genau: $201{,}96$)"
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{20}{4} = 5$: natürliche Zahl.\n\n$-5$: ganze Zahl, z. B. $-5 = \\frac{-10}{2}$ – also auch rational.\n\n$\\frac{1}{8} = 0{,}125$: rationale Zahl, nicht ganz."
+        },
+        {
+          "id": "G2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$14^2 = 196$, $16^2 = 256$, $19^2 = 361$\n\nQuadrat: $A = 0{,}9^2 = 0{,}81$, also $0{,}81\\,\\mathrm{m^2}$."
+        },
+        {
+          "id": "G2-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$150 = 2 \\cdot 75 = 2 \\cdot 3 \\cdot 25 = 2 \\cdot 3 \\cdot 5 \\cdot 5$, also $150 = 2 \\cdot 3 \\cdot 5^2$."
+        },
+        {
+          "id": "G2-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "In einer Quadratzahl kommt jeder Primfaktor gerade oft vor. In $150 = 2^1 \\cdot 3^1 \\cdot 5^2$ kommen 2 und 3 nur einmal vor – also ist 150 keine Quadratzahl ($12^2 = 144$, $13^2 = 169$)."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Die Quadratwurzel",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c1",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 15 Minuten. Kontrolliere jede Wurzel durch Quadrieren.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Quadratwurzel.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{196} = 14$, denn $14^2 = 196$.\n\n$\\sqrt{2{,}56} = 1{,}6$, denn $1{,}6^2 = 2{,}56$."
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{\\frac{9}{64}} = \\frac{3}{8}$, denn $\\left(\\frac{3}{8}\\right)^2 = \\frac{9}{64}$.\n\n$\\sqrt{1600} = 40$, denn $40^2 = 1600$."
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- Der Radikand von $\\sqrt{41}$ ist 41.\n- $\\left(\\sqrt{13}\\right)^2 = 13$: Quadrieren macht das Wurzelziehen rückgängig.\n- $\\sqrt{-16}$ gibt es nicht: Keine Zahl ergibt quadriert $-16$, denn Quadrate sind nie negativ."
+        },
+        {
+          "id": "N1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{8100} = 90$, denn $90^2 = 8100$."
+        },
+        {
+          "id": "N1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sqrt{0{,}0004} = 0{,}02$, denn $0{,}02^2 = 0{,}0004$.\n\nBeim Quadrieren verdoppelt sich die Zahl der Nachkommastellen, beim Wurzelziehen halbiert sie sich: 4 Stellen → 2 Stellen."
+        },
+        {
+          "id": "N1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sqrt{9} = 3 < 9$ – die Wurzel ist kleiner.\n\n$\\sqrt{0{,}36} = 0{,}6 > 0{,}36$ – hier ist die Wurzel **größer**."
+        },
+        {
+          "id": "N1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Es gilt $a = \\sqrt{a} \\cdot \\sqrt{a}$.\n\n- Für $a > 1$ ist auch $\\sqrt{a} > 1$. Dann ist $a = \\sqrt{a} \\cdot \\sqrt{a} > \\sqrt{a} \\cdot 1 = \\sqrt{a}$, die Wurzel ist kleiner.\n- Für $0 < a < 1$ ist $\\sqrt{a} < 1$, also $a = \\sqrt{a} \\cdot \\sqrt{a} < \\sqrt{a}$, die Wurzel ist größer.\n- Für $a = 1$ sind beide gleich.\n\nAlso: $\\sqrt{a} < a$ genau für $a > 1$."
+        },
+        {
+          "id": "N1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**(3)**: $\\sqrt{16}$ ist die **nicht negative** Zahl, die quadriert 16 ergibt, also nur 4.\n\n- *(1) gewählt?* $(-4)^2 = 16$ stimmt, aber die Wurzel ist nie negativ. Die zwei Lösungen $\\pm 4$ gehören zur Gleichung $x^2 = 16$.\n- *(2) gewählt?* $(-4)^2 = 16$, nicht $-16$; $\\sqrt{-16}$ gibt es nicht.\n- *(4) gewählt?* Wurzelziehen ist nicht Halbieren: $8^2 = 64$."
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Gleichungen x² = a und Quadrate",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c2",
+        "c1",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Denk an die negative Lösung – außer bei Längen.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Gleichungen_und_Quadrate.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x = \\sqrt{441} = 21$ oder $x = -21$, also $L = \\{-21; 21\\}$.\n\nProbe: $21^2 = (-21)^2 = 441$."
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x = 0{,}7$ oder $x = -0{,}7$, also $L = \\{-0{,}7; 0{,}7\\}$."
+        },
+        {
+          "id": "N2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$L = \\{\\,\\}$: Ein Quadrat ist nie negativ, denn Plus mal Plus und Minus mal Minus ergeben Plus. Also gibt es keine Zahl mit $x^2 = -36$."
+        },
+        {
+          "id": "N2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$x^2 + 19 = 100 \\quad \\mid -19 \\qquad x^2 = 81$$\n\n$L = \\{-9; 9\\}$"
+        },
+        {
+          "id": "N2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$2x^2 - 7 = 43 \\quad \\mid +7 \\qquad 2x^2 = 50 \\quad \\mid : 2 \\qquad x^2 = 25$$\n\n$L = \\{-5; 5\\}$"
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$s^2 = 20{,}25$, also $s = \\sqrt{20{,}25} = 4{,}5$ (nur positiv, s ist eine Länge).\n\nDie Terrasse ist $4{,}5\\,\\mathrm{m}$ lang und breit. Probe: $4{,}5^2 = 20{,}25$."
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Rechteck: $A = 5 \\cdot 20 = 100$, also $100\\,\\mathrm{cm^2}$.\n\nQuadrat: $s = \\sqrt{100} = 10$, die Seite ist $10\\,\\mathrm{cm}$ lang."
+        },
+        {
+          "id": "N2-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Oberfläche besteht aus 6 gleichen Quadraten: $6a^2 = 486$, also $a^2 = 81$.\n\n$a = \\sqrt{81} = 9$, die Kante ist $9\\,\\mathrm{cm}$ lang."
+        },
+        {
+          "id": "N2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$a = 1{,}3^2 = 1{,}69$, also $x^2 = 1{,}69$.\n\nKontrolle: $(-1{,}3)^2 = 1{,}69$ ebenso."
+        },
+        {
+          "id": "N2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Hat das Quadrat die Seite s, ist $A = s^2$.\n\n- Seite $2s$: $(2s)^2 = 4s^2 = 4A$. Zum vierfachen Flächeninhalt gehört also die doppelte Seite.\n- Damit gehört zur doppelten Seite schon der vierfache Flächeninhalt. Für den doppelten Flächeninhalt reicht eine Seite, die kürzer als $2s$ ist."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Wurzeln abschätzen und annähern",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner nur zum Multiplizieren und Quadrieren",
+      "checkliste": [
+        "c4",
+        "c5",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten. Taschenrechner nur zum Multiplizieren und Quadrieren – die Wurzeltaste bleibt aus.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Wurzeln_annaehern.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$25 < 30 < 36$, also $5 < \\sqrt{30} < 6$.\n\n$64 < 75 < 81$, also $8 < \\sqrt{75} < 9$."
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$144 < 150 < 169$, also $12 < \\sqrt{150} < 13$.\n\n$0 < 0{,}3 < 1$, also $0 < \\sqrt{0{,}3} < 1$."
+        },
+        {
+          "id": "N3-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Vergleiche die Quadrate: $3{,}9^2 = 15{,}21$, also $13 < 15{,}21 < 17 < 22$.\n\nDamit: $\\sqrt{13} < 3{,}9 < \\sqrt{17} < \\sqrt{22}$.\n\n**A** = $\\sqrt{13}$, **B** = $3{,}9$, **C** = $\\sqrt{17}$ (knapp über 4, da $4^2 = 16$), **D** = $\\sqrt{22}$ (zwischen $4{,}5^2 = 20{,}25$ und $5^2 = 25$)."
+        },
+        {
+          "id": "N3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$16 < 21 < 25$, also $4 < \\sqrt{21} < 5$."
+        },
+        {
+          "id": "N3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$4{,}5^2 = 20{,}25 < 21$ und $4{,}6^2 = 21{,}16 > 21$.\n\nAlso $4{,}5 < \\sqrt{21} < 4{,}6$."
+        },
+        {
+          "id": "N3-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$4{,}58^2 = 20{,}9764 < 21$ und $4{,}59^2 = 21{,}0681 > 21$, also $4{,}58 < \\sqrt{21} < 4{,}59$ (1 P).\n\nMitte quadrieren: $4{,}585^2 = 21{,}022225 > 21$, also liegt $\\sqrt{21}$ unter der Mitte: $\\sqrt{21} \\approx 4{,}58$ (1 P)."
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$49 < 56 < 64$, also $7 < \\sqrt{56} < 8$ (1 P).\n\nDie Mitte zwischen 7 und 8 ist 7,5 und $7{,}5^2 = 56{,}25 > 56$. Also ist $\\sqrt{56} < 7{,}5$ und liegt näher an 7 (1 P)."
+        },
+        {
+          "id": "N3-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**. Hätte $\\sqrt{21}$ eine letzte Nachkommastelle (nicht 0), dann hätte ihr Quadrat doppelt so viele Nachkommastellen, und die letzte davon wäre ebenfalls nicht 0 (z. B. endet $4{,}58^2$ auf 4). Das Quadrat wäre also keine natürliche Zahl – es soll aber genau 21 sein.\n\nDie Intervallschachtelung liefert deshalb immer nur bessere Näherungswerte, sie endet nie. $\\sqrt{21}$ ist irrational (→ **N4**)."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Irrationale Zahlen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c5",
+        "g1",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Die Primfaktorzerlegung hilft beim Beweis.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Irrationale_Zahlen.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{1{,}21} = 1{,}1 = \\frac{11}{10}$: rational.\n\n$0{,}1\\overline{2}$ ist periodisch: rational."
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{54}$: 54 ist keine Quadratzahl ($49 < 54 < 64$), also irrational.\n\n$0{,}101001000100001\\ldots$: Die Ziffernfolge hat ein Muster, aber keine Periode, weil die Nullblöcke immer länger werden – irrational."
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "(1) $\\sqrt{2} \\cdot b = a$, quadriert: $a^2 = 2 \\cdot b^2$.\n\n(2) **gerade** oft (auch 0-mal ist gerade), denn bei $a^2 = a \\cdot a$ kommt jeder Faktor doppelt vor."
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "(3) Links **gerade** oft, rechts **ungerade** oft (gerade oft in $b^2$ und noch einmal die 2 davor).\n\n(4) Jede natürliche Zahl hat nur **eine** Primfaktorzerlegung. Dieselbe Zahl kann den Faktor 2 nicht zugleich gerade und ungerade oft enthalten. Also war die Annahme falsch: $\\sqrt{2}$ ist irrational."
+        },
+        {
+          "id": "N4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "In der Annahme und in (1) steht 3 statt 2: $a^2 = 3 \\cdot b^2$. In (2) bis (4) zählt man den Faktor **3**: links gerade oft, rechts ungerade oft – wieder ein Widerspruch."
+        },
+        {
+          "id": "N4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Aus $\\sqrt{4} = \\frac{a}{b}$ folgt $a^2 = 4 \\cdot b^2 = 2^2 \\cdot b^2$. Rechts kommt der Faktor 2 jetzt zweimal mehr vor als in $b^2$, also wieder **gerade** oft. Schritt (3) liefert keinen Widerspruch.\n\nDas passt: $\\sqrt{4} = 2 = \\frac{2}{1}$ ist rational."
+        },
+        {
+          "id": "N4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Flächeninhalt: $1 + 1 = 2$, also $2\\,\\mathrm{cm^2}$.\n\nSeitenlänge: $s^2 = 2$, also $s = \\sqrt{2}\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N4-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Länge ist $\\sqrt{2}\\,\\mathrm{cm}$, und $\\sqrt{2}$ ist irrational: unendlich viele Nachkommastellen ohne Periode. Jede Dezimalzahl, die man aufschreibt, ist nur ein Näherungswert, z. B. $1{,}414$."
+        },
+        {
+          "id": "N4-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**. Die Anzeige hat nur Platz für wenige Stellen, der Rechner rundet. Das Quadrat der angezeigten Zahl ist nicht genau 2: Die letzte Nachkommastelle der Anzeige ist 2, also endet das Quadrat auf 4 – es ist etwas weniger als 2.\n\nNach dem Beweis aus Aufgabe 2 kann keine abbrechende Dezimalzahl quadriert genau 2 ergeben."
+        },
+        {
+          "id": "N4-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zum Beispiel $\\sqrt{12}$: $9 < 12 < 16$, also $3 < \\sqrt{12} < 4$, und 12 ist keine Quadratzahl.\n\nEbenso richtig: $\\sqrt{13}$, $\\sqrt{15}$ oder $\\pi$."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Zahlenmengen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c6",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 15 Minuten. Rechne jede Zahl erst aus, dann ordne zu.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Zahlenmengen.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $\\frac{21}{7} = 3$: $\\mathbb{N}$, $\\mathbb{Z}$, $\\mathbb{Q}$, $\\mathbb{R}$\n- $-\\sqrt{64} = -8$: $\\mathbb{Z}$, $\\mathbb{Q}$, $\\mathbb{R}$\n- $0{,}1\\overline{6} = \\frac{1}{6}$ (periodisch): $\\mathbb{Q}$, $\\mathbb{R}$"
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $\\sqrt{12}$: 12 ist keine Quadratzahl, also irrational: nur $\\mathbb{R}$\n- $\\sqrt{2{,}25} = 1{,}5 = \\frac{3}{2}$: $\\mathbb{Q}$, $\\mathbb{R}$\n- $-\\frac{7}{4} = -1{,}75$: $\\mathbb{Q}$, $\\mathbb{R}$"
+        },
+        {
+          "id": "N5-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- Feld **A** (natürliche Zahlen): $0$ und $7$\n- Feld **B** (ganz, aber nicht natürlich): $-3$\n- Feld **C** (rational, aber nicht ganz): $\\frac{2}{5}$\n- Feld **D** (reell, aber nicht rational): $\\sqrt{5}$\n\nJede Zahl gehört in das innerste Feld, in dem sie liegt."
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**Wahr**: z. B. $-1$ ist eine ganze Zahl, aber keine natürliche."
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**Falsch**: $\\sqrt{9} = 3$ ist rational. Irrational ist $\\sqrt{n}$ nur, wenn n keine Quadratzahl ist."
+        },
+        {
+          "id": "N5-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "**Falsch**: $\\sqrt{3}$ und $-\\sqrt{3}$ sind irrational, aber $\\sqrt{3} + \\left(-\\sqrt{3}\\right) = 0$ ist rational."
+        },
+        {
+          "id": "N5-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$x + 9 = 4$: $x = -5$, negativ – erst in $\\mathbb{Z}$ lösbar.\n\n$4x = 3$: $x = \\frac{3}{4}$, keine ganze Zahl – erst in $\\mathbb{Q}$ lösbar."
+        },
+        {
+          "id": "N5-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$x = \\sqrt{6}$ oder $x = -\\sqrt{6}$. 6 ist keine Quadratzahl, also ist $\\sqrt{6}$ irrational – erst in $\\mathbb{R}$ lösbar."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Produkt- und Quotientenregel",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 15 Minuten. Suche Quadratzahlen unter der Wurzel.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Produkt_und_Quotientenregel.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{25 \\cdot 49} = \\sqrt{25} \\cdot \\sqrt{49} = 5 \\cdot 7 = 35$\n\n$\\sqrt{0{,}16 \\cdot 900} = 0{,}4 \\cdot 30 = 12$"
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{1{,}69 : 0{,}01} = \\sqrt{1{,}69} : \\sqrt{0{,}01} = 1{,}3 : 0{,}1 = 13$"
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{6} \\cdot \\sqrt{24} = \\sqrt{6 \\cdot 24} = \\sqrt{144} = 12$"
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sqrt{0{,}3} \\cdot \\sqrt{30} = \\sqrt{0{,}3 \\cdot 30} = \\sqrt{9} = 3$"
+        },
+        {
+          "id": "N6-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sqrt{200} : \\sqrt{8} = \\sqrt{200 : 8} = \\sqrt{25} = 5$"
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sqrt{3x} = 9$, also $3x = 81$ und $x = 27$.\n\nProbe: $\\sqrt{27} \\cdot \\sqrt{3} = \\sqrt{81} = 9$."
+        },
+        {
+          "id": "N6-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$\\left(\\sqrt{a} \\cdot \\sqrt{b}\\right)^2 = \\sqrt{a} \\cdot \\sqrt{b} \\cdot \\sqrt{a} \\cdot \\sqrt{b} = \\sqrt{a} \\cdot \\sqrt{a} \\cdot \\sqrt{b} \\cdot \\sqrt{b} = a \\cdot b$$\n\nDie Faktoren darf man vertauschen, und $\\sqrt{a} \\cdot \\sqrt{a} = a$."
+        },
+        {
+          "id": "N6-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$\\sqrt{a \\cdot b}$ ist die nicht negative Zahl, die quadriert $a \\cdot b$ ergibt. Die Zahl $\\sqrt{a} \\cdot \\sqrt{b}$ ist nicht negativ (Produkt zweier nicht negativer Zahlen) und ergibt quadriert $a \\cdot b$. Also ist sie genau diese Wurzel."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Wurzeln vereinfachen und zusammenfassen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c8",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Suche immer die größte Quadratzahl im Radikanden.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Wurzeln_vereinfachen.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{52} = \\sqrt{4 \\cdot 13} = 2\\sqrt{13}$\n\n$\\sqrt{300} = \\sqrt{100 \\cdot 3} = 10\\sqrt{3}$"
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{180} = \\sqrt{36 \\cdot 5} = 6\\sqrt{5}$"
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$(4 + 3 - 2) \\cdot \\sqrt{6} = 5\\sqrt{6}$"
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sqrt{27} = \\sqrt{9 \\cdot 3} = 3\\sqrt{3}$, also $3\\sqrt{3} + 2\\sqrt{3} = 5\\sqrt{3}$."
+        },
+        {
+          "id": "N7-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sqrt{50} = 5\\sqrt{2}$ und $\\sqrt{18} = 3\\sqrt{2}$, also $5\\sqrt{2} - 3\\sqrt{2} = 2\\sqrt{2}$."
+        },
+        {
+          "id": "N7-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$\\sqrt{2} \\cdot \\sqrt{8} - \\sqrt{2} \\cdot \\sqrt{2} = \\sqrt{16} - \\sqrt{4} = 4 - 2 = 2$$"
+        },
+        {
+          "id": "N7-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$\\sqrt{75} : \\sqrt{3} + \\sqrt{12} : \\sqrt{3} = \\sqrt{25} + \\sqrt{4} = 5 + 2 = 7$$\n\nJeder Summand wird durch $\\sqrt{3}$ geteilt."
+        },
+        {
+          "id": "N7-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sqrt{49a^2} = \\sqrt{49} \\cdot \\sqrt{a^2} = 7a$ (wegen $a \\ge 0$ ist $\\sqrt{a^2} = a$)"
+        },
+        {
+          "id": "N7-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sqrt{3a \\cdot 12a} = \\sqrt{36a^2} = 6a$"
+        },
+        {
+          "id": "N7-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$\\sqrt{50} = 5\\sqrt{2}$. Teile $5\\sqrt{2}$ in zwei Vielfache von $\\sqrt{2}$ auf, z. B. $2\\sqrt{2} + 3\\sqrt{2}$.\n\nWegen $2\\sqrt{2} = \\sqrt{8}$ und $3\\sqrt{2} = \\sqrt{18}$ passt $a = 8$, $b = 18$: $\\sqrt{8} + \\sqrt{18} = 5\\sqrt{2} = \\sqrt{50}$.\n\nEbenso richtig: $a = 2$, $b = 32$ ($\\sqrt{2} + 4\\sqrt{2}$)."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Tandem: Mit Wurzeln rechnen",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c2",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut und sagt dabei, welche Regel sie benutzt. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert. Nach jeder Nummer wird gewechselt.",
+      "bild": "img/st_N8.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N8-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechne $\\sqrt{1{,}96}$ und $\\sqrt{\\frac{16}{49}}$.",
+          "tipp": "Welche Zahl ergibt quadriert 196?",
+          "loesung": "$\\sqrt{1{,}96} = 1{,}4$, denn $1{,}4^2 = 1{,}96$.\n\n$\\sqrt{\\frac{16}{49}} = \\frac{4}{7}$."
+        },
+        {
+          "id": "N8-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechne $\\sqrt{0{,}04}$ und $\\sqrt{\\frac{81}{4}}$.",
+          "tipp": "Zähler und Nenner einzeln betrachten.",
+          "loesung": "$\\sqrt{0{,}04} = 0{,}2$, denn $0{,}2^2 = 0{,}04$.\n\n$\\sqrt{\\frac{81}{4}} = \\frac{9}{2}$."
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Bestimme die Lösungsmenge von $x^2 - 30 = 51$.",
+          "tipp": "Erst so umformen, dass $x^2$ allein steht.",
+          "loesung": "$x^2 = 81$, also $L = \\{-9; 9\\}$."
+        },
+        {
+          "id": "N8-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Bestimme die Lösungsmenge von $3x^2 = 75$.",
+          "tipp": "Erst so umformen, dass $x^2$ allein steht.",
+          "loesung": "$x^2 = 25$, also $L = \\{-5; 5\\}$."
+        },
+        {
+          "id": "N8-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne $\\sqrt{2} \\cdot \\sqrt{18}$ und $\\sqrt{150} : \\sqrt{6}$.",
+          "tipp": "Fasse die beiden Wurzeln zu einer zusammen.",
+          "loesung": "$\\sqrt{2 \\cdot 18} = \\sqrt{36} = 6$\n\n$\\sqrt{150 : 6} = \\sqrt{25} = 5$"
+        },
+        {
+          "id": "N8-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne $\\sqrt{5} \\cdot \\sqrt{80}$ und $\\sqrt{96} : \\sqrt{6}$.",
+          "tipp": "Fasse die beiden Wurzeln zu einer zusammen.",
+          "loesung": "$\\sqrt{5 \\cdot 80} = \\sqrt{400} = 20$\n\n$\\sqrt{96 : 6} = \\sqrt{16} = 4$"
+        },
+        {
+          "id": "N8-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Vereinfache $\\sqrt{32} + \\sqrt{8}$.",
+          "tipp": "Ziehe aus beiden Wurzeln teilweise die Wurzel.",
+          "loesung": "$\\sqrt{32} = 4\\sqrt{2}$ und $\\sqrt{8} = 2\\sqrt{2}$, also $4\\sqrt{2} + 2\\sqrt{2} = 6\\sqrt{2}$."
+        },
+        {
+          "id": "N8-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Vereinfache $\\sqrt{75} - \\sqrt{27}$.",
+          "tipp": "Ziehe aus beiden Wurzeln teilweise die Wurzel.",
+          "loesung": "$\\sqrt{75} = 5\\sqrt{3}$ und $\\sqrt{27} = 3\\sqrt{3}$, also $5\\sqrt{3} - 3\\sqrt{3} = 2\\sqrt{3}$."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c10",
+        "c8",
+        "c9",
+        "c3",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. In jeder Lösung steckt ein typischer Fehler.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Wurzel aus einer Summe ist nicht die Summe der Wurzeln: $\\sqrt{36 + 64} \\ne \\sqrt{36} + \\sqrt{64}$. Erst wird addiert, dann die Wurzel gezogen (1 P).\n\nRichtig: $\\sqrt{36 + 64} = \\sqrt{100} = 10$ (1 P)."
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beim Wurzelziehen halbiert sich die Zahl der Nachkommastellen: 4 Stellen → 2 Stellen. Die Probe zeigt den Fehler: $0{,}007^2 = 0{,}000049$ (1 P).\n\nRichtig: $\\sqrt{0{,}0049} = 0{,}07$, denn $0{,}07^2 = 0{,}0049$ (1 P)."
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die negative Lösung fehlt: Auch $(-15)^2 = 225$. $\\sqrt{225}$ liefert nur die positive Lösung (1 P).\n\nRichtig: $x = 15$ oder $x = -15$, also $L = \\{-15; 15\\}$ (1 P)."
+        },
+        {
+          "id": "N9-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Erst wird quadriert: $(-4)^2 = 16$. Eine Wurzel ist nie negativ, also $\\sqrt{(-4)^2} = \\sqrt{16} = 4$."
+        },
+        {
+          "id": "N9-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "- Für $a \\ge 0$ ist a selbst die nicht negative Zahl mit dem Quadrat $a^2$: $\\sqrt{a^2} = a = |a|$.\n- Für $a < 0$ ist $-a > 0$ und $(-a)^2 = a^2$. Also ist $\\sqrt{a^2} = -a = |a|$."
+        },
+        {
+          "id": "N9-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nur gleiche Wurzeln lassen sich zusammenfassen. $\\sqrt{5}$ und $\\sqrt{3}$ haben verschiedene Radikanden, also bleibt $3\\sqrt{5} + 2\\sqrt{3}$ so stehen."
+        },
+        {
+          "id": "N9-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$2{,}5^2 = 6{,}25 > 5$, also $\\sqrt{5} < 2{,}5$, und $\\sqrt{3} < 2$. Damit ist $3\\sqrt{5} + 2\\sqrt{3} < 7{,}5 + 4 = 11{,}5$.\n\n$2{,}8^2 = 7{,}84 < 8$, also $\\sqrt{8} > 2{,}8$ und $5\\sqrt{8} > 14$. Das angebliche Ergebnis ist zu groß."
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Wie tief ist der Brunnen?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c2",
+        "c1",
+        "g5",
+        "g2"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Die Quadratwurzel) – am besten nach N1 bis N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Brunnen.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$h = 5 \\cdot 2^2 = 5 \\cdot 4 = 20$, also $20\\,\\mathrm{m}$."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$h = 5 \\cdot 2{,}5^2 = 5 \\cdot 6{,}25 = 31{,}25$, also $31{,}25\\,\\mathrm{m}$."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$$h = 5t^2 \\quad \\mid : 5 \\qquad t^2 = h : 5 \\qquad t = \\sqrt{h : 5}$$\n\nDie Gleichung hat auch die negative Lösung $-\\sqrt{h : 5}$. Eine Fallzeit ist aber nie negativ, darum zählt nur die Wurzel."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$t = \\sqrt{45 : 5} = \\sqrt{9} = 3$, also $3\\,\\mathrm{s}$."
+        },
+        {
+          "id": "V1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$t = \\sqrt{1{,}8 : 5} = \\sqrt{0{,}36} = 0{,}6$, also $0{,}6\\,\\mathrm{s}$."
+        },
+        {
+          "id": "V1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Doppelte Fallzeit $2t$ ergibt $5 \\cdot (2t)^2 = 5 \\cdot 4t^2 = 4 \\cdot 5t^2 = 4h$.\n\nBei vierfacher Tiefe dauert der Fall also **doppelt** so lange (Beispiel: 20 m → 2 s, 80 m → 4 s)."
+        },
+        {
+          "id": "V1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Aussage ist **falsch**. Beispiel: 20 m dauern 2 s. Für 40 m gilt $t = \\sqrt{40 : 5} = \\sqrt{8}$, und $\\sqrt{8} < 3$, weil $8 < 9$. Doppelt so lange (4 s) dauert erst die vierfache Tiefe (80 m)."
+        },
+        {
+          "id": "V1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Ohne Korrektur: $h = 5 \\cdot 3{,}1^2 = 5 \\cdot 9{,}61 = 48{,}05$, also etwa $48\\,\\mathrm{m}$.\n\nMit Korrektur: Fallzeit $3{,}1 - 0{,}1 = 3$, also $h = 5 \\cdot 3^2 = 45$, also $45\\,\\mathrm{m}$."
+        },
+        {
+          "id": "V1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Der Unterschied beträgt rund $3\\,\\mathrm{m}$, also etwa 7 % der Tiefe – ohne Korrektur schätzt man zu tief. Bei einer Schätzung „etwa 45 bis 50 m“ ist das tragbar, für eine genaue Angabe lohnt sich die Korrektur.\n\nAllerdings misst man mit der Hand ungenau: Schon $0{,}2\\,\\mathrm{s}$ Reaktionszeit ändern das Ergebnis um mehrere Meter. Sinnvoll ist, mehrmals zu messen und zu mitteln. (Jedes begründete Urteil mit Zahlen zählt.)"
+        },
+        {
+          "id": "V1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Für $10\\,\\mathrm{m}$ braucht er $t = \\sqrt{10 : 5} = \\sqrt{2}\\,\\mathrm{s}$. Wegen $2 < 4$ ist $\\sqrt{2} < 2$.\n\nFür beide Strecken zusammen braucht er also weniger als 2 s, für die zweiten $5\\,\\mathrm{m}$ folglich weniger als 1 s (genauer etwa 0,4 s). Der Stein wird immer schneller."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Wie weit kann man sehen?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner nur zum Multiplizieren und Quadrieren",
+      "checkliste": [
+        "c5",
+        "c4",
+        "c6",
+        "c7",
+        "c3",
+        "c2",
+        "g6",
+        "g2"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, Taschenrechner nur zum Multiplizieren und Quadrieren. Vernetzt die Grundlagen mit Phase 1 bis 2 (Quadratwurzel, Näherungswerte und reelle Zahlen) – am besten nach N3 bis N5.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Sichtweite.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$d = \\sqrt{13 \\cdot 52} = \\sqrt{676} = 26$, also $26\\,\\mathrm{km}$."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$13 \\cdot 1{,}7 = 22{,}1$ und $16 < 22{,}1 < 25$, also $4 < \\sqrt{22{,}1} < 5$: zwischen 4 und $5\\,\\mathrm{km}$."
+        },
+        {
+          "id": "V2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$d = \\sqrt{13 \\cdot 20} = \\sqrt{260}$. Wegen $256 < 260 < 289$ ist $16 < \\sqrt{260} < 17$ (1 P).\n\n$16{,}1^2 = 259{,}21 < 260$ und $16{,}2^2 = 262{,}44 > 260$, also $16{,}1 < \\sqrt{260} < 16{,}2$. Mitte: $16{,}15^2 = 260{,}8225 > 260$, also $d \\approx 16{,}1\\,\\mathrm{km}$ (1 P)."
+        },
+        {
+          "id": "V2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\sqrt{13 \\cdot h} = 39$, also $13 \\cdot h = 39^2 = 1521$ (1 P).\n\n$h = 1521 : 13 = 117$, man muss $117\\,\\mathrm{m}$ hoch stehen (1 P)."
+        },
+        {
+          "id": "V2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "26 gehört zu $\\mathbb{N}$, $\\mathbb{Z}$, $\\mathbb{Q}$ und $\\mathbb{R}$.\n\n$260 = 2^2 \\cdot 5 \\cdot 13$: 5 und 13 kommen nur einmal vor, also ist 260 keine Quadratzahl. Damit ist $\\sqrt{260}$ irrational und gehört nur zu $\\mathbb{R}$."
+        },
+        {
+          "id": "V2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Dann ist $13 \\cdot h$ schon die Primfaktorzerlegung: zwei verschiedene Primfaktoren, jeder nur einmal. In einer Quadratzahl kommt jeder Primfaktor gerade oft vor. Also ist $13 \\cdot h$ keine Quadratzahl, und $\\sqrt{13 \\cdot h}$ ist keine natürliche Zahl (sogar irrational)."
+        },
+        {
+          "id": "V2-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Vom Ausguck: $\\sqrt{13 \\cdot 13} = 13$, also $13\\,\\mathrm{km}$. Von der Galerie etwa $16{,}1\\,\\mathrm{km}$.\n\nZusammen etwa $13 + 16{,}1 = 29{,}1$, also rund $29\\,\\mathrm{km}$."
+        },
+        {
+          "id": "V2-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Nach dem Modell **knapp nicht**: $29{,}1\\,\\mathrm{km} < 30\\,\\mathrm{km}$.\n\nDie Formel ist aber nur eine Näherung. In der Luft wird das Licht etwas gekrümmt (Lichtbrechung), dadurch reicht die Sicht meist weiter – das Urteil kann kippen. Dazu kommen Wetter und Helligkeit des Feuers. Sicher sagen kann man nur: Es ist sehr knapp."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Die Blendenreihe einer Kamera",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c10",
+        "c7",
+        "c6",
+        "c4",
+        "c3",
+        "c2",
+        "g5",
+        "g2"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Quadratwurzel, Näherungswerte und reelle Zahlen, Rechnen mit Wurzeln) – am besten nach N6 bis N9.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Blendenreihe.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{2} \\cdot \\sqrt{2} = \\sqrt{4} = 2$"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Exakte Reihe: $1$; $\\sqrt{2}$; $2$; $2\\sqrt{2}$; $4$; $4\\sqrt{2}$; $8$; $8\\sqrt{2}$; $16$.\n\nVierte: $2\\sqrt{2}$, sechste: $4\\sqrt{2}$, achte: $8\\sqrt{2}$."
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$4\\sqrt{2} \\approx 4 \\cdot 1{,}41 = 5{,}64$, gerundet $5{,}6$.\n\n$8\\sqrt{2} \\approx 8 \\cdot 1{,}41 = 11{,}28$, gerundet $11$.\n\nAuf dem Objektiv stehen nur zwei Ziffern. (Mit $\\sqrt{2} \\approx 1{,}414$ ergibt sich $5{,}66$ – auf Objektiven steht trotzdem üblicherweise 5,6.)"
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\left(2\\sqrt{2}\\right)^2 = 2^2 \\cdot \\left(\\sqrt{2}\\right)^2 = 4 \\cdot 2 = 8$ und $2^2 = 4$.\n\n$k^2$ ist doppelt so groß, also kommt halb so viel Licht durch."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Beim Quadrieren eines Produkts muss **jeder** Faktor quadriert werden. Hier wurde nur $\\sqrt{2}$ quadriert ($= 2$), die 2 davor nicht. Richtig: $2^2 \\cdot 2 = 8$."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Ein Viertel des Lichts heißt: $k^2$ ist viermal so groß, also $k^2 = 4 \\cdot 8 = 32$.\n\n$k = \\sqrt{32} = \\sqrt{16 \\cdot 2} = 4\\sqrt{2}$ (nur positiv), auf dem Objektiv „5,6“."
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Verdoppelt man k, wird $k^2$ viermal so groß: $(2k)^2 = 4k^2$. Tatsächlich ist $4\\sqrt{2} = 2 \\cdot 2\\sqrt{2}$."
+        },
+        {
+          "id": "V3-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Rational sind 1, 2 und 4.\n\n$\\sqrt{2}$ ist irrational, ebenso $2\\sqrt{2} = \\sqrt{8}$, denn 8 ist keine Quadratzahl."
+        },
+        {
+          "id": "V3-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$3^2 = 9$, $2^2 = 4$: $k^2$ ist $\\frac{9}{4}$-mal so groß.\n\nEs kommt nur $\\frac{4}{9}$ des Lichts durch, also weniger als die Hälfte (etwa 44 %)."
+        },
+        {
+          "id": "V3-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch** (1 P). Halb so viel Licht bedeutet $k^2 = 2 \\cdot 4 = 8$, also $k = 2\\sqrt{2} \\approx 2{,}83$ – nicht die Mitte 3. Der Fehler: Es wurde mit k gedacht statt mit $k^2$. Die Blendenzahlen wachsen nicht in gleichen Abständen, sondern immer mit dem Faktor $\\sqrt{2}$ (1 P)."
+        },
+        {
+          "id": "V3-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Zwei Schritte bedeuten den Faktor $\\sqrt{2} \\cdot \\sqrt{2} = 2$. Von 1 aus entstehen so 1, 2, 4, 8, 16 – alle rational.\n\nDazwischen steht jeweils $n \\cdot \\sqrt{2} = \\sqrt{2n^2}$ mit $n = 1, 2, 4, 8$. In $2n^2$ kommt der Faktor 2 ungerade oft vor, also ist $2n^2$ keine Quadratzahl und $n\\sqrt{2}$ irrational."
+        }
+      ]
+    }
+  ]
+}
