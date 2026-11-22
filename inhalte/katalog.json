@@ -300,6 +300,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Grundbegriffe, Schwingungsgleichung, Wechselspannung, Feder- und Fadenpendel, lineares Kraftgesetz, Energie, Experiment, Dämpfung; eA: Differenzialgleichung, gedämpfte und erzwungene Schwingungen quantitativ, Resonanz, Schwingkreis"
+        },
+        {
+          "id": "wellen",
+          "name": "Mechanische Wellen – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Wellengrößen, Transversal- und Longitudinalwellen, Momentbild, Reflexion, Interferenz, stehende Wellen, Dopplereffekt, Huygens’sches Prinzip, Brechung, Beugung; eA: Wellengleichung, stehende Welle als Funktion, Interferometer"
         }
       ]
     },
