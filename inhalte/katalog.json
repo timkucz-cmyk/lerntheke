@@ -176,6 +176,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Potenzschreibweise, negative und gebrochene Exponenten, Potenzgesetze, wissenschaftliche Schreibweise"
+        },
+        {
+          "id": "bewegungen",
+          "name": "Bewegungen – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Grundgrößen, Bewegungsarten, Bezugssystem, Geschwindigkeit berechnen und messen, t-s-Diagramme, Bewegungsgesetz, zusammengesetzte Bewegungen, Überholen und Entgegenkommen"
         }
       ]
     },
