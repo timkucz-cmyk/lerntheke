@@ -1,0 +1,1729 @@
+{
+  "version": 1,
+  "titel": "Mechanische und elektromagnetische Schwingungen – Lerntheke vor dem Test",
+  "fach": "physik",
+  "anrede": "sie",
+  "hinweis": "Alle Stationen sind testrelevant. Sind Sie beim Vorwissen unsicher (Sinusfunktion, Kreisbewegung, Federkraft, Energie, Ableitung), beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt die typischen Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Schwingungen beschreiben), V2 nach N4 bis N7 (Feder- und Fadenpendel), V3 nach N8 bis N10 (gedämpfte Schwingungen). N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11. Stationen mit der Marke eA (N12 bis N15 und V4) gehören zum erhöhten Niveau. Stellen Sie den Taschenrechner für alle Schwingungsrechnungen auf Bogenmaß (RAD).",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Sinusfunktionen f(x) = a · sin(b · x + c) + d zeichnen, ihre Parameter deuten und aus einem Graphen bestimmen (Taschenrechner im Bogenmaß)"
+    },
+    {
+      "id": "g2",
+      "text": "Kreisbewegungen mit Umlaufdauer, Frequenz und Winkelgeschwindigkeit ω = 2π/T beschreiben"
+    },
+    {
+      "id": "g3",
+      "text": "Kräfte mit dem Hooke’schen Gesetz F = D · s und der Grundgleichung F = m · a berechnen"
+    },
+    {
+      "id": "g4",
+      "text": "Lage-, Bewegungs- und Spannenergie berechnen und den Energieerhaltungssatz anwenden"
+    },
+    {
+      "id": "g5",
+      "text": "Geschwindigkeit und Beschleunigung als Steigung bzw. Ableitung im Zeit-Diagramm deuten und Sinus und Kosinus ableiten (mit innerer Ableitung)"
+    },
+    {
+      "id": "c1",
+      "text": "Schwingungen mit Oszillator, Ruhelage, Auslenkung, Umkehrpunkt, Schwingungsebene, Amplitude, Periodendauer und Frequenz beschreiben"
+    },
+    {
+      "id": "c2",
+      "text": "Harmonische Schwingungen (auch Wechselspannung) mit Sinusfunktionen darstellen, die Schwingungsgleichung aufstellen und charakteristische Größen daraus bestimmen"
+    },
+    {
+      "id": "c3",
+      "text": "Die Bedingung für harmonische Schwingungen (rücktreibende Kraft proportional zur Auslenkung) erläutern und den Verlauf von Kraft, Geschwindigkeit und Beschleunigung beschreiben"
+    },
+    {
+      "id": "c4",
+      "text": "Periodendauer und Frequenz eines Federpendels aus Masse und Federhärte berechnen und die Einflussgrößen begründen"
+    },
+    {
+      "id": "c5",
+      "text": "Periodendauer und Frequenz eines Fadenpendels aus Pendellänge und Fallbeschleunigung berechnen (kleine Auslenkungen) und die Einflussgrößen begründen"
+    },
+    {
+      "id": "c6",
+      "text": "Experimente zu Feder- und Fadenpendel planen, durchführen und auswerten (über mehrere Perioden messen, Mittelwert, Linearisierung)"
+    },
+    {
+      "id": "c7",
+      "text": "Energieumwandlungen bei ungedämpften Schwingungen beschreiben und Höchstgeschwindigkeiten mit dem Energiesatz berechnen"
+    },
+    {
+      "id": "c8",
+      "text": "Gedämpfte Schwingungen beschreiben: Schwingfall und Kriechfall, Abnahme von Amplitude und Energie"
+    },
+    {
+      "id": "c9",
+      "text": "Die Differenzialgleichung der harmonischen Schwingung aus dem linearen Kraftgesetz aufstellen, mit dem Sinusansatz lösen und daraus die Periodendauer herleiten",
+      "niveau": "ea"
+    },
+    {
+      "id": "c10",
+      "text": "Gedämpfte Schwingungen quantitativ beschreiben (Abklingkoeffizient, Einhüllende, Energieabnahme) und den aperiodischen Grenzfall erläutern",
+      "niveau": "ea"
+    },
+    {
+      "id": "c11",
+      "text": "Erzwungene Schwingungen analysieren: Resonanz, Resonanzkurven bei unterschiedlicher Dämpfung, Phasenverschiebung und Schwingungstilger",
+      "niveau": "ea"
+    },
+    {
+      "id": "c12",
+      "text": "Elektromagnetische Schwingkreise analysieren (Ladung, Spannung, Stromstärke, Energie, Dämpfung) und mit mechanischen Schwingungen energetisch vergleichen",
+      "niveau": "ea"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen: Sinusfunktion, Kreisbewegung, Kraft und Energie",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Schwingungen beschreiben",
+      "untertitel": "Grundbegriffe, Schwingungsgleichung, Wechselspannung",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Feder- und Fadenpendel",
+      "untertitel": "Lineares Kraftgesetz, Periodendauer, Experiment, Energie (eA: Differenzialgleichung)",
+      "farbe": "orange",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c9"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Gedämpfte und erzwungene Schwingungen",
+      "untertitel": "Dämpfung (eA: quantitativ, Resonanz, Schwingkreis)",
+      "farbe": "gruen",
+      "checkliste": [
+        "c8",
+        "c10",
+        "c11",
+        "c12"
+      ]
+    }
+  ],
+  "abschluss": "Test",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 5 gehören zu den Grundlagen g1 bis g5 der Selbsteinschätzung. Bearbeiten Sie die Blöcke, bei denen Sie in der Selbsteinschätzung unsicher sind. Lücken schließen Sie danach mit G2. $g = 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}$.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$a$ streckt bzw. staucht in $y$-Richtung (Amplitude), $b$ streckt bzw. staucht in $x$-Richtung (Periode $\\frac{2\\pi}{b}$), $c$ verschiebt nach links bzw. rechts, $d$ verschiebt nach oben bzw. unten."
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Höchstwert $2{,}5$, Tiefstwert $-0{,}5$: $a = \\frac{2{,}5 - (-0{,}5)}{2} = 1{,}5$ und $d = \\frac{2{,}5 + (-0{,}5)}{2} = 1$.\n\nEine Periode ist 4 lang: $b = \\frac{2\\pi}{4} = \\frac{\\pi}{2}$. Bei $x = 0$ geht der Graph aufsteigend durch die Mittellinie, also $c = 0$:\n\n$f(x) = 1{,}5 \\cdot \\sin\\left(\\frac{\\pi}{2} \\cdot x\\right) + 1$"
+        },
+        {
+          "id": "G1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Im Bogenmaß: $f(0{,}5) = 1{,}5 \\cdot \\sin\\left(\\frac{\\pi}{4}\\right) + 1 \\approx 1{,}5 \\cdot 0{,}707 + 1 \\approx 2{,}06$\n\n(Im Gradmodus käme fälschlich $1{,}5 \\cdot \\sin(0{,}785°) + 1 \\approx 1{,}02$ heraus.)"
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f = \\frac{3000}{60\\,\\mathrm{s}} = 50\\,\\mathrm{Hz}$, $T = \\frac{1}{f} = 0{,}020\\,\\mathrm{s}$"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\omega = \\frac{2\\pi}{T} = 2\\pi \\cdot f = 2\\pi \\cdot 50\\,\\mathrm{Hz} \\approx 314\\,\\mathrm{s^{-1}}$"
+        },
+        {
+          "id": "G1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$v = \\omega \\cdot r = 314\\,\\mathrm{s^{-1}} \\cdot 0{,}125\\,\\mathrm{m} \\approx 39\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Gewichtskraft $F = m \\cdot g = 0{,}300\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}} \\approx 2{,}94\\,\\mathrm{N}$\n\n$D = \\frac{F}{s} = \\frac{2{,}94\\,\\mathrm{N}}{0{,}060\\,\\mathrm{m}} \\approx 49\\,\\frac{\\mathrm{N}}{\\mathrm{m}}$"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$F = D \\cdot s = 49\\,\\frac{\\mathrm{N}}{\\mathrm{m}} \\cdot 0{,}10\\,\\mathrm{m} \\approx 4{,}9\\,\\mathrm{N}$\n\n$a = \\frac{F}{m} = \\frac{4{,}9\\,\\mathrm{N}}{0{,}30\\,\\mathrm{kg}} \\approx 16\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}$"
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E_{Spann} = \\frac{1}{2} \\cdot D \\cdot s^2 = \\frac{1}{2} \\cdot 49\\,\\frac{\\mathrm{N}}{\\mathrm{m}} \\cdot (0{,}060\\,\\mathrm{m})^2 \\approx 0{,}088\\,\\mathrm{J}$"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Spannenergie wird vollständig zu Bewegungsenergie:\n\n$v = \\sqrt{\\frac{2 \\cdot E}{m}} = \\sqrt{\\frac{2 \\cdot 0{,}088\\,\\mathrm{J}}{0{,}050\\,\\mathrm{kg}}} \\approx 1{,}9\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "G1-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bewegungsenergie wird zu Lageenergie: $m \\cdot g \\cdot h = E$\n\n$h = \\frac{E}{m \\cdot g} = \\frac{0{,}088\\,\\mathrm{J}}{0{,}050\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}} \\approx 0{,}18\\,\\mathrm{m}$"
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Steigung im Ort-Zeit-Diagramm: Geschwindigkeit $v = \\dot{s}$. Steigung im Geschwindigkeit-Zeit-Diagramm: Beschleunigung $a = \\dot{v}$."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Kettenregel (innere Ableitung 2): $f'(t) = 3 \\cdot \\cos(2 \\cdot t) \\cdot 2 = 6 \\cdot \\cos(2 \\cdot t)$"
+        },
+        {
+          "id": "G1-5c",
+          "label": "5c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f''(t) = -6 \\cdot \\sin(2 \\cdot t) \\cdot 2 = -12 \\cdot \\sin(2 \\cdot t)$\n\nEs gilt $f''(t) = -4 \\cdot f(t)$: Die zweite Ableitung ist proportional zur Funktion, mit umgekehrtem Vorzeichen."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Sinusfunktion, Federkraft und Energie",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 12,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g1",
+        "g3",
+        "g4",
+        "g2",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 12 Minuten. Übt die typischen Lücken aus G1: Sinusfunktion aufstellen, Bogenmaß, Federkraft, Energie, Winkelgeschwindigkeit und Ableitung. $g = 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}$.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$a = \\frac{5 - 1}{2} = 2$, $d = \\frac{5 + 1}{2} = 3$, Periode $5 - 1 = 4$, also $b = \\frac{2\\pi}{4} = \\frac{\\pi}{2}$.\n\nHochpunkt bei $x = 1$: $\\frac{\\pi}{2} \\cdot 1 + c = \\frac{\\pi}{2}$, also $c = 0$.\n\n$f(x) = 2 \\cdot \\sin\\left(\\frac{\\pi}{2} \\cdot x\\right) + 3$"
+        },
+        {
+          "id": "G2-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Rechner stand im Gradmodus und hat $\\sin(1{,}2°)$ berechnet. Bei Schwingungen ist das Argument eine Zahl im Bogenmaß: $\\sin(1{,}2) \\approx 0{,}932$ (Modus RAD)."
+        },
+        {
+          "id": "G2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$s = \\frac{F}{D} = \\frac{5{,}0\\,\\mathrm{N}}{250\\,\\frac{\\mathrm{N}}{\\mathrm{m}}} = 0{,}020\\,\\mathrm{m} = 2{,}0\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$m \\cdot g \\cdot h = \\frac{1}{2} \\cdot m \\cdot v^2 \\Rightarrow v = \\sqrt{2 \\cdot g \\cdot h} = \\sqrt{2 \\cdot 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}} \\cdot 0{,}45\\,\\mathrm{m}} \\approx 3{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ (die Masse kürzt sich)."
+        },
+        {
+          "id": "G2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$T = \\frac{1}{f} = 0{,}40\\,\\mathrm{s}$, $\\omega = 2\\pi \\cdot f \\approx 15{,}7\\,\\mathrm{s^{-1}}$"
+        },
+        {
+          "id": "G2-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$(\\cos)' = -\\sin$, dazu die innere Ableitung 3:\n\n$g'(t) = 4 \\cdot (-\\sin(3 \\cdot t)) \\cdot 3 = -12 \\cdot \\sin(3 \\cdot t)$"
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Schwingungen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c7",
+        "c8"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Die Amplitude ist der größte Abstand von der Ruhelage ($3\\,\\mathrm{cm}$), die Periodendauer die Zeit für eine ganze Schwingung, z. B. von Maximum zu Maximum ($0{,}8\\,\\mathrm{s}$).\n\n*A oder D gewählt?* $6\\,\\mathrm{cm}$ ist der Abstand von Maximum bis Minimum. *B oder D gewählt?* $0{,}4\\,\\mathrm{s}$ ist der Abstand zweier Nullstellen, also nur eine halbe Periode. → **N2** Aufgabe 2"
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $\\omega = \\frac{2\\pi}{T} = \\pi\\,\\mathrm{s^{-1}}$. Bei $t = 0$ ist der Körper im oberen Umkehrpunkt: $y(0) = +4{,}0\\,\\mathrm{cm}$, das liefert der Kosinus.\n\n*A gewählt?* Der Sinus startet in der Ruhelage. *C gewählt?* Das wäre der Start im unteren Umkehrpunkt. *D gewählt?* Die Periodendauer ist nicht $\\omega$; $\\omega = \\frac{2\\pi}{T}$. → **N3** Aufgabe 2"
+        },
+        {
+          "id": "N1-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Bei einer harmonischen Schwingung hängt die Periodendauer nicht von der Amplitude ab: Bei doppelter Auslenkung ist auch die rücktreibende Kraft doppelt so groß, der längere Weg wird schneller zurückgelegt.\n\n*B, C oder D gewählt?* In $T = 2\\pi \\cdot \\sqrt{\\frac{m}{D}}$ kommt die Amplitude nicht vor. → **N7** Aufgabe 2c"
+        },
+        {
+          "id": "N1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $T = 2\\pi \\cdot \\sqrt{\\frac{m}{D}}$: $T \\sim \\sqrt{m}$, $\\sqrt{4} = 2$.\n\n*A gewählt?* $T$ ist nicht proportional zu $m$, sondern zu $\\sqrt{m}$. *B gewählt?* Das gilt beim Fadenpendel, nicht beim Federpendel. *C gewählt?* Eine größere Masse ist träger und schwingt langsamer. → **N4** Aufgabe 3"
+        },
+        {
+          "id": "N1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $T = 2\\pi \\cdot \\sqrt{\\frac{l}{g}}$ enthält die Masse nicht: Die doppelte Masse erfährt die doppelte rücktreibende Kraft, ist aber auch doppelt so träge.\n\n*A, C oder D gewählt?* Beim Fadenpendel zählen nur Länge und Fallbeschleunigung. → **N5** Aufgabe 2"
+        },
+        {
+          "id": "N1-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – In der Ruhelage ist die ganze Energie Bewegungsenergie; dort ist $|v|$ maximal (und die Kraft null).\n\n*A oder B gewählt?* In den Umkehrpunkten ist $v = 0$; dort ist die Beschleunigung am größten. *C gewählt?* Bis zur Ruhelage wird der Gleiter weiter schneller. → **N6** Aufgabe 2"
+        },
+        {
+          "id": "N1-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Durch Reibung nimmt die Amplitude ab; die Periodendauer bleibt bei schwacher Dämpfung fast gleich.\n\n*A oder B gewählt?* Dämpfung wirkt vor allem auf die Amplitude. *D gewählt?* Das beschreibt den Kriechfall bei starker Dämpfung. → **N8** Aufgabe 1"
+        },
+        {
+          "id": "N1-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $E = \\frac{1}{2} \\cdot D \\cdot \\hat{y}^2$: doppelte Amplitude, vierfache Energie.\n\n*B gewählt?* Die Energie wächst mit dem Quadrat der Amplitude. *C gewählt?* Nur die Periodendauer bleibt gleich. *D gewählt?* Die Wurzel gehört zur Periodendauer, nicht zur Energie. → **N6** Aufgabe 4"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Schwingungen beschreiben",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c1",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 15 Minuten.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Schwingungen_beschreiben.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Oszillator: ein Zinken (genauer: sein Ende). Ruhelage: die Lage des Zinkens vor dem Anschlagen. Umkehrpunkte: die beiden äußersten Lagen, in denen der Zinken kurz stillsteht und umkehrt. Auslenkung: der momentane Abstand des Zinkenendes von der Ruhelage (mit Vorzeichen)."
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f = \\frac{n}{t} = \\frac{200}{4{,}0\\,\\mathrm{s}} = 50\\,\\mathrm{Hz}$, $T = \\frac{1}{f} = 0{,}020\\,\\mathrm{s} = 20\\,\\mathrm{ms}$"
+        },
+        {
+          "id": "N2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f = \\frac{72}{60\\,\\mathrm{s}} = 1{,}2\\,\\mathrm{Hz}$, $T = \\frac{1}{f} \\approx 0{,}83\\,\\mathrm{s}$"
+        },
+        {
+          "id": "N2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "A: $\\hat{y} = 2{,}0\\,\\mathrm{cm}$, $T = 0{,}50\\,\\mathrm{s}$, $f = 2{,}0\\,\\mathrm{Hz}$\n\nB: $\\hat{y} = 3{,}0\\,\\mathrm{cm}$, $T = 0{,}75\\,\\mathrm{s}$, $f \\approx 1{,}3\\,\\mathrm{Hz}$\n\nPeriodendauer z. B. von Maximum zu Maximum ablesen, nicht von Nullstelle zu Nullstelle."
+        },
+        {
+          "id": "N2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gesucht ist das kleinste gemeinsame Vielfache von $0{,}50\\,\\mathrm{s}$ und $0{,}75\\,\\mathrm{s}$: $t = 1{,}5\\,\\mathrm{s}$ (A hat dann 3, B 2 Schwingungen gemacht)."
+        },
+        {
+          "id": "N2-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "C: $\\hat{y} = 4{,}0\\,\\mathrm{cm}$, $f = 1{,}0\\,\\mathrm{Hz}$, $T = 1{,}0\\,\\mathrm{s}$; Start in der Ruhelage nach oben, Maximum bei $0{,}25\\,\\mathrm{s}$, Nulldurchgang bei $0{,}5\\,\\mathrm{s}$, Minimum bei $0{,}75\\,\\mathrm{s}$, nach $1{,}5\\,\\mathrm{s}$ wieder in der Ruhelage (nach unten).",
+          "loesung_bild": "img/N2-2c.png"
+        },
+        {
+          "id": "N2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Alle drei Vorgänge sind **periodisch**: Sie wiederholen sich nach der Periodendauer. **Harmonisch** heißt mehr: Die Auslenkung verläuft sinusförmig.\n\nDie Stimmgabel schwingt nahezu harmonisch (reiner Ton). Der Herzschlag ist periodisch, sein Verlauf (z. B. im EKG) ist aber keine Sinuskurve: kurze Spitzen, lange Pausen. Der Flügelschlag ist periodisch, aber nur näherungsweise sinusförmig. Die Aussage verwechselt „periodisch“ und „harmonisch“."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Die Schwingungsgleichung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c2",
+        "c1",
+        "g1",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR (Bogenmaß) und Formeldokument zugelassen, 18 Minuten.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Schwingungsgleichung.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\omega = 2\\pi \\cdot f = 2\\pi \\cdot 30\\,\\mathrm{Hz} \\approx 188{,}5\\,\\mathrm{s^{-1}}$; Start in der Ruhelage nach oben: Sinus ohne Verschiebung ($\\varphi_0 = 0$).\n\n$y(t) = 2{,}0\\,\\mathrm{mm} \\cdot \\sin(188{,}5\\,\\mathrm{s^{-1}} \\cdot t)$"
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$y(0{,}010\\,\\mathrm{s}) = 2{,}0\\,\\mathrm{mm} \\cdot \\sin(1{,}885) \\approx 2{,}0\\,\\mathrm{mm} \\cdot 0{,}951 \\approx 1{,}9\\,\\mathrm{mm}$ (Bogenmaß!)"
+        },
+        {
+          "id": "N3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$T = \\frac{1}{30}\\,\\mathrm{s} \\approx 33\\,\\mathrm{ms}$: Sinuskurve zwischen $-2{,}0\\,\\mathrm{mm}$ und $+2{,}0\\,\\mathrm{mm}$, Nulldurchgänge bei $0$, $17$, $33$, $50$ und $67\\,\\mathrm{ms}$, Maxima bei $8$ und $42\\,\\mathrm{ms}$.",
+          "loesung_bild": "img/N3-1c.png"
+        },
+        {
+          "id": "N3-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "(1): $\\hat{y} = 5{,}0\\,\\mathrm{cm}$, $T = 4{,}0\\,\\mathrm{s}$, $\\omega = \\frac{2\\pi}{4{,}0\\,\\mathrm{s}} \\approx 1{,}57\\,\\mathrm{s^{-1}}$, Start im oberen Umkehrpunkt:\n\n$y_1(t) = 5{,}0\\,\\mathrm{cm} \\cdot \\cos(1{,}57\\,\\mathrm{s^{-1}} \\cdot t)$ (gleichwertig: $5{,}0\\,\\mathrm{cm} \\cdot \\sin(1{,}57\\,\\mathrm{s^{-1}} \\cdot t + \\frac{\\pi}{2})$)\n\n(2): $\\hat{y} = 1{,}5\\,\\mathrm{cm}$, $T = 0{,}20\\,\\mathrm{s}$, $\\omega \\approx 31{,}4\\,\\mathrm{s^{-1}}$, Start in der Ruhelage nach unten:\n\n$y_2(t) = -1{,}5\\,\\mathrm{cm} \\cdot \\sin(31{,}4\\,\\mathrm{s^{-1}} \\cdot t)$"
+        },
+        {
+          "id": "N3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\hat{u} = 325\\,\\mathrm{V}$, $T = 20\\,\\mathrm{ms}$, $f = \\frac{1}{T} = 50\\,\\mathrm{Hz}$, $\\omega = 2\\pi \\cdot f \\approx 314\\,\\mathrm{s^{-1}}$:\n\n$u(t) = 325\\,\\mathrm{V} \\cdot \\sin(314\\,\\mathrm{s^{-1}} \\cdot t)$"
+        },
+        {
+          "id": "N3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$325\\,\\mathrm{V} \\cdot \\sin(314\\,\\mathrm{s^{-1}} \\cdot t) = 200\\,\\mathrm{V}$\n\n$314\\,\\mathrm{s^{-1}} \\cdot t = \\arcsin\\left(\\frac{200}{325}\\right) \\approx 0{,}663$\n\n$t \\approx \\frac{0{,}663}{314\\,\\mathrm{s^{-1}}} \\approx 2{,}1\\,\\mathrm{ms}$"
+        },
+        {
+          "id": "N3-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sin(\\varphi_0) = \\frac{1{,}0}{2{,}0} = 0{,}5$: $\\varphi_0 = \\frac{\\pi}{6}$ (Taschenrechner) oder $\\varphi_0 = \\pi - \\frac{\\pi}{6} = \\frac{5\\pi}{6}$."
+        },
+        {
+          "id": "N3-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bei $\\varphi_0 = \\frac{\\pi}{6}$ liegt der Start auf dem ansteigenden Teil der Sinuskurve (vor dem Maximum bei $\\frac{\\pi}{2}$): Der Oszillator bewegt sich nach oben. Bei $\\varphi_0 = \\frac{5\\pi}{6}$ liegt er hinter dem Maximum und bewegt sich nach unten. Es passt also nur $\\frac{\\pi}{6}$ (Kontrolle: $\\cos(\\frac{\\pi}{6}) > 0$, also $v(0) > 0$).\n\n$\\omega = \\frac{2\\pi}{0{,}60\\,\\mathrm{s}} \\approx 10{,}5\\,\\mathrm{s^{-1}}$: $y(t) = 2{,}0\\,\\mathrm{cm} \\cdot \\sin\\left(10{,}5\\,\\mathrm{s^{-1}} \\cdot t + \\frac{\\pi}{6}\\right)$"
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Das Federpendel",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c4",
+        "c3",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 15 Minuten. $g = 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}$.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Federpendel.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$T = 2\\pi \\cdot \\sqrt{\\frac{35\\,\\mathrm{kg}}{9000\\,\\frac{\\mathrm{N}}{\\mathrm{m}}}} \\approx 0{,}39\\,\\mathrm{s}$, $f = \\frac{1}{T} \\approx 2{,}6\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$s = \\frac{F}{D} = \\frac{35\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}}{9000\\,\\frac{\\mathrm{N}}{\\mathrm{m}}} \\approx 0{,}038\\,\\mathrm{m} = 3{,}8\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$T = 2\\pi \\cdot \\sqrt{\\frac{80\\,\\mathrm{kg}}{9000\\,\\frac{\\mathrm{N}}{\\mathrm{m}}}} \\approx 0{,}59\\,\\mathrm{s}$"
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$T = 2\\pi \\cdot \\sqrt{\\frac{m}{D}} \\Rightarrow m = D \\cdot \\left(\\frac{T}{2\\pi}\\right)^2 = 9000\\,\\frac{\\mathrm{N}}{\\mathrm{m}} \\cdot \\left(\\frac{0{,}50\\,\\mathrm{s}}{2\\pi}\\right)^2 \\approx 57\\,\\mathrm{kg}$\n\nOhne Sitz und Tier: $57\\,\\mathrm{kg} - 10\\,\\mathrm{kg} = 47\\,\\mathrm{kg}$."
+        },
+        {
+          "id": "N4-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Aus $T = 2\\pi \\cdot \\sqrt{\\frac{m}{D}}$: (1) $T$ verdoppelt sich ($\\sqrt{4} = 2$), (2) $T$ halbiert sich, (3) $T$ bleibt gleich.\n\nBegründung zu (1): Eine größere Masse ist träger; bei gleicher rücktreibender Kraft wird sie weniger stark beschleunigt und braucht länger für eine Schwingung."
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Einfederung ist kleiner: $s_0 = \\frac{m \\cdot g}{D}$, also $s_0 \\sim g$ (auf dem Mars etwa $1{,}4\\,\\mathrm{cm}$). Die Periodendauer ist aber $T = 2\\pi \\cdot \\sqrt{\\frac{m}{D}}$ – darin steht $g$ nicht; sie bleibt bei $0{,}39\\,\\mathrm{s}$.\n\nBegründung: Die Schwerkraft verschiebt nur die Ruhelage. Um diese neue Ruhelage wirkt dieselbe rücktreibende Kraft $F = -D \\cdot y$ auf dieselbe Masse. (Rechnerisch: $T = 2\\pi \\cdot \\sqrt{\\frac{s_0}{g}}$, und der Quotient $\\frac{s_0}{g} = \\frac{m}{D}$ ist auf beiden Planeten gleich.)"
+        },
+        {
+          "id": "N4-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$1\\,\\frac{\\mathrm{N}}{\\mathrm{m}} = 1\\,\\frac{\\mathrm{kg} \\cdot \\mathrm{m}}{\\mathrm{s^2} \\cdot \\mathrm{m}} = 1\\,\\frac{\\mathrm{kg}}{\\mathrm{s^2}}$, also $\\sqrt{\\frac{\\mathrm{kg}}{\\mathrm{kg/s^2}}} = \\sqrt{\\mathrm{s^2}} = \\mathrm{s}$."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Das Fadenpendel",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c5",
+        "c3",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 15 Minuten. $g = 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}$.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Fadenpendel.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$T = 2\\pi \\cdot \\sqrt{\\frac{30\\,\\mathrm{m}}{9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}}} \\approx 11\\,\\mathrm{s}$"
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$l = g \\cdot \\left(\\frac{T}{2\\pi}\\right)^2 = 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}} \\cdot \\left(\\frac{8{,}0\\,\\mathrm{s}}{2\\pi}\\right)^2 \\approx 15{,}9\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N5-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die senkrechte Ebene, die das Seil und die Flugrichtung enthält: Darin bewegt sich die Last auf einem Kreisbogen hin und her."
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die rücktreibende Kraft (Teil der Gewichtskraft) ist doppelt so groß, die Last aber auch doppelt so träge. Die Beschleunigung und damit die Periodendauer bleiben gleich – in $T = 2\\pi \\cdot \\sqrt{\\frac{l}{g}}$ steht keine Masse."
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$T = 2\\pi \\cdot \\sqrt{\\frac{30\\,\\mathrm{m}}{3{,}71\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}}} \\approx 17{,}9\\,\\mathrm{s}$ – kleinere Fallbeschleunigung, langsameres Pendeln."
+        },
+        {
+          "id": "N5-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$T_{40°} \\approx 1{,}03 \\cdot 11{,}0\\,\\mathrm{s} \\approx 11{,}3\\,\\mathrm{s}$\n\nFür kleine Auslenkungen (bis etwa $10°$) ist die Abweichung vernachlässigbar, die Schwingung ist nahezu harmonisch. Bei großen Auslenkungen ist die rücktreibende Kraft nicht mehr proportional zur Auslenkung; die Formel liefert dann nur noch einen Näherungswert (hier $3\\,\\%$ zu klein)."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$5{,}5\\,\\mathrm{s}$ ist etwa eine halbe Periodendauer: Die Last schwingt beim Abbremsen nach vorn aus und ist gerade am Umkehrpunkt, wenn der Hubschrauber steht – sie pendelt mit großer Amplitude weiter.\n\nMöglichkeiten: viel langsamer abbremsen (Dauer deutlich größer als $T \\approx 11\\,\\mathrm{s}$), sodass die Last folgen kann; oder in genau einer ganzen Periode ($\\approx 11\\,\\mathrm{s}$) abbremsen, sodass die Last am Ende wieder senkrecht hängt; oder dem Pendeln mit kleinen Bewegungen gegensteuern. Ein kürzeres Seil verkürzt $T$, ändert das Problem aber nur im Zeitmaßstab."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Kraft, Geschwindigkeit und Energie beim Schwingen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c3",
+        "c7",
+        "c2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 18 Minuten.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Kraft_Energie.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F = -D \\cdot y$: bei $5{,}0\\,\\mathrm{cm}$: $F = -2{,}0\\,\\mathrm{N}$ (nach links); bei $0$: $F = 0$; bei $-2{,}5\\,\\mathrm{cm}$: $F = +1{,}0\\,\\mathrm{N}$ (nach rechts). Die Kraft zeigt immer zur Ruhelage."
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die rücktreibende Kraft ist proportional zur Auslenkung und ihr entgegengesetzt ($F = -D \\cdot y$, lineares Kraftgesetz). Schwingungen mit diesem Kraftgesetz verlaufen sinusförmig, sind also harmonisch (Skript)."
+        },
+        {
+          "id": "N6-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In den Umkehrpunkten ist $v = 0$ (der Gleiter kehrt um); dort ist die Auslenkung und damit die Kraft am größten, also auch die Beschleunigung $a = \\frac{F}{m}$.\n\nIn der Ruhelage ist die Kraft null, also $a = 0$; bis hierhin wurde der Gleiter immer schneller, danach wird er abgebremst – $|v|$ ist maximal."
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\omega = \\sqrt{\\frac{D}{m}} = \\sqrt{\\frac{40\\,\\mathrm{N/m}}{0{,}40\\,\\mathrm{kg}}} = 10\\,\\mathrm{s^{-1}}$, $T = \\frac{2\\pi}{\\omega} \\approx 0{,}63\\,\\mathrm{s}$\n\nAus der Ableitung: $\\hat{v} = \\hat{y} \\cdot \\omega = 0{,}050\\,\\mathrm{m} \\cdot 10\\,\\mathrm{s^{-1}} = 0{,}50\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$, $\\hat{a} = \\hat{y} \\cdot \\omega^2 = 5{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}$"
+        },
+        {
+          "id": "N6-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E = \\frac{1}{2} \\cdot D \\cdot \\hat{y}^2 = \\frac{1}{2} \\cdot 40\\,\\frac{\\mathrm{N}}{\\mathrm{m}} \\cdot (0{,}050\\,\\mathrm{m})^2 = 0{,}050\\,\\mathrm{J}$ – das ist die gesamte Schwingungsenergie."
+        },
+        {
+          "id": "N6-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "In der Ruhelage ist die ganze Energie Bewegungsenergie: $\\frac{1}{2} \\cdot m \\cdot \\hat{v}^2 = 0{,}050\\,\\mathrm{J}$\n\n$\\hat{v} = \\sqrt{\\frac{2 \\cdot 0{,}050\\,\\mathrm{J}}{0{,}40\\,\\mathrm{kg}}} = 0{,}50\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ – wie oben."
+        },
+        {
+          "id": "N6-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$E \\sim \\hat{y}^2$: doppelte Amplitude, **vierfache** Energie ($0{,}20\\,\\mathrm{J}$). $\\hat{v} \\sim \\sqrt{E} \\sim \\hat{y}$: doppelte Höchstgeschwindigkeit ($1{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$). Die Periodendauer bleibt gleich."
+        },
+        {
+          "id": "N6-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Bewegung ist periodisch, aber nicht harmonisch. In der Luft wirkt nur die konstante Gewichtskraft – sie ist nicht proportional zur Auslenkung und zeigt nicht immer zu einer Ruhelage. Die Höhe verläuft deshalb in Parabelbögen, nicht sinusförmig.\n\nAußerdem hängt die Periodendauer von der Sprunghöhe ab ($T = 2 \\cdot \\sqrt{\\frac{2h}{g}}$), während sie bei harmonischen Schwingungen von der Amplitude unabhängig ist."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Experiment oder Simulation: Pendel untersuchen",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 18,
+      "hilfsmittel": "Material oder Simulation, WTR, Tabellenkalkulation",
+      "checkliste": [
+        "c6",
+        "c4",
+        "c5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Partnerarbeit, 18 Minuten. Material: Fadenpendel (Stativ, Faden, zwei Kugeln verschiedener Masse), Stoppuhr, Maßband. Ohne Material: PhET-Simulation „Pendel-Labor“ (HTML5); für das Federpendel eignet sich „Masse und Federn“. WTR und Tabellenkalkulation zugelassen.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Pendel_untersuchen.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Hypothesen (begründet): Längere Pendel schwingen langsamer ($T$ wächst mit $l$, vermutlich nicht proportional). Die Masse hat keinen Einfluss, weil eine größere Masse zwar stärker zurückgezogen wird, aber auch träger ist.\n\nExperiment zur Masse: verändert die Masse $m$, gemessen die Zeit für 10 Perioden, konstant die Pendellänge $l$, die Anfangsauslenkung (klein, z. B. $5°$) und der Ort ($g$)."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Reaktionszeit beim Starten und Stoppen (etwa $0{,}2\\,\\mathrm{s}$) fällt nur einmal an; geteilt durch 10 wird ihr Einfluss auf $T$ zehnmal kleiner."
+        },
+        {
+          "id": "N7-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei gleicher Länge ergeben beide Massen innerhalb der Messunsicherheit dieselbe Zeit für 10 Perioden (z. B. $l = 0{,}50\\,\\mathrm{m}$: etwa $14{,}2\\,\\mathrm{s}$). Die Hypothese „kein Einfluss der Masse“ wird bestätigt."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$T$ in s: $0{,}90$; $1{,}26$; $1{,}56$; $1{,}79$; $2{,}01$ → $T^2$ in $\\mathrm{s^2}$: $0{,}81$; $1{,}59$; $2{,}43$; $3{,}20$; $4{,}04$.\n\nDie Punkte liegen auf einer Ursprungsgeraden. Nach $T = 2\\pi \\cdot \\sqrt{\\frac{l}{g}}$ ist $T^2 = \\frac{4\\pi^2}{g} \\cdot l$ proportional zu $l$; $T$ über $l$ wäre eine Wurzelkurve, an der man den Zusammenhang schlechter prüfen kann (Linearisierung).",
+          "loesung_bild": "img/N7-2a.png"
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Steigung (Ausgleichsgerade durch den Ursprung) $k \\approx 4{,}03\\,\\frac{\\mathrm{s^2}}{\\mathrm{m}}$, z. B. aus dem letzten Punkt: $\\frac{4{,}04\\,\\mathrm{s^2}}{1{,}00\\,\\mathrm{m}}$.\n\n$k = \\frac{4\\pi^2}{g} \\Rightarrow g = \\frac{4\\pi^2}{k} \\approx \\frac{39{,}5}{4{,}03}\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}} \\approx 9{,}8\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}$"
+        },
+        {
+          "id": "N7-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bei $5°$ und $10°$ ergeben sich innerhalb der Messunsicherheit gleiche Zeiten (etwa $15{,}5\\,\\mathrm{s}$ für 10 Perioden): Für kleine Auslenkungen ist $T$ unabhängig von der Amplitude. Bei $30°$ ist $T$ etwa $1{,}7\\,\\%$ größer (rund $0{,}3\\,\\mathrm{s}$ auf 10 Perioden) – mit der Stoppuhr ist das kaum von der Reaktionszeit ($\\pm 0{,}2\\,\\mathrm{s}$) zu unterscheiden, in der Simulation dagegen sichtbar.\n\nUrteil: Die Formel gilt für kleine Winkel; die Abweichung bei großen Winkeln ist echt, aber klein. Um sie sicher nachzuweisen, müsste man mehr Perioden oder mit Lichtschranke messen."
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "titel": "eA: Die Differenzialgleichung der Schwingung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c9",
+        "c3",
+        "c4",
+        "c5",
+        "g3",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR und Formeldokument zugelassen, 16 Minuten. Am besten nach N6. Sie brauchen die Grundgleichung $F = m \\cdot a$ mit $a = \\ddot{y}$ und die Ableitungen von Sinus und Kosinus. $g = 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}$.",
+      "bild": "img/st_N12.svg",
+      "pdf": "pdf/N12_eA_Differenzialgleichung.pdf",
+      "aufgaben": [
+        {
+          "id": "N12-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$m \\cdot \\ddot{y}(t) = -D \\cdot y(t)$, also $\\ddot{y}(t) + \\frac{D}{m} \\cdot y(t) = 0$."
+        },
+        {
+          "id": "N12-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\dot{y}(t) = \\hat{y} \\cdot \\omega \\cdot \\cos(\\omega \\cdot t)$, $\\ddot{y}(t) = -\\hat{y} \\cdot \\omega^2 \\cdot \\sin(\\omega \\cdot t) = -\\omega^2 \\cdot y(t)$\n\nEingesetzt: $-\\omega^2 \\cdot y + \\frac{D}{m} \\cdot y = 0$ für alle $t$, also $\\omega^2 = \\frac{D}{m}$, $\\omega = \\sqrt{\\frac{D}{m}}$.\n\n$T = \\frac{2\\pi}{\\omega} = 2\\pi \\cdot \\sqrt{\\frac{m}{D}}$"
+        },
+        {
+          "id": "N12-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Für kleine Winkel: $\\sin(\\varphi) \\approx \\varphi = \\frac{s}{l}$, also $F \\approx -\\frac{m \\cdot g}{l} \\cdot s$ – ein lineares Kraftgesetz mit $D = \\frac{m \\cdot g}{l}$.\n\n$m \\cdot \\ddot{s} = -\\frac{m \\cdot g}{l} \\cdot s \\Rightarrow \\omega^2 = \\frac{g}{l}$, $T = 2\\pi \\cdot \\sqrt{\\frac{l}{g}}$ (die Masse kürzt sich heraus)."
+        },
+        {
+          "id": "N12-3",
+          "label": "3",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Rücktreibende Kraft: Der Höhenunterschied $2y$ bedeutet eine überstehende Wassersäule der Masse $\\rho \\cdot A \\cdot 2y$; ihr Gewicht treibt zurück: $F = -2 \\cdot \\rho \\cdot A \\cdot g \\cdot y$ – lineares Kraftgesetz mit $D = 2\\rho A g$.\n\nBewegt wird die ganze Säule: $m = \\rho \\cdot A \\cdot L$. Damit $\\omega^2 = \\frac{D}{m} = \\frac{2g}{L}$ und $T = 2\\pi \\cdot \\sqrt{\\frac{L}{2g}}$.\n\n$T = 2\\pi \\cdot \\sqrt{\\frac{0{,}80\\,\\mathrm{m}}{2 \\cdot 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}}} \\approx 1{,}27\\,\\mathrm{s}$ – unabhängig von Dichte und Querschnitt."
+        },
+        {
+          "id": "N12-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$y_1$: $\\ddot{y}_1 = -\\omega^2 \\cdot \\hat{y} \\cdot \\cos(\\omega t) = -\\omega^2 \\cdot y_1$ – Lösung (Start im Umkehrpunkt).\n\n$y_2$: $\\ddot{y}_2 = -\\omega^2 \\cdot \\hat{y} \\cdot \\sin(\\omega t)$, aber $\\omega^2 \\cdot y_2 = \\omega^2 \\cdot \\hat{y} \\cdot \\sin(\\omega t) + \\omega^2 \\cdot 2\\,\\mathrm{cm}$; die Summe ist $\\omega^2 \\cdot 2\\,\\mathrm{cm} \\neq 0$ – keine Lösung. Die Verschiebung würde bedeuten, dass bei $y = 0$ noch eine Kraft wirkt."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Gedämpfte Schwingungen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8",
+        "c7",
+        "c2",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 16 Minuten.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Gedaempfte_Schwingungen.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Maxima bei $0$; $0{,}5$; $1{,}0$; $1{,}5\\,\\mathrm{s}$ … bis $3{,}0\\,\\mathrm{s}$: $T \\approx 0{,}50\\,\\mathrm{s}$ – am Anfang und am Ende gleich."
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Abgelesen: $4{,}0$; $3{,}2$; $2{,}6$; $2{,}0\\,\\mathrm{cm}$.\n\n$\\frac{3{,}2}{4{,}0} = 0{,}80$, $\\frac{2{,}6}{3{,}2} \\approx 0{,}81$, $\\frac{2{,}0}{2{,}6} \\approx 0{,}77$: In jeder Periode sinkt die Amplitude auf etwa $80\\,\\%$."
+        },
+        {
+          "id": "N8-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei einer Exponentialfunktion sinkt der Wert in gleichen Zeitabschnitten immer um denselben Faktor. Genau das zeigen die Messwerte: je Periode Faktor $0{,}80$. Eine lineare Abnahme hätte dagegen gleiche Differenzen."
+        },
+        {
+          "id": "N8-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Kurve 1: **Schwingfall** – schwache Dämpfung, der Oszillator schwingt mehrfach über die Ruhelage, die Amplitude nimmt ab.\n\nKurve 2: **Kriechfall** – starke Dämpfung, der Oszillator kriecht ohne Überschwingen langsam in die Ruhelage zurück."
+        },
+        {
+          "id": "N8-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Kriechfall (oder eine Dämpfung knapp darunter): Die Tür darf nicht über die geschlossene Lage hinausschwingen und gegen den Rahmen schlagen. Sie soll ohne Überschwingen zufallen."
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Reibung (Luft, Einspannung, innere Reibung im Material) wandelt Schwingungsenergie in innere Energie (Wärme) und etwas Schall um.\n\nSchwingungsenergie $E = \\frac{1}{2} \\cdot D \\cdot \\hat{y}^2 \\sim \\hat{y}^2$: $\\left(\\frac{1}{2}\\right)^2 = \\frac{1}{4}$, also noch $25\\,\\%$."
+        },
+        {
+          "id": "N8-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Zielkonflikt: Bei schwacher Dämpfung (Schwingfall) erreicht der Zeiger den Messwert schnell, schwingt aber lange um ihn herum – man kann nicht ablesen. Bei sehr starker Dämpfung (Kriechfall) schwingt er nicht über, kriecht aber lange zum Messwert.\n\nGünstig ist eine Dämpfung, bei der der Zeiger gerade nicht mehr überschwingt und trotzdem möglichst schnell ankommt – also die schwächste Dämpfung ohne Überschwingen."
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "titel": "eA: Gedämpfte Schwingungen berechnen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c10",
+        "c8",
+        "c7",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR und Formeldokument zugelassen, 16 Minuten. Am besten nach N8.",
+      "bild": "img/st_N13.svg",
+      "pdf": "pdf/N13_eA_Daempfung.pdf",
+      "aufgaben": [
+        {
+          "id": "N13-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\hat{y}_0 \\cdot e^{-\\delta \\cdot t} = \\frac{\\hat{y}_0}{4}$ nach $t = 4 \\cdot 0{,}80\\,\\mathrm{s} = 3{,}2\\,\\mathrm{s}$:\n\n$\\delta = \\frac{\\ln(4)}{3{,}2\\,\\mathrm{s}} \\approx 0{,}43\\,\\mathrm{s^{-1}}$"
+        },
+        {
+          "id": "N13-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$t_{1/2} = \\frac{\\ln(2)}{\\delta} = \\frac{0{,}693}{0{,}433\\,\\mathrm{s^{-1}}} \\approx 1{,}6\\,\\mathrm{s}$ (zwei Perioden)"
+        },
+        {
+          "id": "N13-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\omega = \\frac{2\\pi}{0{,}80\\,\\mathrm{s}} \\approx 7{,}85\\,\\mathrm{s^{-1}}$:\n\n$y(t) = 12\\,\\mathrm{cm} \\cdot e^{-0{,}43\\,\\mathrm{s^{-1}} \\cdot t} \\cdot \\cos(7{,}85\\,\\mathrm{s^{-1}} \\cdot t)$\n\n$\\delta^2 \\approx 0{,}19\\,\\mathrm{s^{-2}}$ ist gegen $\\omega^2 \\approx 61{,}7\\,\\mathrm{s^{-2}}$ winzig: $\\omega_D = \\sqrt{\\omega^2 - \\delta^2} \\approx 7{,}84\\,\\mathrm{s^{-1}}$ – praktisch gleich."
+        },
+        {
+          "id": "N13-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$E \\sim \\hat{y}^2 \\sim e^{-2\\delta t}$; nach einer Periode: $e^{-2 \\cdot 0{,}433\\,\\mathrm{s^{-1}} \\cdot 0{,}80\\,\\mathrm{s}} = e^{-0{,}693} \\approx 0{,}50$."
+        },
+        {
+          "id": "N13-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\mathrm{s^{-1}}$: Der Exponent $\\delta \\cdot t$ muss eine reine Zahl sein."
+        },
+        {
+          "id": "N13-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Für $\\delta = \\omega$ wird $\\omega_D = 0$: Es gibt keine Schwingung mehr. Der Oszillator kehrt ohne Überschwingen und dabei am schnellsten in die Ruhelage zurück (schneller als im Kriechfall $\\delta > \\omega$). Genutzt wird das z. B. bei Zeigermessgeräten und Türschließern."
+        },
+        {
+          "id": "N13-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$e^{-\\delta t} = 0{,}01 \\Rightarrow t = \\frac{\\ln(100)}{\\delta} \\approx 10{,}6\\,\\mathrm{s}$ (etwa 13 Perioden, Amplitude dann $1{,}2\\,\\mathrm{mm}$).\n\nDas e-Gesetz gilt für Reibung proportional zur Geschwindigkeit (Luft bei kleinen Geschwindigkeiten, innere Reibung). Gleitreibung in der Befestigung ist eher konstant und führt zu einer linearen Abnahme – die Schwingung endet dann nach endlicher Zeit. Für kleine Amplituden ist das Modell deshalb nur eine Näherung; außerdem regt Wind den Mast ständig neu an."
+        }
+      ]
+    },
+    {
+      "id": "N14",
+      "titel": "eA: Erzwungene Schwingungen und Resonanz",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c11",
+        "c10",
+        "c4",
+        "c8"
+      ],
+      "kategorie": "neu",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR und Formeldokument zugelassen, 20 Minuten. Am besten nach N13.",
+      "bild": "img/st_N14.svg",
+      "pdf": "pdf/N14_eA_Resonanz.pdf",
+      "aufgaben": [
+        {
+          "id": "N14-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Hand mit der Tasse ist der Erreger, der Kaffee der Oszillator. Beim Gehen wird der Kaffee periodisch mit der Schrittfrequenz angestoßen. Je näher die Erregerfrequenz an der Eigenfrequenz ($3{,}5\\,\\mathrm{Hz}$) liegt, desto größer wird die Amplitude (Resonanz) – beim eiligen Gehen genug, um überzuschwappen. Zusätzliche Armbewegungen enthalten auch höhere Frequenzen."
+        },
+        {
+          "id": "N14-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beide Maxima liegen nahe der Eigenfrequenz $0{,}5\\,\\mathrm{Hz}$ (bei starker Dämpfung etwas darunter). Bei schwacher Dämpfung ist das Maximum viel höher (etwa $9$ statt $3\\,\\mathrm{Skt}$) und die Kurve schmal; bei starker Dämpfung ist sie niedrig und breit. Weit weg von $f_0$ sind beide Kurven fast gleich."
+        },
+        {
+          "id": "N14-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f_E \\ll f_0$: fast im Gleichtakt (Phasenverschiebung nahe 0). $f_E = f_0$: Das Rad läuft dem Erreger eine Viertelperiode nach ($\\frac{\\pi}{2}$). $f_E \\gg f_0$: fast im Gegentakt (nahe $\\pi$), mit kleiner Amplitude."
+        },
+        {
+          "id": "N14-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f = \\frac{1}{2\\pi} \\cdot \\sqrt{\\frac{D}{m}} \\Rightarrow D = m \\cdot (2\\pi \\cdot f)^2$ (gleiche Frequenz wie der Turm)\n\n$D = 500\\,\\mathrm{kg} \\cdot (2\\pi \\cdot 1{,}2\\,\\mathrm{Hz})^2 \\approx 2{,}8 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{m}}$"
+        },
+        {
+          "id": "N14-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der Turm wirkt für den Tilger als Erreger mit genau dessen Eigenfrequenz: Der Tilger gerät in Resonanz und schwingt stark, mit der Phasenverschiebung $\\frac{\\pi}{2}$ zur Turmbewegung.\n\nSeine Federkraft auf den Turm ist dann der Geschwindigkeit des Turms entgegengerichtet – sie bremst den Turm wie eine Reibung. Energie fließt vom Turm in den Tilger und wird dort durch einen Dämpfer in Wärme umgewandelt. Die Turmamplitude bleibt klein."
+        },
+        {
+          "id": "N14-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Langsamer läuten (Erregerfrequenz weit weg von $1{,}2\\,\\mathrm{Hz}$) wirkt, verändert aber den Klang und ist bei einer Glocke nur begrenzt möglich (die Glocke selbst ist ein Pendel). Weitere Wege: Turm versteifen bzw. Masse ändern (Eigenfrequenz verschieben, teuer); Dämpfung erhöhen (z. B. Tilger mit Dämpfer, Glockenstuhl elastisch lagern). Der Tilger greift gezielt bei der kritischen Frequenz ein und ist meist der günstigste Weg."
+        }
+      ]
+    },
+    {
+      "id": "N15",
+      "titel": "eA: Der elektromagnetische Schwingkreis",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c12",
+        "c7",
+        "c9",
+        "c2",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR und Formeldokument zugelassen, 18 Minuten. Am besten nach N14. Die Analogie zum Federpendel wird auch in der Lerntheke Magnetisches Feld (N17) behandelt.",
+      "bild": "img/st_N15.svg",
+      "pdf": "pdf/N15_eA_Schwingkreis.pdf",
+      "aufgaben": [
+        {
+          "id": "N15-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$t = 0$: Kondensator voll geladen, $I = 0$. $\\frac{T}{4}$: Kondensator leer, Strom maximal (Energie in der Spule). $\\frac{T}{2}$: Kondensator umgekehrt voll geladen, $I = 0$. $\\frac{3T}{4}$: wieder leer, Strom maximal in Gegenrichtung."
+        },
+        {
+          "id": "N15-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$T = 2\\pi \\cdot \\sqrt{2{,}0 \\cdot 10^{-3}\\,\\mathrm{H} \\cdot 47 \\cdot 10^{-9}\\,\\mathrm{F}} \\approx 61\\,\\mathrm{\\mu s}$, $f = \\frac{1}{T} \\approx 16{,}4\\,\\mathrm{kHz}$"
+        },
+        {
+          "id": "N15-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\omega = 2\\pi \\cdot f \\approx 1{,}03 \\cdot 10^{5}\\,\\mathrm{s^{-1}}$, $Q_{max} = C \\cdot U_0 \\approx 5{,}6 \\cdot 10^{-7}\\,\\mathrm{C}$, $I_{max} = Q_{max} \\cdot \\omega \\approx 58\\,\\mathrm{mA}$:\n\n$Q(t) = 5{,}6 \\cdot 10^{-7}\\,\\mathrm{C} \\cdot \\cos(1{,}03 \\cdot 10^{5}\\,\\mathrm{s^{-1}} \\cdot t)$, $U(t) = 12\\,\\mathrm{V} \\cdot \\cos(\\omega \\cdot t)$, $I(t) = -58\\,\\mathrm{mA} \\cdot \\sin(\\omega \\cdot t)$"
+        },
+        {
+          "id": "N15-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$E = \\frac{1}{2} \\cdot C \\cdot U_0^2 = \\frac{1}{2} \\cdot 47 \\cdot 10^{-9}\\,\\mathrm{F} \\cdot (12\\,\\mathrm{V})^2 \\approx 3{,}4\\,\\mathrm{\\mu J}$\n\n$\\frac{1}{2} \\cdot L \\cdot I_{max}^2 = E \\Rightarrow I_{max} = \\sqrt{\\frac{2E}{L}} \\approx 58\\,\\mathrm{mA}$ – wie aus $Q(t)$."
+        },
+        {
+          "id": "N15-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\delta = \\frac{R}{2L} = \\frac{4{,}0\\,\\Omega}{2 \\cdot 2{,}0 \\cdot 10^{-3}\\,\\mathrm{H}} = 1{,}0 \\cdot 10^{3}\\,\\mathrm{s^{-1}}$\n\n$t_{1/2} = \\frac{\\ln(2)}{\\delta} \\approx 0{,}69\\,\\mathrm{ms}$; $\\frac{0{,}69\\,\\mathrm{ms}}{61\\,\\mathrm{\\mu s}} \\approx 11$ Perioden."
+        },
+        {
+          "id": "N15-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$f \\sim \\frac{1}{\\sqrt{L}}$: $f_{neu} = \\frac{16\\,416\\,\\mathrm{Hz}}{\\sqrt{1{,}005}} \\approx 16\\,375\\,\\mathrm{Hz}$, also etwa $41\\,\\mathrm{Hz}$ weniger ($0{,}25\\,\\%$).\n\nEine so kleine Änderung erkennt man nicht am Ton direkt, wohl aber im Vergleich mit einem zweiten, festen Schwingkreis: Die Differenzfrequenz (Schwebung) springt von 0 auf etwa $41\\,\\mathrm{Hz}$ – hörbar oder elektronisch messbar. (Nichteisenmetalle senken die Induktivität über Wirbelströme; auch das verschiebt die Frequenz, nur in die andere Richtung.)"
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Tandem: Rechnen mit Schwingungen",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c8",
+        "c1",
+        "c2",
+        "c4",
+        "c5",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets, WTR im Bogenmaß. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. $g = 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}$.",
+      "bild": "img/st_N9.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N9-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Pendel macht 25 Schwingungen in $40\\,\\mathrm{s}$. Berechnen Sie Periodendauer und Frequenz.",
+          "tipp": "$T = \\frac{t}{n}$, $f = \\frac{n}{t}$.",
+          "loesung": "$T = \\frac{40\\,\\mathrm{s}}{25} = 1{,}6\\,\\mathrm{s}$, $f = \\frac{25}{40\\,\\mathrm{s}} \\approx 0{,}63\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Oszillator schwingt mit $f = 4{,}0\\,\\mathrm{Hz}$. Berechnen Sie Periodendauer und Kreisfrequenz.",
+          "tipp": "$T = \\frac{1}{f}$, $\\omega = 2\\pi \\cdot f$.",
+          "loesung": "$T = 0{,}25\\,\\mathrm{s}$, $\\omega = 2\\pi \\cdot 4{,}0\\,\\mathrm{Hz} \\approx 25{,}1\\,\\mathrm{s^{-1}}$"
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Körper ($0{,}50\\,\\mathrm{kg}$) hängt an einer Feder mit $D = 32\\,\\frac{\\mathrm{N}}{\\mathrm{m}}$. Berechnen Sie die Periodendauer.",
+          "tipp": "$T = 2\\pi \\cdot \\sqrt{\\frac{m}{D}}$.",
+          "loesung": "$T = 2\\pi \\cdot \\sqrt{\\frac{0{,}50\\,\\mathrm{kg}}{32\\,\\mathrm{N/m}}} \\approx 0{,}79\\,\\mathrm{s}$"
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechnen Sie die Periodendauer eines $2{,}5\\,\\mathrm{m}$ langen Fadenpendels.",
+          "tipp": "$T = 2\\pi \\cdot \\sqrt{\\frac{l}{g}}$.",
+          "loesung": "$T = 2\\pi \\cdot \\sqrt{\\frac{2{,}5\\,\\mathrm{m}}{9{,}81\\,\\mathrm{m/s^2}}} \\approx 3{,}2\\,\\mathrm{s}$"
+        },
+        {
+          "id": "N9-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Es gilt $y(t) = 6{,}0\\,\\mathrm{cm} \\cdot \\sin(5{,}0\\,\\mathrm{s^{-1}} \\cdot t)$. Berechnen Sie die Auslenkung bei $t = 0{,}40\\,\\mathrm{s}$.",
+          "tipp": "Taschenrechner im Bogenmaß; das Argument ist $5{,}0 \\cdot 0{,}40 = 2{,}0$.",
+          "loesung": "$y = 6{,}0\\,\\mathrm{cm} \\cdot \\sin(2{,}0) \\approx 6{,}0\\,\\mathrm{cm} \\cdot 0{,}909 \\approx 5{,}5\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N9-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Oszillator schwingt mit $\\hat{y} = 3{,}0\\,\\mathrm{cm}$ und $T = 0{,}50\\,\\mathrm{s}$. Berechnen Sie seine größte Geschwindigkeit.",
+          "tipp": "$\\hat{v} = \\hat{y} \\cdot \\omega$ mit $\\omega = \\frac{2\\pi}{T}$.",
+          "loesung": "$\\omega = \\frac{2\\pi}{0{,}50\\,\\mathrm{s}} \\approx 12{,}6\\,\\mathrm{s^{-1}}$, $\\hat{v} = 0{,}030\\,\\mathrm{m} \\cdot 12{,}6\\,\\mathrm{s^{-1}} \\approx 0{,}38\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "N9-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Bei einer gedämpften Schwingung sinkt die Amplitude in jeder Periode auf $80\\,\\%$. Anfangs ist sie $10\\,\\mathrm{cm}$. Berechnen Sie die Amplitude nach 3 Perioden.",
+          "tipp": "Dreimal mit $0{,}80$ multiplizieren.",
+          "loesung": "$10\\,\\mathrm{cm} \\cdot 0{,}80^3 = 10\\,\\mathrm{cm} \\cdot 0{,}512 \\approx 5{,}1\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N9-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Die Amplitude eines gedämpften Pendels ist auf $60\\,\\%$ gesunken. Berechnen Sie, welcher Anteil der Schwingungsenergie noch vorhanden ist.",
+          "tipp": "$E \\sim \\hat{y}^2$.",
+          "loesung": "$0{,}60^2 = 0{,}36$: noch $36\\,\\%$ der Energie."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Jede Lösung A bis F enthält genau einen typischen Fehler.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Amplitude ist der größte Abstand von der **Ruhelage**, nicht der Abstand zwischen den Umkehrpunkten: $\\hat{y} = 4\\,\\mathrm{cm}$. Die Frequenz $0{,}5\\,\\mathrm{Hz}$ stimmt."
+        },
+        {
+          "id": "N10-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Taschenrechner stand im Gradmodus: $0{,}0209 = \\sin(1{,}2°)$. Das Argument ist im Bogenmaß gemeint: $\\sin(1{,}2) \\approx 0{,}932$, also $y \\approx 2{,}8\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Richtung stimmt (schwerer → langsamer), der Zusammenhang nicht: $T \\sim \\sqrt{m}$, nicht $T \\sim m$. Doppelte Trägheit bei gleicher Federkraft halbiert die Beschleunigung; der Weg wird nur um den Faktor $\\sqrt{2}$ langsamer zurückgelegt. Richtig: $T = 0{,}60\\,\\mathrm{s} \\cdot \\sqrt{2} \\approx 0{,}85\\,\\mathrm{s}$."
+        },
+        {
+          "id": "N10-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In die Formel gehört die Pendellänge, nicht die Masse: $T = 2\\pi \\cdot \\sqrt{\\frac{0{,}80\\,\\mathrm{m}}{9{,}81\\,\\mathrm{m/s^2}}} \\approx 1{,}8\\,\\mathrm{s}$. Die Masse spielt keine Rolle."
+        },
+        {
+          "id": "N10-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch: Die Kraft bestimmt die **Beschleunigung**, nicht die Geschwindigkeit. Nach $F = -D \\cdot y$ ist die Kraft in der Ruhelage null und in den Umkehrpunkten am größten. Der Körper ist in der Ruhelage am schnellsten, weil er bis dahin ständig beschleunigt wurde; dort hört die Beschleunigung gerade auf."
+        },
+        {
+          "id": "N10-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bei schwacher Dämpfung (Schwingfall) bleibt die Periodendauer fast gleich; es nimmt die **Amplitude** ab. Der Oszillator legt kürzere Wege zurück und ist deshalb langsamer – die Dauer einer Schwingung ändert sich dabei kaum. „Immer kürzere Schwingungen“ verwechselt Weg und Zeit."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Check-out",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c8",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung. Vergleichen Sie danach mit N1.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Scheitelwert (Amplitude) ist der größte Wert über der Nulllinie ($12\\,\\mathrm{V}$), die Periodendauer der Abstand zweier Maxima ($20\\,\\mathrm{ms}$).\n\n*A oder D gewählt?* $24\\,\\mathrm{V}$ ist der Abstand von Maximum bis Minimum. *C oder D gewählt?* $10\\,\\mathrm{ms}$ ist der Abstand zweier Nulldurchgänge, eine halbe Periode. → **N2** Aufgabe 2"
+        },
+        {
+          "id": "N11-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $\\omega = \\frac{2\\pi}{0{,}50\\,\\mathrm{s}} = 4\\pi\\,\\mathrm{s^{-1}}$. Start in der Ruhelage: Sinus; zuerst nach unten: negatives Vorzeichen.\n\n*A gewählt?* Dann ginge er zuerst nach oben. *B oder C gewählt?* Der Kosinus startet in einem Umkehrpunkt. → **N3** Aufgabe 2"
+        },
+        {
+          "id": "N11-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Bei kleinen Auslenkungen ist die Schwingung harmonisch, und die Periodendauer hängt nicht von der Amplitude ab.\n\n*A, B oder D gewählt?* In $T = 2\\pi \\cdot \\sqrt{\\frac{l}{g}}$ kommt die Auslenkung nicht vor. → **N7** Aufgabe 2c"
+        },
+        {
+          "id": "N11-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $T = 2\\pi \\cdot \\sqrt{\\frac{m}{D}}$: $T \\sim \\frac{1}{\\sqrt{D}}$, $\\sqrt{4} = 2$.\n\n*B oder C gewählt?* Eine härtere Feder zieht stärker zurück, die Schwingung wird schneller. *D gewählt?* $D$ steht unter der Wurzel. → **N4** Aufgabe 3"
+        },
+        {
+          "id": "N11-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Die Masse kommt in $T = 2\\pi \\cdot \\sqrt{\\frac{l}{g}}$ nicht vor.\n\n*A, B oder C gewählt?* Die leichtere Kugel wird schwächer zurückgezogen, ist aber auch weniger träge. → **N5** Aufgabe 2"
+        },
+        {
+          "id": "N11-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – In den Umkehrpunkten ist die Auslenkung und damit die rücktreibende Kraft $F = -D \\cdot y$ am größten.\n\n*B gewählt?* In der Ruhelage ist die Geschwindigkeit maximal, die Kraft aber null. *C oder D gewählt?* Die Kraft wächst mit der Auslenkung. → **N6** Aufgabe 2"
+        },
+        {
+          "id": "N11-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Die Dämpfung verringert vor allem die Amplitude; die Periodendauer bleibt fast gleich.\n\n*A oder B gewählt?* Die Dauer einer Schwingung ändert sich bei schwacher Dämpfung kaum. *D gewählt?* Das ist der Kriechfall bei starker Dämpfung. → **N8** Aufgabe 1"
+        },
+        {
+          "id": "N11-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $E \\sim \\hat{y}^2$: $\\left(\\frac{1}{2}\\right)^2 = \\frac{1}{4}$.\n\n*A gewählt?* Die Energie hängt vom Quadrat der Amplitude ab. *C gewählt?* Nicht die dritte Potenz. *D gewählt?* Reibung wandelt Schwingungsenergie in innere Energie um. → **N6** Aufgabe 4"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Die Nadel der Nähmaschine",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c1",
+        "c2",
+        "g1",
+        "g2",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR (Bogenmaß) und Formeldokument zugelassen, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Schwingungen beschreiben) – am besten nach N2 bis N3.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Naehmaschine.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\hat{y} = \\frac{30\\,\\mathrm{mm}}{2} = 15\\,\\mathrm{mm}$, $f = \\frac{900}{60\\,\\mathrm{s}} = 15\\,\\mathrm{Hz}$, $T = \\frac{1}{f} \\approx 67\\,\\mathrm{ms}$"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Eine Umdrehung je Stich: $\\omega = 2\\pi \\cdot 15\\,\\mathrm{Hz} \\approx 94{,}2\\,\\mathrm{s^{-1}}$\n\n$v = \\omega \\cdot r = 94{,}2\\,\\mathrm{s^{-1}} \\cdot 0{,}015\\,\\mathrm{m} \\approx 1{,}41\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$"
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Start im oberen Umkehrpunkt: $y(t) = 15\\,\\mathrm{mm} \\cdot \\cos(94{,}2\\,\\mathrm{s^{-1}} \\cdot t)$ (gleichwertig $15\\,\\mathrm{mm} \\cdot \\sin(94{,}2\\,\\mathrm{s^{-1}} \\cdot t + \\frac{\\pi}{2})$)."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$15\\,\\mathrm{mm} \\cdot \\cos(\\omega t) = -10\\,\\mathrm{mm} \\Rightarrow \\cos(\\omega t) = -\\frac{2}{3}$, $\\omega t_1 = \\arccos\\left(-\\frac{2}{3}\\right) \\approx 2{,}30$; aus Symmetrie $\\omega t_2 = 2\\pi - 2{,}30 \\approx 3{,}98$.\n\n$\\Delta t = \\frac{3{,}98 - 2{,}30}{94{,}2\\,\\mathrm{s^{-1}}} \\approx 0{,}0178\\,\\mathrm{s} = 17{,}8\\,\\mathrm{ms}$ – gut ein Viertel der Periode."
+        },
+        {
+          "id": "V1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$v(t) = \\dot{y}(t) = -15\\,\\mathrm{mm} \\cdot 94{,}2\\,\\mathrm{s^{-1}} \\cdot \\sin(94{,}2\\,\\mathrm{s^{-1}} \\cdot t)$; der Betrag ist höchstens $\\hat{v} = \\hat{y} \\cdot \\omega = r \\cdot \\omega \\approx 1{,}41\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ – genau die Bahngeschwindigkeit des Zapfens.\n\nGrund: Die Nadel macht nur die senkrechte Komponente der Kreisbewegung mit. Sie erreicht $\\hat{v}$ in der Mitte des Hubs (Ruhelage), wenn sich der Zapfen gerade senkrecht bewegt."
+        },
+        {
+          "id": "V1-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Nicht exakt. Harmonisch wäre die Bewegung, wenn die Nadel genau die senkrechte Komponente der Kreisbewegung ausführte (sehr lange Stange). Die kurze, schräg stehende Stange verkürzt sich in senkrechter Richtung um verschiedene Beträge: oben und unten unterschiedlich – der Verlauf ist unsymmetrisch. Die Nadel kehrt unten schneller um und verweilt oben länger (bei $50\\,\\mathrm{mm}$ Stangenlänge rund $55\\,\\%$ der Periode in der oberen Hubhälfte). Hub und Frequenz bleiben gleich; das Sinusmodell ist eine gute Näherung, aber keine exakte Beschreibung."
+        },
+        {
+          "id": "V1-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$\\hat{a} = \\hat{y} \\cdot \\omega^2 = 0{,}015\\,\\mathrm{m} \\cdot (94{,}2\\,\\mathrm{s^{-1}})^2 \\approx 133\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}$ bei 900 Stichen. Bei doppelter Stichzahl verdoppelt sich $\\omega$, $\\hat{a}$ vervierfacht sich ($\\approx 530\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}$), ebenso die nötigen Kräfte auf Nadel und Stange; $\\hat{v}$ verdoppelt sich.\n\nIm dicken Stoff kommt eine bremsende Kraft hinzu, die bei höherer Geschwindigkeit stärker stößt. Die Empfehlung ist berechtigt: Die Belastung wächst mit dem Quadrat der Stichzahl."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Massenbestimmung in der Schwerelosigkeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 22,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c1",
+        "c2",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 22 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Schwingungen beschreiben, Feder- und Fadenpendel) – am besten nach N4 bis N7.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Massenbestimmung.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Eine Federwaage misst die Gewichtskraft über die Dehnung der Feder ($F = D \\cdot s$). In der Schwerelosigkeit drückt der Körper nicht auf die Waage – die Feder wird nicht gedehnt, die Anzeige bleibt bei null, obwohl die Masse da ist."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Federn erzeugen eine rücktreibende Kraft $F = -D \\cdot y$ (lineares Kraftgesetz) – ganz ohne Schwerkraft. Die Periodendauer $T = 2\\pi \\cdot \\sqrt{\\frac{m}{D}}$ hängt nur von der trägen Masse und der Federhärte ab, nicht von $g$."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$T = 1{,}52\\,\\mathrm{s}$; $m_{ges} = D \\cdot \\left(\\frac{T}{2\\pi}\\right)^2 = 1670\\,\\frac{\\mathrm{N}}{\\mathrm{m}} \\cdot \\left(\\frac{1{,}52\\,\\mathrm{s}}{2\\pi}\\right)^2 \\approx 97{,}7\\,\\mathrm{kg}$\n\nPerson: $97{,}7\\,\\mathrm{kg} - 20\\,\\mathrm{kg} \\approx 77{,}7\\,\\mathrm{kg}$"
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Fehler beim Starten und Stoppen der Zeitmessung fallen nur einmal an und verteilen sich auf 10 Perioden – $T$ wird zehnmal genauer."
+        },
+        {
+          "id": "V2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\hat{y} = 4{,}0\\,\\mathrm{cm}$, $T = 1{,}52\\,\\mathrm{s}$, $f = \\frac{1}{T} \\approx 0{,}66\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "V2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Start in der Ruhelage nach oben: $\\omega = \\frac{2\\pi}{1{,}52\\,\\mathrm{s}} \\approx 4{,}13\\,\\mathrm{s^{-1}}$, $y(t) = 4{,}0\\,\\mathrm{cm} \\cdot \\sin(4{,}13\\,\\mathrm{s^{-1}} \\cdot t)$"
+        },
+        {
+          "id": "V2-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Umkehrpunkt steckt alles in den Federn: $E = \\frac{1}{2} \\cdot D \\cdot \\hat{y}^2 = \\frac{1}{2} \\cdot 1670\\,\\frac{\\mathrm{N}}{\\mathrm{m}} \\cdot (0{,}040\\,\\mathrm{m})^2 \\approx 1{,}34\\,\\mathrm{J}$\n\nIn der Ruhelage ist es Bewegungsenergie: $\\hat{v} = \\sqrt{\\frac{2E}{m}} = \\sqrt{\\frac{2 \\cdot 1{,}34\\,\\mathrm{J}}{97{,}7\\,\\mathrm{kg}}} \\approx 0{,}17\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ (Kontrolle: $\\hat{y} \\cdot \\omega \\approx 0{,}17\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$)."
+        },
+        {
+          "id": "V2-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der Vorschlag taugt nicht. (1) Die Periodendauer des Fadenpendels $T = 2\\pi \\cdot \\sqrt{\\frac{l}{g}}$ hängt gar nicht von der Masse ab. (2) In der Schwerelosigkeit fehlt die rücktreibende Kraft: Ein ausgelenktes Pendel kehrt nicht zurück ($g \\to 0$, $T \\to \\infty$). Das Federpendel nutzt dagegen eine Kraft, die nicht von der Schwerkraft abhängt."
+        },
+        {
+          "id": "V2-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Teile, die nicht starr mit dem Sitz verbunden sind, schwingen verzögert mit oder gegen den Sitz. Sie werden nicht vollständig mitbeschleunigt; die wirksame Masse wird zu klein bestimmt, außerdem wird die Schwingung gedämpft und unregelmäßig. Das Messergebnis wird unsicher – deshalb die Anweisung, sich fest und ruhig zu halten."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Der schwingungsgedämpfte Messtisch",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 24,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 24 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Schwingungen beschreiben, Feder- und Fadenpendel, gedämpfte Schwingungen) – am besten nach N8 bis N10.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Messtisch.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$T = 2\\pi \\cdot \\sqrt{\\frac{400\\,\\mathrm{kg}}{3{,}6 \\cdot 10^{4}\\,\\mathrm{N/m}}} \\approx 0{,}66\\,\\mathrm{s}$, $f_0 = \\frac{1}{T} \\approx 1{,}5\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$s = \\frac{m \\cdot g}{D} = \\frac{400\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}}{3{,}6 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{m}}} \\approx 0{,}11\\,\\mathrm{m} = 11\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die rücktreibende Kraft der Federn muss proportional zur Auslenkung aus der Ruhelage sein ($F = -D \\cdot y$). Bei Luftfedern gilt das für kleine Auslenkungen näherungsweise."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E = \\frac{1}{2} \\cdot D \\cdot \\hat{y}^2 = \\frac{1}{2} \\cdot 3{,}6 \\cdot 10^{4}\\,\\frac{\\mathrm{N}}{\\mathrm{m}} \\cdot (0{,}0020\\,\\mathrm{m})^2 \\approx 0{,}072\\,\\mathrm{J}$ (Spann- und Lageenergie zusammen, gemessen ab der Ruhelage)."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\omega = \\frac{2\\pi}{0{,}66\\,\\mathrm{s}} \\approx 9{,}5\\,\\mathrm{s^{-1}}$, Start in der Ruhelage nach unten: $y(t) = -2{,}0\\,\\mathrm{mm} \\cdot \\sin(9{,}5\\,\\mathrm{s^{-1}} \\cdot t)$"
+        },
+        {
+          "id": "V3-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\hat{v} = \\hat{y} \\cdot \\omega = 0{,}0020\\,\\mathrm{m} \\cdot 9{,}5\\,\\mathrm{s^{-1}} \\approx 0{,}019\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ (ebenso mit dem Energiesatz: $\\hat{v} = \\sqrt{\\frac{2E}{m}} = \\sqrt{\\frac{2 \\cdot 0{,}072\\,\\mathrm{J}}{400\\,\\mathrm{kg}}} \\approx 0{,}019\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$)"
+        },
+        {
+          "id": "V3-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nach einem Stoß soll die Platte möglichst schnell und ohne langes Nachschwingen zur Ruhe kommen; im Schwingfall würde sie viele Perioden lang mit abnehmender Amplitude weiterschwingen und die Messung stören. Also starke Dämpfung, nahe am Kriechfall – aber nicht so stark, dass die Platte nur sehr langsam in die Ruhelage zurückkriecht."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Zum Beispiel: Dämpfer ganz öffnen, die Platte kurz anstoßen; ein Smartphone mit Beschleunigungssensor (oder ein Laserpointer mit Lichtfleck an der Wand) zeichnet die Schwingung auf. Die Zeit für mehrere (z. B. 10) Perioden ablesen und durch die Zahl der Perioden teilen, Messung wiederholen und mitteln. Kontrolle: Ergebnis mit $f_0 \\approx 1{,}5\\,\\mathrm{Hz}$ vergleichen; Auflagen auf der Platte gleich lassen (Masse!)."
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Für eine niedrige Eigenfrequenz ($1{,}5\\,\\mathrm{Hz}$) braucht man eine weiche Federung. Mit Stahlfedern hieße das $11\\,\\mathrm{cm}$ Einfederung – der Tisch stünde unpraktisch tief und kippelig, Belastungsänderungen (Gerät aufstellen) würden die Höhe stark ändern. Luftfedern tragen das Gewicht über den Innendruck, der sich nachregeln lässt: Die Platte bleibt auf gleicher Höhe und ist trotzdem weich gefedert; zusätzlich lässt sich die Dämpfung einstellen."
+        },
+        {
+          "id": "V3-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die aufgehängte Platte schwingt wie ein Fadenpendel: $T = 2\\pi \\cdot \\sqrt{\\frac{0{,}11\\,\\mathrm{m}}{9{,}81\\,\\mathrm{m/s^2}}} \\approx 0{,}67\\,\\mathrm{s}$ – praktisch dieselbe Periodendauer wie auf den Federn ($0{,}66\\,\\mathrm{s}$), und zwar unabhängig von der Masse der Platte und der Geräte darauf (beim Federpendel gilt dagegen $T \\sim \\sqrt{m}$).\n\nAber: Die Seile lassen nur eine Pendelbewegung zur Seite zu; in senkrechter Richtung sind sie praktisch starr. Senkrechte Erschütterungen des Bodens kämen ungefedert auf der Platte an. Urteil: Als Ersatz für die Federn ungeeignet; eine Pendelaufhängung könnte die Federn höchstens für waagerechte Bewegungen ergänzen."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "eA: Das Warensicherungsetikett",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 22,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c12",
+        "c11",
+        "c10",
+        "c8",
+        "c9",
+        "c7",
+        "c2",
+        "g2",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR und Formeldokument zugelassen, 22 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Schwingungen beschreiben, Feder- und Fadenpendel, gedämpfte und erzwungene Schwingungen) – am besten nach N12 bis N15.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_eA_Warensicherung.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f = \\frac{1}{2\\pi \\cdot \\sqrt{L \\cdot C}} \\Rightarrow C = \\frac{1}{(2\\pi \\cdot f)^2 \\cdot L}$\n\n$C = \\frac{1}{(2\\pi \\cdot 8{,}2 \\cdot 10^{6}\\,\\mathrm{Hz})^2 \\cdot 1{,}5 \\cdot 10^{-6}\\,\\mathrm{H}} \\approx 2{,}5 \\cdot 10^{-10}\\,\\mathrm{F} = 251\\,\\mathrm{pF}$"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Wechselfeld induziert in der Etikettspule eine Wechselspannung – es ist der Erreger, der Schwingkreis der Oszillator. Erreicht die Senderfrequenz $8{,}2\\,\\mathrm{MHz}$, tritt Resonanz ein: Der Schwingkreis schwingt mit großer Amplitude und nimmt Energie aus dem Feld auf. Die Antennen messen diesen Energieentzug bei genau dieser Frequenz. Andere Metallteile haben keine Eigenfrequenz in diesem Bereich und schwächen das Feld kaum."
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\omega = 2\\pi \\cdot 8{,}2 \\cdot 10^{6}\\,\\mathrm{Hz} \\approx 5{,}15 \\cdot 10^{7}\\,\\mathrm{s^{-1}}$: $U(t) = 2{,}0\\,\\mathrm{V} \\cdot \\cos(5{,}15 \\cdot 10^{7}\\,\\mathrm{s^{-1}} \\cdot t)$"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$e^{-\\delta \\cdot 2{,}0\\,\\mathrm{\\mu s}} = \\frac{1}{2} \\Rightarrow \\delta = \\frac{\\ln(2)}{2{,}0 \\cdot 10^{-6}\\,\\mathrm{s}} \\approx 3{,}5 \\cdot 10^{5}\\,\\mathrm{s^{-1}}$\n\nIn $2{,}0\\,\\mathrm{\\mu s}$: $2{,}0 \\cdot 10^{-6}\\,\\mathrm{s} \\cdot 8{,}2 \\cdot 10^{6}\\,\\mathrm{Hz} \\approx 16$ Schwingungen – schwach gedämpft (Schwingfall), $\\delta \\ll \\omega$."
+        },
+        {
+          "id": "V4-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\ddot{Q}(t) + \\frac{1}{L \\cdot C} \\cdot Q(t) = 0$; Federpendel: $\\ddot{y}(t) + \\frac{D}{m} \\cdot y(t) = 0$. Gleiche Form mit $Q \\leftrightarrow y$, $L \\leftrightarrow m$, $\\frac{1}{C} \\leftrightarrow D$ – daher auch $T = 2\\pi \\cdot \\sqrt{L \\cdot C}$ wie $T = 2\\pi \\cdot \\sqrt{\\frac{m}{D}}$."
+        },
+        {
+          "id": "V4-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$E = \\frac{1}{2} \\cdot C \\cdot U^2 = \\frac{1}{2} \\cdot 2{,}5 \\cdot 10^{-10}\\,\\mathrm{F} \\cdot (2{,}0\\,\\mathrm{V})^2 \\approx 5{,}0 \\cdot 10^{-10}\\,\\mathrm{J}$"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "In Resonanz wird die Spannung am Kondensator so groß, dass seine dünne Isolierschicht durchschlägt – er ist danach kurzgeschlossen. Ohne Kondensator gibt es keinen Schwingkreis und keine Eigenfrequenz mehr; das Etikett nimmt am Ausgang keine Energie aus dem Feld auf."
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$f \\sim \\frac{1}{\\sqrt{C}}$: $f = \\frac{8{,}2\\,\\mathrm{MHz}}{\\sqrt{2}} \\approx 5{,}8\\,\\mathrm{MHz}$. Das liegt weit außerhalb des abgefahrenen Bereichs ($7{,}4$ bis $8{,}8\\,\\mathrm{MHz}$): Es tritt keine Resonanz auf, das Etikett bleibt unbemerkt. Die Fertigung muss die Kapazität eng einhalten (Toleranz deutlich unter den rund $\\pm 15\\,\\%$, die der Frequenzbereich zulässt)."
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Spulen liegen so dicht, dass sie sich gegenseitig beeinflussen: Der Strom in einer Spule induziert in den Nachbarn Spannungen (Kopplung). Die gekoppelten Schwingkreise schwingen nicht mehr mit $8{,}2\\,\\mathrm{MHz}$ – die Resonanz verschiebt sich und spaltet auf, die Energie verteilt sich; zusätzlich dämpfen sich die Etiketten gegenseitig. Die Resonanzfrequenz kann dadurch aus dem Bereich $7{,}4$ bis $8{,}8\\,\\mathrm{MHz}$ herausfallen oder die Resonanz wird zu breit und schwach, um erkannt zu werden."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Schwingungskurve mit Häkchen">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M15 35 H152 M15 8 V62"/>
+  <path class="akzent" d="M15.0 35.0 L16.0 32.7 L17.0 30.5 L18.0 28.4 L19.0 26.3 L20.0 24.4 L21.0 22.7 L22.0 21.1 L23.0 19.8 L24.0 18.7 L25.0 17.9 L26.0 17.3 L27.0 17.0 L28.0 17.0 L29.0 17.3 L30.0 17.9 L31.0 18.7 L32.0 19.8 L33.0 21.1 L34.0 22.7 L35.0 24.4 L36.0 26.3 L37.0 28.4 L38.0 30.5 L39.0 32.7 L40.0 35.0 L41.0 37.3 L42.0 39.5 L43.0 41.6 L44.0 43.7 L45.0 45.6 L46.0 47.3 L47.0 48.9 L48.0 50.2 L49.0 51.3 L50.0 52.1 L51.0 52.7 L52.0 53.0 L53.0 53.0 L54.0 52.7 L55.0 52.1 L56.0 51.3 L57.0 50.2 L58.0 48.9 L59.0 47.3 L60.0 45.6 L61.0 43.7 L62.0 41.6 L63.0 39.5 L64.0 37.3 L65.0 35.0 L66.0 32.7 L67.0 30.5 L68.0 28.4 L69.0 26.3 L70.0 24.4 L71.0 22.7 L72.0 21.1 L73.0 19.8 L74.0 18.7 L75.0 17.9 L76.0 17.3 L77.0 17.0 L78.0 17.0 L79.0 17.3 L80.0 17.9 L81.0 18.7 L82.0 19.8 L83.0 21.1 L84.0 22.7 L85.0 24.4 L86.0 26.3 L87.0 28.4 L88.0 30.5 L89.0 32.7 L90.0 35.0 L91.0 37.3 L92.0 39.5 L93.0 41.6 L94.0 43.7 L95.0 45.6 L96.0 47.3 L97.0 48.9 L98.0 50.2 L99.0 51.3 L100.0 52.1 L101.0 52.7 L102.0 53.0 L103.0 53.0 L104.0 52.7 L105.0 52.1"/>
+  <path class="akzent" d="M118 38 L128 50 L148 22"/>
+</svg>
