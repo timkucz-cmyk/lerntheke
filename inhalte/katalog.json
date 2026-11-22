@@ -265,6 +265,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Magnetische Stoffe, Feldlinien, Kraft auf Leiter, Spule, Hall-Effekt, Lorentzkraft, Fadenstrahlrohr, Massenspektrometer, Beschleuniger, Induktion, Lenz’sche Regel, Generator; eA: Selbstinduktion, Schaltvorgänge, Schwingkreis"
+        },
+        {
+          "id": "schwingungen",
+          "name": "Schwingungen – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Grundbegriffe, Schwingungsgleichung, Wechselspannung, Feder- und Fadenpendel, lineares Kraftgesetz, Energie, Experiment, Dämpfung; eA: Differenzialgleichung, gedämpfte und erzwungene Schwingungen quantitativ, Resonanz, Schwingkreis"
         }
       ]
     },

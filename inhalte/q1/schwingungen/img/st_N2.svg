@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Stimmgabel und Schwingungskurve">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M30 62 V40 M24 40 V8 M36 40 V8 M24 40 H36"/>
+  <path class="hilfs" d="M20 8 V30 M40 8 V30"/>
+  <path class="grau" d="M60 35 H152 M60 8 V62"/>
+  <path class="akzent" d="M60.0 35.0 L61.0 31.7 L62.0 28.5 L63.0 25.6 L64.0 23.1 L65.0 21.1 L66.0 19.8 L67.0 19.1 L68.0 19.1 L69.0 19.8 L70.0 21.1 L71.0 23.1 L72.0 25.6 L73.0 28.5 L74.0 31.7 L75.0 35.0 L76.0 38.3 L77.0 41.5 L78.0 44.4 L79.0 46.9 L80.0 48.9 L81.0 50.2 L82.0 50.9 L83.0 50.9 L84.0 50.2 L85.0 48.9 L86.0 46.9 L87.0 44.4 L88.0 41.5 L89.0 38.3 L90.0 35.0 L91.0 31.7 L92.0 28.5 L93.0 25.6 L94.0 23.1 L95.0 21.1 L96.0 19.8 L97.0 19.1 L98.0 19.1 L99.0 19.8 L100.0 21.1 L101.0 23.1 L102.0 25.6 L103.0 28.5 L104.0 31.7 L105.0 35.0 L106.0 38.3 L107.0 41.5 L108.0 44.4 L109.0 46.9 L110.0 48.9 L111.0 50.2 L112.0 50.9 L113.0 50.9 L114.0 50.2 L115.0 48.9 L116.0 46.9 L117.0 44.4 L118.0 41.5 L119.0 38.3 L120.0 35.0 L121.0 31.7 L122.0 28.5 L123.0 25.6 L124.0 23.1 L125.0 21.1 L126.0 19.8 L127.0 19.1 L128.0 19.1 L129.0 19.8 L130.0 21.1 L131.0 23.1 L132.0 25.6 L133.0 28.5 L134.0 31.7 L135.0 35.0 L136.0 38.3 L137.0 41.5 L138.0 44.4 L139.0 46.9 L140.0 48.9 L141.0 50.2 L142.0 50.9 L143.0 50.9 L144.0 50.2 L145.0 48.9 L146.0 46.9 L147.0 44.4 L148.0 41.5 L149.0 38.3 L150.0 35.0"/>
+</svg>
