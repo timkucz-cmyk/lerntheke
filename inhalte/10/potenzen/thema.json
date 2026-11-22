@@ -1,0 +1,1264 @@
+{
+  "version": 1,
+  "titel": "Potenzen – Training vor dem Test",
+  "fach": "mathe",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind testrelevant. Bist du bei Potenzen, Brüchen, Quadratwurzeln oder Einheiten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N3 (Die Potenz), V2 nach N4 bis N7 (Potenzgesetze), V3 nach N8 und N9 (Wissenschaftliche Schreibweise). Im Training schaffst du nicht alles – wähle nach deiner Selbsteinschätzung. Der Test wird ohne Hilfsmittel geschrieben – rechne deshalb ohne Taschenrechner; nur in V1 bis V3 ist er erlaubt. Dein Regelheft darfst du in der Lerntheke benutzen.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Potenzen mit natürlichen Exponenten berechnen, auch mit negativer Basis, Brüchen und Dezimalzahlen"
+    },
+    {
+      "id": "g2",
+      "text": "Terme mit den Rechenregeln berechnen (Potenz vor Punkt vor Strich, Klammern, Ausklammern)"
+    },
+    {
+      "id": "g3",
+      "text": "Mit Brüchen und Dezimalzahlen rechnen: Kehrwert bilden, multiplizieren, dividieren, umwandeln"
+    },
+    {
+      "id": "g4",
+      "text": "Quadratwurzeln berechnen, Gleichungen wie x² = 0,25 lösen und Wurzelgesetze anwenden"
+    },
+    {
+      "id": "g5",
+      "text": "Einheiten von Länge, Fläche, Volumen, Masse und Zeit umrechnen"
+    },
+    {
+      "id": "c1",
+      "text": "Die Potenzschreibweise nutzen: Basis, Exponent und Wert der Potenz angeben, Produkte als Potenz schreiben, Exponent 0 und 1"
+    },
+    {
+      "id": "c2",
+      "text": "Mit negativen Exponenten umgehen: Potenzen mit negativem Exponenten als Bruch schreiben und berechnen, Brüche als Potenz schreiben"
+    },
+    {
+      "id": "c3",
+      "text": "Mit gebrochenen Exponenten umgehen: n-te Wurzeln berechnen, zwischen Wurzel- und Potenzschreibweise wechseln und Potenzen ohne Taschenrechner berechnen"
+    },
+    {
+      "id": "c4",
+      "text": "Begründen, warum a⁰ = 1 und a⁻ⁿ = 1/aⁿ sinnvoll festgelegt sind, und entscheiden, wann eine Potenz nicht definiert ist"
+    },
+    {
+      "id": "c5",
+      "text": "Potenzgesetze verwenden: Potenzen mit gleicher Basis multiplizieren und dividieren"
+    },
+    {
+      "id": "c6",
+      "text": "Potenzgesetze verwenden: Potenzen mit gleichen Exponenten und Potenzen von Potenzen"
+    },
+    {
+      "id": "c7",
+      "text": "Potenzgesetze verwenden: Terme mit Potenzen vereinfachen – auch mit Variablen, negativen und gebrochenen Exponenten – und die Gesetze begründen"
+    },
+    {
+      "id": "c8",
+      "text": "Die wissenschaftliche Schreibweise nutzen: Zehnerpotenzen und Zahlen in wissenschaftlicher Schreibweise angeben, ausführlich schreiben und ordnen"
+    },
+    {
+      "id": "c9",
+      "text": "Die wissenschaftliche Schreibweise nutzen: mit Zahlen in wissenschaftlicher Schreibweise rechnen und sehr große und sehr kleine Größen vergleichen"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 6 bis 9",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Die Potenz",
+      "untertitel": "Grundbegriffe, negative und gebrochene Exponenten",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Potenzgesetze",
+      "untertitel": "Gleiche Basis, gleiche Exponenten, Terme vereinfachen",
+      "farbe": "orange",
+      "checkliste": [
+        "c5",
+        "c6",
+        "c7"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Wissenschaftliche Schreibweise",
+      "untertitel": "Sehr große und sehr kleine Zahlen",
+      "farbe": "gruen",
+      "checkliste": [
+        "c8",
+        "c9"
+      ]
+    }
+  ],
+  "abschluss": "Test",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten für alle Blöcke. Die Aufgaben 1 bis 5 gehören zu den Grundlagen g1 bis g5 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$(-3)^4 = (-3) \\cdot (-3) \\cdot (-3) \\cdot (-3) = 81$\n\n$-3^4 = -(3 \\cdot 3 \\cdot 3 \\cdot 3) = -81$, denn ohne Klammer wird nur die 3 potenziert."
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\left(\\frac{2}{5}\\right)^3 = \\frac{2 \\cdot 2 \\cdot 2}{5 \\cdot 5 \\cdot 5} = \\frac{8}{125}$\n\n$0{,}1^3 = 0{,}1 \\cdot 0{,}1 \\cdot 0{,}1 = 0{,}001$\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Potenz vor Punkt vor Strich: $4 + 2 \\cdot 9 = 4 + 18 = 22$"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$2^5$ ausklammern: $7 \\cdot 2^5 - 2 \\cdot 2^5 = (7 - 2) \\cdot 2^5 = 5 \\cdot 32 = 160$\n\nAusklammern brauchst du wieder in **N6** Aufgabe 2. Üben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Kehrwert: Zähler und Nenner tauschen.\n\n$\\frac{3}{4} \\to \\frac{4}{3}$\n\n$2\\frac{1}{2} = \\frac{5}{2} \\to \\frac{2}{5}$"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Durch einen Bruch teilt man, indem man mit dem Kehrwert multipliziert: $1 : \\frac{1}{8} = 1 \\cdot 8 = 8$\n\n$0{,}125 = \\frac{125}{1000} = \\frac{1}{8}$\n\nKehrwerte brauchst du für negative Exponenten in **N1**. Üben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{144} = 12$, denn $12^2 = 144$.\n\n$\\sqrt{0{,}09} = 0{,}3$, denn $0{,}3^2 = 0{,}09$."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x = \\sqrt{0{,}25} = 0{,}5$ oder $x = -0{,}5$, denn $0{,}5^2 = 0{,}25$ und $(-0{,}5)^2 = 0{,}25$."
+        },
+        {
+          "id": "G1-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sqrt{8} \\cdot \\sqrt{2} = \\sqrt{8 \\cdot 2} = \\sqrt{16} = 4$\n\nWurzeln brauchst du wieder bei den gebrochenen Exponenten in **N2**. Üben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$3{,}5\\,\\mathrm{km} = 3{,}5 \\cdot 1000\\,\\mathrm{m} = 3500\\,\\mathrm{m}$\n\n$250\\,\\mathrm{mm} = 250 : 1000\\,\\mathrm{m} = 0{,}25\\,\\mathrm{m}$"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$1\\,\\mathrm{m^2} = 100\\,\\mathrm{cm} \\cdot 100\\,\\mathrm{cm} = 10\\,000\\,\\mathrm{cm^2}$, also $2\\,\\mathrm{m^2} = 20\\,000\\,\\mathrm{cm^2}$.\n\n1 Liter $= 1\\,\\mathrm{dm^3}$ und $1\\,\\mathrm{m^3} = 1000\\,\\mathrm{dm^3}$, also 1 Liter $= 0{,}001\\,\\mathrm{m^3}$.\n\nEinheiten brauchst du wieder in **N9**. Üben: **G2** Aufgabe 5."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Brüche, Wurzeln und Einheiten",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 15 Minuten. Die Aufgaben 1 bis 5 passen zu den Blöcken 1 bis 5 des Check-ins G1 – bearbeite die, bei denen du Lücken hattest.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$(-2)^5 = (-2) \\cdot (-2) \\cdot (-2) \\cdot (-2) \\cdot (-2) = -32$ (ungerade Anzahl negativer Faktoren, also negativ)\n\n$\\left(\\frac{1}{3}\\right)^4 = \\frac{1}{3 \\cdot 3 \\cdot 3 \\cdot 3} = \\frac{1}{81}$"
+        },
+        {
+          "id": "G2-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$3 \\cdot 4^2 - 2^4 = 3 \\cdot 16 - 16 = 48 - 16 = 32$\n\n$(1 + 2)^3 - 3^3 = 3^3 - 3^3 = 27 - 27 = 0$ (zuerst die Klammer)"
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Mit dem Kehrwert multiplizieren: $\\frac{2}{3} \\cdot \\frac{9}{4} = \\frac{18}{12} = \\frac{3}{2}$"
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$0{,}04 = \\frac{4}{100} = \\frac{1}{25}$, Kehrwert $\\frac{25}{1} = 25$"
+        },
+        {
+          "id": "G2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt{0{,}25} = 0{,}5$, denn $0{,}5^2 = 0{,}25$.\n\n$\\sqrt{1{,}21} = 1{,}1$, denn $1{,}1^2 = 1{,}21$."
+        },
+        {
+          "id": "G2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sqrt{50} : \\sqrt{2} = \\sqrt{50 : 2} = \\sqrt{25} = 5$"
+        },
+        {
+          "id": "G2-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$1\\,\\mathrm{dm^3} = 1000\\,\\mathrm{cm^3}$, also $0{,}4\\,\\mathrm{dm^3} = 400\\,\\mathrm{cm^3}$.\n\n$3\\,\\mathrm{h} = 3 \\cdot 60 \\cdot 60\\,\\mathrm{s} = 10\\,800\\,\\mathrm{s}$"
+        },
+        {
+          "id": "G2-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$5\\,\\mathrm{g} = 5 : 1000\\,\\mathrm{kg} = 0{,}005\\,\\mathrm{kg}$\n\n$1\\,\\mathrm{km^2} = 1000\\,\\mathrm{m} \\cdot 1000\\,\\mathrm{m} = 1\\,000\\,000\\,\\mathrm{m^2}$"
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Grundbegriffe und negative Exponenten",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Basis, Exponent, Wert der Potenz und was ein negativer Exponent bedeutet.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Grundbegriffe_negative_Exponenten.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$(-0{,}5) \\cdot (-0{,}5) \\cdot (-0{,}5) = (-0{,}5)^3$ (die Klammer gehört zur Basis)\n\n$x \\cdot x \\cdot x \\cdot y \\cdot y = x^3 \\cdot y^2$ (gleiche Faktoren zusammenfassen)"
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Basis $-2$, Exponent $5$, Wert der Potenz $(-2)^5 = -32$."
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$(-4)^0 = 1$, denn $a^0 = 1$ für jede Basis $a \\neq 0$, also auch für $-4$.\n\n$-5^0 = -(5^0) = -1$, denn ohne Klammer gehört das Minus nicht zur Basis."
+        },
+        {
+          "id": "N1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$4^{-2} = \\frac{1}{4^2} = \\frac{1}{16}$\n\n$10^{-3} = \\frac{1}{10^3} = \\frac{1}{1000} = 0{,}001$"
+        },
+        {
+          "id": "N1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$(-2)^{-3} = \\frac{1}{(-2)^3} = \\frac{1}{-8} = -\\frac{1}{8}$\n\nDas Minus im Exponenten macht einen Kehrwert, kein negatives Vorzeichen; negativ wird das Ergebnis hier nur, weil die Basis negativ ist."
+        },
+        {
+          "id": "N1-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\left(\\frac{3}{4}\\right)^{-2} = \\frac{1}{\\left(\\frac{3}{4}\\right)^2} = \\frac{1}{\\frac{9}{16}} = \\frac{16}{9}$\n\nKürzer: Bei einem Bruch als Basis wird der negative Exponent zum Kehrwert: $\\left(\\frac{3}{4}\\right)^{-2} = \\left(\\frac{4}{3}\\right)^2 = \\frac{16}{9}$"
+        },
+        {
+          "id": "N1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{1}{49} = \\frac{1}{7^2} = 7^{-2}$\n\n$0{,}001 = \\frac{1}{1000} = \\frac{1}{10^3} = 10^{-3}$"
+        },
+        {
+          "id": "N1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$0{,}0625 = \\frac{625}{10\\,000} = \\frac{1}{16} = \\frac{1}{2^4} = 2^{-4}$"
+        },
+        {
+          "id": "N1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Wird der Exponent um 1 kleiner, wird der Wert durch 3 geteilt: $27 : 3 = 9$, $9 : 3 = 3$.\n\nSetzt man das Muster fort: $3^0 = 3 : 3 = 1$, $3^{-1} = 1 : 3 = \\frac{1}{3}$, $3^{-2} = \\frac{1}{3} : 3 = \\frac{1}{9}$. Die Festlegungen passen also genau zum Muster."
+        },
+        {
+          "id": "N1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$a^{-1} = \\frac{1}{a}$. Für $a > 0$ gilt $\\frac{1}{a} > a$ genau dann, wenn $1 > a^2$ ist (beide Seiten mit $a$ multipliziert), also für $0 < a < 1$.\n\nBeispiele: $0{,}5^{-1} = 2 > 0{,}5$; $1^{-1} = 1$ (gleich); $2^{-1} = 0{,}5 < 2$.\n\nErgebnis: Für $0 < a < 1$ ist $a^{-1}$ größer als $a$."
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Gebrochene Exponenten",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c2",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. n-te Wurzeln und Potenzen mit einem Bruch im Exponenten.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Gebrochene_Exponenten.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$7^{\\frac{1}{2}} = \\sqrt{7}$ und $10^{\\frac{1}{3}} = \\sqrt[3]{10}$"
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sqrt[4]{5} = 5^{\\frac{1}{4}}$ (der Wurzelexponent wird zum Nenner)"
+        },
+        {
+          "id": "N2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$81^{\\frac{1}{4}} = \\sqrt[4]{81} = 3$, denn $3^4 = 81$.\n\n$0{,}25^{\\frac{1}{2}} = \\sqrt{0{,}25} = 0{,}5$"
+        },
+        {
+          "id": "N2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Erst die Wurzel, dann die Potenz: $32^{\\frac{3}{5}} = \\left(\\sqrt[5]{32}\\right)^3 = 2^3 = 8$, denn $2^5 = 32$."
+        },
+        {
+          "id": "N2-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$100^{-\\frac{1}{2}} = \\frac{1}{100^{\\frac{1}{2}}} = \\frac{1}{\\sqrt{100}} = \\frac{1}{10} = 0{,}1$"
+        },
+        {
+          "id": "N2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$1{,}5 = \\frac{3}{2}$, also $9^{1{,}5} = 9^{\\frac{3}{2}} = \\left(\\sqrt{9}\\right)^3 = 3^3 = 27$"
+        },
+        {
+          "id": "N2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$0^{-2} = \\frac{1}{0^2} = \\frac{1}{0}$: Durch 0 kann man nicht teilen, also nicht definiert.\n\n$(-4)^{\\frac{1}{2}} = \\sqrt{-4}$: Es gibt keine Zahl, deren Quadrat $-4$ ist, und gebrochene Exponenten sind nur für $a \\geq 0$ festgelegt. Nicht definiert."
+        },
+        {
+          "id": "N2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Würde man die Regel $a^{\\frac{m}{n}} = \\sqrt[n]{a^m}$ auch für negative Basen zulassen, käme es auf die Schreibweise des Exponenten an:\n\n- mit $\\frac{1}{3}$: Man würde $-3$ erwarten, weil $(-3)^3 = -27$ ist.\n- mit $\\frac{2}{6}$: $(-27)^{\\frac{2}{6}} = \\sqrt[6]{(-27)^2} = \\sqrt[6]{729} = 3$, denn $3^6 = 729$.\n\nDerselbe Exponent ($\\frac{1}{3} = \\frac{2}{6}$) gäbe zwei verschiedene Werte. Deshalb sind gebrochene Exponenten nur für $a \\geq 0$ festgelegt.\n\nHinweis: Die Gleichung $x^3 = -27$ hat trotzdem die Lösung $x = -3$; manche Taschenrechner zeigen deshalb bei $(-27)^{\\frac{1}{3}}$ den Wert $-3$ an. Als Potenz mit gebrochenem Exponenten schreibt man das aber nicht."
+        },
+        {
+          "id": "N2-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Für die Kantenlänge $a$ gilt $a^3 = 0{,}125$, also $a = 0{,}125^{\\frac{1}{3}} = \\sqrt[3]{0{,}125} = 0{,}5$, denn $0{,}5^3 = 0{,}125$.\n\nDie Kante ist $0{,}5\\,\\mathrm{m} = 50\\,\\mathrm{cm}$ lang."
+        },
+        {
+          "id": "N2-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$2^{\\frac{1}{2}} = \\sqrt{2}$ ist die positive Zahl mit dem Quadrat 2. Weil $2^2 = 4 > 2$ ist, gilt $\\sqrt{2} < 2$.\n\n$2^{\\frac{1}{3}} = \\sqrt[3]{2}$ ist die positive Zahl mit der dritten Potenz 2. Für $\\sqrt{2}$ gilt $\\left(\\sqrt{2}\\right)^3 = 2 \\cdot \\sqrt{2} > 2$. Die dritte Potenz von $\\sqrt{2}$ ist also schon zu groß, und eine größere positive Basis hat eine größere dritte Potenz. Also ist $\\sqrt[3]{2} < \\sqrt{2}$."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Tandem: Potenzen ohne Taschenrechner",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c2",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut und sagt dabei, welche Regel sie benutzt. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert. Nach jeder Nummer wird gewechselt.",
+      "bild": "img/st_N3.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N3-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Berechne $2^{-5}$.",
+          "tipp": "Negativer Exponent: Kehrwert der Potenz.",
+          "loesung": "$2^{-5} = \\frac{1}{2^5} = \\frac{1}{32}$"
+        },
+        {
+          "id": "N3-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Berechne $3^{-3}$.",
+          "tipp": "Negativer Exponent: Kehrwert der Potenz.",
+          "loesung": "$3^{-3} = \\frac{1}{3^3} = \\frac{1}{27}$"
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Berechne $49^{\\frac{1}{2}}$.",
+          "tipp": "Der Exponent $\\frac{1}{2}$ bedeutet Quadratwurzel.",
+          "loesung": "$49^{\\frac{1}{2}} = \\sqrt{49} = 7$"
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 1,
+          "afb": "I",
+          "aufgabe": "Berechne $1000^{\\frac{1}{3}}$.",
+          "tipp": "Der Exponent $\\frac{1}{3}$ bedeutet dritte Wurzel.",
+          "loesung": "$1000^{\\frac{1}{3}} = \\sqrt[3]{1000} = 10$, denn $10^3 = 1000$."
+        },
+        {
+          "id": "N3-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne $\\left(\\frac{2}{5}\\right)^{-2}$.",
+          "tipp": "Bei einem Bruch als Basis: Kehrwert des Bruchs, dann mit positivem Exponenten rechnen.",
+          "loesung": "$\\left(\\frac{2}{5}\\right)^{-2} = \\left(\\frac{5}{2}\\right)^2 = \\frac{25}{4} = 6{,}25$"
+        },
+        {
+          "id": "N3-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne $0{,}75^{-2}$.",
+          "tipp": "$0{,}75$ ist ein Bruch – bilde seinen Kehrwert.",
+          "loesung": "$0{,}75 = \\frac{3}{4}$, also $0{,}75^{-2} = \\left(\\frac{4}{3}\\right)^2 = \\frac{16}{9}$"
+        },
+        {
+          "id": "N3-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne $27^{-\\frac{2}{3}}$.",
+          "tipp": "Erst das Minus (Kehrwert), dann den Nenner 3 (dritte Wurzel), dann den Zähler 2 (Quadrat).",
+          "loesung": "$27^{-\\frac{2}{3}} = \\frac{1}{27^{\\frac{2}{3}}} = \\frac{1}{\\left(\\sqrt[3]{27}\\right)^2} = \\frac{1}{3^2} = \\frac{1}{9}$"
+        },
+        {
+          "id": "N3-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne $\\left(\\frac{4}{9}\\right)^{-\\frac{1}{2}}$.",
+          "tipp": "Erst den Kehrwert des Bruchs, dann die Quadratwurzel aus Zähler und Nenner.",
+          "loesung": "$\\left(\\frac{4}{9}\\right)^{-\\frac{1}{2}} = \\left(\\frac{9}{4}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{9}{4}} = \\frac{3}{2}$"
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Potenzgesetze: gleiche Basis",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c7",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Multiplikation und Division gleicher Basen – und warum die Gesetze gelten.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Gleiche_Basis.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$3^4 \\cdot 3^5 = 3^{4+5} = 3^9$\n\n$7^8 : 7^6 = 7^{8-6} = 7^2$"
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x^5 \\cdot x^{-2} = x^{5+(-2)} = x^3$\n\n$\\frac{a^3}{a^7} = a^{3-7} = a^{-4}$"
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$5^{-3} \\cdot 5^5 = 5^{-3+5} = 5^2 = 25$\n\n$10^7 : 10^9 = 10^{7-9} = 10^{-2} = 0{,}01$"
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$9^{\\frac{1}{4}} \\cdot 9^{\\frac{1}{4}} = 9^{\\frac{1}{4}+\\frac{1}{4}} = 9^{\\frac{1}{2}} = \\sqrt{9} = 3$\n\n$2^{\\frac{1}{2}} \\cdot 2^{\\frac{3}{2}} = 2^{\\frac{1}{2}+\\frac{3}{2}} = 2^2 = 4$"
+        },
+        {
+          "id": "N4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$4^{k+3} = 4^{-2}$, also $k + 3 = -2$ und $k = -5$.\n\nProbe: $4^{-5} \\cdot 4^3 = 4^{-2}$ ✓"
+        },
+        {
+          "id": "N4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$x^{k-4} = x^{-1}$, also $k - 4 = -1$ und $k = 3$.\n\nProbe: $x^3 : x^4 = x^{-1}$ ✓"
+        },
+        {
+          "id": "N4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$a^3 \\cdot a^4 = (a \\cdot a \\cdot a) \\cdot (a \\cdot a \\cdot a \\cdot a)$. Das sind $3 + 4 = 7$ Faktoren $a$, also $a^7$."
+        },
+        {
+          "id": "N4-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Einerseits ist $\\frac{a^3}{a^3} = 1$ (eine Zahl geteilt durch sich selbst).\n\nAndererseits ist nach dem Gesetz $\\frac{a^3}{a^3} = a^{3-3} = a^0$.\n\nDamit das Gesetz auch hier gilt, muss $a^0 = 1$ sein."
+        },
+        {
+          "id": "N4-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$2^{10} + 2^{10} = 2 \\cdot 2^{10} = 2^1 \\cdot 2^{10} = 2^{11}$"
+        },
+        {
+          "id": "N4-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Die Exponenten addiert man nur beim **Multiplizieren** gleicher Basen: $2^{10} \\cdot 2^{10} = 2^{20}$. Für eine Summe gibt es kein Potenzgesetz.\n\nRichtig ist $2^{10} + 2^{10} = 2^{11}$ (siehe oben). $2^{20}$ ist $2^9 = 512$-mal so groß wie $2^{11}$."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Potenzgesetze: gleiche Exponenten und Potenzen von Potenzen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c5",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Potenzieren von Potenzen, Produkten und Quotienten – vorwärts und rückwärts.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Gleiche_Exponenten.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\left(2^3\\right)^4 = 2^{3 \\cdot 4} = 2^{12}$\n\n$\\left(x^{-2}\\right)^3 = x^{-2 \\cdot 3} = x^{-6}$"
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\left(a^{\\frac{1}{2}}\\right)^4 = a^{\\frac{1}{2} \\cdot 4} = a^2$\n\n$\\left(5^{\\frac{2}{3}}\\right)^3 = 5^{\\frac{2}{3} \\cdot 3} = 5^2 = 25$"
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$2^5 \\cdot 5^5 = (2 \\cdot 5)^5 = 10^5 = 100\\,000$\n\n$12^4 : 3^4 = (12 : 3)^4 = 4^4 = 256$"
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$(2x)^3 = 2^3 \\cdot x^3 = 8x^3$\n\n$\\left(\\frac{a}{3}\\right)^2 = \\frac{a^2}{3^2} = \\frac{a^2}{9}$"
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$25^3 \\cdot 4^3 = (25 \\cdot 4)^3 = 100^3 = 1\\,000\\,000$"
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$27^{\\frac{4}{3}} = \\left(3^3\\right)^{\\frac{4}{3}} = 3^{3 \\cdot \\frac{4}{3}} = 3^4 = 81$"
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Beide Zahlen auf denselben Exponenten bringen (Potenzieren von Potenzen):\n\n$2^{30} = 2^{3 \\cdot 10} = \\left(2^3\\right)^{10} = 8^{10}$\n\n$3^{20} = 3^{2 \\cdot 10} = \\left(3^2\\right)^{10} = 9^{10}$\n\nBei gleichem Exponenten ist die Potenz mit der größeren positiven Basis größer: $8^{10} < 9^{10}$. Also ist $3^{20}$ größer.\n\n1 P Umformen auf gleichen Exponenten, 1 P Vergleich mit Begründung."
+        },
+        {
+          "id": "N5-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$x^{3k} = x^{-6}$, also $3k = -6$ und $k = -2$."
+        },
+        {
+          "id": "N5-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$(3y)^k = 3^k \\cdot y^k$. Der Vergleich mit $81y^4 = 3^4 \\cdot y^4$ ergibt $k = 4$."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Terme mit Potenzen vereinfachen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c5",
+        "c6",
+        "c2",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Mehrere Potenzgesetze in einem Term, Ausmultiplizieren und Ausklammern, ein allgemeiner Nachweis.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Terme_vereinfachen.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\left(3x^2y\\right)^2 = 3^2 \\cdot \\left(x^2\\right)^2 \\cdot y^2 = 9x^4y^2$\n\n$9x^4y^2 \\cdot x^{-3} = 9x^{4-3}y^2 = 9xy^2$"
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{12}{4} \\cdot a^{5-2} \\cdot b^{2-5} = 3a^3b^{-3} = \\frac{3a^3}{b^3}$"
+        },
+        {
+          "id": "N6-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\left(x^{\\frac{1}{2}}y\\right)^4 = x^{\\frac{1}{2} \\cdot 4}y^4 = x^2y^4$\n\n$x^2y^4 : \\left(xy^2\\right) = x^{2-1}y^{4-2} = xy^2$"
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$x^3 \\cdot x^2 - x^3 \\cdot x^{-1} = x^{3+2} - x^{3-1} = x^5 - x^2$"
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$2^{n+1} = 2^n \\cdot 2^1$, also $2^{n+1} + 2^n = 2^n \\cdot 2 + 2^n \\cdot 1 = 2^n \\cdot (2 + 1) = 3 \\cdot 2^n$\n\nAusklammern üben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "N6-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$4 = 2^2$, also $4^n = \\left(2^2\\right)^n = 2^{2n}$.\n\n$2^{2n} = 2^{10}$, also $2n = 10$ und $n = 5$."
+        },
+        {
+          "id": "N6-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beide Seiten als Potenz von 3 schreiben: $9^n = \\left(3^2\\right)^n = 3^{2n}$ und $\\frac{1}{27} = \\frac{1}{3^3} = 3^{-3}$.\n\n$3^{2n} = 3^{-3}$, also $2n = -3$ und $n = -\\frac{3}{2}$.\n\nProbe: $9^{-\\frac{3}{2}} = \\frac{1}{\\left(\\sqrt{9}\\right)^3} = \\frac{1}{27}$ ✓\n\n1 P gleiche Basis 3, 1 P Exponentenvergleich und $n$."
+        },
+        {
+          "id": "N6-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Negativer Exponent, dann Potenzieren von Quotienten:\n\n$$\\left(\\frac{a}{b}\\right)^{-n} = \\frac{1}{\\left(\\frac{a}{b}\\right)^n} = \\frac{1}{\\frac{a^n}{b^n}} = \\frac{b^n}{a^n} = \\left(\\frac{b}{a}\\right)^n$$\n\n1 P Ansatz mit $a^{-n} = \\frac{1}{a^n}$, 1 P Kehrwert des Bruchs und Rückweg zum Quotienten.\n\nSo hast du in **N1** Aufgabe 3 schon gerechnet: $\\left(\\frac{3}{4}\\right)^{-2} = \\left(\\frac{4}{3}\\right)^2$."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c5",
+        "c6",
+        "c2",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. In jeder Rechnung steckt genau ein typischer Fehler.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Fehler: Die Exponenten wurden multipliziert. Bei der Multiplikation gleicher Basen werden sie addiert.\n\nRichtig: $a^4 \\cdot a^3 = a^{4+3} = a^7$\n\n1 P Fehler, 1 P richtiges Ergebnis. Üben: **N4** Aufgabe 1."
+        },
+        {
+          "id": "N7-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Fehler: Das Minus im Exponenten wurde als Vorzeichen des Ergebnisses gedeutet. Ein negativer Exponent bedeutet den Kehrwert.\n\nRichtig: $2^{-3} = \\frac{1}{2^3} = \\frac{1}{8}$\n\n1 P Fehler, 1 P richtiges Ergebnis. Üben: **N1** Aufgabe 3."
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Nur $x$ wurde quadriert. Beim Potenzieren eines Produkts wird jeder Faktor potenziert.\n\nRichtig: $(3x)^2 = 3^2 \\cdot x^2 = 9x^2$\n\n1 P Fehler, 1 P richtiges Ergebnis. Üben: **N5** Aufgabe 2."
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Die Basen wurden multipliziert ($3 \\cdot 3 = 9$). Bei gleicher Basis bleibt die Basis erhalten, nur die Exponenten werden addiert.\n\nRichtig: $3^2 \\cdot 3^4 = 3^{2+4} = 3^6 = 729$\n\n1 P Fehler, 1 P richtiges Ergebnis. Üben: **N4** Aufgabe 2."
+        },
+        {
+          "id": "N7-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Fehler: Das Minus im Exponenten wurde als Vorzeichen gedeutet. Es bedeutet den Kehrwert.\n\nRichtig: $27^{-\\frac{1}{3}} = \\frac{1}{27^{\\frac{1}{3}}} = \\frac{1}{\\sqrt[3]{27}} = \\frac{1}{3}$\n\nÜben: **N1** Aufgabe 3 und **N2** Aufgabe 2."
+        },
+        {
+          "id": "N7-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Für natürliche Exponenten ist $a^n$ ein Produkt positiver Zahlen, also positiv. $a^0 = 1$ ist positiv. $a^{-n} = \\frac{1}{a^n}$ ist der Kehrwert einer positiven Zahl, also positiv. Wurzeln aus positiven Zahlen sind nach Festlegung nicht negativ (und hier sogar positiv), also ist auch $a^{\\frac{m}{n}} = \\left(\\sqrt[n]{a}\\right)^m$ positiv.\n\nEin Ergebnis wie $-3$ bei der Basis 27 muss deshalb falsch sein."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Zehnerpotenzen und wissenschaftliche Schreibweise",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 15 Minuten. Zehnerpotenzen lesen und schreiben, Zahlen in wissenschaftlicher Schreibweise angeben und ordnen.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Wissenschaftliche_Schreibweise.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$10^5 = 100\\,000$ (eine 1 mit 5 Nullen)\n\n$10^{-4} = \\frac{1}{10\\,000} = 0{,}0001$"
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$0{,}000\\,01 = \\frac{1}{100\\,000} = 10^{-5}$\n\nEine Milliarde $= 1\\,000\\,000\\,000 = 10^9$"
+        },
+        {
+          "id": "N8-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$48\\,000 = 4{,}8 \\cdot 10^4$ (Komma um 4 Stellen nach links)\n\n$0{,}000\\,305 = 3{,}05 \\cdot 10^{-4}$ (Komma um 4 Stellen nach rechts)"
+        },
+        {
+          "id": "N8-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$0{,}7 \\cdot 10^5 = 7 \\cdot 10^{-1} \\cdot 10^5 = 7 \\cdot 10^4$\n\n$23{,}5 \\cdot 10^{-6} = 2{,}35 \\cdot 10^1 \\cdot 10^{-6} = 2{,}35 \\cdot 10^{-5}$"
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$6{,}02 \\cdot 10^5 = 602\\,000$\n\n$3{,}1 \\cdot 10^{-4} = 0{,}000\\,31$"
+        },
+        {
+          "id": "N8-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Anzeige bedeutet $1{,}25 \\cdot 10^{-7}$, die Zahl ist also sehr klein:\n\n$1{,}25 \\cdot 10^{-7} = 0{,}000\\,000\\,125$ (Komma um 7 Stellen nach links)"
+        },
+        {
+          "id": "N8-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zuerst nach dem Exponenten ordnen (kleinerer Exponent = kleinere Zahl), bei gleichem Exponenten nach der Zahl davor:\n\n$4 \\cdot 10^{-5} < 3{,}2 \\cdot 10^{-4} < 9 \\cdot 10^{-4} < 2{,}5 \\cdot 10^{-3}$"
+        },
+        {
+          "id": "N8-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Wegen $1 \\leq a$ ist $a \\cdot 10^{-3} \\geq 1 \\cdot 10^{-3} = 0{,}001$.\n\nWegen $b < 10$ ist $b \\cdot 10^{-4} < 10 \\cdot 10^{-4} = 10^{-3} = 0{,}001$.\n\nAlso liegt jede Zahl der ersten Art bei mindestens 0,001, jede der zweiten Art darunter."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Rechnen mit großen und kleinen Zahlen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c5",
+        "c6",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 25 Minuten. Mit Zehnerpotenzen rechnen und Größen aus Natur und Technik vergleichen.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Rechnen_grosse_kleine_Zahlen.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zahlen und Zehnerpotenzen getrennt multiplizieren:\n\n$5 \\cdot 4 \\cdot 10^{6+(-9)} = 20 \\cdot 10^{-3} = 2 \\cdot 10^1 \\cdot 10^{-3} = 2 \\cdot 10^{-2}$"
+        },
+        {
+          "id": "N9-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$(9 : 3) \\cdot 10^{4-(-2)} = 3 \\cdot 10^6$"
+        },
+        {
+          "id": "N9-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\left(2 \\cdot 10^3\\right)^3 = 2^3 \\cdot \\left(10^3\\right)^3 = 8 \\cdot 10^9$\n\n$6 \\cdot 5 \\cdot 10^{7-3} = 30 \\cdot 10^4 = 3 \\cdot 10^5$"
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Anzahl = Masse des Tropfens : Masse eines Moleküls\n\n$0{,}06 = 6 \\cdot 10^{-2}$, also $\\left(6 \\cdot 10^{-2}\\right) : \\left(3 \\cdot 10^{-23}\\right) = 2 \\cdot 10^{-2-(-23)} = 2 \\cdot 10^{21}$\n\nDer Tropfen besteht aus etwa $2 \\cdot 10^{21}$ Molekülen.\n\n1 P Ansatz, 1 P Ergebnis."
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$1\\,\\mathrm{mm} = 10^{-3}\\,\\mathrm{m}$\n\n$10^{-3} : \\left(2{,}5 \\cdot 10^{-6}\\right) = \\frac{1}{2{,}5} \\cdot 10^{-3-(-6)} = 0{,}4 \\cdot 10^3 = 400 = 4 \\cdot 10^2$\n\nEs passen mindestens 400 Teilchen nebeneinander (kleinere Teilchen: noch mehr).\n\n1 P Einheiten, 1 P Rechnung und Ergebnis."
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\left(3 \\cdot 10^3\\right) \\cdot \\left(4 \\cdot 10^6\\right) = 12 \\cdot 10^9 = 1{,}2 \\cdot 10^{10}$ Pollenkörner\n\nVergleich: $\\left(1{,}2 \\cdot 10^{10}\\right) : \\left(8 \\cdot 10^9\\right) = 0{,}15 \\cdot 10^1 = 1{,}5$. Ein einziger Strauch bildet etwa 1,5-mal so viele Pollenkörner, wie es Menschen auf der Erde gibt.\n\n1 P Anzahl, 1 P Vergleich."
+        },
+        {
+          "id": "N9-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Dauer: $40 \\cdot 24 \\cdot 3600\\,\\mathrm{s} = 3\\,456\\,000\\,\\mathrm{s} \\approx 3{,}5 \\cdot 10^6\\,\\mathrm{s}$\n\nDatenmenge: $\\left(0{,}5 \\cdot 10^6\\right) \\cdot \\left(3{,}456 \\cdot 10^6\\right) \\approx 1{,}7 \\cdot 10^{12}$ Byte\n\nDas ist mehr als $10^{12}$ Byte: Eine 1-TB-Festplatte reicht nicht, man bräuchte etwa das 1,7-Fache. Die Festplatte würde reichen, wenn die Kamera z. B. nur bei Bewegung oder mit geringerer Auflösung filmt (weniger als etwa $0{,}29\\,\\mathrm{MB}$ pro Sekunde).\n\n1 P Datenmenge, 1 P Beurteilung mit Bezug zu den Annahmen."
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "DIN-A-Papierformate",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c2",
+        "c1",
+        "c4",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt (außer wo „ohne Taschenrechner“ steht), 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Die Potenz) – am besten nach N1 bis N3.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Papierformate.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A_4 = 2^{-4}\\,\\mathrm{m^2} = \\frac{1}{16}\\,\\mathrm{m^2}$\n\n$1\\,\\mathrm{m^2} = 10\\,000\\,\\mathrm{cm^2}$, also $A_4 = 10\\,000 : 16\\,\\mathrm{cm^2} = 625\\,\\mathrm{cm^2}$"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$A_0 = 2^{-0}\\,\\mathrm{m^2} = 2^0\\,\\mathrm{m^2} = 1\\,\\mathrm{m^2}$, denn $a^0 = 1$. Das ist genau der Flächeninhalt von A0.\n\nAuch das Halbieren passt: Wird $n$ um 1 größer, wird $2^{-n}$ halbiert, zum Beispiel $2^{-1} = \\frac{1}{2}$ und $2^{-2} = \\frac{1}{4}$."
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Masse eines A4-Blatts: $80\\,\\mathrm{g} \\cdot 2^{-4} = 80 : 16\\,\\mathrm{g} = 5\\,\\mathrm{g}$\n\nPaket: $500 \\cdot 5\\,\\mathrm{g} = 2500\\,\\mathrm{g} = 2{,}5\\,\\mathrm{kg}$\n\n1 P Blatt, 1 P Paket."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$2^{\\frac{1}{4}}\\,\\mathrm{m} = \\sqrt[4]{2}\\,\\mathrm{m}$ und $2^{-\\frac{1}{4}}\\,\\mathrm{m} = \\frac{1}{\\sqrt[4]{2}}\\,\\mathrm{m}$"
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$2^{\\frac{1}{4}}\\,\\mathrm{m} \\approx 1{,}1892\\,\\mathrm{m} \\approx 1189\\,\\mathrm{mm}$\n\n$2^{-\\frac{1}{4}}\\,\\mathrm{m} \\approx 0{,}8409\\,\\mathrm{m} \\approx 841\\,\\mathrm{mm}$\n\nEin A0-Blatt ist also etwa $841\\,\\mathrm{mm} \\times 1189\\,\\mathrm{mm}$ groß."
+        },
+        {
+          "id": "V1-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "A4: $210\\,\\mathrm{mm} \\cdot 2^{\\frac{1}{2}} = 210 \\cdot \\sqrt{2}\\,\\mathrm{mm} \\approx 297\\,\\mathrm{mm}$\n\nA3: kurze Seite $297\\,\\mathrm{mm}$ (lange Seite von A4), lange Seite $297\\,\\mathrm{mm} \\cdot \\sqrt{2} \\approx 420\\,\\mathrm{mm}$ (genau doppelt so lang wie die kurze Seite von A4, weil $\\sqrt{2} \\cdot \\sqrt{2} = 2$).\n\n1 P A4, 1 P A3."
+        },
+        {
+          "id": "V1-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. A3 hat den doppelten **Flächeninhalt** von A4 ($2^{-3} = 2 \\cdot 2^{-4}$), aber jede Seite ist nur etwa 1,41-mal so lang: $297 : 210 \\approx 1{,}41$ und $420 : 297 \\approx 1{,}41$, also der Faktor $\\sqrt{2} = 2^{\\frac{1}{2}}$.\n\nWären Länge und Breite verdoppelt, hätte das Blatt den vierfachen Flächeninhalt – das wäre A2.\n\n1 P Seitenverhältnis mit Zahlen, 1 P Begründung über den Flächeninhalt."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Halbtöne und Oktaven",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c7",
+        "c5",
+        "c6",
+        "c3",
+        "c2",
+        "c1",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt (außer wo „ohne Taschenrechner“ steht), 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Die Potenz, Potenzgesetze) – am besten nach N4 bis N7.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Halbtoene_Oktaven.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zweimal halbieren heißt mit $2^{-1} \\cdot 2^{-1} = 2^{-2}$ multiplizieren:\n\n$440\\,\\mathrm{Hz} \\cdot 2^{-2} = 440 : 4\\,\\mathrm{Hz} = 110\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "V2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "12 Halbtonschritte nach oben ergeben eine Oktave, also die doppelte Frequenz: $440 \\cdot q^{12} = 2 \\cdot 440$, also $q^{12} = 2$.\n\n$q = 2^{\\frac{1}{12}} = \\sqrt[12]{2} \\approx 1{,}0595$\n\n1 P Begründung, 1 P $q$."
+        },
+        {
+          "id": "V2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "7 Schritte: $440 \\cdot q^7 = 440 \\cdot \\left(2^{\\frac{1}{12}}\\right)^7 = 440 \\cdot 2^{\\frac{7}{12}} \\approx 659{,}3\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "V2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "5 Schritte nach unten: $440 \\cdot q^{-5} = 440 \\cdot 2^{-\\frac{5}{12}} \\approx 329{,}6\\,\\mathrm{Hz}$\n\nKontrolle: e′ liegt eine Oktave unter e″, und $659{,}3 : 2 \\approx 329{,}6$ ✓"
+        },
+        {
+          "id": "V2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Große Terz: Faktor $q^4 = 2^{\\frac{4}{12}}$, kleine Terz: Faktor $q^3 = 2^{\\frac{3}{12}}$.\n\nHintereinander werden die Faktoren multipliziert (Multiplikation gleicher Basen):\n\n$2^{\\frac{4}{12}} \\cdot 2^{\\frac{3}{12}} = 2^{\\frac{4}{12} + \\frac{3}{12}} = 2^{\\frac{7}{12}} = q^7$\n\nDas ist genau der Faktor der Quinte.\n\n1 P Faktoren als Potenzen, 1 P Gesetz angewendet."
+        },
+        {
+          "id": "V2-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$2^{\\frac{7}{12}} \\approx 1{,}4983$. Die gleichstufige Quinte ist etwas kleiner als die reine Quinte (1,5), der Unterschied beträgt nur etwa $0{,}0017$."
+        },
+        {
+          "id": "V2-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "12 reine Quinten: Faktor $1{,}5^{12} \\approx 129{,}7$.\n\n7 Oktaven: Faktor $2^7 = 128$.\n\nDie Aussage ist falsch: 12 reine Quinten führen etwa $1{,}4\\,\\%$ höher als 7 Oktaven ($129{,}7 : 128 \\approx 1{,}014$).\n\nBei gleichstufigen Quinten stimmt es genau: $\\left(2^{\\frac{7}{12}}\\right)^{12} = 2^7$. Deshalb stimmt man Instrumente gleichstufig und nimmt die winzige Abweichung bei jeder Quinte in Kauf.\n\n1 P beide Faktoren, 1 P Beurteilung mit Begründung."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Energiebedarf von Tieren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c7",
+        "c5",
+        "c6",
+        "c3",
+        "c2",
+        "c1",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, Taschenrechner erlaubt (außer wo „ohne Taschenrechner“ steht), 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Die Potenz, Potenzgesetze, Wissenschaftliche Schreibweise) – am besten nach N8 und N9.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Energiebedarf_Tiere.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Spitzmaus: $3 \\cdot 10^{-3}\\,\\mathrm{kg} = 0{,}003\\,\\mathrm{kg}$ (also 3 g)\n\nBlauwal: $1{,}5 \\cdot 10^5\\,\\mathrm{kg} = 150\\,000\\,\\mathrm{kg}$"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\left(1{,}5 \\cdot 10^5\\right) : \\left(3 \\cdot 10^{-3}\\right) = 0{,}5 \\cdot 10^{5-(-3)} = 0{,}5 \\cdot 10^8 = 5 \\cdot 10^7$\n\nDie Spitzmaus passt 50 Millionen Mal in den Blauwal."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$m^{\\frac{3}{4}} = \\sqrt[4]{m^3}$ (oder $\\left(\\sqrt[4]{m}\\right)^3$)"
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$P = 70 \\cdot 70^{\\frac{3}{4}} \\approx 70 \\cdot 24{,}2 \\approx 1694$\n\nEin Mensch mit 70 kg braucht in Ruhe etwa $1700\\,\\mathrm{kcal}$ pro Tag."
+        },
+        {
+          "id": "V3-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$P = 70 \\cdot \\left(5 \\cdot 10^3\\right)^{\\frac{3}{4}} \\approx 70 \\cdot 594{,}6 \\approx 41\\,622$\n\nDas sind etwa $4{,}2 \\cdot 10^4\\,\\mathrm{kcal}$ pro Tag."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{P}{m} = \\frac{70 \\cdot m^{\\frac{3}{4}}}{m^1} = 70 \\cdot m^{\\frac{3}{4} - 1} = 70 \\cdot m^{-\\frac{1}{4}}$ (Division gleicher Basen)"
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Spitzmaus: $70 \\cdot \\left(3 \\cdot 10^{-3}\\right)^{-\\frac{1}{4}} \\approx 299$ kcal pro kg und Tag\n\nElefant: $70 \\cdot \\left(5 \\cdot 10^3\\right)^{-\\frac{1}{4}} \\approx 8{,}3$ kcal pro kg und Tag\n\nDeutung: Je Kilogramm Körpermasse braucht die Spitzmaus etwa 36-mal so viel Energie wie der Elefant. Kleine Tiere müssen im Verhältnis zu ihrer Masse sehr viel fressen."
+        },
+        {
+          "id": "V3-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Masse $16m$ statt $m$ (Potenzieren von Produkten):\n\n$70 \\cdot (16m)^{\\frac{3}{4}} = 16^{\\frac{3}{4}} \\cdot 70 \\cdot m^{\\frac{3}{4}} = 8 \\cdot P$, denn $16^{\\frac{3}{4}} = \\left(\\sqrt[4]{16}\\right)^3 = 2^3 = 8$.\n\nDie Aussage ist falsch: Das 16-mal so schwere Tier braucht nur 8-mal so viel Energie.\n\n1 P Rechnung mit $16^{\\frac{3}{4}} = 8$, 1 P Beurteilung."
+        },
+        {
+          "id": "V3-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Neuer Grundumsatz $70 \\cdot (k \\cdot m)^{\\frac{3}{4}} = k^{\\frac{3}{4}} \\cdot P$. Er soll $2P$ sein, also $k^{\\frac{3}{4}} = 2$."
+        },
+        {
+          "id": "V3-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Beide Seiten hoch $\\frac{4}{3}$ (Potenzieren von Potenzen): $\\left(k^{\\frac{3}{4}}\\right)^{\\frac{4}{3}} = k^{\\frac{3}{4} \\cdot \\frac{4}{3}} = k^1 = k$\n\n$k = 2^{\\frac{4}{3}} \\approx 2{,}52$\n\nDie Masse muss etwa 2,5-mal so groß sein, damit sich der Grundumsatz verdoppelt."
+        }
+      ]
+    }
+  ]
+}
