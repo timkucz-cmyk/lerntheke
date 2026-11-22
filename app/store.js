@@ -110,6 +110,8 @@ function normalisiere(roh, stufe, thema) {
   }
   if (typeof roh.name === 'string') z.name = roh.name.slice(0, 80);
   if (typeof roh.angelegt === 'string') z.angelegt = roh.angelegt;
+  // Niveau (nur Physik E/Q1/Q2 mit eA-Stationen): 'ga' grundlegend (Standard) | 'ea' erhöht
+  if (roh.niveau === 'ga' || roh.niveau === 'ea') z.niveau = roh.niveau;
 
   const d = istObjekt(roh.diagnose) ? roh.diagnose : {};
   const dl = istObjekt(roh.diagnoseLage) ? roh.diagnoseLage : {};

@@ -18,6 +18,7 @@ const AFB_ERLAUBT = ['I', 'II', 'III'];
 const SOZIALFORM_ERLAUBT = ['einzel', 'partner', 'gruppe', 'tandem'];
 const TYP_ERLAUBT = ['pflicht', 'wahl'];
 const KATEGORIE_ERLAUBT = ['grundlagen', 'neu', 'vernetzen'];
+const NIVEAU_ERLAUBT = ['ga', 'ea'];
 const ROLLEN = ['A', 'B'];
 
 const fehler = [];
@@ -78,6 +79,7 @@ async function pruefeStation(st, ort, ordner, stationsIds, aufgabenIds, checklis
   if (!istText(st.titel)) f(o, 'kein "titel"');
   if (!TYP_ERLAUBT.includes(st.typ)) f(o, '"typ" muss "pflicht" oder "wahl" sein (ist: ' + JSON.stringify(st.typ) + ')');
   if ('kategorie' in st && !KATEGORIE_ERLAUBT.includes(st.kategorie)) f(o, '"kategorie" muss grundlagen, neu oder vernetzen sein (ist: ' + JSON.stringify(st.kategorie) + ')');
+  if ('niveau' in st && !NIVEAU_ERLAUBT.includes(st.niveau)) f(o, '"niveau" muss "ga" oder "ea" sein (ist: ' + JSON.stringify(st.niveau) + ')');
   if (st.sozialform !== undefined && !SOZIALFORM_ERLAUBT.includes(st.sozialform)) {
     f(o, '"sozialform" muss einzel, partner oder gruppe sein');
   }
@@ -197,6 +199,7 @@ async function pruefeThema(stufeId, themaId) {
     if (!istText(c.id) || !istText(c.text)) { f(ort, 'Checklistenpunkt braucht "id" und "text"'); continue; }
     if (checklistenIds.has(c.id)) f(ort, 'doppelte Checklisten-ID: ' + c.id);
     checklistenIds.add(c.id);
+    if (c.niveau !== undefined && !NIVEAU_ERLAUBT.includes(c.niveau)) f(ort, '"niveau" bei ' + c.id + ' muss "ga" oder "ea" sein');
     if (c.spaeter !== undefined) {
       if (typeof c.spaeter !== 'boolean') f(ort, '"spaeter" bei ' + c.id + ' muss true oder false sein');
       else if (c.spaeter) spaeterIds.add(c.id);

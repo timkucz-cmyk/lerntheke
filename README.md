@@ -149,7 +149,8 @@ git push
 
   "checkliste": [
     { "id": "c1", "text": "Waagerechten Wurf in Teilbewegungen zerlegen" },
-    { "id": "c2", "text": "Den schiefen Wurf zerlegen", "spaeter": true }   // noch nicht unterrichtet
+    { "id": "c2", "text": "Den schiefen Wurf zerlegen", "spaeter": true },  // noch nicht unterrichtet
+    { "id": "c3", "text": "Wurfparabel herleiten", "niveau": "ea" }        // nur erhöhtes Niveau
   ],
 
   "stationen": [
@@ -158,6 +159,7 @@ git push
       "titel": "Waagerechter Wurf",
       "typ": "pflicht",                  // pflicht | wahl
       "kategorie": "neu",                // optional: grundlagen | neu | vernetzen – mit Kategorien keine Pflicht/Wahl-Trennung
+      "niveau": "ea",                    // optional, nur Physik E/Q1/Q2: Station nur für erhöhtes Niveau
       "sozialform": "einzel",            // einzel | partner | gruppe
       "dauer_min": 15,
       "hilfsmittel": "GTR",
@@ -225,6 +227,15 @@ Deckt eine Station mehrere Kompetenzen ab, entscheidet also die Reihenfolge in `
 
 Fehlt `phasen`, entfällt der Abschnitt ersatzlos. Die Prüfung meldet Verweise auf
 Kompetenzen, die es nicht gibt, sowie Kompetenzen, die in keiner Phase auftauchen.
+
+## 4c. Niveau grundlegend / erhöht (Physik E, Q1, Q2)
+
+Stationen und Checklistenpunkte mit `"niveau": "ea"` gehören nur zum erhöhten Niveau (Tim, 22.11.2026).
+Hat ein Thema solche Einträge, zeigt die Stationsübersicht einen Schalter **grundlegend / erhöht**
+(gespeichert im Gerät, Standard: grundlegend). Bei „grundlegend“ sind eA-Stationen und eA-Punkte ausgeblendet
+und zählen weder in Selbsteinschätzung, Lernweg noch Auswertung. eA-Stationen tragen auf der Kachel die Marke „eA“.
+Regeln: eine gA-Station verweist nicht auf eA-Punkte; eA-Inhalte stehen in eigenen Stationen (keine gemischten
+Blätter); der Thema-Hinweis funktioniert für beide Niveaus.
 
 ## 4a. Tandemstationen
 
