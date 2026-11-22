@@ -67,13 +67,6 @@
       "name": "Klasse 9",
       "themen": [
         {
-          "id": "stromkreise",
-          "name": "Stromkreise – Training",
-          "fach": "physik",
-          "aktiv": true,
-          "beschreibung": "Stromstärke, Spannung, Widerstand in Reihen- und Parallelschaltung"
-        },
-        {
           "id": "quadratische-funktionen",
           "name": "Quadratische Funktionen – Lerntheke",
           "fach": "mathe",
