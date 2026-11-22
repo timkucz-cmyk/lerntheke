@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Zerfallsgleichung mit Fehlermarkierung">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <circle class="marke" cx="34.0" cy="35.0" r="3.6"/>
+  <circle class="fuell" cx="30.6" cy="31.6" r="3.6"/>
+  <circle class="akzent" cx="30.6" cy="31.6" r="3.6"/>
+  <circle class="marke" cx="37.4" cy="31.6" r="3.6"/>
+  <circle class="fuell" cx="30.6" cy="38.4" r="3.6"/>
+  <circle class="akzent" cx="30.6" cy="38.4" r="3.6"/>
+  <circle class="marke" cx="37.4" cy="38.4" r="3.6"/>
+  <circle class="fuell" cx="34.0" cy="28.2" r="3.6"/>
+  <circle class="akzent" cx="34.0" cy="28.2" r="3.6"/>
+  <circle class="marke" cx="34.0" cy="41.8" r="3.6"/>
+  <path class="grau" d="M56 35 L92 35 M86 30 L92 35 L86 40"/>
+  <path class="akzent" d="M108 18 L136 46 M136 18 L108 46"/>
+</svg>

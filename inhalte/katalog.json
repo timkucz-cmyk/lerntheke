@@ -100,6 +100,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Quadratwurzeln, Gleichungen x² = a, Intervallschachtelung, irrationale Zahlen, Zahlenmengen, Wurzelgesetze"
+        },
+        {
+          "id": "radioaktivitaet",
+          "name": "Radioaktivität – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Atombau, Isotope und Nuklidschreibweise, Kernkraft, Strahlungsarten, Zerfallsgleichungen, Abschirmung, Geiger-Müller-Zählrohr, Nullrate, Nuklidkarte, Zerfallsreihen, Halbwertszeit"
         }
       ]
     },

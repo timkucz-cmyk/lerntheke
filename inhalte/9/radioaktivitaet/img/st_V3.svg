@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Wecker mit leuchtenden Ziffern">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <circle class="fuell" cx="80" cy="38" r="24"/>
+  <circle class="akzent" cx="80" cy="38" r="24"/>
+  <path class="akzent" d="M80 38 L80 22 M80 38 L92 44"/>
+  <circle class="marke" cx="62" cy="14" r="6"/>
+  <circle class="marke" cx="98" cy="14" r="6"/>
+  <circle class="marke" cx="80" cy="18" r="2"/>
+  <circle class="marke" cx="100" cy="38" r="2"/>
+  <circle class="marke" cx="60" cy="38" r="2"/>
+  <circle class="marke" cx="80" cy="58" r="2"/>
+</svg>
