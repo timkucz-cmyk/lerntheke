@@ -79,6 +79,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Katheten und Hypotenuse, Seiten berechnen, Sachaufgaben, Hilfsdreiecke in Figuren und Körpern, Beweis, Umkehrung"
+        },
+        {
+          "id": "optik",
+          "name": "Optik – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Licht und Schatten, Reflexion und Spiegelbild, Lichtbrechung, Totalreflexion, Sammel- und Zerstreuungslinsen, Brennpunkt, Bildentstehung, Lupe"
         }
       ]
     },
