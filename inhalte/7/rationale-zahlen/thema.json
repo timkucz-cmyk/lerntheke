@@ -1,0 +1,1393 @@
+{
+  "version": 1,
+  "titel": "Rechnen mit ganzen und rationalen Zahlen – Training vor der Klassenarbeit",
+  "fach": "mathe",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Brüchen, Kommazahlen oder der Rechenreihenfolge unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N12. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 und N2 (negative und rationale Zahlen), V2 nach N3 bis N5 (Addieren und Subtrahieren), V3 nach N6 bis N8 (Multiplizieren und Dividieren), V4 nach N9 bis N12 (Rechenarten verbinden und Rechengesetze). Ohne Taschenrechner, dein Regelheft darfst du benutzen. Rechenwege und Nebenrechnungen schreibst du in deine Notizen.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Positive Brüche und Dezimalzahlen am Zahlenstrahl darstellen, vergleichen, ordnen und ineinander umwandeln"
+    },
+    {
+      "id": "g2",
+      "text": "Mit positiven Brüchen rechnen: kürzen, erweitern, addieren, subtrahieren, multiplizieren, dividieren – auch mit gemischten Zahlen"
+    },
+    {
+      "id": "g3",
+      "text": "Mit positiven Dezimalzahlen ohne Taschenrechner rechnen und Ergebnisse mit einem Überschlag prüfen"
+    },
+    {
+      "id": "g4",
+      "text": "Die Rechenreihenfolge beachten (Klammer vor Punkt vor Strich) und mit natürlichen Zahlen geschickt rechnen"
+    },
+    {
+      "id": "g5",
+      "text": "Punkte im Koordinatensystem ablesen und eintragen"
+    },
+    {
+      "id": "c1",
+      "text": "Beschreiben, was negative Zahlen in Alltagssituationen bedeuten (Temperatur, Geld, Höhe, Spielstand)"
+    },
+    {
+      "id": "c2",
+      "text": "Positive und negative Zahlen an der Zahlengeraden darstellen, ablesen, vergleichen und ordnen; Gegenzahl und Betrag angeben; Punkte mit negativen Koordinaten"
+    },
+    {
+      "id": "c3",
+      "text": "Beschreiben, was rationale Zahlen sind, Zahlen den Mengen $\\mathbb{N}$, $\\mathbb{Z}$ und $\\mathbb{Q}$ zuordnen und rationale Zahlen ordnen"
+    },
+    {
+      "id": "c4",
+      "text": "Positive Zahlen addieren und subtrahieren – auch wenn die 0 überschritten wird"
+    },
+    {
+      "id": "c5",
+      "text": "Negative Zahlen addieren und subtrahieren (Klammern auflösen, Kurzschreibweise)"
+    },
+    {
+      "id": "c6",
+      "text": "Mit Brüchen und Dezimalzahlen mit Vorzeichen addieren und subtrahieren und das Ergebnis mit einem Überschlag prüfen"
+    },
+    {
+      "id": "c7",
+      "text": "Ganze Zahlen multiplizieren und dividieren (Vorzeichenregeln)"
+    },
+    {
+      "id": "c8",
+      "text": "Brüche und Dezimalzahlen mit Vorzeichen multiplizieren und dividieren (Kehrwert)"
+    },
+    {
+      "id": "c9",
+      "text": "Die vier Rechenarten verbinden: Klammer vor Punkt vor Strich, Minusklammer auflösen"
+    },
+    {
+      "id": "c10",
+      "text": "Rechengesetze (Kommutativ-, Assoziativ-, Distributivgesetz) erkennen und für Rechenvorteile nutzen"
+    },
+    {
+      "id": "c11",
+      "text": "Sachaufgaben mit rationalen Zahlen lösen: Rechnung aufstellen, berechnen und das Ergebnis im Sachzusammenhang deuten"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 5 und 6",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Negative und rationale Zahlen",
+      "untertitel": "Bedeutung, Zahlengerade, Betrag, Zahlenmengen",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Addieren und Subtrahieren",
+      "untertitel": "Zahlengerade, Kurzschreibweise, Brüche und Dezimalzahlen",
+      "farbe": "orange",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Multiplizieren und Dividieren",
+      "untertitel": "Vorzeichenregeln, Kehrwert",
+      "farbe": "gruen",
+      "checkliste": [
+        "c7",
+        "c8"
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Rechenarten verbinden und Rechengesetze",
+      "untertitel": "Minusklammer, Rechenvorteile, Sachaufgaben",
+      "farbe": "rot",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c11"
+      ]
+    }
+  ],
+  "abschluss": "Klassenarbeit",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 5 gehören zu den Grundlagen g1 bis g5 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $\\frac{3}{8} = \\frac{375}{1000} = 0{,}375$ (mit 125 erweitern oder $3 : 8$ schriftlich teilen)\n- $\\frac{7}{20} = \\frac{35}{100} = 0{,}35$ (mit 5 erweitern)\n\nJe Dezimalzahl 0,5 P."
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Alles als Dezimalzahl: $\\frac{3}{4} = 0{,}75$ und $\\frac{5}{8} = 0{,}625$.\n\nReihenfolge: $\\frac{5}{8} < 0{,}7 < 0{,}72 < \\frac{3}{4}$\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $\\frac{2}{3} + \\frac{1}{4} = \\frac{8}{12} + \\frac{3}{12} = \\frac{11}{12}$\n- $\\frac{5}{6} - \\frac{1}{4} = \\frac{10}{12} - \\frac{3}{12} = \\frac{7}{12}$\n\nZuerst gleichnamig machen (Hauptnenner 12). Je Ergebnis 0,5 P."
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $\\frac{3}{4} \\cdot \\frac{2}{9} = \\frac{3 \\cdot 2}{4 \\cdot 9} = \\frac{6}{36} = \\frac{1}{6}$\n- $\\frac{5}{8} : \\frac{5}{12} = \\frac{5}{8} \\cdot \\frac{12}{5} = \\frac{60}{40} = \\frac{3}{2} = 1\\frac{1}{2}$ (mit dem Kehrwert multiplizieren)\n\nJe Ergebnis 0,5 P."
+        },
+        {
+          "id": "G1-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gemischte Zahl zuerst als Bruch schreiben: $1\\frac{1}{2} = \\frac{3}{2}$.\n\n$\\frac{3}{2} \\cdot \\frac{2}{3} = \\frac{6}{6} = 1$\n\nÜben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $4{,}70 + 2{,}85 = 7{,}55$\n- $6{,}00 - 1{,}24 = 4{,}76$\n\nKomma unter Komma schreiben, fehlende Stellen mit 0 auffüllen. Je Ergebnis 0,5 P."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $0{,}4 \\cdot 0{,}6 = 0{,}24$ (denn $4 \\cdot 6 = 24$, zusammen zwei Nachkommastellen)\n- $3{,}6 : 0{,}12 = 360 : 12 = 30$ (beide Zahlen mit 100 multiplizieren)\n\nJe Ergebnis 0,5 P."
+        },
+        {
+          "id": "G1-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Überschlag: $10 \\cdot 5 = 50$. Es passt **C** ($49{,}98$).\n\nÜben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $20 - 4 \\cdot 3 = 20 - 12 = 8$ (Punkt vor Strich)\n- $(20 - 4) \\cdot 3 = 16 \\cdot 3 = 48$ (Klammer zuerst)\n\nJe Ergebnis 0,5 P."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$17 \\cdot 99 + 17 = 17 \\cdot 99 + 17 \\cdot 1 = 17 \\cdot (99 + 1) = 17 \\cdot 100 = 1700$ (Ausklammern)\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A(2 \\mid 5)$ und $B(6 \\mid 1)$. Zuerst die x-Koordinate (nach rechts), dann die y-Koordinate (nach oben). Je Punkt 0,5 P."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "D liegt über A (gleiche x-Koordinate wie A) und auf der Höhe von C (gleiche y-Koordinate wie C): $D(1 \\mid 4)$.\n\nÜben: **G2** Aufgabe 5."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Brüche, Dezimalzahlen, Rechenregeln",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Einzelarbeit, ohne Taschenrechner, 20 Minuten. Hier schließt du die Lücken aus G1: Aufgabe 1 Brüche und Dezimalzahlen ordnen, Aufgabe 2 Bruchrechnen, Aufgabe 3 Dezimalzahlen und Überschlag, Aufgabe 4 Rechenregeln, Aufgabe 5 Koordinaten.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $\\frac{2}{5} = \\frac{4}{10} = 0{,}4$\n- $\\frac{3}{8} = \\frac{375}{1000} = 0{,}375$\n\nJe Dezimalzahl 0,5 P."
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Mit den Dezimalzahlen aus a): $0{,}375 < 0{,}4 < 0{,}42 < 0{,}45$, also\n\n$\\frac{3}{8} < \\frac{2}{5} < 0{,}42 < 0{,}45$\n\nTipp: Alle Zahlen mit gleich vielen Nachkommastellen schreiben (0,375; 0,400; 0,420; 0,450)."
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{3}{4} - \\frac{2}{3} = \\frac{9}{12} - \\frac{8}{12} = \\frac{1}{12}$"
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Mit dem Kehrwert multiplizieren: $\\frac{2}{5} : \\frac{4}{15} = \\frac{2}{5} \\cdot \\frac{15}{4} = \\frac{30}{20} = \\frac{3}{2} = 1\\frac{1}{2}$"
+        },
+        {
+          "id": "G2-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$2\\frac{1}{4} = \\frac{9}{4}$, also $\\frac{9}{4} \\cdot \\frac{4}{3} = \\frac{36}{12} = 3$\n\nAuch: vorher kürzen, $\\frac{9 \\cdot 4}{4 \\cdot 3} = \\frac{9}{3} = 3$."
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- $2{,}5 \\cdot 0{,}4 = 1{,}00 = 1$ (denn $25 \\cdot 4 = 100$, zwei Nachkommastellen)\n- $4{,}2 : 0{,}7 = 42 : 7 = 6$ (beide Zahlen mit 10 multiplizieren)\n\nJe Ergebnis 0,5 P."
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Überschlag: $8 \\cdot 3 = 24$.\n\nGenau: $79 \\cdot 31 = 2449$, zwei Nachkommastellen, also $7{,}9 \\cdot 3{,}1 = 24{,}49$. Das passt zum Überschlag."
+        },
+        {
+          "id": "G2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Klammer zuerst, dann Punkt vor Strich: $36 : 9 - 2 = 4 - 2 = 2$"
+        },
+        {
+          "id": "G2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "- $25 \\cdot 7 \\cdot 4 = 25 \\cdot 4 \\cdot 7 = 100 \\cdot 7 = 700$\n- $46 + 39 + 54 = 46 + 54 + 39 = 100 + 39 = 139$\n\nTrick: Zahlen so vertauschen, dass glatte Zahlen (100) entstehen. Je Ergebnis mit Trick 0,5 P."
+        },
+        {
+          "id": "G2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Seite AB ist 3 Einheiten lang, BC auch. D liegt 3 Einheiten über A: $D(1 \\mid 5)$."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Negative Zahlen und die Zahlengerade",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c1",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Negative Zahlen im Alltag, an der Zahlengeraden und im Koordinatensystem; Gegenzahl und Betrag.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Negative_Zahlen.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- (1) $-28$ m\n- (2) $-12$ °C\n\nJe Angabe 0,5 P."
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "- (1) 0 m ist die Höhe des Meeresspiegels. Das Minus bedeutet „unterhalb des Meeresspiegels“.\n- (2) 0 °C ist die Temperatur, bei der Wasser gefriert. Das Minus bedeutet „kälter als 0 °C“ (unter null).\n\nJe Angabe 0,5 P."
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$A = -7$, $B = -4{,}5$, $C = -3$, $D = 2$\n\nB liegt genau in der Mitte zwischen $-5$ und $-4$. Je Zahl 0,5 P.\n\n*B falsch abgelesen?* Links von der 0 werden die Zahlen kleiner: Von $-4$ geht es nach links weiter zu $-5$."
+        },
+        {
+          "id": "N1-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$-8 < -3 < -0{,}5 < 0 < 2 < 5$\n\nJe weiter links auf der Zahlengeraden, desto kleiner."
+        },
+        {
+          "id": "N1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "| Zahl | Gegenzahl | Betrag |\n|---|---|---|\n| $-6$ | $6$ | $6$ |\n| $2{,}5$ | $-2{,}5$ | $2{,}5$ |\n\nJe Zahl 0,5 P. Der Betrag ist nie negativ."
+        },
+        {
+          "id": "N1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$4$ und $-4$. Beide liegen 4 Einheiten von der 0 entfernt, die eine rechts, die andere links. Die beiden Zahlen sind Gegenzahlen voneinander."
+        },
+        {
+          "id": "N1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P(-3 \\mid 2)$, $Q(4 \\mid -1)$, $R(-2 \\mid -4)$\n\nErst die x-Koordinate (negativ: nach links), dann die y-Koordinate (negativ: nach unten). Zwei richtige Punkte 0,5 P, drei richtige 1 P."
+        },
+        {
+          "id": "N1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zum Beispiel $S(-4 \\mid -3)$ (jeder Punkt mit zwei negativen Koordinaten ist richtig).\n\nAlle solchen Punkte liegen **links unten**: links von der y-Achse und unterhalb der x-Achse."
+        },
+        {
+          "id": "N1-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Betrag ist der Abstand von 0. Bei negativen Zahlen bedeutet ein größerer Abstand, dass die Zahl weiter **links** von der 0 liegt. Weiter links heißt kleiner.\n\nBeispiel: $\\left| -9 \\right| = 9$ ist größer als $\\left| -4 \\right| = 4$, und es gilt $-9 < -4$."
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Rationale Zahlen ordnen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Brüche und Dezimalzahlen mit Vorzeichen ordnen, Zahlenmengen.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Rationale_Zahlen.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Zwischen zwei ganzen Zahlen liegen vier gleich große Abschnitte, ein Abschnitt ist $\\frac{1}{4}$.\n\n$A = -1\\frac{3}{4}$, $B = -\\frac{1}{2}$, $C = \\frac{1}{4}$, $D = 1\\frac{1}{2}$\n\nAuch richtig: $A = -\\frac{7}{4}$, $B = -\\frac{2}{4}$, $D = \\frac{6}{4}$. Je Zahl 0,5 P."
+        },
+        {
+          "id": "N2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Als Dezimalzahl: $-\\frac{2}{3} = -0{,}666\\ldots$, $-\\frac{5}{8} = -0{,}625$, $-\\frac{1}{2} = -0{,}5$.\n\nBei negativen Zahlen ist die mit dem größeren Betrag die kleinere:\n\n$-\\frac{2}{3} < -\\frac{5}{8} < -0{,}6 < -\\frac{1}{2} < 0{,}6$\n\n1 P Dezimalzahlen, 1 P Reihenfolge.\n\n*Andersherum geordnet?* Bei negativen Zahlen nicht nach dem Betrag sortieren. → **N1** Aufgabe 6"
+        },
+        {
+          "id": "N2-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| Zahl | $\\mathbb{N}$ | $\\mathbb{Z}$ | $\\mathbb{Q}$ |\n|---|---|---|---|\n| $0$ | ja | ja | ja |\n| $-4$ | nein | ja | ja |\n| $2{,}5$ | nein | nein | ja |\n| $-\\frac{15}{5}$ | nein | ja | ja |\n\n$-\\frac{15}{5} = -3$ ist eine ganze Zahl. 0 gehört zu den natürlichen Zahlen. Je Zeile 0,5 P."
+        },
+        {
+          "id": "N2-4",
+          "label": "4",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "- (1) **Falsch.** Zu jeder negativen ganzen Zahl gibt es eine kleinere, z. B. ist $-1001 < -1000$. Die ganzen Zahlen gehen nach links immer weiter.\n- (2) **Falsch.** Gegenbeispiel: $-0{,}5$ (oder $-\\frac{1}{4}$) liegt zwischen $-1$ und $0$.\n- (3) **Wahr.** Die ganzen Zahlen bestehen aus den natürlichen Zahlen und ihren Gegenzahlen.\n\nJe Aussage 1 P (nur mit Begründung)."
+        },
+        {
+          "id": "N2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Als Dezimalzahl: $-\\frac{3}{4} = -0{,}75$ und $-\\frac{2}{3} = -0{,}666\\ldots$\n\nZum Beispiel $-0{,}7$, denn $-0{,}75 < -0{,}7 < -0{,}666\\ldots$\n\nAuch richtig: $-\\frac{17}{24}$ (mit Hauptnenner 24: $-\\frac{18}{24} < -\\frac{17}{24} < -\\frac{16}{24}$)."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Positive Zahlen addieren und subtrahieren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Plus geht nach rechts, Minus nach links – achte auf den Nulldurchgang.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Positive_Zahlen_addieren.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- (1) Start bei $-4$ und 7 Schritte nach rechts: $-4 + 7 = 3$. Die 0 wird überschritten. Nebenrechnung: $7 - 4 = 3$.\n- (2) Start bei $-2$ und 5 Schritte nach links: $-2 - 5 = -7$. Nebenrechnung: $2 + 5 = 7$.\n\nJe Skizze 1 P (Rechnung und Ergebnis)."
+        },
+        {
+          "id": "N3-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- $-6 + 9 = 3$ (die 0 wird überschritten, Nebenrechnung $9 - 6 = 3$)\n- $-13 + 5 = -8$ (die 0 wird nicht erreicht, Nebenrechnung $13 - 5 = 8$)\n- $4 - 11 = -7$ (Nebenrechnung $11 - 4 = 7$)\n- $2{,}5 - 4 = -1{,}5$ (Nebenrechnung $4 - 2{,}5 = 1{,}5$)\n\nJe Ergebnis 0,5 P.\n\n*Vorzeichen falsch?* Schau, auf welcher Seite der 0 du landest: Ist der Schritt nach links größer als der Abstand zur 0, wird das Ergebnis negativ."
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$0 - 35 + 12 - 8 = -35 + 12 - 8 = -23 - 8 = -31$\n\nDie Sonde hängt am Ende bei $-31$ m, also 31 m unter der Erdoberfläche.\n\n1 P Rechnung, 1 P Ergebnis mit Antwort."
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- $-9 + 13 = 4$: Von $-9$ bis 0 sind es 9 Schritte, bis 4 noch 4 weitere, zusammen 13.\n- $-4 - 6 = -10$: Vom Ergebnis $-10$ aus 6 Schritte zurück nach rechts landet man bei $-4$.\n\nJe Zahl 1 P."
+        },
+        {
+          "id": "N3-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**. Gegenbeispiel: $-8 + 3 = -5$. Skizze: Start bei $-8$ und 3 Schritte nach rechts, man landet bei $-5$ und erreicht die 0 nicht.\n\nRichtig ist: Das Ergebnis ist nur dann positiv, wenn die addierte Zahl einen größeren Betrag hat als die negative Zahl (z. B. $-3 + 8 = 5$).\n\n1 P Gegenbeispiel mit Skizze, 1 P Urteil mit Begründung."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Negative Zahlen addieren und subtrahieren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c5",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Negative Zahlen addieren und subtrahieren, Kurzschreibweise.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Negative_Zahlen_addieren.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "- $7 + (-12) = 7 - 12 = -5$\n- $-4 + (-9) = -4 - 9 = -13$\n- $6 - (-5) = 6 + 5 = 11$\n- $-10 - (-3) = -10 + 3 = -7$\n- $-2 - (+8) = -2 - 8 = -10$\n- $15 + (-15) = 15 - 15 = 0$\n\nJe Rechnung 0,5 P.\n\n*Bei der dritten Rechnung 1 heraus?* Minus vor einer negativen Zahl dreht die Richtung um: aus $- (-5)$ wird $+ 5$."
+        },
+        {
+          "id": "N4-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Start bei $-2$, Bogen 6 Schritte **nach rechts**, Ende bei 4: $-2 - (-6) = -2 + 6 = 4$.\n\nErklärung: Minus allein geht nach links. Das Minus vor der negativen Zahl $(-6)$ dreht die Richtung um, also geht es nach rechts. Eine negative Zahl subtrahieren heißt ihre Gegenzahl addieren.\n\n1 P Skizze mit Ergebnis, 1 P Erklärung.",
+          "loesung_bild": "img/N4-2.png"
+        },
+        {
+          "id": "N4-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "- $-5 - (-3) = -5 + 3 = -2$, also **Minus**.\n- $-5 + (-3) = -5 - 3 = -8$, also **Plus**.\n\nJe Zeichen 0,5 P."
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$3 + (-5) + (-2) + 4 = 3 - 5 - 2 + 4 = 0$\n\nDie Gesamtwertung ist 0: Während sie auf dem Eis war, fielen gleich viele Tore wie Gegentore.\n\n1 P Rechnung, 1 P Ergebnis."
+        },
+        {
+          "id": "N4-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Zum Beispiel $-1 - (-5) = -1 + 5 = 4$ (positiv) und $-5 - (-1) = -5 + 1 = -4$ (negativ).\n\nRegel: Die Differenz $a - b$ ist positiv, wenn $a$ größer ist als $b$, also wenn $a$ auf der Zahlengeraden rechts von $b$ liegt. Bei zwei negativen Zahlen ist das die Zahl mit dem kleineren Betrag.\n\n1 P Beispiele, 1 P Beschreibung."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Brüche und Dezimalzahlen addieren und subtrahieren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Brüche und Dezimalzahlen mit Vorzeichen addieren und subtrahieren.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Brueche_Dezimalzahlen_addieren.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- $-3{,}7 + 5{,}2 = 1{,}5$ (Nebenrechnung $5{,}2 - 3{,}7 = 1{,}5$)\n- $-2{,}45 - 1{,}3 = -3{,}75$ (Nebenrechnung $2{,}45 + 1{,}30 = 3{,}75$)\n- $0{,}8 - (-1{,}25) = 0{,}8 + 1{,}25 = 2{,}05$\n- $-6{,}4 + (-0{,}6) = -6{,}4 - 0{,}6 = -7$\n\nJe Ergebnis 0,5 P."
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$-\\frac{2}{3} + \\frac{1}{4} = -\\frac{8}{12} + \\frac{3}{12} = -\\frac{5}{12}$\n\nNebenrechnung: $\\frac{8}{12} - \\frac{3}{12} = \\frac{5}{12}$; die negative Zahl hat den größeren Betrag, also ist das Ergebnis negativ."
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{1}{6} - \\left(-\\frac{3}{4}\\right) = \\frac{1}{6} + \\frac{3}{4} = \\frac{2}{12} + \\frac{9}{12} = \\frac{11}{12}$\n\n*Ergebnis negativ?* Minus vor einer negativen Zahl wird Plus. → **N4** Aufgabe 1"
+        },
+        {
+          "id": "N5-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$-1\\frac{1}{2} = -\\frac{3}{2}$, also $-\\frac{3}{2} + \\frac{2}{3} = -\\frac{9}{6} + \\frac{4}{6} = -\\frac{5}{6}$"
+        },
+        {
+          "id": "N5-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Überschlag: $-20 + 7 - 3 = -16$. Es passt **D** ($-15{,}75$).\n\nGenau: $-19{,}8 + 7{,}1 = -12{,}7$ und $-12{,}7 - 3{,}05 = -15{,}75$."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Alles als Bruch: $-0{,}25 = -\\frac{1}{4}$.\n\n$-\\frac{1}{4} + \\frac{3}{4} + \\frac{1}{2} = \\frac{2}{4} + \\frac{2}{4} = 1$\n\nOder alles als Dezimalzahl: $-0{,}25 + 0{,}75 + 0{,}5 = 1$.\n\n1 P Umwandeln und Minus vor der Klammer, 1 P Ergebnis."
+        },
+        {
+          "id": "N5-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Das Ergebnis $\\frac{1}{3}$ ist größer als $-\\frac{5}{6}$. Man muss also eine negative Zahl subtrahieren (dann geht es nach rechts).\n\nAbstand von $-\\frac{5}{6}$ bis $\\frac{1}{3}$: $\\frac{5}{6} + \\frac{2}{6} = \\frac{7}{6}$. Die fehlende Zahl ist $-\\frac{7}{6}$ (oder $-1\\frac{1}{6}$).\n\nProbe: $-\\frac{5}{6} - \\left(-\\frac{7}{6}\\right) = -\\frac{5}{6} + \\frac{7}{6} = \\frac{2}{6} = \\frac{1}{3}$ ✓\n\n1 P Zahl, 1 P Vorgehen."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Ganze Zahlen multiplizieren und dividieren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Vorzeichenregeln beim Multiplizieren und Dividieren.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Ganze_Zahlen_multiplizieren.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "- $-6 \\cdot 8 = -48$\n- $-7 \\cdot (-9) = 63$\n- $72 : (-8) = -9$\n- $-56 : (-7) = 8$\n- $-3 \\cdot (-4) \\cdot (-5) = 12 \\cdot (-5) = -60$\n- $0 : (-9) = 0$\n\nJe Ergebnis 0,5 P."
+        },
+        {
+          "id": "N6-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- $-7 \\cdot (-6) = 42$: Betrag $42 : 6 = 7$. Das Ergebnis ist positiv, der zweite Faktor negativ, also muss auch der erste negativ sein.\n- $-45 : (-5) = 9$: Betrag $45 : 9 = 5$. Damit das Ergebnis positiv wird, muss die Zahl negativ sein.\n\nJe Zahl 1 P."
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Ergebnis ist **negativ**. Es gibt drei negative Faktoren. Zwei davon ergeben zusammen ein positives Produkt, der dritte macht es wieder negativ. (Zur Kontrolle: $(-2) \\cdot (-3) \\cdot (-1) \\cdot 4 = -24$.)"
+        },
+        {
+          "id": "N6-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Fortsetzung: $0 \\cdot (-2) = 0$ und $(-1) \\cdot (-2) = 2$.\n\nBegründung: Der erste Faktor wird von Zeile zu Zeile um 1 kleiner, das Ergebnis wird jedes Mal um 2 größer ($-6$; $-4$; $-2$; $0$; …). Damit das Muster weitergeht, muss nach 0 die Zahl 2 kommen.\n\n1 P Fortsetzung, 1 P Begründung über das Muster."
+        },
+        {
+          "id": "N6-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$6 \\cdot (-4) = -24$. Nach 6 Jahren ist die Eisdicke um 24 m kleiner (Änderung $-24$ m)."
+        },
+        {
+          "id": "N6-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$(-60) : (-4) = 15$. Nach etwa 15 Jahren ist das Eis 60 m dünner."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Brüche und Dezimalzahlen multiplizieren und dividieren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Brüche und Dezimalzahlen mit Vorzeichen multiplizieren und dividieren, Kehrwert.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Brueche_Dezimalzahlen_multiplizieren.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- $-0{,}4 \\cdot 2{,}5 = -1$ ($4 \\cdot 25 = 100$, zwei Nachkommastellen)\n- $-1{,}2 \\cdot (-0{,}3) = 0{,}36$\n- $-4{,}8 : 0{,}6 = -48 : 6 = -8$\n- $0{,}09 : (-0{,}3) = 0{,}9 : (-3) = -0{,}3$\n\nJe Ergebnis 0,5 P."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$-\\frac{3}{4} \\cdot \\frac{8}{9} = -\\frac{3 \\cdot 8}{4 \\cdot 9} = -\\frac{1 \\cdot 2}{1 \\cdot 3} = -\\frac{2}{3}$ (vorher mit 3 und mit 4 kürzen)"
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$-\\frac{4}{9} : \\frac{2}{3} = -\\frac{4}{9} \\cdot \\frac{3}{2} = -\\frac{12}{18} = -\\frac{2}{3}$\n\n*Nicht mit dem Kehrwert gerechnet?* → **N7** Aufgabe 3"
+        },
+        {
+          "id": "N7-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$-\\frac{9}{10} : \\left(-\\frac{3}{5}\\right) = -\\frac{9}{10} \\cdot \\left(-\\frac{5}{3}\\right) = \\frac{45}{30} = \\frac{3}{2} = 1\\frac{1}{2}$\n\nZwei negative Zahlen: Das Ergebnis ist positiv."
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- Kehrwert von $-\\frac{2}{5}$ ist $-\\frac{5}{2}$.\n- $-3 = -\\frac{3}{1}$, der Kehrwert ist $-\\frac{1}{3}$.\n\nDas Vorzeichen bleibt gleich. Je Kehrwert 0,5 P."
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Überschlag: $-4 \\cdot 5 = -20$. Es passt **B** ($-19{,}89$).\n\nA hat das falsche Vorzeichen, C und D haben das Komma an der falschen Stelle."
+        },
+        {
+          "id": "N7-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Zum Beispiel $-\\frac{1}{2}$: $-\\frac{3}{4} \\cdot \\left(-\\frac{1}{2}\\right) = \\frac{3}{8}$ und $0 < \\frac{3}{8} < \\frac{1}{2}$.\n\nBegründung: Das Ergebnis soll positiv sein, $-\\frac{3}{4}$ ist negativ, also muss der andere Faktor auch negativ sein. Sein Betrag muss kleiner als $\\frac{2}{3}$ sein, sonst wird das Ergebnis größer als $\\frac{1}{2}$.\n\n1 P passende Zahl, 1 P Begründung (Vorzeichen)."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Tandem: Rechnen mit rationalen Zahlen",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c7",
+        "c5",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit mit zwei Tablets, ohne Taschenrechner. Eine Person wählt A, die andere B. A löst die ungeraden, B die geraden Nummern laut. Die andere Person sieht die Lösung, gibt bei Bedarf den Tipp und kontrolliert. Nach jeder Nummer wird gewechselt.",
+      "bild": "img/st_N8.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N8-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechne: $-8 - (-13)$",
+          "tipp": "Minus vor einer negativen Zahl wird Plus.",
+          "loesung": "$-8 - (-13) = -8 + 13 = 5$"
+        },
+        {
+          "id": "N8-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechne: $-9 - (-4)$",
+          "tipp": "Minus vor einer negativen Zahl wird Plus.",
+          "loesung": "$-9 - (-4) = -9 + 4 = -5$"
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne: $-\\frac{2}{5} + \\frac{3}{10}$",
+          "tipp": "Hauptnenner 10.",
+          "loesung": "$-\\frac{2}{5} + \\frac{3}{10} = -\\frac{4}{10} + \\frac{3}{10} = -\\frac{1}{10}$"
+        },
+        {
+          "id": "N8-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne: $\\frac{1}{4} - \\frac{5}{8}$",
+          "tipp": "Hauptnenner 8.",
+          "loesung": "$\\frac{1}{4} - \\frac{5}{8} = \\frac{2}{8} - \\frac{5}{8} = -\\frac{3}{8}$"
+        },
+        {
+          "id": "N8-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechne: $-84 : (-7)$",
+          "tipp": "Gleiche Vorzeichen: Das Ergebnis ist positiv.",
+          "loesung": "$-84 : (-7) = 12$"
+        },
+        {
+          "id": "N8-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Berechne: $-72 : 8$",
+          "tipp": "Verschiedene Vorzeichen: Das Ergebnis ist negativ.",
+          "loesung": "$-72 : 8 = -9$"
+        },
+        {
+          "id": "N8-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne: $-\\frac{5}{12} \\cdot \\frac{8}{15}$",
+          "tipp": "Vor dem Multiplizieren kürzen: 5 mit 15 und 8 mit 12.",
+          "loesung": "$-\\frac{5}{12} \\cdot \\frac{8}{15} = -\\frac{1 \\cdot 2}{3 \\cdot 3} = -\\frac{2}{9}$"
+        },
+        {
+          "id": "N8-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne: $-\\frac{6}{7} \\cdot \\left(-\\frac{14}{15}\\right)$",
+          "tipp": "Vor dem Multiplizieren kürzen: 6 mit 15 und 14 mit 7. Zwei negative Faktoren.",
+          "loesung": "$-\\frac{6}{7} \\cdot \\left(-\\frac{14}{15}\\right) = \\frac{2 \\cdot 2}{1 \\cdot 5} = \\frac{4}{5}$"
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Rechenarten verbinden und Minusklammer",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c5",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Klammer vor Punkt vor Strich und Minusklammer.",
+      "bild": "img/st_N9.svg",
+      "pdf": "pdf/N9_Rechenarten_Minusklammer.pdf",
+      "aufgaben": [
+        {
+          "id": "N9-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Punkt vor Strich: $-3 + 4 \\cdot (-2) = -3 + (-8) = -3 - 8 = -11$"
+        },
+        {
+          "id": "N9-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Klammer zuerst: $(-3 + 4) \\cdot (-2) = 1 \\cdot (-2) = -2$\n\nVergleiche mit a): Die Klammer ändert das Ergebnis."
+        },
+        {
+          "id": "N9-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Erst beide Punktrechnungen: $18 : (-3) = -6$ und $(-2) \\cdot 5 = -10$.\n\nDann: $-6 - (-10) = -6 + 10 = 4$\n\n*Von links nach rechts gerechnet?* Dann kommt $-20$ heraus. Es gilt aber Punkt vor Strich. → **N11** Aufgabe 1"
+        },
+        {
+          "id": "N9-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$-(4 - 7) + 2 = -4 + 7 + 2 = 5$\n\nOder Klammer zuerst: $-(-3) + 2 = 3 + 2 = 5$."
+        },
+        {
+          "id": "N9-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$12 - (-3 + 8) = 12 + 3 - 8 = 7$\n\nOder Klammer zuerst: $12 - 5 = 7$.\n\n*Nur das erste Vorzeichen umgedreht?* Alle Vorzeichen in der Klammer drehen sich um. → **N11** Aufgabe 2"
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- (1) $(-8 - 2) \\cdot (3 + 1) = (-10) \\cdot 4 = -40$\n- (2) $-8 - 2 \\cdot (3 + 1) = -8 - 2 \\cdot 4 = -8 - 8 = -16$\n\nOhne Klammern ergibt sich $-8 - 6 + 1 = -13$. Je richtige Klammersetzung 1 P."
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Differenz aus $-5$ und $3$: $-5 - 3$. Gegenzahl von 4: $-4$.\n\n$(-5 - 3) \\cdot (-4) = (-8) \\cdot (-4) = 32$"
+        },
+        {
+          "id": "N9-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Beispiele: $a = 5$, $b = 2$: $-(5 - 2) = -3$ und $2 - 5 = -3$. $a = -1$, $b = 4$: $-(-1 - 4) = -(-5) = 5$ und $4 - (-1) = 5$.\n\nAllgemein: Minusklammer auflösen, $-(a - b) = -a + b$. Nach dem Kommutativgesetz darf man die Summanden vertauschen: $-a + b = b + (-a) = b - a$.\n\n1 P Beispiele, 1 P allgemeine Begründung."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Rechengesetze geschickt nutzen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c10",
+        "c9"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Kommutativ-, Assoziativ- und Distributivgesetz geschickt nutzen.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Rechengesetze.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- (1) Kommutativgesetz (9 und 4,7 wurden vertauscht)\n- (2) Distributivgesetz (Ausmultiplizieren)\n\nJe Gesetz 0,5 P."
+        },
+        {
+          "id": "N10-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$-0{,}25 \\cdot (-4) \\cdot 37 = 1 \\cdot 37 = 37$ (Kommutativ- und Assoziativgesetz)"
+        },
+        {
+          "id": "N10-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$-13 + 13 + 28 - 8 = 0 + 20 = 20$ (Kommutativgesetz: Gegenzahlen zusammen)"
+        },
+        {
+          "id": "N10-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Ausklammern: $8 \\cdot (1{,}25 - 2{,}25) = 8 \\cdot (-1) = -8$ (Distributivgesetz)"
+        },
+        {
+          "id": "N10-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$-7 \\cdot (100 - 1) = -700 + 7 = -693$ (Distributivgesetz, Ausmultiplizieren)"
+        },
+        {
+          "id": "N10-2e",
+          "label": "2e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Ausklammern: $\\frac{3}{4} \\cdot (-5 + (-3)) = \\frac{3}{4} \\cdot (-8) = -6$ (Distributivgesetz)"
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Aussage ist **falsch**: $(24 : 6) : 2 = 4 : 2 = 2$, aber $24 : (6 : 2) = 24 : 3 = 8$.\n\nDas Assoziativgesetz gilt nur beim Addieren und Multiplizieren, nicht beim Dividieren (und nicht beim Subtrahieren).\n\n1 P Gegenrechnung, 1 P Urteil."
+        },
+        {
+          "id": "N10-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Immer zwei Zahlen zusammenfassen (Assoziativgesetz): $(1 - 2) + (3 - 4) + \\ldots + (99 - 100)$. Jedes Paar ergibt $-1$.\n\nVon 1 bis 100 sind es 50 Paare: $50 \\cdot (-1) = -50$.\n\n1 P Paarbildung, 1 P Ergebnis."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. In jeder Rechnung steckt ein typischer Fehler.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Fehler: Finn rechnet zuerst die Minusrechnung. Es gilt aber Punkt vor Strich.\n\nRichtig: $12 - 3 \\cdot (-2) = 12 - (-6) = 12 + 6 = 18$\n\n1 P Fehler, 1 P Lösung. Üben: → **N9** Aufgabe 1"
+        },
+        {
+          "id": "N11-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Pia dreht nur das erste Vorzeichen in der Klammer um. Beim Auflösen einer Minusklammer drehen sich alle Vorzeichen um.\n\nRichtig: $-(-2 + 7) = 2 - 7 = -5$ (oder: $-(5) = -5$)\n\n1 P Fehler, 1 P Lösung. Üben: → **N9** Aufgabe 2"
+        },
+        {
+          "id": "N11-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Emir subtrahiert 3, statt die Gegenzahl von $-3$ zu addieren.\n\nRichtig: $7 - (-3) = 7 + 3 = 10$\n\n1 P Fehler, 1 P Lösung. Üben: → **N4** Aufgabe 1"
+        },
+        {
+          "id": "N11-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Lina macht aus „minus $\\frac{1}{2}$“ ein Plus. Von $-\\frac{3}{4}$ aus geht es aber weiter nach links.\n\nRichtig: $-\\frac{3}{4} - \\frac{1}{2} = -\\frac{3}{4} - \\frac{2}{4} = -\\frac{5}{4} = -1\\frac{1}{4}$\n\n1 P Fehler, 1 P Lösung. Üben: → **N5** Aufgabe 2"
+        },
+        {
+          "id": "N11-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Das Komma steht falsch. Probe: $-0{,}3 \\cdot 0{,}4 = -0{,}12$ und nicht $-1{,}2$. Überschlag: 0,4 passt ungefähr dreimal in 1,2.\n\nRichtig: $-1{,}2 : 0{,}4 = -12 : 4 = -3$\n\n1 P Fehler, 1 P Lösung. Üben: → **N7** Aufgabe 1"
+        },
+        {
+          "id": "N11-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fehler: Selin vergleicht nur die Beträge. Auf der Zahlengeraden liegt $-10$ weiter links als $-6$, also ist $-10$ kleiner.\n\nRichtig: $-10 < -6$ (bzw. $-6 > -10$)\n\n1 P Fehler mit Zahlengerade, 1 P Lösung. Üben: → **N1** Aufgabe 6"
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "titel": "Sachaufgaben mit rationalen Zahlen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c11",
+        "c9",
+        "c6",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Sachaufgaben: Rechnung aufstellen, rechnen, deuten.",
+      "bild": "img/st_N12.svg",
+      "pdf": "pdf/N12_Sachaufgaben.pdf",
+      "aufgaben": [
+        {
+          "id": "N12-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$-1 + 2 + 0 + (-2) + 1 + (-1) + 0 + 1 + (-1)$\n\nGeschickt: $(-1 + 1) + (2 - 2) + (-1 + 1) - 1 = -1$\n\nDas Gesamtergebnis ist $-1$. 1 P Rechnung, 1 P Ergebnis."
+        },
+        {
+          "id": "N12-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$-1$ heißt: Die Spielerin hat einen Schlag weniger gebraucht als vorgesehen. $36 + (-1) = 35$ Schläge."
+        },
+        {
+          "id": "N12-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$120 - (-170) = 120 + 170 = 290$\n\nDer Unterschied beträgt 290 °C. 1 P Rechnung, 1 P Ergebnis."
+        },
+        {
+          "id": "N12-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$(120 + (-170)) : 2 = (-50) : 2 = -25$\n\nAuch: Die Hälfte des Unterschieds ist 145; $120 - 145 = -25$. Die Mitte liegt bei $-25$ °C."
+        },
+        {
+          "id": "N12-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Aussage ist so **nicht begründet**: $-25$ °C ist nur die Mitte zwischen dem heißesten und dem kältesten Wert. Wie lange es wie warm ist, weiß man damit nicht. Der Durchschnitt kann also ganz anders sein."
+        },
+        {
+          "id": "N12-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$7 \\cdot 4 + 3 \\cdot (-2{,}5) = 28 + (-7{,}5) = 28 - 7{,}5 = 20{,}5$\n\nDer Punktestand ist 20,5. 1 P Rechnung, 1 P Ergebnis."
+        },
+        {
+          "id": "N12-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Probieren:\n\n| richtig | falsch | Punkte |\n|---|---|---|\n| 3 | 7 | $12 - 17{,}5 = -5{,}5$ |\n| 4 | 6 | $16 - 15 = 1$ |\n\nMit 3 richtigen ist der Stand negativ, mit 4 richtigen positiv. Es müssen **mindestens 4** Antworten richtig sein.\n\n1 P Probieren mit zwei passenden Fällen, 1 P Ergebnis."
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Uhrzeiten rund um die Welt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c3",
+        "c2",
+        "c1",
+        "g1",
+        "g2"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 (negative und rationale Zahlen) – am besten nach N1 und N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Uhrzeiten.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "In New York gehen die Uhren 5 Stunden **nach**: Dort ist es 5 Stunden früher am Tag als nach der Weltzeit UTC. Ist es nach UTC 12 Uhr, ist es in New York 7 Uhr."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$-8 < -5 < -3{,}5 < 1 < 5{,}5 < 5\\frac{3}{4} < 9$\n\nLos Angeles, New York, St. John’s, Deutschland, Neu-Delhi, Kathmandu, Tokio.\n\n1 P Zahlengerade, 1 P Reihenfolge.",
+          "loesung_bild": "img/V1-1b.png"
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- Ganze Zahlen: $-8$; $-5$; $+1$; $+9$. Nur rational (keine ganze Zahl): $-3{,}5$; $5{,}5$; $5\\frac{3}{4}$.\n- $-3{,}5$ h $= -3$ h $30$ min: Die Uhren gehen 3 Stunden 30 Minuten nach, denn $0{,}5$ h $= 30$ min.\n- $5\\frac{3}{4}$ h $= 5$ h $45$ min: Die Uhren gehen 5 Stunden 45 Minuten vor, denn $\\frac{3}{4}$ von 60 min sind 45 min.\n\n1 P Einteilung, 1 P Umrechnung."
+        },
+        {
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beträge: $\\left| -8 \\right| = 8$, $\\left| -5 \\right| = 5$, $\\left| -3{,}5 \\right| = 3{,}5$, $\\left| 1 \\right| = 1$, $5{,}5$, $5{,}75$, $\\left| 9 \\right| = 9$.\n\nAm stärksten weicht **Tokio** ab ($9 > 8$), am wenigsten **Deutschland** (1). Der Betrag misst den Abstand von 0, egal ob die Uhr vor- oder nachgeht.\n\n*Los Angeles gewählt?* $-8$ ist die kleinste Zahl, aber nicht die mit dem größten Betrag."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Jede Zahl zwischen $5{,}5$ und $5{,}75$ ist richtig, z. B. $5{,}6$ h oder $5\\frac{5}{8}$ h (genau in der Mitte, 5 h 37,5 min)."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Man kann den Abschnitt zwischen zwei rationalen Zahlen auf der Zahlengeraden immer feiner einteilen, zum Beispiel halbieren. Die Mitte ist wieder ein Bruch, also rational. Zwischen $5\\frac{4}{8}$ und $5\\frac{6}{8}$ liegt $5\\frac{5}{8}$; zwischen $5\\frac{8}{16}$ und $5\\frac{10}{16}$ liegt $5\\frac{9}{16}$ und so weiter.\n\nMit Dezimalzahlen: Hängt man Stellen an, findet man immer eine Zahl dazwischen (zwischen 5,5 und 5,51 liegt 5,505).\n\n1 P Idee (feiner einteilen/Mitte), 1 P Begründung, dass das Ergebnis wieder rational ist."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Der Wasserstand einer Talsperre",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c5",
+        "c4",
+        "c2",
+        "c1",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 20 Minuten, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 2 (negative und rationale Zahlen, Addieren und Subtrahieren) – am besten nach N3 bis N5.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Talsperre.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$-2{,}35$ m: Das Wasser steht 2,35 m unter dem Stauziel (1 P).\n\nAm vollsten an Montag 4: $-0{,}6$ ist die größte Zahl, sie liegt am nächsten an 0 (1 P)."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- Montag 1 → 2: $-1{,}6 - (-2{,}35) = -1{,}6 + 2{,}35 = 0{,}75$ m (gestiegen)\n- Montag 2 → 3: $-1{,}85 - (-1{,}6) = -1{,}85 + 1{,}6 = -0{,}25$ m (gesunken)\n- Montag 3 → 4: $-0{,}6 - (-1{,}85) = -0{,}6 + 1{,}85 = 1{,}25$ m (gestiegen)\n- Montag 4 → 5: $-1{,}1 - (-0{,}6) = -1{,}1 + 0{,}6 = -0{,}5$ m (gesunken)\n\nRechnung: neuer Wert minus alter Wert. Je Änderung 0,5 P."
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{3}{4} - \\frac{1}{4} + \\frac{5}{4} - \\frac{2}{4} = \\frac{5}{4} = 1\\frac{1}{4}$ (1 P)\n\nPrüfen: $-1{,}1 - (-2{,}35) = -1{,}1 + 2{,}35 = 1{,}25 = 1\\frac{1}{4}$ ✓ (1 P)\n\nDie Brüche passen zu den Dezimalzahlen aus b): $\\frac{3}{4} = 0{,}75$, $\\frac{1}{4} = 0{,}25$, $1\\frac{1}{4} = 1{,}25$, $\\frac{1}{2} = 0{,}5$."
+        },
+        {
+          "id": "V2-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Von $-1{,}1$ bis $-3{,}5$: $-3{,}5 - (-1{,}1) = -3{,}5 + 1{,}1 = -2{,}4$.\n\nDer Wasserstand kann noch um **2,4 m** sinken. Probe: $-1{,}1 - 2{,}4 = -3{,}5$ ✓"
+        },
+        {
+          "id": "V2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch**. Von Montag 2 zu 3 ($-0{,}25$ m) und von Montag 4 zu 5 ($-0{,}5$ m) ist der Wasserstand gesunken.\n\nDie Summe ist positiv, weil die Anstiege ($0{,}75 + 1{,}25 = 2$) größer sind als die Rückgänge ($0{,}25 + 0{,}5 = 0{,}75$). Eine positive Summe sagt nur, dass der See am Ende höher steht als am Anfang.\n\n1 P Gegenbeispiel, 1 P Begründung."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Ein Wetterballon steigt auf",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c7",
+        "c5",
+        "c4",
+        "c2",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 3 (negative und rationale Zahlen, Addieren und Subtrahieren, Multiplizieren und Dividieren) – am besten nach N6 bis N8.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Wetterballon.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Änderung pro km: $-6{,}5$ °C (1 P).\n\nAuf 0,5 km: $0{,}5 \\cdot (-6{,}5) = -3{,}25$, also $-3{,}25$ °C (1 P)."
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$13 + 4 \\cdot (-6{,}5) = 13 + (-26) = 13 - 26 = -13$\n\nIn 4 km Höhe sind es etwa $-13$ °C. 1 P Rechnung (Punkt vor Strich), 1 P Ergebnis."
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bis 0 °C muss es um 13 °C kälter werden. Pro km sind es 6,5 °C:\n\n$13 : 6{,}5 = 130 : 65 = 2$\n\nIn 2 km Höhe sind es 0 °C. Probe: $13 + 2 \\cdot (-6{,}5) = 13 - 13 = 0$ ✓"
+        },
+        {
+          "id": "V3-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Änderung seit dem Boden: $-39 - 13 = -52$ °C.\n\nAnzahl der Kilometer: $(-52) : (-6{,}5) = 520 : 65 = 8$\n\nDer Ballon ist etwa 8 km hoch. 1 P Änderung, 1 P Division mit Vorzeichen."
+        },
+        {
+          "id": "V3-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$-39 < -13 < 13$ (8 km, 4 km, Boden)"
+        },
+        {
+          "id": "V3-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Rechnung selbst stimmt: $30 \\cdot (-6{,}5) = -195$ und $13 - 195 = -182$.\n\nDie Vorhersage ist aber **nicht sinnvoll**: Die Regel „pro km 6,5 °C kälter“ gilt nur bis etwa 11 km. Darüber wird es nicht weiter kälter. In 30 km Höhe ist es viel wärmer als $-182$ °C.\n\n1 P Rechnung geprüft, 1 P Begründung mit der Grenze der Regel."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Strom vom Dach",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c11",
+        "c10",
+        "c9",
+        "c8",
+        "c6",
+        "c2",
+        "c1",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Einzelarbeit, 25 Minuten, ohne Taschenrechner. Vernetzt die Grundlagen mit Phase 1 bis 4 (negative und rationale Zahlen, Addieren und Subtrahieren, Multiplizieren und Dividieren, Rechenarten verbinden und Rechengesetze) – am besten nach N9 bis N12.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Strom_vom_Dach.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Donnerstag $-0{,}9$ kWh: Die Familie hat 0,9 kWh mehr bezogen als abgegeben (0,5 P).\n\nBeste Bilanz: Mittwoch mit $+3{,}6$ kWh, der größten Zahl (0,5 P)."
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Gegenzahlen zusammenfassen (Kommutativ- und Assoziativgesetz):\n\n$(-2{,}4 + 2{,}4) + (1{,}8 + (-1{,}8)) + 3{,}6 + (-0{,}9) + 0{,}8$\n\n$= 0 + 0 + 3{,}6 - 0{,}9 + 0{,}8 = 2{,}7 + 0{,}8 = 3{,}5$\n\nDie Wochenbilanz ist $+3{,}5$ kWh. 1 P geschickte Anordnung, 1 P Gesetze, 1 P Ergebnis."
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$3{,}5 : 7 = 0{,}5$, also im Durchschnitt $+0{,}5$ kWh pro Tag."
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 4,
+          "afb": "II",
+          "loesung": "Abgegeben (positive Tage): $1{,}8 + 3{,}6 + 2{,}4 + 0{,}8 = 8{,}6$ kWh.\n\nBezogen (negative Tage): $-2{,}4 - 0{,}9 - 1{,}8 = -5{,}1$ kWh.\n\n$8{,}6 \\cdot 0{,}10 + (-5{,}1) \\cdot 0{,}30 = 0{,}86 + (-1{,}53)$\n\n$= 0{,}86 - 1{,}53 = -0{,}67$\n\nDie Familie muss in dieser Woche 0,67 € bezahlen.\n\n1 P abgegebene Menge, 1 P bezogene Menge, 1 P Rechnung mit Vorzeichen, 1 P Ergebnis."
+        },
+        {
+          "id": "V4-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Aussage ist **falsch** (1 P): Die Strombilanz ist zwar positiv ($+3{,}5$ kWh), das Geld aber negativ ($-0{,}67$ €) (1 P).\n\nGrund: Eine bezogene kWh kostet dreimal so viel, wie eine abgegebene kWh einbringt ($0{,}30$ € gegen $0{,}10$ €). Damit die Familie Geld verdient, müsste sie mehr als dreimal so viel abgeben wie beziehen. Die Familie gibt aber nur $8{,}6$ kWh ab, das ist weniger als $3 \\cdot 5{,}1 = 15{,}3$ kWh (1 P)."
+        }
+      ]
+    }
+  ]
+}
