@@ -650,6 +650,7 @@ function findeThema(stufeId, themaId) {
 async function themaLaden(stufeId, themaId) {
   if (aktuell && aktuell.stufe === stufeId && aktuell.themaId === themaId) {
     aktuell.zustand = store.laden(stufeId, themaId);
+    aktuell.thema = nachNiveau(aktuell.voll, aktuell.zustand);
     return aktuell;
   }
   const treffer = findeThema(stufeId, themaId);
@@ -660,17 +661,57 @@ async function themaLaden(stufeId, themaId) {
   thema.checkliste = Array.isArray(thema.checkliste) ? thema.checkliste : [];
   for (const st of thema.stationen) st.aufgaben = Array.isArray(st.aufgaben) ? st.aufgaben : [];
 
+  const zustand = store.laden(stufeId, themaId);
   aktuell = {
     stufe: stufeId,
     themaId,
     ordner,
-    thema,
+    voll: thema,                       // alle Stationen, auch die für erhöhtes Niveau
+    thema: nachNiveau(thema, zustand), // was die Schülerin sieht
     katalogEintrag: treffer.eintrag,
     stufeName: treffer.stufe.name || treffer.stufe.id,
-    zustand: store.laden(stufeId, themaId)
+    zustand
   };
   store.merkeThema(stufeId, themaId, thema.titel || treffer.eintrag.name);
   return aktuell;
+}
+
+/* ---------- Niveau (grundlegend / erhöht) ----------
+   Physik E, Q1, Q2 (Tim, 22.11.2026): Stationen und Checklistenpunkte mit
+   "niveau": "ea" gehören nur zum erhöhten Niveau. Standard ist grundlegend;
+   dann sind sie ausgeblendet und zählen nirgends mit. Der Schalter erscheint
+   nur, wenn das Thema solche Stationen oder Punkte hat.                    */
+
+function hatNiveau(thema) {
+  return (thema.stationen || []).some((s) => s.niveau === 'ea') ||
+    (thema.checkliste || []).some((c) => c.niveau === 'ea');
+}
+
+function niveauVon(z) { return z && z.niveau === 'ea' ? 'ea' : 'ga'; }
+
+function nachNiveau(voll, z) {
+  if (!hatNiveau(voll) || niveauVon(z) === 'ea') return voll;
+  const checkliste = voll.checkliste.filter((c) => c.niveau !== 'ea');
+  const ids = new Set(checkliste.map((c) => c.id));
+  const nurGa = (liste) => (Array.isArray(liste) ? liste.filter((id) => ids.has(id)) : liste);
+  return Object.assign({}, voll, {
+    checkliste,
+    stationen: voll.stationen.filter((s) => s.niveau !== 'ea')
+      .map((s) => Object.assign({}, s, { checkliste: nurGa(s.checkliste) })),
+    phasen: Array.isArray(voll.phasen)
+      ? voll.phasen.map((p) => Object.assign({}, p, { checkliste: nurGa(p.checkliste) }))
+        .filter((p, i) => p.checkliste.length || !(voll.phasen[i].checkliste || []).length)
+      : voll.phasen
+  });
+}
+
+function niveauSchalter() {
+  if (!hatNiveau(aktuell.voll)) return '';
+  const n = niveauVon(aktuell.zustand);
+  return '<div class="filter niveau" role="group" aria-label="Niveau wählen">' +
+    [['ga', 'grundlegend'], ['ea', 'erhöht']]
+      .map(([id, text]) => '<button type="button" data-aktion="niveau" data-wert="' + id + '" aria-pressed="' +
+        (n === id) + '">' + text + '</button>').join('') + '</div>';
 }
 
 function kopfSetzen() {
@@ -843,7 +884,9 @@ function ansichtStationen() {
         .map(([id, text]) => '<button type="button" data-aktion="filter" data-wert="' + id + '" aria-pressed="' +
           (filterWahl === id) + '">' + text + '</button>').join('') + '</div>'
     : '<span></span>';
-  html += '<div class="werkzeuge">' + filter + '<div class="btn-reihe">' +
+  const niveau = niveauSchalter();
+  html += '<div class="werkzeuge">' + (niveau ? '<div class="filter-gruppe">' + filter + niveau + '</div>' : filter) +
+    '<div class="btn-reihe">' +
     '<a class="btn" href="' + uebersichtPfad() + '/auswertung">' + symbol('ergebnis') + 'Auswertung</a>' +
     '<a class="btn" href="' + uebersichtPfad() + '/diagnose">' + (diagnoseGemacht ? 'Selbsteinschätzung ansehen' : 'Selbsteinschätzung') + '</a>' +
     '</div></div>';
@@ -1009,6 +1052,7 @@ function stationsKarte(station, z) {
   return '<li><a class="s-karte" href="' + stationsPfad(station.id) + '">' +
     '<span class="s-kopf"><span class="kennung kat-' + katVon(station) + '">' + esc(station.id) + '</span>' +
     '<span class="s-marken">' +
+    (station.niveau === 'ea' ? '<span class="chip chip-ea" title="erhöhtes Niveau">eA</span>' : '') +
     (empfohlen ? '<span class="chip chip-empf">' + symbol('empfohlen') + 'empfohlen</span>' : '') +
     statusChip(status) + '</span></span>' +
     '<span class="s-titel">' + esc(station.titel || '') + '</span>' +
@@ -1103,7 +1147,8 @@ function blattListe(station) {
 function ansichtStation(stationId) {
   kopfSetzen();
   const z = aktuell.zustand;
-  const station = aktuell.thema.stationen.find((s) => String(s.id) === String(stationId));
+  const station = aktuell.thema.stationen.find((s) => String(s.id) === String(stationId)) ||
+    aktuell.voll.stationen.find((s) => String(s.id) === String(stationId));   // eA-Station bei grundlegendem Niveau
   if (!station) {
     fehlerAnsicht('Station nicht gefunden', 'Die Station "' + stationId + '" steht nicht in thema.json.');
     return;
@@ -1658,7 +1703,7 @@ function stationAusPfad() {
 }
 
 function findeAufgabe(id) {
-  for (const st of aktuell.thema.stationen) {
+  for (const st of aktuell.voll.stationen) {
     const a = st.aufgaben.find((x) => String(x.id) === String(id));
     if (a) return a;
   }
@@ -2020,7 +2065,7 @@ function aktionenVerdrahten() {
       setzePunkte(id, Number(el.dataset.wert));
       // Gleich zur nächsten Teilaufgabe (Tim, 17.11.2026); bei der letzten bleibt die Ansicht stehen.
       const sid = stationAusPfad();
-      const station = sid && aktuell.thema.stationen.find((s) => String(s.id) === sid);
+      const station = sid && aktuell.voll.stationen.find((s) => String(s.id) === sid);
       const i = station ? station.aufgaben.findIndex((a) => String(a.id) === String(id)) : -1;
       if (station && i >= 0 && i < station.aufgaben.length - 1) {
         standSchreiben(aktuell.zustand, sid).schritt = i + 1;
@@ -2033,6 +2078,14 @@ function aktionenVerdrahten() {
           ziel.scrollIntoView({ block: 'start', behavior: ruhig ? 'auto' : 'smooth' });
         }
       });
+      return;
+    }
+
+    if (aktion === 'niveau') {
+      aktuell.zustand.niveau = el.dataset.wert === 'ea' ? 'ea' : 'ga';
+      speichereZustand();
+      aktuell.thema = nachNiveau(aktuell.voll, aktuell.zustand);
+      route();
       return;
     }
 
@@ -2073,7 +2126,7 @@ function aktionenVerdrahten() {
 
     if (aktion === 'takt-weiter' || aktion === 'takt-zurueck' || aktion === 'takt-zu') {
       const sid = stationAusPfad();
-      const station = sid && aktuell.thema.stationen.find((s) => String(s.id) === sid);
+      const station = sid && aktuell.voll.stationen.find((s) => String(s.id) === sid);
       if (!station) return;
       const st = standSchreiben(aktuell.zustand, sid);
       const letzte = Math.max(0, station.aufgaben.length - 1);

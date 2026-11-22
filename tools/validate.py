@@ -16,6 +16,7 @@ AFB_ERLAUBT = ["I", "II", "III"]
 SOZIALFORM_ERLAUBT = ["einzel", "partner", "gruppe", "tandem"]
 TYP_ERLAUBT = ["pflicht", "wahl"]
 KATEGORIE_ERLAUBT = ["grundlagen", "neu", "vernetzen"]
+NIVEAU_ERLAUBT = ["ga", "ea"]
 ROLLEN = ["A", "B"]
 
 fehler = []
@@ -102,6 +103,8 @@ def pruefe_station(st, ort, ordner, stations_ids, aufgaben_ids, checklisten_ids)
         f(o, '"typ" muss "pflicht" oder "wahl" sein (ist: %r)' % st.get("typ"))
     if "kategorie" in st and st["kategorie"] not in KATEGORIE_ERLAUBT:
         f(o, '"kategorie" muss grundlagen, neu oder vernetzen sein (ist: %r)' % st.get("kategorie"))
+    if "niveau" in st and st["niveau"] not in NIVEAU_ERLAUBT:
+        f(o, '"niveau" muss "ga" oder "ea" sein (ist: %r)' % st.get("niveau"))
     if "sozialform" in st and st["sozialform"] not in SOZIALFORM_ERLAUBT:
         f(o, '"sozialform" muss einzel, partner oder gruppe sein')
     if "dauer_min" in st and not (ist_zahl(st["dauer_min"]) and st["dauer_min"] > 0):
@@ -248,6 +251,8 @@ def pruefe_thema(stufe_id, thema_id):
         if c["id"] in checklisten_ids:
             f(ort, "doppelte Checklisten-ID: %s" % c["id"])
         checklisten_ids.add(c["id"])
+        if "niveau" in c and c["niveau"] not in NIVEAU_ERLAUBT:
+            f(ort, '"niveau" bei %s muss "ga" oder "ea" sein' % c["id"])
         if "spaeter" in c:
             if not isinstance(c["spaeter"], bool):
                 f(ort, '"spaeter" bei %s muss true oder false sein' % c["id"])

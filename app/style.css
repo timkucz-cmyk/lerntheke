@@ -271,6 +271,7 @@ main > .laden { padding-top: 1.5rem; }
   border: 1px solid var(--linie);
 }
 .chip-fach { background: var(--fach-soft); color: var(--fach-ink); border-color: var(--fach-line); }
+.chip-ea { background: var(--flaeche-3); color: var(--text); border-color: var(--linie, transparent); font-weight: 700; }
 .chip-empf { background: var(--fach-soft); color: var(--fach-ink); border-color: var(--fach-line); }
 .chip-fertig { background: var(--ok-soft); color: var(--ok-ink); border-color: var(--ok-line); }
 .chip-begonnen { background: var(--warn-soft); color: var(--warn-ink); border-color: var(--warn-line); }
@@ -1007,6 +1008,7 @@ body.start main { max-width: none; padding: 0; }
 
 .werkzeuge { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .8rem; margin: 1.2rem 0 .2rem; }
 .werkzeuge .btn-reihe { margin: 0; }
+.filter-gruppe { display: inline-flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .filter { display: inline-flex; flex-wrap: wrap; gap: 2px; padding: 4px; border-radius: 12px; background: var(--flaeche-3); }
 .filter button {
   min-height: 40px; padding: 0 1rem; border: 0; border-radius: 9px; background: transparent;
