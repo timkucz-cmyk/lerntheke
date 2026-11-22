@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Kreisring">
+  <style>
+    .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #B61E33; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #F08A99; }
+      .marke  { fill: #F08A99; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #F08A99; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="fuell" fill-rule="evenodd" d="M52 35 a28 28 0 1 0 56 0 a28 28 0 1 0 -56 0 Z M67 35 a13 13 0 1 0 26 0 a13 13 0 1 0 -26 0 Z"/>
+  <circle class="akzent" cx="80" cy="35" r="28"/>
+  <circle class="grau" cx="80" cy="35" r="13"/>
+</svg>

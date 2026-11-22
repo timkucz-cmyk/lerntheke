@@ -107,6 +107,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Atombau, Isotope und Nuklidschreibweise, Kernkraft, Strahlungsarten, Zerfallsgleichungen, Abschirmung, Geiger-Müller-Zählrohr, Nullrate, Nuklidkarte, Zerfallsreihen, Halbwertszeit"
+        },
+        {
+          "id": "kreis",
+          "name": "Kreis – Lerntheke",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Kreisbegriffe, Kreiszahl π, Umfang und Flächeninhalt, Kreisausschnitt und Kreisbogen, Kreisring, zusammengesetzte Figuren"
         }
       ]
     },
