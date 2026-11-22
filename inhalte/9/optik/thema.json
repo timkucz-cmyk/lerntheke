@@ -1,0 +1,1305 @@
+{
+  "version": 1,
+  "titel": "Optik – Lerntheke vor dem Test",
+  "fach": "physik",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du bei Licht, Schatten, Winkel, Spiegeln oder Maßstab unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4, V2 nach N5, V3 nach N6 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Lege Geodreieck und Taschenrechner bereit; dein Regelheft darfst du benutzen. Zeichnungen machst du direkt in den Vorlagen im Arbeitsblatt auf dem iPad. Längen bestimmst du dort durch Kästchenzählen, Winkel mit der vorgedruckten Winkelskala.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Lichtquellen und beleuchtete Körper unterscheiden, den Sehvorgang beschreiben und Licht mit dem Modell Lichtstrahl beschreiben"
+    },
+    {
+      "id": "g2",
+      "text": "Kern- und Halbschatten zeichnen, Absorption, Transmission und Reflexion an Körpern unterscheiden und Finsternisse erklären"
+    },
+    {
+      "id": "g3",
+      "text": "Winkel mit dem Geodreieck messen und zeichnen und ein Lot zu einer Linie zeichnen"
+    },
+    {
+      "id": "g4",
+      "text": "Punkte und Figuren an einer Geraden spiegeln (Achsenspiegelung)"
+    },
+    {
+      "id": "g5",
+      "text": "Maßstäblich zeichnen und Längen mit dem Maßstab umrechnen"
+    },
+    {
+      "id": "g6",
+      "text": "Werte aus einer Tabelle oder einem Diagramm ablesen und Zwischenwerte abschätzen"
+    },
+    {
+      "id": "c1",
+      "text": "Das Reflexionsgesetz anwenden und Spiegelbilder zeichnen und beschreiben"
+    },
+    {
+      "id": "c2",
+      "text": "Die Lichtbrechung an Grenzflächen beschreiben und mit Messwerten zeichnen (optisch dichter und dünner)"
+    },
+    {
+      "id": "c3",
+      "text": "Beschreiben, wann Totalreflexion auftritt, und ihre Folgen und Anwendungen erklären"
+    },
+    {
+      "id": "c4",
+      "text": "Die Wirkung von Sammel- und Zerstreuungslinsen auf paralleles Licht benennen und mit der Brechung begründen"
+    },
+    {
+      "id": "c5",
+      "text": "Brennpunkte und Brennweite zeichnerisch bestimmen und den Einfluss der Brennweite beschreiben"
+    },
+    {
+      "id": "c6",
+      "text": "Bilder an Sammellinsen mit Parallel-, Brennpunkt- und Mittelpunktstrahl konstruieren und Bildweite und Bildgröße bestimmen"
+    },
+    {
+      "id": "c7",
+      "text": "Bildart, Lage und Größe des Bildes je nach Gegenstandsweite angeben und die Lupe erklären"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Licht und Schatten aus Klasse 7, Werkzeug aus Mathematik",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Reflexion und Brechung",
+      "untertitel": "Reflexionsgesetz, Lichtbrechung, Totalreflexion",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Linsen und Brennpunkte",
+      "untertitel": "Sammel- und Zerstreuungslinsen, Brennweite",
+      "farbe": "orange",
+      "checkliste": [
+        "c4",
+        "c5"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Bildentstehung",
+      "untertitel": "Bilder konstruieren, vier Fälle, Lupe",
+      "farbe": "gruen",
+      "checkliste": [
+        "c6",
+        "c7"
+      ]
+    }
+  ],
+  "abschluss": "Test",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 25 Minuten. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- Lichtquellen (leuchten selbst): Sonne, Kerzenflamme, leuchtendes Handydisplay\n- beleuchtete Körper (werfen fremdes Licht zurück): Mond, Fahrradreflektor, Zimmerwand"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Scheinwerfer (Sender) sendet Licht aus. Es trifft auf das Schild, das einen Teil davon in alle Richtungen zurückwirft (streut). Ein Teil davon gelangt in dein Auge (Empfänger). Aus dem Auge kommt dabei kein Licht.\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- Fensterglas: Transmission (durchsichtig)\n- Milchglas: Transmission, aber gestreut (durchscheinend)\n- Holzbrett: Absorption und etwas Reflexion (undurchsichtig)\n- Alufolie: Reflexion (undurchsichtig, glänzend)"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei einer Mondfinsternis steht die Erde zwischen Sonne und Mond, der Mond wandert durch den Kernschatten der Erde. In dieser Stellung (Sonne – Erde – Mond in einer Linie) sehen wir von der Erde aus die ganze beleuchtete Mondhälfte: Das ist Vollmond.\n\nÜben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Das Lot steht in P senkrecht auf der Linie (Markierung 90° der Skala).",
+          "loesung_bild": "img/G1-3a.png"
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Winkel zwischen Strahl und Linie: $35°$ (Skala).\n\nWinkel zwischen Strahl und Lot: $90° - 35° = 55°$.\n\nÜben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Jeden Eckpunkt senkrecht zu $s$ auf die andere Seite übertragen, gleich weit entfernt: $A'$ liegt 5 Kästchen rechts von $s$, $B'$ 2 Kästchen, $C'$ 3 Kästchen.",
+          "loesung_bild": "img/G1-4a.png"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "- Punkt und Bildpunkt sind gleich weit von $s$ entfernt.\n- Die Verbindungslinie von Punkt und Bildpunkt steht senkrecht auf $s$.\n- Längen und Winkel bleiben gleich, der Umlaufsinn kehrt sich um.\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$7{,}5 \\cdot 2\\,\\mathrm{cm} = 15\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$1{,}6\\,\\mathrm{m} = 160\\,\\mathrm{cm}$, im Plan $160\\,\\mathrm{cm} : 20 = 8\\,\\mathrm{cm}$.\n\nÜben: **G2** Aufgabe 5."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$1{,}1\\,\\mathrm{m}$"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zwischen $2{,}0\\,\\mathrm{m}$ (9:00 Uhr) und $1{,}4\\,\\mathrm{m}$ (10:00 Uhr), also etwa $1{,}7\\,\\mathrm{m}$ (Werte zwischen $1{,}6\\,\\mathrm{m}$ und $1{,}8\\,\\mathrm{m}$ sind gut).\n\nÜben: **G2** Aufgabe 6."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Licht, Schatten, Winkel",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 15 Minuten. Aufgabe k übt den Block k aus G1 – bearbeite die Aufgaben zu deinen Lücken.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen_Licht_Schatten.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Lampe (Sender) strahlt Licht auf die Leinwand. Der dünne Stoff lässt einen Teil des Lichts hindurch und streut es dabei in alle Richtungen. Ein Teil davon fällt in die Augen der Zuschauenden (Empfänger)."
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der dünne Stoff ist durchscheinend: Er lässt Licht hindurch (Transmission). Pappe ist undurchsichtig und würde das Licht absorbieren – das Publikum sähe nichts."
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Hinter der Figur gibt es jetzt Bereiche, in die das Licht keiner Lampe fällt (Kernschatten, dunkel), und Bereiche, in die nur das Licht einer der beiden Lampen fällt (Halbschatten, grau). Die grauen Ränder sind Halbschatten."
+        },
+        {
+          "id": "G2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Lot und Leinwand stehen senkrecht aufeinander: $90° - 20° = 70°$ und $90° - 64° = 26°$."
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Jeden Eckpunkt waagerecht über $s$ hinweg übertragen, gleich weit von $s$ entfernt, und die Bildpunkte in derselben Reihenfolge verbinden.",
+          "loesung_bild": "img/G2-4.png"
+        },
+        {
+          "id": "G2-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zwei gerade Linien von der Lampe durch den oberen und den unteren Rand der Figur bis zur Leinwand (Licht breitet sich geradlinig aus).",
+          "loesung_bild": "img/G2-5a.png"
+        },
+        {
+          "id": "G2-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Schatten ist in der Zeichnung 12 Kästchen hoch: $12 \\cdot 10\\,\\mathrm{cm} = 120\\,\\mathrm{cm} = 1{,}2\\,\\mathrm{m}$.\n\nKontrolle: Die Leinwand ist viermal so weit von der Lampe entfernt wie die Figur, der Schatten ist viermal so hoch: $4 \\cdot 30\\,\\mathrm{cm} = 120\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "G2-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zwischen $0{,}60\\,\\mathrm{m}$ (bei $1{,}00\\,\\mathrm{m}$) und $0{,}40\\,\\mathrm{m}$ (bei $1{,}50\\,\\mathrm{m}$), also etwa $0{,}5\\,\\mathrm{m}$ (genau: $0{,}48\\,\\mathrm{m}$). Je näher die Figur an der Lampe ist, desto größer ist ihr Schatten."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Wo stehe ich?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c5",
+        "c6",
+        "c7",
+        "g1",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Der Mond ist ein beleuchteter Körper: Er wirft Licht der Sonne zurück, ein Teil davon gelangt in dein Auge (Sender Sonne, Empfänger Auge).\n\n*A gewählt?* Der Mond ist keine Lichtquelle. *B gewählt?* Das Auge sendet kein Licht aus, es empfängt nur. *D gewählt?* Straßenlampen sind viel zu schwach und zu nah. → **G2** Aufgabe 1"
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Am dunkelsten ist der Kernschatten: Dorthin gelangt Licht von keiner der beiden Lampen. Wo nur eine Lampe verdeckt ist, liegt der hellere Halbschatten.\n\n*A oder C gewählt?* Das ist Halbschatten. *B gewählt?* Dort ist es am hellsten. → **G2** Aufgabe 2"
+        },
+        {
+          "id": "N1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Winkel werden zum Lot gemessen: Einfallswinkel $90° - 25° = 65°$, also Reflexionswinkel $65°$.\n\n*B gewählt?* Der Winkel zur Spiegelfläche ist nicht der Einfallswinkel. *C oder D gewählt?* Winkel addiert oder verdoppelt. → **N2**"
+        },
+        {
+          "id": "N1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Die optische Dichte hängt von der Lichtgeschwindigkeit ab, nicht von der Massendichte. Im Öl ist Licht langsamer, Öl ist also optisch dichter: Das Licht wird zum Lot hin gebrochen.\n\n*A oder D gewählt?* Massendichte und optische Dichte verwechselt. *C gewählt?* Brechung tritt an jeder Grenzfläche zwischen verschiedenen optischen Dichten auf. → **N3**"
+        },
+        {
+          "id": "N1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Totalreflexion gibt es nur beim Übergang ins optisch dünnere Medium. Von Luft in Wasser geht das Licht ins optisch dichtere Medium: Es wird zum Lot hin gebrochen (laut Tabelle auf $41°$), ein kleiner Teil wird reflektiert.\n\n*A oder D gewählt?* Die Richtung ist entscheidend: Totalreflexion nur von dicht nach dünn. *B gewählt?* Schräg einfallendes Licht wird gebrochen. → **N4**"
+        },
+        {
+          "id": "N1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Sonnenlicht fällt praktisch parallel ein und wird im Brennpunkt gebündelt: $f = 12\\,\\mathrm{cm}$. Das Bild der nahen Lampe entsteht weiter hinten, weil ihr Licht nicht parallel einfällt.\n\n*B gewählt?* Die Bildweite eines nahen Gegenstands ist nicht die Brennweite. *C oder D gewählt?* Summe oder Mittelwert haben keine Bedeutung. → **N5**"
+        },
+        {
+          "id": "N1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Der Brennpunktstrahl geht durch den vorderen Brennpunkt $F_2$ und verläuft nach der Linse parallel zur optischen Achse.\n\n*B gewählt?* Das gilt für den Parallelstrahl. *A gewählt?* Das gilt für den Mittelpunktstrahl. *C gewählt?* An der Linse wird Licht gebrochen, nicht zurückgeworfen. → **N6**"
+        },
+        {
+          "id": "N1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Von jedem Punkt des Gegenstands geht Licht durch alle Teile der Linse und trifft sich im selben Bildpunkt. Durch die freie Hälfte kommt von jedem Punkt noch Licht an: Das Bild bleibt vollständig, aber es kommt nur halb so viel Licht an.\n\n*A oder D gewählt?* Jede Linsenhälfte erzeugt das ganze Bild. *C gewählt?* Die freie Hälfte bündelt weiterhin. → **N8** Aufgabe 3"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Reflexion und Spiegelbild",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c1",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. Winkel werden immer zum Lot gemessen.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Reflexion_Spiegelbild.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Der Einfallswinkel $\\alpha$ ist so groß wie der Reflexionswinkel $\\alpha'$. Beide Winkel werden zum Lot gemessen.\n\nEinfallender Strahl, Lot und reflektierter Strahl liegen in einer Ebene."
+        },
+        {
+          "id": "N2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Einfallswinkel zum Lot: $\\alpha = 90° - 30° = 60°$. Reflexionswinkel $\\alpha' = 60°$ auf der anderen Seite des Lots (Toleranz $\\pm 2°$).",
+          "loesung_bild": "img/N2-2.png"
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Von beiden Enden aus das Lot zum Spiegel zeichnen und hinter dem Spiegel gleich weit abtragen: Das Ende 5 Kästchen vor dem Spiegel hat sein Bild 5 Kästchen dahinter, die Spitze 3 Kästchen vor dem Spiegel ihr Bild 3 Kästchen dahinter.",
+          "loesung_bild": "img/N2-3a.png"
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Hinter den Spiegel gelangt kein Licht. Das Spiegelbild entsteht nur scheinbar: Das Auge verlängert die reflektierten Strahlen geradlinig nach hinten. Ein solches Bild heißt virtuell. Es ist gleich groß, aufrecht und genauso weit hinter dem Spiegel wie der Gegenstand davor."
+        },
+        {
+          "id": "N2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Licht von dir gelangt über den Spiegel in mein Auge; am Spiegel gilt Einfallswinkel = Reflexionswinkel.\n\nDer Lichtweg ist umkehrbar: Licht, das von mir ausgeht, läuft denselben Weg rückwärts – mit denselben Winkeln am Spiegel – und gelangt in dein Auge."
+        },
+        {
+          "id": "N2-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "An Spiegel 1 ist der Reflexionswinkel ebenfalls $40°$. Der Strahl bildet dann mit Spiegel 1 einen Winkel von $90° - 40° = 50°$. Weil die Spiegel senkrecht aufeinander stehen, trifft er Spiegel 2 unter $40°$ zur Spiegelfläche, also unter $50°$ zum Lot von Spiegel 2.\n\nSpiegel 1 kehrt die senkrechte Bewegungsrichtung um (von unten nach oben), Spiegel 2 die waagerechte (von links nach rechts). Beide Richtungsanteile sind umgekehrt: Der Strahl läuft genau entgegengesetzt, also parallel zum einfallenden Strahl zurück. Das gilt für jeden Einfallswinkel (Prinzip des Fahrradreflektors)."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Lichtbrechung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c2",
+        "g3",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. Die Messwerttabelle ersetzt eine Formel. Winkel werden zum Lot gemessen.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Lichtbrechung.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "1 Grenzfläche · 2 Lot · 3 Einfallswinkel $\\alpha$ · 4 Brechungswinkel $\\beta$"
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Tabelle, Zeile Luft → Glas: $\\alpha = 40°$ ergibt $\\beta = 25°$.\n\nDer gebrochene Strahl verläuft im Glas unter $25°$ zum Lot, auf der anderen Seite des Lots. Er ist zum Lot hin gebrochen, weil Glas optisch dichter ist als Luft.",
+          "loesung_bild": "img/N3-2a.png"
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Lichtweg ist umkehrbar: Der Strahl läuft denselben Weg rückwärts. Laut Tabelle gehört zu $25°$ im Glas der Winkel $40°$ in der Luft, also $\\beta = 40°$ (genauer etwa $39°$).\n\nDas Licht wird vom Lot weg gebrochen, weil es ins optisch dünnere Medium übergeht."
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Je langsamer das Licht, desto optisch dichter der Stoff: Luft (am dünnsten) – Wasser – Speiseöl (am dichtesten).\n\nOb ein Stoff schwimmt, hängt von der Massendichte ab: Öl ($0{,}92\\,\\mathrm{g/cm^3}$) ist leichter als Wasser. Die optische Dichte beschreibt etwas anderes, nämlich wie schnell sich Licht im Stoff ausbreitet. Beide Dichten haben nichts miteinander zu tun."
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Eintritt (Luft → Glas): $50°$ ergibt $\\beta = 31°$.\n\nWeil die Oberflächen parallel sind, trifft der Strahl im Glas unter $31°$ zum Lot auf die zweite Oberfläche. Beim Austritt (Glas → Luft) läuft der Lichtweg umgekehrt: Aus $31°$ wird wieder $50°$.\n\nDie Aussage stimmt nicht: Das Licht verlässt die Scheibe in derselben Richtung, es ist nur ein Stück parallel verschoben. Deshalb sieht man durch ein Fenster nichts verzerrt.",
+          "loesung_bild": "img/N3-4.png"
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Totalreflexion",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c3",
+        "c2",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. Totalreflexion gibt es nur beim Übergang ins optisch dünnere Medium.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Totalreflexion.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- Das Licht geht von einem optisch dichteren in ein optisch dünneres Medium über (z. B. von Glas oder Wasser in Luft).\n- Der Einfallswinkel ist größer als der Grenzwinkel.\n\nDann wird das gesamte Licht an der Grenzfläche reflektiert, nichts tritt aus."
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bei $41°$ tritt das Licht noch unter $80°$ aus, bei $42°$ gibt es Totalreflexion. Der Grenzwinkel liegt zwischen $41°$ und $42°$, also bei etwa $42°$."
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$30°$: Das Licht tritt in die Luft aus und wird vom Lot weg gebrochen, $\\beta = 49°$ (ein schwacher Teil wird reflektiert).\n\n$50°$: $50°$ ist größer als der Grenzwinkel – Totalreflexion. Das Licht wird unter $50°$ zum Lot zurück ins Glas reflektiert.",
+          "loesung_bild": "img/N4-2b.png"
+        },
+        {
+          "id": "N4-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Licht trifft immer wieder sehr schräg auf die Wand der Faser. Der Einfallswinkel ist dort größer als der Grenzwinkel, und das Licht will von Glas (optisch dichter) in den Außenbereich (optisch dünner) übergehen: Es wird jedes Mal totalreflektiert und läuft im Zickzack in der Faser weiter, auch um Biegungen herum.",
+          "loesung_bild": "img/N4-3.png"
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beim senkrechten Eintritt wird das Licht nicht gebrochen. An der langen Seite (Hypotenuse) trifft es unter $45°$ zum Lot auf. $45°$ ist größer als der Grenzwinkel von Glas ($42°$): Totalreflexion. Das Licht wird um $90°$ umgelenkt und tritt senkrecht durch die zweite Kathetenfläche ohne Knick aus.",
+          "loesung_bild": "img/N4-4.png"
+        },
+        {
+          "id": "N4-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Das Licht trifft wieder unter $45°$ auf die lange Seite, jetzt von Wasser nach Luft.\n\nLaut Tabelle tritt es bei $45°$ noch aus (unter $70°$ zum Lot); Totalreflexion gibt es bei Wasser erst ab etwa $49°$. $45°$ ist kleiner als der Grenzwinkel.\n\nDas Wasserprisma lenkt das Licht nicht vollständig um: Der größte Teil tritt an der langen Seite in die Luft aus, nur ein kleiner Teil wird reflektiert."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Sammel- und Zerstreuungslinsen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Sammel_Zerstreuungslinsen.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Sammellinsen (in der Mitte dicker als am Rand): B, E, F\n\nZerstreuungslinsen (in der Mitte dünner als am Rand): A, C, D"
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Sammellinse: Die gebrochenen Strahlen schneiden sich hinter der Linse auf der optischen Achse – das ist der Brennpunkt.\n\nZerstreuungslinse: Die gebrochenen Strahlen laufen auseinander. Verlängert man sie rückwärts (gestrichelt), schneiden sie sich vor der Linse: virtueller Brennpunkt.",
+          "loesung_bild": "img/N5-2a.png"
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Sammellinse: 4 Kästchen, $f = 4\\,\\mathrm{cm}$. Zerstreuungslinse: 3 Kästchen, $f = 3\\,\\mathrm{cm}$ (Abstand des Brennpunkts von der Linsenebene)."
+        },
+        {
+          "id": "N5-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ein Strahl wird zweimal gebrochen: beim Eintritt (Luft → Glas) zum Lot hin, beim Austritt (Glas → Luft) vom Lot weg.\n\nAm Rand stehen die beiden Flächen schräg zueinander wie bei einem Prisma: Beide Brechungen knicken den Strahl zur Achse hin, am Rand am stärksten. In der Mitte sind die Flächen fast parallel, der Strahl geht dort fast ohne Knick hindurch. So treffen sich alle parallelen Strahlen in einem Punkt."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Brennweite ist für parallel einfallendes Licht festgelegt. Die Sonne ist so weit entfernt, dass ihr Licht praktisch parallel ankommt: Der kleinste Fleck liegt im Brennpunkt.\n\nDas Licht einer nahen Lampe läuft auseinander. Sein Bild entsteht weiter hinter der Linse – man würde eine zu große Brennweite messen."
+        },
+        {
+          "id": "N5-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Mond ist sehr weit entfernt, sein Licht kommt fast parallel an. Das Bild entsteht deshalb ungefähr im Brennpunkt: etwa $5\\,\\mathrm{cm}$ bzw. etwa $20\\,\\mathrm{cm}$ hinter der Linse."
+        },
+        {
+          "id": "N5-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Mittelpunktstrahlen vom oberen und vom unteren Mondrand gehen ungebrochen durch die Linsenmitte. Die beiden Strahlen laufen unter demselben kleinen Winkel auseinander – je weiter hinten das Blatt steht, desto weiter liegen sie dort auseinander.\n\nDie Linse mit $f = 20\\,\\mathrm{cm}$ liefert ein etwa viermal so großes Mondbild. Größere Brennweite bedeutet größeres Bild entfernter Gegenstände (wie beim Teleobjektiv)."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Bilder an der Sammellinse konstruieren",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c6",
+        "c5",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. In den Vorlagen entspricht 1 Kästchen 2 cm in Wirklichkeit.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Bilder_konstruieren.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1",
+          "label": "1",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "- Parallelstrahl: verläuft parallel zur optischen Achse und geht nach der Linse durch den Brennpunkt $F_1$ hinter der Linse.\n- Brennpunktstrahl: geht durch den Brennpunkt $F_2$ vor der Linse und verläuft nach der Linse parallel zur optischen Achse.\n- Mittelpunktstrahl: geht durch die Linsenmitte und verläuft geradlinig weiter."
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Alle drei Strahlen von der Kerzenspitze schneiden sich hinter der Linse im Bildpunkt. Das Bild ist die Senkrechte von der optischen Achse bis zum Bildpunkt (zeigt nach unten).",
+          "loesung_bild": "img/N6-2a.png"
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In der Zeichnung: $b = 7{,}5$ Kästchen, $B = 2{,}5$ Kästchen.\n\nIn Wirklichkeit: $b = 7{,}5 \\cdot 2\\,\\mathrm{cm} = 15\\,\\mathrm{cm}$, $B = 2{,}5 \\cdot 2\\,\\mathrm{cm} = 5\\,\\mathrm{cm}$ (Toleranz $\\pm 1\\,\\mathrm{cm}$).\n\nDas Bild ist reell, umgekehrt und kleiner als die Kerze."
+        },
+        {
+          "id": "N6-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Bildpunkt ist der Schnittpunkt der Strahlen; zwei Geraden legen einen Schnittpunkt schon fest. Der dritte Strahl dient zur Kontrolle. Der Fußpunkt des Bildes liegt auf der optischen Achse, weil der Fuß der Kerze auf der Achse steht."
+        },
+        {
+          "id": "N6-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Parallelstrahl geht nach der Linse durch $F_1$, der Mittelpunktstrahl geradlinig durch die Linsenmitte. Beide Strahlen verlaufen nach der Linse parallel zueinander und schneiden sich nicht.\n\nEs entsteht kein Bild: Steht der Gegenstand im Brennpunkt, verlässt das Licht die Linse als paralleles Bündel.",
+          "loesung_bild": "img/N6-3.png"
+        },
+        {
+          "id": "N6-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage stimmt nicht. Von der Kerzenspitze gehen unzählige Strahlen aus. Alle, die durch die Linse gehen, treffen sich im selben Bildpunkt. Die drei Konstruktionsstrahlen sind nur die drei, deren Verlauf man ohne Messung kennt – deshalb nutzt man sie zum Zeichnen."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Vier Fälle und die Lupe",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c7",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. In der Lupen-Vorlage entspricht 1 Kästchen 0,5 cm.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Vier_Faelle_Lupe.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- $g > 2 \\cdot f$: Bild bei $f < b < 2 \\cdot f$ hinter der Linse, reell, umgekehrt, kleiner als der Gegenstand\n- $g = 2 \\cdot f$: Bild bei $b = 2 \\cdot f$, reell, umgekehrt, gleich groß\n- $f < g < 2 \\cdot f$: Bild bei $b > 2 \\cdot f$, reell, umgekehrt, größer als der Gegenstand\n- $g < f$: Bild auf der Gegenstandsseite, virtuell, aufrecht, größer als der Gegenstand\n\nUmgekehrt heißt höhen- und seitenverkehrt, aufrecht heißt höhen- und seitenrichtig."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "- Fotoapparat: $g > 2 \\cdot f$ (großes Motiv, kleines reelles Bild auf dem Sensor)\n- Makrofoto in Originalgröße: $g = 2 \\cdot f$ (Bild gleich groß)\n- Kinoprojektor: $f < g < 2 \\cdot f$ (kleines Filmbild, großes reelles Bild auf der Leinwand)\n- Uhrmacherlupe: $g < f$ (vergrößertes virtuelles Bild)"
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Für $f < g < 2 \\cdot f$ ist das Bild umgekehrt, also höhen- und seitenverkehrt. Damit das Bild auf der Leinwand richtig herum erscheint, muss das Filmbild gedreht (auf dem Kopf stehend) eingelegt werden."
+        },
+        {
+          "id": "N7-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nach der Linse laufen die Strahlen auseinander und schneiden sich nicht. Die rückwärtigen Verlängerungen (gestrichelt) schneiden sich vor der Linse.\n\nBild: 12 Kästchen vor der Linse, also $6\\,\\mathrm{cm}$; 6 Kästchen hoch, also $B = 3\\,\\mathrm{cm}$. Das Bild ist virtuell, aufrecht und dreimal so groß wie das Zahnrad.",
+          "loesung_bild": "img/N7-3a.png"
+        },
+        {
+          "id": "N7-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Strahlen schneiden sich nicht wirklich, nur ihre rückwärtigen Verlängerungen. Am Ort des Bildes kommt kein Licht an. Erst das Auge sieht das virtuelle Bild, weil es die Strahlen geradlinig zurückverfolgt."
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage stimmt nur teilweise. Solange der Gegenstand außerhalb der Brennweite steht ($g > f$), wird das reelle Bild beim Heranrücken größer und rückt weiter von der Linse weg.\n\nBei $g = f$ entsteht kein Bild mehr, und für $g < f$ gibt es nur noch ein virtuelles Bild, das man nicht auf dem Schirm sieht. Die Aussage gilt also nur bis zum Brennpunkt."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Simulation: Bildentstehung",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "iPad, Geodreieck",
+      "checkliste": [
+        "c7",
+        "c6",
+        "c5",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Partnerarbeit mit der PhET-Simulation „Geometrische Optik“ (https://phet.colorado.edu/de/simulations/geometric-optics), Bildschirm „Linse“, 20 Minuten. Rechts oben liegen Lineale. Notiere deine Vermutung in Aufgabe 3, bevor du ausprobierst.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Simulation_Bildentstehung.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Brennweite: $f = 80\\,\\mathrm{cm}$ (Abstand der Brennpunkte von der Linsenmitte).\n\nZum Beispiel (Messwerte können etwas abweichen):\n\n| Gegenstandsweite | Bildweite | Bild |\n|---|---|---|\n| $200\\,\\mathrm{cm}$ | etwa $133\\,\\mathrm{cm}$ | kleiner |\n| $160\\,\\mathrm{cm}$ | etwa $160\\,\\mathrm{cm}$ | gleich groß |\n| $120\\,\\mathrm{cm}$ | etwa $240\\,\\mathrm{cm}$ | größer |\n\nDas passt zu den Fällen $g > 2 \\cdot f$, $g = 2 \\cdot f$ und $f < g < 2 \\cdot f$."
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Strahl, der parallel zur Achse einfällt, geht hinter der Linse durch den Brennpunkt. Der Strahl durch den vorderen Brennpunkt verläuft danach parallel. Der Strahl durch die Linsenmitte geht geradeaus. Die Regeln stimmen."
+        },
+        {
+          "id": "N8-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Hinter der Linse laufen die Strahlen auseinander, es gibt kein reelles Bild. Die gestrichelten Rückverlängerungen treffen sich auf der Seite des Stifts: Dort erscheint ein virtuelles Bild, aufrecht und größer als der Stift (etwa $133\\,\\mathrm{cm}$ vor der Linse).\n\nGenau so wirkt eine Lupe: Gegenstand innerhalb der Brennweite, vergrößertes, aufrechtes, virtuelles Bild."
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Randstrahlen gehen durch den oberen und den unteren Rand der Linse und treffen sich trotzdem im selben Bildpunkt. Beim kleineren Durchmesser bleibt das Bild vollständig, gleich groß und am selben Ort; es wird nur blasser.\n\nVon jedem Punkt des Gegenstands geht Licht durch alle Teile der Linse zum selben Bildpunkt. Fehlt ein Teil der Linse, kommt von jedem Punkt weniger Licht an – das Bild wird dunkler, aber nicht unvollständig. Genauso wirkt eine halb abgedeckte Linse."
+        },
+        {
+          "id": "N8-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bei stärkerer Wölbung rücken die Brennpunkte näher an die Linse: Die Brennweite wird kleiner. Das reelle Bild entsteht näher an der Linse und ist kleiner."
+        },
+        {
+          "id": "N8-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Zerstreuungslinse liefert für jede Gegenstandsweite nur ein virtuelles, aufrechtes und verkleinertes Bild auf der Seite des Gegenstands."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Tandem: Strahlengänge erklären",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "Geodreieck",
+      "checkliste": [
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets. Wer die Nummer hat, erklärt laut; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. Messwerte: Luft → Glas $40°$ wird $25°$; Wasser → Luft: Grenzwinkel etwa $49°$.",
+      "bild": "img/st_N9.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N9-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Lichtstrahl trifft unter $15°$ zur Spiegelfläche auf einen Spiegel. Gib den Reflexionswinkel an.",
+          "tipp": "Winkel werden zum Lot gemessen.",
+          "loesung": "Einfallswinkel $90° - 15° = 75°$, also Reflexionswinkel $75°$."
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Du stehst $2\\,\\mathrm{m}$ vor einem Spiegel und gehst $50\\,\\mathrm{cm}$ auf ihn zu. Wie weit ist dein Spiegelbild jetzt von dir entfernt?",
+          "tipp": "Das Spiegelbild ist so weit hinter dem Spiegel wie du davor.",
+          "loesung": "Du bist $1{,}5\\,\\mathrm{m}$ vor dem Spiegel, dein Bild $1{,}5\\,\\mathrm{m}$ dahinter: Abstand $3\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Licht kommt aus dem Glas unter $25°$ an die Grenzfläche zur Luft. Unter welchem Winkel verlässt es das Glas, und wird es zum Lot hin oder vom Lot weg gebrochen?",
+          "tipp": "Lichtweg umkehren: Luft → Glas $40°$ wird $25°$.",
+          "loesung": "Unter etwa $40°$ zum Lot, vom Lot weg gebrochen (Übergang ins optisch dünnere Medium)."
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Taucher leuchtet mit einer Lampe unter $55°$ zum Lot an die Wasseroberfläche. Kommt das Licht aus dem Wasser heraus? Begründe.",
+          "tipp": "Vergleiche mit dem Grenzwinkel von Wasser.",
+          "loesung": "Nein: $55°$ ist größer als der Grenzwinkel von etwa $49°$, und das Licht geht von Wasser (optisch dichter) nach Luft. Es wird totalreflektiert."
+        },
+        {
+          "id": "N9-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Eine Linse ist in der Mitte dünner als am Rand. Nenne ihren Namen und ihre Wirkung auf paralleles Licht.",
+          "tipp": "Mitte dicker → sammelt, Mitte dünner → …",
+          "loesung": "Zerstreuungslinse (Konkavlinse): Paralleles Licht läuft nach der Linse auseinander, als käme es aus einem virtuellen Brennpunkt vor der Linse."
+        },
+        {
+          "id": "N9-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Eine Linse bündelt Sonnenlicht $25\\,\\mathrm{cm}$ hinter sich zu einem kleinen Fleck. Gib die Brennweite an.",
+          "tipp": "Sonnenlicht fällt parallel ein.",
+          "loesung": "$f = 25\\,\\mathrm{cm}$: Parallel einfallendes Licht trifft sich im Brennpunkt."
+        },
+        {
+          "id": "N9-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Gegenstand steht $30\\,\\mathrm{cm}$ vor einer Sammellinse mit $f = 10\\,\\mathrm{cm}$. Beschreibe das Bild (Art, Orientierung, Größe) und wo es ungefähr liegt.",
+          "tipp": "Vergleiche $g$ mit $2 \\cdot f$.",
+          "loesung": "$g = 30\\,\\mathrm{cm} > 2 \\cdot f = 20\\,\\mathrm{cm}$: reelles, umgekehrtes, verkleinertes Bild zwischen $f$ und $2 \\cdot f$ hinter der Linse, also zwischen $10\\,\\mathrm{cm}$ und $20\\,\\mathrm{cm}$ (genau $15\\,\\mathrm{cm}$)."
+        },
+        {
+          "id": "N9-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Eine Briefmarke liegt $4\\,\\mathrm{cm}$ unter einer Lupe mit $f = 6\\,\\mathrm{cm}$. Beschreibe das Bild, das du durch die Lupe siehst.",
+          "tipp": "Gegenstand innerhalb der Brennweite?",
+          "loesung": "$g = 4\\,\\mathrm{cm} < f$: virtuelles, aufrechtes, vergrößertes Bild auf der Seite der Briefmarke; man sieht es nur durch die Lupe, nicht auf einem Schirm."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c6",
+        "c1",
+        "c2",
+        "c3",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. Jede Lösung enthält genau einen Fehler. Benenne ihn und stelle ihn richtig.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Winkel zur Spiegelfläche ist nicht der Einfallswinkel; Winkel werden zum Lot gemessen.\n\nRichtig: $\\alpha = 90° - 30° = 60°$, also $\\alpha' = 60°$."
+        },
+        {
+          "id": "N10-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die falsche Tabellenzeile: Das Licht geht von Wasser (optisch dichter) in Luft (optisch dünner) und wird vom Lot weg gebrochen.\n\nRichtig (Zeile Wasser → Luft): $30°$ wird $42°$."
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Richtung ist falsch. Von Luft in Glas (ins optisch dichtere Medium) wird Licht bei jedem Einfallswinkel gebrochen, Totalreflexion gibt es dort nie.\n\nRichtig: Totalreflexion tritt beim Übergang von Glas in Luft auf, wenn der Einfallswinkel größer als der Grenzwinkel von etwa $42°$ ist."
+        },
+        {
+          "id": "N10-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Brennpunktstrahl wurde nach der Linse durch den Brennpunkt $F_1$ gezeichnet. Nach der Linse muss er parallel zur optischen Achse verlaufen."
+        },
+        {
+          "id": "N10-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nach der Linse parallel zur Achse; der Parallelstrahl geht durch $F_1$. Beide schneiden sich im Bildpunkt: Das Bild liegt $5{,}25\\,\\mathrm{cm}$ hinter der Linse und ist $1{,}5\\,\\mathrm{cm}$ groß, umgekehrt (Zeichengenauigkeit etwa $\\pm 0{,}3\\,\\mathrm{cm}$).",
+          "loesung_bild": "img/N10-4b.png"
+        },
+        {
+          "id": "N10-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Begründung reicht nicht: Ob eine Sammellinse ein reelles Bild erzeugt, hängt von der Gegenstandsweite ab.\n\nBei der Lupe liegt der Gegenstand innerhalb der Brennweite ($g < f$). Dann laufen die Strahlen hinter der Linse auseinander, es entsteht kein reelles Bild. Man sieht ein virtuelles, aufrechtes, vergrößertes Bild auf der Seite des Gegenstands."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Check-out: Was kann ich jetzt?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c7",
+        "c6",
+        "c5",
+        "c3",
+        "c2",
+        "c1",
+        "g1",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung. Vergleiche danach mit deinem Ergebnis aus N1.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Das Buch ist ein beleuchteter Körper: Es streut Licht der Zimmerlampe in alle Richtungen, ein Teil gelangt in dein Auge.\n\n*B gewählt?* Das Auge ist Empfänger, nicht Sender. *C gewählt?* Das Buch ist keine Lichtquelle. *D gewählt?* Ein Körper, der alles Licht verschluckt, erscheint schwarz. → **G2** Aufgabe 1"
+        },
+        {
+          "id": "N11-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Wo sich beide Schatten überdecken, kommt Licht von keinem Mast an: Kernschatten. In den übrigen Schattenbereichen fehlt nur das Licht eines Masts (Halbschatten).\n\n*A oder D gewählt?* Das ist Halbschatten. *B gewählt?* Dort ist es am hellsten. → **G2** Aufgabe 2"
+        },
+        {
+          "id": "N11-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Winkel werden zum Lot gemessen: Einfallswinkel $90° - 70° = 20°$, also Reflexionswinkel $20°$.\n\n*A gewählt?* Der Winkel zur Spiegelfläche ist nicht der Einfallswinkel. *C oder D gewählt?* Winkel verdoppelt oder zu $180°$ ergänzt. → **N2**"
+        },
+        {
+          "id": "N11-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Im Wasser ist Licht schneller als im Babyöl: Wasser ist hier das optisch dünnere Medium. Das Licht wird vom Lot weg gebrochen. Die Massendichte spielt keine Rolle.\n\n*A oder C gewählt?* Massendichte und optische Dichte verwechselt. *B gewählt?* Brechung tritt an jeder Grenzfläche zwischen verschiedenen optischen Dichten auf. → **N3**"
+        },
+        {
+          "id": "N11-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Von Luft in Glas geht das Licht ins optisch dichtere Medium. Dort gibt es keine Totalreflexion: Das Licht wird zum Lot hin gebrochen (laut Tabelle auf $41°$), ein Teil wird reflektiert.\n\n*A oder D gewählt?* Totalreflexion nur von optisch dicht nach dünn. *C gewählt?* Schräg einfallendes Licht wird gebrochen. → **N4**"
+        },
+        {
+          "id": "N11-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Sonnenlicht kommt praktisch parallel an und trifft sich im Brennpunkt: $f = 20\\,\\mathrm{cm}$. Das nähere Fenster wird etwas weiter hinten abgebildet.\n\n*A gewählt?* Die Bildweite eines nahen Gegenstands ist nicht die Brennweite. *B oder D gewählt?* Summe oder Mittelwert haben keine Bedeutung. → **N5**"
+        },
+        {
+          "id": "N11-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Der Parallelstrahl fällt parallel zur Achse ein und geht nach der Linse durch den Brennpunkt $F_1$ hinter der Linse.\n\n*D gewählt?* Das gilt nach der Linse für den Brennpunktstrahl. *B gewählt?* Das gilt für den Mittelpunktstrahl. *C gewählt?* Eine Linse wirft das Licht nicht zurück. → **N6**"
+        },
+        {
+          "id": "N11-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Von jedem Punkt des Fensters geht Licht durch alle Teile der Lupe zum selben Bildpunkt. Durch die freie Hälfte kommt von jedem Punkt noch Licht an: Das Bild bleibt vollständig, nur dunkler.\n\n*A oder C gewählt?* Jede Linsenhälfte erzeugt das ganze Bild. *B gewählt?* Die freie Hälfte bündelt weiterhin. → **N8** Aufgabe 3"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Der Eisvogel am Teich",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c2",
+        "c3",
+        "c1",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Reflexion und Brechung) – am besten nach N2 bis N4.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Eisvogel.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Laut Messwerten wird $30°$ zu $42°$: $\\beta = 42°$, vom Lot weg gebrochen (Wasser → Luft)."
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Strahl verläuft in der Luft unter $42°$ zum Lot. Das Auge verlängert ihn geradlinig nach hinten. Die Verlängerung erreicht die Stelle über dem Fisch in etwa $33\\,\\mathrm{cm}$ Tiefe; der Fisch schwimmt in etwa $52\\,\\mathrm{cm}$ Tiefe.",
+          "loesung_bild": "img/V1-1b.png"
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Licht vom Fisch wird an der Wasseroberfläche vom Lot weg gebrochen. Das Auge des Eisvogels nimmt an, dass Licht geradlinig kommt, und sieht den Fisch in Verlängerung des Strahls in der Luft – also höher und näher an der Oberfläche."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Nein. Der Fisch ist tiefer (und weiter vom Eisvogel weg) als er erscheint. Würde der Vogel genau auf das Bild zielen, käme er zu flach und verfehlte den Fisch. Er muss tiefer zielen – erfahrene Eisvögel stoßen deshalb möglichst steil, also fast senkrecht, ins Wasser: Bei senkrechtem Blick wird das Licht nicht seitlich abgelenkt."
+        },
+        {
+          "id": "V1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Lot von A auf die Wasseroberfläche und gleich weit darunter abtragen: $A'$ liegt 4 Kästchen ($40\\,\\mathrm{cm}$) unter der Oberfläche, senkrecht unter A. An jeder Grenzfläche wird ein Teil des Lichts reflektiert, auch wenn der Rest gebrochen wird."
+        },
+        {
+          "id": "V1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Wellen machen die Oberfläche uneben. Das Lot zeigt an jeder Stelle in eine andere Richtung, das Licht wird in viele verschiedene Richtungen reflektiert (gestreut). Die reflektierten Strahlen eines Punktes kommen nicht mehr geordnet im Auge an."
+        },
+        {
+          "id": "V1-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Licht, das von unten unter mehr als dem Grenzwinkel auf die Oberfläche trifft, wird beim Übergang Wasser → Luft (optisch dichter → dünner) totalreflektiert. Laut Messwerten tritt bei $48°$ noch Licht aus, ab $49°$ nicht mehr: Der Grenzwinkel liegt bei etwa $49°$.\n\nBlickt der Fisch unter mehr als etwa $49°$ zum Lot schräg nach oben, kommt aus dieser Richtung kein Licht vom Himmel bei ihm an. Er sieht nur Licht aus dem Teich, das an der Oberfläche wie an einem Spiegel zurückgeworfen wird."
+        },
+        {
+          "id": "V1-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Gebrochen wird das Licht nur an der Grenzfläche – das verschiebt das Bild, macht den Fisch aber nicht sichtbar.\n\nIn trübem Wasser schweben viele kleine Teilchen. Die Teilchen streuen und absorbieren das Licht, bevor es vom Fisch zum Auge gelangt. Je trüber das Wasser, desto schlechter sieht der Eisvogel die Fische."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Die Wasserflasche im Wald",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c2",
+        "g2",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Reflexion und Brechung, Linsen und Brennpunkte) – am besten nach N5.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Wasserflasche.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Querschnitt ist in der Mitte am dicksten, wie bei einer Sammellinse. Ein Strahl wird beim Eintritt (Luft → Wasser) zum Lot hin und beim Austritt (Wasser → Luft) vom Lot weg gebrochen. Wegen der runden Oberfläche knicken beide Brechungen die Strahlen zur Mitte hin – umso stärker, je weiter außen der Strahl auftrifft. Die Strahlen werden gebündelt."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Brennpunkt liegt dort, wo sich die gebrochenen Strahlen hinter der Flasche auf der Achse treffen (etwa 8 Kästchen hinter der Flaschenwand).",
+          "loesung_bild": "img/V2-1b.png"
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Etwa 16 Kästchen: $16 \\cdot 0{,}5\\,\\mathrm{cm} = 8\\,\\mathrm{cm}$ (Toleranz $\\pm 0{,}5\\,\\mathrm{cm}$). Der helle Brennstreifen liegt also etwa $4\\,\\mathrm{cm}$ hinter der Flasche – genau dort kann Laub liegen."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Dunkles Laub absorbiert den größten Teil des Lichts und wird dadurch heiß. Ein heller Stein reflektiert viel Licht und erwärmt sich weniger (und brennt ohnehin nicht)."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Brechung gibt es nur, wo sich die optische Dichte ändert. In der leeren Flasche geht das Licht von Luft durch die dünne Glaswand wieder in Luft. Die beiden Knicke an der dünnen Wand heben sich fast auf, im Inneren gibt es keinen Wechsel der optischen Dichte. Die Flasche wirkt kaum wie eine Linse."
+        },
+        {
+          "id": "V2-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Ein weiter entfernter Brennpunkt ändert nur, wo das Licht gebündelt wird, nicht ob. Die dickere Flasche sammelt sogar mehr Sonnenlicht, ihr Brennfleck ist dafür etwas größer. Liegt dort trockenes Laub, bleibt die Gefahr.\n\nModellgrenze: Eine Flasche ist keine dünne Linse – Randstrahlen treffen sich etwas näher an der Flasche, und ein Teil des Lichts wird an der Glaswand reflektiert."
+        },
+        {
+          "id": "V2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Nicht ungefährlich: Grünes Glas absorbiert einen Teil des Sonnenlichts, lässt aber das grüne Licht hindurch. Die mit Wasser gefüllte Flasche bündelt es weiterhin – etwas weniger Energie kommt an, die Brandgefahr bleibt."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Der Handy-Beamer aus dem Schuhkarton",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c1",
+        "g1",
+        "g2",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Reflexion und Brechung, Linsen und Brennpunkte, Bildentstehung) – am besten nach N6 bis N10.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Handy-Beamer.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Gegenstandsweite zwischen einfacher und doppelter Brennweite: $f < g < 2 \\cdot f$, also zwischen $15\\,\\mathrm{cm}$ und $30\\,\\mathrm{cm}$. Dann ist das Bild reell, umgekehrt und größer als das Display."
+        },
+        {
+          "id": "V3-2",
+          "label": "2",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Parallelstrahl (danach durch $F_1$) und Mittelpunktstrahl genügen. Der Brennpunktstrahl trifft die Linsenebene unterhalb der gezeichneten Linse – dafür die Linsenebene verlängern.\n\nIn der Zeichnung: $b = 24$ Kästchen, $B = 8{,}4$ Kästchen.\n\nIn Wirklichkeit: $b = 24 \\cdot 2{,}5\\,\\mathrm{cm} = 60\\,\\mathrm{cm}$ und $B = 8{,}4 \\cdot 2{,}5\\,\\mathrm{cm} = 21\\,\\mathrm{cm}$ (gut: $b$ zwischen $55\\,\\mathrm{cm}$ und $65\\,\\mathrm{cm}$, $B$ zwischen $19\\,\\mathrm{cm}$ und $23\\,\\mathrm{cm}$). Die Wand muss also etwa $60\\,\\mathrm{cm}$ von der Lupe entfernt sein.",
+          "loesung_bild": "img/V3-2.png"
+        },
+        {
+          "id": "V3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Für $f < g < 2 \\cdot f$ ist das reelle Bild umgekehrt, also höhen- und seitenverkehrt: Die Strahlen kreuzen sich hinter der Linse.\n\nHöhen- und seitenverkehrt zusammen ist eine Drehung um $180°$. Es genügt, das Handy auf den Kopf zu stellen (um $180°$ zu drehen) – zusätzliches Spiegeln ist nicht nötig."
+        },
+        {
+          "id": "V3-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$2\\,\\mathrm{m} = 200\\,\\mathrm{cm}$ liegt zwischen $240\\,\\mathrm{cm}$ (bei $16\\,\\mathrm{cm}$) und $105\\,\\mathrm{cm}$ (bei $17{,}5\\,\\mathrm{cm}$), nahe bei $240\\,\\mathrm{cm}$. Das Display muss also etwas mehr als $16\\,\\mathrm{cm}$ vor der Lupe stehen (genau etwa $16{,}2\\,\\mathrm{cm}$)."
+        },
+        {
+          "id": "V3-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$30\\,\\mathrm{cm} = 2 \\cdot f$: Bei $g = 2 \\cdot f$ entsteht das Bild in $b = 2 \\cdot f$ und ist gleich groß wie der Gegenstand (Tabelle: $b = 30\\,\\mathrm{cm}$)."
+        },
+        {
+          "id": "V3-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die raue weiße Wand streut das Licht in alle Richtungen (diffuse Reflexion). Von jedem Bildpunkt gelangt Licht in jedes Auge im Raum."
+        },
+        {
+          "id": "V3-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Glas lässt das meiste Licht hindurch (Transmission), es fehlt hinter der Scheibe ein Schirm. Der kleine reflektierte Teil wird an der glatten Scheibe gerichtet reflektiert (Reflexionsgesetz) und gelangt nur in wenige Augen."
+        },
+        {
+          "id": "V3-6a",
+          "label": "6a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Das funktioniert nur begrenzt. Rückt das Display näher an den Brennpunkt ($g$ knapp über $15\\,\\mathrm{cm}$), entsteht das Bild weiter weg und wird größer – bei $g = f$ entsteht gar kein Bild mehr.\n\nAußerdem verteilt sich dasselbe Licht des Displays auf eine viel größere Fläche: Das Bild wird deutlich dunkler. Im abgedunkelten Raum geht das noch, sonst nicht."
+        },
+        {
+          "id": "V3-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Nein. Eine Zerstreuungslinse lässt das Licht auseinanderlaufen und erzeugt nur virtuelle, verkleinerte Bilder. An der Wand entstünde kein Bild."
+        }
+      ]
+    }
+  ]
+}
