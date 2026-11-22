@@ -93,6 +93,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Licht und Schatten, Reflexion und Spiegelbild, Lichtbrechung, Totalreflexion, Sammel- und Zerstreuungslinsen, Brennpunkt, Bildentstehung, Lupe"
+        },
+        {
+          "id": "reelle-zahlen",
+          "name": "Reelle Zahlen – Lerntheke",
+          "fach": "mathe",
+          "aktiv": true,
+          "beschreibung": "Quadratwurzeln, Gleichungen x² = a, Intervallschachtelung, irrationale Zahlen, Zahlenmengen, Wurzelgesetze"
         }
       ]
     },
