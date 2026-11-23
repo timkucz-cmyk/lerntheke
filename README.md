@@ -333,6 +333,12 @@ Die App folgt dem **LMG-Unterricht-Design-System** (`Schule/2526/Claude_Design/`
 - **Dunkelmodus** über `prefers-color-scheme`: eigene, abgedunkelte Tonwerte; die
   Fachfarben werden aufgehellt, damit der Kontrast stimmt.
 
+- **QR-Code zum Teilen** (Tim, 23.11.2026): Jeder Kopf (Startseite, Thema, Station, Memory) hat oben
+  rechts den Knopf „QR-Code“. Er öffnet ein Fenster mit großem QR-Code der aktuellen Adresse
+  (für den Beamer) und „Link kopieren“. Code in `app/qr-teilen.js` (eigener Encoder, keine
+  Abhängigkeit; dieselbe Datei wie in den Simulationen), eingesetzt über `qrKnopf()` in `app/app.js`.
+  Neue Themen bekommen ihn automatisch.
+
 Für ein neues Thema muss an der Gestaltung nichts angepasst werden. Soll ein weiteres Fach
 eine eigene Farbe bekommen, genügt ein Block `html[data-fach="…"]` in `app/style.css`
 (hell und dunkel).
@@ -357,6 +363,7 @@ app/
   store.js                 localStorage, Export/Import
   render.js                Markdown + Mathematik (KaTeX oder Ersatz)
   icons.js                 Symbole als Inline-SVG
+  qr-teilen.js             QR-Code der Seite zum Teilen (Knopf oben rechts)
   style.css                Gestaltung, Hell/Dunkel, Druckansicht
 vendor/katex/              lokale KaTeX-Kopie (v0.18.7, gehört mit ins Repo)
 vendor/fonts/              Source Sans 3, lokal (gehört mit ins Repo)
