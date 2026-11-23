@@ -321,6 +321,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Wellengrößen, Transversal- und Longitudinalwellen, Momentbild, Reflexion, Interferenz, stehende Wellen, Dopplereffekt, Huygens’sches Prinzip, Brechung, Beugung; eA: Wellengleichung, stehende Welle als Funktion, Interferometer"
+        },
+        {
+          "id": "em-wellen",
+          "name": "Elektromagnetische Wellen und Licht – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Entstehung und Eigenschaften elektromagnetischer Wellen, Polarisation, Doppelspalt, Gitter, Wellenlänge messen, weißes Licht, EM-Spektrum, Emission und Absorption; eA: Schwingkreis und Dipol, Einzelspalt, Michelson-Interferometer"
         }
       ]
     },

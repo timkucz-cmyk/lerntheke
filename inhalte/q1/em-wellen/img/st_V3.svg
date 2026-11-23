@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Planet vor seinem Stern">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <circle class="fuell" cx="55" cy="35" r="28"/>
+  <circle class="grau" cx="55" cy="35" r="28"/>
+  <circle class="marke" cx="62" cy="30" r="6"/>
+  <circle class="hilfs" cx="62" cy="30" r="9"/>
+  <path class="akzent" d="M100.0 25.0 L100.8 25.0 L101.7 25.0 L102.5 25.0 L103.3 25.0 L104.2 25.0 L105.0 25.0 L105.8 25.0 L106.7 25.0 L107.5 25.0 L108.3 25.0 L109.2 25.0 L110.0 25.0 L110.8 25.0 L111.7 25.0 L112.5 25.0 L113.3 25.0 L114.2 25.0 L115.0 25.0 L115.8 25.1 L116.7 25.1 L117.5 25.2 L118.3 25.4 L119.2 25.7 L120.0 26.1 L120.8 26.7 L121.7 27.6 L122.5 28.8 L123.3 30.2 L124.2 32.0 L125.0 34.0 L125.8 36.1 L126.7 38.2 L127.5 40.1 L128.3 41.7 L129.2 42.7 L130.0 43.0 L130.8 42.7 L131.7 41.7 L132.5 40.1 L133.3 38.2 L134.2 36.1 L135.0 34.0 L135.8 32.0 L136.7 30.2 L137.5 28.8 L138.3 27.6 L139.2 26.7 L140.0 26.1 L140.8 25.7 L141.7 25.4 L142.5 25.2 L143.3 25.1 L144.2 25.1 L145.0 25.0 L145.8 25.0 L146.7 25.0 L147.5 25.0 L148.3 25.0 L149.2 25.0 L150.0 25.0"/>
+</svg>
