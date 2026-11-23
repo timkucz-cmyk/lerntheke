@@ -1,0 +1,1338 @@
+{
+  "version": 1,
+  "titel": "Elektromagnetismus – Lerntheke vor dem Test",
+  "fach": "physik",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du bei Magneten und Feldlinien, dem Erdmagnetfeld, Stromkreisen, Kraftpfeilen oder Einheiten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3, V2 nach N4 bis N6, V3 nach N7 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Lege Taschenrechner und Regelheft bereit. Richtungen bestimmst du immer mit der Elektronenflussrichtung und der linken Hand. Skizzen zeichnest du direkt in die Vorlagen im Arbeitsblatt auf dem iPad.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Magnetische Pole und ihre Anziehung und Abstoßung beschreiben, magnetisierbare Stoffe (Eisen, Nickel, Cobalt) nennen und das Magnetisieren mit dem Elementarmagnetmodell erklären"
+    },
+    {
+      "id": "g2",
+      "text": "Feldlinienbilder von Stab- und Hufeisenmagnet zeichnen und die Regeln für Feldlinien anwenden"
+    },
+    {
+      "id": "g3",
+      "text": "Das Magnetfeld der Erde beschreiben und erklären, warum sich eine Kompassnadel nach Norden ausrichtet"
+    },
+    {
+      "id": "g4",
+      "text": "Einfache Stromkreise als Schaltplan darstellen und angeben, in welche Richtung die Elektronen fließen (vom Minuspol zum Pluspol)"
+    },
+    {
+      "id": "g5",
+      "text": "Kräfte als Pfeile darstellen und beschreiben, wie mehrere Kräfte an einem Körper zusammenwirken (Verschieben, Drehen)"
+    },
+    {
+      "id": "g6",
+      "text": "Größen mit Vorsätzen (µ, m, k) und Zehnerpotenzen umrechnen und eine Formel nach einer Größe umstellen"
+    },
+    {
+      "id": "c1",
+      "text": "Die magnetische Wirkung des elektrischen Stroms mit dem Ørsted-Versuch beschreiben und erläutern"
+    },
+    {
+      "id": "c2",
+      "text": "Das Magnetfeld eines geraden Leiters beschreiben und zeichnen und seine Richtung mit der Linke-Faust-Regel bestimmen"
+    },
+    {
+      "id": "c3",
+      "text": "Das Magnetfeld einer Spule beschreiben und die Pole einer Spule bestimmen"
+    },
+    {
+      "id": "c4",
+      "text": "Aufbau und Nutzen eines Elektromagneten erläutern und erklären, warum ein Eisenkern das Magnetfeld verstärkt"
+    },
+    {
+      "id": "c5",
+      "text": "Die magnetische Flussdichte als Maß für die Stärke eines Magnetfelds mit der Einheit Tesla angeben und Größenordnungen vergleichen"
+    },
+    {
+      "id": "c6",
+      "text": "Die Flussdichte einer langen Spule mit der Spulenformel berechnen und Je-desto-Aussagen begründen"
+    },
+    {
+      "id": "c7",
+      "text": "Die Kraft auf einen stromdurchflossenen Leiter im Magnetfeld (Lorentzkraft) beschreiben, ihre Richtung mit der Linke-Hand-Regel bestimmen und angeben, wovon ihr Betrag abhängt"
+    },
+    {
+      "id": "c8",
+      "text": "Die Kräfte auf eine drehbare Leiterschleife im Magnetfeld bestimmen und daraus ihre Drehung erklären"
+    },
+    {
+      "id": "c9",
+      "text": "Die Bauteile eines Elektromotors benennen und seine Funktionsweise mit Lorentzkraft und Kommutator beschreiben"
+    },
+    {
+      "id": "c10",
+      "text": "Anwendungen von Elektromotoren nennen und die Energieumwandlung im Motor beschreiben"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen aus Klasse 7 und 9",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Magnetfeld von Leiter und Spule",
+      "untertitel": "Ørsted-Versuch, Linke-Faust-Regel, Spule",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Elektromagnet und Flussdichte",
+      "untertitel": "Eisenkern, Tesla, Spulenformel",
+      "farbe": "orange",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Lorentzkraft und Elektromotor",
+      "untertitel": "Linke-Hand-Regel, Leiterschleife, Motor",
+      "farbe": "gruen",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c9",
+        "c10"
+      ]
+    }
+  ],
+  "abschluss": "Test",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Taschenrechner und Regelheft, 25 Minuten. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Angezogen werden der Kronkorken (Stahl enthält Eisen) und das Nickelplättchen. Graphit, Gold, Gummi und Aluminium sind nicht magnetisierbar."
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "In der magnetisierten Nadel sind alle Elementarmagnete gleich ausgerichtet, ihre Nordpole zeigen zur Spitze. Beim Zerschneiden bleibt die Ausrichtung erhalten: Jedes Teil ist wieder ein vollständiger Magnet mit Nordpol (zur Spitze hin) und Südpol (zum anderen Ende hin).\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Außerhalb des Magneten verlaufen die Feldlinien vom Nordpol zum Südpol. Die Pfeile zeigen also vom N-Ende weg und zum S-Ende hin.",
+          "loesung_bild": "img/G1-2a.png"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "An den Polen liegen die Feldlinien am dichtesten. Je enger die Feldlinien, desto stärker ist das Magnetfeld – es ist also an den Polen am stärksten.\n\nÜben: **G2** Aufgabe 2."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Nordpol der Kompassnadel zeigt nach Norden. Weil sich ungleichnamige Pole anziehen, liegt in der Nähe des geografischen Nordpols ein magnetischer Südpol."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Das Erdmagnetfeld sieht so aus, als steckte ein großer Stabmagnet in der Erde, dessen Südpol im Norden liegt. Die Feldlinien treten auf der Südhalbkugel aus, laufen um die Erde und treten auf der Nordhalbkugel wieder ein. Eine Kompassnadel richtet sich längs der Feldlinien aus.\n\nÜben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Elektronen fließen außerhalb der Batterie vom Minuspol (kurzer, dicker Strich) durch Schalter und Lampe zum Pluspol (langer Strich).",
+          "loesung_bild": "img/G1-4a.png"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Stromkreis muss geschlossen sein. In der einen Ader fließen die Elektronen vom Minuspol zur Lampe hin, durch die Lampe hindurch und in der anderen Ader von der Lampe zurück zum Pluspol – also in Gegenrichtung.\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Ein Pfeil von $3\\,\\mathrm{cm}$ Länge, der nach rechts zeigt und am Angriffspunkt der Kraft beginnt."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die beiden Kräfte sind gleich groß und entgegengesetzt, der Stab wird deshalb nicht verschoben. Sie greifen aber an verschiedenen Enden an und drehen beide im selben Drehsinn: Der Stab dreht sich um seine Mitte (im Uhrzeigersinn).\n\nÜben: **G2** Aufgabe 5."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$25\\,\\mathrm{cm} = 0{,}25\\,\\mathrm{m}$, $40\\,\\mathrm{mA} = 0{,}040\\,\\mathrm{A}$, $50\\,\\mu\\mathrm{T} = 50 \\cdot 10^{-6}\\,\\mathrm{T} = 5{,}0 \\cdot 10^{-5}\\,\\mathrm{T} = 0{,}000050\\,\\mathrm{T}$"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beide Seiten durch $D$ teilen: $s = \\frac{F}{D}$\n\nÜben: **G2** Aufgabe 6."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Magnete, Strom und Kräfte",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Taschenrechner und Regelheft, 15 Minuten. Aufgabe k übt den Block k aus G1 – bearbeite die Aufgaben zu deinen Lücken.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen_Magnete_Strom_Kraefte.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Eisen, Nickel und Cobalt (und viele Stoffe, die sie enthalten, z. B. die meisten Stähle)."
+        },
+        {
+          "id": "G2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nicht jeder Stoff, der Eisen enthält, ist magnetisierbar. Der Edelstahl der Spüle ist eine Stahlsorte, in der sich die Elementarmagnete nicht ausrichten lassen – der Magnet zieht ihn nicht an. Das Stahlblech der Tür ist magnetisierbar."
+        },
+        {
+          "id": "G2-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Feldlinien verlaufen vom Nordpol zum Südpol. Zwischen den Schenkeln sind sie fast parallel und gleich dicht, außen laufen sie in Bögen um die Schenkel. Sie schneiden sich nicht.",
+          "loesung_bild": "img/G2-2.png"
+        },
+        {
+          "id": "G2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Nordspitze (der Nordpol der Nadel) zeigt nach Norden, weil dort ein magnetischer Südpol der Erde liegt und sich ungleichnamige Pole anziehen. Die Nadel richtet sich längs der Feldlinien des Erdmagnetfelds aus."
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Batterie, Schalter und Lampe liegen in einem geschlossenen Kreis hintereinander. Die Pfeile zeigen außerhalb der Batterie vom Minuspol über Schalter und Lampe zum Pluspol.",
+          "loesung_bild": "img/G2-4.png"
+        },
+        {
+          "id": "G2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die beiden Kräfte sind gleich groß und entgegengesetzt gerichtet, zusammen verschieben sie das Lenkrad nicht. Sie greifen aber auf gegenüberliegenden Seiten der Drehachse an und drehen beide im selben Drehsinn – das Lenkrad dreht sich."
+        },
+        {
+          "id": "G2-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$0{,}35\\,\\mathrm{A} = 350\\,\\mathrm{mA}$ und $2{,}5\\,\\mathrm{mT} = 0{,}0025\\,\\mathrm{T} = 2{,}5 \\cdot 10^{-3}\\,\\mathrm{T}$"
+        },
+        {
+          "id": "G2-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$1{,}257 \\cdot 10^{-6} = 0{,}000001257$ (Komma um 6 Stellen nach links).\n\n$v = \\frac{s}{t}$ mit $t$ multiplizieren und durch $v$ teilen: $t = \\frac{s}{v}$"
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Wo stehe ich?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c6",
+        "c7",
+        "c8",
+        "c9"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Der Strom erzeugt um den Draht ein Magnetfeld (Ørsted-Versuch). Die Nadel richtet sich danach aus und dreht sich quer zum Draht.\n\n*A gewählt?* Nicht das Kupfer, sondern der Strom ist die Ursache. *B gewählt?* Das Feld gibt es, solange Strom fließt. *D gewählt?* Die Feldlinien sind Kreise um den Draht, die Nadel stellt sich quer, nicht auf den Draht zu. → **N2**"
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Linke-Faust-Regel: Daumen in die Zeichenebene hinein, die gekrümmten Finger zeigen dann gegen den Uhrzeigersinn. Die Feldlinien sind Kreise um den Leiter.\n\n*B gewählt?* Wahrscheinlich die falsche Hand. *C oder D gewählt?* Feldlinien eines Leiters sind geschlossene Kreise, keine Strahlen. → **N2**"
+        },
+        {
+          "id": "N1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Im Innern einer langen Spule ist das Feld homogen: Die Feldlinien verlaufen parallel und gleich dicht.\n\n*A gewählt?* Kreise gibt es dicht an jedem Draht, im Innern überlagern sich die Felder zu einem gleichmäßigen Feld. *B gewählt?* Innen ist das Feld sogar am stärksten. *C gewählt?* Feldlinien sind geschlossene Linien. → **N3**"
+        },
+        {
+          "id": "N1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Das Feld der Spule richtet die Elementarmagnete im Eisenkern aus. Der Kern wird selbst zum Magneten, sein Feld kommt zum Feld der Spule hinzu.\n\n*A, C oder D gewählt?* Durch den Kern fließt kein Strom, die Stromstärke ändert sich nicht. Es geht um Magnetisierung, nicht um Leitung. → **N4**"
+        },
+        {
+          "id": "N1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Nach der Spulenformel ist $B$ proportional zur Windungszahl $N$: doppelte Windungszahl, doppelte Flussdichte.\n\n*B gewählt?* Mehr Windungen machen das Feld stärker, nicht schwächer. *C gewählt?* $N$ kommt nur einfach (nicht im Quadrat) vor. *D gewählt?* Die Windungszahl steht im Zähler der Formel. → **N5**"
+        },
+        {
+          "id": "N1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Linke-Hand-Regel: Daumen nach rechts (Elektronen), Zeigefinger nach unten (von N nach S), der Mittelfinger zeigt aus der Zeichenebene heraus.\n\n*A oder B gewählt?* Die Kraft wirkt quer zu den Feldlinien, nicht in Feldrichtung. *D gewählt?* Wahrscheinlich die rechte statt der linken Hand. → **N7**"
+        },
+        {
+          "id": "N1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Auf die beiden Seiten der Schleife wirken entgegengesetzte Kräfte, weil die Elektronen dort in entgegengesetzte Richtungen fließen. Sie greifen auf verschiedenen Seiten der Achse an und drehen die Schleife.\n\n*A oder D gewählt?* Die Kräfte sind entgegengesetzt, sie verschieben die Schleife nicht. *C gewählt?* Die Kräfte heben sich beim Verschieben auf, nicht beim Drehen. → **N8**"
+        },
+        {
+          "id": "N1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Der Kommutator (Stromwender) besteht aus zwei Halbringen. Nach jeder halben Umdrehung berühren die Bürsten den jeweils anderen Halbring – die Elektronenrichtung im Rotor kehrt sich um.\n\n*A gewählt?* Die Bürsten führen den Strom nur zu. *B gewählt?* Der Stator erzeugt das feste Magnetfeld. *C gewählt?* An der Anschlussklemme wird die Stromquelle angeschlossen. → **N8**"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Ørsted-Versuch und Feld eines Leiters",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c1",
+        "c2",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner und Regelheft, 20 Minuten. Richtungen mit der Linke-Faust-Regel (siehe Infobox im Blatt).",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Oersted_Leiter.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Beim Schließen dreht sich die Nadel aus der Nord-Süd-Richtung heraus und stellt sich schräg bis fast quer zum Draht. Beim Öffnen dreht sie sich zurück nach Norden."
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Umpolen: Die Nadel schlägt zur anderen Seite aus. Draht unter der Nadel: Die Nadel schlägt ebenfalls zur anderen Seite aus, denn unter dem Draht zeigen die Feldlinien in die Gegenrichtung wie über ihm."
+        },
+        {
+          "id": "N2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Späne ordnen sich in Kreisen um den Leiter an (konzentrische Kreise). Nahe am Leiter liegen sie dichter, weiter weg lockerer."
+        },
+        {
+          "id": "N2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Daumen der linken Hand nach unten, also in die Zeichenebene hinein. Die gekrümmten Finger zeigen von oben gesehen **gegen den Uhrzeigersinn**: Die Pfeile auf den Kreisen laufen gegen den Uhrzeigersinn.",
+          "loesung_bild": "img/N2-2b.png"
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Daumen der linken Hand aus der Zeichenebene heraus: Die Finger zeigen im Uhrzeigersinn. Die Feldlinien laufen **im Uhrzeigersinn** um den Leiter."
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Jede Nadel liegt tangential zum Kreis, der Nordpol zeigt in Feldrichtung (im Uhrzeigersinn): Stelle 1 (oben): Nordpol nach rechts; Stelle 2 (rechts): nach unten; Stelle 3 (unten): nach links; Stelle 4 (links): nach oben.",
+          "loesung_bild": "img/N2-3b.png"
+        },
+        {
+          "id": "N2-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Weiter vom Draht entfernt liegen die Feldlinien weiter auseinander: Das Feld des Drahts ist dort schwächer. Das Erdmagnetfeld wird im Vergleich wichtiger und hält die Nadel stärker in Nord-Süd-Richtung."
+        },
+        {
+          "id": "N2-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Auf die Nadel wirken zwei Felder zugleich: das Erdmagnetfeld (nach Norden) und das Feld des Drahts (quer dazu). Die Nadel richtet sich nach dem Gesamtfeld aus. Ist das Feld des Drahts schwach, überwiegt das Erdmagnetfeld, und die Nadel dreht sich nur wenig aus der Nord-Süd-Richtung."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Das Magnetfeld einer Spule",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c3",
+        "c2",
+        "g1",
+        "g2",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner und Regelheft, 20 Minuten. Pole bestimmst du mit der Spulenregel oder mit der Linke-Faust-Regel an einer Windung.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Spule.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Im Innern verlaufen die Feldlinien parallel und in gleichen Abständen: Das Feld ist dort homogen.\n\nAußerhalb ähnelt das Feld dem eines Stabmagneten: Die Feldlinien treten an einem Ende (Nordpol) aus, laufen in Bögen außen herum und treten am anderen Ende (Südpol) wieder ein. Sie sind geschlossen."
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Elektronen kommen vom Minuspol und laufen durch die Spule zum Pluspol. Nach dem Wicklungssinn der Skizze fließen sie in den vorderen Teilen der Windungen **von unten nach oben**.",
+          "loesung_bild": "img/N3-2a.png"
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Spulenregel: Die gekrümmten Finger der linken Hand zeigen in Elektronenflussrichtung um die Windungen (vorne nach oben), der Daumen zeigt dann nach **rechts**: Der Nordpol liegt rechts.\n\nKontrolle mit der Linke-Faust-Regel an einem vorderen Windungsteil: Daumen nach oben, die Finger zeigen im Spuleninnern (hinter dem Draht) nach rechts. Innen laufen die Feldlinien also nach rechts und treten rechts aus – dort ist der Nordpol."
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Am rechten Ende der Spule liegt ihr Nordpol (Aufgabe 2). Der Nordpol des Stabmagneten steht also einem Nordpol gegenüber. Gleichnamige Pole stoßen sich ab: Der Stabmagnet wird **abgestoßen**."
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Elektronen fließen in der Gegenrichtung, deshalb kehrt sich die Richtung aller Feldlinien um: Der Nordpol liegt jetzt links, der Südpol rechts. Die Form des Feldlinienbilds bleibt gleich."
+        },
+        {
+          "id": "N3-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Eine lange Spule ist deutlich länger als dick ($l > d$). Spule B: $20\\,\\mathrm{cm} > 2\\,\\mathrm{cm}$, also eine lange Spule. Spule A ist kürzer als dick, also keine lange Spule.\n\nNur in einer langen Spule überlagern sich die Felder der vielen Windungen im Innern zu einem Feld mit parallelen, gleich dichten Feldlinien. In der kurzen Spule A laufen die Feldlinien schon im Innern auseinander, das Feld ist nicht homogen."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Der Elektromagnet",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c4",
+        "c3",
+        "g1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner und Regelheft, 16 Minuten.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Elektromagnet.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Eine Spule aus isoliertem Kupferdraht mit vielen Windungen, ein Kern aus Eisen in der Spule und eine Stromquelle (meist mit Schalter)."
+        },
+        {
+          "id": "N4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Magnetfeld der Spule richtet die Elementarmagnete im Eisenkern aus. Der Kern wird dadurch selbst zum Magneten, mit Nordpol und Südpol an denselben Enden wie die Spule.\n\nDas Feld des Kerns und das Feld der Spule überlagern sich und zeigen in dieselbe Richtung. Zusammen ist das Feld viele hundert Mal so stark ($\\mu_r$ von Eisen: 250 bis 600)."
+        },
+        {
+          "id": "N4-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Zwei davon:\n- Er lässt sich ein- und ausschalten.\n- Seine Stärke lässt sich über die Stromstärke einstellen.\n- Seine Pole lassen sich durch Umpolen vertauschen."
+        },
+        {
+          "id": "N4-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Weicheisen. Beim Ausschalten geraten seine Elementarmagnete wieder in Unordnung, der Kern ist kein Magnet mehr, und das Werkstück fällt ab.\n\nEin Stahlkern bliebe magnetisch (seine Elementarmagnete bleiben ausgerichtet) – das Werkstück würde auch nach dem Ausschalten festgehalten."
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Der Vorschlag ist falsch. Durch den Kern fließt kein Strom, der Strom fließt in der isolierten Wicklung. Der Kern verstärkt das Feld nur, wenn er sich magnetisieren lässt. Kupfer ist nicht magnetisierbar ($\\mu_r \\approx 1$): Ein Kupferkern verstärkt das Feld nicht."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Flussdichte und Spulenformel",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c5",
+        "c6",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner und Regelheft, 20 Minuten. Spulenformel $B = \\mu_0 \\cdot \\mu_r \\cdot \\frac{I \\cdot N}{l}$ mit $\\mu_0 = 1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}}$. Längen in m, Stromstärken in A einsetzen.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Flussdichte_Spulenformel.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$50\\,\\mu\\mathrm{T} = 0{,}00005\\,\\mathrm{T}$ (Erde) $<$ $5\\,\\mathrm{mT} = 0{,}005\\,\\mathrm{T}$ (Kühlschrankmagnet) $<$ $0{,}1\\,\\mathrm{T}$ (Hufeisenmagnet) $<$ $1{,}5\\,\\mathrm{T}$ (Kernspintomograf)."
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Ohne Kern ist $\\mu_r = 1$, die Länge in Meter: $l = 0{,}25\\,\\mathrm{m}$.\n\n$$B = 1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}} \\cdot 1 \\cdot \\frac{0{,}80\\,\\mathrm{A} \\cdot 500}{0{,}25\\,\\mathrm{m}}$$\n\n$$B \\approx 2{,}0 \\cdot 10^{-3}\\,\\mathrm{T} = 2{,}0\\,\\mathrm{mT}$$"
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$B$ wird 400-mal so groß: $B = 400 \\cdot 2{,}01\\,\\mathrm{mT} \\approx 0{,}80\\,\\mathrm{T}$"
+        },
+        {
+          "id": "N5-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Spulenformel nach $I$ umstellen: $I = \\frac{B \\cdot l}{\\mu_0 \\cdot \\mu_r \\cdot N}$\n\n$$I = \\frac{5{,}0 \\cdot 10^{-3}\\,\\mathrm{T} \\cdot 0{,}25\\,\\mathrm{m}}{1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}} \\cdot 1 \\cdot 500} \\approx 2{,}0\\,\\mathrm{A}$$\n\nKontrolle: $\\frac{5{,}0\\,\\mathrm{mT}}{2{,}0\\,\\mathrm{mT}} = 2{,}5$, also braucht man etwa $2{,}5 \\cdot 0{,}80\\,\\mathrm{A} = 2{,}0\\,\\mathrm{A}$."
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{2{,}0 \\cdot 10^{-3}\\,\\mathrm{T}}{50 \\cdot 10^{-6}\\,\\mathrm{T}} = 40$: Das Feld in der Spule ist etwa 40-mal so stark wie das Erdmagnetfeld."
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "(1) richtig: $l$ steht im Nenner der Spulenformel. Doppelte Länge bei gleichem $N$ und $I$ ergibt halbe Flussdichte (die Windungen liegen nur halb so dicht).\n\n(2) falsch: Die Drahtdicke kommt in der Spulenformel nicht vor. Bei gleichem $\\mu_r$, $I$, $N$ und $l$ bleibt $B$ gleich."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Simulation: Elektromagnet untersuchen",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "iPad, Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c3",
+        "c4",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zu zweit, 20 Minuten, iPad und Taschenrechner. Simulation „Magnete und Elektromagnete“ von PhET (deutsch): https://phet.colorado.edu/sims/html/magnets-and-electromagnets/latest/magnets-and-electromagnets_all.html?locale=de\n\nStelle zuerst die Einheit um: Öffne die **Einstellungen** der Simulation (Symbol in der Leiste unten rechts) und wähle unter „Magnetische Einheiten“ den Eintrag „T (Tesla)“.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Simulation_Elektromagnet.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Nadel stellt sich an jeder Stelle längs der Feldlinie (tangential) ein. Ihr Nordpol zeigt in Feldrichtung: vom Nordpol des Magneten weg und zum Südpol hin. Neben der Mitte des Magneten liegt die Nadel parallel zum Magneten."
+        },
+        {
+          "id": "N6-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Direkt vor den Polen (an den Stirnflächen des Magneten) ist $B$ am größten. Mit wachsendem Abstand nimmt $B$ schnell ab. Das passt dazu, dass die Feldlinien an den Polen am dichtesten liegen."
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bei negativer Spannung laufen die Elektronen in der Gegenrichtung um die Windungen. Die Kompassnadel dreht sich dabei um: Ihr Nordpol zeigt am Ende in die Gegenrichtung."
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei negativer Spannung ist die Batterie umgepolt, die Elektronen fließen andersherum um die Windungen. Nach der Spulenregel zeigt der Daumen dann zum anderen Spulenende: Nordpol und Südpol sind vertauscht, alle Feldlinien kehren sich um. Die Nadel richtet sich nach dem umgekehrten Feld aus."
+        },
+        {
+          "id": "N6-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Messwerte hängen davon ab, wo genau der Feldmesser steht. Immer gilt: Bei 2 Windungen ist $B$ doppelt so groß wie bei 1 Windung, bei 3 Windungen dreimal, bei 4 Windungen viermal so groß.\n\nDer Quotient $\\frac{B}{N}$ ist (nahezu) konstant: $B$ ist proportional zur Windungszahl $N$ – wie in der Spulenformel $B = \\mu_0 \\cdot \\mu_r \\cdot \\frac{I \\cdot N}{l}$."
+        },
+        {
+          "id": "N6-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Vorhersage: $B$ ist proportional zu $I$. Halbe Stromstärke bei gleichem $N$ und $l$ ergibt halbe Flussdichte.\n\nÜberprüfung: Der Feldmesser zeigt bei $5\\,\\mathrm{V}$ die Hälfte des Werts bei $10\\,\\mathrm{V}$ an – die Vorhersage stimmt."
+        },
+        {
+          "id": "N6-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Zwei davon:\n- Es gibt keinen Eisenkern. Die starke Verstärkung durch den Kern, die einen Elektromagneten ausmacht, lässt sich nicht untersuchen.\n- Höchstens 4 Windungen, die Spule ist kurz und dick. Ihr Feld ist innen nicht homogen, die Spulenformel gilt nur für lange Spulen.\n- Man stellt die Spannung ein, die Stromstärke wird nicht angezeigt – den Zusammenhang mit $I$ muss man vorgeben.\n- Die Länge der Spule lässt sich nicht ändern."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Lorentzkraft: Kraft auf einen Leiter",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c7",
+        "c5",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner und Regelheft, 20 Minuten. Kraftrichtungen mit der Linke-Hand-Regel (siehe Infobox im Blatt).",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Lorentzkraft.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Schaukel wird aus ihrer Ruhelage ausgelenkt (nach vorn oder hinten, quer zu den Feldlinien) und bleibt ausgelenkt, solange der Strom fließt. Beim Ausschalten schwingt sie zurück."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Daumen nach rechts (Bewegung der Elektronen), Zeigefinger nach unten (Feld von N nach S). Der Mittelfinger zeigt **aus der Zeichenebene heraus**: Die Schaukel wird nach vorn, zum Betrachter hin, ausgelenkt.",
+          "loesung_bild": "img/N7-1b.png"
+        },
+        {
+          "id": "N7-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "(1) nach unten · (2) nach links · (3) nach oben · (4) nach rechts\n\nBeispiel (1): Daumen nach rechts, Zeigefinger in die Zeichenebene, der Mittelfinger zeigt nach unten.",
+          "loesung_bild": "img/N7-2.png"
+        },
+        {
+          "id": "N7-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "(a) in die Zeichenebene hinein (nach hinten) · (b) in die Zeichenebene hinein (nach hinten) · (c) aus der Zeichenebene heraus (nach vorn, wie vorher)"
+        },
+        {
+          "id": "N7-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Jede einzelne Änderung kehrt die Kraft um: Daumen bzw. Zeigefinger zeigen in die Gegenrichtung. Beide Änderungen zusammen kehren sie zweimal um – die Kraft zeigt wieder in die alte Richtung."
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "(1) doppelte Stromstärke, doppelte Kraft ($F$ proportional zu $I$) · (2) größere Flussdichte $B$, größere Kraft · (3) kleineres $l$, kleinere Kraft"
+        },
+        {
+          "id": "N7-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Feldlinien des Leiters sind Kreise um ihn. Liegt er parallel zum äußeren Feld, stehen seine Kreise überall senkrecht zum äußeren Feld: Auf keiner Seite wird das Feld verstärkt oder geschwächt. Die Lorentzkraft entsteht nur, wenn sich die Elektronen quer zu den Feldlinien bewegen – bei paralleler Lage ist sie null."
+        },
+        {
+          "id": "N7-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Um den Leiter entsteht ein kreisförmiges Magnetfeld. Es überlagert sich mit dem Feld des Hufeisenmagneten: Auf einer Seite des Leiters zeigen beide Felder in dieselbe Richtung (Feld stärker), auf der anderen Seite in entgegengesetzte Richtungen (Feld schwächer). Wie zwei Magnete üben die Felder Kräfte aufeinander aus: Der Leiter wird zur Seite des schwächeren Feldes gedrückt."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Der Elektromotor",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10",
+        "c7",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner und Regelheft, 20 Minuten. Kraftrichtungen mit der Linke-Hand-Regel (siehe Infobox im Blatt).",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Elektromotor.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Linke Seite: Daumen in die Zeichenebene, Zeigefinger nach rechts (N nach S) – der Mittelfinger zeigt **nach oben**.\n\nRechte Seite: Daumen aus der Zeichenebene, Zeigefinger nach rechts – der Mittelfinger zeigt **nach unten**.",
+          "loesung_bild": "img/N8-1a.png"
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Links nach oben, rechts nach unten: Die Schleife dreht sich **im Uhrzeigersinn**."
+        },
+        {
+          "id": "N8-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Steht die Ebene der Schleife senkrecht zu den Feldlinien, drehen die Kräfte nicht mehr. Dreht sie sich durch ihren Schwung darüber hinaus, würden die Kräfte sie zurückdrehen.\n\nDer Kommutator besteht aus zwei Halbringen, auf denen die Bürsten schleifen. Genau in dieser Stellung wechseln die Bürsten auf den anderen Halbring: Die Elektronenrichtung in der Schleife kehrt sich um, damit auch die Kräfte. Die Schleife dreht sich in derselben Richtung weiter."
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "1 Stator (Dauermagnet) · 2 Rotor (Anker, drehbare Leiterschleife bzw. Spule) · 3 Kommutator (Stromwender) · 4 Bürsten"
+        },
+        {
+          "id": "N8-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zum Beispiel: Waschmaschine (Trommel), Föhn (Lüfterrad), Rasenmäher (Messer), Aufzug (Seil der Kabine), elektrischer Rollladen (Wickelwelle), Spielzeugauto (Räder)."
+        },
+        {
+          "id": "N8-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der erste Teil stimmt: Nur $85\\,\\%$ der elektrischen Energie werden in nutzbare Bewegungsenergie umgewandelt.\n\nDer zweite Teil ist falsch: Die übrigen $15\\,\\%$ werden vor allem in thermische Energie umgewandelt (Reibung, Erwärmung der Wicklung). Energie geht nicht verloren, sie ist danach nur nicht mehr nutzbar."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Tandem: Felder und Kräfte erklären",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c9",
+        "c7",
+        "c6",
+        "c5",
+        "c3",
+        "c2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets. Wer die Nummer hat, erklärt laut; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. Richtungen immer mit der linken Hand und der Elektronenflussrichtung. $\\mu_0 = 1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}}$.",
+      "bild": "img/st_N9.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N9-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "In einem senkrechten Draht fließen die Elektronen von unten nach oben. Gib an, in welchem Umlaufsinn die Feldlinien verlaufen, von oben gesehen.",
+          "tipp": "Linke-Faust-Regel: Wohin zeigt der Daumen?",
+          "loesung": "Daumen der linken Hand nach oben, also zu dir, wenn du von oben schaust. Die Finger zeigen dann im Uhrzeigersinn: Die Feldlinien laufen von oben gesehen im Uhrzeigersinn um den Draht."
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ordne nach der Größe und gib in Tesla an: $0{,}3\\,\\mathrm{mT}$, $80\\,\\mu\\mathrm{T}$, $0{,}02\\,\\mathrm{T}$.",
+          "tipp": "$1\\,\\mathrm{mT} = 0{,}001\\,\\mathrm{T}$, $1\\,\\mu\\mathrm{T} = 0{,}000001\\,\\mathrm{T}$.",
+          "loesung": "$80\\,\\mu\\mathrm{T} = 0{,}00008\\,\\mathrm{T}$ $<$ $0{,}3\\,\\mathrm{mT} = 0{,}0003\\,\\mathrm{T}$ $<$ $0{,}02\\,\\mathrm{T}$"
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Eine Spule liegt waagerecht vor dir. In den vorderen Teilen der Windungen fließen die Elektronen von oben nach unten. Bestimme, an welchem Ende der Nordpol liegt.",
+          "tipp": "Spulenregel: gekrümmte Finger der linken Hand in Elektronenflussrichtung um die Windungen.",
+          "loesung": "Finger vorne nach unten um die Windungen: Der Daumen zeigt nach links. Der Nordpol liegt am **linken** Ende. Kontrolle: Linke-Faust-Regel an einem vorderen Windungsteil, Daumen nach unten – im Innern zeigen die Finger nach links."
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechne die Flussdichte einer Spule ohne Kern: $N = 300$, $l = 12\\,\\mathrm{cm}$, $I = 1{,}5\\,\\mathrm{A}$.",
+          "tipp": "Länge in Meter einsetzen, $\\mu_r = 1$.",
+          "loesung": "$B = 1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}} \\cdot \\frac{1{,}5\\,\\mathrm{A} \\cdot 300}{0{,}12\\,\\mathrm{m}} \\approx 4{,}7 \\cdot 10^{-3}\\,\\mathrm{T} = 4{,}7\\,\\mathrm{mT}$"
+        },
+        {
+          "id": "N9-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ordne zu: Stator, Rotor, Kommutator, Bürsten – (1) dreht sich, (2) erzeugt das feste Magnetfeld, (3) polt den Strom im Rotor um, (4) führen dem Rotor den Strom zu.",
+          "tipp": "Rotor kommt von „rotieren“, Stator von „stehen“.",
+          "loesung": "(1) Rotor · (2) Stator · (3) Kommutator · (4) Bürsten"
+        },
+        {
+          "id": "N9-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Das Magnetfeld zeigt in die Zeichenebene hinein (×). Im Leiter fließen die Elektronen nach oben. Gib die Richtung der Kraft auf den Leiter an.",
+          "tipp": "Linke-Hand-Regel: Daumen Elektronen, Zeigefinger Feld, Mittelfinger Kraft.",
+          "loesung": "Daumen nach oben, Zeigefinger in die Zeichenebene: Der Mittelfinger zeigt nach **rechts**."
+        },
+        {
+          "id": "N9-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "In eine Spule ohne Kern wird ein Eisenkern mit $\\mu_r = 300$ geschoben, zugleich wird die Stromstärke verdoppelt. Gib an, um welchen Faktor sich die Flussdichte ändert.",
+          "tipp": "In der Spulenformel stehen $\\mu_r$ und $I$ beide als Faktor im Zähler.",
+          "loesung": "$\\mu_r$: Faktor 300, Stromstärke: Faktor 2. Zusammen $300 \\cdot 2 = 600$: $B$ wird 600-mal so groß."
+        },
+        {
+          "id": "N9-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Gleichstrommotor mit Dauermagnet dreht sich im Uhrzeigersinn. Gib an, wie er sich dreht, wenn (a) nur die Batterie umgepolt wird, (b) nur der Dauermagnet umgedreht wird.",
+          "tipp": "Was kehrt sich jeweils um – die Elektronenrichtung oder das Feld?",
+          "loesung": "(a) gegen den Uhrzeigersinn (Elektronenrichtung umgekehrt) · (b) gegen den Uhrzeigersinn (Feld umgekehrt). Jede einzelne Umkehrung kehrt die Kräfte um."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c9",
+        "c2",
+        "c4",
+        "c6",
+        "c7",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Taschenrechner und Regelheft, 20 Minuten. Jede Lösung enthält genau einen Fehler. Benenne ihn und stelle ihn richtig. $\\mu_0 = 1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}}$.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Daumen muss in Elektronenflussrichtung zeigen, also vom Minuspol zum Pluspol – nicht vom Pluspol zum Minuspol."
+        },
+        {
+          "id": "N10-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Elektronen fließen von oben (Minuspol) nach unten (Pluspol). Daumen nach unten: Die Feldlinien laufen von oben gesehen **gegen den Uhrzeigersinn**."
+        },
+        {
+          "id": "N10-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Länge wurde in cm statt in m eingesetzt: $l = 20\\,\\mathrm{cm} = 0{,}20\\,\\mathrm{m}$. Weil durch eine 100-mal zu große Zahl geteilt wurde, ist das Ergebnis 100-mal zu klein.\n\n$$B = 1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}} \\cdot \\frac{0{,}50\\,\\mathrm{A} \\cdot 400}{0{,}20\\,\\mathrm{m}} \\approx 1{,}3 \\cdot 10^{-3}\\,\\mathrm{T} = 1{,}3\\,\\mathrm{mT}$$"
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Durch den Kern fließt kein Strom – die Wicklung ist isoliert, der Strom fließt nur im Draht. Mit Leitfähigkeit hat die Verstärkung nichts zu tun.\n\nRichtig: Das Feld der Spule richtet die Elementarmagnete im Eisen aus. Der Kern wird selbst zum Magneten, sein Feld verstärkt das Feld der Spule."
+        },
+        {
+          "id": "N10-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Feldlinien verlaufen von N nach S, hier also nach rechts – der Zeigefinger muss nach rechts zeigen. Mit Daumen in die Zeichenebene zeigt der Mittelfinger dann **nach oben**."
+        },
+        {
+          "id": "N10-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Linke-Faust-Regel, Daumen in die Zeichenebene: Das Feld des Leiters läuft gegen den Uhrzeigersinn, über dem Leiter also nach links, unter ihm nach rechts. Das Feld der Pole zeigt nach rechts.\n\nÜber dem Leiter schwächen sich die Felder (entgegengesetzt), unter ihm verstärken sie sich. Der Leiter wird zur Seite des schwächeren Feldes gedrückt, also nach oben – das bestätigt das Ergebnis."
+        },
+        {
+          "id": "N10-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Kommutator kehrt nicht die Drehrichtung um, sondern die Elektronenrichtung im Rotor. Dadurch behält der Motor seine Drehrichtung bei."
+        },
+        {
+          "id": "N10-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Ohne Kommutator fließen die Elektronen in jeder Seite der Schleife immer in dieselbe Richtung, die Kräfte zeigen also immer in dieselbe Richtung. Ist die Schleife über die Stellung senkrecht zu den Feldlinien hinausgedreht, drehen diese Kräfte sie zurück – sie pendelt um diese Stellung und bleibt dort stehen."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Check-out: Was kann ich jetzt?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c7",
+        "c6",
+        "c4",
+        "c3",
+        "c2",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung. Vergleiche danach mit deinem Ergebnis aus N1.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Der Strom erzeugt Kreise von Feldlinien um das Kabel. Die Nadel richtet sich längs dieser Feldlinien aus, also quer zur Verbindungslinie zum Kabel.\n\n*A gewählt?* Ursache ist der Strom, nicht das Kupfer. *C gewählt?* Die Feldlinien laufen um das Kabel herum, nicht auf es zu. *D gewählt?* Das Feld besteht, solange Strom fließt. → **N2**"
+        },
+        {
+          "id": "N11-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Linke-Faust-Regel: Daumen aus der Zeichenebene heraus, die gekrümmten Finger zeigen im Uhrzeigersinn.\n\n*B gewählt?* Wahrscheinlich die falsche Hand. *A oder C gewählt?* Die Feldlinien eines Leiters sind geschlossene Kreise. → **N2**"
+        },
+        {
+          "id": "N11-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Außen ähnelt das Feld einer Spule dem eines Stabmagneten: An einem Ende Nordpol, am anderen Südpol, die Feldlinien laufen außen vom Nord- zum Südpol.\n\n*B gewählt?* Kreise gibt es nur dicht am einzelnen Draht. *C gewählt?* Parallele Feldlinien gibt es im Innern der Spule. *D gewählt?* Feldlinien sind geschlossen und laufen außen zurück. → **N3**"
+        },
+        {
+          "id": "N11-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Beim Ausschalten geraten die Elementarmagnete im Weicheisen wieder in Unordnung – der Magnet ist wirklich aus. Stahl bliebe magnetisch.\n\n*A oder D gewählt?* Durch den Kern fließt kein Strom. *B gewählt?* Weicheisen und Stahl sind etwa gleich schwer, es geht um die Magnetisierung. → **N4**"
+        },
+        {
+          "id": "N11-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Die Länge $l$ steht im Nenner der Spulenformel: halbe Länge, doppelte Flussdichte. Die Windungen liegen doppelt so dicht.\n\n*A gewählt?* Eine kürzere Spule ist nicht schwächer, $l$ steht im Nenner. *B gewählt?* Es kommt auf $\\frac{N}{l}$ an, nicht nur auf $N$. *C gewählt?* $l$ kommt nur einfach vor. → **N5**"
+        },
+        {
+          "id": "N11-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Die Lorentzkraft wirkt nur, wenn sich die Elektronen quer zu den Feldlinien bewegen. Parallel zum Feld ist sie null.\n\n*A oder D gewählt?* Die Lorentzkraft wirkt nie in Feldrichtung. *C gewählt?* Das gilt nur für einen Leiter quer zum Feld. → **N7**"
+        },
+        {
+          "id": "N11-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – In dieser Stellung zeigen die Kräfte auf die beiden Seiten in der Ebene der Schleife genau voneinander weg (oder aufeinander zu). Sie ziehen nur an der Achse und drehen nicht – die Schleife bleibt stehen, wenn sie keinen Schwung hat.\n\n*A gewählt?* Am stärksten drehen die Kräfte, wenn die Ebene parallel zu den Feldlinien liegt. *B gewählt?* Zurück drehen sie erst, wenn die Schleife über diese Stellung hinaus ist. *D gewählt?* Die Kräfte sind entgegengesetzt und verschieben die Schleife nicht. → **N8**"
+        },
+        {
+          "id": "N11-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Die Bürsten (meist aus Kohle) schleifen auf den Halbringen des Kommutators und führen dem Rotor den Strom zu.\n\n*B gewählt?* Der Stator erzeugt das feste Magnetfeld. *C gewählt?* Der Eisenkern verstärkt das Feld. *D gewählt?* An den Anschlussklemmen wird die Stromquelle angeschlossen, sie berühren den Rotor nicht. → **N8**"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Starthilfe am Auto",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c2",
+        "c1",
+        "c3",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner und Regelheft, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Magnetfeld von Leiter und Spule) – am besten nach N2 bis N3.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Starthilfe.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Elektronen verlassen die Spenderbatterie am Minuspol: Im **schwarzen Kabel** fließen sie vom Spenderauto zum Motorblock des anderen Autos, dann durch den Anlasser und im **roten Kabel** zurück zum Pluspol der Spenderbatterie."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Von oben gesehen fließen die Elektronen auf dich zu, aus der Zeichenebene heraus (•). Die Feldlinien sind konzentrische Kreise um das Kabel, innen dichter. Linke-Faust-Regel, Daumen nach oben: Sie laufen **im Uhrzeigersinn**.",
+          "loesung_bild": "img/V1-2a.png"
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der große Strom beim Anlassen erzeugt um das Kabel ein Magnetfeld, das nahe am Kabel stärker ist als das Erdmagnetfeld. Die Nadel richtet sich nach dem Gesamtfeld aus und zeigt nicht mehr nach Norden.\n\nNach dem Anlassen fließt nur noch ein kleinerer Strom, mit dem die leere Batterie geladen wird. Je kleiner der Strom, desto schwächer das Feld des Kabels: Das Erdmagnetfeld überwiegt wieder. Ganz verschwindet die Abweichung erst, wenn die Kabel abgeklemmt sind."
+        },
+        {
+          "id": "V1-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Kupfer ist nicht magnetisierbar. Vor dem Anlassen lag der Kompass schon neben demselben Kabel und zeigte richtig nach Norden.\n\nDie Nadel springt nur, solange Strom fließt: Ursache ist das Magnetfeld des elektrischen Stroms (wie im Ørsted-Versuch), nicht das Material des Kabels."
+        },
+        {
+          "id": "V1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Schlaufen bilden eine Spule. Die Felder der einzelnen Schlaufen überlagern sich: Im Innern zeigen sie in dieselbe Richtung, außen entsteht ein Feld wie bei einem Stabmagneten.\n\nSpulenregel: Finger vorne nach unten um die Schlaufen, der Daumen zeigt nach **links** – der Nordpol liegt links."
+        },
+        {
+          "id": "V1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Den Kompass dicht an das Kabel legen (am besten mit dem Kabel parallel über oder unter der Nadel) und beobachten: Dreht sich die Nadel aus der Nord-Süd-Richtung, fließt Strom. Zur Kontrolle vergleicht man mit dem Zustand, in dem sicher kein Strom fließt."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Die Brandschutztür mit Haftmagnet",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c4",
+        "c5",
+        "c6",
+        "c3",
+        "g1",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner und Regelheft, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Magnetfeld von Leiter und Spule, Elektromagnet und Flussdichte) – am besten nach N4 bis N6.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Brandschutztuer.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Haftmagnet ist ein Elektromagnet (Spule mit Eisenkern). Sein Feld richtet die Elementarmagnete in der Eisenplatte aus: Die Platte wird selbst zum Magneten.\n\nZur Haftfläche hin entsteht in der Platte der ungleichnamige Pol. Ungleichnamige Pole ziehen sich an – die Platte haftet."
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ein Elektromagnet lässt sich abschalten: Bei Rauch gibt er die Tür frei, und sie schließt sich. Ein Dauermagnet würde die Tür auch im Brandfall offen halten, Rauch und Feuer könnten sich im Flur ausbreiten.\n\nFällt der Strom aus, verliert der Elektromagnet ebenfalls seine Kraft, und die Tür schließt sich. Die Anlage geht also bei jeder Störung in den sicheren Zustand „Tür zu“."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$l = 0{,}060\\,\\mathrm{m}$, $I = 0{,}060\\,\\mathrm{A}$; wegen $l > d$ darf man die Formel der langen Spule als Näherung nehmen.\n\n$$B = 1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}} \\cdot 500 \\cdot \\frac{0{,}060\\,\\mathrm{A} \\cdot 1200}{0{,}060\\,\\mathrm{m}} \\approx 0{,}75\\,\\mathrm{T}$$\n\nModellgrenze: Ein echter Haftmagnet ist ein Topfmagnet mit Eisen auch außen herum, die Zahl ist nur eine Abschätzung."
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Ohne Kern ist $\\mu_r = 1$, $B$ ist 500-mal kleiner: $B \\approx \\frac{0{,}754\\,\\mathrm{T}}{500} \\approx 1{,}5 \\cdot 10^{-3}\\,\\mathrm{T} = 1{,}5\\,\\mathrm{mT}$"
+        },
+        {
+          "id": "V2-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$B$ ist proportional zu $I$ und zu $N$. Beide halbieren ergibt $\\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}$: $B \\approx 0{,}19\\,\\mathrm{T}$, nur ein Viertel. Der Magnet hält deutlich schwächer – die Aussage ist falsch."
+        },
+        {
+          "id": "V2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Spulenregel: Finger vorne nach oben um die Windungen, der Daumen zeigt nach rechts. An der Haftfläche (rechts) liegt der **Nordpol**."
+        },
+        {
+          "id": "V2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zum Beispiel: elektrische Klingel, Kran mit Lasthebemagnet für Eisenteile, Relais (ein Schalter, der mit Strom betätigt wird), Magnetventil in der Wasch- oder Spülmaschine (öffnet den Wasserzulauf)."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Der Motor im Staubsauger",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 25,
+      "hilfsmittel": "Taschenrechner, Regelheft",
+      "checkliste": [
+        "c9",
+        "c7",
+        "c8",
+        "c10",
+        "c4",
+        "c3",
+        "g1",
+        "g2",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Taschenrechner und Regelheft, 25 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Magnetfeld von Leiter und Spule, Elektromagnet und Flussdichte, Lorentzkraft und Elektromotor) – am besten nach N7 bis N10.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Staubsaugermotor.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "1 Stator (Elektromagnet aus Spule und Eisenkern) · 2 Rotor · 3 Kommutator · 4 Kohlebürsten"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Spulenregel: Finger vorne nach oben um die Windungen, der Daumen zeigt nach rechts. Im Eisenkern laufen die Feldlinien also nach rechts, um die Ecke nach unten und treten am rechten Ende aus: Dort ist der **Nordpol**, am linken Ende der **Südpol**.\n\nIm Spalt verlaufen die Feldlinien vom rechten Ende (N) quer durch den Rotor zum linken Ende (S), also nach links.",
+          "loesung_bild": "img/V3-1b.png"
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Feld nach links (von N rechts nach S links).\n\nLinker Leiter: Daumen in die Zeichenebene, Zeigefinger nach links – Mittelfinger **nach unten**. Rechter Leiter: Daumen aus der Zeichenebene, Zeigefinger nach links – Mittelfinger **nach oben**.\n\nLinks nach unten, rechts nach oben: Der Rotor dreht sich **gegen den Uhrzeigersinn**."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Rotor hat selbst einen Nord- und einen Südpol. Sein Nordpol wird vom Südpol des Stators angezogen und vom Nordpol des Stators abgestoßen, mit seinem Südpol ist es umgekehrt: Der Rotor dreht sich.\n\nKurz bevor die Pole des Rotors den ungleichnamigen Polen des Stators genau gegenüberstehen, polt der Kommutator den Strom im Rotor um. Seine Pole tauschen, und die Drehung geht weiter."
+        },
+        {
+          "id": "V3-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Je größer die Flussdichte $B$ des Statorfelds, desto größer ist die Kraft auf die Rotorleiter (nach $F = B \\cdot I \\cdot l$ ist $F$ proportional zu $B$). Deshalb hat der Stator einen Eisenkern."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Bürsten verbinden den drehenden Rotor über den Kommutator mit der Stromquelle. Ohne Kontakt fließt im Rotor kein Strom, auf seine Leiter wirkt keine Lorentzkraft mehr – der Motor bleibt stehen."
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Drehrichtung bleibt gleich. Stator und Rotor werden vom selben Strom durchflossen, beim Vertauschen kehrt sich deshalb die Elektronenrichtung in **beiden** Wicklungen um.\n\nDamit kehrt sich das Statorfeld um (Zeigefinger andersherum) und zugleich die Elektronenrichtung im Rotor (Daumen andersherum). Zwei Umkehrungen heben sich auf: Die Kräfte zeigen in dieselbe Richtung wie vorher.\n\nZusatz: Deshalb läuft dieser Motor auch an der Steckdose, wo die Stromrichtung ständig wechselt."
+        },
+        {
+          "id": "V3-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Der Motor wandelt elektrische Energie in Bewegungsenergie des Gebläses und in thermische Energie um. Die thermische Energie hilft beim Saugen nicht. Je mehr Energie in thermische Energie umgewandelt wird, desto weniger bleibt bei gleicher elektrischer Energie für das Gebläse. Ein heißer Motor deutet eher auf Überlastung hin (z. B. ein verstopfter Filter)."
+        }
+      ]
+    }
+  ]
+}

@@ -128,6 +128,13 @@
           "fach": "physik",
           "aktiv": true,
           "beschreibung": "Kraftwirkungen, Kräfte messen und als Pfeile darstellen, Masse und Gewichtskraft, Ortsfaktor, Hooke’sches Gesetz, Kräfte addieren, Kräfteparallelogramm, Kräftegleichgewicht, Hebelgesetz, Werkzeuge als Hebel"
+        },
+        {
+          "id": "elektromagnetismus",
+          "name": "Elektromagnetismus – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Magnete und Feldlinien, Erdmagnetfeld, Ørsted-Versuch, Feld von Leiter und Spule, Linke-Faust-Regel, Elektromagnet, magnetische Flussdichte, Spulenformel, Lorentzkraft, Linke-Hand-Regel, Elektromotor"
         }
       ]
     },
