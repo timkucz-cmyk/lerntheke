@@ -1,0 +1,1788 @@
+{
+  "version": 1,
+  "titel": "Elektromagnetische Wellen und Licht – Lerntheke vor dem Test",
+  "fach": "physik",
+  "anrede": "sie",
+  "hinweis": "Alle Stationen sind testrelevant. Sind Sie beim Vorwissen unsicher (Wellen, Interferenz, Induktion, Winkel im Dreieck, Zehnerpotenzen), beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt die typischen Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Licht als elektromagnetische Welle), V2 nach N3 bis N5 (Doppelspalt und Gitter), V3 nach N6 bis N10 (Spektren). N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11. Stationen mit der Marke eA (N12 bis N14 und V4) gehören zum erhöhten Niveau. Stellen Sie den Taschenrechner auf Gradmaß (DEG).",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Wellen mit Wellenlänge, Frequenz und Ausbreitungsgeschwindigkeit beschreiben (c = λ · f) und Transversal- und Längswellen unterscheiden"
+    },
+    {
+      "id": "g2",
+      "text": "Interferenz zweier Wellen mit dem Gangunterschied erklären (Verstärkung bei Δs = k · λ, Auslöschung bei Δs = (k − ½) · λ)"
+    },
+    {
+      "id": "g3",
+      "text": "Beugung an Spalten und Hindernissen mit dem Huygens’schen Prinzip erklären"
+    },
+    {
+      "id": "g4",
+      "text": "Elektrische und magnetische Felder beschreiben und erklären, wann ein sich änderndes Magnetfeld eine Spannung induziert"
+    },
+    {
+      "id": "g5",
+      "text": "Winkel und Strecken im rechtwinkligen Dreieck mit Sinus, Tangens und Pythagoras berechnen (Taschenrechner im Gradmaß)"
+    },
+    {
+      "id": "g6",
+      "text": "Mit Zehnerpotenzen und Vorsätzen rechnen (nm, µm, mm; kHz, MHz, GHz)"
+    },
+    {
+      "id": "c1",
+      "text": "Die Entstehung elektromagnetischer Wellen aus sich ändernden elektrischen und magnetischen Feldern qualitativ erklären (Maxwell, Schwingkreis und Hertz’scher Dipol)"
+    },
+    {
+      "id": "c2",
+      "text": "Eigenschaften elektromagnetischer Wellen beschreiben (Transversalwelle mit E ⊥ B ⊥ Ausbreitungsrichtung, Ausbreitung im Vakuum mit c ≈ 3,00 · 10⁸ m/s, c = λ · f) und die Polarisation als Nachweis der Transversalität nutzen"
+    },
+    {
+      "id": "c3",
+      "text": "Interferenz von Licht am Doppelspalt mit dem Huygens’schen Prinzip erklären, Bedingungen für Interferenz nennen (Kohärenz: Laser oder Lampe mit Filter und Einzelspalt) und damit die Wellennatur des Lichts begründen"
+    },
+    {
+      "id": "c4",
+      "text": "Die Lage von Maxima und Minima am Doppelspalt berechnen (Δs = d · sin αₖ, tan αₖ = aₖ/e bzw. sin αₖ = aₖ/√(e² + aₖ²)) und die Kleinwinkelnäherung λ = aₖ · d/(k · e) mit ihren Grenzen anwenden"
+    },
+    {
+      "id": "c5",
+      "text": "Die Wellenlänge von Licht mit Doppelspalt oder Gitter experimentell bestimmen und Messunsicherheiten beurteilen"
+    },
+    {
+      "id": "c6",
+      "text": "Interferenz am optischen Gitter beschreiben und berechnen (Gitterkonstante g, g · sin αₖ = k · λ, höchste Ordnung) und erklären, warum die Hauptmaxima schärfer und heller sind als am Doppelspalt"
+    },
+    {
+      "id": "c7",
+      "text": "Das Entstehen eines Spektrums bei Interferenz mit weißem Licht erklären (Maximum 0. Ordnung weiß, Violett innen, Rot außen, Überlappen höherer Ordnungen)"
+    },
+    {
+      "id": "c8",
+      "text": "Bereiche des elektromagnetischen Spektrums anhand von Wellenlänge, Frequenz und Energie (E = h · f) ordnen und typische Quellen und Anwendungen nennen"
+    },
+    {
+      "id": "c9",
+      "text": "Kontinuierliche Spektren, Emissions- und Absorptionsspektren unterscheiden und ihre Entstehung erklären (dichter heißer Körper, dünnes Gas, Energiestufen qualitativ, ΔE = h · f)"
+    },
+    {
+      "id": "c10",
+      "text": "Spektren nutzen, um Stoffe und Eigenschaften einer Lichtquelle zu bestimmen (Flammen, Atmosphären, glühende Körper)"
+    },
+    {
+      "id": "c11",
+      "text": "Interferenz am Einzelspalt mit monochromatischem Licht erklären und berechnen (Minima b · sin αₖ = k · λ, Breite des Hauptmaximums, Einfluss der Spaltbreite beim Doppelspalt)",
+      "niveau": "ea"
+    },
+    {
+      "id": "c12",
+      "text": "Aufbau und Funktionsweise eines Michelson-Interferometers mit Licht beschreiben und damit Wellenlängen und kleine Längenänderungen bestimmen",
+      "niveau": "ea"
+    },
+    {
+      "id": "c13",
+      "text": "Vom Schwingkreis zum Hertz’schen Dipol quantitativ: Eigenfrequenz T = 2π · √(L · C), Grundfrequenz des Dipols f = c/(2ℓ), Lichtgeschwindigkeit c = 1/√(ε₀ · μ₀)",
+      "niveau": "ea"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Vorwissen: Wellen, Interferenz, Felder, Dreiecke und Einheiten",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Licht als elektromagnetische Welle",
+      "untertitel": "Maxwell, Hertz’scher Dipol, Eigenschaften, Polarisation (eA: Schwingkreis und Dipol quantitativ)",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c13"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Doppelspalt und Gitter",
+      "untertitel": "Interferenz, Maxima und Minima, Wellenlängen messen, Gitter (eA: Einzelspalt, Michelson-Interferometer)",
+      "farbe": "orange",
+      "checkliste": [
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c11",
+        "c12"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Spektren",
+      "untertitel": "Weißes Licht am Gitter, EM-Spektrum, Emission und Absorption, Spektralanalyse",
+      "farbe": "gruen",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c9",
+        "c10"
+      ]
+    }
+  ],
+  "abschluss": "Test",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeiten Sie die Blöcke, bei denen Sie in der Selbsteinschätzung unsicher sind. Lücken schließen Sie danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\lambda = \\frac{c}{f} = \\frac{1480\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{35 \\cdot 10^{3}\\,\\mathrm{Hz}} \\approx 0{,}042\\,\\mathrm{m} = 4{,}2\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Schall im Wasser ist eine Längswelle (Longitudinalwelle): Die Wasserteilchen schwingen in Ausbreitungsrichtung hin und her (Verdichtungen und Verdünnungen). Bei einer Transversalwelle schwingen sie senkrecht zur Ausbreitungsrichtung."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\Delta s = 24{,}0\\,\\mathrm{m} - 18{,}0\\,\\mathrm{m} = 6{,}0\\,\\mathrm{m}$, $\\frac{6{,}0\\,\\mathrm{m}}{4{,}0\\,\\mathrm{m}} = 1{,}5$, also $\\Delta s = 1{,}5 \\cdot \\lambda$"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei $\\Delta s = 1{,}5 \\cdot \\lambda = \\left(k - \\frac{1}{2}\\right) \\cdot \\lambda$ mit $k = 2$ trifft ein Wellenberg der einen Welle auf ein Wellental der anderen: Auslöschung. Die Schwimmerin schaukelt kaum (bei gleich hohen Wellen gar nicht)."
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Jeder Punkt einer Wellenfront ist Ausgangspunkt einer kreisförmigen (im Raum: kugelförmigen) Elementarwelle. Die neue Wellenfront ist die Einhüllende aller Elementarwellen."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Schmale Lücke: Hinter der Lücke laufen fast kreisförmige Wellen in alle Richtungen (starke Beugung) – die Lücke wirkt wie ein einziges Zentrum einer Elementarwelle.\n\nBreite Lücke: Die Wellenfronten bleiben in der Mitte gerade, nur an den Rändern biegen sie in den Schattenraum (schwache Beugung).",
+          "loesung_bild": "img/G1-3b.png"
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Das Magnetfeld in der Spule (genauer: der magnetische Fluss durch die Spule) muss sich ändern."
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Feld des ruhenden Dauermagneten ist zeitlich konstant: keine Änderung, keine Induktion. Der Wechselstrom in der Spule der Station erzeugt ein Magnetfeld, das ständig Stärke und Richtung ändert; dadurch wird in der Spule des Handys eine Wechselspannung induziert."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\tan\\alpha = \\frac{0{,}15\\,\\mathrm{m}}{2{,}00\\,\\mathrm{m}} = 0{,}075 \\Rightarrow \\alpha \\approx 4{,}29°$"
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sin(4{,}29°) \\approx 0{,}0748$ – fast gleich $\\tan\\alpha = 0{,}0750$ (Unterschied etwa $0{,}3\\,\\%$). Bei kleinen Winkeln gilt $\\sin\\alpha \\approx \\tan\\alpha$."
+        },
+        {
+          "id": "G1-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$488\\,\\mathrm{nm} = 4{,}88 \\cdot 10^{-7}\\,\\mathrm{m}$, $2{,}4\\,\\mathrm{GHz} = 2{,}4 \\cdot 10^{9}\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "G1-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{1\\,\\mathrm{mm}}{1200} \\approx 8{,}33 \\cdot 10^{-4}\\,\\mathrm{mm} = 0{,}833\\,\\mathrm{\\mu m} = 833\\,\\mathrm{nm}$"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Wellen, Felder und Dreiecke",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 13,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g2",
+        "g1",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 13 Minuten. Übt die typischen Lücken aus G1: c = λ · f, Verstärkung und Auslöschung, Winkel im Dreieck (Gradmaß), Einheiten, Induktion und Beugung.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$c = \\lambda \\cdot f \\Rightarrow f = \\frac{c}{\\lambda} = \\frac{340\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{0{,}50\\,\\mathrm{m}} = 680\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "P: $\\frac{1{,}00\\,\\mathrm{m}}{0{,}40\\,\\mathrm{m}} = 2{,}5$, also $\\Delta s = 2{,}5 \\cdot \\lambda$. Q: $\\frac{1{,}20\\,\\mathrm{m}}{0{,}40\\,\\mathrm{m}} = 3{,}0$, also $\\Delta s = 3 \\cdot \\lambda$."
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "In P ist $\\Delta s = \\left(k - \\frac{1}{2}\\right) \\cdot \\lambda$ mit $k = 3$: Berg trifft auf Tal, Auslöschung. In Q ist $\\Delta s = k \\cdot \\lambda$ mit $k = 3$: Berg trifft auf Berg, Verstärkung."
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Gleiche Einheiten: $\\tan\\alpha = \\frac{0{,}024\\,\\mathrm{m}}{1{,}60\\,\\mathrm{m}} = 0{,}015 \\Rightarrow \\alpha \\approx 0{,}859°$"
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zwei Fehler führen auf diese Zahl (beide zählen als richtige Erklärung):\n\n- Der Taschenrechner stand im Bogenmaß (RAD): $0{,}0150$ ist der Winkel im Bogenmaß ($0{,}0150 \\cdot \\frac{180°}{\\pi} \\approx 0{,}859°$). Für Winkel in Grad muss der Rechner auf DEG stehen.\n- Oder der Arkustangens wurde vergessen: $0{,}0150$ ist der Wert von $\\tan\\alpha$, nicht der Winkel. Erst $\\tan^{-1}(0{,}0150) \\approx 0{,}859°$ liefert $\\alpha$."
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$405\\,\\mathrm{nm} = 4{,}05 \\cdot 10^{-7}\\,\\mathrm{m}$, $0{,}15\\,\\mathrm{mm} = 1{,}5 \\cdot 10^{-4}\\,\\mathrm{m}$"
+        },
+        {
+          "id": "G2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nur solange sich das Magnetfeld in der Spule ändert: wenn der Magnet hinein- oder herausbewegt oder gedreht wird (schneller → größere Spannung). Ruht der Magnet in der Spule, ändert sich nichts – keine Spannung."
+        },
+        {
+          "id": "G2-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Hinter Lücke A: Sie ist schmaler als die Wellenlänge und wirkt wie ein einziges Zentrum einer Elementarwelle – dahinter läuft eine Kreiswelle in alle Richtungen. Hinter der breiten Lücke B ($15\\,\\mathrm{cm} \\gg 2{,}0\\,\\mathrm{cm}$) bleiben die Fronten weitgehend gerade, nur die Ränder biegen etwas in den Schatten."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Licht und EM-Wellen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c8",
+        "c3",
+        "c4",
+        "c6",
+        "c7",
+        "c9"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Ein sich änderndes Magnetfeld erzeugt ein elektrisches Feld und umgekehrt (Maxwell). Die Felder selbst schwingen; ein Medium ist nicht nötig.\n\n*A oder D gewählt?* Schall braucht Teilchen als Träger, eine elektromagnetische Welle nicht. *B gewählt?* Die Geschwindigkeit erklärt nicht, warum ohne Medium überhaupt eine Welle läuft. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "N1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Elektromagnetische Wellen sind Transversalwellen: $\\vec{E}$ und $\\vec{B}$ stehen senkrecht zueinander und senkrecht zur Ausbreitungsrichtung.\n\n*B gewählt?* Das wäre eine Längswelle wie Schall. *C gewählt?* E- und B-Feld stehen senkrecht aufeinander. *D gewählt?* Beide Felder schwingen und erzeugen sich gegenseitig. → **N2** Aufgabe 3"
+        },
+        {
+          "id": "N1-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Alle elektromagnetischen Wellen breiten sich im Vakuum mit $c \\approx 3 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ aus. Röntgenstrahlung hat eine viel kleinere Wellenlänge, nach $c = \\lambda \\cdot f$ also eine höhere Frequenz (und Energie $E = h \\cdot f$).\n\n*A oder B gewählt?* Energie und Wellenlänge ändern nichts an $c$. *C gewählt?* Röntgenstrahlung liegt bei sehr kleinen Wellenlängen. → **N7** Aufgabe 2"
+        },
+        {
+          "id": "N1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Von beiden Spalten gehen Elementarwellen aus, die sich überlagern: Wo der Gangunterschied ein Vielfaches von $\\lambda$ ist, entstehen helle Maxima, dazwischen dunkle Minima; in der Mitte liegt ein Maximum.\n\n*A oder D gewählt?* So sähe es nach dem Teilchenmodell aus. *C gewählt?* Ohne Interferenz gäbe es keine Streifen; das Streifenmuster zeigt die Wellennatur. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "N1-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $a_k \\approx \\frac{k \\cdot \\lambda \\cdot e}{d}$: Der Abstand ist umgekehrt proportional zu $d$. Bei größerem Spaltabstand reicht schon ein kleinerer Winkel für den Gangunterschied $\\lambda$.\n\n*A oder C gewählt?* Größeres $d$ rückt die Maxima zusammen. *B gewählt?* $d$ steht in der Formel. → **N3** Aufgabe 3"
+        },
+        {
+          "id": "N1-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Die Lage der Hauptmaxima hängt nur von $g$ und $\\lambda$ ab ($g \\cdot \\sin\\alpha_k = k \\cdot \\lambda$), nicht von der Zahl der Spalte. Schon kleine Abweichungen vom Maximumswinkel führen bei vielen Spalten zur Auslöschung: Die Maxima werden schmal und hell.\n\n*B oder C gewählt?* Bei gleichem Spaltabstand bleiben die Winkel gleich. *D gewählt?* In den Hauptmaxima verstärken sich alle Wellen. → **N5** Aufgabe 2"
+        },
+        {
+          "id": "N1-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Nach $g \\cdot \\sin\\alpha_1 = \\lambda$ wird die größte Wellenlänge am stärksten abgelenkt: Rot (etwa $700\\,\\mathrm{nm}$) liegt außen, Violett (etwa $400\\,\\mathrm{nm}$) innen.\n\n*A gewählt?* Das gilt beim Prisma, nicht am Gitter. *B gewählt?* Grün liegt in der Mitte des Spektrums. *D gewählt?* Nur im Maximum 0. Ordnung ($\\alpha = 0$) treffen alle Farben zusammen. → **N6** Aufgabe 2"
+        },
+        {
+          "id": "N1-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Ein Atom absorbiert genau die Wellenlängen, die es auch aussenden kann: Die Energie $\\Delta E = h \\cdot f$ passt zu einem Sprung zwischen zwei Energiestufen.\n\n*A gewählt?* Umgekehrt: Die dunklen Linien liegen genau an den Stellen der hellen Linien des Emissionsspektrums. *C gewählt?* Die Linien entstehen durch Absorption im Gas. *D gewählt?* Die Lampe liefert ein kontinuierliches Spektrum. → **N8** Aufgabe 1"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Entstehung und Eigenschaften elektromagnetischer Wellen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c1",
+        "c2",
+        "g4",
+        "g1",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. $c = 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Entstehung_Eigenschaften.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "1. Ein sich zeitlich änderndes Magnetfeld erzeugt ein elektrisches Feld.\n\n2. Ein sich zeitlich änderndes elektrisches Feld erzeugt ein Magnetfeld."
+        },
+        {
+          "id": "N2-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ändert sich an einem Ort das elektrische Feld, entsteht ringsum ein sich änderndes Magnetfeld. Dieses erzeugt seinerseits ein sich änderndes elektrisches Feld – etwas weiter außen. So erzeugen sich die beiden Felder ständig gegenseitig neu; die Störung breitet sich mit Lichtgeschwindigkeit aus.\n\nDie Felder brauchen keinen Träger: Die Welle löst sich vom Sender ab und läuft auch durch das Vakuum."
+        },
+        {
+          "id": "N2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Das elektrische Feld sitzt zwischen den Kondensatorplatten, das magnetische Feld in der Spule. Bei $t = 0$ (Kondensator voll) steckt die Energie im elektrischen Feld, nach $\\frac{T}{4}$ (Strom am größten) im magnetischen Feld, nach $\\frac{T}{2}$ wieder im elektrischen Feld (umgekehrt gepolt) usw."
+        },
+        {
+          "id": "N2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Im geschlossenen Schwingkreis bleiben die Felder auf den engen Raum zwischen den Platten bzw. in der Spule beschränkt. Beim Aufbiegen reichen das elektrische Feld (zwischen den beiden Stabhälften) und das magnetische Feld (rings um den Stab mit dem Strom) weit in den Raum hinaus. Dort ändern sie sich ständig und lösen sich als Welle vom Dipol ab."
+        },
+        {
+          "id": "N2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\lambda = \\frac{c}{f} = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{434 \\cdot 10^{6}\\,\\mathrm{Hz}} \\approx 0{,}691\\,\\mathrm{m} = 69{,}1\\,\\mathrm{cm}$ – daher der Name Dezimeterwellen."
+        },
+        {
+          "id": "N2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der senkrechte Sendedipol erzeugt eine Welle, deren elektrisches Feld senkrecht schwingt (linear polarisiert); das Magnetfeld schwingt waagerecht, beide quer zur Ausbreitungsrichtung.\n\nEmpfangsdipol: Nur das elektrische Feld längs des Stabs treibt die Elektronen im Stab hin und her. Senkrecht: volle Wirkung. Waagerecht steht der Stab senkrecht zum E-Feld – kein Strom, das Lämpchen bleibt dunkel.\n\nGitter: Senkrechte Stäbe liegen parallel zum E-Feld. Die Elektronen in ihnen werden angetrieben, nehmen Energie auf und strahlen eine Gegenwelle ab – die Welle wird abgeschirmt. Waagerechte Stäbe liegen quer zum E-Feld; die Elektronen können sich quer zum Stab kaum bewegen, die Welle geht durch.\n\nBei einer Längswelle gäbe es keine bevorzugte Richtung quer zur Ausbreitung; Drehen hätte keine Wirkung."
+        },
+        {
+          "id": "N2-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch. Bei einer elektromagnetischen Welle schwingen keine Teilchen, sondern die elektrische Feldstärke und die magnetische Flussdichte. Deshalb braucht sie kein Medium: Sonnenlicht kommt durch das Vakuum, Schall nicht. Außerdem ist sie eine Transversalwelle, Schall in Luft eine Längswelle. Richtig ist nur, dass sie viel schneller ist: $3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ statt etwa $340\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$."
+        },
+        {
+          "id": "N2-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Zu weit gegriffen. Polarisierbarkeit zeigt nur, dass Licht eine Transversalwelle ist – auch eine Seilwelle lässt sich polarisieren. Dass Licht eine elektromagnetische Welle ist, zeigen erst weitere Befunde: dieselbe Geschwindigkeit $c$ wie die Wellen eines Dipols, Ausbreitung im Vakuum, gleiches Verhalten (Reflexion, Brechung, Interferenz, Polarisation) wie Dezimeterwellen. Die Polarisation ist ein Baustein der Begründung, kein Beweis allein."
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "titel": "eA: Vom Schwingkreis zum Dipol",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c13",
+        "c1",
+        "c2",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR und Formeldokument zugelassen, 16 Minuten. Am besten nach N2. $c = 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$.",
+      "bild": "img/st_N12.svg",
+      "pdf": "pdf/N12_eA_Dipol.pdf",
+      "aufgaben": [
+        {
+          "id": "N12-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Rechnung: $f = \\frac{1}{2\\pi \\cdot \\sqrt{10 \\cdot 10^{-9}\\,\\mathrm{H} \\cdot 3{,}36 \\cdot 10^{-12}\\,\\mathrm{F}}} \\approx 8{,}68 \\cdot 10^{8}\\,\\mathrm{Hz} = 868\\,\\mathrm{MHz}$"
+        },
+        {
+          "id": "N12-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Beim Aufbiegen rücken die Kondensatorplatten auseinander und schrumpfen zu den Stabenden: $C$ wird kleiner. Aus der Spule wird ein gerader Draht: $L$ wird kleiner. Nach $f = \\frac{1}{2\\pi \\cdot \\sqrt{L \\cdot C}}$ wächst $f$, wenn $L \\cdot C$ kleiner wird."
+        },
+        {
+          "id": "N12-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Zutreffend. Die beiden Stabhälften wirken als Kondensator (Ladungen an den Enden, E-Feld dazwischen), der Stab selbst als Spule (Strom, B-Feld rings um den Stab). Kapazität und Induktivität sind über den ganzen Stab verteilt, nicht mehr als Bauteile getrennt. Ein Unterschied bleibt: Der Dipol strahlt seine Energie ab und schwingt ohne Nachschub stark gedämpft."
+        },
+        {
+          "id": "N12-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\ell = \\frac{c}{2f} = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{2 \\cdot 868 \\cdot 10^{6}\\,\\mathrm{Hz}} \\approx 0{,}173\\,\\mathrm{m} = 17{,}3\\,\\mathrm{cm}$ – eine halbe Wellenlänge ($\\lambda \\approx 34{,}6\\,\\mathrm{cm}$)."
+        },
+        {
+          "id": "N12-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Strom läuft auf dem Stab hin und her und wird an den Enden reflektiert. An den offenen Enden kann kein Strom fließen (Knoten), in der Mitte ist er am größten (Bauch). Die einfachste stehende Welle hat Knoten an beiden Enden; dazwischen passt eine halbe Wellenlänge: $\\ell = \\frac{\\lambda}{2}$, also $f = \\frac{c}{\\lambda} = \\frac{c}{2\\ell}$."
+        },
+        {
+          "id": "N12-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Stromstärke: Bauch in der Mitte, Knoten an den Enden. Ladung: Knoten in der Mitte, Bäuche an den Enden (dort sammeln sich abwechselnd positive und negative Ladungen).\n\nDas Magnetfeld umgibt den Strom und ist um die Mitte des Stabs am stärksten; das elektrische Feld reicht von einem Stabende zum anderen und ist an den Enden am stärksten. Strom und Ladung sind zeitlich um $\\frac{T}{4}$ gegeneinander verschoben.",
+          "loesung_bild": "img/N12-4.png"
+        },
+        {
+          "id": "N12-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Rechnung: $c = \\frac{1}{\\sqrt{8{,}854 \\cdot 10^{-12} \\cdot 1{,}257 \\cdot 10^{-6}}}\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\approx 2{,}998 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$\n\nDie Geschwindigkeit der elektromagnetischen Welle folgt allein aus den Feldkonstanten der Elektrizitätslehre – und stimmt mit der gemessenen Lichtgeschwindigkeit überein. Daraus schloss Maxwell, dass Licht eine elektromagnetische Welle ist."
+        },
+        {
+          "id": "N12-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$2{,}4\\,\\mathrm{GHz}$: $\\lambda = 12{,}5\\,\\mathrm{cm}$, $\\frac{\\lambda}{2} = 6{,}25\\,\\mathrm{cm}$ – passt ins Gehäuse.\n\n$153\\,\\mathrm{kHz}$: $\\lambda \\approx 1960\\,\\mathrm{m}$, $\\frac{\\lambda}{2} \\approx 980\\,\\mathrm{m}$ – ein so langer Dipol ist kaum zu bauen. Man nimmt kürzere senkrechte Masten über dem leitenden Erdboden (der Boden ersetzt die zweite Hälfte, $\\frac{\\lambda}{4}$ genügt) und verlängert sie elektrisch mit Spulen; dafür strahlen sie schlechter ab.\n\nFazit: Die Antennenlänge richtet sich nach der Wellenlänge; bei sehr großen Wellenlängen muss man Kompromisse eingehen."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Der Doppelspalt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 21,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c3",
+        "c4",
+        "g2",
+        "g3",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR (Gradmaß) und Formeldokument zugelassen, 21 Minuten.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Doppelspalt.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Teilchenmodell: zwei helle Streifen genau hinter den beiden Spalten, sonst dunkel.\n\nWellenmodell: viele helle Streifen (Maxima) in gleichen Abständen mit dunklen Streifen dazwischen; in der Mitte – hinter dem Steg zwischen den Spalten – liegt das helle Maximum 0. Ordnung.",
+          "loesung_bild": "img/N3-1a.png"
+        },
+        {
+          "id": "N3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ein ortsfestes Interferenzmuster entsteht nur mit kohärenten Wellen: gleiche Wellenlänge und feste Phasenbeziehung. Der Farbfilter lässt nur einen schmalen Wellenlängenbereich durch (sonst überlagern sich die Muster vieler Farben). Der Einzelspalt macht aus der ausgedehnten Lampe eine schmale Quelle: Von ihm geht eine Elementarwelle aus, die beide Spalte gleichphasig erreicht.\n\nLaserlicht hat schon eine einzige Wellenlänge und ist über den ganzen Strahlquerschnitt kohärent – beide Spalte werden gleichphasig beleuchtet."
+        },
+        {
+          "id": "N3-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Weil der Schirm weit entfernt ist ($e \\gg d$), laufen die Strahlen von $S_1$ und $S_2$ zum Punkt $P$ fast parallel. Fällt man von $S_1$ das Lot auf den Strahl von $S_2$, entsteht ein kleines rechtwinkliges Dreieck mit der Hypotenuse $d$ und der Gegenkathete $\\Delta s$. Sein Winkel bei $S_1$ ist gleich dem Winkel $\\alpha$ zwischen Strahl und Mittelachse (Schenkel paarweise senkrecht). Also $\\sin\\alpha = \\frac{\\Delta s}{d}$, d. h. $\\Delta s = d \\cdot \\sin\\alpha$."
+        },
+        {
+          "id": "N3-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Kleine Winkel: $a_1 = \\frac{\\lambda \\cdot e}{d} = \\frac{515 \\cdot 10^{-9}\\,\\mathrm{m} \\cdot 3{,}60\\,\\mathrm{m}}{0{,}18 \\cdot 10^{-3}\\,\\mathrm{m}} \\approx 1{,}03 \\cdot 10^{-2}\\,\\mathrm{m} = 10{,}3\\,\\mathrm{mm}$\n\nErstes Minimum ($k = 1$): $d \\cdot \\sin\\alpha = \\frac{1}{2} \\cdot \\lambda$, also der halbe Abstand: $5{,}15\\,\\mathrm{mm} \\approx 5{,}2\\,\\mathrm{mm}$.\n\n(Gleichwertig: $\\sin\\alpha_1 = \\frac{\\lambda}{d}$, $\\alpha_1 \\approx 0{,}164°$, $a_1 = e \\cdot \\tan\\alpha_1$.)"
+        },
+        {
+          "id": "N3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei kleinen Winkeln wächst der Gangunterschied proportional zum Abstand $a$ von der Mitte ($\\Delta s \\approx d \\cdot \\frac{a}{e}$). Im Maximum 0. Ordnung ist $\\Delta s = 0$, im Maximum 1. Ordnung $\\Delta s = \\lambda$. Auf halbem Weg ist $\\Delta s = \\frac{\\lambda}{2}$: Wellenberg trifft auf Wellental, Auslöschung."
+        },
+        {
+          "id": "N3-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Halber Abstand: $a_3 = \\frac{76{,}8\\,\\mathrm{mm}}{2} = 38{,}4\\,\\mathrm{mm}$\n\nKleinwinkelnäherung $\\lambda = \\frac{a_3 \\cdot d}{3 \\cdot e}$:\n\n$\\lambda = \\frac{38{,}4 \\cdot 10^{-3}\\,\\mathrm{m} \\cdot 0{,}18 \\cdot 10^{-3}\\,\\mathrm{m}}{3 \\cdot 3{,}60\\,\\mathrm{m}} = 640\\,\\mathrm{nm}$"
+        },
+        {
+          "id": "N3-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Näherung: $\\lambda = \\frac{a_3 \\cdot d}{3 \\cdot e} = \\frac{1{,}17\\,\\mathrm{m} \\cdot 5{,}0 \\cdot 10^{-6}\\,\\mathrm{m}}{3 \\cdot 3{,}60\\,\\mathrm{m}} \\approx 542\\,\\mathrm{nm}$ – rund $5\\,\\%$ zu groß.\n\nExakt: $\\tan\\alpha_3 = \\frac{1{,}17}{3{,}60} = 0{,}325$, $\\alpha_3 \\approx 18{,}0°$, $\\lambda = \\frac{d \\cdot \\sin\\alpha_3}{3} \\approx 515\\,\\mathrm{nm}$.\n\nBei $18°$ unterscheiden sich $\\sin\\alpha$ und $\\tan\\alpha$ deutlich; die Näherung ist hier nicht zulässig. Sie ist gut, solange die Winkel klein sind (wenige Grad, z. B. $0{,}16°$ in Aufgabe 3)."
+        },
+        {
+          "id": "N3-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch. Mit einem Spalt gibt es keine Interferenz zweier Wellen mehr: Das Streifenmuster verschwindet, es bleibt ein breiter, gleichmäßig verlaufender heller Bereich (Beugung am einzelnen Spalt). An den Stellen der früheren Minima wird es dadurch heller (vorher dunkel), an den Stellen der Maxima dunkler. „Überall halb so hell“ gälte nur, wenn sich die Helligkeiten der beiden Spalte einfach addierten – das widerspricht der Interferenz."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Experiment oder Simulation: Wellenlänge eines Lasers",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 18,
+      "hilfsmittel": "Material oder Simulation, WTR",
+      "checkliste": [
+        "c5",
+        "c4",
+        "c3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Partnerarbeit, 18 Minuten, WTR. Material: Laser, Doppelspalt-Dia, Schirm, Maßband – oder die Simulation „Wellen-Interferenz“ (PhET, Bildschirm mit Spalten, Licht). Ohne Material und Simulation überspringen Sie Aufgabe 2 und werten in Aufgabe 3 die Beispielmessung aus. Nie in den Laserstrahl blicken.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Wellenlaenge_messen.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Laser – Doppelspalt (senkrecht zum Strahl) – Schirm in mehreren Metern Abstand. Messgrößen: Abstand Doppelspalt–Schirm $e$ (Maßband), Abstand zwischen den Maxima $k$-ter Ordnung links und rechts der Mitte (Lineal am Schirm), Ordnung $k$; der Spaltabstand $d$ steht auf dem Dia (Herstellerangabe)."
+        },
+        {
+          "id": "N4-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Individuelle Messung. Kriterien: $e$ möglichst groß (mehrere Meter); Abstand zwischen den Maxima $+k$ und $-k$ messen und halbieren; für jedes $k$ $\\lambda = \\frac{a_k \\cdot d}{k \\cdot e}$ berechnen; Mittelwert bilden. Rote Laser liegen meist zwischen $630\\,\\mathrm{nm}$ und $660\\,\\mathrm{nm}$. In der Simulation ist die Wellenlänge einstellbar: Ergebnis mit dem eingestellten Wert vergleichen."
+        },
+        {
+          "id": "N4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$a_1 = \\frac{23{,}8\\,\\mathrm{mm}}{2} = 11{,}9\\,\\mathrm{mm}$\n\nRechnung: $\\lambda = \\frac{a_1 \\cdot d}{1 \\cdot e} = \\frac{11{,}9 \\cdot 10^{-3}\\,\\mathrm{m} \\cdot 0{,}15 \\cdot 10^{-3}\\,\\mathrm{m}}{2{,}80\\,\\mathrm{m}} \\approx 638\\,\\mathrm{nm}$"
+        },
+        {
+          "id": "N4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$k = 2$: $a_2 = 23{,}7\\,\\mathrm{mm}$, $\\lambda = \\frac{23{,}7 \\cdot 10^{-3}\\,\\mathrm{m} \\cdot 0{,}15 \\cdot 10^{-3}\\,\\mathrm{m}}{2 \\cdot 2{,}80\\,\\mathrm{m}} \\approx 635\\,\\mathrm{nm}$\n\n$k = 3$: $a_3 = 35{,}6\\,\\mathrm{mm}$, $\\lambda \\approx 636\\,\\mathrm{nm}$\n\nMittelwert: $\\bar{\\lambda} = \\frac{638 + 635 + 636}{3}\\,\\mathrm{nm} \\approx 636\\,\\mathrm{nm}$"
+        },
+        {
+          "id": "N4-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Mitte des Maximums 0. Ordnung lässt sich schlecht genau festlegen. Der Abstand zweier gleichartiger Maxima ist doppelt so groß und lässt sich genauer messen (gleicher Ablesefehler auf doppelter Strecke); außerdem gleicht er eine leicht schiefe Lage des Schirms aus."
+        },
+        {
+          "id": "N4-3d",
+          "label": "3d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Größter Winkel: $\\tan\\alpha_3 = \\frac{35{,}6\\,\\mathrm{mm}}{2800\\,\\mathrm{mm}} \\approx 0{,}0127$, $\\alpha_3 \\approx 0{,}73°$. Bei so kleinen Winkeln sind $\\sin\\alpha$ und $\\tan\\alpha$ praktisch gleich – die Näherung ist zulässig."
+        },
+        {
+          "id": "N4-3e",
+          "label": "3e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Relative Unsicherheit der Abstände: $\\frac{1\\,\\mathrm{mm}}{23{,}8\\,\\mathrm{mm}} \\approx 4\\,\\%$ ($k = 1$) bis $\\frac{1\\,\\mathrm{mm}}{71{,}2\\,\\mathrm{mm}} \\approx 1{,}4\\,\\%$ ($k = 3$). $e$ ist mit etwa $\\pm 1\\,\\mathrm{cm}$ auf $2{,}80\\,\\mathrm{m}$ ($0{,}4\\,\\%$) viel genauer bekannt.\n\nDie Ablesung am Schirm ist die größte Fehlerquelle; die 3. Ordnung liefert den zuverlässigsten Wert. Die drei Werte stimmen im Rahmen dieser Unsicherheit überein. Unsicher bleibt die Herstellerangabe $d$ – ein Fehler darin verschiebt alle Werte gleich."
+        },
+        {
+          "id": "N4-3f",
+          "label": "3f",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Das Streifenmuster mit Maxima und Minima entsteht durch Interferenz – das erklärt nur das Wellenmodell; nach dem Teilchenmodell gäbe es nur zwei helle Streifen. Das Experiment stützt also das Wellenmodell und liefert sogar die Wellenlänge. Ob Licht darüber hinaus weitere Eigenschaften hat, kann dieses Experiment nicht entscheiden."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Das optische Gitter",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c6",
+        "c4",
+        "c5",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR (Gradmaß) und Formeldokument zugelassen, 20 Minuten.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Gitter.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$g = \\frac{1\\,\\mathrm{mm}}{400} = 2{,}5 \\cdot 10^{-3}\\,\\mathrm{mm} = 2{,}5\\,\\mathrm{\\mu m}$\n\n$\\sin\\alpha_1 = \\frac{\\lambda}{g} = \\frac{0{,}405\\,\\mathrm{\\mu m}}{2{,}5\\,\\mathrm{\\mu m}} = 0{,}162 \\Rightarrow \\alpha_1 \\approx 9{,}32°$"
+        },
+        {
+          "id": "N5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\sin\\alpha_2 = \\frac{2 \\cdot 0{,}405}{2{,}5} = 0{,}324 \\Rightarrow \\alpha_2 \\approx 18{,}9°$\n\nHöchste Ordnung: $\\sin\\alpha_k \\le 1$, also $k \\le \\frac{g}{\\lambda} = \\frac{2{,}5}{0{,}405} \\approx 6{,}2$. Es gibt Hauptmaxima bis $k = 6$ auf jeder Seite (die äußeren unter großen Winkeln, auf einem ebenen Schirm nicht mehr zu sehen)."
+        },
+        {
+          "id": "N5-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$a_1 = e \\cdot \\tan\\alpha_1 = 1{,}50\\,\\mathrm{m} \\cdot \\tan(9{,}32°) \\approx 0{,}246\\,\\mathrm{m} = 24{,}6\\,\\mathrm{cm}$\n\n(Mit der Kleinwinkelnäherung erhält man $24{,}3\\,\\mathrm{cm}$ – wie gut die Näherung am Gitter ist, untersucht Aufgabe 3.)"
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Heller: Im Hauptmaximum sind die Wellen aller Spalte in Phase. Mit $N$ Spalten addieren sich $N$ Wellen; die Amplitude ist $N$-mal so groß wie bei einem Spalt, die Helligkeit wächst mit $N^2$.\n\nSchärfer: Etwas neben dem Hauptmaximum haben benachbarte Spalte einen kleinen Gangunterschied. Beim Doppelspalt schwächt das kaum. Am Gitter addiert er sich von Spalt zu Spalt; schon bei $\\Delta s = \\frac{\\lambda}{N}$ zwischen benachbarten Spalten löschen sich die Wellen paarweise aus. Bei vielen Spalten liegt diese Stelle ganz nah am Hauptmaximum; dazwischen bleibt es fast dunkel."
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Nichts: Die Hauptmaxima liegen bei denselben Winkeln ($g \\cdot \\sin\\alpha_k = k \\cdot \\lambda$ bzw. $d \\cdot \\sin\\alpha_k = k \\cdot \\lambda$ mit $g = d$)."
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Näherung: $a_2 = \\frac{2 \\cdot 405 \\cdot 10^{-9}\\,\\mathrm{m} \\cdot 1{,}50\\,\\mathrm{m}}{2{,}5 \\cdot 10^{-6}\\,\\mathrm{m}} = 0{,}486\\,\\mathrm{m}$\n\nExakt: $a_2 = 1{,}50\\,\\mathrm{m} \\cdot \\tan(18{,}9°) \\approx 0{,}514\\,\\mathrm{m}$\n\nDie Näherung liegt um $2{,}8\\,\\mathrm{cm}$ – gut $5\\,\\%$ – zu niedrig."
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Nein. Am Gitter ist $g$ sehr klein, die Winkel sind schon in der 1. und 2. Ordnung groß ($9°$, $19°$), und der Fehler wächst mit der Ordnung. Man rechnet deshalb exakt mit $\\tan\\alpha_k = \\frac{a_k}{e}$ und $g \\cdot \\sin\\alpha_k = k \\cdot \\lambda$. Beim Doppelspalt mit Winkeln unter $1°$ ist die Näherung dagegen gut."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "1000 Linien/mm: $g = 1{,}0\\,\\mathrm{\\mu m}$, $\\sin\\alpha_1 = 0{,}405$, $\\alpha_1 \\approx 23{,}9°$ statt $9{,}3°$. Der Winkel ändert sich mit der Wellenlänge viel stärker: Benachbarte Wellenlängen liegen weiter auseinander – besser zum Trennen.\n\nNachteil: Nur noch $k \\le \\frac{1{,}0}{0{,}405} \\approx 2{,}5$, also Ordnungen bis $k = 2$; die Maxima liegen unter großen Winkeln, der Schirm muss nah und breit sein. Für Messungen mit vielen Ordnungen eignet sich das gröbere Gitter."
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "titel": "eA: Beugung am Einzelspalt",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c11",
+        "c3",
+        "c4",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR (Gradmaß) und Formeldokument zugelassen, 16 Minuten. Am besten nach N3.",
+      "bild": "img/st_N13.svg",
+      "pdf": "pdf/N13_eA_Einzelspalt.pdf",
+      "aufgaben": [
+        {
+          "id": "N13-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sin\\alpha_1 = \\frac{\\lambda}{b} = \\frac{633 \\cdot 10^{-9}\\,\\mathrm{m}}{0{,}10 \\cdot 10^{-3}\\,\\mathrm{m}} = 6{,}33 \\cdot 10^{-3}$, $\\alpha_1 \\approx 0{,}363°$\n\n$a = e \\cdot \\tan\\alpha_1 \\approx 2{,}00\\,\\mathrm{m} \\cdot 6{,}33 \\cdot 10^{-3} \\approx 12{,}7\\,\\mathrm{mm}$"
+        },
+        {
+          "id": "N13-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Hauptmaximum reicht vom ersten Minimum links bis zum ersten Minimum rechts: $2 \\cdot 12{,}66\\,\\mathrm{mm} \\approx 25{,}3\\,\\mathrm{mm}$ – doppelt so breit wie die schwächeren hellen Bereiche daneben."
+        },
+        {
+          "id": "N13-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Jeder Punkt der Spaltöffnung sendet eine Elementarwelle aus. Unter diesem Winkel haben die Wellen vom oberen und vom unteren Spaltrand den Gangunterschied $\\lambda$. Man teilt den Spalt in zwei Hälften: Zu jeder Welle aus der oberen Hälfte gibt es eine Welle aus der unteren Hälfte, die $\\frac{b}{2}$ tiefer startet und den Gangunterschied $\\frac{\\lambda}{2}$ hat. Diese Paare löschen sich jeweils aus – insgesamt ist es dunkel."
+        },
+        {
+          "id": "N13-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Sie verdoppelt sich (etwa $50{,}6\\,\\mathrm{mm}$), denn bei kleinen Winkeln ist $\\sin\\alpha_1 = \\frac{\\lambda}{b}$ umgekehrt proportional zu $b$."
+        },
+        {
+          "id": "N13-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$a = 9{,}0\\,\\mathrm{mm}$, $\\sin\\alpha_1 \\approx \\tan\\alpha_1 = \\frac{9{,}0\\,\\mathrm{mm}}{2000\\,\\mathrm{mm}} = 4{,}5 \\cdot 10^{-3}$\n\nRechnung: $b = \\frac{\\lambda}{\\sin\\alpha_1} = \\frac{633 \\cdot 10^{-9}\\,\\mathrm{m}}{4{,}5 \\cdot 10^{-3}} \\approx 1{,}41 \\cdot 10^{-4}\\,\\mathrm{m} = 0{,}141\\,\\mathrm{mm}$"
+        },
+        {
+          "id": "N13-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Hauptmaximum des Einzelspalts: $\\sin\\alpha < \\frac{\\lambda}{b}$. Doppelspalt-Maxima: $\\sin\\alpha_k = \\frac{k \\cdot \\lambda}{d}$. Bedingung $\\frac{k \\cdot \\lambda}{d} < \\frac{\\lambda}{b}$, also $k < \\frac{d}{b} = 4$: Maxima mit $k = -3, \\ldots, 3$, das sind 7."
+        },
+        {
+          "id": "N13-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Für $k = 4$ ist $\\sin\\alpha = \\frac{4 \\cdot \\lambda}{d} = \\frac{\\lambda}{b}$ – genau dort liegt das erste Minimum des Einzelspalts. Jeder Spalt allein schickt in diese Richtung kein Licht; also kann auch die Überlagerung kein Maximum erzeugen: Die 4. Ordnung fehlt."
+        },
+        {
+          "id": "N13-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Lage der Maxima ($d \\cdot \\sin\\alpha_k = k \\cdot \\lambda$) hängt von $b$ nicht ab – insofern ist die Vereinfachung zulässig. Die Spaltbreite bestimmt aber die Hülle: Die Helligkeit der Doppelspalt-Maxima folgt dem Beugungsbild des Einzelspalts. Ähnlich helle Maxima bis zu höheren Ordnungen gibt es nur bei $b \\ll d$ (bis $k < \\frac{d}{b}$). Bei breiten Spalten sieht man nur wenige Maxima, einzelne fehlen ganz; dann darf man die Spaltbreite nicht mehr vernachlässigen."
+        }
+      ]
+    },
+    {
+      "id": "N14",
+      "titel": "eA: Das Michelson-Interferometer",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c12",
+        "c3",
+        "c5",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR und Formeldokument zugelassen, 18 Minuten. Am besten nach N4.",
+      "bild": "img/st_N14.svg",
+      "pdf": "pdf/N14_eA_Michelson.pdf",
+      "aufgaben": [
+        {
+          "id": "N14-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Ein Laserstrahl trifft unter $45°$ auf einen halbdurchlässigen Spiegel (Strahlteiler). Ein Teil geht geradeaus zum beweglichen Spiegel $S_2$, der andere wird zum festen Spiegel $S_1$ reflektiert. Beide Teilstrahlen werden zurückgeworfen, am Strahlteiler wieder vereinigt und laufen gemeinsam (durch eine Linse aufgeweitet) zum Schirm."
+        },
+        {
+          "id": "N14-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die beiden Teilstrahlen stammen aus demselben Laserstrahl und sind kohärent. Sie haben verschieden lange Wege zurückgelegt; je nach Gangunterschied verstärken sie sich ($\\Delta s = k \\cdot \\lambda$) oder löschen sich aus ($\\Delta s = (k - \\frac{1}{2}) \\cdot \\lambda$). Weil der aufgeweitete Strahl leicht schräg verläuft, ändert sich der Gangunterschied über den Schirm – es entstehen Streifen bzw. Ringe."
+        },
+        {
+          "id": "N14-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Licht läuft zum Spiegel hin und wieder zurück: Eine Verschiebung um $\\frac{\\lambda}{2}$ verlängert den Weg um $2 \\cdot \\frac{\\lambda}{2} = \\lambda$. Der Gangunterschied ändert sich um eine Wellenlänge – an jeder Stelle des Schirms wird es einmal dunkel und wieder hell."
+        },
+        {
+          "id": "N14-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\Delta L = m \\cdot \\frac{\\lambda}{2} = 158 \\cdot \\frac{633\\,\\mathrm{nm}}{2} \\approx 5{,}00 \\cdot 10^{-5}\\,\\mathrm{m} = 50{,}0\\,\\mathrm{\\mu m}$"
+        },
+        {
+          "id": "N14-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Rechnung: $\\Delta T = \\frac{\\Delta L}{\\alpha_{\\mathrm{Al}} \\cdot L} = \\frac{5{,}00 \\cdot 10^{-5}\\,\\mathrm{m}}{2{,}3 \\cdot 10^{-5}\\,\\mathrm{K^{-1}} \\cdot 0{,}20\\,\\mathrm{m}} \\approx 10{,}9\\,\\mathrm{K}$"
+        },
+        {
+          "id": "N14-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Rechnung: $\\Delta x = m \\cdot \\frac{\\lambda}{2} \\Rightarrow \\lambda = \\frac{2 \\cdot \\Delta x}{m} = \\frac{2 \\cdot 25{,}0 \\cdot 10^{-6}\\,\\mathrm{m}}{79} \\approx 6{,}33 \\cdot 10^{-7}\\,\\mathrm{m} = 633\\,\\mathrm{nm}$"
+        },
+        {
+          "id": "N14-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Glühlampenlicht besteht aus vielen kurzen, voneinander unabhängigen Wellenzügen mit vielen Wellenlängen. Interferenz entsteht nur, wenn sich zwei Teile desselben Wellenzugs überlagern – der Gangunterschied muss kleiner sein als die Länge eines Wellenzugs (wenige Mikrometer), also fast null. Laserlicht hat eine Wellenlänge und sehr lange zusammenhängende Wellenzüge (Zentimeter bis Meter): Auch große Gangunterschiede führen noch zu Interferenz. Mit dem Interferometer lässt sich so sogar die Kohärenz einer Lichtquelle untersuchen."
+        },
+        {
+          "id": "N14-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Ein Streifen entspricht $\\frac{\\lambda}{2} \\approx 0{,}32\\,\\mathrm{\\mu m}$. Auf $50{,}0\\,\\mathrm{\\mu m}$ sind das etwa $0{,}6\\,\\%$ – sehr genau; Längenänderungen von Bruchteilen eines Mikrometers werden messbar. Größer sind meist andere Fehler (Erschütterungen, Erwärmung der Halterung, Luftströmungen)."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Weißes Licht am Gitter",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c7",
+        "c6",
+        "g5"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR (Gradmaß) und Formeldokument zugelassen, 16 Minuten.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Weisses_Licht.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Weiß. Für $k = 0$ ist $\\alpha = 0$ für jede Wellenlänge: Alle Farben treffen an derselben Stelle zusammen und mischen sich wieder zu Weiß."
+        },
+        {
+          "id": "N6-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$g = \\frac{1\\,\\mathrm{mm}}{250} = 4{,}0\\,\\mathrm{\\mu m}$\n\n$\\sin\\alpha = \\frac{0{,}400}{4{,}0} = 0{,}100 \\Rightarrow \\alpha \\approx 5{,}74°$; $\\sin\\alpha = \\frac{0{,}700}{4{,}0} = 0{,}175 \\Rightarrow \\alpha \\approx 10{,}08°$"
+        },
+        {
+          "id": "N6-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$a = e \\cdot \\tan\\alpha$: violetter Rand $1{,}20\\,\\mathrm{m} \\cdot \\tan(5{,}74°) \\approx 12{,}1\\,\\mathrm{cm}$, roter Rand $1{,}20\\,\\mathrm{m} \\cdot \\tan(10{,}08°) \\approx 21{,}3\\,\\mathrm{cm}$ von der Mitte.\n\nBreite: $21{,}3\\,\\mathrm{cm} - 12{,}1\\,\\mathrm{cm} \\approx 9{,}3\\,\\mathrm{cm}$ (auf jeder Seite der Mitte).",
+          "loesung_bild": "img/N6-2b.png"
+        },
+        {
+          "id": "N6-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nach $g \\cdot \\sin\\alpha_1 = \\lambda$ braucht eine größere Wellenlänge einen größeren Winkel, damit der Gangunterschied benachbarter Spalte genau eine Wellenlänge beträgt. Rot hat die größte Wellenlänge und wird am stärksten abgelenkt."
+        },
+        {
+          "id": "N6-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Roter Rand 2. Ordnung: $\\sin\\alpha = \\frac{2 \\cdot 0{,}700}{4{,}0} = 0{,}35$. Violetter Rand 3. Ordnung: $\\sin\\alpha = \\frac{3 \\cdot 0{,}400}{4{,}0} = 0{,}30$. Da $0{,}30 < 0{,}35$, beginnt die 3. Ordnung, bevor die 2. endet: Sie überlappen sich."
+        },
+        {
+          "id": "N6-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Im Überlappungsbereich treffen Wellenlängen verschiedener Ordnungen auf dieselbe Stelle, z. B. $600\\,\\mathrm{nm}$ in 2. und $400\\,\\mathrm{nm}$ in 3. Ordnung ($2 \\cdot 600 = 3 \\cdot 400$). Die Farben mischen sich; eine Stelle lässt sich nicht eindeutig einer Wellenlänge zuordnen. Messen sollte man in der 1. Ordnung, die nicht überlappt ($0{,}175 < 0{,}200$)."
+        },
+        {
+          "id": "N6-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$k \\cdot \\frac{0{,}700}{4{,}0} \\le 1 \\Rightarrow k \\le 5{,}7$: Bis $k = 5$ ist das Spektrum vollständig; in der 6. Ordnung fehlt der rote Teil."
+        },
+        {
+          "id": "N6-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "700 Linien/mm: $g \\approx 1{,}43\\,\\mathrm{\\mu m}$; die 1. Ordnung reicht von $\\sin\\alpha = 0{,}28$ ($16{,}3°$) bis $0{,}49$ ($29{,}3°$) statt von $5{,}7°$ bis $10{,}1°$. Das Spektrum ist viel breiter auseinandergezogen; Linien lassen sich besser trennen und ablesen. Die 1. und 2. Ordnung überlappen nicht ($0{,}49 < 0{,}56$).\n\nNachteil: Das Licht verteilt sich auf ein breiteres Band, das Spektrum wird lichtschwächer; vollständige Spektren gibt es nur noch bis $k = 2$ (Violett erscheint noch in 3. Ordnung). Für das Taschenspektroskop ist das feinere Gitter trotzdem besser."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Das elektromagnetische Spektrum",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8",
+        "c2",
+        "g6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR und Formeldokument zugelassen, 18 Minuten. $c = 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$, $h = 6{,}63 \\cdot 10^{-34}\\,\\mathrm{Js}$, $1\\,\\mathrm{eV} = 1{,}60 \\cdot 10^{-19}\\,\\mathrm{J}$.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_EM_Spektrum.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Radiowellen – Mikrowellen – Infrarot – sichtbares Licht – Ultraviolett – Röntgenstrahlung – Gammastrahlung. In dieser Richtung wachsen Frequenz und Energie, die Wellenlänge sinkt."
+        },
+        {
+          "id": "N7-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Achse ist logarithmisch: Von Teilstrich zu Teilstrich wächst die Wellenlänge um den Faktor 10. Das ganze Spektrum reicht über mehr als 15 Zehnerpotenzen, das sichtbare Licht nur von etwa $400\\,\\mathrm{nm}$ bis $700\\,\\mathrm{nm}$ – nicht einmal ein Faktor 2. Unser Auge ist nur für diesen kleinen Bereich empfindlich."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Rechnung: $\\lambda = \\frac{c}{f} = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{5{,}0 \\cdot 10^{9}\\,\\mathrm{Hz}} = 0{,}060\\,\\mathrm{m} = 6{,}0\\,\\mathrm{cm}$\n\nRechnung: $f = \\frac{c}{\\lambda} = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{940 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 3{,}19 \\cdot 10^{14}\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$E = \\frac{h \\cdot c}{\\lambda}$:\n\n- Fernbedienung: $E = \\frac{6{,}63 \\cdot 10^{-34}\\,\\mathrm{Js} \\cdot 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{940 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 2{,}12 \\cdot 10^{-19}\\,\\mathrm{J} \\approx 1{,}32\\,\\mathrm{eV}$\n- UV-C: $E \\approx 7{,}83 \\cdot 10^{-19}\\,\\mathrm{J} \\approx 4{,}89\\,\\mathrm{eV}$\n- Röntgen: $E \\approx 3{,}98 \\cdot 10^{-15}\\,\\mathrm{J} \\approx 2{,}49 \\cdot 10^{4}\\,\\mathrm{eV} = 24{,}9\\,\\mathrm{keV}$"
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "WLAN: $E = 6{,}63 \\cdot 10^{-34}\\,\\mathrm{Js} \\cdot 5{,}0 \\cdot 10^{9}\\,\\mathrm{Hz} \\approx 3{,}3 \\cdot 10^{-24}\\,\\mathrm{J} \\approx 2 \\cdot 10^{-5}\\,\\mathrm{eV}$ je Portion. Um eine chemische Bindung im Erbgut der Keime zu spalten, braucht man einige eV – das schafft UV-C ($4{,}9\\,\\mathrm{eV}$), WLAN um viele Zehnerpotenzen nicht. Mehr WLAN-Leistung bedeutet nur mehr Portionen, also Erwärmung, aber keine gespaltenen Bindungen."
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f = \\frac{c}{\\lambda}$: von $\\frac{3{,}00 \\cdot 10^{8}}{700 \\cdot 10^{-9}}\\,\\mathrm{Hz} \\approx 4{,}3 \\cdot 10^{14}\\,\\mathrm{Hz}$ (rot) bis $\\frac{3{,}00 \\cdot 10^{8}}{400 \\cdot 10^{-9}}\\,\\mathrm{Hz} = 7{,}5 \\cdot 10^{14}\\,\\mathrm{Hz}$ (violett)"
+        },
+        {
+          "id": "N7-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch begründet. Mikrowellen und WLAN sind elektromagnetische Wellen wie Licht, nur mit viel größerer Wellenlänge; sie entstehen in elektrischen Schwingkreisen, nicht beim Zerfall von Atomkernen. Radioaktive Gammastrahlung kommt aus Atomkernen und liegt am anderen Ende des Spektrums (Energien im keV- bis MeV-Bereich). Die Energie einer WLAN-Portion ($\\approx 10^{-5}\\,\\mathrm{eV}$) reicht nicht, um Moleküle zu spalten. Bei hoher Leistung erwärmen Mikrowellen (Mikrowellenherd); dafür gibt es Grenzwerte. „Gefährlich, weil radioaktiv“ ist also falsch."
+        },
+        {
+          "id": "N7-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$940\\,\\mathrm{nm}$ liegt im Infrarot, außerhalb des Bereichs, für den das Auge empfindlich ist (bis etwa $700$ bis $780\\,\\mathrm{nm}$). Der Bildsensor der Kamera ist auch für nahes Infrarot empfindlich und zeigt das Licht als hellen Punkt an."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Spektren: Entstehung und Nutzung",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 21,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c8",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR (Gradmaß) und Formeldokument zugelassen, 21 Minuten. $c = 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$, $h = 6{,}63 \\cdot 10^{-34}\\,\\mathrm{Js}$, $1\\,\\mathrm{eV} = 1{,}60 \\cdot 10^{-19}\\,\\mathrm{J}$.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Spektren.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "A: Flamme mit Kaliumsalz (Emissionsspektrum: helle Linien). B: Halogenlampe (kontinuierliches Spektrum). C: Halogenlampe durch die Flamme (Absorptionsspektrum: dunkle Linien)."
+        },
+        {
+          "id": "N8-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Kontinuierlich: Der glühende Draht ist ein dichter, heißer Körper. Seine Teilchen wechselwirken ständig miteinander; es gibt keine scharfen Energiestufen mehr, Licht aller Wellenlängen entsteht.\n\nLinien: In der Flamme liegen einzelne Kaliumatome als dünnes, heißes Gas vor. Sie werden durch Stöße angeregt und springen von höheren auf tiefere Energiestufen zurück. Weil die Stufen feste Werte haben, entsteht nur Licht mit $\\lambda = \\frac{h \\cdot c}{\\Delta E}$ – einzelne helle Linien."
+        },
+        {
+          "id": "N8-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die dunklen Linien in C liegen genau bei den hellen Linien in A. Ein Atom kann nur Energieportionen aufnehmen, die zu einem Sprung zwischen zwei seiner Energiestufen passen – dieselben, die es beim Zurückspringen abgibt. Die Kaliumatome in der Flamme absorbieren aus dem Lampenlicht deshalb genau ihre eigenen Wellenlängen. Sie geben die Energie zwar wieder ab, aber in alle Richtungen; in Richtung des Spektrometers fehlt dieses Licht."
+        },
+        {
+          "id": "N8-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Rechnung: $\\Delta E = \\frac{h \\cdot c}{\\lambda} = \\frac{6{,}63 \\cdot 10^{-34}\\,\\mathrm{Js} \\cdot 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{766{,}5 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 2{,}59 \\cdot 10^{-19}\\,\\mathrm{J}$\n\nIn eV: $\\frac{2{,}59 \\cdot 10^{-19}\\,\\mathrm{J}}{1{,}60 \\cdot 10^{-19}\\,\\frac{\\mathrm{J}}{\\mathrm{eV}}} \\approx 1{,}62\\,\\mathrm{eV}$"
+        },
+        {
+          "id": "N8-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$g = \\frac{1\\,\\mathrm{mm}}{800} = 1{,}25\\,\\mathrm{\\mu m}$\n\n$\\lambda = g \\cdot \\sin\\alpha_1 = 1250\\,\\mathrm{nm} \\cdot \\sin(26{,}3°) \\approx 554\\,\\mathrm{nm}$\n\nDas passt im Rahmen der Messgenauigkeit nur zu Barium ($553{,}5\\,\\mathrm{nm}$); der nächste Tabellenwert (Kupfer, $521{,}8\\,\\mathrm{nm}$) liegt über $30\\,\\mathrm{nm}$ entfernt."
+        },
+        {
+          "id": "N8-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Ohne Blei kommt das Licht ungeschwächt an. Bleiatome in der Flamme absorbieren Licht der Wellenlänge $283{,}3\\,\\mathrm{nm}$: Je mehr Blei, desto stärker wird das Licht geschwächt. Aus der Schwächung (Vergleich mit Proben bekannten Gehalts) ergibt sich die Menge.\n\nGrund: Ein Atom absorbiert nur Wellenlängen, die zu seinen Energiestufen passen. Licht genau der Bleilinie wird nur von Blei absorbiert; andere Stoffe in der Probe stören nicht."
+        },
+        {
+          "id": "N8-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Falsch. Die Energie wird nicht vernichtet: Die Atome nehmen sie auf und geben sie kurz darauf wieder ab – aber in alle Richtungen (oder als Wärme bei Stößen). In Richtung des Beobachters fehlt ein Teil dieses Lichts; die Linien sind nur dunkler als ihre Umgebung, nicht völlig schwarz. Schwarz wirken sie, weil der Untergrund daneben viel heller ist."
+        },
+        {
+          "id": "N8-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Nicht sicher. Eine einzelne Linie kann im Rahmen der Messunsicherheit (einige nm) mit einer Linie eines anderen Stoffs zusammenfallen; Moleküle liefern zudem breite Banden. Jedes Element hat ein ganzes Muster von Linien mit festen Lagen und Helligkeiten (Fingerabdruck). Sicher wird der Nachweis erst, wenn mehrere Linien des Bariums an den richtigen Stellen gefunden werden und kein anderer Stoff in Frage kommt."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Tandem: Rechnen mit Licht",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "WTR",
+      "checkliste": [
+        "c8",
+        "c2",
+        "c4",
+        "c6",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets, WTR im Gradmaß. Wer die Nummer hat, rechnet laut vor; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. $c = 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$, $h = 6{,}63 \\cdot 10^{-34}\\,\\mathrm{Js}$, $1\\,\\mathrm{eV} = 1{,}60 \\cdot 10^{-19}\\,\\mathrm{J}$.",
+      "bild": "img/st_N9.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N9-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Flugfunk-Sender sendet mit $125\\,\\mathrm{MHz}$. Berechnen Sie die Wellenlänge.",
+          "tipp": "$\\lambda = \\frac{c}{f}$.",
+          "loesung": "$\\lambda = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{125 \\cdot 10^{6}\\,\\mathrm{Hz}} = 2{,}40\\,\\mathrm{m}$"
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein blauer Laser hat $\\lambda = 445\\,\\mathrm{nm}$. Berechnen Sie die Frequenz.",
+          "tipp": "$f = \\frac{c}{\\lambda}$, nm in m umrechnen.",
+          "loesung": "$f = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{445 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 6{,}74 \\cdot 10^{14}\\,\\mathrm{Hz}$"
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Licht mit $570\\,\\mathrm{nm}$ fällt auf einen Doppelspalt mit $d = 0{,}30\\,\\mathrm{mm}$; der Schirm steht $2{,}00\\,\\mathrm{m}$ entfernt. Berechnen Sie den Abstand $a_1$ des Maximums 1. Ordnung von der Mitte.",
+          "tipp": "Kleine Winkel: $a_1 = \\frac{\\lambda \\cdot e}{d}$.",
+          "loesung": "$a_1 = \\frac{570 \\cdot 10^{-9}\\,\\mathrm{m} \\cdot 2{,}00\\,\\mathrm{m}}{0{,}30 \\cdot 10^{-3}\\,\\mathrm{m}} = 3{,}8 \\cdot 10^{-3}\\,\\mathrm{m} = 3{,}8\\,\\mathrm{mm}$"
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "An einem Doppelspalt mit $d = 0{,}40\\,\\mathrm{mm}$ liegt das Maximum 2. Ordnung auf einem $3{,}00\\,\\mathrm{m}$ entfernten Schirm $7{,}2\\,\\mathrm{mm}$ neben der Mitte. Berechnen Sie $\\lambda$.",
+          "tipp": "$\\lambda = \\frac{a_k \\cdot d}{k \\cdot e}$ mit $k = 2$.",
+          "loesung": "$\\lambda = \\frac{7{,}2 \\cdot 10^{-3}\\,\\mathrm{m} \\cdot 0{,}40 \\cdot 10^{-3}\\,\\mathrm{m}}{2 \\cdot 3{,}00\\,\\mathrm{m}} = 4{,}8 \\cdot 10^{-7}\\,\\mathrm{m} = 480\\,\\mathrm{nm}$"
+        },
+        {
+          "id": "N9-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Licht mit $470\\,\\mathrm{nm}$ fällt auf ein Gitter mit 750 Linien pro mm. Berechnen Sie die Gitterkonstante und den Winkel $\\alpha_1$.",
+          "tipp": "$g = \\frac{1\\,\\mathrm{mm}}{750}$, dann $\\sin\\alpha_1 = \\frac{\\lambda}{g}$.",
+          "loesung": "$g \\approx 1{,}33\\,\\mathrm{\\mu m}$, $\\sin\\alpha_1 = \\frac{0{,}470}{1{,}333} \\approx 0{,}353 \\Rightarrow \\alpha_1 \\approx 20{,}6°$"
+        },
+        {
+          "id": "N9-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Rotes Licht ($680\\,\\mathrm{nm}$) fällt auf ein Gitter mit 350 Linien pro mm. Ermitteln Sie die höchste Ordnung.",
+          "tipp": "$\\sin\\alpha_k = \\frac{k \\cdot \\lambda}{g} \\le 1$.",
+          "loesung": "$g = \\frac{1\\,\\mathrm{mm}}{350} \\approx 2{,}86\\,\\mathrm{\\mu m}$, $k \\le \\frac{2{,}86}{0{,}680} \\approx 4{,}2$: höchste Ordnung $k = 4$"
+        },
+        {
+          "id": "N9-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Berechnen Sie die Energie $E = h \\cdot f$ von blauem Licht mit $450\\,\\mathrm{nm}$ in J und in eV.",
+          "tipp": "$E = \\frac{h \\cdot c}{\\lambda}$, dann durch $1{,}60 \\cdot 10^{-19}\\,\\mathrm{J}$ teilen.",
+          "loesung": "$E = \\frac{6{,}63 \\cdot 10^{-34}\\,\\mathrm{Js} \\cdot 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{450 \\cdot 10^{-9}\\,\\mathrm{m}} = 4{,}42 \\cdot 10^{-19}\\,\\mathrm{J} \\approx 2{,}76\\,\\mathrm{eV}$"
+        },
+        {
+          "id": "N9-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Weißes Licht ($400\\,\\mathrm{nm}$ bis $700\\,\\mathrm{nm}$) fällt auf ein Gitter mit 200 Linien pro mm; der Schirm steht $1{,}00\\,\\mathrm{m}$ entfernt. Berechnen Sie die Breite des Spektrums 1. Ordnung.",
+          "tipp": "$g = 5{,}0\\,\\mathrm{\\mu m}$; für beide Ränder $\\alpha$ und dann $a = e \\cdot \\tan\\alpha$.",
+          "loesung": "$\\sin\\alpha = 0{,}080 \\Rightarrow \\alpha \\approx 4{,}59°$, $a \\approx 8{,}0\\,\\mathrm{cm}$; $\\sin\\alpha = 0{,}140 \\Rightarrow \\alpha \\approx 8{,}05°$, $a \\approx 14{,}1\\,\\mathrm{cm}$. Breite $\\approx 6{,}1\\,\\mathrm{cm}$"
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c9",
+        "c2",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "kategorie": "neu",
+      "hinweis": "WTR (Gradmaß) und Formeldokument zugelassen, 16 Minuten. Jede Lösung A bis E enthält genau einen typischen Fehler. $c = 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Vakuum haben alle elektromagnetischen Wellen dieselbe Geschwindigkeit $c = 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$. In $c = \\lambda \\cdot f$ ist $c$ fest: Eine größere Wellenlänge bedeutet eine kleinere Frequenz. Richtig: Beide sind gleich schnell; rotes Licht hat die kleinere Frequenz ($4{,}3 \\cdot 10^{14}\\,\\mathrm{Hz}$ statt $6{,}7 \\cdot 10^{14}\\,\\mathrm{Hz}$)."
+        },
+        {
+          "id": "N10-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Kleinwinkelnäherung ($\\sin\\alpha \\approx \\tan\\alpha$) gilt nur für kleine Winkel. Hier ist $\\tan\\alpha_1 = \\frac{0{,}577}{1{,}00}$, also $\\alpha_1 \\approx 30{,}0°$ mit $\\sin\\alpha_1 \\approx 0{,}500$. Richtig: $\\lambda = d \\cdot \\sin\\alpha_1 = 1{,}24\\,\\mathrm{\\mu m} \\cdot 0{,}500 \\approx 620\\,\\mathrm{nm}$."
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Gitterkonstante ist der Abstand benachbarter Linien, nicht die Linienzahl: $g = \\frac{1\\,\\mathrm{mm}}{650} \\approx 1{,}54\\,\\mathrm{\\mu m}$. Richtig: $\\sin\\alpha_1 = \\frac{0{,}480\\,\\mathrm{\\mu m}}{1{,}54\\,\\mathrm{\\mu m}} \\approx 0{,}312$, $\\alpha_1 \\approx 18{,}2°$."
+        },
+        {
+          "id": "N10-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Lösung D setzt den Abstand zwischen den Maxima $+2$ und $-2$ ein. $a_2$ ist aber der Abstand von der Mitte: $a_2 = 12{,}0\\,\\mathrm{mm}$. Richtig: $\\lambda = \\frac{12{,}0 \\cdot 10^{-3}\\,\\mathrm{m} \\cdot 0{,}30 \\cdot 10^{-3}\\,\\mathrm{m}}{2 \\cdot 4{,}00\\,\\mathrm{m}} = 450\\,\\mathrm{nm}$ (blau). Schon eine Plausibilitätsprüfung hätte gewarnt: $900\\,\\mathrm{nm}$ liegt im Infrarot – das Muster wäre gar nicht zu sehen gewesen."
+        },
+        {
+          "id": "N10-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Lösung E dreht den Zusammenhang um. Die dichte, heiße Sonnenoberfläche sendet ein kontinuierliches Spektrum aus. Die Gase der Sonnenatmosphäre darüber absorbieren genau die Wellenlängen, die sie selbst aussenden können, und geben die Energie in alle Richtungen wieder ab. In Richtung Erde fehlt dieses Licht – dunkle Linien. Gerade daran erkennt man, welche Stoffe in der Sonnenatmosphäre vorkommen."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Check-out",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c9",
+        "c1",
+        "c2",
+        "c8",
+        "c3",
+        "c4",
+        "c6",
+        "c7"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Aufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Notieren Sie zu jeder Antwort, ob Sie sicher oder unsicher sind. Achten Sie besonders auf Aufgaben, die Sie falsch und zugleich „sicher“ gelöst haben: Dahinter steckt meist eine Fehlvorstellung. Vergleichen Sie danach mit N1.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Ein sich änderndes elektrisches Feld erzeugt ein Magnetfeld und umgekehrt; die Welle braucht keinen Träger.\n\n*A oder D gewählt?* Teilchen als Träger braucht Schall, nicht eine elektromagnetische Welle. *C gewählt?* Funkwellen und Licht sind beide elektromagnetische Wellen; sie unterscheiden sich nur in Wellenlänge und Frequenz. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "N11-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $\\vec{E}$, $\\vec{B}$ und die Ausbreitungsrichtung stehen paarweise senkrecht aufeinander: Senkrecht zu „oben“ und zu Nord-Süd bleibt nur Ost-West.\n\n*A gewählt?* Das wäre eine Längswelle. *B gewählt?* E- und B-Feld stehen senkrecht aufeinander. *C gewählt?* Beide Felder schwingen und erzeugen sich gegenseitig. → **N2** Aufgabe 3"
+        },
+        {
+          "id": "N11-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Im Vakuum breiten sich alle elektromagnetischen Wellen mit $c$ aus. Die Radiowelle hat die viel größere Wellenlänge, nach $c = \\lambda \\cdot f$ also die kleinere Frequenz.\n\n*B oder C gewählt?* Frequenz und Wellenlänge ändern nichts an $c$. *D gewählt?* Radiowellen sind Meter bis Kilometer lang, Licht unter einem Mikrometer. → **N7** Aufgabe 2"
+        },
+        {
+          "id": "N11-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Filter (nahezu eine Wellenlänge) und Einzelspalt (eine gemeinsame Quelle für beide Spalte) machen das Licht kohärent; es entsteht ein Streifenmuster wie mit dem Laser.\n\n*A oder D gewählt?* So sähe es nach dem Teilchenmodell aus. *B gewählt?* Ohne Interferenz gäbe es keine Streifen. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "N11-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $a_k \\approx \\frac{k \\cdot \\lambda \\cdot e}{d}$: Halbes $d$ bedeutet doppelten Abstand. Bei kleinerem Spaltabstand braucht es einen größeren Winkel für den Gangunterschied $\\lambda$.\n\n*B oder D gewählt?* $d$ steht im Nenner. *C gewählt?* $d$ steht in der Formel. → **N3** Aufgabe 3"
+        },
+        {
+          "id": "N11-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Die Lage der Hauptmaxima hängt nur von $g$ und $\\lambda$ ab, nicht von der Zahl der Spalte. Je mehr Spalte, desto schmaler und heller werden die Hauptmaxima.\n\n*A oder C gewählt?* Bei gleichem Spaltabstand bleiben die Winkel gleich. *B gewählt?* In den Hauptmaxima verstärken sich alle Wellen. → **N5** Aufgabe 2"
+        },
+        {
+          "id": "N11-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Nach $d \\cdot \\sin\\alpha_1 = \\lambda$ liegt das Maximum der größten Wellenlänge am weitesten außen: Rot außen, Violett innen.\n\n*A gewählt?* Das gilt beim Prisma, nicht bei Interferenz. *C gewählt?* Grün liegt dazwischen. *D gewählt?* Nur bei $\\alpha = 0$ treffen alle Farben zusammen. → **N6** Aufgabe 2"
+        },
+        {
+          "id": "N11-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Ein Atom absorbiert genau die Energieportionen, die es auch aussendet: Dunkle und helle Linien liegen an denselben Stellen.\n\n*A oder B gewählt?* Absorbiert werden die Wellenlängen, die zu den Energiestufen des Gases passen – dieselben wie bei der Emission. *D gewählt?* Die Linien liegen dort, wo das Gas auch leuchtet, oft im Sichtbaren. → **N8** Aufgabe 1"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Die Funkuhr",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c1",
+        "c2",
+        "g1",
+        "g2",
+        "g4",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. $c = 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$. Vernetzt die Grundlagen mit Phase 1 (Licht als elektromagnetische Welle) – am besten nach N2.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Funkuhr.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Rechnung: $\\lambda = \\frac{c}{f} = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{77{,}5 \\cdot 10^{3}\\,\\mathrm{Hz}} \\approx 3{,}87 \\cdot 10^{3}\\,\\mathrm{m} = 3{,}87\\,\\mathrm{km}$"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Rechnung: $t = \\frac{s}{c} = \\frac{420 \\cdot 10^{3}\\,\\mathrm{m}}{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}} = 1{,}4 \\cdot 10^{-3}\\,\\mathrm{s} = 1{,}4\\,\\mathrm{ms}$"
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$1{,}4\\,\\mathrm{ms}$ sind viel weniger als die angezeigte Genauigkeit von einer Sekunde; die Uhr darf die Laufzeit vernachlässigen. Nur wo Millisekunden zählen, müsste man sie berücksichtigen – das ginge leicht, weil die Entfernung bekannt ist."
+        },
+        {
+          "id": "V1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Ein Wechselstrom mit $77{,}5\\,\\mathrm{kHz}$ treibt die Ladungen im Mast auf und ab (wie in einem Dipol). Die sich ständig ändernde Ladungsverteilung erzeugt ein sich änderndes elektrisches Feld, der sich ändernde Strom ein sich änderndes Magnetfeld. Beide erzeugen sich gegenseitig neu und lösen sich als Welle vom Mast ab."
+        },
+        {
+          "id": "V1-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Magnetfeld der Welle ändert am Ort der Uhr $77\\,500$-mal pro Sekunde Stärke und Richtung. Zeigt die Spulenachse in Richtung dieses Feldes, ändert sich der magnetische Fluss durch die Spule ständig; dadurch wird eine Wechselspannung mit $77{,}5\\,\\mathrm{kHz}$ induziert. Der Ferritstab bündelt das Feld und verstärkt die Wirkung."
+        },
+        {
+          "id": "V1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Mast steht senkrecht, also schwingt das elektrische Feld senkrecht (die Welle ist senkrecht polarisiert). Das Magnetfeld schwingt waagerecht und quer zur Richtung zum Sender; beide stehen senkrecht zur Ausbreitungsrichtung."
+        },
+        {
+          "id": "V1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Eine Spannung wird nur induziert, wenn sich der Fluss durch die Spule ändert. Liegt der Stab waagerecht quer zur Richtung zum Sender, zeigt die Spulenachse in Richtung des Magnetfelds: größte Flussänderung, größte Spannung. Zeigt der Stab zum Sender oder steht er senkrecht, steht er senkrecht zum Magnetfeld – der Fluss durch die Spule bleibt null, die Uhr empfängt kaum."
+        },
+        {
+          "id": "V1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Raumwelle hat einen längeren Weg. Ist der Gangunterschied $\\Delta s = \\left(k - \\frac{1}{2}\\right) \\cdot \\lambda$, trifft am Ort der Uhr ein Maximum der einen Welle auf ein Minimum der anderen: Die Wellen löschen sich bei ähnlicher Stärke weitgehend aus."
+        },
+        {
+          "id": "V1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "$\\frac{\\Delta s}{\\lambda} = \\frac{5{,}8\\,\\mathrm{km}}{3{,}87\\,\\mathrm{km}} \\approx 1{,}5$: Gangunterschied $1{,}5 \\cdot \\lambda$ – Auslöschung. Sind beide Wellen ähnlich stark, empfängt die Uhr dort nachts schlecht. Weil sich die Höhe der Ionosphäre ändert, wandert diese Stelle; tagsüber (ohne Raumwelle) ist der Empfang gut. Die Uhr stellt sich dann eben später. (Ein möglicher Phasensprung bei der Reflexion an der Ionosphäre bleibt in diesem Modell unberücksichtigt.)"
+        },
+        {
+          "id": "V1-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Zutreffend. Die Stahlbewehrung ist ein Gitter aus Metallstäben mit Abständen von einigen Zentimetern – viel kleiner als die Wellenlänge von $3{,}87\\,\\mathrm{km}$. Die Welle treibt Ströme in den Stäben an; diese strahlen eine Gegenwelle ab, die das Feld im Inneren schwächt (wie das Metallgitter bei Dezimeterwellen). Erdreich um den Keller dämpft zusätzlich. Holz leitet nicht und lässt die Welle fast ungeschwächt durch. Oft hilft ein Platz am Fenster."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Spurensuche auf CD, DVD und Blu-ray",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 22,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c6",
+        "c3",
+        "c4",
+        "c5",
+        "c2",
+        "g1",
+        "g3",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR (Gradmaß) und Formeldokument zugelassen, 22 Minuten. $c = 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$. Vernetzt die Grundlagen mit Phase 1 bis 2 (Licht als elektromagnetische Welle, Doppelspalt und Gitter) – am besten nach N3 bis N5.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_CD_DVD_Bluray.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f = \\frac{c}{\\lambda}$: CD $3{,}85 \\cdot 10^{14}\\,\\mathrm{Hz}$ (nahes Infrarot), DVD $4{,}62 \\cdot 10^{14}\\,\\mathrm{Hz}$ (rot), Blu-ray $7{,}41 \\cdot 10^{14}\\,\\mathrm{Hz}$ (blauviolett)"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sin\\alpha_1 = \\frac{0{,}65}{1{,}6} \\approx 0{,}406 \\Rightarrow \\alpha_1 \\approx 24{,}0°$"
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$k = 2$: $\\sin\\alpha_2 \\approx 0{,}813$, $\\alpha_2 \\approx 54{,}3°$. $k = 3$: $\\sin\\alpha_3 \\approx 1{,}22 > 1$ – gibt es nicht. Neben dem Maximum 0. Ordnung treten nur die 1. und die 2. Ordnung auf."
+        },
+        {
+          "id": "V2-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\tan\\alpha_1 = \\frac{18{,}4\\,\\mathrm{cm}}{10{,}0\\,\\mathrm{cm}} = 1{,}84 \\Rightarrow \\alpha_1 \\approx 61{,}5°$\n\n$g = \\frac{\\lambda}{\\sin\\alpha_1} = \\frac{650\\,\\mathrm{nm}}{0{,}879} \\approx 740\\,\\mathrm{nm} = 0{,}74\\,\\mathrm{\\mu m}$"
+        },
+        {
+          "id": "V2-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Er setzt $\\sin\\alpha \\approx \\tan\\alpha = \\frac{a_1}{e} = 1{,}84$ – unmöglich, denn $\\sin\\alpha \\le 1$. Bei $61{,}5°$ ist $\\sin\\alpha = 0{,}879$, $\\tan\\alpha = 1{,}84$: Die Näherung gilt nur für kleine Winkel. Sein Ergebnis ist weniger als halb so groß wie der richtige Wert $0{,}74\\,\\mathrm{\\mu m}$. Bei großen Winkeln immer erst $\\alpha$ aus $\\tan\\alpha = \\frac{a}{e}$ bestimmen."
+        },
+        {
+          "id": "V2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sin\\alpha_1 = \\frac{\\lambda}{g} = \\frac{0{,}65}{0{,}32} \\approx 2{,}0 > 1$: Unter keinem Winkel haben benachbarte Spuren den Gangunterschied $\\lambda$, denn der Spurabstand ist kleiner als die Wellenlänge. Nur das Maximum 0. Ordnung (Spiegelung) tritt auf."
+        },
+        {
+          "id": "V2-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Kleinere Spurabstände (mehr Daten) verlangen einen kleineren Lichtfleck. Wegen der Beugung lässt sich ein Laserstrahl nicht auf einen Fleck bündeln, der viel kleiner ist als die Wellenlänge: Rotes Licht würde mehrere Spuren der Blu-ray zugleich beleuchten. Mit $405\\,\\mathrm{nm}$ wird der Fleck kleiner, die Spuren lassen sich einzeln lesen.\n\nAchtung: Ein Maximum 1. Ordnung wie in Aufgabe 3a erzeugt auch der blauviolette Laser nicht ($\\frac{405\\,\\mathrm{nm}}{320\\,\\mathrm{nm}} \\approx 1{,}27 > 1$). Der Grund für die kürzere Wellenlänge ist der kleinere Lichtfleck, nicht das Gittermaximum."
+        },
+        {
+          "id": "V2-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Jede beleuchtete Spur ist Ausgangspunkt einer Elementarwelle; das Laserlicht ist kohärent, die Elementarwellen haben feste Phasenbeziehungen. In den Richtungen mit $g \\cdot \\sin\\alpha = k \\cdot \\lambda$ sind alle 600 Wellen in Phase und verstärken sich zu einem hellen Maximum. Schon bei kleinen Abweichungen davon löschen sich die vielen Wellen paarweise aus – die Maxima sind scharf, dazwischen ist es dunkel."
+        },
+        {
+          "id": "V2-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\left(\\frac{1{,}6\\,\\mathrm{\\mu m}}{0{,}32\\,\\mathrm{\\mu m}}\\right)^2 = 5^2 = 25$"
+        },
+        {
+          "id": "V2-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Modell: $0{,}7\\,\\mathrm{GB} \\cdot 25 \\approx 18\\,\\mathrm{GB}$, tatsächlich $25\\,\\mathrm{GB}$. Das Modell erklärt den größten Teil des Zuwachses, unterschätzt ihn aber; hinzu kommen bessere Codierung und Fehlerkorrektur. Als grobe Abschätzung taugt es."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "eA: Nanometer in der Chipfabrik",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 22,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c12",
+        "c11",
+        "c6",
+        "c3",
+        "c5",
+        "c2",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "niveau": "ea",
+      "hinweis": "Station für das erhöhte Niveau (eA). WTR (Gradmaß) und Formeldokument zugelassen, 22 Minuten. $c = 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$. Vernetzt die Grundlagen mit Phase 1 bis 2 (Licht als elektromagnetische Welle, Doppelspalt und Gitter) auf erhöhtem Niveau – am besten nach N13 bis N14.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_eA_Chipfabrik.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f = \\frac{c}{\\lambda} = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{193 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 1{,}55 \\cdot 10^{15}\\,\\mathrm{Hz}$ (Ultraviolett)"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sin\\alpha_1 = \\frac{\\lambda}{b} = \\frac{0{,}193}{0{,}50} = 0{,}386 \\Rightarrow \\alpha_1 \\approx 22{,}7°$"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Hinter dem Spalt läuft das Licht nicht als scharf begrenztes Bündel weiter, sondern fächert sich stark auf (Hauptmaximum bis $\\pm 22{,}7°$). Schon in kurzem Abstand ist der belichtete Streifen breiter und unscharf; Strukturen benachbarter Spalte verschwimmen. Deshalb bildet man die Maske mit einem Objektiv verkleinert ab und braucht kleine Wellenlängen."
+        },
+        {
+          "id": "V4-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bei gleicher Spaltbreite sinkt der Beugungswinkel stark: $\\sin\\alpha_1 = \\frac{13{,}5}{500} = 0{,}027$, $\\alpha_1 \\approx 1{,}5°$ statt $22{,}7°$. Strukturen lassen sich viel feiner abbilden, mehr Transistoren passen auf einen Chip. Nachteile: EUV wird von Luft und Glas absorbiert – man braucht Vakuum und Spiegel statt Linsen; die Lichtquellen sind aufwendig und teuer. Der Schritt lohnt sich, weil die Beugung die Grenze der Strukturgröße setzt."
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$m = \\frac{2 \\cdot \\Delta x}{\\lambda} = \\frac{2 \\cdot 1{,}0 \\cdot 10^{-3}\\,\\mathrm{m}}{633 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 3160$"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Jede Verschiebung um $\\frac{\\lambda}{2}$ verlängert den Weg im beweglichen Arm um $\\lambda$: ein Streifenwechsel. Ein Detektor zählt die Wechsel; Anzahl mal $\\frac{\\lambda}{2}$ ergibt den Weg (Schritte von $0{,}32\\,\\mathrm{\\mu m}$, mit Unterteilung der Streifen noch feiner).\n\nDie Arme sind sehr verschieden lang und ändern sich um viele Millimeter. Interferenz bei so großen Gangunterschieden gibt es nur mit kohärentem Licht einer Wellenlänge und langen Wellenzügen – also mit einem Laser."
+        },
+        {
+          "id": "V4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\sin\\alpha_1 = \\frac{0{,}633}{8{,}0} \\approx 0{,}0791 \\Rightarrow \\alpha_1 \\approx 4{,}54°$\n\nAm Gitter tragen viele Linien bei: Die Maxima sind hell und scharf und liegen in genau bekannten Richtungen; das Signal hebt sich deutlich vom Untergrund ab, und eine Drehung der Marke dreht die Maxima mit. Ein einzelner Spalt liefert nur ein breites, lichtschwaches Beugungsbild, dessen Lage sich schlecht genau bestimmen lässt."
+        },
+        {
+          "id": "V4-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$81\\,\\mathrm{\\mu m}$ entsprechen $\\frac{81\\,\\mathrm{\\mu m}}{0{,}633\\,\\mathrm{\\mu m}} \\approx 128$ Wellenlängen. Entscheidend ist nicht dieser feste Wert, sondern seine Schwankung: $n$ hängt von Druck, Temperatur und Feuchte ab. Ändert sich $n - 1$ nur um ein Prozent, verschiebt sich das Ergebnis um etwa $0{,}8\\,\\mathrm{\\mu m}$ – viel mehr als die geforderte Genauigkeit von Nanometern. Deshalb misst man im Vakuum oder korrigiert laufend mit Messwerten von Druck und Temperatur."
+        },
+        {
+          "id": "V4-6a",
+          "label": "6a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Rechnung: $\\Delta L = 2{,}6 \\cdot 10^{-6}\\,\\mathrm{K^{-1}} \\cdot 0{,}300\\,\\mathrm{m} \\cdot 0{,}10\\,\\mathrm{K} = 7{,}8 \\cdot 10^{-8}\\,\\mathrm{m} = 78\\,\\mathrm{nm}$\n\nIn Streifen: $\\frac{78\\,\\mathrm{nm}}{316{,}5\\,\\mathrm{nm}} \\approx 0{,}25$ – ein Viertel Streifenwechsel."
+        },
+        {
+          "id": "V4-6b",
+          "label": "6b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Schon $0{,}10\\,\\mathrm{K}$ verschieben den Rand des Wafers um $78\\,\\mathrm{nm}$ – viel mehr als die Strukturbreite. Für wenige Nanometer muss die Temperatur auf etwa ein Hundertstel Kelvin konstant bleiben ($0{,}01\\,\\mathrm{K}$ ergibt $7{,}8\\,\\mathrm{nm}$), oder die Ausdehnung muss gemessen und herausgerechnet werden."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Die Atmosphäre eines Exoplaneten",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 24,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c10",
+        "c7",
+        "c8",
+        "c9",
+        "c6",
+        "c2",
+        "g1",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR (Gradmaß) und Formeldokument zugelassen, 24 Minuten. $c = 3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$, $h = 6{,}63 \\cdot 10^{-34}\\,\\mathrm{Js}$, $1\\,\\mathrm{eV} = 1{,}60 \\cdot 10^{-19}\\,\\mathrm{J}$. Vernetzt die Grundlagen mit Phase 1 bis 3 (Licht als elektromagnetische Welle, Doppelspalt und Gitter, Spektren) – am besten nach N6 bis N10.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Exoplanet.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Rechnung: $f = \\frac{c}{\\lambda} = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{4{,}3 \\cdot 10^{-6}\\,\\mathrm{m}} \\approx 7{,}0 \\cdot 10^{13}\\,\\mathrm{Hz}$\n\n$E = h \\cdot f \\approx 4{,}6 \\cdot 10^{-20}\\,\\mathrm{J} \\approx 0{,}29\\,\\mathrm{eV}$\n\nBereich: Infrarot (zwischen sichtbarem Licht und Mikrowellen)."
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Erdatmosphäre enthält selbst CO₂ (und Wasserdampf) und absorbiert Strahlung um $4{,}3\\,\\mathrm{\\mu m}$ fast vollständig. Fremdes CO₂ lässt sich nicht durch das irdische hindurch messen – bei dieser Wellenlänge kommt am Boden kaum Sternlicht an. Im All stört keine Atmosphäre."
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\sin\\alpha_1 = \\frac{4{,}3}{20} = 0{,}215 \\Rightarrow \\alpha_1 \\approx 12{,}4°$"
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\sin\\alpha = \\frac{3}{20} = 0{,}15 \\Rightarrow \\alpha \\approx 8{,}6°$; $\\sin\\alpha = \\frac{5}{20} = 0{,}25 \\Rightarrow \\alpha \\approx 14{,}5°$\n\nDas Spektrum 1. Ordnung liegt zwischen $8{,}6°$ und $14{,}5°$: kurze Wellenlängen näher an der 0. Ordnung, lange außen; $4{,}3\\,\\mathrm{\\mu m}$ liegt bei $12{,}4°$ im äußeren Teil. Die Detektorzeile muss genau diesen Winkelbereich abdecken."
+        },
+        {
+          "id": "V3-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\sin\\alpha_2 = \\frac{2 \\cdot 2{,}2}{20} = 0{,}22 \\Rightarrow \\alpha_2 \\approx 12{,}7°$ – innerhalb des Detektorbereichs von $8{,}6°$ bis $14{,}5°$, derselbe Winkel wie $4{,}4\\,\\mathrm{\\mu m}$ in 1. Ordnung. Licht mit $2{,}2\\,\\mathrm{\\mu m}$ landet also auf dem Detektor, direkt neben der CO₂-Linie ($12{,}4°$)."
+        },
+        {
+          "id": "V3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Ja. Alle Wellenlängen von $1{,}5\\,\\mathrm{\\mu m}$ bis $2{,}5\\,\\mathrm{\\mu m}$ fallen in 2. Ordnung auf den Bereich von $3$ bis $5\\,\\mathrm{\\mu m}$ und verfälschen die Messung (der Stern ist dort sogar heller). Ein Filter, das nur Licht über etwa $3\\,\\mathrm{\\mu m}$ durchlässt, verhindert das. Ohne Filter ließe sich eine schwache CO₂-Absorption nicht sicher erkennen."
+        },
+        {
+          "id": "V3-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die dichte, heiße Oberfläche des Sterns sendet ein kontinuierliches Spektrum aus. Ein Teil davon durchquert beim Transit die dünne Gashülle des Planeten. Die CO₂-Moleküle darin absorbieren genau die Strahlung, deren Energie zu ihren Energiestufen passt ($0{,}29\\,\\mathrm{eV}$ bei $4{,}3\\,\\mathrm{\\mu m}$), und geben sie in alle Richtungen wieder ab. In Richtung Teleskop fehlt dort etwas Licht: Im Spektrum entsteht eine Absorptionssenke."
+        },
+        {
+          "id": "V3-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nur ein dünner Ring um den Planeten (seine Atmosphäre) wird vom Sternlicht durchquert – ein winziger Bruchteil der Sternscheibe. Das übrige Licht kommt ungeschwächt an. Die Senke beträgt deshalb höchstens etwa ein Promille; in Abb. 1 ist sie stark überhöht."
+        },
+        {
+          "id": "V3-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der Schluss ist nicht zulässig. CO₂ entsteht auch ohne Leben (Vulkane; Venus und Mars haben Atmosphären fast nur aus CO₂). Das Spektrum zeigt nur, welche Stoffe da sind, nicht woher sie kommen. Ein Hinweis auf Leben wären erst Kombinationen von Gasen, die ohne Leben nicht nebeneinander bestehen bleiben – und auch dann müssten andere Erklärungen ausgeschlossen werden."
+        },
+        {
+          "id": "V3-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Das kontinuierliche Spektrum des Sterns ist in Abb. 1 bei etwa $0{,}9\\,\\mathrm{\\mu m}$ am hellsten, im nahen Infrarot – bei deutlich größerer Wellenlänge als die Sonne ($0{,}5\\,\\mathrm{\\mu m}$). Nach der Infobox ist der Stern kühler als die Sonne; er leuchtet rötlich. Mehr als „kühler“ lässt sich so nicht sagen – für eine Temperatur bräuchte man ein Gesetz, das Lage des Maximums und Temperatur verknüpft."
+        }
+      ]
+    }
+  ]
+}
