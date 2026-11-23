@@ -3,7 +3,7 @@
   "titel": "Elektrisches Feld – Lerntheke vor der Klausur",
   "fach": "physik",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind klausurrelevant. Sind Sie beim Vorwissen aus Mechanik, Gravitationsfeld und Klasse 10 unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Kräfte, Energie, Stromkreis und Felder auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N13. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Ladung und Coulomb-Kraft), V2 nach N4 bis N5 (Feld und Feldlinien), V3 nach N6 bis N8 (Feldstärke und Energie), V4 nach N9 bis N13 (Kondensator). N14 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N14. Das Gravitationsfeld ist kein Klausurstoff; zum Wiederholen gibt es die Lerntheke Gravitationsfeld.",
+  "hinweis": "Alle Stationen sind klausurrelevant. Sind Sie beim Vorwissen aus Mechanik, Gravitationsfeld und Klasse 10 unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Kräfte, Energie, Stromkreis und Felder auf, G3 übt Gravitationsgesetz und Satellitenbahnen. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N13. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Ladung und Coulomb-Kraft), V2 nach N4 bis N5 (Feld und Feldlinien), V3 nach N6 bis N8 (Feldstärke und Energie), V5 nach N6 bis N8 (Vergleich mit dem Gravitationsfeld), V4 nach N9 bis N13 (Kondensator). N14 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N14. Auch das Gravitationsfeld ist klausurrelevant: als Einstieg in den Feldbegriff (G1, G3) und im Vergleich mit dem elektrischen Feld (N2, V2, V5).",
   "checkliste": [
     {
       "id": "g1",
@@ -27,7 +27,11 @@
     },
     {
       "id": "g6",
-      "text": "Feldmodell, Feldlinien, Feldstärke und Potenzial im Gravitationsfeld beschreiben und anwenden"
+      "text": "Feldmodell, Feldlinien und Feldstärke im Gravitationsfeld beschreiben und anwenden"
+    },
+    {
+      "id": "g7",
+      "text": "Das Gravitationsgesetz anwenden und Kreisbahnen im Gravitationsfeld berechnen (Gravitationskraft als Zentripetalkraft)"
     },
     {
       "id": "c1",
@@ -102,7 +106,8 @@
         "g3",
         "g4",
         "g5",
-        "g6"
+        "g6",
+        "g7"
       ]
     },
     {
@@ -153,7 +158,7 @@
       ]
     }
   ],
-  "abschluss": "Klausur Elektrisches Feld",
+  "abschluss": "Klausur Elektrisches Feld (mit Gravitationsfeld)",
   "stationen": [
     {
       "id": "G1",
@@ -168,10 +173,11 @@
         "g3",
         "g4",
         "g5",
-        "g6"
+        "g6",
+        "g7"
       ],
       "kategorie": "grundlagen",
-      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 6 gehören zu den Grundlagen g1 bis g6 der Selbsteinschätzung. Bearbeiten Sie die Blöcke, bei denen Sie in der Selbsteinschätzung unsicher sind. Lücken schließen Sie danach mit G2. Rechnen Sie mit $g = 9{,}81\\,\\mathrm{N/kg}$.",
+      "hinweis": "WTR und Formeldokument zugelassen, 25 Minuten für alle Blöcke. Die Aufgaben 1 bis 7 gehören zu den Grundlagen g1 bis g7 der Selbsteinschätzung. Bearbeiten Sie die Blöcke, bei denen Sie in der Selbsteinschätzung unsicher sind. Lücken schließen Sie danach mit G2 und G3. Rechnen Sie mit $g = 9{,}81\\,\\mathrm{N/kg}$.",
       "bild": "img/st_G1.svg",
       "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
       "aufgaben": [
@@ -268,6 +274,20 @@
           "punkte": 1,
           "afb": "II",
           "loesung": "Die Gewichtskraft ist proportional zur Masse des Probekörpers ($F = G^* \\cdot m$). Beim Teilen durch $m$ fällt die Probemasse heraus: $G^*$ beschreibt nur das Feld des Planeten am Ort, nicht den Probekörper."
+        },
+        {
+          "id": "G1-7a",
+          "label": "7a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F_G = \\gamma \\cdot \\frac{m_E \\cdot m_{Mond}}{r^2}$\n\n$F_G = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{5{,}97 \\cdot 10^{24} \\cdot 7{,}35 \\cdot 10^{22}}{(3{,}84 \\cdot 10^{8})^2}\\,\\mathrm{N} \\approx 1{,}98 \\cdot 10^{20}\\,\\mathrm{N}$"
+        },
+        {
+          "id": "G1-7b",
+          "label": "7b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$F_G = F_Z$: $\\gamma \\cdot \\frac{m_E \\cdot m_{Mond}}{r^2} = \\frac{m_{Mond} \\cdot v^2}{r} \\Rightarrow v = \\sqrt{\\frac{\\gamma \\cdot m_E}{r}}$ (die Mondmasse kürzt sich)\n\n$v = \\sqrt{\\frac{6{,}67 \\cdot 10^{-11} \\cdot 5{,}97 \\cdot 10^{24}}{3{,}84 \\cdot 10^{8}}}\\,\\mathrm{m/s} \\approx 1{,}02 \\cdot 10^{3}\\,\\mathrm{m/s}$ $= 1{,}02\\,\\mathrm{km/s}$\n\n(Probe: $T = \\frac{2\\pi \\cdot r}{v} \\approx 2{,}37 \\cdot 10^{6}\\,\\mathrm{s} \\approx 27{,}4$ Tage – ein Umlauf dauert rund vier Wochen.)"
         }
       ]
     },
@@ -346,6 +366,89 @@
           "punkte": 1,
           "afb": "I",
           "loesung": "Energieerhaltung: $m \\cdot g \\cdot h = \\frac{1}{2} \\cdot m \\cdot v^2$, die Masse kürzt sich.\n\n$v = \\sqrt{2 \\cdot g \\cdot h} = \\sqrt{2 \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 1{,}5\\,\\mathrm{m}} \\approx 5{,}4\\,\\mathrm{m/s}$"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "titel": "Gravitationsfeld: Gravitationsgesetz und Satellitenbahnen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "g7",
+        "g6",
+        "g4",
+        "g1"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "WTR und Formeldokument zugelassen, 20 Minuten. Übt die Blöcke 6 und 7 aus G1: Gravitationsgesetz, Feldstärke und Kreisbahnen im Gravitationsfeld. Im Formeldokument heißt die Gravitationskonstante $G$ (hier $\\gamma$) und die Gravitationsfeldstärke $g$ (hier $G^*$).",
+      "bild": "img/st_G3.svg",
+      "pdf": "pdf/G3_Gravitationsgesetz_Satellitenbahnen.pdf",
+      "aufgaben": [
+        {
+          "id": "G3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F_G = \\gamma \\cdot \\frac{m_E \\cdot m}{r^2}$\n\n$F_G = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{5{,}97 \\cdot 10^{24} \\cdot 1200}{(7{,}00 \\cdot 10^{6})^2}\\,\\mathrm{N} \\approx 9{,}75 \\cdot 10^{3}\\,\\mathrm{N}$"
+        },
+        {
+          "id": "G3-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Wechselwirkungsprinzip: Der Satellit zieht die Erde mit gleich großer Kraft an ($9{,}75 \\cdot 10^{3}\\,\\mathrm{N}$), entgegengesetzt gerichtet – vom Erdmittelpunkt zum Satelliten hin."
+        },
+        {
+          "id": "G3-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$F_G \\sim \\frac{1}{r^2}$: Doppelter Abstand ergibt ein Viertel der Kraft, $\\frac{9{,}75 \\cdot 10^{3}\\,\\mathrm{N}}{4} \\approx 2{,}44 \\cdot 10^{3}\\,\\mathrm{N}$."
+        },
+        {
+          "id": "G3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Feldstärke ist die Kraft pro Probemasse: $G^* = \\frac{F_G}{m} = \\frac{\\gamma \\cdot m_E \\cdot m}{r^2 \\cdot m} = \\gamma \\cdot \\frac{m_E}{r^2}$ (die Probemasse kürzt sich)\n\nErdoberfläche ($r = R_E = 6{,}37 \\cdot 10^{6}\\,\\mathrm{m}$): $G^* = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{5{,}97 \\cdot 10^{24}}{(6{,}37 \\cdot 10^{6})^2}\\,\\mathrm{N/kg} \\approx 9{,}81\\,\\mathrm{N/kg}$ – der bekannte Ortsfaktor $g$."
+        },
+        {
+          "id": "G3-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$G^* = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{5{,}97 \\cdot 10^{24}}{(7{,}00 \\cdot 10^{6})^2}\\,\\mathrm{N/kg} \\approx 8{,}13\\,\\mathrm{N/kg}$ (ebenso $\\frac{F_G}{m}$ aus Aufgabe 1a) – noch 83 % des Werts am Erdboden."
+        },
+        {
+          "id": "G3-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$F_G = F_Z$: $\\gamma \\cdot \\frac{m_E \\cdot m}{r^2} = \\frac{m \\cdot v^2}{r} \\Rightarrow v^2 = \\frac{\\gamma \\cdot m_E}{r} \\Rightarrow v = \\sqrt{\\frac{\\gamma \\cdot m_E}{r}}$\n\n$v = \\sqrt{\\frac{6{,}67 \\cdot 10^{-11} \\cdot 5{,}97 \\cdot 10^{24}}{7{,}00 \\cdot 10^{6}}}\\,\\mathrm{m/s} \\approx 7{,}54 \\cdot 10^{3}\\,\\mathrm{m/s}$ $= 7{,}54\\,\\mathrm{km/s}$"
+        },
+        {
+          "id": "G3-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$T = \\frac{2\\pi \\cdot r}{v} = \\frac{2\\pi \\cdot 7{,}00 \\cdot 10^{6}\\,\\mathrm{m}}{7{,}54 \\cdot 10^{3}\\,\\mathrm{m/s}} \\approx 5{,}83 \\cdot 10^{3}\\,\\mathrm{s} \\approx 97\\,\\mathrm{min}$"
+        },
+        {
+          "id": "G3-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "In $F_G = F_Z$ steht die Satellitenmasse $m$ auf beiden Seiten und kürzt sich: Auf den Satelliten mit doppelter Masse wirkt die doppelte Gravitationskraft, er braucht aber auch die doppelte Zentripetalkraft. Die Bahngeschwindigkeit hängt nur von $m_E$ und $r$ ab."
+        },
+        {
+          "id": "G3-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Nach $v = \\sqrt{\\frac{\\gamma \\cdot m_E}{r}}$ wird die Bahngeschwindigkeit mit wachsendem $r$ kleiner: Weiter außen ist die Gravitationskraft schwächer, sie kann nur eine kleinere Zentripetalkraft liefern. Ein schnellerer Satellit würde die Kreisbahn nach außen verlassen.\n\nRichtig ist nur, dass der Weg länger ist. Weil der Satellit zugleich langsamer fliegt, wächst die Umlaufdauer stark. Beispiel doppelter Abstand ($r = 14\\,000\\,\\mathrm{km}$): $v = \\frac{7{,}54\\,\\mathrm{km/s}}{\\sqrt{2}} \\approx 5{,}33\\,\\mathrm{km/s}$, $T \\approx 275\\,\\mathrm{min}$ statt $97\\,\\mathrm{min}$."
         }
       ]
     },
@@ -441,7 +544,8 @@
         "c2",
         "c3",
         "g1",
-        "g4"
+        "g4",
+        "g7"
       ],
       "kategorie": "neu",
       "bild": "img/st_N2.svg",
@@ -1699,6 +1803,79 @@
           "punkte": 1,
           "afb": "III",
           "loesung": "$y = \\frac{1}{2} \\cdot \\frac{\\left| Q \\right| \\cdot U}{m \\cdot d} \\cdot t^2$: Die Ablenkung ist proportional zu Tropfenladung und Plattenspannung, beides wirkt gleich. Die Ladung lässt sich für jeden Tropfen einzeln über die Ladeelektrode einstellen – so setzt der Drucker die Punkte eines Zeichens untereinander. Eine doppelte Plattenspannung ($E = 1{,}0 \\cdot 10^{6}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$) wirkt auf alle Tropfen gleich und rückt näher an die Durchschlagfeldstärke der Luft (etwa $3 \\cdot 10^{6}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$). Besser ist also die Steuerung über die Ladung."
+        }
+      ]
+    },
+    {
+      "id": "V5",
+      "titel": "Wurf im Schwerefeld, Wurf im Plattenkondensator: Die Oszilloskopröhre",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 30,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8",
+        "c10",
+        "c3",
+        "c1",
+        "g6",
+        "g7",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "WTR und Formeldokument zugelassen, 30 Minuten. Vergleicht das elektrische Feld mit dem Gravitationsfeld. Vernetzt die Grundlagen mit Phase 1 bis 3 (Ladung und Coulomb-Kraft, Feld und Feldlinien, Feldstärke und Energie) – am besten nach N6 bis N8.",
+      "bild": "img/st_V5.svg",
+      "pdf": "pdf/V5_Oszilloskoproehre.pdf",
+      "aufgaben": [
+        {
+          "id": "V5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Energieerhaltung: Die Arbeit des Feldes $e \\cdot U_B$ wird zu kinetischer Energie, $\\frac{1}{2} \\cdot m_e \\cdot v_0^2 = e \\cdot U_B$.\n\n$v_0 = \\sqrt{\\frac{2 \\cdot e \\cdot U_B}{m_e}} = \\sqrt{\\frac{2 \\cdot 1{,}602 \\cdot 10^{-19} \\cdot 2{,}0 \\cdot 10^{3}}{9{,}109 \\cdot 10^{-31}}}\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\approx 2{,}65 \\cdot 10^{7}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ (knapp 9 % der Lichtgeschwindigkeit, klassische Rechnung noch zulässig)"
+        },
+        {
+          "id": "V5-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$E = \\frac{U}{d} = \\frac{50\\,\\mathrm{V}}{0{,}010\\,\\mathrm{m}} = 5{,}0 \\cdot 10^{3}\\,\\frac{\\mathrm{N}}{\\mathrm{C}}$\n\n$F = e \\cdot E = 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C} \\cdot 5{,}0 \\cdot 10^{3}\\,\\frac{\\mathrm{N}}{\\mathrm{C}} \\approx 8{,}0 \\cdot 10^{-16}\\,\\mathrm{N}$ (nach oben zur positiven Platte, entgegen der Feldrichtung)\n\nGewichtskraft: $F_G = m_e \\cdot g = 9{,}109 \\cdot 10^{-31}\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 8{,}9 \\cdot 10^{-30}\\,\\mathrm{N}$. Die elektrische Kraft ist rund $9 \\cdot 10^{13}$-mal so groß – die Gewichtskraft ändert die Bahn nicht messbar und wird vernachlässigt."
+        },
+        {
+          "id": "V5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gemeinsamkeiten: In beiden Fällen ist das Feld homogen, es wirkt eine konstante Kraft quer zur Anfangsgeschwindigkeit $v_0$.\n\n- In Flugrichtung wirkt keine Kraft: gleichförmige Bewegung mit $v_0$.\n- Quer dazu: gleichmäßig beschleunigte Bewegung aus der Ruhe, $y = \\frac{1}{2} \\cdot a \\cdot t^2$.\n- Die Bahn ist jeweils eine Parabel.\n\nUnterschiede: Die Kugel wird mit $a = g$ nach unten beschleunigt (Gewichtskraft $m \\cdot g$), das Elektron mit $a = \\frac{e \\cdot E}{m_e}$ zur positiven Platte, hier nach oben. Hinter den Platten wirkt keine Kraft mehr, das Elektron fliegt geradlinig weiter zum Schirm."
+        },
+        {
+          "id": "V5-2b",
+          "label": "2b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$a = \\frac{F}{m_e} = \\frac{e \\cdot E}{m_e}$ $= \\frac{1{,}602 \\cdot 10^{-19} \\cdot 5{,}0 \\cdot 10^{3}}{9{,}109 \\cdot 10^{-31}}\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}} \\approx 8{,}79 \\cdot 10^{14}\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}$\n\nFlugzeit zwischen den Platten: $t = \\frac{l}{v_0} = \\frac{0{,}040\\,\\mathrm{m}}{2{,}65 \\cdot 10^{7}\\,\\mathrm{m/s}} \\approx 1{,}51 \\cdot 10^{-9}\\,\\mathrm{s}$\n\n$y = \\frac{1}{2} \\cdot a \\cdot t^2 \\approx \\frac{1}{2} \\cdot 8{,}79 \\cdot 10^{14} \\cdot (1{,}51 \\cdot 10^{-9})^2\\,\\mathrm{m}$ $\\approx 1{,}0 \\cdot 10^{-3}\\,\\mathrm{m} = 1{,}0\\,\\mathrm{mm}$ (nach oben)"
+        },
+        {
+          "id": "V5-2c",
+          "label": "2c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "- Schwerefeld: $G^* = \\frac{F}{m}$ ist die Kraft pro Probemasse, also $F_G = m \\cdot G^*$ und $a = \\frac{F_G}{m} = G^* = g$. Die Masse kürzt sich – alle Körper werden gleich beschleunigt und durchlaufen bei gleichem $v_0$ dieselbe Bahn.\n- Elektrisches Feld: $E = \\frac{F}{q}$ ist die Kraft pro Probeladung, also $F = q \\cdot E$ und $a = \\frac{q \\cdot E}{m}$. Die Kraft hängt von der Ladung ab, die Trägheit von der Masse – hier kürzt sich nichts, die Bahn hängt vom Verhältnis $\\frac{q}{m}$ ab.\n- Proton: gleicher Ladungsbetrag $e$, also gleich große Kraft ($8{,}0 \\cdot 10^{-16}\\,\\mathrm{N}$), aber in Feldrichtung zur negativen Platte. Seine Masse ist 1836-mal so groß, Beschleunigung und Ablenkung betragen nur den 1836. Teil: $y_p \\approx \\frac{1{,}0\\,\\mathrm{mm}}{1836} \\approx 5{,}4 \\cdot 10^{-7}\\,\\mathrm{m}$. Das Proton wird also nicht ebenso weit abgelenkt, sondern kaum merklich und in die Gegenrichtung."
+        },
+        {
+          "id": "V5-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{F_C}{F_G} = \\frac{\\frac{1}{4\\pi\\varepsilon_0} \\cdot \\frac{e^2}{r^2}}{\\gamma \\cdot \\frac{m_e^2}{r^2}} = \\frac{1}{4\\pi\\varepsilon_0} \\cdot \\frac{e^2}{\\gamma \\cdot m_e^2}$ – beide Kräfte nehmen mit $\\frac{1}{r^2}$ ab, der Abstand kürzt sich.\n\n$\\frac{F_C}{F_G} \\approx 8{,}99 \\cdot 10^{9} \\cdot \\frac{(1{,}602 \\cdot 10^{-19})^2}{6{,}67 \\cdot 10^{-11} \\cdot (9{,}109 \\cdot 10^{-31})^2} \\approx 4{,}2 \\cdot 10^{42}$"
+        },
+        {
+          "id": "V5-3b",
+          "label": "3b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "- Gemeinsam: Beide Gesetze haben dieselbe Form – die Kraft ist proportional zum Produkt der beiden Ladungen bzw. Massen und zu $\\frac{1}{r^2}$; beide Körper erfahren gleich große, entgegengesetzte Kräfte.\n- Verschieden: Ladungen gibt es mit zwei Vorzeichen, die Coulomb-Kraft wirkt anziehend oder abstoßend. Massen sind immer positiv, die Gravitation wirkt nur anziehend. Deshalb lassen sich elektrische Felder abschirmen (Faraday’scher Käfig), Gravitationsfelder nicht.\n- Die Aussage ist falsch: Satelliten und Planeten sind nahezu elektrisch neutral, die Kräfte ihrer positiven und negativen Ladungen heben sich auf. Die Massen addieren sich dagegen immer. Zwischen großen neutralen Körpern bleibt nur die Gravitation – sie liefert die Zentripetalkraft für die Kreisbahn. Zwischen einzelnen geladenen Teilchen wie in der Röhre überwiegt die elektrische Kraft."
         }
       ]
     },
