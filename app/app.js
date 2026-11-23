@@ -517,7 +517,7 @@ function ansichtStart(fokus) {
     '<div class="st-marke" aria-hidden="true"><i></i><i></i></div>' +
     '<div class="st-leiste"><div class="st-leiste-innen">' +
     '<span class="st-wortmarke">LMG</span><span class="st-trenner" aria-hidden="true"></span>' +
-    '<span class="st-schule">Ludwig-Meyn-Gymnasium Uetersen</span></div></div>' +
+    '<span class="st-schule">Ludwig-Meyn-Gymnasium Uetersen</span>' + qrKnopf() + '</div></div>' +
     '<header class="st-held"><div class="st-held-innen">' +
     '<p class="st-kicker">Fachschaft Mathematik und Physik</p>' +
     '<h1 class="st-titel">Lerntheke</h1>' +
@@ -744,13 +744,18 @@ const ZURUECK = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" str
 const WEITER = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>';
 const FAHNE = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V4M4 4h12l-2 4 2 4H4"/></svg>';
 
+/** QR-Code der aktuellen Seite zum Teilen (app/qr-teilen.js, Tim 23.11.2026). */
+function qrKnopf() {
+  return window.QRTeilen ? window.QRTeilen.knopfHtml() : '';
+}
+
 function band(o) {
   const ort = esc(aktuell.stufeName) + ' ' + esc(fachName(aktuell.thema.fach));
   return '<header class="band"><div class="band-innen">' +
     '<div class="band-leiste">' +
     '<a class="band-marke" href="' + uebersichtPfad() + '"><span class="lmg" aria-hidden="true">LMG</span>' +
     '<span>Lerntheke · ' + ort + '</span></a>' +
-    '<a class="band-link" href="#/">Thema wechseln</a></div>' +
+    '<span class="band-aktionen"><a class="band-link" href="#/">Thema wechseln</a>' + qrKnopf() + '</span></div>' +
     '<div class="band-held"><div class="band-text">' +
     (o.unter ? '<p class="band-unter">' + o.unter + '</p>' : '') +
     '<h1>' + o.titel + '</h1>' +
@@ -773,7 +778,7 @@ function stationsBand(station, rechts) {
     '<span class="kennung kat-' + katVon(station) + '">' + esc(station.id) + '</span>' +
     '<div class="band-text"><p class="band-unter">' + unter + '</p>' +
     '<h1>' + esc(station.titel || station.id) + '</h1></div>' +
-    (rechts ? '<div class="band-rechts">' + rechts + '</div>' : '') +
+    (rechts ? '<div class="band-rechts">' + rechts + '</div>' : '') + qrKnopf() +
     '</div></header>';
 }
 
@@ -1869,7 +1874,7 @@ function memKartenBand(k, rolle) {
     '<span class="kennung kat-neu">' + esc(String(k.nr)) + '</span>' +
     '<div class="band-text"><p class="band-unter">' + esc(aktuell.thema.titel || '') + ' · Karte ' + esc(String(k.nr)) + '</p>' +
     '<h1>' + (rolle ? 'Nr. ' + esc(String(k.nr)) + ' · ' : '') + esc(rolle === 'pruefen' ? k.titel : vor) + '</h1></div>' +
-    (rechts ? '<div class="band-rechts">' + rechts + '</div>' : '') + '</div></header>';
+    (rechts ? '<div class="band-rechts">' + rechts + '</div>' : '') + qrKnopf() + '</div></header>';
 }
 
 function memBild(k, klein) {
