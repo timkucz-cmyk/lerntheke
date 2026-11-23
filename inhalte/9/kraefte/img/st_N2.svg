@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Federkraftmesser und Kraftpfeil">
+  <style>
+    .akzent { fill: none; stroke: #2E75B6; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #2E75B6; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #2E75B6; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #7BAEE8; }
+      .marke  { fill: #7BAEE8; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #7BAEE8; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <path class="grau" d="M40 6 L40 12"/>
+  <path class="grau" d="M32 12 L48 12 L48 46 L32 46 Z"/>
+  <path class="akzent" d="M40 12 L45 13.3 L35 15.9 L45 18.5 L35 21.1 L45 23.7 L35 26.3 L45 28.9 L35 31.5 L45 34.1 L35 36.7 L40 38"/>
+  <path class="grau" d="M40 46 L40 58 q0 6 6 4"/>
+  <path class="akzent" d="M80.0 50.0 L134.6 22.7"/>
+  <path class="marke" d="M140.0 20.0 L135.8 25.1 L133.4 20.3 Z"/>
+</svg>

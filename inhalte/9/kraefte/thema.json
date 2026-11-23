@@ -1,0 +1,1334 @@
+{
+  "version": 1,
+  "titel": "Kräfte – Lerntheke vor dem Test",
+  "fach": "physik",
+  "anrede": "du",
+  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du beim Umrechnen von Einheiten, beim Zeichnen mit Maßstab, bei proportionalen Zuordnungen, beim Auflösen von Gleichungen oder bei Magneten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4, V2 nach N5 bis N6, V3 nach N7 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Lege Taschenrechner und Geodreieck bereit; dein Regelheft darfst du benutzen. Zeichnungen machst du direkt in den Vorlagen im Arbeitsblatt auf dem iPad: Längen bestimmst du durch Kästchenzählen oder an den Messkreisen um den Angriffspunkt, Winkel an der vorgedruckten Winkelskala.",
+  "checkliste": [
+    {
+      "id": "g1",
+      "text": "Massen und Längen in andere Einheiten umrechnen (g, kg, t; mm, cm, m, km)"
+    },
+    {
+      "id": "g2",
+      "text": "Strecken maßstäblich zeichnen und messen, Winkel messen und Parallelen mit dem Geodreieck zeichnen"
+    },
+    {
+      "id": "g3",
+      "text": "Proportionale Zuordnungen in Tabellen und Graphen erkennen und mit dem Proportionalitätsfaktor rechnen"
+    },
+    {
+      "id": "g4",
+      "text": "Einfache Gleichungen und Formeln nach einer Größe auflösen"
+    },
+    {
+      "id": "g5",
+      "text": "Anziehung und Abstoßung von Magneten beschreiben und erklären, dass Magnetkräfte ohne Berührung wirken"
+    },
+    {
+      "id": "c1",
+      "text": "Kraftwirkungen (Verformung, Beschleunigung, Richtungsänderung) an Beispielen beschreiben und daran Kräfte erkennen"
+    },
+    {
+      "id": "c2",
+      "text": "Die Größe Kraft beschreiben (Formelzeichen, Einheit Newton, kN und mN) und Kräfte mit dem Federkraftmesser messen"
+    },
+    {
+      "id": "c3",
+      "text": "Kräfte als Pfeile mit Angriffspunkt, Richtung und Betrag in einem Maßstab zeichnen und ablesen"
+    },
+    {
+      "id": "c4",
+      "text": "Masse und Gewichtskraft unterscheiden und die Gewichtskraft mit dem Ortsfaktor berechnen"
+    },
+    {
+      "id": "c5",
+      "text": "Elastische und plastische Verformung unterscheiden und das Hooke’sche Gesetz anwenden (Messreihe, Federkonstante)"
+    },
+    {
+      "id": "c6",
+      "text": "Kräfte mit gleicher oder entgegengesetzter Richtung zur Gesamtkraft zusammensetzen und ihre Wirkung vorhersagen"
+    },
+    {
+      "id": "c7",
+      "text": "Kräfte mit verschiedenen Richtungen zeichnerisch mit dem Kräfteparallelogramm zur Gesamtkraft zusammensetzen"
+    },
+    {
+      "id": "c8",
+      "text": "Das Kräftegleichgewicht beschreiben und eine fehlende Kraft für das Gleichgewicht bestimmen"
+    },
+    {
+      "id": "c9",
+      "text": "Drehachse, Hebelarm und Drehmoment benennen und das Hebelgesetz anwenden (auch mit physikalischer Skizze)"
+    },
+    {
+      "id": "c10",
+      "text": "Werkzeuge als ein- und zweiseitige Hebel erläutern und erklären, wie sie Kräfte verändern"
+    }
+  ],
+  "phasen": [
+    {
+      "id": "p0",
+      "name": "Grundlagen",
+      "untertitel": "Werkzeug aus Mathematik und Magnetismus (Klasse 7)",
+      "farbe": "neutral",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Kraft, Gewichtskraft und Federkraft",
+      "untertitel": "Wirkungen, Messen, Kraftpfeile, Ortsfaktor, Hooke’sches Gesetz",
+      "farbe": "blau",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Mehrere Kräfte",
+      "untertitel": "Gesamtkraft, Kräfteparallelogramm, Gleichgewicht",
+      "farbe": "orange",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c8"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Hebel",
+      "untertitel": "Hebelgesetz, Werkzeuge",
+      "farbe": "gruen",
+      "checkliste": [
+        "c9",
+        "c10"
+      ]
+    }
+  ],
+  "abschluss": "Test",
+  "stationen": [
+    {
+      "id": "G1",
+      "titel": "Check-in: Grundlagen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. Die Aufgaben 1 bis 5 gehören zu den Grundlagen g1 bis g5 der Selbsteinschätzung. Bearbeite die Blöcke, bei denen du in der Selbsteinschätzung unsicher bist. Lücken schließt du danach mit G2.",
+      "bild": "img/st_G1.svg",
+      "pdf": "pdf/G1_Check-in_Grundlagen.pdf",
+      "aufgaben": [
+        {
+          "id": "G1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$1\\,\\mathrm{kg} = 1000\\,\\mathrm{g}$\n\n$2{,}5\\,\\mathrm{kg} = 2500\\,\\mathrm{g}$ und $350\\,\\mathrm{g} = 0{,}35\\,\\mathrm{kg}$"
+        },
+        {
+          "id": "G1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$1\\,\\mathrm{t} = 1000\\,\\mathrm{kg}$, also $0{,}8\\,\\mathrm{t} = 800\\,\\mathrm{kg}$.\n\n$1\\,\\mathrm{m} = 100\\,\\mathrm{cm}$, also $45\\,\\mathrm{cm} = 0{,}45\\,\\mathrm{m}$.\n\nÜben: **G2** Aufgabe 1."
+        },
+        {
+          "id": "G1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$3{,}4 \\cdot 50\\,\\mathrm{m} = 170\\,\\mathrm{m}$"
+        },
+        {
+          "id": "G1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "(Winkel bei $A$: $70^\\circ$.)\n\nParallele zu $\\overline{AD}$ durch $B$ und Parallele zu $\\overline{AB}$ durch $D$ zeichnen; sie schneiden sich in $C$.\n\nDie Diagonale endet zwischen den Messkreisen 11 und 12: $\\overline{AC} \\approx 11{,}5$ Kästchen (11 bis 12 Kästchen sind richtig).\n\nÜben: **G2** Aufgabe 2.",
+          "loesung_bild": "img/G1-2b.png"
+        },
+        {
+          "id": "G1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{3{,}0}{2} = \\frac{6{,}0}{4} = \\frac{9{,}0}{6} = \\frac{15{,}0}{10} = 1{,}5$\n\nAlle Quotienten sind gleich (quotientengleich): Die Zuordnung ist proportional, der Proportionalitätsfaktor ist $1{,}5\\,\\frac{\\mathrm{kg}}{\\text{Flasche}}$."
+        },
+        {
+          "id": "G1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$7 \\cdot 1{,}5\\,\\mathrm{kg} = 10{,}5\\,\\mathrm{kg}$\n\nDer Faktor $1{,}5\\,\\frac{\\mathrm{kg}}{\\text{Flasche}}$ ist die Masse einer einzelnen Flasche.\n\nÜben: **G2** Aufgabe 3."
+        },
+        {
+          "id": "G1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$4 \\cdot x = 18 \\quad | : 4$\n\n$x = 4{,}5$"
+        },
+        {
+          "id": "G1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$60 = 40 \\cdot x \\quad | : 40$\n\n$x = 1{,}5$\n\nÜben: **G2** Aufgabe 4."
+        },
+        {
+          "id": "G1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Ungleichnamige Pole (Nordpol und Südpol) ziehen sich an, gleichnamige Pole (Nord und Nord, Süd und Süd) stoßen sich ab."
+        },
+        {
+          "id": "G1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Magnetkräfte wirken ohne Berührung, auch durch nicht magnetische Stoffe wie Papier hindurch. Die Büroklammer enthält Eisen und wird deshalb vom Magneten angezogen.\n\nÜben: **G2** Aufgabe 5."
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "titel": "Auffrischen: Einheiten, Maßstab, Proportionen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 15,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "grundlagen",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 15 Minuten. Aufgabe k übt Block k aus G1.",
+      "bild": "img/st_G2.svg",
+      "pdf": "pdf/G2_Auffrischen_Einheiten_Massstab.pdf",
+      "aufgaben": [
+        {
+          "id": "G2-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$450\\,\\mathrm{g} = 0{,}45\\,\\mathrm{kg}$\n\n$1{,}5\\,\\mathrm{kg} + 0{,}45\\,\\mathrm{kg} + 0{,}7\\,\\mathrm{kg} = 2{,}65\\,\\mathrm{kg}$"
+        },
+        {
+          "id": "G2-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$6{,}2 \\cdot 250\\,\\mathrm{m} = 1550\\,\\mathrm{m} = 1{,}55\\,\\mathrm{km}$"
+        },
+        {
+          "id": "G2-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Von $A$ nach $B$ geht es 6 Kästchen nach rechts und 2 nach oben. Dasselbe von $C$ aus ergibt $D$. Dann $A$ mit $C$ und $B$ mit $D$ verbinden.",
+          "loesung_bild": "img/G2-2b.png"
+        },
+        {
+          "id": "G2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$4{,}5 \\cdot 0{,}5\\,\\ell = 2{,}25\\,\\ell$"
+        },
+        {
+          "id": "G2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Quotienten: $\\frac{0{,}5}{1} = 0{,}5$; $\\frac{1{,}0}{2} = 0{,}5$; $\\frac{1{,}6}{3} \\approx 0{,}53$; $\\frac{2{,}0}{4} = 0{,}5$.\n\nDer Wert bei 3 h passt nicht (proportional wären $1{,}5\\,\\ell$). Streng genommen ist die Tabelle nicht proportional; vermutlich ist der Wert bei 3 h ein Mess- oder Schreibfehler."
+        },
+        {
+          "id": "G2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$30 = 15 \\cdot x \\quad | : 15$\n\n$x = 2$"
+        },
+        {
+          "id": "G2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Kompassnadel ist ein kleiner Magnet. Das Messer enthält Eisen: Zwischen Nadel und Messer wirkt eine Magnetkraft (ohne Berührung). Diese dreht die Nadel zum Messer hin, stärker als das Magnetfeld der Erde. Legt man das Messer weg, zeigt die Nadel wieder nach Norden."
+        }
+      ]
+    },
+    {
+      "id": "N1",
+      "titel": "Diagnose: Wo stehe ich?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c1",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N1.svg",
+      "pdf": "pdf/N1_Diagnose.pdf",
+      "aufgaben": [
+        {
+          "id": "N1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Eine Kraft erkennt man an ihrer Wirkung: Verformung, Beschleunigung (schneller oder langsamer werden) oder Richtungsänderung. Die Kugel ändert ständig ihre Bewegungsrichtung, also wirkt eine Kraft (über das Seil).\n\n*A, C oder D gewählt?* Auch eine Richtungsänderung ist eine Kraftwirkung. → **N2**"
+        },
+        {
+          "id": "N1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Jeder Zentimeter steht für $20\\,\\mathrm{N}$: $3{,}5 \\cdot 20\\,\\mathrm{N} = 70\\,\\mathrm{N}$.\n\n*A gewählt?* Mit 2 statt mit 20 multipliziert (Null vergessen). *B gewählt?* Geteilt statt multipliziert. *C gewählt?* Addiert. → **N2**"
+        },
+        {
+          "id": "N1-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Die Masse ist eine Eigenschaft des Körpers und überall gleich. Die Gewichtskraft hängt vom Ortsfaktor ab; auf dem Mond ist er kleiner ($1{,}62\\,\\frac{\\mathrm{N}}{\\mathrm{kg}}$).\n\n*B oder C gewählt?* Masse und Gewichtskraft verwechselt. *D gewählt?* Der Ortsfaktor ist ortsabhängig. → **N3**"
+        },
+        {
+          "id": "N1-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Proportional zur Kraft ist die Verlängerung, nicht die Länge: $2\\,\\mathrm{N}$ ergeben $3\\,\\mathrm{cm}$, $6\\,\\mathrm{N}$ also $9\\,\\mathrm{cm}$. Länge: $10\\,\\mathrm{cm} + 9\\,\\mathrm{cm} = 19\\,\\mathrm{cm}$.\n\n*A oder B gewählt?* Die ganze Länge wurde verdreifacht. *D gewählt?* Verlängerung nicht aus der Messung bestimmt. → **N4**"
+        },
+        {
+          "id": "N1-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Entgegengesetzte Kräfte werden subtrahiert: $300\\,\\mathrm{N} - 120\\,\\mathrm{N} = 180\\,\\mathrm{N}$, in Richtung der größeren Kraft (nach rechts).\n\n*B gewählt?* Addiert. *C gewählt?* Richtung der kleineren Kraft. *D gewählt?* Mittelwert. → **N5**"
+        },
+        {
+          "id": "N1-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Die Gesamtkraft ist die Diagonale des Kräfteparallelogramms. Die Diagonale endet auf dem Messkreis 5: $5 \\cdot 10\\,\\mathrm{N} = 50\\,\\mathrm{N}$.\n\n*A gewählt?* Beträge addiert – das gilt nur bei gleicher Richtung. *B gewählt?* Subtrahiert. *D gewählt?* Nur die längere Seite abgelesen. → **N6**"
+        },
+        {
+          "id": "N1-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Auf die Person wirken die Gewichtskraft (nach unten) und die Kraft der Hängematte auf die Person (nach oben). Beide sind gleich groß und entgegengesetzt: Kräftegleichgewicht, die Gesamtkraft ist null.\n\n*A gewählt?* Ruhe heißt nicht „keine Kraft“, sondern Gesamtkraft null. *B gewählt?* Dann würde die Person nach unten fallen. *C gewählt?* Dann würde sie nach oben beschleunigt. → **N5**"
+        },
+        {
+          "id": "N1-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Hebelgesetz: $0{,}3\\,\\mathrm{N} \\cdot 12\\,\\mathrm{cm} = 0{,}2\\,\\mathrm{N} \\cdot a_2$, also $a_2 = 3{,}6 : 0{,}2\\,\\mathrm{cm} = 18\\,\\mathrm{cm}$. Die kleinere Kraft braucht den längeren Hebelarm.\n\n*A gewählt?* Gleiche Abstände gelten nur bei gleichen Kräften. *C gewählt?* Kräfte und Hebelarme falsch zugeordnet. *D gewählt?* Abstände addiert. → **N8**"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "titel": "Kräfte erkennen, messen und zeichnen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c1",
+        "c2",
+        "c3",
+        "g5",
+        "g2",
+        "g1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. Eine Kraft ist festgelegt durch Angriffspunkt, Richtung und Betrag.",
+      "bild": "img/st_N2.svg",
+      "pdf": "pdf/N2_Kraefte_erkennen_messen_zeichnen.pdf",
+      "aufgaben": [
+        {
+          "id": "N2-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| Situation | Kraftwirkung | Kraftart |\n|---|---|---|\n| (1) Knete | Verformung (bleibend) | Muskelkraft |\n| (2) Tischtennisball | Beschleunigung und Richtungsänderung | Muskelkraft (über den Schläger) |\n| (3) Kompassnadel | Beschleunigung: Die Nadel beginnt sich zu drehen | Magnetkraft |\n| (4) Apfel | Beschleunigung (wird schneller) | Gewichtskraft |\n\n1 P für alle Kraftwirkungen, 1 P für alle Kraftarten."
+        },
+        {
+          "id": "N2-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Formelzeichen $F$, Einheit Newton ($\\mathrm{N}$), Messgerät Federkraftmesser.\n\n$2{,}4\\,\\mathrm{kN} = 2400\\,\\mathrm{N}$ ($1\\,\\mathrm{kN} = 1000\\,\\mathrm{N}$); $650\\,\\mathrm{mN} = 0{,}65\\,\\mathrm{N}$ ($1\\,\\mathrm{mN} = 0{,}001\\,\\mathrm{N}$)."
+        },
+        {
+          "id": "N2-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Kraft am Haken verformt (dehnt) die Feder. Die Verlängerung der Feder ist proportional zur Kraft (Hooke’sches Gesetz). Der Zeiger wandert deshalb gleichmäßig an der Skala entlang; die Skala ist in Newton beschriftet. Der Kraftmesser nutzt also die verformende Wirkung der Kraft."
+        },
+        {
+          "id": "N2-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Schultasche: der $100$-N-Kraftmesser – die beiden anderen würden überdehnt (Messbereich zu klein).\n\nBrief: der $1$-N-Kraftmesser – er reicht aus und hat die feinste Skala. Mit den größeren würde sich der Zeiger kaum bewegen, man könnte nicht genau ablesen."
+        },
+        {
+          "id": "N2-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F_1$: 2 Kästchen, $2 \\cdot 25\\,\\mathrm{N} = 50\\,\\mathrm{N}$\n\n$F_2$: 6 Kästchen, $6 \\cdot 25\\,\\mathrm{N} = 150\\,\\mathrm{N}$\n\n$F_3$: 3 Kästchen, $3 \\cdot 25\\,\\mathrm{N} = 75\\,\\mathrm{N}$"
+        },
+        {
+          "id": "N2-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Länge: $60\\,\\mathrm{N} : 10\\,\\mathrm{N} = 6$ Kästchen (bis zum Messkreis 6).\n\nAngriffspunkt am Griff, Richtung $35^\\circ$ zur Waagerechten (Winkelskala), Pfeilspitze am Ende. Je 1 P für Länge und für Angriffspunkt und Richtung.",
+          "loesung_bild": "img/N2-6.png"
+        },
+        {
+          "id": "N2-7",
+          "label": "7",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Mit $1\\,\\text{Kästchen} \\mathrel{\\hat{=}} 30\\,\\mathrm{N}$: $15\\,\\mathrm{N} \\to 0{,}5$ Kästchen, $120\\,\\mathrm{N} \\to 4$ Kästchen, $450\\,\\mathrm{N} \\to 15$ Kästchen. Alle Pfeile passen aufs Blatt und sind erkennbar.\n\nMit $1\\,\\mathrm{N}$ je Kästchen wäre der größte Pfeil 450 Kästchen lang, mit $100\\,\\mathrm{N}$ je Kästchen wäre der kleinste nur $0{,}15$ Kästchen lang."
+        },
+        {
+          "id": "N2-8",
+          "label": "8",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Zu einer Kraft gehören Betrag, Richtung **und** Angriffspunkt. Drückst du an der Klinke, geht die Tür leicht auf; dieselbe Kraft dicht am Scharnier bewegt sie kaum. Gleich lange, gleich gerichtete Pfeile mit verschiedenem Angriffspunkt können also verschieden wirken."
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "titel": "Masse und Gewichtskraft",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 18,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c4",
+        "c2",
+        "g1",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 18 Minuten. Auf der Erde gilt der Ortsfaktor $g = 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}}$.",
+      "bild": "img/st_N3.svg",
+      "pdf": "pdf/N3_Masse_Gewichtskraft.pdf",
+      "aufgaben": [
+        {
+          "id": "N3-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| | Masse | Gewichtskraft |\n|---|---|---|\n| Bedeutung | Eigenschaft des Körpers | Kraft, mit der der Körper angezogen wird (Wirkung) |\n| Formelzeichen, Einheit | $m$ in kg | $F_G$ in N |\n| Messgerät | Balkenwaage | Federkraftmesser |\n| Ort | überall gleich | hängt vom Ortsfaktor ab |\n\nJe zwei richtige Unterschiede 1 P."
+        },
+        {
+          "id": "N3-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F_G = m \\cdot g = 7{,}5\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} \\approx 73{,}6\\,\\mathrm{N}$"
+        },
+        {
+          "id": "N3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Eine Person: $F_G = 75\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} = 735{,}75\\,\\mathrm{N}$\n\n$25\\,000\\,\\mathrm{N} : 735{,}75\\,\\mathrm{N} \\approx 33{,}98$\n\nEs dürfen höchstens 33 Personen auf die Brücke (abrunden, sonst wäre die Last zu groß)."
+        },
+        {
+          "id": "N3-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Titan: $F_G = 420\\,\\mathrm{kg} \\cdot 1{,}35\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} = 567\\,\\mathrm{N}$\n\nErde: $F_G = 420\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} \\approx 4120\\,\\mathrm{N} \\approx 4{,}12\\,\\mathrm{kN}$\n\nAuf der Erde ist die Gewichtskraft etwa 7-mal so groß; die Masse ist an beiden Orten gleich."
+        },
+        {
+          "id": "N3-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Masse: $m = \\frac{F_G}{g} = \\frac{9{,}8\\,\\mathrm{N}}{9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}}} \\approx 1{,}0\\,\\mathrm{kg}$ (1 P)\n\nOrtsfaktor: $g = \\frac{3{,}7\\,\\mathrm{N}}{1{,}0\\,\\mathrm{kg}} = 3{,}7\\,\\frac{\\mathrm{N}}{\\mathrm{kg}}$ – das passt zum Mars (1 P)."
+        },
+        {
+          "id": "N3-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage stimmt. Die Waage misst die Kraft, mit der du auf sie drückst (deine Gewichtskraft), zum Beispiel über eine Feder. Angezeigt wird die Masse, weil die Waage mit $g = 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}}$ der Erde zurückrechnet. Auf dem Mond würde sie deshalb eine viel zu kleine Masse anzeigen, obwohl sich deine Masse nicht ändert."
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "titel": "Das Hooke’sche Gesetz",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c5",
+        "c3",
+        "g3"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. $s$ ist die Verlängerung der Feder, nicht ihre Länge.",
+      "bild": "img/st_N4.svg",
+      "pdf": "pdf/N4_Hookesches_Gesetz.pdf",
+      "aufgaben": [
+        {
+          "id": "N4-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Elastisch (geht in die alte Form zurück): Gummiband, Trampolintuch.\n\nPlastisch (bleibt verformt): Knete, überdehnte Stahlfeder."
+        },
+        {
+          "id": "N4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Messpunkte als Kreuze eintragen (1 P), Ausgleichsgerade durch die Punkte und den Ursprung zeichnen (1 P).",
+          "loesung_bild": "img/N4-2a.png"
+        },
+        {
+          "id": "N4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Messpunkte liegen (im Rahmen der Messgenauigkeit) auf einer Geraden durch den Ursprung. Außerdem sind die Quotienten $\\frac{F}{s}$ etwa gleich (siehe c)."
+        },
+        {
+          "id": "N4-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$D = \\frac{F}{s}$: $\\frac{0{,}5}{1{,}2} \\approx 0{,}42$; $\\frac{1{,}0}{2{,}5} = 0{,}40$; $\\frac{1{,}5}{3{,}7} \\approx 0{,}41$; $\\frac{2{,}0}{5{,}0} = 0{,}40$; $\\frac{2{,}5}{6{,}2} \\approx 0{,}40$\n\n$D \\approx 0{,}4\\,\\frac{\\mathrm{N}}{\\mathrm{cm}}$ (auch als Steigung der Geraden im Diagramm)."
+        },
+        {
+          "id": "N4-3",
+          "label": "3",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Im elastischen Bereich ist die Verlängerung einer Feder proportional zur angreifenden Kraft.\n\n$F = D \\cdot s$ mit der Federkonstante $D$."
+        },
+        {
+          "id": "N4-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$s = \\frac{F}{D} = \\frac{1{,}8\\,\\mathrm{N}}{0{,}4\\,\\frac{\\mathrm{N}}{\\mathrm{cm}}} = 4{,}5\\,\\mathrm{cm}$\n\n$F = D \\cdot s = 0{,}4\\,\\frac{\\mathrm{N}}{\\mathrm{cm}} \\cdot 6\\,\\mathrm{cm} = 2{,}4\\,\\mathrm{N}$"
+        },
+        {
+          "id": "N4-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$D_B = \\frac{3{,}0\\,\\mathrm{N}}{2{,}0\\,\\mathrm{cm}} = 1{,}5\\,\\frac{\\mathrm{N}}{\\mathrm{cm}}$\n\nFeder B ist härter: Feder B braucht für $1\\,\\mathrm{cm}$ Verlängerung fast viermal so viel Kraft wie Feder A ($0{,}4\\,\\frac{\\mathrm{N}}{\\mathrm{cm}}$)."
+        },
+        {
+          "id": "N4-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Gewichtskraft: $5\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} \\approx 49\\,\\mathrm{N}$. Nach dem Gesetz wäre $s = 49\\,\\mathrm{N} : 0{,}4\\,\\frac{\\mathrm{N}}{\\mathrm{cm}} \\approx 123\\,\\mathrm{cm}$.\n\nSo weit lässt sich eine kleine Schraubenfeder nicht elastisch dehnen: Das Hooke’sche Gesetz gilt nur im elastischen Bereich. Die Feder würde plastisch verformt; die Aussage ist falsch."
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "titel": "Kräfte auf einer Linie und Kräftegleichgewicht",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 16,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c6",
+        "c8",
+        "c3",
+        "c4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 16 Minuten. Auf der Erde gilt $g = 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}}$.",
+      "bild": "img/st_N5.svg",
+      "pdf": "pdf/N5_Kraefte_Linie_Gleichgewicht.pdf",
+      "aufgaben": [
+        {
+          "id": "N5-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Gleiche Richtung: Beträge addieren, $F_{ges} = F_1 + F_2$.\n\nEntgegengesetzte Richtung: Beträge subtrahieren, $F_{ges} = F_1 - F_2$; die Gesamtkraft zeigt in Richtung der größeren Kraft."
+        },
+        {
+          "id": "N5-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F_{ges} = 300\\,\\mathrm{N} + 250\\,\\mathrm{N} - 400\\,\\mathrm{N} = 150\\,\\mathrm{N}$"
+        },
+        {
+          "id": "N5-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zum Ufer hin, denn die Kräfte der Helfer ($550\\,\\mathrm{N}$) sind größer als die Kraft der Strömung. Das Boot wird zum Ufer hin beschleunigt."
+        },
+        {
+          "id": "N5-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Helfer: 6 und 5 Kästchen zum Ufer, Strömung: 8 Kästchen vom Ufer weg, Gesamtkraft: 3 Kästchen zum Ufer. Zum Zusammensetzen hängt man die Pfeile aneinander: Der zweite Helferpfeil beginnt an der Spitze des ersten, der Strömungspfeil an der Spitze des zweiten (zurück). Die Gesamtkraft reicht vom Boot bis zur Spitze des Strömungspfeils.",
+          "loesung_bild": "img/N5-2c.png"
+        },
+        {
+          "id": "N5-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$F_G = 450\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} = 4414{,}5\\,\\mathrm{N} \\approx 4{,}41\\,\\mathrm{kN}$\n\nAuf die Glocke wirken zwei Kräfte: die Gewichtskraft nach unten und die Kraft der Aufhängung auf die Glocke nach oben. Die Glocke ruht, also herrscht Kräftegleichgewicht: Die Haltekraft ist ebenfalls etwa $4{,}41\\,\\mathrm{kN}$ groß, die Gesamtkraft auf die Glocke ist null."
+        },
+        {
+          "id": "N5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Auf die Glocke wirken Kräfte (Gewichtskraft und Kraft der Aufhängung). Die Kräfte heben sich nur in ihrer Wirkung auf, weil sie gleich groß und entgegengesetzt gerichtet sind. Ohne die Aufhängung würde die Glocke sofort fallen."
+        },
+        {
+          "id": "N5-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gleichgewicht: Beide Seilkräfte zusammen tragen die Last. $1200\\,\\mathrm{N} - 500\\,\\mathrm{N} = 700\\,\\mathrm{N}$."
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "titel": "Das Kräfteparallelogramm",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c3",
+        "g2"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. Um den Angriffspunkt sind Messkreise im Abstand von 1 Kästchen und eine Winkelskala gedruckt.",
+      "bild": "img/st_N6.svg",
+      "pdf": "pdf/N6_Kraefteparallelogramm.pdf",
+      "aufgaben": [
+        {
+          "id": "N6-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "1. Beide Kraftpfeile im Maßstab vom gemeinsamen Angriffspunkt aus zeichnen.\n2. Jeden Pfeil parallel verschieben, sodass er an der Spitze des anderen beginnt (Parallelen zeichnen).\n3. Die Diagonale vom Angriffspunkt zur gegenüberliegenden Ecke ist die Gesamtkraft; Länge messen und mit dem Maßstab umrechnen."
+        },
+        {
+          "id": "N6-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$F_1 = 12 \\cdot 10\\,\\mathrm{N} = 120\\,\\mathrm{N}$, $F_2 = 5 \\cdot 10\\,\\mathrm{N} = 50\\,\\mathrm{N}$.\n\nParallelogramm (hier ein Rechteck) ergänzen, Diagonale zeichnen (1 P). Die Diagonale endet auf dem Messkreis 13: $F_{ges} = 13 \\cdot 10\\,\\mathrm{N} = 130\\,\\mathrm{N}$ (1 P).",
+          "loesung_bild": "img/N6-2.png"
+        },
+        {
+          "id": "N6-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Seil 1: $4{,}0 : 0{,}5 = 8$ Kästchen, Seil 2: $3{,}0 : 0{,}5 = 6$ Kästchen, jeweils vom Mastkopf entlang der Seile (1 P).\n\nDie Diagonale ist etwa $12{,}7$ Kästchen lang: $F_{ges} \\approx 12{,}7 \\cdot 0{,}5\\,\\mathrm{kN} \\approx 6{,}4\\,\\mathrm{kN}$ (1 P; $6{,}2$ bis $6{,}5\\,\\mathrm{kN}$ sind richtig).",
+          "loesung_bild": "img/N6-3a.png"
+        },
+        {
+          "id": "N6-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Etwa $21^\\circ$ ($20^\\circ$ bis $22^\\circ$). Die Gesamtkraft liegt näher an der größeren Kraft."
+        },
+        {
+          "id": "N6-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Parallelogramm wird flacher, die Diagonale kürzer: Die Gesamtkraft wird kleiner."
+        },
+        {
+          "id": "N6-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Größter Wert bei gleicher Richtung ($0^\\circ$): $4{,}0\\,\\mathrm{kN} + 3{,}0\\,\\mathrm{kN} = 7{,}0\\,\\mathrm{kN}$. Kleinster Wert bei entgegengesetzter Richtung ($180^\\circ$): $4{,}0\\,\\mathrm{kN} - 3{,}0\\,\\mathrm{kN} = 1{,}0\\,\\mathrm{kN}$.\n\nDie Gesamtkraft liegt also zwischen $1\\,\\mathrm{kN}$ und $7\\,\\mathrm{kN}$ – mehr als $7\\,\\mathrm{kN}$ ist nie möglich."
+        },
+        {
+          "id": "N6-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Für Gleichgewicht muss die Gesamtkraft am Mastkopf null sein: Das dritte Seil zieht mit etwa $6{,}4\\,\\mathrm{kN}$ genau entgegengesetzt zur Gesamtkraft der beiden Segelseile."
+        },
+        {
+          "id": "N6-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Im rechten Winkel: Rechteck mit 8 und 6 Kästchen, die Diagonale endet auf Messkreis 10, also $10 \\cdot 0{,}5\\,\\mathrm{kN} = 5\\,\\mathrm{kN}$ (Kontrolle mit Pythagoras: $\\sqrt{4^2 + 3^2} = 5$).\n\nDer Vorschlag stimmt: Der Winkel ist größer als $50^\\circ$, die Gesamtkraft und damit die Kraft im dritten Seil wird kleiner ($5\\,\\mathrm{kN}$ statt $6{,}4\\,\\mathrm{kN}$)."
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "titel": "Simulation: Hebel im Gleichgewicht",
+      "typ": "wahl",
+      "sozialform": "partner",
+      "dauer_min": 20,
+      "hilfsmittel": "iPad, Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c4",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Partnerarbeit mit der PhET-Simulation „Balanceakt“ (https://phet.colorado.edu/de/simulations/balancing-act), Bildschirm „Ausgleichslabor“, 20 Minuten. Notiere deine Vermutung in Aufgabe 3, bevor du ausprobierst.",
+      "bild": "img/st_N7.svg",
+      "pdf": "pdf/N7_Simulation_Hebel.pdf",
+      "aufgaben": [
+        {
+          "id": "N7-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| Masse rechts | Abstand rechts | Masse · Abstand |\n|---|---|---|\n| $5\\,\\mathrm{kg}$ | $2{,}0\\,\\mathrm{m}$ | $10\\,\\mathrm{kg \\cdot m}$ |\n| $10\\,\\mathrm{kg}$ | $1{,}0\\,\\mathrm{m}$ | $10\\,\\mathrm{kg \\cdot m}$ |\n| $20\\,\\mathrm{kg}$ | $0{,}5\\,\\mathrm{m}$ | $10\\,\\mathrm{kg \\cdot m}$ |\n\nLinks: $20\\,\\mathrm{kg}$ in $0{,}5\\,\\mathrm{m}$, also ebenfalls $10\\,\\mathrm{kg \\cdot m}$."
+        },
+        {
+          "id": "N7-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das Produkt aus Masse und Abstand von der Drehachse ist auf beiden Seiten gleich ($10\\,\\mathrm{kg \\cdot m}$). Doppelte Masse – halber Abstand."
+        },
+        {
+          "id": "N7-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Aus $m_1 \\cdot a_1 = m_2 \\cdot a_2$ folgt durch Multiplizieren mit $g$: $m_1 \\cdot g \\cdot a_1 = m_2 \\cdot g \\cdot a_2$, also\n\n$$F_1 \\cdot a_1 = F_2 \\cdot a_2$$\n\nHebelgesetz: Ein Hebel ist im Gleichgewicht, wenn Kraft mal Hebelarm (das Drehmoment) auf beiden Seiten gleich ist. Der Ortsfaktor kürzt sich weg."
+        },
+        {
+          "id": "N7-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$15\\,\\mathrm{kg} \\cdot 1{,}0\\,\\mathrm{m} = 10\\,\\mathrm{kg} \\cdot a_2$, also $a_2 = 1{,}5\\,\\mathrm{m}$ (1 P).\n\nIn der Simulation bleibt das Brett ohne Stützen waagerecht (1 P)."
+        },
+        {
+          "id": "N7-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gleichgewicht zum Beispiel mit 4 Ziegelsteinen ($20\\,\\mathrm{kg}$) in $2{,}0\\,\\mathrm{m}$:\n\n$m \\cdot 0{,}5\\,\\mathrm{m} = 20\\,\\mathrm{kg} \\cdot 2{,}0\\,\\mathrm{m}$, also $m = 40 : 0{,}5\\,\\mathrm{kg} = 80\\,\\mathrm{kg}$. Die Simulation zeigt $80\\,\\mathrm{kg}$."
+        },
+        {
+          "id": "N7-5",
+          "label": "5",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Es kommt auf Masse **und** Abstand an: In Aufgabe 1 trägt die linke Seite $20\\,\\mathrm{kg}$, die rechte nur $5\\,\\mathrm{kg}$ – trotzdem bleibt das Brett waagerecht, weil die $5\\,\\mathrm{kg}$ viermal so weit von der Drehachse entfernt sind. Eine kleine Masse weit außen kann eine große Masse nahe der Drehachse sogar nach oben heben."
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "titel": "Hebelgesetz und Werkzeuge",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c4",
+        "g4"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. Hebelgesetz: $F_1 \\cdot a_1 = F_2 \\cdot a_2$. Das Gewicht der Hebel selbst vernachlässigst du.",
+      "bild": "img/st_N8.svg",
+      "pdf": "pdf/N8_Hebelgesetz_Werkzeuge.pdf",
+      "aufgaben": [
+        {
+          "id": "N8-1",
+          "label": "1",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "1 – Drehachse (Drehpunkt); 2 – Hebelarm $a_1$; 3 – Hebelarm $a_2$; 4 – Kraft $F_1$; 5 – Kraft $F_2$.\n\nDrehmoment = Kraft · Hebelarm, Einheit $\\mathrm{N \\cdot m}$ (Newtonmeter)."
+        },
+        {
+          "id": "N8-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$120\\,\\mathrm{N} \\cdot 3{,}0\\,\\mathrm{m} = F_2 \\cdot 1{,}2\\,\\mathrm{m}$\n\n$F_2 = \\frac{360\\,\\mathrm{N \\cdot m}}{1{,}2\\,\\mathrm{m}} = 300\\,\\mathrm{N}$ (1 P)\n\n$m = \\frac{300\\,\\mathrm{N}}{9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}}} \\approx 30{,}6\\,\\mathrm{kg}$ (1 P)"
+        },
+        {
+          "id": "N8-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Links: $150\\,\\mathrm{N} \\cdot 0{,}6\\,\\mathrm{m} = 90\\,\\mathrm{N \\cdot m}$; rechts: $100\\,\\mathrm{N} \\cdot 0{,}8\\,\\mathrm{m} = 80\\,\\mathrm{N \\cdot m}$.\n\nDie Drehmomente sind verschieden: kein Gleichgewicht, die Stange kippt nach links."
+        },
+        {
+          "id": "N8-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Abstand vom linken Ende $x$: $150 \\cdot x = 100 \\cdot (1{,}4 - x)$\n\n$250 \\cdot x = 140$, also $x = 0{,}56\\,\\mathrm{m}$ vom linken Ende (näher am schweren Eimer)."
+        },
+        {
+          "id": "N8-4",
+          "label": "4",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| Werkzeug | Drehachse | Hebel |\n|---|---|---|\n| Kuhfuß | Auflagepunkt auf dem Holz | zweiseitig |\n| Kombizange | Gelenk | zweiseitig |\n| Pinzette | verbundenes Ende | einseitig |\n| Sackkarre | Radachse | einseitig |\n\nJe zwei richtige Werkzeuge 1 P."
+        },
+        {
+          "id": "N8-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$1500\\,\\mathrm{N} \\cdot 4\\,\\mathrm{cm} = F \\cdot 32\\,\\mathrm{cm}$\n\n$F = \\frac{6000\\,\\mathrm{N \\cdot cm}}{32\\,\\mathrm{cm}} = 187{,}5\\,\\mathrm{N} \\approx 190\\,\\mathrm{N}$ – nur ein Achtel der Kraft des Nagels."
+        },
+        {
+          "id": "N8-6",
+          "label": "6",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Bei der Pinzette drücken die Finger in der Mitte, die Spitze ist weiter von der Drehachse entfernt: Der Hebelarm der Fingerkraft ist kürzer, deshalb ist die Kraft an der Spitze kleiner als die Fingerkraft. Die Pinzette spart keine Kraft, sondern ermöglicht feines, vorsichtiges Greifen. Kraft spart ein Hebel nur, wenn die Hand am längeren Hebelarm angreift."
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "titel": "Tandem: Kräfte und Hebel",
+      "typ": "wahl",
+      "sozialform": "tandem",
+      "dauer_min": 15,
+      "hilfsmittel": "Taschenrechner",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Zwei Personen, zwei Tablets. Wer die Nummer hat, erklärt laut; das Gegenüber kontrolliert mit der Lösung und gibt bei Bedarf den Tipp. Ortsfaktor auf der Erde: 9,81 N/kg.",
+      "bild": "img/st_N9.svg",
+      "pdf_optional": true,
+      "aufgaben": [
+        {
+          "id": "N9-1",
+          "label": "1",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Beim Kopfball trifft der Ball auf die Stirn und fliegt in eine andere Richtung weiter. Nenne zwei Kraftwirkungen, die du dabei erkennst.",
+          "tipp": "Was passiert mit der Form des Balls, was mit seiner Bewegung?",
+          "loesung": "Verformung (der Ball wird kurz eingedrückt) und Richtungsänderung (er fliegt in eine andere Richtung); oft ändert sich auch die Geschwindigkeit (Beschleunigung)."
+        },
+        {
+          "id": "N9-2",
+          "label": "2",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Gib $3{,}5\\,\\mathrm{kN}$ und $250\\,\\mathrm{mN}$ in Newton an.",
+          "tipp": "$1\\,\\mathrm{kN} = 1000\\,\\mathrm{N}$, $1\\,\\mathrm{mN} = 0{,}001\\,\\mathrm{N}$",
+          "loesung": "$3{,}5\\,\\mathrm{kN} = 3500\\,\\mathrm{N}$; $250\\,\\mathrm{mN} = 0{,}25\\,\\mathrm{N}$"
+        },
+        {
+          "id": "N9-3",
+          "label": "3",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Eine Gesteinsprobe hat $3{,}0\\,\\mathrm{kg}$. Berechne ihre Gewichtskraft auf der Erde und auf dem Mond ($g = 1{,}62\\,\\frac{\\mathrm{N}}{\\mathrm{kg}}$).",
+          "tipp": "$F_G = m \\cdot g$; die Masse bleibt gleich.",
+          "loesung": "Erde: $3{,}0\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} \\approx 29{,}4\\,\\mathrm{N}$. Mond: $3{,}0\\,\\mathrm{kg} \\cdot 1{,}62\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} \\approx 4{,}9\\,\\mathrm{N}$."
+        },
+        {
+          "id": "N9-4",
+          "label": "4",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Eine Feder hat die Federkonstante $0{,}5\\,\\frac{\\mathrm{N}}{\\mathrm{cm}}$. Um wie viel verlängert sie sich bei $3{,}0\\,\\mathrm{N}$?",
+          "tipp": "Hooke’sches Gesetz $F = D \\cdot s$ nach $s$ auflösen.",
+          "loesung": "$s = \\frac{F}{D} = \\frac{3{,}0\\,\\mathrm{N}}{0{,}5\\,\\frac{\\mathrm{N}}{\\mathrm{cm}}} = 6\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "N9-5",
+          "label": "5",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Zwei Personen schieben ein liegengebliebenes Auto mit $300\\,\\mathrm{N}$ und $250\\,\\mathrm{N}$ in dieselbe Richtung. Wie groß ist die Gesamtkraft?",
+          "tipp": "Gleiche Richtung: addieren.",
+          "loesung": "$300\\,\\mathrm{N} + 250\\,\\mathrm{N} = 550\\,\\mathrm{N}$ in Schieberichtung."
+        },
+        {
+          "id": "N9-6",
+          "label": "6",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "I",
+          "aufgabe": "Ein Kraftpfeil ist 6 Kästchen lang, der Maßstab ist $1\\,\\text{Kästchen} \\mathrel{\\hat{=}} 25\\,\\mathrm{N}$. Wie groß ist die Kraft?",
+          "tipp": "Kästchenzahl mal Maßstab.",
+          "loesung": "$6 \\cdot 25\\,\\mathrm{N} = 150\\,\\mathrm{N}$"
+        },
+        {
+          "id": "N9-7",
+          "label": "7",
+          "partner": "A",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "Ein Boxsack mit $25\\,\\mathrm{kg}$ hängt ruhig an einer Kette. Mit welcher Kraft zieht die Kette am Boxsack?",
+          "tipp": "Ruhe heißt Kräftegleichgewicht.",
+          "loesung": "$F_G = 25\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} \\approx 245\\,\\mathrm{N}$. Die Kette zieht mit etwa $245\\,\\mathrm{N}$ nach oben am Boxsack; die Gesamtkraft ist null."
+        },
+        {
+          "id": "N9-8",
+          "label": "8",
+          "partner": "B",
+          "punkte": 2,
+          "afb": "II",
+          "aufgabe": "An einem Hebel hängt links $6\\,\\mathrm{N}$ im Abstand $20\\,\\mathrm{cm}$ von der Drehachse, rechts $4\\,\\mathrm{N}$. In welchem Abstand rechts herrscht Gleichgewicht?",
+          "tipp": "Hebelgesetz $F_1 \\cdot a_1 = F_2 \\cdot a_2$",
+          "loesung": "$6\\,\\mathrm{N} \\cdot 20\\,\\mathrm{cm} = 4\\,\\mathrm{N} \\cdot a_2$, also $a_2 = 120 : 4\\,\\mathrm{cm} = 30\\,\\mathrm{cm}$."
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "titel": "Fehler finden und begründen",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c9",
+        "c4",
+        "c5",
+        "c7",
+        "c8"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. Jede Lösung enthält genau einen Fehler. Benenne ihn und stelle ihn richtig.",
+      "bild": "img/st_N10.svg",
+      "pdf": "pdf/N10_Fehler_finden.pdf",
+      "aufgaben": [
+        {
+          "id": "N10-1",
+          "label": "1",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Ortsfaktor bezieht sich auf Kilogramm ($\\frac{\\mathrm{N}}{\\mathrm{kg}}$); die Masse wurde in Gramm eingesetzt.\n\nRichtig: $500\\,\\mathrm{g} = 0{,}5\\,\\mathrm{kg}$, $F_G = 0{,}5\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} \\approx 4{,}9\\,\\mathrm{N}$."
+        },
+        {
+          "id": "N10-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Hooke’schen Gesetz steht die Verlängerung $s$, nicht die Länge der Feder.\n\nRichtig: $s = 15\\,\\mathrm{cm} - 12\\,\\mathrm{cm} = 3\\,\\mathrm{cm}$, $D = \\frac{4\\,\\mathrm{N}}{3\\,\\mathrm{cm}} \\approx 1{,}33\\,\\frac{\\mathrm{N}}{\\mathrm{cm}}$."
+        },
+        {
+          "id": "N10-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beträge darf man nur addieren, wenn die Kräfte die gleiche Richtung haben. Bei verschiedenen Richtungen gilt das Kräfteparallelogramm.\n\nDie Diagonale endet knapp vor Messkreis 6 (etwa $5{,}8$ Kästchen): $F_{ges} \\approx 58\\,\\mathrm{N}$ ($56$ bis $60\\,\\mathrm{N}$ sind richtig).",
+          "loesung_bild": "img/N10-3.png"
+        },
+        {
+          "id": "N10-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Hebelarm wird von der Drehachse aus gemessen, nicht vom Stangenende: $a_2 = 1{,}2\\,\\mathrm{m} - 0{,}4\\,\\mathrm{m} = 0{,}8\\,\\mathrm{m}$."
+        },
+        {
+          "id": "N10-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$200\\,\\mathrm{N} \\cdot 0{,}4\\,\\mathrm{m} = F \\cdot 0{,}8\\,\\mathrm{m}$, also $F = \\frac{80\\,\\mathrm{N \\cdot m}}{0{,}8\\,\\mathrm{m}} = 100\\,\\mathrm{N}$."
+        },
+        {
+          "id": "N10-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ruhe bedeutet nicht „keine Kraft“, sondern: Die Gesamtkraft ist null (1 P).\n\nAuf den Kübel wirken seine Gewichtskraft nach unten und die Kraft des Balkonbodens auf den Kübel nach oben. Beide sind gleich groß und entgegengesetzt gerichtet: Kräftegleichgewicht (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "titel": "Check-out: Was kann ich jetzt?",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 8,
+      "hilfsmittel": "keine",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c1"
+      ],
+      "kategorie": "neu",
+      "hinweis": "Ohne Hilfsmittel, 8 Minuten. Je Teilaufgabe 1 Punkt, wenn Antwort und Begründung stimmen. Schreibe Buchstabe, Begründung (ein Stichwort oder ein Satz) und „sicher“ oder „unsicher“ in deine Notizen. Achte besonders auf Aufgaben, die du falsch und zugleich „sicher“ gelöst hast: Dahinter steckt meist eine Fehlvorstellung.",
+      "bild": "img/st_N11.svg",
+      "pdf": "pdf/N11_Check-out.pdf",
+      "aufgaben": [
+        {
+          "id": "N11-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Auch eine Richtungsänderung ist eine Kraftwirkung. In der Kurve ändert der Zug ständig seine Richtung; die Schienen üben dazu eine Kraft auf ihn aus.\n\n*A, B oder D gewählt?* Kräfte erkennt man auch an Richtungsänderungen. → **N2**"
+        },
+        {
+          "id": "N11-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $4{,}5 \\cdot 40\\,\\mathrm{N} = 180\\,\\mathrm{N}$.\n\n*B gewählt?* Mit 4 statt mit 40 multipliziert (Null vergessen). *C gewählt?* Den Maßstab durch die Länge geteilt. *D gewählt?* Addiert. → **N2**"
+        },
+        {
+          "id": "N11-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Die Masse ist überall gleich. Der Ortsfaktor des Jupiters ist größer als der der Erde ($24{,}8\\,\\frac{\\mathrm{N}}{\\mathrm{kg}}$), also wird die Gewichtskraft größer.\n\n*A oder B gewählt?* Masse und Gewichtskraft verwechselt. *C gewählt?* Der Ortsfaktor ist ortsabhängig. → **N3**"
+        },
+        {
+          "id": "N11-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Verlängerung bei $3\\,\\mathrm{N}$: $6\\,\\mathrm{cm}$; bei $6\\,\\mathrm{N}$ doppelt so viel, $12\\,\\mathrm{cm}$. Länge: $8\\,\\mathrm{cm} + 12\\,\\mathrm{cm} = 20\\,\\mathrm{cm}$.\n\n*A oder C gewählt?* Die ganze Länge wurde verdoppelt. *D gewählt?* Verlängerung nicht aus der Messung bestimmt. → **N4**"
+        },
+        {
+          "id": "N11-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Entgegengesetzte Kräfte subtrahieren: $450\\,\\mathrm{N} - 200\\,\\mathrm{N} = 250\\,\\mathrm{N}$, in Richtung der größeren Kraft (Norden).\n\n*A gewählt?* Addiert. *B gewählt?* Richtung der kleineren Kraft. *C gewählt?* Mittelwert. → **N5**"
+        },
+        {
+          "id": "N11-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Die Diagonale endet auf dem Messkreis 5: $5 \\cdot 20\\,\\mathrm{N} = 100\\,\\mathrm{N}$.\n\n*A gewählt?* Beträge addiert. *C gewählt?* Subtrahiert. *D gewählt?* Nur die längere Seite abgelesen. → **N6**"
+        },
+        {
+          "id": "N11-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Auf das Häuschen wirken die Gewichtskraft (nach unten) und die Kraft des Seils auf das Häuschen (nach oben). Beide sind gleich groß und entgegengesetzt: Kräftegleichgewicht.\n\n*B gewählt?* Ruhe heißt Gesamtkraft null, nicht „keine Kraft“. *C gewählt?* Dann würde es nach oben beschleunigt. *D gewählt?* Dann würde es fallen. → **N5**"
+        },
+        {
+          "id": "N11-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – $0{,}4\\,\\mathrm{N} \\cdot 9\\,\\mathrm{cm} = 0{,}6\\,\\mathrm{N} \\cdot a_2$, also $a_2 = 3{,}6 : 0{,}6\\,\\mathrm{cm} = 6\\,\\mathrm{cm}$. Die größere Kraft braucht den kürzeren Hebelarm.\n\n*A gewählt?* Gleiche Abstände gelten nur bei gleichen Kräften. *B gewählt?* Kräfte und Hebelarme falsch zugeordnet. *D gewählt?* Abstände addiert. → **N8**"
+        }
+      ]
+    },
+    {
+      "id": "V1",
+      "titel": "Der Hängesessel",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c5",
+        "c4",
+        "c2",
+        "c1",
+        "c3",
+        "g1",
+        "g3"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 (Kraft, Gewichtskraft und Federkraft) – am besten nach N2 bis N4.",
+      "bild": "img/st_V1.svg",
+      "pdf": "pdf/V1_Haengesessel.pdf",
+      "aufgaben": [
+        {
+          "id": "V1-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$m = 8\\,\\mathrm{kg} + 55\\,\\mathrm{kg} = 63\\,\\mathrm{kg}$\n\n$F_G = 63\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} \\approx 618\\,\\mathrm{N}$"
+        },
+        {
+          "id": "V1-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{F}{s}$ in $\\frac{\\mathrm{N}}{\\mathrm{cm}}$: $250$; $238$; $259$; $250$; $245$.\n\nDie Quotienten sind im Rahmen der Messgenauigkeit gleich: Kraft und Verlängerung sind proportional, die Feder folgt dem Hooke’schen Gesetz."
+        },
+        {
+          "id": "V1-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$D \\approx 250\\,\\frac{\\mathrm{N}}{\\mathrm{cm}}$ (Mittelwert der Quotienten)."
+        },
+        {
+          "id": "V1-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$s = \\frac{F}{D} = \\frac{618\\,\\mathrm{N}}{250\\,\\frac{\\mathrm{N}}{\\mathrm{cm}}} \\approx 2{,}5\\,\\mathrm{cm}$"
+        },
+        {
+          "id": "V1-2",
+          "label": "2",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Gewichtskraft $618\\,\\mathrm{N}$ nach unten und Kraft der Feder auf den Sessel $618\\,\\mathrm{N}$ nach oben, je etwa $6{,}2$ Kästchen lang (Kräftegleichgewicht).",
+          "loesung_bild": "img/V1-2.png"
+        },
+        {
+          "id": "V1-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ruhig sitzend: $m = 8\\,\\mathrm{kg} + 110\\,\\mathrm{kg} = 118\\,\\mathrm{kg}$, $F_G = 118\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} \\approx 1158\\,\\mathrm{N}$. Das ist weniger als $1{,}5\\,\\mathrm{kN}$ (Haken) und weniger als $250\\,\\frac{\\mathrm{N}}{\\mathrm{cm}} \\cdot 7\\,\\mathrm{cm} = 1750\\,\\mathrm{N}$ (Feder) (1 P).\n\nBeim Schaukeln wirken aber größere Kräfte als beim ruhigen Sitzen. Bis zur Grenze des Hakens bleiben nur etwa $340\\,\\mathrm{N}$ Spielraum. Ruhig sitzen ist möglich, kräftiges Schaukeln zu zweit ist riskant – die Aussage ist so nicht richtig (1 P)."
+        },
+        {
+          "id": "V1-4",
+          "label": "4",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die Feder wurde über ihren elastischen Bereich hinaus gedehnt und plastisch verformt. Die Feder geht nicht mehr in ihre alte Form zurück; das Hooke’sche Gesetz mit der alten Federkonstante gilt nicht mehr sicher."
+        },
+        {
+          "id": "V1-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Neben die Feder eine Skala kleben: Weil die Verlängerung proportional zur Kraft ist, entspricht jeder Zentimeter Verlängerung $250\\,\\mathrm{N}$. Die Striche haben gleiche Abstände, zum Beispiel alle $0{,}4\\,\\mathrm{cm}$ ein Strich für $100\\,\\mathrm{N}$; der Nullstrich liegt beim Ende der unbelasteten Feder."
+        },
+        {
+          "id": "V1-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Nein. Der Brief verlängert die Feder nur um $0{,}2 : 250\\,\\mathrm{cm} = 0{,}0008\\,\\mathrm{cm}$ – das ist nicht ablesbar. Für kleine Kräfte braucht man eine weiche Feder mit kleiner Federkonstante (kleiner Messbereich)."
+        }
+      ]
+    },
+    {
+      "id": "V2",
+      "titel": "Auf der Slackline",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c6",
+        "c4",
+        "c5",
+        "c3",
+        "g2",
+        "g3"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 2 (Kraft, Gewichtskraft und Federkraft; Mehrere Kräfte) – am besten nach N5 bis N6.",
+      "bild": "img/st_V2.svg",
+      "pdf": "pdf/V2_Slackline.pdf",
+      "aufgaben": [
+        {
+          "id": "V2-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F_G = 60\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} = 588{,}6\\,\\mathrm{N}$"
+        },
+        {
+          "id": "V2-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Je 12 Kästchen lang ($1200\\,\\mathrm{N} : 100\\,\\mathrm{N}$), vom Punkt aus entlang der gestrichelten Bandlinien zu den Bäumen.",
+          "loesung_bild": "img/V2-1b.png"
+        },
+        {
+          "id": "V2-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Parallelen zeichnen: Die Diagonale zeigt senkrecht nach oben (1 P).\n\nDie Diagonale ist etwa $5{,}8$ Kästchen lang: $F_{ges} \\approx 580\\,\\mathrm{N}$ nach oben (1 P)."
+        },
+        {
+          "id": "V2-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Auf einer Linie: Gesamtkraft des Bandes etwa $580\\,\\mathrm{N}$ nach oben, Gewichtskraft $588{,}6\\,\\mathrm{N}$ nach unten (1 P).\n\nDer Unterschied (etwa $9\\,\\mathrm{N}$, weniger als ein Zehntel Kästchen) liegt in der Zeichengenauigkeit: Die Kräfte heben sich auf, die Gesamtkraft ist praktisch null – Gleichgewicht (1 P)."
+        },
+        {
+          "id": "V2-2",
+          "label": "2",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Bandhälften ziehen fast waagerecht und fast entgegengesetzt; das Parallelogramm ist sehr flach, seine Diagonale ist viel kürzer als die Seiten. Nur große Bandkräfte ergeben zusammen die nötigen $589\\,\\mathrm{N}$ nach oben (1 P).\n\nBei einem flacheren Winkel wird die Diagonale bei gleicher Bandkraft noch kürzer. Damit sie trotzdem die Gewichtskraft ausgleicht, müssen die Bandkräfte noch größer werden: Ein strafferes Band belastet die Bäume stärker (1 P)."
+        },
+        {
+          "id": "V2-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$\\frac{18\\,\\mathrm{cm}}{1{,}2\\,\\mathrm{kN}} = 15\\,\\frac{\\mathrm{cm}}{\\mathrm{kN}}$, also $1{,}5\\,\\mathrm{kN} \\cdot 15\\,\\frac{\\mathrm{cm}}{\\mathrm{kN}} = 22{,}5\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "V2-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Angriffspunkt: die Befestigung des Bandes am Baum; Richtung: entlang des Bandes schräg nach unten zur Person hin; Betrag $1{,}2\\,\\mathrm{kN}$ (im Maßstab 12 Kästchen)."
+        }
+      ]
+    },
+    {
+      "id": "V3",
+      "titel": "Die Klappbrücke",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 20,
+      "hilfsmittel": "Geodreieck, Taschenrechner, Regelheft",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c8",
+        "c4",
+        "c3",
+        "g1",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Geodreieck, Taschenrechner und Regelheft, 20 Minuten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Kraft, Gewichtskraft und Federkraft; Mehrere Kräfte; Hebel) – am besten nach N7 bis N10.",
+      "bild": "img/st_V3.svg",
+      "pdf": "pdf/V3_Klappbruecke.pdf",
+      "aufgaben": [
+        {
+          "id": "V3-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$8{,}0\\,\\mathrm{t} = 8000\\,\\mathrm{kg}$; $F_G = 8000\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} = 78\\,480\\,\\mathrm{N} \\approx 78{,}5\\,\\mathrm{kN}$"
+        },
+        {
+          "id": "V3-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Balken mit Drehachse (Dreieck), rechts die Gewichtskraft der Klappe im Abstand $a_1 = 5{,}0\\,\\mathrm{m}$, links die Gewichtskraft des Gegengewichts in $a_2 = 2{,}0\\,\\mathrm{m}$, beide nach unten (1 P Drehachse und bemaßte Hebelarme, 1 P Kraftpfeile mit Formelzeichen).",
+          "loesung_bild": "img/V3-1b.png"
+        },
+        {
+          "id": "V3-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$78{,}48\\,\\mathrm{kN} \\cdot 5{,}0\\,\\mathrm{m} = F_2 \\cdot 2{,}0\\,\\mathrm{m}$, also $F_2 = 196{,}2\\,\\mathrm{kN}$ (1 P).\n\n$m = \\frac{196\\,200\\,\\mathrm{N}}{9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}}} = 20\\,000\\,\\mathrm{kg} = 20\\,\\mathrm{t}$ (1 P)"
+        },
+        {
+          "id": "V3-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Brücke ist ein zweiseitiger Hebel. Mit dem passenden Gegengewicht sind die Drehmomente beider Seiten gleich: Die Brücke ist (fast) im Gleichgewicht (1 P).\n\nDer Motor muss die Klappe deshalb nicht selbst hochheben, sondern nur das Gleichgewicht ein wenig stören und Reibung überwinden – dafür genügt eine kleine Kraft (1 P)."
+        },
+        {
+          "id": "V3-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der Schnee liegt gleichmäßig, sein Schwerpunkt liegt also wie der der Klappe $5{,}0\\,\\mathrm{m}$ vor der Drehachse. Zusätzliches Drehmoment:\n\n$1200\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} \\cdot 5{,}0\\,\\mathrm{m} = 58\\,860\\,\\mathrm{N \\cdot m} \\approx 58{,}9\\,\\mathrm{kN \\cdot m}$ (1 P)\n\nDas ist mehr als $50\\,\\mathrm{kN \\cdot m}$: Der Motor kann die Brücke nicht öffnen; der Schnee muss vorher geräumt werden (1 P)."
+        },
+        {
+          "id": "V3-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "III",
+          "loesung": "Die Aussage ist falsch. Ist das Gegengewicht zu schwer, überwiegt sein Drehmoment: Die Klappe würde von selbst hochklappen, und der Motor müsste sie zum Schließen gegen das Gegengewicht herunterdrücken. Am günstigsten ist ein Gegengewicht, mit dem die Brücke im Gleichgewicht ist."
+        }
+      ]
+    }
+  ]
+}

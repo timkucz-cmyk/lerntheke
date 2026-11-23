@@ -121,6 +121,13 @@
           "fach": "mathe",
           "aktiv": true,
           "beschreibung": "Eigenschaften, Netze und Schrägbilder, Oberflächeninhalt und Volumen von Prismen und Zylindern, fehlende Längen, Modellieren"
+        },
+        {
+          "id": "kraefte",
+          "name": "Kräfte – Lerntheke",
+          "fach": "physik",
+          "aktiv": true,
+          "beschreibung": "Kraftwirkungen, Kräfte messen und als Pfeile darstellen, Masse und Gewichtskraft, Ortsfaktor, Hooke’sches Gesetz, Kräfte addieren, Kräfteparallelogramm, Kräftegleichgewicht, Hebelgesetz, Werkzeuge als Hebel"
         }
       ]
     },
