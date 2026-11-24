@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
-     role="img" aria-label="Parallelogramm und Trapez">
+     role="img" aria-label="Dreieck mit Höhe außerhalb">
   <style>
     .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
     .marke  { fill: #B61E33; }
@@ -17,8 +17,8 @@
       .text   { fill: #9aa1a9; }
     }
   </style>
-  <path class="fuell" d="M10 60 L56 60 L74 18 L28 18 Z"/>
-  <path class="akzent" d="M10 60 L56 60 L74 18 L28 18 Z"/>
-  <path class="hilfs" d="M28 18 V60"/>
-  <path class="akzent" d="M90 60 L150 60 L132 18 L104 18 Z"/>
+  <path class="fuell" d="M20 60 L70 60 L110 14 Z"/>
+  <path class="akzent" d="M20 60 L70 60 L110 14 Z"/>
+  <path class="hilfs" d="M70 60 H110 V14"/>
+  <path class="grau" d="M102 60 V52 H110"/>
 </svg>

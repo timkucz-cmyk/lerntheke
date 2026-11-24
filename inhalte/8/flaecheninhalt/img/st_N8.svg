@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
-     role="img" aria-label="Kreuz aus Quadrat und vier Armen mit Variable x">
+     role="img" aria-label="Sechseck, in Rechteck und Dreiecke zerlegt">
   <style>
     .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
     .marke  { fill: #B61E33; }
@@ -17,8 +17,7 @@
       .text   { fill: #9aa1a9; }
     }
   </style>
-  <path class="fuell" d="M66 6 H94 V22 H120 V48 H94 V64 H66 V48 H40 V22 H66 Z"/>
-  <path class="akzent" d="M66 6 H94 V22 H120 V48 H94 V64 H66 V48 H40 V22 H66 Z"/>
-  <path class="hilfs" d="M66 22 H94 V48 H66 Z"/>
-  <text class="text" x="76" y="40">x</text>
+  <path class="fuell" d="M40 62 L110 62 L134 35 L110 8 L40 8 L26 35 Z"/>
+  <path class="akzent" d="M40 62 L110 62 L134 35 L110 8 L40 8 L26 35 Z"/>
+  <path class="hilfs" d="M40 8 V62 M110 8 V62"/>
 </svg>

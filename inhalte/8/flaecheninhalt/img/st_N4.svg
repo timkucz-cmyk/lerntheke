@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
-     role="img" aria-label="Dreieck mit Höhe außerhalb">
+     role="img" aria-label="Parallelogramm mit Höhe">
   <style>
     .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
     .marke  { fill: #B61E33; }
@@ -17,8 +17,8 @@
       .text   { fill: #9aa1a9; }
     }
   </style>
-  <path class="fuell" d="M20 60 L70 60 L110 14 Z"/>
-  <path class="akzent" d="M20 60 L70 60 L110 14 Z"/>
-  <path class="hilfs" d="M70 60 H110 V14"/>
-  <path class="grau" d="M102 60 V52 H110"/>
+  <path class="fuell" d="M40 60 L104 60 L126 14 L62 14 Z"/>
+  <path class="akzent" d="M40 60 L104 60 L126 14 L62 14 Z"/>
+  <path class="hilfs" d="M62 14 V60"/>
+  <path class="grau" d="M62 52 H70 V60"/>
 </svg>

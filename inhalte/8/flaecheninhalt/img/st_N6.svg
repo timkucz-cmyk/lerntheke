@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
-     role="img" aria-label="Drachen mit Diagonalen">
+     role="img" aria-label="Trapez mit Höhe">
   <style>
     .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
     .marke  { fill: #B61E33; }
@@ -17,7 +17,8 @@
       .text   { fill: #9aa1a9; }
     }
   </style>
-  <path class="fuell" d="M30 35 L70 12 L134 35 L70 58 Z"/>
-  <path class="akzent" d="M30 35 L70 12 L134 35 L70 58 Z"/>
-  <path class="hilfs" d="M30 35 H134 M70 12 V58"/>
+  <path class="fuell" d="M30 60 L130 60 L106 14 L58 14 Z"/>
+  <path class="akzent" d="M30 60 L130 60 L106 14 L58 14 Z"/>
+  <path class="hilfs" d="M58 14 V60"/>
+  <path class="grau" d="M58 52 H66 V60"/>
 </svg>
