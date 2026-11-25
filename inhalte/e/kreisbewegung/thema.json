@@ -3,7 +3,7 @@
   "titel": "Kreisbewegung – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind testrelevant. Sind Sie bei Grundlagen aus Kinematik, Dynamik oder Mathematik (Geschwindigkeit, Bogenmaß, Winkelfunktionen, Kräfte, Impuls) unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt die typischen Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Kreisbewegung beschreiben), V2 nach N3 bis N5 (Zentripetalkraft), V3 nach N6 bis N8 (Kurven im Straßenverkehr), V4 nach N9 (Drehimpuls). N10 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N10.",
+  "hinweis": "Alle Stationen sind testrelevant. Sind Sie bei Grundlagen aus Kinematik, Dynamik oder Mathematik (Geschwindigkeit, Bogenmaß, Winkelfunktionen, Kräfte, Impuls) unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt die typischen Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Kreisbewegung beschreiben), V2 nach N3 bis N5 (Zentripetalkraft), V3 nach N6 bis N8 (Kurven im Straßenverkehr), V4 nach N9 (Drehimpuls). N10 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N10. Ganz zum Schluss können Sie mit V5 (Probeklausur, 90 Minuten) alles unter Klausurbedingungen üben.",
   "checkliste": [
     {
       "id": "g1",
@@ -1312,6 +1312,169 @@
           "punkte": 2,
           "afb": "II",
           "loesung": "Die Aussage ist falsch. Beim Abfliegen übt das Salz keine Kraft mehr auf den Teller aus, der Teller behält $\\omega_2 \\approx 32{,}3\\,\\frac{1}{\\mathrm{s}}$. Das Salz nimmt seinen Drehimpuls $m \\cdot r^2 \\cdot \\omega_2 \\approx 0{,}81\\,\\mathrm{kg\\,m^2/s}$ mit; dem Teller bleiben $J_T \\cdot \\omega_2 \\approx 4{,}85\\,\\mathrm{kg\\,m^2/s}$ statt vorher $5{,}65\\,\\mathrm{kg\\,m^2/s}$.\n\nJede Salzportion bremst den frei laufenden Teller weiter ab. Im Betrieb muss der Antrieb deshalb ständig Drehimpuls und Energie nachliefern."
+        }
+      ]
+    },
+    {
+      "id": "V5",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8",
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2",
+        "c1",
+        "g6",
+        "g5",
+        "g4",
+        "g3",
+        "g2",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Echte Klausurbedingungen: 90 Minuten, WTR und IQB-Formeldokument (wie in der Physikklausur ohne hilfsmittelfreien Teil), Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 4 (Grundgrößen, Zentripetalkraft, Kurven im Straßenverkehr, Drehimpuls) – am besten ganz am Ende.",
+      "bild": "img/st_V5.svg",
+      "pdf": "pdf/V5_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$v = 50\\,\\mathrm{km/h} \\approx 13{,}89\\,\\mathrm{m/s}$\n\n$T = \\frac{2\\pi \\cdot r}{v} = \\frac{2\\pi \\cdot 40\\,\\mathrm{m}}{13{,}89\\,\\mathrm{m/s}} \\approx 18{,}1\\,\\mathrm{s}$; $\\omega = \\frac{v}{r} = \\frac{13{,}89\\,\\mathrm{m/s}}{40\\,\\mathrm{m}} \\approx 0{,}347\\,\\frac{1}{\\mathrm{s}}$ (oder $\\omega = \\frac{2\\pi}{T}$)"
+        },
+        {
+          "id": "V5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$a_Z = \\frac{v^2}{r} = \\frac{(13{,}89\\,\\mathrm{m/s})^2}{40\\,\\mathrm{m}} \\approx 4{,}82\\,\\mathrm{m/s^2}$ (gemessen: $4{,}9\\,\\mathrm{m/s^2}$)\n\n$F_Z = m \\cdot a_Z = 1500\\,\\mathrm{kg} \\cdot 4{,}82\\,\\mathrm{m/s^2} \\approx 7{,}2\\,\\mathrm{kN}$"
+        },
+        {
+          "id": "V5-1c",
+          "label": "1c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Modellwerte in m/s²: $1{,}74$; $3{,}09$; $4{,}82$; $5{,}84$; $6{,}94$; $8{,}15$; $9{,}45$.\n\nBis $65\\,\\mathrm{km/h}$ weichen die Messwerte höchstens etwa $4\\,\\%$ vom Modell ab (Messabweichungen). Bei $70\\,\\mathrm{km/h}$ ist der Messwert $8{,}3\\,\\mathrm{m/s^2}$ etwa $12\\,\\%$ kleiner als der Modellwert.\n\nErklärung: Die Zentripetalkraft liefert allein die Haftreibung zwischen Reifen und Straße. Sie kann nicht größer als $\\mu_H \\cdot m \\cdot g$ werden. Zwischen 65 und 70 km/h ist diese Grenze erreicht: Die Reifen beginnen zu rutschen, das Fahrzeug kann den Kreis mit $r = 40\\,\\mathrm{m}$ nicht mehr halten und driftet nach außen."
+        },
+        {
+          "id": "V5-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$a = \\frac{v^2}{r}$, also $r = \\frac{v^2}{a} = \\frac{(19{,}44\\,\\mathrm{m/s})^2}{8{,}3\\,\\mathrm{m/s^2}} \\approx 45{,}5\\,\\mathrm{m}$\n\nDas Fahrzeug weicht also um gut $5\\,\\mathrm{m}$ nach außen ab."
+        },
+        {
+          "id": "V5-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "An der Haftgrenze liefert die größte Haftreibungskraft die Zentripetalkraft: $\\mu_H \\cdot m \\cdot g = m \\cdot a_{max}$, also $\\mu_H = \\frac{a_{max}}{g}$.\n\n$\\mu_H \\approx \\frac{8{,}3\\,\\mathrm{m/s^2}}{9{,}81\\,\\mathrm{m/s^2}} \\approx 0{,}85$ (größte gemessene Querbeschleunigung; die Masse kürzt sich heraus).\n\nEbenfalls richtig: mit $8{,}1\\,\\mathrm{m/s^2}$ (größter Wert, bei dem das Fahrzeug den Kreis noch hält) $\\mu_H \\approx 0{,}83$. Die Haftgrenze liegt zwischen beiden Werten; im Folgenden wird mit $0{,}85$ gerechnet."
+        },
+        {
+          "id": "V5-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$v_{max} = \\sqrt{\\mu_H \\cdot g \\cdot r} = \\sqrt{0{,}85 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 150\\,\\mathrm{m}} \\approx 35{,}4\\,\\mathrm{m/s}$\n\nDas sind etwa $127\\,\\mathrm{km/h}$ (mit $0{,}83$: etwa $126\\,\\mathrm{km/h}$). [Ersatzwert $0{,}80$: $34{,}3\\,\\mathrm{m/s} \\approx 124\\,\\mathrm{km/h}$]"
+        },
+        {
+          "id": "V5-1g",
+          "label": "1g",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$v_{max} = \\sqrt{\\mu_H \\cdot g \\cdot r}$ wächst mit der Wurzel aus $\\mu_H$. Halbes $\\mu_H$ ergibt das $\\frac{1}{\\sqrt2} \\approx 0{,}71$-Fache, nicht die Hälfte.\n\nTrocken: $\\sqrt{0{,}85 \\cdot 9{,}81 \\cdot 40}\\,\\mathrm{m/s} \\approx 18{,}3\\,\\mathrm{m/s} \\approx 66\\,\\mathrm{km/h}$; nass ($\\mu_H \\approx 0{,}43$): etwa $12{,}9\\,\\mathrm{m/s} \\approx 46\\,\\mathrm{km/h}$ statt $33\\,\\mathrm{km/h}$. Die Aussage stimmt nicht – bei Nässe muss man trotzdem deutlich langsamer fahren."
+        },
+        {
+          "id": "V5-1h",
+          "label": "1h",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Skizze (Auto von hinten auf geneigter Fahrbahn): $F_G$ senkrecht nach unten, $F_N$ senkrecht zur Fahrbahn (also schräg zur Kurveninnenseite geneigt), Haftreibungskraft $F_H$ entlang der Fahrbahn nach innen unten; die Resultierende zeigt waagerecht zur Kurvenmitte.\n\nIn der ebenen Kurve liefert nur die Haftreibung die Zentripetalkraft. Auf der geneigten Fahrbahn hat zusätzlich die Normalkraft eine waagerechte Komponente zur Kurvenmitte.\n\nUrteil: Die Resultierende zur Kurvenmitte kann größer werden, die Kurve ist also schneller befahrbar. Vorteil auch bei Glätte: Selbst ohne Haftreibung liefert die Normalkraft einen Teil der Zentripetalkraft (wie in einer Steilkurve)."
+        },
+        {
+          "id": "V5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f = \\frac{36\\,000}{60\\,\\mathrm{s}} = 600\\,\\mathrm{Hz}$, $T = \\frac{1}{f} \\approx 1{,}67\\,\\mathrm{ms}$\n\n$\\omega = 2\\pi \\cdot f \\approx 3770\\,\\frac{1}{\\mathrm{s}}$"
+        },
+        {
+          "id": "V5-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$v = \\omega \\cdot r \\approx 3770\\,\\frac{1}{\\mathrm{s}} \\cdot 0{,}25\\,\\mathrm{m} \\approx 942\\,\\mathrm{m/s}$\n\n$942 : 343 \\approx 2{,}7$: Der Ring läuft fast dreimal so schnell wie der Schall. In Luft gäbe es dabei sehr große Luftreibung (Erwärmung, Lärm, Energieverlust) – deshalb läuft er im luftleeren Gehäuse."
+        },
+        {
+          "id": "V5-2c",
+          "label": "2c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$a_Z = \\omega^2 \\cdot r \\approx (3770\\,\\frac{1}{\\mathrm{s}})^2 \\cdot 0{,}25\\,\\mathrm{m} \\approx 3{,}55 \\cdot 10^{6}\\,\\mathrm{m/s^2}$, $F_Z = m \\cdot a_Z \\approx 0{,}0010\\,\\mathrm{kg} \\cdot 3{,}55 \\cdot 10^{6}\\,\\mathrm{m/s^2} \\approx 3{,}6\\,\\mathrm{kN}$\n\n$F_G = 0{,}0010\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{m/s^2} \\approx 0{,}0098\\,\\mathrm{N}$: Die Zentripetalkraft ist etwa 360 000-mal so groß.\n\nOhne Kraft zur Mitte würde das Stück tangential weiterfliegen. Die Nachbarstücke des Rings ziehen es auf die Kreisbahn (Zusammenhalt des Materials) – der Ring steht unter großer Zugspannung, deshalb das sehr reißfeste Kohlefasermaterial. (Auch gewertet: Wo eine Speiche ansetzt, zieht sie mit nach innen; den größten Teil liefert aber der Ring selbst.)"
+        },
+        {
+          "id": "V5-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\omega_{max} = \\frac{v_{max}}{r} = \\frac{1000\\,\\mathrm{m/s}}{0{,}40\\,\\mathrm{m}} = 2500\\,\\frac{1}{\\mathrm{s}}$\n\n$f_{max} = \\frac{\\omega_{max}}{2\\pi} \\approx 398\\,\\mathrm{Hz}$, also etwa 23 900 Umdrehungen pro Minute."
+        },
+        {
+          "id": "V5-2e",
+          "label": "2e",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Mit $J = m \\cdot r^2$ und $v = \\omega \\cdot r$ gilt $E_{rot} = \\frac{1}{2} \\cdot m \\cdot r^2 \\cdot \\omega^2 = \\frac{1}{2} \\cdot m \\cdot v^2$.\n\nDie gespeicherte Energie hängt nur von der Masse und der Bahngeschwindigkeit ab, nicht vom Radius. Der größere Ring muss sich langsamer drehen ($\\omega = \\frac{v}{r}$), sein Trägheitsmoment ist aber entsprechend größer.\n\nUrteil: Bei derselben höchstzulässigen Bahngeschwindigkeit speichern beide Ringe gleich viel, je $\\frac{1}{2} \\cdot 30\\,\\mathrm{kg} \\cdot (1000\\,\\mathrm{m/s})^2 = 15\\,\\mathrm{MJ} \\approx 4{,}2\\,\\mathrm{kWh}$. Der Vorschlag lohnt nur, wenn der Ring dadurch mehr Masse bekommt."
+        },
+        {
+          "id": "V5-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Massenpunkt: $J = m \\cdot r^2$; mit $\\omega = \\frac{v}{r}$ folgt $L = J \\cdot \\omega = m \\cdot r^2 \\cdot \\frac{v}{r} = m \\cdot r \\cdot v$.\n\nIst $L$ konstant und ändert sich $m$ nicht, muss auch $r \\cdot v$ konstant sein."
+        },
+        {
+          "id": "V5-3b",
+          "label": "3b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$r \\cdot v$ in $\\mathrm{km \\cdot m/s}$: $2700$; $2640$; $2520$; $2400$; $2200$\n\nDas Produkt ist nicht ganz konstant: Es nimmt zum Zentrum hin von Messpunkt zu Messpunkt ab, von 300 km bis 50 km um etwa $19\\,\\%$.\n\nGrob stimmt das Modell (aus $9\\,\\mathrm{m/s}$ werden zum Zentrum hin $44\\,\\mathrm{m/s}$), aber das Luftpaket verliert unterwegs Drehimpuls."
+        },
+        {
+          "id": "V5-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\omega = \\frac{v}{r} = \\frac{44\\,\\mathrm{m/s}}{50\\,000\\,\\mathrm{m}} = 8{,}8 \\cdot 10^{-4}\\,\\frac{1}{\\mathrm{s}}$\n\n$T = \\frac{2\\pi}{\\omega} \\approx 7140\\,\\mathrm{s} \\approx 2{,}0\\,\\mathrm{h}$"
+        },
+        {
+          "id": "V5-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$a_Z = \\frac{v^2}{r} = \\frac{(44\\,\\mathrm{m/s})^2}{50\\,000\\,\\mathrm{m}} \\approx 0{,}039\\,\\mathrm{m/s^2}$\n\n$F_Z = m \\cdot a_Z \\approx 1{,}2\\,\\mathrm{kg} \\cdot 0{,}039\\,\\mathrm{m/s^2} \\approx 0{,}046\\,\\mathrm{N}$"
+        },
+        {
+          "id": "V5-3e",
+          "label": "3e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$r_1 \\cdot v_1 = r_2 \\cdot v_2$, also $v_2 = \\frac{300\\,\\mathrm{km} \\cdot 9{,}0\\,\\mathrm{m/s}}{50\\,\\mathrm{km}} = 54\\,\\mathrm{m/s}$ (etwa $194\\,\\mathrm{km/h}$)\n\nGemessen: $44\\,\\mathrm{m/s}$, also etwa $19\\,\\%$ weniger als vom Modell vorhergesagt."
+        },
+        {
+          "id": "V5-3f",
+          "label": "3f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Der Drehimpuls bleibt nur erhalten, wenn keine äußere Einwirkung das Luftpaket um das Zentrum abbremst oder antreibt.\n\nIn Bodennähe bremst die Reibung an der Meeresoberfläche die Luft ab; außerdem mischt sich das Luftpaket mit anderer Luft und steigt auf. Dadurch geht Drehimpuls verloren – genau das zeigt die Abnahme von $r \\cdot v$.\n\nUrteil: Die Folgerung ist falsch. Die Drehimpulserhaltung gilt, aber ihre Voraussetzung (keine äußere Einwirkung) ist hier nur näherungsweise erfüllt. Das Modell liefert eine obere Grenze; über Land (mehr Reibung) schwächt sich ein Wirbelsturm deshalb schnell ab."
         }
       ]
     }

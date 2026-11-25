@@ -3,7 +3,7 @@
   "titel": "Flächeninhalt ebener Figuren – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Winkeln, Flächeneinheiten, Rechtecken, Konstruktionen oder beim Lösen von Gleichungen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt das Grundwissen auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N9 – dein Check-out aus dem Unterricht zeigt dir, welche du besonders brauchst. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N3 (Vierecke und Kongruenz), V2 nach N4 bis N5 (Parallelogramm und Dreieck), V3 nach N6 bis N9 (Trapez, Drachen, Vielecke). Den Taschenrechner benutzt du nur, wo er bei der Station steht. Geodreieck und Zirkel bereitlegen; dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Winkeln, Flächeneinheiten, Rechtecken, Konstruktionen oder beim Lösen von Gleichungen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt das Grundwissen auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N9 – dein Check-out aus dem Unterricht zeigt dir, welche du besonders brauchst. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N3 (Vierecke und Kongruenz), V2 nach N4 bis N5 (Parallelogramm und Dreieck), V3 nach N6 bis N9 (Trapez, Drachen, Vielecke). Den Taschenrechner benutzt du nur, wo er bei der Station steht. Geodreieck und Zirkel bereitlegen; dein Regelheft darfst du benutzen. Ganz zum Schluss prüft V4 (Probearbeit, 60 Minuten) alles zusammen wie in der Klassenarbeit.",
   "checkliste": [
     {
       "id": "g1",
@@ -1397,6 +1397,200 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Falsch (1 P): $x = 2$ ergibt $2{,}25\\,\\mathrm{m^2}$, $x = 4$ ergibt $0{,}75 \\cdot 4 + 0{,}75 = 3{,}75\\,\\mathrm{m^2}$ – nicht $4{,}5\\,\\mathrm{m^2}$.\n\nNur das Rechteck unter dem Plateau ($0{,}75x$) wächst mit, die beiden Rampendreiecke ($0{,}75\\,\\mathrm{m^2}$) bleiben gleich. Der Term $0{,}75x + 0{,}75$ ist nicht proportional zu $x$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Geodreieck, Zirkel und Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c1",
+        "c2",
+        "c9",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1) ohne Hilfsmittel, danach Teil B (Aufgabe 2 bis 5) mit Geodreieck, Zirkel und Taschenrechner. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $1\\,\\mathrm{ha} = 10\\,000\\,\\mathrm{m^2}$, also $4\\,500 : 10\\,000 = 0{,}45$.\n\n*A gewählt?* Nur durch 100 geteilt. *B gewählt?* Durch 1 000 geteilt wie bei Längen (m → km). *D gewählt?* Durch 100 000 geteilt. → **G2**"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $A = g \\cdot h = 8 \\cdot 4{,}5 = 36\\,\\mathrm{cm^2}$\n\n*B gewählt?* Grundseite mal schräge Seite – die Höhe steht senkrecht zur Grundseite. *C gewählt?* Halbiert wie beim Dreieck. *D gewählt?* Den Umfang $2 \\cdot (8 + 5)$ berechnet. → **N4**"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $A = \\tfrac12 \\cdot g \\cdot h = \\tfrac12 \\cdot 9 \\cdot 5 = 22{,}5\\,\\mathrm{cm^2}$\n\n*A gewählt?* Das $\\tfrac12$ fehlt – das Dreieck ist ein halbes Parallelogramm. *B gewählt?* Addiert statt multipliziert. *C gewählt?* Verdoppelt statt halbiert. → **N5**"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $A = \\tfrac12 \\cdot (a + c) \\cdot h = \\tfrac12 \\cdot 10 \\cdot 4 = 20\\,\\mathrm{cm^2}$\n\n*A gewählt?* Das $\\tfrac12$ fehlt. *C gewählt?* Alle drei Maße multipliziert. *D gewählt?* Nur $a \\cdot h$ gerechnet. → **N6**"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $A = \\tfrac12 \\cdot e \\cdot f = \\tfrac12 \\cdot 12 \\cdot 5 = 30\\,\\mathrm{cm^2}$\n\n*A gewählt?* Das $\\tfrac12$ fehlt – der Drachen ist halb so groß wie das umbeschriebene Rechteck. *B gewählt?* Die Diagonalen addiert. *C gewählt?* $2e + 2f$ wie beim Umfang. → **N7**"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Eine Raute hat vier gleich lange Seiten, also auch zwei Paare gleich langer Nachbarseiten, und eine Diagonale ist Symmetrieachse – also ist jede Raute ein Drachen.\n\n*B gewählt?* Die Umkehrung gilt nicht: Ein Drachen hat meist zwei verschieden lange Seitenpaare. *C gewählt?* Ein Trapez braucht nur ein Paar paralleler Seiten. *D gewählt?* Eine Raute hat meist keine rechten Winkel. → **N1**"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Die Winkel $\\beta$ (bei B) und $\\gamma$ (bei C) liegen beide an der Seite $a = BC$: eine Seite und die beiden anliegenden Winkel, also **WSW**.\n\n*A gewählt?* Für SSS bräuchte man alle drei Seiten. *C gewählt?* SsW braucht zwei Seiten und den Winkel gegenüber der größeren. *D gewählt?* SWS braucht zwei Seiten und den Winkel dazwischen. → **N2**"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Dreieck: $A = \\tfrac12 \\cdot g \\cdot h_D$, Parallelogramm: $A = g \\cdot h_P$. Gleiche Fläche und gleiche Grundseite: $\\tfrac12 \\cdot h_D = h_P$, also $h_D = 2 \\cdot h_P$. Das Dreieck ist ein halbes Parallelogramm – um gleich groß zu sein, braucht es die doppelte Höhe.\n\n*A gewählt?* Das $\\tfrac12$ der Dreiecksformel auf die Höhe übertragen statt ausgeglichen. *B gewählt?* Das $\\tfrac12$ beim Dreieck vergessen. *D gewählt?* Den Faktor 2 doppelt angewendet. → **N5**"
+        },
+        {
+          "id": "V4-1i",
+          "label": "1i",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $42 = 7 \\cdot h$, also $h = 42 : 7 = 6\\,\\mathrm{cm}$.\n\n*B gewählt?* Mit der Dreiecksformel $42 = \\tfrac12 \\cdot 7 \\cdot h$ gerechnet. *C gewählt?* Subtrahiert statt dividiert. *D gewählt?* Multipliziert statt dividiert. → **N4**"
+        },
+        {
+          "id": "V4-1j",
+          "label": "1j",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Zerlegen: Rechteck $6 \\cdot 4 = 24\\,\\mathrm{cm^2}$, zwei Dreiecke je $\\tfrac12 \\cdot 4 \\cdot 2 = 4\\,\\mathrm{cm^2}$, zusammen $24 + 8 = 32\\,\\mathrm{cm^2}$.\n\n*A gewählt?* Bei den Dreiecken das $\\tfrac12$ vergessen. *B gewählt?* Nur ein Dreieck gezählt. *D gewählt?* Bei den Dreiecken die Rechteckseite $6\\,\\mathrm{cm}$ als Grundseite genommen. → **N8**"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Planfigur mit allen gegebenen Stücken (1 P).\n\nZeichnung: AB = 8 cm, in A den Winkel 65° antragen, darauf AD = 4 cm abtragen (Dreieck ABD nach SWS). Durch D die Parallele zu AB zeichnen und darauf DC = 3,5 cm in Richtung B abtragen (1 P).\n\nKontrollmaße: $b \\approx 4{,}6\\,\\mathrm{cm}$, $\\beta \\approx 52°$ (Toleranz ± 2 mm, ± 2°) (1 P).",
+          "loesung_bild": "img/V4-2a.png"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Von ABD kennt man $AB = 8\\,\\mathrm{cm}$, $AD = 4\\,\\mathrm{cm}$ und den eingeschlossenen Winkel $\\alpha = 65°$: Nach **SWS** ist das Dreieck eindeutig (1 P).\n\nC liegt auf der Parallelen zu AB durch D, genau 3,5 cm von D entfernt auf der Seite von B. Diese Stelle gibt es nur einmal (1 P)."
+        },
+        {
+          "id": "V4-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Höhe ist der Abstand der parallelen Seiten, z. B. das Lot von D auf AB: $h \\approx 3{,}6\\,\\mathrm{cm}$ (1 P).\n\n$A = \\tfrac12 \\cdot (8 + 3{,}5) \\cdot 3{,}6 \\approx 20{,}7\\,\\mathrm{cm^2}$ (1 P). Je nach Messung etwa $20{,}1$ bis $21{,}3\\,\\mathrm{cm^2}$."
+        },
+        {
+          "id": "V4-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Nein: $\\beta \\approx 52°$ ist nicht so groß wie $\\alpha = 65°$ (ebenso $b \\approx 4{,}6\\,\\mathrm{cm} \\neq d = 4\\,\\mathrm{cm}$) (1 P)."
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$A = \\tfrac12 \\cdot (120 + 60) \\cdot 52 = 90 \\cdot 52 = 4\\,680\\,\\mathrm{cm^2}$ (1 P).\n\n$1\\,\\mathrm{m^2} = 10\\,000\\,\\mathrm{cm^2}$, also $4\\,680\\,\\mathrm{cm^2} = 0{,}468\\,\\mathrm{m^2}$ (1 P)."
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beide sind 120° groß (1 P).\n\nBegründung: Die Innenwinkel eines Vierecks ergeben zusammen 360°, also bleiben $360° - 60° - 60° = 240°$. Die Platte ist symmetrisch (beide Schrägseiten 60 cm), deshalb sind die beiden Winkel gleich: je 120°. (Auch richtig: An jeder Schrägseite ergänzen sich die Winkel zwischen den Parallelen zu 180°.) (1 P)"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Grundseite: lange Seite von Tisch 1 plus kurze Seite von Tisch 2, also $120\\,\\mathrm{cm} + 60\\,\\mathrm{cm} = 180\\,\\mathrm{cm}$ (1 P).\n\n$A = g \\cdot h = 180 \\cdot 52 = 9\\,360\\,\\mathrm{cm^2}$ – genau doppelt so viel wie ein Tisch (1 P)."
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\tfrac12 \\cdot (100 + c) \\cdot 52 = 4\\,680$, also $(100 + c) \\cdot 26 = 4\\,680$ (1 P).\n\n$100 + c = 180$, also $c = 80\\,\\mathrm{cm}$ (1 P)."
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Skizze: Jeder Tisch liegt mit seiner langen Seite an einer anderen Seite des großen Dreiecks, jeweils von einer Ecke aus (wie ein Windrad); in der Mitte treffen die drei kurzen Seiten aufeinander (1 P).\n\nWinkel: Jede Ecke des großen Dreiecks ist ein 60°-Winkel eines Tisches, also sind alle drei Winkel 60° – das Dreieck ist gleichseitig. Wo zwei Tische an einer Seite zusammenstoßen, ergeben $120° + 60° = 180°$ eine gerade Linie (1 P).\n\nSeitenlänge: Jede Seite besteht aus einer langen Tischseite und einer Schrägseite: $120\\,\\mathrm{cm} + 60\\,\\mathrm{cm} = 180\\,\\mathrm{cm}$. Probe mit den Flächen: $\\tfrac12 \\cdot 180 \\cdot 156 = 14\\,040\\,\\mathrm{cm^2} = 3 \\cdot 4\\,680\\,\\mathrm{cm^2}$ (die Höhe des großen Dreiecks ist $3 \\cdot 52\\,\\mathrm{cm}$) (1 P).",
+          "loesung_bild": "img/V4-3e.png"
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$e = 90 - 10 - 10 = 70\\,\\mathrm{cm}$, $f = 60 - 10 - 10 = 40\\,\\mathrm{cm}$ (1 P).\n\n$A = \\tfrac12 \\cdot e \\cdot f = \\tfrac12 \\cdot 70 \\cdot 40 = 1\\,400\\,\\mathrm{cm^2}$ (1 P)."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Fahne $90 \\cdot 60 = 5\\,400\\,\\mathrm{cm^2}$, grün sichtbar $5\\,400 - 1\\,400 = 4\\,000\\,\\mathrm{cm^2}$ (1 P).\n\n$4\\,000\\,\\mathrm{cm^2} = 0{,}4\\,\\mathrm{m^2}$ (1 P)."
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In der Raute halbieren sich die Diagonalen und stehen senkrecht aufeinander. Jedes Teildreieck hat also die Seiten 35 cm und 20 cm mit einem rechten Winkel dazwischen: Nach **SWS** sind alle vier deckungsgleich (1 P).\n\n$A = 4 \\cdot \\tfrac12 \\cdot 35 \\cdot 20 = 4 \\cdot 350 = 1\\,400\\,\\mathrm{cm^2}$ – wie in a) (1 P)."
+        },
+        {
+          "id": "V4-5",
+          "label": "5",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Höhe auf eine Seite liegt außerhalb, wenn an einem Ende dieser Seite ein stumpfer Winkel liegt. Ein stumpfer Winkel bei A legt die Höhen auf b und auf c nach außen, die Höhe auf a liegt innen (1 P).\n\nDamit alle drei Höhen außen liegen, bräuchte das Dreieck mindestens zwei stumpfe Winkel. Zwei Winkel über 90° ergeben schon mehr als 180° – die Winkelsumme im Dreieck ist aber 180°. Ein solches Dreieck gibt es nicht (1 P)."
         }
       ]
     }

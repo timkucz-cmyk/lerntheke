@@ -3,7 +3,7 @@
   "titel": "Analytische Geometrie – Trainingswoche",
   "fach": "mathe",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind testrelevant (Test 1–3). Sind Sie bei Vektoren und Geraden aus Klasse E unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Vektoren und Geraden auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Produkte), V2 nach N3 bis N5 (Ebenen), V3 nach N6 bis N8 (Lage, Schnitt, Winkel), V4 nach N9 und N10 (Scharen, Anwendungen) als Komplexaufgabe. N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11.",
+  "hinweis": "Alle Stationen sind testrelevant (Test 1–3). Sind Sie bei Vektoren und Geraden aus Klasse E unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Vektoren und Geraden auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Produkte), V2 nach N3 bis N5 (Ebenen), V3 nach N6 bis N8 (Lage, Schnitt, Winkel), V4 nach N9 und N10 (Scharen, Anwendungen) als Komplexaufgabe. N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11. Ganz zum Schluss prüft V5 (Probeklausur, 90 Minuten) alles zusammen wie in einer Klausur.",
   "checkliste": [
     {
       "id": "g1",
@@ -1513,6 +1513,187 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Zum Beispiel:\n\n- Ein echtes Seil hängt durch. Der Abstand zum Hang ist zwischen den Stützen kleiner als im Modell; die Forderung von 30 m wird im Modell also zu günstig geprüft.\n\n- Ein Hang ist nicht eben. Kuppen verringern den Abstand, Mulden vergrößern ihn; eine Ebene durch nur drei Vermessungspunkte gibt das Gelände nur grob wieder.\n\n(Weitere sinnvolle Punkte: Seil als Strecke ohne Dicke, Stützen verändern den Seilverlauf.)"
+        }
+      ]
+    },
+    {
+      "id": "V5",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "Teil A ohne, Teil B WTR und Formeldokument",
+      "checkliste": [
+        "c12",
+        "c11",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in einer Klausur im Q1-Format: 90 Minuten, zuerst Teil A (Aufgabe 1 bis 3) ohne Taschenrechner und Formeldokument, danach Teil B (Aufgabe 4 und 5) mit WTR und Formeldokument. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen vier Phasen – am besten ganz am Ende. Die Tests 1–3 sind kürzer; hier üben Sie alles zusammen.",
+      "bild": "img/st_V5.svg",
+      "pdf": "pdf/V5_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "g in E einsetzen: $2(1+t)+(2+t)-2\\cdot1=8$, also $2+3t=8$ und $t=2$.\n\nSchnittpunkt $S(3 \\mid 4 \\mid 1)$ (Probe: $6+4-2=8$)."
+        },
+        {
+          "id": "V5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\vec n=\\begin{pmatrix} 2 \\\\ 1 \\\\ -2 \\end{pmatrix}$, $\\vec u=\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}$, $\\vec u\\circ\\vec n=2+1+0=3$, $|\\vec n|=3$, $|\\vec u|=\\sqrt2$\n\n$$\\sin\\varphi=\\dfrac{|\\vec u\\circ\\vec n|}{|\\vec u|\\cdot|\\vec n|}=\\dfrac{3}{\\sqrt2\\cdot3}=\\dfrac{1}{\\sqrt2}$$\n\nAlso $\\varphi=45^\\circ$. Zwischen Gerade und Ebene mit dem Sinus – der Kosinus liefert den Winkel zum Normalenvektor (→ **N7**, Lösung 1)."
+        },
+        {
+          "id": "V5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Normalengleichung: $E:\\ \\begin{pmatrix} 2 \\\\ 2 \\\\ -1 \\end{pmatrix}\\circ\\left(\\vec x-\\begin{pmatrix} 1 \\\\ -1 \\\\ 2 \\end{pmatrix}\\right)=0$\n\nKoordinatengleichung: $2x_1+2x_2-x_3=d$ mit $d=2\\cdot1+2\\cdot(-1)-2=-2$, also $E:\\ 2x_1+2x_2-x_3=-2$."
+        },
+        {
+          "id": "V5-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Normalenvektor von F: $\\begin{pmatrix} 1 \\\\ 0 \\\\ 2 \\end{pmatrix}\\times\\begin{pmatrix} 0 \\\\ 1 \\\\ 2 \\end{pmatrix}=\\begin{pmatrix} 0\\cdot2-2\\cdot1 \\\\ 2\\cdot0-1\\cdot2 \\\\ 1\\cdot1-0\\cdot0 \\end{pmatrix}=\\begin{pmatrix} -2 \\\\ -2 \\\\ 1 \\end{pmatrix}=-\\vec n$. Die Normalenvektoren sind kollinear: E und F sind parallel oder identisch.\n\nPunktprobe mit dem Stützpunkt von F in E: $2\\cdot1+0-1=1\\neq-2$. E und F sind **echt parallel**."
+        },
+        {
+          "id": "V5-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\overrightarrow{S_1S_2}=\\begin{pmatrix} -8 \\\\ 2 \\\\ 0 \\end{pmatrix}$, $\\overrightarrow{S_1S_3}=\\begin{pmatrix} -8 \\\\ 0 \\\\ 1 \\end{pmatrix}$, $\\overrightarrow{S_1S_2}\\times\\overrightarrow{S_1S_3}=\\begin{pmatrix} 2\\cdot1-0\\cdot0 \\\\ 0\\cdot(-8)-(-8)\\cdot1 \\\\ (-8)\\cdot0-2\\cdot(-8) \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ 8 \\\\ 16 \\end{pmatrix}$\n\n$A=\\tfrac12\\sqrt{4+64+256}=\\tfrac12\\sqrt{324}=\\tfrac12\\cdot18=9$ FE"
+        },
+        {
+          "id": "V5-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Spurpunkte von F sind $(24 \\mid 0 \\mid 0)$, $(0 \\mid 6 \\mid 0)$, $(0 \\mid 0 \\mid 3)$: jeweils das Dreifache der Spurpunkte von E. Damit sind auch die beiden Seitenvektoren dreimal so lang wie bei E.\n\nJede Komponente des Vektorprodukts ist eine Differenz von Produkten aus je einer Komponente beider Vektoren, wird also mit $3\\cdot3=9$ multipliziert. Der Flächeninhalt ist damit $9\\cdot9=81$ FE. (Gleichwertig: Das Spurdreieck von F ist das mit dem Faktor 3 gestreckte Spurdreieck von E, Flächen wachsen mit dem Quadrat des Streckfaktors.)"
+        },
+        {
+          "id": "V5-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Alle vier Vektoren $\\overrightarrow{CH_i}$ haben die Komponenten $1$ oder $-1$, also $|\\overrightarrow{CH_i}|=\\sqrt{1+1+1}=\\sqrt3$ LE für $i=1,\\ldots,4$.\n\nBindungslänge: $\\sqrt3\\cdot63\\,\\mathrm{pm}\\approx109\\,\\mathrm{pm}$."
+        },
+        {
+          "id": "V5-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$$\\cos\\varphi=\\dfrac{\\overrightarrow{CH_1}\\circ\\overrightarrow{CH_2}}{|\\overrightarrow{CH_1}|\\cdot|\\overrightarrow{CH_2}|}=\\dfrac{1-1-1}{\\sqrt3\\cdot\\sqrt3}=-\\dfrac13$$\n\n$\\varphi\\approx109{,}47^\\circ$. Gefragt ist der Winkel zwischen zwei Vektoren mit gemeinsamem Anfangspunkt C, deshalb ohne Betrag im Zähler (stumpfer Winkel möglich)."
+        },
+        {
+          "id": "V5-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Je zwei der vier Vektoren $\\overrightarrow{CH_i}$ stimmen in genau einer Komponente überein und haben in den beiden anderen entgegengesetzte Vorzeichen (z. B. $H_2$ und $H_4$: zweite Komponente gleich).\n\nDas Skalarprodukt ist deshalb immer $1-1-1=-1$, und alle Längen sind $\\sqrt3$. Also ist $\\cos\\varphi=-\\tfrac13$ für alle sechs Paare – alle Bindungswinkel betragen etwa $109{,}47^\\circ$."
+        },
+        {
+          "id": "V5-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ansatz $\\begin{pmatrix} -1 \\\\ -1 \\\\ 1 \\end{pmatrix}=r\\cdot\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}+s\\cdot\\begin{pmatrix} 1 \\\\ -1 \\\\ -1 \\end{pmatrix}+t\\cdot\\begin{pmatrix} -1 \\\\ 1 \\\\ -1 \\end{pmatrix}$: (I) $r+s-t=-1$, (II) $r-s+t=-1$, (III) $r-s-t=1$. (I) + (II): $r=-1$; (II) − (III): $t=-1$; aus (I): $s=-1$. Also $\\overrightarrow{CH_4}=-\\overrightarrow{CH_1}-\\overrightarrow{CH_2}-\\overrightarrow{CH_3}$.\n\nDeutung: Die vier Bindungsvektoren heben sich auf; C ist der Mittelpunkt der vier Wasserstoffatome: $\\vec c=\\tfrac14(\\vec h_1+\\vec h_2+\\vec h_3+\\vec h_4)$. (Chemisch: Die Bindungsdipole heben sich auf, Methan ist unpolar.)"
+        },
+        {
+          "id": "V5-4e",
+          "label": "4e",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$\\overrightarrow{H_2H_3}=\\begin{pmatrix} -2 \\\\ 2 \\\\ 0 \\end{pmatrix}$, $\\overrightarrow{H_2H_4}=\\begin{pmatrix} -2 \\\\ 0 \\\\ 2 \\end{pmatrix}$\n\n$\\overrightarrow{H_2H_3}\\times\\overrightarrow{H_2H_4}=\\begin{pmatrix} 2\\cdot2-0\\cdot0 \\\\ 0\\cdot(-2)-(-2)\\cdot2 \\\\ (-2)\\cdot0-2\\cdot(-2) \\end{pmatrix}=\\begin{pmatrix} 4 \\\\ 4 \\\\ 4 \\end{pmatrix}=4\\cdot\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$\n\n$x_1+x_2+x_3=d$; $H_2$ einsetzen: $d=1-1-1=-1$, also $E:\\ x_1+x_2+x_3=-1$."
+        },
+        {
+          "id": "V5-4f",
+          "label": "4f",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$h:\\ \\vec x=t\\cdot\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix},\\ t\\in\\mathbb{R}$ (Stützpunkt C, Richtung $\\overrightarrow{CH_1}$)\n\nIn E einsetzen: $t+t+t=-1$, also $t=-\\tfrac13$; Schnittpunkt $\\left(-\\tfrac13 \\mid -\\tfrac13 \\mid -\\tfrac13\\right)$.\n\n$\\vec m=\\tfrac13\\left(\\begin{pmatrix} 1 \\\\ -1 \\\\ -1 \\end{pmatrix}+\\begin{pmatrix} -1 \\\\ 1 \\\\ -1 \\end{pmatrix}+\\begin{pmatrix} -1 \\\\ -1 \\\\ 1 \\end{pmatrix}\\right)=\\tfrac13\\cdot\\begin{pmatrix} -1 \\\\ -1 \\\\ -1 \\end{pmatrix}$ – derselbe Punkt."
+        },
+        {
+          "id": "V5-4g",
+          "label": "4g",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$\\cos\\varphi=\\dfrac{|\\vec n_E\\circ\\vec n_F|}{|\\vec n_E|\\cdot|\\vec n_F|}=\\dfrac{|1+1-1|}{\\sqrt3\\cdot\\sqrt3}=\\dfrac13$$\n\n$\\varphi\\approx70{,}53^\\circ$"
+        },
+        {
+          "id": "V5-4h",
+          "label": "4h",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Der Normalenvektor $\\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix}$ von E ist $\\overrightarrow{CH_1}$: E steht senkrecht auf der Bindung zu $H_1$.\n\nDer Normalenvektor $\\begin{pmatrix} 1 \\\\ 1 \\\\ -1 \\end{pmatrix}$ von F ist $-\\overrightarrow{CH_4}$: F steht senkrecht auf der Bindung zu $H_4$.\n\nDer Winkel zwischen E und F ist also der Schnittwinkel der Geraden durch C und $H_1$ bzw. C und $H_4$. Die Bindungsvektoren schließen $109{,}47^\\circ$ ein, die Geraden deshalb $180^\\circ-109{,}47^\\circ=70{,}53^\\circ$. Kein Zufall: Das gilt für je zwei Seitenflächen."
+        },
+        {
+          "id": "V5-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$k_1$: $t=30$, also $P(30 \\mid 0 \\mid 0)$; $k_2$: $t+4=30$, $t=26$, also $Q(26 \\mid 4 \\mid 0)$.\n\n$k_3$: $t+4=30$, also $R(26 \\mid 4 \\mid 2)$; $k_4$: $t=30$, also $S(30 \\mid 0 \\mid 2)$."
+        },
+        {
+          "id": "V5-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\overrightarrow{PQ}=\\overrightarrow{SR}=\\begin{pmatrix} -4 \\\\ 4 \\\\ 0 \\end{pmatrix}$ und $\\overrightarrow{PS}=\\overrightarrow{QR}=\\begin{pmatrix} 0 \\\\ 0 \\\\ 2 \\end{pmatrix}$: Parallelogramm; $\\overrightarrow{PQ}\\circ\\overrightarrow{PS}=0$: Rechteck.\n\n$A=|\\overrightarrow{PQ}|\\cdot|\\overrightarrow{PS}|=\\sqrt{32}\\cdot2=8\\sqrt2\\approx11{,}31\\,\\mathrm{cm^2}$ (auch über $|\\overrightarrow{PQ}\\times\\overrightarrow{PS}|$)."
+        },
+        {
+          "id": "V5-5c",
+          "label": "5c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Normalenvektor $\\vec n=\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}$ von E ist orthogonal zu beiden Spannvektoren von F: $\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}\\circ\\begin{pmatrix} 1 \\\\ -1 \\\\ 0 \\end{pmatrix}=0$ und $\\begin{pmatrix} 1 \\\\ 1 \\\\ 0 \\end{pmatrix}\\circ\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}=0$. F ist also parallel zu E oder identisch mit E.\n\nDer Stützpunkt $(26 \\mid 4 \\mid 0)$ von F liegt in E: $26+4=30$. E und F sind identisch – die Schnittflächen liegen in derselben Ebene."
+        },
+        {
+          "id": "V5-5d",
+          "label": "5d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Eckpunkte: $k_1$ und $k_4$ wie bisher $P(30 \\mid 0 \\mid 0)$, $S(30 \\mid 0 \\mid 2)$; $k_2$ und $k_3$: $t+4a=30$, also $Q_a(30-4a \\mid 4 \\mid 0)$, $R_a(30-4a \\mid 4 \\mid 2)$.\n\n$\\overrightarrow{PQ_a}=\\overrightarrow{SR_a}=\\begin{pmatrix} -4a \\\\ 4 \\\\ 0 \\end{pmatrix}$, $\\overrightarrow{PS}=\\begin{pmatrix} 0 \\\\ 0 \\\\ 2 \\end{pmatrix}$ und $\\overrightarrow{PQ_a}\\circ\\overrightarrow{PS}=0$: Rechteck.\n\n$A(a)=\\sqrt{16a^2+16}\\cdot2=4\\sqrt{1+a^2}\\cdot2=8\\sqrt{1+a^2}$"
+        },
+        {
+          "id": "V5-5e",
+          "label": "5e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Winkel zwischen Gerade und Ebene mit $\\vec n_a=\\begin{pmatrix} 1 \\\\ a \\\\ 0 \\end{pmatrix}$:\n\n$$\\sin60^\\circ=\\dfrac{|\\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix}\\circ\\vec n_a|}{1\\cdot\\sqrt{1+a^2}}=\\dfrac{1}{\\sqrt{1+a^2}}=\\dfrac{\\sqrt3}{2}$$\n\n$1+a^2=\\tfrac43$, also $a=\\tfrac{1}{\\sqrt3}\\approx0{,}577$ (wegen $a>0$).\n\n$A=8\\sqrt{\\tfrac43}\\approx9{,}24\\,\\mathrm{cm^2}$"
+        },
+        {
+          "id": "V5-5f",
+          "label": "5f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Ecke hat $60^\\circ$; jede der beiden Leisten wird unter $30^\\circ$ zur Leistenachse gesägt (beim Rechteck: $90^\\circ$ Ecke, $45^\\circ$ je Leiste).\n\n$\\sin30^\\circ=\\tfrac12=\\dfrac{1}{\\sqrt{1+a^2}}$, also $a=\\sqrt3$ und $A=8\\sqrt{1+3}=16\\,\\mathrm{cm^2}$.\n\nGerader Schnitt quer zur Leiste: Rechteck $4\\,\\mathrm{cm}\\cdot2\\,\\mathrm{cm}=8\\,\\mathrm{cm^2}$. Die Aussage stimmt: $16=2\\cdot8$. (Allgemein ist $A=\\dfrac{8\\,\\mathrm{cm^2}}{\\sin\\varphi}$ mit dem Winkel $\\varphi$ zwischen Leistenachse und Schnittebene.)"
+        },
+        {
+          "id": "V5-5g",
+          "label": "5g",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Liegen zwei so gesägte Schnittflächen aneinander, ist die Ecke nur $2\\cdot44^\\circ=88^\\circ$ groß.\n\nVier Ecken ergeben $4\\cdot88^\\circ=352^\\circ$ statt $360^\\circ$: Der Rahmen schließt sich nicht. Mindestens an einer Ecke klafft eine Fuge, oder die Flächen liegen nur an einer Kante an. Schon kleine Winkelfehler summieren sich über alle Ecken; das Modell „beide Schnittflächen in einer Ebene“ gilt nur bei exakt eingestellter Säge."
         }
       ]
     }
