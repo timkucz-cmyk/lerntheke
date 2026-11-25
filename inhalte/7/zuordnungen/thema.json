@@ -3,7 +3,7 @@
   "titel": "Zuordnungen – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Kommazahlen, im Koordinatensystem oder bei Größen aus Klasse 5 und 6 unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt Zahlen, Koordinaten, Größen und Rechtecke auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 (Diagramme und Graphen), V2 nach N2 (Formeln), V3 nach N3 bis N8 (proportionale Zuordnungen). Ohne Taschenrechner – nur in N7 und N8 darfst du ihn benutzen. Geodreieck bereitlegen; dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Kommazahlen, im Koordinatensystem oder bei Größen aus Klasse 5 und 6 unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt Zahlen, Koordinaten, Größen und Rechtecke auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 (Diagramme und Graphen), V2 nach N2 (Formeln), V3 nach N3 bis N8 (proportionale Zuordnungen). Ohne Taschenrechner – nur in N7 und N8 darfst du ihn benutzen. Geodreieck bereitlegen; dein Regelheft darfst du benutzen. Ganz zum Schluss kannst du mit V4 (Probearbeit, 60 Minuten) wie in der Klassenarbeit üben – dort ohne Regelheft.",
   "checkliste": [
     {
       "id": "g1",
@@ -1072,6 +1072,205 @@
           "punkte": 2,
           "afb": "II",
           "loesung": "Schattenstreifen: $6 \\cdot 1{,}5 = 9$, also 9 m². Samen: $30 \\cdot 9 = 270$, also **270 g** Schattenrasen (1 P).\n\nRest: $27 - 9 = 18$, also 18 m² (oder $6 \\cdot 3$). Samen: $25 \\cdot 18 = 450$, also **450 g** normaler Rasen (1 P). Dafür reicht jetzt eine Packung."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Geodreieck (ohne Taschenrechner)",
+      "checkliste": [
+        "c10",
+        "c9",
+        "c8",
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2",
+        "g5",
+        "g4",
+        "g3",
+        "g2",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1) ohne Hilfsmittel, danach Teil B (Aufgabe 2 bis 4) mit Geodreieck, aber ohne Taschenrechner. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Diagramme und Graphen, Formeln, proportionale Zuordnungen) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $12 \\cdot 5 = 60$, zusammen eine Nachkommastelle in $1{,}2$ und eine in $0{,}5$: $0{,}60 = 0{,}6$.\n\n*A gewählt?* Das Komma vergessen. *C gewählt?* Eine Nachkommastelle zu viel. *D gewählt?* Addiert statt multipliziert. → **G2** Aufgabe 5"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – 1 h = 60 min, dazu 20 min: 80 min.\n\n*A gewählt?* „1 h 20 min“ wie die Kommazahl 1,20 gelesen. *B gewählt?* Eine Stunde hat 60, nicht 100 Minuten. *C gewählt?* Stunden und Minuten vermischt. → **G2** Aufgabe 3"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – 2 nach links: x-Wert $-2$; 3 nach unten: y-Wert $-3$.\n\n*B gewählt?* x- und y-Wert vertauscht – der x-Wert steht zuerst. *C oder D gewählt?* Ein Vorzeichen falsch: Links und unten sind die Werte negativ. → **G2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Während der Pause bleibt die zurückgelegte Strecke gleich: waagerechtes Stück. Danach fährt er schneller und schafft pro Minute mehr Strecke: Der Graph steigt steiler als vorher.\n\n*A gewählt?* A steigt danach flacher – das hieße langsamer. *B gewählt?* B zeigt die Geschwindigkeit, nicht die Strecke. *D gewählt?* Bei D nimmt die Strecke wieder ab – eine schon gefahrene Strecke kann nicht kleiner werden. → **N1** Aufgabe 3"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Es gibt nur ganze Kisten: Zwischen 2 und 3 Kisten gibt es keine Werte. Man zeichnet einzelne Punkte.\n\n*A, B oder C gewählt?* Die Zeit läuft ohne Lücken weiter; auch zwischen zwei Messungen gibt es Werte. Dort darf man verbinden. → **N1** Aufgabe 2"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $15 - 1{,}5 \\cdot 4 = 15 - 6 = 9$ (Punkt vor Strich).\n\n*A gewählt?* Erst $15 - 1{,}5$ gerechnet. *C gewählt?* Addiert statt subtrahiert. *D gewählt?* Nur $1{,}5 \\cdot 4$ gerechnet. → **N6** Aufgabe 3"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Pro Kilometer kommen 2 € dazu (mal $x$), die Grundgebühr von 4 € zahlt man einmal (plus 4).\n\n*B gewählt?* Die Zahlen vertauscht – dann kostete jeder Kilometer 4 €. *C oder D gewählt?* Die Grundgebühr zählt nur einmal, nicht bei jedem Kilometer. → **N2** Aufgabe 3"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – $\\frac{3}{2} = \\frac{6}{4} = \\frac{15}{10} = 1{,}5$ – die Wertepaare sind quotientengleich.\n\n*A gewählt?* $y$ ist immer um 3 größer als $x$, das reicht nicht: $\\frac{4}{1} = 4$, aber $\\frac{5}{2} = 2{,}5$. *B gewählt?* Zu $x = 0$ müsste $y = 0$ gehören. *D gewählt?* $\\frac{16}{10} = 1{,}6$ passt nicht – ein Gegenbeispiel genügt. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "V4-1i",
+          "label": "1i",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $q = \\frac{y}{x} = \\frac{4}{5} = 0{,}8$, also $y = 0{,}8 \\cdot x$.\n\n*A gewählt?* $x : y$ statt $y : x$ gerechnet. *C gewählt?* Die Differenz statt des Quotienten benutzt. *D gewählt?* Den y-Wert als Faktor genommen. → **N4**"
+        },
+        {
+          "id": "V4-1j",
+          "label": "1j",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Für 2 Pfannkuchen braucht man 150 ml, für 6 Pfannkuchen dreimal so viel: $3 \\cdot 150 = 450$, also 450 ml.\n\n*A gewählt?* 2 Pfannkuchen mehr heißt nicht 2 ml mehr. *B gewählt?* 300 ml reichen schon für 4 Pfannkuchen, nicht nur für einen. *C gewählt?* 6 ist nicht das Doppelte von 4. → **N5** (Tandem)"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Startplatz 1200 m (bei 0 min), Landeplatz 400 m (1 P).\n\nDer Flug dauerte 45 Minuten (1 P)."
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Höchstens 1500 m (1 P).\n\nDiese Höhe hält er von Minute 10 bis Minute 15, also 5 Minuten (1 P)."
+        },
+        {
+          "id": "V4-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Eine waagerechte Hilfslinie bei 1200 m trifft den Graphen am Start, also bei 0 min (1 P), und noch einmal beim Sinkflug nach 30 Minuten (1 P).\n\n*Nur einen Zeitpunkt gefunden?* Eine Hilfslinie kann den Graphen mehrmals treffen. → **N1** Aufgabe 1"
+        },
+        {
+          "id": "V4-2d",
+          "label": "2d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "- 0 bis 10 min: Er steigt um 300 m (im Aufwind).\n- 10 bis 15 min: Die Höhe bleibt gleich.\n- 15 bis 35 min: Er sinkt langsam, um 400 m in 20 Minuten.\n- 35 bis 45 min: Er sinkt schnell, um 700 m in 10 Minuten, bis zur Landung.\n\nFür die Beschreibung 2 P. Am schnellsten sinkt er von Minute 35 bis 45: Dort fällt der Graph am steilsten – 70 m pro Minute statt 20 m pro Minute (1 P)."
+        },
+        {
+          "id": "V4-2e",
+          "label": "2e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Der Graph zeigt nur die **Höhe**, nicht den Ort. Waagerecht heißt: Die Höhe bleibt gleich (1 P).\n\nOb sich der Gleitschirm dabei bewegt, kann man am Graphen nicht ablesen. Ein Gleitschirm fliegt immer vorwärts – in dieser Zeit fliegt er in gleicher Höhe weiter, zum Beispiel im Kreis. Ole hat nicht recht (1 P)."
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$y = 0{,}5 \\cdot x + 1$ (auch richtig: $y = 1 + 0{,}5 \\cdot x$)"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Zum Beispiel für 4 Tage: $0{,}5 \\cdot 4 + 1 = 2 + 1 = 3$.\n\n| $x$ (Tage) | 1 | 2 | 4 | 6 |\n|---|---|---|---|---|\n| $y$ (in €) | 1,50 | 2,00 | 3,00 | 4,00 |"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Punkte $(1 \\mid 1{,}5)$, $(2 \\mid 2)$, $(3 \\mid 2{,}5)$, $(4 \\mid 3)$, $(5 \\mid 3{,}5)$, $(6 \\mid 4)$ eintragen (1 P).\n\nDie Punkte werden **nicht** verbunden: Gezählt werden nur ganze Tage, eine Gebühr für 2,5 Tage gibt es nicht (1 P).",
+          "loesung_bild": "img/V4-3c.png"
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Rückwärts rechnen: Erst die Bearbeitungsgebühr abziehen: $5{,}50 - 1 = 4{,}50$, es bleiben 4,50 € (1 P).\n\nJeder Tag kostet 0,50 €: $4{,}50 : 0{,}5 = 9$. Tim war **9 Tage** zu spät (1 P). Probe: $0{,}5 \\cdot 9 + 1 = 5{,}5$ ✓"
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Mia hat nicht recht: 2 Tage kosten 2 €, 4 Tage (das Doppelte) aber 3 € und nicht 4 €. Die Bearbeitungsgebühr kommt nur einmal dazu; der Graph liegt nicht auf einer Ursprungsgeraden (1 P).\n\nDamit Mia recht hat, dürfte es keine Bearbeitungsgebühr geben, nur einen festen Betrag pro Tag, z. B. 0,50 € pro Tag: $y = 0{,}5 \\cdot x$ (1 P)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Quotienten Preis : Masse: $\\frac{0{,}6}{0{,}2} = 3$, $\\frac{1{,}5}{0{,}5} = 3$, $\\frac{2{,}4}{0{,}8} = 3$, $\\frac{4{,}5}{1{,}5} = 3$ (1 P).\n\nAlle Quotienten sind gleich: Die Zuordnung ist quotientengleich und **kann proportional sein** (1 P)."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$q = 3$, Formel $y = 3 \\cdot x$ (1 P).\n\nBedeutung: 1 kg Haferflocken kostet 3 € (1 P)."
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$3 \\cdot 2{,}5 = 7{,}5$: 2,5 kg kosten **7,50 €** (1 P).\n\n$6{,}30 : 3 = 2{,}1$: Für 6,30 € bekommt man **2,1 kg** (1 P)."
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Waage berechnet den Preis für Haferflocken **und** Glas. Das Glas kostet zusätzlich $3 \\cdot 0{,}3 = 0{,}9$, also 0,90 € – bei jedem Einkauf gleich viel. Die Verkäuferin hat recht (1 P).\n\nBeispiel 1 kg Haferflocken: Die Waage zeigt 1,3 kg und berechnet $3 \\cdot 1{,}3 = 3{,}9$, also 3,90 € statt 3 €. Die Zuordnung *Haferflocken-Masse → Preis* ist dann nicht mehr proportional: Schon zu 0 kg Haferflocken gehören 0,90 € (1 P)."
         }
       ]
     }

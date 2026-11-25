@@ -3,7 +3,7 @@
   "titel": "Dynamik – Lerntheke vor der Klausur",
   "fach": "physik",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind klausurrelevant. Sind Sie bei Kräften aus der Mittelstufe unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Kräfte auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N11. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Newton’sche Axiome), V2 nach N3 (Kräfte zerlegen, Reibung), V3 nach N4 bis N10 (Impuls und Stöße), V4 nach N11 (reale Bewegungen). N12 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N12.",
+  "hinweis": "Alle Stationen sind klausurrelevant. Sind Sie bei Kräften aus der Mittelstufe unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Kräfte auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N11. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Newton’sche Axiome), V2 nach N3 (Kräfte zerlegen, Reibung), V3 nach N4 bis N10 (Impuls und Stöße), V4 nach N11 (reale Bewegungen). N12 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N12. Ganz zum Schluss können Sie mit V5 (Probeklausur, 90 Minuten) unter Klausurbedingungen üben.",
   "checkliste": [
     {
       "id": "g1",
@@ -1516,6 +1516,154 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Die Impulsänderung $95\\,\\mathrm{kg} \\cdot 20\\,\\mathrm{m/s} = 1900\\,\\mathrm{N\\,s}$ ist fest. Ein strafferes Netz gibt weniger nach: Bremsweg und Bremsdauer werden kürzer, die Kraft $F = \\frac{\\Delta p}{\\Delta t}$ wird größer (bei halbem Bremsweg $15{,}2\\,\\mathrm{kN}$).\n\nDer Vorschlag macht das Auffangen gefährlicher. Das Netz soll nachgeben – aber nur so weit, dass der Läufer nicht auf Hindernisse dahinter trifft."
+        }
+      ]
+    },
+    {
+      "id": "V5",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "WTR, IQB-Formeldokument",
+      "checkliste": [
+        "c13",
+        "c12",
+        "c11",
+        "c10",
+        "c9",
+        "c8",
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2",
+        "c1",
+        "g6",
+        "g5",
+        "g4",
+        "g3",
+        "g2",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Echte Klausurbedingungen: 90 Minuten, WTR und IQB-Formeldokument (wie in der Physikklausur ohne hilfsmittelfreien Teil), Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 4 (Newton’sche Axiome, Kräfte zerlegen und Reibung, Impuls und Stöße, reale Bewegungen) – am besten ganz am Ende.",
+      "bild": "img/st_V5.svg",
+      "pdf": "pdf/V5_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Bis $1{,}5\\,\\mathrm{s}$ steigt die Seilkraft gleichmäßig auf etwa $6{,}3\\,\\mathrm{kN}$; der Stamm ruht: **Haftreibung**, sie wächst mit der Seilkraft bis zu ihrem Höchstwert (1 P).\n\nDann reißt sich der Stamm los, die Kraft fällt ab, schwankt kurz und bleibt ab etwa $3\\,\\mathrm{s}$ nahezu konstant bei $4{,}7\\,\\mathrm{kN}$: Der Stamm gleitet, es wirkt **Gleitreibung**; sie ist kleiner als die größte Haftreibung (1 P)."
+        },
+        {
+          "id": "V5-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Auf ebenem Boden: $F_N = F_G = m \\cdot g = 800\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{m/s^2} = 7848\\,\\mathrm{N}$ (1 P)\n\nDer Stamm reißt sich los, wenn die Seilkraft die größte Haftreibungskraft erreicht: $\\mu_H = \\frac{6{,}3\\,\\mathrm{kN}}{7{,}848\\,\\mathrm{kN}} \\approx 0{,}80$ (1 P)\n\nAb $3\\,\\mathrm{s}$ ist die Geschwindigkeit konstant. Nach dem Trägheitsprinzip ist dann die resultierende Kraft null, also $F_{Seil} = F_R = 4{,}7\\,\\mathrm{kN}$ und $\\mu_G = \\frac{4{,}7\\,\\mathrm{kN}}{7{,}848\\,\\mathrm{kN}} \\approx 0{,}60$ (1 P)"
+        },
+        {
+          "id": "V5-1c",
+          "label": "1c",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Skizze: Gewichtskraft $F_G$ senkrecht nach unten, zerlegt in $F_{Gx}$ (hangabwärts) und $F_{Gy}$ (senkrecht in den Hang); Normalkraft $F_N$ senkrecht vom Hang weg; Seilkraft $F_{Seil}$ hangaufwärts; Reibungskraft $F_R$ hangabwärts, gegen die Bewegung (1 P).\n\n$F_{Gx} = F_G \\cdot \\sin(\\alpha) = 7848\\,\\mathrm{N} \\cdot \\sin(15^\\circ) \\approx 2031\\,\\mathrm{N}$ (1 P)\n\n$F_N = F_{Gy} = F_G \\cdot \\cos(\\alpha) = 7848\\,\\mathrm{N} \\cdot \\cos(15^\\circ) \\approx 7581\\,\\mathrm{N}$ (1 P)",
+          "loesung_bild": "img/V5-1c.png"
+        },
+        {
+          "id": "V5-1d",
+          "label": "1d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$F_R = \\mu_G \\cdot F_N = 0{,}60 \\cdot 7581\\,\\mathrm{N} \\approx 4548\\,\\mathrm{N}$ (1 P)\n\nKonstante Geschwindigkeit, resultierende Kraft null: $F_{Seil} = F_{Gx} + F_R \\approx 2031\\,\\mathrm{N} + 4548\\,\\mathrm{N} \\approx 6580\\,\\mathrm{N}$ (1 P)\n\nMit $F_{max}$: $a = \\frac{F_{max} - F_{Gx} - F_R}{m} = \\frac{7500\\,\\mathrm{N} - 6580\\,\\mathrm{N}}{800\\,\\mathrm{kg}} \\approx 1{,}15\\,\\mathrm{m/s^2}$ hangaufwärts (1 P)\n\n[Ersatzwerte: $4169\\,\\mathrm{N}$; $6201\\,\\mathrm{N}$; $1{,}62\\,\\mathrm{m/s^2}$]"
+        },
+        {
+          "id": "V5-1e",
+          "label": "1e",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Zum Losreißen muss die Seilkraft größer sein als Hangabtriebskraft und größte Haftreibungskraft zusammen (1 P).\n\n$F_{H,max} = \\mu_H \\cdot F_N = 0{,}80 \\cdot 7581\\,\\mathrm{N} \\approx 6064\\,\\mathrm{N}$; nötig: $2031\\,\\mathrm{N} + 6064\\,\\mathrm{N} \\approx 8096\\,\\mathrm{N}$ (1 P)\n\n$8{,}1\\,\\mathrm{kN} > 7{,}5\\,\\mathrm{kN}$: Die Winde kann den ruhenden Stamm nicht losreißen, obwohl sie ihn gleitend ziehen könnte (1 P).\n\n[Ersatzwerte: $5686\\,\\mathrm{N}$; $7717\\,\\mathrm{N} > 7500\\,\\mathrm{N}$, gleiches Ergebnis]"
+        },
+        {
+          "id": "V5-1f",
+          "label": "1f",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Das Seil zieht den Stamm hangaufwärts; nach dem Wechselwirkungsprinzip zieht das Seil den Traktor mit gleich großer Kraft ($7{,}5\\,\\mathrm{kN}$) zum Hang hin. Diese Kraft greift an einem anderen Körper an als die Seilkraft auf den Stamm (1 P).\n\nDamit der Traktor stehen bleibt, muss die Haftreibung an den Reifen diese Kraft ausgleichen (Kräftegleichgewicht am Traktor; die geringe Neigung des Seils am Traktor wird vernachlässigt, sie ändert das Ergebnis nicht): $F_{H,max} = \\mu_H \\cdot m_T \\cdot g$; trocken $0{,}60 \\cdot 44\\,145\\,\\mathrm{N} \\approx 26{,}5\\,\\mathrm{kN}$, nass $0{,}15 \\cdot 44\\,145\\,\\mathrm{N} \\approx 6{,}6\\,\\mathrm{kN}$ (1 P)\n\nAuf trockenem Schotter bleibt der Traktor stehen ($26{,}5\\,\\mathrm{kN} > 7{,}5\\,\\mathrm{kN}$), auf nassem Lehm rutscht er zum Hang hin ($6{,}6\\,\\mathrm{kN} < 7{,}5\\,\\mathrm{kN}$). Deshalb stützt man Forsttraktoren zusätzlich mit einem Schild am Heck im Boden ab (1 P)."
+        },
+        {
+          "id": "V5-1g",
+          "label": "1g",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Seilkraft zerlegen: $F \\cdot \\cos(\\beta)$ hangaufwärts, $F \\cdot \\sin(\\beta)$ senkrecht vom Hang weg. Die Normalkraft sinkt auf $F_N = F_{Gy} - F \\cdot \\sin(\\beta)$ (1 P).\n\nMit $F = 7{,}5\\,\\mathrm{kN}$: $F_N = 7581\\,\\mathrm{N} - 7500\\,\\mathrm{N} \\cdot \\sin(20^\\circ) \\approx 5015\\,\\mathrm{N}$, $F_{H,max} = 0{,}80 \\cdot 5015\\,\\mathrm{N} \\approx 4012\\,\\mathrm{N}$; nötig $2031\\,\\mathrm{N} + 4012\\,\\mathrm{N} \\approx 6044\\,\\mathrm{N}$, vorhanden $7500\\,\\mathrm{N} \\cdot \\cos(20^\\circ) \\approx 7048\\,\\mathrm{N}$: Der Stamm setzt sich in Bewegung (1 P).\n\nAlternativ: nötige Seilkraft $F = \\frac{F_{Gx} + \\mu_H \\cdot F_{Gy}}{\\cos(\\beta) + \\mu_H \\cdot \\sin(\\beta)} \\approx 6{,}67\\,\\mathrm{kN} < 7{,}5\\,\\mathrm{kN}$.\n\nErläuterung: Das schräge Seil hebt den Stamm teilweise an. Normalkraft und Haftreibung sinken deutlich, die hangparallele Komponente der Seilkraft nimmt nur wenig ab (1 P).\n\n[Ersatzwerte: $3762\\,\\mathrm{N}$; $5793\\,\\mathrm{N} < 7048\\,\\mathrm{N}$]"
+        },
+        {
+          "id": "V5-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Mit wachsender Geschwindigkeit wächst der Luftwiderstand; die resultierende Kraft $F_G - F_L$ und damit die Beschleunigung werden kleiner. Sobald $F_L = F_G$ ist, ist die resultierende Kraft null: Nach dem Trägheitsprinzip fällt das Korn dann mit konstanter Geschwindigkeit (1 P).\n\n$k \\cdot v_{grenz}^2 = m \\cdot g \\Rightarrow v_{grenz} = \\sqrt{\\frac{m \\cdot g}{k}}$ (1 P)\n\n$v_{grenz} = \\sqrt{\\frac{0{,}0074\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{m/s^2}}{1{,}5 \\cdot 10^{-4}\\,\\mathrm{kg/m}}} \\approx 22{,}0\\,\\mathrm{m/s} \\approx 79\\,\\mathrm{km/h}$ (1 P)"
+        },
+        {
+          "id": "V5-2b",
+          "label": "2b",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "$\\frac{k}{m} = \\frac{1{,}5 \\cdot 10^{-4}\\,\\mathrm{kg/m}}{0{,}0074\\,\\mathrm{kg}} \\approx 0{,}02027\\,\\frac{1}{\\mathrm{m}}$\n\n$t = 1{,}0\\,\\mathrm{s}$: $v_2 = 4{,}905 + 9{,}322 \\cdot 0{,}5 \\approx 9{,}566\\,\\mathrm{m/s}$; $s_2 = 0 + 4{,}905 \\cdot 0{,}5 \\approx 2{,}45\\,\\mathrm{m}$; $a_2 = 9{,}81 - 0{,}02027 \\cdot 9{,}566^2 \\approx 7{,}955\\,\\mathrm{m/s^2}$ (1,5 P)\n\n$t = 1{,}5\\,\\mathrm{s}$: $v_3 = 9{,}566 + 7{,}955 \\cdot 0{,}5 \\approx 13{,}54\\,\\mathrm{m/s}$; $s_3 = 2{,}45 + 9{,}566 \\cdot 0{,}5 \\approx 7{,}24\\,\\mathrm{m}$; $a_3 = 9{,}81 - 0{,}02027 \\cdot 13{,}54^2 \\approx 6{,}09\\,\\mathrm{m/s^2}$ (1,5 P)"
+        },
+        {
+          "id": "V5-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$v = \\sqrt{2 \\cdot g \\cdot h} = \\sqrt{2 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 1500\\,\\mathrm{m}} \\approx 172\\,\\mathrm{m/s} \\approx 618\\,\\mathrm{km/h}$ (1 P)\n\nVergleich: Ganz am Anfang stimmen beide Modelle fast überein ($a \\approx g$), schon nach $1\\,\\mathrm{s}$ ist $a$ deutlich kleiner als $g$. Real erreicht das Korn nach wenigen Sekunden etwa $22\\,\\mathrm{m/s}$ und fällt dann gleichförmig. Das idealisierte Modell überschätzt die Aufprallgeschwindigkeit fast um das Achtfache und ist für Hagel ungeeignet (1 P)."
+        },
+        {
+          "id": "V5-2d",
+          "label": "2d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Doppelter Durchmesser: Volumen und Masse werden $2^3 = 8$-mal so groß, Querschnittsfläche und $k$ nur $2^2 = 4$-mal so groß (1 P).\n\n$v_{grenz} = \\sqrt{\\frac{8\\,m \\cdot g}{4\\,k}} = \\sqrt{2} \\cdot 22{,}0\\,\\mathrm{m/s} \\approx 31\\,\\mathrm{m/s}$ (1 P)\n\nBeurteilung: Die Bewegungsenergie $\\frac{1}{2}\\,m\\,v^2$ wächst um den Faktor $8 \\cdot (\\sqrt{2})^2 = 16$, nicht um den Faktor 2. Die Aussage unterschätzt die Gefahr großer Hagelkörner deutlich (1 P)."
+        },
+        {
+          "id": "V5-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Druckluft beschleunigt die Kugel nach vorn; nach dem Wechselwirkungsprinzip wirkt eine gleich große Gegenkraft nach hinten auf die Kanone. Mit dem Impuls: Vor dem Schuss ist der Gesamtimpuls null, danach haben Kugel und ausströmende Luft Impuls nach vorn, die Kanone gleich großen Impuls nach hinten (1 P).\n\nGemeinsamkeit: Auch die Rakete stößt Masse (Gas) nach hinten aus und erhält dadurch Impuls nach vorn (Rückstoß); sie muss sich nirgends abstoßen (1 P)."
+        },
+        {
+          "id": "V5-3b",
+          "label": "3b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Nach dem Stoß wird die Bewegungsenergie von Kasten und Kugel beim Hochschwingen zu Höhenenergie: $v' = \\sqrt{2 \\cdot g \\cdot h} = \\sqrt{2 \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 0{,}034\\,\\mathrm{m}} \\approx 0{,}817\\,\\mathrm{m/s}$ (1 P)\n\nUnelastischer (plastischer) Stoß, Impulserhaltung: $m \\cdot v = (m + M) \\cdot v'$ (1 P)\n\n$v = \\frac{(m + M) \\cdot v'}{m} = \\frac{207{,}4\\,\\mathrm{g} \\cdot 0{,}817\\,\\mathrm{m/s}}{7{,}4\\,\\mathrm{g}} \\approx 22{,}9\\,\\mathrm{m/s}$ (1 P)"
+        },
+        {
+          "id": "V5-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{1}{2} \\cdot m \\cdot v^2 = (m + M) \\cdot g \\cdot h \\Rightarrow v = \\sqrt{\\frac{2 \\cdot (m + M) \\cdot g \\cdot h}{m}} = \\sqrt{\\frac{2 \\cdot 0{,}2074\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{m/s^2} \\cdot 0{,}034\\,\\mathrm{m}}{0{,}0074\\,\\mathrm{kg}}} \\approx 4{,}3\\,\\mathrm{m/s}$ – viel weniger als die rund $23\\,\\mathrm{m/s}$ aus b) (1 P).\n\nDer Stoß ist unelastisch (plastisch): Die Kugel dringt in den Schaumstoff ein, dabei wird fast die gesamte Bewegungsenergie in innere Energie (Verformung, Wärme) umgewandelt. Bewegungs- und Höhenenergie bleiben erst beim Hochschwingen nach dem Stoß erhalten; für den Stoß selbst gilt nur die Impulserhaltung (1 P)."
+        },
+        {
+          "id": "V5-3d",
+          "label": "3d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Idealer elastischer Stoß mit ruhendem Kasten (Formeldokument): $v_2' = \\frac{2\\,m \\cdot v}{m + M} = \\frac{2 \\cdot 7{,}4\\,\\mathrm{g} \\cdot 22{,}9\\,\\mathrm{m/s}}{207{,}4\\,\\mathrm{g}} \\approx 1{,}63\\,\\mathrm{m/s}$, also $h = \\frac{v_2'^2}{2\\,g} \\approx 13{,}6\\,\\mathrm{cm}$ – viermal so hoch. Das spricht für den Vorschlag (1 P).\n\nAber: Eis ist spröde und splittert. Der Stoß ist dann teilelastisch mit unbekanntem Energieverlust; $v_2'$ liegt irgendwo zwischen dem unelastischen und dem elastischen Wert. Aus $h$ ließe sich $v$ nur bis auf einen Faktor von bis zu 2 bestimmen (1 P).\n\nUrteil: Mit Schaumstoff ist sicher, dass sich Kugel und Kasten gemeinsam weiterbewegen; nur dann gilt die Auswertung aus b). Der Vorschlag verschlechtert die Messung trotz größerer Steighöhe (1 P)."
+        },
+        {
+          "id": "V5-3e",
+          "label": "3e",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Achse in Flugrichtung der Kugel.\n\nA: $\\Delta p = m \\cdot (0 - v) = -0{,}0074\\,\\mathrm{kg} \\cdot 23\\,\\mathrm{m/s} \\approx -0{,}170\\,\\mathrm{N\\,s}$; $F = \\frac{|\\Delta p|}{\\Delta t} = \\frac{0{,}170\\,\\mathrm{N\\,s}}{0{,}00050\\,\\mathrm{s}} \\approx 340\\,\\mathrm{N}$ (1 P)\n\nB: $\\Delta p = 0{,}0074\\,\\mathrm{kg} \\cdot (-6{,}0\\,\\mathrm{m/s} - 23\\,\\mathrm{m/s}) \\approx -0{,}215\\,\\mathrm{N\\,s}$; $F \\approx 429\\,\\mathrm{N}$ (1 P)\n\nDie Scheibe übt diese Kraft auf die Kugel aus; nach dem Wechselwirkungsprinzip wirkt eine gleich große Kraft auf die Scheibe. Beim Abprall wird die Kugel nicht nur gestoppt, sondern zusätzlich in Gegenrichtung beschleunigt: größere Impulsänderung, bei gleicher Dauer größere Kraft (1 P)."
         }
       ]
     }
