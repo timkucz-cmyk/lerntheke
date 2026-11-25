@@ -3,7 +3,7 @@
   "titel": "Differenzialrechnung – Lerntheke vor der Klausur",
   "fach": "mathe",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind klausurrelevant (Klausur 2). Sind Sie bei Grenzverhalten, Symmetrie, Nullstellen, Ableiten, Tangenten oder Änderungsraten unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Ableiten und Tangenten auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Ableitung und Graph), V2 nach N3 (Funktionen untersuchen), V3 nach N4 bis N6 (Funktionen bestimmen), V4 nach N7 bis N9 (Anwenden) als Komplexaufgabe. N10 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N10.",
+  "hinweis": "Alle Stationen sind klausurrelevant (Klausur 2). Sind Sie bei Grenzverhalten, Symmetrie, Nullstellen, Ableiten, Tangenten oder Änderungsraten unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Ableiten und Tangenten auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Ableitung und Graph), V2 nach N3 (Funktionen untersuchen), V3 nach N4 bis N6 (Funktionen bestimmen), V4 nach N7 bis N9 (Anwenden) als Komplexaufgabe. N10 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N10. Ganz zum Schluss können Sie mit V5 (Probeklausur, 90 Minuten) unter Klausurbedingungen üben.",
   "checkliste": [
     {
       "id": "g1",
@@ -1308,6 +1308,157 @@
           "punkte": 3,
           "afb": "III",
           "loesung": "Größte Zunahme am letzten Tag: $S''(t)=-18t+54=0 \\Rightarrow t=3$, $S'''=-18<0$, $S'(3)=-81+162=81$ Autos pro Stunde um 9 Uhr (Randwerte $S'(0)=0$, $S'(8)=-144$ sind kleiner). Am normalen Messetag: 96 Autos pro Stunde um 10 Uhr. Gemessen an der größten Zunahme stimmt die Aussage also nicht.\n\nZwischen 6 und 8 Uhr gilt aber $S'(t)-B'(t)=(-9t^2+54t)-(-6t^2+48t)=3t(2-t)>0$ für $0<t<2$, z. B. $S'(1)=45>B'(1)=42$: Am Morgen nimmt die Belegung am letzten Tag schneller zu; ab 8 Uhr ($t>2$) ist es umgekehrt. Der Höchststand liegt zwar früher (12 statt 14 Uhr), aber deutlich niedriger (344 statt 552 Autos).\n\nUrteil: Die Aussage stimmt nur für die ersten zwei Stunden ($S'>B'$ für $0<t<2$), nicht für die größte Zunahme. Jede so begründete Einschränkung ist richtig."
+        }
+      ]
+    },
+    {
+      "id": "V5",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "Teil A keine, Teil B WTR und IQB-Formeldokument",
+      "checkliste": [
+        "c9",
+        "c8",
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2",
+        "c1",
+        "g6",
+        "g5",
+        "g4",
+        "g3",
+        "g2",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klausur: 90 Minuten, zuerst Teil A (Aufgabe 1 bis 3) ohne Hilfsmittel, danach Teil B (Aufgabe 4 und 5) mit WTR und IQB-Formeldokument. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 4 (Ableitung und Graph, Funktionen untersuchen, Funktionen bestimmen, Anwenden) – am besten ganz am Ende.",
+      "bild": "img/st_V5.svg",
+      "pdf": "pdf/V5_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Extremstellen von $f$ liegen dort, wo $f'$ eine Nullstelle mit Vorzeichenwechsel hat: bei $x=-2$ und $x=4$.\n\n$x=-2$: $f'$ wechselt von negativ zu positiv, $f$ geht vom Fallen ins Steigen über – Tiefpunkt (1 P).\n\n$x=4$: $f'$ wechselt von positiv zu negativ, $f$ geht vom Steigen ins Fallen über – Hochpunkt (1 P)."
+        },
+        {
+          "id": "V5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Streng monoton steigend, wo $f'(x)>0$ gilt: Der Graph von $f'$ liegt zwischen den Nullstellen $-2$ und $4$ oberhalb der x-Achse, also auf $]-2;\\,4[$ (1 P).\n\nRechtsgekrümmt, wo $f''(x)<0$ gilt, also wo $f'$ fällt: rechts vom Scheitelpunkt der Parabel, der in der Mitte zwischen den Nullstellen bei $x=1$ liegt. Beides zugleich gilt auf $]1;\\,4[$ (1 P). Geschlossene Grenzen an den Extremstellen sind ebenfalls richtig."
+        },
+        {
+          "id": "V5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Symmetrie zur y-Achse: nur gerade Exponenten, $g(x)=ax^4+bx^2+c$, $g'(x)=4ax^3+2bx$ (1 P)\n\n$g(0)=1$, $g(2)=5$, $g'(2)=0$ (1 P)"
+        },
+        {
+          "id": "V5-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$c=1$; $16a+4b+1=5$ und $32a+4b=0$. Subtrahieren: $16a=-4 \\Rightarrow a=-\\frac14$, $b=2$, also $g(x)=-\\frac14x^4+2x^2+1$ (1 P)\n\n$g''(x)=-3x^2+4$, $g''(2)=-8<0$: Hochpunkt (1 P)"
+        },
+        {
+          "id": "V5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$h'(x)=3x^2$, $m=h'(1)=3$; $t(x)=3x+b$, $P$ einsetzen: $3=3+b \\Rightarrow b=0$, also $t(x)=3x$ – die Tangente verläuft durch den Ursprung."
+        },
+        {
+          "id": "V5-3b",
+          "label": "3b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Tangente an einer beliebigen Stelle $u$: Steigung $m=3u^2$, Berührpunkt $(u \\mid u^3+2)$; aus $u^3+2=3u^2\\cdot u+b$ folgt $b=-2u^3+2$, also $t(x)=3u^2x-2u^3+2$ (1 P)\n\nDurch den Ursprung heißt $b=0$: $-2u^3+2=0 \\Leftrightarrow u^3=1$ (1 P)\n\n$u^3=1$ hat nur die Lösung $u=1$ (die Funktion $u \\mapsto u^3$ ist streng monoton steigend). Es gibt also keine weitere Tangente durch den Ursprung (1 P)."
+        },
+        {
+          "id": "V5-4a",
+          "label": "4a",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Ansatz $v(t)=at^3+bt^2+ct+d$, $v'(t)=3at^2+2bt+c$. Bedingungen (1 P):\n\n$v(0)=0 \\Rightarrow d=0$; $v(10)=12{,}5$: $1000a+100b+10c=12{,}5$; $v(60)=0$: $216\\,000a+3600b+60c=0$; $v'(60)=0$: $10\\,800a+120b+c=0$\n\nLGS mit dem WTR (1 P): $a=0{,}0005$, $b=-0{,}06$, $c=1{,}8$\n\n$v(t)=0{,}0005t^3-0{,}06t^2+1{,}8t$ (1 P)"
+        },
+        {
+          "id": "V5-4b",
+          "label": "4b",
+          "punkte": 4,
+          "afb": "I",
+          "loesung": "$v'(t)=0{,}0015t^2-0{,}12t+1{,}8=0{,}0015(t-20)(t-60)=0 \\Rightarrow t=20$ oder $t=60$ (Rand) (1 P)\n\n$v''(t)=0{,}003t-0{,}12$, $v''(20)=-0{,}06<0$: Hochpunkt (1 P)\n\nRänder: $v(0)=v(60)=0$, das globale Maximum liegt also bei $t=20$ (1 P)\n\n$v(20)=4-24+36=16\\,\\mathrm{m/s}=57{,}6\\,\\mathrm{km/h}$ (1 P)"
+        },
+        {
+          "id": "V5-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$v'(t)>0$ für $0<t<20$ und $v'(t)<0$ für $20<t<60$: $v$ ist auf $[0;\\,20]$ streng monoton steigend und auf $[20;\\,60]$ streng monoton fallend (1 P).\n\nDie Bahn beschleunigt 20 s lang und bremst danach 40 s lang bis zum Halt; eine Phase mit konstanter Geschwindigkeit gibt es im Modell nicht (1 P)."
+        },
+        {
+          "id": "V5-4d",
+          "label": "4d",
+          "punkte": 4,
+          "afb": "II",
+          "loesung": "Am stärksten bremsen heißt: $v'$ ist am kleinsten. $v''(t)=0{,}003t-0{,}12=0 \\Rightarrow t=40$; $v'''(t)=0{,}003\\neq0$: Wendestelle von $v$, dort hat $v'$ ein Minimum (1 P).\n\n$v'(40)=-0{,}6\\,\\mathrm{m/s^2}$; am Rand $v'(60)=0$. Nach 40 s bremst die Bahn am stärksten, mit $0{,}6\\,\\mathrm{m/s^2}$ (1 P).\n\nGrößte Beschleunigung: $v'$ fällt auf $[0;\\,40]$ ($v''<0$) und hat im Inneren kein Maximum (1 P). Das Maximum liegt am Rand: $v'(0)=1{,}8\\,\\mathrm{m/s^2}$ beim Anfahren (1 P).",
+          "loesung_bild": "img/V5-4d.png"
+        },
+        {
+          "id": "V5-4e",
+          "label": "4e",
+          "punkte": 4,
+          "afb": "II",
+          "loesung": "Bremsen: höchstens $0{,}6\\,\\mathrm{m/s^2}$ (aus d)), unkritisch. Beschleunigen: $v'(0)=1{,}8>1{,}3$ – die Grenze wird überschritten (1 P).\n\n$v'(t)=1{,}3 \\Leftrightarrow 0{,}0015t^2-0{,}12t+0{,}5=0$ (1 P)\n\nWTR: $t_1\\approx4{,}41$, $t_2\\approx75{,}59$ (außerhalb von $[0;\\,60]$) (1 P)\n\nDa $v'$ auf $[0;\\,40]$ fällt, liegt die Beschleunigung in den ersten etwa 4,4 s über $1{,}3\\,\\mathrm{m/s^2}$ (1 P)."
+        },
+        {
+          "id": "V5-4f",
+          "label": "4f",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Ansatz $v_2(t)=at^4+bt^3+ct^2+dt+e$; $v_2(0)=0$ und $v_2'(0)=0$ ergeben $e=0$, $d=0$ (1 P)\n\n$v_2(60)=0$: $12\\,960\\,000a+216\\,000b+3600c=0$; $v_2'(60)=0$: $864\\,000a+10\\,800b+120c=0$; $v_2(30)=16{,}2$: $810\\,000a+27\\,000b+900c=16{,}2$ (1 P)\n\nLGS mit dem WTR: $a=0{,}00002$, $b=-0{,}0024$, $c=0{,}072$, also $v_2(t)=0{,}00002t^4-0{,}0024t^3+0{,}072t^2$ (1 P)"
+        },
+        {
+          "id": "V5-4g",
+          "label": "4g",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Für Fahrgäste zählen vor allem die Komfortgrenze aus e) und ein sanftes Anfahren und Halten.\n\nGrößte Beschleunigung bzw. Bremsung an den Wendestellen von $v_2$: $v_2''(t)=0{,}00024t^2-0{,}0144t+0{,}144=0$, also $t^2-60t+600=0$ und $t\\approx12{,}68$ oder $t\\approx47{,}32$ (1 P)\n\n$v_2'(t)=0{,}00008t^3-0{,}0072t^2+0{,}144t$: $v_2'(12{,}68)\\approx0{,}83\\,\\mathrm{m/s^2}$, $v_2'(47{,}32)\\approx-0{,}83\\,\\mathrm{m/s^2}$; an den Rändern $v_2'(0)=v_2'(60)=0$ (1 P)\n\nUrteil: Mit höchstens etwa $0{,}83\\,\\mathrm{m/s^2}$ hält $v_2$ die Grenze von $1{,}3\\,\\mathrm{m/s^2}$ überall ein, anders als $v$ ($1{,}8\\,\\mathrm{m/s^2}$ beim Anfahren). Außerdem fährt die Bahn mit $v_2'(0)=0$ ohne Ruck an, während bei $v$ die Beschleunigung sofort mit $1{,}8\\,\\mathrm{m/s^2}$ einsetzt. Höchstgeschwindigkeit ($16{,}2$ statt $16\\,\\mathrm{m/s}$) ist fast gleich, die Fahrzeit von 60 s bleibt. Der Vorschlag ist für die Fahrgäste besser; er braucht dafür ein Modell höheren Grades (1 P, Urteil mit mindestens zwei Gesichtspunkten)."
+        },
+        {
+          "id": "V5-5a",
+          "label": "5a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Gurtmaß: $L+4x=300 \\Rightarrow L=300-4x$; $V=x\\cdot x\\cdot L=x^2(300-4x)=300x^2-4x^3$ (1 P)\n\nLänge höchstens 120 cm: $300-4x\\le120 \\Rightarrow x\\ge45$ (1 P)\n\nDie Länge ist die längste Kante: $300-4x\\ge x \\Rightarrow x\\le60$. Also $D=[45;\\,60]$ (1 P)"
+        },
+        {
+          "id": "V5-5b",
+          "label": "5b",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "$V'(x)=600x-12x^2=12x(50-x)=0 \\Rightarrow x=50$ ($x=0$ liegt nicht in $D$); $V''(x)=600-24x$, $V''(50)=-600<0$: Maximum (1 P)\n\nRänder: $V(45)=243\\,000$ und $V(60)=216\\,000$, beide kleiner als $V(50)=250\\,000$ (1 P)\n\nKarton $50\\,\\mathrm{cm} \\times 50\\,\\mathrm{cm} \\times 100\\,\\mathrm{cm}$, $V=250\\,000\\,\\mathrm{cm^3}=250$ Liter (1 P)"
+        },
+        {
+          "id": "V5-5c",
+          "label": "5c",
+          "punkte": 4,
+          "afb": "II",
+          "loesung": "Höhe $\\frac{b}{2}$: $L+2b+b=300 \\Rightarrow L=300-3b$; $V(b)=b\\cdot\\frac{b}{2}\\cdot(300-3b)=150b^2-1{,}5b^3$ (1 P)\n\n$V'(b)=300b-4{,}5b^2=0 \\Rightarrow b=\\frac{200}{3}\\approx66{,}7$; $V''(b)=300-9b$, $V''\\left(\\frac{200}{3}\\right)=-300<0$: Maximum (1 P)\n\nKarton etwa $66{,}7\\,\\mathrm{cm} \\times 33{,}3\\,\\mathrm{cm} \\times 100\\,\\mathrm{cm}$, $V\\approx222\\,222\\,\\mathrm{cm^3}\\approx222$ Liter; die Vorgaben sind erfüllt ($L=100\\le120$ und $L\\ge b$) (1 P)\n\nVergleich: etwa 28 Liter, also rund 11 % weniger als beim quadratischen Querschnitt (1 P)."
+        },
+        {
+          "id": "V5-5d",
+          "label": "5d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Allgemein: $L=G-2b-2kb=G-2(1+k)b$ und $V(b)=b\\cdot kb\\cdot L=kGb^2-2k(1+k)b^3$ (1 P)\n\n$V'(b)=2kGb-6k(1+k)b^2=0 \\Rightarrow b=\\frac{G}{3(1+k)}$ (für $b>0$); dort ist $V''(b)=2kG-12k(1+k)b=-2kG<0$: Maximum (1 P)\n\n$L=G-2(1+k)\\cdot\\frac{G}{3(1+k)}=G-\\frac23G=\\frac{G}{3}$ – unabhängig von $k$ (1 P)."
         }
       ]
     }
