@@ -3,7 +3,7 @@
   "titel": "Trigonometrie – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind arbeitsrelevant. Bist du bei Pythagoras, der Innenwinkelsumme, ähnlichen Dreiecken oder beim Umformen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt Pythagoras, Winkelsumme und Umformen auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 und N2 (Einheitskreis), V2 nach N3 und N4 (rechtwinklige Dreiecke), V3 nach N5 bis N8 (beliebige Dreiecke). Im Training schaffst du nicht alles – den Rest kannst du zu Hause bearbeiten. Taschenrechner (Gradmodus D) und Geodreieck sind erlaubt, außer im Tandem N6 (ohne Taschenrechner). Dein Regelheft mit den Checklists darfst du benutzen.",
+  "hinweis": "Alle Stationen sind arbeitsrelevant. Bist du bei Pythagoras, der Innenwinkelsumme, ähnlichen Dreiecken oder beim Umformen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt Pythagoras, Winkelsumme und Umformen auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 und N2 (Einheitskreis), V2 nach N3 und N4 (rechtwinklige Dreiecke), V3 nach N5 bis N8 (beliebige Dreiecke). Ganz zum Schluss kannst du mit V4 (Probearbeit, 60 Minuten) wie in der Klassenarbeit üben – dort ohne Regelheft. Im Training schaffst du nicht alles – den Rest kannst du zu Hause bearbeiten. Taschenrechner (Gradmodus D) und Geodreieck sind erlaubt, außer im Tandem N6 (ohne Taschenrechner). Dein Regelheft mit den Checklists darfst du benutzen.",
   "checkliste": [
     {
       "id": "g1",
@@ -972,6 +972,176 @@
           "punkte": 2,
           "afb": "II",
           "loesung": "$B_2$ liegt etwa 636 m vom Ufer entfernt, das sind mehr als 600 m. Der Kurs erfüllt die Vorgabe nicht ($B_1$ liegt nur $400\\,\\mathrm{m} \\cdot \\sin(30°) = 200\\,\\mathrm{m}$ vom Ufer entfernt) (1 P).\n\n$$\\sin(78°) = \\frac{600\\,\\mathrm{m}}{d} \\quad\\Rightarrow\\quad d = \\frac{600\\,\\mathrm{m}}{\\sin(78°)} \\approx 613\\,\\mathrm{m}$$\n\n$B_2$ darf höchstens etwa 613 m vom Start entfernt liegen (1 P). Dann wird der Kurs etwas kürzer."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Taschenrechner und Geodreieck",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Hilfsmittel, danach Teil B (Aufgabe 3 und 4) mit Taschenrechner (Gradmodus D) und Geodreieck, ohne Regelheft. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Einheitskreis und Seitenverhältnisse, rechtwinklige Dreiecke, beliebige Dreiecke) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Die Hypotenuse liegt dem rechten Winkel gegenüber, hier also $a$. Gegenkathete von $\\beta$ ist $b$, Ankathete ist $c$. Also $\\sin\\beta = \\frac{b}{a}$.\n\n*A gewählt?* Die Hypotenuse ist nicht immer $c$ – sie liegt dem rechten Winkel gegenüber. *C gewählt?* Gegenkathete und Ankathete vertauscht: $\\cos\\beta = \\frac{c}{a}$. *D gewählt?* Kehrwert: $\\tan\\beta = \\frac{b}{c}$. → **N1** Aufgabe 3 und **G2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Der Punkt zu 135° ist das Spiegelbild des Punktes zu 45° an der $y$-Achse. Er liegt links der $y$-Achse: $\\cos(135°) = -\\cos(45°) = -\\frac{1}{2}\\sqrt{2}$.\n\n*A gewählt?* Das Vorzeichen vergessen – links der $y$-Achse ist der Kosinus negativ. *B gewählt?* $\\sin(135°) = +\\frac{1}{2}\\sqrt{2}$ ist positiv, der Kosinus negativ. *C gewählt?* $-1$ ist $\\cos(180°)$. → **N2** Aufgabe 2"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Die $x$-Koordinate ist der Kosinus, die $y$-Koordinate der Sinus: $\\cos\\alpha = -0{,}6$ und $\\sin\\alpha = 0{,}8$.\n\n*B oder C gewählt?* Sinus und Kosinus vertauscht. *D gewählt?* $P$ liegt links der $y$-Achse, also ist $\\alpha$ größer als 90°. → **N1** Aufgabe 1"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $c^2 = 9^2 + 12^2 = 81 + 144 = 225$, also $c = 15$ cm.\n\n*A gewählt?* Die Seiten addiert statt die Quadrate. *B gewählt?* Die Quadrate subtrahiert – so rechnet man eine Kathete aus. *D gewählt?* Die Wurzel vergessen. → **G2** Aufgabe 2"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Sinussatz: $\\frac{a}{\\sin\\alpha} = \\frac{b}{\\sin\\beta}$. Mit $a = 2b$ wird daraus $\\frac{2b}{\\sin\\alpha} = \\frac{b}{\\sin\\beta}$, also $\\sin\\alpha = 2 \\cdot \\sin\\beta$.\n\n*B gewählt?* Die Winkel wachsen nicht im selben Verhältnis wie die Seiten – nur ihre Sinuswerte. *C gewählt?* Vertauscht: Der größeren Seite liegt der größere Winkel gegenüber. *D gewählt?* Im Sinussatz kommt kein Kosinus vor. → **N5** Aufgabe 2 und **N7** Aufgabe 5"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $\\sin(45°) = \\frac{1}{2}\\sqrt{2}$, also $\\alpha = 45°$.\n\n*A gewählt?* Auch $\\sin(135°) = \\frac{1}{2}\\sqrt{2}$ – aber 135° ist stumpf, gesucht ist ein spitzer Winkel. *B gewählt?* $\\sin(90°) = 1$. *C gewählt?* $\\sin(60°) \\approx 0{,}87$, nicht $\\approx 0{,}71$. → **N2** Aufgabe 5"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $\\beta = 50°$ und $\\gamma = 180° - 25° - 50° = 105°$.\n\n*A gewählt?* Nur $\\alpha$ abgezogen. *B gewählt?* Das ist $\\alpha + \\beta$. *D gewählt?* Mit 360° gerechnet – das ist die Winkelsumme im Viereck. → **G2** Aufgabe 3"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gegenkathete des 45°-Winkels: $6\\,\\mathrm{cm} \\cdot \\sin(45°) = 6\\,\\mathrm{cm} \\cdot \\frac{1}{2}\\sqrt{2} = 3\\sqrt{2}\\,\\mathrm{cm}$ (1 P).\n\nDer andere spitze Winkel ist $180° - 90° - 45° = 45°$, die Ankathete ist also genauso lang: beide Katheten sind $3\\sqrt{2}\\,\\mathrm{cm} \\approx 4{,}24\\,\\mathrm{cm}$ lang (1 P).\n\nAuch richtig mit Pythagoras: $k^2 + k^2 = 36$, also $k^2 = 18$ und $k = \\sqrt{18} = 3\\sqrt{2}$. → **N1** Aufgabe 2"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Am Einheitskreis gehört zu 90° der Punkt $(0 \\mid 1)$, also ist $\\cos(90°) = 0$ (1 P).\n\nDamit fällt $2ab \\cdot \\cos(90°) = 0$ weg: $c^2 = a^2 + b^2$. Das ist der Satz des Pythagoras – $c$ liegt dem rechten Winkel $\\gamma$ gegenüber und ist die Hypotenuse (1 P)."
+        },
+        {
+          "id": "V4-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Für Sinus und Kosinus stimmt die Aussage: Beide sind Kathete durch Hypotenuse, und die Hypotenuse ist die längste Seite (1 P).\n\nFür den Tangens stimmt sie nicht: $\\tan\\alpha = \\frac{\\text{Gegenkathete}}{\\text{Ankathete}}$ ist größer als 1, wenn die Gegenkathete länger ist als die Ankathete (bei $\\alpha > 45°$). Beispiel: Katheten 3 cm und 4 cm, dann ist für den Winkel gegenüber der 4-cm-Seite $\\tan\\alpha = \\frac{4}{3} > 1$ (1 P). → **N1** Aufgabe 3"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Zwei Seiten und der eingeschlossene Winkel sind bekannt → Kosinussatz (1 P):\n\n$$\\overline{SL}^2 = 50^2 + 63^2 - 2 \\cdot 50 \\cdot 63 \\cdot \\cos(60°) = 2500 + 3969 - 3150 = 3319$$\n\n$\\overline{SL} = \\sqrt{3319} \\approx 57{,}6$, das Oberrohr ist etwa **57,6 cm** lang (1 P). → **N5** Aufgabe 3"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Der Winkel bei $L$ liegt der kürzesten Seite (Sitzrohr, 50 cm) gegenüber und ist deshalb spitz. Sinussatz (1 P):\n\n$$\\sin(\\angle L) = \\frac{50 \\cdot \\sin(60°)}{57{,}6} \\approx 0{,}752 \\quad \\Rightarrow \\quad \\angle L \\approx 48{,}7°$$\n\n(1 P)\n\nInnenwinkelsumme: $\\angle S = 180° - 60° - 48{,}7° = 71{,}3°$ (1 P).\n\nAuch richtig: $\\angle S$ mit dem Kosinussatz, $\\cos(\\angle S) = \\frac{50^2 + 57{,}6^2 - 63^2}{2 \\cdot 50 \\cdot 57{,}6} \\approx 0{,}321$. Wer $\\angle S$ mit dem Sinussatz rechnet, muss prüfen, ob $71{,}3°$ oder $108{,}7°$ passt. → **N2** Aufgabe 5"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Rechtwinkliges Dreieck aus Sitzrohr (Hypotenuse) und Lot von $S$ auf die Waagerechte durch $T$: Höhe über $T$ ist die Gegenkathete von 73°:\n\n$50\\,\\mathrm{cm} \\cdot \\sin(73°) \\approx 47{,}8\\,\\mathrm{cm}$ (1 P)\n\nÜber dem Boden: $28\\,\\mathrm{cm} + 47{,}8\\,\\mathrm{cm} = 75{,}8\\,\\mathrm{cm}$ (1 P). → **N3** Aufgabe 3"
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Das Unterrohr ist gegen die Waagerechte um $180° - 73° - 60° = 47°$ geneigt (Winkel an der Geraden durch $T$) (1 P).\n\nHöhe von $L$ über $T$: $63\\,\\mathrm{cm} \\cdot \\sin(47°) \\approx 46{,}1\\,\\mathrm{cm}$. Höhe von $S$ über $T$: $47{,}8\\,\\mathrm{cm}$ aus Aufgabe c) (1 P).\n\n$S$ liegt etwa 1,7 cm höher als $L$. Das Oberrohr fällt nach vorn also leicht ab, es ist **fast, aber nicht genau waagerecht** (1 P).\n\nAuch richtig mit den Winkeln: Das Sitzrohr ist um 73° geneigt, das Oberrohr bildet mit ihm $71{,}3°$. Also fällt das Oberrohr um $73° - 71{,}3° = 1{,}7°$ nach vorn ab."
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Sattel bewegt sich 8 cm schräg in Richtung des Sitzrohrs, also unter 73° gegen die Waagerechte. Er steigt um $8\\,\\mathrm{cm} \\cdot \\sin(73°) \\approx 7{,}7\\,\\mathrm{cm}$ (1 P).\n\nCan hat fast recht: Der Sattel liegt nicht 8 cm, sondern etwa 7,7 cm höher und rückt zugleich $8\\,\\mathrm{cm} \\cdot \\cos(73°) \\approx 2{,}3\\,\\mathrm{cm}$ nach hinten (1 P)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Höhe und waagerechte Entfernung sind die Katheten: $\\tan\\alpha = \\frac{12\\,\\mathrm{m}}{100\\,\\mathrm{m}} = 0{,}12$ (1 P).\n\n$\\alpha = \\arctan(0{,}12) \\approx 6{,}8°$ (1 P). → **N3** Aufgabe 1"
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Straße ist die Hypotenuse, der Höhenunterschied die Gegenkathete von $\\alpha$ (1 P):\n\n$h = 1200\\,\\mathrm{m} \\cdot \\sin(6{,}84°) \\approx 143\\,\\mathrm{m}$ (mit dem gerundeten Winkel 6,8° etwa 142 m) (1 P).\n\n*Mit 1200 · 0,12 = 144 gerechnet?* Die 12 % beziehen sich auf die waagerechte Entfernung, nicht auf die Länge der Straße – das Ergebnis ist hier aber fast gleich."
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$3{,}4\\,\\mathrm{cm} \\cdot 25\\,000 = 85\\,000\\,\\mathrm{cm} = 850\\,\\mathrm{m}$. Die Karte zeigt aber die **waagerechte** Entfernung (1 P).\n\nEntlang der Straße: $\\frac{850\\,\\mathrm{m}}{\\cos(6{,}84°)} \\approx 856\\,\\mathrm{m}$ (1 P). Oder mit Pythagoras: Höhe $0{,}12 \\cdot 850\\,\\mathrm{m} = 102\\,\\mathrm{m}$ und $\\sqrt{850^2 + 102^2} \\approx 856$.\n\nLisa liegt also etwa 6 m (weniger als 1 %) zu niedrig. Bei so einer Steigung ist der Unterschied klein, genau genommen ist der Abschnitt aber etwas länger als 850 m (1 P). → **N4** Aufgabe 3"
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "100 % Steigung heißt: 100 m Höhe auf 100 m waagerechter Entfernung. Dann ist $\\tan\\alpha = \\frac{100}{100} = 1$ und $\\alpha = 45°$ (1 P).\n\nOle irrt. Eine senkrechte Wand (90°) hat gar keine waagerechte Entfernung – ihre Steigung wäre unendlich groß, der Tangens von 90° ist nicht definiert (1 P)."
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die 250 m sind die Hypotenuse: $\\sin\\alpha = \\frac{100}{250} = 0{,}4$, also $\\alpha \\approx 23{,}6°$ (1 P). Oder waagerechte Entfernung mit Pythagoras: $\\sqrt{250^2 - 100^2} \\approx 229{,}1\\,\\mathrm{m}$.\n\nSteigung $= \\tan\\alpha = \\frac{100}{229{,}1} \\approx 0{,}436$, also etwa **44 %** (1 P).\n\n*100 : 250 = 40 % gerechnet?* Die Prozentangabe bezieht sich auf die waagerechte Entfernung, nicht auf die Länge des Weges."
         }
       ]
     }

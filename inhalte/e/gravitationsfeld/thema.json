@@ -3,7 +3,7 @@
   "titel": "Gravitationsfeld – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind testrelevant. Sind Sie beim Vorwissen aus Kinematik, Dynamik und Kreisbewegung unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Zehnerpotenzen, Kreisbewegung und Energie auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Bahnen am Himmel), V2 nach N4 (Gravitationskraft), V3 nach N5 bis N7 (Gravitationsfeld), V4 nach N8 bis N9 (Energie im Gravitationsfeld). N10 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N10.",
+  "hinweis": "Alle Stationen sind testrelevant. Sind Sie beim Vorwissen aus Kinematik, Dynamik und Kreisbewegung unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Zehnerpotenzen, Kreisbewegung und Energie auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Bahnen am Himmel), V2 nach N4 (Gravitationskraft), V3 nach N5 bis N7 (Gravitationsfeld), V4 nach N8 bis N9 (Energie im Gravitationsfeld). N10 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N10. Ganz zum Schluss können Sie mit V5 (Probeklausur, 90 Minuten) unter Klausurbedingungen üben.",
   "checkliste": [
     {
       "id": "g1",
@@ -1325,6 +1325,170 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Kreisbahn: $\\frac{E_{kin}}{m} = \\frac{1}{2} \\cdot v^2 = \\frac{1}{2} \\cdot (7{,}75 \\cdot 10^{3}\\,\\mathrm{m/s})^2 \\approx 3{,}00 \\cdot 10^{7}\\,\\mathrm{J/kg}$\n\nHeben vom Erdboden auf die Gipfelhöhe: $\\Delta V = \\gamma \\cdot m_E \\cdot \\left(\\frac{1}{R_E} - \\frac{1}{r}\\right) \\approx 2{,}48 \\cdot 10^{6}\\,\\mathrm{J/kg}$\n\nFür die Umlaufbahn braucht man zusätzlich rund 12-mal so viel Energie wie für das Erreichen der Höhe. Die Aussage ist falsch: Schwierig ist nicht die Höhe, sondern die große waagerechte Geschwindigkeit. Deshalb fallen Forschungsraketen nach wenigen Minuten zurück."
+        }
+      ]
+    },
+    {
+      "id": "V5",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "WTR, IQB-Formeldokument",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10",
+        "c5",
+        "c6",
+        "c7",
+        "c3",
+        "c4",
+        "c1",
+        "c2",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Echte Klausurbedingungen: 90 Minuten, WTR und IQB-Formeldokument (wie in der Physikklausur ohne hilfsmittelfreien Teil), Lösungswege vollständig aufschreiben. Die Probeklausur ist umfangreicher als der Test und deckt alle Checklistenpunkte ab. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 4 (Bahnen am Himmel, Gravitationskraft, Gravitationsfeld, Energie im Gravitationsfeld) – am besten ganz am Ende.",
+      "bild": "img/st_V5.svg",
+      "pdf": "pdf/V5_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$F_G = \\gamma \\cdot \\frac{m_{Sat} \\cdot m}{r_i^2} = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{5{,}68 \\cdot 10^{26} \\cdot 50}{(9{,}20 \\cdot 10^{7})^2}\\,\\mathrm{N} \\approx 224\\,\\mathrm{N}$ (1 P)\n\nAuf der Erde: $F_G = m \\cdot g = 50\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\approx 491\\,\\mathrm{N}$. Die Kraft im Ring ist knapp halb so groß (rund 46 %) – trotz der riesigen Saturnmasse, weil der Abstand so groß ist (1 P)."
+        },
+        {
+          "id": "V5-1b",
+          "label": "1b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Die Gravitationskraft liefert die Zentripetalkraft (1 P):\n\n$$\\gamma \\cdot \\frac{m_{Sat} \\cdot m}{r^2} = \\frac{m \\cdot v^2}{r} \\quad \\Rightarrow \\quad v = \\sqrt{\\frac{\\gamma \\cdot m_{Sat}}{r}}$$\n\nInnenrand: $v_i = \\sqrt{\\frac{6{,}67 \\cdot 10^{-11} \\cdot 5{,}68 \\cdot 10^{26}}{9{,}20 \\cdot 10^{7}}}\\,\\mathrm{m/s} \\approx 2{,}03 \\cdot 10^{4}\\,\\mathrm{m/s} = 20{,}3\\,\\mathrm{km/s}$ (1 P)\n\nAußenrand: $v_a = \\sqrt{\\frac{6{,}67 \\cdot 10^{-11} \\cdot 5{,}68 \\cdot 10^{26}}{1{,}368 \\cdot 10^{8}}}\\,\\mathrm{m/s} \\approx 1{,}66 \\cdot 10^{4}\\,\\mathrm{m/s} = 16{,}6\\,\\mathrm{km/s}$ (1 P)"
+        },
+        {
+          "id": "V5-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$T = \\frac{2\\pi \\cdot r}{v}$: $T_i = \\frac{2\\pi \\cdot 9{,}20 \\cdot 10^{7}\\,\\mathrm{m}}{2{,}03 \\cdot 10^{4}\\,\\mathrm{m/s}} \\approx 2{,}85 \\cdot 10^{4}\\,\\mathrm{s} \\approx 7{,}9\\,\\mathrm{h}$ und $T_a \\approx 5{,}17 \\cdot 10^{4}\\,\\mathrm{s} \\approx 14{,}3\\,\\mathrm{h}$ (1 P)\n\nDie Brocken am Innenrand umrunden Saturn schneller, als er sich selbst dreht (10,6 h), die am Außenrand langsamer (1 P)."
+        },
+        {
+          "id": "V5-1d",
+          "label": "1d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Bei einer starren Scheibe haben alle Punkte dieselbe Umlaufdauer, die Bahngeschwindigkeit wächst proportional zum Radius: Außen müsste sie $20{,}3\\,\\mathrm{km/s} \\cdot \\frac{136\\,800}{92\\,000} \\approx 30{,}2\\,\\mathrm{km/s}$ betragen (1 P).\n\nNach b) und c) ist es umgekehrt: Außen sind die Brocken langsamer ($16{,}6\\,\\mathrm{km/s}$) und brauchen fast doppelt so lange für einen Umlauf (1 P).\n\nDie Aussage ist falsch. Jeder Brocken läuft auf seiner eigenen Bahn um Saturn, wie ein winziger Mond; es gilt $v \\sim \\frac{1}{\\sqrt{r}}$ bzw. das 3. Kepler’sche Gesetz (1 P)."
+        },
+        {
+          "id": "V5-1e",
+          "label": "1e",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Für alle Körper um Saturn ist $\\frac{T^2}{r^3}$ gleich (1 P). Mit $T_B = \\frac{1}{2} \\cdot T_M$ folgt:\n\n$$r_B = r_M \\cdot \\left(\\frac{T_B}{T_M}\\right)^{\\frac{2}{3}} = 185\\,500\\,\\mathrm{km} \\cdot \\left(\\frac{1}{2}\\right)^{\\frac{2}{3}} \\approx 185\\,500\\,\\mathrm{km} \\cdot 0{,}630 \\approx 116\\,900\\,\\mathrm{km}$$\n\n(1 P)\n\nDas liegt nur etwa 700 km (0,6 %) innerhalb des Lückenrands bei 117 600 km – Rechnung und Beobachtung passen gut zusammen (1 P)."
+        },
+        {
+          "id": "V5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$G^* = \\gamma \\cdot \\frac{m_E}{r^2} = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{5{,}97 \\cdot 10^{24}}{(3{,}80 \\cdot 10^{7})^2}\\,\\mathrm{N/kg} \\approx 0{,}276\\,\\mathrm{N/kg}$, knapp 3 % des Werts an der Erdoberfläche (1 P).\n\n$F_G = m \\cdot G^* = 6{,}0 \\cdot 10^{10}\\,\\mathrm{kg} \\cdot 0{,}276\\,\\mathrm{N/kg} \\approx 1{,}7 \\cdot 10^{10}\\,\\mathrm{N}$ (1 P)"
+        },
+        {
+          "id": "V5-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Skizze: Feldlinien laufen von allen Seiten radial zum Erdmittelpunkt (Pfeile zur Erde), ohne sich zu kreuzen. Äquipotenziallinien sind Kreise um den Erdmittelpunkt, senkrecht zu den Feldlinien: die Erdoberfläche und ein Kreis mit etwa dem sechsfachen Erdradius durch Apophis (1 P).\n\nDie Feldlinien liegen weiter außen weiter auseinander. Je geringer die Feldliniendichte, desto kleiner die Feldstärke (1 P). → **N6**"
+        },
+        {
+          "id": "V5-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$V(r) = -6{,}67 \\cdot 10^{-11} \\cdot \\frac{5{,}97 \\cdot 10^{24}}{3{,}80 \\cdot 10^{7}}\\,\\mathrm{J/kg} \\approx -1{,}05 \\cdot 10^{7}\\,\\mathrm{J/kg}$ (1 P)\n\n$E_{Pot} = m \\cdot V(r) \\approx 6{,}0 \\cdot 10^{10}\\,\\mathrm{kg} \\cdot (-1{,}05 \\cdot 10^{7}\\,\\mathrm{J/kg}) \\approx -6{,}3 \\cdot 10^{17}\\,\\mathrm{J}$ (1 P)"
+        },
+        {
+          "id": "V5-2d",
+          "label": "2d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Weit weg ist das Potenzial null. Energieerhaltung pro Kilogramm (1 P):\n\n$$\\frac{1}{2} \\cdot v_\\infty^2 + 0 = \\frac{1}{2} \\cdot v^2 - \\gamma \\cdot \\frac{m_E}{r} \\quad \\Rightarrow \\quad v = \\sqrt{v_\\infty^2 + 2 \\cdot \\gamma \\cdot \\frac{m_E}{r}}$$\n\n(1 P)\n\n$v = \\sqrt{(5840\\,\\mathrm{m/s})^2 + 2 \\cdot 1{,}048 \\cdot 10^{7}\\,\\mathrm{J/kg}} \\approx 7{,}42 \\cdot 10^{3}\\,\\mathrm{m/s} = 7{,}42\\,\\mathrm{km/s}$ (1 P)"
+        },
+        {
+          "id": "V5-2e",
+          "label": "2e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Arbeit des Feldes ist die Zunahme der kinetischen Energie (1 P):\n\n$W = \\frac{1}{2} \\cdot m \\cdot (v^2 - v_\\infty^2) = \\frac{1}{2} \\cdot 6{,}0 \\cdot 10^{10}\\,\\mathrm{kg} \\cdot \\left((7420\\,\\mathrm{m/s})^2 - (5840\\,\\mathrm{m/s})^2\\right) \\approx 6{,}3 \\cdot 10^{17}\\,\\mathrm{J}$ (1 P)\n\nKontrolle: Das ist genau die Abnahme der potenziellen Energie von 0 auf $-6{,}3 \\cdot 10^{17}\\,\\mathrm{J}$ aus Aufgabe c)."
+        },
+        {
+          "id": "V5-2f",
+          "label": "2f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Eingefangen wäre Apophis nur, wenn seine Energie nicht reicht, um wieder weit weg zu kommen. Seine Gesamtenergie pro Kilogramm ist aber positiv: $\\frac{1}{2} \\cdot v^2 + V(r) = \\frac{1}{2} \\cdot v_\\infty^2 \\approx 1{,}7 \\cdot 10^{7}\\,\\mathrm{J/kg} > 0$ (1 P).\n\nEbenso mit Geschwindigkeiten: Auf einer Kreisbahn mit $r = 38\\,000\\,\\mathrm{km}$ hätte ein Körper $v_K = \\sqrt{\\frac{\\gamma \\cdot m_E}{r}} \\approx 3{,}24\\,\\mathrm{km/s}$; schon ab $\\sqrt{2} \\cdot v_K \\approx 4{,}58\\,\\mathrm{km/s}$ entkommt er. Apophis ist mit $7{,}42\\,\\mathrm{km/s}$ viel schneller (1 P).\n\nDie Aussage ist falsch: Apophis fliegt an der Erde vorbei und entfernt sich wieder. Die Erde lenkt ihn nur ab, sodass sich seine Bahn um die Sonne ändert (1 P)."
+        },
+        {
+          "id": "V5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\frac{T^2}{a^3} = \\frac{(1\\,\\text{Jahr})^2}{(1\\,\\mathrm{AE})^3} \\Rightarrow a = \\sqrt[3]{248^2}\\,\\mathrm{AE} \\approx 39{,}5\\,\\mathrm{AE}$"
+        },
+        {
+          "id": "V5-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$r_A = 2a - r_P = 79{,}0\\,\\mathrm{AE} - 29{,}7\\,\\mathrm{AE} = 49{,}3\\,\\mathrm{AE}$ (1 P)\n\n$e = a - r_P = 9{,}8\\,\\mathrm{AE}$, $\\varepsilon = \\frac{e}{a} = \\frac{9{,}8}{39{,}5} \\approx 0{,}248$ (1 P)"
+        },
+        {
+          "id": "V5-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Plutos Perihel ($29{,}7\\,\\mathrm{AE}$) liegt innerhalb der Neptunbahn ($30{,}1\\,\\mathrm{AE}$). In der Nähe des Perihels ist Pluto der Sonne also näher als Neptun (1 P).\n\nNach dem 2. Kepler’schen Gesetz überstreicht der Fahrstrahl in gleichen Zeiten gleich große Flächen. In Sonnennähe ist der Fahrstrahl am kürzesten, also muss Pluto dort in derselben Zeit das längste Stück seiner Bahn zurücklegen: Er bewegt sich in dieser Zeit am schnellsten (1 P). Deshalb dauert dieser Abschnitt nur rund 20 der 248 Jahre."
+        },
+        {
+          "id": "V5-3d",
+          "label": "3d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$F_G \\sim \\frac{1}{r^2}$, also $\\frac{F_P}{F_A} = \\left(\\frac{r_A}{r_P}\\right)^2 = \\left(\\frac{49{,}3}{29{,}7}\\right)^2 \\approx 2{,}76$"
+        },
+        {
+          "id": "V5-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$s = 32 \\cdot 1{,}496 \\cdot 10^{11}\\,\\mathrm{m} \\approx 4{,}79 \\cdot 10^{12}\\,\\mathrm{m}$ (1 P)\n\n$t = \\frac{s}{c} = \\frac{4{,}79 \\cdot 10^{12}\\,\\mathrm{m}}{3{,}00 \\cdot 10^{8}\\,\\mathrm{m/s}} \\approx 1{,}60 \\cdot 10^{4}\\,\\mathrm{s} \\approx 4{,}4\\,\\mathrm{h}$ (1 P)"
+        },
+        {
+          "id": "V5-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$G^* = \\gamma \\cdot \\frac{m_P}{R_P^2} = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{1{,}30 \\cdot 10^{22}}{(1{,}19 \\cdot 10^{6})^2}\\,\\mathrm{N/kg} \\approx 0{,}612\\,\\mathrm{N/kg}$ (1 P)\n\n$F_G = m \\cdot G^* = 478\\,\\mathrm{kg} \\cdot 0{,}612\\,\\mathrm{N/kg} \\approx 293\\,\\mathrm{N}$, etwa ein Sechzehntel der Gewichtskraft auf der Erde (1 P)."
+        },
+        {
+          "id": "V5-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Pluto: $F_P = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{1{,}30 \\cdot 10^{22} \\cdot 478}{(1{,}37 \\cdot 10^{7})^2}\\,\\mathrm{N} \\approx 2{,}2\\,\\mathrm{N}$ (1 P)\n\nSonne: $F_S = 6{,}67 \\cdot 10^{-11} \\cdot \\frac{1{,}99 \\cdot 10^{30} \\cdot 478}{(33 \\cdot 1{,}496 \\cdot 10^{11})^2}\\,\\mathrm{N} \\approx 2{,}6 \\cdot 10^{-3}\\,\\mathrm{N}$\n\nBeim Vorbeiflug zieht Pluto die Sonde rund 850-mal so stark an wie die Sonne, obwohl die Sonne eine viel größere Masse hat (1 P)."
+        },
+        {
+          "id": "V5-4d",
+          "label": "4d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Aus $F_G = F_Z$ mit $v = \\frac{2\\pi \\cdot r}{T}$: $m_P = \\frac{4\\pi^2 \\cdot r^3}{\\gamma \\cdot T^2} = \\frac{4\\pi^2 \\cdot (1{,}96 \\cdot 10^{7}\\,\\mathrm{m})^3}{6{,}67 \\cdot 10^{-11} \\cdot (5{,}52 \\cdot 10^{5}\\,\\mathrm{s})^2} \\approx 1{,}46 \\cdot 10^{22}\\,\\mathrm{kg}$ (1 P)\n\nDas sind etwa 12 % mehr als der richtige Wert (1 P).\n\nDie Annahme „Pluto ruht“ passt hier nicht: Nach dem Wechselwirkungsprinzip zieht Charon Pluto mit gleich großer Kraft an, und Charon hat etwa ein Achtel von Plutos Masse. Beide kreisen um einen gemeinsamen Schwerpunkt. Die Rechnung liefert ziemlich genau die Summe beider Massen: $1{,}30 \\cdot 10^{22}\\,\\mathrm{kg} + 0{,}16 \\cdot 10^{22}\\,\\mathrm{kg} = 1{,}46 \\cdot 10^{22}\\,\\mathrm{kg}$. Bei leichten Begleitern (Satellit um die Erde) ist das Modell dagegen sehr gut (1 P)."
         }
       ]
     }
