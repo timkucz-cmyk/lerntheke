@@ -3,7 +3,7 @@
   "titel": "Dreisatz, Prozent- und Zinsrechnung – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Brüchen, Kommazahlen, Anteilen oder proportionalen Zuordnungen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt Brüche, Dezimalzahlen, Prozent und proportionale Zuordnungen auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 und N2 (antiproportional und Dreisatz), V2 nach N3 (Prozentrechnung), V3 nach N4 bis N8 (Prozente im Alltag und Zinsen). Ohne Taschenrechner – nur in N8 darfst du ihn benutzen. Für N2 Geodreieck bereitlegen; dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Brüchen, Kommazahlen, Anteilen oder proportionalen Zuordnungen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt Brüche, Dezimalzahlen, Prozent und proportionale Zuordnungen auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 und N2 (antiproportional und Dreisatz), V2 nach N3 (Prozentrechnung), V3 nach N4 bis N8 (Prozente im Alltag und Zinsen). Ganz zum Schluss kannst du mit V4 (Probearbeit, 60 Minuten) wie in der Klassenarbeit üben – dort ohne Regelheft. Ohne Taschenrechner – nur in N8 darfst du ihn benutzen. Für N2 Geodreieck bereitlegen; dein Regelheft darfst du benutzen.",
   "checkliste": [
     {
       "id": "g1",
@@ -1023,6 +1023,211 @@
           "punkte": 2,
           "afb": "II",
           "loesung": "Nele spart nur ganze Wochen. Nach 2 Wochen hat sie $2 \\cdot 5 = 10$ €, das reicht nicht. Nach 3 Wochen hat sie 15 € und damit genug (1 P).\n\nNele muss also **3 Wochen** sparen. Das Ergebnis 2,4 muss man im Sachzusammenhang aufrunden (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "keine (ohne Taschenrechner und ohne Regelheft)",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10",
+        "c5",
+        "c6",
+        "c7",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "g1",
+        "g2",
+        "g3",
+        "g4"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1), danach Teil B (Aufgabe 2 bis 5) – beides ohne Taschenrechner und ohne Regelheft. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Antiproportional und Dreisatz, Prozentrechnung, Prozente im Alltag und Zinsen) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Mit 4 erweitern: $\\frac{9}{25} = \\frac{36}{100} = 0{,}36 = 36\\,\\%$.\n\n*A gewählt?* 0,36 ist die Dezimalzahl – für Prozent rückt das Komma zwei Stellen nach rechts. *B gewählt?* Zähler und Nenner nebeneinander geschrieben. *D gewählt?* Nur bei Hundertsteln ist der Zähler die Prozentzahl. → **G2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Beide Zahlen mit 10 multiplizieren: $72 : 8 = 9$. Probe: $9 \\cdot 0{,}8 = 7{,}2$.\n\n*B gewählt?* Das Ergebnis ist zehnmal zu klein – 0,8 passt ungefähr 9-mal in 7,2. *C gewählt?* Nur eine der beiden Zahlen mit 10 multipliziert. *D gewählt?* Subtrahiert statt dividiert. → **G2** Aufgabe 3 und 6"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – 24 Stunden sind 6-mal 4 Stunden, also $6 \\cdot 1{,}2 = 7{,}2$ Liter (proportional).\n\n*A gewählt?* $24 \\cdot 1{,}2$ – die 1,2 Liter gehören zu 4 Stunden, nicht zu einer. *B gewählt?* 20 Stunden mehr heißt nicht 20 Liter mehr. *C gewählt?* Das Komma ist um eine Stelle verrutscht. → **G2** Aufgabe 6"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Alle Produkte sind gleich: $2 \\cdot 30 = 3 \\cdot 20 = 5 \\cdot 12 = 60$ (produktgleich).\n\n*A gewählt?* $y$ wird immer um 5 kleiner – „je mehr, desto weniger“ reicht nicht: $3 \\cdot 25 = 75$. *C gewählt?* Zum Doppelten von $x$ gehört das Doppelte von $y$: Das ist proportional. *D gewählt?* $5 \\cdot 10 = 50$ und nicht 60 – ein Gegenbeispiel genügt. → **N1** Aufgabe 1 und **N6** Aufgabe 2"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Antiproportional: $8 \\cdot 15 = 120$ und $12 \\cdot 10 = 120$. Mehr Vokabeln pro Tag – weniger Tage.\n\n*B gewählt?* Proportional gerechnet – dann würde es mit mehr Vokabeln pro Tag länger dauern. *C gewählt?* 4 Vokabeln mehr heißt nicht 4 Tage weniger. *D gewählt?* Die Tage werden weniger, nicht mehr. → **N1** Aufgabe 4 und **N6** Aufgabe 1"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Der Grundwert ist das Ganze, von dem die Prozente berechnet werden: „25 % **von 40 €**“.\n\n*A gewählt?* Dort sind 40 € der Teil (Prozentwert), das Ganze sind 160 €. *B gewählt?* Dort sind 40 % der Prozentsatz und 25 € der Grundwert. *D gewählt?* Der Rabatt ist ein Teil des Preises, also ein Prozentwert. → **N3** Aufgabe 3"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – 10 % von 80 € sind 8 €, 40 % sind 32 €, 5 % sind 4 €. Zusammen: $32 + 4 = 36$, also 36 €. Oder: $0{,}45 \\cdot 80 = 36$.\n\n*A gewählt?* Mit 4,5 % gerechnet – das Komma ist verrutscht. *B gewählt?* Das sind 55 %, also der Rest. *C gewählt?* 45 € statt 45 % abgezogen. → **N3** Aufgabe 3"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – 15 % → 60 €, 5 % → 20 €, 100 % → 400 €. Oder: $60 : 0{,}15 = 6000 : 15 = 400$.\n\n*A gewählt?* 15 % von 60 € berechnet – 60 € sind aber der Teil, gesucht ist das Ganze. *C gewählt?* 15 % von 60 € dazugezählt. *D gewählt?* Mit 15 statt mit 15 % gerechnet. → **N6** Aufgabe 3"
+        },
+        {
+          "id": "V4-1i",
+          "label": "1i",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Der neue Preis ist $100\\,\\% + 25\\,\\% = 125\\,\\%$ des alten: $24 \\cdot 1{,}25 = 30$, also 30 €.\n\n*A gewählt?* So erhält man nur die Erhöhung (6 €). *B gewählt?* 25 € statt 25 % dazugezählt. *D gewählt?* So rechnet man rückwärts vom neuen zum alten Preis. → **N4** Aufgabe 1"
+        },
+        {
+          "id": "V4-1j",
+          "label": "1j",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – 1 % von 1800 € sind 18 €, 0,5 % sind 9 €. Guthaben nach einem Jahr: $1800 + 9 = 1809$, also 1809 €.\n\n*B gewählt?* Das sind nur die Jahreszinsen. *C gewählt?* Mit 5 % statt 0,5 % gerechnet. *D gewählt?* 0,50 € statt 0,5 % dazugezählt. → **N4** Aufgabe 4"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Produkte $x \\cdot y$: $0{,}8 \\cdot 450 = 360$, $1 \\cdot 360 = 360$, $1{,}2 \\cdot 300 = 360$, $2 \\cdot 180 = 360$ (1 P).\n\nAlle Produkte sind gleich: Die Zuordnung ist produktgleich und **kann antiproportional sein** (1 P). Auch zu sehen: doppelte Geschwindigkeit (1 → 2), halbe Hördauer (360 → 180).\n\n*Nur „je schneller, desto kürzer“ geschrieben?* Das reicht nicht – alle Produkte müssen gleich sein. → **N1** Aufgabe 1"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$p = 360$, Formel $y = 360 : x$ bzw. $y = \\frac{360}{x}$ (1 P).\n\nBedeutung: $p$ ist die Hördauer bei normaler Geschwindigkeit (1-fach), also 360 Minuten oder 6 Stunden (1 P). → **N2** Aufgabe 3"
+        },
+        {
+          "id": "V4-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Antiproportional: Rechts steht immer die **Gegenoperation**.\n\n| | Geschwindigkeit | Hördauer (in min) | |\n|---|---|---|---|\n|  | 2 | 180 |  |\n| $: 4$ | 0,5 | 720 | $\\cdot 4$ |\n| $\\cdot 3$ | 1,5 | 240 | $: 3$ |\n\nBei 1,5-facher Geschwindigkeit dauert das Hörbuch **240 Minuten**, also 4 Stunden. Probe: $1{,}5 \\cdot 240 = 360$ ✓\n\nAuch richtig: über 1-fach ($360 : 1{,}5 = 3600 : 15 = 240$) oder mit der Formel.\n\n1 P Dreisatz mit Gegenoperation, 1 P Ergebnis. → **N1** Aufgabe 4"
+        },
+        {
+          "id": "V4-2d",
+          "label": "2d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Gerechnet ist es richtig ($360 : 10 = 36$). Sinnvoll ist es nicht: Bei 10-facher Geschwindigkeit versteht man kein Wort mehr, Apps bieten meist höchstens etwa 3-fache Geschwindigkeit an. Die Formel beschreibt die Situation nur für Geschwindigkeiten, bei denen man noch zuhören kann (1 P). → **N8** Aufgabe 2"
+        },
+        {
+          "id": "V4-2e",
+          "label": "2e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Mats: Die erste Hälfte dauert mit 1-facher Geschwindigkeit $360 : 2 = 180$ Minuten. Die zweite Hälfte dauert mit 2-facher Geschwindigkeit nur halb so lange: $180 : 2 = 90$ Minuten. Zusammen $180 + 90 = 270$ Minuten (1 P).\n\nPia braucht 240 Minuten (Aufgabe c). Mats braucht 30 Minuten länger, seine Aussage ist **falsch** (1 P). Der Grund: Mats hört viel länger langsam (180 Minuten) als schnell (90 Minuten). Deshalb darf man aus 1-fach und 2-fach nicht einfach den Mittelwert 1,5-fach bilden."
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- Grundwert (alle Stimmen): $G = 200$\n- Prozentwert (Stimmen für Tilda): $W = 70$\n\n$$p\\,\\% = \\frac{W}{G} = \\frac{70}{200} = \\frac{35}{100} = 35\\,\\%$$\n\nDurch 2 kürzen. 1 P $G$ und $W$, 1 P Prozentsatz."
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "- Emil: 10 % von 200 sind 20, also sind 30 % genau $3 \\cdot 20 = 60$ Stimmen (1 P). Oder: $0{,}3 \\cdot 200 = 60$.\n- Smilla: $\\frac{30}{200} = \\frac{3}{20} = \\frac{15}{100} = 15\\,\\%$ (durch 10 kürzen, mit 5 erweitern) (1 P)."
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gesucht ist der Grundwert $G$, die ganze Klasse. Gegeben: $W = 12$ und $p\\,\\% = 40\\,\\%$.\n\n| | Prozent | Kinder | |\n|---|---|---|---|\n|  | 40 % | 12 |  |\n| $: 4$ | 10 % | 3 | $: 4$ |\n| $\\cdot 10$ | 100 % | 30 | $\\cdot 10$ |\n\nOder: $G = W : p\\,\\% = 12 : 0{,}4 = 120 : 4 = 30$\n\nIn der 7c sind **30 Kinder** (1 P Ansatz, 1 P Ergebnis). Probe: $0{,}4 \\cdot 30 = 12$ ✓\n\n*40 % von 12 gerechnet (4,8)?* Das Ganze muss größer sein als der Teil. → **N6** Aufgabe 3"
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Smilla und Jonte haben zusammen $100\\,\\% - 35\\,\\% - 30\\,\\% = 35\\,\\%$, das sind $200 - 70 - 60 = 70$ Stimmen. Diese Kinder entscheiden sich neu (1 P).\n\nWählen sie alle Emil, hat er $60 + 70 = 130$ Stimmen (65 %) und gewinnt. Jules Aussage ist **falsch**: Tilda gewinnt nur mit mehr als der Hälfte, also mit mindestens 101 Stimmen. Dafür braucht sie mindestens 31 der 70 neuen Stimmen (1 P)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "10 % von 360 € sind 36 €, 5 % sind 18 €. Rabatt: $36 + 18 = 54$, also 54 € (1 P).\n\nNeuer Preis: $360 - 54 = 306$, also **306 €** (1 P). Oder: Man zahlt 85 %, und $0{,}85 \\cdot 360 = 306$."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der alte Preis ist der Grundwert (100 %). 324 € sind $100\\,\\% - 10\\,\\% = 90\\,\\%$ davon (1 P).\n\n| | Prozent | Preis (in €) | |\n|---|---|---|---|\n|  | 90 % | 324 |  |\n| $: 9$ | 10 % | 36 | $: 9$ |\n| $\\cdot 10$ | 100 % | 360 | $\\cdot 10$ |\n\nVorher kostete die Gitarre **360 €** (1 P). Probe: 10 % von 360 € sind 36 €, und $360 - 36 = 324$ ✓\n\n*324 € + 10 % gerechnet (356,40 €)?* Die 10 % beziehen sich auf den alten Preis, nicht auf 324 €. → **N4** Aufgabe 2"
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Zweiter Rabatt: 10 % von 324 € sind 32,40 €. Die Gitarre kostet $324 - 32{,}40 = 291{,}60$, also 291,60 € (1 P).\n\n20 % weniger als 360 € wären $360 - 72 = 288$, also 288 €. Ronjas Aussage ist **falsch**: Der zweite Rabatt bezieht sich auf den **kleineren Grundwert** 324 €, nicht auf 360 €. Insgesamt spart sie $360 - 291{,}60 = 68{,}40$, also 68,40 €. Das sind nur 19 % (1 P)."
+        },
+        {
+          "id": "V4-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "1 % von 2400 € sind 24 €. $48 : 24 = 2$, also beträgt der Zinssatz **2 %**.\n\nMit der Formel: $p\\,\\% = \\frac{Z}{K} = \\frac{48}{2400} = \\frac{2}{100} = 2\\,\\%$"
+        },
+        {
+          "id": "V4-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gesucht ist das Kapital $K$. Gegeben: $Z = 60$ € und $p\\,\\% = 2\\,\\%$.\n\n$K = Z : p\\,\\% = 60 : 0{,}02 = 6000 : 2 = 3000$, also 3000 € (1 P). Mit dem Dreisatz: 2 % → 60 €, 1 % → 30 €, 100 % → 3000 €.\n\nEs fehlen $3000 - 2400 = 600$, also **600 €** (1 P)."
+        },
+        {
+          "id": "V4-5c",
+          "label": "5c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zinsen vorher: 48 € (2 %). Zinsen jetzt: 3 % von 2400 € sind $3 \\cdot 24 = 72$, also 72 €. Der Verein bekommt 24 € mehr (1 P).\n\nBezogen auf die alten Zinsen sind das $\\frac{24}{48} = \\frac{1}{2} = 50\\,\\%$ mehr – nicht 1 %. Die Aussage ist **falsch**: Der Zinssatz steigt zwar um 1 von 2 auf 3, aber diese 1 % beziehen sich auf das Kapital von 2400 €, nicht auf die bisherigen Zinsen (1 P). → **N5**"
         }
       ]
     }
