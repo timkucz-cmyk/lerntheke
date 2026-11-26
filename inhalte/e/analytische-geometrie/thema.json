@@ -3,7 +3,7 @@
   "titel": "Analytische Geometrie – Lerntheke vor der Klausur",
   "fach": "mathe",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind klausurrelevant (Klausur 3). Sind Sie beim Satz des Pythagoras, bei besonderen Vierecken, bei Sinus, Kosinus und Tangens oder bei Gleichungssystemen unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt das Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Punkte und Vektoren), V2 nach N4 bis N5 (Längen und Winkel), V3 nach N6 bis N9 (Geraden), V4 nach N10 (Matrizen) als Komplexaufgabe. N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11.",
+  "hinweis": "Alle Stationen sind klausurrelevant (Klausur 3). Sind Sie beim Satz des Pythagoras, bei besonderen Vierecken, bei Sinus, Kosinus und Tangens oder bei Gleichungssystemen unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt das Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Punkte und Vektoren), V2 nach N4 bis N5 (Längen und Winkel), V3 nach N6 bis N9 (Geraden), V4 nach N10 (Matrizen) als Komplexaufgabe. N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11. Ganz zum Schluss können Sie mit V5 (Probeklausur, 90 Minuten) unter Klausurbedingungen üben.",
   "checkliste": [
     {
       "id": "g1",
@@ -1662,6 +1662,185 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Traversen sind Gitterträger mit etwa $30\\,\\mathrm{cm}$ Querschnitt; die Eckpunkte des Modells liegen in ihrer Mitte. Für Längen von mehreren Metern ist der Fehler klein, bei Anschlüssen (Seillänge, Abstand zur Vitrine) muss man ihn berücksichtigen.\n\nEin Scheinwerfer erzeugt einen Lichtkegel, keinen Strahl. Die Gerade beschreibt nur seine Achse: Ob die Achsen sich genau treffen, ist für die Ausleuchtung weniger wichtig als die Größe des Lichtflecks. Für das Ausrichten ist das Modell trotzdem brauchbar."
+        }
+      ]
+    },
+    {
+      "id": "V5",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "Teil A keine, Teil B WTR und IQB-Formeldokument",
+      "checkliste": [
+        "c11",
+        "c10",
+        "c9",
+        "c8",
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2",
+        "c1",
+        "g5",
+        "g4",
+        "g3",
+        "g2",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klausur: 90 Minuten, zuerst Teil A (Aufgabe 1 bis 3) ohne Hilfsmittel, danach Teil B (Aufgabe 4 und 5) mit WTR und IQB-Formeldokument. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 4 (Punkte und Vektoren, Längen und Winkel, Geraden, Matrizen) – am besten ganz am Ende.",
+      "bild": "img/st_V5.svg",
+      "pdf": "pdf/V5_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\overrightarrow{AB}=\\vec b-\\vec a=\\begin{pmatrix} 2 \\\\ 4 \\\\ -4 \\end{pmatrix}$ (1 P)\n\n$|\\overrightarrow{AB}|=\\sqrt{2^2+4^2+(-4)^2}=\\sqrt{36}=6$ (1 P)"
+        },
+        {
+          "id": "V5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Abstand 9 ist das $\\frac96=1{,}5$-Fache von $|\\overrightarrow{AB}|$; C liegt von A aus hinter B, also $\\overrightarrow{AC}=1{,}5\\cdot\\overrightarrow{AB}=\\begin{pmatrix} 3 \\\\ 6 \\\\ -6 \\end{pmatrix}$ (1 P).\n\n$\\vec c=\\vec a+1{,}5\\cdot\\overrightarrow{AB}=\\begin{pmatrix} -1 \\\\ 2 \\\\ 3 \\end{pmatrix}+\\begin{pmatrix} 3 \\\\ 6 \\\\ -6 \\end{pmatrix}=\\begin{pmatrix} 2 \\\\ 8 \\\\ -3 \\end{pmatrix}$, also $C(2 \\mid 8 \\mid -3)$ (1 P).\n\nKontrolle: $|\\overrightarrow{AC}|=\\sqrt{9+36+36}=9$. (Mit $-1{,}5$ läge der Punkt auf der anderen Seite von A, also nicht hinter B.)"
+        },
+        {
+          "id": "V5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\vec u\\cdot\\vec v=2k-4+2k=4k-4$ (1 P)\n\n$4k-4=0 \\Leftrightarrow k=1$. Für $k=1$ stehen die Vektoren senkrecht zueinander (1 P)."
+        },
+        {
+          "id": "V5-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ansatz $\\vec w=\\begin{pmatrix} w_1 \\\\ w_2 \\\\ w_3 \\end{pmatrix}$: $\\vec u\\cdot\\vec w=2w_1-w_2+k\\cdot w_3=0$ muss für jedes $k$ gelten. Das geht nur mit $w_3=0$ und $w_2=2w_1$, z. B. $\\vec w=\\begin{pmatrix} 1 \\\\ 2 \\\\ 0 \\end{pmatrix}$ (1 P).\n\nBegründung: $\\vec u\\cdot\\vec w=2\\cdot1+(-1)\\cdot2+k\\cdot0=0$ – unabhängig von $k$. Jedes Vielfache $t\\cdot\\begin{pmatrix} 1 \\\\ 2 \\\\ 0 \\end{pmatrix}$ mit $t\\neq0$ ist ebenfalls richtig (1 P)."
+        },
+        {
+          "id": "V5-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "I: $0=2+r$, also $r=-2$; II: $-2=2+2r$, also $r=-2$; III: $3=1-r$, also $r=-2$. Alle drei Zeilen liefern $r=-2$: P liegt auf g."
+        },
+        {
+          "id": "V5-3b",
+          "label": "3b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Die Richtungsvektoren sind nicht kollinear (aus $1=-2t$ folgt $t=-\\frac12$, aber $2\\neq-\\frac12$), g und h sind also nicht parallel (1 P).\n\nLGS: I: $2+r=5-2s$, II: $2+2r=3+s$, III: $1-r=-2+2s$. Aus I und II: $r=3-2s$ und $8-4s=3+s$, also $s=1$, $r=1$ (1 P).\n\nProbe in III: $1-1=0$ und $-2+2=0$ – wahr. g und h schneiden sich in $S(3 \\mid 4 \\mid 0)$ (1 P)."
+        },
+        {
+          "id": "V5-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$A(0 \\mid 0 \\mid -60)$: A liegt auf der $x_3$-Achse, $60\\,\\mathrm m$ unter O (1 P).\n\n$\\overrightarrow{AB}=\\begin{pmatrix} 48 \\\\ 36 \\\\ 0 \\end{pmatrix}$, $|\\overrightarrow{AB}|=\\sqrt{48^2+36^2}=60$: Gang 1 ist $60\\,\\mathrm m$ lang (1 P)."
+        },
+        {
+          "id": "V5-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$g:\\ \\vec x=\\begin{pmatrix} 0 \\\\ 0 \\\\ -60 \\end{pmatrix}+s\\cdot\\begin{pmatrix} 4 \\\\ 3 \\\\ 0 \\end{pmatrix}$ (Richtungsvektor $\\frac{1}{12}\\overrightarrow{AB}$; auch $\\overrightarrow{AB}$ selbst ist richtig) (1 P)\n\nPunktprobe mit h: I: $100=160-6r$, also $r=10$; II: $10=-10+2r$, also $r=10$; III: $-30=-3r$, also $r=10$. M liegt auf h und mit $r=10>0$ unterhalb von E, also in Gang 2 (1 P)."
+        },
+        {
+          "id": "V5-4c",
+          "label": "4c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Die Richtungsvektoren $\\begin{pmatrix} 4 \\\\ 3 \\\\ 0 \\end{pmatrix}$ und $\\begin{pmatrix} -6 \\\\ 2 \\\\ -3 \\end{pmatrix}$ sind nicht kollinear (dritte Koordinate), g und h sind nicht parallel (1 P).\n\nLGS: I: $4s=160-6r$, II: $3s=-10+2r$, III: $-60=-3r$. Aus III: $r=20$; aus I: $4s=40$, $s=10$; Probe in II: $30=-10+40$ – wahr (1 P).\n\nTreffpunkt $T(40 \\mid 30 \\mid -60)$. Wegen $0\\le s=10\\le12$ liegt T zwischen A und B, also tatsächlich in Gang 1 (1 P)."
+        },
+        {
+          "id": "V5-4d",
+          "label": "4d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\overrightarrow{ET}=\\begin{pmatrix} -120 \\\\ 40 \\\\ -60 \\end{pmatrix}=20\\cdot\\begin{pmatrix} -6 \\\\ 2 \\\\ -3 \\end{pmatrix}$, $|\\overrightarrow{ET}|=20\\cdot\\sqrt{36+4+9}=20\\cdot7=140$: Gang 2 ist $140\\,\\mathrm m$ lang."
+        },
+        {
+          "id": "V5-4e",
+          "label": "4e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Winkel zwischen den Richtungsvektoren: $\\cos\\alpha=\\dfrac{\\begin{pmatrix} 4 \\\\ 3 \\\\ 0 \\end{pmatrix}\\cdot\\begin{pmatrix} -6 \\\\ 2 \\\\ -3 \\end{pmatrix}}{5\\cdot7}=\\dfrac{-24+6+0}{35}=-\\dfrac{18}{35}$, $\\alpha\\approx120{,}95^\\circ$ (1 P).\n\nDie Gänge bilden in T zwei Winkel, die sich zu $180^\\circ$ ergänzen; der spitze ist $180^\\circ-120{,}95^\\circ\\approx59{,}05^\\circ$ (1 P)."
+        },
+        {
+          "id": "V5-4f",
+          "label": "4f",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$\\begin{pmatrix} 4 \\\\ 3 \\\\ 0 \\end{pmatrix}\\cdot\\begin{pmatrix} 3 \\\\ -4 \\\\ 0 \\end{pmatrix}=12-12+0=0$: Gang 3 steht senkrecht auf Gang 1 (1 P).\n\nGang 3: $k:\\ \\vec x=\\begin{pmatrix} 0 \\\\ 0 \\\\ -60 \\end{pmatrix}+t\\cdot\\begin{pmatrix} 3 \\\\ -4 \\\\ 0 \\end{pmatrix}$; $\\vec w$ und $\\begin{pmatrix} -6 \\\\ 2 \\\\ -3 \\end{pmatrix}$ sind nicht kollinear, k und h sind nicht parallel (1 P).\n\nLGS: I: $3t=160-6r$, II: $-4t=-10+2r$, III: $-60=-3r$. Aus III: $r=20$; I liefert $t=\\frac{40}{3}$, II liefert $t=-7{,}5$ – Widerspruch. Gang 3 und Gang 2 sind windschief, sie treffen sich nicht (1 P)."
+        },
+        {
+          "id": "V5-4g",
+          "label": "4g",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gang 4: $\\vec x=\\begin{pmatrix} 48 \\\\ 36 \\\\ -60 \\end{pmatrix}+r\\cdot\\begin{pmatrix} -6 \\\\ 2 \\\\ -3 \\end{pmatrix}$. Oberfläche: $-60-3r=0$, also $r=-20$, Punkt $Q(168 \\mid -4 \\mid 0)$ (1 P).\n\nDie Straße besteht aus den Punkten $(x_1 \\mid -10 \\mid 0)$. Q hat $x_2=-4\\neq-10$ und liegt nicht an der Straße, sondern $6\\,\\mathrm m$ weiter nördlich (1 P)."
+        },
+        {
+          "id": "V5-4h",
+          "label": "4h",
+          "punkte": 4,
+          "afb": "III",
+          "loesung": "Startpunkt $S(e \\mid -10 \\mid 0)$. Höhenunterschied zu T: $60\\,\\mathrm m$. Für höchstens $15^\\circ$ braucht man die waagerechte Entfernung $d$ mit $\\tan15^\\circ=\\frac{60}{d}$, also $d\\ge\\frac{60}{\\tan15^\\circ}\\approx223{,}92\\,\\mathrm m$ (1 P).\n\nWaagerechte Entfernung von S zu T (Pythagoras in der Draufsicht): $d=\\sqrt{(e-40)^2+40^2}$ (1 P).\n\n$(e-40)^2+1600\\ge223{,}92^2$ ergibt $|e-40|\\ge220{,}32$; östlich von E (also $e>160$) heißt das $e\\ge260{,}32$. Der Stollen beginnt frühestens bei $(260{,}32 \\mid -10 \\mid 0)$, gut $100\\,\\mathrm m$ östlich von E (1 P).\n\nLänge dann $\\sqrt{223{,}92^2+60^2}=\\frac{60}{\\sin15^\\circ}\\approx231{,}82\\,\\mathrm m$, also etwa $92\\,\\mathrm m$ länger als Gang 2 (1 P)."
+        },
+        {
+          "id": "V5-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$A=\\begin{pmatrix} 10 & 0 & 5 \\\\ 2 & 9 & 3 \\\\ 4 & 5 & 2 \\end{pmatrix}$ (1 P)\n\nEin Strauß einer Sorte steht in einer **Spalte** von A; man addiert die Einträge der Spalte: F $10+2+4=16$, K $0+9+5=14$, M $5+3+2=10$ Teile (1 P)."
+        },
+        {
+          "id": "V5-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\vec x=\\begin{pmatrix} 20 \\\\ 15 \\\\ 30 \\end{pmatrix}$ (1 P)\n\n$\\vec y=\\begin{pmatrix} 10 & 0 & 5 \\\\ 2 & 9 & 3 \\\\ 4 & 5 & 2 \\end{pmatrix}\\cdot\\begin{pmatrix} 20 \\\\ 15 \\\\ 30 \\end{pmatrix}=\\begin{pmatrix} 350 \\\\ 265 \\\\ 215 \\end{pmatrix}$: 350 Tulpen, 265 Rosen und 215 Zweige Grün (1 P)."
+        },
+        {
+          "id": "V5-5c",
+          "label": "5c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Kosten $=\\vec p\\cdot\\vec y$ (Skalarprodukt) (1 P):\n\n$0{,}6\\cdot350+1{,}2\\cdot265+0{,}4\\cdot215=210+318+86=614$. Die Blumen kosten 614 € (1 P)."
+        },
+        {
+          "id": "V5-5d",
+          "label": "5d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Kosten eines Straußes erhält man, wenn man die Spalte der Sorte mit $\\vec p$ multipliziert. In einer Matrix-Vektor-Multiplikation werden aber Zeilen mit dem Vektor multipliziert – man braucht also die transponierte Matrix $A^T$ (Zeilen: Sorten, Spalten: Blumen) (1 P).\n\n$A^T\\cdot\\vec p=\\begin{pmatrix} 10 & 2 & 4 \\\\ 0 & 9 & 5 \\\\ 5 & 3 & 2 \\end{pmatrix}\\cdot\\begin{pmatrix} 0{,}6 \\\\ 1{,}2 \\\\ 0{,}4 \\end{pmatrix}=\\begin{pmatrix} 10 \\\\ 12{,}8 \\\\ 7{,}4 \\end{pmatrix}$: F kostet 10,00 €, K 12,80 € und M 7,40 € (1 P).\n\nPrüfung: $20\\cdot10+15\\cdot12{,}8+30\\cdot7{,}4=200+192+222=614$ – dasselbe Ergebnis wie in c) (1 P)."
+        },
+        {
+          "id": "V5-5e",
+          "label": "5e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$D=\\begin{pmatrix} 0 & 0 & 0 \\\\ 0 & 0 & -1 \\\\ 0 & 0 & 2 \\end{pmatrix}$: Nur die Spalte M ändert sich (Rosen $-1$, Grün $+2$), alle anderen Einträge sind 0 (1 P).\n\nKostenänderung: $0{,}6\\cdot0+1{,}2\\cdot(-1)+0{,}4\\cdot2=-0{,}40$. Ein Strauß Mini wird um 0,40 € billiger (7,00 € statt 7,40 €) (1 P)."
+        },
+        {
+          "id": "V5-5f",
+          "label": "5f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$1{,}25\\cdot\\vec p=\\begin{pmatrix} 0{,}75 \\\\ 1{,}5 \\\\ 0{,}5 \\end{pmatrix}$; Kosten $0{,}75\\cdot350+1{,}5\\cdot265+0{,}5\\cdot215=262{,}5+397{,}5+107{,}5=767{,}5$, also 767,50 € (das 1,25-Fache von 614 €)."
+        },
+        {
+          "id": "V5-5g",
+          "label": "5g",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$B=\\begin{pmatrix} 10 & 0 & 5 & 6 \\\\ 2 & 9 & 3 & 4 \\\\ 4 & 5 & 2 & 3 \\end{pmatrix}$, Format $3\\times4$ (neue vierte Spalte) (1 P)\n\n$B\\cdot\\begin{pmatrix} 20 \\\\ 15 \\\\ 30 \\\\ 10 \\end{pmatrix}=\\begin{pmatrix} 410 \\\\ 305 \\\\ 245 \\end{pmatrix}$: 410 Tulpen, 305 Rosen, 245 Zweige Grün. Der Vektor braucht jetzt vier Komponenten, weil B vier Spalten hat (1 P)."
         }
       ]
     }

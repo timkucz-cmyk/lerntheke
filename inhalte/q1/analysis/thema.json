@@ -3,7 +3,7 @@
   "titel": "Analysis – Trainingswoche",
   "fach": "mathe",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind klausurrelevant (Klausur 2). Sind Sie beim Vorwissen aus Klasse 10 und E unsicher (Ableiten, Potenzen, Gleichungen, Extrem- und Wendepunkte, exponentielles Wachstum), beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt das Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N14. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4 (Ableiten und Graphen), V2 nach N5 bis N8 (Exponentialfunktionen), V3 nach N9 bis N14 als Komplexaufgabe auf Klausurniveau. N15 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N15.",
+  "hinweis": "Alle Stationen sind klausurrelevant (Klausur 2). Sind Sie beim Vorwissen aus Klasse 10 und E unsicher (Ableiten, Potenzen, Gleichungen, Extrem- und Wendepunkte, exponentielles Wachstum), beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt das Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N14. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4 (Ableiten und Graphen), V2 nach N5 bis N8 (Exponentialfunktionen), V3 nach N9 bis N14 als Komplexaufgabe auf Klausurniveau. N15 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N15. Ganz zum Schluss können Sie mit V4 (Probeklausur, 90 Minuten) unter Klausurbedingungen üben.",
   "checkliste": [
     {
       "id": "g1",
@@ -1751,6 +1751,190 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Zum Beispiel: Die Bahn ist als Graph über einer geraden Linie beschrieben – Kurven im Grundriss fehlen, die tatsächliche Bahnlänge ist größer. Das Gelände ist als gerade Linie angenommen; die Stützenlängen sind daher nur Richtwerte. Das Profil ist glatt, Bremsabschnitte und Kuppen fehlen."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "Teil A keine, Teil B WTR und IQB-Formeldokument",
+      "checkliste": [
+        "c14",
+        "c13",
+        "c12",
+        "c11",
+        "c10",
+        "c9",
+        "c8",
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2",
+        "c1",
+        "g6",
+        "g5",
+        "g4",
+        "g3",
+        "g2",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klausur: 90 Minuten, zuerst Teil A (Aufgabe 1 bis 3) ohne Hilfsmittel, danach Teil B (Aufgabe 4 und 5) mit WTR und IQB-Formeldokument. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Ableiten und Graphen, Exponentialfunktionen, Funktionsuntersuchung und Optimierung) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Produktregel mit $u=x^2+1$, $v=e^{-x}$, $v'=-e^{-x}$ (Kettenregel) (1 P):\n\n$f'(x)=2x\\cdot e^{-x}+(x^2+1)\\cdot(-e^{-x})=(-x^2+2x-1)\\cdot e^{-x}$\n\nAusklammern und 2. binomische Formel (1 P): $-x^2+2x-1=-(x^2-2x+1)=-(x-1)^2$, also $f'(x)=-(x-1)^2\\cdot e^{-x}$."
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$f'(1)=-0^2\\cdot e^{-1}=0$: waagerechte Tangente (1 P).\n\nFür alle $x$ gilt $(x-1)^2\\ge0$ und $e^{-x}>0$, also $f'(x)\\le0$; null nur bei $x=1$. $f'$ hat dort keinen Vorzeichenwechsel, $f$ fällt links und rechts von 1 – kein Extrempunkt, sondern ein Sattelpunkt; $f$ ist auf ganz $\\mathbb{R}$ streng monoton fallend (1 P)."
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f_a'(x)=-3x^2+6ax=-3x(x-2a)=0$ für $x=0$ oder $x=2a$; $f_a''(x)=-6x+6a$, $f_a''(2a)=-6a<0$: Hochpunkt bei $x=2a$ (bei $x=0$ ist $f_a''(0)=6a>0$, Tiefpunkt) (1 P).\n\n$f_a(2a)=-8a^3+12a^3=4a^3$, also $\\mathrm{HP}(2a\\mid4a^3)$ (1 P)."
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Aus $x=2a$ folgt $a=\\frac{x}{2}$ (1 P).\n\nIn $y=4a^3$ einsetzen: $y=4\\cdot\\frac{x^3}{8}=\\frac12x^3$. Die Hochpunkte liegen auf dem Graphen von $y=\\frac12x^3$ mit $x>0$ (1 P)."
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f'(3)=0$ mit Vorzeichenwechsel von $+$ nach $-$ ($3-x$ wechselt das Vorzeichen, $e^{0{,}5x}>0$): $f$ hat bei $x=3$ einen Hochpunkt (1 P).\n\nRechtskrümmung von $f$ heißt: $f'$ fällt. Der Graph von $f'$ fällt rechts von seinem Hochpunkt bei $x=1$, also ist der Graph von $f$ für $x>1$ rechtsgekrümmt (für $x<1$ linksgekrümmt; bei $x=1$ Wendestelle) (1 P)."
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Für $x<3$ ist $f'(x)>0$, also ist $f$ dort streng monoton steigend; für $x>3$ ist $f'(x)<0$, $f$ ist dort streng monoton fallend. Auf jedem der beiden Teile kann $f$ höchstens einmal den Wert 0 annehmen: $f$ hat **höchstens zwei** Nullstellen (1 P).\n\nSkizze (1 P): links flach ansteigend (Linkskrümmung bis $x=1$), danach rechtsgekrümmt bis zum Hochpunkt bei $x=3$ oberhalb der x-Achse, dann steil fallend; eine Nullstelle links von 3, eine rechts von 3. Jede Verschiebung nach oben oder unten ist auch ein möglicher Graph (Stammfunktionen unterscheiden sich nur um eine Konstante); genau zwei Nullstellen hat sie nur, wenn der Hochpunkt oberhalb der x-Achse liegt und der Graph links unter der x-Achse beginnt.",
+          "loesung_bild": "img/V4-3b.png"
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$P(8)=1{,}2\\cdot e^{-0{,}08\\cdot25}=1{,}2\\,e^{-2}\\approx0{,}162$: um 8 Uhr etwa $0{,}16\\,\\mathrm{kW}$ (1 P).\n\nDer Exponent $-0{,}08(t-13)^2$ ist höchstens 0, und zwar nur bei $t=13$. Größte Leistung $P(13)=1{,}2\\,e^{0}=1{,}2\\,\\mathrm{kW}$ um 13 Uhr (1 P)."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Kettenregel: äußere Ableitung $1{,}2\\cdot e^{-0{,}08(t-13)^2}$, innere Ableitung $-0{,}08\\cdot2\\,(t-13)=-0{,}16\\,(t-13)$; $1{,}2\\cdot(-0{,}16)=-0{,}192$."
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(13-h)=1{,}2\\cdot e^{-0{,}08(-h)^2}=1{,}2\\cdot e^{-0{,}08h^2}$ und $P(13+h)=1{,}2\\cdot e^{-0{,}08h^2}$, denn $(-h)^2=h^2$ (1 P).\n\nDer Graph von $P$ ist symmetrisch zur Geraden $t=13$: $h$ Stunden vor 13 Uhr liefern die Module dieselbe Leistung wie $h$ Stunden danach, z. B. um 10 Uhr so viel wie um 16 Uhr. Vormittag und Nachmittag verlaufen spiegelbildlich (1 P)."
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$P''(t)=0 \\Leftrightarrow (t-13)^2=6{,}25 \\Leftrightarrow t=10{,}5$ oder $t=15{,}5$ (1 P)\n\nFür $t<10{,}5$ ist $(t-13)^2>6{,}25$, also $P''>0$; zwischen $10{,}5$ und $15{,}5$ ist $P''<0$. $P'$ hat bei $t=10{,}5$ ein Maximum (bei $15{,}5$ ein Minimum, dort stärkste Abnahme). Am Rand ist $P'(5)\\approx0{,}009$ kleiner (1 P).\n\n$P'(10{,}5)=-0{,}192\\cdot(-2{,}5)\\cdot e^{-0{,}5}=0{,}48\\,e^{-0{,}5}\\approx0{,}291$: Um 10:30 Uhr nimmt die Leistung am stärksten zu, um etwa $0{,}29\\,\\mathrm{kW}$ pro Stunde (1 P)."
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Ansatz $P(t)=0{,}15$, also $1{,}2\\cdot e^{-0{,}08(t-13)^2}=0{,}15$ (1 P)\n\nWTR (SOLVE): $t_1\\approx7{,}90$; wegen der Symmetrie aus c) ist $t_2=26-t_1\\approx18{,}10$ (1 P)\n\nDazwischen liegt das Maximum, dort ist $P(t)\\ge0{,}15$: von etwa 7:54 Uhr bis 18:06 Uhr, also rund 10,2 Stunden (1 P)."
+        },
+        {
+          "id": "V4-4f",
+          "label": "4f",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$G(8)=0{,}6\\,e^{-0{,}72}+0{,}6\\,e^{-3{,}92}\\approx0{,}292+0{,}012\\approx0{,}30$ und $G(13)=0{,}6\\,e^{-0{,}32}+0{,}6\\,e^{-0{,}32}=1{,}2\\,e^{-0{,}32}\\approx0{,}87$ (1 P).\n\nVergleich mit $P(8)\\approx0{,}16$ und $P(13)=1{,}2$: Die Anlage der Nachbarin liefert am Morgen fast doppelt so viel, mittags aber deutlich weniger (1 P)."
+        },
+        {
+          "id": "V4-4g",
+          "label": "4g",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$O$ gehört zu $c=11$, $W$ zu $c=15$; bei $t=13$ ist $(t-c)^2=4$ für beide.\n\n$G'(13)=-0{,}096\\cdot2\\cdot e^{-0{,}32}-0{,}096\\cdot(-2)\\cdot e^{-0{,}32}=0$ (1 P)\n\n$G''(13)=2\\cdot0{,}01536\\cdot(4-6{,}25)\\cdot e^{-0{,}32}\\approx-0{,}050<0$ (1 P)\n\nHinreichende Bedingung erfüllt: Hochpunkt $(13\\mid0{,}87)$, mittags liefert auch diese Anlage am meisten (1 P)."
+        },
+        {
+          "id": "V4-4h",
+          "label": "4h",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Für beide Module ist bei $t=13$ jetzt $(t-c)^2=d^2$. $G'(13)=0$, weil sich die beiden Terme $-0{,}096\\cdot(\\pm d)\\cdot e^{-0{,}08d^2}$ aufheben (1 P).\n\n$G''(13)=2\\cdot0{,}01536\\,(d^2-6{,}25)\\cdot e^{-0{,}08d^2}<0 \\Leftrightarrow d^2<6{,}25 \\Leftrightarrow d<2{,}5$: Für $d<2{,}5$ hat die Gesamtleistung um 13 Uhr einen Hochpunkt (1 P).\n\nFür $d>2{,}5$ ist $G''(13)>0$: um 13 Uhr ein Tiefpunkt. Liegen die Ausrichtungen weit auseinander, hat die Leistung zwei Spitzen am Vormittag und am Nachmittag und mittags eine Delle (für $d=2{,}5$ entscheidet das Kriterium nicht) (1 P)."
+        },
+        {
+          "id": "V4-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Neben der Straße liegt das Kabel von $V$ bis $A$: $2000-x$ Meter zu je 40 € (1 P).\n\nDas Feldkabel $AH$ ist die Hypotenuse im rechtwinkligen Dreieck $AFH$ mit den Katheten $x$ und 600: $\\sqrt{x^2+600^2}=\\sqrt{x^2+360\\,000}$ Meter zu je 50 € (1 P)."
+        },
+        {
+          "id": "V4-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$K(0)=80\\,000+50\\cdot600=110\\,000$: Kabel an der Straße bis $F$, dann auf kürzestem Weg zum Hof (1 P).\n\n$K(2000)=50\\sqrt{4\\,360\\,000}\\approx104\\,403$: Kabel direkt von $V$ über das Feld, etwa 2088 m lang (1 P)."
+        },
+        {
+          "id": "V4-5c",
+          "label": "5c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Kettenregel mit $(\\sqrt{z})'=\\frac{1}{2\\sqrt{z}}$ und innerer Ableitung $2x$: $K'(x)=-40+\\frac{50x}{\\sqrt{x^2+360\\,000}}$"
+        },
+        {
+          "id": "V4-5d",
+          "label": "5d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$K'(x)=0 \\Leftrightarrow 50x=40\\sqrt{x^2+360\\,000}$; quadrieren: $2500x^2=1600x^2+576\\,000\\,000$, $900x^2=576\\,000\\,000$, $x=800$ (da $x\\ge0$) (1 P)\n\n$K'(0)=-40<0$ und $K'(2000)\\approx7{,}9>0$: Vorzeichenwechsel von $-$ nach $+$, Minimum; die Randwerte $110\\,000$ € und $104\\,403$ € sind größer, also globales Minimum (1 P)\n\n$K(800)=40\\cdot1200+50\\cdot1000=98\\,000$: Abzweig 800 m vor $F$ (1200 m hinter $V$), Feldkabel 1000 m, Kosten 98 000 € (1 P)."
+        },
+        {
+          "id": "V4-5e",
+          "label": "5e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$K_2(x)=40\\,(2000-x)+45\\sqrt{x^2+360\\,000}$, $K_2'(x)=-40+\\frac{45x}{\\sqrt{x^2+360\\,000}}=0$; WTR: $x\\approx1164$ (1 P)\n\n$K_2(1164)\\approx92\\,369$; Vorzeichenwechsel und Randwerte wie in d) prüfen ($K_2(0)=107\\,000$, $K_2(2000)\\approx93\\,963$). Abzweig etwa 1164 m vor $F$, Kosten etwa 92 369 € (1 P)."
+        },
+        {
+          "id": "V4-5f",
+          "label": "5f",
+          "punkte": 4,
+          "afb": "III",
+          "loesung": "$K_p'(x)=-40+\\frac{px}{\\sqrt{x^2+360\\,000}}=0 \\Leftrightarrow p^2x^2=1600\\,(x^2+360\\,000)$ (1 P)\n\n$x^2(p^2-1600)=576\\,000\\,000$, also $x_p=\\frac{24\\,000}{\\sqrt{p^2-1600}}$. Kontrolle: $x_{50}=800$, $x_{45}\\approx1164$ (1 P)\n\nJe größer $p$, desto kleiner $x_p$: Ist das Feld teuer, zweigt man nah bei $F$ ab und hält das Feldkabel kurz (1 P).\n\nDer Abzweig liegt nur dann zwischen $V$ und $F$, wenn $x_p<2000$ gilt: $\\sqrt{p^2-1600}>12$, also $p^2>1744$ und $p>41{,}76$. Für $40<p\\le41{,}76$ ist $K_p$ auf $[0;\\,2000]$ fallend, das Kabel geht am günstigsten direkt von $V$ über das Feld (1 P)."
+        },
+        {
+          "id": "V4-5g",
+          "label": "5g",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Allgemein mit Abstand $d$ des Hofs zur Straße: $K'(x)=-40+\\frac{50x}{\\sqrt{x^2+d^2}}=0$, also $\\frac{x}{\\sqrt{x^2+d^2}}=\\frac{40}{50}=0{,}8$ (1 P).\n\nIm günstigsten Fall ist das Straßenstück $x$ also stets $0{,}8$-mal so lang wie das Feldkabel: Das Dreieck aus $x$, $d$ und Feldkabel hat immer die Seitenverhältnisse $4:3:5$ (wie 800 m, 600 m, 1000 m in d)) (1 P).\n\nMit $d=900$: $x=\\frac43\\cdot900=1200$. Der günstigste Abzweig liegt 1200 m vor dem nächstgelegenen Straßenpunkt, das Feldkabel ist 1500 m lang (1 P)."
         }
       ]
     }

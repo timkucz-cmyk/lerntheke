@@ -3,7 +3,7 @@
   "titel": "Lineare Funktionen – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Zuordnungen, im Koordinatensystem, bei Termen oder Gleichungen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N2 (Funktionen und Steigung), V2 nach N3 (Funktionsgleichung), V3 nach N4 bis N8 (Nullstellen und Schnittpunkte). Ohne Taschenrechner. Geodreieck bereitlegen; dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Zuordnungen, im Koordinatensystem, bei Termen oder Gleichungen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N2 (Funktionen und Steigung), V2 nach N3 (Funktionsgleichung), V3 nach N4 bis N8 (Nullstellen und Schnittpunkte). Ohne Taschenrechner. Geodreieck bereitlegen; dein Regelheft darfst du benutzen. Ganz zum Schluss kannst du mit V4 (Probearbeit, 60 Minuten) wie in der Klassenarbeit üben – dort ohne Regelheft, Teil B mit Taschenrechner.",
   "checkliste": [
     {
       "id": "g1",
@@ -1008,6 +1008,214 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Neu: $20x = -20x + 1200$, also $40x = 1200$ und $x = 30$; Treffpunkt bei $20 \\cdot 30 = 600$ m, genau in der Mitte. Der erste Teil stimmt (1 P).\n\nFrüher fertig ist der Tunnel aber nicht: Wie vorher nach 30 Tagen, weil beide Maschinen zusammen weiterhin $15 + 25 = 20 + 20 = 40$ m pro Tag schaffen. Der zweite Teil stimmt nicht (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Geodreieck, ohne Taschenrechner",
+      "checkliste": [
+        "c10",
+        "c9",
+        "c8",
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2",
+        "c1",
+        "g5",
+        "g4",
+        "g3",
+        "g2",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1) ohne Hilfsmittel, danach Teil B (Aufgabe 2 bis 4) mit Geodreieck, ohne Taschenrechner. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Funktionen und Steigung, Funktionsgleichung, Nullstellen und Schnittpunkte) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $3 - 0{,}5 \\cdot (-4) = 3 - (-2) = 3 + 2 = 5$\n\n*A gewählt?* Mit $+4$ statt $-4$ gerechnet: $3 - 2 = 1$. *B gewählt?* Das $x$ vergessen: $3 - 0{,}5$. *D gewählt?* Erst $3 - 0{,}5 = 2{,}5$ gerechnet, dann mal $(-4)$ – Punkt vor Strich gilt. → **G2** Aufgabe 4"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $4x - 3 = 2x + 9 \\quad \\mid -2x$, also $2x - 3 = 9 \\quad \\mid +3$, also $2x = 12 \\quad \\mid : 2$, also $x = 6$.\n\n*A gewählt?* $-3$ falsch auf die andere Seite gebracht: $9 - 3$ statt $9 + 3$. *C gewählt?* Am Ende nicht durch 2 geteilt. *D gewählt?* $2x$ auf beiden Seiten addiert statt subtrahiert ($6x = 12$). → **G2** Aufgabe 5"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Bei D gehören zum x-Wert 2 **zwei** y-Werte (1 und 5). Bei einer Funktion gehört zu jedem x-Wert genau ein y-Wert.\n\n*A oder B gewählt?* Gleiche **y-Werte** bei verschiedenen x-Werten sind erlaubt – nur ein x-Wert darf nicht zwei y-Werte haben. *C gewählt?* Das ist sogar eine proportionale Funktion ($y = 2x$). → **N1** Aufgabe 1"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $f(0) = 4 - 2 \\cdot 0 = 4$. Der y-Achsenabschnitt ist $b = 4$, auch wenn er hier vorn steht: $f(x) = -2x + 4$.\n\n*B gewählt?* Die Steigung $-2$ statt des y-Achsenabschnitts genommen. *C gewählt?* Das ist der Schnittpunkt mit der **x**-Achse (Nullstelle 2). *D gewählt?* x- und y-Wert vertauscht. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $m = \\frac{4 - (-2)}{3 - 1} = \\frac{6}{2} = 3$\n\n*A gewählt?* x- und y-Differenz vertauscht: $\\frac{2}{6}$. *B gewählt?* Nur die y-Differenz genommen, nicht durch die x-Differenz geteilt. *D gewählt?* Oben $-2 - 4$, unten $3 - 1$ – beide Differenzen müssen in derselben Reihenfolge stehen. → **N8** Aufgabe 3"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Punktprobe: $f(4) = 0{,}5 \\cdot 4 - 3 = 2 - 3 = -1$ ✓\n\n*A gewählt?* x- und y-Wert vertauscht. *B gewählt?* Die Steigung 0,5 mit dem y-Achsenabschnitt verwechselt: $f(0) = -3$. *C gewählt?* Vorzeichenfehler: $0{,}5 \\cdot (-2)$ als $+1$ gerechnet. Richtig ist $0{,}5 \\cdot (-2) = -1$, also $f(-2) = -4$. → **N1** Aufgabe 4"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $m = -15$: Mit jedem Tag wird der Holzvorrat um 15 kg kleiner.\n\n*A gewählt?* Das ist der y-Achsenabschnitt: Zu Beginn liegen 900 kg im Schuppen. *C gewählt?* Leer ist der Schuppen an der Nullstelle: $900 : 15 = 60$, nach 60 Tagen. *D gewählt?* Das Minuszeichen übersehen – der Vorrat nimmt ab. → **N4** Aufgabe 3"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $3x + 12 = 0 \\quad \\mid -12$, also $3x = -12 \\quad \\mid : 3$, also $x = -4$.\n\n*B gewählt?* Beim Subtrahieren von 12 das Minus verloren. *C gewählt?* Das ist der y-Achsenabschnitt, nicht die Nullstelle. *D gewählt?* Mit 3 multipliziert statt durch 3 geteilt. → **N4** Aufgabe 1"
+        },
+        {
+          "id": "V4-1i",
+          "label": "1i",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Parallele Geraden haben dieselbe Steigung, hier $m = 2$. Der y-Achsenabschnitt darf anders sein.\n\n*A gewählt?* $-2$ ist eine andere Steigung: Diese Gerade fällt. *B gewählt?* Der Kehrwert $0{,}5$ ist eine andere Steigung. *D gewählt?* Steigung und y-Achsenabschnitt vertauscht. → **N6** Aufgabe 4"
+        },
+        {
+          "id": "V4-1j",
+          "label": "1j",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $4x - 2(x - 3) = 4x - 2x + 6 = 2x + 6$, denn $-2 \\cdot (-3) = +6$.\n\n*A gewählt?* Das Minus vor der 2 nur auf $x$ angewendet. *C gewählt?* Die $-3$ nicht mit 2 multipliziert. *D gewählt?* $-2x$ addiert statt subtrahiert. → **G2** Aufgabe 3"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$g$: Der Graph schneidet die y-Achse bei $-3$, also $b = -3$. Steigungsdreieck: 1 nach rechts, 1 nach oben, also $m = 1$:\n\n$$g(x) = x - 3$$\n\n(1 P)\n\n$h$: $h(0) = 3$, also $b = 3$. Wird $x$ um 2 größer, wird $h(x)$ um 3 kleiner: $m = \\frac{-3}{2} = -1{,}5$:\n\n$$h(x) = -1{,}5x + 3$$\n\n(1 P)"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$f$ und $h$ haben denselben y-Achsenabschnitt $b = 3$: Beide Graphen gehen durch $(0 \\mid 3)$. Die Steigungen sind verschieden ($-0{,}5$ und $-1{,}5$), die Graphen sind also nicht dieselbe Gerade und schneiden sich genau in $(0 \\mid 3)$ auf der y-Achse."
+        },
+        {
+          "id": "V4-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gleichsetzen (1 P):\n\n$$-0{,}5x + 3 = x - 3 \\quad \\mid +0{,}5x$$\n\n$$3 = 1{,}5x - 3 \\quad \\mid +3$$\n\n$$6 = 1{,}5x \\quad \\mid : 1{,}5$$\n\n$$x = 4$$\n\nEinsetzen (1 P): $g(4) = 4 - 3 = 1$ (Kontrolle: $f(4) = -2 + 3 = 1$), also $S(4 \\mid 1)$."
+        },
+        {
+          "id": "V4-2d",
+          "label": "2d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Die Ecken sind der Schnittpunkt $(0 \\mid 3)$ aus b) und die beiden Nullstellen.\n\nNullstelle von $f$ (1 P): $-0{,}5x + 3 = 0 \\quad \\mid -3$, $-0{,}5x = -3 \\quad \\mid : (-0{,}5)$, $x = 6$\n\nNullstelle von $h$ (1 P): $-1{,}5x + 3 = 0$, $-1{,}5x = -3$, $x = 2$ (steht auch in der Tabelle)\n\nFlächeninhalt (1 P): Grundseite auf der x-Achse $6 - 2 = 4$, Höhe 3 (Abstand von $(0 \\mid 3)$ zur x-Achse):\n\n$$A = \\frac{1}{2} \\cdot 4 \\cdot 3 = 6$$\n\nDas Dreieck ist $6\\,\\mathrm{cm}^2$ groß.",
+          "loesung_bild": "img/V4-2d.png"
+        },
+        {
+          "id": "V4-2e",
+          "label": "2e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Höhe bleibt 3 (Ecke $(0 \\mid 3)$). Aus $\\frac{1}{2} \\cdot 8 \\cdot 3 = 12$ folgt: Die Grundseite auf der x-Achse muss 8 lang sein. Die Nullstelle von $k$ muss 8 von der Nullstelle 6 von $f$ entfernt sein, also bei $x = -2$ (oder bei $x = 14$) liegen (1 P).\n\n$k$ geht durch $(-2 \\mid 0)$ und $(0 \\mid 3)$: 2 nach rechts, 3 nach oben, $m = \\frac{3}{2} = 1{,}5$ und $b = 3$:\n\n$$k(x) = 1{,}5x + 3$$\n\n(1 P)\n\nAuch richtig: $k$ durch $(14 \\mid 0)$ mit $m = \\frac{-3}{14}$, also $k(x) = -\\frac{3}{14}x + 3$. Probe für $k(x) = 1{,}5x + 3$: $\\frac{1}{2} \\cdot (6 - (-2)) \\cdot 3 = 12$ ✓"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Steigung aus $(1 \\mid 11)$ und $(4 \\mid 15{,}5)$ (1 P):\n\n$$m = \\frac{15{,}5 - 11}{4 - 1} = \\frac{4{,}5}{3} = 1{,}5$$\n\n$b$ aus $(1 \\mid 11)$ (1 P): $11 = 1{,}5 \\cdot 1 + b$, also $b = 9{,}5$:\n\n$$f(x) = 1{,}5x + 9{,}5$$\n\nKontrolle mit dem dritten Wert: $f(10) = 15 + 9{,}5 = 24{,}5$ ✓"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$f(30) = 1{,}5 \\cdot 30 + 9{,}5 = 45 + 9{,}5 = 54{,}5$\n\nDer Stapel ist **54,5 cm** hoch."
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gesucht ist die Stelle mit dem Funktionswert 33,5 (1 P):\n\n$$1{,}5x + 9{,}5 = 33{,}5 \\quad \\mid -9{,}5$$\n\n$$1{,}5x = 24 \\quad \\mid : 1{,}5$$\n\n$$x = 16$$\n\nDer Stapel besteht aus **16 Bechern** (1 P)."
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$1{,}5x + 9{,}5 = 40 \\quad \\mid -9{,}5$$\n\n$$1{,}5x = 30{,}5 \\quad \\mid : 1{,}5$$\n\n$$x = 30{,}5 : 1{,}5 = 61 : 3 = 20{,}33\\ldots$$\n\n(1 P)\n\nDie Anzahl der Becher muss eine ganze Zahl sein: 20 Becher sind 39,5 cm hoch, 21 Becher 41 cm. Genau 40 cm sind nicht möglich, Noah hat nicht recht (1 P)."
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Emil hat **nicht recht**. Ohne Becher gibt es keinen Stapel, die Höhe wäre 0 cm. Die Funktion $f$ beschreibt nur Stapel mit 1, 2, 3, … Bechern; $x = 0$ gehört nicht zu den sinnvollen x-Werten (1 P).\n\n9,5 ist nur ein Rechenwert: Der unterste Becher ist 11 cm hoch, jeder weitere Becher ragt nur 1,5 cm heraus. Es gilt $11 = 9{,}5 + 1{,}5$ – zieht man vom ersten Becher den Teil ab, um den jeder Becher den Stapel erhöht, bleiben 9,5 cm (1 P)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$s(x) = -5x + 70$ und $w(x) = -2x + 40$\n\nDie Anfangshöhen sind die y-Achsenabschnitte, die Abnahmen pro Tag die (negativen) Steigungen."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$s$: Gerade von $(0 \\mid 70)$ bis $(14 \\mid 0)$, z. B. mit $(10 \\mid 20)$ (1 P).\n\n$w$: Gerade von $(0 \\mid 40)$ bis $(20 \\mid 0)$, z. B. mit $(10 \\mid 20)$ (1 P).",
+          "loesung_bild": "img/V4-4b.png"
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$$-5x + 70 = -2x + 40 \\quad \\mid +5x$$\n\n$$70 = 3x + 40 \\quad \\mid -40$$\n\n$$30 = 3x \\quad \\mid : 3$$\n\n$$x = 10$$\n\n(1 P)\n\n$s(10) = -50 + 70 = 20$ (Kontrolle: $w(10) = -20 + 40 = 20$). Nach **10 Tagen** liegen an beiden Stellen **20 cm** Schnee (1 P)."
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nullstelle von $s$ (1 P):\n\n$$-5x + 70 = 0 \\quad \\mid -70$$\n\n$$-5x = -70 \\quad \\mid : (-5)$$\n\n$$x = 14$$\n\nNach **14 Tagen** ist der Südhang schneefrei.\n\nIm Wald: $w(14) = -28 + 40 = 12$. Dort liegen dann noch 12 cm Schnee; der Wald ist erst nach 20 Tagen schneefrei (Nullstelle von $w$) (1 P)."
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Eine Schneehöhe von $-10$ cm gibt es nicht. Die Funktion $s$ beschreibt den Südhang nur bis zur Nullstelle, also bis Tag 14. Danach ist die Schneehöhe dort 0 cm (1 P).\n\nAm Tag 16 liegen im Wald 8 cm und am Südhang 0 cm Schnee: Im Wald liegen nur **8 cm** mehr. Ole hat nicht recht (1 P)."
         }
       ]
     }
