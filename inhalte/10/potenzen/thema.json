@@ -3,7 +3,7 @@
   "titel": "Potenzen – Training vor dem Test",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind testrelevant. Bist du bei Potenzen, Brüchen, Quadratwurzeln oder Einheiten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N3 (Die Potenz), V2 nach N4 bis N7 (Potenzgesetze), V3 nach N8 und N9 (Wissenschaftliche Schreibweise). Im Training schaffst du nicht alles – wähle nach deiner Selbsteinschätzung. Der Test wird ohne Hilfsmittel geschrieben – rechne deshalb ohne Taschenrechner; nur in V1 bis V3 ist er erlaubt. Dein Regelheft darfst du in der Lerntheke benutzen.",
+  "hinweis": "Alle Stationen sind testrelevant. Bist du bei Potenzen, Brüchen, Quadratwurzeln oder Einheiten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N3 (Die Potenz), V2 nach N4 bis N7 (Potenzgesetze), V3 nach N8 und N9 (Wissenschaftliche Schreibweise). Im Training schaffst du nicht alles – wähle nach deiner Selbsteinschätzung. Der Test wird ohne Hilfsmittel geschrieben – rechne deshalb ohne Taschenrechner; nur in V1 bis V3 ist er erlaubt. Dein Regelheft darfst du in der Lerntheke benutzen. Ganz zum Schluss kannst du mit V4 (Probearbeit, 60 Minuten) wie im Test ganz ohne Hilfsmittel üben.",
   "checkliste": [
     {
       "id": "g1",
@@ -1257,6 +1257,190 @@
           "punkte": 1,
           "afb": "III",
           "loesung": "Beide Seiten hoch $\\frac{4}{3}$ (Potenzieren von Potenzen): $\\left(k^{\\frac{3}{4}}\\right)^{\\frac{4}{3}} = k^{\\frac{3}{4} \\cdot \\frac{4}{3}} = k^1 = k$\n\n$k = 2^{\\frac{4}{3}} \\approx 2{,}52$\n\nDie Masse muss etwa 2,5-mal so groß sein, damit sich der Grundumsatz verdoppelt."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "ohne Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c5",
+        "c6",
+        "c7",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie im Test ganz ohne Hilfsmittel, also ohne Taschenrechner und ohne Regelheft: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2), danach Teil B (Aufgabe 3 und 4). Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Die Potenz, Potenzgesetze, Wissenschaftliche Schreibweise) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Jeder Summand ist $x^4$, und zwei gleiche Summanden ergeben $x^4 + x^4 = 2x^4$.\n\n*A gewählt?* Die Exponenten addiert – das gilt nur beim Multiplizieren. *C gewählt?* Die 2 mit potenziert: $(2x)^4 = 16x^4$. *D gewählt?* Die Exponenten multipliziert. → **N1** Aufgabe 1, **N4** Aufgabe 5"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $0{,}2^{-2} = \\frac{1}{0{,}2^2} = \\frac{1}{0{,}04} = 25$ (oder mit $0{,}2 = \\frac{1}{5}$: $\\left(\\frac{1}{5}\\right)^{-2} = 5^2 = 25$).\n\n*A gewählt?* Das Minus im Exponenten übersehen. *B gewählt?* Das Minus im Exponenten als Vorzeichen gedeutet. *C gewählt?* Basis mal Exponent gerechnet. → **N1** Aufgabe 3, **N3**"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $125^{\\frac{2}{3}} = \\left(\\sqrt[3]{125}\\right)^2 = 5^2 = 25$\n\n*A gewählt?* Nur die dritte Wurzel gezogen, das Quadrat vergessen. *B gewählt?* Den Bruch im Exponenten wie einen negativen Exponenten behandelt. *D gewählt?* Die Basis mit dem Exponenten multipliziert. → **N2** Aufgabe 2"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $a^{-2} \\cdot a^2 = a^{-2 + 2} = a^0 = 1$ (oder: $\\frac{1}{a^2} \\cdot a^2 = 1$).\n\n*B gewählt?* $a^0$ ist 1, nicht 0. *C gewählt?* Das Minus im Exponenten ist kein Vorzeichen: $a^{-2} = \\frac{1}{a^2}$. *D gewählt?* Den Exponenten als Faktor genommen. → **N1** Aufgabe 2 und 6, **N4** Aufgabe 4"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Gleiche Basis: Die Exponenten werden addiert, $-2 + 5 = 3$, also $6^3$.\n\n*A gewählt?* Die Exponenten multipliziert. *B gewählt?* Auch die Basen multipliziert. *C gewählt?* Das Minus übersehen: $2 + 5$. → **N4** Aufgabe 1 und 2"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Gleiche Exponenten: $0{,}5^4 \\cdot 4^4 = (0{,}5 \\cdot 4)^4 = 2^4 = 16$.\n\n*A gewählt?* Die Exponenten addiert – das geht nur bei gleicher Basis. *C gewählt?* Die Basen addiert statt multipliziert. *D gewählt?* Den Exponenten 4 vergessen. → **N5** Aufgabe 2"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $(2a)^3 = 8a^3$, also $\\frac{8a^3}{4a^5} = 2 \\cdot a^{3 - 5} = 2a^{-2} = \\frac{2}{a^2}$.\n\n*B gewählt?* Die Exponenten falsch herum subtrahiert. *C gewählt?* Nur $a$ potenziert: $(2a)^3 = 2a^3$ ist falsch. *D gewählt?* $2^3$ als $2 \\cdot 3$ gerechnet. → **N6** Aufgabe 1, **N7** Aufgabe 3"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Das Komma rückt um 5 Stellen nach rechts bis hinter die 7: $0{,}000\\,07 = 7 \\cdot 10^{-5}$.\n\n*A gewählt?* Alle Nullen gezählt, auch die vor dem Komma. *B gewählt?* Kleine Zahlen haben einen negativen Exponenten. *D gewählt?* Der Wert stimmt, aber $0{,}7$ liegt nicht zwischen 1 und 10. → **N8** Aufgabe 2"
+        },
+        {
+          "id": "V4-1i",
+          "label": "1i",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $\\frac{2{,}4 \\cdot 10^4}{8 \\cdot 10^{-3}} = 0{,}3 \\cdot 10^{4 - (-3)} = 0{,}3 \\cdot 10^7 = 3 \\cdot 10^6$\n\n*A gewählt?* Beim Umwandeln von $0{,}3 \\cdot 10^7$ den Exponenten erhöht statt verkleinert. *C gewählt?* $4 + (-3)$ statt $4 - (-3)$ gerechnet: $0{,}3 \\cdot 10^1 = 3$. *D gewählt?* Multipliziert statt dividiert. → **N9** Aufgabe 1"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Zähler: $x^{\\frac{1}{2}} \\cdot x^2 = x^{\\frac{1}{2} + 2} = x^{\\frac{5}{2}}$ (1 P)\n\n$\\frac{x^{\\frac{5}{2}}}{x^{-\\frac{1}{2}}} = x^{\\frac{5}{2} - \\left(-\\frac{1}{2}\\right)} = x^3$ (1 P)\n\n→ **N4** Aufgabe 2, **N6** Aufgabe 1"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$5^{-1} = \\frac{1}{5} = 0{,}2$; $2^{-2} = \\frac{1}{4} = 0{,}25$; $(-2)^3 = -8$; $9^{\\frac{1}{2}} = \\sqrt{9} = 3$; $10^0 = 1$ (1 P)\n\n$(-2)^3 < 5^{-1} < 2^{-2} < 10^0 < 9^{\\frac{1}{2}}$ (1 P)\n\n→ **N1** Aufgabe 2 und 3, **N2** Aufgabe 2"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$3{,}5 = \\frac{7}{2}$, also $L = 4^{3{,}5} = 4^{\\frac{7}{2}} = \\left(\\sqrt{4}\\right)^7$ (1 P)\n\n$L = 2^7 = 128$ – der Stern leuchtet 128-mal so hell wie die Sonne (1 P).\n\n→ **N2** Aufgabe 3"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$128 \\cdot 4 \\cdot 10^{26}\\,\\mathrm{J} = 512 \\cdot 10^{26}\\,\\mathrm{J}$ (1 P)\n\n$512 \\cdot 10^{26}\\,\\mathrm{J} = 5{,}12 \\cdot 10^{28}\\,\\mathrm{J}$ (1 P) [mit $L = 100$: $4 \\cdot 10^{28}\\,\\mathrm{J}$]\n\n→ **N8** Aufgabe 2, **N9** Aufgabe 1"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$3{,}5 = 3 + \\frac{1}{2}$, also $L = 2^{3{,}5} = 2^3 \\cdot 2^{\\frac{1}{2}} = 8 \\cdot \\sqrt{2}$ (1 P)\n\n$L \\approx 8 \\cdot 1{,}41 = 11{,}28$ – der Stern leuchtet etwa 11-mal so hell wie die Sonne, obwohl er nur doppelt so viel Masse hat (1 P).\n\nWer nur $2^3 = 8$ rechnet, vergisst den halben Exponenten: $2^{\\frac{1}{2}} = \\sqrt{2}$. → **N2** Aufgabe 3, **N4** Aufgabe 2"
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$L = 0{,}25^{3{,}5} = \\left(\\frac{1}{4}\\right)^{\\frac{7}{2}} = \\left(\\frac{1}{2}\\right)^7 = \\frac{1}{128}$ (1 P)\n\n$\\frac{1}{128} \\approx 0{,}0078 \\approx 8 \\cdot 10^{-3}$ (1 P; auch $7{,}8 \\cdot 10^{-3}$ ist richtig)\n\n→ **N1** Aufgabe 3, **N2** Aufgabe 3"
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$4^{-2{,}5} = \\frac{1}{4^{2{,}5}} = \\frac{1}{\\left(\\sqrt{4}\\right)^5} = \\frac{1}{2^5} = \\frac{1}{32}$ (1 P)\n\n$t = \\frac{10^{10}}{32} = 0{,}031\\,25 \\cdot 10^{10} \\approx 3{,}1 \\cdot 10^8$, also etwa 300 Millionen Jahre (1 P)\n\n→ **N1** Aufgabe 3, **N2** Aufgabe 3, **N8** Aufgabe 2"
+        },
+        {
+          "id": "V4-3f",
+          "label": "3f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Lebensdauer des Roten Zwergs: $t = 10^{10} \\cdot 0{,}25^{-2{,}5} = 10^{10} \\cdot 4^{2{,}5}$ (1 P)\n\n$4^{2{,}5} = \\left(\\sqrt{4}\\right)^5 = 2^5 = 32$, also $t = 32 \\cdot 10^{10} = 3{,}2 \\cdot 10^{11}$ Jahre (1 P)\n\nDas ist etwa 23-mal so lange, wie das Weltall alt ist ($\\frac{3{,}2 \\cdot 10^{11}}{1{,}4 \\cdot 10^{10}} \\approx 23$). Kein Roter Zwerg dieser Masse hat seinen Vorrat schon aufgebraucht – die Behauptung stimmt nicht (im Rahmen des Modells) (1 P).\n\n→ **N2** Aufgabe 3, **N9** Aufgabe 4"
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Seitenlänge: $\\sqrt{100}\\,\\mathrm{mm} = 10\\,\\mathrm{mm} = 1 \\cdot 10^{-2}\\,\\mathrm{m}$ (1 P)\n\nFläche: $\\left(10^{-2}\\,\\mathrm{m}\\right)^2 = 1 \\cdot 10^{-4}\\,\\mathrm{m^2}$ (1 P)\n\n→ **G2** Aufgabe 5, **N8** Aufgabe 1"
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{1 \\cdot 10^{-4}\\,\\mathrm{m^2}}{2{,}5 \\cdot 10^9} = 0{,}4 \\cdot 10^{-13}\\,\\mathrm{m^2}$ (1 P)\n\n$0{,}4 \\cdot 10^{-13}\\,\\mathrm{m^2} = 4 \\cdot 10^{-14}\\,\\mathrm{m^2}$ (1 P)\n\n→ **N9** Aufgabe 1"
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\left(4 \\cdot 10^{-14}\\right)^{\\frac{1}{2}}\\,\\mathrm{m} = 4^{\\frac{1}{2}} \\cdot \\left(10^{-14}\\right)^{\\frac{1}{2}}\\,\\mathrm{m} = 2 \\cdot 10^{-7}\\,\\mathrm{m}$ (1 P)\n\n$2 \\cdot 10^{-7}\\,\\mathrm{m} = 200 \\cdot 10^{-9}\\,\\mathrm{m} = 200\\,\\mathrm{nm}$ (1 P)\n\n→ **N5** Aufgabe 2, **G2** Aufgabe 4"
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Dauer: $\\frac{1}{4 \\cdot 10^9}\\,\\mathrm{s} = 0{,}25 \\cdot 10^{-9}\\,\\mathrm{s} = 2{,}5 \\cdot 10^{-10}\\,\\mathrm{s}$ (1 P)\n\nStrecke: $3 \\cdot 10^8\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 2{,}5 \\cdot 10^{-10}\\,\\mathrm{s} = 7{,}5 \\cdot 10^{-2}\\,\\mathrm{m} = 7{,}5\\,\\mathrm{cm}$ (1 P)\n\n→ **N9** Aufgabe 1"
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "In einem Takt kommt ein Signal etwa $\\frac{7{,}5\\,\\mathrm{cm}}{2} = 3{,}75\\,\\mathrm{cm}$ weit (1 P).\n\nQuer über den Chip und zurück sind es $2 \\cdot 1\\,\\mathrm{cm} = 2\\,\\mathrm{cm}$ – weniger als $3{,}75\\,\\mathrm{cm}$, das Signal schafft es also (auch diagonal, hin und zurück etwa $2{,}8\\,\\mathrm{cm}$). Viel Spielraum bleibt nicht: Bei doppelter Taktfrequenz käme es nur noch $1{,}875\\,\\mathrm{cm}$ weit (1 P).\n\n→ **N9** Aufgabe 5"
         }
       ]
     }

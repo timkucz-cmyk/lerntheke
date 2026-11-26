@@ -3,7 +3,7 @@
   "titel": "Bewegungen – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du beim Umrechnen von Einheiten, beim Ablesen von Graphen, bei Steigungen, beim Umstellen von Formeln oder bei Kräften unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4, V2 nach N5 bis N7, V3 nach N8 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Lege Taschenrechner und Lineal bereit; dein Regelheft darfst du benutzen. Diagramme zeichnest du direkt in die Vorlagen im Arbeitsblatt auf dem iPad.",
+  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du beim Umrechnen von Einheiten, beim Ablesen von Graphen, bei Steigungen, beim Umstellen von Formeln oder bei Kräften unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4, V2 nach N5 bis N7, V3 nach N8 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Lege Taschenrechner und Lineal bereit; dein Regelheft darfst du benutzen. Diagramme zeichnest du direkt in die Vorlagen im Arbeitsblatt auf dem iPad. Ganz zum Schluss kannst du mit V4 (Probearbeit, 60 Minuten) wie im Test üben – Teil A dort ohne Hilfsmittel.",
   "checkliste": [
     {
       "id": "g1",
@@ -1300,6 +1300,191 @@
           "punkte": 3,
           "afb": "III",
           "loesung": "- Start: Aus dem Stand müssen die Läuferinnen erst schneller werden (beschleunigt; Kraftwirkung Beschleunigung durch den Abstoß mit Skiern und Stöcken).\n- Anstiege und Abfahrten: bergauf langsamer, bergab schneller – die Geschwindigkeit ist nicht konstant, die Bewegung ist abschnittsweise beschleunigt.\n- Bedeutung: $6{,}0$ und $6{,}5\\,\\mathrm{m/s}$ sind Durchschnittsgeschwindigkeiten. Treffpunkt und Zeitpunkt sind deshalb nur Schätzungen; das Überholen kann früher oder später passieren.\n\nFazit: Für eine grobe Vorhersage brauchbar, für den genauen Ort des Überholens nicht. (1 P je Gesichtspunkt mit Begründung.)"
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Taschenrechner, Lineal, Regelheft",
+      "checkliste": [
+        "c9",
+        "c6",
+        "c7",
+        "c8",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie im Test: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Hilfsmittel, danach Teil B (Aufgabe 3 und 4) mit Taschenrechner, Lineal und Regelheft. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Bewegung und Geschwindigkeit, Diagramme und Bewegungsgesetz, Bewegungen modellieren) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $v = \\frac{s}{t}$: $20\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ heißt $20\\,\\mathrm{m}$ Strecke in jeder Sekunde.\n\n*A gewählt?* Die Geschwindigkeit ist keine Zeitdauer. *C gewählt?* Für $1\\,\\mathrm{m}$ braucht sie nur $\\frac{1}{20}\\,\\mathrm{s}$. *D gewählt?* Die Geschwindigkeit sagt nichts darüber, wie weit sie insgesamt fliegt. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Der Krümel läuft auf einer Kreisbahn (krummlinig), und sein Tempo bleibt gleich (gleichförmig).\n\n*A und B gewählt?* Auf einer Kreisbahn ändert sich die Richtung ständig – die Bahn ist nicht geradlinig. *C gewählt?* Relativ zur Scheibe ruht er, vom Fußboden aus gesehen bewegt er sich. → **N2** Aufgabe 2 und 4"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $18\\,\\mathrm{cm} = 180\\,\\mathrm{mm}$ und $3\\,\\mathrm{min} = 180\\,\\mathrm{s}$, also $v = \\frac{180\\,\\mathrm{mm}}{180\\,\\mathrm{s}} = 1\\,\\frac{\\mathrm{mm}}{\\mathrm{s}}$.\n\n*B gewählt?* $18 : 3 = 6$ ist die Geschwindigkeit in Zentimetern pro Minute. *C gewählt?* Mit Zentimetern statt Millimetern gerechnet. *D gewählt?* Strecke und Zeit multipliziert statt geteilt. → **N3** Aufgabe 4, **G2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $30\\,\\frac{\\mathrm{m}}{\\mathrm{s}} = 30 \\cdot 3{,}6\\,\\frac{\\mathrm{km}}{\\mathrm{h}} = 108\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$\n\n*A gewählt?* Durch $3{,}6$ geteilt statt multipliziert – km/h-Werte sind größer. *B gewählt?* Die Einheit gewechselt, ohne umzurechnen. *D gewählt?* Nur mit 60 multipliziert (Sekunden in Minuten), die Meter nicht in Kilometer umgerechnet. → **N3** Aufgabe 1 und 2"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $v_A = \\frac{50\\,\\mathrm{m}}{10\\,\\mathrm{s}} = 5\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$, $v_B = \\frac{60\\,\\mathrm{m} - 20\\,\\mathrm{m}}{10\\,\\mathrm{s}} = 4\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$: Die Geschwindigkeit ist die Steigung, nicht die Höhe des Graphen.\n\n*A und B gewählt?* B hat nur einen Vorsprung von $20\\,\\mathrm{m}$, er fährt langsamer. *C gewählt?* Gerade heißt gleichförmig, aber die Steigungen sind verschieden. → **N5** Aufgabe 2"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $s(2\\,\\mathrm{s}) = 5 \\cdot 2\\,\\mathrm{m} + 20\\,\\mathrm{m} = 30\\,\\mathrm{m}$ ist der Ort (Abstand vom Bezugspunkt).\n\n*B gewählt?* Zurückgelegt hat er nur $5 \\cdot 2\\,\\mathrm{m} = 10\\,\\mathrm{m}$ – er startet bei $20\\,\\mathrm{m}$. *C gewählt?* $5\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ ist die Geschwindigkeit, der Startort ist $s_0 = 20\\,\\mathrm{m}$. *D gewählt?* Die Bewegung ist gleichförmig, die Geschwindigkeit bleibt $5\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$. → **N6** Aufgabe 1 und 2"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Für die Durchschnittsgeschwindigkeit zählt die ganze Zeit mit Pause: $v = \\frac{180\\,\\mathrm{km}}{3\\,\\mathrm{h}} = 60\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$.\n\n*A gewählt?* Die Pause abgezogen: $180\\,\\mathrm{km} : 2{,}4\\,\\mathrm{h}$ – das ist die Geschwindigkeit beim Fahren. *C gewählt?* Multipliziert statt geteilt. *D gewählt?* Durch die Pausenminuten geteilt. → **N7** Aufgabe 3"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – In jeder Sekunde läuft der Gepard $30\\,\\mathrm{m}$, die Gazelle $22\\,\\mathrm{m}$: Der Abstand schrumpft um $30\\,\\mathrm{m} - 22\\,\\mathrm{m} = 8\\,\\mathrm{m}$.\n\n*A gewählt?* Addieren passt, wenn sich beide aufeinander zubewegen. *B gewählt?* Die Gazelle läuft auch weiter. *D gewählt?* Die Geschwindigkeiten geteilt statt subtrahiert. → **N8** Aufgabe 1"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Mittelwert $\\bar{t} = \\frac{10{,}4\\,\\mathrm{s} + 9{,}6\\,\\mathrm{s}}{2} = 10{,}0\\,\\mathrm{s}$, $v = \\frac{50\\,\\mathrm{m}}{10{,}0\\,\\mathrm{s}} = 5{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ (1 P)\n\nUrsache, z. B.: Beide reagieren unterschiedlich schnell beim Starten und Stoppen der Uhr (Reaktionszeit); sie sehen den Radfahrer aus verschiedenen Blickwinkeln an den Marken (1 P).\n\n→ **N4** Aufgabe 1 und 3"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$s(t) = 0{,}5\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t - 12\\,\\mathrm{m}$ (Startort $s_0 = -12\\,\\mathrm{m}$) (1 P)\n\nDachkante: $s = 0$, also $0{,}5 \\cdot t = 12$ und $t = 24\\,\\mathrm{s}$ (1 P).\n\n→ **N6** Aufgabe 1, **N10** Aufgabe 4"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$t = \\frac{s}{v} = \\frac{3{,}0\\,\\mathrm{km}}{100\\,\\frac{\\mathrm{km}}{\\mathrm{h}}} = 0{,}03\\,\\mathrm{h}$ (1 P)\n\n$0{,}03\\,\\mathrm{h} = 0{,}03 \\cdot 3\\,600\\,\\mathrm{s} = 108\\,\\mathrm{s}$ (1 P)"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\Delta t = 96\\,\\mathrm{s}$, $v = \\frac{3\\,000\\,\\mathrm{m}}{96\\,\\mathrm{s}} = 31{,}25\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ (1 P)\n\n$31{,}25 \\cdot 3{,}6 = 112{,}5$, also $112{,}5\\,\\frac{\\mathrm{km}}{\\mathrm{h}} > 100\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$: Das Auto war im Durchschnitt zu schnell (1 P). (Auch richtig: $96\\,\\mathrm{s} < 108\\,\\mathrm{s}$ aus a).)"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Anlage misst nicht die Geschwindigkeit an der Kamera, sondern die Durchschnittsgeschwindigkeit über den ganzen Abschnitt: $112{,}5\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$ (1 P).\n\nWer am Ende nur 80 km/h fährt und trotzdem im Durchschnitt 112,5 km/h erreicht, war vorher sogar noch schneller als 112,5 km/h. Das Bremsen ist eine beschleunigte Bewegung von kurzer Dauer und ändert den Durchschnitt kaum (1 P).\n\nEin einzelnes Blitzgerät misst nur an einer Stelle; dort genügt kurzes Bremsen. Bei der Abschnittskontrolle müsste man auf der ganzen Strecke im Mittel höchstens 100 km/h fahren – sie lässt sich nicht so austricksen. Die Aussage des Fahrers ist falsch (1 P)."
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Auto aus b): Gerade von $(0 \\mid 0)$ bis $(96\\,\\mathrm{s} \\mid 3\\,000\\,\\mathrm{m})$ (1 P).\n\nAuto mit $100\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$: Gerade von $(0 \\mid 0)$ bis $(108\\,\\mathrm{s} \\mid 3\\,000\\,\\mathrm{m})$, flacher (1 P).",
+          "loesung_bild": "img/V4-3d.png"
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$108\\,\\mathrm{s} - 96\\,\\mathrm{s} = 12\\,\\mathrm{s}$ früher (1 P)\n\nDas andere Auto fährt $100\\,\\frac{\\mathrm{km}}{\\mathrm{h}} \\approx 27{,}8\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ und ist nach $96\\,\\mathrm{s}$ bei $27{,}8 \\cdot 96\\,\\mathrm{m} \\approx 2\\,667\\,\\mathrm{m}$, also noch etwa $333\\,\\mathrm{m}$ von der Kamera entfernt (1 P; aus dem Diagramm abgelesen etwa $300$ bis $350\\,\\mathrm{m}$)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$s = v \\cdot t = 340\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 15\\,\\mathrm{s} = 5\\,100\\,\\mathrm{m} = 5{,}1\\,\\mathrm{km}$"
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Zum Beispiel: Das Zähltempo ist nicht genau eine Sekunde; sie beginnt oder endet zu spät (Reaktionszeit); der Donner rollt lange, und der Blitz ist kilometerlang – welcher Teil ist gemeint? Auch die Schallgeschwindigkeit hängt etwas von der Temperatur ab (1 P für zwei Ursachen).\n\nEine Sekunde mehr oder weniger ändert die Entfernung um $340\\,\\mathrm{m}$ (1 P)."
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Neue Entfernung $340 \\cdot 9\\,\\mathrm{m} = 3\\,060\\,\\mathrm{m}$; in $240\\,\\mathrm{s}$ ist das Gewitter $5\\,100\\,\\mathrm{m} - 3\\,060\\,\\mathrm{m} = 2\\,040\\,\\mathrm{m}$ näher gekommen (1 P).\n\n$v = \\frac{2\\,040\\,\\mathrm{m}}{240\\,\\mathrm{s}} = 8{,}5\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$, das sind $30{,}6\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$ (1 P)."
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mia: $s_M(t) = -5{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t$ (1 P)\n\nGewitterfront: $s_G(t) = -8{,}5\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t + 3\\,060\\,\\mathrm{m}$ (1 P) [Ersatzwert: $-8\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot t + 3\\,060\\,\\mathrm{m}$]"
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mias Zuhause liegt bei $s = -2\\,400\\,\\mathrm{m}$: Mia braucht $\\frac{2\\,400\\,\\mathrm{m}}{5{,}0\\,\\frac{\\mathrm{m}}{\\mathrm{s}}} = 480\\,\\mathrm{s}$ (8 min) (1 P).\n\nDie Front erreicht diesen Ort, wenn $-8{,}5 \\cdot t + 3\\,060 = -2\\,400$, also nach $t = \\frac{5\\,460}{8{,}5}\\,\\mathrm{s} \\approx 642\\,\\mathrm{s}$. Mia ist etwa $160\\,\\mathrm{s}$ (knapp 3 min) vorher zu Hause (1 P). [Ersatzwert: $683\\,\\mathrm{s}$, gut 3 min Vorsprung.] Auch richtig: Gleichsetzen $-5 \\cdot t = -8{,}5 \\cdot t + 3\\,060$ ergibt das Einholen erst nach $874\\,\\mathrm{s}$ bei $-4\\,371\\,\\mathrm{m}$ – hinter ihrem Zuhause."
+        },
+        {
+          "id": "V4-4f",
+          "label": "4f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In $3\\,\\mathrm{s}$ legt der Schall $3 \\cdot 340\\,\\mathrm{m} = 1\\,020\\,\\mathrm{m} \\approx 1\\,\\mathrm{km}$ zurück – die Regel passt (1 P).\n\nFür $15\\,\\mathrm{s}$ liefert sie $5\\,\\mathrm{km}$ statt $5{,}1\\,\\mathrm{km}$, nur etwa $2\\,\\%$ zu wenig. Das ist kleiner als der Fehler durch das Zählen aus b) (1 P)."
+        },
+        {
+          "id": "V4-4g",
+          "label": "4g",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Warten: Die Front erreicht den Unterstand nach $\\frac{3\\,060\\,\\mathrm{m}}{8{,}5\\,\\frac{\\mathrm{m}}{\\mathrm{s}}} = 360\\,\\mathrm{s}$, das Ende nach $\\frac{9\\,060\\,\\mathrm{m}}{8{,}5\\,\\frac{\\mathrm{m}}{\\mathrm{s}}} \\approx 1\\,066\\,\\mathrm{s}$ – Mia müsste fast 18 Minuten warten (1 P).\n\nFahren: Mia ist nach 8 Minuten zu Hause, im Modell knapp 3 Minuten vor der Front. Das Modell ist aber unsicher (die Entfernungen sind auf einige 100 m ungenau, ein Gewitter zieht nicht genau gleichförmig). Vor allem schützt „vor der Front“ nicht vor Blitzen: Bei nur 9 s zwischen Blitz und Donner ist das Gewitter etwa 3 km entfernt, und Blitze schlagen oft mehrere Kilometer vor dem Regen ein. Auf dem Rad im Freien wäre Mia dann besonders gefährdet. Sicherer ist es, zu warten (am besten in einem Gebäude) – auch wenn es fast 18 Minuten dauert. Eine andere Entscheidung ist nur mit dieser Abwägung gut begründet (1 P für eine begründete Entscheidung, die die Blitzgefahr berücksichtigt)."
         }
       ]
     }
