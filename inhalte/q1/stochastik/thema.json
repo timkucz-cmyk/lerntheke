@@ -3,7 +3,7 @@
   "titel": "Stochastik – Trainingswoche",
   "fach": "mathe",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind abiturrelevant – auch die Grundlagen. Sind Sie beim Vorwissen aus Klasse E unsicher (Baumdiagramm, Gegenereignis, bedingte Wahrscheinlichkeit, Vierfeldertafel, Unabhängigkeit), beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt das Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N14. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Daten auswerten), V2 nach N3 bis N6 (Zufallsgrößen), V3 nach N7 bis N14 als Komplexaufgabe. N15 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N15.",
+  "hinweis": "Alle Stationen sind abiturrelevant – auch die Grundlagen. Sind Sie beim Vorwissen aus Klasse E unsicher (Baumdiagramm, Gegenereignis, bedingte Wahrscheinlichkeit, Vierfeldertafel, Unabhängigkeit), beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt das Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N14. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Daten auswerten), V2 nach N3 bis N6 (Zufallsgrößen), V3 nach N7 bis N14 als Komplexaufgabe. N15 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N15. Ganz zum Schluss können Sie mit V4 (Probeklausur, 90 Minuten) unter Klausurbedingungen üben.",
   "checkliste": [
     {
       "id": "g1",
@@ -1700,6 +1700,189 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "$P_H(R)=0{,}7\\neq0{,}6=P(R)$: $H$ und $R$ sind abhängig; Teams mit Hinweis sind häufiger erfolgreich.\n\nEine Abhängigkeit beweist aber keine Ursache: Vielleicht bekommen vor allem Teams Hinweise, die schon weit sind, oder erfahrene Teams nehmen eher Hinweise. Die Aussage ist plausibel, aber aus den Daten allein nicht belegt."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "Teil A keine, Teil B WTR und Formeldokument",
+      "checkliste": [
+        "c14",
+        "c13",
+        "c12",
+        "c11",
+        "c10",
+        "c9",
+        "c8",
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2",
+        "c1",
+        "g6",
+        "g5",
+        "g4",
+        "g3",
+        "g2",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klausur: 90 Minuten, zuerst Teil A (Aufgabe 1 bis 3) ohne Hilfsmittel, danach Teil B (Aufgabe 4 und 5) mit WTR und Formeldokument. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Daten auswerten, Zufallsgrößen, Binomial- und hypergeometrische Verteilung) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Sortiert: $2$; $3$; $5$; $6$; $9$ – Median $5$ (1 P).\n\n$\\overline{x}=\\frac{2+3+5+6+9}{5}=\\frac{25}{5}=5$ (1 P)"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der neue Wert muss $5$ sein (Summe $30$, $\\frac{30}{6}=5$). Varianz vorher: Abweichungen $-3$; $-2$; $0$; $1$; $4$, also $\\sigma^2=\\frac{9+4+0+1+16}{5}=\\frac{30}{5}=6$ (1 P).\n\nNachher: Die Summe der Quadrate bleibt $30$ (der neue Wert weicht um $0$ ab), geteilt wird durch $6$: $\\sigma^2=\\frac{30}{6}=5$. Die Varianz sinkt von $6$ auf $5$ (1 P)."
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$P(X=2)=\\binom42\\cdot\\left(\\frac13\\right)^2\\cdot\\left(\\frac23\\right)^2$ (1 P)\n\n$=6\\cdot\\frac19\\cdot\\frac49=\\frac{24}{81}=\\frac{8}{27}$ (1 P)"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$(1-p)^4=\\binom41\\cdot p\\cdot(1-p)^3=4p\\,(1-p)^3$ (1 P)\n\nTeilen durch $(1-p)^3>0$: $1-p=4p$, also $p=\\frac15=0{,}2$ (1 P)"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$E(Y)=0\\cdot(1-p)+1\\cdot p=p$ (1 P)\n\n$Var(Y)=(0-p)^2\\cdot(1-p)+(1-p)^2\\cdot p=p\\,(1-p)\\cdot(p+1-p)=p\\,(1-p)$ (1 P)"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Mit $\\sigma=\\sqrt{n\\cdot p\\,(1-p)}$ genügt $p\\,(1-p)\\le\\frac14$. Es gilt $p\\,(1-p)=\\frac14-\\left(p-\\frac12\\right)^2\\le\\frac14$ (Scheitelpunkt der nach unten geöffneten Parabel bei $p=\\frac12$) (1 P).\n\nAlso $\\sigma^2=n\\cdot p\\,(1-p)\\le\\frac n4$ und $\\sigma\\le\\frac{\\sqrt n}{2}$; Gleichheit nur für $p=\\frac12$ (1 P)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$P(X=18)=\\binom{25}{18}\\cdot0{,}7^{18}\\cdot0{,}3^{7}$ (1 P)\n\n$\\approx0{,}1712$ (WTR: Binomial-PD) (1 P)"
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$80\\,\\%$ von $25$ sind $20$ Kästen: gesucht ist $P(X\\ge20)$ (1 P).\n\n$P(X\\ge20)=1-P(X\\le19)\\approx1-0{,}8065=0{,}1935$ (1 P)"
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\mu=25\\cdot0{,}7=17{,}5$ (1 P)\n\n$\\sigma=\\sqrt{25\\cdot0{,}7\\cdot0{,}3}=\\sqrt{5{,}25}\\approx2{,}29$ (1 P)"
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Ansatz: $Y$ binomialverteilt mit unbekanntem $n$ und $p=0{,}7$; gesucht ist das kleinste $n$ mit $P(Y\\ge20)=1-P(Y\\le19)\\ge0{,}9$ (1 P).\n\nWertetabelle (WTR): $n=32$: $P(Y\\ge20)\\approx0{,}8674$; $n=33$: $P(Y\\ge20)\\approx0{,}9116$ (1 P)\n\nDie Gruppe muss mindestens $33$ Kästen aufhängen (1 P)."
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Kalter Frühling: $P(X\\ge20)\\approx0{,}0020$; sonst: $P(X\\ge20)\\approx0{,}6167$ (1 P)\n\nErfolgreich: $0{,}3\\cdot0{,}0020+0{,}7\\cdot0{,}6167\\approx0{,}4323$ (1 P)\n\nNicht erfolgreich mit $1-0{,}4323=0{,}5677$; davon kalt: $P_{\\overline{E}}(K)=\\frac{0{,}3\\cdot0{,}9980}{0{,}5677}\\approx0{,}527$ (1 P)"
+        },
+        {
+          "id": "V4-4f",
+          "label": "4f",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Im Mittel ist die Belegungswahrscheinlichkeit in e) fast gleich ($0{,}3\\cdot0{,}5+0{,}7\\cdot0{,}8=0{,}71$), trotzdem ist ein erfolgreiches Jahr mit $43\\,\\%$ mehr als doppelt so wahrscheinlich wie mit $19\\,\\%$ in b) (1 P).\n\nGrund: Das Wetter wirkt auf alle Kästen eines Jahres gleich – ohne Kenntnis der Witterung sind die Belegungen der Kästen eines Jahres nicht unabhängig. Das Modell aus der Einleitung unterschätzt deshalb gute und schlechte Jahre; innerhalb eines Jahres mit bekannter Witterung kann es passen (1 P)."
+        },
+        {
+          "id": "V4-4g",
+          "label": "4g",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$80\\,\\%$ von $30$ sind $24$: $P(X\\ge24)=1-P(X\\le23)\\approx0{,}1595<0{,}1935$ (1 P).\n\nDie Hoffnung trügt: Weil $p=0{,}7$ unter $0{,}8$ liegt, ballt sich der Anteil belegter Kästen mit wachsender Anzahl immer stärker um $70\\,\\%$; $80\\,\\%$ werden seltener erreicht. Mehr Kästen erhöhen nur die Anzahl, nicht den Anteil belegter Kästen (1 P)."
+        },
+        {
+          "id": "V4-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "A: $\\overline{x}=\\frac{2+6+15+60+125}{50}=\\frac{208}{50}=4{,}16$; B: $\\frac{6+4+6+32+160}{50}=4{,}16$ (1 P)\n\nMedian = Mittel aus 25. und 26. Wert: A: $\\frac{4+5}{2}=4{,}5$; B: $5$ (32 Bewertungen mit 5 Sternen) (1 P)"
+        },
+        {
+          "id": "V4-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "WTR, Statistikmodus mit Häufigkeiten: A: $\\sigma\\approx1{,}08$ (1 P)\n\nB: $\\sigma\\approx1{,}38$ (1 P)"
+        },
+        {
+          "id": "V4-5c",
+          "label": "5c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gleiches Mittel $4{,}16$, aber B hat den größeren Median: Mehr als die Hälfte der Bewertungen von B sind 5 Sterne (1 P).\n\nB streut stärker ($1{,}38$ gegen $1{,}08$): Neben vielen 5-Sterne-Bewertungen gibt es bei B auffällig viele 1-Stern-Bewertungen; A wird gleichmäßiger gut bewertet (1 P)."
+        },
+        {
+          "id": "V4-5d",
+          "label": "5d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Standardabweichung misst nur, wie stark die Bewertungen um das Mittel streuen, also wie einig sich die Bewertenden sind – nicht, ob die Bewertungen echt sind (1 P).\n\nEine kleine Streuung kann auch durch viele gleich lautende (z. B. gekaufte) Bewertungen entstehen, eine große durch ehrlich geteilte Meinungen. Über die Glaubwürdigkeit sagt sie allein nichts; dazu braucht man Angaben zur Herkunft der Bewertungen. Der Kunde hat nicht recht (1 P)."
+        },
+        {
+          "id": "V4-5e",
+          "label": "5e",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Verifiziert: $P_V(F)=\\frac{15}{30}=0{,}5=50\\,\\%$ (1 P)\n\nNicht verifiziert sind $50-30=20$ Bewertungen, davon $32-15=17$ mit fünf Sternen: $P_{\\overline{V}}(F)=\\frac{17}{20}=0{,}85=85\\,\\%$ (1 P)\n\nÜbersichtlich in einer Vierfeldertafel:\n\n| | $F$ | $\\overline{F}$ | $\\Sigma$ |\n|---|---|---|---|\n| $V$ | $15$ | $15$ | $30$ |\n| $\\overline{V}$ | $17$ | $3$ | $20$ |\n| $\\Sigma$ | $32$ | $18$ | $50$ |"
+        },
+        {
+          "id": "V4-5f",
+          "label": "5f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bei Unabhängigkeit wäre der Anteil der Fünf-Sterne-Bewertungen in beiden Gruppen gleich, nämlich $P(F)=\\frac{32}{50}=0{,}64$. Er beträgt aber $50\\,\\%$ gegen $85\\,\\%$ (ebenso $P(V)\\cdot P(F)=0{,}6\\cdot0{,}64=0{,}384\\neq0{,}3=P(V\\cap F)$): $V$ und $F$ sind abhängig, die Behauptung stimmt nicht (1 P).\n\nNicht verifizierte Bewertungen sind auffällig oft Fünf-Sterne-Bewertungen – ein Hinweis auf geschönte oder gekaufte Bewertungen (1 P)."
+        },
+        {
+          "id": "V4-5g",
+          "label": "5g",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Hypergeometrisch: $N=50$, $M=20$ nicht verifizierte, $n=5$; $Z$ Anzahl der nicht verifizierten (1 P).\n\n$P(Z\\ge3)=\\frac{\\binom{20}{3}\\binom{30}{2}+\\binom{20}{4}\\binom{30}{1}+\\binom{20}{5}\\binom{30}{0}}{\\binom{50}{5}}$ (1 P)\n\n$=\\frac{495\\,900+145\\,350+15\\,504}{2\\,118\\,760}\\approx0{,}3100$ (1 P)"
+        },
+        {
+          "id": "V4-5h",
+          "label": "5h",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Nicht verifiziert: $17$-mal 5 Sterne und $3$-mal 1 Stern. Verifiziert bleiben bei B: 1 Stern $3$-mal, 2 Sterne $2$, 3 Sterne $2$, 4 Sterne $8$, 5 Sterne $15$ (1 P).\n\nMittel $\\frac{3+4+6+32+75}{30}=\\frac{120}{30}=4{,}0$, Median (15. und 16. Wert) $\\frac{4+5}{2}=4{,}5$ (1 P).\n\nB fällt im Mittel unter A ($4{,}16$) und hat denselben Median; der Vorsprung von B im Median beruhte auf nicht verifizierten Bewertungen. Ein fairer Vergleich braucht aber auch die verifizierten Bewertungen von A, die nicht bekannt sind (1 P)."
         }
       ]
     }
