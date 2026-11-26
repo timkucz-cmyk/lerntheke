@@ -3,7 +3,7 @@
   "titel": "Der Kreis – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Anteilen, Einheiten, Flächen von Vielecken, Umstellen oder Wurzeln unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N4, V2 nach N5 bis N6, V3 nach N7 bis N9. Ohne Taschenrechner arbeitest du in G1, G2, N1 und N9 – dort lässt du π im Ergebnis stehen. In allen anderen Stationen rechnest du mit der π-Taste des Taschenrechners. Dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Anteilen, Einheiten, Flächen von Vielecken, Umstellen oder Wurzeln unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N4, V2 nach N5 bis N6, V3 nach N7 bis N9. Ohne Taschenrechner arbeitest du in G1, G2, N1 und N9 – dort lässt du π im Ergebnis stehen. In allen anderen Stationen rechnest du mit der π-Taste des Taschenrechners. Dein Regelheft darfst du benutzen. Ganz zum Schluss kannst du mit V4 (Probearbeit, 60 Minuten) wie in der Klassenarbeit üben – dort ohne Regelheft.",
   "checkliste": [
     {
       "id": "g1",
@@ -1193,6 +1193,191 @@
           "punkte": 3,
           "afb": "III",
           "loesung": "Bahn 2 gegenüber Bahn 1: $\\pi \\cdot 37{,}92 - \\pi \\cdot 36{,}80 = \\pi \\cdot 1{,}12 \\approx 3{,}52$, also etwa $3{,}52\\,\\mathrm{m}$. Bahn 3 (Radius $39{,}14$) gegenüber Bahn 2: $\\pi \\cdot 1{,}22 \\approx 3{,}83$, also etwa $3{,}83\\,\\mathrm{m}$ (1 P).\n\nAllgemein: Liegt die Messlinie um $1{,}22\\,\\mathrm{m}$ weiter außen, ist der Halbkreisbogen $\\pi \\cdot (r + 1{,}22) - \\pi \\cdot r = \\pi \\cdot 1{,}22$ länger – r fällt heraus. Deshalb ist der Vorsprung ab Bahn 3 immer gleich (1 P).\n\nBahn 1 wird $0{,}30\\,\\mathrm{m}$, Bahn 2 nur $0{,}20\\,\\mathrm{m}$ neben der inneren Begrenzung gemessen. Die Messlinien liegen also nur $1{,}12\\,\\mathrm{m}$ auseinander, deshalb ist der Vorsprung kleiner (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A ohne Taschenrechner, Teil B Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10",
+        "c6",
+        "c7",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Hilfsmittel, danach Teil B (Aufgabe 3 und 4) mit Taschenrechner, ohne Regelheft. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Umfang und Flächeninhalt, Kreisausschnitt und Kreisring, zusammengesetzte Figuren) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $U = \\pi \\cdot d$ mit $\\pi \\approx 3{,}14$: Der Durchmesser passt gut dreimal um den Kreis.\n\n*A gewählt?* Zweimal passt der Radius in den Durchmesser – um den Kreis passt der Durchmesser öfter. *B gewählt?* π ist nicht genau 3, sondern etwas größer. *D gewählt?* Das gilt für den Radius: $U = 2 \\cdot \\pi \\cdot r \\approx 6{,}28 \\cdot r$. → **N1** Aufgabe 3 und 4"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $r = 11\\,\\mathrm{cm}$, $A = \\pi \\cdot r^2 = \\pi \\cdot 11^2\\,\\mathrm{cm^2} = 121\\pi\\,\\mathrm{cm^2}$\n\n*B gewählt?* $\\pi \\cdot d$ ist der Umfang, kein Flächeninhalt. *C gewählt?* Den Durchmesser statt des Radius quadriert. *D gewählt?* Den Radius nicht quadriert. → **N2** Aufgabe 1, **N9** Aufgabe 1"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $2 \\cdot \\pi \\cdot r = 10\\pi$, also $2 \\cdot r = 10$ und $r = 5\\,\\mathrm{cm}$.\n\n*A gewählt?* $10\\,\\mathrm{cm}$ ist der Durchmesser ($U = \\pi \\cdot d$). *B gewählt?* Mit 2 multipliziert statt durch 2 geteilt. *C gewählt?* Die Formel für den Flächeninhalt benutzt ($\\pi \\cdot r^2 = 10\\pi$). → **N2** Aufgabe 2"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Der Radius ist 4-mal so groß. Im Flächeninhalt $A = \\pi \\cdot r^2$ steht der Radius im Quadrat: $4^2 = 16$ (Kontrolle: $144\\pi : 9\\pi = 16$).\n\n*A gewählt?* So ändert sich der Umfang, nicht der Flächeninhalt. *C gewählt?* Die Differenz $12 - 3 = 9$ der Radien genommen. *D gewählt?* $4^3 = 64$ – so ändert sich ein Volumen, keine Fläche. → **N4** Aufgabe 3"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $b = \\frac{50°}{360°} \\cdot 2 \\cdot \\pi \\cdot 18\\,\\mathrm{cm} = \\frac{5}{36} \\cdot 36\\pi\\,\\mathrm{cm} = 5\\pi\\,\\mathrm{cm}$\n\n*B gewählt?* Mit $\\pi \\cdot r$ statt mit $2 \\cdot \\pi \\cdot r$ gerechnet. *C gewählt?* Die Formel für den Flächeninhalt $A_S$ benutzt. *D gewählt?* Das ist der Umfang des ganzen Kreises – der Anteil $\\frac{50°}{360°}$ fehlt. → **N5** Aufgabe 1"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $A_R = \\pi \\cdot (6^2 - 4^2)\\,\\mathrm{cm^2} = \\pi \\cdot (36 - 16)\\,\\mathrm{cm^2} = 20\\pi\\,\\mathrm{cm^2}$\n\n*A gewählt?* Erst die Radien subtrahiert, dann quadriert: $(6 - 4)^2 = 4$. *B gewählt?* Die beiden Kreisflächen addiert statt subtrahiert. *D gewählt?* $(6 + 4)^2$ gerechnet. → **N6** Aufgabe 1, **N9** Aufgabe 3"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Der Rand besteht aus dem Bogen und zwei Radien: $\\frac{1}{4} \\cdot 2 \\cdot \\pi \\cdot 10\\,\\mathrm{cm} + 2 \\cdot 10\\,\\mathrm{cm} = (5\\pi + 20)\\,\\mathrm{cm}$.\n\n*A gewählt?* Nur den Bogen gezählt. *C gewählt?* Den Umfang des ganzen Kreises genommen. *D gewählt?* Nur einen Radius gezählt – der Viertelkreis wird von zwei Radien begrenzt. → **N8** Aufgabe 1"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $1\\,\\mathrm{m^2} = 100 \\cdot 100\\,\\mathrm{cm^2} = 10\\,000\\,\\mathrm{cm^2}$, also $0{,}45\\,\\mathrm{m^2} = 4\\,500\\,\\mathrm{cm^2}$.\n\n*A gewählt?* Mit 100 umgerechnet wie bei Längen. *B gewählt?* Mit 1 000 umgerechnet. *C gewählt?* Mit 100 000 umgerechnet. → **G2** Aufgabe 2"
+        },
+        {
+          "id": "V4-1i",
+          "label": "1i",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $0{,}15 \\cdot 360° = 54°$\n\n*A gewählt?* Die Prozentzahl direkt als Winkel genommen. *B gewählt?* $360 : 15$ gerechnet. *D gewählt?* Das ist der Winkel des übrigen Teils ($85\\,\\%$). → **G2** Aufgabe 1, **N5** Aufgabe 2"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\pi \\cdot r^2 = 64\\pi$, also $r^2 = 64$ und $r = 8\\,\\mathrm{cm}$ (1 P)\n\n$U = 2 \\cdot \\pi \\cdot 8\\,\\mathrm{cm} = 16\\pi\\,\\mathrm{cm}$ (1 P)\n\n→ **N2** Aufgabe 2 und 3"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Seitenlänge des Quadrats: $a = \\frac{2 \\cdot \\pi \\cdot r}{4} = \\frac{\\pi}{2} \\cdot r$, Flächeninhalt $A_Q = \\left(\\frac{\\pi}{2} \\cdot r\\right)^2 = \\frac{\\pi^2}{4} \\cdot r^2$ (1 P)\n\nVergleich mit $A_K = \\pi \\cdot r^2$: $A_Q = \\frac{\\pi}{4} \\cdot \\pi \\cdot r^2 = \\frac{\\pi}{4} \\cdot A_K$. Weil $\\pi < 4$ ist, ist $\\frac{\\pi}{4} < 1$: Das Quadrat hat nur etwa $79\\,\\%$ der Kreisfläche – für jedes r (1 P). Auch richtig: $\\frac{\\pi^2}{4} \\approx 2{,}5$ ist kleiner als $\\pi \\approx 3{,}1$.\n\n→ **N8** Aufgabe 4 und 5"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$d = \\frac{U}{\\pi} = \\frac{2{,}20\\,\\mathrm{m}}{\\pi} \\approx 0{,}70\\,\\mathrm{m}$"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Radius der Säule $0{,}35\\,\\mathrm{m}$, Innenradius $r_i = 0{,}35\\,\\mathrm{m} + 0{,}20\\,\\mathrm{m} = 0{,}55\\,\\mathrm{m}$, Außenradius $r_a = 0{,}55\\,\\mathrm{m} + 0{,}45\\,\\mathrm{m} = 1{,}00\\,\\mathrm{m}$ (1 P)\n\n$A_R = \\pi \\cdot (r_a^2 - r_i^2) = \\pi \\cdot (1{,}00^2 - 0{,}55^2)\\,\\mathrm{m^2} = \\pi \\cdot 0{,}6975\\,\\mathrm{m^2}$ (1 P)\n\n$A_R \\approx 2{,}19\\,\\mathrm{m^2}$ (1 P; mit dem ungerundeten Säulenradius ebenfalls $2{,}19\\,\\mathrm{m^2}$)\n\n→ **N6** Aufgabe 1"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$360° : 6 = 60°$ (1 P)\n\n$A_R : 6 \\approx 0{,}3653\\,\\mathrm{m^2}$, also etwa $3\\,653\\,\\mathrm{cm^2}$ (1 P; mit gerundeten Radien oder Zwischenergebnissen $3\\,650$ bis $3\\,653\\,\\mathrm{cm^2}$ – alles richtig)\n\n→ **N5** Aufgabe 2, **G2** Aufgabe 2"
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Innerer Bogen: $b_i = \\frac{60°}{360°} \\cdot 2 \\cdot \\pi \\cdot 0{,}55\\,\\mathrm{m} \\approx 0{,}58\\,\\mathrm{m}$ (1 P)\n\nÄußerer Bogen: $b_a = \\frac{60°}{360°} \\cdot 2 \\cdot \\pi \\cdot 1{,}00\\,\\mathrm{m} \\approx 1{,}05\\,\\mathrm{m}$ (1 P)\n\nDazu kommen zwei gerade Kanten von je $0{,}45\\,\\mathrm{m}$: $0{,}576\\,\\mathrm{m} + 1{,}047\\,\\mathrm{m} + 0{,}90\\,\\mathrm{m} \\approx 2{,}52\\,\\mathrm{m}$ (1 P; mit den gerundeten Bögen $2{,}53\\,\\mathrm{m}$ – ebenfalls richtig)\n\n→ **N8** Aufgabe 1, **N9** Aufgabe 5"
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Radius der Säule mit Prallschutz: $r = \\frac{2{,}90\\,\\mathrm{m}}{2 \\cdot \\pi} \\approx 0{,}46\\,\\mathrm{m}$ (genauer $0{,}4615\\,\\mathrm{m}$) (1 P)\n\nAbstand zur Bank: $0{,}55\\,\\mathrm{m} - 0{,}4615\\,\\mathrm{m} \\approx 0{,}09\\,\\mathrm{m} = 9\\,\\mathrm{cm}$ – weniger als $10\\,\\mathrm{cm}$. Die Bank ist zu knapp geplant, der Innenradius müsste etwas größer sein (1 P).\n\n→ **N4** Aufgabe 2"
+        },
+        {
+          "id": "V4-3f",
+          "label": "3f",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Bögen aller Teile ergeben zusammen immer den ganzen inneren und den ganzen äußeren Kreis: $2 \\cdot \\pi \\cdot 0{,}55\\,\\mathrm{m} + 2 \\cdot \\pi \\cdot 1{,}00\\,\\mathrm{m} \\approx 9{,}74\\,\\mathrm{m}$ – egal, aus wie vielen Teilen die Bank besteht (1 P).\n\nJedes Teil hat aber zwei gerade Kanten von $0{,}45\\,\\mathrm{m}$: bei sechs Teilen $12 \\cdot 0{,}45\\,\\mathrm{m} = 5{,}40\\,\\mathrm{m}$, bei acht Teilen $16 \\cdot 0{,}45\\,\\mathrm{m} = 7{,}20\\,\\mathrm{m}$. Man braucht also $1{,}80\\,\\mathrm{m}$ mehr Metallkante (etwa $16{,}94\\,\\mathrm{m}$ statt $15{,}14\\,\\mathrm{m}$) – die Aussage stimmt nicht (1 P).\n\n→ **N9** Aufgabe 5"
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$A = \\pi \\cdot 6^2\\,\\mathrm{m^2} = 36\\pi\\,\\mathrm{m^2} \\approx 113{,}10\\,\\mathrm{m^2}$"
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\pi \\cdot r^2 = 150$, also $r^2 = \\frac{150}{\\pi}$ und $r = \\sqrt{\\frac{150}{\\pi}}$ (1 P)\n\n$r \\approx 6{,}91\\,\\mathrm{m}$ (1 P)\n\n→ **N2** Aufgabe 3"
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Direkt um den Pflock frisst die Ziege in drei Vierteln des Kreises: $\\frac{3}{4} \\cdot 36\\pi\\,\\mathrm{m^2} = 27\\pi\\,\\mathrm{m^2} \\approx 84{,}82\\,\\mathrm{m^2}$ – so weit hat der Nachbar recht (1 P).\n\nDas Seil legt sich aber an die Stallwände: Hinter der Ecke am Ende der langen Wand bleiben noch $6\\,\\mathrm{m} - 4\\,\\mathrm{m} = 2\\,\\mathrm{m}$ Seil, hinter der Ecke am Ende der kurzen Wand $6\\,\\mathrm{m} - 3\\,\\mathrm{m} = 3\\,\\mathrm{m}$. Dort kommt je ein Viertelkreis dazu: $\\frac{1}{4} \\cdot \\pi \\cdot 2^2\\,\\mathrm{m^2} + \\frac{1}{4} \\cdot \\pi \\cdot 3^2\\,\\mathrm{m^2} = 3{,}25\\pi\\,\\mathrm{m^2}$ (1 P).\n\nZusammen $30{,}25\\pi\\,\\mathrm{m^2} \\approx 95{,}03\\,\\mathrm{m^2}$, das sind etwa $84\\,\\%$ und nicht $75\\,\\%$ der Fläche aus a). Der Nachbar hat nicht recht (1 P).\n\n*Nur drei Viertel gerechnet?* Verfolge das gespannte Seil an der Stallwand entlang um die Ecke. → **N7** Aufgabe 2, **N5** Aufgabe 1"
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{\\alpha}{360°} \\cdot 2 \\cdot \\pi \\cdot 6\\,\\mathrm{m} = 7{,}50\\,\\mathrm{m}$ (1 P)\n\n$\\alpha = \\frac{7{,}5 \\cdot 360°}{2 \\cdot \\pi \\cdot 6} \\approx 71{,}6°$ (1 P)\n\n→ **N5** Aufgabe 4 und 5"
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Neu kommt ein Kreisring mit $r_a = 7\\,\\mathrm{m}$ und $r_i = 6\\,\\mathrm{m}$ dazu: $\\pi \\cdot (7^2 - 6^2)\\,\\mathrm{m^2} = 13\\pi\\,\\mathrm{m^2} \\approx 40{,}84\\,\\mathrm{m^2}$ (1 P)\n\n$\\frac{13\\pi}{36\\pi} = \\frac{13}{36} \\approx 0{,}3611$, also wächst die Fläche um etwa $36{,}11\\,\\%$ – obwohl das Seil nur um etwa $17\\,\\%$ länger wird (1 P).\n\nWer nur $\\pi \\cdot 1^2$ rechnet, übersieht: Der Zuwachs ist ein Ring um den ganzen Kreis, nicht ein Kreis mit $1\\,\\mathrm{m}$ Radius. → **N6** Aufgabe 1 und 5"
         }
       ]
     }
