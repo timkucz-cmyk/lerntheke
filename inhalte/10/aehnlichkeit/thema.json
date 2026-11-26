@@ -3,7 +3,7 @@
   "titel": "Ähnlichkeit – Training vor dem Test",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind testrelevant. Bist du bei Winkeln, Kongruenz, Gleichungen mit Brüchen, Flächeninhalten oder dem Satz des Pythagoras unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt Kongruenz und Verhältnisgleichungen auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (zentrische Streckung), V2 nach N3 (Ähnlichkeit), V3 nach N4 bis N8 (Strahlensätze). Taschenrechner und Geodreieck sind erlaubt, außer im Tandem N5 (ohne Taschenrechner). Dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind testrelevant. Bist du bei Winkeln, Kongruenz, Gleichungen mit Brüchen, Flächeninhalten oder dem Satz des Pythagoras unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt Kongruenz und Verhältnisgleichungen auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (zentrische Streckung), V2 nach N3 (Ähnlichkeit), V3 nach N4 bis N8 (Strahlensätze). Taschenrechner und Geodreieck sind erlaubt, außer im Tandem N5 (ohne Taschenrechner). Dein Regelheft darfst du benutzen. Ganz zum Schluss prüft V4 (Probearbeit, 60 Minuten) alles wie im Test.",
   "checkliste": [
     {
       "id": "g1",
@@ -874,6 +874,182 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Die Aussage ist **falsch**. Mit 1,2 m statt 0,6 m gilt:\n\n$$\\frac{x}{2{,}5 - x} = \\frac{1{,}2}{0{,}9}$$\n\n$0{,}9x = 3 - 1{,}2x$, also $2{,}1x = 3$ und $x \\approx 1{,}43\\,\\mathrm{m}$ – nicht 2,0 m.\n\nDer Treffpunkt teilt die 2,5 m im Verhältnis der beiden Abstände zur Bande. Verdoppelt man nur einen Abstand, verdoppelt sich $x$ nicht. In der Praxis ist ohnehin nur ein ungefährer Treffpunkt möglich (Drall, Reibung, nachgebende Bande).\n\n1 P Urteil mit Rechnung, 1 P Begründung."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A ohne Taschenrechner, Teil B Taschenrechner und Geodreieck",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c2",
+        "c3",
+        "c8",
+        "c1",
+        "c4",
+        "c5",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie im Test: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Taschenrechner, danach Teil B (Aufgabe 3 und 4) mit Taschenrechner und Geodreieck. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (zentrische Streckung, Ähnlichkeit, Strahlensätze) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Von $S$ nach $P$: 6 nach links, 2 nach oben. Mal $-0{,}5$: 3 nach rechts, 1 nach unten, also $P'(3 \\mid -1)$ – auf der anderen Seite von $S$.\n\n*A gewählt?* Das Minuszeichen von $k$ vergessen. *B gewählt?* Mit $-2$ statt $-0{,}5$ multipliziert. *D gewählt?* $-0{,}5$ addiert statt multipliziert. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Bei einer zentrischen Streckung sind Strecke und Bildstrecke parallel, die Bildstrecke ist $|k|$-mal so lang, hier 3-mal.\n\n*B gewählt?* Das gilt nur für $k = 1$ (oder $k = -1$). *C gewählt?* Mit $k^2 = 9$ ändert sich der Flächeninhalt, nicht die Länge. *D gewählt?* Die Richtung bleibt erhalten. → **N1**"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Jede Länge wird halbiert, der Flächeninhalt also mit $k^2 = 0{,}5^2 = 0{,}25$ multipliziert: ein Viertel.\n\n*A gewählt?* Nur eine Länge halbiert – Grundseite *und* Höhe werden halbiert. *C gewählt?* $k < 1$ verkleinert. *D gewählt?* Strecken heißt multiplizieren, nicht abziehen. → **N2** Aufgabe 3"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Kongruente Figuren entstehen mit dem Streckfaktor $k = 1$ auseinander (und einer Kongruenzabbildung), sie sind also auch ähnlich.\n\n*A oder D gewählt?* Ähnliche Figuren haben gleiche Form, aber meist verschiedene Größe. *B gewählt?* Ein Rechteck $1 \\times 4$ und ein Quadrat $2 \\times 2$ haben denselben Flächeninhalt, sind aber nicht kongruent. → **G2** Aufgabe 3, **N3** Aufgabe 1"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Der dritte Winkel ist $180° - 35° - 80° = 65°$ bzw. $180° - 35° - 65° = 80°$. Beide Dreiecke haben die Winkel $35°$, $65°$ und $80°$ – nach Ähnlichkeitssatz (1) sind sie ähnlich.\n\n*B gewählt?* Den dritten Winkel nicht berechnet. *C gewählt?* Für Ähnlichkeit genügen die Winkel. *D gewählt?* Gleiche Winkel legen nur die Form fest, nicht die Größe. → **N3** Aufgabe 2"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Alle drei Seiten müssen mit demselben Faktor multipliziert werden: $4 \\cdot 1{,}5 = 6$, $5 \\cdot 1{,}5 = 7{,}5$, $7 \\cdot 1{,}5 = 10{,}5$ (Ähnlichkeitssatz (2)).\n\n*A oder C gewählt?* Zu allen Seiten wurde dieselbe Zahl addiert bzw. subtrahiert. *B gewählt?* Nur zwei Seiten verdoppelt, die dritte müsste $7 \\cdot 2 = 14$ sein. → **N6** Aufgabe 3"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Beim 2. Strahlensatz stehen die Parallelen im Verhältnis der Strecken *ab* $S$: $\\overline{AB} : \\overline{A'B'} = \\overline{SA} : \\overline{SA'}$. Mit dem Teilstück $\\overline{AA'}$ ist B falsch.\n\n*A, C oder D gewählt?* Diese Gleichungen gelten: A und C sind die beiden Strahlensätze, D folgt aus A, weil auch die Teilstücke im selben Verhältnis stehen. → **N6** Aufgabe 1, **N4**"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $x = \\frac{5}{8} \\cdot 12 = \\frac{60}{8} = 7{,}5$\n\n*A gewählt?* Mit dem Kehrwert gerechnet: $\\frac{8}{5} \\cdot 12$. *B gewählt?* Additiv gedacht. *C gewählt?* Nicht durch 8 geteilt. → **G2** Aufgabe 2"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Von $S$ nach $A$: 2 nach rechts, 2 nach oben. Von $S$ nach $A'$: 3 nach links, 3 nach unten – 1,5-mal so weit in die Gegenrichtung, also $k = -1{,}5$ (1 P).\n\nVon $S$ nach $B$: 2 nach rechts, 2 nach unten. Mal $-1{,}5$: 3 nach links, 3 nach oben, also $B'(-2 \\mid 2)$ (1 P). → **N2** Aufgabe 1"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "1. Strahlensatz (Teilstücke): $\\frac{\\overline{AA'}}{\\overline{SA}} = \\frac{\\overline{BB'}}{\\overline{SB}} = \\frac{2}{4} = \\frac{1}{2}$, also $\\overline{AA'} = 3\\,\\mathrm{cm}$ (1 P).\n\nDamit $\\overline{SA'} = 9\\,\\mathrm{cm}$. 2. Strahlensatz: $\\frac{\\overline{AB}}{\\overline{A'B'}} = \\frac{\\overline{SA}}{\\overline{SA'}} = \\frac{6}{9} = \\frac{2}{3}$, also $\\overline{AB} = \\frac{2}{3} \\cdot 7{,}5\\,\\mathrm{cm} = 5\\,\\mathrm{cm}$ (1 P). → **N4** Aufgabe 1"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beide Dreiecke haben den Winkel bei $B$ gemeinsam (1 P).\n\nWeil die Mauer parallel zur Torlinie steht, sind die Winkel bei $M_1$ und $P_1$ Stufenwinkel und gleich groß (ebenso bei $M_2$ und $P_2$). Die Dreiecke stimmen in allen Winkeln überein und sind nach Ähnlichkeitssatz (1) ähnlich (1 P)."
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$k = \\frac{20}{9{,}15} \\approx 2{,}19$ (1 P)\n\n$\\overline{P_1P_2} = k \\cdot \\overline{M_1M_2} = \\frac{20}{9{,}15} \\cdot 2{,}0\\,\\mathrm{m} \\approx 4{,}37\\,\\mathrm{m}$ (2. Strahlensatz) (1 P)"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Jetzt müssen die Sichtlinien genau die Pfosten $T_1$ und $T_2$ treffen: $\\frac{\\overline{M_1M_2}}{7{,}32\\,\\mathrm{m}} = \\frac{9{,}15}{20}$ (1 P).\n\n$\\overline{M_1M_2} = 7{,}32\\,\\mathrm{m} \\cdot \\frac{9{,}15}{20} \\approx 3{,}35\\,\\mathrm{m}$ (1 P)\n\n$3{,}35 : 0{,}5 = 6{,}7$, also mindestens 7 Spieler (aufrunden!) (1 P)."
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Seitenansicht: Strahlensatzfigur mit dem Zentrum $B$ (Boden), Mauer und Torlinie senkrecht, also parallel. $\\frac{h}{1{,}80\\,\\mathrm{m}} = \\frac{20}{9{,}15}$ (1 P)\n\n$h = 1{,}80\\,\\mathrm{m} \\cdot \\frac{20}{9{,}15} \\approx 3{,}93\\,\\mathrm{m}$ – das ist höher als die Latte ($2{,}44\\,\\mathrm{m}$); der Ball fliegt über das Tor (1 P)."
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Rechnung in d) setzt eine *gerade* Flugbahn voraus. Ein geschossener Ball fliegt aber auf einer gekrümmten Bahn: Er steigt, wird langsamer nach oben und fällt wieder. Er kann die Mauer in $1{,}80\\,\\mathrm{m}$ Höhe überfliegen und an der Torlinie schon wieder unter $2{,}44\\,\\mathrm{m}$ sein (1 P).\n\nAußerdem verdeckt eine $2\\,\\mathrm{m}$ breite Mauer nur etwa $4{,}37\\,\\mathrm{m}$ der $7{,}32\\,\\mathrm{m}$ Torbreite (b); ein Ball kann seitlich an ihr vorbei oder mit Drall um sie herum fliegen (1 P).\n\nDie Folgerung ist falsch, denn sie gilt nur im Modell der geraden Flugbahn. Freistöße über die Mauer sind möglich, müssen aber hinter der Mauer stark abfallen (1 P)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Weil $F$ laut Hersteller auf der Strecke $\\overline{SZ}$ liegt, gehört der Winkel bei $S$ zu beiden Dreiecken (1 P).\n\nIm Parallelogramm $ABCF$ ist $\\overline{AF} \\parallel \\overline{BC}$, also $\\overline{AF} \\parallel \\overline{BZ}$. Damit sind die Winkel bei $A$ und $B$ (und bei $F$ und $Z$) Stufenwinkel und gleich groß: ähnlich nach Ähnlichkeitssatz (1) (1 P)."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$k = \\frac{\\overline{SZ}}{\\overline{SF}} = \\frac{\\overline{SB}}{\\overline{SA}} = \\frac{30}{10} = 3$ (1 P)\n\nIm Parallelogramm ist $\\overline{BC} = \\overline{AF} = 15\\,\\mathrm{cm}$, also $\\overline{BZ} = 15\\,\\mathrm{cm} + 30\\,\\mathrm{cm} = 45\\,\\mathrm{cm}$ (1 P). Kontrolle mit dem 2. Strahlensatz: $\\overline{BZ} = 3 \\cdot \\overline{AF} = 45\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$9\\,\\mathrm{cm}$, $12\\,\\mathrm{cm}$ und $15\\,\\mathrm{cm}$ (jede Länge mal $k = 3$)"
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$3^2 + 4^2 = 9 + 16 = 25 = 5^2$: Nach der Umkehrung des Satzes von Pythagoras ist das Dreieck rechtwinklig (Katheten $3\\,\\mathrm{cm}$ und $4\\,\\mathrm{cm}$) (1 P).\n\n$A = \\frac{1}{2} \\cdot 9\\,\\mathrm{cm} \\cdot 12\\,\\mathrm{cm} = 54\\,\\mathrm{cm^2}$; Kontrolle: $k^2 \\cdot 6\\,\\mathrm{cm^2} = 9 \\cdot 6\\,\\mathrm{cm^2} = 54\\,\\mathrm{cm^2}$ (1 P)"
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$k = \\frac{5}{2} = 2{,}5$ und $k = \\frac{\\overline{SB}}{\\overline{SA}}$ (1 P)\n\n$\\overline{SA} = \\frac{30\\,\\mathrm{cm}}{2{,}5} = 12\\,\\mathrm{cm}$ (1 P)"
+        },
+        {
+          "id": "V4-4f",
+          "label": "4f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Strahlen $SB$ und $SZ^*$ werden von den Parallelen $AF$ und $BZ^*$ geschnitten. Nach dem 2. Strahlensatz gilt $\\frac{\\overline{BZ^*}}{\\overline{AF}} = \\frac{\\overline{SB}}{\\overline{SA}} = 3$ (1 P).\n\nAlso $\\overline{BZ^*} = 3 \\cdot 15\\,\\mathrm{cm} = 45\\,\\mathrm{cm}$. Das gilt in jeder Stellung, weil sich beim Bewegen nur die Winkel ändern, nicht die Längen (1 P).\n\n$Z$ liegt auf demselben Stab, auf derselben Seite von $B$ und ist $\\overline{BC} + \\overline{CZ} = 15\\,\\mathrm{cm} + 30\\,\\mathrm{cm} = 45\\,\\mathrm{cm}$ von $B$ entfernt – ohne die Angabe des Herstellers zu benutzen. Also ist $Z^* = Z$, und $S$, $F$, $Z$ liegen auf einer Geraden (1 P)."
         }
       ]
     }

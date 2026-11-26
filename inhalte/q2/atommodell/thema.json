@@ -3,7 +3,7 @@
   "titel": "Quantenmechanisches Atommodell – Trainingswoche",
   "fach": "physik",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind klausurrelevant (Klausur 2). Sind Sie bei Photonen, Photoeffekt, Quantenobjekten oder der Energie von Elektronen im elektrischen Feld unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt dieses Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N11. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 und N3 (Orbitale), V2 nach N4 bis N7 (Emission und Absorption), V3 nach N8 bis N11 (Linienspektren). N12 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N12.",
+  "hinweis": "Alle Stationen sind klausurrelevant (Klausur 2). Sind Sie bei Photonen, Photoeffekt, Quantenobjekten oder der Energie von Elektronen im elektrischen Feld unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt dieses Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N11. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 und N3 (Orbitale), V2 nach N4 bis N7 (Emission und Absorption), V3 nach N8 bis N11 (Linienspektren). N12 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N12. Ganz zum Schluss prüft V4 (Probeklausur, 90 Minuten) alles unter Klausurbedingungen.",
   "checkliste": [
     {
       "id": "g1",
@@ -1234,6 +1234,154 @@
           "punkte": 2,
           "afb": "II",
           "loesung": "$\\Delta E = E_2 - E_1 = 10{,}2\\,\\mathrm{eV}$, also $\\lambda = \\frac{h \\cdot c}{\\Delta E} \\approx 121{,}6\\,\\mathrm{nm}$ (1 P)\n\nGemessen: $\\lambda_{gem} = 1{,}212 \\cdot 121{,}6\\,\\mathrm{nm} \\approx 147\\,\\mathrm{nm}$ – weiterhin ultraviolett. Ein Teleskop für sichtbares Licht erfasst die Linie nicht. (1 P)"
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "WTR, IQB-Formeldokument",
+      "checkliste": [
+        "c6",
+        "c5",
+        "c4",
+        "c7",
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Echte Klausurbedingungen: 90 Minuten, WTR und IQB-Formeldokument (wie in der Physikklausur ohne hilfsmittelfreien Teil), grundlegendes Niveau. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Orbitale, Emission und Absorption, Linienspektren berechnen) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Durch Stöße im heißen Plasma werden Atome angeregt: Ein Elektron der Atomhülle gelangt in ein höheres Energieniveau. (1 P)\n\nBeim Übergang in ein tieferes Niveau sendet das Atom ein Photon mit genau der Energiedifferenz aus, $h \\cdot f = E_m - E_n$. Weil die Niveaus jedes Atoms diskret sind, entstehen nur bestimmte Wellenlängen – Linien, die für das Element typisch sind. (1 P)"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$$E_{Ph} = \\frac{h \\cdot c}{\\lambda} = \\frac{1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}}{1{,}067 \\cdot 10^{-6}\\,\\mathrm{m}} \\approx 1{,}862 \\cdot 10^{-19}\\,\\mathrm{J} \\approx 1{,}16\\,\\mathrm{eV}$$\n\n(1 P)\n\n$$N = \\frac{E_{Puls}}{E_{Ph}} = \\frac{0{,}014\\,\\mathrm{J}}{1{,}862 \\cdot 10^{-19}\\,\\mathrm{J}} \\approx 7{,}5 \\cdot 10^{16}$$\n\n(1 P)"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Richtig ist: Ein einzelnes Photon mit $1{,}16\\,\\mathrm{eV}$ reicht nicht, um ein Atom aus dem Grundzustand in einen Zustand $1{,}6\\,\\mathrm{eV}$ oder höher anzuregen; ein Photon wird nur absorbiert, wenn seine Energie genau zu einer Energiedifferenz passt. (1 P)\n\nDer Laser regt die Atome aber nicht direkt an. Das Gestein absorbiert in wenigen Nanosekunden sehr viele Photonen ($7{,}5 \\cdot 10^{16}$), erhitzt sich, verdampft und wird zu einem heißen Plasma. Dort regen Stöße mit schnellen Teilchen, vor allem freien Elektronen, die Atome an. (1 P)\n\nUrteil: Die Folgerung ist falsch. Der erste Satz stimmt, der Schluss nicht – die Anregung geschieht über die Erhitzung und Stöße, nicht durch Absorption einzelner Laserphotonen. (1 P)"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Gitterkonstante: $d = \\frac{1\\,\\mathrm{mm}}{1500} \\approx 6{,}667 \\cdot 10^{-7}\\,\\mathrm{m} = 666{,}7\\,\\mathrm{nm}$ (1 P)\n\nErste Ordnung: $\\sin\\alpha = \\frac{\\lambda}{d}$. Weil $\\sin\\alpha \\le 1$ sein muss, erscheinen nur Linien mit $\\lambda \\le 666{,}7\\,\\mathrm{nm}$. (1 P)\n\nDie Linien bei $670{,}8$, $766{,}5$, $769{,}9$ und $777{,}2\\,\\mathrm{nm}$ (Lithium, Kalium, Sauerstoff) fehlen; die Linie bei $656{,}3\\,\\mathrm{nm}$ läge schon bei etwa $80^\\circ$. Das Gitter ist nicht geeignet. (1 P)"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Nachgewiesen: Calcium, Eisen, Kalium, Lithium, Natrium, Sauerstoff, Silicium, Wasserstoff – zu jedem Element passen alle seine Linien aus M3. (1 P)\n\nNicht nachgewiesen: Magnesium – weder $285{,}2\\,\\mathrm{nm}$ noch $518{,}4\\,\\mathrm{nm}$ tritt in M2 auf. (1 P)"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$$E_{Ph} = \\frac{1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}}{656{,}3 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 3{,}027 \\cdot 10^{-19}\\,\\mathrm{J} \\approx 1{,}89\\,\\mathrm{eV}$$\n\n(1 P)\n\nMit $E_n$: $E_3 - E_2 = -1{,}51\\,\\mathrm{eV} - (-3{,}40\\,\\mathrm{eV}) = 1{,}89\\,\\mathrm{eV}$, also der Übergang $3 \\to 2$ (Hα). (1 P)\n\nDas Atom muss zuerst mindestens in den Zustand $n = 3$ gelangen: $E_3 - E_1 = -1{,}51\\,\\mathrm{eV} - (-13{,}6\\,\\mathrm{eV}) \\approx 12{,}1\\,\\mathrm{eV}$. (1 P)"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$766{,}5\\,\\mathrm{nm}$: $E = \\frac{1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}}{766{,}5 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 2{,}592 \\cdot 10^{-19}\\,\\mathrm{J} \\approx 1{,}618\\,\\mathrm{eV}$ (1 P)\n\n$769{,}9\\,\\mathrm{nm}$: $E \\approx 2{,}580 \\cdot 10^{-19}\\,\\mathrm{J} \\approx 1{,}611\\,\\mathrm{eV}$; die beiden Zustände liegen nur etwa $0{,}007\\,\\mathrm{eV}$ auseinander. (1 P)\n\nSchema: Grundzustand bei $0\\,\\mathrm{eV}$, darüber zwei sehr eng benachbarte Niveaus bei $1{,}611$ und $1{,}618\\,\\mathrm{eV}$, von jedem ein Pfeil nach unten zum Grundzustand, beschriftet mit $769{,}9$ bzw. $766{,}5\\,\\mathrm{nm}$. (1 P)"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Zu Beginn ist das Plasma sehr heiß und dicht, viele Elektronen sind frei. Freie Elektronen können jede Bewegungsenergie haben; werden sie abgebremst oder von Ionen eingefangen, entstehen Photonen mit beliebigen Energien – ein kontinuierliches Spektrum. (1 P; ebenso: „Das sehr heiße, dichte Plasma leuchtet wie ein glühender Körper oder ein dichtes Gas kontinuierlich.“)\n\nDas Plasma dehnt sich aus und kühlt ab; freie Elektronen werden eingefangen, es gibt vor allem gebundene Atome und Ionen. (1 P)\n\nIhre Elektronen haben nur diskrete Energieniveaus; Übergänge liefern Photonen mit festen Energien – die Linien treten aus dem schwächer werdenden Untergrund hervor. (1 P)"
+        },
+        {
+          "id": "V4-1i",
+          "label": "1i",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Linie gehört eindeutig zu Wasserstoff (Übergang $3 \\to 2$): Im Plasma dieser Probe sind besonders viele Wasserstoffatome. Aus der Atmosphäre ($\\mathrm{CO}_2$) können sie kaum stammen, also enthält das Gestein Wasserstoff. (1 P)\n\nDas Spektrum zeigt aber nur die Elemente, nicht die Verbindungen: Der Wasserstoff kann in Wasser, in wasserhaltigen Mineralen (z. B. als OH-Gruppe) oder in anderen Verbindungen gebunden sein. Auch die Sauerstofflinie hilft nicht, denn Sauerstoff steckt in fast allen Gesteinen und im $\\mathrm{CO}_2$. (1 P)\n\nUrteil: Wasserstoff im Gestein ist belegt, Wasser (gar flüssiges) nur möglich; „Wasser oder wasserhaltige Minerale“ wäre die vorsichtigere, haltbare Aussage. (1 P)"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Das Elektron hat keine Bahn. Sein Zustand wird durch ein Orbital beschrieben: einen Raumbereich, in dem es bei einer Ortsmessung mit großer Wahrscheinlichkeit nachgewiesen wird; wo genau, ist zufällig. (1 P)\n\nDas gebundene Elektron kann nur bestimmte (diskrete) Energien haben, beim Wasserstoffatom $E_n = -13{,}6\\,\\mathrm{eV} \\cdot \\frac{1}{n^2}$; zu jedem Energieniveau gehören bestimmte Orbitale, mit größerem $n$ werden sie größer. (1 P)"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$E_{109} = -\\frac{13{,}6\\,\\mathrm{eV}}{109^2} \\approx -1{,}145 \\cdot 10^{-3}\\,\\mathrm{eV}$, $E_{110} = -\\frac{13{,}6\\,\\mathrm{eV}}{110^2} \\approx -1{,}124 \\cdot 10^{-3}\\,\\mathrm{eV}$ (1 P)\n\nIonisierungsenergie aus $n = 110$: $1{,}124 \\cdot 10^{-3}\\,\\mathrm{eV} \\approx 1{,}1\\,\\mathrm{meV}$ (Abstand bis $E = 0$). (1 P)"
+        },
+        {
+          "id": "V4-2c",
+          "label": "2c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$$f = 2{,}998 \\cdot 10^{8}\\,\\mathrm{m/s} \\cdot 1{,}097 \\cdot 10^{7}\\,\\mathrm{m^{-1}} \\cdot \\left(\\frac{1}{109^2} - \\frac{1}{110^2}\\right)$$\n\n$$f \\approx 5{,}010 \\cdot 10^{9}\\,\\mathrm{Hz}$$\n\n(1 P)\n\nDas stimmt bis auf etwa $0{,}02\\,\\%$ mit dem Messwert $5{,}009\\,\\mathrm{GHz}$ überein. (Mit den gerundeten Energien aus b) ließe sich der kleine Unterschied nicht genau genug bilden.) (1 P)\n\n$\\lambda = \\frac{c}{f} = \\frac{2{,}998 \\cdot 10^{8}\\,\\mathrm{m/s}}{5{,}010 \\cdot 10^{9}\\,\\mathrm{Hz}} \\approx 0{,}060\\,\\mathrm{m} = 6{,}0\\,\\mathrm{cm}$: Mikrowellen bzw. Radiowellen. (1 P)"
+        },
+        {
+          "id": "V4-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Wegen $E_n = -13{,}6\\,\\mathrm{eV} \\cdot \\frac{1}{n^2}$ rücken die Niveaus mit wachsendem $n$ immer dichter an $E = 0$ heran; benachbarte hohe Niveaus unterscheiden sich nur um etwa $2 \\cdot 10^{-5}\\,\\mathrm{eV}$ statt $1{,}89\\,\\mathrm{eV}$ bei $3 \\to 2$. (1 P)\n\nWegen $E_{Ph} = h \\cdot f = \\frac{h \\cdot c}{\\lambda}$ gehört zu einer sehr kleinen Photonenenergie eine sehr kleine Frequenz und eine sehr große Wellenlänge – Zentimeter statt Nanometer. (1 P)"
+        },
+        {
+          "id": "V4-2e",
+          "label": "2e",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$E = E_{110} - E_2 = -0{,}0011\\,\\mathrm{eV} + 3{,}40\\,\\mathrm{eV} \\approx 3{,}399\\,\\mathrm{eV} \\approx 5{,}445 \\cdot 10^{-19}\\,\\mathrm{J}$ (1 P)\n\n$$\\lambda = \\frac{1{,}9865 \\cdot 10^{-25}\\,\\mathrm{J\\,m}}{5{,}445 \\cdot 10^{-19}\\,\\mathrm{J}} \\approx 364{,}8\\,\\mathrm{nm}$$\n\n(ultraviolett, knapp unterhalb des sichtbaren Bereichs) (1 P)\n\nDie Anregungsenergien für $n = 109$ und $n = 110$ unterscheiden sich um die Energie der Linie aus c): $\\Delta E = h \\cdot f \\approx 2{,}07 \\cdot 10^{-5}\\,\\mathrm{eV}$, also $\\Delta \\lambda \\approx 364{,}8\\,\\mathrm{nm} \\cdot \\frac{2{,}07 \\cdot 10^{-5}}{3{,}399} \\approx 0{,}0022\\,\\mathrm{nm}$. Der Laser muss also sehr genau abgestimmt sein. (1 P)"
+        },
+        {
+          "id": "V4-2f",
+          "label": "2f",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$r \\approx 110^2 \\cdot 0{,}053\\,\\mathrm{nm} = 12\\,100 \\cdot 0{,}053\\,\\mathrm{nm} \\approx 641\\,\\mathrm{nm} \\approx 0{,}64\\,\\mu\\mathrm{m}$ (1 P)\n\nDas ist $12\\,100$-mal so groß wie im Grundzustand ($0{,}053\\,\\mathrm{nm}$) – etwa so groß wie die Wellenlänge sichtbaren Lichts oder ein kleines Bakterium. (1 P)"
+        },
+        {
+          "id": "V4-2g",
+          "label": "2g",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Abstand ist kein Bahnradius: Das Elektron kreist nicht im Abstand $r$ um den Kern. (1 P)\n\nMisst man an vielen gleich präparierten Atomen den Abstand des Elektrons vom Kern, kommt dieser Wert am häufigsten vor; jede einzelne Messung liefert einen zufälligen Wert, die Verteilung (das Orbital) liegt fest. (1 P)"
+        },
+        {
+          "id": "V4-2h",
+          "label": "2h",
+          "punkte": 4,
+          "afb": "III",
+          "loesung": "Die Ionisierungsenergie aus $n = 110$ beträgt nur etwa $0{,}0011\\,\\mathrm{eV}$, ein Stoß in Luft bringt typischerweise $0{,}04\\,\\mathrm{eV}$ mit – das 35-Fache. (1 P)\n\nSchon der erste Stoß kann das Atom ionisieren oder in einen anderen Zustand werfen, und Stöße folgen im Abstand von $10^{-10}\\,\\mathrm{s}$. In Luft gibt es solche Atome praktisch nicht; im Labor braucht man ein sehr gutes Vakuum. (1 P)\n\nIm Gasnebel sind die Stöße sogar noch energiereicher, aber das Gas ist rund $10^{16}$-mal dünner: Zusammenstöße sind entsprechend seltener. (1 P)\n\nViele Rydberg-Atome überstehen deshalb die Zeit bis zum nächsten Übergang und senden ihn als Photon aus; zudem entstehen durch Einfang ständig neue. Wegen der riesigen Gasmengen reicht das für messbare Linien. (1 P)"
         }
       ]
     }

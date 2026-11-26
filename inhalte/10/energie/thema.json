@@ -3,7 +3,7 @@
   "titel": "Energie – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind testrelevant. Bist du beim Vorwissen aus früheren Jahren unsicher (Einheiten, Formeln umstellen, Gewichtskraft, Geschwindigkeit, Dichte, Ohm’sches Gesetz), beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Energie und Leistung), V2 nach N3 bis N4 (mechanische Energie), V3 nach N5 bis N9 (Wärme und Wirkungsgrad). N10 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N10.",
+  "hinweis": "Alle Stationen sind testrelevant. Bist du beim Vorwissen aus früheren Jahren unsicher (Einheiten, Formeln umstellen, Gewichtskraft, Geschwindigkeit, Dichte, Ohm’sches Gesetz), beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Energie und Leistung), V2 nach N3 bis N4 (mechanische Energie), V3 nach N5 bis N9 (Wärme und Wirkungsgrad). N10 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N10. Ganz zum Schluss prüft V4 (Probearbeit, 60 Minuten) alles wie im Test.",
   "checkliste": [
     {
       "id": "g1",
@@ -1143,6 +1143,186 @@
           "punkte": 2,
           "afb": "II",
           "loesung": "Energieerhaltung: $m \\cdot g \\cdot H = \\frac{1}{2} \\cdot m \\cdot v^2$, die Masse fällt heraus:\n\n$v = \\sqrt{2 \\cdot g \\cdot H} = \\sqrt{2 \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 5\\,\\mathrm{m}} \\approx 9{,}9\\,\\mathrm{m/s}$\n\n$9{,}9\\,\\mathrm{m/s} \\cdot 3{,}6 \\approx 36\\,\\mathrm{km/h}$"
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Taschenrechner und Regelheft",
+      "checkliste": [
+        "c9",
+        "c11",
+        "c7",
+        "c8",
+        "c1",
+        "c2",
+        "c10",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie im Test: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Hilfsmittel, danach Teil B (Aufgabe 3 und 4) mit Taschenrechner und Regelheft. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Energie und Leistung, mechanische Energie, Wärme und Wirkungsgrad) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $1{,}2\\,\\mathrm{kW} = 1\\,200\\,\\mathrm{W} = 1\\,200\\,\\frac{\\mathrm{J}}{\\mathrm{s}}$: Die Leistung gibt an, wie viel Energie in jeder Sekunde umgewandelt wird.\n\n*A gewählt?* Der Vorsatz k (Kilo) bedeutet das Tausendfache. *B gewählt?* Watt ist die Einheit der Leistung, nicht der Energie, und Energie wird nicht verbraucht. *D gewählt?* $72\\,\\mathrm{kJ}$ sind es in einer Minute. → **N2** Aufgabe 3 und 5"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $P = \\frac{W}{t} = \\frac{3\\,000\\,\\mathrm{J}}{15\\,\\mathrm{s}} = 200\\,\\mathrm{W}$\n\n*B gewählt?* Arbeit und Zeit multipliziert statt geteilt. *C gewählt?* Die Zeit fehlt – das ist die Arbeit. *D gewählt?* Zeit durch Arbeit geteilt. → **N6** Aufgabe 2"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Beide Seiten mal 2: $2 \\cdot E_{kin} = m \\cdot v^2$. Dann durch $v^2$ teilen: $m = \\frac{2 \\cdot E_{kin}}{v^2}$. Kontrolle mit Einheiten: $\\frac{\\mathrm{J}}{\\mathrm{m^2/s^2}} = \\mathrm{kg}$.\n\n*A gewählt?* Mit $\\frac{1}{2}$ muss man malnehmen, nicht teilen. *B gewählt?* Durch $v^2$ wird geteilt. *C gewählt?* Zähler und Nenner vertauscht. → **G2**, danach **N7** (Tandem)"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $F_G = m \\cdot g = 23\\,\\mathrm{kg} \\cdot 10\\,\\mathrm{N/kg} = 230\\,\\mathrm{N}$\n\n*A oder C gewählt?* Der Ortsfaktor wurde vergessen oder falsch verrechnet. *D gewählt?* Die Masse in kg ist keine Kraft. → **G2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $s = 5\\,\\mathrm{cm} = 0{,}05\\,\\mathrm{m}$, $E_{sp} = \\frac{1}{2} \\cdot 400\\,\\mathrm{N/m} \\cdot (0{,}05\\,\\mathrm{m})^2 = 200 \\cdot 0{,}0025\\,\\mathrm{J} = 0{,}5\\,\\mathrm{J}$\n\n*B gewählt?* Zentimeter nicht in Meter umgerechnet. *C gewählt?* Die Auslenkung nicht quadriert. *D gewählt?* Den Faktor $\\frac{1}{2}$ vergessen. → **N8** Aufgabe 3"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Je höher die Temperatur, desto schneller bewegen sich die Teilchen im Mittel. Die Teilchen stoßen dadurch stärker gegen die Hülle, der Ballon wird größer.\n\n*A gewählt?* Der Ballon wird größer, die Teilchen nicht – ihr Abstand wächst. *B gewählt?* Der Ballon ist verschlossen, die Anzahl der Teilchen bleibt gleich. *C gewählt?* Die Masse ändert sich beim Erwärmen nicht. → **N5** Aufgabe 1"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $T = -53 + 273 = 220$, also etwa $220\\,\\mathrm{K}$ (genau $220{,}15\\,\\mathrm{K}$).\n\n*A gewählt?* Das Minuszeichen übersehen. *C gewählt?* $273$ abgezogen statt addiert – negative Kelvin-Temperaturen gibt es nicht. *D gewählt?* Celsius und Kelvin haben verschiedene Nullpunkte. → **N5** Aufgabe 1"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Ruhendes Gas ist ein sehr schlechter Wärmeleiter, viel schlechter als Glas. Die Gasschicht verringert deshalb die Wärmeleitung von innen nach außen.\n\n*A gewählt?* „Kälte“ ist keine Energieform, die fließt. *B gewählt?* Das Gas soll gerade nicht strömen – Strömung würde Energie nach außen tragen. *D gewählt?* Die Scheiben bremsen die Wärmeleitung, sie liefern keine Energie. → **N5** Aufgabe 3 und 4"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ohm’sches Gesetz: $I = \\frac{U}{R} = \\frac{12\\,\\mathrm{V}}{4\\,\\Omega} = 3\\,\\mathrm{A}$ (1 P)\n\n$E_{el} = U \\cdot I \\cdot t = 12\\,\\mathrm{V} \\cdot 3\\,\\mathrm{A} \\cdot 10\\,\\mathrm{s} = 360\\,\\mathrm{J}$ (1 P)\n\n→ **G2** Aufgabe 2, **V1** Aufgabe 2"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Oben: $E_{Pot} = m \\cdot g \\cdot H = 40\\,\\mathrm{kg} \\cdot 10\\,\\mathrm{N/kg} \\cdot 2\\,\\mathrm{m} = 800\\,\\mathrm{J}$; unten: $E_{kin} = \\frac{1}{2} \\cdot 40\\,\\mathrm{kg} \\cdot (5\\,\\mathrm{m/s})^2 = 500\\,\\mathrm{J}$ (1 P)\n\nEnergieerhaltung: Die fehlenden $800\\,\\mathrm{J} - 500\\,\\mathrm{J} = 300\\,\\mathrm{J}$ wurden durch Reibung und Luftwiderstand zu thermischer Energie (1 P).\n\n→ **N4** Aufgabe 2, **N2** Aufgabe 4"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Anlauf wandeln die Muskeln chemische Energie in kinetische Energie um. Beim Einstechen wird kinetische Energie zu Spannenergie des gebogenen Stabs (und schon etwas zu potenzieller Energie). Beim Strecken wird die Spannenergie zu potenzieller Energie (1 P).\n\nAm höchsten Punkt hat die Springerin fast nur potenzielle Energie und einen kleinen Rest kinetischer Energie, weil sie sich noch waagerecht über die Latte bewegt. Durch Reibung im Stab und Luftwiderstand entsteht nebenbei thermische Energie (1 P)."
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$v = \\frac{32{,}4}{3{,}6}\\,\\mathrm{m/s} = 9{,}0\\,\\mathrm{m/s}$ (1 P)\n\n$$E_{kin} = \\frac{1}{2} \\cdot m \\cdot v^2 = \\frac{1}{2} \\cdot 68\\,\\mathrm{kg} \\cdot (9{,}0\\,\\mathrm{m/s})^2 = 2\\,754\\,\\mathrm{J} \\approx 2{,}8\\,\\mathrm{kJ}$$\n\n(1 P)"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$E_{kin} = m \\cdot g \\cdot H$ nach $H$ umstellen (1 P):\n\n$$H = \\frac{E_{kin}}{m \\cdot g} = \\frac{2\\,754\\,\\mathrm{J}}{68\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg}} \\approx 4{,}1\\,\\mathrm{m}$$\n\n(1 P) [mit dem Ersatzwert $2\\,800\\,\\mathrm{J}$: $4{,}2\\,\\mathrm{m}$]"
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$E_{sp} = \\frac{1}{2} \\cdot D \\cdot s^2 = \\frac{1}{2} \\cdot 3\\,200\\,\\mathrm{N/m} \\cdot (1{,}0\\,\\mathrm{m})^2 = 1\\,600\\,\\mathrm{J}$$"
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Zugewinn an potenzieller Energie: $E_{Pot} = 68\\,\\mathrm{kg} \\cdot 9{,}81\\,\\mathrm{N/kg} \\cdot 1{,}0\\,\\mathrm{m} \\approx 667\\,\\mathrm{J}$ (1 P)\n\nEnergieerhaltung: $E_{kin} = 2\\,754\\,\\mathrm{J} - 1\\,600\\,\\mathrm{J} - 667\\,\\mathrm{J} = 487\\,\\mathrm{J}$ (1 P)\n\n$$v = \\sqrt{\\frac{2 \\cdot E_{kin}}{m}} = \\sqrt{\\frac{2 \\cdot 487\\,\\mathrm{J}}{68\\,\\mathrm{kg}}} \\approx 3{,}8\\,\\mathrm{m/s}$$\n\n(1 P) [mit dem Ersatzwert $2\\,800\\,\\mathrm{J}$: $533\\,\\mathrm{J}$ und $4{,}0\\,\\mathrm{m/s}$]"
+        },
+        {
+          "id": "V4-3f",
+          "label": "3f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die $4{,}1\\,\\mathrm{m}$ aus c) sind der Höhengewinn des Schwerpunkts. Er liegt beim Absprung schon $1{,}0\\,\\mathrm{m}$ hoch und kann damit bis etwa $5{,}1\\,\\mathrm{m}$ steigen – eine Latte in $4{,}40\\,\\mathrm{m}$ Höhe ist also möglich (1 P).\n\nAußerdem drückt sie sich am Ende mit den Armen vom Stab ab: Die Muskeln wandeln dabei zusätzlich chemische Energie um. Verluste (Reibung im Stab, Luftwiderstand) und der Rest kinetischer Energie über der Latte verringern die Höhe dagegen (1 P).\n\nDie Aussage stimmt nicht: Der Sprung widerspricht der Energieerhaltung nicht, die Rechnung in c) lässt nur die Starthöhe des Schwerpunkts und die Armarbeit weg (1 P)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\Delta T = 415\\,°\\mathrm{C} - 15\\,°\\mathrm{C} = 400\\,\\mathrm{K}$ (1 P)\n\n$$Q = m \\cdot c \\cdot \\Delta T = 400\\,\\mathrm{kg} \\cdot 880\\,\\frac{\\mathrm{J}}{\\mathrm{kg} \\cdot \\mathrm{K}} \\cdot 400\\,\\mathrm{K} = 140\\,800\\,000\\,\\mathrm{J}$$\n\n$Q \\approx 141\\,\\mathrm{MJ}$ (1 P)"
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Zugeführte Energie: $E_{zu} = 22 \\cdot 15\\,\\mathrm{MJ} = 330\\,\\mathrm{MJ}$ (1 P)\n\n$$\\eta = \\frac{E_{Nutz}}{E_{zu}} = \\frac{141\\,\\mathrm{MJ}}{330\\,\\mathrm{MJ}} \\approx 0{,}43 = 43\\,\\%$$\n\n(1 P) [mit dem Ersatzwert: $42\\,\\%$]\n\nDer Rest wird thermische Energie an anderen Stellen, z. B. in den heißen Abgasen, die durch den Schornstein abziehen, im Ofenboden und in der Dämmung, in der Luft rund um den Ofen (1 P für zwei Stellen)."
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 1.5,
+          "afb": "I",
+          "loesung": "Je 0,5 P:\n\n- Steinboden: Wärmeleitung (der Teig berührt den heißen Stein).\n- Kuppel: Wärmestrahlung (die heiße Kuppel strahlt über den Luftraum hinweg auf den Belag).\n- heiße Luft: Wärmeströmung (heiße Luft und Flammengase steigen auf und streichen über die Pizza)."
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Umrechnen: $d = 0{,}10\\,\\mathrm{m}$, $T_{warm} - T_{kalt} = 380\\,\\mathrm{K}$ (1 P)\n\n$$\\dot{Q} = \\lambda \\cdot A \\cdot \\frac{T_{warm} - T_{kalt}}{d} = 0{,}10\\,\\frac{\\mathrm{W}}{\\mathrm{m} \\cdot \\mathrm{K}} \\cdot 2{,}5\\,\\mathrm{m^2} \\cdot \\frac{380\\,\\mathrm{K}}{0{,}10\\,\\mathrm{m}} = 950\\,\\mathrm{W}$$\n\n(1 P)"
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Ansatz: Der Wärmestrom aus d) gilt bei $400\\,°\\mathrm{C}$; nimmt man ihn für die ganze Nacht an, erhält man die größtmögliche Abkühlung. $t = 9\\,\\mathrm{h} = 32\\,400\\,\\mathrm{s}$, abgegebene Wärme höchstens $Q = \\dot{Q} \\cdot t = 950\\,\\mathrm{W} \\cdot 32\\,400\\,\\mathrm{s} = 30\\,780\\,000\\,\\mathrm{J} \\approx 30{,}8\\,\\mathrm{MJ}$ (1 P)\n\n$$\\Delta T = \\frac{Q}{m \\cdot c} = \\frac{30\\,780\\,000\\,\\mathrm{J}}{400\\,\\mathrm{kg} \\cdot 880\\,\\frac{\\mathrm{J}}{\\mathrm{kg} \\cdot \\mathrm{K}}} \\approx 87\\,\\mathrm{K}$$\n\nDie Kuppel hat am Morgen also noch etwa $400\\,°\\mathrm{C} - 87\\,\\mathrm{K} \\approx 313\\,°\\mathrm{C}$ (1 P) [mit dem Ersatzwert: $92\\,\\mathrm{K}$, etwa $308\\,°\\mathrm{C}$].\n\nDas gelingt: In der Rechnung ist der Wärmestrom die ganze Nacht so groß wie bei $400\\,°\\mathrm{C}$. Tatsächlich wird er kleiner, weil der Ofen abkühlt – er bleibt also eher noch wärmer. Wärme, die zusätzlich durch Tür, Schornstein und Boden verloren geht, fehlt im Modell; der Abstand zu $200\\,°\\mathrm{C}$ ist aber groß genug (1 P)."
         }
       ]
     }
