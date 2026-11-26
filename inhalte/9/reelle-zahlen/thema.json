@@ -3,7 +3,7 @@
   "titel": "Reelle Zahlen – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Brüchen, Quadratzahlen oder der Primfaktorzerlegung unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N2, V2 nach N3 bis N5, V3 nach N6 bis N9. Du rechnest ohne Taschenrechner. Nur in N3 und V2 darfst du ihn zum Multiplizieren und Quadrieren benutzen – die Wurzeltaste bleibt aus. Dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Brüchen, Quadratzahlen oder der Primfaktorzerlegung unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N2, V2 nach N3 bis N5, V3 nach N6 bis N9. Du rechnest ohne Taschenrechner. Nur in N3 und V2 darfst du ihn zum Multiplizieren und Quadrieren benutzen – die Wurzeltaste bleibt aus. Dein Regelheft darfst du benutzen. Ganz zum Schluss kannst du mit V4 (Probearbeit, 60 Minuten) wie in der Klassenarbeit üben – dort Teil B mit Taschenrechner, ohne Regelheft.",
   "checkliste": [
     {
       "id": "g1",
@@ -1314,6 +1314,178 @@
           "punkte": 1,
           "afb": "III",
           "loesung": "Zwei Schritte bedeuten den Faktor $\\sqrt{2} \\cdot \\sqrt{2} = 2$. Von 1 aus entstehen so 1, 2, 4, 8, 16 – alle rational.\n\nDazwischen steht jeweils $n \\cdot \\sqrt{2} = \\sqrt{2n^2}$ mit $n = 1, 2, 4, 8$. In $2n^2$ kommt der Faktor 2 ungerade oft vor, also ist $2n^2$ keine Quadratzahl und $n\\sqrt{2}$ irrational."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A ohne Taschenrechner, Teil B Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Taschenrechner, danach Teil B (Aufgabe 3 und 4) mit Taschenrechner, ohne Regelheft. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Quadratwurzeln, irrationale Zahlen, Rechnen mit Wurzeln) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Zähler und Nenner einzeln: $\\sqrt{121} = 11$ und $\\sqrt{36} = 6$, also $\\frac{11}{6}$. Probe: $\\left(\\frac{11}{6}\\right)^2 = \\frac{121}{36}$.\n\n*A gewählt?* Den Nenner halbiert statt die Wurzel gezogen. *B gewählt?* Nur aus dem Zähler die Wurzel gezogen. *D gewählt?* Nur aus dem Nenner die Wurzel gezogen. → **N1** Aufgabe 1"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Die Wurzel ist die Umkehrung des Quadrierens: $x = 0{,}3^2 = 0{,}3 \\cdot 0{,}3 = 0{,}09$.\n\n*B gewählt?* $0{,}9^2 = 0{,}81$ – beim Quadrieren verdoppelt sich die Zahl der Nachkommastellen. *C gewählt?* Mit 2 multipliziert statt quadriert. *D gewählt?* Durch 10 geteilt statt quadriert. → **N1** Aufgabe 3"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $-\\sqrt{\\frac{25}{16}} = -\\frac{5}{4}$ ist ein Bruch, also rational, aber keine ganze Zahl. Jede rationale Zahl ist auch reell.\n\n*A gewählt?* Ein Wurzelzeichen bedeutet nicht automatisch „irrational“ – hier geht die Wurzel auf. *B gewählt?* $-\\frac{5}{4} = -1{,}25$ ist keine ganze Zahl. *C gewählt?* Das Minus steht vor der Wurzel, nicht im Radikanden. → **N5** Aufgabe 1"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $9^2 = 81 < 90 < 100 = 10^2$, also $9 < \\sqrt{90} < 10$.\n\n*A gewählt?* $9^2 = 81$ ist kleiner als 90, die Wurzel ist also größer als 9. *C gewählt?* Durch 2 geteilt – die Wurzel ist keine Halbierung. *D gewählt?* Das sind die Quadratzahlen, nicht ihre Wurzeln. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $15 \\cdot 15 = 225$; zusammen vier Nachkommastellen: $0{,}15^2 = 0{,}0225$.\n\n*B gewählt?* Nur zwei bzw. drei Nachkommastellen gezählt. *C gewählt?* Mit 2 multipliziert statt quadriert. *D gewählt?* Eine Nachkommastelle zu viel. → **G2** Aufgabe 5"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Produktregel rückwärts: $\\sqrt{2} \\cdot \\sqrt{3} = \\sqrt{2 \\cdot 3} = \\sqrt{6}$.\n\n*A gewählt?* Wurzeln darf man nicht addieren wie Radikanden: $\\sqrt{2} + \\sqrt{4} \\approx 3{,}4$, aber $\\sqrt{6} \\approx 2{,}4$. *B gewählt?* $\\frac{\\sqrt{12}}{2} = \\frac{2\\sqrt{3}}{2} = \\sqrt{3}$. *D gewählt?* $3 \\cdot \\sqrt{2} = \\sqrt{18}$. → **N6** Aufgabe 2, **N9** Aufgabe 1"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $108 = 36 \\cdot 3$, also $\\sqrt{108} = \\sqrt{36} \\cdot \\sqrt{3} = 6\\sqrt{3}$.\n\n*A gewählt?* $3\\sqrt{6} = \\sqrt{54}$ – Faktor und Radikand vertauscht. *C gewählt?* Aus 36 die Wurzel nicht gezogen. *D gewählt?* 54 ist keine Quadratzahl und darf nicht vor die Wurzel. → **N7** Aufgabe 1"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – $6 = \\sqrt{36}$, und $30 < 36 < 40$. Also liegt 6 dazwischen und ist rational.\n\n*A gewählt?* $5 = \\sqrt{25}$ ist kleiner als $\\sqrt{30}$. *B gewählt?* $\\sqrt{35}$ liegt dazwischen, ist aber irrational (35 ist keine Quadratzahl). *C gewählt?* $6{,}5^2 = 42{,}25 > 40$. → **N3** Aufgabe 1, **N4** Aufgabe 6"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$x^2 = 75$ hat zwei Lösungen: $x = \\sqrt{75}$ oder $x = -\\sqrt{75}$ (1 P).\n\n$\\sqrt{75} = \\sqrt{25 \\cdot 3} = 5\\sqrt{3}$, also $L = \\{-5\\sqrt{3};\\ 5\\sqrt{3}\\}$ (1 P). → **N2** Aufgabe 1, **N7** Aufgabe 1"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Zahl $x - 1$ ergibt quadriert 25, also $x - 1 = 5$ oder $x - 1 = -5$ (1 P).\n\n$x = 6$ oder $x = -4$, also $L = \\{-4;\\ 6\\}$ (1 P). Probe: $5^2 = 25$ und $(-5)^2 = 25$.\n\n*Nur eine Lösung gefunden?* Auch eine negative Zahl ergibt quadriert 25. → **N2** Aufgabe 2, **N9** Aufgabe 3"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$T = 2 \\cdot \\sqrt{0{,}81} = 2 \\cdot 0{,}9 = 1{,}8$, also $1{,}8\\,\\mathrm{s}$."
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$2 \\cdot \\sqrt{\\ell} = 0{,}8 \\Rightarrow \\sqrt{\\ell} = 0{,}4$ (1 P)\n\n$\\ell = 0{,}4^2 = 0{,}16$: Das Pendel ist $0{,}16\\,\\mathrm{m} = 16\\,\\mathrm{cm}$ lang (1 P). → **N2** Aufgabe 2"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$\\ell = 1{,}25$: $T = 2 \\cdot \\sqrt{1{,}25} = \\sqrt{4 \\cdot 1{,}25} = \\sqrt{5}$ (1 P)\n\n$\\ell = 2{,}25$: $T = 2 \\cdot \\sqrt{2{,}25} = 2 \\cdot 1{,}5 = 3$ (1 P)\n\nZusammen: $\\sqrt{5} + 3 > 2 + 3 = 5$, denn $\\sqrt{5} > \\sqrt{4} = 2$. Für $\\ell = 3{,}5$ ist $T = 2 \\cdot \\sqrt{3{,}5} < 2 \\cdot \\sqrt{4} = 4$. Mehr als 5 Sekunden sind nicht dasselbe wie weniger als 4 Sekunden – Jonas hat nicht recht (1 P).\n\nDahinter steckt ein typischer Fehler: Wurzeln darf man nicht addieren wie Radikanden, $\\sqrt{a} + \\sqrt{b} \\neq \\sqrt{a + b}$. → **N9** Aufgabe 1, **N3** Aufgabe 1"
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$2 \\cdot \\sqrt{3} = \\sqrt{4} \\cdot \\sqrt{3} = \\sqrt{12}$ (1 P)\n\n$3{,}4^2 = 11{,}56 < 12$ und $3{,}5^2 = 12{,}25 > 12$, also $3{,}4 < \\sqrt{12} < 3{,}5$ (1 P). → **N3** Aufgabe 3"
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$2 \\cdot \\sqrt{\\ell}$ zwischen 1,5 und 1,6 heißt: $\\sqrt{\\ell}$ zwischen $0{,}75$ und $0{,}8$ (1 P).\n\nQuadrieren: $0{,}75^2 = 0{,}5625$ und $0{,}8^2 = 0{,}64$. Das Pendel muss zwischen $56{,}25\\,\\mathrm{cm}$ und $64\\,\\mathrm{cm}$ lang sein (1 P)."
+        },
+        {
+          "id": "V4-3f",
+          "label": "3f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Tatsächlich ist $T \\approx 2{,}006 \\cdot \\sqrt{1} = 2{,}006$, also $2{,}006\\,\\mathrm{s}$ statt $2\\,\\mathrm{s}$ (1 P).\n\nDie Uhr zählt jede Schwingung als $2\\,\\mathrm{s}$. An einem Tag ($86\\,400\\,\\mathrm{s}$) schafft das Pendel nur $86\\,400 : 2{,}006 \\approx 43\\,071$ Schwingungen statt 43 200. Die Uhr zeigt also nur etwa $86\\,141\\,\\mathrm{s}$ an und geht pro Tag rund $259\\,\\mathrm{s} \\approx 4\\,\\mathrm{min}$ nach (1 P).\n\nUrteil: Für eine Uhr ist das zu ungenau – in einem Monat wären es über 2 Stunden. Für eine Abschätzung reicht die Faustformel; für die Uhr muss das Pendel genauer eingestellt werden: $2{,}006 \\cdot \\sqrt{\\ell} = 2$ ergibt $\\ell \\approx 0{,}994\\,\\mathrm{m}$ (1 P).\n\nAuch richtig: Abweichung $0{,}006 : 2 = 0{,}3\\,\\%$ und daraus die Zeit pro Tag."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\sqrt{1\\,440\\,000} = \\sqrt{144} \\cdot \\sqrt{10\\,000} = 12 \\cdot 100 = 1200$: Die Seitenlänge ist 1200 Pixel (1 P).\n\nAuch $s = -1200$ löst die Gleichung, aber eine Seitenlänge kann nicht negativ sein (1 P)."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Ein Drittel der Pixelzahl: $1\\,440\\,000 : 3 = 480\\,000$. Exakt: $\\sqrt{480\\,000} = \\sqrt{160\\,000 \\cdot 3} = 400\\sqrt{3}$ (1 P)\n\nGerundet: $400\\sqrt{3} \\approx 692{,}82$ (1 P)\n\nDie Seitenlänge muss eine natürliche Zahl sein: $692^2 = 478\\,864$ Pixel (1 P)."
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$960\\,000 = 96 \\cdot 10\\,000 = (2^5 \\cdot 3) \\cdot (2^4 \\cdot 5^4) = 2^9 \\cdot 3 \\cdot 5^4$ (1 P)\n\nIn einer Quadratzahl kommt jeder Primfaktor gerade oft vor; hier kommen die 2 neunmal und die 3 einmal vor. 960 000 ist also keine Quadratzahl (1 P).\n\nDie Seitenlänge wäre $\\sqrt{960\\,000} = 2^4 \\cdot 5^2 \\cdot \\sqrt{2 \\cdot 3} = 400\\sqrt{6} \\approx 979{,}80$ – keine natürliche Zahl. Ein solches Foto gibt es nicht (1 P). → **G2** Aufgabe 6, **N4** Aufgabe 2"
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Angenommen, aus $s^2$ Pixeln wird durch Dritteln genau ein quadratisches Foto mit $t^2$ Pixeln ($s$, $t$ natürliche Zahlen). Dann ist $s^2 = 3t^2$, also $\\left(\\frac{s}{t}\\right)^2 = 3$ und $\\frac{s}{t} = \\sqrt{3}$ (1 P).\n\n$\\frac{s}{t}$ ist ein Bruch, also rational – aber $\\sqrt{3}$ ist irrational, weil 3 keine Quadratzahl ist. Das ist ein Widerspruch. Lena hat recht, und zwar für jedes quadratische Foto; b) ist ein Beispiel dafür (1 P).\n\nNur Beispiele ohne allgemeine Begründung: höchstens 1 P. → **N4** Aufgabe 3"
         }
       ]
     }
