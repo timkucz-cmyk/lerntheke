@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70"
+     role="img" aria-label="Testblatt mit rechtwinkligem Dreieck und Uhr: Probearbeit">
+  <style>
+    .akzent { fill: none; stroke: #B61E33; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .marke  { fill: #B61E33; }
+    .grau   { fill: none; stroke: #6b7280; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+    .hilfs  { fill: none; stroke: #9097a0; stroke-width: 1.2; stroke-linecap: round; }
+    .fuell  { fill: #B61E33; fill-opacity: .14; }
+    .text   { fill: #646a72; font: 600 11px 'Source Sans 3', system-ui, sans-serif; }
+    .gross  { font-size: 20px; font-weight: 700; }
+    @media (prefers-color-scheme: dark) {
+      .akzent { stroke: #F08A99; }
+      .marke  { fill: #F08A99; }
+      .grau   { stroke: #9aa1a9; }
+      .hilfs  { stroke: #6b7280; }
+      .fuell  { fill: #F08A99; fill-opacity: .18; }
+      .text   { fill: #9aa1a9; }
+    }
+  </style>
+  <rect class="fuell" x="36" y="8" width="46" height="56"/>
+  <rect class="grau" x="36" y="8" width="46" height="56"/>
+  <path class="grau" d="M44 18 H74 M44 26 H70"/>
+  <path class="akzent" d="M46 56 L74 56 L46 36 Z"/>
+  <circle class="akzent" cx="116" cy="38" r="18"/>
+  <path class="akzent" d="M116 38 V26 M116 38 L125 43"/>
+</svg>

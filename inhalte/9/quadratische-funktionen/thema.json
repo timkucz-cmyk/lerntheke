@@ -3,7 +3,7 @@
   "titel": "Quadratische Funktionen und Gleichungen – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Funktionen, binomischen Formeln, Termen oder Gleichungen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N14. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N4, V2 nach N5 bis N7, V3 nach N8 bis N12, V4 nach N13 bis N14. Schreibst du nur über Teil 1, reichen Phase 1 und 2 mit V1 und V2. N1 bis N12 ohne Taschenrechner, N13, N14 und V4 mit Taschenrechner. Geodreieck bereitlegen; dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Funktionen, binomischen Formeln, Termen oder Gleichungen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N14. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N4, V2 nach N5 bis N7, V3 nach N8 bis N12, V4 nach N13 bis N14. Schreibst du nur über Teil 1, reichen Phase 1 und 2 mit V1 und V2. N1 bis N12 ohne Taschenrechner, N13, N14 und V4 mit Taschenrechner. Geodreieck bereitlegen; dein Regelheft darfst du benutzen. Ganz zum Schluss kannst du mit V5 (Probearbeit, 60 Minuten) wie in der Klassenarbeit üben – dort ohne Regelheft.",
   "checkliste": [
     {
       "id": "g1",
@@ -1574,6 +1574,188 @@
           "punkte": 3,
           "afb": "III",
           "loesung": "Am meisten verdient man beim größten **Gewinn**, nicht beim größten Erlös (1 P). Der Scheitelpunkt von $G$ liegt in der Mitte der Nullstellen 1 und 5,8, also bei $p = 3{,}4$: $G(3{,}4) = 230{,}40$ €. Bei 3,00 € sind es nur $G(3) = 224$ € – der Vorschlag ist nicht der beste (1 P).\n\nGrenze des Modells, z. B.: Der lineare Zusammenhang ist nur in der Nähe der getesteten Preise gesichert; nach dem Modell würde bei 6 € niemand mehr kaufen; es werden nur ganze Waffeln verkauft (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V5",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Taschenrechner",
+      "checkliste": [
+        "c12",
+        "c13",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c5",
+        "c6",
+        "c7",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Hilfsmittel, danach Teil B (Aufgabe 3 und 4) mit Taschenrechner, ohne Regelheft. Die p,q-Formel steht auf dem Blatt. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen vier Phasen (Parabeln, Formwechsel, quadratische Gleichungen, Modellieren) – am besten ganz am Ende.",
+      "bild": "img/st_V5.svg",
+      "pdf": "pdf/V5_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V5-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $f(0{,}4) = 0{,}4 \\cdot 0{,}4 = 0{,}16$ ✓\n\n*A gewählt?* $(-1{,}5)^2 = 2{,}25$ ist positiv – die Normalparabel verläuft nie unterhalb der x-Achse. *C gewählt?* $0{,}3^2 = 0{,}09$, nicht $0{,}9$ (Kommastellen). *D gewählt?* Verdoppelt statt quadriert: $1{,}2^2 = 1{,}44$. → **N1** Aufgabe 2"
+        },
+        {
+          "id": "V5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Nach unten geöffnet heißt $a < 0$. Breiter (gestaucht) heißt: Der Betrag von $a$ ist kleiner als 1. Beides zusammen: $-1 < a < 0$.\n\n*A gewählt?* Für $a < -1$ ist die Parabel nach unten geöffnet, aber schmaler (gestreckt). *B gewählt?* Für $0 < a < 1$ ist sie breiter, aber nach oben geöffnet. *C gewählt?* Für $a > 1$ ist sie nach oben geöffnet und schmaler. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "V5-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Wegen $a = -2 < 0$ ist die Parabel nach unten geöffnet. Der Scheitelpunkt $S(1 \\mid 3)$ ist der höchste Punkt, der größte Funktionswert ist also $3$.\n\n*B gewählt?* $1$ ist die Stelle des Scheitelpunkts, nicht sein Funktionswert. *C gewählt?* $-2$ ist der Faktor $a$. *D gewählt?* Beliebig große Werte hat nur eine nach oben geöffnete Parabel – hier steht ein Minus vor der Klammer. → **N2** Aufgabe 1, **N3** Aufgabe 3"
+        },
+        {
+          "id": "V5-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Den y-Achsenabschnitt erhält man mit $x = 0$: $f(0) = (0 - 1)^2 - 4 = 1 - 4 = -3$ ✓\n\n*A gewählt?* $f(0) = (-3)^2 = 9$ – die $-3$ in der Klammer verschiebt nur nach rechts. *B gewählt?* $f(0) = 0$: Es fehlt die Zahl ohne $x$, die Parabel geht durch den Ursprung. *D gewählt?* $f(0) = 1 - 3 = -2$: In der Scheitelpunktform ist $e$ nur dann der y-Achsenabschnitt, wenn $d = 0$ ist. → **N5** Aufgabe 1 und 5"
+        },
+        {
+          "id": "V5-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Man ergänzt das Quadrat der Hälfte von 10: $\\left(\\frac{10}{2}\\right)^2 = 5^2 = 25$, denn $x^2 + 10x + 25 = (x + 5)^2$.\n\n*A gewählt?* $10^2$ statt $\\left(\\frac{10}{2}\\right)^2$ gerechnet. *B gewählt?* Die Zahl vor $x$ ist nicht die Ergänzung. *C gewählt?* $5$ ist die Hälfte – sie muss noch quadriert werden. → **N6** Aufgabe 1"
+        },
+        {
+          "id": "V5-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Nullproduktsatz: $x + 6 = 0$ oder $2x - 3 = 0$, also $x = -6$ oder $x = 1{,}5$.\n\n*A gewählt?* Vorzeichen vertauscht: Aus $x + 6 = 0$ folgt $x = -6$. *C gewählt?* Bei $2x - 3 = 0$ nicht durch 2 geteilt. *D gewählt?* Falsch herum geteilt: $2x = 3$ ergibt $x = \\frac{3}{2}$, nicht $\\frac{2}{3}$. → **N8** Aufgabe 3"
+        },
+        {
+          "id": "V5-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $p = -4$ und $q = -1$: $x_{1,2} = 2 \\pm \\sqrt{2^2 - (-1)} = 2 \\pm \\sqrt{4 + 1} = 2 \\pm \\sqrt{5}$\n\n*A gewählt?* $-\\frac{p}{2}$ ist hier $+2$, weil $p = -4$ ist. *B gewählt?* $-q$ ist $+1$: Unter der Wurzel steht $4 + 1$, nicht $4 - 1$. *D gewählt?* $p^2 = 16$ statt $\\left(\\frac{p}{2}\\right)^2 = 4$ eingesetzt. → **N9** Aufgabe 1"
+        },
+        {
+          "id": "V5-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x^2 = \\frac{1}{4}$, also $x = \\frac{1}{2}$ oder $x = -\\frac{1}{2}$: $L = \\{-0{,}5; 0{,}5\\}$\n\n→ **N8** Aufgabe 1"
+        },
+        {
+          "id": "V5-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ablesen: $S(-1 \\mid 5)$, also $f(x) = a(x + 1)^2 + 5$ (1 P).\n\n$P(1 \\mid -1)$ einsetzen: $-1 = a \\cdot 2^2 + 5$, also $4a = -6$ und $a = -1{,}5$ (1 P):\n\n$$f(x) = -1{,}5(x + 1)^2 + 5$$\n\n→ **N4** Aufgabe 1"
+        },
+        {
+          "id": "V5-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gleichsetzen: $x^2 - x + 2 = 3x + 2 \\quad \\mid -3x - 2$, also $x^2 - 4x = 0$ (1 P).\n\nAusklammern: $x(x - 4) = 0$, also $x = 0$ (das ist $P$) oder $x = 4$. Mit $g(4) = 3 \\cdot 4 + 2 = 14$ folgt $Q(4 \\mid 14)$ (1 P).\n\n→ **N10** Aufgabe 3, **N8** Aufgabe 2"
+        },
+        {
+          "id": "V5-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Tank ist nach 20 Minuten leer: Scheitelpunkt $S(20 \\mid 0)$, Ansatz $h(t) = a(t - 20)^2$ (1 P).\n\nStartwert $(0 \\mid 80)$: $80 = a \\cdot (-20)^2 = 400a$, also $a = 0{,}2$ und $h(t) = 0{,}2(t - 20)^2$ (1 P).\n\nKontrolle an der Tabelle: $h(4) = 0{,}2 \\cdot (-16)^2 = 51{,}2$ ✓, $h(12) = 0{,}2 \\cdot (-8)^2 = 12{,}8$ ✓"
+        },
+        {
+          "id": "V5-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$h(t) = 0{,}2(t^2 - 40t + 400) = 0{,}2t^2 - 8t + 80$ (1 P)\n\nDie Zahl ohne $t$ ist $h(0) = 80$: Zu Beginn steht das Wasser $80\\,\\mathrm{cm}$ hoch (1 P)."
+        },
+        {
+          "id": "V5-3c",
+          "label": "3c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$0{,}2(t - 20)^2 = 45 \\quad \\mid : 0{,}2$, also $(t - 20)^2 = 225$ (1 P)\n\n$t - 20 = 15$ oder $t - 20 = -15$, also $t = 35$ oder $t = 5$ (1 P)\n\nNach 20 Minuten ist der Tank leer, $t = 35$ passt also nicht. Nach **5 Minuten** steht das Wasser noch $45\\,\\mathrm{cm}$ hoch (1 P).\n\nAuch richtig mit der Normalform und der p,q-Formel: $0{,}2t^2 - 8t + 35 = 0$, also $t^2 - 40t + 175 = 0$ und $t_{1,2} = 20 \\pm \\sqrt{400 - 175} = 20 \\pm 15$."
+        },
+        {
+          "id": "V5-3d",
+          "label": "3d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Für $t > 20$ steigt der Graph von $h$ wieder an, zum Beispiel ist $h(25) = 5$. Das Wasser steigt aber nicht von selbst wieder – der Tank bleibt leer. Vor $t = 0$ war der Hahn noch geschlossen."
+        },
+        {
+          "id": "V5-3e",
+          "label": "3e",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Der zweite Tank leert sich genauso wie der erste Tank, sobald dieser auf $20\\,\\mathrm{cm}$ gesunken ist (gleicher Tank, gleicher Hahn) (1 P).\n\n$0{,}2(t - 20)^2 = 20$, also $(t - 20)^2 = 100$ und $t = 10$ (die zweite Lösung $t = 30$ passt nicht). Von $20\\,\\mathrm{cm}$ bis leer braucht der erste Tank also noch $20 - 10 = 10$ Minuten (1 P).\n\nDer zweite Tank ist erst nach **10 Minuten** leer – nach der Hälfte, nicht nach einem Viertel der Zeit. Mia hat nicht recht: Bei niedrigem Wasserstand fließt das Wasser langsamer aus (1 P).\n\nAuch richtig: eine neue Funktion mit demselben Faktor $a = 0{,}2$ und dem Scheitelpunkt $(T \\mid 0)$: $0{,}2 \\cdot T^2 = 20$, also $T = 10$. Mit der Tabelle allein: $20\\,\\mathrm{cm}$ werden erst zwischen 8 und 12 Minuten erreicht, danach dauert es noch mehr als 8 Minuten – auch das widerlegt Mia (2 P)."
+        },
+        {
+          "id": "V5-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$x = 1$: Die Seite gegenüber der Wand ist $10\\,\\mathrm{m} - 2 \\cdot 1\\,\\mathrm{m} = 8\\,\\mathrm{m}$ lang, $A = 1 \\cdot 8\\,\\mathrm{m^2} = 8\\,\\mathrm{m^2}$. $x = 4$: Die Seite gegenüber der Wand ist $2\\,\\mathrm{m}$ lang, $A = 4 \\cdot 2\\,\\mathrm{m^2} = 8\\,\\mathrm{m^2}$ – beide Gehege sind gleich groß."
+        },
+        {
+          "id": "V5-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die beiden Seiten, die von der Wand weg führen, verbrauchen $2x$ Meter Zaun. Für die Seite gegenüber der Wand bleiben $(10 - 2x)$ Meter (1 P).\n\n$A(x) = x \\cdot (10 - 2x) = 10x - 2x^2 = -2x^2 + 10x$ (1 P)"
+        },
+        {
+          "id": "V5-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$A(x) = -2(x^2 - 5x) = -2(x^2 - 5x + 6{,}25 - 6{,}25)$ (1 P)\n\n$A(x) = -2\\left((x - 2{,}5)^2 - 6{,}25\\right) = -2(x - 2{,}5)^2 + 12{,}5$ (1 P)"
+        },
+        {
+          "id": "V5-4d",
+          "label": "4d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Der Scheitelpunkt $S(2{,}5 \\mid 12{,}5)$ ist der höchste Punkt des Graphen. Für $x = 2{,}5$ ist die Seite gegenüber der Wand $10\\,\\mathrm{m} - 5\\,\\mathrm{m} = 5\\,\\mathrm{m}$ lang: Das größte Gehege ist $2{,}5\\,\\mathrm{m}$ mal $5\\,\\mathrm{m}$ groß und hat $12{,}5\\,\\mathrm{m^2}$."
+        },
+        {
+          "id": "V5-4e",
+          "label": "4e",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$-2x^2 + 10x = 12 \\quad \\mid -12 \\quad \\mid : (-2)$, also $x^2 - 5x + 6 = 0$ (1 P)\n\n$x_{1,2} = 2{,}5 \\pm \\sqrt{6{,}25 - 6} = 2{,}5 \\pm 0{,}5$, also $x = 2$ oder $x = 3$ (1 P)\n\nBeide Lösungen passen: $2\\,\\mathrm{m} \\times 6\\,\\mathrm{m}$ oder $3\\,\\mathrm{m} \\times 4\\,\\mathrm{m}$ (Seite gegenüber der Wand $10 - 2x$) (1 P)."
+        },
+        {
+          "id": "V5-4f",
+          "label": "4f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Bei vier Seiten gilt $2x + 2y = 10$, also $y = 5 - x$ und $A(x) = x(5 - x) = -x^2 + 5x$ (1 P).\n\nQuadratische Ergänzung: $A(x) = -(x - 2{,}5)^2 + 6{,}25$. Das größte Gehege ist ein Quadrat mit $2{,}5\\,\\mathrm{m}$ Seitenlänge und $6{,}25\\,\\mathrm{m^2}$ Fläche (1 P).\n\nDas ist nur halb so viel wie die $12{,}5\\,\\mathrm{m^2}$ an der Hauswand. Lea hat nicht recht – das Gehege wird deutlich kleiner, weil die Hauswand ein ganzes Stück Zaun ersetzt (1 P)."
         }
       ]
     }
