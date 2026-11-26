@@ -3,7 +3,7 @@
   "titel": "Klima – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind testrelevant. Bist du beim Vorwissen unsicher (Energieformen, Wärmestrahlung und Wärmekapazität, Leistung und Wirkungsgrad aus dem Thema Energie; Kraftwerke aus der Energieversorgung; Reihenschaltung aus der Elektrizitätslehre), beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg bis N11. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4 (Treibhauseffekt), V2 nach N5 bis N7 (Klimawandel), V3 nach N8 bis N11 (Klimaschutz). N12 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N12.",
+  "hinweis": "Alle Stationen sind testrelevant. Bist du beim Vorwissen unsicher (Energieformen, Wärmestrahlung und Wärmekapazität, Leistung und Wirkungsgrad aus dem Thema Energie; Kraftwerke aus der Energieversorgung; Reihenschaltung aus der Elektrizitätslehre), beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg bis N11. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4 (Treibhauseffekt), V2 nach N5 bis N7 (Klimawandel), V3 nach N8 bis N11 (Klimaschutz). N12 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N12. Die Probearbeit V4 schreibst du ganz zum Schluss wie einen Test.",
   "checkliste": [
     {
       "id": "g1",
@@ -1396,6 +1396,191 @@
           "punkte": 3,
           "afb": "III",
           "loesung": "Anteil: $\\frac{66\\,\\mathrm{t}}{37\\,000\\,000\\,000\\,\\mathrm{t}} \\approx 0{,}000\\,000\\,2\\,\\%$ – für den Meeresspiegel vor der Hallig spielt das keine messbare Rolle.\n\nUrsache: Der Anstieg kommt von der weltweiten Erwärmung durch das CO₂ aller Menschen (zusätzlicher Treibhauseffekt). Er geht auch dann weiter, wenn eine Gemeinde klimaneutral wird; selbst bei weltweitem Stopp steigt das Meer noch lange (träges Eis und Ozean).\n\nNutzen: Die Hallig spart 66 t CO₂ im Jahr, wird unabhängig vom Diesel und ist ein Beispiel, dem andere folgen können. Urteil zum Beispiel: Die Aussage ist falsch, der Plan trotzdem sinnvoll – Schutz vor dem Wasser braucht zusätzlich Deiche bzw. höhere Warften.\n\nBeim Nutzen sind auch andere begründete Urteile richtig (zum Beispiel: hohe Kosten für eine sehr kleine Einsparung). Falsch ist nur die Aussage, das Wasser steige dann nicht mehr.\n\nJe ein Punkt für jedes der drei Kriterien mit Begründung."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Taschenrechner und Regelheft",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c9",
+        "c4",
+        "c5",
+        "c6",
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie im Test: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Hilfsmittel, danach Teil B (Aufgabe 3 und 4) mit Taschenrechner und Regelheft. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Treibhauseffekt, Klimawandel, Klimaschutz) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Klima beschreibt Mittelwerte und Schwankungen des Wetters über mindestens 30 Jahre – zum Beispiel die mittlere Zahl der Frosttage pro Winter.\n\n*A oder D gewählt?* Ein bestimmter Tag oder eine Nacht ist Wetter; dafür braucht man eine Wettervorhersage. *B gewählt?* Auch ein Tag in den Ferien ist ein einzelner Tag, also Wetter – nur liegt er so weit in der Zukunft, dass ihn noch niemand vorhersagen kann. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Treibhausgase absorbieren die Wärmestrahlung des Bodens und strahlen sie nach allen Seiten wieder ab, ein großer Teil davon zurück zum Boden. Der Boden erhält also Sonnenstrahlung **und** die Wärmestrahlung der Atmosphäre.\n\n*B gewählt?* Aus dem Erdinneren kommt im Mittel nur ein winziger Bruchteil eines Watts je Quadratmeter. *C gewählt?* Die Ozonschicht hält einen Teil der UV-Strahlung ab, sie speichert kein Licht. *D gewählt?* Die Wärme aus dem Verbrennen ist viel kleiner als das, was die zusätzlichen Treibhausgase bewirken (vergleiche **N3** Aufgabe 4). → **N3** Aufgabe 1 und 3"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Methan entsteht, wenn Bakterien Pflanzenreste ohne Sauerstoff zersetzen: im Magen von Rindern und in überfluteten Reisfeldern (außerdem z. B. aus undichten Erdgasleitungen).\n\n*A oder C gewählt?* Brandrodung und Benzinmotoren setzen vor allem CO₂ frei. *B gewählt?* Treibgase alter Spraydosen (FCKW) haben die Ozonschicht geschädigt – das ist kein Methan. → **N3** Aufgabe 2"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Beide Werte sind Zunahmen pro Jahr: Die Konzentration steigt in beiden Jahrzehnten, in den 2010er-Jahren aber fast dreimal so schnell.\n\n*A gewählt?* Die Zunahme pro Jahr hat sich fast verdreifacht, nicht die Konzentration selbst – sie stieg von etwa $317\\,\\mathrm{ppm}$ (1960) auf etwa $410\\,\\mathrm{ppm}$ (2019). *C gewählt?* Eine positive Zunahme heißt, dass der Wert steigt. *D gewählt?* Die Zunahmen sind verschieden groß. → **N5** Aufgabe 1"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Beim Verbrennen verbindet sich der Kohlenstoff der Brennstoffe mit Sauerstoff aus der Luft zu CO₂. Sinkt der Sauerstoff genau in dem Maß, das zu den verbrannten Mengen passt, stammt das zusätzliche CO₂ aus dem Verbrennen – ein Beleg für den Menschen als Ursache.\n\n*B gewählt?* Dann müsste der Sauerstoffanteil steigen. *C gewählt?* Vulkane verbrauchen dabei keinen Sauerstoff aus der Luft und stoßen viel weniger CO₂ aus als die Menschen. *D gewählt?* CO₂ zerstört keinen Sauerstoff – der Sauerstoff steckt nach dem Verbrennen im CO₂. → **N6** Aufgabe 1"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Ein Kippelement ist ein Teil des Klimasystems, der sich nach Überschreiten einer Schwelle (zum Beispiel einer bestimmten Erwärmung und Trockenheit) von selbst weiter verändert – der Regenwald könnte zur Savanne werden – und kaum umkehrbar ist.\n\n*A gewählt?* Gerade das gilt jenseits der Schwelle nicht mehr. *B gewählt?* Regen- und Trockenzeit sind ein normaler Jahresgang, kein Kippen. *D gewählt?* Ein geschwächter Wald bindet weniger CO₂ und kann sogar CO₂ abgeben. → **N7** Aufgabe 4"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Ebbe und Flut entstehen durch die Anziehung des Mondes und wiederholen sich zweimal am Tag – die Energiequelle erschöpft sich in menschlichen Zeiträumen nicht, sie ist regenerativ.\n\n*A oder D gewählt?* Fossil sind nur Brennstoffe, die vor Millionen Jahren aus Lebewesen entstanden sind; das Wasser wird nicht verbraucht. *C gewählt?* Auch Wind und Sonne werden nicht verbrannt und sind trotzdem regenerative Energiequellen. → **N8** Aufgabe 1"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Freien Wasserstoff gibt es auf der Erde kaum. Man stellt ihn z. B. durch Elektrolyse mit elektrischer Energie aus Wasser her; er speichert diese Energie und gibt sie in der Brennstoffzelle wieder ab.\n\n*A oder B gewählt?* Das stimmt zwar, sagt aber nichts darüber, woher die Energie stammt. *C gewählt?* Energie entsteht nicht aus dem Nichts: Wegen der Verluste bekommt man in der Brennstoffzelle weniger heraus, als man beim Herstellen hineingesteckt hat. → **N9** Aufgabe 4"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Elektrolyseur: Wasser geht hinein, Wasserstoff und Sauerstoff kommen heraus; elektrische Energie wird in chemische Energie umgewandelt (und etwas thermische Energie) (1 P).\n\nBrennstoffzelle: Wasserstoff und Sauerstoff gehen hinein, Wasser kommt heraus; chemische Energie wird in elektrische Energie umgewandelt (und thermische Energie) (1 P).\n\n→ **N9** Aufgabe 1, **V3** Aufgabe 1"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Erwärmt sich die Erde, wird auch das Meerwasser wärmer. Es kann dann weniger CO₂ lösen: Die Meere nehmen weniger CO₂ auf oder geben sogar CO₂ ab, und mehr CO₂ bleibt in der Luft (1 P).\n\nMehr CO₂ verstärkt den zusätzlichen Treibhauseffekt, die Erde erwärmt sich weiter, das Meer wird noch wärmer … – die Erwärmung verstärkt sich selbst (verstärkende Rückkopplung) (1 P).\n\n→ **N7** Aufgabe 3 und 4"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Innenstadt: tiefste Temperatur etwa $22\\,°\\mathrm{C}$ (5 Uhr), höchste etwa $32\\,°\\mathrm{C}$ (14 bis 15 Uhr). Umland: tiefste etwa $15\\,°\\mathrm{C}$ (5 Uhr), höchste etwa $31\\,°\\mathrm{C}$ (15 Uhr). Ablesegenauigkeit $\\pm 0{,}5\\,\\mathrm{K}$ (1 P).\n\nDer Unterschied ist gegen 5 Uhr morgens am größten, etwa $7\\,\\mathrm{K}$; am Nachmittag sind es nur etwa $1\\,\\mathrm{K}$ (1 P)."
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Nein, nicht allein: Die Messung zeigt das Wetter an einem einzigen Tag (in der Innenstadt eine Tropennacht, im Umland nicht) (1 P).\n\nFür eine Aussage über das Klima braucht man Mittelwerte über mindestens 30 Jahre, zum Beispiel die mittlere Zahl der Tropennächte pro Jahr oder die mittlere Tiefsttemperatur im Sommer an beiden Stationen. Erst wenn die Innenstadt auch im Mittel wärmer ist, hat sie ein wärmeres Klima (1 P)."
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der dunkle Asphalt reflektiert nur wenig Sonnenlicht und absorbiert den größten Teil; dabei wird die Strahlungsenergie in thermische Energie umgewandelt, der Asphalt wird heiß (1 P).\n\nDie Luft direkt über dem heißen Asphalt erwärmt sich durch Wärmeleitung. Die warme Luft steigt auf und verteilt die Wärme (Wärmeströmung). Außerdem gibt der Asphalt Wärmestrahlung ab (1 P).\n\n→ **G2** Aufgabe 1"
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$Q = m \\cdot c \\cdot \\Delta T = 1\\,000\\,\\mathrm{kg} \\cdot 900\\,\\mathrm{\\frac{J}{kg \\cdot K}} \\cdot 6\\,\\mathrm{K} = 5\\,400\\,000\\,\\mathrm{J} = 5{,}4\\,\\mathrm{MJ}$$"
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$t = 10\\,\\mathrm{h} = 36\\,000\\,\\mathrm{s}$, $P = \\frac{Q}{t} = \\frac{5\\,400\\,000\\,\\mathrm{J}}{36\\,000\\,\\mathrm{s}} = 150\\,\\mathrm{W}$ je Quadratmeter (1 P) [mit dem Ersatzwert: etwa $140\\,\\mathrm{W}$]\n\nDie gespeicherte Wärme heizt die Luft der Innenstadt die ganze Nacht von unten und von den Hauswänden her. Die Wiese im Umland hat viel weniger Wärme gespeichert und kühlt durch Wärmestrahlung schnell ab. Deshalb sinkt die Temperatur in der Innenstadt langsamer, bleibt über $20\\,°\\mathrm{C}$, und der Unterschied ist am Morgen am größten (1 P)."
+        },
+        {
+          "id": "V4-3f",
+          "label": "3f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Energieerhaltung: Nach draußen gelangt die Wärme aus der Wohnung **und** zusätzlich die elektrische Energie der Anlage, die am Ende ebenfalls zu thermischer Energie wird. Die Luft der Innenstadt wird dadurch noch wärmer – die Hitze in den Straßen nimmt zu (1 P).\n\nDie elektrische Energie stammt zum Teil aus Kraftwerken mit Kohle oder Erdgas. Das CO₂ verstärkt den zusätzlichen Treibhauseffekt, sodass Hitzetage auf lange Sicht noch häufiger werden (1 P).\n\nUrteil, zum Beispiel: Klimaanlagen schützen kurzfristig die Menschen in den Wohnungen (wichtig für die Gesundheit), lösen das Problem der heißen Innenstadt aber nicht, sondern verschärfen es. Besser sind Maßnahmen, die weniger Sonnenlicht absorbieren bzw. speichern lassen, z. B. Bäume, begrünte und helle Dächer, Wasserflächen (1 P). Auch andere begründete Urteile sind richtig, wenn sie die beiden physikalischen Nachteile berücksichtigen."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Strahlungsenergie der Sonne → chemische Energie in den Torfmoosen (Photosynthese), gespeichert im Torf → beim Verbrennen thermische Energie (und etwas Licht)."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Torfschicht ist in etwa $\\frac{3\\,000\\,\\mathrm{mm}}{1\\,\\mathrm{mm}} = 3\\,000$ Jahren gewachsen (1 P).\n\nRegenerativ ist eine Energiequelle, die in menschlichen Zeiträumen nachwächst oder sich erneuert (Holz in Jahrzehnten). Abgebauter Torf wächst erst nach Jahrtausenden nach. Er ist also nicht regenerativ und gehört eher zu den fossilen Energiequellen – er ist gewissermaßen eine junge Vorstufe der Kohle, die in Millionen Jahren entstanden ist (1 P).\n\n→ **N8** Aufgabe 1 und 3"
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ohne Wasser gelangt Sauerstoff in den Torf. Bakterien zersetzen nun die Pflanzenreste, und der Kohlenstoff, der Jahrtausende im Torf gespeichert war, wird zu CO₂ (1 P).\n\nMehr CO₂ in der Luft absorbiert mehr Wärmestrahlung des Bodens und strahlt sie zum Teil zum Boden zurück. Dieser zusätzliche Treibhauseffekt erwärmt die Erde (1 P).\n\n→ **N3** Aufgabe 3"
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Moor: $250 \\cdot 30\\,\\mathrm{t} = 7\\,500\\,\\mathrm{t}$ CO₂ pro Jahr (1 P)\n\nEinwohner: $1\\,200 \\cdot 7\\,\\mathrm{t} = 8\\,400\\,\\mathrm{t}$. Das Moor stößt mit $\\frac{7\\,500}{8\\,400} \\approx 89\\,\\%$ fast so viel CO₂ aus wie alle Einwohner zusammen (1 P)."
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Methan je Hektar: $0{,}2 \\cdot 28\\,\\mathrm{t} = 5{,}6\\,\\mathrm{t}$ CO₂ (1 P)\n\nEinsparung: $(30\\,\\mathrm{t} - 5{,}6\\,\\mathrm{t}) \\cdot 250 = 24{,}4\\,\\mathrm{t} \\cdot 250 = 6\\,100\\,\\mathrm{t}$ CO₂ pro Jahr (1 P)"
+        },
+        {
+          "id": "V4-4f",
+          "label": "4f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Der Wald bindet zwar CO₂, aber der Boden bleibt trocken: Der Torf zersetzt sich weiter und gibt $30\\,\\mathrm{t}$ CO₂ je Hektar ab. Unterm Strich bleiben $30\\,\\mathrm{t} - 10\\,\\mathrm{t} = 20\\,\\mathrm{t}$ je Hektar und Jahr, für das ganze Moor $5\\,000\\,\\mathrm{t}$ (1 P).\n\nDas nasse Moor wirkt mit dem Methan nur wie $5{,}6\\,\\mathrm{t}$ CO₂ je Hektar, also etwa $1\\,400\\,\\mathrm{t}$ für das ganze Moor – deutlich weniger. Außerdem bleibt der Kohlenstoff im Torf gespeichert, und das Moor wächst wieder (1 P) [mit dem Ersatzwert: $1\\,500\\,\\mathrm{t}$].\n\nUrteil: Der Vorschlag ist für das Klima schlechter als die Wiedervernässung, weil er die Zersetzung des Torfs nicht stoppt. Wald zu pflanzen ist auf anderen, mineralischen Böden sinnvoll (1 P). Auch andere begründete Urteile sind richtig (z. B. Nachteile für die Weidewirtschaft), wenn die CO₂-Bilanz stimmt."
         }
       ]
     }
