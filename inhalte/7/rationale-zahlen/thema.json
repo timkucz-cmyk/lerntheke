@@ -3,7 +3,7 @@
   "titel": "Rechnen mit ganzen und rationalen Zahlen – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Brüchen, Kommazahlen oder der Rechenreihenfolge unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N12. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 und N2 (negative und rationale Zahlen), V2 nach N3 bis N5 (Addieren und Subtrahieren), V3 nach N6 bis N8 (Multiplizieren und Dividieren), V4 nach N9 bis N12 (Rechenarten verbinden und Rechengesetze). Ohne Taschenrechner, dein Regelheft darfst du benutzen. Rechenwege und Nebenrechnungen schreibst du in deine Notizen.",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Brüchen, Kommazahlen oder der Rechenreihenfolge unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N12. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 und N2 (negative und rationale Zahlen), V2 nach N3 bis N5 (Addieren und Subtrahieren), V3 nach N6 bis N8 (Multiplizieren und Dividieren), V4 nach N9 bis N12 (Rechenarten verbinden und Rechengesetze). Ohne Taschenrechner, dein Regelheft darfst du benutzen. Rechenwege und Nebenrechnungen schreibst du in deine Notizen. Ganz zum Schluss kannst du mit V5 (Probearbeit, 60 Minuten) wie in der Klassenarbeit üben – dort ohne Regelheft.",
   "checkliste": [
     {
       "id": "g1",
@@ -1386,6 +1386,185 @@
           "punkte": 3,
           "afb": "III",
           "loesung": "Die Aussage ist **falsch** (1 P): Die Strombilanz ist zwar positiv ($+3{,}5$ kWh), das Geld aber negativ ($-0{,}67$ €) (1 P).\n\nGrund: Eine bezogene kWh kostet dreimal so viel, wie eine abgegebene kWh einbringt ($0{,}30$ € gegen $0{,}10$ €). Damit die Familie Geld verdient, müsste sie mehr als dreimal so viel abgeben wie beziehen. Die Familie gibt aber nur $8{,}6$ kWh ab, das ist weniger als $3 \\cdot 5{,}1 = 15{,}3$ kWh (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V5",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "ohne Taschenrechner und ohne Regelheft",
+      "checkliste": [
+        "c11",
+        "c9",
+        "c10",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1), danach Teil B (Aufgabe 2 bis 4) – beides ohne Taschenrechner und ohne Regelheft. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen vier Phasen (negative und rationale Zahlen, Addieren und Subtrahieren, Multiplizieren und Dividieren, Rechenarten verbinden und Rechengesetze) – am besten ganz am Ende.",
+      "bild": "img/st_V5.svg",
+      "pdf": "pdf/V5_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V5-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $0{,}64 = \\frac{64}{100}$, mit 4 gekürzt: $\\frac{16}{25}$.\n\n*B gewählt?* $\\frac{64}{10} = 6{,}4$ – die 4 steht an der Hundertstelstelle. *C gewählt?* Die Ziffern gehören in den Zähler, nicht in den Nenner. *D gewählt?* Zähler durch 8, Nenner durch 4 geteilt – beim Kürzen teilt man beide durch dieselbe Zahl. → **G2** Aufgabe 1"
+        },
+        {
+          "id": "V5-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $7 \\cdot 3 = 21$; die Faktoren haben zusammen drei Nachkommastellen: $0{,}021$.\n\n*A gewählt?* Nur zwei Nachkommastellen gezählt. *C gewählt?* Eine Stelle zu viel. *D gewählt?* Überschlag: Das Ergebnis muss kleiner als $0{,}03$ sein, weil $0{,}7 < 1$ ist. → **G2** Aufgabe 3"
+        },
+        {
+          "id": "V5-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $-7 + 12 = 5$: 7 Grad bis 0 °C, dann noch 5 Grad weiter, also 5 °C.\n\n*A gewählt?* In die falsche Richtung gerechnet – wärmer heißt auf der Zahlengeraden nach rechts. *B gewählt?* Das Vorzeichen falsch gesetzt: Die 0 wird überschritten. *D gewählt?* Das Minus vor der 7 vergessen. → **N3** Aufgabe 2"
+        },
+        {
+          "id": "V5-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $-2{,}5$ liegt links von $-2$, ist also kleiner. Der Betrag $\\left| -2{,}5 \\right| = 2{,}5$ ist kleiner als 3.\n\n*A gewählt?* $-3{,}5 < -2$ stimmt, aber der Betrag $3{,}5$ ist größer als 3. *C gewählt?* $-1{,}5$ liegt rechts von $-2$ und ist größer. *D gewählt?* Positive Zahlen sind größer als negative. → **N1** Aufgabe 4 und 6"
+        },
+        {
+          "id": "V5-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $-8$ gehört zu $\\mathbb{Z}$, aber nicht zu $\\mathbb{N}$.\n\n*A gewählt?* 0 ist eine natürliche Zahl. *B gewählt?* $\\frac{8}{2} = 4$ ist eine natürliche Zahl. *C gewählt?* $-0{,}8$ ist rational, aber keine ganze Zahl. → **N2** Aufgabe 3"
+        },
+        {
+          "id": "V5-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $-3{,}5 - (-1{,}2) = -3{,}5 + 1{,}2 = -2{,}3$\n\n*B gewählt?* Minus vor einer negativen Zahl wird Plus – hier wurde $1{,}2$ abgezogen. *C oder D gewählt?* Das Vorzeichen des Ergebnisses passt nicht: $-3{,}5$ hat den größeren Betrag. → **N4** Aufgabe 1, **N5** Aufgabe 1"
+        },
+        {
+          "id": "V5-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Je zwei negative Faktoren ergeben zusammen etwas Positives. Negativ ist das Produkt also genau dann, wenn die Anzahl der negativen Faktoren ungerade ist: eine, drei oder fünf.\n\n*A gewählt?* Bei einer geraden Anzahl ist das Produkt positiv. *B gewählt?* Fünf ist möglich, aber nicht nötig. *D gewählt?* Auch drei negative Faktoren ergeben ein negatives Produkt. → **N6** Aufgabe 3"
+        },
+        {
+          "id": "V5-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Mit dem Kehrwert multiplizieren: $-\\frac{3}{8} \\cdot \\frac{4}{3} = -\\frac{12}{24} = -\\frac{1}{2}$.\n\n*A gewählt?* Multipliziert statt dividiert. *B gewählt?* Verschiedene Vorzeichen ergeben ein negatives Ergebnis. *C gewählt?* Vom falschen Bruch den Kehrwert genommen ($\\frac{3}{4} : \\frac{3}{8} = 2$). → **N7** Aufgabe 2"
+        },
+        {
+          "id": "V5-1i",
+          "label": "1i",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Punkt vor Strich: $-4 \\cdot (-2) - 5 \\cdot 3 = 8 - 15 = -7$\n\n*A gewählt?* $-4 \\cdot (-2) = -8$ gerechnet – minus mal minus ergibt plus. *C gewählt?* $15 - 8$ statt $8 - 15$. *D gewählt?* Von links nach rechts gerechnet: $(8 - 5) \\cdot 3$. → **N9** Aufgabe 1"
+        },
+        {
+          "id": "V5-1j",
+          "label": "1j",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Beim Subtrahieren darf man nicht vertauschen: $5 - 2 = 3$, aber $2 - 5 = -3$.\n\n*B oder C gewählt?* Beim Addieren und Multiplizieren darf man vertauschen, auch mit negativen Zahlen: $-3 + 8 = 8 + (-3)$, $(-3) \\cdot 8 = 8 \\cdot (-3)$. *D gewählt?* Ein Gegenbeispiel genügt, um ein Gesetz zu widerlegen. → **N10** Aufgabe 1"
+        },
+        {
+          "id": "V5-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "- (1) $-\\frac{3}{5} - \\frac{1}{4} = -\\frac{12}{20} - \\frac{5}{20} = -\\frac{17}{20}$\n- (2) $-1\\frac{2}{3} \\cdot \\frac{9}{10} = -\\frac{5}{3} \\cdot \\frac{9}{10} = -\\frac{45}{30} = -\\frac{3}{2} = -1\\frac{1}{2}$\n- (3) $-4{,}2 : (-0{,}06) = 420 : 6 = 70$ (beide Zahlen mit 100 multiplizieren; gleiche Vorzeichen, also positiv)\n\nJe Ergebnis 1 P. → **N5** Aufgabe 2, **N7** Aufgabe 1 und 2"
+        },
+        {
+          "id": "V5-2b",
+          "label": "2b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Klammer zuerst, darin Punkt vor Strich: $2 \\cdot (-1{,}25) = -2{,}5$ und $-4{,}5 + (-2{,}5) = -7$ (1 P)\n\nDann Punkt vor Strich: $-7 : (-2) = 3{,}5$ (1 P)\n\n$9 - 3{,}5 = 5{,}5$ (1 P)\n\n*Typischer Fehler:* zuerst $9 - (-7)$ gerechnet – das Teilen kommt vor dem Minus. → **N9** Aufgabe 1 und 2"
+        },
+        {
+          "id": "V5-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die Summe ist 0, also sind die beiden Zahlen Gegenzahlen voneinander: $a$ und $-a$. Das Produkt ist dann negativ, das passt zu $-\\frac{1}{4}$ (1 P).\n\nDer Betrag muss mit sich selbst multipliziert $\\frac{1}{4}$ ergeben: $\\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}$. Die Zahlen sind $\\frac{1}{2}$ und $-\\frac{1}{2}$. Probe: $\\frac{1}{2} + \\left(-\\frac{1}{2}\\right) = 0$ und $\\frac{1}{2} \\cdot \\left(-\\frac{1}{2}\\right) = -\\frac{1}{4}$ (1 P)."
+        },
+        {
+          "id": "V5-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$x$: $4 + (-6{,}5) + 1 = -1{,}5$ (1 P)\n\n$y$: $-1{,}5 + (-2) + 5 = 1{,}5$ (1 P)\n\nEr kommt in $E(-1{,}5 \\mid 1{,}5)$ an – links von der $y$-Achse und oberhalb der $x$-Achse. → **N1** Aufgabe 5, **N5** Aufgabe 1"
+        },
+        {
+          "id": "V5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Befehl $(1{,}5 \\mid -1{,}5)$: Beide Zahlen sind die Gegenzahlen der Koordinaten von $E(-1{,}5 \\mid 1{,}5)$."
+        },
+        {
+          "id": "V5-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$x$: $4 \\cdot (-1{,}2) = -4{,}8$ (1 P)\n\n$y$: $4 \\cdot 0{,}75 = 3$ (1 P)\n\nDer Roboter steht im Punkt $(-4{,}8 \\mid 3)$. → **N7** Aufgabe 1"
+        },
+        {
+          "id": "V5-3d",
+          "label": "3d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Der ganze Weg von $A$ nach $B$: $x$: $2 - (-4) = 6$, $y$: $-1 - 3 = -4$ (1 P)\n\nJeder der drei Befehle ist ein Drittel davon: $6 : 3 = 2$ und $(-4) : 3 = -\\frac{4}{3} = -1\\frac{1}{3}$ (1 P)\n\nBefehl: $\\left(2 \\mid -1\\frac{1}{3}\\right)$. Probe: $-4 + 3 \\cdot 2 = 2$ und $3 + 3 \\cdot \\left(-\\frac{4}{3}\\right) = 3 - 4 = -1$ ✓ (1 P)"
+        },
+        {
+          "id": "V5-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "(1) $476$; (2) $-753$; (3) $122$; (4) $-776$; (5) $-44$ (1 P)\n\n$-776 < -753 < -44 < 122 < 476$ (1 P)\n\nJe weiter links am Zeitstrahl, desto früher. → **N1** Aufgabe 3"
+        },
+        {
+          "id": "V5-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$-753 - (-776) = -753 + 776 = 23$: Es liegen 23 Jahre dazwischen. → **N4** Aufgabe 1"
+        },
+        {
+          "id": "V5-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$122 : 50 = 244 : 100 = 2{,}44$: bei $2{,}44$ cm (1 P)\n\n$-6{,}4 \\cdot 50 = -320$: Bei $-6{,}4$ cm steht das Jahr 320 v. Chr. (1 P) → **N7** Aufgabe 1"
+        },
+        {
+          "id": "V5-4d",
+          "label": "4d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "An der Zahlengeraden zählt die Rechnung von Mattis den Schritt von $-1$ zu $0$ und von $0$ zu $1$ als zwei Jahre. Weil es kein Jahr 0 gab, folgt auf 1 v. Chr. aber direkt 1 n. Chr. – das ist nur **ein** Jahr (1 P).\n\nKleines Beispiel: Vom Beginn des Jahres 2 v. Chr. bis zum Beginn des Jahres 2 n. Chr. vergehen 3 Jahre (2 v. Chr., 1 v. Chr., 1 n. Chr.), die Rechnung $2 - (-2)$ ergibt aber 4. Richtig ist hier: 753 Jahre bis zum Ende von 1 v. Chr. und 475 Jahre bis zum Beginn von 476 n. Chr., zusammen $753 + 475 = 1228$ Jahre (1 P).\n\nUrteil: Das Ergebnis von Mattis ist um 1 zu groß. Seine Rechnung stimmt nur, wenn beide Jahre auf derselben Seite von Christi Geburt liegen (wie in b). Reicht die Zeitspanne über Christi Geburt, muss man 1 abziehen (1 P)."
         }
       ]
     }
