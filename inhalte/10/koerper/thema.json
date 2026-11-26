@@ -3,7 +3,7 @@
   "titel": "Körper – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind klassenarbeitsrelevant. Bist du bei Pythagoras, Kreis, Prisma und Zylinder, beim Umstellen von Formeln oder bei Sinus, Kosinus und Tangens unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt Zylinder, Prisma und das Umstellen auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Pyramide), V2 nach N3 bis N5 (Kegel und Kugel), V3 nach N6 bis N8 (zusammengesetzte Körper). Taschenrechner und Geodreieck sind erlaubt, außer im Tandem N5 (ohne Taschenrechner, Ergebnisse mit π). Dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind klassenarbeitsrelevant. Bist du bei Pythagoras, Kreis, Prisma und Zylinder, beim Umstellen von Formeln oder bei Sinus, Kosinus und Tangens unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt Zylinder, Prisma und das Umstellen auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Pyramide), V2 nach N3 bis N5 (Kegel und Kugel), V3 nach N6 bis N8 (zusammengesetzte Körper). Taschenrechner und Geodreieck sind erlaubt, außer im Tandem N5 (ohne Taschenrechner, Ergebnisse mit π). Dein Regelheft darfst du benutzen. Ganz zum Schluss kannst du mit V4 (Probearbeit, 60 Minuten) wie in der Klassenarbeit üben – dort ohne Regelheft.",
   "checkliste": [
     {
       "id": "g1",
@@ -1028,6 +1028,192 @@
           "punkte": 1,
           "afb": "III",
           "loesung": "Die Annahme ist eine Vereinfachung. Beim Befüllen von oben bildet der Weizen einen Schüttkegel, die Oberfläche ist nicht eben: Entweder bleibt am Rand Platz frei (dann passt etwas weniger hinein), oder die Spitze des Haufens ragt in den Dachraum (dann etwas mehr). Außerdem füllt man ein Silo selten ganz randvoll, und die Dichte 0,78 t/m³ schwankt.\n\nDie 287 t sind deshalb nur ein Richtwert für die Größenordnung. 1 P für einen dieser Punkte mit Folgerung für das Ergebnis."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Taschenrechner und Geodreieck",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Hilfsmittel, danach Teil B (Aufgabe 3 und 4) mit Taschenrechner und Geodreieck, ohne Regelheft. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Pyramide, Kegel und Kugel, zusammengesetzte Körper) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Die quadratische Pyramide hat eine quadratische Grundfläche und vier dreieckige Seitenflächen: $1 + 4 = 5$.\n\n*A gewählt?* Ein Würfel hat sechs Flächen. *B gewählt?* Ein Kegel hat nur zwei Flächen, eine davon ist gekrümmt. *C gewählt?* Eine Pyramide mit dreieckiger Grundfläche hat $1 + 3 = 4$ Flächen. → **N1** Aufgabe 1 und 3"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $V = \\frac{1}{3} \\cdot G \\cdot H = \\frac{1}{3} \\cdot 6^2 \\cdot 5\\,\\mathrm{cm^3} = \\frac{1}{3} \\cdot 180\\,\\mathrm{cm^3} = 60\\,\\mathrm{cm^3}$\n\n*B gewählt?* Das $\\frac{1}{3}$ vergessen. *C gewählt?* Die Grundkante statt der Grundfläche eingesetzt: $\\frac{1}{3} \\cdot 6 \\cdot 5$. *D gewählt?* Mit $\\frac{1}{2}$ statt mit $\\frac{1}{3}$ gerechnet. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Hilfsdreieck aus $H$, der halben Grundkante $8\\,\\mathrm{cm}$ und $h_s$ als Hypotenuse: $H^2 = 10^2 - 8^2 = 100 - 64 = 36$, also $H = 6\\,\\mathrm{cm}$.\n\n*A gewählt?* Das ist die halbe Grundkante. *B gewählt?* Längen subtrahiert statt ihrer Quadrate: $10 - 8$. *D gewählt?* Quadrate addiert – $h_s$ ist aber die Hypotenuse, also die längste Seite. → **N1** Aufgabe 4"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $A = \\frac{120°}{360°} \\cdot \\pi \\cdot 6^2\\,\\mathrm{cm^2} = \\frac{1}{3} \\cdot 36\\pi\\,\\mathrm{cm^2} = 12\\pi\\,\\mathrm{cm^2}$\n\n*A gewählt?* Das ist die Bogenlänge $\\frac{1}{3} \\cdot 2 \\cdot \\pi \\cdot 6\\,\\mathrm{cm} = 4\\pi\\,\\mathrm{cm}$, kein Flächeninhalt. *C gewählt?* Das ist der ganze Kreis. *D gewählt?* Den Durchmesser statt des Radius eingesetzt. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $r = 7\\,\\mathrm{cm}$, $O = 4 \\cdot \\pi \\cdot r^2 = 4 \\cdot \\pi \\cdot 49\\,\\mathrm{cm^2} = 196\\pi\\,\\mathrm{cm^2}$\n\n*B gewählt?* Das ist nur die Fläche des Kreises $\\pi \\cdot r^2$ – die Kugeloberfläche ist viermal so groß. *C gewählt?* Den Durchmesser statt des Radius eingesetzt. *D gewählt?* Den Durchmesser eingesetzt und nicht quadriert. → **N4** Aufgabe 1"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Im Oberflächeninhalt $O = 4 \\cdot \\pi \\cdot r^2$ steht der Radius im Quadrat: $3^2 = 9$.\n\n*A gewählt?* Das Quadrat nicht beachtet. *B gewählt?* $2 \\cdot 3$ statt $3^2$ gerechnet. *D gewählt?* So ändert sich das Volumen ($3^3 = 27$). → **N4** Aufgabe 3"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Jede Würfelfläche hat $4\\,\\mathrm{cm^2}$. Außen bleiben $2 \\cdot 6 - 2 = 10$ Flächen, die beiden Kontaktflächen fallen weg: $10 \\cdot 4\\,\\mathrm{cm^2} = 40\\,\\mathrm{cm^2}$.\n\n*A gewählt?* Die Kontaktflächen mitgezählt. *B gewählt?* Nur eine der beiden Kontaktflächen abgezogen – sie gehen bei beiden Würfeln verloren. *C gewählt?* Das ist das Volumen in $\\mathrm{cm^3}$. → **N6** Aufgabe 1"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Im Hilfsdreieck aus $H$, $\\frac{a}{2}$ und $h_s$ liegt $\\alpha$ am Fuß von $h_s$: $H$ ist die Gegenkathete, $\\frac{a}{2}$ die Ankathete. $\\tan \\alpha = \\frac{H}{a : 2} = \\frac{2H}{a}$.\n\n*A gewählt?* Die ganze statt der halben Grundkante genommen. *C gewählt?* Hypotenuse und Gegenkathete vertauscht – richtig wäre $\\sin \\alpha = \\frac{H}{h_s}$. *D gewählt?* $H$ ist die Gegenkathete, nicht die Ankathete. → **N1** Aufgabe 4"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\frac{1}{3} \\cdot \\pi \\cdot r^2 \\cdot 6 = 50\\pi$, also $2 \\cdot r^2 = 50$ und $r^2 = 25$ (1 P)\n\n$r = 5\\,\\mathrm{cm}$ (1 P)\n\n→ **N5** (Tandem), **G2** Aufgabe 3"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Hilfsdreieck aus $r$, $H$ und $s$: $H^2 = 15^2 - 9^2 = 225 - 81 = 144$, also $H = 12\\,\\mathrm{cm}$ (1 P)\n\n$M = \\pi \\cdot r \\cdot s = \\pi \\cdot 9 \\cdot 15\\,\\mathrm{cm^2} = 135\\pi\\,\\mathrm{cm^2}$ (1 P)\n\n→ **N3** Aufgabe 2"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$V = \\frac{1}{3} \\cdot \\pi \\cdot r^2 \\cdot H = \\frac{1}{3} \\cdot \\pi \\cdot 3^2 \\cdot 6\\,\\mathrm{cm^3} = 18\\pi\\,\\mathrm{cm^3} \\approx 56{,}5\\,\\mathrm{cm^3}$"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Masse: $18\\pi \\cdot 1{,}6\\,\\mathrm{g} \\approx 90{,}5\\,\\mathrm{g}$ (1 P)\n\n3 Minuten sind $180\\,\\mathrm{s}$: $56{,}5\\,\\mathrm{cm^3} : 180 \\approx 0{,}3\\,\\mathrm{cm^3}$ pro Sekunde (genauer $0{,}31\\,\\mathrm{cm^3}$, exakt $\\frac{18\\pi}{180} = \\frac{\\pi}{10}$) (1 P)"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mantellinie: $s = \\sqrt{3^2 + 6^2}\\,\\mathrm{cm} = \\sqrt{45}\\,\\mathrm{cm} \\approx 6{,}71\\,\\mathrm{cm}$ (1 P)\n\n$M = \\pi \\cdot r \\cdot s = \\pi \\cdot 3 \\cdot 6{,}71\\,\\mathrm{cm^2} \\approx 63{,}2\\,\\mathrm{cm^2}$, beide Kegel: $2 \\cdot 63{,}2\\,\\mathrm{cm^2} \\approx 126{,}4\\,\\mathrm{cm^2}$ (1 P; mit $s = 6{,}71\\,\\mathrm{cm}$ direkt gerechnet $126{,}5\\,\\mathrm{cm^2}$ – ebenfalls richtig)\n\nDie Kreisflächen gehören nicht dazu – dort sind die Holzplatten. Im Mantel steht die Mantellinie $s$, nicht die Höhe $H$. → **N7** Aufgabe 3"
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Im Hilfsdreieck: $\\tan \\alpha = \\frac{H}{r} = \\frac{6}{3} = 2$, also $\\alpha \\approx 63{,}4°$."
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Der restliche Sand bildet wieder einen Kegel mit der Spitze unten. Er ist halb so hoch und – weil die Glaswand gleich geneigt bleibt – hat auch den halben Radius $1{,}5\\,\\mathrm{cm}$ (1 P).\n\nSein Volumen: $\\frac{1}{3} \\cdot \\pi \\cdot 1{,}5^2 \\cdot 3\\,\\mathrm{cm^3} = 2{,}25\\pi\\,\\mathrm{cm^3} \\approx 7{,}1\\,\\mathrm{cm^3}$ – das ist nur $\\left(\\frac{1}{2}\\right)^3 = \\frac{1}{8}$ des Sandes (1 P).\n\nEs sind also schon $\\frac{7}{8}$ des Sandes durchgelaufen: $\\frac{7}{8} \\cdot 180\\,\\mathrm{s} = 157{,}5\\,\\mathrm{s}$, das sind etwa 2 Minuten 38 Sekunden. Selin hat nicht recht – nur noch gut 20 Sekunden bleiben (1 P).\n\n*Mit der halben Menge gerechnet?* Halbe Längen geben ein Achtel des Volumens. → **N4** Aufgabe 3, **N7** Aufgabe 5"
+        },
+        {
+          "id": "V4-3f",
+          "label": "3f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In $300\\,\\mathrm{s}$ rinnen $300 \\cdot \\frac{\\pi}{10}\\,\\mathrm{cm^3} = 30\\pi\\,\\mathrm{cm^3} \\approx 94{,}2\\,\\mathrm{cm^3}$ – so viel Sand muss in einen Kegel passen (1 P).\n\n$\\frac{1}{3} \\cdot \\pi \\cdot 3^2 \\cdot H = 30\\pi$, also $3 \\cdot H = 30$ und $H = 10\\,\\mathrm{cm}$ (1 P).\n\nAuch richtig: Bei gleichem Radius ist das Kegelvolumen proportional zur Höhe. 5 statt 3 Minuten heißt $\\frac{5}{3}$ des Sandes, also $H = \\frac{5}{3} \\cdot 6\\,\\mathrm{cm} = 10\\,\\mathrm{cm}$. Mit den gerundeten Werten $0{,}3\\,\\mathrm{cm^3}$ bzw. $0{,}31\\,\\mathrm{cm^3}$ pro Sekunde erhält man etwa $9{,}5\\,\\mathrm{cm}$ bzw. $9{,}9\\,\\mathrm{cm}$ – bei richtigem Weg ebenfalls volle Punktzahl."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Hilfsdreieck aus $H = 0{,}60\\,\\mathrm{m}$ und der halben Grundkante $0{,}40\\,\\mathrm{m}$: $h_s = \\sqrt{0{,}6^2 + 0{,}4^2}\\,\\mathrm{m} = \\sqrt{0{,}52}\\,\\mathrm{m} \\approx 0{,}72\\,\\mathrm{m}$ (1 P)\n\n$\\tan \\alpha = \\frac{0{,}6}{0{,}4} = 1{,}5$, also $\\alpha \\approx 56{,}3°$ (1 P)"
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mantelfläche der Spitze: $M = 4 \\cdot \\frac{1}{2} \\cdot 0{,}8 \\cdot 0{,}721\\,\\mathrm{m^2} \\approx 1{,}15\\,\\mathrm{m^2}$ (1 P)\n\nKosten: $1{,}154 \\cdot 380\\,€ \\approx 438\\,€$ (1 P); mit dem gerundeten Wert $1{,}15\\,\\mathrm{m^2}$ sind es $437\\,€$ – beides richtig."
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Schaft: $V_Q = 0{,}8^2 \\cdot 6\\,\\mathrm{m^3} = 3{,}84\\,\\mathrm{m^3}$ (1 P)\n\nSpitze: $V_P = \\frac{1}{3} \\cdot 0{,}8^2 \\cdot 0{,}6\\,\\mathrm{m^3} = 0{,}128\\,\\mathrm{m^3}$ (1 P)\n\nZusammen $3{,}968\\,\\mathrm{m^3}$, Masse $3{,}968 \\cdot 2{,}7\\,\\mathrm{t} \\approx 10{,}7\\,\\mathrm{t}$ (1 P)"
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Deckfläche des Schafts und die Grundfläche der Spitze sind Kontaktflächen, sie fallen weg. Seiten des Schafts: $4 \\cdot 0{,}8 \\cdot 6\\,\\mathrm{m^2} = 19{,}2\\,\\mathrm{m^2}$ (1 P)\n\nMit den Seitenflächen der Spitze: $19{,}2\\,\\mathrm{m^2} + 1{,}15\\,\\mathrm{m^2} \\approx 20{,}35\\,\\mathrm{m^2}$ (1 P)\n\n→ **N6** Aufgabe 1"
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Alle Längen sind $\\frac{1}{20}$ so groß, das Volumen ist also $\\left(\\frac{1}{20}\\right)^3 = \\frac{1}{8\\,000}$ so groß (1 P).\n\n$10{,}7\\,\\mathrm{t} = 10\\,700\\,\\mathrm{kg}$, $10\\,700\\,\\mathrm{kg} : 8\\,000 \\approx 1{,}34\\,\\mathrm{kg}$ (1 P)\n\n*Durch 20 geteilt?* Das gilt nur für Längen. → **N4** Aufgabe 3"
+        },
+        {
+          "id": "V4-4f",
+          "label": "4f",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Unten ist der Querschnitt $0{,}81\\,\\mathrm{m^2}$ groß, oben $0{,}49\\,\\mathrm{m^2}$. Im Mittel sind das etwa $\\frac{0{,}81 + 0{,}49}{2}\\,\\mathrm{m^2} = 0{,}65\\,\\mathrm{m^2}$ – fast genau die $0{,}64\\,\\mathrm{m^2}$ des Quaders. Was unten mehr ist, fehlt oben (1 P).\n\nDer Schaft hat damit etwa $0{,}65 \\cdot 6\\,\\mathrm{m^3} = 3{,}9\\,\\mathrm{m^3}$ statt $3{,}84\\,\\mathrm{m^3}$, die kleinere Spitze etwas weniger – die Masse ändert sich nur um wenige Prozent. Die Näherung ist gut; für den Kran plant man ohnehin eine Reserve ein (1 P).\n\nAuch richtig: mit der mittleren Breite $0{,}80\\,\\mathrm{m}$ argumentieren, die gerade der Kantenlänge im Modell entspricht."
         }
       ]
     }

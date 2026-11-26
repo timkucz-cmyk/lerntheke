@@ -3,7 +3,7 @@
   "titel": "Energieversorgung – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind testrelevant. Bist du beim Vorwissen unsicher (Energieformen, Leistung und Wirkungsgrad, potenzielle und kinetische Energie aus dem Thema Energie; Atomkern, Strahlungsarten und Halbwertszeit aus Klasse 9), beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4 (Kraftwerke), V2 nach N5 bis N6 (Kernenergie), V3 nach N7 bis N10 (Strahlung). N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11.",
+  "hinweis": "Alle Stationen sind testrelevant. Bist du beim Vorwissen unsicher (Energieformen, Leistung und Wirkungsgrad, potenzielle und kinetische Energie aus dem Thema Energie; Atomkern, Strahlungsarten und Halbwertszeit aus Klasse 9), beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4 (Kraftwerke), V2 nach N5 bis N6 (Kernenergie), V3 nach N7 bis N10 (Strahlung). N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Ganz zum Schluss prüft V4 (Probearbeit, 60 Minuten) alles wie im Test.",
   "checkliste": [
     {
       "id": "g1",
@@ -1259,6 +1259,199 @@
           "punkte": 3,
           "afb": "III",
           "loesung": "Je ein Punkt für Argumente dafür, Argumente dagegen und ein begründetes Urteil. Zum Beispiel:\n\n- Dafür: kein radioaktiver Abfall, kein Unfallrisiko mit Strahlung, im Betrieb kein CO₂, kein Brennstoff nötig.\n- Dagegen: etwa 850 Anlagen brauchen viel Fläche und verändern die Landschaft; bei Windstille liefern sie nichts, es braucht Speicher oder regelbare Kraftwerke als Reserve.\n- Urteil, z. B.: eine gute Idee, wenn Speicher und Reservekraftwerke mitgeplant werden (begründete Gegenposition ebenso möglich)."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Taschenrechner und Regelheft",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10",
+        "c5",
+        "c6",
+        "c7",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie im Test: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Hilfsmittel, danach Teil B (Aufgabe 3 und 4) mit Taschenrechner und Regelheft. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Kraftwerke, Kernenergie, Strahlung) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $E_{kin} = \\frac{1}{2} \\cdot m \\cdot v^2$: Die Geschwindigkeit geht im Quadrat ein. Vorher $\\frac{1}{2} \\cdot 1\\,\\mathrm{kg} \\cdot (5\\,\\mathrm{m/s})^2 = 12{,}5\\,\\mathrm{J}$, nachher $\\frac{1}{2} \\cdot 1\\,\\mathrm{kg} \\cdot (10\\,\\mathrm{m/s})^2 = 50\\,\\mathrm{J}$ – das Vierfache.\n\n*A gewählt?* Das Quadrat vergessen. *C gewählt?* Die Masse bleibt gleich, die Geschwindigkeit aber nicht. *D gewählt?* Die Differenz der Geschwindigkeiten ist keine Energie. → **N3** Aufgabe 3"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $18\\,\\mathrm{MJ} : 3{,}6\\,\\mathrm{MJ} = 5$, also $18\\,\\mathrm{MJ} = 5\\,\\mathrm{kWh}$.\n\n*A gewählt?* Mit $3{,}6$ multipliziert statt geteilt. *B gewählt?* $\\mathrm{MJ}$ und $\\mathrm{kWh}$ sind verschiedene Einheiten. *C gewählt?* $3{,}6 : 18$ statt $18 : 3{,}6$ gerechnet. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Zugeführt: $P_{zu} = \\frac{300\\,\\mathrm{MW}}{0{,}4} = 750\\,\\mathrm{MW}$. Abwärme: $750\\,\\mathrm{MW} - 300\\,\\mathrm{MW} = 450\\,\\mathrm{MW}$.\n\n*B gewählt?* $60\\,\\%$ der elektrischen statt der zugeführten Leistung gerechnet. *C gewählt?* Das ist die zugeführte Leistung. *D gewählt?* $40\\,\\%$ von $300\\,\\mathrm{MW}$ – der Wirkungsgrad bezieht sich auf die zugeführte Leistung. → **N3** Aufgabe 2"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Gasturbinen lassen sich in wenigen Minuten hochfahren – Gaskraftwerke sind schnell regelbar.\n\n*A oder B gewählt?* Kessel und Reaktor großer Kohle- und Kernkraftwerke lassen sich nur langsam hochfahren. *D gewählt?* Photovoltaik ist nicht regelbar und liefert abends kaum noch Strom. → **N4** Aufgabe 1"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Massenzahlen: links $235 + 1 = 236$, rechts $137 + 97 + x = 234 + x$, also $x = 2$. Die Ordnungszahlen stimmen: $92 + 0 = 52 + 40$.\n\n*B gewählt?* Das einfallende Neutron links nicht mitgezählt. *C gewählt?* Die Zahl der Neutronen hängt von den Spaltprodukten ab, sie muss jedes Mal ausgerechnet werden. *D gewählt?* Nur die Ordnungszahlen verglichen – Neutronen haben die Ordnungszahl 0, sie zählen bei den Massenzahlen. → **N5** Aufgabe 2"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Verändert die Strahlung die Erbsubstanz (DNA) einer Zelle, kann sich die Zelle verändert weiter teilen. Daraus kann Jahre später Krebs entstehen – ein Spätschaden.\n\n*A, B oder C gewählt?* Diese Schäden treten nach einer sehr hohen Dosis schon nach Stunden bis Wochen auf, weil viele Zellen auf einmal sterben: Frühschäden. → **N7** Aufgabe 1"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Der radioaktive Zerfall hängt nicht von der Temperatur ab: Ein gekühltes Präparat strahlt genauso stark.\n\n*A gewählt?* Die Zange vergrößert den Abstand (Regel Abstand). *C gewählt?* Blei schirmt γ-Strahlung ab (Regel Abschirmung). *D gewählt?* Kürzere Zeit heißt kleinere Dosis (Regel Aufenthaltsdauer). → **N7** Aufgabe 3"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Manche Stoffe im Abfall (zum Beispiel Plutonium-239) haben Halbwertszeiten von Zehntausenden Jahren. Bis ihre Strahlung abgeklungen ist, vergehen viele Halbwertszeiten.\n\n*A gewählt?* Die Strahlung nimmt mit der Zeit ab, weil immer weniger Kerne übrig sind. *B gewählt?* Der Zerfall hängt nicht vom Ort ab – das Lager in der Tiefe schirmt nur ab. *D gewählt?* Die Strahlung des Abfalls stammt aus Zerfällen, nicht aus einer Kettenreaktion. → **N8** Aufgabe 3 und 4"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$E = P \\cdot t = 150\\,\\mathrm{MW} \\cdot 4\\,\\mathrm{h} = 600\\,\\mathrm{MWh}$ (1 P)\n\n$600\\,\\mathrm{MWh} = 600\\,000\\,\\mathrm{kWh}$, also $E = 600\\,000 \\cdot 3{,}6\\,\\mathrm{MJ} = 2\\,160\\,000\\,\\mathrm{MJ} = 2\\,160\\,\\mathrm{GJ}$ (1 P)\n\n→ **N3** Aufgabe 1"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$${}^{85}_{36}\\mathrm{Kr} \\to {}^{85}_{37}\\mathrm{Rb} + {}^{0}_{-1}\\mathrm{e}$$\n\nDie Massenzahl bleibt 85, die Ordnungszahl steigt um 1 (1 P).\n\nIm Kern wandelt sich ein Neutron in ein Proton um. Dabei entsteht ein Elektron, das als β⁻-Teilchen den Kern verlässt. Der Kern hat danach ein Proton mehr – aus Krypton wird Rubidium (1 P).\n\n→ **G2** Aufgabe 1, **N5** Aufgabe 3"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Massenzahlen $2 + 3 = 4 + 1$, Ordnungszahlen $1 + 1 = 2 + 0$: Das fehlende Teilchen hat die Massenzahl 1 und die Ordnungszahl 0, es ist ein Neutron ${}^{1}_{0}\\mathrm{n}$ (1 P).\n\nBeide Kerne haben ein Proton, beide sind Wasserstoff (Isotope). Deuterium hat ein Neutron, Tritium zwei Neutronen (1 P)."
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ausgangskerne: Bei der Fusion verschmelzen sehr leichte Kerne (Wasserstoff-Isotope) zu einem schwereren Kern (Helium). Bei der Spaltung zerfällt ein sehr schwerer Kern (Uran-235), nachdem er ein langsames Neutron eingefangen hat, in zwei mittelschwere Kerne und einige Neutronen (1 P).\n\nHerkunft der Energie – bei beiden gleich: Die Kerne und Teilchen nach der Reaktion haben zusammen etwas weniger Masse als vorher. Dieser Massendefekt wird nach $E = m \\cdot c^2$ als Energie frei, vor allem als kinetische Energie der entstehenden Teilchen (1 P)."
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Kondensator wird der Wasserdampf nach der Turbine abgekühlt und wird wieder zu Wasser. Das Wasser wird zurück zum Dampferzeuger gepumpt – der Kreislauf schließt sich. Das Kühlwasser gibt die dabei aufgenommene Wärme im Kühlturm an die Luft ab (1 P).\n\nDie Turbine kann nur einen Teil der Energie des Dampfes in kinetische Energie umwandeln. Der Rest bleibt thermische Energie des Dampfes und muss beim Kondensieren abgegeben werden. Bei $\\eta = 35\\,\\%$ gehen $65\\,\\%$ der Wärme aus der Fusion als Abwärme an die Umgebung – wie bei jedem Wärmekraftwerk (1 P)."
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$P_{el} = \\eta \\cdot P_{zu} = 0{,}35 \\cdot 2\\,000\\,\\mathrm{MW} = 700\\,\\mathrm{MW}$ (1 P)\n\n$E = P \\cdot t = 2\\,000\\,\\mathrm{MW} \\cdot 8\\,000\\,\\mathrm{h} = 16\\,000\\,000\\,\\mathrm{MWh} = 16\\,\\mathrm{TWh}$ (1 P)"
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Umrechnen: $16\\,\\mathrm{TWh} = 1{,}6 \\cdot 10^{10}\\,\\mathrm{kWh}$, also $E = 1{,}6 \\cdot 10^{10} \\cdot 3{,}6 \\cdot 10^{6}\\,\\mathrm{J} = 5{,}76 \\cdot 10^{16}\\,\\mathrm{J}$ (1 P)\n\n$$\\Delta m = \\frac{E}{c^2} = \\frac{5{,}76 \\cdot 10^{16}\\,\\mathrm{J}}{(3{,}00 \\cdot 10^{8}\\,\\mathrm{m/s})^2} = 0{,}64\\,\\mathrm{kg}$$\n\n(1 P) [mit dem Ersatzwert $10\\,\\mathrm{TWh}$: $3{,}6 \\cdot 10^{16}\\,\\mathrm{J}$ und $0{,}40\\,\\mathrm{kg}$]"
+        },
+        {
+          "id": "V4-3f",
+          "label": "3f",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Die $0{,}64\\,\\mathrm{kg}$ sind nur der Massendefekt: die Masse, um die Helium und Neutronen zusammen leichter sind als die verschmolzenen Deuterium- und Tritiumkerne. Fast die ganze Masse des Brennstoffs bleibt erhalten – als Helium und Neutronen (1 P).\n\nBei jeder Fusion wird nur ein kleiner Teil der Masse zu Energie (wie bei der Kernspaltung). Verschmolzen werden müssen also viel mehr als $0{,}64\\,\\mathrm{kg}$ Deuterium und Tritium – die Folgerung ist falsch (1 P).\n\nZur Information (nicht verlangt): Bei der Fusion von Deuterium und Tritium werden nur etwa $0{,}4\\,\\%$ der Masse zu Energie, das Kraftwerk bräuchte etwa $170\\,\\mathrm{kg}$ im Jahr. Das ist trotzdem sehr wenig im Vergleich zu Kohle (für dieselbe Wärme rund 1,9 Millionen Tonnen)."
+        },
+        {
+          "id": "V4-3g",
+          "label": "3g",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bei der Kernspaltung setzt jede Spaltung Neutronen frei, die neue Spaltungen auslösen. Ohne Steuerstäbe kann die Zahl der Spaltungen deshalb lawinenartig wachsen (1 P).\n\nBei der Fusion löst das frei werdende Neutron keine neue Fusion aus. Kerne verschmelzen nur, solange das Plasma extrem heiß ist und zusammengehalten wird. Kühlt es bei einer Störung ab, hört die Fusion sofort auf – die Leistung kann sich nicht von selbst aufschaukeln (1 P)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$${}^{238}_{94}\\mathrm{Pu} \\to {}^{234}_{92}\\mathrm{U} + {}^{4}_{2}\\mathrm{He}$$\n\nMassenzahl $238 - 4 = 234$, Ordnungszahl $94 - 2 = 92$ (Uran)."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Kernenergie (beim Zerfall) → kinetische Energie der α-Teilchen → thermische Energie des Plutoniums → elektrische Energie (Thermoelemente) → in den Geräten zum Beispiel Strahlungsenergie (Licht, Funk) und thermische Energie (1 P).\n\nUnterschiede, zum Beispiel: Die Energie stammt aus dem natürlichen radioaktiven Zerfall, nicht aus Kernspaltungen mit Kettenreaktion – es gibt keine Steuerstäbe, die Batterie lässt sich nicht abschalten. Es gibt keinen Wasserdampf, keine Turbine und keinen Generator (1 P für zwei Unterschiede)."
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\eta = \\frac{P_{Nutz}}{P_{zu}} = \\frac{120\\,\\mathrm{W}}{2\\,000\\,\\mathrm{W}} = 0{,}06 = 6\\,\\%$ (1 P)\n\nAbwärme: $2\\,000\\,\\mathrm{W} - 120\\,\\mathrm{W} = 1\\,880\\,\\mathrm{W}$ (1 P)"
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "α-Teilchen haben eine sehr kleine Reichweite: Sie geben ihre ganze Energie schon im Plutonium ab und erwärmen es. Das Metallgehäuse hält die α-Strahlung vollständig zurück (1 P).\n\nγ-Strahlung durchdringt Stoffe leicht. Sie würde einen großen Teil der Energie aus der Batterie heraustragen, statt sie zu erwärmen, und bräuchte eine dicke Abschirmung aus Blei – zu schwer für eine Raumsonde und gefährlich für alle, die die Batterie einbauen (1 P)."
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "88 Jahre sind eine Halbwertszeit: Die Hälfte des Plutoniums ist zerfallen, die Leistung ist $1\\,000\\,\\mathrm{W}$. 176 Jahre sind zwei Halbwertszeiten: noch ein Viertel, also $500\\,\\mathrm{W}$."
+        },
+        {
+          "id": "V4-4f",
+          "label": "4f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Je ein Punkt für Argumente gegen die Forderung, für die Forderung und ein begründetes Urteil. Zum Beispiel:\n\n- Nutzen der Batterie: Beim Saturn ist das Sonnenlicht etwa 90-mal schwächer. Für $120\\,\\mathrm{W}$ bräuchte die Sonde etwa 90-mal so große Solarzellen wie bei der Erde – sehr große, schwere Flächen. Die Batterie liefert jahrzehntelang zuverlässig Energie, auch im Schatten des Planeten, und ihre Abwärme hält die Geräte im kalten Weltraum warm.\n- Gefahren: Bei einem Fehlstart könnte Plutonium freigesetzt werden. Als feiner Staub eingeatmet, schädigt der α-Strahler das Gewebe von innen. Herstellung und Transport sind aufwendig und müssen streng gesichert werden.\n- Urteil, zum Beispiel: Für die Saturnsonde ist die Batterie trotz des Risikos sinnvoll, wenn das Gehäuse einen Unfall sicher übersteht; für Sonden in Sonnennähe sind Solarzellen die bessere Wahl (begründete Gegenposition ebenso möglich)."
         }
       ]
     }

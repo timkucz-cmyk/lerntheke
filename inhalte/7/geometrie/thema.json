@@ -3,7 +3,7 @@
   "titel": "Winkel, Dreiecke und Konstruktionen – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du beim Messen und Zeichnen von Winkeln, bei Dreiecksarten, Kreisen oder Koordinaten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** folgen dem Lernweg von N1 bis N10. Wenig Zeit? Dann zuerst N1, N3, N4 und N7. Bist du bei Winkelsummen unsicher, nimm N2 dazu. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 und N2, V2 nach N3 bis N6, V3 nach N7 bis N10. N9 und V3 bearbeitest du, sobald Umkreis und Inkreis im Unterricht dran waren. Winkelaufgaben rechnest und begründest du in deinen Notizen. **Konstruktionen** machst du auf Papier mit Zirkel und Geodreieck – wie in der Arbeit (1 LE = 1 cm = 2 Kästchen). Ohne Taschenrechner; dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du beim Messen und Zeichnen von Winkeln, bei Dreiecksarten, Kreisen oder Koordinaten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt ihn auf. Die **neuen Themen** folgen dem Lernweg von N1 bis N10. Wenig Zeit? Dann zuerst N1, N3, N4 und N7. Bist du bei Winkelsummen unsicher, nimm N2 dazu. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 und N2, V2 nach N3 bis N6, V3 nach N7 bis N10. N9 und V3 bearbeitest du, sobald Umkreis und Inkreis im Unterricht dran waren. Winkelaufgaben rechnest und begründest du in deinen Notizen. **Konstruktionen** machst du auf Papier mit Zirkel und Geodreieck – wie in der Arbeit (1 LE = 1 cm = 2 Kästchen). Ohne Taschenrechner; dein Regelheft darfst du benutzen. Ganz zum Schluss kannst du mit V4 (Probearbeit, 60 Minuten) wie in der Klassenarbeit üben – dort ohne Regelheft.",
   "checkliste": [
     {
       "id": "g1",
@@ -1164,6 +1164,218 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Abstand von U zu $\\overline{AC}$: 4 cm, also 20 m. Abstand zu $\\overline{CB}$: 3 cm, also 15 m (Lote im Raster) (1 P).\n\nDie Aussage ist **falsch**. Gleich weit von allen Hofrändern ist nur der Inkreismittelpunkt I (10 m). U ist gleich weit von den **Eingängen** (Ecken) (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Geodreieck, Zirkel, Karopapier (ohne Taschenrechner)",
+      "checkliste": [
+        "c13",
+        "c10",
+        "c11",
+        "c12",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1) ohne Hilfsmittel, danach Teil B (Aufgabe 2 bis 5) mit Geodreieck und Zirkel, aber ohne Taschenrechner und ohne Regelheft. Konstruktionen auf Papier. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Winkel an Geraden und Winkelsummen, gleichschenklige Dreiecke und Thales, Konstruktionen und besondere Linien) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Zwischen zwei Ziffern liegen $360° : 12 = 30°$. Von der 12 bis zur 4 sind es vier Abschnitte: $4 \\cdot 30° = 120°$.\n\n*A gewählt?* Die 20 Minutenstriche als Grad gezählt – jeder Strich sind 6°. *B gewählt?* Mit 10° statt 30° pro Stunde gerechnet. *D gewählt?* Das ist der größere, überstumpfe Winkel. → **G2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Jede Seite liegt der Ecke mit dem gleichen Buchstaben gegenüber: a gegenüber A, also zwischen B und C.\n\n*A gewählt?* Zwischen A und B liegt die Seite c. *C gewählt?* An A liegen die Seiten b und c an. *D gewählt?* Gegenüber von β liegt die Seite b. → **G2** Aufgabe 3"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Wechselwinkel liegen an den beiden Parallelen auf verschiedenen Seiten der Geraden t und „über Kreuz“: α liegt unter g rechts von t, δ liegt über h links von t.\n\n*A gewählt?* β ist ein Nebenwinkel des Stufenwinkels von α. *B gewählt?* γ liegt an derselben Stelle wie α – das ist der Stufenwinkel. *D gewählt?* ε ist der Scheitelwinkel von β. → **N1** Aufgabe 1"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Ein gestreckter Winkel hat 180°: $180° - 48° - 77° = 55°$.\n\n*A gewählt?* Das ist die Summe der beiden gegebenen Winkel. *B gewählt?* Mit dem Vollwinkel 360° gerechnet. *C gewählt?* Verrechnet: $48° + 77° = 125°$, nicht 145°. → **N1** Aufgabe 1, **N6** (Tandem)"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Am selben Schnittpunkt ist der Scheitelwinkel ebenfalls 70° groß, die beiden Nebenwinkel sind $180° - 70° = 110°$ groß. Wegen $g \\parallel h$ hat der andere Schnittpunkt als Stufenwinkel dieselben Winkel: vier Winkel mit 70° und vier mit 110°.\n\n*A gewählt?* Nur den Scheitelwinkel am selben Schnittpunkt gezählt – am anderen Schnittpunkt liegen die Stufenwinkel. *C gewählt?* Nebenwinkel sind nicht gleich groß, sie ergeben zusammen 180°. *D gewählt?* Scheitelwinkel und Stufenwinkel sind gleich groß. → **N1** Aufgabe 1"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $\\gamma = 180° - 43° - 78° = 59°$ (IWS)\n\n*B gewählt?* Das ist $\\alpha + \\beta$. *C gewählt?* Mit 360° statt 180° gerechnet. *D gewählt?* Verrechnet: $43° + 78° = 121°$, nicht 131°. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Von einer Ecke aus zerfällt das Neuneck in $9 - 2 = 7$ Dreiecke: $7 \\cdot 180° = 1260°$.\n\n*A gewählt?* $9 \\cdot 180°$ – es entstehen aber nur 7 Dreiecke. *B gewählt?* $9 \\cdot 90°$ – die Ecken sind keine rechten Winkel. *D gewählt?* 360° gilt für Vierecke. → **N2** Aufgabe 4"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Bei der Umkehrung tauschen Voraussetzung und Behauptung die Plätze. Basiswinkelsatz: Wenn das Dreieck gleichschenklig ist (Voraussetzung), dann sind die Basiswinkel gleich groß (Behauptung). Umkehrung: Wenn zwei Winkel gleich groß sind, dann ist das Dreieck gleichschenklig.\n\n*A gewählt?* Das ist der Basiswinkelsatz selbst. *C gewählt?* Ein anderer Satz – nichts ist vertauscht. *D gewählt?* Das ist falsch: Ein gleichschenkliges Dreieck muss nicht gleichseitig sein. → **N3** Aufgabe 2, **N5** Aufgabe 3"
+        },
+        {
+          "id": "V4-1i",
+          "label": "1i",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Satz des Thales: Liegt C auf dem Halbkreis über $\\overline{AB}$, hat das Dreieck ABC bei C einen rechten Winkel.\n\n*A gewählt?* Der rechte Winkel liegt bei C, gegenüber dem Durchmesser. *B gewählt?* Das gilt nur, wenn C genau in der Mitte des Bogens liegt. *C gewählt?* Zusammen sind α und β 90°. → **N4** Aufgabe 1"
+        },
+        {
+          "id": "V4-1j",
+          "label": "1j",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – MA, MB und MC sind Radien, also sind die Teildreiecke gleichschenklig: Ihre Basiswinkel sind gleich groß (BWS). Mit der Innenwinkelsumme im Dreieck ABC folgt $2 \\cdot \\gamma = 180°$, also $\\gamma = 90°$.\n\n*B oder C gewählt?* In der Beweisfigur gibt es keine Parallelen und keine sich kreuzenden Geraden. *D gewählt?* Was man beweisen will, darf man nicht als Begründung benutzen. → **N5** Aufgabe 2"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\angle AMB = 50°$ (Scheitelwinkel zu $\\angle CMD$; Scheitelwinkel sind gleich groß)."
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "| Schritt | Begründung |\n|---|---|\n| $\\overline{MA} = \\overline{MB}$ | M ist die Mitte gleich langer Beine |\n| $\\angle MAB = \\angle MBA$ | BWS im Dreieck ABM |\n| $\\angle MAB = (180° - 50°) : 2 = 65°$ | IWS im Dreieck ABM |\n\n1 P gleichschenklig/BWS, 1 P Rechnung. → **N3** Aufgabe 1"
+        },
+        {
+          "id": "V4-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\angle MDC = 65°$ (Wechselwinkel zu $\\angle MAB$ an den Parallelen Sitzfläche und Boden).\n\nAuch richtig: Das Dreieck CDM ist ebenfalls gleichschenklig mit 50° an der Spitze."
+        },
+        {
+          "id": "V4-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die beiden Winkel sind Wechselwinkel am Bein $\\overline{AD}$. Wären Sitzfläche und Boden parallel, müssten sie gleich groß sein (Satz vom Wechselwinkel) (1 P).\n\n66° ≠ 64°: Die Sitzfläche ist **nicht** parallel zum Boden, sie ist schräg (1 P). → **N1** Aufgabe 2"
+        },
+        {
+          "id": "V4-2e",
+          "label": "2e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Bei M doppelt so groß: $2 \\cdot 50° = 100°$. Dann ist der Winkel zwischen Bein und Boden $(180° - 100°) : 2 = 40°$ (BWS, IWS) (1 P).\n\nHalb so groß wie 65° wären 32,5°. Ben hat **nicht recht**: Der Winkel wird kleiner, aber nicht halbiert – halbiert wird nur der Rest $180° - \\angle AMB$ (1 P)."
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Dreieck gezeichnet (1 P).\n\nC liegt genau über der Mitte von $\\overline{AB}$, also ist $\\overline{AC} = \\overline{BC}$: gleichschenklig. Alle Winkel sind spitz (gemessen etwa 56°, 56° und 67°): spitzwinklig (1 P). → **G2** Aufgabe 3"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Mittelsenkrechten von zwei Seiten mit Kreisbögen konstruiert, Kreis um ihren Schnittpunkt U durch A, B und C (1 P).\n\n$U(6 \\mid 2{,}7)$ – zulässig von 2,5 bis 2,9 (genau $2\\frac{2}{3}$); Radius etwa 4,3 cm (1 P).",
+          "loesung_bild": "img/V4-3b.png"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Winkelhalbierende von α und β mit Kreisbögen konstruiert, Schnittpunkt I, Lot von I auf $\\overline{AB}$ als Radius, Kreis gezeichnet (1 P).\n\n$I(6 \\mid 3{,}1)$ – zulässig von 2,9 bis 3,3; Radius etwa 2,1 cm – zulässig von 1,9 bis 2,3 cm (1 P). → **N9** Aufgabe 2",
+          "loesung_bild": "img/V4-3c.png"
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$h_c$ ist das Lot von C auf $\\overline{AB}$: die Strecke von $C(6 \\mid 7)$ bis $(6 \\mid 1)$, also 6 cm lang."
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "C ist von A und B gleich weit entfernt ($\\overline{AC} = \\overline{BC}$), liegt also auf der Mittelsenkrechten von $\\overline{AB}$. Diese Gerade geht durch C und steht senkrecht auf $\\overline{AB}$ – sie ist die Gerade, auf der $h_c$ liegt. U liegt auf jeder Mittelsenkrechten, also auch auf dieser (1 P).\n\nDas gleichschenklige Dreieck ist symmetrisch zu dieser Geraden. Bei der Spiegelung tauschen A und B die Plätze, also auch die Winkelhalbierenden von α und β. Ihr Schnittpunkt I bleibt deshalb an seinem Platz und liegt auf der Symmetrieachse (1 P)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$135° + 135° + 90° = 360°$: Die drei Winkel füllen den Vollwinkel um E genau aus."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Von einer Ecke aus gehen 2 Diagonalen, sie zerlegen das Fünfeck in $5 - 2 = 3$ Dreiecke: $3 \\cdot 180° = 540°$ (1 P).\n\nAlle fünf Winkel sind gleich groß: $540° : 5 = 108°$ (1 P). → **N2** Aufgabe 4"
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "An jeder Ecke, an der ein Fünfeck liegt, müssten die Winkel zusammen genau 360° ergeben. Systematisch: ein Fünfeck $108°$, mit Quadraten $198°$, $288°$, $378°$; zwei Fünfecke $216°$, $306°$, $396°$; drei Fünfecke $324°$, $414°$; vier Fünfecke $432°$ (1 P).\n\nKeine Kombination ergibt genau 360° – es bleibt immer eine Lücke oder die Fliesen überlappen. Lara hat **nicht recht** (1 P).\n\nAuch richtig: Was neben den Fünfecken übrig bleibt ($252°$, $144°$ oder $36°$), ist nie ein Vielfaches von 90°."
+        },
+        {
+          "id": "V4-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mittelpunkt M von $\\overline{AB}$ mit der Mittelsenkrechten, Halbkreis um M mit dem Radius 4,5 cm (Thaleskreis), Winkel 34° an A antragen; der freie Schenkel schneidet den Halbkreis in C (1 P).\n\nKontrolle: $\\overline{BC} \\approx 5{,}0\\,\\mathrm{cm}$ (zulässig 4,9 bis 5,1 cm) (1 P). → **N4** Aufgabe 3",
+          "loesung_bild": "img/V4-5a.png"
+        },
+        {
+          "id": "V4-5b",
+          "label": "5b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\beta = 180° - 90° - 34° = 56°$ (Thales, IWS)"
         }
       ]
     }
