@@ -3,7 +3,7 @@
   "titel": "Integralrechnung – Trainingswoche",
   "fach": "mathe",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind klausurrelevant. Sind Sie beim Vorwissen aus Mittelstufe und Klasse E (Ableiten, Potenzen und Brüche, Graphen lesen, Flächen einfacher Figuren) unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt das Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Ober- und Untersumme) und folgen dem Lernweg bis N9 (grafisch ableiten und integrieren). Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N3 (das Integral), V2 nach N4 bis N8 (Flächen und Sachkontexte), V3 nach N9 als Komplexaufgabe auf Klausurniveau.",
+  "hinweis": "Alle Stationen sind klausurrelevant. Sind Sie beim Vorwissen aus Mittelstufe und Klasse E (Ableiten, Potenzen und Brüche, Graphen lesen, Flächen einfacher Figuren) unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt das Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Ober- und Untersumme) und folgen dem Lernweg bis N9 (grafisch ableiten und integrieren). Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N3 (das Integral), V2 nach N4 bis N8 (Flächen und Sachkontexte), V3 nach N9 als Komplexaufgabe auf Klausurniveau. Die Probeklausur V4 schreiben Sie ganz zum Schluss unter Klausurbedingungen.",
   "checkliste": [
     {
       "id": "g1",
@@ -1172,6 +1172,170 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "**Richtig**, solange die Welle massiv ist (ohne Hohlraum).\n\nHöhe: $h_a=f_a(5)=25a$; Fläche: $A(a)=\\frac{500}{3}a$. Beide Größen sind proportional zu a: Wird a halbiert, halbieren sich Höhe **und** Fläche.\n\nBeispiel: $a=0{,}08$: Höhe 2,00 m, $A\\approx13{,}33\\,\\mathrm{m^2}$; $a=0{,}04$: Höhe 1,00 m, $A\\approx6{,}67\\,\\mathrm{m^2}$.\n\nAllgemein: Aus $h_a=25a$ folgt $A=\\frac{500}{3}\\cdot\\frac{h_a}{25}=\\frac{20}{3}h_a$ – die Fläche ist proportional zur Höhe.\n\nZusatz (nicht erwartet): Bei der Welle mit Hohlraum aus Aufgabe 2 stimmt das nicht mehr; bei halber Höhe passt viel weniger Hohlraum hinein ($0{,}99\\,\\mathrm{m^2}$ statt $6{,}83\\,\\mathrm{m^2}$), die Betonfläche sinkt nur von $6{,}51\\,\\mathrm{m^2}$ auf $5{,}68\\,\\mathrm{m^2}$."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "Teil A keine, Teil B WTR und Formeldokument",
+      "checkliste": [
+        "c9",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klausur: 90 Minuten, zuerst Teil A (Aufgabe 1 bis 3) ohne Hilfsmittel, danach Teil B (Aufgabe 4 und 5) mit WTR und Formeldokument. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (das Integral, Anwendung der Integralrechnung, das Integral als Funktion) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Stammfunktion: $F(x)=\\frac{a}{3}x^3+cx$ (1 P)\n\n$\\int_0^3 f(x)\\,\\mathrm{d}x=F(3)-F(0)=\\frac{a}{3}\\cdot27+3c-0=9a+3c$ (1 P)"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$f(3)=0$: $9a+c=0$; Fläche (der Graph liegt auf $[0;\\,3]$ oberhalb der x-Achse): $9a+3c=12$ (1 P)\n\nSubtrahieren: $2c=12$, also $c=6$ und $a=-\\frac{6}{9}=-\\frac{2}{3}$; $f(x)=-\\frac{2}{3}x^2+6$ (1 P)\n\nKontrolle: $9 \\cdot \\left(-\\frac{2}{3}\\right)+3 \\cdot 6=-6+18=12$; der Graph ist eine nach unten geöffnete Parabel mit $f(0)=6>0$, liegt also auf $[0;\\,3]$ tatsächlich oberhalb der x-Achse."
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Hauptsatz: $\\int_a^b f(x)\\,\\mathrm{d}x=F(b)-F(a)$.\n\n$\\int_0^4 f(x)\\,\\mathrm{d}x=F(4)-F(0)=0-4=-4$ (1 P)\n\n$\\int_2^6 f(x)\\,\\mathrm{d}x=F(6)-F(2)=4-2=2$ (1 P)"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Wegen $F'=f$ gilt: Wo F fällt, ist $f(x)<0$; wo F steigt, ist $f(x)>0$. F fällt auf $]0;\\,4[$ und steigt auf $]4;\\,6[$, also wechselt f bei $x=4$ das Vorzeichen; die Teilflächen müssen getrennt berechnet werden (1 P).\n\n$A=\\left|F(4)-F(0)\\right|+\\left|F(6)-F(4)\\right|=\\left|-4\\right|+\\left|4\\right|=8$ FE (1 P)\n\nZum Vergleich: $\\int_0^6 f(x)\\,\\mathrm{d}x=F(6)-F(0)=0$ – die Teilflächen heben sich in der Bilanz auf."
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F_C(x)=x^3-12x+C$ mit $C \\in \\mathbb{R}$"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Extremstellen von $F_C$: $F_C'(x)=f(x)=3x^2-12=0 \\Leftrightarrow x=-2$ oder $x=2$; f wechselt dort das Vorzeichen (bei $-2$ von $+$ nach $-$: Hochpunkt, bei $2$ von $-$ nach $+$: Tiefpunkt) (1 P).\n\n$F_C(-2)=-8+24+C=16+C$, $F_C(2)=8-24+C=-16+C$ (1 P)\n\nDer Graph einer ganzrationalen Funktion 3. Grades mit Hoch- und Tiefpunkt hat genau zwei gemeinsame Punkte mit der x-Achse, wenn er sie in einem Extrempunkt berührt: $16+C=0$ oder $-16+C=0$, also $C=-16$ oder $C=16$. Gesucht sind $F(x)=x^3-12x-16$ und $F(x)=x^3-12x+16$ (1 P)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$0{,}125t\\cdot(t-2)(t-4)=0{,}125t\\cdot(t^2-6t+8)=0{,}125t^3-0{,}75t^2+t=r(t)$ (1 P)\n\nNullstellen 0, 2 und 4; laut Abbildung ist r auf $]0;\\,2[$ positiv und auf $]2;\\,4[$ negativ: Eingeatmet wird in den ersten 2 Sekunden, ausgeatmet von 2 bis 4 Sekunden (1 P)."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Stammfunktion: $R(t)=\\frac{1}{32}t^4-\\frac{1}{4}t^3+\\frac{1}{2}t^2$ (1 P)\n\nEingeatmetes Volumen $=\\int_0^2 r(t)\\,\\mathrm{d}t$ (1 P)\n\n$=R(2)-R(0)=\\frac{16}{32}-2+2=0{,}5$, also $0{,}5$ Liter (1 P)"
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\int_0^4 r(t)\\,\\mathrm{d}t=R(4)-R(0)=8-16+8=0$ (1 P)\n\nDeutung: Das Integral ist die Änderung des Luftvolumens in der Lunge während des Atemzugs. Sie ist null: Es wird genau so viel Luft ausgeatmet ($0{,}5$ l) wie eingeatmet; nach dem Atemzug ist wieder dieselbe Luftmenge in der Lunge (1 P)."
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$V(t)=2{,}5+\\int_0^t r(s)\\,\\mathrm{d}s=\\frac{1}{32}t^4-\\frac{1}{4}t^3+\\frac{1}{2}t^2+2{,}5$, denn $V'=r$ und $V(0)=2{,}5$ (1 P)\n\nSkizze: V steigt von $2{,}5$ l bei $t=0$ auf $3{,}0$ l bei $t=2$ und fällt bis $t=4$ wieder auf $2{,}5$ l; der Graph ist bei $t=0$ und $t=4$ waagerecht (dort ist $r=0$), am steilsten bei etwa $t=0{,}85$ und $t=3{,}15$ (1 P).\n\nAm meisten Luft ist bei $t=2$ in der Lunge: Bis dahin ist $r>0$ (V wächst), danach $r<0$ (V nimmt ab); $V(2)=3{,}0$ l (1 P)."
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Mittelwert der Funktion V auf $[0;\\,4]$: $\\bar{V}=\\frac{1}{4-0}\\int_0^4 V(t)\\,\\mathrm{d}t$ (1 P)\n\n$\\int_0^4 V(t)\\,\\mathrm{d}t=\\left[\\frac{1}{160}t^5-\\frac{1}{16}t^4+\\frac{1}{6}t^3+2{,}5t\\right]_0^4=6{,}4-16+\\frac{32}{3}+10=\\frac{166}{15}\\approx11{,}07$, also $\\bar{V}=\\frac{166}{60}\\approx2{,}77$ Liter (1 P)\n\nDeutung: Während des Atemzugs befinden sich im Mittel etwa 2,77 l Luft in der Lunge – ein gleichbleibendes Volumen von 2,77 l hätte über die 4 s dasselbe Integral wie V. Der Wert liegt zwischen dem kleinsten ($2{,}5$ l) und dem größten Volumen ($3{,}0$ l) (1 P). Mit einem eigenen (falschen) V aus d) richtig weitergerechnet: volle Punkte."
+        },
+        {
+          "id": "V4-4f",
+          "label": "4f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Ein Atemzug dauert jetzt 2 s; eingeatmet wird bis $t=1$ (Nullstellen 0, 1, 2): $\\int_0^1 r_2(t)\\,\\mathrm{d}t=\\left[\\frac{1}{4}t^4-t^3+t^2\\right]_0^1=\\frac{1}{4}$, also nur $0{,}25$ l je Atemzug – halb so viel wie in Ruhe (1 P).\n\nPro Minute: in Ruhe $\\frac{60}{4}=15$ Atemzüge mit je $0{,}5$ l, also $7{,}5$ l; jetzt $\\frac{60}{2}=30$ Atemzüge mit je $0{,}25$ l, also ebenfalls $7{,}5$ l (1 P).\n\nDie Aussage ist falsch: Bei gleicher größter Atemstromstärke halbiert sich mit der Dauer auch das Volumen je Atemzug; die Luftmenge pro Minute bleibt gleich. Mehr Luft pro Minute bekommt man nur, wenn auch die Atemstromstärke steigt (tiefer atmen) (1 P)."
+        },
+        {
+          "id": "V4-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Stammfunktion: $K_v(x)=0{,}2x^3-18x^2+1580x$ (1 P)\n\n$\\int_{20}^{40} k(x)\\,\\mathrm{d}x=K_v(40)-K_v(20)=47\\,200-26\\,000=21\\,200$; die Kosten steigen um 21 200 € (1 P)."
+        },
+        {
+          "id": "V4-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "K ist eine Stammfunktion von k: $K(x)=0{,}2x^3-18x^2+1580x+C$ (1 P)\n\nOhne gebaute Räder fallen nur die Fixkosten an: $K(0)=C=12\\,000$, also $K(x)=0{,}2x^3-18x^2+1580x+12\\,000$. Der konstante Summand sind die Fixkosten (1 P)."
+        },
+        {
+          "id": "V4-5c",
+          "label": "5c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "k fällt auf $[0;\\,30]$ (Tabelle; $k'(x)=1{,}2x-36<0$ für $x<30$). In jedem Streifen der Breite 10 ist deshalb der linke Randwert der größte und der rechte der kleinste Wert (1 P).\n\nObersumme: $O_3=10\\cdot(1580+1280+1100)=39\\,600$ (1 P)\n\nUntersumme: $U_3=10\\cdot(1280+1100+1040)=34\\,200$; die Kosten liegen zwischen 34 200 € und 39 600 € (1 P)."
+        },
+        {
+          "id": "V4-5d",
+          "label": "5d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Schnittstellen: $0{,}6x^2-36x+1580=2000 \\Leftrightarrow x^2-60x-700=0 \\Leftrightarrow x=70$ (oder $x=-10$, entfällt); für $0\\le x<70$ ist $k(x)<2000$ (1 P).\n\n$A=\\int_0^{70}\\left(2000-k(x)\\right)\\,\\mathrm{d}x=140\\,000-K_v(70)=140\\,000-91\\,000=49\\,000$ (1 P)\n\nDeutung: Bei 70 Rädern im Monat übersteigt der Erlös die stückzahlabhängigen Kosten um 49 000 €; nach Abzug der Fixkosten bleiben 37 000 € Gewinn. Jedes weitere Rad über 70 hinaus kostet mehr, als es einbringt (1 P)."
+        },
+        {
+          "id": "V4-5e",
+          "label": "5e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Gewinnänderung ist die Bilanz aus Erlös und Kostenzuwachs der Räder 71 bis 80: $\\int_{70}^{80}\\left(2000-k(x)\\right)\\,\\mathrm{d}x$ (1 P)\n\n$=2000\\cdot10-\\left(K_v(80)-K_v(70)\\right)=20\\,000-(113\\,600-91\\,000)=20\\,000-22\\,600=-2600$. Der Gewinn sinkt um 2600 € (von 37 000 € auf 34 400 €), weil dort $k(x)>2000$ ist (1 P)."
+        },
+        {
+          "id": "V4-5f",
+          "label": "5f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\bar{k}=\\frac{1}{70}\\int_0^{70} k(x)\\,\\mathrm{d}x=\\frac{91\\,000}{70}=1300$ (1 P)\n\nWerden 70 Räder gebaut, verursacht jedes Rad im Durchschnitt 1300 € stückzahlabhängige Kosten (ohne Fixkosten) – deutlich weniger als der Preis von 2000 € (1 P)."
+        },
+        {
+          "id": "V4-5g",
+          "label": "5g",
+          "punkte": 4,
+          "afb": "III",
+          "loesung": "Gewinn = Erlös − Gesamtkosten: $G(x)=2000x-K(x)=-0{,}2x^3+18x^2+420x-12\\,000$ (1 P)\n\nDie Grenzkosten berücksichtigen die Fixkosten nicht. Bei wenigen Rädern decken die Überschüsse die 12 000 € nicht, z. B. $G(10)=-200+1800+4200-12\\,000=-6200$ (1 P).\n\nGewinnschwelle (WTR): $G(x)=0$ für $x\\approx17{,}7$; $G(17)\\approx-641$, $G(18)\\approx226$ (1 P).\n\nUrteil: Die Aussage ist falsch. Jedes Rad bis zum 70. trägt zwar zum Gewinn bei, Gewinn macht die Manufaktur aber erst ab 18 Rädern im Monat, weil vorher die Fixkosten nicht gedeckt sind (1 P)."
         }
       ]
     }
