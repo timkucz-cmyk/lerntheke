@@ -3,7 +3,7 @@
   "titel": "Der Satz des Pythagoras – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Flächeninhalten, Wurzeln, Umformen oder Wenn-dann-Sätzen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N11. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N4, V2 nach N5 bis N9, V3 nach N10 bis N11. Den Taschenrechner benutzt du nur in N4, N7, N8 und V1 bis V3. Geodreieck bereitlegen; dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Flächeninhalten, Wurzeln, Umformen oder Wenn-dann-Sätzen unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N11. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N4, V2 nach N5 bis N9, V3 nach N10 bis N11. Den Taschenrechner benutzt du nur in N4, N7, N8 und V1 bis V3. Geodreieck bereitlegen; dein Regelheft darfst du benutzen. Ganz zum Schluss kannst du mit V4 (Probearbeit, 60 Minuten) wie in der Klassenarbeit üben – dort ohne Regelheft.",
   "checkliste": [
     {
       "id": "g1",
@@ -1390,6 +1390,178 @@
           "punkte": 2,
           "afb": "II",
           "loesung": "Erst auf dem Boden: $\\sqrt{4^2 + 2^2} = \\sqrt{20} \\approx 4{,}47$ (1 P).\n\nDann zum Korb hinauf (zweites Hilfsdreieck): $\\sqrt{20 + 3{,}05^2} = \\sqrt{29{,}3025} \\approx 5{,}41$, also etwa $5{,}41\\,\\mathrm{m}$ (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Taschenrechner",
+      "checkliste": [
+        "c8",
+        "c9",
+        "c10",
+        "c5",
+        "c6",
+        "c7",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Hilfsmittel, danach Teil B (Aufgabe 3 und 4) mit Taschenrechner, ohne Regelheft. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Der Satz des Pythagoras, Pythagoras in Figuren und Körpern, Beweis und Umkehrung) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Welche Seite die Hypotenuse ist, steht nicht fest. Ist $50\\,\\mathrm{cm}$ die Hypotenuse: $\\sqrt{50^2 - 30^2} = \\sqrt{1600} = 40$. Sind beide Seiten Katheten: $\\sqrt{30^2 + 50^2} = \\sqrt{3400} \\approx 58{,}3$. Beides ist möglich.\n\n*A gewählt?* Nur an $50\\,\\mathrm{cm}$ als Hypotenuse gedacht. *B gewählt?* Nur an zwei Katheten gedacht. *D gewählt?* Bei $50\\,\\mathrm{cm}$ als Hypotenuse die Längen subtrahiert ($50 - 30 = 20$) statt mit ihren Quadraten gerechnet. → **N2** Aufgabe 1 und 2"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $85^2 - 84^2 = 7225 - 7056 = 169$ und $\\sqrt{169} = 13$, also $13\\,\\mathrm{cm}$.\n\n*A gewählt?* Die Längen subtrahiert statt ihrer Quadrate. *C gewählt?* Die Wurzel vergessen. *D gewählt?* Die Quadrate addiert – eine Kathete ist aber kürzer als die Hypotenuse. → **N2** Aufgabe 2, **N9** Aufgabe 1"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $h = \\frac{a}{2}\\sqrt{3} = 3\\sqrt{3}$, also $\\frac{a}{2} = 3$ und $a = 6$. Kontrolle: $\\sqrt{6^2 - 3^2} = \\sqrt{27} = 3\\sqrt{3}$ ✓\n\n*B gewählt?* Das ist die halbe Seite. *C gewählt?* $3\\sqrt{3} \\cdot \\sqrt{3}$ gerechnet. *D gewählt?* Die Höhe verdoppelt – die Höhe ist aber kürzer als die Seite. → **N6** Aufgabe 2"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $d^2 = 9^2 + 6^2 + 2^2 = 81 + 36 + 4 = 121$, also $d = 11\\,\\mathrm{cm}$.\n\n*A gewählt?* Das ist nur die Diagonale der Grundfläche. *B gewählt?* Die Kanten addiert. *D gewählt?* Das ist die Diagonale der Seitenfläche mit $6\\,\\mathrm{cm}$ und $2\\,\\mathrm{cm}$. → **N8** Aufgabe 2"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Großes Quadrat: $(a + b)^2$. Zerlegt: vier Dreiecke mit je $\\frac{1}{2}ab$ und das innere Quadrat $c^2$. Ausmultipliziert: $a^2 + 2ab + b^2 = 2ab + c^2$, also $a^2 + b^2 = c^2$.\n\n*B gewählt?* Ein Dreieck hat nur den Flächeninhalt $\\frac{1}{2}ab$. *C gewählt?* Die Seite des großen Quadrats ist $a + b$, sein Flächeninhalt also $(a + b)^2$, nicht $a^2 + b^2$. *D gewählt?* Hier hat das innere Quadrat die Seite $c$ – die Seite $b - a$ gehört zur Beweisfigur in N10. → **N10** Aufgabe 1"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Umkehrung des Satzes: $2{,}1^2 + 2{,}8^2 = 4{,}41 + 7{,}84 = 12{,}25 = 3{,}5^2$ ✓\n\n*A gewählt?* $1{,}44 + 3{,}24 = 4{,}68$, aber $2{,}4^2 = 5{,}76$. *B gewählt?* $5{,}76 + 10{,}24 = 16$, aber $4{,}2^2 = 17{,}64$ – mit $4{,}0\\,\\mathrm{cm}$ wäre es rechtwinklig. *C gewählt?* $1 + 4 = 5$, aber $2{,}5^2 = 6{,}25$. → **N11** Aufgabe 2"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $c = \\sqrt{2^2 + 4^2} = \\sqrt{20} = \\sqrt{4 \\cdot 5} = 2\\sqrt{5}$\n\n*A gewählt?* Die Längen addiert: $\\sqrt{a^2 + b^2}$ ist nicht $a + b$. *C gewählt?* $16 - 4 = 12$ gerechnet – für die Hypotenuse werden die Quadrate addiert. *D gewählt?* Die Längen statt ihrer Quadrate addiert. → **N3** (Tandem), **G2** Aufgabe 5"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Die Hypotenuse ist $s$, sie liegt dem rechten Winkel gegenüber: Der rechte Winkel liegt bei S.\n\n→ **N1** Aufgabe 3"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Hilfsdreieck mit dem rechten Winkel bei D: Katheten $\\overline{DM} = 5\\,\\mathrm{cm}$ und $\\overline{AD} = 12\\,\\mathrm{cm}$, also $\\overline{AM} = \\sqrt{25 + 144} = \\sqrt{169} = 13$, $13\\,\\mathrm{cm}$ (1 P).\n\nEbenso $\\overline{BM} = 13\\,\\mathrm{cm}$. Umfang: $13 + 13 + 10 = 36$, also $36\\,\\mathrm{cm}$ (1 P).\n\n→ **N5** Aufgabe 1"
+        },
+        {
+          "id": "V4-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Kürzere Kathete $x$, Hypotenuse $2x$: $(2x)^2 = x^2 + 6^2$, also $4x^2 = x^2 + 36$ (1 P).\n\n$3x^2 = 36$, $x^2 = 12$, $x = \\sqrt{12} = 2\\sqrt{3}$. Die Hypotenuse ist $2x = 4\\sqrt{3}$, also $4\\sqrt{3}\\,\\mathrm{cm}$ (1 P).\n\n→ **N2** Aufgabe 2, **G2** Aufgabe 4"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Katheten: die Wassertiefe $x$ und $60\\,\\mathrm{cm}$ an der Wasseroberfläche. Hypotenuse: der Stiel, $(x + 18)\\,\\mathrm{cm}$ lang."
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$x^2 + 60^2 = (x + 18)^2$ (1 P)\n\n$x^2 + 3600 = x^2 + 36x + 324$, also $3600 = 36x + 324$ (1 P)\n\n$36x = 3276$, $x = 91$: Der Teich ist dort $91\\,\\mathrm{cm}$ tief (1 P).\n\nProbe: Der Stiel ist $91 + 18 = 109$, also $109\\,\\mathrm{cm}$ lang, und $91^2 + 60^2 = 8281 + 3600 = 11\\,881 = 109^2$ ✓"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der Stiel ist die Hypotenuse, $80\\,\\mathrm{cm}$ eine Kathete (1 P):\n\n$x = \\sqrt{120^2 - 80^2} = \\sqrt{8000} \\approx 89{,}44$, der Teich ist etwa $89\\,\\mathrm{cm}$ tief (1 P)."
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Wie in b): $x^2 + s^2 = (x + a)^2 = x^2 + 2ax + a^2$, also $s^2 = 2ax + a^2$ (1 P).\n\n$2ax = s^2 - a^2$, geteilt durch $2a$: $x = \\frac{s^2 - a^2}{2a}$ (1 P). Probe: $\\frac{3600 - 324}{36} = 91$ ✓"
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Mit $55\\,\\mathrm{cm}$ bzw. $65\\,\\mathrm{cm}$ neu rechnen (1 P):\n\n$x = \\frac{55^2 - 18^2}{36} = \\frac{2701}{36} \\approx 75$ und $x = \\frac{65^2 - 18^2}{36} = \\frac{3901}{36} \\approx 108$, die Tiefe liegt also zwischen etwa $75\\,\\mathrm{cm}$ und $108\\,\\mathrm{cm}$ (1 P).\n\nEin Messfehler von $5\\,\\mathrm{cm}$ verändert die Tiefe um bis zu $17\\,\\mathrm{cm}$. Die Methode liefert nur einen groben Wert; auch die $18\\,\\mathrm{cm}$ über dem Wasser müssten genau gemessen sein (1 P)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\overline{AC} = \\sqrt{32^2 + 15^2} = \\sqrt{1249} \\approx 35{,}3$, also etwa $35{,}3\\,\\mathrm{cm}$ (1 P).\n\nWeg: $35{,}34\\,\\mathrm{cm} + 9\\,\\mathrm{cm} \\approx 44{,}3\\,\\mathrm{cm}$ (1 P)."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Raumdiagonale: $\\overline{AG} = \\sqrt{32^2 + 15^2 + 9^2} = \\sqrt{1330} \\approx 36{,}5$, also etwa $36{,}5\\,\\mathrm{cm}$."
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Im Netz ist $\\overline{AG}$ die Hypotenuse eines rechtwinkligen Dreiecks mit den Katheten $32\\,\\mathrm{cm}$ und $9\\,\\mathrm{cm} + 15\\,\\mathrm{cm} = 24\\,\\mathrm{cm}$ (1 P).\n\n$\\sqrt{32^2 + 24^2} = \\sqrt{1600} = 40$, also $40\\,\\mathrm{cm}$ (1 P)."
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Andere Wege über zwei Flächen ausprobieren, z. B. Vorderfläche und rechte Seitenfläche bzw. linke Seitenfläche und Deckfläche, jeweils im Netz als Gerade (1 P):\n\n$\\sqrt{(32 + 15)^2 + 9^2} = \\sqrt{2290} \\approx 47{,}9$ und $\\sqrt{(9 + 32)^2 + 15^2} = \\sqrt{1906} \\approx 43{,}7$; der Weg aus a) ist $44{,}3\\,\\mathrm{cm}$ lang (1 P).\n\nAlle diese Wege sind länger als $40\\,\\mathrm{cm}$ (die übrigen Netze liefern dieselben Längen). Lisa hat recht: Der kürzeste Weg führt über zwei Flächen so, dass die kurzen Kanten $9\\,\\mathrm{cm}$ und $15\\,\\mathrm{cm}$ zusammen eine Kathete bilden (1 P)."
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$42^2 = 32^2 + 15^2 + h^2$ (1 P)\n\n$h^2 = 1764 - 1024 - 225 = 515$ (1 P)\n\n$h = \\sqrt{515} \\approx 22{,}7$, der Karton ist etwa $22{,}7\\,\\mathrm{cm}$ hoch (1 P)."
         }
       ]
     }

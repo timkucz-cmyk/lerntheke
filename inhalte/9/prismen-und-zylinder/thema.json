@@ -3,7 +3,7 @@
   "titel": "Prismen und Zylinder – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Quadern, Einheiten, Flächen, Kreis oder Pythagoras unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N2, V2 nach N3 bis N5, V3 nach N6 bis N9. Ohne Taschenrechner arbeitest du in G1, N1, N2, N5 und N9, sonst ist er erlaubt. Geodreieck und Karopapier bereitlegen; dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Quadern, Einheiten, Flächen, Kreis oder Pythagoras unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N9. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N2, V2 nach N3 bis N5, V3 nach N6 bis N9. Ohne Taschenrechner arbeitest du in G1, N1, N2, N5 und N9, sonst ist er erlaubt. Geodreieck und Karopapier bereitlegen; dein Regelheft darfst du benutzen. Ganz zum Schluss kannst du mit V4 (Probearbeit, 60 Minuten) wie in der Klassenarbeit üben – dort ohne Regelheft.",
   "checkliste": [
     {
       "id": "g1",
@@ -1240,6 +1240,169 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Blechbreite der halbrunden Rinne: $\\pi \\cdot 7{,}485 \\approx 23{,}51\\,\\mathrm{cm}$ (1 P).\n\nDie Kastenrinne braucht $25{,}09\\,\\mathrm{cm}$, also mehr. Die Aussage ist **falsch**: Bei gleichem Querschnitt braucht die halbrunde Rinne etwa 6 % weniger Blech (1 P)."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Taschenrechner",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c8",
+        "c4",
+        "c5",
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Hilfsmittel, danach Teil B (Aufgabe 3 und 4) mit Taschenrechner, ohne Regelheft. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Körper erkennen und darstellen, Prismen berechnen, Zylinder und Modellieren) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Ein Prisma mit n-eckiger Grundfläche hat n Kanten unten, n Kanten oben und n Seitenkanten, zusammen $3 \\cdot n$. Aus $3 \\cdot n = 18$ folgt $n = 6$.\n\n*A gewählt?* Nur Grund- und Deckfläche gezählt ($2 \\cdot 9 = 18$) – die Seitenkanten fehlen. *C gewählt?* Kanten des Prismas und Ecken der Grundfläche verwechselt. *D gewählt?* Ein Zwölfeck-Prisma hat $3 \\cdot 12 = 36$ Kanten. → **N1** Aufgabe 2"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Die eine Seite ist die Höhe $9\\,\\mathrm{cm}$, die andere der Kreisumfang $u = 2 \\cdot \\pi \\cdot 4\\,\\mathrm{cm} = 8\\pi\\,\\mathrm{cm}$.\n\n*A gewählt?* $\\pi \\cdot r$ statt $2 \\cdot \\pi \\cdot r$. *B gewählt?* Mit $\\pi \\cdot r^2$ gerechnet – das ist der Kreisflächeninhalt, keine Länge. *C gewählt?* Den Durchmesser statt des Umfangs genommen. → **N6** Aufgabe 4"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Tiefenkanten werden verkürzt: $1\\,\\mathrm{cm}$ Tiefe ist eine Kästchendiagonale, also $4\\,\\mathrm{cm}$ = 4 Kästchendiagonalen.\n\n*B gewählt?* Tiefenkanten verlaufen schräg (unter $45°$), nicht waagerecht. *C gewählt?* Zweimal verkürzt. *D gewählt?* Nicht verkürzt: 8 Kästchen sind $4\\,\\mathrm{cm}$, als Diagonalen werden sie zu lang. → **N2** Aufgabe 1 und 2"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Der Mantel besteht aus drei Rechtecken $4\\,\\mathrm{cm} \\times 10\\,\\mathrm{cm}$: $M = u \\cdot h = 12 \\cdot 10\\,\\mathrm{cm^2} = 120\\,\\mathrm{cm^2}$.\n\n*A gewählt?* Nur ein Rechteck gezählt. *B gewählt?* $G \\cdot h$ gerechnet – das ist das Volumen in $\\mathrm{cm^3}$, nicht der Mantel. *D gewählt?* Mit dem doppelten Umfang gerechnet. → **N3** Aufgabe 1, **N9** Aufgabe 3"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $G = \\frac{1}{2} \\cdot (10 + 6) \\cdot 3\\,\\mathrm{cm^2} = 24\\,\\mathrm{cm^2}$, $V = G \\cdot h = 24 \\cdot 4\\,\\mathrm{cm^3} = 96\\,\\mathrm{cm^3}$.\n\n*A gewählt?* Das $\\frac{1}{2}$ in der Trapezformel vergessen. *B gewählt?* Nur die Grundfläche berechnet. *C gewählt?* Prismahöhe und Höhe $h_D$ der Grundfläche verwechselt: $\\frac{1}{2} \\cdot 16 \\cdot 4 = 32$ ist kein Volumen. → **N4** Aufgabe 1"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – $V = \\pi \\cdot r^2 \\cdot h = \\pi \\cdot 9 \\cdot 4\\,\\mathrm{cm^3} = 36\\pi\\,\\mathrm{cm^3}$\n\n*A gewählt?* Das ist der Mantel $2 \\cdot \\pi \\cdot r \\cdot h$. *C gewählt?* Den Radius nicht quadriert. *D gewählt?* Mit dem Durchmesser $6\\,\\mathrm{cm}$ statt mit dem Radius gerechnet. → **N6** Aufgabe 1, **N9** Aufgabe 2"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $\\pi \\cdot 6^2 \\cdot h = 180\\pi$, also $36 \\cdot h = 180$ und $h = 5\\,\\mathrm{cm}$.\n\n*B gewählt?* Durch $r$ statt durch $r^2$ geteilt. *C gewählt?* Durch $2 \\cdot r$ geteilt. *D gewählt?* Mit dem Durchmesser gerechnet: $180 : 144$. → **N7** Aufgabe 2"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Höhe des Dreiecks mit dem Satz des Pythagoras (halbe Basis $10\\,\\mathrm{cm}$): $h_D = \\sqrt{26^2 - 10^2} = \\sqrt{676 - 100} = \\sqrt{576} = 24$, also $24\\,\\mathrm{cm}$ (1 P).\n\n$G = \\frac{1}{2} \\cdot 20 \\cdot 24\\,\\mathrm{cm^2} = 240\\,\\mathrm{cm^2}$, $M = u \\cdot h = (20 + 26 + 26) \\cdot 6\\,\\mathrm{cm^2} = 432\\,\\mathrm{cm^2}$ (1 P).\n\n$O = 2 \\cdot G + M = 480\\,\\mathrm{cm^2} + 432\\,\\mathrm{cm^2} = 912\\,\\mathrm{cm^2}$ (1 P).\n\n→ **N3** Aufgabe 2"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$O = 2 \\cdot \\pi \\cdot 4^2 + 2 \\cdot \\pi \\cdot 4 \\cdot h = 32\\pi + 8\\pi \\cdot h = 72\\pi$ (1 P).\n\n$8\\pi \\cdot h = 40\\pi$, also $h = 5\\,\\mathrm{cm}$ (1 P).\n\n→ **N7** Aufgabe 2"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$r = 20\\,\\mathrm{cm} = 0{,}2\\,\\mathrm{m}$ (1 P)\n\n$V = \\pi \\cdot 0{,}2^2 \\cdot 4\\,\\mathrm{m^3} = 0{,}16\\pi\\,\\mathrm{m^3} \\approx 0{,}50\\,\\mathrm{m^3}$ (1 P)"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Mantel: $M = 2 \\cdot \\pi \\cdot 0{,}2 \\cdot 4\\,\\mathrm{m^2} = 1{,}6\\pi\\,\\mathrm{m^2} \\approx 5{,}03\\,\\mathrm{m^2}$"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Die Diagonale des Quadrats ist ein Durchmesser des Kreises: $40\\,\\mathrm{cm}$ (1 P).\n\nSatz des Pythagoras: $a^2 + a^2 = 40^2$, also $2a^2 = 1600$ und $a^2 = 800$ (1 P).\n\n$a = \\sqrt{800} \\approx 28{,}28$, die Seiten sind etwa $28{,}28\\,\\mathrm{cm}$ lang (1 P)."
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$G = a^2 = 800\\,\\mathrm{cm^2} = 0{,}08\\,\\mathrm{m^2}$, $V = 0{,}08 \\cdot 4\\,\\mathrm{m^3} = 0{,}32\\,\\mathrm{m^3}$ (1 P)\n\nAbfall: $0{,}16\\pi\\,\\mathrm{m^3} - 0{,}32\\,\\mathrm{m^3} \\approx 0{,}18\\,\\mathrm{m^3}$ (1 P)\n\nAnteil: $\\frac{0{,}1827}{0{,}5027} \\approx 0{,}3634$, also etwa $36{,}34\\,\\%$ Abfall (1 P).\n\nAuch richtig mit den gerundeten Werten aus a): $\\frac{0{,}50 - 0{,}32}{0{,}50} = 0{,}36$, also $36\\,\\%$."
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$0{,}32 \\cdot 450\\,\\mathrm{kg} = 144\\,\\mathrm{kg}$"
+        },
+        {
+          "id": "V4-3f",
+          "label": "3f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Auch beim Rechteck ist die Diagonale des Querschnitts der Durchmesser $40\\,\\mathrm{cm}$ (1 P).\n\nHöhe: $\\sqrt{40^2 - 32^2} = \\sqrt{576} = 24$, also $24\\,\\mathrm{cm}$; Querschnitt $32 \\cdot 24\\,\\mathrm{cm^2} = 768\\,\\mathrm{cm^2}$ (1 P).\n\nDas ist weniger als $800\\,\\mathrm{cm^2}$ beim Quadrat. Bei gleicher Länge enthält der breitere Balken also weniger Holz – der Kunde hat nicht recht (1 P)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Ein Rechteck (1 P), $5\\,\\mathrm{cm}$ breit und so lang wie der Umfang der Hülse: $\\pi \\cdot 7{,}6\\,\\mathrm{cm} \\approx 23{,}88\\,\\mathrm{cm}$ (1 P)."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Großer Zylinder ($r = 5{,}5\\,\\mathrm{cm}$) minus Hülse ($r = 3{,}8\\,\\mathrm{cm}$): $V = \\pi \\cdot (5{,}5^2 - 3{,}8^2) \\cdot 5\\,\\mathrm{cm^3}$ (1 P)\n\n$V = \\pi \\cdot 15{,}81 \\cdot 5\\,\\mathrm{cm^3} \\approx 248{,}34\\,\\mathrm{cm^3}$ (1 P)"
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Abgewickelt ist das Band ein sehr flacher Quader: Länge $L$, Breite $5\\,\\mathrm{cm}$, Dicke $0{,}01\\,\\mathrm{cm}$. Sein Volumen ist das Volumen aus b) (1 P).\n\n$L \\cdot 5 \\cdot 0{,}01 = 248{,}34$, also $L \\approx 4966{,}86\\,\\mathrm{cm} \\approx 49{,}67\\,\\mathrm{m}$ (1 P).\n\nDas passt gut zu „50 m“: Die Abweichung ist kleiner als 1 % und liegt im Rahmen der Messgenauigkeit (die Dicke $0{,}1\\,\\mathrm{mm}$ und die Durchmesser sind gerundet) (1 P)."
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "$\\pi \\cdot (R^2 - 3{,}8^2) \\cdot 5 = 100$, also $R^2 - 14{,}44 = \\frac{100}{5\\pi} \\approx 6{,}37$ (1 P)\n\n$R^2 \\approx 20{,}81$, $R \\approx 4{,}56\\,\\mathrm{cm}$ (1 P)\n\nAußendurchmesser: $2 \\cdot R \\approx 9{,}12\\,\\mathrm{cm}$ (1 P)."
         }
       ]
     }
