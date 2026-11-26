@@ -3,7 +3,7 @@
   "titel": "Stochastik – Lerntheke vor der Klausur",
   "fach": "mathe",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind klausurrelevant – auch die Grundlagen. Sind Sie bei Häufigkeiten, Laplace-Wahrscheinlichkeiten, Baumdiagrammen, Pfadregeln oder Prozenten unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt das Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Bedingte Wahrscheinlichkeit), V2 nach N4 bis N6 (Invertieren und Vierfeldertafel), V3 nach N7 bis N8 (Unabhängigkeit), V4 nach N9 bis N10 (Erwartungswert) als Komplexaufgabe. N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11.",
+  "hinweis": "Alle Stationen sind klausurrelevant – auch die Grundlagen. Sind Sie bei Häufigkeiten, Laplace-Wahrscheinlichkeiten, Baumdiagrammen, Pfadregeln oder Prozenten unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt das Vorwissen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Bedingte Wahrscheinlichkeit), V2 nach N4 bis N6 (Invertieren und Vierfeldertafel), V3 nach N7 bis N8 (Unabhängigkeit), V4 nach N9 bis N10 (Erwartungswert) als Komplexaufgabe. N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11. Ganz zum Schluss können Sie mit V5 (Probeklausur, 90 Minuten) unter Klausurbedingungen üben.",
   "checkliste": [
     {
       "id": "g1",
@@ -1606,6 +1606,190 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Bisher $15\\,\\%$ Defekte im Verhältnis $10:5=2:1$. Mittlere Kosten je Defekt: $\\dfrac{2\\cdot80+1\\cdot250}{3}=\\dfrac{410}{3}\\approx136{,}67\\,€$.\n\nFair, wenn $q\\cdot\\dfrac{410}{3}=49$, also $q=\\dfrac{147}{410}\\approx0{,}359$: ab einer Defektquote von etwa $35{,}9\\,\\%$."
+        }
+      ]
+    },
+    {
+      "id": "V5",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "Teil A keine, Teil B WTR und IQB-Formeldokument",
+      "checkliste": [
+        "c11",
+        "c10",
+        "c9",
+        "c8",
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2",
+        "c1",
+        "g6",
+        "g5",
+        "g4",
+        "g3",
+        "g2",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klausur: 90 Minuten, zuerst Teil A (Aufgabe 1 bis 3) ohne Hilfsmittel, danach Teil B (Aufgabe 4 und 5) mit WTR und IQB-Formeldokument. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 4 (Bedingte Wahrscheinlichkeit, Invertieren und Vierfeldertafel, Unabhängigkeit, Erwartungswert) – am besten ganz am Ende.",
+      "bild": "img/st_V5.svg",
+      "pdf": "pdf/V5_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Innere Felder (1 P): $P(A\\cap \\overline{B})=0{,}7-0{,}4=0{,}3$, $P(\\overline{A}\\cap B)=0{,}6-0{,}4=0{,}2$\n\nRänder und letztes Feld (1 P): $P(\\overline{A})=0{,}3$, $P(\\overline{B})=0{,}4$, $P(\\overline{A}\\cap \\overline{B})=0{,}3-0{,}2=0{,}1$\n\n|   | $B$ | $\\overline{B}$ | $\\Sigma$ |\n|---|---|---|---|\n| $A$ | $0{,}4$ | $0{,}3$ | $0{,}7$ |\n| $\\overline{A}$ | $0{,}2$ | $0{,}1$ | $0{,}3$ |\n| $\\Sigma$ | $0{,}6$ | $0{,}4$ | $1$ |"
+        },
+        {
+          "id": "V5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Erste Stufe: $P(B)=0{,}6$, $P(\\overline{B})=0{,}4$; nach B (1 P): $P(A\\mid B)=\\dfrac{0{,}4}{0{,}6}=\\dfrac23$, $P(\\overline{A}\\mid B)=\\dfrac13$\n\nNach $\\overline{B}$ (1 P): $P(A\\mid \\overline{B})=\\dfrac{0{,}3}{0{,}4}=\\dfrac34$, $P(\\overline{A}\\mid \\overline{B})=\\dfrac14$",
+          "loesung_bild": "img/V5-1b.png"
+        },
+        {
+          "id": "V5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$P(X=4)=1-0{,}4-0{,}5=0{,}1$ (1 P)\n\n$E(X)=-1\\cdot0{,}4+1\\cdot0{,}5+4\\cdot0{,}1=-0{,}4+0{,}5+0{,}4=0{,}5$ (1 P)"
+        },
+        {
+          "id": "V5-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mit $p=P(X=-1)$ und $q=P(X=1)$: $p+q=0{,}9$ und $-p+q+0{,}4=0$ (1 P)\n\nAddieren: $2q+0{,}4=0{,}9$, also $q=0{,}25$ und $p=0{,}65$ (1 P). Probe: $-0{,}65+0{,}25+0{,}4=0$ ✓"
+        },
+        {
+          "id": "V5-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Additionssatz: $P(A\\cap B)=P(A)+P(B)-P(A\\cup B)=0{,}5+0{,}8-0{,}9=0{,}4$ (1 P)\n\n$P(A)\\cdot P(B)=0{,}5\\cdot0{,}8=0{,}4=P(A\\cap B)$: A und B sind stochastisch unabhängig (1 P)."
+        },
+        {
+          "id": "V5-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "A tritt entweder zusammen mit B oder zusammen mit $\\overline{B}$ ein: $P(A\\cap \\overline{B})=P(A)-P(A\\cap B)$ (1 P)\n\nMit $P(A\\cap B)=P(A)\\cdot P(B)$ folgt $P(A\\cap \\overline{B})=P(A)-P(A)\\cdot P(B)=P(A)\\cdot(1-P(B))=P(A)\\cdot P(\\overline{B})$. Ja: Auch A und $\\overline{B}$ sind stochastisch unabhängig (1 P). (Im Beispiel aus a): $P(A\\cap \\overline{B})=0{,}1=0{,}5\\cdot0{,}2$.)"
+        },
+        {
+          "id": "V5-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Äste (1 P): $P(B)=0{,}4$, $P(J\\mid B)=0{,}6$; $P(\\overline{B})=0{,}6$, $P(J\\mid \\overline{B})=0{,}45$\n\nPfade (1 P): $P(B\\cap J)=0{,}24$, $P(B\\cap \\overline{J})=0{,}16$, $P(\\overline{B}\\cap J)=0{,}27$, $P(\\overline{B}\\cap \\overline{J})=0{,}33$",
+          "loesung_bild": "img/V5-4a.png"
+        },
+        {
+          "id": "V5-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "2. Pfadregel: $P(J)=0{,}24+0{,}27=0{,}51=51\\,\\%$"
+        },
+        {
+          "id": "V5-4c",
+          "label": "4c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Erste Stufe (1 P): $P(J)=0{,}51$, $P(\\overline{J})=0{,}49$\n\nNach J (1 P): $P(B\\mid J)=\\dfrac{0{,}24}{0{,}51}\\approx0{,}471$, $P(\\overline{B}\\mid J)=\\dfrac{0{,}27}{0{,}51}\\approx0{,}529$\n\nNach $\\overline{J}$ (1 P): $P(B\\mid \\overline{J})=\\dfrac{0{,}16}{0{,}49}\\approx0{,}327$, $P(\\overline{B}\\mid \\overline{J})=\\dfrac{0{,}33}{0{,}49}\\approx0{,}673$",
+          "loesung_bild": "img/V5-4c.png"
+        },
+        {
+          "id": "V5-4d",
+          "label": "4d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "$P(J\\mid B)=60\\,\\%$: Von den Briefabstimmenden stimmen $60\\,\\%$ mit Ja. $P(B\\mid J)\\approx47{,}1\\,\\%$: Von allen Ja-Stimmen kommen etwa $47{,}1\\,\\%$ per Brief. Bedingung und Ergebnis sind vertauscht, die Bezugsgruppe ist eine andere."
+        },
+        {
+          "id": "V5-4e",
+          "label": "4e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(B\\cup J)=P(B)+P(J)-P(B\\cap J)=0{,}4+0{,}51-0{,}24=0{,}67$ (auch: $1-P(\\overline{B}\\cap \\overline{J})=1-0{,}33$) (1 P)\n\nDie Person stimmt per Brief ab oder mit Ja (mindestens eines von beiden, auch beides), das heißt: Sie stimmt nicht im Wahllokal mit Nein (1 P)."
+        },
+        {
+          "id": "V5-4f",
+          "label": "4f",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Innere Felder = $25\\,000\\,\\cdot$ Pfadwahrscheinlichkeit (1 P), Randsummen (1 P):\n\n|   | $J$ | $\\overline{J}$ | $\\Sigma$ |\n|---|---|---|---|\n| $B$ | $6000$ | $4000$ | $10\\,000$ |\n| $\\overline{B}$ | $6750$ | $8250$ | $15\\,000$ |\n| $\\Sigma$ | $12\\,750$ | $12\\,250$ | $25\\,000$ |"
+        },
+        {
+          "id": "V5-4g",
+          "label": "4g",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mehrheit: $12\\,750$ Ja-Stimmen von $25\\,000$, also $51\\,\\%>50\\,\\%$ ✓ (1 P)\n\nMindestzahl: $0{,}15\\cdot80\\,000=12\\,000\\le12\\,750$ ✓ – beide Bedingungen sind (knapp) erfüllt (1 P)."
+        },
+        {
+          "id": "V5-4h",
+          "label": "4h",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Es fehlen noch die Briefstimmen ($40\\,\\%$). Ist $q$ der Ja-Anteil unter den Briefstimmen, so ist der Ja-Anteil insgesamt $0{,}4\\cdot q+0{,}6\\cdot0{,}45=0{,}4q+0{,}27$ (1 P).\n\nMehrheit, wenn $0{,}4q+0{,}27>0{,}5$, also $q>0{,}575$: Es genügen mehr als $57{,}5\\,\\%$ Ja unter den Briefstimmen (1 P). (Die Mindestzahl ist dann ebenfalls erfüllt: Bei $25\\,000$ Abstimmenden verlangt sie nur $6750+10\\,000\\cdot q\\ge12\\,000$, also $q\\ge52{,}5\\,\\%$.)\n\nNach der Umfrage ($q=60\\,\\%$) wäre der Entscheid mit $51\\,\\%$ knapp angenommen. Die Meldung ist voreilig: Das Ergebnis hängt von den noch nicht ausgezählten Briefstimmen ab, und eine Umfrage ist unsicher – möglich sind beide Ausgänge (1 P)."
+        },
+        {
+          "id": "V5-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Gegebene Werte eintragen (1 P), fehlende Felder durch Differenzen (1 P):\n\n|   | $S$ | $\\overline{S}$ | $\\Sigma$ |\n|---|---|---|---|\n| $N$ | $30$ | $270$ | $300$ |\n| $\\overline{N}$ | $24$ | $876$ | $900$ |\n| $\\Sigma$ | $54$ | $1146$ | $1200$ |"
+        },
+        {
+          "id": "V5-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$P(S\\mid N)=\\dfrac{30}{300}=0{,}1$, aber $P(S)=\\dfrac{54}{1200}=0{,}045$ (ebenso $P(N)\\cdot P(S)=0{,}25\\cdot0{,}045\\approx0{,}011\\neq0{,}025=P(N\\cap S)$): abhängig (1 P).\n\nNachts fahren deutlich mehr Kontrollierte ohne Fahrschein ($10\\,\\%$) als tagsüber ($\\tfrac{24}{900}\\approx2{,}7\\,\\%$) (1 P)."
+        },
+        {
+          "id": "V5-5c",
+          "label": "5c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$P(N\\mid S)=\\dfrac{30}{54}\\approx0{,}556=55{,}6\\,\\%$"
+        },
+        {
+          "id": "V5-5d",
+          "label": "5d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| $x_i$ in € | $0$ | $60$ |\n|---|---|---|\n| $P(X=x_i)$ | $0{,}96$ | $0{,}04$ | (1 P)\n\n$E(X)=0\\cdot0{,}96+60\\cdot0{,}04=2{,}40\\,€$ (1 P)"
+        },
+        {
+          "id": "V5-5e",
+          "label": "5e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei sehr vielen Fahrten ohne Fahrschein zahlt man auf lange Sicht im Mittel $2{,}40\\,€$ je Fahrt, also $0{,}60\\,€$ weniger als den Fahrpreis von $3\\,€$. Bei einer einzelnen Fahrt zahlt man dagegen $0\\,€$ oder $60\\,€$."
+        },
+        {
+          "id": "V5-5f",
+          "label": "5f",
+          "punkte": 4,
+          "afb": "II",
+          "loesung": "Baumdiagramm mit zwei Stufen, K: Fahrt wird kontrolliert, je $P(K)=0{,}04$ (1 P).\n\n| $y_i$ in € | $0$ | $60$ | $120$ |\n|---|---|---|---|\n| $P(Y=y_i)$ | $0{,}96^2=0{,}9216$ | $2\\cdot0{,}04\\cdot0{,}96=0{,}0768$ | $0{,}04^2=0{,}0016$ | (1 P)\n\n$E(Y)=60\\cdot0{,}0768+120\\cdot0{,}0016=4{,}608+0{,}192=4{,}80\\,€$ (1 P)\n\nZwei Fahrscheine kosten $6\\,€$; im Mittel sind die Kosten ohne Fahrschein $1{,}20\\,€$ niedriger – doppelt so viel wie bei einer Fahrt, weil sich die Erwartungswerte der beiden Fahrten addieren ($2\\cdot2{,}40\\,€$) (1 P).",
+          "loesung_bild": "img/V5-5f.png"
+        },
+        {
+          "id": "V5-5g",
+          "label": "5g",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "(1): $0{,}06\\cdot60=3{,}60\\,€$; (2): $0{,}04\\cdot90=3{,}60\\,€$ (1 P).\n\nBeide Maßnahmen machen eine Fahrt ohne Fahrschein im Mittel teurer als den Fahrschein ($3{,}60\\,€>3\\,€$), und zwar genau gleich stark (1 P).\n\nUrteil mit Gesichtspunkten, die der Erwartungswert nicht erfasst, z. B.: Mehr Kontrollen kosten Personal, erhöhen aber das spürbare Risiko, erwischt zu werden; ein höheres Entgelt kostet den Betrieb nichts, ist aber rechtlich begrenzt (in Deutschland derzeit $60\\,€$). Jede begründete Entscheidung mit mindestens einem solchen Gesichtspunkt (1 P)."
         }
       ]
     }

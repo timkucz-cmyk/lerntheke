@@ -3,7 +3,7 @@
   "titel": "Lineare Gleichungssysteme – Training vor der Klassenarbeit",
   "fach": "mathe",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Geraden, beim Aufstellen oder Lösen von Gleichungen oder beim Auflösen von Klammern unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N2 (Gleichungen mit zwei Variablen), V2 nach N3 bis N4 (Gleichsetzen und Einsetzen), V3 nach N5 bis N8 (Additionsverfahren und Sachaufgaben). Ohne Taschenrechner. Geodreieck bereitlegen; dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind wichtig für die Klassenarbeit. Bist du bei Geraden, beim Aufstellen oder Lösen von Gleichungen oder beim Auflösen von Klammern unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 und folgen dem Lernweg bis N8. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N1 bis N2 (Gleichungen mit zwei Variablen), V2 nach N3 bis N4 (Gleichsetzen und Einsetzen), V3 nach N5 bis N8 (Additionsverfahren und Sachaufgaben). Ohne Taschenrechner. Geodreieck bereitlegen; dein Regelheft darfst du benutzen. Ganz zum Schluss kannst du mit V4 (Probearbeit, 60 Minuten) wie in der Klassenarbeit üben – dort ohne Regelheft.",
   "checkliste": [
     {
       "id": "g1",
@@ -1057,6 +1057,205 @@
           "punkte": 1,
           "afb": "III",
           "loesung": "Das leichteste Stück wäre reines Zink: $7 \\cdot 100 = 700$ g; das schwerste reines Kupfer: $9 \\cdot 100 = 900$ g. Jede Mischung wiegt dazwischen, denn wird 1 cm³ Zink durch 1 cm³ Kupfer ersetzt, kommen genau 2 g hinzu."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Geodreieck (ohne Taschenrechner)",
+      "checkliste": [
+        "c8",
+        "c7",
+        "c6",
+        "c5",
+        "c4",
+        "c3",
+        "c2",
+        "c1",
+        "g6",
+        "g5",
+        "g4",
+        "g3",
+        "g2",
+        "g1"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie in der Klassenarbeit: 60 Minuten, zuerst Teil A (Aufgabe 1) ohne Hilfsmittel, danach Teil B (Aufgabe 2 bis 6) mit Geodreieck, ohne Taschenrechner und ohne Regelheft. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Gleichungen mit zwei Variablen, Gleichsetzen und Einsetzen, Additionsverfahren und Sachaufgaben) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $2 \\cdot 3 - (-1) = 6 + 1 = 7$ ✓\n\n*A gewählt?* Minus mal Minus übersehen: $2 \\cdot 4 - (-1) = 9$, nicht 7. *B gewählt?* Das Minus als Plus gelesen: $2 \\cdot 2 - 3 = 1$. *D gewählt?* $x$ und $y$ vertauscht – im Zahlenpaar steht zuerst $x$. → **N1** Aufgabe 1"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – $2y = -4x + 6 \\quad \\mid : 2$, also $y = -2x + 3$.\n\n*A gewählt?* Nicht durch 2 geteilt. *B gewählt?* Beim Subtrahieren von $4x$ das Vorzeichen verloren. *C gewählt?* Nur $-4x$ durch 2 geteilt – geteilt wird die **ganze** rechte Seite. → **N1** Aufgabe 2"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Die Lösung ist der Schnittpunkt der Geraden: 2 nach links, 1 nach oben, also $(-2 \\mid 1)$.\n\n*A gewählt?* $x$- und $y$-Wert vertauscht. *C gewählt?* Das ist nur der Schnittpunkt von I mit der y-Achse. *D gewählt?* Links vom Ursprung ist der x-Wert negativ. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – II nach $y$ umgeformt: $2y = -6x + 8 \\quad \\mid : 2$, also $y = -3x + 4$ – dieselbe Gleichung wie I. Die Geraden sind identisch.\n\n*A gewählt?* Gleiche Steigung heißt nur dann „parallel“, wenn die y-Achsenabschnitte verschieden sind – hier sind sie gleich. *B oder C gewählt?* Das Zahlenpaar ist eine Lösung, aber nicht die einzige: $(2 \\mid -2)$ **und** $(1 \\mid 1)$ erfüllen beide Gleichungen. → **N2** Aufgabe 2"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – $5 - 2x = x + 2 \\quad \\mid -x$, also $5 - 3x = 2 \\quad \\mid -5$, also $-3x = -3$ und $x = 1$; $y = 1 + 2 = 3$.\n\n*B gewählt?* $x$ und $y$ vertauscht. *C gewählt?* $-2x - x$ als $-x$ gerechnet. *D gewählt?* Beim Subtrahieren von 5 das Vorzeichen verloren ($-3x = 3$). → **N3** Aufgabe 1"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Der Term $4y + 1$ ersetzt $x$ und kommt **in Klammern**, weil die 2 mit dem ganzen Term multipliziert wird.\n\n*A gewählt?* Ohne Klammer eingesetzt: Die 1 wurde nicht mit 2 multipliziert. *B gewählt?* Für $y$ statt für $x$ eingesetzt. *D gewählt?* Beim Umstellen das Vorzeichen von $5y$ nicht geändert. → **N3** Aufgabe 2"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $2x + 4x = 6x$, $3y + (-3y) = 0$, $11 + 1 = 12$, also $6x = 12$.\n\n*B gewählt?* $3y$ und $-3y$ sind Gegenzahlen, ihre Summe ist 0. *C gewählt?* Das ist $\\text{I} - \\text{II}$. *D gewählt?* Links addiert, rechts subtrahiert. → **N5** Aufgabe 1"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $2 \\cdot \\text{I}$: $4x + 6y = 2$. Vor $y$ stehen jetzt die Gegenzahlen $+6y$ und $-6y$; $2 \\cdot \\text{I} + \\text{II}$ ergibt $9x = 18$.\n\n*A gewählt?* Dann stehen $3y$ und $-12y$ da – keine Gegenzahlen. *C gewählt?* Die 6 aus II übernommen: $18y$ und $-6y$ heben sich nicht auf. *D gewählt?* Mit 5 passt nur die Zahl vor $x$ zu II, und auch dann fällt $x$ erst weg, wenn man II zusätzlich mit 2 multipliziert und subtrahiert. → **N5** Aufgabe 2"
+        },
+        {
+          "id": "V4-1i",
+          "label": "1i",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – 3 Gläser Honig kosten $3x$, 2 Gläser Marmelade $2y$; zusammen $3x + 2y = 24$.\n\n*A gewählt?* Die Anzahlen vertauscht. *B gewählt?* Dann wären es je 5 Gläser von jeder Sorte. *C gewählt?* Das wäre der Preis für **ein** Glas jeder Sorte. → **N7** Aufgabe 1"
+        },
+        {
+          "id": "V4-1j",
+          "label": "1j",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $2(x + 4) = 2x + 8$. Das Minus vor der Klammer ändert **beide** Vorzeichen: $-(3x - 1) = -3x + 1$. Zusammen: $2x + 8 - 3x + 1 = 9 - x$.\n\n*B gewählt?* Nur bei $3x$ das Vorzeichen geändert: $2x + 8 - 3x - 1 = 7 - x$. *C gewählt?* Das Minus vor der Klammer übersehen: $2x + 8 + 3x - 1 = 5x + 7$. *D gewählt?* Die 4 nicht mit 2 multipliziert: $2x + 4 - 3x + 1 = 5 - x$. → **G2** Aufgabe 6"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$$x + y = 1 \\quad \\mid -x$$\n\n$$y = -x + 1$$"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "I: Start in $(0 \\mid -4)$, 3 nach rechts, 2 nach oben. II: Start in $(0 \\mid 1)$, 1 nach rechts, 1 nach unten (1 P).\n\nDie Geraden schneiden sich in $(3 \\mid -2)$. Die Lösung ist $(3 \\mid -2)$ (1 P). Der Schnittpunkt liegt auf einer Kästchenecke; beim Ablesen genügt eine Genauigkeit von einem halben Kästchen, die Probe in c) bestätigt den Wert.",
+          "loesung_bild": "img/V4-2b.png"
+        },
+        {
+          "id": "V4-2c",
+          "label": "2c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "I: $\\frac{2}{3} \\cdot 3 - 4 = 2 - 4 = -2$ ✓ II: $3 + (-2) = 1$ ✓"
+        },
+        {
+          "id": "V4-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Auf der x-Achse ist $y = 0$. Aus I folgt $0 = \\frac{2}{3}x - 4$, also $\\frac{2}{3}x = 4$ und $x = 6$; die Lösung muss also $(6 \\mid 0)$ sein (1 P).\n\nIn II einsetzen: $6 + 0 = 6$. Die neue Gleichung heißt II: $x + y = 6$ (1 P)."
+        },
+        {
+          "id": "V4-2e",
+          "label": "2e",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Kein gemeinsamer Punkt heißt: Die Geraden sind parallel – gleiche Steigung, anderer y-Achsenabschnitt. Die Gerade zu III müsste also die Steigung $\\frac{2}{3}$ (wie I) **und** die Steigung $-1$ (wie II) haben (1 P).\n\nDas geht nicht gleichzeitig. Jede Gerade schneidet mindestens eine der beiden Geraden; Paula findet keine solche Gleichung (1 P)."
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "I in II einsetzen – $2y + 3$ in Klammern – und $y$ bestimmen (1 P):\n\n$$5y - 2(2y + 3) = -8$$\n\n$$5y - 4y - 6 = -8 \\quad \\mid +6$$\n\n$$y = -2$$\n\n$y = -2$ in I einsetzen (1 P): $x = 2 \\cdot (-2) + 3 = -1$\n\nLösung und Probe (1 P): Die Lösung ist $(-1 \\mid -2)$. Probe in II: $5 \\cdot (-2) - 2 \\cdot (-1) = -10 + 2 = -8$ ✓"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Das **Additionsverfahren**: Keine Gleichung ist nach einer Variablen umgeformt, und vor $x$ steht in II genau das Doppelte von I ($4x$ und $2x$). Nach $2 \\cdot \\text{I}$ fällt $x$ durch Subtrahieren weg. (Auch richtig: $y$ fällt weg nach $3 \\cdot \\text{I}$ und $5 \\cdot \\text{II}$ – das braucht aber zwei Multiplikationen.)"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "$2 \\cdot \\text{I}$: $4x + 10y = 2$. $2 \\cdot \\text{I} - \\text{II}$, $y$ bestimmen (1 P):\n\n$$10y - (-3y) = 2 - 15$$\n\n$$13y = -13 \\quad \\mid : 13$$\n\n$$y = -1$$\n\n$y = -1$ in I einsetzen (1 P): $2x - 5 = 1$, also $2x = 6$ und $x = 3$\n\nLösung und Probe (1 P): Die Lösung ist $(3 \\mid -1)$. Probe in II: $4 \\cdot 3 - 3 \\cdot (-1) = 12 + 3 = 15$ ✓"
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "I ist nach $y$, II aber nach $x$ umgeformt. Gleichsetzen darf man nur Terme, die für **dieselbe** Variable stehen. Jonte erhält wieder eine Gleichung mit zwei Variablen und kommt so nicht weiter."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Einsetzungsverfahren: II in I einsetzen und $y$ bestimmen (1 P):\n\n$$y = 2(2y + 6) - 3$$\n\n$$y = 4y + 9 \\quad \\mid -4y$$\n\n$$-3y = 9 \\quad \\mid : (-3)$$\n\n$$y = -3$$\n\n$y = -3$ in II einsetzen (1 P): $x = 2 \\cdot (-3) + 6 = 0$\n\nLösung und Probe (1 P): Die Lösung ist $(0 \\mid -3)$. Probe in I: $2 \\cdot 0 - 3 = -3$ ✓\n\nAuch richtig: I in II einsetzen: $x = 2(2x - 3) + 6 = 4x$, also $x = 0$."
+        },
+        {
+          "id": "V4-5a",
+          "label": "5a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "I: $x + y = 30$ (Anzahl der Flaschen, 1 P)\n\nII: $0{,}25x + 0{,}15y = 5{,}5$ (Pfand in €, 1 P; auch richtig in Cent: $25x + 15y = 550$)"
+        },
+        {
+          "id": "V4-5b",
+          "label": "5b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Einsetzungsverfahren mit $y = 30 - x$ aus I; $x$ bestimmen (1 P):\n\n$$0{,}25x + 0{,}15(30 - x) = 5{,}5$$\n\n$$0{,}25x + 4{,}5 - 0{,}15x = 5{,}5 \\quad \\mid -4{,}5$$\n\n$$0{,}1x = 1 \\quad \\mid : 0{,}1$$\n\n$$x = 10$$\n\n$x = 10$ in I einsetzen (1 P): $y = 30 - 10 = 20$\n\nProbe und Antwort (1 P): $0{,}25 \\cdot 10 + 0{,}15 \\cdot 20 = 2{,}5 + 3 = 5{,}5$ ✓. Die Lösung ist $(10 \\mid 20)$: Lea hat **10 Einwegflaschen** und **20 Mehrwegflaschen** abgegeben.\n\nAuch richtig: Additionsverfahren mit $25x + 15y = 550$ und $15 \\cdot \\text{I}$: $10x = 100$."
+        },
+        {
+          "id": "V4-5c",
+          "label": "5c",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Dosen und Einwegflaschen bringen dasselbe Pfand. Für die Rechnung ist eine Dose wie eine Einwegflasche: $x = 10$ ist jetzt die Anzahl der Einwegflaschen **und** Dosen zusammen, $y = 20$ bleibt die Anzahl der Mehrwegflaschen (1 P).\n\nWie viele davon Dosen sind, lässt sich aus Anzahl und Betrag nicht bestimmen: Dafür fehlt eine weitere Angabe. Das Ergebnis aus b) stimmt also nur, wenn man „Einwegflaschen“ als „Teile mit 0,25 € Pfand“ deutet (1 P)."
+        },
+        {
+          "id": "V4-6",
+          "label": "6",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Beide Zahlenpaare liegen auf der Geraden zu I **und** auf der Geraden zu II. Durch zwei verschiedene Punkte geht aber nur eine Gerade – beide Geraden sind also identisch (1 P).\n\nDas Gleichungssystem hat deshalb nicht genau zwei, sondern **unendlich viele** Lösungen: alle Zahlenpaare der Geraden $y = 1{,}5x + 0{,}5$ durch die beiden Punkte, z. B. auch $(5 \\mid 8)$ (1 P)."
         }
       ]
     }
