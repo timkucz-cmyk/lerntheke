@@ -3,7 +3,7 @@
   "titel": "Mechanische und elektromagnetische Schwingungen – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind testrelevant. Sind Sie beim Vorwissen unsicher (Sinusfunktion, Kreisbewegung, Federkraft, Energie, Ableitung), beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt die typischen Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Schwingungen beschreiben), V2 nach N4 bis N7 (Feder- und Fadenpendel), V3 nach N8 bis N10 (gedämpfte Schwingungen). N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11. Stationen mit der Marke eA (N12 bis N15 und V4) gehören zum erhöhten Niveau. Stellen Sie den Taschenrechner für alle Schwingungsrechnungen auf Bogenmaß (RAD).",
+  "hinweis": "Alle Stationen sind testrelevant. Sind Sie beim Vorwissen unsicher (Sinusfunktion, Kreisbewegung, Federkraft, Energie, Ableitung), beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt die typischen Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3 (Schwingungen beschreiben), V2 nach N4 bis N7 (Feder- und Fadenpendel), V3 nach N8 bis N10 (gedämpfte Schwingungen). N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11. Die Probeklausur V5 (grundlegendes Niveau) schreiben Sie ganz am Ende. Stationen mit der Marke eA (N12 bis N15 und V4) gehören zum erhöhten Niveau. Stellen Sie den Taschenrechner für alle Schwingungsrechnungen auf Bogenmaß (RAD).",
   "checkliste": [
     {
       "id": "g1",
@@ -1722,6 +1722,162 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Die Spulen liegen so dicht, dass sie sich gegenseitig beeinflussen: Der Strom in einer Spule induziert in den Nachbarn Spannungen (Kopplung). Die gekoppelten Schwingkreise schwingen nicht mehr mit $8{,}2\\,\\mathrm{MHz}$ – die Resonanz verschiebt sich und spaltet auf, die Energie verteilt sich; zusätzlich dämpfen sich die Etiketten gegenseitig. Die Resonanzfrequenz kann dadurch aus dem Bereich $7{,}4$ bis $8{,}8\\,\\mathrm{MHz}$ herausfallen oder die Resonanz wird zu breit und schwach, um erkannt zu werden."
+        }
+      ]
+    },
+    {
+      "id": "V5",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c8",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c1",
+        "c2",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Klausurbedingungen: 90 Minuten, WTR und Formeldokument (wie in der Physikklausur ohne hilfsmittelfreien Teil), Lösungswege vollständig aufschreiben, Taschenrechner im Bogenmaß. Grundlegendes Niveau: Die Probeklausur verwendet nur Inhalte ohne die Marke eA (also auch keine Resonanz). Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Schwingungen beschreiben, Feder- und Fadenpendel, gedämpfte Schwingungen) – am besten ganz am Ende.",
+      "bild": "img/st_V5.svg",
+      "pdf": "pdf/V5_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V5-1a",
+          "label": "1a",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Im Gleichgewicht ist die Auftriebskraft so groß wie die Gewichtskraft, die resultierende Kraft ist null (1 P).\n\nHebt man die Spindel um $y$ an, taucht der Stiel um $y$ weniger ein: Das eingetauchte Volumen sinkt um $A \\cdot y$, die Auftriebskraft um $\\rho_W \\cdot g \\cdot A \\cdot y$, die Gewichtskraft bleibt. Es bleibt eine Kraft dieses Betrags nach unten; beim Hinunterdrücken entsprechend nach oben. Also $F = -\\rho_W \\cdot g \\cdot A \\cdot y$ (1 P).\n\nDie Kraft ist proportional zur Auslenkung und ihr entgegengerichtet: lineares Kraftgesetz $F = -D \\cdot y$ mit $D = \\rho_W \\cdot g \\cdot A$. Damit schwingt die Spindel harmonisch (solange die Wasseroberfläche am Stiel liegt) (1 P)."
+        },
+        {
+          "id": "V5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$A = \\pi \\cdot (4{,}0 \\cdot 10^{-3}\\,\\mathrm{m})^2 \\approx 5{,}03 \\cdot 10^{-5}\\,\\mathrm{m^2}$, $D = 1{,}00 \\cdot 10^{3}\\,\\frac{\\mathrm{kg}}{\\mathrm{m^3}} \\cdot 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}} \\cdot 5{,}03 \\cdot 10^{-5}\\,\\mathrm{m^2} \\approx 0{,}493\\,\\frac{\\mathrm{N}}{\\mathrm{m}}$ (1 P)\n\n$$T = 2\\pi \\cdot \\sqrt{\\frac{m}{D}} = 2\\pi \\cdot \\sqrt{\\frac{0{,}024\\,\\mathrm{kg}}{0{,}493\\,\\frac{\\mathrm{N}}{\\mathrm{m}}}} \\approx 1{,}39\\,\\mathrm{s}$$ (1 P)"
+        },
+        {
+          "id": "V5-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\omega = \\frac{2\\pi}{T} = \\frac{2\\pi}{1{,}39\\,\\mathrm{s}} \\approx 4{,}53\\,\\mathrm{s^{-1}}$ (1 P) [mit dem Ersatzwert: $4{,}49\\,\\mathrm{s^{-1}}$]\n\nStart im unteren Umkehrpunkt: $y(t) = -2{,}0\\,\\mathrm{cm} \\cdot \\cos(4{,}53\\,\\mathrm{s^{-1}} \\cdot t)$, gleichwertig $y(t) = 2{,}0\\,\\mathrm{cm} \\cdot \\sin\\left(4{,}53\\,\\mathrm{s^{-1}} \\cdot t - \\frac{\\pi}{2}\\right)$ (1 P)"
+        },
+        {
+          "id": "V5-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Schwingungsenergie im Umkehrpunkt ist in der Gleichgewichtslage vollständig Bewegungsenergie: $\\frac{1}{2} \\cdot D \\cdot \\hat{y}^2 = \\frac{1}{2} \\cdot m \\cdot \\hat{v}^2$ (1 P)\n\n$$\\hat{v} = \\hat{y} \\cdot \\sqrt{\\frac{D}{m}} = 0{,}020\\,\\mathrm{m} \\cdot \\sqrt{\\frac{0{,}493\\,\\frac{\\mathrm{N}}{\\mathrm{m}}}{0{,}024\\,\\mathrm{kg}}} \\approx 0{,}091\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$$ (1 P)"
+        },
+        {
+          "id": "V5-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Gewichtskraft bleibt gleich; bei größerer Dichte genügt ein kleineres eingetauchtes Volumen ($21{,}8\\,\\mathrm{cm^3}$ statt $24\\,\\mathrm{cm^3}$), die Spindel taucht etwa $4{,}3\\,\\mathrm{cm}$ weniger tief ein (1 P).\n\n$D = \\rho \\cdot g \\cdot A$ ist $1{,}10$-mal so groß, also $T = \\frac{1{,}39\\,\\mathrm{s}}{\\sqrt{1{,}10}} \\approx 1{,}32\\,\\mathrm{s}$ (1 P)"
+        },
+        {
+          "id": "V5-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In Wasser ist die Dämpfung schwach (Schwingfall): Die Spindel schwingt mehrmals um die Gleichgewichtslage, die Amplitude nimmt allmählich ab, die Periodendauer bleibt fast gleich (1 P).\n\nIn Glycerin ist die Reibung sehr groß (Kriechfall): Die Spindel kriecht ohne Überschwingen langsam in ihre Gleichgewichtslage zurück; sie schwingt gar nicht (1 P)."
+        },
+        {
+          "id": "V5-1g",
+          "label": "1g",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Im Gleichgewicht sind $15\\,\\mathrm{cm} - 7{,}0\\,\\mathrm{cm} = 8{,}0\\,\\mathrm{cm}$ des Stiels eingetaucht. Schon $7{,}0\\,\\mathrm{cm}$ unter der Gleichgewichtslage ist die Spindel ganz unter Wasser; tiefer wächst der Auftrieb nicht weiter – die Kraft ist nicht mehr proportional zu $y$ (1 P).\n\nSteigt die Spindel mehr als $8{,}0\\,\\mathrm{cm}$ über die Gleichgewichtslage, taucht der dicke Glaskörper auf: Je Zentimeter ändert sich das eingetauchte Volumen viel stärker als am Stiel, die Kraft ist größer als $D \\cdot y$ (1 P).\n\nUrteil: Das lineare Kraftgesetz gilt nur, solange die Wasseroberfläche am Stiel liegt (etwa $7\\,\\mathrm{cm}$ nach unten und $8\\,\\mathrm{cm}$ nach oben). Bei $10\\,\\mathrm{cm}$ schwingt die Spindel nicht harmonisch (1 P)."
+        },
+        {
+          "id": "V5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "| $m$ in g | 50 | 100 | 150 | 200 | 250 |\n|---|---|---|---|---|---|\n| $T$ in s | 0,524 | 0,690 | 0,817 | 0,935 | 1,030 |\n| $T^2$ in s² | 0,275 | 0,476 | 0,667 | 0,874 | 1,061 |\n\nJe Zeile 1 P."
+        },
+        {
+          "id": "V5-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Achsen mit Größe und Einheit, Messpunkte eingetragen (1 P).\n\nDie Punkte liegen gut auf einer Geraden, die die $T^2$-Achse bei etwa $0{,}08\\,\\mathrm{s^2}$ schneidet; Regression: $T^2 \\approx 3{,}94\\,\\frac{\\mathrm{s^2}}{\\mathrm{kg}} \\cdot m + 0{,}079\\,\\mathrm{s^2}$ (1 P).",
+          "loesung_bild": "img/V5-2b.png"
+        },
+        {
+          "id": "V5-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Aus $T = 2\\pi \\cdot \\sqrt{\\frac{m}{D}}$ folgt $T^2 = \\frac{4\\pi^2}{D} \\cdot m$: Die Steigung ist $k = \\frac{4\\pi^2}{D} \\approx 3{,}94\\,\\frac{\\mathrm{s^2}}{\\mathrm{kg}}$ (1 P).\n\n$D = \\frac{4\\pi^2}{k} = \\frac{39{,}48}{3{,}94\\,\\frac{\\mathrm{s^2}}{\\mathrm{kg}}} \\approx 10{,}0\\,\\frac{\\mathrm{N}}{\\mathrm{m}}$ (1 P; Werte zwischen etwa $9{,}7$ und $10{,}3\\,\\frac{\\mathrm{N}}{\\mathrm{m}}$ je nach Ausgleichsgerade)"
+        },
+        {
+          "id": "V5-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$D = \\frac{m \\cdot g}{s} = \\frac{0{,}250\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}}{0{,}245\\,\\mathrm{m}} \\approx 10{,}0\\,\\frac{\\mathrm{N}}{\\mathrm{m}}$ (1 P)\n\nBeide Messungen liefern im Rahmen der Messgenauigkeit dieselbe Federhärte (1 P)."
+        },
+        {
+          "id": "V5-2e",
+          "label": "2e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$T^2 = \\frac{4\\pi^2}{D} \\cdot m + \\frac{4\\pi^2}{D} \\cdot m_0$: Der Achsenabschnitt ist $b = \\frac{4\\pi^2}{D} \\cdot m_0 \\approx 0{,}079\\,\\mathrm{s^2}$ (1 P).\n\n$m_0 = \\frac{b}{k} = \\frac{0{,}079\\,\\mathrm{s^2}}{3{,}94\\,\\frac{\\mathrm{s^2}}{\\mathrm{kg}}} \\approx 0{,}020\\,\\mathrm{kg} = 20\\,\\mathrm{g}$ (1 P)"
+        },
+        {
+          "id": "V5-2f",
+          "label": "2f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Die Formel beschreibt eine Feder ohne Masse. Hier schwingt die Feder selbst mit: Ihr unteres Ende bewegt sich wie die Hakenmasse, ihr oberes ruht. $m_0 = 20\\,\\mathrm{g}$ ist ein Teil der Federmasse von $60\\,\\mathrm{g}$ – plausibel (1 P).\n\nDie Steigung liefert dieselbe Federhärte wie die Dehnungsmessung, und alle Punkte liegen auf einer Geraden: $T^2$ wächst wie vorhergesagt linear mit der schwingenden Masse (1 P).\n\nUrteil: Die Folgerung ist falsch. Die Formel ist ein Modell für eine masselose Feder; bei kleinen Hakenmassen muss man die mitschwingende Federmasse berücksichtigen oder deutlich schwerere Massen verwenden (1 P)."
+        },
+        {
+          "id": "V5-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$$T = 2\\pi \\cdot \\sqrt{\\frac{l}{g}} = 2\\pi \\cdot \\sqrt{\\frac{6{,}0\\,\\mathrm{m}}{9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}}} \\approx 4{,}91\\,\\mathrm{s}$$ (1 P)\n\nVon einem Umkehrpunkt zum anderen vergeht eine halbe Periode: $\\frac{T}{2} \\approx 2{,}46\\,\\mathrm{s}$ (1 P)"
+        },
+        {
+          "id": "V5-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Jeder Umkehrpunkt liegt $l \\cdot \\sin(20°) = 6{,}0\\,\\mathrm{m} \\cdot 0{,}342 \\approx 2{,}05\\,\\mathrm{m}$ waagerecht neben dem tiefsten Punkt (1 P).\n\nAbstand der Umkehrpunkte (und der Ufer): $2 \\cdot 2{,}05\\,\\mathrm{m} \\approx 4{,}10\\,\\mathrm{m}$ (1 P)"
+        },
+        {
+          "id": "V5-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Höhenunterschied: $h = l \\cdot (1 - \\cos(20°)) = 6{,}0\\,\\mathrm{m} \\cdot 0{,}0603 \\approx 0{,}362\\,\\mathrm{m}$ (1 P)\n\n$m \\cdot g \\cdot h = \\frac{1}{2} \\cdot m \\cdot v^2 \\Rightarrow v = \\sqrt{2 \\cdot g \\cdot h} = \\sqrt{2 \\cdot 9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}} \\cdot 0{,}362\\,\\mathrm{m}} \\approx 2{,}66\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ (1 P)"
+        },
+        {
+          "id": "V5-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\hat{s} = 6{,}0\\,\\mathrm{m} \\cdot 0{,}349 \\approx 2{,}09\\,\\mathrm{m}$, $\\omega = \\frac{2\\pi}{T} \\approx 1{,}28\\,\\mathrm{s^{-1}}$, $\\hat{v} = \\hat{s} \\cdot \\omega \\approx 2{,}68\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ (1 P)\n\nDer Unterschied zum Energiesatz beträgt nur etwa $0{,}5\\,\\%$: Für $20°$ beschreibt das Modell der harmonischen Schwingung (kleine Auslenkungen) das Schwingen sehr gut (1 P)."
+        },
+        {
+          "id": "V5-3e",
+          "label": "3e",
+          "punkte": 4,
+          "afb": "III",
+          "loesung": "Mit $l = 4{,}0\\,\\mathrm{m}$ wird $T = 2\\pi \\cdot \\sqrt{\\frac{4{,}0\\,\\mathrm{m}}{9{,}81\\,\\frac{\\mathrm{m}}{\\mathrm{s^2}}}} \\approx 4{,}01\\,\\mathrm{s}$, die halbe Periode dauert $2{,}0\\,\\mathrm{s}$ statt $2{,}46\\,\\mathrm{s}$ (1 P).\n\nDie Ufer bleiben $4{,}10\\,\\mathrm{m}$ auseinander. Damit die Umkehrpunkte über den Ufern liegen, muss $\\sin(\\varphi) = \\frac{2{,}05\\,\\mathrm{m}}{4{,}0\\,\\mathrm{m}}$ gelten, also $\\varphi \\approx 31°$ (Formel noch brauchbar, Abweichung etwa $2\\,\\%$). Der Schwerpunkt des Kindes liegt dort nur $4{,}0\\,\\mathrm{m} \\cdot \\cos(31°) \\approx 3{,}43\\,\\mathrm{m}$ unter dem Ast statt $6{,}0\\,\\mathrm{m} \\cdot \\cos(20°) \\approx 5{,}64\\,\\mathrm{m}$ – also rund $2{,}2\\,\\mathrm{m}$ höher als am Ufer (1 P).\n\nDas Kind müsste von einer etwa $2{,}2\\,\\mathrm{m}$ hohen Stelle starten. Ohne Reibung liegt der Umkehrpunkt auf der anderen Seite gleich hoch: Dort ist das Kind zwar in Ruhe, hängt aber $2{,}2\\,\\mathrm{m}$ über dem Ufer und müsste hinunterspringen (Aufprall mit etwa $\\sqrt{2 \\cdot g \\cdot 2{,}2\\,\\mathrm{m}} \\approx 6{,}6\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$). Startet es dagegen am Ufer, erreicht es das gekürzte Seil gar nicht (1 P).\n\nUrteil: Der Vorschlag ist ungeeignet – knapp $0{,}5\\,\\mathrm{s}$ Zeitgewinn rechtfertigen den hohen Start und den Sprung am anderen Ufer nicht (1 P; auch andere begründete Urteile)."
         }
       ]
     }

@@ -3,7 +3,7 @@
   "titel": "Magnetisches Feld und Induktion – Lerntheke vor der Klausur",
   "fach": "physik",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind klausurrelevant. Sind Sie beim Vorwissen aus der E-Phase unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Energie, Kreisbewegung und Ladung auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N13. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Magnete und Magnetfelder), V2 nach N3 bis N5 (Kraft und Flussdichte), V3 nach N6 bis N8 (geladene Teilchen), V4 nach N9 bis N13 (Induktion). N14 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N14. Stationen mit der Marke eA (N15 bis N17, am besten nach N11) gehören zum erhöhten Niveau. Alle Richtungsangaben verwenden die Elektronenflussrichtung wie im Skript.",
+  "hinweis": "Alle Stationen sind klausurrelevant. Sind Sie beim Vorwissen aus der E-Phase unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Energie, Kreisbewegung und Ladung auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N13. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Magnete und Magnetfelder), V2 nach N3 bis N5 (Kraft und Flussdichte), V3 nach N6 bis N8 (geladene Teilchen), V4 nach N9 bis N13 (Induktion). N14 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N14. Die Probeklausur V5 (grundlegendes Niveau) schreiben Sie ganz am Ende unter Klausurbedingungen. Stationen mit der Marke eA (N15 bis N17, am besten nach N11) gehören zum erhöhten Niveau. Alle Richtungsangaben verwenden die Elektronenflussrichtung wie im Skript.",
   "checkliste": [
     {
       "id": "g1",
@@ -1931,6 +1931,184 @@
           "punkte": 3,
           "afb": "III",
           "loesung": "Falsch. Bei gleichem Volumenstrom gilt $\\frac{\\pi \\cdot d^2}{4} \\cdot v = $ konstant: Bei halbem Durchmesser ist die Querschnittsfläche ein Viertel, das Wasser fließt viermal so schnell.\n\n$U = B \\cdot d \\cdot v$: halbes $d$, vierfaches $v$ – die Spannung **verdoppelt** sich. Allgemein ist $U = \\frac{4 \\cdot B}{\\pi \\cdot d} \\cdot \\frac{\\Delta V}{\\Delta t}$ – kleinere Rohre liefern bei gleichem Volumenstrom größere Signale."
+        }
+      ]
+    },
+    {
+      "id": "V5",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c12",
+        "c13",
+        "c14",
+        "c15",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c4",
+        "c5",
+        "c6",
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Echte Klausurbedingungen: 90 Minuten, WTR und Formeldokument (wie in der Physikklausur ohne hilfsmittelfreien Teil), Lösungswege vollständig aufschreiben. Grundlegendes Niveau: Die Probeklausur verwendet nur Inhalte ohne die Marke eA. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 4 (Magnete, Kraft und Flussdichte, geladene Teilchen, Induktion) – am besten ganz am Ende.",
+      "bild": "img/st_V5.svg",
+      "pdf": "pdf/V5_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Linke-Faust-Regel: Der Daumen zeigt in die Zeichenebene (Elektronenflussrichtung), die gekrümmten Finger zeigen **gegen den Uhrzeigersinn**. Die Feldlinien sind geschlossene Kreise um das Kabel und verlaufen gebündelt im Ring (1 P).\n\nIm Spalt rechts zeigt das Feld deshalb **nach oben** (1 P).",
+          "loesung_bild": "img/V5-1a.png"
+        },
+        {
+          "id": "V5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Eisen ist ferromagnetisch: Im Feld des Kabels richten sich die Weiss’schen Bezirke im Ring aus (die günstig ausgerichteten wachsen). Der Ring wird stark magnetisiert, sein Feld kommt zum Feld des Kabels hinzu ($\\mu_r \\gg 1$) (1 P).\n\nDie Feldlinien verlaufen gebündelt im Ring und müssen geschlossen durch den schmalen Spalt treten. Dort liegen sie sehr dicht – die Flussdichte ist groß (1 P)."
+        },
+        {
+          "id": "V5-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der große Strom hat den Ring bis in die Sättigung magnetisiert. Ohne Strom bleibt eine Restmagnetisierung (Remanenz) zurück; im Spalt bleibt die Flussdichte $0{,}4 \\cdot 0{,}60\\,\\mathrm{mT} = 0{,}24\\,\\mathrm{mT}$, der Hallsensor misst sie als Strom (1 P).\n\nAbhilfe: Material mit sehr schmaler Hysteresekurve (kleine Remanenz und Koerzitivfeldstärke) oder vor jeder Messung ohne Kabel einen Nullabgleich machen (1 P)."
+        },
+        {
+          "id": "V5-1d",
+          "label": "1d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$B = 25 \\cdot 0{,}60\\,\\mathrm{mT} = 15\\,\\mathrm{mT}$ (1 P)\n\n$$U_H = 3{,}0 \\cdot 10^{-4}\\,\\frac{\\mathrm{m^3}}{\\mathrm{C}} \\cdot \\frac{1{,}0 \\cdot 10^{-2}\\,\\mathrm{A} \\cdot 1{,}5 \\cdot 10^{-2}\\,\\mathrm{T}}{1{,}0 \\cdot 10^{-4}\\,\\mathrm{m}} = 4{,}5 \\cdot 10^{-4}\\,\\mathrm{V} = 0{,}45\\,\\mathrm{mV}$$ (1 P)"
+        },
+        {
+          "id": "V5-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fließen die Elektronen im Kabel andersherum, kehrt sich das Feld im Ring und im Spalt um (1 P).\n\nDann kehrt sich auch die Lorentzkraft auf die Ladungsträger im Hallplättchen um: Sie werden zur anderen Kante abgelenkt, die Hallspannung wechselt ihr Vorzeichen (1 P)."
+        },
+        {
+          "id": "V5-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fünf Leiterstücke mit je $0{,}80\\,\\mathrm{A}$ führen durch den Ring; wie bei den Windungen einer Spule addieren sich ihre Felder: $B = 5 \\cdot 0{,}80 \\cdot 0{,}60\\,\\mathrm{mT} = 2{,}4\\,\\mathrm{mT}$. Die Zange zeigt $4{,}0\\,\\mathrm{A}$ an; die Stromstärke ist ein Fünftel davon (1 P).\n\nDie Hallspannung ist fünfmal so groß, feste Fehler (z. B. eine Restanzeige von $0{,}4\\,\\mathrm{A}$ oder Störspannungen) zählen nach dem Teilen durch 5 nur noch ein Fünftel – der relative Fehler sinkt (1 P)."
+        },
+        {
+          "id": "V5-1g",
+          "label": "1g",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "In der Spule entsteht nur dann eine Induktionsspannung, wenn sich die Flussdichte im Ring ändert: $U_{Ind} = -N \\cdot A \\cdot \\frac{\\Delta B}{\\Delta t}$ (1 P).\n\nWechselstrom: Die Flussdichte im Ring ändert sich ständig mit $50\\,\\mathrm{Hz}$, in der Spule entsteht eine Wechselspannung, deren Scheitelwert proportional zur Stromstärke ist – messbar. Gleichstrom: Die Flussdichte ist konstant, es entsteht keine Spannung (nur beim Ein- und Ausschalten ein kurzer Spannungsstoß) (1 P).\n\nUrteil: Die Spulen-Zange eignet sich nur für Wechselstrom, den Ladestrom der Autobatterie misst sie nicht. Die Hall-Zange misst beides (1 P)."
+        },
+        {
+          "id": "V5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Die Lorentzkraft $F_L = q \\cdot v \\cdot B$ steht immer senkrecht zur Geschwindigkeit und zum Feld. Sie ändert nur die Richtung der Geschwindigkeit, nicht ihren Betrag (1 P).\n\nEine Kraft mit konstantem Betrag, die stets senkrecht zur Bewegung wirkt, ist eine Zentripetalkraft: Das Teilchen läuft auf einer Kreisbahn in der Ebene senkrecht zum Feld (1 P)."
+        },
+        {
+          "id": "V5-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In P bewegt sich das Teilchen nach rechts, seine Bahn krümmt sich nach oben: Die Kraft zeigt in P nach oben (1 P).\n\nLinke-Hand-Regel für Elektronen: Daumen nach rechts (Bewegung), Zeigefinger aus der Zeichenebene (Feld) – der Mittelfinger zeigt nach oben. Das passt: Das Teilchen ist **negativ** geladen (z. B. ein Elektron). Ein positives Teilchen würde nach unten abgelenkt wie das α-Teilchen in Spur 1 (1 P)."
+        },
+        {
+          "id": "V5-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$E_{kin} = 5{,}3 \\cdot 10^{6} \\cdot 1{,}602 \\cdot 10^{-19}\\,\\mathrm{J} \\approx 8{,}49 \\cdot 10^{-13}\\,\\mathrm{J}$ (1 P)\n\n$$v = \\sqrt{\\frac{2 \\cdot E_{kin}}{m_\\alpha}} = \\sqrt{\\frac{2 \\cdot 8{,}49 \\cdot 10^{-13}\\,\\mathrm{J}}{6{,}645 \\cdot 10^{-27}\\,\\mathrm{kg}}} \\approx 1{,}60 \\cdot 10^{7}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$$ (1 P)\n\nDas sind etwa $5\\,\\%$ der Lichtgeschwindigkeit, die klassische Rechnung genügt."
+        },
+        {
+          "id": "V5-2d",
+          "label": "2d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Die Lorentzkraft ist die Zentripetalkraft: $q \\cdot v \\cdot B = \\frac{m \\cdot v^2}{r}$ (1 P)\n\nDurch $v$ teilen und nach $r$ umstellen: $r = \\frac{m \\cdot v}{q \\cdot B}$ (1 P)\n\n$$r = \\frac{6{,}645 \\cdot 10^{-27}\\,\\mathrm{kg} \\cdot 1{,}60 \\cdot 10^{7}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{2 \\cdot 1{,}602 \\cdot 10^{-19}\\,\\mathrm{C} \\cdot 0{,}80\\,\\mathrm{T}} \\approx 0{,}41\\,\\mathrm{m}$$ (1 P) [mit dem Ersatzwert: $0{,}39\\,\\mathrm{m}$]"
+        },
+        {
+          "id": "V5-2e",
+          "label": "2e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Der Bahnradius von etwa $41\\,\\mathrm{cm}$ ist rund zehnmal so groß wie die Spurlänge von $4\\,\\mathrm{cm}$. Auf diesem kurzen Stück eines so großen Kreises weicht die Spur nur um etwa $2\\,\\mathrm{mm}$ von einer Geraden ab."
+        },
+        {
+          "id": "V5-2f",
+          "label": "2f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Teilchen stößt auf seinem Weg mit den Gasteilchen zusammen und ionisiert sie (daran bilden sich die Tröpfchen). Dabei verliert es Energie, seine Geschwindigkeit nimmt ab (1 P).\n\nNach $r = \\frac{m \\cdot v}{q \\cdot B}$ ist der Radius proportional zur Geschwindigkeit: Er wird immer kleiner, die Bahn läuft als Spirale nach innen (1 P)."
+        },
+        {
+          "id": "V5-2g",
+          "label": "2g",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Mit $v = \\sqrt{\\frac{2 \\cdot E_{kin}}{m}}$ wird $r = \\frac{\\sqrt{2 \\cdot m \\cdot E_{kin}}}{q \\cdot B}$. Für das Proton: $r_p = \\frac{\\sqrt{2 \\cdot 1{,}673 \\cdot 10^{-27}\\,\\mathrm{kg} \\cdot 8{,}49 \\cdot 10^{-13}\\,\\mathrm{J}}}{1{,}602 \\cdot 10^{-19}\\,\\mathrm{C} \\cdot 0{,}80\\,\\mathrm{T}} \\approx 0{,}42\\,\\mathrm{m}$ (1 P).\n\nDas α-Teilchen hat etwa die vierfache Masse, also bei gleicher Energie den doppelten Wert von $\\sqrt{2 \\cdot m \\cdot E_{kin}}$, aber auch die doppelte Ladung. Beide Effekte heben sich auf: Die Radien ($0{,}414\\,\\mathrm{m}$ und $0{,}416\\,\\mathrm{m}$) unterscheiden sich um weniger als $1\\,\\%$, beide Teilchen werden in dieselbe Richtung abgelenkt (1 P).\n\nUrteil: Die Aussage ist falsch – an der Krümmung allein sind die beiden nicht zu unterscheiden. Unterscheiden lassen sie sich z. B. an der Spur selbst: Das α-Teilchen ionisiert viel stärker, seine Spur ist dicker und kürzer (1 P)."
+        },
+        {
+          "id": "V5-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Eine Induktionsspannung entsteht, wenn sich die Flussdichte in der Spule (genauer der Fluss $\\Phi = B \\cdot A$) ändert (1 P).\n\nGleitet der Magnet durch die Spule, nimmt die Flussdichte in der Spule erst zu und dann wieder ab. Liegt er ruhig, bleibt sie konstant – es wird keine Spannung induziert (1 P)."
+        },
+        {
+          "id": "V5-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beim Eintreten nimmt die Flussdichte in der Spule zu, es entsteht ein Spannungsstoß mit einem Vorzeichen (hier negativ); beim Austreten nimmt sie ab, der Spannungsstoß hat das umgekehrte Vorzeichen (1 P).\n\nBei $t = 40\\,\\mathrm{ms}$ steckt der Magnet mittig in der Spule: Die Flussdichte ist dort am größten und ändert sich in diesem Moment nicht – die Spannung ist null (1 P)."
+        },
+        {
+          "id": "V5-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\frac{\\Delta B}{\\Delta t} = \\frac{0{,}25\\,\\mathrm{T}}{0{,}020\\,\\mathrm{s}} = 12{,}5\\,\\frac{\\mathrm{T}}{\\mathrm{s}}$ (1 P)\n\n$$\\left| U_{Ind} \\right| = N \\cdot A \\cdot \\frac{\\Delta B}{\\Delta t} = 800 \\cdot 3{,}0 \\cdot 10^{-4}\\,\\mathrm{m^2} \\cdot 12{,}5\\,\\frac{\\mathrm{T}}{\\mathrm{s}} = 3{,}0\\,\\mathrm{V}$$ (1 P)\n\nDie Spitze in Abb. 4 ist mit etwa $5\\,\\mathrm{V}$ höher, weil sich die Flussdichte nicht gleichmäßig ändert."
+        },
+        {
+          "id": "V5-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Eintreten (Nordpol voran, Flussdichte nimmt zu): Der Induktionsstrom wirkt der Zunahme entgegen, die Spule wendet dem Magneten einen **Nordpol** zu und stößt ihn ab (1 P).\n\nAustreten (Südpol hinten, Flussdichte nimmt ab): Der Strom fließt andersherum; die Spule wendet dem davongleitenden Südpol am anderen Ende ebenfalls einen **Nordpol** zu und zieht ihn zurück. In beiden Fällen wird der Magnet gebremst (1 P)."
+        },
+        {
+          "id": "V5-3e",
+          "label": "3e",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Gleitet der Magnet doppelt so schnell, ändert sich die Flussdichte in der halben Zeit: $\\frac{\\Delta B}{\\Delta t}$ und damit die Spannung verdoppeln sich, jeder Spannungsstoß dauert aber nur halb so lang (1 P).\n\nDie Ladung je Durchgang ist $Q = I \\cdot \\Delta t \\sim U_{Ind} \\cdot \\Delta t = N \\cdot A \\cdot \\Delta B$ – sie hängt nicht von der Geschwindigkeit ab. Die Fläche unter jedem Spannungsstoß im $U$-$t$-Diagramm bleibt gleich (1 P).\n\nUrteil: Der erste Teil stimmt, der zweite nicht – je Durchgang fließt gleich viel Ladung. Schnelles Schütteln lädt den Akku trotzdem schneller, weil der Magnet in derselben Zeit öfter durch die Spule gleitet (1 P)."
+        },
+        {
+          "id": "V5-3f",
+          "label": "3f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Aluminium ist nicht ferromagnetisch, es zieht den Magneten nicht an. Es leitet aber gut: Der bewegte Magnet ändert die Flussdichte in der Rohrwand, dort entstehen Induktionsströme (Wirbelströme) (1 P).\n\nNach der Lenz’schen Regel hemmen diese Ströme die Bewegung des Magneten. Er gleitet viel langsamer, ein Teil seiner Bewegungsenergie wird in der Rohrwand zu thermischer Energie. Die Spannungsstöße in der Spule werden kleiner, der Akku bekommt weniger Energie (1 P).\n\nUrteil: Der Vorschlag ist ungeeignet. Das Rohr muss aus einem Nichtleiter bestehen (oder längs geschlitzt sein, damit keine Ringströme fließen) (1 P)."
         }
       ]
     }
