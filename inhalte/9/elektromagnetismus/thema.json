@@ -3,7 +3,7 @@
   "titel": "Elektromagnetismus – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du bei Magneten und Feldlinien, dem Erdmagnetfeld, Stromkreisen, Kraftpfeilen oder Einheiten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3, V2 nach N4 bis N6, V3 nach N7 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Lege Taschenrechner und Regelheft bereit. Richtungen bestimmst du immer mit der Elektronenflussrichtung und der linken Hand. Skizzen zeichnest du direkt in die Vorlagen im Arbeitsblatt auf dem iPad.",
+  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du bei Magneten und Feldlinien, dem Erdmagnetfeld, Stromkreisen, Kraftpfeilen oder Einheiten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N3, V2 nach N4 bis N6, V3 nach N7 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Die Probearbeit V4 schreibst du ganz zum Schluss wie einen Test. Lege Taschenrechner und Regelheft bereit. Richtungen bestimmst du immer mit der Elektronenflussrichtung und der linken Hand. Skizzen zeichnest du direkt in die Vorlagen im Arbeitsblatt auf dem iPad.",
   "checkliste": [
     {
       "id": "g1",
@@ -1331,6 +1331,208 @@
           "punkte": 1,
           "afb": "III",
           "loesung": "Die Aussage ist falsch. Der Motor wandelt elektrische Energie in Bewegungsenergie des Gebläses und in thermische Energie um. Die thermische Energie hilft beim Saugen nicht. Je mehr Energie in thermische Energie umgewandelt wird, desto weniger bleibt bei gleicher elektrischer Energie für das Gebläse. Ein heißer Motor deutet eher auf Überlastung hin (z. B. ein verstopfter Filter)."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Taschenrechner und Regelheft",
+      "checkliste": [
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c4",
+        "c5",
+        "c6",
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie im Test: 60 Minuten, zuerst Teil A (Aufgabe 1 bis 3) ohne Hilfsmittel, danach Teil B (Aufgabe 4 und 5) mit Taschenrechner und Regelheft. Lösungswege vollständig aufschreiben, Skizzen direkt in die Vorlagen. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Magnetfeld von Leiter und Spule, Elektromagnet und Flussdichte, Lorentzkraft und Elektromotor) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Das ist die magnetische Wirkung des elektrischen Stroms: Solange Strom fließt, gibt es um den Draht ein Magnetfeld, nach dem sich die Nadel ausrichtet.\n\n*A gewählt?* Kupfer ist nicht magnetisierbar; ohne Strom bleibt die Nadel in Ruhe. *B gewählt?* Ursache und Wirkung sind vertauscht: Der Strom kommt aus der Batterie, er bewegt die Nadel. *D gewählt?* Eine Kompassnadel reagiert auf Magnetfelder, nicht auf elektrische Ladung – magnetische und elektrische Pole sind etwas Verschiedenes. → **N2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Das Feld des Stabmagneten richtet die Elementarmagnete im ersten Nagel aus. Der Nagel wird selbst zu einem Magneten und magnetisiert auf dieselbe Weise den zweiten Nagel, den er dann anzieht.\n\n*A gewählt?* Reibung hält nichts nach unten fest. *B gewählt?* Ein Dauermagnet erzeugt keinen Strom; es geht um Magnetisierung. *C gewählt?* Der zweite Nagel ist gewöhnliches Eisen – er wird erst durch den ersten Nagel magnetisiert. → **G2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Die magnetische Flussdichte ist das Maß für die Stärke eines Magnetfelds, Einheit Tesla (T).\n\n*B oder C gewählt?* Windungszahl je Länge und Stromstärke bestimmen bei einer Spule, wie groß $B$ wird – sie sind aber nicht selbst die Flussdichte. *D gewählt?* Wie viel ein Magnet festhält, hängt auch von Fläche, Abstand und Stoff ab. → **N5** Aufgabe 1"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – $0{,}5\\,\\mathrm{mT} = 0{,}5 \\cdot 1000\\,\\mu\\mathrm{T} = 500\\,\\mu\\mathrm{T}$ und $500\\,\\mu\\mathrm{T} : 50\\,\\mu\\mathrm{T} = 10$.\n\n*A gewählt?* $0{,}5\\,\\mathrm{mT}$ sind $500\\,\\mu\\mathrm{T}$, nicht $5\\,000\\,\\mu\\mathrm{T}$. *C gewählt?* $1\\,000$ ist nur der Umrechnungsfaktor zwischen mT und µT. *D gewählt?* Die Zahlen $0{,}5$ und $50$ darf man erst vergleichen, wenn beide dieselbe Einheit haben. → **N5** Aufgabe 1 und 3"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**D** – Jede Spule wirkt wie ein Stabmagnet. Bei gleichem Umlaufsinn liegen beide Nordpole auf derselben Seite: Einander gegenüber stehen der Nordpol der einen und der Südpol der anderen Spule – ungleichnamige Pole ziehen sich an.\n\n*B gewählt?* Abstoßung gäbe es bei entgegengesetztem Umlaufsinn. *C gewählt?* Eine stromdurchflossene Spule hat ein Magnetfeld wie ein Stabmagnet. *A gewählt?* Zwei Stabmagnete, die schon in einer Linie mit N gegenüber S liegen, ziehen sich nur an. → **N3** Aufgabe 3"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Nach $B = \\mu_0 \\cdot \\mu_r \\cdot \\frac{I \\cdot N}{l}$ wächst $B$ mit einem Eisenkern um den Faktor $\\mu_r = 250$ bis $600$.\n\n*A gewählt?* Das verdoppelt $B$ nur. *C gewählt?* Halbe Länge verdoppelt $B$. *D gewählt?* Das verdreifacht $B$. Alle drei sind viel weniger als der Eisenkern. → **N4** Aufgabe 1, **N5** Aufgabe 2"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Je größer die Stromstärke, desto stärker ist das Magnetfeld um den Draht (eine Kompassnadel schlägt stärker aus). Die Richtung der Feldlinien hängt nur von der Elektronenflussrichtung ab, und die bleibt gleich.\n\n*B oder D gewählt?* Die Richtung kehrt sich nur beim Umpolen um. *C gewählt?* Mehr Strom hat eine stärkere magnetische Wirkung. → **N2** Aufgabe 1 und 4"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Der Kommutator besteht aus zwei voneinander isolierten Halbringen, je einer ist mit einem Ende der Leiterschleife verbunden. Nach jeder halben Umdrehung berührt jede Bürste den anderen Halbring – die Elektronenrichtung im Rotor kehrt sich um.\n\n*A gewählt?* Mit einem geschlossenen Ring würde nie umgepolt. *B gewählt?* Das sind die Bürsten. *D gewählt?* Der Dauermagnet ist der Stator. → **N8** Aufgabe 2 und 3"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Linke-Faust-Regel: Links zeigt der Daumen aus der Zeichenebene heraus, die Feldlinien laufen **im Uhrzeigersinn** um das Drahtstück. Rechts zeigt der Daumen in die Zeichenebene hinein, die Feldlinien laufen **gegen den Uhrzeigersinn**.",
+          "loesung_bild": "img/V4-2a.png"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Zwischen den beiden Drahtstücken zeigen beide Feldlinien **nach unten**: Die Felder verstärken sich, das Feld in der Mitte zeigt nach unten. Unten treten die Feldlinien aus der Windung aus – dort liegt der **Nordpol**, oben der Südpol. Die Windung wirkt wie ein sehr kurzer Stabmagnet.\n\n→ **N3** Aufgabe 2"
+        },
+        {
+          "id": "V4-3",
+          "label": "3",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Windungen je Zentimeter: Spule A $240 : 8 = 30$, Spule B $600 : 30 = 20$ (1 P).\n\nNach der Spulenformel ist $B$ bei gleicher Stromstärke und ohne Kern umso größer, je mehr Windungen auf jeden Zentimeter kommen ($B \\sim \\frac{N}{l}$). Spule A hat die größere Flussdichte, und zwar $30 : 20 = 1{,}5$-mal so groß wie Spule B (1 P).\n\n→ **N5** Aufgabe 3"
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Einschalten: Das Steuergerät schickt Strom durch die Spule. Spule und Eisenkern werden zu einem Elektromagneten, der den Anker aus Weicheisen anzieht. Der Anker kippt nach links und drückt die beiden Kontakte zusammen – der Stromkreis der Pumpe ist geschlossen (1 P).\n\nAusschalten: Fließt kein Strom mehr durch die Spule, verschwindet das Magnetfeld. Die Feder zieht den Anker zurück, die Kontakte öffnen sich, die Pumpe steht (1 P)."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Akku (Schaltzeichen Batterie), Schalter und Motor (Kreis mit M) liegen hintereinander in einem geschlossenen Stromkreis. Der Schalter steht für die beiden Kontakte des Relais."
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Spulenregel: Die gekrümmten Finger der linken Hand zeigen in den vorderen Windungsteilen nach unten (Elektronenflussrichtung), der Daumen zeigt dann nach links. Der Nordpol liegt links, am rechten Ende beim Anker entsteht der **Südpol**."
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Fließen die Elektronen andersherum, vertauschen sich die Pole des Elektromagneten: Rechts beim Anker liegt dann der Nordpol (1 P).\n\nDer Anker aus Weicheisen ist kein Dauermagnet. Das Feld des Kerns richtet seine Elementarmagnete jedes Mal so aus, dass dem Kern ein ungleichnamiger Pol gegenübersteht – im ersten Fall ein Nordpol, jetzt ein Südpol. Ungleichnamige Pole ziehen sich an, der Anker wird in beiden Fällen angezogen (1 P).\n\n→ **N4** Aufgabe 1"
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$l = 3{,}0\\,\\mathrm{cm} = 0{,}030\\,\\mathrm{m}$, $I = 25\\,\\mathrm{mA} = 0{,}025\\,\\mathrm{A}$ (1 P)\n\n$$B = \\mu_0 \\cdot \\mu_r \\cdot \\frac{I \\cdot N}{l} = 1{,}257 \\cdot 10^{-6}\\,\\frac{\\mathrm{V \\cdot s}}{\\mathrm{A \\cdot m}} \\cdot 250 \\cdot \\frac{0{,}025\\,\\mathrm{A} \\cdot 2400}{0{,}030\\,\\mathrm{m}} \\approx 0{,}63\\,\\mathrm{T}$$ (1 P)"
+        },
+        {
+          "id": "V4-4f",
+          "label": "4f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$B$ ist proportional zur Stromstärke: $\\frac{15\\,\\mathrm{mA}}{25\\,\\mathrm{mA}} = 0{,}6$, also $B \\approx 0{,}6 \\cdot 0{,}63\\,\\mathrm{T} \\approx 0{,}38\\,\\mathrm{T}$ (1 P) [mit dem Ersatzwert: $0{,}36\\,\\mathrm{T}$]\n\n$0{,}38\\,\\mathrm{T} < 0{,}40\\,\\mathrm{T}$: Das Relais schaltet nicht mehr sicher, die Pumpe springt unter Umständen nicht an (1 P)."
+        },
+        {
+          "id": "V4-4g",
+          "label": "4g",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Ohne Kern ist $\\mu_r = 1$. Damit $B$ gleich bleibt, muss die Windungszahl um den Faktor $250$ wachsen: $N = 250 \\cdot 2400 = 600\\,000$ Windungen (1 P).\n\nUrteil: Der Plan ist nicht umsetzbar. Selbst mit sehr dünnem Draht passen auf $3\\,\\mathrm{cm}$ nur einige hundert Windungen nebeneinander (Draht $0{,}1\\,\\mathrm{mm}$: 300); man bräuchte rund 2000 Lagen übereinander und mehrere hundert Kilometer Draht. Die Spule würde riesig, schwer und teuer – der Eisenkern ist der viel einfachere Weg zu einem starken Feld (1 P)."
+        },
+        {
+          "id": "V4-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Chemische Energie im Akku → elektrische Energie → im Motor Bewegungsenergie (des Rotors, der Räder und des Autos) und zum Teil thermische Energie."
+        },
+        {
+          "id": "V4-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Kraft auf ein Leiterstück steht senkrecht zu den Feldlinien (bei der Linke-Hand-Regel stehen alle drei Finger senkrecht aufeinander), hier also waagerecht.\n\nDamit sich die Schleife gegen den Uhrzeigersinn dreht, zeigt die Kraft auf Leiterstück 1 (oben links) **nach links** (1 P) und die Kraft auf Leiterstück 2 (unten rechts) **nach rechts** (1 P). Schräge Pfeile mit richtigem Drehsinn: je 0,5 P.",
+          "loesung_bild": "img/V4-5b.png"
+        },
+        {
+          "id": "V4-5c",
+          "label": "5c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Leiterstück 1: Zeigefinger nach unten (Feld von N nach S), Mittelfinger nach links (Kraft) – der Daumen zeigt dann aus der Zeichenebene heraus. In 1 fließen die Elektronen **aus der Zeichenebene heraus** (•), in 2 entsprechend **in die Zeichenebene hinein** (×) (1 P).\n\n→ **N7** Aufgabe 2, **N8** Aufgabe 1"
+        },
+        {
+          "id": "V4-5d",
+          "label": "5d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Kraft auf ein Leiterstück ist umso größer, je größer die Flussdichte $B$, die Stromstärke $I$ und die Länge $l$ des Leiterstücks im Feld sind. Je 1 P für zwei dieser Änderungen mit Begründung:\n\n- ein stärkerer Dauermagnet: größere Flussdichte $B$\n- eine Spule mit vielen Windungen statt einer Schleife: mehr Leiterstücke im Feld, die Kräfte addieren sich (größere Länge $l$)\n- eine größere Stromstärke, z. B. durch dickeren Draht in der Spule: größeres $I$\n\n→ **N7** Aufgabe 4"
+        },
+        {
+          "id": "V4-5e",
+          "label": "5e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Durch die Leiterschleife fließt weiter Strom, die Kräfte wirken, können den Rotor aber nicht drehen. Es entsteht keine Bewegungsenergie (1 P).\n\nDie gesamte zugeführte elektrische Energie wird deshalb in den Drähten des Motors in thermische Energie umgewandelt – der Motor wird heiß. Ein Überhitzungsschutz sollte den Strom dann abschalten (1 P)."
+        },
+        {
+          "id": "V4-5f",
+          "label": "5f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Steht die Ebene der Schleife senkrecht zu den Feldlinien (hier: Schleife waagerecht, nach einer Achteldrehung aus Abb. 2), zeigen die Kräfte nach links und rechts genau von der Drehachse weg – sie haben keine Drehwirkung. Außerdem polt der Kommutator in dieser Stellung gerade um, die Bürsten können auf der Trennstelle stehen. Bleibt der Motor dort stehen, läuft er nicht von selbst an (1 P).\n\nBei drei versetzten Spulen steht immer mindestens eine Spule schräg zu den Feldlinien und bekommt Strom. Auf sie wirken Kräfte mit Drehwirkung, der Motor läuft in jeder Stellung an (1 P).\n\nUrteil: Die Bauweise ist sinnvoll. Zusätzlich dreht der Motor gleichmäßiger, weil sich die Drehwirkungen der drei Spulen ergänzen (1 P).\n\n→ **N8** Aufgabe 1 und 2"
         }
       ]
     }
