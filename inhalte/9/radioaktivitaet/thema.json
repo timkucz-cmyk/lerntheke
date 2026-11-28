@@ -3,7 +3,7 @@
   "titel": "Radioaktivität – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du bei Ladungen, dem Periodensystem, Kräften, großen Zahlen, Anteilen oder Mittelwerten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2, V2 nach N3 bis N5, V3 nach N6 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Lege Taschenrechner und Periodensystem bereit; dein Regelheft darfst du benutzen.",
+  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du bei Ladungen, dem Periodensystem, Kräften, großen Zahlen, Anteilen oder Mittelwerten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2, V2 nach N3 bis N5, V3 nach N6 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Ganz zum Schluss prüft V4 (Probearbeit, 60 Minuten) alles wie im Test. Lege Taschenrechner und Periodensystem bereit; dein Regelheft darfst du benutzen.",
   "checkliste": [
     {
       "id": "g1",
@@ -1390,6 +1390,199 @@
           "punkte": 1,
           "afb": "III",
           "loesung": "Die Vermutung trifft nicht zu: Es ist noch fast das ganze Radium vorhanden, die Strahlung ist kaum schwächer geworden. Die α-Teilchen ionisieren über die Jahre aber auch den Leuchtstoff selbst und beschädigen ihn. Der Leuchtstoff leuchtet deshalb schwächer, obwohl der Wecker weiter strahlt."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Taschenrechner, Periodensystem und Regelheft",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie im Test: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Hilfsmittel, danach Teil B (Aufgabe 3 und 4) mit Taschenrechner, Periodensystem und Regelheft. Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Der Atomkern, Strahlung und ihr Nachweis, Nuklidkarte und Halbwertszeit) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Unten steht die Ordnungszahl: 26 Protonen. Neutronen: $58 - 26 = 32$. Im neutralen Atom gibt es so viele Elektronen wie Protonen: 26.\n\n*A gewählt?* 58 ist die Massenzahl, also Protonen und Neutronen zusammen. *B gewählt?* Protonen und Neutronen vertauscht. *D gewählt?* Die Elektronenzahl ist gleich der Protonenzahl, nicht der Neutronenzahl. → **N2** Aufgabe 2"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Isotope haben gleich viele Protonen (dasselbe Element), aber verschieden viele Neutronen: Eisen-54 hat 26 Protonen und 28 Neutronen.\n\n*B gewählt?* Gleiche Massenzahl, aber 28 Protonen – das ist Nickel, ein anderes Element. *C gewählt?* Gleich viele Neutronen (32), aber ein anderes Element. *D gewählt?* Ein Ion hat denselben Kern, nur zwei Elektronen weniger – kein anderes Isotop. → **N2** Aufgabe 4"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Die Kernkraft zieht alle Nukleonen an, wirkt aber nur zwischen direkten Nachbarn. Die Coulombkraft stößt die Protonen ab und reicht über den ganzen Kern – deshalb brauchen große Kerne zusätzliche Neutronen.\n\n*A gewählt?* Die Kernkraft wirkt zwischen allen Nukleonen, auch zwischen Neutronen. *C gewählt?* Die Coulombkraft wirkt nur zwischen Ladungen; zwischen Protonen stößt sie ab. *D gewählt?* Neutronen sind ungeladen. → **N2** Aufgabe 5 und 6"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Nur ein α-Teilchen trägt Nukleonen aus dem Kern (2 Protonen, 2 Neutronen): Die Massenzahl sinkt um 4.\n\n*A oder C gewählt?* Bei β-Strahlung wandelt sich ein Neutron in ein Proton um oder umgekehrt; die Zahl der Nukleonen bleibt gleich. *B gewählt?* γ-Strahlung trägt nur Energie weg. → **N3** Aufgabe 1, **N4** Aufgabe 1"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Beim β⁺-Zerfall wird ein Proton zum Neutron, ein Positron verlässt den Kern: Massenzahl bleibt 68, Ordnungszahl $31 - 1 = 30$: ${}^{68}_{31}\\mathrm{Ga} \\to \\, {}^{68}_{30}\\mathrm{Zn} + \\, {}^{0}_{+1}e^{+} + \\nu_e$\n\n*A gewählt?* Das wäre ein β⁻-Zerfall. *C gewählt?* Das wäre fast ein α-Zerfall (Massenzahl $-4$). *D gewählt?* Beim β⁺-Zerfall bleibt die Massenzahl gleich. → **N4** Aufgabe 2"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – γ-Strahlung wird nie ganz gestoppt, aber dicke Schichten aus Blei schwächen sie stark ab.\n\n*A gewählt?* Papier stoppt α-Strahlung. *B gewählt?* Wenige Millimeter Aluminium stoppen β-Strahlung, γ-Strahlung kommt fast ungeschwächt hindurch. *C gewählt?* Kunststoff schwächt γ-Strahlung viel weniger ab als Blei. → **N3** Aufgabe 3"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – α-Teilchen haben eine sehr kleine Reichweite und werden schon von dünnen Schichten gestoppt. Nur durch ein sehr dünnes Fenster gelangen sie in das Gas und lösen dort einen Impuls aus.\n\n*B gewählt?* Dicht muss das Fenster immer sein – das erklärt nicht, warum es dünn sein muss. *C gewählt?* γ-Strahlung durchdringt auch dicke Wände. *D gewählt?* Die Spannung hängt nicht vom Fenster ab. → **N5** Aufgabe 1"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $\\frac{1}{4} = \\frac{1}{2} \\cdot \\frac{1}{2}$: Es sind zwei Halbwertszeiten vergangen, also $T_{1/2} = 18\\,\\mathrm{h} : 2 = 9\\,\\mathrm{h}$.\n\n*A gewählt?* Durch 4 geteilt – ein Viertel heißt aber zwei Halbierungen. *B oder D gewählt?* Die Halbwertszeit ist kürzer als die vergangene Zeit, weil schon mehr als die Hälfte zerfallen ist. → **N7** Aufgabe 3"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Pro Minute: Nullrate $90 : 5 = 18$, mit Präparat $720 : 2 = 360$ Impulse pro Minute (1 P).\n\nBereinigte Impulsrate: $360 - 18 = 342$ Impulse pro Minute (1 P).\n\n→ **N5** Aufgabe 3, **N10** Aufgabe 4"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Positronen sind positiv geladen wie α-Teilchen. Positronen werden deshalb in dieselbe Richtung wie α-Strahlung abgelenkt, also nach oben (1 P).\n\nEin Positron ist so leicht wie ein Elektron, viel leichter als ein α-Teilchen. Es wird deshalb so stark abgelenkt wie β⁻-Strahlung, nur in die Gegenrichtung (1 P).\n\n→ **N3** Aufgabe 4"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "${}^{147}_{61}\\mathrm{Pm} \\to \\, {}^{147}_{62}\\mathrm{Sm} + \\, {}^{0}_{-1}e^{-} + \\bar{\\nu}_e$\n\nEs entsteht Samarium (Ordnungszahl 62). Neutrino und Antineutrino dürfen in deiner Gleichung fehlen.\n\n→ **N4** Aufgabe 2"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Nullrate: $66 : 3 = 22$ Impulse pro Minute (1 P).\n\nBereinigte Impulsraten: ohne Papier $1622 - 22 = 1600$, dünnes Papier $1022 - 22 = 1000$, dickes Papier $622 - 22 = 600$ Impulse pro Minute (1 P)."
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Die β-Teilchen werden im Papier abgebremst und zum Teil absorbiert. Je dicker das Papier, desto mehr Material liegt im Weg und desto weniger Teilchen erreichen das Zählrohr.\n\n→ **N3** Aufgabe 3"
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "α-Strahler: Schon ein Blatt Papier stoppt α-Strahlung vollständig. Das Zählrohr misst dann bei jedem Papier nur die Nullrate – dünnes und dickes Papier sind nicht zu unterscheiden (1 P).\n\nγ-Strahler: γ-Strahlung durchdringt Papier fast ungeschwächt. Ob das Papier etwas dicker oder dünner ist, ändert die Impulsrate kaum – die Messung wäre viel zu unempfindlich (1 P).\n\nUrteil: Beide sind ungeeignet. β-Strahlung wird von Papier teilweise absorbiert, und zwar umso mehr, je dicker es ist – genau das braucht die Messung (1 P)."
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ein Viertel nach zwei Halbwertszeiten: $2 \\cdot 2{,}6 = 5{,}2$ Jahre (1 P).\n\nDie Impulsrate sinkt mit der Zeit auch ohne dickeres Papier: Es sind immer weniger Promethiumkerne übrig, also zerfallen in jeder Minute weniger. Ohne neue Einstellung (Vergleichsmessung ohne Papier) hielte die Maschine das Papier für zu dick und würde es immer dünner pressen (1 P).\n\n→ **N7** Aufgabe 3"
+        },
+        {
+          "id": "V4-3f",
+          "label": "3f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Radioaktiv sind instabile Atomkerne, die von selbst zerfallen. Die β-Teilchen (Elektronen) werden im Papier nur abgebremst; die Atomkerne des Papiers bleiben dabei unverändert und stabil (1 P).\n\nPromethium gelangt nicht ins Papier, der Strahler bleibt in seinem Gehäuse. Das Papier wird also nicht radioaktiv (1 P)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "α-Strahler (graues Feld), Halbwertszeit 10 Tage (gerundet; genauer Wert 9,9 Tage)."
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "${}^{225}_{89}\\mathrm{Ac} \\to \\, {}^{221}_{87}\\mathrm{Fr} + \\, {}^{4}_{2}\\alpha$"
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Thorium-229 →(α) Radium-225 →(β⁻) Actinium-225 →(α) Francium-221 →(α) Astat-217 →(α) Bismut-213\n\nJe 1 P mit richtigen Zerfallsarten für die Schritte von Th-229 bis Ac-225; von Ac-225 bis At-217; von At-217 bis Bi-213.\n\n→ **N6** Aufgabe 3"
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "30 Tage sind 3 Halbwertszeiten: $8\\ \\text{Billionen} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2} = 1$ Billion Kerne.\n\n→ **N7** Aufgabe 3"
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bismut-213: 83 Protonen, $213 - 83 = 130$ Neutronen. Bismut-209: 83 Protonen, $209 - 83 = 126$ Neutronen."
+        },
+        {
+          "id": "V4-4f",
+          "label": "4f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die Massenzahl sinkt um $213 - 209 = 4$; nur α-Zerfälle ändern sie: genau ein α-Zerfall (1 P).\n\nDer α-Zerfall senkt die Ordnungszahl von 83 auf 81. Zurück auf 83 kommt man nur mit zwei β⁻-Zerfällen (je $+1$): zwei β⁻-Zerfälle (1 P).\n\nKontrolle mit der Karte: Bi-213 → Po-213 → Pb-209 → Bi-209 oder Bi-213 → Tl-209 → Pb-209 → Bi-209 – beide Wege mit einem α- und zwei β⁻-Zerfällen.\n\nVereinfachung: Genau genommen ist Bismut-209 ein α-Strahler mit einer Halbwertszeit von etwa 20 Trillionen Jahren – mehr als eine Milliarde Mal so lang wie das Alter des Weltalls. Deshalb gilt es als stabil (schwarzes Feld der Karte)."
+        },
+        {
+          "id": "V4-4g",
+          "label": "4g",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Bismut-213 direkt: Ein Tag sind $1440\\,\\mathrm{min}$, also gut 31 Halbwertszeiten von $46\\,\\mathrm{min}$. Nach dem Transport wäre davon praktisch nichts mehr übrig (weniger als ein Milliardstel) (1 P).\n\nActinium-225: Ein Tag ist nur ein Zehntel seiner Halbwertszeit von 10 Tagen – fast alles kommt an. Die Zwischenkerne Francium-221 (4,8 min) und Astat-217 (32 ms) zerfallen sehr schnell, deshalb entsteht aus dem Actinium ständig neues Bismut-213 (1 P).\n\nUrteil: Das Vorgehen ist sinnvoll, sogar nötig. Die Klinik kann über Wochen frisches Bismut-213 gewinnen; nach 20 Tagen ist noch ein Viertel des Actiniums vorhanden (1 P)."
         }
       ]
     }

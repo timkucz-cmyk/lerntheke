@@ -3,7 +3,7 @@
   "titel": "Kräfte – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du beim Umrechnen von Einheiten, beim Zeichnen mit Maßstab, bei proportionalen Zuordnungen, beim Auflösen von Gleichungen oder bei Magneten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4, V2 nach N5 bis N6, V3 nach N7 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Lege Taschenrechner und Geodreieck bereit; dein Regelheft darfst du benutzen. Zeichnungen machst du direkt in den Vorlagen im Arbeitsblatt auf dem iPad: Längen bestimmst du durch Kästchenzählen oder an den Messkreisen um den Angriffspunkt, Winkel an der vorgedruckten Winkelskala.",
+  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du beim Umrechnen von Einheiten, beim Zeichnen mit Maßstab, bei proportionalen Zuordnungen, beim Auflösen von Gleichungen oder bei Magneten unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4, V2 nach N5 bis N6, V3 nach N7 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Ganz zum Schluss prüft V4 (Probearbeit, 60 Minuten) alles wie im Test. Lege Taschenrechner und Geodreieck bereit; dein Regelheft darfst du benutzen. Zeichnungen machst du direkt in den Vorlagen im Arbeitsblatt auf dem iPad: Längen bestimmst du durch Kästchenzählen oder an den Messkreisen um den Angriffspunkt, Winkel an der vorgedruckten Winkelskala.",
   "checkliste": [
     {
       "id": "g1",
@@ -1327,6 +1327,200 @@
           "punkte": 1,
           "afb": "III",
           "loesung": "Die Aussage ist falsch. Ist das Gegengewicht zu schwer, überwiegt sein Drehmoment: Die Klappe würde von selbst hochklappen, und der Motor müsste sie zum Schließen gegen das Gegengewicht herunterdrücken. Am günstigsten ist ein Gegengewicht, mit dem die Brücke im Gleichgewicht ist."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Geodreieck, Taschenrechner und Regelheft",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c6",
+        "c7",
+        "c8",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie im Test: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Hilfsmittel, danach Teil B (Aufgabe 3 bis 5) mit Geodreieck, Taschenrechner und Regelheft. Lösungswege vollständig aufschreiben, Zeichnungen in die Vorlagen. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Kraft, Gewichtskraft und Federkraft; Mehrere Kräfte; Hebel) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Stahl enthält Eisen und wird vom Magneten angezogen – Magnetkräfte wirken auch ohne Berührung. Die Kugel ändert dabei ihre Bewegungsrichtung (Kraftwirkung Richtungsänderung).\n\n*A gewählt?* Magnetkräfte brauchen keine Berührung. *B gewählt?* Abstoßung gibt es nur zwischen gleichen Polen zweier Magnete; Eisen und Stahl werden immer angezogen. *C gewählt?* Stahl enthält Eisen und ist deshalb magnetisch. → **G2** Aufgabe 5, **N2** Aufgabe 1"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – $1\\,\\mathrm{N} = 1\\,000\\,\\mathrm{mN}$, also $1{,}9\\,\\mathrm{N} = 1{,}9 \\cdot 1\\,000\\,\\mathrm{mN} = 1\\,900\\,\\mathrm{mN}$.\n\n*B oder C gewählt?* Nur mit 100 bzw. 10 statt mit 1 000 malgenommen. *D gewählt?* Durch 1 000 geteilt statt malgenommen – Millinewton sind kleiner als Newton, also braucht man mehr davon. → **N2** Aufgabe 2"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**B** – Jeder Zentimeter steht für $250\\,\\mathrm{N}$: $750\\,\\mathrm{N} : 250\\,\\mathrm{N} = 3$, also $3\\,\\mathrm{cm}$.\n\n*A gewählt?* Durch 100 geteilt – der Maßstab wurde nicht benutzt. *C gewählt?* Maßstab durch Kraft geteilt (Kehrwert). *D gewählt?* Durch 25 statt durch 250 geteilt. → **N2** Aufgabe 6"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – $60\\,\\mathrm{g} = 0{,}06\\,\\mathrm{kg}$; $F_G = m \\cdot g = 0{,}06\\,\\mathrm{kg} \\cdot 10\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} = 0{,}6\\,\\mathrm{N}$\n\n*A gewählt?* Mit Gramm statt Kilogramm gerechnet. *B gewählt?* Die Masse ist keine Kraft – der Ortsfaktor fehlt. *D gewählt?* Beim Umrechnen um eine Stelle verrutscht ($0{,}6\\,\\mathrm{kg}$). → **N3** Aufgabe 2, **N10** Aufgabe 1"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Hooke’sches Gesetz: $F = D \\cdot s = 2{,}5\\,\\frac{\\mathrm{N}}{\\mathrm{cm}} \\cdot 4\\,\\mathrm{cm} = 10\\,\\mathrm{N}$\n\n*B gewählt?* Verlängerung durch Federkonstante geteilt. *C gewählt?* Die Zahlen addiert. *D gewählt?* Federkonstante durch Verlängerung geteilt. → **N4** Aufgabe 4"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Die Gesamtkraft ist die Diagonale des Kräfteparallelogramms, die **vom gemeinsamen Angriffspunkt aus** zur gegenüberliegenden Ecke zeigt (Bild 4).\n\n*A gewählt?* Das ist die andere Diagonale; sie beginnt nicht am Angriffspunkt. *B gewählt?* Die Beträge wurden einfach addiert – das gilt nur für Kräfte mit gleicher Richtung. *C gewählt?* Richtige Linie, aber der Pfeil zeigt zum Angriffspunkt statt von ihm weg. → **N6** Aufgabe 1 und 2"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Gleichgewicht heißt $F_1 \\cdot a_1 = F_2 \\cdot a_2$. Mit doppelter Kraft links ist das Drehmoment links doppelt so groß; halbiert man den linken Hebelarm, ist es wieder so groß wie vorher: $2 \\cdot F_1 \\cdot \\frac{a_1}{2} = F_1 \\cdot a_1$.\n\n*A gewählt?* Dann wird das Drehmoment links noch größer (viermal so groß wie vorher). *B oder D gewählt?* Damit wird das Drehmoment rechts kleiner – nötig wäre ein größeres (z. B. die Kraft rechts verdoppeln). → **N8** Aufgabe 2 und 3"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Die Griffe sind zweiseitige Hebel mit dem Gelenk als Drehachse. Die Hand greift weit weg vom Gelenk (großer Hebelarm), der Bolzen liegt dicht daran (kleiner Hebelarm). Bei gleichem Drehmoment ist die Kraft am Bolzen deshalb viel größer als die Handkraft.\n\n*A gewählt?* Das Gewicht der Griffe spielt kaum eine Rolle. *C gewählt?* Ein langer Hebelarm macht das Drehmoment der Hand größer, nicht kleiner. *D gewählt?* Die Länge der Schneiden ändert ihre Schärfe nicht. → **N8** Aufgabe 4 und 5"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Gewichtskräfte: $35\\,\\mathrm{kg} \\cdot 10\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} = 350\\,\\mathrm{N}$ und $25\\,\\mathrm{kg} \\cdot 10\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} = 250\\,\\mathrm{N}$, beide nach unten. Gleiche Richtung: Gesamtkraft $350\\,\\mathrm{N} + 250\\,\\mathrm{N} = 600\\,\\mathrm{N}$ nach unten (1 P).\n\nSeil und Kinder sind in Ruhe (Kräftegleichgewicht): Der Haken hält das Seil mit $600\\,\\mathrm{N}$ nach oben (1 P).\n\n→ **N5** Aufgabe 3 und 4"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Einseitiger Hebel mit dem Gelenk als Drehachse; beide Hebelarme werden vom Gelenk aus gemessen: $F_{Hand} \\cdot 15\\,\\mathrm{cm} = 90\\,\\mathrm{N} \\cdot 3\\,\\mathrm{cm}$ (1 P)\n\n$F_{Hand} = \\frac{270\\,\\mathrm{N \\cdot cm}}{15\\,\\mathrm{cm}} = 18\\,\\mathrm{N}$ (1 P)\n\n→ **N8** Aufgabe 5"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Bogen: Verformung (er biegt sich). Pfeil: Beschleunigung (er wird aus der Ruhe schnell) (1 P für beide)."
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Nach dem Loslassen muss der Bogen wieder seine alte Form annehmen, damit er bei jedem Schuss gleich stark zieht. Bei einer plastischen Verformung bliebe er verbogen; Zugkraft und Flug des Pfeils würden sich von Schuss zu Schuss ändern (1 P).\n\n→ **N4** Aufgabe 1"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Quotienten $\\frac{F}{s}$ in $\\frac{\\mathrm{N}}{\\mathrm{cm}}$: $2{,}6$; $2{,}55$; $2{,}63$; $2{,}6$. Die Quotienten sind im Rahmen der Messgenauigkeit gleich: Kraft und Auszug sind proportional, der Bogen folgt dem Hooke’schen Gesetz (1 P).\n\nFederkonstante (Mittelwert): $D \\approx 2{,}6\\,\\frac{\\mathrm{N}}{\\mathrm{cm}}$ (1 P)\n\n$F = D \\cdot s = 2{,}6\\,\\frac{\\mathrm{N}}{\\mathrm{cm}} \\cdot 50\\,\\mathrm{cm} = 130\\,\\mathrm{N}$ (1 P). Dabei wird angenommen, dass der Bogen auch bis zum vollen Auszug elastisch bleibt – dafür ist er gebaut."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zwei Pfeile vom Nockpunkt aus entlang der gestrichelten Linien, je 5 Kästchen lang ($100\\,\\mathrm{N} : 20\\,\\mathrm{N}$); die Spitzen liegen auf dem Messkreis 5.",
+          "loesung_bild": "img/V4-4a.png"
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Kräfteparallelogramm: Parallelen zu beiden Pfeilen durch die jeweils andere Pfeilspitze; die Diagonale vom Nockpunkt aus ist die Gesamtkraft der Sehne, etwa $6{,}4$ Kästchen lang: $F_{ges} \\approx 6{,}4 \\cdot 20\\,\\mathrm{N} \\approx 130\\,\\mathrm{N}$ in Schussrichtung (Zeichengenauigkeit: $125$ bis $135\\,\\mathrm{N}$) (1 P).\n\nDer Nockpunkt ist in Ruhe, also herrscht Kräftegleichgewicht: Die Hand zieht mit gleich großer Kraft in die Gegenrichtung, mit etwa $130\\,\\mathrm{N}$ nach hinten, entgegen der Schussrichtung (1 P).\n\n→ **N6** Aufgabe 1, **N5** Aufgabe 3"
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Beide Wege ergeben etwa $130\\,\\mathrm{N}$; der Unterschied liegt im Rahmen der Zeichen- und Messgenauigkeit (1 P).\n\nIn 3c) wurde über die Messwerte hinaus (bis $35\\,\\mathrm{cm}$ gemessen) bis $50\\,\\mathrm{cm}$ mit dem Hooke’schen Gesetz hochgerechnet. Der zweite, unabhängige Weg über die Sehnenkräfte bestätigt, dass Kraft und Auszug auch bis zum vollen Auszug proportional bleiben – die Hochrechnung war zulässig (1 P)."
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Schräg: Jeder Kraftmesser hält genau eine Sehnenhälfte im Gleichgewicht und zeigt deshalb wie diese etwa $100\\,\\mathrm{N}$ an – das ist schon das Ende seines Messbereichs (1 P).\n\nDie Summe der Anzeigen (etwa $200\\,\\mathrm{N}$) ist nicht die gesuchte Kraft: Die beiden Kräfte haben verschiedene Richtungen, zusammen wirken sie nur wie die Diagonale des Kräfteparallelogramms (etwa $130\\,\\mathrm{N}$, wie in 4b). Der Vorschlag taugt nicht (1 P).\n\nBesser nebeneinander: Beide Haken greifen am Nockpunkt an, beide Kraftmesser werden gleichzeitig in dieselbe Richtung nach hinten gezogen, entgegen der Schussrichtung. Kräfte gleicher Richtung addieren sich: $F = F_1 + F_2$, jeder trägt nur etwa $65\\,\\mathrm{N}$. Die Summe der beiden Anzeigen ist die gesuchte Kraft (1 P). [Mit dem Ersatzwert: je $60\\,\\mathrm{N}$ nebeneinander.]\n\n→ **N5** Aufgabe 1, **N6** Aufgabe 1"
+        },
+        {
+          "id": "V4-5a",
+          "label": "5a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zweiseitiger Hebel: Die Drehachse (Aufhängung) liegt zwischen den beiden Kräften – die Ware zieht links, das Laufgewicht rechts."
+        },
+        {
+          "id": "V4-5b",
+          "label": "5b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Balken als Strich mit Drehachse; links $a_1 = 5\\,\\mathrm{cm}$, rechts $a_2 = 32\\,\\mathrm{cm}$, beide Kräfte nach unten, $F_1$ länger als $F_2$ (1 P Drehachse und bemaßte Hebelarme, 1 P Kraftpfeile mit Formelzeichen).",
+          "loesung_bild": "img/V4-5b.png"
+        },
+        {
+          "id": "V4-5c",
+          "label": "5c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$F_2 = m \\cdot g = 0{,}50\\,\\mathrm{kg} \\cdot 9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}} \\approx 4{,}9\\,\\mathrm{N}$"
+        },
+        {
+          "id": "V4-5d",
+          "label": "5d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Hebelgesetz: $F_1 \\cdot 5\\,\\mathrm{cm} = 4{,}905\\,\\mathrm{N} \\cdot 32\\,\\mathrm{cm}$, also $F_1 = \\frac{156{,}96\\,\\mathrm{N \\cdot cm}}{5\\,\\mathrm{cm}} \\approx 31{,}4\\,\\mathrm{N}$ (1 P)\n\n$m = \\frac{F_1}{g} = \\frac{31{,}4\\,\\mathrm{N}}{9{,}81\\,\\frac{\\mathrm{N}}{\\mathrm{kg}}} \\approx 3{,}2\\,\\mathrm{kg}$ (1 P)\n\n(Auch richtig: Der Ortsfaktor steht auf beiden Seiten und fällt weg: $m \\cdot 5\\,\\mathrm{cm} = 0{,}50\\,\\mathrm{kg} \\cdot 32\\,\\mathrm{cm}$, $m = 3{,}2\\,\\mathrm{kg}$.)"
+        },
+        {
+          "id": "V4-5e",
+          "label": "5e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Für $1\\,\\mathrm{kg}$ Ware: $1\\,\\mathrm{kg} \\cdot g \\cdot 5\\,\\mathrm{cm} = 0{,}50\\,\\mathrm{kg} \\cdot g \\cdot a_2$, also $a_2 = 10\\,\\mathrm{cm}$ (1 P).\n\nDie Kraft des Laufgewichts und der Hebelarm der Ware bleiben gleich. Doppelte Masse der Ware braucht deshalb das doppelte Drehmoment, also den doppelten Hebelarm $a_2$: $a_2$ ist proportional zur Masse. Die Marken liegen bei 10, 20, 30 und $40\\,\\mathrm{cm}$, also im gleichen Abstand (1 P)."
+        },
+        {
+          "id": "V4-5f",
+          "label": "5f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Das leichtere Laufgewicht hat eine kleinere Gewichtskraft. Für dasselbe Drehmoment der Ware muss es deshalb weiter nach außen geschoben werden (1 P).\n\nBeispiel Kürbis: $3{,}2\\,\\mathrm{kg} \\cdot 5\\,\\mathrm{cm} = 0{,}40\\,\\mathrm{kg} \\cdot a_2$ ergibt $a_2 = 40\\,\\mathrm{cm}$ – die Waage zeigt $4\\,\\mathrm{kg}$ statt $3{,}2\\,\\mathrm{kg}$. Allgemein zeigt sie das $\\frac{0{,}50}{0{,}40} = 1{,}25$-Fache an, also $25\\,\\%$ zu viel (1 P).\n\nDer Händler hat den Vorteil: Die Kundschaft bezahlt für mehr Ware, als sie bekommt. Die Waage betrügt bei jeder Masse im gleichen Verhältnis (1 P)."
         }
       ]
     }

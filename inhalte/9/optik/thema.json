@@ -3,7 +3,7 @@
   "titel": "Optik – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "du",
-  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du bei Licht, Schatten, Winkel, Spiegeln oder Maßstab unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4, V2 nach N5, V3 nach N6 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Lege Geodreieck und Taschenrechner bereit; dein Regelheft darfst du benutzen. Zeichnungen machst du direkt in den Vorlagen im Arbeitsblatt auf dem iPad. Längen bestimmst du dort durch Kästchenzählen, Winkel mit der vorgedruckten Winkelskala.",
+  "hinweis": "Alle Stationen sind testrelevant, auch die Grundlagen. Bist du bei Licht, Schatten, Winkel, Spiegeln oder Maßstab unsicher, beginne mit den **Grundlagen**: G1 (Check-in) zeigt dir, welcher Block noch fehlt, G2 frischt genau diese Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen dir passende Stationen – und folgen dem Lernweg. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4, V2 nach N5, V3 nach N6 bis N10. N11 (Check-out) bearbeitest du am Ende – vergleiche dann deine Punkte in N1 und N11. Ganz zum Schluss prüft V4 (Probearbeit, 60 Minuten) alles wie im Test. Lege Geodreieck und Taschenrechner bereit; dein Regelheft darfst du benutzen. Zeichnungen machst du direkt in den Vorlagen im Arbeitsblatt auf dem iPad. Längen bestimmst du dort durch Kästchenzählen, Winkel mit der vorgedruckten Winkelskala.",
   "checkliste": [
     {
       "id": "g1",
@@ -1298,6 +1298,191 @@
           "punkte": 1,
           "afb": "III",
           "loesung": "Nein. Eine Zerstreuungslinse lässt das Licht auseinanderlaufen und erzeugt nur virtuelle, verkleinerte Bilder. An der Wand entstünde kein Bild."
+        }
+      ]
+    },
+    {
+      "id": "V4",
+      "titel": "Probearbeit",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 60,
+      "hilfsmittel": "Teil A keine, Teil B Geodreieck, Taschenrechner und Regelheft",
+      "checkliste": [
+        "c6",
+        "c7",
+        "c4",
+        "c5",
+        "c1",
+        "c2",
+        "c3",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Wie im Test: 60 Minuten, zuerst Teil A (Aufgabe 1 und 2) ohne Hilfsmittel, danach Teil B (Aufgabe 3 und 4) mit Geodreieck, Taschenrechner und Regelheft. Lösungswege vollständig aufschreiben, Zeichnungen in die Vorlagen. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit allen drei Phasen (Reflexion und Brechung, Linsen und Brennpunkte, Bildentstehung) – am besten ganz am Ende.",
+      "bild": "img/st_V4.svg",
+      "pdf": "pdf/V4_Probearbeit.pdf",
+      "aufgaben": [
+        {
+          "id": "V4-1a",
+          "label": "1a",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Der Schatten endet dort, wo der Randstrahl von der Lampe über den Kopf des Kindes den Boden trifft. Je weiter das Kind von der Lampe weg ist, desto flacher verläuft dieser Randstrahl – er trifft den Boden weiter hinter dem Kind: Der Schatten wird immer länger.\n\n*A gewählt?* Kürzer wird der Schatten, wenn das Kind auf die Lampe zugeht. *C gewählt?* Gleich lang bliebe er nur bei parallelem Licht (Sonne). *D gewählt?* Der Randstrahl wird stetig flacher, der Schatten also stetig länger. → **G2** Aufgabe 2 und 5"
+        },
+        {
+          "id": "V4-1b",
+          "label": "1b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**C** – Das weiße Blatt wirft das meiste Licht in alle Richtungen zurück (Streuung), es gelangt in dein Auge. Der schwarze Karton absorbiert fast das ganze Licht.\n\n*A gewählt?* Beide sind beleuchtete Körper, keine Lichtquellen. *B gewählt?* Durchgelassenes Licht käme hinter dem Blatt an, nicht bei dir. *D gewählt?* Ein Spiegel sähe hell aus, wenn er das Licht zu dir lenkt – schwarz ist der Karton, weil er absorbiert. → **G2** Aufgabe 2"
+        },
+        {
+          "id": "V4-1c",
+          "label": "1c",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**A** – Das Lot halbiert den Winkel zwischen den beiden Strahlen, weil Einfallswinkel und Reflexionswinkel gleich groß sind: $\\alpha = \\alpha' = 100° : 2 = 50°$.\n\n*B gewählt?* Das ist der ganze Winkel zwischen den Strahlen. *C gewählt?* Das ist der Winkel zur Spiegelfläche, nicht zum Lot. *D gewählt?* $180° - 100°$ hat keine Bedeutung für die Reflexion. → **N2** Aufgabe 1 und 2"
+        },
+        {
+          "id": "V4-1d",
+          "label": "1d",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Bei senkrechtem Einfall ist auch der Brechungswinkel $0°$ (Tabelle in N3): Das Licht ändert seine Richtung nicht; ein kleiner Teil wird zurückgeworfen.\n\n*A oder C gewählt?* Gebrochen wird nur Licht, das schräg auftrifft. *B gewählt?* Totalreflexion gibt es nur beim Übergang ins optisch dünnere Medium und bei großem Einfallswinkel. → **N3** Aufgabe 2"
+        },
+        {
+          "id": "V4-1e",
+          "label": "1e",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**C** – Totalreflexion gibt es nur beim Übergang vom optisch dichteren ins optisch dünnere Medium, also dorthin, wo das Licht schneller ist. In Wasser ist es schneller als in Glas: Von Glas in Wasser ist Totalreflexion möglich (bei großen Einfallswinkeln).\n\n*A, B oder D gewählt?* Dort geht das Licht ins optisch dichtere Medium: Es wird zum Lot hin gebrochen und kommt immer hinein. → **N4** Aufgabe 1"
+        },
+        {
+          "id": "V4-1f",
+          "label": "1f",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**A** – Eine Zerstreuungslinse lenkt paralleles Licht auseinander. Verlängert man die Strahlen rückwärts, treffen sie sich im Brennpunkt vor der Linse.\n\n*B gewählt?* So wirkt eine Sammellinse. *C gewählt?* Nur ein Strahl durch die Mitte entlang der optischen Achse läuft unverändert weiter. *D gewählt?* Linsen brechen das Licht, sie spiegeln es nicht. → **N5** Aufgabe 2"
+        },
+        {
+          "id": "V4-1g",
+          "label": "1g",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "**B** – Bei der stärker gewölbten Linse trifft das Licht am Rand schräger auf die Oberflächen und wird stärker gebrochen. Die Strahlen treffen sich näher an der Linse: kürzere Brennweite.\n\n*A gewählt?* Genau umgekehrt. *C gewählt?* Die Brennweite hängt von der Form der Linse ab, nicht nur vom Glas. *D gewählt?* Jede Sammellinse hat Brennpunkte und damit eine Brennweite. → **N8** Aufgabe 4"
+        },
+        {
+          "id": "V4-1h",
+          "label": "1h",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "**D** – Für $f < g < 2 \\cdot f$ entsteht hinter der Linse in mehr als der doppelten Brennweite ein reelles, umgekehrtes und vergrößertes Bild.\n\n*A gewählt?* Das gilt für $g > 2 \\cdot f$. *B gewählt?* Das ist die Lupe ($g < f$). *C gewählt?* Reelle Bilder einer Sammellinse stehen immer auf dem Kopf. → **N7** Aufgabe 1"
+        },
+        {
+          "id": "V4-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Wer vor dem Krankenwagen fährt, sieht ihn im Rückspiegel. Im Spiegelbild sind vorne und hinten vertauscht; eine normale Schrift erscheint darin spiegelverkehrt (1 P).\n\nDie spiegelverkehrt aufgedruckte Schrift wird durch die Spiegelung wieder umgedreht und ist im Rückspiegel richtig herum und sofort lesbar (1 P).\n\n→ **N2** Aufgabe 3, **G2** Aufgabe 4"
+        },
+        {
+          "id": "V4-2b",
+          "label": "2b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Diamant ist optisch viel dichter als Glas. Je dichter der Stoff, desto kleiner ist der Grenzwinkel zur Luft: bei Glas etwa $42°$, bei Diamant nur etwa $24°$ (1 P).\n\nLicht, das in den Diamanten gelangt, trifft innen meist unter größeren Winkeln auf die Flächen und wird immer wieder total reflektiert. Es tritt erst gebündelt an wenigen Flächen aus – der Stein blitzt hell auf (1 P).\n\n→ **N4** Aufgabe 1 und 2"
+        },
+        {
+          "id": "V4-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Das Licht geht von Glas in Luft, also vom optisch dichteren ins optisch dünnere Medium – nur dann ist Totalreflexion möglich (1 P).\n\nLaut Tabelle liegt der Grenzwinkel für Glas → Luft zwischen $41°$ und $42°$. Der Einfallswinkel $45°$ ist größer: Es tritt kein Licht aus, es wird total reflektiert (1 P).\n\n→ **N4** Aufgabe 1 und 2"
+        },
+        {
+          "id": "V4-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Lot senkrecht zur Scheibe durch P (1 P).\n\nReflektierter Strahl unter $\\alpha' = 45°$ zum Lot auf der anderen Seite des Lots; er läuft zum Sensor (Reflexionsgesetz) (1 P).",
+          "loesung_bild": "img/V4-3b.png"
+        },
+        {
+          "id": "V4-3c",
+          "label": "3c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Zeile Glas → Wasser: Zu $45°$ gehört $\\beta = 53°$ – keine Totalreflexion, das Licht tritt in den Tropfen aus (1 P).\n\nWasser ist optisch dünner als Glas: Das Licht wird vom Lot weg gebrochen ($53° > 45°$); nur ein kleiner Teil wird zum Sensor reflektiert (1 P).\n\nZeichnung: Lot durch Q, Strahl im Tropfen unter $53°$ zum Lot (1 P)."
+        },
+        {
+          "id": "V4-3d",
+          "label": "3d",
+          "punkte": 1,
+          "afb": "II",
+          "loesung": "Bei trockener Scheibe gelangt fast das ganze Licht zum Sensor. Wo Tropfen liegen, verlässt ein großer Teil des Lichts die Scheibe: Am Sensor kommt weniger Licht an, und die Elektronik schaltet den Wischer ein."
+        },
+        {
+          "id": "V4-3e",
+          "label": "3e",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Zwischen $62°$ (Licht tritt noch aus) und $63°$ (Totalreflexion), also etwa $62°$."
+        },
+        {
+          "id": "V4-3f",
+          "label": "3f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Trocken: $70°$ ist größer als der Grenzwinkel für Glas → Luft (etwa $42°$) – Totalreflexion, insoweit stimmt die Aussage (1 P).\n\nMit Tropfen: $70°$ ist auch größer als der Grenzwinkel für Glas → Wasser (etwa $62°$). Das Licht wird auch unter dem Tropfen total reflektiert; der Sensor bekommt genauso viel Licht wie bei trockener Scheibe (1 P).\n\nUrteil: Der Sensor könnte Regen nicht mehr erkennen – der Vorschlag ist schlecht. Der Winkel muss zwischen den beiden Grenzwinkeln liegen (etwa $42°$ bis $62°$); $45°$ erfüllt das (1 P)."
+        },
+        {
+          "id": "V4-4a",
+          "label": "4a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Zum Beispiel Parallelstrahl (hinter der Linse durch $F_1$) und Mittelpunktstrahl (ohne Richtungsänderung durch die Linsenmitte) von der Spitze des Pfeils aus (1 P).\n\nDer Schnittpunkt der beiden Strahlen ist der Bildpunkt der Spitze; das Bild ist ein Pfeil von der Achse nach unten bis zu diesem Punkt (1 P).",
+          "loesung_bild": "img/V4-4a.png"
+        },
+        {
+          "id": "V4-4b",
+          "label": "4b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Bildweite: 14 Kästchen, also $b = 14\\,\\mathrm{cm}$ (1 P).\n\nBildgröße: 3 Kästchen, also $B = 3\\,\\mathrm{cm}$ (nach unten) (1 P)."
+        },
+        {
+          "id": "V4-4c",
+          "label": "4c",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Reell, umgekehrt (höhen- und seitenverkehrt), gleich groß wie das Original; Fall $g = 2 \\cdot f$."
+        },
+        {
+          "id": "V4-4d",
+          "label": "4d",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Gegenstandsweite $g > 2 \\cdot f$, also mehr als $14\\,\\mathrm{cm}$ (1 P).\n\nDas Bild entsteht zwischen $f$ und $2 \\cdot f$ hinter der Linse, die Trommel steht also zwischen $7\\,\\mathrm{cm}$ und $14\\,\\mathrm{cm}$ hinter der Linse (1 P).\n\n→ **N7** Aufgabe 1"
+        },
+        {
+          "id": "V4-4e",
+          "label": "4e",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Wo das scharfe Bild entsteht, legt die Gegenstandsweite fest: Bei $g = 14\\,\\mathrm{cm}$ treffen sich die Strahlen eines Punktes des Originals erst in $14\\,\\mathrm{cm}$ hinter der Linse (1 P).\n\nRückt die Trommel näher an die Linse, treffen die Strahlen sie, bevor sie sich schneiden: Aus jedem Punkt wird ein kleiner Fleck, die Kopie wird unscharf (1 P).\n\nDie Aussage ist falsch: Für eine scharfe, verkleinerte Kopie muss das Original weiter weg ($g > 2 \\cdot f = 14\\,\\mathrm{cm}$, siehe d) **und** die Trommel näher an die Linse (1 P)."
+        },
+        {
+          "id": "V4-4f",
+          "label": "4f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ein reelles, gleich großes Bild entsteht nur im Fall $g = 2 \\cdot f$, dann ist auch $b = 2 \\cdot f$ (1 P).\n\n$2 \\cdot f = 20\\,\\mathrm{cm}$, also $f = 10\\,\\mathrm{cm}$ (1 P)."
         }
       ]
     }
