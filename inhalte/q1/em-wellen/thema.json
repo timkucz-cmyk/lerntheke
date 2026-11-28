@@ -3,7 +3,7 @@
   "titel": "Elektromagnetische Wellen und Licht – Lerntheke vor dem Test",
   "fach": "physik",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind testrelevant. Sind Sie beim Vorwissen unsicher (Wellen, Interferenz, Induktion, Winkel im Dreieck, Zehnerpotenzen), beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt die typischen Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Licht als elektromagnetische Welle), V2 nach N3 bis N5 (Doppelspalt und Gitter), V3 nach N6 bis N10 (Spektren). N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11. Stationen mit der Marke eA (N12 bis N14 und V4) gehören zum erhöhten Niveau. Stellen Sie den Taschenrechner auf Gradmaß (DEG).",
+  "hinweis": "Alle Stationen sind testrelevant. Sind Sie beim Vorwissen unsicher (Wellen, Interferenz, Induktion, Winkel im Dreieck, Zehnerpotenzen), beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt die typischen Lücken auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N10. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 (Licht als elektromagnetische Welle), V2 nach N3 bis N5 (Doppelspalt und Gitter), V3 nach N6 bis N10 (Spektren). N11 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N11. Stationen mit der Marke eA (N12 bis N14 und V4) gehören zum erhöhten Niveau. Stellen Sie den Taschenrechner auf Gradmaß (DEG). Ganz zum Schluss prüft V5 (Probeklausur, 90 Minuten, grundlegendes Niveau) alles unter Klausurbedingungen.",
   "checkliste": [
     {
       "id": "g1",
@@ -1781,6 +1781,178 @@
           "punkte": 2,
           "afb": "III",
           "loesung": "Das kontinuierliche Spektrum des Sterns ist in Abb. 1 bei etwa $0{,}9\\,\\mathrm{\\mu m}$ am hellsten, im nahen Infrarot – bei deutlich größerer Wellenlänge als die Sonne ($0{,}5\\,\\mathrm{\\mu m}$). Nach der Infobox ist der Stern kühler als die Sonne; er leuchtet rötlich. Mehr als „kühler“ lässt sich so nicht sagen – für eine Temperatur bräuchte man ein Gesetz, das Lage des Maximums und Temperatur verknüpft."
+        }
+      ]
+    },
+    {
+      "id": "V5",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c10",
+        "c7",
+        "c8",
+        "c9",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c1",
+        "c2",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Echte Klausurbedingungen: 90 Minuten, WTR (Gradmaß) und Formeldokument (wie in der Physikklausur ohne hilfsmittelfreien Teil), grundlegendes Niveau (ohne die Inhalte des erhöhten Niveaus). Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Licht als elektromagnetische Welle, Doppelspalt und Gitter, Spektren) – am besten ganz am Ende.",
+      "bild": "img/st_V5.svg",
+      "pdf": "pdf/V5_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\lambda = \\frac{c}{f} = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{9{,}40 \\cdot 10^{9}\\,\\mathrm{Hz}} \\approx 3{,}19 \\cdot 10^{-2}\\,\\mathrm{m} = 3{,}19\\,\\mathrm{cm}$ (1 P)\n\nMikrowellen (zwischen Radiowellen und Infrarot). (1 P)"
+        },
+        {
+          "id": "V5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Für ein Maximum gilt $\\sin\\alpha_k = \\frac{k \\cdot \\lambda}{d} \\le 1$, also $k \\le \\frac{d}{\\lambda} = \\frac{8{,}0\\,\\mathrm{cm}}{3{,}19\\,\\mathrm{cm}} \\approx 2{,}5$: höchstens die 2. Ordnung. (1 P)\n\nMaxima 0. Ordnung (Mitte) sowie 1. und 2. Ordnung auf beiden Seiten: höchstens 5 Maxima. (1 P)"
+        },
+        {
+          "id": "V5-1c",
+          "label": "1c",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Der senkrechte Sendedipol erzeugt eine Welle, deren elektrisches Feld senkrecht schwingt. Der gedrehte (waagerechte) Empfangsdipol hat keinen Feldanteil längs seines Drahts – ohne Gitter kein Signal. (1 P)\n\nDas Feld lässt sich in einen Anteil längs der Stäbe und einen Anteil quer zu ihnen zerlegen. Den Anteil längs der Stäbe schirmt das Gitter ab (er treibt die Elektronen in den Stäben an); durch kommt nur der Anteil quer zu den Stäben. Er schwingt schräg unter $45°$ und hat damit einen waagerechten Anteil, den der gedrehte Empfänger aufnimmt. (1 P)\n\nUrteil: Die Aussage ist falsch, die Messung plausibel. Das Gitter erzeugt keine Energie, es lässt einen Teil der Welle mit gedrehter Schwingungsrichtung durch. Das geht nur, weil die Welle transversal ist und polarisiert schwingt; bei einer Längswelle gäbe es keine Schwingungsrichtung quer zur Ausbreitung. (1 P)"
+        },
+        {
+          "id": "V5-1d",
+          "label": "1d",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Maximum 1. Ordnung: $\\sin\\alpha_1 = \\frac{\\lambda}{d} = \\frac{3{,}19\\,\\mathrm{cm}}{8{,}0\\,\\mathrm{cm}} \\approx 0{,}399$, $\\alpha_1 \\approx 23{,}5°$ (1 P)\n\nMaximum 2. Ordnung: $\\sin\\alpha_2 = \\frac{2\\lambda}{d} \\approx 0{,}798$, $\\alpha_2 \\approx 52{,}9°$ (1 P)\n\nErstes Minimum: $\\Delta s = \\frac{\\lambda}{2}$, $\\sin\\alpha = \\frac{\\lambda}{2d} \\approx 0{,}199$, $\\alpha \\approx 11{,}5°$ (1 P)"
+        },
+        {
+          "id": "V5-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Mittelwerte $23{,}5°$ und $53{,}0°$: $\\lambda = d \\cdot \\sin 23{,}5° \\approx 3{,}19\\,\\mathrm{cm}$ und $\\lambda = \\frac{d \\cdot \\sin 53{,}0°}{2} \\approx 3{,}19\\,\\mathrm{cm}$ (1 P)\n\nBeide Werte stimmen mit $3{,}19\\,\\mathrm{cm}$ aus a) überein; die Messung bestätigt die Wellenlänge. (Das Mitteln von links und rechts gleicht eine schief stehende Nulllinie aus.) (1 P)"
+        },
+        {
+          "id": "V5-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Ein ortsfestes Muster braucht kohärente Wellen: gleiche Frequenz und eine feste Phasenbeziehung. Beim Doppelspalt kommen beide Teilwellen vom selben Sender, das ist erfüllt. (1 P)\n\nZwei getrennte Sender schwingen unabhängig; ihre Frequenzen weichen etwas ab und die Phasendifferenz ändert sich ständig. Maxima und Minima wandern – es entsteht kein ortsfestes Muster. (1 P)"
+        },
+        {
+          "id": "V5-1g",
+          "label": "1g",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Jeder Spalt ist Ausgangspunkt von Elementarwellen; weil die Spalte schmal sind (etwa $0{,}6\\,\\lambda$), breiten sie sich hinter dem Doppelspalt in alle Richtungen aus und überlagern sich. (1 P)\n\nUnter $11{,}5°$ ist der Weg vom einen Spalt um $\\Delta s = d \\cdot \\sin\\alpha = \\frac{\\lambda}{2}$ länger: Wellenberg trifft auf Wellental, die Wellen löschen sich aus (destruktive Interferenz). (1 P)"
+        },
+        {
+          "id": "V5-1h",
+          "label": "1h",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "$\\sin\\alpha_1 = \\frac{530 \\cdot 10^{-9}\\,\\mathrm{m}}{0{,}080\\,\\mathrm{m}} \\approx 6{,}6 \\cdot 10^{-6}$; auf dem Schirm läge das erste Maximum nur etwa $1{,}20\\,\\mathrm{m} \\cdot 6{,}6 \\cdot 10^{-6} \\approx 8\\,\\mathrm{\\mu m}$ neben der Mitte – viel zu fein, um es zu sehen. (1 P)\n\nAußerdem sind die Spalte ($2\\,\\mathrm{cm}$) riesig gegen die Lichtwellenlänge: Das Licht wird kaum gebeugt und geht als zwei getrennte Bündel geradeaus, die sich nicht überlagern. Die Aussage ist falsch; für Licht braucht man Spaltabstände um $0{,}1\\,\\mathrm{mm}$ und sehr schmale Spalte. (1 P)"
+        },
+        {
+          "id": "V5-2a",
+          "label": "2a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "Blau: $f = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{440 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 6{,}82 \\cdot 10^{14}\\,\\mathrm{Hz}$, $E \\approx 4{,}52 \\cdot 10^{-19}\\,\\mathrm{J} \\approx 2{,}83\\,\\mathrm{eV}$ (1 P)\n\nRot: $f = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{660 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 4{,}55 \\cdot 10^{14}\\,\\mathrm{Hz}$, $E \\approx 3{,}01 \\cdot 10^{-19}\\,\\mathrm{J} \\approx 1{,}88\\,\\mathrm{eV}$ (1 P)"
+        },
+        {
+          "id": "V5-2b",
+          "label": "2b",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "$g = \\frac{1\\,\\mathrm{mm}}{450} \\approx 2{,}22\\,\\mathrm{\\mu m}$ (1 P)\n\nBlau: $\\sin\\alpha = \\frac{0{,}440\\,\\mathrm{\\mu m}}{2{,}222\\,\\mathrm{\\mu m}} = 0{,}198$, $\\alpha \\approx 11{,}4°$, $a = 0{,}80\\,\\mathrm{m} \\cdot \\tan 11{,}4° \\approx 16{,}2\\,\\mathrm{cm}$ (1 P)\n\nRot: $\\sin\\alpha = 0{,}297$, $\\alpha \\approx 17{,}3°$, $a = 0{,}80\\,\\mathrm{m} \\cdot \\tan 17{,}3° \\approx 24{,}9\\,\\mathrm{cm}$ (1 P)"
+        },
+        {
+          "id": "V5-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "In der Mitte ist der Gangunterschied für alle Wellenlängen null: Blau und Rot fallen zusammen und mischen sich zu einem rötlichen Violett (Purpur, Magenta). (1 P)\n\nDie Leuchte sendet nur zwei schmale Wellenlängenbereiche aus. Jede Wellenlänge hat in der 1. Ordnung ihren eigenen Winkel – deshalb erscheinen dort nur eine blaue und eine rote Linie. (1 P)"
+        },
+        {
+          "id": "V5-2d",
+          "label": "2d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Blau in 2. Ordnung: $\\sin\\alpha = \\frac{2 \\cdot 0{,}440\\,\\mathrm{\\mu m}}{2{,}222\\,\\mathrm{\\mu m}} = 0{,}396$, $\\alpha \\approx 23{,}3°$, $a = 0{,}80\\,\\mathrm{m} \\cdot \\tan 23{,}3° \\approx 34{,}5\\,\\mathrm{cm}$ (1 P)\n\nDas liegt außerhalb der roten Linie 1. Ordnung ($24{,}9\\,\\mathrm{cm}$) und vor der roten Linie 2. Ordnung ($\\sin\\alpha = 0{,}594$, $a \\approx 59\\,\\mathrm{cm}$): Es ist die blaue Linie 2. Ordnung. (1 P)"
+        },
+        {
+          "id": "V5-2e",
+          "label": "2e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$g = \\frac{\\lambda}{\\sin\\alpha} = \\frac{660\\,\\mathrm{nm}}{\\sin 34{,}0°} \\approx 1180\\,\\mathrm{nm} = 1{,}18\\,\\mathrm{\\mu m}$ (1 P)\n\n$\\frac{1\\,\\mathrm{mm}}{1{,}18 \\cdot 10^{-3}\\,\\mathrm{mm}} \\approx 847$, also etwa 850 Linien pro Millimeter. (1 P)"
+        },
+        {
+          "id": "V5-2f",
+          "label": "2f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Blattgrün absorbiert vor allem um $430$ bis $450\\,\\mathrm{nm}$ und um $660\\,\\mathrm{nm}$; die LEDs liefern genau dort Licht, das die Pflanze aufnehmen und nutzen kann. (1 P)\n\nUnter der Leuchte gibt es nur blaues und rotes Licht, und beides wird größtenteils absorbiert. Grünes Licht, das die Blätter sonst zurückwerfen, fehlt – die Blätter werfen kaum Licht zurück und wirken dunkel (höchstens etwas rötlich-violett vom zurückgeworfenen Rest). (1 P)"
+        },
+        {
+          "id": "V5-2g",
+          "label": "2g",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Der glühende Draht ist ein dichter, heißer Körper: kontinuierliches Spektrum mit allen Wellenlängen, am hellsten im Infraroten. Die LED-Leuchte sendet dagegen nur zwei schmale Bereiche aus. (1 P)\n\nBei der Glühlampe fällt der größte Teil der Energie in Bereiche, die das Blattgrün kaum absorbiert (Grün, Gelb, Infrarot als Wärme). Die LEDs geben ihre Energie fast nur bei den Absorptionsmaxima ab – weniger Strom und weniger Wärme für dasselbe Wachstum. (1 P)"
+        },
+        {
+          "id": "V5-2h",
+          "label": "2h",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Richtig ist: $E = \\frac{h \\cdot c}{\\lambda} \\approx 2{,}35\\,\\mathrm{eV}$ für $530\\,\\mathrm{nm}$ – mehr als bei Rot ($1{,}88\\,\\mathrm{eV}$), aber weniger als bei Blau ($2{,}83\\,\\mathrm{eV}$). (1 P)\n\nNach Abb. 2 absorbiert Blattgrün bei $530\\,\\mathrm{nm}$ nur sehr wenig; der größte Teil des grünen Lichts wird zurückgeworfen und kann nicht genutzt werden. Entscheidend ist, ob die Energie aufgenommen wird, nicht, wie groß sie ist. (1 P)\n\nUrteil: Der Vorschlag ist ungünstig; die Begründung ist im ersten Teil halb richtig, im zweiten falsch. Die blauen LEDs sollten bleiben (etwas grünes Licht kann man höchstens ergänzen, damit Menschen die Pflanzen besser beurteilen können). (1 P)"
+        },
+        {
+          "id": "V5-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{1550 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 1{,}94 \\cdot 10^{14}\\,\\mathrm{Hz}$; die Frequenz bleibt in der Faser gleich, also $\\lambda_{\\mathrm{Glas}} = \\frac{2{,}04 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{1{,}94 \\cdot 10^{14}\\,\\mathrm{Hz}} \\approx 1{,}05\\,\\mathrm{\\mu m}$ (1 P)\n\nInfrarot (jenseits von $780\\,\\mathrm{nm}$, unsichtbar). (1 P)"
+        },
+        {
+          "id": "V5-3b",
+          "label": "3b",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Kabel: $t = \\frac{6{,}4 \\cdot 10^{6}\\,\\mathrm{m}}{2{,}04 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}} \\approx 0{,}031\\,\\mathrm{s} = 31\\,\\mathrm{ms}$ (1 P)\n\nSatellit: $t = \\frac{7{,}2 \\cdot 10^{7}\\,\\mathrm{m}}{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}} = 0{,}24\\,\\mathrm{s}$ – fast achtmal so lang, obwohl die Welle im Vakuum schneller ist; der Umweg ist viel länger. (1 P)"
+        },
+        {
+          "id": "V5-3c",
+          "label": "3c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$f_1 = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{1550{,}0 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 1{,}93548 \\cdot 10^{14}\\,\\mathrm{Hz}$, $f_2 = \\frac{3{,}00 \\cdot 10^{8}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}}{1550{,}8 \\cdot 10^{-9}\\,\\mathrm{m}} \\approx 1{,}93448 \\cdot 10^{14}\\,\\mathrm{Hz}$ (1 P)\n\n$\\Delta f \\approx 1{,}0 \\cdot 10^{11}\\,\\mathrm{Hz} = 100\\,\\mathrm{GHz}$ (1 P)"
+        },
+        {
+          "id": "V5-3d",
+          "label": "3d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Bei $1550\\,\\mathrm{nm}$ ist der Verlust am kleinsten (etwa $4\\,\\%$ je km); bei $850\\,\\mathrm{nm}$ sind es über $30\\,\\%$ je km. (1 P)\n\nDie Spitze ist eine Absorption: Die OH-Gruppen haben Energiestufen, deren Abstand $E = \\frac{h \\cdot c}{\\lambda} \\approx 0{,}90\\,\\mathrm{eV}$ zu $1380\\,\\mathrm{nm}$ passt. Licht genau dieser Energie wird aufgenommen – wie eine dunkle Linie in einem Absorptionsspektrum. (1 P)\n\nUrteil: $1550\\,\\mathrm{nm}$ ist gut gewählt – das Signal kommt nach vielen Kilometern noch stark genug an, man braucht weniger Verstärker; kürzere Wellenlängen und der Bereich um $1380\\,\\mathrm{nm}$ sind ungünstig. (1 P)"
         }
       ]
     }
