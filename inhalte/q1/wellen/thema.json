@@ -3,7 +3,7 @@
   "titel": "Mechanische Wellen – Lerntheke vor der Klausur",
   "fach": "physik",
   "anrede": "sie",
-  "hinweis": "Alle Stationen sind klausurrelevant; in der Klausur kommen die Schwingungen dazu (Lerntheke Schwingungen). Sind Sie beim Vorwissen unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Schwingungsgleichung, Laufzeiten und Funktionsgraphen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N13. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4 (Wellen beschreiben), V2 nach N5 bis N8 (Überlagerung und stehende Wellen), V3 nach N9 bis N13 (Dopplereffekt, Huygens und Beugung). N14 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N14. Stationen mit der Marke eA (N15 bis N17 und V4) gehören zum erhöhten Niveau. Die Ausbreitungsgeschwindigkeit heißt hier wie im Formeldokument $c$ (im Skript $v$).",
+  "hinweis": "Alle Stationen sind klausurrelevant; in der Klausur kommen die Schwingungen dazu (Lerntheke Schwingungen). Sind Sie beim Vorwissen unsicher, beginnen Sie mit den **Grundlagen**: G1 (Check-in) zeigt Ihnen, welcher Block noch fehlt, G2 frischt Schwingungsgleichung, Laufzeiten und Funktionsgraphen auf. Die **neuen Themen** beginnen mit N1 (Diagnose) – die Lösungen von N1 empfehlen Ihnen passende Stationen – und folgen dem Lernweg bis N13. Nach jeder Phase verbindet eine Aufgabe unter **Vernetzen** das Neue mit allem Bisherigen: V1 nach N2 bis N4 (Wellen beschreiben), V2 nach N5 bis N8 (Überlagerung und stehende Wellen), V3 nach N9 bis N13 (Dopplereffekt, Huygens und Beugung). N14 (Check-out) bearbeiten Sie am Ende – vergleichen Sie dann Ihre Punkte in N1 und N14. Stationen mit der Marke eA (N15 bis N17 und V4) gehören zum erhöhten Niveau. Die Ausbreitungsgeschwindigkeit heißt hier wie im Formeldokument $c$ (im Skript $v$). Ganz zum Schluss prüft V5 (Probeklausur, 90 Minuten, grundlegendes Niveau) alles unter Klausurbedingungen.",
   "checkliste": [
     {
       "id": "g1",
@@ -1940,6 +1940,187 @@
           "punkte": 3,
           "afb": "III",
           "loesung": "Suche: $50\\,\\mathrm{kHz}$ – breiter Kegel durch starke Beugung, erfasst unter dem Boot eine große Fläche; man weiß aber nicht genau, wo im Kegel der Fisch schwimmt.\n\nOrtung: $200\\,\\mathrm{kHz}$ – schmaler Kegel, das Echo stammt sicher aus einem kleinen Bereich direkt unter dem Boot; die kleinere Wellenlänge zeigt auch kleine Fische und feine Einzelheiten. Viele Geräte nutzen deshalb beide Frequenzen nacheinander."
+        }
+      ]
+    },
+    {
+      "id": "V5",
+      "titel": "Probeklausur",
+      "typ": "wahl",
+      "sozialform": "einzel",
+      "dauer_min": 90,
+      "hilfsmittel": "WTR, Formeldokument",
+      "checkliste": [
+        "c9",
+        "c10",
+        "c11",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "kategorie": "vernetzen",
+      "hinweis": "Echte Klausurbedingungen: 90 Minuten, WTR und Formeldokument (wie in der Physikklausur ohne hilfsmittelfreien Teil), grundlegendes Niveau (ohne die Inhalte des erhöhten Niveaus). Lösungswege vollständig aufschreiben. Erst danach die Lösungen freischalten. Vernetzt die Grundlagen mit Phase 1 bis 3 (Wellen beschreiben, Überlagerung und stehende Wellen, Dopplereffekt, Huygens und Beugung) – am besten ganz am Ende.",
+      "bild": "img/st_V5.svg",
+      "pdf": "pdf/V5_Probeklausur.pdf",
+      "aufgaben": [
+        {
+          "id": "V5-1a",
+          "label": "1a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$T = 12\\,\\mathrm{h} + 25\\,\\mathrm{min} = 44\\,700\\,\\mathrm{s}$, $f = \\frac{1}{T} = \\frac{1}{44\\,700\\,\\mathrm{s}} \\approx 2{,}24 \\cdot 10^{-5}\\,\\mathrm{Hz}$ (1 P)\n\nLaufzeit des Hochwassers $3\\,\\mathrm{h}\\ 45\\,\\mathrm{min} = 13\\,500\\,\\mathrm{s}$: $c = \\frac{101\\,000\\,\\mathrm{m}}{13\\,500\\,\\mathrm{s}} \\approx 7{,}5\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ (etwa $27\\,\\frac{\\mathrm{km}}{\\mathrm{h}}$) (1 P)"
+        },
+        {
+          "id": "V5-1b",
+          "label": "1b",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$\\lambda = c \\cdot T = 7{,}48\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 44\\,700\\,\\mathrm{s} \\approx 3{,}34 \\cdot 10^{5}\\,\\mathrm{m} = 334\\,\\mathrm{km}$ (mit $c = 7{,}5\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$: $335\\,\\mathrm{km}$) (1 P)\n\nDie Tideelbe ist $138\\,\\mathrm{km}$ lang, also nur etwa $0{,}41\\,\\lambda$: Auf die ganze Strecke passt weniger als eine halbe Wellenlänge. (1 P)"
+        },
+        {
+          "id": "V5-1c",
+          "label": "1c",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Amplitude $\\hat{y} = \\frac{3{,}6\\,\\mathrm{m}}{2} = 1{,}8\\,\\mathrm{m}$, $\\omega = \\frac{2\\pi}{12{,}42\\,\\mathrm{h}} \\approx 0{,}506\\,\\mathrm{h^{-1}}$ (1 P)\n\nDas Maximum (Hochwasser) liegt bei $t = 3{,}75\\,\\mathrm{h}$:\n\n$$y_H(t) = 1{,}8\\,\\mathrm{m} \\cdot \\cos(0{,}506\\,\\mathrm{h^{-1}} \\cdot (t - 3{,}75\\,\\mathrm{h}))$$\n\ngleichwertig $y_H(t) = 1{,}8\\,\\mathrm{m} \\cdot \\sin(0{,}506\\,\\mathrm{h^{-1}} \\cdot t - 0{,}33)$ (1 P)"
+        },
+        {
+          "id": "V5-1d",
+          "label": "1d",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Um 6:00 Uhr: $y(x) = 1{,}8\\,\\mathrm{m} \\cdot \\cos\\left(2\\pi \\cdot \\frac{x}{334\\,\\mathrm{km}}\\right)$ – Kosinusverlauf mit dem Maximum $1{,}8\\,\\mathrm{m}$ in Cuxhaven ($x = 0$). (1 P)\n\nNulldurchgang bei $\\frac{\\lambda}{4} \\approx 84\\,\\mathrm{km}$; in Hamburg $y \\approx -0{,}58\\,\\mathrm{m}$, am Wehr $y \\approx -1{,}54\\,\\mathrm{m}$. Die Kurve fällt bis zum Wehr, das Tal läge erst bei $\\frac{\\lambda}{2} \\approx 167\\,\\mathrm{km}$. (1 P)\n\nIn $3\\,\\mathrm{h}$ läuft das Hochwasser $27\\,\\frac{\\mathrm{km}}{\\mathrm{h}} \\cdot 3\\,\\mathrm{h} \\approx 81\\,\\mathrm{km}$ weiter: Um 9:00 Uhr liegt es etwa $81\\,\\mathrm{km}$ oberhalb von Cuxhaven, das Momentbild ist um diese Strecke nach rechts verschoben. (1 P)",
+          "loesung_bild": "img/V5-1d.png"
+        },
+        {
+          "id": "V5-1e",
+          "label": "1e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Während einer Flut legt das Wasser etwa $s = 0{,}7\\,\\frac{\\mathrm{m}}{\\mathrm{s}} \\cdot 18\\,000\\,\\mathrm{s} \\approx 12{,}6\\,\\mathrm{km}$ zurück – weit weniger als die $101\\,\\mathrm{km}$ bis Hamburg. (1 P)\n\nBei Ebbe strömt es etwa ebenso weit zurück: Das Wasser pendelt nur hin und her (wie die Oszillatoren einer Welle um ihre Ruhelage). Weitergegeben wird die Schwingung des Wasserstands (Energie), nicht das Wasser. Die Aussage ist falsch. (1 P)"
+        },
+        {
+          "id": "V5-1f",
+          "label": "1f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Für den Wasserstand ist das Wehr ein loses Ende: Die Welle wird ohne Phasenumkehr reflektiert, ein Hochwasser läuft als Hochwasser zurück. (1 P)\n\nWeg Hamburg – Wehr – Hamburg: $2 \\cdot (138\\,\\mathrm{km} - 101\\,\\mathrm{km}) = 74\\,\\mathrm{km}$, $t = \\frac{74\\,\\mathrm{km}}{27\\,\\mathrm{km/h}} \\approx 2{,}75\\,\\mathrm{h} = 2\\,\\mathrm{h}\\ 45\\,\\mathrm{min}$: Das reflektierte Hochwasser ist gegen 12:30 Uhr wieder in Hamburg. (In Wirklichkeit ist es durch Reibung stark abgeschwächt.) (1 P)"
+        },
+        {
+          "id": "V5-1g",
+          "label": "1g",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Im Sinusmodell dauern Steigen und Fallen gleich lang (je etwa $6{,}2\\,\\mathrm{h}$) – das widerspricht der Beobachtung. (1 P)\n\nBeim Hochwasser ist der Fluss tiefer als beim Niedrigwasser. Der Wellenberg läuft deshalb schneller als das vorausgehende Wellental und holt es auf dem Weg elbaufwärts ein: Die Zeit vom Niedrig- zum Hochwasser wird kürzer, die vom Hoch- zum Niedrigwasser länger; die Welle steilt sich vorn auf. (1 P)\n\nUrteil: Für Periodendauer, Laufzeit, Wellenlänge und Tidenhub ist das Sinusmodell brauchbar, den zeitlichen Verlauf in Hamburg gibt es nur grob wieder. Genauer wäre ein Modell mit tiefenabhängiger Geschwindigkeit (dazu Reibung und Abfluss des Flusses). (1 P)"
+        },
+        {
+          "id": "V5-2a",
+          "label": "2a",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "Longitudinalwelle (Längswelle): Das Reiben in Längsrichtung lässt die Teilchen des Stabs in Stabrichtung hin und her schwingen, also parallel zur Ausbreitungsrichtung. (1 P)"
+        },
+        {
+          "id": "V5-2b",
+          "label": "2b",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Die Welle läuft im Stab hin und her und wird an den freien Enden (lose Enden) ohne Phasenumkehr reflektiert. Hin- und rücklaufende Welle überlagern sich; bei passender Frequenz entsteht eine stehende Welle. (1 P)\n\nAn den freien Enden liegen Bäuche (B) der Teilchenbewegung, am Haltepunkt in der Mitte ein Knoten (K), weil die Finger die Teilchen dort festhalten. (1 P)\n\nEinfachste Form B–K–B: Zwischen Bauch und Knoten liegt $\\frac{\\lambda}{4}$, also $L = 2 \\cdot \\frac{\\lambda}{4} = \\frac{\\lambda}{2}$ und $\\lambda = 2L = 2{,}60\\,\\mathrm{m}$. (1 P)",
+          "loesung_bild": "img/V5-2b.png"
+        },
+        {
+          "id": "V5-2c",
+          "label": "2c",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$c_{\\mathrm{Al}} = \\lambda \\cdot f = 2{,}60\\,\\mathrm{m} \\cdot 1960\\,\\mathrm{Hz} \\approx 5{,}10 \\cdot 10^{3}\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ (1 P)\n\n$\\lambda_{\\mathrm{Luft}} = \\frac{343\\,\\mathrm{m/s}}{1960\\,\\mathrm{Hz}} = 0{,}175\\,\\mathrm{m} = 17{,}5\\,\\mathrm{cm}$ – die Frequenz ist in Stab und Luft gleich, die Wellenlänge nicht. (1 P)"
+        },
+        {
+          "id": "V5-2d",
+          "label": "2d",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Am Haltepunkt müssen die Teilchen ruhen: Dort muss ein Knoten liegen; an den freien Enden bleiben Bäuche. (1 P)\n\nDie Grundschwingung aus b) hat ihren einzigen Knoten in der Mitte; bei $32{,}5\\,\\mathrm{cm} = \\frac{L}{4}$ schwingen die Teilchen kräftig. Die Finger bremsen diese Schwingung – sie kann sich nicht aufbauen. (1 P)\n\nMit Knoten bei $\\frac{L}{4}$ (und symmetrisch bei $\\frac{3L}{4}$): B–K–B–K–B, also $L = \\lambda$, $\\lambda = 1{,}30\\,\\mathrm{m}$ und $f = \\frac{5{,}10 \\cdot 10^{3}\\,\\mathrm{m/s}}{1{,}30\\,\\mathrm{m}} \\approx 3{,}92\\,\\mathrm{kHz}$ – doppelt so hoch (eine Oktave höher). (1 P)"
+        },
+        {
+          "id": "V5-2e",
+          "label": "2e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die beiden Enden sind zwei Schallquellen mit gleicher Frequenz und fester, gleicher Phase (derselbe Stab) – sie sind kohärent und gleichphasig. (1 P)\n\nAn Orten, deren Abstände zu den beiden Enden sich um $\\Delta s = (k - \\frac{1}{2}) \\cdot \\lambda$ unterscheiden, trifft immer eine Verdichtung der einen Welle auf eine Verdünnung der anderen: destruktive Interferenz, der Ton ist dort kaum zu hören. (1 P)"
+        },
+        {
+          "id": "V5-2f",
+          "label": "2f",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\overline{MB} = \\sqrt{(1{,}70\\,\\mathrm{m})^2 + (1{,}30\\,\\mathrm{m})^2} \\approx 2{,}140\\,\\mathrm{m}$, $\\Delta s = 2{,}140\\,\\mathrm{m} - 1{,}70\\,\\mathrm{m} \\approx 0{,}440\\,\\mathrm{m}$ (1 P)\n\n$\\frac{\\Delta s}{\\lambda} = \\frac{0{,}440\\,\\mathrm{m}}{0{,}175\\,\\mathrm{m}} \\approx 2{,}5$, also $\\Delta s = (3 - \\frac{1}{2}) \\cdot \\lambda$: Das Mikrofon misst ein Minimum. (1 P)"
+        },
+        {
+          "id": "V5-2g",
+          "label": "2g",
+          "punkte": 3,
+          "afb": "I",
+          "loesung": "Geschwindigkeit der Stabenden: $v = 2\\pi \\cdot 0{,}65\\,\\mathrm{m} \\cdot 1{,}5\\,\\mathrm{s^{-1}} \\approx 6{,}13\\,\\frac{\\mathrm{m}}{\\mathrm{s}}$ (1 P)\n\nEin Ende bewegt sich genau auf die Zuhörerin zu (bewegte Quelle, Annäherung): $f_{max} = 1960\\,\\mathrm{Hz} \\cdot \\frac{343}{343 - 6{,}13} \\approx 1996\\,\\mathrm{Hz}$ (1 P)\n\nEin Ende bewegt sich genau von ihr weg: $f_{min} = 1960\\,\\mathrm{Hz} \\cdot \\frac{343}{343 + 6{,}13} \\approx 1926\\,\\mathrm{Hz}$ (1 P)"
+        },
+        {
+          "id": "V5-2h",
+          "label": "2h",
+          "punkte": 2,
+          "afb": "III",
+          "loesung": "Für ein einzelnes Ende stimmt sie: Während einer Umdrehung nähert es sich eine halbe Umdrehung lang (Ton höher) und entfernt sich die andere Hälfte (Ton tiefer). (1 P)\n\nDie beiden Enden bewegen sich aber immer entgegengesetzt: Nähert sich das eine, entfernt sich das andere gleich schnell. Die Zuhörerin hört also gleichzeitig einen höheren und einen tieferen Ton (bis $1996\\,\\mathrm{Hz}$ und $1926\\,\\mathrm{Hz}$); nur wenn der Stab auf sie zeigt, sind beide unverschoben. „Abwechselnd“ beschreibt den Klang daher unvollständig – er klingt eher schwankend und rau. (1 P)"
+        },
+        {
+          "id": "V5-3a",
+          "label": "3a",
+          "punkte": 2,
+          "afb": "I",
+          "loesung": "$s = 0{,}55\\,\\mathrm{m} + 18{,}0\\,\\mathrm{m} + 0{,}55\\,\\mathrm{m} = 19{,}1\\,\\mathrm{m}$ (1 P)\n\n$t = \\frac{19{,}1\\,\\mathrm{m}}{343\\,\\mathrm{m/s}} \\approx 0{,}056\\,\\mathrm{s} = 56\\,\\mathrm{ms}$ (1 P)"
+        },
+        {
+          "id": "V5-3b",
+          "label": "3b",
+          "punkte": 1,
+          "afb": "I",
+          "loesung": "$\\lambda = \\frac{343\\,\\mathrm{m/s}}{2000\\,\\mathrm{Hz}} \\approx 17\\,\\mathrm{cm}$ und $\\lambda = \\frac{343\\,\\mathrm{m/s}}{6000\\,\\mathrm{Hz}} \\approx 5{,}7\\,\\mathrm{cm}$ – klein gegen den Schalendurchmesser $1{,}60\\,\\mathrm{m}$. (1 P)"
+        },
+        {
+          "id": "V5-3c",
+          "label": "3c",
+          "punkte": 3,
+          "afb": "II",
+          "loesung": "Die kugelförmige Welle von A erreicht nacheinander die Punkte der Schale; jeder getroffene Punkt wird Ausgangspunkt einer Elementarwelle. (1 P)\n\nDie Randpunkte werden später erreicht als die Mitte, liegen aber weiter vorn. Weil alle Wege bis zu einer Ebene senkrecht zur Achse gleich lang sind, erreichen die Elementarwellen jede solche Ebene gleichzeitig (mit gleicher Phase). (1 P)\n\nDie Einhüllende der Elementarwellen ist deshalb eben: Eine ebene Welle läuft längs der Achse zur zweiten Schale, ohne sich wie eine Kugelwelle nach allen Seiten zu verteilen. (1 P)"
+        },
+        {
+          "id": "V5-3d",
+          "label": "3d",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "Die zweite Schale wirft die ebene Welle zurück; alle Teilwellen legen bis $F_2$ gleich lange Wege zurück. Sie kommen gleichphasig an und verstärken sich: konstruktive Interferenz. (1 P)\n\n$20\\,\\mathrm{cm}$ daneben sind die Wege über verschiedene Teile der Schale unterschiedlich lang; die Gangunterschiede reichen bis über $\\frac{\\lambda}{2}$ (bei $\\lambda = 6$ bis $17\\,\\mathrm{cm}$). Die Teilwellen löschen sich teilweise aus – es ist leiser. (1 P)"
+        },
+        {
+          "id": "V5-3e",
+          "label": "3e",
+          "punkte": 2,
+          "afb": "II",
+          "loesung": "$\\lambda = \\frac{343\\,\\mathrm{m/s}}{110\\,\\mathrm{Hz}} \\approx 3{,}1\\,\\mathrm{m}$ – etwa doppelt so groß wie der Schalendurchmesser. (1 P)\n\nFür diese Welle ist die Schale klein: Sie wird stark gebeugt und breitet sich hinter der Schale nach allen Seiten aus, statt als gebündelte ebene Welle zur zweiten Schale zu laufen. Bei B kommt kaum mehr an als ohne Schalen. (1 P)"
+        },
+        {
+          "id": "V5-3f",
+          "label": "3f",
+          "punkte": 3,
+          "afb": "III",
+          "loesung": "Der Spaziergänger steht im ebenen Schallbündel. Dort verteilt sich der Schall auf den ganzen Querschnitt der Schale (etwa $2\\,\\mathrm{m^2}$); sein Ohr fängt nur einen kleinen Teil auf. B sammelt mit der zweiten Schale das ganze Bündel im Brennpunkt – B hört viel lauter, der Spaziergänger nur leise (aber besser als ohne Schalen). (1 P)\n\nSein Körper ist groß gegen die Wellenlängen des Flüsterns ($6$ bis $17\\,\\mathrm{cm}$): Der Schall wird kaum um ihn herum gebeugt, hinter ihm entsteht ein Schallschatten. (1 P)\n\nUrteil: B hört schwächer, weil ein Teil des Bündels fehlt, versteht aber meist noch, denn der Körper verdeckt nur einen Teil (etwa ein Viertel bis ein Drittel) des Querschnitts. Der Spaziergänger hört nicht so deutlich wie B. (1 P)"
         }
       ]
     }
